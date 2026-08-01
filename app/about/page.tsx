@@ -49,8 +49,8 @@ export default function AboutPage() {
             <li>
               <p className="font-semibold text-gray-900">Clear source attribution</p>
               <p className="text-gray-700 leading-relaxed">
-                Every story links back to where it came from, so you can always see the
-                origin and judge it for yourself rather than taking our word for it.
+                Every story is checked against its original reporting. Where it adds real
+                value — particularly for fast-moving or exclusive news — we link directly to the source.
               </p>
             </li>
             <li>
