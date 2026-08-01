@@ -1,5 +1,5 @@
 ---
-date: "2026-07-30"
+date: "2026-08-01"
 title: "Today's Liverpool Brief"
 status: "published"
 editorsNote: "Worth keeping an eye on: PSG have now agreed a full deal with Monaco for Maghnes Akliouche, with his medical scheduled for next week. Does this bring Barcola closer to Liverpool? On its own it's not Liverpool news, but a replacement winger arriving at PSG is exactly the kind of thing that can unlock a departure elsewhere."
