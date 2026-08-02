@@ -1,8 +1,8 @@
 ---
-date: "2026-08-01"
+date: date: "2026-08-02"
 title: "Today's Liverpool Brief"
 status: "published"
-editorsNote: "Worth keeping an eye on: PSG have now agreed a full deal with Monaco for Maghnes Akliouche, with his medical scheduled for next week. Does this bring Barcola closer to Liverpool? On its own it's not Liverpool news, but a replacement winger arriving at PSG is exactly the kind of thing that can unlock a departure elsewhere."
+editorsNote: editorsNote: "Worth keeping an eye on: PSG's deal for Monaco's Maghnes Akliouche is now advancing, medical scheduled for next week. On top of that, they've reportedly agreed personal terms with Ajax's Mika Godts too, though a fee still needs sorting between the clubs. Does this bring Barcola closer to Liverpool? Two incoming wingers at PSG is a stronger signal than one that Luis Enrique's happy to let him go."
 stories:
   - headline: "Liverpool in talks with PSG over Barcola"
     summary: "Liverpool have opened talks with PSG over a move for Bradley Barcola. No official bid has been submitted yet, but the winger is understood to be keen on a move to Anfield."
