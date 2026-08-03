@@ -1,12 +1,15 @@
 ---
-date: "2026-08-02"
+date: "2026-08-03"
 title: "Today's Liverpool Brief"
 status: "published"
-editorsNote: "Worth keeping an eye on: PSG's deal for Monaco's Maghnes Akliouche is now advancing, medical scheduled for next week. On top of that, they've reportedly agreed personal terms with Ajax's Mika Godts too, though a fee still needs sorting between the clubs. Does this bring Barcola closer to Liverpool? Two incoming wingers at PSG is a stronger signal than one that Luis Enrique's happy to let him go."
+editorsNote: ""
 stories:
-  - headline: "Liverpool and PSG to hold fresh Barcola talks next week"
-    summary: "According to Fabrizio Romano, Liverpool and PSG will hold new talks over Bradley Barcola next week. Contacts between the clubs are ongoing, with the transfer fee remaining the key sticking point."
-    sources: []
+  - headline: "Liverpool open official talks with PSG for Bradley Barcola"
+    summary: "Liverpool have officially opened club-to-club talks with PSG over a move for Bradley Barcola, according to Fabrizio Romano. An opening bid of over €100m (£85m) has been submitted, but that remains well short of PSG's reported £145m valuation, meaning a deal is unlikely to be reached quickly."
+    sources:
+      - name: "Fabrizio Romano"
+        platform: "X"
+        url: "https://rushthekop.com/fabrizio-romano-understand-liverpool-have-opened-official-talks-with-psg-for-bradley-barcola"
   - headline: "Tottenham keen on Cody Gakpo, but Liverpool not forcing him out"
     summary: "Tottenham have shown interest in signing Cody Gakpo, but Liverpool are not looking to push him toward an exit. The club's door remains closed for now, with any decision resting on Liverpool rather than Spurs."
     sources: []
