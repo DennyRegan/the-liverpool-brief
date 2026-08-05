@@ -1,9 +1,18 @@
 ---
-date: "2026-08-03"
+date: "2026-08-04"
 title: "Today's Liverpool Brief"
 status: "published"
 editorsNote: ""
 stories:
+  - headline: "Liverpool make contact with Mbaye's agent as PSG winger prioritises Anfield move"
+    summary: "Liverpool have made contact with Ibrahima Mbaye's new agent, Jorge Mendes, according to Fabrizio Romano. The 18-year-old has proposals from Bundesliga clubs but is giving priority to a move to Liverpool, with an earlier deal to RB Leipzig having collapsed."
+    sources:
+      - name: "Fabrizio Romano"
+        platform: "X"
+        url: "https://x.com/FabrizioRomano/status/2084750140271640598"
+  - headline: "Liverpool to hold off centre-back signing, Sky Sports reports"
+    summary: "Sky Sports' Mark McAdam says Liverpool will not enter the market for a defender for the next four to six weeks, instead waiting for Virgil van Dijk, Giovanni Leoni and Jeremy Jacquet to return from injury and fitness issues."
+    sources: []
   - headline: "Liverpool open official talks with PSG for Bradley Barcola"
     summary: "Liverpool have officially opened club-to-club talks with PSG over a move for Bradley Barcola, according to Fabrizio Romano. An opening bid of over €100m (£85m) has been submitted, but that remains well short of PSG's reported £145m valuation, meaning a deal is unlikely to be reached quickly."
     sources:
