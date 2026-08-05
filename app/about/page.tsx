@@ -60,6 +60,32 @@ export default function AboutPage() {
           </ul>
         </section>
         <section>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">Add to your home screen</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            The Liverpool Brief works best as an icon on your home screen, so it opens
+            straight to today's brief like any other app — no browser, no typing in a
+            web address.
+          </p>
+          <div className="space-y-4">
+            <div>
+              <p className="font-semibold text-gray-900">On iPhone (Safari)</p>
+              <ol className="text-gray-700 leading-relaxed list-decimal list-inside">
+                <li>Tap the Share icon at the bottom of the screen</li>
+                <li>Scroll down and tap "Add to Home Screen"</li>
+                <li>Tap "Add" in the top corner</li>
+              </ol>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-900">On Android (Chrome)</p>
+              <ol className="text-gray-700 leading-relaxed list-decimal list-inside">
+                <li>Tap the three-dot menu in the top corner</li>
+                <li>Tap "Add to Home screen" (or "Install app")</li>
+                <li>Tap "Add" to confirm</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+        <section>
           <h2 className="text-xl font-bold text-gray-900 mb-3">Get in touch</h2>
           <p className="text-gray-700 leading-relaxed">
             Follow along on{" "}
