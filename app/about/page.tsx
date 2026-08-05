@@ -1,5 +1,4 @@
 import { SiteHeader } from "@/app/components/SiteHeader";
-
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
@@ -14,7 +13,6 @@ export default function AboutPage() {
             club today, written plainly and attributed clearly.
           </p>
         </section>
-
         <section>
           <h2 className="text-xl font-bold text-gray-900 mb-3">Who it's for</h2>
           <p className="text-gray-700 leading-relaxed">
@@ -24,7 +22,6 @@ export default function AboutPage() {
             and speculation to find it, this is built for you.
           </p>
         </section>
-
         <section>
           <h2 className="text-xl font-bold text-gray-900 mb-3">What makes it different</h2>
           <p className="text-gray-700 leading-relaxed">
@@ -35,7 +32,6 @@ export default function AboutPage() {
             Nothing here is written to provoke a reaction — it's written to inform one.
           </p>
         </section>
-
         <section>
           <h2 className="text-xl font-bold text-gray-900 mb-3">Our standards</h2>
           <ul className="space-y-4">
@@ -62,6 +58,15 @@ export default function AboutPage() {
               </p>
             </li>
           </ul>
+        </section>
+        <section>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">Get in touch</h2>
+          <p className="text-gray-700 leading-relaxed">
+            Follow along on{" "}
+            <a href="https://x.com/LFCBrief" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">X (@LFCBrief)</a>{" "}
+            or get in touch by email at{" "}
+            <a href="mailto:theliverpoolbrief@gmail.com" className="text-accent hover:underline">theliverpoolbrief@gmail.com</a>.
+          </p>
         </section>
       </main>
     </div>
