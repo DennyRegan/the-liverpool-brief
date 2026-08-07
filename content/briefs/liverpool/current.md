@@ -1,5 +1,5 @@
 ---
-date: "2026-08-04"
+date: "2026-08-07"
 title: "Today's Liverpool Brief"
 status: "published"
 editorsNote: ""
@@ -10,22 +10,13 @@ stories:
       - name: "Fabrizio Romano"
         platform: "X"
         url: "https://x.com/FabrizioRomano/status/2084750140271640598"
-  - headline: "Liverpool to hold off centre-back signing, Sky Sports reports"
-    summary: "Sky Sports' Mark McAdam says Liverpool will not enter the market for a defender for the next four to six weeks, instead waiting for Virgil van Dijk, Giovanni Leoni and Jeremy Jacquet to return from injury and fitness issues."
-    sources: []
-  - headline: "Liverpool open official talks with PSG for Bradley Barcola"
-    summary: "Liverpool have officially opened club-to-club talks with PSG over a move for Bradley Barcola, according to Fabrizio Romano. An opening bid of over €100m (£85m) has been submitted, but that remains well short of PSG's reported £145m valuation, meaning a deal is unlikely to be reached quickly."
+  - headline: "Liverpool submit formal €115m bid for Bradley Barcola"
+    summary: "Liverpool have submitted a formal offer of around €115m (£100m) for Bradley Barcola, according to L'Équipe's Loïc Tanzi. PSG are expected to reject it and continue to value the winger at over €150m, though Barcola has reportedly already agreed personal terms with Liverpool."
     sources:
-      - name: "Fabrizio Romano"
-        platform: "X"
-        url: "https://rushthekop.com/fabrizio-romano-understand-liverpool-have-opened-official-talks-with-psg-for-bradley-barcola"
-  - headline: "Tottenham keen on Cody Gakpo, but Liverpool not forcing him out"
-    summary: "Tottenham have shown interest in signing Cody Gakpo, but Liverpool are not looking to push him toward an exit. The club's door remains closed for now, with any decision resting on Liverpool rather than Spurs."
-    sources: []
-  - headline: "Inter Milan's €35m bid for Curtis Jones rejected"
-    summary: "Liverpool have turned down a €35 million offer from Inter Milan for Curtis Jones. The club are holding out for a fee closer to €40 million."
-    sources: []
-  - headline: "Joe Gomez to miss start of season"
-    summary: "Joe Gomez will miss the beginning of the Premier League campaign after picking up a muscle injury in pre-season. He is expected to be unavailable for the opener against Newcastle on 23 August."
+      - name: "L'Équipe (Loïc Tanzi)"
+        platform: "Web"
+        url: "https://www.thisisanfield.com/2026/08/liverpool-submit-115-m-bradley-barcola-bid-psg/"
+  - headline: "Liverpool targeting one versatile defender rather than two separate signings"
+    summary: "The Times' Paul Joyce reports Liverpool are looking for a single defender capable of covering both centre-back and right-back, rather than dedicated signings for each position. Djed Spence and Ezri Konsa have both been linked, though no clear frontrunner has emerged yet."
     sources: []
 ---
