@@ -4,6 +4,12 @@ title: "Today's Liverpool Brief"
 status: "published"
 editorsNote: ""
 stories:
+  - headline: "Liverpool agree season-long loan for Barcelona's Ronald Araujo"
+    summary: "Liverpool have agreed a season-long loan deal for Barcelona centre-back Ronald Araujo, including an option to buy, according to Fabrizio Romano. The Uruguayan can play centre-back and right-back, addressing Liverpool's defensive injury crisis with Joe Gomez, Giovanni Leoni, Jeremy Jacquet and Conor Bradley all currently sidelined."
+    sources:
+      - name: "Fabrizio Romano"
+        platform: "X"
+        url: "https://www.skysports.com/football/news/11669/13570871/ronald-araujo-transfer-news-liverpool-agree-loan-deal-for-barcelona-defender-to-add-depth-at-centre-back"
   - headline: "Liverpool make contact with Mbaye's agent as PSG winger prioritises Anfield move"
     summary: "Liverpool have made contact with Ibrahima Mbaye's new agent, Jorge Mendes, according to Fabrizio Romano. The 18-year-old has proposals from Bundesliga clubs but is giving priority to a move to Liverpool, with an earlier deal to RB Leipzig having collapsed."
     sources:
@@ -16,7 +22,4 @@ stories:
       - name: "L'Équipe (Loïc Tanzi)"
         platform: "Web"
         url: "https://www.thisisanfield.com/2026/08/liverpool-submit-115-m-bradley-barcola-bid-psg/"
-  - headline: "Liverpool targeting one versatile defender rather than two separate signings"
-    summary: "The Times' Paul Joyce reports Liverpool are looking for a single defender capable of covering both centre-back and right-back, rather than dedicated signings for each position. Djed Spence and Ezri Konsa have both been linked, though no clear frontrunner has emerged yet."
-    sources: []
 ---
