@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { getArticle, getArticles } from "@/lib/content/articles";
@@ -8,20 +9,55 @@ export function generateStaticParams() {
   return getArticles().map((article) => ({ slug: article.slug }));
 }
 
+function getExcerpt(body: string, maxLength = 155): string {
+  const plainText = body
+    .replace(/^#+\s+/gm, "")
+    .replace(/\*\*(.*?)\*\*/g, "$1")
+    .replace(/\*(.*?)\*/g, "$1")
+    .replace(/\n+/g, " ")
+    .trim();
+
+  if (plainText.length <= maxLength) return plainText;
+  return plainText.slice(0, maxLength).trim() + "...";
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  let article;
+  try {
+    article = getArticle(slug);
+  } catch {
+    return {};
+  }
+
+  const description = getExcerpt(article.body);
+
+  return {
+    title: article.title,
+    description,
+    openGraph: {
+      title: article.title,
+      description,
+    },
+  };
+}
+
 export default async function ArticlePage({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-
   let article;
   try {
     article = getArticle(slug);
   } catch {
     notFound();
   }
-
   return (
     <div className="min-h-screen bg-white">
       <SiteHeader active="articles" />
