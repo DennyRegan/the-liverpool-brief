@@ -4,7 +4,7 @@ const navLinkBase = "text-sm font-medium pb-1";
 const navLinkActive = `${navLinkBase} text-accent border-b-2 border-accent`;
 const navLinkInactive = `${navLinkBase} text-gray-500 hover:text-accent`;
 
-export function SiteHeader({ active }: { active: "home" | "articles" | "about" }) {
+export function SiteHeader({ active }: { active: "home" | "articles" | "archive" | "about" }) {
   return (
     <header className="border-b border-gray-200 py-8">
       <div className="max-w-2xl mx-auto px-4">
@@ -16,6 +16,9 @@ export function SiteHeader({ active }: { active: "home" | "articles" | "about" }
           </Link>
           <Link href="/articles" className={active === "articles" ? navLinkActive : navLinkInactive}>
             Articles
+          </Link>
+          <Link href="/archive" className={active === "archive" ? navLinkActive : navLinkInactive}>
+            The Liverpool Archive
           </Link>
           <Link href="/about" className={active === "about" ? navLinkActive : navLinkInactive}>
             About

@@ -23,3 +23,13 @@ export const ArticleSchema = z.object({
     slug: z.string(),
     body: z.string(),
 });
+
+export const ArchiveFeatureSchema = z.object({
+    title: z.string(),
+    date: z.string(),
+    historicalPeriod: z.string(),
+    decade: z.string(),
+    excerpt: z.string(),
+    slug: z.string(),
+    body: z.string(),
+});
