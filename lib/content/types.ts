@@ -6,11 +6,12 @@ export const SourceSchema = z.object({
 });
 export const StorySchema = z.object({
 headline: z.string(),
+category: z.string(),
 summary: z.string(),
 sources: z.array(SourceSchema),
 });
 export const BriefSchema = z.object({
-date: z.string(),
+lastUpdated: z.string(),
 title: z.string(),
 status :z.string(),
 editorsNote: z.string().optional(),
@@ -21,6 +22,9 @@ export const ArticleSchema = z.object({
     title: z.string(),
     date: z.string(),
     slug: z.string(),
+    category: z.string().default("Opinion"),
+    sources: z.array(z.string()).optional(),
+    whatMatters: z.array(z.string()).optional(),
     body: z.string(),
 });
 

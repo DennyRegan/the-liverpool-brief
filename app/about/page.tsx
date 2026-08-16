@@ -5,7 +5,7 @@ export default function AboutPage() {
       <SiteHeader active="about" />
       <main className="max-w-2xl mx-auto px-4 py-12 space-y-10">
         <section>
-          <h2 className="text-xl font-bold text-gray-900 mb-3">What this is</h2>
+          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">What this is</h2>
           <p className="text-gray-700 leading-relaxed">
             The Liverpool Brief exists to do one thing well: open the app, understand
             today's important Liverpool news in 30–45 seconds, close the app. No feed to
@@ -14,7 +14,7 @@ export default function AboutPage() {
           </p>
         </section>
         <section>
-          <h2 className="text-xl font-bold text-gray-900 mb-3">Who it's for</h2>
+          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">Who it's for</h2>
           <p className="text-gray-700 leading-relaxed">
             This is for supporters who care about Liverpool but don't have time to follow
             twelve accounts, three forums, and a live blog to work out what's actually
@@ -23,7 +23,7 @@ export default function AboutPage() {
           </p>
         </section>
         <section>
-          <h2 className="text-xl font-bold text-gray-900 mb-3">What makes it different</h2>
+          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">What makes it different</h2>
           <p className="text-gray-700 leading-relaxed">
             Football news online is fast, fragmented, and often sensationalised —
             optimised for clicks and engagement rather than for helping you understand
@@ -33,7 +33,7 @@ export default function AboutPage() {
           </p>
         </section>
         <section>
-          <h2 className="text-xl font-bold text-gray-900 mb-3">Our standards</h2>
+          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">Our standards</h2>
           <ul className="space-y-4">
             <li>
               <p className="font-semibold text-gray-900">Accuracy before speed</p>
@@ -60,7 +60,7 @@ export default function AboutPage() {
           </ul>
         </section>
         <section>
-          <h2 className="text-xl font-bold text-gray-900 mb-3">Add to your home screen</h2>
+          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">Add to your home screen</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
             The Liverpool Brief works best as an icon on your home screen, so it opens
             straight to today's brief like any other app — no browser, no typing in a
@@ -86,7 +86,7 @@ export default function AboutPage() {
           </div>
         </section>
         <section>
-          <h2 className="text-xl font-bold text-gray-900 mb-3">Get in touch</h2>
+          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">Get in touch</h2>
           <p className="text-gray-700 leading-relaxed">
             Follow along on{" "}
             <a href="https://x.com/LFCBrief" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">X (@LFCBrief)</a>{" "}

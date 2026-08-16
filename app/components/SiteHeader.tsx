@@ -8,8 +8,8 @@ export function SiteHeader({ active }: { active: "home" | "articles" | "archive"
   return (
     <header className="border-b border-gray-200 py-8">
       <div className="max-w-2xl mx-auto px-4">
-        <h1 className="text-4xl font-bold text-gray-900">The Liverpool Brief</h1>
-        <p className="text-gray-600 mt-2">Today's important Liverpool FC news</p>
+        <h1 className="font-serif text-4xl font-bold text-gray-900">The Liverpool Brief</h1>
+        <p className="text-gray-600 mt-2">Important Liverpool FC news, in 30–45 seconds.</p>
         <nav className="mt-4 flex gap-6">
           <Link href="/" className={active === "home" ? navLinkActive : navLinkInactive}>
             Home
@@ -18,7 +18,7 @@ export function SiteHeader({ active }: { active: "home" | "articles" | "archive"
             Articles
           </Link>
           <Link href="/archive" className={active === "archive" ? navLinkActive : navLinkInactive}>
-            The Liverpool Archive
+            Archive
           </Link>
           <Link href="/about" className={active === "about" ? navLinkActive : navLinkInactive}>
             About

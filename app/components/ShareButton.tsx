@@ -30,9 +30,28 @@ export function ShareButton({ title }: { title: string }) {
     <button
       type="button"
       onClick={handleShare}
-      className="text-sm font-medium text-accent hover:text-accent-dark"
+      aria-label={copied ? "Link copied" : "Share"}
+      title={copied ? "Link copied" : "Share"}
+      className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent-dark"
     >
-      {copied ? "Copied!" : "Share"}
+      {copied ? (
+        "Copied!"
+      ) : (
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="h-5 w-5"
+          aria-hidden="true"
+        >
+          <path d="M12 3v12" />
+          <path d="M7.5 7.5 12 3l4.5 4.5" />
+          <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" />
+        </svg>
+      )}
     </button>
   );
 }

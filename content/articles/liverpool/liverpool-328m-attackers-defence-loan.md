@@ -1,6 +1,16 @@
 ---
 title: "Liverpool spent £328m on attackers and fixed the defence with a loan"
 date: "2026-08-10"
+category: "Opinion"
+sources:
+  - "The Athletic"
+  - "Liverpool Echo"
+  - "BBC"
+whatMatters:
+  - "Record spend of £328m on attacking players"
+  - "Key defensive addition secured on loan"
+  - "Squad depth significantly improved"
+  - "Focus now turns to integration and chemistry"
 ---
 Liverpool have spent more than twice as much on attackers as defenders since this rebuild started, conceded more goals per game last season than in any Premier League campaign in the club's history, and their answer to it is a borrowed centre-back from Barcelona who arrived two weeks before Newcastle away. That is not a philosophy. That is a club that keeps getting the same job wrong.
 
