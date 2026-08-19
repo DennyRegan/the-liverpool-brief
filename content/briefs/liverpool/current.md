@@ -38,7 +38,4 @@ stories:
       - name: "Liverpool.com"
         platform: "Web"
         url: "https://www.liverpool.com/liverpool-fc-news/transfer-news/curtis-jones-inter-milan-bid-34474948"
-  - headline: "Ngumoha set for bigger role"
-    category: "Squad"
-    summary: "Rio Ngumoha is expected to have a more prominent first-team role this season and is likely to feature more regularly from the right. The 17-year-old is also expected to sign a new five-year Liverpool contract when he turns 18."
 ---
