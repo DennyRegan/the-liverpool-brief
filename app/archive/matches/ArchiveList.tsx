@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import type { getArchiveFeatures } from "@/lib/content/archive";
+import type { getMatchFeatures } from "@/lib/content/archive";
 
-type ArchiveFeature = ReturnType<typeof getArchiveFeatures>[number];
+type ArchiveFeature = ReturnType<typeof getMatchFeatures>[number];
 
 const DECADES = ["1960s", "1970s", "1980s", "1990s", "2000s", "2010s", "2020s"];
 

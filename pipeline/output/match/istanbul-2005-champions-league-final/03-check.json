@@ -1,0 +1,26 @@
+{
+  "searches_run": 18,
+  "issues": [
+    {
+      "id": "I1",
+      "quote": "AC Milan arrived as one of the strongest club sides in Europe: Carlo Ancelotti's team had reached the previous year's semi-final and now fielded a forward line and midfield that most observers rated ahead of Liverpool's on paper.",
+      "problem": "AC Milan did not reach the 2003\u201304 UEFA Champions League semi-finals; they were eliminated in the quarter-finals by Deportivo La Coru\u00f1a (aggregate 5\u20134 after a 4\u20130 second leg). The article misstates their prior-season progress.",
+      "severity": "medium",
+      "fix": "Replace \"had reached the previous year's semi-final\" with \"had been eliminated in the previous year's quarter-finals\"."
+    },
+    {
+      "id": "I2",
+      "quote": "What Liverpool said to each other in that dressing room is not fully recorded, but two of those present later spoke about it in an oral history UEFA published in 2023. Dietmar Hamann recalled telling his teammates: \"If we don't beat them now, we never will.\"",
+      "problem": "The UEFA 2023 oral history attributes this line to Hamann as a thought at the start of the penalty shoot-out (\"I thought to myself at the start of the penalty shoot-out, 'If we don't beat them now, we never will.'\"), not as something he told teammates in the dressing room. The current wording misplaces the context and changes the evidential status from internal thought to spoken remark.",
+      "severity": "medium",
+      "fix": "Revise to: \"In UEFA's 2023 oral history, Dietmar Hamann said of the shoot-out: 'I thought to myself at the start of the penalty shoot-out, \"If we don't beat them now, we never will.\"'\""
+    },
+    {
+      "id": "I3",
+      "quote": "UEFA records the goal as coming after 52 seconds on the clock, though a separate match record gives 51; either way, it stands as the fastest goal scored in a Champions League final.",
+      "problem": "UEFA\u2019s own publications are not uniform: some UEFA reports state 52 seconds, while UEFA technical documents list 51\u201351.2 seconds. Presenting it as \"UEFA\" vs. \"a separate match record\" is imprecise about the source of the 51s figure.",
+      "severity": "low",
+      "fix": "Revise to: \"UEFA sources vary between 51 and 52 seconds; either way, it stands as the fastest goal scored in a Champions League final.\""
+    }
+  ]
+}

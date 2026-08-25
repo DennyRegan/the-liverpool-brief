@@ -5,6 +5,7 @@ historicalPeriod: "28 April 1980"
 decade: "1980s"
 excerpt: "Liverpool paid a British record teenage fee for an 18-year-old from the Third Division, then barely played him. The story is usually told as a scoring drought. The records show something more deliberate."
 slug: "ian-rush-1980-what-liverpool-actually-bought"
+category: "person"
 ---
 When Liverpool signed Ian Rush from Chester at the end of April 1980, they were buying an 18-year-old Third Division forward who had never played in the top flight. The fee was £300,000. Within a month The Times was describing him as Britain's most expensive teenager, and Chester's own history still records the sale as the biggest in the club's existence.
 

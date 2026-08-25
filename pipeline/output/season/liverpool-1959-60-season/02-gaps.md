@@ -1,0 +1,8 @@
+- The packet does not establish Liverpool's league position in the seasons immediately before 1959-60, so no comparison to recent finishes beyond points and placing this year is made.
+- The identity of the November 1959 caretaker manager (widely reported as Bob Paisley) is not confirmed by any official club record in the packet; the article attributes this cautiously as reported rather than established.
+- The exact sequence of Shankly's appointment — public announcement, board decision, and physical arrival at Anfield — is inconsistent across the packet's sources (30 November announcement vs 1 December appointment vs a mid-December arrival referenced in one secondary feature). The article notes the inconsistency without resolving it.
+- Alan Jones's debut on 19 December 1959 rests on a single source with no corroboration found; flagged as such in the text.
+- The packet contains no information on European or League Cup competition explicitly stating Liverpool's ineligibility that season, only that they did not feature in either — the facts panel omits a "european" field accordingly rather than asserting a reason.
+- No transfers out (departures) are recorded in the packet for this season, so that facts-panel field is omitted rather than guessed at.
+- The exact minute of Roger Hunt's debut goal is not asserted, per a noted source conflict.
+- Squad list, formation, captaincy and other players' season totals beyond Hunt and Hickson are not in the packet and are not discussed.

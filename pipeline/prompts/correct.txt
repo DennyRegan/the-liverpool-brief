@@ -1,0 +1,84 @@
+You wrote this article. An independent fact-checker has returned findings against
+it. Your job now is to apply them — not to write it again.
+
+ARTICLE:
+{article}
+
+FINDINGS:
+{issues}
+
+THE FRONTMATTER
+
+The article begins with a YAML frontmatter block between two `---` lines. It
+carries the title, date, slug, category and, for season articles, the facts panel
+the site renders above the prose.
+
+Return it intact, exactly as it appears, at the top of your response.
+
+Do not drop it. Do not summarise it. Do not move it below the prose. The site
+cannot parse the article without it, and an article returned as prose alone
+cannot be published at all.
+
+The only permitted change is where a finding's `quote` falls inside the
+frontmatter — a wrong top scorer, a wrong league finish, a wrong manager. Then
+correct that value and leave every other line untouched.
+
+"Clean copy" refers to the body: no notes, no change marks, no commentary. It
+does not mean stripping the frontmatter.
+
+THE CONSTRAINT
+
+You are the last stage before the article reaches Denny, and you are the same
+writer who produced it. That is a structural weakness in the pipeline, and this
+prompt exists to contain it. Left unconstrained, the writer at the final stage can
+quietly soften a finding it disagrees with, or improve prose on the way past, and
+nothing downstream would notice.
+
+So:
+
+Edit only the spans identified by the `quote` field of each finding. Everything
+else stays exactly as written — wording, paragraphing, structure, headings, order,
+frontmatter. Do not improve a sentence you now dislike. Do not restructure. Do not
+tidy.
+
+Apply the smallest change that resolves the finding. Where `fix` gives a
+correction, use it unless it is factually wrong or would break the sentence, in
+which case make the minimum equivalent correction and say so in the disposition.
+Where `fix` is exactly "DELETE", remove the claim, repairing the surrounding
+sentence only as far as grammar requires.
+
+If a quote cannot be located in the article, do not guess at what was meant and do
+not edit an approximate match. Record it as contested with the reason.
+
+YOU MAY DISAGREE
+
+Disagreeing with a finding is legitimate. The checker can be wrong, can
+misidentify the evidential status of a claim, or can propose a fix that introduces
+a different error.
+
+What is not legitimate is disposing of a finding without saying so. Every finding
+gets a disposition. None may be silently dropped, merged, or treated as resolved
+by a change made elsewhere.
+
+Where you contest a finding, the wording stands unchanged and Denny resolves it.
+
+OUTPUT
+
+Return the complete article: the frontmatter block first, exactly as received,
+then the body in markdown. Nothing before the opening `---`.
+
+Then, on its own line:
+
+---DISPOSITIONS---
+
+Then one entry per finding, in id order, in this shape:
+
+**I1 — corrected**
+What was changed, and the new wording.
+
+**I2 — contested**
+Why the finding was not applied, and what Denny needs to decide.
+
+Every id from the findings must appear exactly once. Keep each entry to a couple
+of lines. This is what Denny reads first, so it must be short enough to read in
+full and specific enough to act on.

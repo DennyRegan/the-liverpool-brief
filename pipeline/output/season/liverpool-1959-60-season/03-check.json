@@ -1,0 +1,26 @@
+{
+  "searches_run": 23,
+  "issues": [
+    {
+      "id": "I1",
+      "quote": "He was seventeen, and remembered it decades later as \"one of the highlights of my life really, making my debut for Liverpool.\"",
+      "problem": "Ian Callaghan was born on 10 April 1942 and debuted on 16 April 1960, making him 18 years old, not 17. The debut date and DOB are corroborated by LFChistory and multiple reliable sources.",
+      "severity": "medium",
+      "fix": "He was 18, and remembered it decades later as \"one of the highlights of my life really, making my debut for Liverpool.\""
+    },
+    {
+      "id": "I2",
+      "quote": "Among those given a debut that afternoon was Alan Jones, though only one surviving account records it.",
+      "problem": "The right-back\u2019s name is Allan Jones (two Ls). Contemporary reporting (News Chronicle) and LFChistory\u2019s match record both document his debut on 19 December 1959, so the claim that only one surviving account records it is incorrect and overstates uncertainty.",
+      "severity": "medium",
+      "fix": "Among those given a debut that afternoon was Allan Jones."
+    },
+    {
+      "id": "I3",
+      "quote": "In between, on 20 November, Liverpool signed the Scottish international Tommy Leishman from St Mirren, commonly reported at \u00a310,000 though the St Mirren club's own figures put it at \u00a39,000.",
+      "problem": "While \u00a310,000 is widely reported for Leishman\u2019s transfer, no accessible official St Mirren source confirming a \u00a39,000 figure could be found. The clause asserts a club-sourced figure without verifiable evidence.",
+      "severity": "medium",
+      "fix": "In between, on 20 November, Liverpool signed the Scottish international Tommy Leishman from St Mirren, commonly reported at \u00a310,000."
+    }
+  ]
+}

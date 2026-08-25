@@ -5,6 +5,7 @@ historicalPeriod: "6 November 1991"
 decade: "1990s"
 excerpt: "Michel Platini is said to have knocked on Graeme Souness's office door at Anfield in November 1991 and offered him Eric Cantona. The story rests on one witness, and Liverpool never made the phone call that would have turned it into a decision."
 slug: "souness-platini-cantona-recommendation"
+category: "person"
 ---
 Liverpool were back in Europe for the first time since Heysel, and on the evening of Wednesday 6 November 1991 they needed three goals at Anfield to stay there. Auxerre had beaten them 2-0 in France a fortnight earlier. Jan Mølby settled the first part of it from the penalty spot in the fourth minute, Mike Marsh headed a second before the half-hour, and after Frédéric Darras was sent off Mark Walters finished the tie with seven minutes left. Liverpool won 3-0 and went through 3-2. It was the best night of Graeme Souness's short managerial reign, and it is remembered now for something that supposedly happened afterwards, in a corridor rather than on the pitch.
 

@@ -27,7 +27,6 @@ export const ArticleSchema = z.object({
     whatMatters: z.array(z.string()).optional(),
     body: z.string(),
 });
-
 export const ArchiveFeatureSchema = z.object({
     title: z.string(),
     date: z.string(),
@@ -35,5 +34,19 @@ export const ArchiveFeatureSchema = z.object({
     decade: z.string(),
     excerpt: z.string(),
     slug: z.string(),
+    category: z.enum(["match", "person", "season"]).default("match"),
+    series: z.string().optional(),
+    part: z.number().optional(),
+    // Season facts panel — optional so existing (non-season) articles keep parsing.
+    season: z.string().optional(),
+    manager: z.string().optional(),
+    leagueFinish: z.string().optional(),
+    european: z.string().optional(),
+    domesticCups: z.string().optional(),
+    topScorer: z.string().optional(),
+    arrivals: z.string().optional(),
+    departures: z.string().optional(),
+    relatedMatches: z.array(z.string()).optional(),
+    sources: z.array(z.string()).optional(),
     body: z.string(),
 });

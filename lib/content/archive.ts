@@ -23,3 +23,22 @@ export function getArchiveFeatures() {
 export function getArchiveFeature(slug: string) {
     return loadArchiveFeature(`${slug}.md`);
 }
+
+export function archiveFeatureExists(slug: string) {
+    return fs.existsSync(path.join(ARCHIVE_DIR, `${slug}.md`));
+}
+
+export function getMatchFeatures() {
+    return getArchiveFeatures().filter((feature) => feature.category === "match");
+}
+
+export function getPersonFeatures() {
+    return getArchiveFeatures().filter((feature) => feature.category === "person");
+}
+
+export function getSeasonFeatures() {
+    // Oldest first — this is a historical run through the seasons, not a news feed.
+    return getArchiveFeatures()
+        .filter((feature) => feature.category === "season")
+        .sort((a, b) => ((a.season ?? a.historicalPeriod) < (b.season ?? b.historicalPeriod) ? -1 : 1));
+}

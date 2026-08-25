@@ -5,6 +5,7 @@ historicalPeriod: "18 December 2001"
 decade: "2000s"
 excerpt: "In December 2001 Michael Owen became the first Liverpool player to win the Ballon d'Or, and more than two decades on he remains the only one. The story of how a year of Rome, Cardiff, Monaco and Munich put him above Raúl, Kahn and Beckham."
 slug: "michael-owen-2001-ballon-dor"
+category: "person"
 ---
 For all the players who have worn the shirt, one distinction still belongs to Michael Owen alone. In December 2001, days after his 22nd birthday, he became the first Liverpool player to win the Ballon d'Or — the France Football prize then known in Britain as European Footballer of the Year. More than two decades on, he remains the only player to have won it while at the club.
 

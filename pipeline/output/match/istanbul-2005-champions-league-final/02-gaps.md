@@ -1,0 +1,4 @@
+- The packet does not establish precisely what was said in the Liverpool dressing room at half-time beyond the two individual recollections quoted (Hamann, Gerrard) — no connected account of the team talk as a whole is supported.
+- Milan's own half-time state of mind, tactics or instructions are not covered by the packet and are not asserted here.
+- The exact minute of Dudek's double save (117' vs "two minutes left") and the exact second of Maldini's goal (51 vs 52) remain genuinely unresolved in the sources; the article flags both rather than choosing one.
+- The packet does not cover the wider context of Liverpool's route to the final (group stage, knockout rounds prior to Istanbul) in any detail, so that background is only gestured at, not narrated.
