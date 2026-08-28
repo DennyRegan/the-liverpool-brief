@@ -1,0 +1,5 @@
+- No contemporary (3 September 1978) newspaper report was available, so details such as the referee's identity, crowd atmosphere, and any injury reason behind Hughes's substitution could not be included.
+- The exact minute of David Johnson's substitution for Hughes remains genuinely disputed between the two databases consulted; the article states this rather than resolving it.
+- The origin of McDermott's seventh goal (whether it began from a Tottenham corner) rests on a single source and is flagged as such rather than stated as settled fact.
+- Bob Paisley's quote on the McDermott goal could not be traced to a contemporaneous source, only to later official retrospectives; the article reflects that uncertainty rather than presenting it as a match-day remark.
+- The article does not address Liverpool's or Tottenham's broader league position or trophy context that season, as the packet did not supply results beyond the first four matches.

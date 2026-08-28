@@ -1,0 +1,33 @@
+{
+  "searches_run": 20,
+  "issues": [
+    {
+      "id": "I1",
+      "quote": "they left with the heaviest defeat in the club's history",
+      "problem": "This overstates the record. Tottenham\u2019s overall biggest defeat is 0\u20138 to 1. FC K\u00f6ln in the 1995 UEFA Intertoto Cup. The 7\u20130 at Anfield is their heaviest league defeat and their heaviest defeat at Anfield, but not the club\u2019s heaviest defeat across all competitions.",
+      "severity": "high",
+      "fix": "replace with \"they left with the heaviest league defeat in the club's history\""
+    },
+    {
+      "id": "I2",
+      "quote": "Exactly when is not settled \u2014 one database records the substitution at the 25th minute, another places it generally in the second half \u2014 and nothing in the available record resolves the difference.",
+      "problem": "11v11 lists the substitution as David Johnson for Emlyn Hughes at 25 minutes. We could not locate a credible database that places the change \"generally in the second half\"; that phrasing appears in retrospective articles, not databases. This misstates the evidential status and introduces unnecessary uncertainty.",
+      "severity": "medium",
+      "fix": "replace with \"Johnson replaced Hughes in the first half (11v11 records it at 25 minutes).\""
+    },
+    {
+      "id": "I3",
+      "quote": "According to Liverpool's own historical archive, the penalty followed a foul on Heighway, and Neal's first attempt was ordered to be retaken after Daines was judged to have moved off his line before the kick was struck \u2014 a detail not found elsewhere but consistent with the recorded outcome.",
+      "problem": "The universal claim \"not found elsewhere\" is too strong. Other published accounts also note that Neal\u2019s penalty was retaken for movement (e.g., retrospective match pieces). The article should avoid universal negatives when corroboration exists.",
+      "severity": "low",
+      "fix": "remove \"\u2014 a detail not found elsewhere but consistent with the recorded outcome\""
+    },
+    {
+      "id": "I4",
+      "quote": "One archive account adds that the move began from a Tottenham corner, with McDermott running the length of the pitch from the edge of his own box to arrive at the far post \u2014 a detail that appears in that single source and nowhere else consulted.",
+      "problem": "This misclassifies the evidential status. Multiple retrospectives, including an official LFC interview with David Johnson, state the move began from a Spurs corner; it is not single\u2011source within the consulted material.",
+      "severity": "medium",
+      "fix": "replace with \"Several retrospectives \u2013 including David Johnson\u2019s own recollection \u2013 say the move began from a Spurs corner, with McDermott racing from his own box to the far post.\""
+    }
+  ]
+}
