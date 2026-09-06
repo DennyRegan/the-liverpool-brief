@@ -6,7 +6,7 @@ import remarkGfm from "remark-gfm";
 import { getArticle, getArticles } from "@/lib/content/articles";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { ShareButton } from "@/app/components/ShareButton";
-import { formatLongDate, getExcerpt } from "@/lib/format";
+import { formatLongDate, getArticleExcerpt, getSourceLink } from "@/lib/format";
 
 export function generateStaticParams() {
   return getArticles().map((article) => ({ slug: article.slug }));
@@ -25,7 +25,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const description = getExcerpt(article.body);
+  const description = getArticleExcerpt(article);
 
   return {
     title: article.title,
@@ -54,8 +54,8 @@ export default async function ArticlePage({
       <SiteHeader active="articles" />
       <main id="main-content" className="reading-page">
         <div className="flex items-center justify-between mb-8">
-          <Link href="/articles" className="text-sm font-medium text-accent hover:text-accent-dark">
-            ‹ Back
+          <Link href="/articles?category=opinion" className="text-sm font-medium text-accent hover:text-accent-dark">
+            ‹ Opinion
           </Link>
           <ShareButton title={article.title} />
         </div>
@@ -84,8 +84,18 @@ export default async function ArticlePage({
 
         {article.sources && article.sources.length > 0 && (
           <div className="mt-10 pt-6 border-t border-gray-200 text-sm text-gray-600">
-            <span className="font-semibold text-gray-700">Sources: </span>
-            {article.sources.join(" · ")}
+            <h2 className="font-semibold text-gray-700 mb-3">Sources</h2>
+            <ol className="list-decimal pl-5 space-y-2">
+              {article.sources.map((source, index) => {
+                const link = getSourceLink(source);
+                return <li key={`${source}-${index}`} className="break-words">
+                  {link ? <a href={link.href} target="_blank" rel="noopener noreferrer"
+                    className="text-accent underline" aria-label={`Source ${index + 1}: ${link.label} (opens in a new tab)`}>
+                    {link.label} ↗
+                  </a> : source}
+                </li>;
+              })}
+            </ol>
           </div>
         )}
         <aside className="read-next"><p className="eyebrow">Keep reading</p>{getArticles().filter(item => item.slug !== article.slug).slice(0, 2).map(item => <Link key={item.slug} href={`/articles/${item.slug}`}>{item.title} <span aria-hidden="true">↗</span></Link>)}</aside>

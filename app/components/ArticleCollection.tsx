@@ -1,11 +1,10 @@
-"use client";
-import { useState } from "react";
 import Link from "next/link";
 
 type ArticleSummary = { slug: string; href: string; title: string; category: string; date: string; excerpt: string; minutes: number };
 
-export function ArticleCollection({ articles, home = false }: { articles: ArticleSummary[]; home?: boolean }) {
-  const [filter, setFilter] = useState("All");
+export function ArticleCollection({ articles, home = false, filter = "All" }: {
+  articles: ArticleSummary[]; home?: boolean; filter?: "All" | "Opinion" | "Archive";
+}) {
   const visible = home || filter === "All" ? articles : articles.filter(article => article.category === filter);
   const [featured, ...rest] = visible;
   return (
@@ -14,7 +13,16 @@ export function ArticleCollection({ articles, home = false }: { articles: Articl
         <h1>{home ? "Latest writing" : "Articles"}</h1>
         {home && <Link href="/articles" className="read-link">All articles →</Link>}
       </div>
-      {!home && <div className="filters" aria-label="Article categories">{["All", "Opinion", "Archive"].map(label => <button key={label} aria-pressed={filter === label} onClick={() => setFilter(label)}>{label}</button>)}</div>}
+      {!home && <nav className="filters" aria-label="Article categories">
+        {["All", "Opinion", "Archive"].map(label => (
+          <Link key={label} href={label === "All" ? "/articles" : `/articles?category=${label.toLowerCase()}`}
+            scroll={false} aria-current={filter === label ? "page" : undefined}>{label}</Link>
+        ))}
+      </nav>}
+      {!home && filter === "Archive" && <nav className="archive-subcategories" aria-label="Archive subcategories">
+        <Link href="/archive/matches">Matches →</Link>
+        <Link href="/archive/people">People →</Link>
+      </nav>}
       <div aria-live="polite">
         {featured ? <>
           <article className="featured-article">

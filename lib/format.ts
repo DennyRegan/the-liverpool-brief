@@ -53,9 +53,27 @@ export function getExcerpt(body: string, maxLength = 155): string {
     .replace(/^#+\s+/gm, "")
     .replace(/\*\*(.*?)\*\*/g, "$1")
     .replace(/\*(.*?)\*/g, "$1")
-    .replace(/\n+/g, " ")
+    .replace(/\s+/g, " ")
     .trim();
 
   if (plainText.length <= maxLength) return plainText;
-  return plainText.slice(0, maxLength).trim() + "...";
+  const preview = plainText.slice(0, maxLength + 1);
+  const lastSpace = preview.lastIndexOf(" ");
+  return (lastSpace > 0 ? preview.slice(0, lastSpace) : plainText.split(" ")[0]) + "...";
+}
+
+/** Keep the author's prepared excerpt; only generate one when it is absent. */
+export function getArticleExcerpt(article: { excerpt?: string; body: string }, maxLength = 155): string {
+  return article.excerpt?.trim() || getExcerpt(article.body, maxLength);
+}
+
+/** Older articles also contain outlet names without URLs. Keep those as text. */
+export function getSourceLink(source: string): { href: string; label: string } | null {
+  try {
+    const url = new URL(source);
+    if (url.protocol !== "https:" && url.protocol !== "http:") return null;
+    return { href: url.href, label: url.hostname.replace(/^www\./, "") };
+  } catch {
+    return null;
+  }
 }
