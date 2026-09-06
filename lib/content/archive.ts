@@ -14,6 +14,7 @@ function loadArchiveFeature(filename: string) {
 }
 
 export function getArchiveFeatures() {
+    if (!fs.existsSync(ARCHIVE_DIR)) return [];
     const filenames = fs.readdirSync(ARCHIVE_DIR).filter((f) => f.endsWith(".md"));
     return filenames
         .map(loadArchiveFeature)

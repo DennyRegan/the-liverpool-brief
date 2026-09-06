@@ -62,7 +62,7 @@ export default async function ArticlePage({
 
         <h1 className="article-title">{article.title}</h1>
         <p className="text-sm text-gray-500 mb-8">
-          By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">{article.category}</span>
+          By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">{article.category === "History" ? "Archive" : article.category}</span>
         </p>
 
         <div className="article-body">

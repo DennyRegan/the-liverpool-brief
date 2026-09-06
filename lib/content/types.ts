@@ -28,6 +28,8 @@ export const ArticleSchema = z.object({
     body: z.string(),
 });
 export const ArchiveFeatureSchema = z.object({
+    // The date of the historical event; date below remains the publication date.
+    historicalEventDate: z.iso.date().optional(),
     title: z.string(),
     date: z.string(),
     historicalPeriod: z.string(),

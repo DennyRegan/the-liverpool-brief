@@ -36,7 +36,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         {children}
-        <footer className="site-footer"><div className="site-width"><p>The Liverpool Brief<span>Independent writing by Denny Regan.</span></p><a href="mailto:theliverpoolbrief@gmail.com">Get in touch ↗</a></div></footer>
+        <footer className="site-footer"><div className="site-width"><p>The Liverpool Brief<span>Independent writing by Denny Regan.</span></p><div className="footer-links"><a href="/brief">The Brief</a><a href="mailto:theliverpoolbrief@gmail.com">Get in touch ↗</a></div></div></footer>
         <Analytics />
       </body>
     </html>
