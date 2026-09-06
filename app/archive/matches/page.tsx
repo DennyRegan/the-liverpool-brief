@@ -7,9 +7,9 @@ export default function MatchesArchivePage() {
   const features = getMatchFeatures();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <SiteHeader active="archive" />
-      <main className="max-w-2xl mx-auto px-4 py-12">
+      <main id="main-content" className="max-w-2xl mx-auto px-4 py-12">
         <Link href="/archive" className="text-sm font-medium text-accent hover:text-accent-dark">
           ‹ Archive
         </Link>

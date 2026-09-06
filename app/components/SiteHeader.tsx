@@ -1,29 +1,20 @@
 import Link from "next/link";
 
-const navLinkBase = "text-sm font-medium pb-1";
-const navLinkActive = `${navLinkBase} text-accent border-b-2 border-accent`;
-const navLinkInactive = `${navLinkBase} text-gray-500 hover:text-accent`;
-
-export function SiteHeader({ active }: { active: "home" | "articles" | "archive" | "about" }) {
+export function SiteHeader({ active }: { active: "home" | "articles" | "brief" | "this-week" | "archive" | "about" }) {
   return (
-    <header className="border-b border-gray-200 py-8">
-      <div className="max-w-2xl mx-auto px-4">
-        <h1 className="font-serif text-4xl font-bold text-gray-900">The Liverpool Brief</h1>
-        <p className="text-gray-600 mt-2">Important Liverpool FC news, in 30–45 seconds.</p>
-        <nav className="mt-4 flex gap-6">
-          <Link href="/" className={active === "home" ? navLinkActive : navLinkInactive}>
-            Home
-          </Link>
-          <Link href="/articles" className={active === "articles" ? navLinkActive : navLinkInactive}>
-            Articles
-          </Link>
-          <Link href="/archive" className={active === "archive" ? navLinkActive : navLinkInactive}>
-            Archive
-          </Link>
-          <Link href="/about" className={active === "about" ? navLinkActive : navLinkInactive}>
-            About
-          </Link>
-        </nav>
+    <header className="site-header">
+      <a href="#main-content" className="skip-link">Skip to content</a>
+      <div className="site-width">
+        <div className="masthead-meta"><span>Independent Liverpool writing</span><Link href="/about">By Denny Regan</Link></div>
+        <Link href="/" className="masthead">The Liverpool<span> Brief</span><span className="masthead-dot">.</span></Link>
+        <div className="header-bottom">
+          <p>Opinion and history from a Liverpool supporter.</p>
+          <nav aria-label="Main navigation">
+            {([{ href: "/", label: "Home", key: "home" }, { href: "/articles", label: "Articles", key: "articles" }, { href: "/this-week", label: "This Week", key: "this-week" }, { href: "/about", label: "About", key: "about" }] as const).map(item => (
+              <Link key={item.key} href={item.href} aria-current={(active === "archive" ? "articles" : active) === item.key ? "page" : undefined}>{item.label}</Link>
+            ))}
+          </nav>
+        </div>
       </div>
     </header>
   );

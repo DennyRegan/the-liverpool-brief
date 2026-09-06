@@ -1,100 +1,21 @@
+import Link from "next/link";
 import { SiteHeader } from "@/app/components/SiteHeader";
+
+export const metadata = { title: "About | The Liverpool Brief", description: "Liverpool opinion and history by Denny Regan." };
+
 export default function AboutPage() {
-  return (
-    <div className="min-h-screen bg-white">
-      <SiteHeader active="about" />
-      <main className="max-w-2xl mx-auto px-4 py-12 space-y-10">
-        <section>
-          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">What this is</h2>
-          <p className="text-gray-700 leading-relaxed">
-            The Liverpool Brief exists to do one thing well: open the app, understand
-            today's important Liverpool news in 30–45 seconds, close the app. No feed to
-            scroll, no noise to filter — just the things that actually matter about the
-            club today, written plainly and attributed clearly.
-          </p>
-        </section>
-        <section>
-          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">Who it's for</h2>
-          <p className="text-gray-700 leading-relaxed">
-            This is for supporters who care about Liverpool but don't have time to follow
-            twelve accounts, three forums, and a live blog to work out what's actually
-            true. If you want to stay properly informed without wading through hot takes
-            and speculation to find it, this is built for you.
-          </p>
-        </section>
-        <section>
-          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">What makes it different</h2>
-          <p className="text-gray-700 leading-relaxed">
-            Football news online is fast, fragmented, and often sensationalised —
-            optimised for clicks and engagement rather than for helping you understand
-            what happened. The Liverpool Brief takes the opposite approach: one daily
-            brief, written calmly, that tells you what's true and where it came from.
-            Nothing here is written to provoke a reaction — it's written to inform one.
-          </p>
-        </section>
-        <section>
-          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">Our standards</h2>
-          <ul className="space-y-4">
-            <li>
-              <p className="font-semibold text-gray-900">Accuracy before speed</p>
-              <p className="text-gray-700 leading-relaxed">
-                We'd rather be right a little later than first and wrong. Nothing goes
-                into the brief until we're confident it's accurate.
-              </p>
-            </li>
-            <li>
-              <p className="font-semibold text-gray-900">Clear source attribution</p>
-              <p className="text-gray-700 leading-relaxed">
-                Every story is checked against its original reporting. Where it adds real
-                value — particularly for fast-moving or exclusive news — we link directly to the source.
-              </p>
-            </li>
-            <li>
-              <p className="font-semibold text-gray-900">A calm, plain-English tone</p>
-              <p className="text-gray-700 leading-relaxed">
-                We explain, we don't sensationalise. No breathless headlines, no
-                manufactured drama — just a clear account of what's happening at the
-                club.
-              </p>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">Add to your home screen</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            The Liverpool Brief works best as an icon on your home screen, so it opens
-            straight to today's brief like any other app — no browser, no typing in a
-            web address.
-          </p>
-          <div className="space-y-4">
-            <div>
-              <p className="font-semibold text-gray-900">On iPhone (Safari)</p>
-              <ol className="text-gray-700 leading-relaxed list-decimal list-inside">
-                <li>Tap the Share icon at the bottom of the screen</li>
-                <li>Scroll down and tap "Add to Home Screen"</li>
-                <li>Tap "Add" in the top corner</li>
-              </ol>
-            </div>
-            <div>
-              <p className="font-semibold text-gray-900">On Android (Chrome)</p>
-              <ol className="text-gray-700 leading-relaxed list-decimal list-inside">
-                <li>Tap the three-dot menu in the top corner</li>
-                <li>Tap "Add to Home screen" (or "Install app")</li>
-                <li>Tap "Add" to confirm</li>
-              </ol>
-            </div>
-          </div>
-        </section>
-        <section>
-          <h2 className="font-serif text-xl font-bold text-gray-900 mb-3">Get in touch</h2>
-          <p className="text-gray-700 leading-relaxed">
-            Follow along on{" "}
-            <a href="https://x.com/LFCBrief" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">X (@LFCBrief)</a>{" "}
-            or get in touch by email at{" "}
-            <a href="mailto:theliverpoolbrief@gmail.com" className="text-accent hover:underline">theliverpoolbrief@gmail.com</a>.
-          </p>
-        </section>
-      </main>
+  return <><SiteHeader active="about" /><main id="main-content" className="reading-page about-page">
+    <p className="eyebrow">The writer behind the site</p>
+    <h1>Denny Regan</h1>
+    <p className="standfirst">Liverpool opinion and history, with a supporter’s perspective.</p>
+    <div className="article-body">
+      <p>The Liverpool Brief is Denny Regan’s independent Liverpool publication, bringing together his opinion articles and writing about the club’s history.</p>
+      <h2>The writing</h2>
+      <p>Original articles are the heart of the site. Denny writes the articles himself, with AI assistance for research, fact-checking and grammar. The views and words are his own.</p>
+      <h2>The brief</h2>
+      <p>The site began as a short Liverpool news briefing. That feature now has <Link href="/brief">its own section</Link>, while the homepage puts Denny’s writing first.</p>
+      <h2>Get in touch</h2>
+      <p><a href="mailto:theliverpoolbrief@gmail.com">theliverpoolbrief@gmail.com</a></p>
     </div>
-  );
+  </main></>;
 }

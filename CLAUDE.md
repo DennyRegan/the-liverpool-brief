@@ -1,22 +1,20 @@
 # The Liverpool Brief — Project Context
 
-## Product Promise
-Open the app, understand today's important Liverpool news in 30-45 seconds, close the app.
+## Product
+Independent Liverpool writing by Denny Regan. Home shows the latest three pieces across Opinion and Archive. Articles combines both with All / Opinion / Archive filters. Existing Archive article URLs remain permanent. This Week surfaces recurring events and a bottom Further reading collection. The Brief remains at /brief, linked from the footer and About.
 
-## Version 1 Scope
-Homepage, Daily Brief, Source Attribution, Editor's Note, Articles, About Page.
-No database, auth, or automation. Manual content only.
+## Navigation
+Home | Articles | This Week | About. Maintain mobile layout.
 
-## Key Architecture Decisions
-- Decision 019: Permanent URLs for content from Version 1 (e.g. /brief/..., /articles/...)
-- Decision 020: Content stored as local Markdown files with YAML frontmatter, validated against Zod schemas
-- Decision 027: Version 1 uses a single editable "Current Brief" (content/briefs/liverpool/current.md), not per-date files. Archiving deferred to a later version.
-- Decision 028: Content structure is club-scoped (e.g. content/briefs/liverpool/, content/articles/liverpool/) even though only Liverpool exists in Version 1. No multi-club logic yet.
+## Editorial rules
+Preserve Denny’s existing opinion text and URLs. The ten original AI-written Archive articles remain withdrawn. All new articles are written by Denny; AI assists research, fact-checking and grammar only. Denny has authorised scheduled research and upload of short, source-verified historical entries. Never invent facts or dates. Long-form articles remain written by Denny.
 
-## Editorial Philosophy
-Accuracy before speed. Clear attribution to original sources. Calm, plain-English tone — explain, don't sensationalise.
+## Architecture
+Next.js App Router; local Markdown with YAML frontmatter validated by Zod. Opinion: content/articles/liverpool. Archive: content/archive/liverpool. Current brief: content/briefs/liverpool/current.md. Recurring events: content/this-week/liverpool.
+Archive date remains publication date; optional historicalEventDate is the real event date. This Week matches month/day against today plus six days in Europe/London, and refers to Archive by archiveSlug, never copied body text. Archive historicalEventDate month/day automatically selects Further reading; manual archiveSlug links also qualify, with one card per article.
 
-## Working Agreement
-- Claude should explain reasoning for structural/architectural decisions before implementing them, not just execute silently.
-- Routine implementation (syntax, small fixes) can proceed quickly without explanation.
-- Denny reviews every significant feature against this context before it's accepted as complete.
+## Verification
+Node 22.18+ or 24 supports the built-in TypeScript test runner without new dependencies. Run npm test, npm run lint, npm run build. The build validates This Week entries before compiling. See docs/this-week.md for the editorial workflow and verification.
+
+## Working agreement
+Explain important architecture choices. Keep the draft redesign reviewable before production release. About copy is provisional for Denny’s review.

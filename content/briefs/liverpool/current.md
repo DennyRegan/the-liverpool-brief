@@ -1,56 +1,51 @@
 ---
-lastUpdated: "2026-08-27T20:00:00+01:00"
-title: "Today's Liverpool Brief"
-status: "published"
-editorsNote: ""
-stories:
-  - headline: "Liverpool agree £120m deal in principle for Bradley Barcola"
-    category: "Squad"
-    summary: "Liverpool and Paris Saint-Germain have reached an agreement in principle for Bradley Barcola worth around £120m, with final details still being discussed. PSG had held out for closer to £145m for most of the summer. ESPN's Julien Laurens reports a five-year contract, and that Barcola is waiting on clearance from PSG to travel for a medical. The deal is not yet complete. The consequence falls on Cody Gakpo, who plays the same position and scored in the 2-2 draw at Newcastle. David Ornstein reported that Gakpo would be allowed to leave if Barcola arrived, and kept if he did not. Andoni Iraola declined to guarantee Gakpo's future on Thursday, saying nothing can be guaranteed for any player while the market is open. The pursuit of Yankuba Minteh has stalled over Brighton's valuation, with Liverpool weighing up alternatives. The window closes at 11pm on Tuesday 1 September."
-    sources:
-      - name: "Sky Sports"
-        platform: "Web"
-        url: "https://www.skysports.com/football/news/11669/13577569/bradley-barcola-transfer-news-liverpool-reach-lb120m-deal-in-principle-for-psg-forward"
-      - name: "Julien Laurens"
-        platform: "ESPN"
-        url: "https://www.espn.com/soccer/story/_/id/49739704/liverpool-closing-bradley-barcola-signing-deal-worth-120-million-sources"
-      - name: "David Ornstein"
-        platform: "The Athletic (reported by This Is Anfield)"
-        url: "https://www.thisisanfield.com/2026/08/liverpool-weighing-up-yankuba-minteh-alternative/"
-      - name: "Liverpool.com"
-        platform: "Web"
-        url: "https://www.liverpool.com/liverpool-fc-news/transfer-news/liverpool-transfer-news-live-barcola-34517473"
-  - headline: "Liverpool learn Champions League league-phase opponents"
-    category: "Europe"
-    summary: "Thursday's draw in Monaco gave Liverpool home matches against Atletico Madrid, Porto, Villarreal and Lens, and away trips to Inter Milan, Club Brugge, Fenerbahce and LASK. The visit to the San Siro brings a reunion with Curtis Jones, who left for Inter earlier this month. UEFA will confirm the fixture dates no later than Saturday 29 August, with the league phase opening in the week of 8 September."
-    sources:
-      - name: "UEFA"
-        platform: "Web"
-        url: "https://www.uefa.com/uefachampionsleague/news/02a8-216cd740d41f-fd3b45ac4a0f-1000--champions-league-league-phase-draw-all-36-teams-learn-their/"
-      - name: "This Is Anfield"
-        platform: "Web"
-        url: "https://www.thisisanfield.com/2026/08/liverpool-champions-league-draw-confirmed-opponents-2026-27/"
-  - headline: "No midfield signing planned after Jones exit"
-    category: "Squad"
-    summary: "Liverpool are not planning to sign a midfielder despite Curtis Jones' £30m move to Inter Milan and the questions raised by Sunday's 2-2 draw at Newcastle. Paul Joyce reports Jones' exit is expected to hand more minutes to 19-year-old Trey Nyoni rather than trigger a replacement signing."
-    sources:
-      - name: "Paul Joyce"
-        platform: "The Times (reported by This Is Anfield)"
-        url: "https://www.thisisanfield.com/2026/08/liverpool-transfer-stance-midfield-recruitment-iraola/"
-      - name: "Sky Sports"
-        platform: "Web"
-        url: "https://www.skysports.com/football/news/11095/13575215/curtis-jones-transfer-news-inter-milan-sign-midfielder-from-liverpool-in-lb30m-deal-with-sell-on-clause-included"
-  - headline: "FSG stake sale reported at 38 per cent"
-    category: "Ownership"
-    summary: "The Athletic reports that FSG sold 38% of Liverpool to 1892 Holdings, the Amit Bhatia-led consortium, having initially been briefed at around 30%. Sky Sports News separately reported a stake closer to 40%, after also being told 30-33% by sources close to the deal. Neither the club nor the consortium has confirmed a figure. FSG remains majority owner with operational control, and Bhatia is expected to become vice-chairman. A stake approaching 40% is a materially larger change in the ownership structure than the original announcement suggested."
-    sources:
-      - name: "The Athletic"
-        platform: "Reported by Empire of the Kop"
-        url: "https://www.empireofthekop.com/2026/08/18/1892-holdings-stake-in-liverpool-more-than-initially-reported/"
-      - name: "Sky Sports"
-        platform: "Web"
-        url: "https://www.skysports.com/football/news/11669/13566630/liverpool-key-questions-answered-as-jeff-bezos-and-amit-bhatia-close-in-on-purchasing-strategic-minority-stake"
-      - name: "Liverpool FC"
-        platform: "Web"
-        url: "https://www.liverpoolfc.com/news/fsg-announces-strategic-minority-investment-liverpool-fc"
+{
+  "lastUpdated": "2026-09-06T10:48:35.487Z",
+  "title": "Today's Liverpool Brief",
+  "status": "published",
+  "editorsNote": "",
+  "stories": [
+    {
+      "headline": "Richard Hughes steps down; successor search begins",
+      "category": "Club",
+      "summary": "Liverpool confirmed on 5 September that Richard Hughes has left his sporting director role after asking to pursue a new challenge. The club says the process of appointing his successor is under way.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official club statement",
+          "url": "https://www.liverpoolfc.com/news/liverpool-fc-statement-14"
+        }
+      ]
+    },
+    {
+      "headline": "Isak double delivers first win under Iraola",
+      "category": "Match",
+      "summary": "Liverpool beat Ipswich 2–0 on Friday, with Cody Gakpo setting up both early Alexander Isak goals. The Reds have five points from three league games. Bradley Barcola made his debut from the bench. Alisson's 138th Liverpool clean sheet moved him into outright fourth on the club's all-time list.",
+      "sources": [
+        {
+          "name": "Liverpool FC match report — confidence: high",
+          "platform": "Official club website",
+          "url": "https://www.liverpoolfc.com/news/alexander-isak-scores-twice-secure-liverpool-win-ipswich"
+        },
+        {
+          "name": "Liverpool FC Alisson milestone — confidence: high",
+          "platform": "Official club website",
+          "url": "https://www.liverpoolfc.com/news/alisson-becker-takes-fourth-spot-outright-lfcs-clean-sheet-list"
+        }
+      ]
+    },
+    {
+      "headline": "Atlético visit begins busy run at Anfield",
+      "category": "Up next",
+      "summary": "Liverpool host Atlético Madrid in the Champions League on Wednesday 9 September. It starts a run of three home matches in three competitions within a week. Milos Kerkez says Liverpool must build on the Ipswich win while preparing for games every few days.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official club interview",
+          "url": "https://www.liverpoolfc.com/news/milos-kerkez-happy-win-now-we-have-be-ready-every-three-days"
+        }
+      ]
+    }
+  ]
+}
 ---

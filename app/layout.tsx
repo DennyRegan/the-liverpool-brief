@@ -21,7 +21,7 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "The Liverpool Brief",
-  description: "Important Liverpool FC news, in 30–45 seconds.",
+  description: "Independent Liverpool opinion and history by Denny Regan.",
 };
 
 export default function RootLayout({
@@ -31,11 +31,12 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en-GB"
       className={`${geistSans.variable} ${geistMono.variable} ${sourceSerif.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         {children}
+        <footer className="site-footer"><div className="site-width"><p>The Liverpool Brief<span>Independent writing by Denny Regan.</span></p><div className="footer-links"><a href="/brief">The Brief</a><a href="mailto:theliverpoolbrief@gmail.com">Get in touch ↗</a></div></div></footer>
         <Analytics />
       </body>
     </html>

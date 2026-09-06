@@ -34,3 +34,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Current site structure
+
+Home shows the latest three opinion articles; Articles holds the complete collection. Archive remains a separate standalone history section, currently empty after withdrawal of the AI-written articles. This Week presents today plus six days of recurring historical events. The Brief is at `/brief` and linked from the footer. All nine opinion content files and their URLs are preserved.
+
+## This Week
+
+See [the This Week guide](docs/this-week.md) for content examples, image and Archive links, date behaviour, validation and exact checks. No production events or replacement Archive articles have been invented.
+
+Use Node 22.18+ or 24, then `npm ci`, `npm test`, `npm run lint`, and `npm run build`. Tests use Node’s built-in runner; no new dependencies were introduced. The build validates history entries before compiling. Preview with `npm run dev`.
+
+The About page is provisional and needs Denny’s wording review before production release. Removed content remains recoverable in the public Git history; that is not a private backup.
