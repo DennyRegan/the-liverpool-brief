@@ -1,11 +1,12 @@
 import Link from "next/link";
 
-type ArticleSummary = { slug: string; href: string; title: string; category: string; date: string; excerpt: string; minutes: number };
+type ArticleSummary = { slug: string; href: string; title: string; category: string; archiveType?: "match" | "person" | "season"; date: string; excerpt: string; minutes: number };
 
-export function ArticleCollection({ articles, home = false, filter = "All" }: {
-  articles: ArticleSummary[]; home?: boolean; filter?: "All" | "Opinion" | "Archive";
+export function ArticleCollection({ articles, home = false, filter = "All", archiveType = "all" }: {
+  articles: ArticleSummary[]; home?: boolean; filter?: "All" | "Opinion" | "Archive"; archiveType?: "all" | "match" | "person";
 }) {
-  const visible = home || filter === "All" ? articles : articles.filter(article => article.category === filter);
+  const visible = home || filter === "All" ? articles : articles.filter(article => article.category === filter &&
+    (filter !== "Archive" || archiveType === "all" || article.archiveType === archiveType));
   const [featured, ...rest] = visible;
   return (
     <>
@@ -20,8 +21,10 @@ export function ArticleCollection({ articles, home = false, filter = "All" }: {
         ))}
       </nav>}
       {!home && filter === "Archive" && <nav className="archive-subcategories" aria-label="Archive subcategories">
-        <Link href="/archive/matches">Matches →</Link>
-        <Link href="/archive/people">People →</Link>
+        {([{ label: "All Archive", value: "all" }, { label: "Matches", value: "match" }, { label: "People", value: "person" }] as const).map(({ label, value }) => (
+          <Link key={value} href={value === "all" ? "/articles?category=archive" : `/articles?category=archive&type=${value}`}
+            scroll={false} aria-current={archiveType === value ? "page" : undefined}>{label}</Link>
+        ))}
       </nav>}
       <div aria-live="polite">
         {featured ? <>
@@ -37,7 +40,7 @@ export function ArticleCollection({ articles, home = false, filter = "All" }: {
           {rest.length > 0 && <section className="more-writing" aria-label="More articles"><p className="eyebrow">{home ? "Also recent" : "More writing"}</p><div className="article-grid">
             {rest.map(article => <article key={article.href} className="article-card"><p className="article-meta"><span>{article.category === "History" ? "Archive" : article.category}</span><span>{article.date}</span></p><h2><Link href={article.href}>{article.title}</Link></h2><p>{article.excerpt}</p><span className="reading-time">{article.minutes} min read</span></article>)}
           </div></section>}
-        </> : <p className="empty-state">New writing will appear here.</p>}
+        </> : <p className="empty-state">{filter === "Archive" ? archiveType === "match" ? "No match articles yet." : archiveType === "person" ? "No people articles yet." : "No archive articles yet." : "New writing will appear here."}</p>}
       </div>
     </>
   );

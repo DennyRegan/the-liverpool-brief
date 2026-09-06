@@ -111,3 +111,19 @@ button { cursor: pointer; }
  .history-page h1 { font-size: 34px; }
  .history-entry h3 { font-size: 25px; }
 }
+
+.home-intro { max-width: 760px; padding-bottom: 32px; color: var(--muted); font-size: 15px; line-height: 1.8; }
+.home-intro p + p { margin-top: 8px; }
+.homepage > .featured-article { border-top: 1px solid var(--line); }
+.homepage .home-headline { font-family: var(--font-source-serif), Georgia, serif; font-weight: 600; letter-spacing: -.035em; }
+.homepage .featured-article .home-headline { font-size: clamp(32px, 4.4vw, 54px); line-height: 1.09; margin: 19px 0; }
+.home-writing .home-headline { font-size: 28px; line-height: 1.2; margin: 16px 0 12px; }
+.home-writing .home-section-title { font-family: inherit; font-size: 11px; line-height: 1.5; letter-spacing: .16em; margin: 0 0 24px; }
+.archive-subcategories a { border-bottom: 2px solid transparent; }
+.archive-subcategories a[aria-current="page"] { border-color: var(--accent); }
+@media (max-width: 700px) {
+ .home-intro { font-size: 14px; padding-bottom: 24px; }
+ .homepage .featured-article .home-headline { font-size: 36px; line-height: 1.13; }
+ .home-writing .home-headline { font-size: 27px; }
+}
+.homepage .feature-marker .eyebrow { font-family: inherit; font-size: 11px; line-height: 1.5; letter-spacing: .16em; margin: 0; }

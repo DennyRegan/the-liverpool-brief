@@ -14,6 +14,7 @@ function loadArticle(filename: string) {
 }
 
 export function getArticles() {
+    if (!fs.existsSync(ARTICLES_DIR)) return [];
     const filenames = fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith(".md"));
     return filenames
         .map(loadArticle)

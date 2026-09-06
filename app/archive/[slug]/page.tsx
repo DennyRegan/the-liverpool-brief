@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { archiveFeatureExists, getArchiveFeature, getArchiveFeatures } from "@/lib/content/archive";
 import { SiteHeader } from "@/app/components/SiteHeader";
+import { formatListDate } from "@/lib/format";
 import { ShareButton } from "@/app/components/ShareButton";
 
 export function generateStaticParams() {
@@ -73,14 +74,14 @@ export default async function ArchiveFeaturePage({
       <SiteHeader active="archive" />
       <main id="main-content" className="reading-page">
         <div className="flex items-center justify-between mb-8">
-          <Link href="/archive" className="text-sm font-medium text-accent hover:text-accent-dark">
-            ‹ Back
+          <Link href="/articles?category=archive" className="text-sm font-medium text-accent hover:text-accent-dark">
+            ‹ Archive articles
           </Link>
           <ShareButton title={feature.title} />
         </div>
 
         <h1 className="font-serif text-3xl font-bold text-gray-900 mb-2">{feature.title}</h1>
-        <p className="text-sm text-gray-500 mb-8">{feature.historicalPeriod}</p>
+        <p className="text-sm text-gray-500 mb-8">{feature.historicalEventDate ? `${formatListDate(feature.historicalEventDate)} · ${feature.historicalPeriod}` : feature.historicalPeriod}</p>
 
         {seasonFacts.length > 0 && (
           <dl className="mb-8 border border-gray-200 rounded-lg divide-y divide-gray-200 bg-gray-50 text-sm">
