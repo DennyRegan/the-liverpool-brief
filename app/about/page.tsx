@@ -5,15 +5,14 @@ export const metadata = { title: "About | The Liverpool Brief", description: "Li
 
 export default function AboutPage() {
   return <><SiteHeader active="about" /><main id="main-content" className="reading-page about-page">
-    <p className="eyebrow">The writer behind the site</p>
-    <h1>Denny Regan</h1>
+    <h1>About</h1>
     <p className="standfirst">Liverpool opinion and history, with a supporter’s perspective.</p>
     <div className="article-body">
-      <p>The Liverpool Brief is Denny Regan’s independent Liverpool publication, bringing together his opinion articles and writing about the club’s history.</p>
+      <p>I’m Denny, a Liverpool supporter. The Liverpool Brief is where I share my opinions and write about the club’s history.</p>
       <h2>The writing</h2>
-      <p>Original articles are the heart of the site. Denny writes the articles himself, with AI assistance for research, fact-checking and grammar. The views and words are his own.</p>
+      <p>I write every article myself, from my views on the team today to the matches, players and moments from Liverpool’s past.</p>
       <h2>The brief</h2>
-      <p>The site began as a short Liverpool news briefing. That feature now has <Link href="/brief">its own section</Link>, while the homepage puts Denny’s writing first.</p>
+      <p>I started the site as a short Liverpool news briefing. You can still find that in <Link href="/brief">its own section</Link>, but my articles are now the main focus.</p>
       <h2>Get in touch</h2>
       <p><a href="mailto:theliverpoolbrief@gmail.com">theliverpoolbrief@gmail.com</a></p>
     </div>
