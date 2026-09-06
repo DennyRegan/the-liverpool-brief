@@ -23,6 +23,7 @@ export const ArticleSchema = z.object({
     date: z.string(),
     slug: z.string(),
     category: z.string().default("Opinion"),
+    excerpt: z.string().optional(),
     sources: z.array(z.string()).optional(),
     whatMatters: z.array(z.string()).optional(),
     body: z.string(),

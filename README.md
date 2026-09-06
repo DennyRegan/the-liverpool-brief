@@ -38,7 +38,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Current site structure
 
-Home shows the latest three opinion articles; Articles holds the complete collection. Archive remains a separate standalone history section, currently empty after withdrawal of the AI-written articles. This Week presents today plus six days of recurring historical events. The Brief is at `/brief` and linked from the footer. All nine opinion content files and their URLs are preserved.
+Home shows the latest three pieces of writing; Articles holds the complete collection. Opinion and Archive are filters within Articles, with shareable URLs at `/articles?category=opinion` and `/articles?category=archive`. Archive exposes Matches and People subcategories while full stories retain their standalone `/archive/[slug]` URLs. `/archive` redirects to the Archive filter, including when returning from a subcategory or story. Archive is currently empty after withdrawal of the AI-written articles. This Week presents today plus six days of recurring historical events. The Brief is at `/brief` and linked from the footer. All ten opinion content files and their URLs are preserved.
+
+An optional article `excerpt` supplies the homepage, collection and article description. Without one, a plain-text preview ends at a word boundary. URL entries in article `sources` render as numbered links labelled with their domain; older outlet names remain plain text.
 
 ## This Week
 
