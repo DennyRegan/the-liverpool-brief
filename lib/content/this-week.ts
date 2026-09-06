@@ -69,3 +69,10 @@ export function getHistoryWindow(events: HistoryEvent[], now = new Date()) {
     };
   });
 }
+
+// Select metadata only: article bodies remain in the standalone Archive files.
+export function getWeekReading<T extends { slug: string; historicalEventDate?: string }>(articles: T[], days: ReturnType<typeof getHistoryWindow>): T[] {
+  const dates = new Set(days.map(day => day.iso.slice(5)));
+  const linked = new Set(days.flatMap(day => day.events.flatMap(event => event.archiveSlug ? [event.archiveSlug] : [])));
+  return articles.filter(article => linked.has(article.slug) || (article.historicalEventDate && dates.has(article.historicalEventDate.slice(5))));
+}

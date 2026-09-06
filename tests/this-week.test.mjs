@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { HistoryEventSchema, getHistoryEvents, getHistoryWindow } from '../lib/content/this-week.ts';
+import { HistoryEventSchema, getHistoryEvents, getHistoryWindow, getWeekReading } from '../lib/content/this-week.ts';
 import { ArchiveFeatureSchema } from '../lib/content/types.ts';
 
 const base = { month: 9, day: 12, year: 1989, title: 'Test event', summary: 'Test summary', source: 'https://example.com/source', slug: 'test-event' };
@@ -91,4 +91,15 @@ test('content loader supports empty folders, validates references, and reports f
     fs.appendFileSync(file, 'Full article body must not be copied here.');
     assert.throws(() => getHistoryEvents(root), /full articles belong in Archive/);
   } finally { fs.rmSync(root, { recursive: true, force: true }); }
+});
+
+
+test('further reading automatically matches historical dates and deduplicates manual links', () => {
+  const days = getHistoryWindow([{ ...base, archiveSlug: 'dated' }, { ...base, slug: 'second', archiveSlug: 'dated' }], new Date('2026-09-06T12:00:00Z'));
+  const articles = [{ slug: 'dated', historicalEventDate: '1989-09-12' }, { slug: 'outside', historicalEventDate: '1989-09-13' }, { slug: 'legacy' }];
+  assert.deepEqual(getWeekReading(articles, days).map(a => a.slug), ['dated']);
+  const nextYear = getHistoryWindow([], new Date('2027-09-06T12:00:00Z'));
+  assert.deepEqual(getWeekReading(articles, nextYear).map(a => a.slug), ['dated']);
+  const rollover = getHistoryWindow([], new Date('2026-12-29T12:00:00Z'));
+  assert.equal(getWeekReading([{ slug: 'new-year', historicalEventDate: '2000-01-01' }], rollover).length, 1);
 });

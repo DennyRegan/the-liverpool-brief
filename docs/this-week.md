@@ -1,3 +1,9 @@
+## Updated layout
+
+Navigation is Home / Articles / This Week / About. Articles combines Opinion and Archive with All / Opinion / Archive buttons. The homepage shows the three newest pieces across both collections. Existing standalone URLs are retained.
+
+This Week shows matching Archive articles once under Further reading at the bottom. Add historicalEventDate: "1989-09-12" to an Archive article published in advance: its month/day automatically selects it when that date is in the rolling UK seven-day window. Publication date stays separate. Manual archiveSlug references still work and are consolidated in Further reading, without duplicate cards. Undated, unlinked articles stay in Articles but do not appear in Further reading.
+
 # This Week in Liverpool History
 
 ## What was built
