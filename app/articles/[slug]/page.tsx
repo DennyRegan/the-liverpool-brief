@@ -50,9 +50,9 @@ export default async function ArticlePage({
     notFound();
   }
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <SiteHeader active="articles" />
-      <main className="max-w-2xl mx-auto px-4 py-12">
+      <main id="main-content" className="reading-page">
         <div className="flex items-center justify-between mb-8">
           <Link href="/articles" className="text-sm font-medium text-accent hover:text-accent-dark">
             ‹ Back
@@ -60,12 +60,12 @@ export default async function ArticlePage({
           <ShareButton title={article.title} />
         </div>
 
-        <h1 className="font-serif text-3xl font-bold text-gray-900 mb-2">{article.title}</h1>
+        <h1 className="article-title">{article.title}</h1>
         <p className="text-sm text-gray-500 mb-8">
-          {formatLongDate(article.date)} · <span className="text-accent">{article.category}</span>
+          By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">{article.category}</span>
         </p>
 
-        <div className="text-gray-700 leading-relaxed [&>p]:mb-4 [&_a]:text-accent [&_a]:underline [&_strong]:font-semibold [&_table]:w-full [&_table]:mb-4 [&_table]:border-collapse [&_th]:border [&_th]:border-gray-200 [&_th]:bg-gray-50 [&_th]:px-3 [&_th]:py-2 [&_th]:text-left [&_th]:font-semibold [&_td]:border [&_td]:border-gray-200 [&_td]:px-3 [&_td]:py-2">
+        <div className="article-body">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{article.body}</ReactMarkdown>
         </div>
 
@@ -88,6 +88,7 @@ export default async function ArticlePage({
             {article.sources.join(" · ")}
           </div>
         )}
+        <aside className="read-next"><p className="eyebrow">Keep reading</p>{getArticles().filter(item => item.slug !== article.slug).slice(0, 2).map(item => <Link key={item.slug} href={`/articles/${item.slug}`}>{item.title} <span aria-hidden="true">↗</span></Link>)}</aside>
       </main>
     </div>
   );
