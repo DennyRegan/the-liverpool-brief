@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { ArchiveFeatureSchema } from "./types";
+import { ArchiveFeatureSchema } from "./types.ts";
 
 const ARCHIVE_DIR = path.join(process.cwd(), "content/archive/liverpool");
 
