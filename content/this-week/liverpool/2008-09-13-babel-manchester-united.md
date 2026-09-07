@@ -11,7 +11,13 @@
     "alt": "Illustration of Ryan Babel celebrating in a red Liverpool kit at Anfield.",
     "width": 1086,
     "height": 1448,
-    "kind": "illustration"
+    "kind": "illustration",
+    "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1086,
+      "height": 1086
+    }
   }
 }
 ---
