@@ -19,6 +19,24 @@ button { cursor: pointer; }
 .header-bottom nav { display: flex; gap: 28px; flex-shrink: 0; }
 .header-bottom nav a { padding: 17px 0 15px; border-bottom: 2px solid transparent; font-size: 13px; }
 .header-bottom nav a[aria-current] { color: var(--accent); border-color: var(--accent); }
+.home-page { padding-top: 32px; padding-bottom: 64px; }
+.home-intro { max-width: 760px; padding-bottom: 32px; }
+.home-intro h1 { font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(28px, 3.4vw, 40px); font-weight: 600; line-height: 1.2; letter-spacing: -.025em; margin-bottom: 14px; }
+.home-intro p { font-size: 15px; line-height: 1.8; color: var(--muted); }
+.home-section { min-width: 0; display: flex; flex-direction: column; border-top: 1px solid var(--line); padding: 26px 0 30px; }
+.home-section > .eyebrow { color: var(--accent); margin-bottom: 20px; }
+.home-section h3 { font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(27px, 3vw, 36px); font-weight: 600; line-height: 1.18; letter-spacing: -.025em; margin: 14px 0; overflow-wrap: anywhere; }
+.home-summary { font-size: 15px; line-height: 1.8; color: var(--muted); overflow-wrap: anywhere; }
+.home-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: auto; padding-top: 20px; }
+.home-links a { padding-block: 6px; }
+.home-brief { border-top-color: var(--foreground); }
+.home-brief article { max-width: 800px; }
+.home-writing { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 56px; }
+@media (max-width: 700px) {
+ .home-page { padding-top: 24px; padding-bottom: 32px; }
+ .home-intro { padding-bottom: 24px; }
+ .home-writing { grid-template-columns: 1fr; }
+}
 .collection { padding-top: 38px; padding-bottom: 80px; }
 .collection-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .collection-bar h1, .eyebrow { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .16em; }
