@@ -72,6 +72,22 @@ The 6 September entry remains saved for its next annual appearance even after it
 
 The existing “Liverpool history content” scheduled task contains this workflow. Denny writes all long-form Opinion and Archive articles; the task must not write or alter them.
 
+## Authentic kits — required for every illustration
+
+Denny requires authentic kits always. Retrieve and visually inspect photographs or footage from the actual match before creating an illustration. If unavailable, use a verified reference from the same season and competition. Include that reference image in the generation request and record its source URL here. Never ask for minimal branding or substitute a generic red shirt.
+
+Check the shirt design, collar, colours, trim, manufacturer logo, sponsor, era-correct club crest, sleeve patches, shorts, socks and any visible player number. Do not combine different seasons or replace a historical crest with the modern Liver bird. Compare the resulting artwork with the reference and correct differences before presenting the preview. If a detail cannot be verified, retain a text-only event and report the missing reference. Any correction to previously approved artwork also requires preview approval before production.
+
+### Ryan Babel, Liverpool v Manchester United, 13 September 2008
+
+The first draft incorrectly used a generic shirt and is superseded by the corrected kit illustration in this branch. The reference photographs were retrieved and visually inspected on 7 September 2026:
+
+- [This Is Anfield: match photograph of Javier Mascherano celebrating Babel's winner](https://www.thisisanfield.com/2015/05/liverpool-must-recognise-importance-defensive-midfielder-summer/) — David Rawcliffe/Propaganda image caption explicitly identifies 13 September 2008 at Anfield. High confidence for the match's red adidas home shirt, white V-neck insert and shoulder stripes, full-colour Liverpool crest, Carlsberg sponsor and Premier League sleeve patch.
+- [ABC: Babel celebrating the winner](https://www.abc.net.au/news/2008-09-14/babels-late-strike-sinks-united/509306) — Alex Livesey/Getty Images photograph. High confidence for Babel's short sleeves, white wrist tape and contemporary BABEL 19 lettering. The article's Australian publication date is 14 September; the match date remains 13 September in the UK.
+- [Classic Shirts: 2008–10 Liverpool Babel shirt](https://classic-shirts.com/product-eng-311670-2008-10-LIVERPOOL-BABEL-SHIRT-M.html) — supplementary front-of-shirt reference; use the match photographs above to determine competition-specific details.
+
+These photographs are research references, not assets published on the website. The generated artwork remains labelled as an illustration.
+
 ## Engineering and checks
 
 - `lib/content/this-week.ts` loads and validates local Markdown/frontmatter. Zod checks real dates, HTTP(S) sources, local image paths, positive dimensions, optional artwork crop bounds and safe article slugs. The loader verifies image and Archive files exist. Errors name the offending file.
