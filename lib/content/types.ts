@@ -31,6 +31,10 @@ export const ArticleSchema = z.object({
 export const ArchiveFeatureSchema = z.object({
     // The date of the historical event; date below remains the publication date.
     historicalEventDate: z.iso.date().optional(),
+    // Explicit tenure IDs for career/season pieces; when set, overrides date placement.
+    historyEras: z.array(z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)).min(1)
+        .refine(ids => new Set(ids).size === ids.length, "Remove duplicate History era IDs")
+        .optional(),
     title: z.string(),
     date: z.string(),
     historicalPeriod: z.string(),

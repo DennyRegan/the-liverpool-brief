@@ -1,0 +1,930 @@
+{
+  "verifiedOn": "2026-09-07",
+  "honoursNote": "Major honours include the top-flight league, FA Cup, League Cup, European Cup / Champions League, UEFA Cup, UEFA Super Cup and FIFA Club World Cup. Promotion and the Football League Super Cup are noted separately; Charity/Community Shields are excluded.",
+  "eras": [
+    {
+      "id": "bill-shankly",
+      "manager": "Bill Shankly",
+      "startDate": "1959-12-01",
+      "endDate": "1974-07-12",
+      "initials": "BS",
+      "summary": "From the Second Division to champions of England and UEFA Cup winners. Shankly rebuilt Liverpool and established the foundations for the decades that followed.",
+      "context": "Promotion in 1962 was the starting point. The first FA Cup followed in 1965, before a renewed side won the league and UEFA Cup in 1973. His final season brought another FA Cup.",
+      "honours": [
+        {
+          "name": "First Division",
+          "years": [
+            "1963–64",
+            "1965–66",
+            "1972–73"
+          ]
+        },
+        {
+          "name": "FA Cup",
+          "years": [
+            "1965",
+            "1974"
+          ]
+        },
+        {
+          "name": "UEFA Cup",
+          "years": [
+            "1973"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "Ron Yeats",
+        "Ian St John",
+        "Roger Hunt",
+        "Kevin Keegan",
+        "Ray Clemence",
+        "Steve Heighway"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Bill Shankly",
+          "url": "https://www.liverpoolfc.com/info/bill-shankly",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Bill Shankly",
+          "url": "https://www.lfchistory.net/managers/9",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "Liverpool FC · Shankly’s retirement",
+          "url": "https://www.liverpoolfc.com/news/50-years-ago-today-when-bill-shankly-shocked-football-world-0",
+          "confidence": "high",
+          "claims": "Retirement announced 12 July 1974."
+        }
+      ],
+      "otherHonours": [
+        {
+          "name": "Second Division",
+          "years": [
+            "1961–62"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bob-paisley",
+      "manager": "Bob Paisley",
+      "startDate": "1974-07-26",
+      "endDate": "1983-07-01",
+      "initials": "BP",
+      "summary": "Six league titles and three European Cups in nine seasons. Paisley turned Shankly’s foundations into sustained success at home and across Europe.",
+      "context": "Liverpool won their first European Cup in Rome in 1977, retained it in 1978 and won it again in Paris in 1981. Paisley kept renewing the team, bringing in Dalglish, Souness, Hansen and Rush.",
+      "honours": [
+        {
+          "name": "European Cup",
+          "years": [
+            "1977",
+            "1978",
+            "1981"
+          ]
+        },
+        {
+          "name": "First Division",
+          "years": [
+            "1975–76",
+            "1976–77",
+            "1978–79",
+            "1979–80",
+            "1981–82",
+            "1982–83"
+          ]
+        },
+        {
+          "name": "League Cup",
+          "years": [
+            "1981",
+            "1982",
+            "1983"
+          ]
+        },
+        {
+          "name": "UEFA Cup",
+          "years": [
+            "1976"
+          ]
+        },
+        {
+          "name": "UEFA Super Cup",
+          "years": [
+            "1977"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "Kenny Dalglish",
+        "Graeme Souness",
+        "Alan Hansen",
+        "Phil Neal",
+        "Ray Clemence",
+        "Ian Rush"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Bob Paisley",
+          "url": "https://www.liverpoolfc.com/info/bob-paisley-0",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Bob Paisley",
+          "url": "https://www.lfchistory.net/managers/10",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "Liverpool FC · Paisley’s appointment",
+          "url": "https://www.liverpoolfc.com/news/first-team/189674-in-quotes-paisley-s-words-of-wisdom",
+          "confidence": "high",
+          "claims": "Club appointment date: 26 July 1974."
+        }
+      ],
+      "dateNote": "Liverpool FC dates Paisley’s appointment to 26 July 1974; LFChistory records 13 August. This guide uses the club’s appointment date."
+    },
+    {
+      "id": "joe-fagan",
+      "manager": "Joe Fagan",
+      "startDate": "1983-07-01",
+      "endDate": "1985-05-29",
+      "initials": "JF",
+      "summary": "Fagan’s first season brought the league, European Cup and League Cup. Another Boot Room successor, he kept Liverpool at the summit of European football.",
+      "context": "The 1984 European Cup was won against Roma in their own stadium. Liverpool reached the final again in 1985, when the Heysel disaster cost 39 people their lives. Fagan had already decided to retire at the season’s end.",
+      "honours": [
+        {
+          "name": "European Cup",
+          "years": [
+            "1984"
+          ]
+        },
+        {
+          "name": "First Division",
+          "years": [
+            "1983–84"
+          ]
+        },
+        {
+          "name": "League Cup",
+          "years": [
+            "1984"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "Graeme Souness",
+        "Ian Rush",
+        "Kenny Dalglish",
+        "Bruce Grobbelaar",
+        "Phil Neal"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Joe Fagan",
+          "url": "https://www.liverpoolfc.com/info/joe-fagan",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Joe Fagan",
+          "url": "https://www.lfchistory.net/managers/11",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "Liverpool FC · Rome 1984",
+          "url": "https://www.liverpoolfc.com/news/classic-match-i-dont-know-what-it-i-love-it-story-rome-1984",
+          "confidence": "high",
+          "claims": "Players in Fagan’s European Cup-winning team."
+        }
+      ]
+    },
+    {
+      "id": "kenny-dalglish-1985-1991",
+      "manager": "Kenny Dalglish",
+      "startDate": "1985-05-30",
+      "endDate": "1991-02-22",
+      "initials": "KD",
+      "summary": "A league and FA Cup double as player-manager, followed by the exhilarating Barnes, Beardsley and Aldridge side. Dalglish delivered three league titles in his first spell.",
+      "context": "The 1987–88 champions gave Liverpool some of their most celebrated attacking football. Hillsborough in 1989 brought devastating loss to the club and its community. Liverpool won another title in 1990, before Dalglish resigned in February 1991.",
+      "honours": [
+        {
+          "name": "First Division",
+          "years": [
+            "1985–86",
+            "1987–88",
+            "1989–90"
+          ]
+        },
+        {
+          "name": "FA Cup",
+          "years": [
+            "1986",
+            "1989"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "John Barnes",
+        "Peter Beardsley",
+        "John Aldridge",
+        "Ian Rush",
+        "Alan Hansen",
+        "Jan Mølby"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Kenny Dalglish",
+          "url": "https://www.liverpoolfc.com/info/kenny-dalglish-first-spell",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Kenny Dalglish",
+          "url": "https://www.lfchistory.net/managers/12",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "Liverpool FC · David Speedie",
+          "url": "https://www.liverpoolfc.com/info/david-speedie",
+          "confidence": "high",
+          "claims": "Dalglish resignation announced 22 February 1991."
+        }
+      ],
+      "tenureLabel": "First spell",
+      "otherHonours": [
+        {
+          "name": "Football League Super Cup",
+          "years": [
+            "1986"
+          ]
+        }
+      ],
+      "dateNote": "The club records the resignation announcement on 22 February 1991; LFChistory lists contract expiry as 21 February. Moran’s caretaker period begins on 22 February."
+    },
+    {
+      "id": "ronnie-moran-1991",
+      "manager": "Ronnie Moran",
+      "startDate": "1991-02-22",
+      "endDate": "1991-04-15",
+      "initials": "RM",
+      "summary": "A trusted Boot Room figure took temporary charge after Dalglish’s resignation. Moran held the team together while Liverpool sought a permanent successor.",
+      "context": "His ten-match caretaker spell included a remarkable 5–4 league win at Leeds. Graeme Souness then took over, with Moran returning to the coaching staff.",
+      "honours": [],
+      "keyPlayers": [
+        "John Barnes",
+        "Jan Mølby",
+        "Ray Houghton"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Ronnie Moran",
+          "url": "https://www.liverpoolfc.com/info/ronnie-moran-0",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Ronnie Moran",
+          "url": "https://www.lfchistory.net/managers/17",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "Liverpool FC · Leeds, April 1991",
+          "url": "https://www.liverpoolfc.com/news/first-team/216020-april-13-on-this-day-in-lfc-history-5",
+          "confidence": "high",
+          "claims": "Moran’s 5–4 win and selected players."
+        }
+      ],
+      "tenureLabel": "Caretaker"
+    },
+    {
+      "id": "graeme-souness",
+      "manager": "Graeme Souness",
+      "startDate": "1991-04-16",
+      "endDate": "1994-01-28",
+      "initials": "GS",
+      "summary": "The 1992 FA Cup was the high point of a difficult period of change. Established champions gave way to a new generation as the Premier League began.",
+      "context": "Souness returned from Rangers to rebuild an ageing squad. Liverpool beat Sunderland at Wembley, while Steve McManaman, Jamie Redknapp and Robbie Fowler began to emerge. League results proved much harder to sustain.",
+      "honours": [
+        {
+          "name": "FA Cup",
+          "years": [
+            "1992"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "Ian Rush",
+        "John Barnes",
+        "Steve McManaman",
+        "Rob Jones",
+        "Robbie Fowler"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Graeme Souness",
+          "url": "https://www.liverpoolfc.com/info/graeme-souness-0",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Graeme Souness",
+          "url": "https://www.lfchistory.net/managers/13",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        }
+      ]
+    },
+    {
+      "id": "roy-evans",
+      "manager": "Roy Evans",
+      "startDate": "1994-01-31",
+      "endDate": "1998-07-16",
+      "initials": "RE",
+      "summary": "Fowler and McManaman flourished in an adventurous Liverpool side. Evans restored attacking confidence and won the League Cup in his first full season.",
+      "context": "A 3–5–2 system helped Liverpool finish fourth and lift the 1995 League Cup. Stan Collymore joined Fowler in attack, but promising league challenges never became a title. Evans later shared the job with Gérard Houllier.",
+      "honours": [
+        {
+          "name": "League Cup",
+          "years": [
+            "1995"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "Robbie Fowler",
+        "Steve McManaman",
+        "Stan Collymore"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Roy Evans",
+          "url": "https://www.liverpoolfc.com/info/roy-evans-0",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Roy Evans",
+          "url": "https://www.lfchistory.net/managers/14",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        }
+      ],
+      "tenureLabel": "Sole manager"
+    },
+    {
+      "id": "evans-houllier-1998",
+      "manager": "Roy Evans & Gérard Houllier",
+      "startDate": "1998-07-16",
+      "endDate": "1998-11-12",
+      "initials": "RE · GH",
+      "summary": "A short experiment in joint management bridged two eras. Evans and Houllier shared responsibility before Houllier took sole charge in November.",
+      "context": "The partnership lasted 18 competitive matches. A promising league start gave way to inconsistent results, and Evans left on 12 November 1998. This separate entry keeps that shared period distinct from either manager’s sole tenure.",
+      "honours": [],
+      "keyPlayers": [
+        "Michael Owen",
+        "Steve McManaman",
+        "Karl-Heinz Riedle"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Roy Evans & Gérard Houllier",
+          "url": "https://www.liverpoolfc.com/info/gerard-houllier",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Roy Evans & Gérard Houllier",
+          "url": "https://www.lfchistory.net/managers/15",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "LFChistory · Steve McManaman",
+          "url": "https://www.lfchistory.net/players/371",
+          "confidence": "high",
+          "claims": "McManaman at Liverpool during the joint tenure."
+        }
+      ],
+      "tenureLabel": "Joint managers"
+    },
+    {
+      "id": "gerard-houllier",
+      "manager": "Gérard Houllier",
+      "startDate": "1998-11-12",
+      "endDate": "2004-05-24",
+      "initials": "GH",
+      "summary": "Three cups in 2001 made Houllier’s rebuilding work tangible. A side shaped by Owen, Gerrard and Hyypiä returned Liverpool to regular European contention.",
+      "context": "The League Cup, FA Cup and UEFA Cup all came in 2001, followed by the UEFA Super Cup. Another League Cup arrived in 2003. Phil Thompson deputised during Houllier’s recovery from serious illness in 2001–02.",
+      "honours": [
+        {
+          "name": "UEFA Cup",
+          "years": [
+            "2001"
+          ]
+        },
+        {
+          "name": "FA Cup",
+          "years": [
+            "2001"
+          ]
+        },
+        {
+          "name": "League Cup",
+          "years": [
+            "2001",
+            "2003"
+          ]
+        },
+        {
+          "name": "UEFA Super Cup",
+          "years": [
+            "2001"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "Michael Owen",
+        "Steven Gerrard",
+        "Sami Hyypiä",
+        "Jamie Carragher",
+        "Gary McAllister"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Gérard Houllier",
+          "url": "https://www.liverpoolfc.com/info/gerard-houllier",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Gérard Houllier",
+          "url": "https://www.lfchistory.net/managers/16",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "LFC: Gary McAllister",
+          "url": "https://www.liverpoolfc.com/info/gary-mcallister",
+          "confidence": "high",
+          "claims": "McAllister’s role in the 2001 team."
+        },
+        {
+          "label": "LFC: Jamie Carragher",
+          "url": "https://www.liverpoolfc.com/info/jamie-carragher",
+          "confidence": "high",
+          "claims": "Carragher’s contribution to the 2000–01 treble."
+        }
+      ],
+      "tenureLabel": "Sole manager"
+    },
+    {
+      "id": "rafael-benitez",
+      "manager": "Rafael Benítez",
+      "startDate": "2004-06-16",
+      "endDate": "2010-06-03",
+      "initials": "RB",
+      "summary": "Istanbul in his first season, the FA Cup in his second. Benítez made Liverpool a formidable European side and later mounted a serious league challenge.",
+      "context": "Liverpool recovered from 3–0 down against Milan to win the 2005 Champions League on penalties. Another final followed in 2007. Gerrard and Torres then powered a title challenge that ended with second place in 2008–09.",
+      "honours": [
+        {
+          "name": "Champions League",
+          "years": [
+            "2005"
+          ]
+        },
+        {
+          "name": "FA Cup",
+          "years": [
+            "2006"
+          ]
+        },
+        {
+          "name": "UEFA Super Cup",
+          "years": [
+            "2005"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "Steven Gerrard",
+        "Jamie Carragher",
+        "Xabi Alonso",
+        "Fernando Torres",
+        "Pepe Reina"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Rafael Benítez",
+          "url": "https://www.liverpoolfc.com/info/rafael-benitez",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Rafael Benítez",
+          "url": "https://www.lfchistory.net/managers/20",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "LFC: the March 2006 Merseyside derby",
+          "url": "https://www.liverpoolfc.com/news/day-story-how-liverpool-overcame-steven-gerrard-red-card-beat-everton",
+          "confidence": "high",
+          "claims": "Alonso and Reina in Benítez’s team."
+        }
+      ]
+    },
+    {
+      "id": "roy-hodgson",
+      "manager": "Roy Hodgson",
+      "startDate": "2010-07-01",
+      "endDate": "2011-01-08",
+      "initials": "RH",
+      "summary": "A brief and difficult tenure during upheaval at the club. Hodgson’s Liverpool struggled in the league, despite progressing from their Europa League group.",
+      "context": "Appointed from Fulham in July 2010, Hodgson lasted just over six months. A win over Chelsea offered a high point, but poor domestic results continued. Kenny Dalglish returned in January 2011.",
+      "honours": [],
+      "keyPlayers": [
+        "Steven Gerrard",
+        "Fernando Torres",
+        "Raul Meireles"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Roy Hodgson",
+          "url": "https://www.liverpoolfc.com/info/roy-hodgson",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Roy Hodgson",
+          "url": "https://www.lfchistory.net/managers/22",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        }
+      ]
+    },
+    {
+      "id": "kenny-dalglish-2011-2012",
+      "manager": "Kenny Dalglish",
+      "startDate": "2011-01-08",
+      "endDate": "2012-05-16",
+      "initials": "KD",
+      "summary": "Dalglish returned to steady Liverpool and brought silverware back to Anfield. The 2012 League Cup ended a six-year wait for a trophy.",
+      "context": "Torres left as Luis Suárez and Andy Carroll arrived in January 2011. Liverpool won the League Cup on penalties against Cardiff and also reached the 2012 FA Cup final, but finished eighth in the league.",
+      "honours": [
+        {
+          "name": "League Cup",
+          "years": [
+            "2012"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "Steven Gerrard",
+        "Luis Suárez",
+        "Andy Carroll",
+        "Dirk Kuyt",
+        "Jordan Henderson"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Kenny Dalglish",
+          "url": "https://www.liverpoolfc.com/info/kenny-dalglish-second-spell",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Kenny Dalglish",
+          "url": "https://www.lfchistory.net/managers/24",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "LFC: April 2012 team context",
+          "url": "https://www.liverpoolfc.com/news/first-team/118704-i-ve-never-known-anything-like-it",
+          "confidence": "high",
+          "claims": "Kuyt and Henderson playing under Dalglish in 2012."
+        }
+      ],
+      "tenureLabel": "Second spell"
+    },
+    {
+      "id": "brendan-rodgers",
+      "manager": "Brendan Rodgers",
+      "startDate": "2012-06-01",
+      "endDate": "2015-10-04",
+      "initials": "BR",
+      "summary": "A thrilling title challenge defined Rodgers’ time at Anfield. Suárez, Sturridge and a young attacking side took Liverpool to second place in 2013–14.",
+      "context": "Rodgers arrived from Swansea with an emphasis on possession and developing players. The additions of Daniel Sturridge and Philippe Coutinho helped transform the attack. Rebuilding after Suárez’s departure proved difficult, and Rodgers left in October 2015.",
+      "honours": [],
+      "keyPlayers": [
+        "Luis Suárez",
+        "Daniel Sturridge",
+        "Steven Gerrard",
+        "Philippe Coutinho",
+        "Raheem Sterling"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Brendan Rodgers",
+          "url": "https://www.liverpoolfc.com/info/brendan-rodgers",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Brendan Rodgers",
+          "url": "https://www.lfchistory.net/managers/25",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "LFC: Raheem Sterling",
+          "url": "https://www.liverpoolfc.com/info/raheem-sterling",
+          "confidence": "high",
+          "claims": "Sterling’s emergence under Rodgers and the 2013–14 title challenge."
+        }
+      ]
+    },
+    {
+      "id": "jurgen-klopp",
+      "manager": "Jürgen Klopp",
+      "startDate": "2015-10-08",
+      "endDate": "2024-05-19",
+      "initials": "JK",
+      "summary": "European champions, world champions, then champions of England. Klopp’s pressing game and connection with supporters helped return Liverpool to the top.",
+      "context": "The 2019 Champions League was followed by Liverpool’s first league title in 30 years in 2020. Domestic cups followed in 2022 and 2024. Salah, Mané and Firmino led the attack, with Van Dijk and Alisson transforming the defence.",
+      "honours": [
+        {
+          "name": "Champions League",
+          "years": [
+            "2019"
+          ]
+        },
+        {
+          "name": "Premier League",
+          "years": [
+            "2019–20"
+          ]
+        },
+        {
+          "name": "FIFA Club World Cup",
+          "years": [
+            "2019"
+          ]
+        },
+        {
+          "name": "FA Cup",
+          "years": [
+            "2022"
+          ]
+        },
+        {
+          "name": "League Cup",
+          "years": [
+            "2022",
+            "2024"
+          ]
+        },
+        {
+          "name": "UEFA Super Cup",
+          "years": [
+            "2019"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "Mohamed Salah",
+        "Sadio Mané",
+        "Roberto Firmino",
+        "Virgil van Dijk",
+        "Alisson Becker",
+        "Trent Alexander-Arnold"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Jürgen Klopp",
+          "url": "https://www.liverpoolfc.com/info/jurgen-klopp",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Jürgen Klopp",
+          "url": "https://www.lfchistory.net/managers/28",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "Liverpool FC · Slot’s appointment",
+          "url": "https://www.liverpoolfc.com/news/arne-slot-become-liverpool-fcs-new-head-coach",
+          "confidence": "high",
+          "claims": "Slot’s formal start: 1 June 2024."
+        }
+      ],
+      "dateNote": "The match-era boundary is Klopp’s final game, 19 May 2024. LFChistory lists a later contract expiry; Slot formally took up the role on 1 June."
+    },
+    {
+      "id": "arne-slot",
+      "manager": "Arne Slot",
+      "startDate": "2024-06-01",
+      "endDate": "2026-05-30",
+      "initials": "AS",
+      "summary": "Slot won Liverpool’s twentieth league title in his first season. His two-year spell began with a successful transition from Klopp’s team.",
+      "context": "The 2024–25 Premier League title was the defining achievement of Slot’s tenure. He had arrived from Feyenoord and formally started on 1 June 2024. Liverpool announced his departure with immediate effect on 30 May 2026.",
+      "honours": [
+        {
+          "name": "Premier League",
+          "years": [
+            "2024–25"
+          ]
+        }
+      ],
+      "keyPlayers": [
+        "Mohamed Salah",
+        "Virgil van Dijk",
+        "Ryan Gravenberch",
+        "Alexis Mac Allister",
+        "Cody Gakpo"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Arne Slot",
+          "url": "https://www.liverpoolfc.com/info/arne-slot",
+          "confidence": "high",
+          "claims": "Managerial years, era overview and honours."
+        },
+        {
+          "label": "LFChistory · Arne Slot",
+          "url": "https://www.lfchistory.net/managers/29",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "Liverpool FC · Slot’s appointment",
+          "url": "https://www.liverpoolfc.com/news/arne-slot-become-liverpool-fcs-new-head-coach",
+          "confidence": "high",
+          "claims": "Formal start: 1 June 2024."
+        },
+        {
+          "label": "Liverpool FC · Slot’s departure",
+          "url": "https://www.liverpoolfc.com/news/liverpool-fc-statement-13",
+          "confidence": "high",
+          "claims": "Immediate departure: 30 May 2026."
+        },
+        {
+          "label": "LFC: February 2025 team news",
+          "url": "https://www.liverpoolfc.com/news/manchester-city-v-liverpool-team-news-3",
+          "confidence": "high",
+          "claims": "Gakpo, Gravenberch and Mac Allister in Slot’s squad."
+        }
+      ]
+    },
+    {
+      "id": "andoni-iraola",
+      "manager": "Andoni Iraola",
+      "startDate": "2026-06-04",
+      "endDate": null,
+      "initials": "AI",
+      "summary": "Iraola arrived from Bournemouth in June 2026 to begin Liverpool’s next chapter, bringing an approach built around aggressive pressing and attacking football.",
+      "context": "Appointed ahead of the 2026–27 season, Iraola succeeded Arne Slot after three seasons at Bournemouth. This is an era still taking shape; the players listed are part of his early Liverpool side.",
+      "honours": [],
+      "keyPlayers": [
+        "Virgil van Dijk",
+        "Alexis Mac Allister",
+        "Florian Wirtz",
+        "Alexander Isak"
+      ],
+      "sources": [
+        {
+          "label": "Liverpool FC · Andoni Iraola",
+          "url": "https://www.liverpoolfc.com/team/mens/staff/andoni-iraola",
+          "confidence": "high",
+          "claims": "Current head coach and coaching background, checked 7 September 2026."
+        },
+        {
+          "label": "LFChistory · Andoni Iraola",
+          "url": "https://www.lfchistory.net/managers/30",
+          "confidence": "high",
+          "claims": "Appointment, departure and historical context."
+        },
+        {
+          "label": "Liverpool FC · honours",
+          "url": "https://www.liverpoolfc.com/info/honours",
+          "confidence": "high",
+          "claims": "Competition winners and seasons; counts exclude Charity/Community Shields from major honours."
+        },
+        {
+          "label": "Liverpool FC · Iraola’s appointment",
+          "url": "https://www.liverpoolfc.com/news/liverpool-fc-appoint-andoni-iraola-new-head-coach",
+          "confidence": "high",
+          "claims": "Appointment announced 4 June 2026."
+        },
+        {
+          "label": "Liverpool FC · early Iraola line-up",
+          "url": "https://www.liverpoolfc.com/news/confirmed-liverpool-line-v-ipswich-town-1",
+          "confidence": "high",
+          "claims": "Players in the early 2026–27 side, 4 September 2026."
+        }
+      ],
+      "tenureLabel": "Current head coach",
+      "playersLabel": "Early squad"
+    }
+  ]
+}
