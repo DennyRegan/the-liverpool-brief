@@ -1,5 +1,5 @@
 ---
-title: "Liverpool 9 Crystal Palace 0: the last great night of the last great team"
+title: "Liverpool 9–0 Crystal Palace: nine goals and a farewell to Aldridge"
 date: "2026-09-03"
 historicalEventDate: "1989-09-12"
 historicalPeriod: "12 September 1989"
