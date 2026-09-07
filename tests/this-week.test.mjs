@@ -52,6 +52,24 @@ test('optional image and archive link validate; neither is required', () => {
   assert.ok(HistoryEventSchema.safeParse(fields).success);
   assert.ok(HistoryEventSchema.safeParse({ ...fields, archiveSlug: 'test-archive', image: { src: '/images/test.png', alt: 'Test image', width: 800, height: 500 } }).success);
 });
+test('approved artwork windows stay inside their source image', () => {
+  const image = { src: '/images/history/approved.png', alt: 'Illustration', width: 1024, height: 1536, kind: 'illustration', crop: { x: 220, y: 163, width: 284, height: 314 } };
+  assert.ok(HistoryEventSchema.safeParse({ ...fields, image }).success);
+  for (const crop of [
+    { ...image.crop, x: -1 }, { ...image.crop, width: 0 },
+    { ...image.crop, x: 1000 }, { ...image.crop, y: 1500 },
+  ]) assert.equal(HistoryEventSchema.safeParse({ ...fields, image: { ...image, crop } }).success, false);
+  assert.equal(HistoryEventSchema.safeParse({ ...fields, image: { ...image, kind: 'archive photograph' } }).success, false);
+});
+test('approved September illustrations stay attached to the correct recurring events', () => {
+  const events = getHistoryEvents();
+  const week = getHistoryWindow(events, new Date('2026-09-06T12:00:00Z'));
+  const illustrated = week.flatMap(day => day.events).filter(event => event.image?.kind === 'illustration');
+  assert.deepEqual(illustrated.map(event => event.day), [6, 7, 9, 10, 11, 12]);
+  assert.equal(week[2].events.length, 0);
+  assert.equal(illustrated.find(event => event.day === 12).archiveSlug, 'liverpool-9-crystal-palace-0');
+  assert.ok(illustrated.every(event => event.image.crop && event.source.startsWith('https://')));
+});
 test('invalid dates, sources, images and article references are rejected', () => {
   for (const data of [
     { ...fields, source: undefined }, { ...fields, source: 'javascript:alert(1)' },

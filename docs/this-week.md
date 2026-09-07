@@ -1,22 +1,18 @@
-## Updated layout
-
-Navigation is Home / Articles / This Week / About. Articles combines Opinion and Archive with All / Opinion / Archive buttons. The homepage shows the three newest pieces across both collections. Existing standalone URLs are retained.
-
-This Week shows matching Archive articles once under Further reading at the bottom. Add historicalEventDate: "1989-09-12" to an Archive article published in advance: its month/day automatically selects it when that date is in the rolling UK seven-day window. Publication date stays separate. Manual archiveSlug references still work and are consolidated in Further reading, without duplicate cards. Undated, unlinked articles stay in Articles but do not appear in Further reading.
-
 # This Week in Liverpool History
 
-## What was built
+## Current behaviour
 
-`/this-week` shows today and the next six dates, in Europe/London time. Each date shows zero, one or multiple historical events. Empty dates have a small “No entry yet” line. No events have been invented or seeded into production.
+`/this-week` displays today plus six following dates in Europe/London time. The existing site header, navigation, homepage, History Explorer, article system and URLs are unchanged by the illustrated-card feature.
 
-Navigation is Home | Articles | This Week | Archive | About. Archive remains separate and currently empty; the withdrawn AI articles have not been restored. Existing Archive route templates, match/person/season behaviour and full-article URLs are retained for Denny’s future writing. The Brief remains at `/brief`, linked in the footer and About. Home keeps the latest three opinion articles and Articles keeps the full collection.
+Each saved event appears on its month/day each year. Events are stored once in `content/this-week/liverpool/`. Multiple events on a date are ordered by historical year and filename. Empty dates have a small “No event selected” line and never become empty viewer slides.
 
-## Add an event
+The overview uses the approved red, black and off-white card style: two columns on larger screens, one on a phone. Tap the artwork to open its individual story. A native modal dialog fills the phone viewport, with scrollable artwork and readable webpage text. Swipes, Previous/Next buttons and keyboard arrows move between events. Close, Escape or the browser Back button return to the overview and restore the reader's position. Keyboard focus stays inside the open dialog and returns to the card on closing. There is no autoplay, timer, account or database.
 
-Create one `.md` file in `content/this-week/liverpool/`, using a descriptive unique filename such as `1989-09-12-crystal-palace.md`.
+Source links and optional full-article links remain accessible in both views. Further reading still appears beneath the week. The page references canonical Archive articles; it never copies their full text.
 
-This is an illustrative template using the event supplied in the request, not a verified research entry. Replace the summary and source with your own verified content before publishing. The placeholder source is not evidence.
+## Content format
+
+Create a descriptive `.md` filename, for example `1989-09-12-crystal-palace.md`. All short-entry content belongs in frontmatter, with no article body beneath it. JSON frontmatter and YAML are both supported by the existing loader.
 
 ```yaml
 ---
@@ -24,95 +20,66 @@ month: 9
 day: 12
 year: 1989
 title: "Liverpool 9–0 Crystal Palace"
-summary: "Replace this with your short, verified summary."
-source: "https://example.com/replace-with-verified-source"
+summary: "Use a concise, verified factual summary."
+source: "https://example.com/replace-with-the-retrieved-source"
+archiveSlug: "liverpool-9-crystal-palace-0"
+image:
+  src: "/images/history/palace-1989.webp"
+  alt: "Describe what this image actually shows."
+  width: 1200
+  height: 1600
+  kind: "illustration"
 ---
 ```
 
-All event text belongs between the `---` lines (the frontmatter). Do not put a full article underneath. The filename identifies the entry, so multiple files can share the same month and day. They appear oldest historical year first, then filename for ties.
+This is a format example; replace the placeholder source with the verified source and add the actual image file. `image` and `archiveSlug` are optional. A text-only entry remains usable in both views without a blank image area. The full article must already exist at `content/archive/liverpool/<archiveSlug>.md`.
 
-Enter each event once. It is eligible every year on its month/day. There is no annual duplication, content generation or research service.
+An Archive article's optional `historicalEventDate: "1989-09-12"` automatically surfaces it under Further reading when that month/day is displayed. `date` remains its publication date. Explicit `archiveSlug` references also work and are deduplicated under Further reading.
 
-## Add an image
+## Approved illustrations, 6–12 September 2026
 
-Place a JPG, PNG, WebP, AVIF or GIF in `public/images/history/`. Add this optional block inside the event frontmatter, with the actual image dimensions in pixels:
+Denny approved the supplied composite design and authorised publication on 7 September. Its approved artwork is saved in an optimised WebP at `public/images/history/approved-september-06-12.webp`. The six selected events use different windows onto this image, avoiding regenerated pictures or embedded poster wording. Their historical titles, dates, summaries and sources still come from the event files.
+
+The optional `image.crop` specifies an original-pixel rectangle:
 
 ```yaml
 image:
-  src: "/images/history/palace-1989.jpg"
-  alt: "Describe what the photograph actually shows."
-  width: 1200
-  height: 800
+  src: "/images/history/approved-september-06-12.webp"
+  alt: "Illustration of celebrating Liverpool players in late-1980s red kits."
+  width: 1024
+  height: 1536
+  kind: "illustration"
+  crop:
+    x: 440
+    y: 1122
+    width: 567
+    height: 343
 ```
 
-The `/images/` URL corresponds to the `public/images/` folder. Dimensions reserve space while the image loads; alternative text describes it for people using screen readers. Next.js handles responsive image delivery. With no image block, no image space is rendered. Remote images are not required and do not introduce an external service.
+`HistoryArtwork` renders that window using an SVG viewBox; the picture content stays unchanged. Next's image optimiser serves the shared image. New standalone illustrations do not need `crop`; the regular responsive Next Image component handles them. Use real dimensions and keep each crop inside its source image. `kind: illustration` displays an illustration label. Optional `kind: photograph` is for an actual photograph, with its provenance checked. Never present generated scenes as verified archival photographs.
 
-## Link an Archive article
+The 6 September entry remains saved for its next annual appearance even after it leaves the rolling window. Do not freeze the live date range at 6–12 September merely to show the full concept board. The current seven-day date calculation continues normally.
 
-Publish the full article normally in `content/archive/liverpool/`. For a file called `liverpool-9-0-crystal-palace-1989.md`, add:
+## Future illustration workflow — mandatory editorial approval
 
-```yaml
-archiveSlug: "liverpool-9-0-crystal-palace-1989"
-```
+1. Research the next dates using retrieved reliable sources; verify exact day, month and year. Choose the strongest event by default; add another only when independently worthwhile. Leave weak dates empty.
+2. Reuse existing events and approved images whenever possible. Prepare a distinct illustration for a newly selected event using the approved design above. Use the image-generation capability for new artwork; do not invent historical facts, score text or source URLs in images.
+3. Keep the reusable card and viewer layout unchanged. The new image should normally be portrait, with room for the subject when the card crops it. Add the image, its dimensions, descriptive alternative text and `kind: illustration` to the actual event frontmatter.
+4. Save proposed new or changed illustrations on an isolated feature branch and draft pull request. Uploading this branch to create a Vercel preview is authorised.
+5. Validate the content, build, and check both the overview and full-screen viewer on a phone-sized viewport. Give Denny the working website preview to review.
+6. Wait for Denny's explicit approval of those future illustrations before merging or promoting them to production. Never enable automatic merging of illustration changes. Verified text-only event updates may continue under the existing publishing authorisation, without unapproved artwork.
+7. If image generation or preview deployment is unavailable, report that limitation. Do not claim a preview or illustrations exist when they do not.
 
-This renders “Read the full story →” linking to `/archive/liverpool-9-0-crystal-palace-1989`. The slug is the filename without `.md`. Only that reference is stored in the event; the full body stays in Archive. Omit archiveSlug when there is no article. A misspelled reference fails validation instead of publishing a broken link.
+The existing “Liverpool history content” scheduled task contains this workflow. Denny writes all long-form Opinion and Archive articles; the task must not write or alter them.
 
-## Add historicalEventDate
+## Engineering and checks
 
-Keep the existing Archive frontmatter format. Add one optional ISO date (year-month-day). Quote both dates so YAML treats them as strings:
+- `lib/content/this-week.ts` loads and validates local Markdown/frontmatter. Zod checks real dates, HTTP(S) sources, local image paths, positive dimensions, optional artwork crop bounds and safe article slugs. The loader verifies image and Archive files exist. Errors name the offending file.
+- `getHistoryWindow` derives London's calendar day and then adds UTC calendar dates, avoiding daylight-saving drift. The month/day match preserves historical years. Leap-day entries only match an actual 29 February.
+- The page renders on each request. Refresh an overnight tab to see the next window; there is no background polling.
+- `HistoryWeek` contains viewer state and browser interactions. It receives serialisable events from the server; filesystem and validation code never enter the client bundle.
+- `HistoryEventCard` is shared across all events. `HistoryArtwork` displays either a standalone image or the relevant approved artwork window.
 
-```yaml
----
-title: "Liverpool 9–0 Crystal Palace"
-date: "2026-09-05"
-historicalEventDate: "1989-09-12"
-historicalPeriod: "September 1989"
-decade: "1980s"
-excerpt: "Replace this with your own article introduction."
-category: "match"
----
+Run `npm test`, `npm run lint` and `npm run build`. Run the production server with `npm start -- --port 3100`, then open `/this-week`.
 
-Your complete article goes here, once.
-```
-
-`date` is the publication date already used by the site; it is not renamed. `historicalEventDate` records the historical event. Existing Archive articles without it are valid without editing. Match/person/season metadata remains unchanged.
-
-## How the seven-day window works
-
-The server obtains today’s calendar date in Europe/London. It then creates seven consecutive calendar dates, adding 0–6 days. UTC calendar arithmetic avoids daylight-saving time jumps. Month and year boundaries advance naturally. Events match only the displayed month/day; their historical year stays unchanged. A 29 February event appears in leap-year windows containing 29 February, not on another day in non-leap years.
-
-The page renders on each request rather than being frozen at build time. Reloading or opening it on the next day shows the next window. A page left open overnight needs refreshing; there is no background polling.
-
-## Validation and engineering decisions
-
-Zod is the repository’s existing content validator. It checks required fields, numeric bounds, actual historical calendar dates, HTTP(S) sources, image fields and safe Archive slugs. The loader checks that referenced image and Archive files exist. Errors name the `.md` file. `npm run build` validates every event, including those outside the current window, before Next.js compiles. The existing Archive validator also checks the optional historicalEventDate.
-
-Events use the same local Markdown/frontmatter pattern as the rest of the site. No database, CMS, accounts, extra dependencies or external history service is needed. The pure date-selection function accepts a supplied clock in tests, so dates can be tested without changing the system clock.
-
-The optional historicalEventDate is enough for later month/day matching of Archive metadata. No automatic Archive scanning has been built. Manual references already use permanent Archive slugs, so full content will not need moving or duplicating later.
-
-## Exact manual checks
-
-1. Open the preview’s `/this-week` page. Expect the heading, today through six days later, and seven small dated sections.
-2. Tap each navigation link on your phone. Expect Home, Articles, This Week, Archive and About to fit in one row. The Brief is in the footer.
-3. On Home, expect three articles. On Articles, expect all nine original opinion pieces. Archive has no replacement articles until you publish them.
-4. To verify an entry, add a verified `.md` file as shown above with a month/day inside the displayed window. Run `npm run build`; expect “Validated 1 history entries” and a successful build. Open the preview again and expect the short event under that date, with its original year and source link.
-5. Add another entry file with the same month/day. Both should display under one date heading.
-6. Without image or archiveSlug fields, expect no image box and no full-story link.
-7. Add the actual image block and file. Expect a responsive image without distortion or horizontal scrolling.
-8. Add a valid archiveSlug. Tap “Read the full story”; expect the standalone Archive article and its full body. The short event must not contain that body.
-9. Keep one Archive article without historicalEventDate and another with it. Both should open normally. The first date remains publication metadata; the historical date does not change publication ordering.
-10. Run `npm test`, `npm run lint`, and `npm run build`. Invalid dates or missing referenced files should produce an error naming the relevant content file.
-
-These are checks you can use if you want to learn the workflow; the implementation and automated verification are handled by the engineer.
-
-
-## Verification completed
-
-- 10 Node tests pass: date movement, multiple/empty dates, annual recurrence, month/year boundaries, London midnight/DST, leap days, optional images/links, invalid content, Archive backward compatibility, missing-reference errors.
-- ESLint and production build (including TypeScript) pass. All ten original Archive files also pass the new schema unchanged, without restoring them to the site.
-- Chromium browser checks at 320, 390, 768 and 1440 pixels verified two same-day entries, image decoding, optional links, one-row navigation, and no horizontal overflow.
-- Clicked the full-story link and opened Archive fixtures both with and without historicalEventDate.
-- Checked Home, Articles, Archive, its existing subsections, About and Brief. Home has three articles; Articles retains nine. No browser page errors.
-- Inspected phone and desktop screenshots. Test entries and images were temporary and removed before the final build.
-- Physical iPhone/Safari testing was not performed; browser verification used Chromium at responsive viewport sizes.
+Manual checks: open each illustrated event; swipe, use both arrows, close and reopen; press Escape and Back; use Tab to check focus remains inside the viewer; follow the Palace full-story link and return; scroll long text; check a text-only event; confirm empty dates are skipped and sources remain visible. On a phone, the viewer should fill the available screen, keep Close and arrows accessible, and avoid horizontal scrolling.

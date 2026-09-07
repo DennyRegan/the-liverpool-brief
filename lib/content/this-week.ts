@@ -16,7 +16,18 @@ export const HistoryEventSchema = z.object({
     alt: z.string().trim().min(1),
     width: z.number().int().positive(),
     height: z.number().int().positive(),
-  }).optional(),
+    kind: z.enum(["illustration", "photograph"]).optional(),
+    // Reuse an approved contact sheet without redrawing any of its artwork.
+    crop: z.object({
+      x: z.number().int().nonnegative(),
+      y: z.number().int().nonnegative(),
+      width: z.number().int().positive(),
+      height: z.number().int().positive(),
+    }).strict().optional(),
+  }).strict().refine(image => !image.crop || (
+    image.crop.x + image.crop.width <= image.width &&
+    image.crop.y + image.crop.height <= image.height
+  ), { message: "The artwork crop must fit inside the image", path: ["crop"] }).optional(),
   archiveSlug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Use the Archive filename without .md").optional(),
 }).strict().refine(event => {
   const date = new Date(`${String(event.year).padStart(4, "0")}-${String(event.month).padStart(2, "0")}-${String(event.day).padStart(2, "0")}T12:00:00Z`);
