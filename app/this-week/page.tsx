@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { getArchiveFeatures } from "@/lib/content/archive";
 import { SiteHeader } from "@/app/components/SiteHeader";
-import { HistoryEventCard } from "@/app/components/HistoryEventCard";
+import { HistoryWeek } from "@/app/components/HistoryWeek";
 import { getHistoryEvents, getHistoryWindow, getWeekReading } from "@/lib/content/this-week";
+import "./this-week.css";
 
 export const metadata = {
   title: "This Week in Liverpool History | The Liverpool Brief",
@@ -17,10 +18,7 @@ export default function ThisWeekPage() {
   return <><SiteHeader active="this-week" /><main id="main-content" className="reading-page history-page">
     <h1>This Week in Liverpool History</h1>
     <p className="history-range"><time dateTime={days[0].iso}>{days[0].label}</time> – <time dateTime={days[6].iso}>{days[6].label}</time></p>
-    {days.map(day => <section key={day.iso} aria-labelledby={`day-${day.iso}`} className="history-section">
-      <h2 id={`day-${day.iso}`}><time dateTime={day.iso}>{day.label}</time><span>{day.weekday}</span></h2>
-      {day.events.length ? day.events.map(event => <HistoryEventCard key={event.slug} event={event} />) : <p className="history-empty">No entry yet</p>}
-    </section>)}
+    <HistoryWeek days={days} />
     {reading.length > 0 && <section className="history-section" aria-labelledby="further-reading">
       <h2 id="further-reading">Further reading</h2>
       <p className="history-summary">Longer stories from this week in Liverpool history.</p>
