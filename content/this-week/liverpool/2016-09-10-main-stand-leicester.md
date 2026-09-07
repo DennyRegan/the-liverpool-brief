@@ -13,9 +13,9 @@
     "height": 1536,
     "kind": "illustration",
     "crop": {
-      "x": 220,
+      "x": 257,
       "y": 817,
-      "width": 284,
+      "width": 247,
       "height": 289
     }
   }
