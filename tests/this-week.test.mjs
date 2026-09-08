@@ -61,14 +61,14 @@ test('approved artwork windows stay inside their source image', () => {
   ]) assert.equal(HistoryEventSchema.safeParse({ ...fields, image: { ...image, crop } }).success, false);
   assert.equal(HistoryEventSchema.safeParse({ ...fields, image: { ...image, kind: 'archive photograph' } }).success, false);
 });
-test('approved September illustrations stay attached to the correct recurring events', () => {
+test('history remains text-only while preserving recurring events and Archive links', () => {
   const events = getHistoryEvents();
   const week = getHistoryWindow(events, new Date('2026-09-06T12:00:00Z'));
-  const illustrated = week.flatMap(day => day.events).filter(event => event.image?.kind === 'illustration');
-  assert.deepEqual(illustrated.map(event => event.day), [6, 7, 9, 10, 11, 12]);
+  const selected = week.flatMap(day => day.events);
+  assert.deepEqual(selected.map(event => event.day), [6, 7, 9, 10, 11, 12]);
   assert.equal(week[2].events.length, 0);
-  assert.equal(illustrated.find(event => event.day === 12).archiveSlug, 'liverpool-9-crystal-palace-0');
-  assert.ok(illustrated.every(event => event.image.crop && event.source.startsWith('https://')));
+  assert.equal(selected.find(event => event.day === 12).archiveSlug, 'liverpool-9-crystal-palace-0');
+  assert.ok(events.every(event => !event.image && event.source.startsWith('https://')));
 });
 test('invalid dates, sources, images and article references are rejected', () => {
   for (const data of [

@@ -3,7 +3,6 @@ import { getArchiveFeatures } from "@/lib/content/archive";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { HistoryWeek } from "@/app/components/HistoryWeek";
 import { getHistoryEvents, getHistoryWindow, getWeekReading } from "@/lib/content/this-week";
-import "./this-week.css";
 
 export const metadata = {
   title: "This Week in Liverpool History | The Liverpool Brief",
