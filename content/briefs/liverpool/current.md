@@ -1,10 +1,39 @@
 ---
 {
-  "lastUpdated": "2026-09-08T08:00:01.556Z",
+  "lastUpdated": "2026-09-08T17:04:08.472Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
+    {
+      "headline": "Mac Allister disappointed by lack of contract offer",
+      "category": "Club",
+      "summary": "Alexis Mac Allister said on 8 September that Liverpool had told him they were not in a position to offer a new contract. He has two years remaining on his current deal. Despite opportunities to leave this summer, he chose to stay and reaffirmed his commitment to the club.",
+      "sources": [
+        {
+          "name": "Reuters — confidence: high",
+          "platform": "Press conference report, 8 September 2026",
+          "url": "https://www.reuters.com/sports/soccer/liverpools-mac-allister-very-sad-not-receive-new-contract-offer-2026-09-08/"
+        },
+        {
+          "name": "Sky Sports — confidence: high",
+          "platform": "Press conference coverage, 8 September 2026",
+          "url": "https://www.skysports.com/football/video/30998/13583168/alexis-mac-allister-drops-liverpool-contract-bombshell-admitting-hes-very-sad-to-not-receive-a-new-one"
+        }
+      ]
+    },
+    {
+      "headline": "Turkish Airlines to replace Standard Chartered on Liverpool shirts",
+      "category": "Club",
+      "summary": "Liverpool have announced Turkish Airlines as their main shirt sponsor from the 2027–28 season. The partnership begins on 1 June 2027, ending Standard Chartered’s 17-year spell in the role. Standard Chartered will remain associated with the club as a global partner.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official club announcement, 8 September 2026",
+          "url": "https://www.liverpoolfc.com/news/liverpool-fc-announces-turkish-airlines-main-club-partner-2027-28-season"
+        }
+      ]
+    },
     {
       "headline": "Hughes joins Al-Hilal; Liverpool seek successor",
       "category": "Club",
@@ -19,35 +48,6 @@
           "name": "Liverpool FC — confidence: high",
           "platform": "Official club statement",
           "url": "https://www.liverpoolfc.com/news/liverpool-fc-statement-14"
-        }
-      ]
-    },
-    {
-      "headline": "Isak double delivers first win under Iraola",
-      "category": "Match",
-      "summary": "Liverpool beat Ipswich 2–0 on Friday, with Cody Gakpo setting up both early Alexander Isak goals. The Reds have five points from three league games. Bradley Barcola made his debut from the bench. Alisson's 138th Liverpool clean sheet moved him into outright fourth on the club's all-time list.",
-      "sources": [
-        {
-          "name": "Liverpool FC match report — confidence: high",
-          "platform": "Official club website",
-          "url": "https://www.liverpoolfc.com/news/alexander-isak-scores-twice-secure-liverpool-win-ipswich"
-        },
-        {
-          "name": "Liverpool FC Alisson milestone — confidence: high",
-          "platform": "Official club website",
-          "url": "https://www.liverpoolfc.com/news/alisson-becker-takes-fourth-spot-outright-lfcs-clean-sheet-list"
-        }
-      ]
-    },
-    {
-      "headline": "Atlético visit begins busy run at Anfield",
-      "category": "Up next",
-      "summary": "Liverpool host Atlético Madrid in the Champions League on Wednesday 9 September. It starts a run of three home matches in three competitions within a week. Milos Kerkez says Liverpool must build on the Ipswich win while preparing for games every few days.",
-      "sources": [
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official club interview",
-          "url": "https://www.liverpoolfc.com/news/milos-kerkez-happy-win-now-we-have-be-ready-every-three-days"
         }
       ]
     }
