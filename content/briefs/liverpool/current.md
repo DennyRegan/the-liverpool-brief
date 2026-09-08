@@ -1,6 +1,6 @@
 ---
 {
-  "lastUpdated": "2026-09-08T17:04:08.472Z",
+  "lastUpdated": "2026-09-08T17:06:49.094Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
@@ -48,6 +48,18 @@
           "name": "Liverpool FC — confidence: high",
           "platform": "Official club statement",
           "url": "https://www.liverpoolfc.com/news/liverpool-fc-statement-14"
+        }
+      ]
+    },
+    {
+      "headline": "Atlético visit begins busy run at Anfield",
+      "category": "Up next",
+      "summary": "Liverpool host Atlético Madrid in the Champions League on Wednesday 9 September. It starts a run of three home matches in three competitions within a week. Milos Kerkez says Liverpool must build on the Ipswich win while preparing for games every few days.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official club interview",
+          "url": "https://www.liverpoolfc.com/news/milos-kerkez-happy-win-now-we-have-be-ready-every-three-days"
         }
       ]
     }
