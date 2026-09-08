@@ -1,15 +1,20 @@
 ---
 {
-  "lastUpdated": "2026-09-06T10:48:35.487Z",
+  "lastUpdated": "2026-09-08T08:00:01.556Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
     {
-      "headline": "Richard Hughes steps down; successor search begins",
+      "headline": "Hughes joins Al-Hilal; Liverpool seek successor",
       "category": "Club",
-      "summary": "Liverpool confirmed on 5 September that Richard Hughes has left his sporting director role after asking to pursue a new challenge. The club says the process of appointing his successor is under way.",
+      "summary": "Richard Hughes has joined Al-Hilal as sporting director following his departure from Liverpool. He took up the role on Sunday 6 September. Liverpool have begun the process of appointing his replacement.",
       "sources": [
+        {
+          "name": "Associated Press — confidence: high",
+          "platform": "AP report via Times Union, 7 September 2026",
+          "url": "https://www.timesunion.com/sports/article/al-hilal-hires-richard-hughes-as-sporting-22420539.php"
+        },
         {
           "name": "Liverpool FC — confidence: high",
           "platform": "Official club statement",
