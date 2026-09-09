@@ -116,7 +116,8 @@
       "detail": "Both summer recruits played in the 2–0 opening-day win at Bristol Rovers, the first of 11 unbeaten league matches.",
       "sourceIds": [
         "lfchistory-results",
-        "lfc-lewis-promotion"
+        "lfchistory-st-john",
+        "lfchistory-yeats"
       ],
       "date": "1961-08-19",
       "personIds": [
@@ -230,7 +231,7 @@
       "label": "LFChistory: Ian St John profile",
       "url": "https://lfchistory.net/players/419",
       "confidence": "high",
-      "claims": "2 May 1961 signing from Motherwell for £37,500, August competitive debut and scoring breakdown."
+      "claims": "2 May 1961 signing from Motherwell for £37,500, competitive debut at Bristol Rovers on 19 August 1961 and scoring breakdown."
     },
     {
       "id": "motherwell-st-john",
@@ -244,7 +245,7 @@
       "label": "LFChistory: Ron Yeats profile",
       "url": "https://www.lfchistory.net/players/450",
       "confidence": "high",
-      "claims": "22 July 1961 Dundee United transfer for £22,000 and first-season appearances."
+      "claims": "22 July 1961 Dundee United transfer for £22,000, competitive debut at Bristol Rovers on 19 August 1961 and first-season appearances."
     },
     {
       "id": "lfc-yeats",
