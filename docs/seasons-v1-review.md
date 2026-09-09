@@ -2,7 +2,7 @@
 
 Ready for review on branch `feature/history-seasons-v1`, based on main commit `2e3bfd8`. Nothing has been merged, pushed or deployed. The local preview is at [History → Seasons](http://127.0.0.1:3140/history/seasons).
 
-Seasons adds a chronological index and ten permanent reference pages, from 1959–60 to 1968–69. History Explorer remains available through its existing URL and all sixteen era pages. Both areas now share a clear History navigation switch. Each season has structured facts, its own narrative, significant transfers, relevant people and events, related seasons, and expandable sources and historical notes. The pages explicitly identify the work as AI-assisted historical reference material.
+Seasons adds a chronological index and ten permanent reference pages, from 1959–60 to 1968–69. History Explorer remains available through its existing URL and all sixteen era pages. Both areas now share a clear History navigation switch. Each season has structured facts, its own narrative, significant transfers, relevant people and events, related seasons, and expandable sources and historical notes. The pages identify the work as historical reference material and distinguish it from the editor’s original Archive writing.
 
 ## Routes
 

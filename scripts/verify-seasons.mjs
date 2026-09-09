@@ -37,7 +37,7 @@ try {
     assert.equal((main.match(/<h1[ >]/g) ?? []).length, 1);
     assert.ok(html.includes(`href="https://theliverpoolbrief.com${route}"`), 'canonical URL');
     for (const heading of ['Season overview', 'Key players', 'Transfers in', 'Transfers out', 'Important connections', 'Sources &amp; historical notes']) assert.ok(main.includes(heading), `${route}: ${heading}`);
-    assert.match(main, /AI-assisted historical reference/);
+    assert.match(main, /A historical reference entry/);
     for (const kind of ['domestic', 'europe', 'other']) assert.equal(main.includes(`id="competition-${kind}"`), season.competitions.some(c => c.kind === kind), `${route}: only entered competitions`);
     for (const source of season.sources) assert.ok(main.includes(`id="source-${source.id}"`), `${route}: source ${source.id}`);
     const expectedArchive = getSeasonArchiveArticles(season.season, archive).map(a => a.slug);

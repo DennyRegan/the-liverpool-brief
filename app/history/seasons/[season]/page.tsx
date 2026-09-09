@@ -61,7 +61,7 @@ export default async function SeasonPage({ params }: Props) {
       <header className="season-header">
         <p className="eyebrow">Liverpool · Season reference</p>
         <h1>{seasonLabel(id)}</h1>
-        <p className="season-editorial-note">An AI-assisted historical reference entry. Original long-form writing appears in <Link href="/articles?category=archive">the Archive</Link>.</p>
+        <p className="season-editorial-note">A historical reference entry. Original long-form writing appears in <Link href="/articles?category=archive">the Archive</Link>.</p>
       </header>
       <nav className="season-jump" aria-label="On this season page">
         <a href="#season-overview">Overview</a><a href="#season-transfers">Transfers</a><a href="#season-connections">Connections</a><a href="#season-sources">Sources</a>

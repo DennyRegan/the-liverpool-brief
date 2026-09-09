@@ -21,7 +21,7 @@ export default function SeasonsPage() {
         <p className="eyebrow">Liverpool history · Season by season</p>
         <h1>Seasons</h1>
         <p className="hx-standfirst">From Bill Shankly&apos;s first season to the present day, follow Liverpool&apos;s story season by season.</p>
-        <p className="season-editorial-note">Historical reference entries, researched with AI assistance. For the editor&apos;s original long-form writing, visit <Link href="/articles?category=archive">the Archive</Link>.</p>
+        <p className="season-editorial-note">Historical reference entries. For the editor&apos;s original long-form writing, visit <Link href="/articles?category=archive">the Archive</Link>.</p>
       </header>
       {seasons.length ? <>
         <p className="season-available">Available now: {seasonLabel(seasons[0].season)} to {seasonLabel(seasons.at(-1)!.season)} · {seasons.length} seasons</p>
