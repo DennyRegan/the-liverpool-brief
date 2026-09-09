@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HistoryNav } from "@/app/components/history/HistoryNav";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { SiteHeader } from "@/app/components/SiteHeader";
@@ -53,6 +54,7 @@ export default async function EraPage({ params }: Props) {
   return <>
     <SiteHeader active="history" />
     <main id="main-content" className="site-width hx-page hx-detail">
+      <HistoryNav active="explorer" />
       <Link href={`/history#${era.id}`} className="hx-back"><span aria-hidden="true">←</span> All eras</Link>
       <header className="hx-detail-header">
         <EraPortrait era={era} large />

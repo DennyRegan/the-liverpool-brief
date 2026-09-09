@@ -1,0 +1,397 @@
+{
+  "season": "1960-61",
+  "reviewedOn": "2026-09-09",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "second-division",
+    "position": 3,
+    "sourceIds": [
+      "rsssf-table",
+      "lfchistory-table"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "kevin-lewis",
+      "goals": 22,
+      "sourceIds": [
+        "lfchistory-scorers",
+        "lfc-lewis"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round: lost 2–0 to Sunderland at Anfield after a third-round win over Coventry City.",
+      "sourceIds": [
+        "lfchistory-results"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round: lost 2–1 to Southampton at Anfield after eliminating Luton Town in a second-round replay.",
+      "sourceIds": [
+        "lfchistory-results"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "kevin-lewis",
+    "roger-hunt",
+    "dave-hickson",
+    "bert-slater",
+    "dick-white",
+    "john-molyneux",
+    "tommy-leishman",
+    "gerry-byrne",
+    "alan-acourt"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "kevin-lewis",
+        "club": "Sheffield United",
+        "deal": "permanent",
+        "sourceIds": [
+          "previous-transfers",
+          "lfc-lewis",
+          "lewis-reid-report"
+        ],
+        "note": "Signed in June 1960 and finished his first season as the leading scorer. Contemporary and retrospective fee reports disagree; the fee is omitted."
+      },
+      {
+        "personId": "gordon-milne",
+        "club": "Preston North End",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-milne",
+          "lfc-milne"
+        ],
+        "fee": "£16,000",
+        "note": "Joined in August 1960 and made 17 competitive appearances during this campaign."
+      },
+      {
+        "personId": "alf-arrowsmith",
+        "club": "Ashton United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-arrowsmith"
+        ],
+        "fee": "£1,250",
+        "note": "An external signing aged 17 in August 1960; his competitive first-team debut came the following season."
+      }
+    ],
+    "out": [
+      {
+        "personId": "doug-rudham",
+        "club": "Retirement from English football",
+        "deal": "retired",
+        "sourceIds": [
+          "rudham-retirement",
+          "lfchistory-rudham"
+        ],
+        "note": "Retired in May 1960 and returned to Johannesburg; he later played for Johannesburg Ramblers."
+      },
+      {
+        "personId": "laurie-hughes",
+        "club": "Retirement",
+        "deal": "retired",
+        "sourceIds": [
+          "rudham-retirement",
+          "lfc-hughes"
+        ],
+        "note": "Retired in May 1960 after a Liverpool career of 326 competitive appearances. He had not played for the first team since 1957."
+      },
+      {
+        "personId": "fred-morris",
+        "club": "Crewe Alexandra",
+        "deal": "permanent",
+        "sourceIds": [
+          "previous-transfers",
+          "lfc-morris"
+        ],
+        "note": "Departed in June 1960 after seven first-team appearances in 1959–60."
+      },
+      {
+        "personId": "barry-wilkinson",
+        "club": "Bangor City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-wilkinson"
+        ],
+        "fee": "£5,000",
+        "note": "Left in August 1960 after 79 competitive appearances for Liverpool."
+      },
+      {
+        "personId": "sammy-reid",
+        "club": "Falkirk",
+        "deal": "permanent",
+        "sourceIds": [
+          "reid-obituary"
+        ],
+        "note": "Left without a competitive Liverpool appearance."
+      },
+      {
+        "personId": "alan-arnell",
+        "club": "Tranmere Rovers",
+        "deal": "free",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfc-arnell"
+        ],
+        "note": "Joined Tranmere in February 1961."
+      },
+      {
+        "personId": "jimmy-harrower",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-harrower"
+        ],
+        "fee": "£15,000",
+        "note": "Moved in March 1961."
+      },
+      {
+        "personId": "billy-liddell",
+        "club": "Retirement",
+        "deal": "retired",
+        "sourceIds": [
+          "lfchistory-liddell",
+          "lfc-liddell"
+        ],
+        "note": "His last competitive appearance came on 31 August 1960. His subsequent retirement is recorded here with his final playing season; no exact retirement date is asserted."
+      }
+    ]
+  },
+  "overview": [
+    "Bill Shankly’s first full season ended with Liverpool third in the Second Division again. They collected 52 points, two more than in 1959–60, but finished six behind promoted Sheffield United and seven behind champions Ipswich Town. Fourteen league wins at Anfield were not matched away from home, where Liverpool won seven and lost nine.",
+    "The rebuilding was gradual. Kevin Lewis arrived from Sheffield United in June and immediately became the leading scorer, with 22 goals across the league and cups. Roger Hunt contributed 19 and Dave Hickson 17. Gordon Milne joined from Preston North End in August, although he was not yet the ever-present figure he would become. Alf Arrowsmith, brought in from Ashton United at 17, was a signing for the future rather than a first-team regular.",
+    "Bert Slater and Dick White played in all 47 competitive matches, with John Molyneux, Tommy Leishman and Gerry Byrne also carrying substantial workloads. The team was changing around them. Doug Rudham and Laurie Hughes retired after the previous campaign, while Alan Arnell and Jimmy Harrower left during this one. Billy Liddell played his final competitive match in August 1960, closing a playing career that had long connected the side to Liverpool’s earlier successes.",
+    "Neither cup offered compensation for another missed promotion. Liverpool beat Coventry City before losing to Sunderland in the FA Cup fourth round. In the inaugural League Cup they needed a replay to eliminate Luton Town and then lost at home to Southampton in the third round. The season left Shankly with a clearer view of the changes still needed; Ian St John and Ron Yeats would join the side for the following campaign."
+  ],
+  "events": [
+    {
+      "id": "lewis-arrives",
+      "title": "Kevin Lewis joins from Sheffield United",
+      "detail": "The June signing scored 19 league goals and three more in the cups to lead Liverpool’s competitive scoring in his first season.",
+      "sourceIds": [
+        "previous-transfers",
+        "lfc-lewis",
+        "lfchistory-scorers"
+      ],
+      "date": "1960-06-16",
+      "personIds": [
+        "kevin-lewis"
+      ]
+    },
+    {
+      "id": "liddell-last-appearance",
+      "title": "Billy Liddell’s final competitive appearance",
+      "detail": "Liddell played for the last time in a competitive Liverpool match in the 1–0 home defeat by Southampton.",
+      "sourceIds": [
+        "lfc-liddell",
+        "lfchistory-liddell",
+        "lfchistory-results"
+      ],
+      "date": "1960-08-31",
+      "personIds": [
+        "billy-liddell"
+      ],
+      "competitionIds": [
+        "second-division"
+      ]
+    },
+    {
+      "id": "first-league-cup-tie",
+      "title": "Liverpool enter the first League Cup",
+      "detail": "A 1–1 draw with Luton Town at Anfield was followed by a 5–2 replay win away. Liverpool then lost to Southampton in round three.",
+      "sourceIds": [
+        "lfchistory-results"
+      ],
+      "date": "1960-10-19",
+      "competitionIds": [
+        "league-cup"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1959-60",
+    "1961-62"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-table",
+      "label": "RSSSF: Football League tables, 1960-61",
+      "url": "https://www.rsssf.org/engpaul/FLA/1960-61.html",
+      "confidence": "high",
+      "claims": "Final league position, points, scoring and home/away records."
+    },
+    {
+      "id": "lfchistory-table",
+      "label": "LFChistory: 1960-61 league table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/2",
+      "confidence": "high",
+      "claims": "Independent check of final league position and points."
+    },
+    {
+      "id": "lfchistory-results",
+      "label": "LFChistory: 1960-61 results",
+      "url": "https://www.lfchistory.net/season-archive/games/2",
+      "confidence": "high",
+      "claims": "Competition entries, cup rounds, match results and dates; chronological development of the league campaign."
+    },
+    {
+      "id": "lfchistory-scorers",
+      "label": "LFChistory: 1960-61 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/2",
+      "confidence": "high",
+      "claims": "Leading scorers and the separate league and cup components of their competitive totals."
+    },
+    {
+      "id": "lfchistory-appearances",
+      "label": "LFChistory: 1960-61 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/2",
+      "confidence": "high",
+      "claims": "Season-specific first-team involvement, used to select key players."
+    },
+    {
+      "id": "lfchistory-transfers",
+      "label": "LFChistory: 1960-61 transfer register",
+      "url": "https://www.lfchistory.net/season-archive/transfers/2",
+      "confidence": "high",
+      "claims": "Transfer dates, clubs and reported fees, checked against player profiles and club histories. Summer moves are allocated to the campaign they prepared for."
+    },
+    {
+      "id": "lfc-lewis",
+      "label": "Liverpool FC: Kevin Lewis profile",
+      "url": "https://www.liverpoolfc.com/info/kevin-lewis/",
+      "confidence": "high",
+      "claims": "June 1960 arrival from Sheffield United; 22 competitive goals, including 19 in the league, in his first season."
+    },
+    {
+      "id": "lfchistory-milne",
+      "label": "LFChistory: Gordon Milne profile",
+      "url": "https://www.lfchistory.net/players/377",
+      "confidence": "high",
+      "claims": "30 August 1960 Preston transfer for £16,000 and first-season appearances."
+    },
+    {
+      "id": "lfc-milne",
+      "label": "Liverpool FC: Gordon Milne profile",
+      "url": "https://www.liverpoolfc.com/info/gordon-milne",
+      "confidence": "high",
+      "claims": "Corroborates Preston arrival and the distinction between his first season and later regular role."
+    },
+    {
+      "id": "lfchistory-arrowsmith",
+      "label": "LFChistory: Alf Arrowsmith profile",
+      "url": "https://www.lfchistory.net/players/257",
+      "confidence": "high",
+      "claims": "Ashton United signing on 30 August 1960 for £1,250, age and later first-team debut."
+    },
+    {
+      "id": "previous-transfers",
+      "label": "LFChistory: 1959–60 transfer register",
+      "url": "https://www.lfchistory.net/season-archive/transfers/1",
+      "confidence": "high",
+      "claims": "June 1960 arrivals/departures: Lewis from Sheffield United and Morris to Crewe; allocated to 1960–61. Lewis’s £13,000 ledger fee conflicts with a contemporary report and is omitted; Morris’s £4,000 is uncorroborated and omitted."
+    },
+    {
+      "id": "rudham-retirement",
+      "label": "Contemporary report: Rudham and Hughes retire",
+      "url": "https://www.lfchistory.net/articles/4915",
+      "confidence": "high",
+      "claims": "Liverpool Echo, 4 May 1960, reproduced by LFChistory: Rudham and Hughes retire, Rudham returns to Johannesburg, and the retained list is reduced."
+    },
+    {
+      "id": "lfchistory-rudham",
+      "label": "LFChistory: Doug Rudham profile",
+      "url": "https://www.lfchistory.net/players/402",
+      "confidence": "medium",
+      "claims": "Later return to playing for Johannesburg Ramblers. The source’s unrelated account of Younger’s next club is not used."
+    },
+    {
+      "id": "lfc-hughes",
+      "label": "Liverpool FC: Laurie Hughes profile",
+      "url": "https://www.liverpoolfc.com/info/laurie-hughes",
+      "confidence": "high",
+      "claims": "Career total of 326 games and final first-team appearance in September 1957."
+    },
+    {
+      "id": "lfchistory-wilkinson",
+      "label": "LFChistory: Barry Wilkinson profile",
+      "url": "https://www.lfchistory.net/players/445",
+      "confidence": "high",
+      "claims": "August 1960 departure, Bangor City destination and 79 competitive Liverpool appearances."
+    },
+    {
+      "id": "lfc-arnell",
+      "label": "Liverpool FC: Alan Arnell profile",
+      "url": "https://www.liverpoolfc.com/info/alan-arnell",
+      "confidence": "high",
+      "claims": "February 1961 move to Tranmere, after 75 Liverpool appearances."
+    },
+    {
+      "id": "lfchistory-harrower",
+      "label": "LFChistory: Jimmy Harrower profile",
+      "url": "https://www.lfchistory.net/players/313",
+      "confidence": "medium",
+      "claims": "Departure date of 16 March 1961, Newcastle destination and season appearance records. An erroneous division reference in its earlier-career prose is not used."
+    },
+    {
+      "id": "lfchistory-liddell",
+      "label": "LFChistory: Billy Liddell profile",
+      "url": "https://www.lfchistory.net/players/359",
+      "confidence": "high",
+      "claims": "Final competitive appearance on 31 August 1960, one appearance in 1960–61, subsequent retirement and testimonial."
+    },
+    {
+      "id": "lfc-liddell",
+      "label": "Liverpool FC: Billy Liddell profile",
+      "url": "https://www.liverpoolfc.com/info/billy-liddell",
+      "confidence": "high",
+      "claims": "Independent confirmation of Liddell’s final competitive match in August 1960."
+    },
+    {
+      "id": "lewis-reid-report",
+      "label": "Contemporary report: Kevin Lewis transferred to Liverpool",
+      "url": "https://playupliverpool.com/1960/06/16/kevin-lewis-transferred-to-liverpool/",
+      "confidence": "medium",
+      "claims": "Daily Mirror of 17 June 1960, transcribed by Play Up Liverpool, reports about £15,000 for Lewis, versus £13,000 in LFChistory; the fee is omitted."
+    },
+    {
+      "id": "lfc-morris",
+      "label": "Liverpool FC: Fred Morris profile",
+      "url": "https://www.liverpoolfc.com/info/fred-morris",
+      "confidence": "high",
+      "claims": "Corroborates the move to Crewe during the 1960 close-season."
+    },
+    {
+      "id": "reid-obituary",
+      "label": "The Independent: Sammy Reid obituary",
+      "url": "https://www.independent.co.uk/news/people/sammy-reid-footballer-best-known-for-his-goal-for-berwick-which-knocked-mighty-rangers-out-of-the-scottish-cup-9871208.html",
+      "confidence": "medium",
+      "claims": "Reid left Liverpool for Falkirk and played in its 1960–61 promotion side."
+    }
+  ],
+  "researchNotes": [
+    "Lewis’s 22 competitive goals comprise 19 league, one FA Cup and two League Cup goals. His official club profile corroborates the specialist scoring table. League-only figures of 19 are not conflicting totals.",
+    "The League Cup was entered and is included; no European competition is shown. Competitive totals exclude testimonial, friendly and regional games.",
+    "Summer 1960 is assigned to this campaign. Ian St John, signed on 2 May 1961 just before the previous season’s final fixture, is allocated once to 1961–62 because he was recruited for that campaign and made no competitive appearance in 1960–61.",
+    "Liddell’s last competitive match is firmly dated, but an exact formal retirement date was not established. The retirement entry explicitly uses his final playing season rather than claiming a precise employment-end date.",
+    "Rudham’s contemporary retirement announcement and later South African playing career are distinguished. Hughes is included as a significant long-serving senior departure despite having been outside the first team since 1957.",
+    "Arrowsmith is included as a relevant external young signing, not a key player. Minor reserve releases are omitted. Fred Morris’s fee is omitted because no independently corroborated amount was found.",
+    "Kevin Lewis’s fee is £13,000 in LFChistory, while the contemporary Daily Mirror transcription reports about £15,000. The amount is omitted. Fred Morris’s destination is independently confirmed by Liverpool FC; his reported £4,000 fee rests on the specialist transfer register and is omitted.",
+    "Sammy Reid’s departure to Falkirk is included because it completes the story of Shankly’s first signing. A reputable newspaper obituary establishes the club and 1960–61 involvement, but no precise transfer date or fee is asserted."
+  ]
+}

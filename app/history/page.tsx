@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HistoryNav } from "@/app/components/history/HistoryNav";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { EraCard } from "@/app/components/history/EraCard";
 import { getArchiveFeatures } from "@/lib/content/archive";
@@ -18,6 +19,7 @@ export default function HistoryPage() {
     <>
       <SiteHeader active="history" />
       <main id="main-content" className="site-width hx-page">
+      <HistoryNav active="explorer" />
         <header className="hx-intro">
           <p className="eyebrow">Liverpool FC · {history.eras[0].startDate.slice(0, 4)} onwards</p>
           <h1>Liverpool History Explorer</h1>

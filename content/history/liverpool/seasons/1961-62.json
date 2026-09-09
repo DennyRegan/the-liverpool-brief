@@ -1,0 +1,301 @@
+{
+  "season": "1961-62",
+  "reviewedOn": "2026-09-09",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "second-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-table",
+      "lfchistory-table",
+      "lfchistory-results",
+      "lfc-lewis-promotion"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "roger-hunt",
+      "goals": 42,
+      "sourceIds": [
+        "lfchistory-scorers",
+        "lfc-hunt-promotion"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fifth round: lost 1–0 to Preston North End in a second replay at Old Trafford after two goalless draws.",
+      "sourceIds": [
+        "lfchistory-results"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "second-division"
+  ],
+  "keyPlayerIds": [
+    "roger-hunt",
+    "ian-st-john",
+    "ron-yeats",
+    "alan-acourt",
+    "jimmy-melia",
+    "gordon-milne",
+    "gerry-byrne",
+    "tommy-leishman",
+    "bert-slater",
+    "jim-furnell",
+    "ian-callaghan",
+    "kevin-lewis"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "ian-st-john",
+        "club": "Motherwell",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-st-john",
+          "motherwell-st-john"
+        ],
+        "fee": "£37,500",
+        "note": "Signed on 2 May 1961 for the coming campaign; his competitive debut was in August. Allocated to this season’s rebuild."
+      },
+      {
+        "personId": "ron-yeats",
+        "club": "Dundee United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-yeats",
+          "lfc-yeats"
+        ],
+        "fee": "£22,000",
+        "note": "Joined in July 1961 and became captain during the season."
+      },
+      {
+        "personId": "jim-furnell",
+        "club": "Burnley",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-furnell",
+          "lfc-furnell",
+          "furnell-express"
+        ],
+        "note": "Signed in February 1962 and played the final 13 league matches. Sources disagree about the fee, so it is omitted."
+      }
+    ],
+    "out": [
+      {
+        "personId": "dave-hickson",
+        "club": "Cambridge City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-hickson"
+        ],
+        "fee": "£1,000",
+        "note": "Left in July 1961, after scoring 38 competitive goals in two seasons."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool ended eight seasons in the Second Division by winning the championship with 62 points, eight clear of Leyton Orient. The decisive changes came before the campaign began. Ian St John arrived from Motherwell for £37,500 and Ron Yeats from Dundee United for £22,000. St John gave Roger Hunt a new attacking partner, while Yeats became a regular at centre-half and took on the captaincy during the season.",
+    "An opening 2–0 win at Bristol Rovers began an unbeaten run of 11 league matches. Liverpool went through the whole league season unbeaten at Anfield, where they won 18 of 21 games. They scored 99 league goals in total, 41 of them from Hunt. His additional FA Cup goal took his competitive total to 42; St John supplied 22 in all competitions. Alan A’Court and Jimmy Melia remained important in attack, while Ian Callaghan established a more substantial first-team role.",
+    "Promotion rested on more than the new signings and leading scorers. Gordon Milne, Gerry Byrne, Melia and A’Court played every competitive match, and Tommy Leishman missed only one. Bert Slater kept goal for most of the campaign before the February arrival of Jim Furnell from Burnley. Furnell played the last 13 league games as Liverpool completed the job.",
+    "The FA Cup brought a 4–3 victory over Chelsea and an away win at Oldham Athletic, but ended after three fifth-round matches against Preston North End. Two goalless draws were followed by a 1–0 defeat in the second replay at Old Trafford. The central objective was achieved on 21 April, when Kevin Lewis scored both goals in a 2–0 win over Southampton at Anfield. Promotion was secured with five league fixtures still to play. Shankly now had a settled group ready to be tested in the First Division."
+  ],
+  "events": [
+    {
+      "id": "st-john-yeats-debuts",
+      "title": "St John and Yeats make their competitive debuts",
+      "detail": "Both summer recruits played in the 2–0 opening-day win at Bristol Rovers, the first of 11 unbeaten league matches.",
+      "sourceIds": [
+        "lfchistory-results",
+        "lfc-lewis-promotion"
+      ],
+      "date": "1961-08-19",
+      "personIds": [
+        "ian-st-john",
+        "ron-yeats"
+      ],
+      "competitionIds": [
+        "second-division"
+      ]
+    },
+    {
+      "id": "furnell-arrives",
+      "title": "Jim Furnell joins the promotion campaign",
+      "detail": "Furnell arrived from Burnley in February and took over in goal for Liverpool’s final 13 league matches.",
+      "sourceIds": [
+        "lfchistory-furnell",
+        "lfc-furnell"
+      ],
+      "date": "1962-02-23",
+      "personIds": [
+        "jim-furnell",
+        "bert-slater"
+      ],
+      "competitionIds": [
+        "second-division"
+      ]
+    },
+    {
+      "id": "promotion-secured",
+      "title": "Liverpool secure promotion",
+      "detail": "Kevin Lewis scored twice against Southampton in a 2–0 Anfield win that secured promotion with five games remaining. Liverpool finished as Second Division champions.",
+      "sourceIds": [
+        "lfc-lewis-promotion",
+        "lfchistory-results"
+      ],
+      "date": "1962-04-21",
+      "personIds": [
+        "kevin-lewis",
+        "bill-shankly"
+      ],
+      "competitionIds": [
+        "second-division"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1959-60",
+    "1960-61",
+    "1962-63",
+    "1963-64"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-table",
+      "label": "RSSSF: Football League tables, 1961-62",
+      "url": "https://www.rsssf.org/engpaul/FLA/1961-62.html",
+      "confidence": "high",
+      "claims": "Final league position, points, scoring and home/away records."
+    },
+    {
+      "id": "lfchistory-table",
+      "label": "LFChistory: 1961-62 league table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/3",
+      "confidence": "high",
+      "claims": "Independent check of final league position and points."
+    },
+    {
+      "id": "lfchistory-results",
+      "label": "LFChistory: 1961-62 results",
+      "url": "https://www.lfchistory.net/season-archive/games/3",
+      "confidence": "high",
+      "claims": "Competition entries, cup rounds, match results and dates; chronological development of the league campaign."
+    },
+    {
+      "id": "lfchistory-scorers",
+      "label": "LFChistory: 1961-62 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/3",
+      "confidence": "high",
+      "claims": "Leading scorers and the separate league and cup components of their competitive totals."
+    },
+    {
+      "id": "lfchistory-appearances",
+      "label": "LFChistory: 1961-62 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/3",
+      "confidence": "high",
+      "claims": "Season-specific first-team involvement, used to select key players."
+    },
+    {
+      "id": "lfchistory-transfers",
+      "label": "LFChistory: 1961-62 transfer register",
+      "url": "https://www.lfchistory.net/season-archive/transfers/3",
+      "confidence": "high",
+      "claims": "Transfer dates, clubs and reported fees, checked against player profiles and club histories. Summer moves are allocated to the campaign they prepared for."
+    },
+    {
+      "id": "lfc-hunt-promotion",
+      "label": "Liverpool FC: Firing the Reds to promotion with Sir Roger",
+      "url": "https://www.liverpoolfc.com/news/first-team/224040-no-3-firing-the-reds-to-promotion-with-sir-roger-in-1961-62",
+      "confidence": "high",
+      "claims": "Hunt’s 42 competitive goals and St John’s 22; official corroboration of the scoring table."
+    },
+    {
+      "id": "lfc-lewis-promotion",
+      "label": "Liverpool FC: Promotion hero’s Anfield return",
+      "url": "https://www.liverpoolfc.com/news/first-team/123272-promotion-hero-s-anfield-return",
+      "confidence": "high",
+      "claims": "Kevin Lewis scored both promotion-sealing goals against Southampton."
+    },
+    {
+      "id": "lfchistory-st-john",
+      "label": "LFChistory: Ian St John profile",
+      "url": "https://lfchistory.net/players/419",
+      "confidence": "high",
+      "claims": "2 May 1961 signing from Motherwell for £37,500, August competitive debut and scoring breakdown."
+    },
+    {
+      "id": "motherwell-st-john",
+      "label": "Motherwell FC: Made in Motherwell, Ian St John",
+      "url": "https://www.motherwellfc.co.uk/2017/02/13/made-in-motherwell-ian-st-john/",
+      "confidence": "high",
+      "claims": "Selling club’s corroboration of St John’s 1961 transfer to Liverpool for £37,500."
+    },
+    {
+      "id": "lfchistory-yeats",
+      "label": "LFChistory: Ron Yeats profile",
+      "url": "https://www.lfchistory.net/players/450",
+      "confidence": "high",
+      "claims": "22 July 1961 Dundee United transfer for £22,000 and first-season appearances."
+    },
+    {
+      "id": "lfc-yeats",
+      "label": "Liverpool FC: Ron Yeats profile",
+      "url": "https://www.liverpoolfc.com/info/ron-yeats",
+      "confidence": "high",
+      "claims": "July 1961 arrival, promotion-season role and appointment as captain after his arrival."
+    },
+    {
+      "id": "lfchistory-furnell",
+      "label": "LFChistory: Jim Furnell profile",
+      "url": "https://www.lfchistory.net/players/303",
+      "confidence": "high",
+      "claims": "23 February 1962 Burnley transfer for £18,000; final 13 league appearances."
+    },
+    {
+      "id": "lfc-furnell",
+      "label": "Liverpool FC: Jim Furnell profile",
+      "url": "https://www.liverpoolfc.com/info/jim-furnell",
+      "confidence": "high",
+      "claims": "Corroborates his arrival for the last 13 league fixtures and his part in promotion."
+    },
+    {
+      "id": "lfchistory-hickson",
+      "label": "LFChistory: Dave Hickson profile",
+      "url": "https://www.lfchistory.net/players/319",
+      "confidence": "high",
+      "claims": "July 1961 departure for Cambridge City and Liverpool career total of 38 goals."
+    },
+    {
+      "id": "lfc-callaghan",
+      "label": "Liverpool FC: Ian Callaghan profile",
+      "url": "https://www.liverpoolfc.com/info/ian-callaghan",
+      "confidence": "high",
+      "claims": "Callaghan’s establishment as a regular winger during the promotion season."
+    },
+    {
+      "id": "furnell-express",
+      "label": "Contemporary report: Furnell to the Gunners",
+      "url": "https://playupliverpool.com/1963/11/21/furnell-to-the-gunners/",
+      "confidence": "medium",
+      "claims": "Daily Express, 22 November 1963, transcribed by Play Up Liverpool, recalls a £15,000 Burnley arrival fee rather than LFChistory’s £18,000. The 1962 arrival amount is omitted."
+    }
+  ],
+  "researchNotes": [
+    "Hunt’s 42 means 41 league goals plus one FA Cup goal. The official Liverpool FC promotion account confirms 42; 41 is a league-only figure. St John scored 18 league and four FA Cup goals.",
+    "St John’s 2 May 1961 transfer is deliberately allocated to 1961–62: he was signed for the following campaign, with no competitive 1960–61 appearance. He is not duplicated in 1960–61 transfers.",
+    "Furnell and Slater are both key players because they divided the goalkeeping duties, 13 and 34 competitive appearances respectively. Tommy Lawrence did not make a competitive appearance this season and is not presented as part of the promotion first team.",
+    "The transfer list includes the major senior changes. Billy Molyneux’s developmental signing and the departures of fringe players Alan Banks, John Nicholson and Bobby Campbell are omitted; none is necessary to explain the promotion side.",
+    "The FA Cup fifth round required two replays, not one. No League Cup or European entry is shown. Liverpool won the Second Division title; this is distinct from a First Division championship.",
+    "The former official promotion timeline was retrieved, but its legacy URL now redirects to the homepage. It is omitted from the published sources; the current Lewis feature, official Hunt account and fixture register supply the referenced claims, including the five fixtures remaining after 21 April.",
+    "Furnell’s Burnley arrival is £18,000 in LFChistory, but a later contemporary Daily Express report recalls £15,000. The transfer fee is omitted while origin, date and appearances remain corroborated."
+  ]
+}

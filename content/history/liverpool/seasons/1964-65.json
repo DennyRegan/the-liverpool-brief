@@ -1,0 +1,277 @@
+{
+  "season": "1964-65",
+  "reviewedOn": "2026-09-09",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 7,
+    "sourceIds": [
+      "eflt-season",
+      "lfchistory-results"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "roger-hunt",
+      "goals": 37,
+      "sourceIds": [
+        "lfchistory-scorers",
+        "lfc-hunt-totals"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Winners: beat Leeds United 2–1 after extra time at Wembley.",
+      "sourceIds": [
+        "lfc-fa-cup",
+        "lfchistory-results"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Semi-finals: lost 4–3 on aggregate to Internazionale.",
+      "sourceIds": [
+        "rsssf-europe",
+        "lfchistory-results"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Shared with West Ham United after a 2–2 draw at Anfield.",
+      "sourceIds": [
+        "lfchistory-results"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "fa-cup",
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "roger-hunt",
+    "ian-st-john",
+    "gerry-byrne",
+    "ron-yeats",
+    "tommy-lawrence",
+    "ian-callaghan",
+    "peter-thompson",
+    "tommy-smith",
+    "chris-lawler",
+    "willie-stevenson",
+    "gordon-milne",
+    "geoff-strong"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "geoff-strong",
+        "club": "Arsenal",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfc-strong"
+        ],
+        "fee": "£40,000",
+        "note": "Joined in November 1964; his versatility proved important when he replaced the injured Gordon Milne in the FA Cup final."
+      }
+    ],
+    "out": [
+      {
+        "personId": "alan-acourt",
+        "club": "Tranmere Rovers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfc-acourt"
+        ],
+        "fee": "£9,000",
+        "note": "Left in October 1964 after making his final Liverpool appearance against KR Reykjavik in September."
+      }
+    ]
+  },
+  "overview": [
+    "The league champions began their first European campaign, but their title defence never developed into a sustained challenge. Liverpool slipped into the lower reaches of the table during the autumn and eventually finished seventh. Roger Hunt remained productive, scoring 25 league goals and 37 across all competitive matches. Geoff Strong arrived from Arsenal in November, adding an adaptable player to a side in which Tommy Smith and Chris Lawler were becoming established.",
+    "Europe brought new experiences in quick succession. Liverpool beat KR Reykjavik and Anderlecht, then needed a third match to settle the quarter-final against Cologne. After two goalless draws and a 2–2 replay in Rotterdam, a coin toss sent Liverpool through. The change of kit also took shape during this campaign: red shorts were introduced against Anderlecht at Anfield on 25 November, with red socks completing the all-red strip in the return match on 16 December.",
+    "The defining achievement came at Wembley on 1 May. Liverpool had overcome West Bromwich Albion, Stockport County after a replay, Bolton Wanderers, Leicester City after another replay and Chelsea to reach the FA Cup final. Against Leeds, Gerry Byrne played on with a broken collarbone. After a goalless 90 minutes, Hunt put Liverpool ahead, Billy Bremner equalised and Ian St John headed the winner from Ian Callaghan’s cross. The 2–1 victory brought Liverpool the FA Cup for the first time.",
+    "Three days later the new cup holders beat Internazionale 3–1 at Anfield in the European Cup semi-final. A 3–0 defeat in Milan ended the run, leaving Liverpool one round short of the final. Seventh place in the league gave an incomplete picture of a season that delivered a missing domestic trophy and established the club in European competition. The FA Cup win also opened a different route back into Europe through the Cup Winners’ Cup."
+  ],
+  "events": [
+    {
+      "id": "european-debut",
+      "title": "Liverpool’s first European tie",
+      "date": "1964-08-17",
+      "detail": "A 5–0 win away to KR Reykjavik opened Liverpool’s first European Cup campaign; they won the tie 11–1 on aggregate.",
+      "sourceIds": [
+        "lfchistory-results",
+        "rsssf-europe"
+      ],
+      "competitionIds": [
+        "european-cup"
+      ]
+    },
+    {
+      "id": "all-red-kit",
+      "title": "The all-red kit is completed",
+      "date": "1964-12-16",
+      "detail": "Red socks were added for the 1–0 win at Anderlecht. Red shirts and red shorts had first been worn together at Anfield on 25 November, with white socks.",
+      "sourceIds": [
+        "lfc-all-red"
+      ],
+      "competitionIds": [
+        "european-cup"
+      ]
+    },
+    {
+      "id": "cologne-coin-toss",
+      "title": "Cologne tie decided by a coin toss",
+      "date": "1965-03-24",
+      "detail": "Two 0–0 draws were followed by a 2–2 replay in Rotterdam. Liverpool advanced when the tie was settled by a coin toss.",
+      "sourceIds": [
+        "lfchistory-results",
+        "rsssf-europe",
+        "lfc-cologne"
+      ],
+      "personIds": [
+        "ron-yeats"
+      ],
+      "competitionIds": [
+        "european-cup"
+      ]
+    },
+    {
+      "id": "first-fa-cup",
+      "title": "Liverpool win their first FA Cup",
+      "date": "1965-05-01",
+      "detail": "Roger Hunt and Ian St John scored in a 2–1 extra-time win over Leeds United at Wembley. Gerry Byrne completed the game despite a broken collarbone.",
+      "sourceIds": [
+        "lfc-fa-cup",
+        "lfchistory-results"
+      ],
+      "personIds": [
+        "roger-hunt",
+        "ian-st-john",
+        "gerry-byrne",
+        "ron-yeats"
+      ],
+      "competitionIds": [
+        "fa-cup"
+      ]
+    },
+    {
+      "id": "inter-anfield",
+      "title": "Internazionale beaten at Anfield",
+      "date": "1965-05-04",
+      "detail": "Liverpool won the first leg of the European Cup semi-final 3–1, three days after the FA Cup final. They lost 3–0 in Milan eight days later.",
+      "sourceIds": [
+        "lfchistory-results",
+        "rsssf-europe"
+      ],
+      "competitionIds": [
+        "european-cup"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1963-64",
+    "1965-66"
+  ],
+  "sources": [
+    {
+      "id": "lfchistory-results",
+      "label": "LFChistory: 1964–65 results",
+      "url": "https://www.lfchistory.net/season-archive/games/6",
+      "confidence": "high",
+      "claims": "Complete competitive chronology, autumn league position, shared Charity Shield, cup ties and European results."
+    },
+    {
+      "id": "lfchistory-scorers",
+      "label": "LFChistory: 1964–65 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/6",
+      "confidence": "high",
+      "claims": "Hunt’s 37 competitive goals: 25 league, five FA Cup, seven European Cup and none in the Charity Shield."
+    },
+    {
+      "id": "eflt-season",
+      "label": "English Football League Tables: 1964–65",
+      "url": "https://www.englishfootballleaguetables.co.uk/final/f1964-65.html",
+      "confidence": "high",
+      "claims": "Seventh-place league finish, FA Cup victory, European Cup semi-final and no League Cup entry."
+    },
+    {
+      "id": "lfc-fa-cup",
+      "label": "Liverpool FC: the first FA Cup victory",
+      "url": "https://www.liverpoolfc.com/news/day-liverpool-ended-73-year-curse",
+      "confidence": "high",
+      "claims": "Final date and scorers, Byrne’s injury, the full route through the competition and Hunt’s five FA Cup goals."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 1964–65",
+      "url": "https://www.rsssf.org/ec/ec196465.html",
+      "confidence": "high",
+      "claims": "Independent check of European Cup opponents, aggregates, Cologne replay and coin toss, and the semi-final defeat."
+    },
+    {
+      "id": "lfc-all-red",
+      "label": "Liverpool FC: completing the all-red strip",
+      "url": "https://www.liverpoolfc.com/news/60-years-liverpool-wear-all-red-strip-first-time",
+      "confidence": "high",
+      "claims": "Distinguishes red shorts on 25 November 1964 from red socks and the complete all-red kit on 16 December."
+    },
+    {
+      "id": "lfc-cologne",
+      "label": "Liverpool FC: the Cologne coin toss",
+      "url": "https://www.liverpoolfc.com/news/first-team/215991-no-4-beating-cologne-on-the-toss-of-a-coin",
+      "confidence": "high",
+      "claims": "Three draws, the 2–2 Rotterdam replay and the tie being decided by a coin toss."
+    },
+    {
+      "id": "lfchistory-transfers",
+      "label": "LFChistory: 1964–65 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/6",
+      "confidence": "high",
+      "claims": "Geoff Strong from Arsenal for £40,000; Alan A’Court to Tranmere for £9,000; reserve George Scott also listed."
+    },
+    {
+      "id": "lfc-strong",
+      "label": "Liverpool FC: Geoff Strong obituary",
+      "url": "https://www.liverpoolfc.com/news/first-team/136691-rip-geoff-strong",
+      "confidence": "high",
+      "claims": "Strong’s £40,000 November 1964 signing and replacement of the injured Gordon Milne in the FA Cup final."
+    },
+    {
+      "id": "lfc-acourt",
+      "label": "Liverpool FC: Alan A’Court profile",
+      "url": "https://www.liverpoolfc.com/news/liverpools-greatest-no75-alan-acourt?amp=1",
+      "confidence": "high",
+      "claims": "A’Court’s final appearance against KR Reykjavik in September 1964 and move to Tranmere the following month."
+    },
+    {
+      "id": "lfc-hunt-totals",
+      "label": "Liverpool FC: Roger Hunt’s 30-goal seasons",
+      "url": "https://www.liverpoolfc.com/news/announcements/290697-lfc-s-30-goal-club-roger-hunt",
+      "confidence": "high",
+      "claims": "Official confirmation of Hunt’s 37 competitive goals in 1964-65."
+    },
+    {
+      "id": "lfchistory-appearances",
+      "label": "LFChistory: 1964–65 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/6",
+      "confidence": "high",
+      "claims": "Appearance totals supporting the core-player selection and Smith and Lawler becoming regulars."
+    }
+  ],
+  "researchNotes": [
+    "Hunt’s competitive total is 37, not his league-only 25. LFChistory includes the Charity Shield in its Other column; Hunt scored zero there.",
+    "The all-red change is often compressed to 25 November 1964. LFC’s December 2024 account and LFChistory’s Anderlecht match record distinguish red shirts/shorts on 25 November from the addition of red socks on 16 December. The entry preserves that distinction.",
+    "The 1964 Charity Shield was shared after a draw, not won outright. No League Cup section is shown because Liverpool did not enter.",
+    "George Scott’s May 1965 move to Aberdeen is recorded in the transfer audit but omitted from the senior list: he never appeared competitively for Liverpool’s first team. Existing Archive writing is not duplicated."
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "season": "1962-63",
+  "reviewedOn": "2026-09-09",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 8,
+    "sourceIds": [
+      "rsssf-table",
+      "lfchistory-table"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "roger-hunt",
+      "goals": 26,
+      "sourceIds": [
+        "lfchistory-scorers",
+        "hunt-goal-log",
+        "11v11-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Semi-finals: lost 1–0 to Leicester City at Hillsborough after beating Wrexham, Burnley, Arsenal and West Ham United.",
+      "sourceIds": [
+        "lfchistory-results",
+        "leicester-semi-final"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "roger-hunt",
+    "ian-st-john",
+    "ron-yeats",
+    "gordon-milne",
+    "jimmy-melia",
+    "willie-stevenson",
+    "tommy-lawrence",
+    "gerry-byrne",
+    "ronnie-moran",
+    "ian-callaghan",
+    "kevin-lewis"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "willie-stevenson",
+        "club": "Rangers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-stevenson",
+          "lfc-stevenson"
+        ],
+        "fee": "£20,000",
+        "note": "Joined in October 1962 after a short stay in Australia; his registration remained with Rangers."
+      },
+      {
+        "personId": "bobby-thomson",
+        "club": "Partick Thistle",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-thomson",
+          "lfc-thomson"
+        ],
+        "fee": "£7,000",
+        "note": "Signed in December 1962 as full-back cover."
+      }
+    ],
+    "out": [
+      {
+        "personId": "dick-white",
+        "club": "Doncaster Rovers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-white"
+        ],
+        "fee": "£4,000",
+        "note": "Departed in May 1962 after the promotion season."
+      },
+      {
+        "personId": "bert-slater",
+        "club": "Dundee",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-slater",
+          "lfc-slater"
+        ],
+        "fee": "£2,500",
+        "note": "Moved in July 1962, after Furnell had taken over in goal."
+      },
+      {
+        "personId": "john-molyneux",
+        "club": "Chester",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-molyneux",
+          "lfc-molyneux"
+        ],
+        "fee": "£2,000",
+        "note": "Returned to Chester in August 1962."
+      },
+      {
+        "personId": "johnny-morrissey",
+        "club": "Everton",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-morrissey",
+          "lfc-morrissey"
+        ],
+        "fee": "£10,000",
+        "note": "Moved across Stanley Park in August 1962."
+      },
+      {
+        "personId": "tommy-leishman",
+        "club": "Hibernian",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-leishman",
+          "lfc-leishman"
+        ],
+        "note": "Left in January 1963 after Stevenson’s arrival reduced his first-team opportunities."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool returned to the First Division for the first time since relegation in 1954 and finished eighth, while reaching the FA Cup semi-finals. Shankly retained much of the promotion side, but the squad continued to change. Dick White, Bert Slater and John Molyneux left after the title-winning campaign, and Johnny Morrissey moved to Everton. Willie Stevenson arrived from Rangers in October and became a regular at left-half, with Tommy Leishman leaving for Hibernian in January.",
+    "The adjustment to the higher division was uneven. Liverpool stood twentieth after losing to Burnley at Anfield in early November, then won seven successive league games before Christmas to climb to fifth. The severe winter interrupted the programme: their next league fixture after 22 December was not played until 13 February, although FA Cup matches took place in January. They resumed with convincing wins over Aston Villa and Wolves but did not sustain a challenge at the top of the table.",
+    "There were important changes within the team. An injury to Jim Furnell gave Tommy Lawrence his first competitive appearance in October; Lawrence kept the place for the rest of the season. Stevenson joined a side whose established contributors included Ron Yeats, Gordon Milne, Gerry Byrne and Ronnie Moran. Roger Hunt scored 26 competitive goals, 24 in the league, while Ian St John added 20 in all competitions and Kevin Lewis 12. Ian Callaghan was now a regular on the right wing.",
+    "The FA Cup run brought wins over Wrexham, Burnley after a replay, Arsenal at Highbury and West Ham United. Leicester City ended it at Hillsborough on 27 April: Mike Stringfellow scored the only goal, and Gordon Banks made important saves as Liverpool pressed for an equaliser. League results also showed the side’s remaining inconsistency. A 5–2 Anfield win over Tottenham on Good Friday was followed by a 7–2 defeat in the return fixture on Easter Monday. Eighth place with 44 points was a secure return to the top flight, with much of the team that would win the championship a year later already established."
+  ],
+  "events": [
+    {
+      "id": "stevenson-arrives",
+      "title": "Willie Stevenson joins from Rangers",
+      "detail": "Stevenson arrived in October and became a regular in the half-back line. Tommy Leishman subsequently left for Hibernian.",
+      "sourceIds": [
+        "lfchistory-stevenson",
+        "lfc-stevenson",
+        "lfc-leishman"
+      ],
+      "date": "1962-10-19",
+      "personIds": [
+        "willie-stevenson",
+        "tommy-leishman"
+      ]
+    },
+    {
+      "id": "lawrence-debut",
+      "title": "Tommy Lawrence takes over in goal",
+      "detail": "Lawrence made his competitive debut against West Bromwich Albion following Furnell’s injury and remained first choice for the rest of the season.",
+      "sourceIds": [
+        "lfchistory-results",
+        "lfc-lawrence",
+        "lfc-furnell"
+      ],
+      "date": "1962-10-27",
+      "personIds": [
+        "tommy-lawrence",
+        "jim-furnell"
+      ],
+      "competitionIds": [
+        "first-division"
+      ]
+    },
+    {
+      "id": "pre-christmas-recovery",
+      "title": "Seven league wins in succession",
+      "detail": "The run from a home win over Arsenal on 14 November to victory over Blackburn at Anfield on 22 December lifted Liverpool from the lower reaches of the division to fifth.",
+      "sourceIds": [
+        "lfchistory-results"
+      ],
+      "date": "1962-12-22",
+      "competitionIds": [
+        "first-division"
+      ]
+    },
+    {
+      "id": "leicester-semi-final",
+      "title": "Leicester deny Liverpool an FA Cup final",
+      "detail": "Mike Stringfellow’s goal decided the semi-final at Hillsborough. Leicester goalkeeper Gordon Banks helped protect the 1–0 lead.",
+      "sourceIds": [
+        "lfchistory-results",
+        "leicester-semi-final"
+      ],
+      "date": "1963-04-27",
+      "competitionIds": [
+        "fa-cup"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1961-62",
+    "1963-64",
+    "1964-65"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-table",
+      "label": "RSSSF: Football League tables, 1962-63",
+      "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+      "confidence": "high",
+      "claims": "Final league position, points, scoring and home/away records."
+    },
+    {
+      "id": "lfchistory-table",
+      "label": "LFChistory: 1962-63 league table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/4",
+      "confidence": "high",
+      "claims": "Independent check of final league position and points."
+    },
+    {
+      "id": "lfchistory-results",
+      "label": "LFChistory: 1962-63 results",
+      "url": "https://www.lfchistory.net/season-archive/games/4",
+      "confidence": "high",
+      "claims": "Competition entries, cup rounds, match results and dates; chronological development of the league campaign."
+    },
+    {
+      "id": "lfchistory-scorers",
+      "label": "LFChistory: 1962-63 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/4",
+      "confidence": "high",
+      "claims": "Leading scorers and the separate league and cup components of their competitive totals."
+    },
+    {
+      "id": "lfchistory-appearances",
+      "label": "LFChistory: 1962-63 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/4",
+      "confidence": "high",
+      "claims": "Season-specific first-team involvement, used to select key players."
+    },
+    {
+      "id": "lfchistory-transfers",
+      "label": "LFChistory: 1962-63 transfer register",
+      "url": "https://www.lfchistory.net/season-archive/transfers/4",
+      "confidence": "high",
+      "claims": "Transfer dates, clubs and reported fees, checked against player profiles and club histories. Summer moves are allocated to the campaign they prepared for."
+    },
+    {
+      "id": "hunt-goal-log",
+      "label": "LFChistory: Roger Hunt’s 1962–63 goals",
+      "url": "https://www.lfchistory.net/Players/Player/GoalsPerSeason/326-4",
+      "confidence": "high",
+      "claims": "Individual goal ledger checks the aggregate of 26, with 24 league and two FA Cup goals."
+    },
+    {
+      "id": "leicester-semi-final",
+      "label": "Leicester City: Players recall the 1963 semi-final",
+      "url": "https://www.lcfc.com/media-article/Foxes-Legends-On-Classic-Liverpool-Cup-Tie",
+      "confidence": "high",
+      "claims": "Club historian’s account and participant recollections corroborate the semi-final result, Stringfellow’s goal and Banks’s saves."
+    },
+    {
+      "id": "winter-freeze",
+      "label": "Chelsea FC: The original winter break",
+      "url": "https://www.chelseafc.com/en/news/article/the-original-winter-break--when-the-big-freeze-of--63-stopped-pl",
+      "confidence": "high",
+      "claims": "Context for the widespread disruption to English football during the severe winter of 1962–63; Liverpool’s own dates are checked against its fixture register."
+    },
+    {
+      "id": "lfchistory-stevenson",
+      "label": "LFChistory: Willie Stevenson profile",
+      "url": "https://www.lfchistory.net/players/420",
+      "confidence": "high",
+      "claims": "19 October 1962 transfer for £20,000 from Rangers, the Australian interlude, and replacement of Leishman."
+    },
+    {
+      "id": "lfc-stevenson",
+      "label": "Liverpool FC: Willie Stevenson profile",
+      "url": "https://www.liverpoolfc.com/info/willie-stevenson",
+      "confidence": "high",
+      "claims": "Corroborates October arrival after returning from Australia and his established half-back role."
+    },
+    {
+      "id": "lfchistory-thomson",
+      "label": "LFChistory: Bobby Thomson profile",
+      "url": "https://www.lfchistory.net/players/455",
+      "confidence": "high",
+      "claims": "6 December 1962 Partick Thistle transfer for £7,000 and full-back cover role."
+    },
+    {
+      "id": "lfchistory-white",
+      "label": "LFChistory: Dick White profile",
+      "url": "https://www.lfchistory.net/players/443",
+      "confidence": "high",
+      "claims": "29 May 1962 departure and Doncaster destination, after his reduced promotion-season role."
+    },
+    {
+      "id": "lfchistory-slater",
+      "label": "LFChistory: Bert Slater profile",
+      "url": "https://www.lfchistory.net/players/411",
+      "confidence": "high",
+      "claims": "3 July 1962 departure, Dundee destination and replacement by Furnell."
+    },
+    {
+      "id": "lfc-slater",
+      "label": "Liverpool FC: Bert Slater profile",
+      "url": "https://www.liverpoolfc.com/info/bert-slater",
+      "confidence": "high",
+      "claims": "Corroborates the Dundee move after Furnell’s arrival."
+    },
+    {
+      "id": "lfchistory-molyneux",
+      "label": "LFChistory: John Molyneux profile",
+      "url": "https://www.lfchistory.net/players/379",
+      "confidence": "high",
+      "claims": "16 August 1962 departure and return to Chester."
+    },
+    {
+      "id": "lfc-molyneux",
+      "label": "Liverpool FC: John Molyneux profile",
+      "url": "https://www.liverpoolfc.com/info/john-molyneux",
+      "confidence": "high",
+      "claims": "Independent confirmation of the 1962 return to Chester after four promotion-season appearances."
+    },
+    {
+      "id": "lfchistory-morrissey",
+      "label": "LFChistory: Johnny Morrissey profile",
+      "url": "https://www.lfchistory.net/players/385",
+      "confidence": "high",
+      "claims": "23 August 1962 departure to Everton for £10,000."
+    },
+    {
+      "id": "lfc-morrissey",
+      "label": "Liverpool FC: Johnny Morrissey profile",
+      "url": "https://www.liverpoolfc.com/info/johnny-morrissey",
+      "confidence": "high",
+      "claims": "Corroborates the 1962 move to Everton."
+    },
+    {
+      "id": "lfchistory-leishman",
+      "label": "LFChistory: Tommy Leishman profile",
+      "url": "https://www.lfchistory.net/players/356",
+      "confidence": "high",
+      "claims": "12 January 1963 departure to Hibernian and reduced role after Stevenson’s signing."
+    },
+    {
+      "id": "lfc-leishman",
+      "label": "Liverpool FC: Tommy Leishman profile",
+      "url": "https://www.liverpoolfc.com/info/tommy-leishman",
+      "confidence": "high",
+      "claims": "Corroborates January 1963 Hibernian move; its headline playing years end in 1962, before the transfer."
+    },
+    {
+      "id": "lfc-lawrence",
+      "label": "Liverpool FC: Tommy Lawrence profile",
+      "url": "https://www.liverpoolfc.com/info/tommy-lawrence",
+      "confidence": "high",
+      "claims": "First-team opportunity after Furnell’s injury and retention of the position for the rest of 1962–63."
+    },
+    {
+      "id": "lfc-furnell",
+      "label": "Liverpool FC: Jim Furnell profile",
+      "url": "https://www.liverpoolfc.com/info/jim-furnell",
+      "confidence": "high",
+      "claims": "Furnell played the opening 13 league fixtures before injury and Lawrence’s emergence."
+    },
+    {
+      "id": "lfc-thomson",
+      "label": "Liverpool FC: Bobby Thomson profile",
+      "url": "https://www.liverpoolfc.com/info/bobby-thomson/",
+      "confidence": "high",
+      "claims": "Corroborates the Partick Thistle signing in December 1962 and five league appearances that season."
+    },
+    {
+      "id": "11v11-scorers",
+      "label": "11v11: Liverpool 1962-63 player statistics",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1963/",
+      "confidence": "high",
+      "claims": "Independent publisher corroboration of Roger Hunt’s 26 competitive goals. Used for the scoring total, not every peripheral appearance allocation."
+    }
+  ],
+  "researchNotes": [
+    "Hunt’s 26 competitive goals comprise 24 league and two FA Cup goals; the aggregate table is checked against the individual goal ledger. League-only totals are not substituted for the competitive total.",
+    "No League Cup or European competition was entered. The FA Cup semi-final is independently corroborated by Leicester City’s historical account.",
+    "The first-team goalkeeper change belongs to 1962–63. Lawrence made no competitive appearance in the promotion season and is not included among its key players.",
+    "White’s post-promotion May transfer is placed in the summer preparation for this campaign. Thomson is included as a senior external signing, but his limited role does not make him a key player. Willie Carlin’s departure after only a small number of first-team appearances is omitted.",
+    "Leishman’s Hibernian fee is omitted because transfer summaries give differing figures and an independently corroborated amount was not established. His January 1963 departure is clear despite official profile headings ending his playing years in 1962.",
+    "Bobby Thomson’s profile narrative and appearance table differ by one appearance for this campaign; no exact appearance total is asserted. Tommy Smith and Chris Lawler are not selected as key players on the basis of their later careers.",
+    "The seven-match winning run is specifically a league run before Christmas. Cup fixtures were played during the winter interruption, so the overview does not claim Liverpool played no football between December and February.",
+    "11v11 independently confirms Hunt’s 26 competitive goals. The page was retrieved during research; direct automated requests may encounter an access restriction."
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "season": "1965-66",
+  "reviewedOn": "2026-09-09",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "eflt-season",
+      "lfc-title-history"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "roger-hunt",
+      "goals": 32,
+      "sourceIds": [
+        "lfchistory-hunt",
+        "lfchistory-hunt-goals",
+        "lfc-hunt-totals",
+        "hunt-goal-correction"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Third round: lost 2–1 at home to Chelsea.",
+      "sourceIds": [
+        "lfchistory-results",
+        "eflt-season"
+      ]
+    },
+    {
+      "competitionId": "european-cup-winners-cup",
+      "kind": "europe",
+      "result": "Runners-up: lost 2–1 after extra time to Borussia Dortmund at Hampden Park.",
+      "sourceIds": [
+        "rsssf-europe",
+        "lfchistory-results"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Shared with Manchester United after a 2–2 draw at Old Trafford.",
+      "sourceIds": [
+        "lfchistory-results"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division",
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "roger-hunt",
+    "ron-yeats",
+    "tommy-lawrence",
+    "gerry-byrne",
+    "tommy-smith",
+    "chris-lawler",
+    "ian-callaghan",
+    "peter-thompson",
+    "ian-st-john",
+    "willie-stevenson",
+    "gordon-milne",
+    "geoff-strong"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "john-ogston",
+        "club": "Aberdeen",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "aberdeen-ogston"
+        ],
+        "note": "Joined as goalkeeping cover in September 1965. Sources disagree on the fee and exact date, so neither is stated."
+      }
+    ],
+    "out": [
+      {
+        "personId": "phil-ferns",
+        "club": "Bournemouth & Boscombe Athletic",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "ferns-archive"
+        ],
+        "fee": "£5,000",
+        "note": "The defender left during summer 1965 after contributing to the 1963–64 championship side."
+      },
+      {
+        "personId": "bobby-thomson",
+        "club": "Luton Town",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-thomson"
+        ],
+        "note": "The reserve full-back left in August 1965 after eight Liverpool first-team appearances."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool regained the league championship with much the same side that had won the FA Cup. The only substantial outside addition was reserve goalkeeper John Ogston from Aberdeen in September. Fourteen players appeared in the league and fifteen across all competitive matches. Gerry Byrne, Ian Callaghan, Tommy Lawrence, Tommy Smith and Ron Yeats played in every one of the 53 competitive games, evidence of the continuity on which Shankly’s team depended.",
+    "After a mixed opening, Liverpool moved to the top in November and stayed there. A 5–0 win over Everton in September demonstrated the attack’s quality, but the defence was just as important: only 34 league goals were conceded. Roger Hunt scored 29 of Liverpool’s 79 league goals. His two goals against Chelsea on 30 April secured a 2–1 victory and the championship, with Liverpool eventually finishing six points ahead of Leeds United.",
+    "The FA Cup defence ended immediately with a third-round defeat by Chelsea, but Liverpool reached their first European final in the Cup Winners’ Cup. They overturned first-leg deficits against Juventus and Celtic and also eliminated Standard Liège and Honvéd. Geoff Strong’s header in the 2–0 Anfield win over Celtic put them through to Hampden Park, where Borussia Dortmund won 2–1 after extra time on 5 May. Hunt equalised before Reinhard Libuda scored the winner. Hunt finished with 32 competitive goals; the season left Liverpool with a second league title in three years and another substantial European campaign."
+  ],
+  "events": [
+    {
+      "id": "everton-five",
+      "title": "Five goals against Everton",
+      "date": "1965-09-25",
+      "detail": "Liverpool won the Anfield derby 5–0. Roger Hunt scored twice, with Tommy Smith, Willie Stevenson and Ian St John also scoring.",
+      "sourceIds": [
+        "lfchistory-results",
+        "lfchistory-derby"
+      ],
+      "personIds": [
+        "roger-hunt",
+        "tommy-smith",
+        "willie-stevenson",
+        "ian-st-john"
+      ],
+      "competitionIds": [
+        "first-division"
+      ]
+    },
+    {
+      "id": "celtic-semi-final",
+      "title": "First European final reached",
+      "date": "1966-04-19",
+      "detail": "A 2–0 home win overturned Celtic’s one-goal first-leg advantage. Geoff Strong scored the decisive second goal.",
+      "sourceIds": [
+        "lfchistory-results",
+        "rsssf-europe",
+        "lfc-strong"
+      ],
+      "personIds": [
+        "geoff-strong"
+      ],
+      "competitionIds": [
+        "european-cup-winners-cup"
+      ]
+    },
+    {
+      "id": "second-shankly-title",
+      "title": "Hunt’s double secures the title",
+      "date": "1966-04-30",
+      "detail": "Two Roger Hunt goals gave Liverpool a 2–1 win over Chelsea and confirmed their second championship under Bill Shankly.",
+      "sourceIds": [
+        "lfchistory-results",
+        "lfc-chelsea-title"
+      ],
+      "personIds": [
+        "roger-hunt",
+        "bill-shankly"
+      ],
+      "competitionIds": [
+        "first-division"
+      ]
+    },
+    {
+      "id": "hampden-final",
+      "title": "Defeat in the Cup Winners’ Cup final",
+      "date": "1966-05-05",
+      "detail": "Borussia Dortmund beat Liverpool 2–1 after extra time at Hampden Park. Roger Hunt’s equaliser was followed by Reinhard Libuda’s winning goal.",
+      "sourceIds": [
+        "rsssf-europe",
+        "lfchistory-results",
+        "lfchistory-hunt-goals"
+      ],
+      "personIds": [
+        "roger-hunt"
+      ],
+      "competitionIds": [
+        "european-cup-winners-cup"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1963-64",
+    "1964-65",
+    "1966-67"
+  ],
+  "sources": [
+    {
+      "id": "lfchistory-results",
+      "label": "LFChistory: 1965–66 results",
+      "url": "https://www.lfchistory.net/season-archive/games/7",
+      "confidence": "high",
+      "claims": "Competitive chronology, league leadership from November, FA Cup exit, shared Shield and European ties."
+    },
+    {
+      "id": "lfchistory-hunt",
+      "label": "LFChistory: Roger Hunt career statistics",
+      "url": "https://www.lfchistory.net/players/326",
+      "confidence": "high",
+      "claims": "1965–66 competitive total of 32: 29 league, one FA Cup, two Cup Winners’ Cup and zero Charity Shield goals."
+    },
+    {
+      "id": "lfchistory-hunt-goals",
+      "label": "LFChistory: Hunt’s 32 goals in 1965–66",
+      "url": "https://www.lfchistory.net/players/326/goals-per-season/7",
+      "confidence": "high",
+      "claims": "Match-by-match check of all 32 goals, including the Chelsea title clincher and Dortmund final."
+    },
+    {
+      "id": "eflt-season",
+      "label": "English Football League Tables: 1965–66",
+      "url": "https://www.englishfootballleaguetables.co.uk/final/f1965-66.html",
+      "confidence": "high",
+      "claims": "First place, 61 points, six-point winning margin, 79 goals for, 34 against, FA Cup third round and European final."
+    },
+    {
+      "id": "lfc-title-history",
+      "label": "Liverpool FC: history of the league titles",
+      "url": "https://www.liverpoolfc.com/news/features/402698-a-history-of-liverpool-s-league-title-wins",
+      "confidence": "high",
+      "claims": "League championships, league records and Hunt’s league goals in 1963–64 and 1965–66. Its 14-player figure for 1966 refers to the league; the appearances table supplies the competition distinction."
+    },
+    {
+      "id": "lfc-chelsea-title",
+      "label": "Liverpool FC: Hunt’s double seals the title",
+      "url": "https://www.liverpoolfc.com/news/first-team/220675-no-3-sir-roger-at-the-double-as-chelsea-win-secures-title",
+      "confidence": "high",
+      "claims": "Hunt scored both Liverpool goals in the championship-clinching win over Chelsea."
+    },
+    {
+      "id": "lfchistory-appearances",
+      "label": "LFChistory: 1965–66 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/7",
+      "confidence": "high",
+      "claims": "Fourteen league players versus fifteen in all competitions; five ever-presents across 53 matches. Chisnall appeared only in Europe."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 1965–66",
+      "url": "https://www.rsssf.org/ec/ec196566.html",
+      "confidence": "high",
+      "claims": "Independent check of the Cup Winners’ Cup route, final venue/date, 2–1 score after extra time and goalscorers."
+    },
+    {
+      "id": "lfc-strong",
+      "label": "Liverpool FC: Geoff Strong obituary",
+      "url": "https://www.liverpoolfc.com/news/first-team/136691-rip-geoff-strong",
+      "confidence": "high",
+      "claims": "Strong’s decisive header in the European Cup Winners’ Cup semi-final against Celtic."
+    },
+    {
+      "id": "lfchistory-transfers",
+      "label": "LFChistory: 1965–66 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/7",
+      "confidence": "high",
+      "claims": "Ogston’s arrival and senior/fringe departures; its fee/date for Ogston differs from Aberdeen’s account."
+    },
+    {
+      "id": "aberdeen-ogston",
+      "label": "Aberdeen FC: tribute to John Ogston",
+      "url": "https://www.afc.co.uk/en/news/tribute-to-john-ogston",
+      "confidence": "high",
+      "claims": "Primary club account of Ogston’s Liverpool transfer in September 1965; gives £12,000 and 25 September rather than LFChistory’s £10,000 and 15 September."
+    },
+    {
+      "id": "ferns-archive",
+      "label": "Play Up Liverpool: Phil Ferns transfer record",
+      "url": "https://playupliverpool.com/2007/08/25/philip-ferns-phil-ferns-playupliverpool-com/",
+      "confidence": "medium",
+      "claims": "Independent archive check of the £5,000 move to Bournemouth & Boscombe in summer 1965; exact-day accounts differ."
+    },
+    {
+      "id": "lfc-hunt-totals",
+      "label": "Liverpool FC: Roger Hunt’s 30-goal seasons",
+      "url": "https://www.liverpoolfc.com/news/announcements/290697-lfc-s-30-goal-club-roger-hunt",
+      "confidence": "high",
+      "claims": "Official confirmation of Hunt’s 32 competitive goals in 1965-66."
+    },
+    {
+      "id": "hunt-goal-correction",
+      "label": "LFChistory: the corrected Hunt goal record",
+      "url": "https://www.lfchistory.net/articles/3453",
+      "confidence": "high",
+      "claims": "The 12 March 1966 goal against Tottenham was a Ted Clayton own goal, leaving Hunt with 29 league goals. Explains older totals that gave him one extra goal."
+    },
+    {
+      "id": "lfchistory-derby",
+      "label": "LFChistory: Liverpool 5–0 Everton, September 1965",
+      "url": "https://www.lfchistory.net/SeasonArchive/Game/305",
+      "confidence": "high",
+      "claims": "Derby date and all five goals: Smith, Hunt twice, Stevenson and St John."
+    },
+    {
+      "id": "lfchistory-thomson",
+      "label": "LFChistory: Bobby Thomson profile",
+      "url": "https://www.lfchistory.net/players/455",
+      "confidence": "high",
+      "claims": "Eight senior appearances, including three in the 1963–64 season, and departure to Luton Town in August 1965."
+    }
+  ],
+  "researchNotes": [
+    "Hunt’s all-competition 32 comprises 29 league goals, one in the FA Cup and two in the Cup Winners’ Cup. The Charity Shield is counted as a competitive match, but he did not score in it.",
+    "Some summaries describe a 14-player campaign and others 15. LFChistory’s appearances table resolves this: fourteen played in the league; Phil Chisnall appeared only in Europe and brings the all-competition total to fifteen.",
+    "John Ogston’s former club Aberdeen gives 25 September 1965 and £12,000; LFChistory gives 15 September and £10,000. September, Aberdeen and the permanent move are agreed. Exact date and fee are omitted. LFC’s timeline describes him as a pre-season signing, which the detailed records do not support.",
+    "Phil Ferns’s move is dated 29 July in Play Up Liverpool, 30 July in LFChistory’s register and August in its biography. Only summer 1965 is stated; both detailed records agree on £5,000.",
+    "Bobby Thomson’s August departure is included because he provided senior full-back cover in the first two seasons after promotion. Thomas Lowry and John Sealey left in June 1966; those summer moves fall with the following season under the publishing convention and involved players with one Liverpool senior appearance each.",
+    "The Charity Shield was shared. Liverpool did not enter the League Cup, so no empty competition is displayed.",
+    "Older records can give Hunt 30 league goals or 33 overall. LFChistory’s documented correction reassigns the only goal against Tottenham on 12 March 1966 to Ted Clayton as an own goal. The corrected 29 league and 32 competitive totals agree with LFC’s league-title history and official 30-goal article."
+  ]
+}

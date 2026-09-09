@@ -1,3 +1,4 @@
+import { getSeasons } from '../lib/content/seasons.ts';
 import { getHistoryEntities } from '../lib/content/entities.ts';
 import { getHistoryEvents } from '../lib/content/this-week.ts';
 import { getArchiveFeatures } from '../lib/content/archive.ts';
@@ -16,3 +17,5 @@ for (const era of history.eras) {
   if (era.image && !getEraImage(era)) console.warn(`History: missing ${era.image.src}; using the monogram for ${era.id}.`);
 }
 console.log(`Validated ${history.eras.length} managerial eras and ${articles.length} canonical Archive associations.`);
+
+console.log(`Validated ${getSeasons().length} structured season records.`);

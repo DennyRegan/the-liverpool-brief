@@ -1,0 +1,376 @@
+{
+  "season": "1959-60",
+  "reviewedOn": "2026-09-09",
+  "managerIds": [
+    "phil-taylor",
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "second-division",
+    "position": 3,
+    "sourceIds": [
+      "rsssf-table",
+      "lfchistory-table"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "roger-hunt",
+      "goals": 23,
+      "sourceIds": [
+        "lfchistory-scorers",
+        "lfchistory-hunt",
+        "11v11-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round: lost 3–1 to Manchester United at Anfield after beating Leyton Orient in the third round.",
+      "sourceIds": [
+        "lfchistory-results"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "roger-hunt",
+    "dave-hickson",
+    "jimmy-melia",
+    "alan-acourt",
+    "ronnie-moran",
+    "dick-white",
+    "john-molyneux",
+    "bert-slater",
+    "tommy-leishman"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "bert-slater",
+        "club": "Falkirk",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-slater",
+          "falkirk-keepers"
+        ],
+        "note": "Joined in June 1959 in an exchange involving Tommy Younger."
+      },
+      {
+        "personId": "dave-hickson",
+        "club": "Everton",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "hickson-report"
+        ],
+        "fee": "About £12,000",
+        "note": "Signed in November and scored 21 league goals for Liverpool before the season ended."
+      },
+      {
+        "personId": "tommy-leishman",
+        "club": "St Mirren",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-leishman",
+          "lfc-leishman"
+        ],
+        "fee": "£10,000",
+        "note": "Joined on 20 November, before Shankly’s appointment."
+      },
+      {
+        "personId": "sammy-reid",
+        "club": "Motherwell",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfc-reid",
+          "motherwell-reid",
+          "lewis-reid-report"
+        ],
+        "note": "Shankly’s first signing arrived in February 1960. He did not play a competitive first-team match; the reported fee is disputed."
+      }
+    ],
+    "out": [
+      {
+        "personId": "tommy-younger",
+        "club": "Falkirk",
+        "deal": "permanent",
+        "sourceIds": [
+          "falkirk-keepers"
+        ],
+        "note": "Returned to Scotland in June 1959 as player-manager, with Bert Slater moving in the opposite direction."
+      },
+      {
+        "personId": "louis-bimpson",
+        "club": "Blackburn Rovers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfc-bimpson"
+        ],
+        "note": "Left in November 1959 following Hickson’s arrival."
+      },
+      {
+        "personId": "geoff-twentyman",
+        "club": "Ballymena United",
+        "deal": "free",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfc-twentyman"
+        ],
+        "note": "Left in March 1960 to become player-manager."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool began another season in the Second Division under Phil Taylor and finished it under Bill Shankly. Taylor resigned in November after failing to secure a return to the top flight. Shankly’s appointment was announced on 1 December 1959, although he did not arrive at Anfield until a fortnight later. His first match, at home to Cardiff City on 19 December, ended in a 4–0 defeat. A second loss at Charlton followed before a 2–0 win in the return fixture brought his first victory.",
+    "Several of the season’s important players were already at Liverpool when Shankly arrived. Roger Hunt made his senior debut in September and finished with 23 competitive goals, including 21 in the league. Dave Hickson, signed from Everton in November, also scored 21 league goals despite joining after the campaign had begun. Tommy Leishman came from St Mirren before Shankly’s appointment, while goalkeeper Bert Slater had arrived from Falkirk in the summer in an exchange involving Tommy Younger. Jimmy Melia and Alan A’Court remained significant contributors in attack.",
+    "Liverpool scored 90 league goals but conceded 66 and finished third with 50 points, eight behind promoted Cardiff. Their away record, with only five wins in 21 matches, fell well short of their results at Anfield. The FA Cup ended in the fourth round with a 3–1 home defeat by Manchester United, following victory over Leyton Orient.",
+    "The season therefore matters chiefly for the change of manager and the players who began to emerge around it. Ian Callaghan made his debut in April, while Hunt’s first campaign established him as a regular goalscorer. Shankly’s first new signing, Sammy Reid, did not reach the first team. The more substantial reconstruction that would bring promotion was still to come."
+  ],
+  "events": [
+    {
+      "id": "hunt-debut",
+      "title": "Roger Hunt makes his debut",
+      "detail": "Hunt scored in a 2–0 league win over Scunthorpe United at Anfield. He ended his first senior season as Liverpool’s leading competitive scorer.",
+      "sourceIds": [
+        "lfchistory-hunt",
+        "lfchistory-results",
+        "lfchistory-scorers"
+      ],
+      "date": "1959-09-09",
+      "personIds": [
+        "roger-hunt"
+      ],
+      "competitionIds": [
+        "second-division"
+      ]
+    },
+    {
+      "id": "shankly-appointed",
+      "title": "Bill Shankly is appointed",
+      "detail": "Liverpool announced Shankly as Taylor’s successor on 1 December. His arrival on 14 December and first fixture on 19 December followed a period of caretaker management.",
+      "sourceIds": [
+        "lfc-shankly-anniversary",
+        "shankly-arrival",
+        "caretaker-record"
+      ],
+      "date": "1959-12-01",
+      "personIds": [
+        "phil-taylor",
+        "bill-shankly"
+      ]
+    },
+    {
+      "id": "shankly-first-win",
+      "title": "Shankly’s first Liverpool victory",
+      "detail": "Liverpool beat Charlton Athletic 2–0 at Anfield after losing Shankly’s first two matches.",
+      "sourceIds": [
+        "lfchistory-results"
+      ],
+      "date": "1959-12-28",
+      "personIds": [
+        "bill-shankly"
+      ],
+      "competitionIds": [
+        "second-division"
+      ]
+    },
+    {
+      "id": "callaghan-debut",
+      "title": "Ian Callaghan enters the first team",
+      "detail": "Callaghan made his senior debut in a 4–0 Anfield win against Bristol Rovers. His established first-team role came later, during the promotion season.",
+      "sourceIds": [
+        "callaghan-debut",
+        "lfchistory-results"
+      ],
+      "date": "1960-04-16",
+      "personIds": [
+        "ian-callaghan"
+      ],
+      "competitionIds": [
+        "second-division"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1960-61",
+    "1961-62"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-table",
+      "label": "RSSSF: Football League tables, 1959-60",
+      "url": "https://www.rsssf.org/engpaul/FLA/1959-60.html",
+      "confidence": "high",
+      "claims": "Final league position, points, scoring and home/away records."
+    },
+    {
+      "id": "lfchistory-table",
+      "label": "LFChistory: 1959-60 league table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/1",
+      "confidence": "high",
+      "claims": "Independent check of final league position and points."
+    },
+    {
+      "id": "lfchistory-results",
+      "label": "LFChistory: 1959-60 results",
+      "url": "https://www.lfchistory.net/season-archive/games/1",
+      "confidence": "high",
+      "claims": "Competition entries, cup rounds, match results and dates; chronological development of the league campaign."
+    },
+    {
+      "id": "lfchistory-scorers",
+      "label": "LFChistory: 1959-60 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/1",
+      "confidence": "high",
+      "claims": "Leading scorers and the separate league and cup components of their competitive totals."
+    },
+    {
+      "id": "lfchistory-appearances",
+      "label": "LFChistory: 1959-60 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/1",
+      "confidence": "high",
+      "claims": "Season-specific first-team involvement, used to select key players."
+    },
+    {
+      "id": "lfchistory-transfers",
+      "label": "LFChistory: 1959-60 transfer register",
+      "url": "https://www.lfchistory.net/season-archive/transfers/1",
+      "confidence": "high",
+      "claims": "Transfer dates, clubs and reported fees, checked against player profiles and club histories. Summer moves are allocated to the campaign they prepared for."
+    },
+    {
+      "id": "lfchistory-hunt",
+      "label": "LFChistory: Roger Hunt profile",
+      "url": "https://www.lfchistory.net/players/326",
+      "confidence": "high",
+      "claims": "Debut date and 1959–60 scoring breakdown; 21 league goals plus two FA Cup goals."
+    },
+    {
+      "id": "lfc-taylor",
+      "label": "Liverpool FC: Phil Taylor profile",
+      "url": "https://www.liverpoolfc.com/info/phil-taylor-0",
+      "confidence": "high",
+      "claims": "Taylor’s unsuccessful promotion campaigns and resignation during 1959–60."
+    },
+    {
+      "id": "shankly-arrival",
+      "label": "LFChistory: Shankly’s arrival",
+      "url": "https://www.lfchistory.net/articles/157",
+      "confidence": "high",
+      "claims": "Contemporary material distinguishes Taylor’s 17 November resignation, the appointment announcement on 1 December and Shankly’s arrival on 14 December."
+    },
+    {
+      "id": "lfc-shankly-anniversary",
+      "label": "Liverpool FC: 60 years since Shankly’s appointment",
+      "url": "https://www.liverpoolfc.com/news/features/374756-60-years-ago-today-bill-shankly-s-liverpool-revolution-begins",
+      "confidence": "high",
+      "claims": "Official confirmation that 1 December 1959 is the appointment date."
+    },
+    {
+      "id": "caretaker-record",
+      "label": "LFChistory: Liverpool v Leyton Orient, 21 November 1959",
+      "url": "https://www.lfchistory.net/games/18",
+      "confidence": "high",
+      "claims": "The match record labels the Liverpool manager “Caretaker Manager”, without identifying an individual."
+    },
+    {
+      "id": "lfchistory-slater",
+      "label": "LFChistory: Bert Slater profile",
+      "url": "https://www.lfchistory.net/players/411",
+      "confidence": "high",
+      "claims": "June 1959 exchange from Falkirk involving Tommy Younger; first-season appearances."
+    },
+    {
+      "id": "falkirk-keepers",
+      "label": "Falkirk FC: Navy Blue keepers",
+      "url": "https://falkirkfc.co.uk/throwback-thursday-navy-blue-keepers/",
+      "confidence": "high",
+      "claims": "Falkirk’s account corroborates Slater’s move to Liverpool and Younger’s arrival as player-manager."
+    },
+    {
+      "id": "hickson-report",
+      "label": "Contemporary report: Liverpool sign Dave Hickson",
+      "url": "https://www.lfchistory.net/articles/1068",
+      "confidence": "high",
+      "claims": "Liverpool Echo report of 6 November 1959, reproduced by LFChistory, gives Everton as seller and a fee of about £12,000."
+    },
+    {
+      "id": "lfchistory-leishman",
+      "label": "LFChistory: Tommy Leishman profile",
+      "url": "https://www.lfchistory.net/players/356",
+      "confidence": "high",
+      "claims": "St Mirren transfer on 20 November 1959 for £10,000 and subsequent first-team involvement."
+    },
+    {
+      "id": "lfc-leishman",
+      "label": "Liverpool FC: Tommy Leishman profile",
+      "url": "https://www.liverpoolfc.com/info/tommy-leishman",
+      "confidence": "high",
+      "claims": "Corroborates November 1959 arrival and his first-season role."
+    },
+    {
+      "id": "lfc-reid",
+      "label": "Liverpool FC: How Bill Shankly changed the team",
+      "url": "https://www.liverpoolfc.com/news/first-team/144273-how-bill-shankly-changed-the-team",
+      "confidence": "medium",
+      "claims": "Identifies Reid as Shankly’s first signing in February 1960. The stated £8,000 conflicts with LFChistory’s “Free” entry, so no fee is published."
+    },
+    {
+      "id": "lfc-bimpson",
+      "label": "Liverpool FC: Louis Bimpson profile",
+      "url": "https://www.liverpoolfc.com/info/louis-bimpson",
+      "confidence": "high",
+      "claims": "November 1959 move to Blackburn after Hickson arrived."
+    },
+    {
+      "id": "lfc-twentyman",
+      "label": "Liverpool FC: Geoff Twentyman profile",
+      "url": "https://www.liverpoolfc.com/info/geoff-twentyman/",
+      "confidence": "high",
+      "claims": "Ballymena United destination and player-manager role; exact departure date comes from the transfer register."
+    },
+    {
+      "id": "callaghan-debut",
+      "label": "LFChistory: A debut to remember",
+      "url": "https://www.lfchistory.net/articles/306",
+      "confidence": "high",
+      "claims": "16 April 1960 debut against Bristol Rovers, supported by reproduced contemporary match reports."
+    },
+    {
+      "id": "motherwell-reid",
+      "label": "Motherwell FC: Sammy Reid obituary",
+      "url": "https://www.motherwellfc.co.uk/player/?page=825",
+      "confidence": "high",
+      "claims": "Selling club corroborates Reid’s 1960 transfer and describes an £8,000 fee; this conflicts with the specialist register."
+    },
+    {
+      "id": "lewis-reid-report",
+      "label": "Contemporary report: Kevin Lewis transferred to Liverpool",
+      "url": "https://playupliverpool.com/1960/06/16/kevin-lewis-transferred-to-liverpool/",
+      "confidence": "medium",
+      "claims": "Daily Mirror of 17 June 1960, transcribed by Play Up Liverpool, says Shankly previously paid £6,000 for Reid. A third conflicting figure strengthens the decision to omit the fee."
+    },
+    {
+      "id": "11v11-scorers",
+      "label": "11v11: Liverpool 1959-60 player statistics",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1960/",
+      "confidence": "high",
+      "claims": "Independent publisher corroboration of Roger Hunt’s 23 competitive goals. Used for the scoring total, not every peripheral appearance allocation."
+    }
+  ],
+  "researchNotes": [
+    "Hunt’s 23 competitive goals comprise 21 in the league and two in the FA Cup. Hickson also scored 21 league goals but none in the cup, so the two were not joint competitive top scorers.",
+    "Taylor’s resignation, the announcement of Shankly’s appointment, his arrival and his first fixture are different dates. The caretaker records do not reliably identify the individual; Bob Paisley is therefore not asserted as caretaker in managerIds.",
+    "Sammy Reid’s fee is £8,000 in Liverpool FC and Motherwell FC retrospectives, “Free” in LFChistory’s transfer table, and £6,000 in a transcribed contemporary Daily Mirror report. No fee is published. Reid is included despite no competitive appearance because he was Shankly’s first signing, rather than as a key player.",
+    "Summer 1959 moves are included even where LFChistory files them under the preceding season. Post-season May/June 1960 departures are assigned to 1960–61, without duplication.",
+    "The significant transfer list omits reserve striker Bobby Murdoch’s move to Barrow; minor registrations are not an exhaustive squad ledger. Cup results exclude friendlies and regional fixtures. The League Cup did not yet exist and Liverpool did not play in Europe.",
+    "11v11 independently confirms Hunt’s 23 competitive goals. The page was retrieved during research; direct automated requests may encounter an access restriction."
+  ],
+  "managerNote": "Phil Taylor resigned on 17 November 1959. Bill Shankly’s appointment was announced on 1 December; he arrived on 14 December and took charge of his first match on 19 December. LFChistory records an unnamed caretaker for the four intervening fixtures."
+}

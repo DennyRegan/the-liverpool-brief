@@ -68,5 +68,295 @@
     "id": "player-farewells",
     "label": "Player farewells",
     "kind": "theme"
+  },
+  {
+    "id": "alan-acourt",
+    "label": "Alan A’Court",
+    "kind": "person"
+  },
+  {
+    "id": "alan-arnell",
+    "label": "Alan Arnell",
+    "kind": "person"
+  },
+  {
+    "id": "alec-lindsay",
+    "label": "Alec Lindsay",
+    "kind": "person"
+  },
+  {
+    "id": "alf-arrowsmith",
+    "label": "Alf Arrowsmith",
+    "kind": "person"
+  },
+  {
+    "id": "allan-jones",
+    "label": "Allan Jones",
+    "kind": "person"
+  },
+  {
+    "id": "alun-evans",
+    "label": "Alun Evans",
+    "kind": "person"
+  },
+  {
+    "id": "barry-wilkinson",
+    "label": "Barry Wilkinson",
+    "kind": "person"
+  },
+  {
+    "id": "bert-slater",
+    "label": "Bert Slater",
+    "kind": "person"
+  },
+  {
+    "id": "bill-shankly",
+    "label": "Bill Shankly",
+    "kind": "person"
+  },
+  {
+    "id": "billy-liddell",
+    "label": "Billy Liddell",
+    "kind": "person"
+  },
+  {
+    "id": "bobby-thomson",
+    "label": "Bobby Thomson",
+    "kind": "person"
+  },
+  {
+    "id": "charity-shield",
+    "label": "Charity Shield",
+    "kind": "competition"
+  },
+  {
+    "id": "chris-lawler",
+    "label": "Chris Lawler",
+    "kind": "person"
+  },
+  {
+    "id": "dave-hickson",
+    "label": "Dave Hickson",
+    "kind": "person"
+  },
+  {
+    "id": "dave-wilson",
+    "label": "Dave Wilson",
+    "kind": "person"
+  },
+  {
+    "id": "dick-white",
+    "label": "Dick White",
+    "kind": "person"
+  },
+  {
+    "id": "doug-rudham",
+    "label": "Doug Rudham",
+    "kind": "person"
+  },
+  {
+    "id": "emlyn-hughes",
+    "label": "Emlyn Hughes",
+    "kind": "person"
+  },
+  {
+    "id": "european-cup",
+    "label": "European Cup",
+    "kind": "competition"
+  },
+  {
+    "id": "european-cup-winners-cup",
+    "label": "European Cup Winners’ Cup",
+    "kind": "competition"
+  },
+  {
+    "id": "fa-cup",
+    "label": "FA Cup",
+    "kind": "competition"
+  },
+  {
+    "id": "fred-morris",
+    "label": "Fred Morris",
+    "kind": "person"
+  },
+  {
+    "id": "geoff-strong",
+    "label": "Geoff Strong",
+    "kind": "person"
+  },
+  {
+    "id": "geoff-twentyman",
+    "label": "Geoff Twentyman",
+    "kind": "person"
+  },
+  {
+    "id": "gerry-byrne",
+    "label": "Gerry Byrne",
+    "kind": "person"
+  },
+  {
+    "id": "gordon-milne",
+    "label": "Gordon Milne",
+    "kind": "person"
+  },
+  {
+    "id": "gordon-wallace",
+    "label": "Gordon Wallace",
+    "kind": "person"
+  },
+  {
+    "id": "ian-callaghan",
+    "label": "Ian Callaghan",
+    "kind": "person"
+  },
+  {
+    "id": "ian-st-john",
+    "label": "Ian St John",
+    "kind": "person"
+  },
+  {
+    "id": "inter-cities-fairs-cup",
+    "label": "Inter-Cities Fairs Cup",
+    "kind": "competition"
+  },
+  {
+    "id": "jim-furnell",
+    "label": "Jim Furnell",
+    "kind": "person"
+  },
+  {
+    "id": "jimmy-harrower",
+    "label": "Jimmy Harrower",
+    "kind": "person"
+  },
+  {
+    "id": "jimmy-melia",
+    "label": "Jimmy Melia",
+    "kind": "person"
+  },
+  {
+    "id": "john-molyneux",
+    "label": "John Molyneux",
+    "kind": "person"
+  },
+  {
+    "id": "john-ogston",
+    "label": "John Ogston",
+    "kind": "person"
+  },
+  {
+    "id": "johnny-morrissey",
+    "label": "Johnny Morrissey",
+    "kind": "person"
+  },
+  {
+    "id": "kevin-lewis",
+    "label": "Kevin Lewis",
+    "kind": "person"
+  },
+  {
+    "id": "larry-lloyd",
+    "label": "Larry Lloyd",
+    "kind": "person"
+  },
+  {
+    "id": "laurie-hughes",
+    "label": "Laurie Hughes",
+    "kind": "person"
+  },
+  {
+    "id": "league-cup",
+    "label": "League Cup",
+    "kind": "competition"
+  },
+  {
+    "id": "louis-bimpson",
+    "label": "Louis Bimpson",
+    "kind": "person"
+  },
+  {
+    "id": "peter-thompson",
+    "label": "Peter Thompson",
+    "kind": "person"
+  },
+  {
+    "id": "peter-wall",
+    "label": "Peter Wall",
+    "kind": "person"
+  },
+  {
+    "id": "phil-chisnall",
+    "label": "Phil Chisnall",
+    "kind": "person"
+  },
+  {
+    "id": "phil-ferns",
+    "label": "Phil Ferns",
+    "kind": "person"
+  },
+  {
+    "id": "phil-taylor",
+    "label": "Phil Taylor",
+    "kind": "person"
+  },
+  {
+    "id": "ray-clemence",
+    "label": "Ray Clemence",
+    "kind": "person"
+  },
+  {
+    "id": "roger-hunt",
+    "label": "Roger Hunt",
+    "kind": "person"
+  },
+  {
+    "id": "ron-yeats",
+    "label": "Ron Yeats",
+    "kind": "person"
+  },
+  {
+    "id": "ronnie-moran",
+    "label": "Ronnie Moran",
+    "kind": "person"
+  },
+  {
+    "id": "sammy-reid",
+    "label": "Sammy Reid",
+    "kind": "person"
+  },
+  {
+    "id": "second-division",
+    "label": "Second Division",
+    "kind": "competition"
+  },
+  {
+    "id": "tommy-lawrence",
+    "label": "Tommy Lawrence",
+    "kind": "person"
+  },
+  {
+    "id": "tommy-leishman",
+    "label": "Tommy Leishman",
+    "kind": "person"
+  },
+  {
+    "id": "tommy-smith",
+    "label": "Tommy Smith",
+    "kind": "person"
+  },
+  {
+    "id": "tommy-younger",
+    "label": "Tommy Younger",
+    "kind": "person"
+  },
+  {
+    "id": "tony-hateley",
+    "label": "Tony Hateley",
+    "kind": "person"
+  },
+  {
+    "id": "willie-stevenson",
+    "label": "Willie Stevenson",
+    "kind": "person"
   }
 ]

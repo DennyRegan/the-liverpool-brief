@@ -1,0 +1,413 @@
+{
+  "season": "1968-69",
+  "reviewedOn": "2026-09-09",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 2,
+    "sourceIds": [
+      "rsssf-league",
+      "lfch-games"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "roger-hunt",
+      "goals": 17,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-squad"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fifth round — lost 1–0 to Leicester City at Anfield in a replay, after a 0–0 draw at Filbert Street.",
+      "sourceIds": [
+        "fchd-fa-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–1 to Arsenal at Highbury.",
+      "sourceIds": [
+        "rsssf-league-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "inter-cities-fairs-cup",
+      "kind": "europe",
+      "result": "First round — eliminated by Athletic Bilbao on a coin toss after a 3–3 aggregate draw and extra time.",
+      "sourceIds": [
+        "rsssf-europe",
+        "athletic-coin-toss",
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "tommy-lawrence",
+    "chris-lawler",
+    "tommy-smith",
+    "ron-yeats",
+    "geoff-strong",
+    "emlyn-hughes",
+    "ian-callaghan",
+    "peter-thompson",
+    "ian-st-john",
+    "roger-hunt",
+    "alun-evans"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "alun-evans",
+        "club": "Wolverhampton Wanderers",
+        "deal": "permanent",
+        "fee": "£100,000",
+        "note": "Signed in September 1968 and made 39 competitive appearances this season.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-evans",
+          "lfch-appearances"
+        ]
+      },
+      {
+        "personId": "alec-lindsay",
+        "club": "Bury",
+        "deal": "permanent",
+        "fee": "£67,000",
+        "note": "Signed in March 1969; his competitive Liverpool debut came the following season.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-lindsay",
+          "lfch-evans-interview"
+        ]
+      },
+      {
+        "personId": "larry-lloyd",
+        "club": "Bristol Rovers",
+        "deal": "permanent",
+        "fee": "£50,000",
+        "note": "Signed in April 1969; did not make a first-team appearance this season.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-lloyd",
+          "lfch-evans-interview"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "dave-wilson",
+        "club": "Preston North End",
+        "deal": "permanent",
+        "note": "Returned to Preston in the 1968 close season after one first-team appearance for Liverpool.",
+        "sourceIds": [
+          "lfch-wilson",
+          "lfc-wilson"
+        ]
+      },
+      {
+        "personId": "tony-hateley",
+        "club": "Coventry City",
+        "deal": "permanent",
+        "fee": "£80,000",
+        "note": "Departed in September 1968 after four appearances and one goal early in the season.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-hateley",
+          "lfch-appearances",
+          "lfch-scorers"
+        ]
+      },
+      {
+        "personId": "alf-arrowsmith",
+        "club": "Bury",
+        "deal": "permanent",
+        "fee": "£25,000",
+        "note": "Left in December 1968 after injuries had reduced his first-team opportunities.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-arrowsmith"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished runners-up to Leeds United, with their strongest league position since the 1966 championship. The defence conceded only 24 goals, fewer than any other First Division side, and Tommy Lawrence played every league match. Chris Lawler and Tommy Smith were also ever-present in the league, while Ron Yeats, Geoff Strong and Emlyn Hughes remained central to the side.",
+    "There were changes in attack. Alun Evans arrived from Wolves for £100,000 in September and scored in a 4–0 debut victory over Leicester City. A week later he scored twice as Liverpool won 6–0 at his former club. Tony Hateley moved to Coventry City that month. Roger Hunt remained the leading scorer, although his 17 goals were well below the previous season’s 30. On 1 February, his winner against Sheffield Wednesday also made him Liverpool’s record league goalscorer.",
+    "Liverpool stayed in contention for the title into April, but Leeds secured the championship with a goalless draw at Anfield on 28 April. The final gap was six points. Cup progress was limited: Leicester won an FA Cup fifth-round replay at Anfield and Arsenal ended the League Cup campaign in the fourth round. In Europe, Athletic Bilbao and Liverpool each won their home leg 2–1. With the Fairs Cup tie still level after extra time at Anfield, a coin toss put Athletic through.",
+    "The season ended without silverware, but it should not be reduced to the later decline of Shankly’s first team. Finishing second with the division’s best defensive record was a substantial achievement. At the same time, preparations for further change continued. Ray Clemence made his first competitive appearance in the League Cup, while Alec Lindsay and Larry Lloyd were bought during the spring. Neither Lindsay nor Lloyd played for the first team before the season ended; their importance belongs to what followed."
+  ],
+  "events": [
+    {
+      "id": "alun-evans-liverpool-debut-1968",
+      "title": "Evans scores on his debut",
+      "detail": "The new signing from Wolves scored in Liverpool’s 4–0 win over Leicester City at Anfield. He added two goals in the 6–0 win at Molineux a week later.",
+      "sourceIds": [
+        "lfc-evans",
+        "lfch-games"
+      ],
+      "date": "1968-09-21",
+      "personIds": [
+        "alun-evans"
+      ],
+      "competitionIds": [
+        "first-division"
+      ]
+    },
+    {
+      "id": "ray-clemence-liverpool-debut-1968",
+      "title": "Clemence makes his first-team debut",
+      "detail": "Clemence kept goal in the 2–0 League Cup win over Swansea Town at Anfield. It was his only competitive appearance of the season.",
+      "sourceIds": [
+        "lfch-clemence-interview",
+        "lfch-games",
+        "lfch-appearances"
+      ],
+      "date": "1968-09-25",
+      "personIds": [
+        "ray-clemence"
+      ],
+      "competitionIds": [
+        "league-cup"
+      ]
+    },
+    {
+      "id": "athletic-bilbao-coin-toss-1968",
+      "title": "A coin toss decides the European tie",
+      "detail": "Liverpool won the return leg 2–1 at Anfield, making the aggregate score 3–3. Extra time brought no further goal, and Athletic Bilbao advanced on a coin toss.",
+      "sourceIds": [
+        "rsssf-europe",
+        "athletic-coin-toss",
+        "lfch-games"
+      ],
+      "date": "1968-10-02",
+      "competitionIds": [
+        "inter-cities-fairs-cup"
+      ]
+    },
+    {
+      "id": "hunt-league-scoring-record-1969",
+      "title": "Hunt takes the league scoring record",
+      "detail": "Hunt scored the only goal against Sheffield Wednesday at Anfield. His 234th league goal for Liverpool took him past Gordon Hodgson.",
+      "sourceIds": [
+        "lfc-hunt-league-record",
+        "lfch-hunt",
+        "lfch-games"
+      ],
+      "date": "1969-02-01",
+      "personIds": [
+        "roger-hunt"
+      ],
+      "competitionIds": [
+        "first-division"
+      ]
+    },
+    {
+      "id": "leeds-title-anfield-1969",
+      "title": "Leeds secure the title at Anfield",
+      "detail": "A 0–0 draw with Liverpool gave Leeds United the point that secured their first league championship. Liverpool went on to finish second.",
+      "sourceIds": [
+        "leeds-title",
+        "lfch-leeds-match",
+        "rsssf-league"
+      ],
+      "date": "1969-04-28",
+      "competitionIds": [
+        "first-division"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1965-66",
+    "1966-67",
+    "1967-68"
+  ],
+  "sources": [
+    {
+      "id": "lfc-shankly",
+      "label": "Liverpool FC: Bill Shankly",
+      "url": "https://www.liverpoolfc.com/info/bill-shankly",
+      "confidence": "high",
+      "claims": "Shankly remained manager throughout the season and later rebuilt the team around several of these arrivals."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1968–69 results",
+      "url": "https://www.lfchistory.net/season-archive/games/10",
+      "confidence": "high",
+      "claims": "All competitive results and dates, including the opening to Evans’s Liverpool career and each cup exit."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1968–69",
+      "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+      "confidence": "high",
+      "claims": "Liverpool finished second on 61 points, six behind Leeds; 25 wins, 11 draws and six defeats, with 63 goals for and a division-best 24 against."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1968–69 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/10",
+      "confidence": "high",
+      "claims": "Hunt’s leading total of 17: 13 league, one FA Cup, two League Cup and one Fairs Cup goal; goals spread through the rest of the team."
+    },
+    {
+      "id": "afv-squad",
+      "label": "11v11: Liverpool players, 1968–69",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1969/",
+      "confidence": "high",
+      "claims": "Independent confirmation of Hunt’s 17 goals in 47 appearances and the principal first-team players."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1968–69 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/10",
+      "confidence": "high",
+      "claims": "Key players judged on current-season involvement. Lawrence played all 42 league matches, Evans made 39 total appearances and Clemence made one."
+    },
+    {
+      "id": "fchd-fa-cup",
+      "label": "Football Club History Database: FA Cup 1968–69",
+      "url": "https://fchd.info/cups/facup1968-69.htm",
+      "confidence": "high",
+      "claims": "Fifth-round elimination by Leicester City after a goalless away draw and a 1–0 defeat at Anfield."
+    },
+    {
+      "id": "rsssf-league-cup",
+      "label": "RSSSF: League Cup results",
+      "url": "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+      "confidence": "high",
+      "claims": "Wins over Sheffield United and Swansea Town, followed by a 2–1 fourth-round defeat at Arsenal."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 1968–69, match details",
+      "url": "https://www.rsssf.org/ec/ec196869det.html",
+      "confidence": "high",
+      "claims": "Athletic Bilbao and Liverpool each won their home leg 2–1; Athletic advanced by coin toss after extra time at Anfield."
+    },
+    {
+      "id": "athletic-coin-toss",
+      "label": "Athletic Club: Iribar’s memories at Anfield",
+      "url": "https://www.athletic-club.eus/en/news/2021/08/10/iribars-memories-at-anfield/",
+      "confidence": "high",
+      "claims": "Primary club account of the October 1968 Fairs Cup tie and Athletic’s qualification by coin toss."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1968–69 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/10",
+      "confidence": "high",
+      "claims": "Arrivals of Evans (£100,000), Lindsay (£67,000) and Lloyd (£50,000); departures of Hateley (£80,000) and Arrowsmith (£25,000)."
+    },
+    {
+      "id": "lfc-evans",
+      "label": "Liverpool FC: Alun Evans",
+      "url": "https://www.liverpoolfc.com/info/alun-evans",
+      "confidence": "medium",
+      "claims": "September 1968 arrival from Wolves, a goal on debut against Leicester and two at Molineux the following week. Its exact-age wording is not used."
+    },
+    {
+      "id": "lfch-evans-interview",
+      "label": "LFChistory: Alun Evans interview",
+      "url": "https://www.lfchistory.net/articles/4306",
+      "confidence": "high",
+      "claims": "First-person account of his Liverpool career and transfer context; specialist introduction corroborates the Lindsay and Lloyd fees."
+    },
+    {
+      "id": "lfc-lindsay",
+      "label": "Liverpool FC: Alec Lindsay",
+      "url": "https://www.liverpoolfc.com/info/alec-lindsay",
+      "confidence": "high",
+      "claims": "Joined from Bury in March 1969; first-team debut came the following September."
+    },
+    {
+      "id": "lfc-lloyd",
+      "label": "Liverpool FC: Larry Lloyd",
+      "url": "https://www.liverpoolfc.com/info/larry-lloyd",
+      "confidence": "high",
+      "claims": "Joined from Bristol Rovers in April 1969 and made his first-team debut in the following season."
+    },
+    {
+      "id": "lfc-hateley",
+      "label": "Liverpool FC: Tony Hateley remembered",
+      "url": "https://www.liverpoolfc.com/news/first-team/154483-rip-tony-hateley",
+      "confidence": "high",
+      "claims": "Moved to Coventry City in September 1968, having started the season in the Liverpool side."
+    },
+    {
+      "id": "lfc-arrowsmith",
+      "label": "Liverpool FC: Alf Arrowsmith",
+      "url": "https://www.liverpoolfc.com/info/alf-arrowsmith/",
+      "confidence": "high",
+      "claims": "Arrowsmith joined Bury in December 1968 after injuries had limited his role since the 1964 title season."
+    },
+    {
+      "id": "lfch-wilson",
+      "label": "LFChistory: Dave Wilson",
+      "url": "https://www.lfchistory.net/players/446",
+      "confidence": "high",
+      "claims": "Return to Preston North End in the close season of 1968, after one Liverpool first-team appearance."
+    },
+    {
+      "id": "lfc-wilson",
+      "label": "Liverpool FC: Dave Wilson",
+      "url": "https://www.liverpoolfc.com/info/dave-wilson",
+      "confidence": "medium",
+      "claims": "Confirms the return to Preston after his brief Liverpool spell; the profile’s mistaken sole-appearance venue is not used."
+    },
+    {
+      "id": "lfc-hunt-league-record",
+      "label": "Liverpool FC: Hunt sets the league goalscoring record",
+      "url": "https://www.liverpoolfc.com/news/day-roger-hunt-scores-set-liverpool-fc-record",
+      "confidence": "high",
+      "claims": "On 1 February 1969 Hunt scored the only goal against Sheffield Wednesday, his 234th league goal, taking him past Gordon Hodgson."
+    },
+    {
+      "id": "lfch-hunt",
+      "label": "LFChistory: Roger Hunt",
+      "url": "https://www.lfchistory.net/players/326",
+      "confidence": "high",
+      "claims": "Season goals and chronology of Hunt’s league scoring record."
+    },
+    {
+      "id": "lfch-clemence-interview",
+      "label": "LFChistory: Interview with Ray Clemence",
+      "url": "https://www.lfchistory.net/articles/846",
+      "confidence": "high",
+      "claims": "Competitive Liverpool debut in the 2–0 League Cup victory over Swansea Town on 25 September 1968."
+    },
+    {
+      "id": "leeds-title",
+      "label": "Leeds United: Five great Anfield results",
+      "url": "https://www.leedsunited.com/en/news/jon-howe-five-great-anfield-results",
+      "confidence": "high",
+      "claims": "Primary club confirmation that the 0–0 draw at Anfield on 28 April 1969 secured Leeds’s first league title."
+    },
+    {
+      "id": "lfch-leeds-match",
+      "label": "LFChistory: Liverpool 0–0 Leeds, 28 April 1969",
+      "url": "https://www.lfchistory.net/games/508",
+      "confidence": "high",
+      "claims": "Match date, result, line-ups and confirmation that Leeds clinched the title at Anfield."
+    }
+  ],
+  "researchNotes": [
+    "Hunt’s 17 competitive goals are independently confirmed by LFChistory and 11v11: 13 league, one FA Cup, two League Cup and one Fairs Cup goal.",
+    "The Fairs Cup tie with Athletic Bilbao was decided by a coin toss, not away goals or penalties. Both RSSSF’s match details and Athletic Club’s own historical account confirm the method.",
+    "The 1 February 1969 league scoring milestone follows Liverpool FC’s current account and LFChistory’s corrected figures. It is distinct from Hunt’s overall scoring record, set in November 1967.",
+    "Summer departures are allocated to the following season. Wilson’s May 1968 return to Preston is therefore included here. No fee is published for that move. Exact signing days for Lloyd and the precise age claimed in the official Evans profile are omitted because accounts vary.",
+    "The key-player list reflects this season’s first team. Clemence made one cup appearance; Lindsay and Lloyd had yet to make their competitive debuts. They are connected through arrival and event records rather than presented as established members of this side."
+  ]
+}
