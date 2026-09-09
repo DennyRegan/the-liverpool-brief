@@ -1,9 +1,12 @@
+import { getHistoryEntities } from '../lib/content/entities.ts';
 import { getHistoryEvents } from '../lib/content/this-week.ts';
 import { getArchiveFeatures } from '../lib/content/archive.ts';
 import { getHistory, getArticleEraIds, getEraImage } from '../lib/content/history.ts';
 const events = getHistoryEvents();
 console.log(`Validated ${events.length} history entries.`);
 const history = getHistory();
+const entities = getHistoryEntities();
+console.log(`Validated ${entities.length} canonical history entities.`);
 const articles = getArchiveFeatures();
 for (const article of articles) {
   const ids = getArticleEraIds(article, history.eras);

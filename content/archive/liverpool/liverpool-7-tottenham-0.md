@@ -7,6 +7,21 @@ decade: "1970s"
 excerpt: "Tottenham brought two World Cup winners to Anfield the summer English football opened its doors to the world. They went home having conceded seven, and having watched Kenny Dalglish."
 slug: "liverpool-7-tottenham-0"
 category: "match"
+articleType: "match"
+season: "1978-79"
+playerIds:
+  - "kenny-dalglish"
+  - "terry-mcdermott"
+managerIds:
+  - "bob-paisley"
+oppositionIds:
+  - "tottenham-hotspur"
+competitionIds:
+  - "first-division"
+locationIds:
+  - "anfield"
+themeIds:
+  - "attacking-football"
 sources:
   - "https://www.liverpoolfc.com/news/features/343161-missing-men-tottenham-hotspur-1978"
   - "https://www.liverpoolfc.com/news/anfield-road-end-goals-mcdermotts-header-leaves-paisley-awe"

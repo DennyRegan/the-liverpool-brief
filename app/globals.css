@@ -129,3 +129,7 @@ button { cursor: pointer; }
  .history-page h1 { font-size: 34px; }
  .history-entry h3 { font-size: 25px; }
 }
+
+.archive-discovery { border-top: 1px solid var(--foreground); margin-top: 50px; padding-top: 24px; }
+.archive-discovery .article-card h3 { font-family: var(--font-source-serif), Georgia, serif; font-size: 27px; font-weight: 600; line-height: 1.25; letter-spacing: -.02em; margin: 14px 0 12px; overflow-wrap: anywhere; }
+.archive-discovery .article-card .archive-discovery-reason { margin-top: 16px; font-size: 12px; color: var(--accent); }

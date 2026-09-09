@@ -5,6 +5,10 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { archiveFeatureExists, getArchiveFeature, getArchiveFeatures } from "@/lib/content/archive";
 import { SiteHeader } from "@/app/components/SiteHeader";
+import { ArchiveDiscovery } from "@/app/components/ArchiveDiscovery";
+import { getRelatedArchiveArticles } from "@/lib/content/discovery";
+import { getHistoryEntities } from "@/lib/content/entities";
+import { getHistory } from "@/lib/content/history";
 import { ShareButton } from "@/app/components/ShareButton";
 
 export function generateStaticParams() {
@@ -68,6 +72,14 @@ export default async function ArchiveFeaturePage({
           .map((matchSlug) => getArchiveFeature(matchSlug))
       : [];
 
+  const curatedSlugs = new Set(relatedMatches.map(article => article.slug));
+  const recommendations = getRelatedArchiveArticles(
+    feature,
+    getArchiveFeatures().filter(article => !curatedSlugs.has(article.slug)),
+    getHistory().eras,
+    getHistoryEntities(),
+  );
+
   return (
     <div className="min-h-screen">
       <SiteHeader active="archive" />
@@ -114,6 +126,7 @@ export default async function ArchiveFeaturePage({
             </ul>
           </div>
         )}
+        <ArchiveDiscovery recommendations={recommendations} />
       </main>
     </div>
   );

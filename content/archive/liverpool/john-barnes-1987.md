@@ -7,6 +7,20 @@ decade: "1980s"
 excerpt: "Liverpool lost their most potent goalscorer in the summer of 1987 and somehow became more potent. John Barnes was at the centre of the attack Kenny Dalglish built without Ian Rush."
 slug: "john-barnes-1987"
 category: "person"
+articleType: "player"
+season: "1987-88"
+playerIds:
+  - "john-barnes"
+  - "john-aldridge"
+  - "peter-beardsley"
+  - "ian-rush"
+managerIds:
+  - "kenny-dalglish"
+competitionIds:
+  - "first-division"
+themeIds:
+  - "attacking-football"
+  - "changing-attack"
 sources:
   - "https://www.liverpoolfc.com/info/john-aldridge"
   - "https://www.liverpoolfc.com/news/first-team/224074-kenny-dalglish-why-i-signed-john-barnes"

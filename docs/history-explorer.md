@@ -35,7 +35,8 @@ Placement follows these rules:
 
 1. If `historyEras` is present, its IDs are the complete explicit set of contexts. It overrides automatic date placement, allowing one article to appear in multiple eras.
 2. Otherwise, `historicalEventDate` selects the tenure containing that day. Shared handover days belong to the incoming tenure. Gaps between appointments remain unassigned.
-3. Publication dates, prose periods and manager names never guess a relationship. An undated broad piece needs explicit IDs.
+3. With no event date, a structured `season` can select an era only when the entire July–June season fits within that tenure. Handover seasons remain unassigned and need explicit `historyEras`.
+4. Publication dates, prose periods, manager names and person IDs never guess a tenure. An undated broad piece needs explicit IDs. See [Connected history](connected-history.md) for the relationship schema and recommendation rules.
 
 The build rejects unknown era IDs, malformed or empty lists, duplicate IDs and invalid dates. Unassigned Archive articles produce an advisory build warning and remain published in Archive. A date before Shankly or during an appointment gap can legitimately be unassigned.
 

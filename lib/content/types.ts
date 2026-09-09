@@ -1,4 +1,6 @@
-import {z} from "zod"
+import {z} from "zod";
+import { HistoryIdSchema, HistoryIdsSchema } from "./entities.ts";
+import { seasonKey } from "./history.ts";
 export const SourceSchema = z.object({
     name: z.string(),
     platform: z.string(),
@@ -36,16 +38,24 @@ export const ArchiveFeatureSchema = z.object({
         .refine(ids => new Set(ids).size === ids.length, "Remove duplicate History era IDs")
         .optional(),
     title: z.string(),
-    date: z.string(),
+    date: z.iso.date(),
     historicalPeriod: z.string(),
     decade: z.string(),
     excerpt: z.string(),
-    slug: z.string(),
+    slug: HistoryIdSchema,
+    // Navigation category is intentionally independent of the subject of the article.
+    articleType: z.enum(["match", "player", "manager", "transfer", "season", "competition", "club-event", "other"]).optional(),
+    playerIds: HistoryIdsSchema.optional(),
+    managerIds: HistoryIdsSchema.optional(),
+    oppositionIds: HistoryIdsSchema.optional(),
+    competitionIds: HistoryIdsSchema.optional(),
+    locationIds: HistoryIdsSchema.optional(),
+    themeIds: HistoryIdsSchema.optional(),
     category: z.enum(["match", "person", "season"]).default("match"),
     series: z.string().optional(),
     part: z.number().optional(),
     // Season facts panel — optional so existing (non-season) articles keep parsing.
-    season: z.string().optional(),
+    season: z.string().refine(value => seasonKey(value) !== undefined, "Use consecutive season years, e.g. 1987-88 (1987/88 also accepted)").optional(),
     manager: z.string().optional(),
     leagueFinish: z.string().optional(),
     european: z.string().optional(),
@@ -53,7 +63,9 @@ export const ArchiveFeatureSchema = z.object({
     topScorer: z.string().optional(),
     arrivals: z.string().optional(),
     departures: z.string().optional(),
-    relatedMatches: z.array(z.string()).optional(),
+    relatedMatches: HistoryIdsSchema.optional(),
     sources: z.array(z.string()).optional(),
     body: z.string(),
 });
+
+export type ArchiveFeature = z.infer<typeof ArchiveFeatureSchema>;

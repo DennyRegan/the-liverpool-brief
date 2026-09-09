@@ -60,7 +60,11 @@ export type HistoryEra = z.infer<typeof EraSchema>;
 
 export function getHistory(root = process.cwd()) {
   const filename = path.join(root, "content/history/liverpool/eras.json");
-  return HistorySchema.parse(JSON.parse(fs.readFileSync(filename, "utf8")));
+  try {
+    return HistorySchema.parse(JSON.parse(fs.readFileSync(filename, "utf8")));
+  } catch (error) {
+    throw new Error(`Invalid history eras.json: ${error instanceof Error ? error.message : String(error)}`);
+  }
 }
 
 export function eraYears(era: HistoryEra) {
@@ -74,7 +78,19 @@ type ArchiveContext = {
   date: string;
   historicalEventDate?: string;
   historyEras?: string[];
+  season?: string;
 };
+
+/** Normalize common existing season spellings without changing editorial display text. */
+export function seasonKey(value?: string): string | undefined {
+  const match = value?.match(/^(\d{4})[-/–](\d{2}|\d{4})$/);
+  if (!match) return undefined;
+  const start = Number(match[1]);
+  const expected = start + 1;
+  const end = match[2].length === 2 ? expected % 100 : expected;
+  if (Number(match[2]) !== end || start < 1 || expected > 9999) return undefined;
+  return `${match[1]}-${String(expected % 100).padStart(2, "0")}`;
+}
 
 /** Explicit contexts win. Never infer a career from a person's name or prose date. */
 export function getArticleEraIds(article: ArchiveContext, eras: HistoryEra[]): string[] {
@@ -87,7 +103,16 @@ export function getArticleEraIds(article: ArchiveContext, eras: HistoryEra[]): s
     return [...new Set(article.historyEras)];
   }
   const date = article.historicalEventDate;
-  if (!date) return [];
+  if (!date) {
+    const season = seasonKey(article.season);
+    if (!season) return [];
+    // Conservative fallback: a whole July–June season must fit one tenure.
+    // Handover seasons need editorial historyEras; a person ID never implies a tenure.
+    const start = `${season.slice(0, 4)}-07-01`;
+    const end = `${String(Number(season.slice(0, 4)) + 1).padStart(4, "0")}-06-30`;
+    const era = eras.find(era => era.startDate <= start && (!era.endDate || era.endDate >= end));
+    return era ? [era.id] : [];
+  }
   // On a shared handover date the incoming tenure wins. Vacancies stay unassigned.
   const era = [...eras].reverse().find(era => date >= era.startDate && (!era.endDate || date <= era.endDate));
   return era ? [era.id] : [];

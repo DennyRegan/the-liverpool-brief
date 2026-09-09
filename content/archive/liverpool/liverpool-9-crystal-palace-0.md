@@ -7,6 +7,25 @@ decade: "1980s"
 excerpt: "Nine goals, eight scorers, and a farewell to John Aldridge. Nobody at Anfield that night knew they were watching the end of something."
 slug: "liverpool-9-crystal-palace-0"
 category: "match"
+articleType: "match"
+season: "1989-90"
+playerIds:
+  - "john-aldridge"
+  - "john-barnes"
+  - "peter-beardsley"
+  - "ian-rush"
+managerIds:
+  - "kenny-dalglish"
+oppositionIds:
+  - "crystal-palace"
+competitionIds:
+  - "first-division"
+locationIds:
+  - "anfield"
+themeIds:
+  - "attacking-football"
+  - "changing-attack"
+  - "player-farewells"
 sources:
   - "https://www.lfchistory.net/games/1697"
   - "https://www.lfchistory.net/images/newspapers/riley/19890912vCrystalPalace.pdf"

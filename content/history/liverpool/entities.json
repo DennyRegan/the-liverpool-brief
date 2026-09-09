@@ -1,0 +1,72 @@
+[
+  {
+    "id": "john-barnes",
+    "label": "John Barnes",
+    "kind": "person"
+  },
+  {
+    "id": "john-aldridge",
+    "label": "John Aldridge",
+    "kind": "person"
+  },
+  {
+    "id": "peter-beardsley",
+    "label": "Peter Beardsley",
+    "kind": "person"
+  },
+  {
+    "id": "ian-rush",
+    "label": "Ian Rush",
+    "kind": "person"
+  },
+  {
+    "id": "kenny-dalglish",
+    "label": "Kenny Dalglish",
+    "kind": "person"
+  },
+  {
+    "id": "terry-mcdermott",
+    "label": "Terry McDermott",
+    "kind": "person"
+  },
+  {
+    "id": "bob-paisley",
+    "label": "Bob Paisley",
+    "kind": "person"
+  },
+  {
+    "id": "tottenham-hotspur",
+    "label": "Tottenham Hotspur",
+    "kind": "opposition"
+  },
+  {
+    "id": "crystal-palace",
+    "label": "Crystal Palace",
+    "kind": "opposition"
+  },
+  {
+    "id": "first-division",
+    "label": "First Division",
+    "kind": "competition"
+  },
+  {
+    "id": "anfield",
+    "label": "Anfield",
+    "kind": "location"
+  },
+  {
+    "id": "attacking-football",
+    "label": "Attacking football",
+    "kind": "theme"
+  },
+  {
+    "id": "changing-attack",
+    "label": "A changing attack",
+    "kind": "theme"
+  },
+  {
+    "id": "player-farewells",
+    "label": "Player farewells",
+    "kind": "theme"
+  }
+]
