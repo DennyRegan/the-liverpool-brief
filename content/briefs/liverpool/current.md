@@ -1,10 +1,27 @@
 ---
 {
-  "lastUpdated": "2026-09-08T17:06:49.094Z",
+  "lastUpdated": "2026-09-09T17:19:27.223Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
+    {
+      "headline": "Panel says Forest penalty should not have been awarded",
+      "category": "Club",
+      "summary": "The Premier League’s Key Match Incidents Panel voted 3–2 that Alisson’s challenge on Neco Williams should not have resulted in a penalty during Liverpool’s 2–2 draw with Nottingham Forest on 29 August. However, it unanimously backed VAR’s non-intervention, judging that the decision did not meet the higher threshold for a clear and obvious error.",
+      "sources": [
+        {
+          "name": "BBC Sport — confidence: high",
+          "platform": "Dale Johnson, 9 September 2026",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c0klzd1pj5po"
+        },
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official match report, 29 August 2026",
+          "url": "https://www.liverpoolfc.com/news/isak-and-munoz-score-liverpool-draw-nottingham-forest"
+        }
+      ]
+    },
     {
       "headline": "Mac Allister disappointed by lack of contract offer",
       "category": "Club",
