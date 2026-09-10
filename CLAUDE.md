@@ -11,7 +11,7 @@ Preserve Denny’s existing opinion text and URLs. The ten original AI-written A
 
 ## Architecture
 Next.js App Router; local Markdown with YAML frontmatter validated by Zod. Opinion: content/articles/liverpool. Archive: content/archive/liverpool. Current brief: content/briefs/liverpool/current.md. Recurring events: content/this-week/liverpool.
-Archive date remains publication date; optional historicalEventDate is the real event date. This Week matches month/day against today plus six days in Europe/London, and refers to Archive by archiveSlug, never copied body text. Archive historicalEventDate month/day automatically selects Further reading; manual archiveSlug links also qualify, with one card per article.
+Archive date remains publication date; optional historicalEventDate is the real event date. This Week matches month/day against the fixed current Monday-to-Sunday calendar week in Europe/London, never a rolling daily window. Keep all seven dates together for the whole week; omit empty day cards. It refers to Archive by archiveSlug, never copied body text. Archive historicalEventDate month/day automatically selects Further reading for that entire week; manual archiveSlug links also qualify, with one card per article. See docs/this-week.md for the publishing contract.
 
 History skeleton: content/history/liverpool/eras.json. History uses historicalEventDate for automatic tenure placement, or optional historyEras arrays for explicit multiple contexts. Never infer a tenure from a manager name or prose period. Dalglish has two tenure IDs. Keep historical corrections in the data and preserve its sources. See docs/history-explorer.md and docs/history-sources.md.
 

@@ -66,9 +66,12 @@ export function getHistoryWindow(events: HistoryEvent[], now = new Date()) {
   }).formatToParts(now);
   const part = (type: string) => parts.find(p => p.type === type)!.value;
   const today = new Date(`${part("year")}-${part("month")}-${part("day")}T12:00:00Z`);
+  // One fixed calendar week: Sunday is six days after Monday, not a new window.
+  const monday = new Date(today);
+  monday.setUTCDate(today.getUTCDate() - ((today.getUTCDay() + 6) % 7));
   return Array.from({ length: 7 }, (_, offset) => {
-    const date = new Date(today);
-    date.setUTCDate(today.getUTCDate() + offset);
+    const date = new Date(monday);
+    date.setUTCDate(monday.getUTCDate() + offset);
     const month = date.getUTCMonth() + 1;
     const day = date.getUTCDate();
     return {

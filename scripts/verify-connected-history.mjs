@@ -67,8 +67,13 @@ console.log(`PASS History landing and all ${eras.length} existing era routes`);
 const week = mainOf(await get('/this-week'));
 const firstDay = week.match(/<time\b[^>]*datetime="(\d{4}-\d{2}-\d{2})"/i)?.[1];
 assert.ok(firstDay, 'This Week renders its current calendar window');
+assert.equal(new Date(`${firstDay}T12:00:00Z`).getUTCDay(), 1, 'This Week always starts on Monday');
 // Match the rendered window itself, so a London midnight during verification cannot create a false failure.
 const days = getHistoryWindow(getHistoryEvents(), new Date(`${firstDay}T12:00:00Z`));
+assert.match(week, new RegExp(`datetime="${days[6].iso}"`, 'i'), 'This Week range ends on Sunday');
+assert.doesNotMatch(week, /No event selected\./, 'No empty day cards');
+const renderedDays = [...week.matchAll(/aria-labelledby="day-(\d{4}-\d{2}-\d{2})"/g)].map(match => match[1]);
+assert.deepEqual(renderedDays, days.filter(day => day.events.length > 0).map(day => day.iso), 'Only populated dates inside the fixed week render');
 const expectedWeekLinks = new Set([
   ...days.flatMap(day => day.events.flatMap(event => event.archiveSlug ? [event.archiveSlug] : [])),
   ...getWeekReading(articles, days).map(article => article.slug),

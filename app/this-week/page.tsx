@@ -6,9 +6,9 @@ import { getHistoryEvents, getHistoryWindow, getWeekReading } from "@/lib/conten
 
 export const metadata = {
   title: "This Week in Liverpool History | The Liverpool Brief",
-  description: "Seven days of Liverpool history, with verified sources and links to full Archive stories.",
+  description: "A fixed Monday-to-Sunday week of Liverpool history, with verified sources and links to full Archive stories.",
 };
-// Render on each visit so a cached build cannot leave yesterday's window on screen.
+// Resolve London's current calendar week on each visit, including Monday rollover.
 export const dynamic = "force-dynamic";
 
 export default function ThisWeekPage() {
@@ -17,6 +17,8 @@ export default function ThisWeekPage() {
   return <><SiteHeader active="this-week" /><main id="main-content" className="reading-page history-page">
     <h1>This Week in Liverpool History</h1>
     <p className="history-range"><time dateTime={days[0].iso}>{days[0].label}</time> – <time dateTime={days[6].iso}>{days[6].label}</time></p>
+    <p className="history-summary">Selected moments from Liverpool’s past, Monday to Sunday.</p>
+    {!days.some(day => day.events.length > 0) && <p className="history-empty">This week’s history selection is being prepared.</p>}
     <HistoryWeek days={days} />
     {reading.length > 0 && <section className="history-section" aria-labelledby="further-reading">
       <h2 id="further-reading">Further reading</h2>
