@@ -358,5 +358,10 @@
     "id": "willie-stevenson",
     "label": "Willie Stevenson",
     "kind": "person"
+  },
+  {
+    "id": "phil-thompson",
+    "label": "Phil Thompson",
+    "kind": "person"
   }
 ]
