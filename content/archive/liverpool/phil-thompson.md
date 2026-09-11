@@ -1,6 +1,6 @@
 ---
 title: "Phil Thompson lived the life every Liverpool supporter imagines"
-date: "2026-09-11"
+date: "2026-09-01"
 historicalEventDate: "1981-05-27"
 historicalPeriod: "27 May 1981"
 decade: "1980s"
@@ -8,20 +8,14 @@ excerpt: "A Kirkby lad who stood on the Kop lifted the European Cup as Liverpool
 slug: "phil-thompson"
 category: "person"
 articleType: "player"
-playerIds:
-  - "phil-thompson"
 managerIds:
   - "bill-shankly"
   - "bob-paisley"
-  - "graeme-souness"
-  - "gerard-houllier"
 competitionIds:
   - "first-division"
   - "european-cup"
   - "league-cup"
   - "fa-cup"
-  - "uefa-cup"
-  - "european-super-cup"
 sources:
   - "https://www.liverpoolfc.com/info/phil-thompson"
   - "https://www.lfchistory.net/players/428"
