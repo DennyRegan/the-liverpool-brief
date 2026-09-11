@@ -8,6 +8,8 @@ excerpt: "A Kirkby lad who stood on the Kop lifted the European Cup as Liverpool
 slug: "phil-thompson"
 category: "person"
 articleType: "player"
+playerIds:
+  - "phil-thompson"
 managerIds:
   - "bill-shankly"
   - "bob-paisley"
