@@ -1,10 +1,51 @@
 ---
 {
-  "lastUpdated": "2026-09-09T17:19:27.223Z",
+  "lastUpdated": "2026-09-12T06:30:00.000Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
+    {
+      "headline": "Gakpo doubtful; Ekitike could return in January",
+      "category": "Team news",
+      "summary": "Cody Gakpo remains doubtful for Fulham after missing the Atlético victory with discomfort in both adductors. Bradley Barcola is expected to be available after suffering cramp rather than an injury. Andoni Iraola also said there is a realistic chance Hugo Ekitike could return from his Achilles injury in January.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official pre-Fulham fitness update, 11 September 2026",
+          "url": "https://www.liverpoolfc.com/news/lfc-fitness-update-iraola-provides-latest-gakpo-barcola-and-ekitike"
+        },
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official team news, 11 September 2026",
+          "url": "https://www.liverpoolfc.com/news/liverpool-v-fulham-team-news-3"
+        }
+      ]
+    },
+    {
+      "headline": "Liverpool come from behind to beat Atlético",
+      "category": "Match",
+      "summary": "Liverpool opened their Champions League campaign with a 2–1 win over Atlético Madrid at Anfield on 9 September. Dominik Szoboszlai and Alexis Mac Allister scored either side of half-time after Marcos Llorente’s opener. The victory gave Andoni Iraola three points in his first Champions League match as a coach. Fulham visit Anfield next, on Saturday at 3pm.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official match report, 9 September 2026",
+          "url": "https://www.liverpoolfc.com/news/liverpool-comeback-clinches-champions-league-win-over-atletico-madrid"
+        }
+      ]
+    },
+    {
+      "headline": "Festive fixture changes confirmed",
+      "category": "Fixtures",
+      "summary": "Liverpool’s away games against Hull City, Aston Villa and Sunderland will kick off at 5.30pm on 26 December, 8.15pm on 30 December and 8.15pm on 5 January respectively. All three will be shown live on Sky Sports. Coventry City’s visit to Anfield remains at 3pm on 2 January.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official fixture announcement, 10 September 2026",
+          "url": "https://www.liverpoolfc.com/news/festive-fixtures-updates-three-liverpools-premier-league-games"
+        }
+      ]
+    },
     {
       "headline": "Panel says Forest penalty should not have been awarded",
       "category": "Club",
@@ -48,35 +89,6 @@
           "name": "Liverpool FC — confidence: high",
           "platform": "Official club announcement, 8 September 2026",
           "url": "https://www.liverpoolfc.com/news/liverpool-fc-announces-turkish-airlines-main-club-partner-2027-28-season"
-        }
-      ]
-    },
-    {
-      "headline": "Hughes joins Al-Hilal; Liverpool seek successor",
-      "category": "Club",
-      "summary": "Richard Hughes has joined Al-Hilal as sporting director following his departure from Liverpool. He took up the role on Sunday 6 September. Liverpool have begun the process of appointing his replacement.",
-      "sources": [
-        {
-          "name": "Associated Press — confidence: high",
-          "platform": "AP report via Times Union, 7 September 2026",
-          "url": "https://www.timesunion.com/sports/article/al-hilal-hires-richard-hughes-as-sporting-22420539.php"
-        },
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official club statement",
-          "url": "https://www.liverpoolfc.com/news/liverpool-fc-statement-14"
-        }
-      ]
-    },
-    {
-      "headline": "Atlético visit begins busy run at Anfield",
-      "category": "Up next",
-      "summary": "Liverpool host Atlético Madrid in the Champions League on Wednesday 9 September. It starts a run of three home matches in three competitions within a week. Milos Kerkez says Liverpool must build on the Ipswich win while preparing for games every few days.",
-      "sources": [
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official club interview",
-          "url": "https://www.liverpoolfc.com/news/milos-kerkez-happy-win-now-we-have-be-ready-every-three-days"
         }
       ]
     }
