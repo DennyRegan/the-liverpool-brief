@@ -30,9 +30,19 @@
     "kind": "person"
   },
   {
+    "id": "kevin-keegan",
+    "label": "Kevin Keegan",
+    "kind": "person"
+  },
+  {
     "id": "bob-paisley",
     "label": "Bob Paisley",
     "kind": "person"
+  },
+  {
+    "id": "hamburg",
+    "label": "Hamburg",
+    "kind": "opposition"
   },
   {
     "id": "tottenham-hotspur",
@@ -47,6 +57,11 @@
   {
     "id": "first-division",
     "label": "First Division",
+    "kind": "competition"
+  },
+  {
+    "id": "european-super-cup",
+    "label": "European Super Cup",
     "kind": "competition"
   },
   {
