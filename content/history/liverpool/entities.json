@@ -1588,5 +1588,150 @@
     "id": "danny-ward",
     "label": "Danny Ward",
     "kind": "person"
+  },
+  {
+    "id": "harvey-elliott",
+    "label": "Harvey Elliott",
+    "kind": "person"
+  },
+  {
+    "id": "adrian",
+    "label": "Adrián",
+    "kind": "person"
+  },
+  {
+    "id": "takumi-minamino",
+    "label": "Takumi Minamino",
+    "kind": "person"
+  },
+  {
+    "id": "ryan-kent",
+    "label": "Ryan Kent",
+    "kind": "person"
+  },
+  {
+    "id": "diogo-jota",
+    "label": "Diogo Jota",
+    "kind": "person"
+  },
+  {
+    "id": "thiago-alcantara",
+    "label": "Thiago Alcântara",
+    "kind": "person"
+  },
+  {
+    "id": "nat-phillips",
+    "label": "Nat Phillips",
+    "kind": "person"
+  },
+  {
+    "id": "rhys-williams",
+    "label": "Rhys Williams",
+    "kind": "person"
+  },
+  {
+    "id": "kostas-tsimikas",
+    "label": "Kostas Tsimikas",
+    "kind": "person"
+  },
+  {
+    "id": "ben-davies",
+    "label": "Ben Davies",
+    "kind": "person"
+  },
+  {
+    "id": "ozan-kabak",
+    "label": "Ozan Kabak",
+    "kind": "person"
+  },
+  {
+    "id": "ki-jana-hoever",
+    "label": "Ki-Jana Hoever",
+    "kind": "person"
+  },
+  {
+    "id": "rhian-brewster",
+    "label": "Rhian Brewster",
+    "kind": "person"
+  },
+  {
+    "id": "ibrahima-konate",
+    "label": "Ibrahima Konaté",
+    "kind": "person"
+  },
+  {
+    "id": "luis-diaz",
+    "label": "Luis Díaz",
+    "kind": "person"
+  },
+  {
+    "id": "caoimhin-kelleher",
+    "label": "Caoimhín Kelleher",
+    "kind": "person"
+  },
+  {
+    "id": "harry-wilson",
+    "label": "Harry Wilson",
+    "kind": "person"
+  },
+  {
+    "id": "darwin-nunez",
+    "label": "Darwin Núñez",
+    "kind": "person"
+  },
+  {
+    "id": "cody-gakpo",
+    "label": "Cody Gakpo",
+    "kind": "person"
+  },
+  {
+    "id": "calvin-ramsay",
+    "label": "Calvin Ramsay",
+    "kind": "person"
+  },
+  {
+    "id": "fabio-carvalho",
+    "label": "Fábio Carvalho",
+    "kind": "person"
+  },
+  {
+    "id": "arthur-melo",
+    "label": "Arthur Melo",
+    "kind": "person"
+  },
+  {
+    "id": "neco-williams",
+    "label": "Neco Williams",
+    "kind": "person"
+  },
+  {
+    "id": "alexis-mac-allister",
+    "label": "Alexis Mac Allister",
+    "kind": "person"
+  },
+  {
+    "id": "dominik-szoboszlai",
+    "label": "Dominik Szoboszlai",
+    "kind": "person"
+  },
+  {
+    "id": "wataru-endo",
+    "label": "Wataru Endo",
+    "kind": "person"
+  },
+  {
+    "id": "ryan-gravenberch",
+    "label": "Ryan Gravenberch",
+    "kind": "person"
+  },
+  {
+    "id": "jarell-quansah",
+    "label": "Jarell Quansah",
+    "kind": "person"
+  },
+  {
+    "id": "conor-bradley",
+    "label": "Conor Bradley",
+    "kind": "person"
   }
 ]
