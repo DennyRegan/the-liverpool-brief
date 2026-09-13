@@ -508,5 +508,85 @@
     "id": "frank-mcgarvey",
     "label": "Frank McGarvey",
     "kind": "person"
+  },
+  {
+    "id": "avi-cohen",
+    "label": "Avi Cohen",
+    "kind": "person"
+  },
+  {
+    "id": "ronnie-whelan",
+    "label": "Ronnie Whelan",
+    "kind": "person"
+  },
+  {
+    "id": "richard-money",
+    "label": "Richard Money",
+    "kind": "person"
+  },
+  {
+    "id": "bruce-grobbelaar",
+    "label": "Bruce Grobbelaar",
+    "kind": "person"
+  },
+  {
+    "id": "craig-johnston",
+    "label": "Craig Johnston",
+    "kind": "person"
+  },
+  {
+    "id": "sammy-lee",
+    "label": "Sammy Lee",
+    "kind": "person"
+  },
+  {
+    "id": "mark-lawrenson",
+    "label": "Mark Lawrenson",
+    "kind": "person"
+  },
+  {
+    "id": "steve-nicol",
+    "label": "Steve Nicol",
+    "kind": "person"
+  },
+  {
+    "id": "david-hodgson",
+    "label": "David Hodgson",
+    "kind": "person"
+  },
+  {
+    "id": "howard-gayle",
+    "label": "Howard Gayle",
+    "kind": "person"
+  },
+  {
+    "id": "joe-fagan",
+    "label": "Joe Fagan",
+    "kind": "person"
+  },
+  {
+    "id": "gary-gillespie",
+    "label": "Gary Gillespie",
+    "kind": "person"
+  },
+  {
+    "id": "michael-robinson",
+    "label": "Michael Robinson",
+    "kind": "person"
+  },
+  {
+    "id": "john-wark",
+    "label": "John Wark",
+    "kind": "person"
+  },
+  {
+    "id": "intercontinental-cup",
+    "label": "Intercontinental Cup",
+    "kind": "competition"
+  },
+  {
+    "id": "jim-beglin",
+    "label": "Jim Beglin",
+    "kind": "person"
   }
 ]
