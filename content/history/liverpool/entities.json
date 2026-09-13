@@ -588,5 +588,70 @@
     "id": "jim-beglin",
     "label": "Jim Beglin",
     "kind": "person"
+  },
+  {
+    "id": "jan-molby",
+    "label": "Jan Mølby",
+    "kind": "person"
+  },
+  {
+    "id": "kevin-macdonald",
+    "label": "Kevin MacDonald",
+    "kind": "person"
+  },
+  {
+    "id": "paul-walsh",
+    "label": "Paul Walsh",
+    "kind": "person"
+  },
+  {
+    "id": "steve-mcmahon",
+    "label": "Steve McMahon",
+    "kind": "person"
+  },
+  {
+    "id": "mike-hooper",
+    "label": "Mike Hooper",
+    "kind": "person"
+  },
+  {
+    "id": "barry-venison",
+    "label": "Barry Venison",
+    "kind": "person"
+  },
+  {
+    "id": "steve-staunton",
+    "label": "Steve Staunton",
+    "kind": "person"
+  },
+  {
+    "id": "nigel-spackman",
+    "label": "Nigel Spackman",
+    "kind": "person"
+  },
+  {
+    "id": "ray-houghton",
+    "label": "Ray Houghton",
+    "kind": "person"
+  },
+  {
+    "id": "david-burrows",
+    "label": "David Burrows",
+    "kind": "person"
+  },
+  {
+    "id": "gary-ablett",
+    "label": "Gary Ablett",
+    "kind": "person"
+  },
+  {
+    "id": "football-league-super-cup",
+    "label": "Football League Super Cup",
+    "kind": "competition"
+  },
+  {
+    "id": "football-league-centenary-trophy",
+    "label": "Football League Centenary Trophy",
+    "kind": "competition"
   }
 ]

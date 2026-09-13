@@ -1,0 +1,240 @@
+{
+  "season": "1984-85",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "joe-fagan"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 2,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "john-wark",
+      "goals": 27,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-wark"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Runners-up — lost 1–0 to Everton.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Semi-final — lost 2–1 to Manchester United in a replay after a 2–2 draw.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 1–0 away to Tottenham Hotspur.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Runners-up — lost 1–0 to Juventus at Heysel.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-super-cup",
+      "kind": "europe",
+      "result": "Runners-up — lost 2–0 to Juventus in Turin.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "intercontinental-cup",
+      "kind": "other",
+      "result": "Runners-up — lost 1–0 to Independiente in Tokyo.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "john-wark",
+    "ian-rush",
+    "alan-hansen",
+    "phil-neal",
+    "bruce-grobbelaar",
+    "ronnie-whelan",
+    "kenny-dalglish",
+    "mark-lawrenson",
+    "steve-nicol"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "paul-walsh",
+        "club": "Luton Town",
+        "deal": "permanent",
+        "note": "May 1984 signing, allocated to the incoming campaign.",
+        "sourceIds": [
+          "lfch-prior-transfers"
+        ]
+      },
+      {
+        "personId": "jan-molby",
+        "club": "Ajax",
+        "deal": "permanent",
+        "note": "Joined in August 1984.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "kevin-macdonald",
+        "club": "Leicester City",
+        "deal": "permanent",
+        "note": "Joined in November 1984.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "graeme-souness",
+        "club": "Sampdoria",
+        "deal": "permanent",
+        "note": "Left in June 1984.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "david-hodgson",
+        "club": "Sunderland",
+        "deal": "permanent",
+        "note": "Left in August 1984.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "michael-robinson",
+        "club": "Queens Park Rangers",
+        "deal": "permanent",
+        "note": "Left in December 1984.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "phil-thompson",
+        "club": "Sheffield United",
+        "deal": "free",
+        "note": "Left in March 1985.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "The season ended with the Heysel disaster. Before the European Cup final against Juventus in Brussels on 29 May 1985, 39 people, mostly Juventus supporters, died after a wall collapsed following a charge by Liverpool supporters. The final went ahead and Liverpool lost 1–0. English clubs were subsequently banned from European competition.",
+    "Liverpool finished second in the First Division, 13 points behind Everton, and lost their FA Cup semi-final replay to Manchester United. Tottenham ended their League Cup run in the third round. There were also defeats by Everton in the Charity Shield, Independiente in the Intercontinental Cup and Juventus in the European Super Cup.",
+    "John Wark was leading scorer with 27 competitive goals. Graeme Souness had left for Sampdoria, while Paul Walsh and Jan Mølby joined from Luton and Ajax. Joe Fagan retired at the end of the season; his decision to step down had been made before Heysel."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1983-84"
+  ],
+  "sources": [
+    {
+      "id": "lfc-manager",
+      "label": "Liverpool FC: Joe Fagan",
+      "url": "https://www.liverpoolfc.com/info/joe-fagan",
+      "confidence": "high",
+      "claims": "Manager in 1984–85; had already decided to retire before Heysel."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1984-85",
+      "url": "https://www.rsssf.org/engpaul/FLA/1984-85.html",
+      "confidence": "high",
+      "claims": "Final division, position, points, goals and league record; title margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1984-85 games",
+      "url": "https://www.lfchistory.net/season-archive/games/26",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, scores, venues and cup stages; aggregate scores calculated from legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1984-85 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/26",
+      "confidence": "high",
+      "claims": "All-competitive scoring, including the Shield, Super Cup and Centenary Trophy where played; excludes friendlies and shoot-outs."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1984-85 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/26",
+      "confidence": "high",
+      "claims": "Dated selected senior arrivals and departures; summer allocation explained in notes."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1984-85 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/26",
+      "confidence": "high",
+      "claims": "Competitive involvement supporting key-player selections."
+    },
+    {
+      "id": "lfc-heysel",
+      "label": "Liverpool FC: Heysel memorial",
+      "url": "https://www.liverpoolfc.com/heysel",
+      "confidence": "high",
+      "claims": "39 people, mostly Juventus supporters, died before the European Cup final in Brussels on 29 May 1985."
+    },
+    {
+      "id": "reuters-heysel",
+      "label": "Reuters: Liverpool unveil new Heysel memorial",
+      "url": "https://www.reuters.com/sports/soccer/liverpool-unveil-new-heysel-memorial-marking-40th-anniversary-disaster-2025-05-21/",
+      "confidence": "high",
+      "claims": "39 deaths after a wall collapsed following a charge by Liverpool supporters; English clubs subsequently banned from Europe."
+    },
+    {
+      "id": "lfc-wark",
+      "label": "Liverpool FC: John Wark",
+      "url": "https://www.liverpoolfc.com/info/john-wark",
+      "confidence": "high",
+      "claims": "Leading scorer with 27 goals in his first full season, 1984–85."
+    },
+    {
+      "id": "lfch-prior-transfers",
+      "label": "LFChistory: 1983–84 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/25",
+      "confidence": "high",
+      "claims": "Paul Walsh joined from Luton Town on 17 May 1984, allocated to the incoming season."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-heysel, reuters-heysel and lfch-games; paragraph 2 — rsssf-league and lfch-games; paragraph 3 — lfch-scorers, lfc-wark, lfch-transfers, lfch-prior-transfers and lfc-manager.",
+    "The January 1985 European Super Cup was a single match in Turin. Walsh’s May 1984 arrival is included here, as promised in the preceding season audit. No transfer date is inferred from the compressed chronology in Fagan’s profile."
+  ]
+}
