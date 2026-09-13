@@ -1,0 +1,308 @@
+{
+  "season": "2004-05",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "rafael-benitez"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 5,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "milan-baros",
+      "goals": 13,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorers"
+      ]
+    },
+    {
+      "personId": "steven-gerrard",
+      "goals": 13,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorers"
+      ]
+    },
+    {
+      "personId": "luis-garcia",
+      "goals": 13,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 1–0 away to Burnley.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Runners-up — lost 3–2 to Chelsea after extra time.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-league-final"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League winners — beat AC Milan 3–2 on penalties after a 3–3 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-european-cup"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "european-cup"
+  ],
+  "keyPlayerIds": [
+    "steven-gerrard",
+    "luis-garcia",
+    "milan-baros",
+    "john-arne-riise",
+    "jamie-carragher",
+    "steve-finnan",
+    "sami-hyypia",
+    "dietmar-hamann",
+    "djimi-traore",
+    "jerzy-dudek",
+    "igor-biscan",
+    "xabi-alonso"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "djibril-cisse",
+        "club": "Auxerre",
+        "deal": "permanent",
+        "note": "Joined in July 2004.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "josemi",
+        "club": "Málaga",
+        "deal": "permanent",
+        "note": "Joined in July 2004.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "antonio-nunez",
+        "club": "Real Madrid",
+        "deal": "permanent",
+        "note": "Joined in August 2004.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "xabi-alonso",
+        "club": "Real Sociedad",
+        "deal": "permanent",
+        "note": "Joined in August 2004.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "luis-garcia",
+        "club": "Barcelona",
+        "deal": "permanent",
+        "note": "Joined in August 2004.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mauricio-pellegrino",
+        "club": "Valencia",
+        "deal": "free",
+        "note": "Joined in January 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "fernando-morientes",
+        "club": "Real Madrid",
+        "deal": "permanent",
+        "note": "Joined in January 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "scott-carson",
+        "club": "Leeds United",
+        "deal": "permanent",
+        "note": "Joined in January 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "emile-heskey",
+        "club": "Birmingham City",
+        "deal": "permanent",
+        "note": "Left in May 2004 ahead of the new campaign.",
+        "sourceIds": [
+          "lfch-prior-transfers"
+        ]
+      },
+      {
+        "personId": "markus-babbel",
+        "club": "VfB Stuttgart",
+        "deal": "free",
+        "note": "Left in July 2004.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "danny-murphy",
+        "club": "Charlton Athletic",
+        "deal": "permanent",
+        "note": "Left in August 2004.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "michael-owen",
+        "club": "Real Madrid",
+        "deal": "permanent",
+        "note": "Left in August 2004.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "stephane-henchoz",
+        "club": "Celtic",
+        "deal": "free",
+        "note": "Left in January 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won their fifth European Cup in Rafael Benítez’s first season after his arrival from Valencia. Trailing AC Milan 3–0 at half-time in Istanbul on 25 May, they drew level through Steven Gerrard, Vladimír Šmicer and Xabi Alonso before winning the penalty shoot-out 3–2.",
+    "Gerrard’s goal against Olympiacos had helped secure a place in the knockout stages, where Liverpool overcame Bayer Leverkusen, Juventus and Chelsea. Luis García scored the only goal of the semi-final tie against Chelsea. He, Gerrard and Milan Baroš shared the club’s scoring lead with 13 competitive goals each.",
+    "The domestic campaign brought fifth place in the Premier League with 58 points, three behind Everton. Chelsea beat Liverpool 3–2 after extra time in the League Cup final, while Burnley ended their FA Cup run in the third round. Alonso and García were among the new arrivals, and Michael Owen left for Real Madrid."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2003-04"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 2004-05 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/2004-05.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points, goals and records. Comparisons and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2004-05 games",
+      "url": "https://www.lfchistory.net/season-archive/games/104",
+      "confidence": "high",
+      "claims": "Full competitive fixtures, dates, results and cup stages. Two-leg aggregates and league runs calculated from the fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2004-05 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/104",
+      "confidence": "high",
+      "claims": "All-competitive scoring, including qualifying rounds and other competitive trophies, excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2004-05 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/104",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types; summer moves assigned to incoming campaigns. Date anomalies are documented rather than copied."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 2004-05 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/104",
+      "confidence": "high",
+      "claims": "Competitive appearance totals supporting key-player selections."
+    },
+    {
+      "id": "lfc-benitez",
+      "label": "Liverpool FC: Rafael Benítez",
+      "url": "https://www.liverpoolfc.com/info/rafael-benitez",
+      "confidence": "high",
+      "claims": "Arrival from Valencia in 2004; fifth European Cup, 2006 FA Cup and Super Cup, Athens final, 2008 semi-final and 2009 title challenge. Conditional claims about injuries changing the title outcome are not used."
+    },
+    {
+      "id": "afv-scorers",
+      "label": "11v11: Liverpool players, 2004–05",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/2005/",
+      "confidence": "high",
+      "claims": "Independent corroboration that Baroš, Gerrard and García each scored 13 competitive goals."
+    },
+    {
+      "id": "lfc-european-cup",
+      "label": "Liverpool FC: European Cup and Champions League",
+      "url": "https://www.liverpoolfc.com/info/european-cup-champions-league",
+      "confidence": "high",
+      "claims": "Istanbul on 25 May 2005: three goals down at half-time, Gerrard, Šmicer and Alonso equalised, then Liverpool won the shoot-out 3–2."
+    },
+    {
+      "id": "lfc-gerrard",
+      "label": "Liverpool FC: Steven Gerrard",
+      "url": "https://www.liverpoolfc.com/info/steven-gerrard",
+      "confidence": "high",
+      "claims": "Olympiacos goal and Istanbul comeback; 23 competitive goals and PFA award in 2005–06, two goals in that FA Cup final; 24 goals and football writers’ award in 2008–09."
+    },
+    {
+      "id": "lfc-garcia",
+      "label": "Liverpool FC: Luis García",
+      "url": "https://www.liverpoolfc.com/info/luis-garcia",
+      "confidence": "high",
+      "claims": "Arrival from Barcelona, five goals on the way to Istanbul and the semi-final winner against Chelsea."
+    },
+    {
+      "id": "lfch-prior-transfers",
+      "label": "LFChistory: 2003–04 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/46",
+      "confidence": "high",
+      "claims": "Heskey’s May 2004 move to Birmingham City is allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-league-final",
+      "label": "LFChistory: 2005 League Cup final",
+      "url": "https://www.lfchistory.net/games/4923",
+      "confidence": "high",
+      "claims": "Liverpool lost 3–2 to Chelsea after extra time."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-benitez and lfc-european-cup; paragraph 2 — lfc-gerrard, lfc-garcia, lfch-games, lfch-scorers and afv-scorers; paragraph 3 — rsssf-league, lfch-games, lfch-league-final and lfch-transfers.",
+    "All three tied leading scorers are recorded. Istanbul shoot-out kicks are excluded from their totals. The Chelsea semi-final goal is recorded as awarded; no claim resolving the disputed goal-line incident is made.",
+    "Heskey’s May 2004 departure is recorded here rather than duplicated in 2003–04. The 2005 Super Cup and Club World Championship belong to the next campaign."
+  ]
+}
