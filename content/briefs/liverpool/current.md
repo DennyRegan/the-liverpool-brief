@@ -1,14 +1,31 @@
 ---
 {
-  "lastUpdated": "2026-09-12T06:30:00.000Z",
+  "lastUpdated": "2026-09-13T07:14:22.189Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
     {
-      "headline": "Gakpo doubtful; Ekitike could return in January",
+      "headline": "Liverpool held by Fulham as Gakpo returns",
+      "category": "Match",
+      "summary": "Liverpool were held to a 0–0 draw by Fulham at Anfield on 12 September, their third draw in four Premier League games this season. Victor Muñoz hit the crossbar, while Jérémy Jacquet made a goal-line clearance at the other end. Cody Gakpo returned from his adductor problem as a second-half substitute.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official match report, 12 September 2026",
+          "url": "https://www.liverpoolfc.com/news/liverpool-held-0-0-draw-fulham-anfield"
+        },
+        {
+          "name": "The Guardian — confidence: high",
+          "platform": "Andy Hunter at Anfield, 12 September 2026",
+          "url": "https://www.theguardian.com/football/2026/sep/12/liverpool-fulham-premier-league-match-report"
+        }
+      ]
+    },
+    {
+      "headline": "Ekitike could return in January",
       "category": "Team news",
-      "summary": "Cody Gakpo remains doubtful for Fulham after missing the Atlético victory with discomfort in both adductors. Bradley Barcola is expected to be available after suffering cramp rather than an injury. Andoni Iraola also said there is a realistic chance Hugo Ekitike could return from his Achilles injury in January.",
+      "summary": "Andoni Iraola said there is a realistic chance Hugo Ekitike could return from his Achilles injury in January.",
       "sources": [
         {
           "name": "Liverpool FC — confidence: high",
@@ -19,18 +36,6 @@
           "name": "Liverpool FC — confidence: high",
           "platform": "Official team news, 11 September 2026",
           "url": "https://www.liverpoolfc.com/news/liverpool-v-fulham-team-news-3"
-        }
-      ]
-    },
-    {
-      "headline": "Liverpool come from behind to beat Atlético",
-      "category": "Match",
-      "summary": "Liverpool opened their Champions League campaign with a 2–1 win over Atlético Madrid at Anfield on 9 September. Dominik Szoboszlai and Alexis Mac Allister scored either side of half-time after Marcos Llorente’s opener. The victory gave Andoni Iraola three points in his first Champions League match as a coach. Fulham visit Anfield next, on Saturday at 3pm.",
-      "sources": [
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official match report, 9 September 2026",
-          "url": "https://www.liverpoolfc.com/news/liverpool-comeback-clinches-champions-league-win-over-atletico-madrid"
         }
       ]
     },
