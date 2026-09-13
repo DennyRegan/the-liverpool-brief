@@ -1,0 +1,243 @@
+{
+  "season": "2007-08",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "rafael-benitez"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 4,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "fernando-torres",
+      "goals": 33,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-torres"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fifth round — lost 2–1 at home to Barnsley.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Quarter-final — lost 2–0 away to Chelsea.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League semi-final — lost 4–3 on aggregate to Chelsea.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "fernando-torres",
+    "steven-gerrard",
+    "jamie-carragher",
+    "pepe-reina",
+    "ryan-babel",
+    "dirk-kuyt",
+    "yossi-benayoun",
+    "sami-hyypia",
+    "john-arne-riise",
+    "javier-mascherano",
+    "alvaro-arbeloa",
+    "peter-crouch"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "lucas-leiva",
+        "club": "Grêmio",
+        "deal": "permanent",
+        "note": "Signed in May 2007 ahead of the new campaign.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "fernando-torres",
+        "club": "Atlético Madrid",
+        "deal": "permanent",
+        "note": "Joined in July 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "yossi-benayoun",
+        "club": "West Ham United",
+        "deal": "permanent",
+        "note": "Joined in July 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ryan-babel",
+        "club": "Ajax",
+        "deal": "permanent",
+        "note": "Joined in July 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "martin-skrtel",
+        "club": "Zenit St Petersburg",
+        "deal": "permanent",
+        "note": "Joined in January 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "bolo-zenden",
+        "club": "Marseille",
+        "deal": "free",
+        "note": "Left after his contract expired in summer 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "robbie-fowler",
+        "club": "Cardiff City",
+        "deal": "free",
+        "note": "Left on a free transfer in summer 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "luis-garcia",
+        "club": "Atlético Madrid",
+        "deal": "permanent",
+        "note": "Left in July 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "djibril-cisse",
+        "club": "Marseille",
+        "deal": "permanent",
+        "note": "Permanent move in July 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "craig-bellamy",
+        "club": "West Ham United",
+        "deal": "permanent",
+        "note": "Left in July 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mohamed-sissoko",
+        "club": "Juventus",
+        "deal": "permanent",
+        "note": "Left in January 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished fourth in the Premier League with 76 points and reached the Champions League semi-final. Fernando Torres arrived from Atlético Madrid and scored 33 competitive goals, including 24 in the league. He was the first Liverpool player since Robbie Fowler in 1996–97 to reach 30 goals in a season.",
+    "After taking one point from their first three Champions League group matches, Liverpool won the next three, including an 8–0 victory over Beşiktaş at Anfield. They then beat Internazionale and Arsenal before Chelsea won the semi-final 4–3 on aggregate. The home quarter-final against Arsenal finished 4–2 to Liverpool.",
+    "Yossi Benayoun, Ryan Babel and Lucas Leiva also joined, with Martin Škrtel arriving in January. A permanent deal was completed for Javier Mascherano during the season. Barnsley knocked Liverpool out of the FA Cup in the fifth round, while Chelsea ended their League Cup run in the quarter-final. Liverpool finished without a trophy."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2006-07"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 2007-08 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/2007-08.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points, goals and records. Comparisons and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2007-08 games",
+      "url": "https://www.lfchistory.net/season-archive/games/117",
+      "confidence": "high",
+      "claims": "Full competitive fixtures, dates, results and cup stages. Two-leg aggregates and league runs calculated from the fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2007-08 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/117",
+      "confidence": "high",
+      "claims": "All-competitive scoring, including qualifying rounds and other competitive trophies, excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2007-08 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/117",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types; summer moves assigned to incoming campaigns. Date anomalies are documented rather than copied."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 2007-08 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/117",
+      "confidence": "high",
+      "claims": "Competitive appearance totals supporting key-player selections."
+    },
+    {
+      "id": "lfc-benitez",
+      "label": "Liverpool FC: Rafael Benítez",
+      "url": "https://www.liverpoolfc.com/info/rafael-benitez",
+      "confidence": "high",
+      "claims": "Arrival from Valencia in 2004; fifth European Cup, 2006 FA Cup and Super Cup, Athens final, 2008 semi-final and 2009 title challenge. Conditional claims about injuries changing the title outcome are not used."
+    },
+    {
+      "id": "lfc-torres",
+      "label": "Liverpool FC: Fernando Torres",
+      "url": "https://www.liverpoolfc.com/info/fernando-torres",
+      "confidence": "high",
+      "claims": "July 2007 arrival from Atlético Madrid; 33 competitive goals including 24 league goals in his first season, the first Liverpool player since Fowler in 1996–97 to reach 30."
+    },
+    {
+      "id": "lfc-mascherano",
+      "label": "Liverpool FC: Javier Mascherano",
+      "url": "https://www.liverpoolfc.com/info/javier-mascherano",
+      "confidence": "high",
+      "claims": "Initial 2007 loan after West Ham; 11 appearances in 2006–07 and a permanent deal in the following season. January agreement is distinguished from February registration in the dated ledger."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfch-games, lfch-scorers and lfc-torres; paragraph 2 — lfch-games and lfc-benitez; paragraph 3 — lfch-transfers, lfc-mascherano and lfch-games.",
+    "Torres’s 33 is his competitive total; 24 is his league total. No enduring record claim is made about either his debut goals or the Beşiktaş score.",
+    "Mascherano’s permanent deal is stated in the overview, with the initial loan separately recorded in 2006–07. The permanent ledger names rights holders rather than a selling club; no fictitious club is entered.",
+    "The ledger contains an Ayala date in September 2009 under this season. It is not copied. Lucas’s May 2007 signing is allocated here as preparation for his first Liverpool campaign. No unverified ownership motives or transfer fees are included."
+  ]
+}

@@ -1018,5 +1018,170 @@
     "id": "paul-jones",
     "label": "Paul Jones",
     "kind": "person"
+  },
+  {
+    "id": "rafael-benitez",
+    "label": "Rafael Benítez",
+    "kind": "person"
+  },
+  {
+    "id": "luis-garcia",
+    "label": "Luis García",
+    "kind": "person"
+  },
+  {
+    "id": "xabi-alonso",
+    "label": "Xabi Alonso",
+    "kind": "person"
+  },
+  {
+    "id": "djibril-cisse",
+    "label": "Djibril Cissé",
+    "kind": "person"
+  },
+  {
+    "id": "josemi",
+    "label": "Josemi",
+    "kind": "person"
+  },
+  {
+    "id": "antonio-nunez",
+    "label": "Antonio Núñez",
+    "kind": "person"
+  },
+  {
+    "id": "mauricio-pellegrino",
+    "label": "Mauricio Pellegrino",
+    "kind": "person"
+  },
+  {
+    "id": "fernando-morientes",
+    "label": "Fernando Morientes",
+    "kind": "person"
+  },
+  {
+    "id": "scott-carson",
+    "label": "Scott Carson",
+    "kind": "person"
+  },
+  {
+    "id": "peter-crouch",
+    "label": "Peter Crouch",
+    "kind": "person"
+  },
+  {
+    "id": "pepe-reina",
+    "label": "Pepe Reina",
+    "kind": "person"
+  },
+  {
+    "id": "mohamed-sissoko",
+    "label": "Mohamed Sissoko",
+    "kind": "person"
+  },
+  {
+    "id": "bolo-zenden",
+    "label": "Bolo Zenden",
+    "kind": "person"
+  },
+  {
+    "id": "jan-kromkamp",
+    "label": "Jan Kromkamp",
+    "kind": "person"
+  },
+  {
+    "id": "daniel-agger",
+    "label": "Daniel Agger",
+    "kind": "person"
+  },
+  {
+    "id": "craig-bellamy",
+    "label": "Craig Bellamy",
+    "kind": "person"
+  },
+  {
+    "id": "fabio-aurelio",
+    "label": "Fábio Aurélio",
+    "kind": "person"
+  },
+  {
+    "id": "jermaine-pennant",
+    "label": "Jermaine Pennant",
+    "kind": "person"
+  },
+  {
+    "id": "dirk-kuyt",
+    "label": "Dirk Kuyt",
+    "kind": "person"
+  },
+  {
+    "id": "alvaro-arbeloa",
+    "label": "Álvaro Arbeloa",
+    "kind": "person"
+  },
+  {
+    "id": "javier-mascherano",
+    "label": "Javier Mascherano",
+    "kind": "person"
+  },
+  {
+    "id": "stephen-warnock",
+    "label": "Stephen Warnock",
+    "kind": "person"
+  },
+  {
+    "id": "fernando-torres",
+    "label": "Fernando Torres",
+    "kind": "person"
+  },
+  {
+    "id": "lucas-leiva",
+    "label": "Lucas Leiva",
+    "kind": "person"
+  },
+  {
+    "id": "yossi-benayoun",
+    "label": "Yossi Benayoun",
+    "kind": "person"
+  },
+  {
+    "id": "ryan-babel",
+    "label": "Ryan Babel",
+    "kind": "person"
+  },
+  {
+    "id": "martin-skrtel",
+    "label": "Martin Škrtel",
+    "kind": "person"
+  },
+  {
+    "id": "andrea-dossena",
+    "label": "Andrea Dossena",
+    "kind": "person"
+  },
+  {
+    "id": "diego-cavalieri",
+    "label": "Diego Cavalieri",
+    "kind": "person"
+  },
+  {
+    "id": "david-ngog",
+    "label": "David Ngog",
+    "kind": "person"
+  },
+  {
+    "id": "robbie-keane",
+    "label": "Robbie Keane",
+    "kind": "person"
+  },
+  {
+    "id": "albert-riera",
+    "label": "Albert Riera",
+    "kind": "person"
+  },
+  {
+    "id": "fifa-club-world-cup",
+    "label": "FIFA Club World Cup",
+    "kind": "competition"
   }
 ]
