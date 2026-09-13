@@ -1,0 +1,233 @@
+{
+  "season": "1994-95",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "roy-evans"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 4,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "robbie-fowler",
+      "goals": 31,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-fowler"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Quarter-final — lost 2–1 at home to Tottenham Hotspur.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Bolton Wanderers 2–1 at Wembley.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-league-cup"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "league-cup"
+  ],
+  "keyPlayerIds": [
+    "robbie-fowler",
+    "steve-mcmanaman",
+    "david-james",
+    "jamie-redknapp",
+    "neil-ruddock",
+    "ian-rush",
+    "john-barnes",
+    "john-scales",
+    "phil-babb",
+    "rob-jones",
+    "stig-inge-bjornebye"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "phil-babb",
+        "club": "Coventry City",
+        "deal": "permanent",
+        "note": "Joined in September 1994.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "john-scales",
+        "club": "Wimbledon",
+        "deal": "permanent",
+        "note": "Joined in September 1994.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mark-kennedy",
+        "club": "Millwall",
+        "deal": "permanent",
+        "note": "Joined in March 1995.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "torben-piechnik",
+        "club": "AGF",
+        "deal": "free",
+        "note": "Left in June 1994.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "bruce-grobbelaar",
+        "club": "Southampton",
+        "deal": "free",
+        "note": "Left on a free transfer in summer 1994.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfch-grobbelaar"
+        ]
+      },
+      {
+        "personId": "ronnie-whelan",
+        "club": "Southend United",
+        "deal": "free",
+        "note": "Joined after his Liverpool contract expired in summer 1994.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfch-whelan"
+        ]
+      },
+      {
+        "personId": "don-hutchison",
+        "club": "West Ham United",
+        "deal": "permanent",
+        "note": "Left in August 1994.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "julian-dicks",
+        "club": "West Ham United",
+        "deal": "permanent",
+        "note": "Left in October 1994.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steve-nicol",
+        "club": "Notts County",
+        "deal": "free",
+        "note": "Left in January 1995.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the League Cup and finished fourth in the Premier League in Roy Evans’s first full season as manager. Steve McManaman scored both goals in the 2–1 final victory over Bolton Wanderers at Wembley on 2 April. Liverpool collected 74 league points, 15 behind champions Blackburn Rovers.",
+    "Robbie Fowler led the scoring with 31 competitive goals, including 25 in the league. He scored a hat-trick in the 3–0 home win over Arsenal in August. Phil Babb and John Scales arrived in September, while Bruce Grobbelaar and Ronnie Whelan left during the summer.",
+    "Tottenham ended Liverpool’s FA Cup run in the quarter-final with a 2–1 win at Anfield. The league campaign ended with Liverpool beating Blackburn 2–1 at home; Blackburn nevertheless finished top of the table. The League Cup was Liverpool’s fifth success in the competition."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1993-94"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 1994-95 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1994-95.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points and goals. Gaps and comparisons are arithmetic from the final table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1994-95 games",
+      "url": "https://www.lfchistory.net/season-archive/games/36",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, results and cup stages. Aggregates calculated from the two legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1994-95 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/36",
+      "confidence": "high",
+      "claims": "All-competitive goal totals, excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1994-95 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/36",
+      "confidence": "high",
+      "claims": "Selected senior transfers, dates, clubs and deal types. Preparatory summer moves allocated to the incoming season."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1994-95 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/36",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting key-player selections."
+    },
+    {
+      "id": "lfc-evans",
+      "label": "Liverpool FC: Roy Evans, manager",
+      "url": "https://www.liverpoolfc.com/info/roy-evans-0",
+      "confidence": "high",
+      "claims": "First full season brought fourth place and the League Cup; subsequent league finishes, 1996 FA Cup final defeat, joint management in 1998 and departure on 12 November."
+    },
+    {
+      "id": "lfc-fowler",
+      "label": "Liverpool FC: Robbie Fowler",
+      "url": "https://www.liverpoolfc.com/info/robbie-fowler",
+      "confidence": "high",
+      "claims": "31 competitive goals in 1994–95, 36 in 1995–96 and 31 in 1996–97. The exact timing of the Arsenal hat-trick is not used."
+    },
+    {
+      "id": "lfc-league-cup",
+      "label": "Liverpool FC: League Cup",
+      "url": "https://www.liverpoolfc.com/info/league-cup",
+      "confidence": "high",
+      "claims": "Liverpool beat Bolton Wanderers 2–1 at Wembley on 2 April 1995, with both goals scored by Steve McManaman."
+    },
+    {
+      "id": "lfch-grobbelaar",
+      "label": "LFChistory: Bruce Grobbelaar",
+      "url": "https://www.lfchistory.net/players/308",
+      "confidence": "high",
+      "claims": "Free transfer in summer 1994 followed by joining Southampton before 1994–95."
+    },
+    {
+      "id": "lfch-whelan",
+      "label": "LFChistory: Ronnie Whelan",
+      "url": "https://www.lfchistory.net/players/442",
+      "confidence": "high",
+      "claims": "Contract expired in June 1994; subsequently joined Southend United. No claim about the date of his appointment as their manager is used."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-evans, lfc-league-cup, lfch-games and rsssf-league; paragraph 2 — lfch-scorers, lfc-fowler, lfch-games, lfch-transfers and the Grobbelaar/Whelan profiles; paragraph 3 — lfch-games, rsssf-league and lfc-league-cup.",
+    "No precise clock time or speed record is asserted for Fowler’s Arsenal hat-trick. Free-transfer destination clubs for Grobbelaar and Whelan are verified in their profiles rather than inferred from ledger entries labelled Free Transfer."
+  ]
+}
