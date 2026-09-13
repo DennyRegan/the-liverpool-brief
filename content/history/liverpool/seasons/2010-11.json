@@ -1,0 +1,321 @@
+{
+  "season": "2010-11",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "roy-hodgson",
+    "kenny-dalglish"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 6,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "dirk-kuyt",
+      "goals": 15,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-kuyt"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 1–0 away to Manchester United.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 4–2 on penalties to Northampton Town after a 2–2 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-northampton"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Europa League round of 16 — lost 1–0 on aggregate to Braga.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "dirk-kuyt",
+    "pepe-reina",
+    "martin-skrtel",
+    "lucas-leiva",
+    "raul-meireles",
+    "david-ngog",
+    "jamie-carragher",
+    "glen-johnson",
+    "maxi-rodriguez",
+    "steven-gerrard",
+    "fernando-torres",
+    "luis-suarez"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "jonjo-shelvey",
+        "club": "Charlton Athletic",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Signed in May 2010 ahead of the new campaign."
+      },
+      {
+        "personId": "milan-jovanovic",
+        "club": "Standard Liège",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "joe-cole",
+        "club": "Chelsea",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-hodgson"
+        ]
+      },
+      {
+        "personId": "danny-wilson",
+        "club": "Rangers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "christian-poulsen",
+        "club": "Juventus",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "brad-jones",
+        "club": "Middlesbrough",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "raul-meireles",
+        "club": "Porto",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "paul-konchesky",
+        "club": "Fulham",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "luis-suarez",
+        "club": "Ajax",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in January 2011."
+      },
+      {
+        "personId": "andy-carroll",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in January 2011."
+      }
+    ],
+    "out": [
+      {
+        "personId": "yossi-benayoun",
+        "club": "Chelsea",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "albert-riera",
+        "club": "Olympiacos",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "diego-cavalieri",
+        "club": "Cesena",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "javier-mascherano",
+        "club": "Barcelona",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ryan-babel",
+        "club": "Hoffenheim",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "fernando-torres",
+        "club": "Chelsea",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in January 2011."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished sixth in the Premier League with 58 points after a season of changes in ownership and management. New England Sports Ventures completed its takeover on 15 October, ending Tom Hicks and George Gillett’s ownership. Roy Hodgson, appointed in July, was replaced by Kenny Dalglish on 8 January with Liverpool 12th in the table.",
+    "Dalglish initially returned for the rest of the campaign and signed a permanent deal in May. Fernando Torres left for Chelsea in January, while Luis Suárez and Andy Carroll arrived from Ajax and Newcastle United. Dirk Kuyt led the scoring with 15 competitive goals, including a hat-trick in the 3–1 home win over Manchester United.",
+    "Northampton Town knocked Liverpool out of the League Cup on penalties after a 2–2 draw at Anfield. Dalglish’s first match back ended in a 1–0 FA Cup defeat at Manchester United, and Braga ended their Europa League run in the round of 16. The league campaign closed with defeats by Tottenham and Aston Villa."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2009-10"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2010-11 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/120",
+      "confidence": "high",
+      "claims": "Final Premier League placing, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2010-11 games",
+      "url": "https://www.lfchistory.net/season-archive/games/120",
+      "confidence": "high",
+      "claims": "Complete competitive results, dates and cup rounds; league winning runs and two-leg aggregates checked from the fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2010-11 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/120",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers and excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2010-11 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/120",
+      "confidence": "high",
+      "claims": "Selected senior moves and deal types. Preparatory summer transfers assigned to incoming campaigns."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2010-11 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/120",
+      "confidence": "high",
+      "claims": "Competitive appearance totals supporting the key-player selection."
+    },
+    {
+      "id": "lfc-hodgson",
+      "label": "Liverpool FC: Roy Hodgson",
+      "url": "https://www.liverpoolfc.com/info/roy-hodgson",
+      "confidence": "high",
+      "claims": "Appointed on 1 July 2010 after Benítez; Joe Cole joined free from Chelsea; Northampton League Cup exit."
+    },
+    {
+      "id": "lfc-kuyt",
+      "label": "Liverpool FC: Dirk Kuyt",
+      "url": "https://www.liverpoolfc.com/info/dirk-kuyt",
+      "confidence": "high",
+      "claims": "15 goals in 2010–11 and a hat-trick against Manchester United."
+    },
+    {
+      "id": "uefa-dalglish-return",
+      "label": "UEFA: Dalglish replaces Hodgson",
+      "url": "https://www.uefa.com/uefaeuropaleague/news/0254-0d7ce6f095e9-7e65c100e86a-1000--dalglish-in-for-hodgson-at-liverpool/",
+      "confidence": "high",
+      "claims": "8 January 2011 appointment for the rest of the season; Liverpool were 12th after seven wins in 20 league games."
+    },
+    {
+      "id": "uefa-dalglish-contract",
+      "label": "UEFA: Dalglish signs permanent deal",
+      "url": "https://www.uefa.com/news-media/news/01f1-0e785c6bb8b3-87b411d7b8e0-1000--dalglish-signs-permanent-liverpool-deal/",
+      "confidence": "high",
+      "claims": "Permanent three-year contract signed on 12 May 2011."
+    },
+    {
+      "id": "sky-takeover",
+      "label": "Sky Sports: NESV completes takeover",
+      "url": "https://www.skysports.com/football/news/11669/6446330/nesv-complete-reds-takeover",
+      "confidence": "high",
+      "claims": "New England Sports Ventures completed its purchase on 15 October 2010, ending Hicks and Gillett’s ownership."
+    },
+    {
+      "id": "reuters-takeover",
+      "label": "Reuters: NESV completes Liverpool takeover",
+      "url": "https://www.reuters.com/article/soccer-england-liverpool-sale/soccer-nesv-completes-takeover-of-liverpool-fc-club-idUSLDE69E1PN20101015/",
+      "confidence": "high",
+      "claims": "Independent corroboration of completed takeover on 15 October 2010."
+    },
+    {
+      "id": "lfch-northampton",
+      "label": "LFChistory: Northampton cup tie",
+      "url": "https://www.lfchistory.net/games/5268",
+      "confidence": "high",
+      "claims": "2–2 after extra time; Liverpool lost the shoot-out 4–2."
+    },
+    {
+      "id": "lfc-suarez",
+      "label": "Liverpool FC: Luis Suárez",
+      "url": "https://www.liverpoolfc.com/info/luis-suarez",
+      "confidence": "high",
+      "claims": "January 2011 arrival from Ajax; 17 goals in 2011–12, 30 in 2012–13 and 31 league goals in 2013–14; PFA and football writers’ awards in 2014."
+    },
+    {
+      "id": "lfc-carroll",
+      "label": "Liverpool FC: Andy Carroll",
+      "url": "https://www.liverpoolfc.com/info/andy-carroll",
+      "confidence": "high",
+      "claims": "January 2011 arrival from Newcastle; 2012 FA Cup semi-final winner against Everton; West Ham loan in 2012–13, made permanent in June 2013."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-league, sky-takeover, reuters-takeover, lfc-hodgson and uefa-dalglish-return; paragraph 2 — uefa-dalglish-contract, lfch-transfers, lfc-suarez, lfc-carroll, lfch-scorers, lfc-kuyt and lfch-games; paragraph 3 — lfch-games, lfch-northampton and uefa-dalglish-return.",
+    "The manager note is supported by the two UEFA appointment reports. The takeover is named as NESV at the time; no debt total, valuation or legal interpretation is included.",
+    "Shelvey’s preparatory May 2010 move is assigned here. Aurélio’s release and re-signing are not presented as a move between clubs. Selected transfers omit loans not independently checked."
+  ],
+  "managerNote": "Roy Hodgson began the season; Kenny Dalglish replaced him on 8 January 2011, initially for the rest of the campaign, and signed a permanent deal in May."
+}

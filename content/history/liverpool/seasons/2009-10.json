@@ -1,0 +1,250 @@
+{
+  "season": "2009-10",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "rafael-benitez"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 7,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "fernando-torres",
+      "goals": 22,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-torres"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 2–1 at home to Reading in a replay.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–1 away to Arsenal.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League group stage — eliminated before the knockout rounds.",
+      "sourceIds": [
+        "lfch-games",
+        "uefa-benitez"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Europa League semi-final — lost to Atlético Madrid on away goals after a 2–2 aggregate draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-atletico"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "fernando-torres",
+    "jamie-carragher",
+    "dirk-kuyt",
+    "pepe-reina",
+    "lucas-leiva",
+    "steven-gerrard",
+    "javier-mascherano",
+    "yossi-benayoun",
+    "emiliano-insua",
+    "ryan-babel",
+    "daniel-agger",
+    "glen-johnson"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "glen-johnson",
+        "club": "Portsmouth",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "alberto-aquilani",
+        "club": "Roma",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "sotirios-kyrgiakos",
+        "club": "AEK Athens",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "maxi-rodriguez",
+        "club": "Atlético Madrid",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in January 2010."
+      }
+    ],
+    "out": [
+      {
+        "personId": "sami-hyypia",
+        "club": "Bayer Leverkusen",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-prior-transfers",
+          "lfch-hyypia"
+        ],
+        "note": "Left in summer 2009."
+      },
+      {
+        "personId": "jermaine-pennant",
+        "club": "Real Zaragoza",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-prior-transfers"
+        ]
+      },
+      {
+        "personId": "alvaro-arbeloa",
+        "club": "Real Madrid",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "xabi-alonso",
+        "club": "Real Madrid",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "andrea-dossena",
+        "club": "Napoli",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "andriy-voronin",
+        "club": "Dynamo Moscow",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished seventh in the Premier League with 63 points in Rafael Benítez’s final season. They lost 11 league matches and ended seven points behind fourth-placed Tottenham. Xabi Alonso and Álvaro Arbeloa left for Real Madrid, while Glen Johnson, Alberto Aquilani and Sotirios Kyrgiakos were among the summer arrivals.",
+    "After elimination from the Champions League group stage, Liverpool reached the Europa League semi-final. They beat Unirea Urziceni, Lille and Benfica before Atlético Madrid progressed on away goals. A 2–1 extra-time win at Anfield left that tie level at 2–2 on aggregate. Reading knocked Liverpool out of the FA Cup in a third-round replay, and Arsenal ended their League Cup run in the fourth round.",
+    "Fernando Torres led the scoring with 22 goals in 32 competitive appearances. Benítez left by mutual consent on 3 June 2010, ending six years in charge."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2008-09"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2009-10 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/119",
+      "confidence": "high",
+      "claims": "Final Premier League placing, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2009-10 games",
+      "url": "https://www.lfchistory.net/season-archive/games/119",
+      "confidence": "high",
+      "claims": "Complete competitive results, dates and cup rounds; league winning runs and two-leg aggregates checked from the fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2009-10 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/119",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers and excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2009-10 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/119",
+      "confidence": "high",
+      "claims": "Selected senior moves and deal types. Preparatory summer transfers assigned to incoming campaigns."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2009-10 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/119",
+      "confidence": "high",
+      "claims": "Competitive appearance totals supporting the key-player selection."
+    },
+    {
+      "id": "lfc-torres",
+      "label": "Liverpool FC: Fernando Torres",
+      "url": "https://www.liverpoolfc.com/info/fernando-torres",
+      "confidence": "high",
+      "claims": "22 competitive goals in 32 appearances during 2009–10."
+    },
+    {
+      "id": "uefa-benitez",
+      "label": "UEFA: Benítez’s Liverpool reign ends",
+      "url": "https://www.uefa.com/uefaeuropaleague/news/0250-0c50f50b0ae0-405e96b48c88-1000--benitez-s-liverpool-reign-ends/",
+      "confidence": "high",
+      "claims": "Departure by mutual consent on 3 June 2010 after six years; seventh place and Champions League group-stage exit."
+    },
+    {
+      "id": "lfch-atletico",
+      "label": "LFChistory: Atlético Madrid semi-final",
+      "url": "https://www.lfchistory.net/games/5219",
+      "confidence": "high",
+      "claims": "Liverpool won the second leg 2–1 after extra time but lost on away goals at 2–2 aggregate."
+    },
+    {
+      "id": "lfch-prior-transfers",
+      "label": "LFChistory: 2008–09 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/118",
+      "confidence": "high",
+      "claims": "Hyypiä and Pennant left in summer 2009; both free transfers, allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-hyypia",
+      "label": "LFChistory: Sami Hyypiä",
+      "url": "https://www.lfchistory.net/players/329",
+      "confidence": "high",
+      "claims": "Bayer Leverkusen was Hyypiä’s next club after his Liverpool departure in 2009."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-league, lfch-transfers and uefa-benitez; paragraph 2 — lfch-games, lfch-atletico and uefa-benitez; paragraph 3 — lfch-scorers, lfc-torres and uefa-benitez.",
+    "The Europa League uses the existing uefa-cup identity with its contemporary name in the result. No new duplicate competition or season system is introduced.",
+    "Hyypiä and Pennant’s summer departures belong here. Benítez’s June departure is described as the conclusion of his final campaign; Hodgson is recorded in 2010–11. Torres’s injuries are not used to speculate about the cause of the league finish."
+  ]
+}

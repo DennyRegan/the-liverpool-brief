@@ -1,0 +1,310 @@
+{
+  "season": "2012-13",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "brendan-rodgers"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 7,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "luis-suarez",
+      "goals": 30,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-suarez"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 3–2 away to Oldham Athletic.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 3–1 at home to Swansea City.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Europa League round of 32 — eliminated by Zenit St Petersburg after a 3–3 aggregate draw.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "luis-suarez",
+    "steven-gerrard",
+    "stewart-downing",
+    "jordan-henderson",
+    "glen-johnson",
+    "pepe-reina",
+    "daniel-agger",
+    "jamie-carragher",
+    "joe-allen",
+    "raheem-sterling",
+    "daniel-sturridge",
+    "philippe-coutinho"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "fabio-borini",
+        "club": "Roma",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "joe-allen",
+        "club": "Swansea City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "oussama-assaidi",
+        "club": "Heerenveen",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "nuri-sahin",
+        "club": "Real Madrid",
+        "deal": "loan",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "daniel-sturridge",
+        "club": "Chelsea",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in January 2013."
+      },
+      {
+        "personId": "philippe-coutinho",
+        "club": "Internazionale",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in January 2013."
+      }
+    ],
+    "out": [
+      {
+        "personId": "dirk-kuyt",
+        "club": "Fenerbahçe",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "maxi-rodriguez",
+        "club": "Newell’s Old Boys",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "alberto-aquilani",
+        "club": "Fiorentina",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "craig-bellamy",
+        "club": "Cardiff City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "charlie-adam",
+        "club": "Stoke City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "andy-carroll",
+        "club": "West Ham United",
+        "deal": "loan",
+        "sourceIds": [
+          "lfc-carroll"
+        ]
+      },
+      {
+        "personId": "joe-cole",
+        "club": "West Ham United",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "nuri-sahin",
+        "club": "Real Madrid",
+        "deal": "loan",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Loan ended in January 2013."
+      },
+      {
+        "personId": "jamie-carragher",
+        "club": "Retired",
+        "deal": "retired",
+        "sourceIds": [
+          "lfc-carragher"
+        ],
+        "note": "Retired at the end of the campaign."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished seventh in the Premier League with 61 points in Brendan Rodgers’ first season after arriving from Swansea City. Their first league win came in the sixth match, a 5–2 victory at Norwich. Luis Suárez scored 30 competitive goals, while January arrivals Daniel Sturridge and Philippe Coutinho added 11 and three respectively.",
+    "Oldham Athletic ended the FA Cup run in the fourth round, Swansea knocked Liverpool out of the League Cup, and Zenit St Petersburg eliminated them from the Europa League. Suárez received a ten-match ban for biting Chelsea’s Branislav Ivanović in April. Jamie Carragher retired at the end of the season after 737 appearances for the club.",
+    "Beyond the pitch, the Hillsborough Independent Panel published its report on 12 September 2012. Its findings made clear that supporters had not caused the disaster."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2011-12"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2012-13 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/122",
+      "confidence": "high",
+      "claims": "Final Premier League placing, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2012-13 games",
+      "url": "https://www.lfchistory.net/season-archive/games/122",
+      "confidence": "high",
+      "claims": "Complete competitive results, dates and cup rounds; league winning runs and two-leg aggregates checked from the fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2012-13 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/122",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers and excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2012-13 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/122",
+      "confidence": "high",
+      "claims": "Selected senior moves and deal types. Preparatory summer transfers assigned to incoming campaigns."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2012-13 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/122",
+      "confidence": "high",
+      "claims": "Competitive appearance totals supporting the key-player selection."
+    },
+    {
+      "id": "lfc-rodgers",
+      "label": "Liverpool FC: Brendan Rodgers",
+      "url": "https://www.liverpoolfc.com/info/brendan-rodgers",
+      "confidence": "high",
+      "claims": "Appointed from Swansea on 1 June 2012; first league win in the sixth match, seventh place and 30 Suárez goals in 2012–13; 2013–14 runners-up and Champions League qualification."
+    },
+    {
+      "id": "lfc-suarez",
+      "label": "Liverpool FC: Luis Suárez",
+      "url": "https://www.liverpoolfc.com/info/luis-suarez",
+      "confidence": "high",
+      "claims": "January 2011 arrival from Ajax; 17 goals in 2011–12, 30 in 2012–13 and 31 league goals in 2013–14; PFA and football writers’ awards in 2014."
+    },
+    {
+      "id": "lfc-sturridge",
+      "label": "Liverpool FC: Daniel Sturridge",
+      "url": "https://www.liverpoolfc.com/info/daniel-sturridge",
+      "confidence": "high",
+      "claims": "Joined from Chelsea in January 2013 and scored 11 goals that campaign; 21 league goals in 2013–14, second only to Suárez in the division."
+    },
+    {
+      "id": "lfc-carragher",
+      "label": "Liverpool FC: Jamie Carragher",
+      "url": "https://www.liverpoolfc.com/info/jamie-carragher",
+      "confidence": "high",
+      "claims": "Retirement at the end of 2012–13 after 737 competitive appearances."
+    },
+    {
+      "id": "lfc-carroll",
+      "label": "Liverpool FC: Andy Carroll",
+      "url": "https://www.liverpoolfc.com/info/andy-carroll",
+      "confidence": "high",
+      "claims": "January 2011 arrival from Newcastle; 2012 FA Cup semi-final winner against Everton; West Ham loan in 2012–13, made permanent in June 2013."
+    },
+    {
+      "id": "lfc-suarez-ban",
+      "label": "Liverpool FC: FA confirms Suárez suspension",
+      "url": "https://www.liverpoolfc.com/news/first-team/132847-fa-confirm-luis-suarez-ban",
+      "confidence": "high",
+      "claims": "FA statement dated 24 April 2013: ten-match suspension, effective immediately, following the Ivanović incident on 21 April."
+    },
+    {
+      "id": "fa-suarez-reasons",
+      "label": "FA Regulatory Commission: Suárez decision and reasons",
+      "url": "https://www.footballlaw.co.uk/s/mr-luis-suarez-written-reasons.pdf",
+      "confidence": "high",
+      "claims": "Primary decision preserved by Football Law. Paragraphs 10 and 21 record admission to biting Ivanović; used with the club’s reproduced FA sanction statement."
+    },
+    {
+      "id": "hip-report",
+      "label": "Hillsborough Independent Panel: report",
+      "url": "https://assets.publishing.service.gov.uk/media/5a7c9e4840f0b65b3de0a0ff/0581.pdf",
+      "confidence": "high",
+      "claims": "Report dated 12 September 2012; foreword, printed page 1, explicitly states that fans were not the cause of the disaster."
+    },
+    {
+      "id": "hip-publication",
+      "label": "GOV.UK: report publication",
+      "url": "https://www.gov.uk/government/publications/the-report-of-the-hillsborough-independent-panel",
+      "confidence": "high",
+      "claims": "Publication on 12 September 2012."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-league, lfc-rodgers, lfch-games, lfch-scorers, lfc-suarez, lfc-sturridge and lfch-transfers; paragraph 2 — lfch-games, lfc-suarez-ban, fa-suarez-reasons and lfc-carragher; paragraph 3 — hip-report, foreword printed page 1, and hip-publication.",
+    "The Hillsborough paragraph reports the 2012 panel’s finding. It does not conflate that report with the later inquest verdict or imply that the families’ campaign ended then.",
+    "Suárez’s ten-match suspension extended beyond this campaign; it is not described as ten missed matches within 2012–13. The primary decision establishes the admitted biting offence.",
+    "Carragher’s retirement closes his playing career here. Carroll’s loan and Sahin’s loan termination are distinguished from permanent sales. Other reserve moves and unverified destinations are omitted from the selected transfer list."
+  ]
+}
