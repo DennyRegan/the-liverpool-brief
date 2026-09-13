@@ -1,3 +1,4 @@
+import { SeasonNavigation } from "@/app/components/SeasonNavigation";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -50,8 +51,6 @@ export default async function SeasonPage({ params }: Props) {
   const names = new Map(getHistoryEntities().map(entity => [entity.id, entity.label]));
   const eras = getSeasonEras(id);
   const articles = getSeasonArchiveArticles(id, getArchiveFeatures());
-  const previous = seasons[index - 1];
-  const next = seasons[index + 1];
 
   return <>
     <SiteHeader active="history" />
@@ -105,7 +104,7 @@ export default async function SeasonPage({ params }: Props) {
         {season.relatedSeasons.length > 0 && <div className="season-connections-links"><h3>Related seasons</h3>{season.relatedSeasons.map(id => <Link href={`/history/seasons/${id}`} key={id}>{seasonLabel(id)} <span aria-hidden="true">→</span></Link>)}</div>}
       </section>
       {articles.length > 0 && <section className="hx-reading" aria-labelledby="season-archive">
-        <p className="eyebrow">Original writing · Denny Regan</p><h2 id="season-archive">Related Archive</h2>
+        <p className="eyebrow">Original writing · Denny Regan</p><h2 id="season-archive">From the Archive</h2>
         <ul className="hx-reading-list" role="list">{articles.map(article => <li key={article.slug}><article>
           <h3><Link href={`/archive/${article.slug}`} prefetch={false}>{article.title} <span aria-hidden="true">↗</span></Link></h3><p>{article.excerpt}</p>
         </article></li>)}</ul>
@@ -118,10 +117,7 @@ export default async function SeasonPage({ params }: Props) {
         </li>)}</ul>
         {season.researchNotes.length > 0 && <div className="season-research-notes"><h3>Notes on the record</h3>{season.researchNotes.map((note, i) => <p key={i}>{note}</p>)}</div>}
       </details>
-      <nav className="hx-neighbours" aria-label="Explore neighbouring seasons">
-        {previous && <Link href={`/history/seasons/${previous.season}`} rel="prev"><span className="eyebrow">← Previous season</span><span>{seasonLabel(previous.season)}</span></Link>}
-        {next && <Link href={`/history/seasons/${next.season}`} rel="next"><span className="eyebrow">Next season →</span><span>{seasonLabel(next.season)}</span></Link>}
-      </nav>
+      <SeasonNavigation season={id} seasons={seasons} />
     </main>
   </>;
 }

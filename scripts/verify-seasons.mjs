@@ -45,6 +45,11 @@ try {
     assert.equal(main.includes('id="season-archive"'), expectedArchive.length > 0);
     assert.equal(main.includes('rel="prev"'), i > 0);
     assert.equal(main.includes('rel="next"'), i < all.length - 1);
+    for (const [rel, neighbour] of [['prev', all[i - 1]], ['next', all[i + 1]]]) {
+      const anchor = [...main.matchAll(/<a\b[^>]*>/g)].map(match => match[0]).find(tag => tag.includes(`rel="${rel}"`));
+      const target = anchor?.match(/href="([^"]+)"/)?.[1];
+      assert.equal(target, neighbour ? `/history/seasons/${neighbour.season}` : undefined, `${season.season}: exact ${rel} destination`);
+    }
     for (const [, href] of main.matchAll(/href="(\/[^"#]+)"/g)) internalLinks.add(href.replaceAll('&amp;', '&'));
     for (const [, fragment] of main.matchAll(/href="#([^"]+)"/g)) assert.ok(main.includes(`id="${fragment}"`), `${route}: #${fragment}`);
     console.log(`PASS ${route}`);

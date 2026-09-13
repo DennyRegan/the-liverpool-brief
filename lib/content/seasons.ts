@@ -2,11 +2,10 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import { HistoryIdSchema, HistoryIdsSchema, getHistoryEntities } from "./entities.ts";
-import { getHistory, seasonKey, type HistoryEra } from "./history.ts";
+import { getHistory, SeasonIdSchema, seasonKey, type HistoryEra } from "./history.ts";
 
 const Text = z.string().trim().min(1);
 const SourceIds = HistoryIdsSchema.min(1);
-const SeasonId = z.string().refine(value => /^\d{4}-\d{2}$/.test(value) && seasonKey(value) === value, "Use a consecutive canonical season, e.g. 1963-64");
 const Sourced = { sourceIds: SourceIds };
 const Transfer = z.object({
   personId: HistoryIdSchema,
@@ -18,7 +17,7 @@ const Transfer = z.object({
 }).strict();
 
 export const SeasonSchema = z.object({
-  season: SeasonId,
+  season: SeasonIdSchema,
   reviewedOn: z.iso.date(),
   managerIds: HistoryIdsSchema.min(1),
   managerNote: Text.optional(),
@@ -33,7 +32,7 @@ export const SeasonSchema = z.object({
     id: HistoryIdSchema, title: Text, date: z.iso.date().optional(), detail: Text,
     personIds: HistoryIdsSchema.optional(), competitionIds: HistoryIdsSchema.optional(), ...Sourced,
   }).strict()),
-  relatedSeasons: z.array(SeasonId),
+  relatedSeasons: z.array(SeasonIdSchema),
   sources: z.array(z.object({
     id: HistoryIdSchema, label: Text, url: z.url().refine(url => url.startsWith("https://"), "Use an HTTPS source URL"),
     confidence: z.enum(["high", "medium", "low"]), claims: Text,
@@ -116,4 +115,11 @@ export function getSeasonArchiveArticles<T extends { slug: string; season?: stri
     seen.add(article.slug);
     return true;
   });
+}
+
+/** Metadata may name an unwritten season; only published records are destinations. */
+export function getPublishedArchiveSeason<T extends { season: string }>(
+  article: { season?: string }, seasons: T[],
+): T | undefined {
+  return article.season ? seasons.find(season => season.season === article.season) : undefined;
 }

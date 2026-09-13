@@ -1,3 +1,5 @@
+import { ArchiveSeasonLink } from "@/app/components/ArchiveSeasonLink";
+import { getSeasons } from "@/lib/content/seasons";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -126,6 +128,7 @@ export default async function ArchiveFeaturePage({
             </ul>
           </div>
         )}
+        <ArchiveSeasonLink article={feature} seasons={getSeasons()} />
         <ArchiveDiscovery recommendations={recommendations} />
       </main>
     </div>

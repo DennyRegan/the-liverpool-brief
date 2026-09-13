@@ -1,6 +1,6 @@
 import {z} from "zod";
 import { HistoryIdSchema, HistoryIdsSchema } from "./entities.ts";
-import { seasonKey } from "./history.ts";
+import { SeasonIdSchema } from "./history.ts";
 export const SourceSchema = z.object({
     name: z.string(),
     platform: z.string(),
@@ -55,7 +55,7 @@ export const ArchiveFeatureSchema = z.object({
     series: z.string().optional(),
     part: z.number().optional(),
     // Season facts panel — optional so existing (non-season) articles keep parsing.
-    season: z.string().refine(value => seasonKey(value) !== undefined, "Use consecutive season years, e.g. 1987-88 (1987/88 also accepted)").optional(),
+    season: SeasonIdSchema.optional(),
     manager: z.string().optional(),
     leagueFinish: z.string().optional(),
     european: z.string().optional(),
