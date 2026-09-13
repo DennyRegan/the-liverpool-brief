@@ -1183,5 +1183,210 @@
     "id": "fifa-club-world-cup",
     "label": "FIFA Club World Cup",
     "kind": "competition"
+  },
+  {
+    "id": "roy-hodgson",
+    "label": "Roy Hodgson",
+    "kind": "person"
+  },
+  {
+    "id": "brendan-rodgers",
+    "label": "Brendan Rodgers",
+    "kind": "person"
+  },
+  {
+    "id": "glen-johnson",
+    "label": "Glen Johnson",
+    "kind": "person"
+  },
+  {
+    "id": "alberto-aquilani",
+    "label": "Alberto Aquilani",
+    "kind": "person"
+  },
+  {
+    "id": "sotirios-kyrgiakos",
+    "label": "Sotirios Kyrgiakos",
+    "kind": "person"
+  },
+  {
+    "id": "maxi-rodriguez",
+    "label": "Maxi Rodríguez",
+    "kind": "person"
+  },
+  {
+    "id": "andriy-voronin",
+    "label": "Andriy Voronin",
+    "kind": "person"
+  },
+  {
+    "id": "emiliano-insua",
+    "label": "Emiliano Insúa",
+    "kind": "person"
+  },
+  {
+    "id": "jonjo-shelvey",
+    "label": "Jonjo Shelvey",
+    "kind": "person"
+  },
+  {
+    "id": "milan-jovanovic",
+    "label": "Milan Jovanović",
+    "kind": "person"
+  },
+  {
+    "id": "joe-cole",
+    "label": "Joe Cole",
+    "kind": "person"
+  },
+  {
+    "id": "danny-wilson",
+    "label": "Danny Wilson",
+    "kind": "person"
+  },
+  {
+    "id": "christian-poulsen",
+    "label": "Christian Poulsen",
+    "kind": "person"
+  },
+  {
+    "id": "brad-jones",
+    "label": "Brad Jones",
+    "kind": "person"
+  },
+  {
+    "id": "raul-meireles",
+    "label": "Raul Meireles",
+    "kind": "person"
+  },
+  {
+    "id": "paul-konchesky",
+    "label": "Paul Konchesky",
+    "kind": "person"
+  },
+  {
+    "id": "luis-suarez",
+    "label": "Luis Suárez",
+    "kind": "person"
+  },
+  {
+    "id": "andy-carroll",
+    "label": "Andy Carroll",
+    "kind": "person"
+  },
+  {
+    "id": "jordan-henderson",
+    "label": "Jordan Henderson",
+    "kind": "person"
+  },
+  {
+    "id": "charlie-adam",
+    "label": "Charlie Adam",
+    "kind": "person"
+  },
+  {
+    "id": "alexander-doni",
+    "label": "Alexander Doni",
+    "kind": "person"
+  },
+  {
+    "id": "stewart-downing",
+    "label": "Stewart Downing",
+    "kind": "person"
+  },
+  {
+    "id": "jose-enrique",
+    "label": "José Enrique",
+    "kind": "person"
+  },
+  {
+    "id": "sebastian-coates",
+    "label": "Sebastián Coates",
+    "kind": "person"
+  },
+  {
+    "id": "fabio-borini",
+    "label": "Fabio Borini",
+    "kind": "person"
+  },
+  {
+    "id": "joe-allen",
+    "label": "Joe Allen",
+    "kind": "person"
+  },
+  {
+    "id": "oussama-assaidi",
+    "label": "Oussama Assaidi",
+    "kind": "person"
+  },
+  {
+    "id": "nuri-sahin",
+    "label": "Nuri Şahin",
+    "kind": "person"
+  },
+  {
+    "id": "daniel-sturridge",
+    "label": "Daniel Sturridge",
+    "kind": "person"
+  },
+  {
+    "id": "philippe-coutinho",
+    "label": "Philippe Coutinho",
+    "kind": "person"
+  },
+  {
+    "id": "raheem-sterling",
+    "label": "Raheem Sterling",
+    "kind": "person"
+  },
+  {
+    "id": "luis-alberto",
+    "label": "Luis Alberto",
+    "kind": "person"
+  },
+  {
+    "id": "iago-aspas",
+    "label": "Iago Aspas",
+    "kind": "person"
+  },
+  {
+    "id": "simon-mignolet",
+    "label": "Simon Mignolet",
+    "kind": "person"
+  },
+  {
+    "id": "kolo-toure",
+    "label": "Kolo Touré",
+    "kind": "person"
+  },
+  {
+    "id": "aly-cissokho",
+    "label": "Aly Cissokho",
+    "kind": "person"
+  },
+  {
+    "id": "mamadou-sakho",
+    "label": "Mamadou Sakho",
+    "kind": "person"
+  },
+  {
+    "id": "tiago-ilori",
+    "label": "Tiago Ilori",
+    "kind": "person"
+  },
+  {
+    "id": "victor-moses",
+    "label": "Victor Moses",
+    "kind": "person"
+  },
+  {
+    "id": "jay-spearing",
+    "label": "Jay Spearing",
+    "kind": "person"
+  },
+  {
+    "id": "jon-flanagan",
+    "label": "Jon Flanagan",
+    "kind": "person"
   }
 ]
