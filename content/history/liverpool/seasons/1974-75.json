@@ -1,0 +1,259 @@
+{
+  "season": "1974-75",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bob-paisley"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 2,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "steve-heighway",
+      "goals": 13,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorer"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 1–0 away to Ipswich Town.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 1–0 at home to Middlesbrough.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup-winners-cup",
+      "kind": "europe",
+      "result": "Second round — eliminated by Ferencváros on away goals after a 1–1 aggregate draw.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Winners — beat Leeds United 6–5 on penalties after a 1–1 draw.",
+      "sourceIds": [
+        "lfch-shield-match",
+        "lfc-shield"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "ray-clemence",
+    "emlyn-hughes",
+    "ian-callaghan",
+    "steve-heighway",
+    "tommy-smith",
+    "peter-cormack",
+    "brian-hall",
+    "kevin-keegan",
+    "phil-thompson",
+    "alec-lindsay",
+    "john-toshack",
+    "phil-neal",
+    "ray-kennedy"
+  ],
+  "transfers": {
+    "out": [
+      {
+        "personId": "trevor-storton",
+        "club": "Chester",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "June 1974 departure, allocated to the incoming campaign."
+      },
+      {
+        "personId": "larry-lloyd",
+        "club": "Coventry City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in August 1974."
+      }
+    ],
+    "in": [
+      {
+        "personId": "ray-kennedy",
+        "club": "Arsenal",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-ray"
+        ],
+        "note": "Joined in July 1974."
+      },
+      {
+        "personId": "phil-neal",
+        "club": "Northampton Town",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-neal"
+        ],
+        "note": "Joined in October 1974."
+      },
+      {
+        "personId": "terry-mcdermott",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-mcdermott"
+        ],
+        "note": "Joined in November 1974."
+      }
+    ]
+  },
+  "overview": [
+    "Bob Paisley succeeded Bill Shankly as Liverpool manager, and his first league campaign ended with second place in the First Division. Liverpool finished on 51 points, two behind Derby County. The season had opened with a Charity Shield win over Leeds United: a 1–1 draw at Wembley was followed by a 6–5 victory on penalties.",
+    "Ray Kennedy arrived from Arsenal during the summer, with Phil Neal joining from Northampton Town and Terry McDermott from Newcastle United during the campaign. Steve Heighway finished as the leading scorer with 13 goals in all competitions.",
+    "Liverpool beat Strømsgodset 11–0 at Anfield in the Cup Winners’ Cup, but Ferencváros eliminated them on away goals in the next round after a 1–1 home draw and a goalless return. Ipswich Town ended the FA Cup defence in the fourth round, while Middlesbrough knocked Liverpool out at the same stage of the League Cup."
+  ],
+  "events": [
+    {
+      "id": "shield-1974",
+      "title": "The Charity Shield",
+      "date": "1974-08-10",
+      "detail": "Liverpool defeated Leeds United on penalties at Wembley.",
+      "competitionIds": [
+        "charity-shield"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-shield-match",
+        "lfc-shield"
+      ]
+    },
+    {
+      "id": "stromsgodset-1974",
+      "title": "Eleven against Strømsgodset",
+      "date": "1974-09-17",
+      "detail": "Liverpool won 11–0 at Anfield in the first leg of the Cup Winners’ Cup first round.",
+      "competitionIds": [
+        "european-cup-winners-cup"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1973-74"
+  ],
+  "sources": [
+    {
+      "id": "lfc-paisley",
+      "label": "Liverpool FC: Bob Paisley, manager",
+      "url": "https://www.liverpoolfc.com/info/bob-paisley-0",
+      "confidence": "high",
+      "claims": "Manager from 1974 to 1983; first-season runners-up finish, the 1976 double, 1977 European Cup and 1979 league record."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1974-75",
+      "url": "https://www.rsssf.org/engpaul/FLA/1974-75.html",
+      "confidence": "high",
+      "claims": "Final First Division standings, points, wins, draws, defeats and goals for and against."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1974-75 results",
+      "url": "https://www.lfchistory.net/season-archive/games/16",
+      "confidence": "high",
+      "claims": "Competitive fixture dates, scores, venues and cup rounds; supports the competition results and dated match events."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1974-75 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/16",
+      "confidence": "high",
+      "claims": "Leading competitive scorer and goals by competition, excluding friendlies."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1974-75 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/16",
+      "confidence": "high",
+      "claims": "Listed incoming and outgoing transfers, clubs and chronology. Summer moves follow the incoming-campaign convention."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1974-75 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/16",
+      "confidence": "high",
+      "claims": "First-team involvement supporting the editorial key-player selection."
+    },
+    {
+      "id": "lfc-shield",
+      "label": "Liverpool FC: Charity and Community Shield",
+      "url": "https://www.liverpoolfc.com/info/charity-community-shield",
+      "confidence": "high",
+      "claims": "Outright winners in 1974 and 1976; shared with Manchester United in 1977. The club attributes the 1974 match to Paisley."
+    },
+    {
+      "id": "lfc-ray",
+      "label": "Liverpool FC: Ray Kennedy",
+      "url": "https://www.liverpoolfc.com/info/ray-kennedy",
+      "confidence": "high",
+      "claims": "Signed from Arsenal on the day Shankly announced retirement; ten goals in 1974–75; moved to left midfield before the 1976 league and UEFA Cup double."
+    },
+    {
+      "id": "lfc-neal",
+      "label": "Liverpool FC: Phil Neal",
+      "url": "https://www.liverpoolfc.com/info/phil-neal",
+      "confidence": "high",
+      "claims": "October 1974 recruitment from Northampton Town."
+    },
+    {
+      "id": "lfc-mcdermott",
+      "label": "Liverpool FC: Terry McDermott",
+      "url": "https://www.liverpoolfc.com/info/terry-mcdermott",
+      "confidence": "high",
+      "claims": "Joined from Newcastle United during 1974."
+    },
+    {
+      "id": "lfch-shield-match",
+      "label": "LFChistory: 1974 Charity Shield",
+      "url": "https://www.lfchistory.net/games/806",
+      "confidence": "high",
+      "claims": "1–1 draw and 6–5 penalty win over Leeds on 10 August 1974. Manager attribution conflicts with Liverpool FC’s honours page."
+    },
+    {
+      "id": "afv-scorer",
+      "label": "11v11: Liverpool players, 1974-75",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1975/",
+      "confidence": "high",
+      "claims": "Independent corroboration of Steve Heighway as leading scorer with 13 competitive goals. Other player totals are not used."
+    }
+  ],
+  "researchNotes": [
+    "Liverpool FC attributes the 1974 Charity Shield to Paisley; LFChistory attributes it to Shankly and gives a later formal handover. The match is not attributed to either manager in the overview. Paisley’s league-season management is undisputed.",
+    "The Charity Shield is included as a trophy, so this campaign is not described as trophyless. Transfer fees are omitted. Storton’s destination is styled Chester, the contemporary club name, rather than the archive’s later Chester City label.",
+    "Overview evidence: paragraph 1 — lfc-paisley, rsssf-league, lfc-shield and lfch-shield-match; paragraph 2 — lfch-transfers, lfc-ray, lfc-neal, lfc-mcdermott and lfch-scorers; paragraph 3 — lfch-games."
+  ]
+}

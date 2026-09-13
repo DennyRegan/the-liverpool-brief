@@ -1,0 +1,217 @@
+{
+  "season": "1975-76",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bob-paisley"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "john-toshack",
+      "goals": 23,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorer"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 1–0 away to Derby County.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost a replay 1–0 at Burnley after a 1–1 home draw.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Winners — beat Club Brugge 4–3 on aggregate, winning 3–2 at home and drawing 1–1 away.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-uefa"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division",
+    "uefa-cup"
+  ],
+  "keyPlayerIds": [
+    "ray-clemence",
+    "phil-neal",
+    "kevin-keegan",
+    "ian-callaghan",
+    "emlyn-hughes",
+    "phil-thompson",
+    "steve-heighway",
+    "john-toshack",
+    "ray-kennedy",
+    "jimmy-case",
+    "tommy-smith",
+    "david-fairclough"
+  ],
+  "transfers": {
+    "out": [
+      {
+        "personId": "chris-lawler",
+        "club": "Portsmouth",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in October 1975."
+      },
+      {
+        "personId": "phil-boersma",
+        "club": "Middlesbrough",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in December 1975."
+      }
+    ],
+    "in": [
+      {
+        "personId": "joey-jones",
+        "club": "Wrexham",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-joey"
+        ],
+        "note": "Joined in July 1975."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the First Division and the UEFA Cup in Bob Paisley’s second season as manager. A 3–1 victory at Wolverhampton Wanderers in their final league fixture secured the championship, with Liverpool finishing one point ahead of Queens Park Rangers.",
+    "John Toshack led the scoring with 23 goals in all competitions. Ray Kennedy’s move into left midfield was another important development, as the former Arsenal forward became part of the side that completed the double. Joey Jones joined from Wrexham, while Chris Lawler and Phil Boersma left during the campaign.",
+    "The UEFA Cup final brought a 4–3 aggregate victory over Club Brugge. Liverpool recovered from two goals down to win the Anfield leg 3–2, then drew 1–1 in Belgium with Kevin Keegan scoring their goal. The domestic cups ended earlier: Derby County beat Liverpool in the FA Cup fourth round and Burnley won a League Cup third-round replay."
+  ],
+  "events": [
+    {
+      "id": "title-1976",
+      "title": "Champions at Molineux",
+      "date": "1976-05-04",
+      "detail": "A 3–1 away victory over Wolves secured the league title.",
+      "competitionIds": [
+        "first-division"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-games",
+        "lfc-paisley"
+      ]
+    },
+    {
+      "id": "uefa-cup-1976",
+      "title": "The double completed",
+      "date": "1976-05-19",
+      "detail": "A 1–1 draw at Club Brugge completed a 4–3 aggregate UEFA Cup final win.",
+      "competitionIds": [
+        "uefa-cup"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-games",
+        "lfc-uefa"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1974-75"
+  ],
+  "sources": [
+    {
+      "id": "lfc-paisley",
+      "label": "Liverpool FC: Bob Paisley, manager",
+      "url": "https://www.liverpoolfc.com/info/bob-paisley-0",
+      "confidence": "high",
+      "claims": "Manager from 1974 to 1983; first-season runners-up finish, the 1976 double, 1977 European Cup and 1979 league record."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1975-76",
+      "url": "https://www.rsssf.org/engpaul/FLA/1975-76.html",
+      "confidence": "high",
+      "claims": "Final First Division standings, points, wins, draws, defeats and goals for and against."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1975-76 results",
+      "url": "https://www.lfchistory.net/season-archive/games/17",
+      "confidence": "high",
+      "claims": "Competitive fixture dates, scores, venues and cup rounds; supports the competition results and dated match events."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1975-76 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/17",
+      "confidence": "high",
+      "claims": "Leading competitive scorer and goals by competition, excluding friendlies."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1975-76 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/17",
+      "confidence": "high",
+      "claims": "Listed incoming and outgoing transfers, clubs and chronology. Summer moves follow the incoming-campaign convention."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1975-76 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/17",
+      "confidence": "high",
+      "claims": "First-team involvement supporting the editorial key-player selection."
+    },
+    {
+      "id": "lfc-ray",
+      "label": "Liverpool FC: Ray Kennedy",
+      "url": "https://www.liverpoolfc.com/info/ray-kennedy",
+      "confidence": "high",
+      "claims": "Signed from Arsenal on the day Shankly announced retirement; ten goals in 1974–75; moved to left midfield before the 1976 league and UEFA Cup double."
+    },
+    {
+      "id": "lfc-uefa",
+      "label": "Liverpool FC: UEFA Cup",
+      "url": "https://www.liverpoolfc.com/info/uefa-cup",
+      "confidence": "high",
+      "claims": "The 1976 final: recovered from 0–2 to win 3–2 at Anfield; Keegan scored in the 1–1 away draw to secure the trophy."
+    },
+    {
+      "id": "lfc-joey",
+      "label": "Liverpool FC: Joey Jones",
+      "url": "https://www.liverpoolfc.com/info/joey-jones",
+      "confidence": "high",
+      "claims": "Signed from Wrexham in summer 1975."
+    },
+    {
+      "id": "afv-scorer",
+      "label": "11v11: Liverpool players, 1975-76",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1976/",
+      "confidence": "high",
+      "claims": "Independent corroboration of John Toshack as leading scorer with 23 competitive goals. Other player totals are not used."
+    }
+  ],
+  "researchNotes": [
+    "No unresolved discrepancy affects the published account. Top scorer refers to all competitive matches, not only the league. Fees are omitted.",
+    "Overview evidence: paragraph 1 — lfc-paisley, rsssf-league and lfch-games; paragraph 2 — lfch-scorers, lfc-ray, lfc-joey and lfch-transfers; paragraph 3 — lfc-uefa and lfch-games."
+  ]
+}

@@ -37,3 +37,7 @@ For local editorial review after building, run `npm start -- --hostname 127.0.0.
 The [1969–74 research audit](research/seasons-1969-1974.md) records every overview sentence’s evidence and the transfer boundary decisions for Whitham, Keegan and Case. Consult it before adding 1974–75 to avoid duplicating arrivals or treating the 1974 Charity Shield as part of the previous campaign. New summaries should remain approximately two or three concise paragraphs.
 
 Per-batch source audits are under `docs/research/`. No merge or deployment is authorised by this feature’s implementation brief: editorial review must happen first.
+
+## Continuing publication — 13 September 2026
+
+Denny explicitly authorised continued research and publication of season reference entries, with a live confirmation for each completed batch. For this content work, that instruction supersedes the original feature brief’s no-deployment restriction above. Preserve the existing system and run the documented checks before each publication. The [1974–79 audit](research/seasons-1974-1979.md) records the next five seasons, source conflicts, and transfer boundaries. Hansen is recorded in 1976–77; Keegan’s June 1977 departure in 1977–78; Sheedy and McGarvey in 1978–79. The next chronological season is 1979–80.
