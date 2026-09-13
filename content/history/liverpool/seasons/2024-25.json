@@ -1,0 +1,196 @@
+{
+  "season": "2024-25",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "arne-slot"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 1,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "mohamed-salah",
+      "goals": 34,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-salah"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 1–0 away to Plymouth Argyle.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Runners-up — lost 2–1 to Newcastle United at Wembley.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-slot"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League round of 16 — lost 4–1 on penalties to Paris Saint-Germain after a 1–1 aggregate draw.",
+      "sourceIds": [
+        "lfch-games",
+        "reuters-psg"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "premier-league"
+  ],
+  "keyPlayerIds": [
+    "mohamed-salah",
+    "luis-diaz",
+    "cody-gakpo",
+    "dominik-szoboszlai",
+    "alexis-mac-allister",
+    "ryan-gravenberch",
+    "virgil-van-dijk",
+    "curtis-jones",
+    "andy-robertson",
+    "trent-alexander-arnold",
+    "ibrahima-konate",
+    "diogo-jota",
+    "alisson-becker"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "federico-chiesa",
+        "club": "Juventus",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "rio-ngumoha",
+        "club": "Chelsea",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "fabio-carvalho",
+        "club": "Brentford",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "bobby-clark",
+        "club": "Red Bull Salzburg",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "sepp-van-den-berg",
+        "club": "Brentford",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Arne Slot’s first season brought Liverpool’s 20th league title. A 5–1 home win over Tottenham Hotspur on 27 April secured the championship with four matches remaining. Liverpool finished with 84 points, ten ahead of Arsenal, winning 25 league games. Mohamed Salah scored 34 competitive goals, including 29 in the league; Cody Gakpo and Luis Díaz contributed 18 and 17 respectively.",
+    "Federico Chiesa joined from Juventus, while Fábio Carvalho and Sepp van den Berg moved to Brentford. Liverpool won seven of their eight Champions League league-phase matches, but Paris Saint-Germain eliminated them on penalties in the last 16. Newcastle United won the League Cup final 2–1 at Wembley, and Plymouth Argyle ended the FA Cup campaign in the fourth round.",
+    "The title parade on 26 May was marred when a vehicle struck pedestrians on Water Street, injuring numerous people."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2023-24"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2024-25 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/134",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2024-25 games",
+      "url": "https://www.lfchistory.net/season-archive/games/134",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2024-25 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/134",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2024-25 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/134",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2024-25 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/134",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-slot",
+      "label": "Liverpool FC: Arne Slot",
+      "url": "https://www.liverpoolfc.com/info/arne-slot",
+      "confidence": "high",
+      "claims": "Appointed in summer 2024; 20th league title secured against Tottenham with four matches remaining; League Cup final defeat; fifth place and Champions League qualification in 2025–26; departure in May 2026."
+    },
+    {
+      "id": "lfc-salah",
+      "label": "Liverpool FC: Mohamed Salah",
+      "url": "https://www.liverpoolfc.com/info/mohamed-salah",
+      "confidence": "high",
+      "claims": "34 goals from 52 appearances in 2024–25; farewell on the final day of 2025–26."
+    },
+    {
+      "id": "reuters-psg",
+      "label": "Reuters: Paris Saint-Germain win the shoot-out at Anfield",
+      "url": "https://www.reuters.com/sports/soccer/paris-st-germain-knock-liverpool-out-champions-league-shootout-2025-03-11/",
+      "confidence": "high",
+      "claims": "PSG won 4–1 on penalties after a 1–1 aggregate draw in the Champions League last 16."
+    },
+    {
+      "id": "merseyside-parade",
+      "label": "Merseyside Police and emergency services: Water Street, 26 May 2025",
+      "url": "https://www.merseyside.police.uk/news/merseyside/news/2025/may-2025/statement-from-assistant-chief-constable-jenny-sims-and-partners-following-tonights-incident-in--water-street/",
+      "confidence": "high",
+      "claims": "Vehicle struck pedestrians on Water Street as the victory parade drew to a close; multiple people injured."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-slot, lfch-games, lfch-league, lfch-scorers and lfc-salah; paragraph 2 — lfch-transfers, lfch-games, reuters-psg and lfc-slot; paragraph 3 — merseyside-parade.",
+    "The Champions League’s league phase is distinguished from the previous group-stage format. Seven wins are counted directly from the eight league-phase fixtures.",
+    "The parade account uses the contemporary emergency-services statement only for the event, location and injuries. Changing injury totals, initial suspicions and later court proceedings are not repeated.",
+    "Selected transfers only. Mamardashvili’s arrival from Valencia is recorded in 2025–26 in line with the transfer ledger’s effective date; no claim is made about when the agreement was reached. Unverified contract-expiry destinations and fees are omitted."
+  ]
+}
