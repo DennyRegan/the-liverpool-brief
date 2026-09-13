@@ -1733,5 +1733,70 @@
     "id": "conor-bradley",
     "label": "Conor Bradley",
     "kind": "person"
+  },
+  {
+    "id": "arne-slot",
+    "label": "Arne Slot",
+    "kind": "person"
+  },
+  {
+    "id": "federico-chiesa",
+    "label": "Federico Chiesa",
+    "kind": "person"
+  },
+  {
+    "id": "rio-ngumoha",
+    "label": "Rio Ngumoha",
+    "kind": "person"
+  },
+  {
+    "id": "bobby-clark",
+    "label": "Bobby Clark",
+    "kind": "person"
+  },
+  {
+    "id": "sepp-van-den-berg",
+    "label": "Sepp van den Berg",
+    "kind": "person"
+  },
+  {
+    "id": "hugo-ekitike",
+    "label": "Hugo Ekitiké",
+    "kind": "person"
+  },
+  {
+    "id": "florian-wirtz",
+    "label": "Florian Wirtz",
+    "kind": "person"
+  },
+  {
+    "id": "milos-kerkez",
+    "label": "Milos Kerkez",
+    "kind": "person"
+  },
+  {
+    "id": "jeremie-frimpong",
+    "label": "Jeremie Frimpong",
+    "kind": "person"
+  },
+  {
+    "id": "giorgi-mamardashvili",
+    "label": "Giorgi Mamardashvili",
+    "kind": "person"
+  },
+  {
+    "id": "giovanni-leoni",
+    "label": "Giovanni Leoni",
+    "kind": "person"
+  },
+  {
+    "id": "alexander-isak",
+    "label": "Alexander Isak",
+    "kind": "person"
+  },
+  {
+    "id": "curtis-jones",
+    "label": "Curtis Jones",
+    "kind": "person"
   }
 ]
