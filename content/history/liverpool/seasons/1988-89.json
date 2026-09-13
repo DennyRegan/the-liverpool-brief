@@ -1,0 +1,203 @@
+{
+  "season": "1988-89",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "kenny-dalglish"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 2,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "john-aldridge",
+      "goals": 31,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-aldridge"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Winners — beat Wimbledon 2–1.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-shield"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Everton 3–2 after extra time.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-fa-cup"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 4–1 away to West Ham United.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "football-league-centenary-trophy",
+      "kind": "domestic",
+      "result": "Semi-final — lost 2–1 away to Arsenal.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "charity-shield",
+    "fa-cup"
+  ],
+  "keyPlayerIds": [
+    "john-aldridge",
+    "ray-houghton",
+    "steve-nicol",
+    "peter-beardsley",
+    "ronnie-whelan",
+    "gary-ablett",
+    "john-barnes",
+    "steve-mcmahon",
+    "ian-rush",
+    "steve-staunton"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "ian-rush",
+        "club": "Juventus",
+        "deal": "permanent",
+        "note": "Returned in August 1988.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "david-burrows",
+        "club": "West Bromwich Albion",
+        "deal": "permanent",
+        "note": "Joined in October 1988.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "nigel-spackman",
+        "club": "Queens Park Rangers",
+        "deal": "permanent",
+        "note": "Left in February 1989.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "The Hillsborough disaster at Liverpool’s FA Cup semi-final against Nottingham Forest on 15 April 1989 ultimately claimed the lives of 97 Liverpool supporters. The match was abandoned. Liverpool’s competitive fixtures resumed in May, and the semi-final was replayed at Old Trafford, where they won 3–1.",
+    "Liverpool won the FA Cup by beating Everton 3–2 after extra time at Wembley. John Aldridge scored the opener and substitute Ian Rush scored twice in extra time. In the league, Liverpool finished level with Arsenal on 76 points and goal difference, but lost the title on goals scored after Arsenal won 2–0 at Anfield in the final match. Michael Thomas scored the decisive late goal.",
+    "Rush had returned from Juventus, while Aldridge finished as leading scorer with 31 competitive goals. Liverpool also won the Charity Shield against Wimbledon. West Ham ended their League Cup run in the fourth round, and Arsenal beat them in the Football League Centenary Trophy semi-final."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1987-88"
+  ],
+  "sources": [
+    {
+      "id": "lfc-manager",
+      "label": "Liverpool FC: Kenny Dalglish, first spell",
+      "url": "https://www.liverpoolfc.com/info/kenny-dalglish-first-spell",
+      "confidence": "high",
+      "claims": "Appointed player-manager in summer 1985; first league and FA Cup double, Chelsea winner, 1988 championship and Forest 5–0, 1989 cup final and Arsenal title decider. The description of 1986–87 as empty-handed is not used because it excludes the Super Cup and shared Shield."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1988-89",
+      "url": "https://www.rsssf.org/engpaul/FLA/1988-89.html",
+      "confidence": "high",
+      "claims": "Final division, position, points, goals and league record; title margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1988-89 games",
+      "url": "https://www.lfchistory.net/season-archive/games/30",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, scores, venues and cup stages; aggregate scores calculated from legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1988-89 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/30",
+      "confidence": "high",
+      "claims": "All-competitive scoring, including the Shield, Super Cup and Centenary Trophy where played; excludes friendlies and shoot-outs."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1988-89 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/30",
+      "confidence": "high",
+      "claims": "Dated selected senior arrivals and departures; summer allocation explained in notes."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1988-89 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/30",
+      "confidence": "high",
+      "claims": "Competitive involvement supporting key-player selections."
+    },
+    {
+      "id": "lfc-aldridge",
+      "label": "Liverpool FC: John Aldridge in the 30-goal club",
+      "url": "https://www.liverpoolfc.com/news/announcements/290701-lfc-s-30-goal-club-john-aldridge",
+      "confidence": "high",
+      "claims": "29 goals in 1987–88 and 31 in 1988–89, including six in the FA Cup in the latter season."
+    },
+    {
+      "id": "lfc-fa-cup",
+      "label": "Liverpool FC: FA Cup",
+      "url": "https://www.liverpoolfc.com/info/fa-cup",
+      "confidence": "high",
+      "claims": "1986 final: Everton beaten 3–1, Rush scoring twice and Johnston once; 1988 loss to Wimbledon; 1989 final: Everton beaten 3–2 after extra time, Aldridge scoring first and substitute Rush twice."
+    },
+    {
+      "id": "lfc-shield",
+      "label": "Liverpool FC: Charity and Community Shield",
+      "url": "https://www.liverpoolfc.com/info/charity-community-shield",
+      "confidence": "high",
+      "claims": "The 1986 Shield was shared with Everton; Liverpool beat Wimbledon in 1988."
+    },
+    {
+      "id": "lfc-hillsborough",
+      "label": "Liverpool FC: Hillsborough memorial",
+      "url": "https://www.liverpoolfc.com/hillsborough",
+      "confidence": "high",
+      "claims": "The disaster at the Liverpool–Nottingham Forest FA Cup semi-final on 15 April 1989 ultimately claimed 97 lives. This is the eventual death toll, not a claim that every victim died that day."
+    },
+    {
+      "id": "facup-season-context",
+      "label": "1988–89 FA Cup: semi-final context",
+      "url": "https://en.wikipedia.org/wiki/1988%E2%80%9389_FA_Cup",
+      "confidence": "medium",
+      "claims": "Limited corroborating scope: the Hillsborough semi-final was abandoned and rescheduled for 7 May. The eventual death toll is sourced from Liverpool FC; the completed result and venue from LFChistory."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-hillsborough, facup-season-context and lfch-games; paragraph 2 — lfc-fa-cup, lfc-manager, rsssf-league and lfch-games; paragraph 3 — lfch-transfers, lfch-scorers, lfc-aldridge, lfc-shield and lfch-games.",
+    "The 97 figure is the eventual Hillsborough death toll. It must not be described as 97 deaths on the day. Football results are reported separately without a redemption narrative.",
+    "The final table gives both clubs 76 points and +37 goal difference: Arsenal scored 73 and Liverpool 65. This resolves the title on goals scored, not goal difference.",
+    "The two full-match Centenary Trophy fixtures are included in the competitive season record. Aldridge’s September 1989 departure belongs to 1989–90. Unverified retirement dates and post-release destinations have been omitted from the selected transfer list."
+  ]
+}
