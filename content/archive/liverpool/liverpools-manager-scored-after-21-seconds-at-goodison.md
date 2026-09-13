@@ -33,7 +33,7 @@ Dalglish is on the pitch.
 
 And he doesn't look like a manager who happens to be playing. He looks like what he was: still one of Liverpool’s best players.
 
-His opening goal was a reminder of that. Dalglish received the ball outside the box and curled a brilliant finish beyond Neville Southall. Everton were the reigning league champions. Goodison was packed. Liverpool’s manager had just scored against them almost immediately.
+His opening goal was a reminder of that. Dalglish received the ball outside the box and hit a screamer past Neville Southall. Everton were the reigning league champions. Goodison was packed. Liverpool’s manager had just scored against them almost immediately.
 
 Liverpool then threatened to run away with it.
 
