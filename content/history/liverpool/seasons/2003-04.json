@@ -1,0 +1,240 @@
+{
+  "season": "2003-04",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "gerard-houllier"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 4,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "michael-owen",
+      "goals": 19,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorer"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fifth round — lost 1–0 away to Portsmouth in a replay.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 3–2 at home to Bolton Wanderers.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Fourth round — lost 3–2 on aggregate to Marseille.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "michael-owen",
+    "sami-hyypia",
+    "harry-kewell",
+    "emile-heskey",
+    "steven-gerrard",
+    "danny-murphy",
+    "igor-biscan",
+    "jerzy-dudek",
+    "john-arne-riise",
+    "dietmar-hamann",
+    "steve-finnan",
+    "jamie-carragher"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "anthony-le-tallec",
+        "club": "Le Havre",
+        "deal": "permanent",
+        "note": "Joined the Liverpool squad in July 2003.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "florent-sinama-pongolle",
+        "club": "Le Havre",
+        "deal": "permanent",
+        "note": "Joined the Liverpool squad in July 2003.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steve-finnan",
+        "club": "Fulham",
+        "deal": "permanent",
+        "note": "Joined in July 2003.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "harry-kewell",
+        "club": "Leeds United",
+        "deal": "permanent",
+        "note": "Joined in July 2003.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "paul-jones",
+        "club": "Southampton",
+        "deal": "loan",
+        "note": "Joined on a short loan in January 2004.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "patrik-berger",
+        "club": "Portsmouth",
+        "deal": "free",
+        "note": "Joined after his Liverpool contract expired in summer 2003.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-berger"
+        ]
+      },
+      {
+        "personId": "markus-babbel",
+        "club": "Blackburn Rovers",
+        "deal": "loan",
+        "note": "Joined on a season-long loan in August 2003.",
+        "sourceIds": [
+          "lfc-babbel"
+        ]
+      },
+      {
+        "personId": "paul-jones",
+        "club": "Southampton",
+        "deal": "loan",
+        "note": "Returned at the end of his January 2004 loan.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "abel-xavier",
+        "club": "Hannover 96",
+        "deal": "free",
+        "note": "Left in February 2004.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished fourth in the Premier League with 60 points, securing a return to the Champions League but ending 30 points behind champions Arsenal. Gérard Houllier left after the campaign. His final league match was a 1–1 home draw with Newcastle United.",
+    "Steven Gerrard succeeded Sami Hyypiä as club captain in October. Harry Kewell arrived from Leeds United and Steve Finnan from Fulham, while Anthony Le Tallec and Florent Sinama-Pongolle joined the squad from Le Havre. Michael Owen was leading scorer with 19 competitive goals; Kewell contributed 11 in his first season.",
+    "Liverpool did not win a trophy. Portsmouth ended their FA Cup run in a fifth-round replay, Bolton Wanderers won the League Cup fourth-round tie at Anfield, and Marseille eliminated them from the UEFA Cup 3–2 on aggregate in the fourth round. The league run-in included three successive wins over Manchester United, Middlesbrough and Birmingham City."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2002-03"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 2003-04 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/2003-04.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points and goals; gaps and combined home/away totals calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2003-04 games",
+      "url": "https://www.lfchistory.net/season-archive/games/46",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, results and cup stages; two-leg aggregates and league runs calculated from the full fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2003-04 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/46",
+      "confidence": "high",
+      "claims": "All-competitive scorer totals, including qualifying matches, Shield and Super Cup where played; excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2003-04 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/46",
+      "confidence": "high",
+      "claims": "Selected senior moves and dates. Summer preparation allocated to the incoming season, with loans distinguished."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 2003-04 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/46",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting key-player selections."
+    },
+    {
+      "id": "lfc-houllier",
+      "label": "Liverpool FC: Gérard Houllier",
+      "url": "https://www.liverpoolfc.com/info/gerard-houllier",
+      "confidence": "high",
+      "claims": "Sole manager from November 1998; 2001 treble and Champions League qualification, October 2001 illness and Thompson’s temporary charge; league finishes and departure after 2003–04. Its 1999–2000 claim of six final winless games is not used: dated fixtures show five."
+    },
+    {
+      "id": "afv-scorer",
+      "label": "11v11: Liverpool players, 2003–04",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/2004/",
+      "confidence": "high",
+      "claims": "Independent corroboration of Owen’s 19 competitive goals."
+    },
+    {
+      "id": "lfc-captain",
+      "label": "Liverpool FC: Gerrard receives the captaincy",
+      "url": "https://www.liverpoolfc.com/news/first-team/172383-on-this-day-in-2003-stevie-given-armband",
+      "confidence": "high",
+      "claims": "Article body identifies 15 October 2003 as Gerrard’s appointment, succeeding Hyypiä. Its publication timestamp is not the historical event date."
+    },
+    {
+      "id": "lfc-berger",
+      "label": "Liverpool FC: Patrik Berger",
+      "url": "https://www.liverpoolfc.com/info/patrik-berger",
+      "confidence": "high",
+      "claims": "Joined Portsmouth after leaving Liverpool in 2003."
+    },
+    {
+      "id": "lfc-babbel",
+      "label": "Liverpool FC: Markus Babbel",
+      "url": "https://www.liverpoolfc.com/info/markus-babbel",
+      "confidence": "high",
+      "claims": "Free transfer from Bayern Munich in summer 2000; August 2003 loan to Blackburn and subsequent July 2004 Stuttgart move. The profile’s compressed headline playing years are not used as transfer dates."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-houllier and lfch-games; paragraph 2 — lfc-captain, lfch-transfers, lfch-scorers and afv-scorer; paragraph 3 — lfch-games.",
+    "The captaincy article’s publication timestamp shows 14 October 2014 but its body explicitly dates the appointment to 15 October 2003. The summary uses October; publication and event dates are kept separate.",
+    "Le Tallec and Sinama-Pongolle are recorded on joining the squad in 2003, without an unverified claim about earlier contractual arrangements. Babbel’s loan is supported by his club profile.",
+    "Heskey’s May 2004 departure and Owen’s summer 2004 move are allocated to 2004–05. Houllier’s departure is mentioned as the end of his final campaign; Benítez did not manage a competitive match in 2003–04."
+  ]
+}
