@@ -26,7 +26,7 @@ Preparatory summer transfers belong with the incoming campaign, rather than mech
 
 ## Archive integration
 
-A season page selects existing Archive objects by their `season` metadata and links to their unchanged `/archive/{slug}` URLs. Common legacy spellings are normalised by the shared `seasonKey` helper. Do not copy Archive bodies or create a second article. No current Archive article has matching season metadata for 1959–60 through 1973–74, so their Related Archive blocks are omitted. The Phil Thompson biography has person and era metadata but no season; it is not assigned one merely to populate a season page. A future matching article appears automatically after the usual content build; no season-file change is needed. Matching and deduplication are covered with temporary fixtures and a real existing Archive example.
+A season page selects existing Archive objects by their `season` metadata and links to their unchanged `/archive/{slug}` URLs. Both schemas require the shared canonical consecutive `YYYY-YY` identity; the matching helper retains legacy normalisation for existing callers. Do not copy Archive bodies or create a second article. No current Archive article has matching season metadata for 1959–60 through 1973–74, so their From the Archive blocks are omitted. The Phil Thompson biography has person and era metadata but no season; it is not assigned one merely to populate a season page. A future matching article appears automatically after the usual content build; no season-file change is needed. Matching and deduplication are covered with temporary fixtures and a real existing Archive example.
 
 ## Review and checks
 
@@ -43,3 +43,11 @@ Per-batch source audits are under `docs/research/`. No merge or deployment is au
 Denny explicitly authorised continued research and publication of season reference entries, with a live confirmation for each completed batch. For this content work, that instruction supersedes the original feature brief’s no-deployment restriction above. Preserve the existing system and run the documented checks before each publication. The [1974–79 audit](research/seasons-1974-1979.md) records the next five seasons, source conflicts, and transfer boundaries. Hansen is recorded in 1976–77; Keegan’s June 1977 departure in 1977–78; Sheedy and McGarvey in 1978–79. The next chronological season is 1979–80.
 
 The [1979–84 audit](research/seasons-1979-1984.md) covers the next five seasons and the transition to Joe Fagan. The next chronological season is 1984–85. Walsh’s May 1984 arrival is allocated there; Beglin is recorded in 1982–83. Denny specified immediate five-season batches with no schedule.
+
+## Bidirectional discovery review
+
+Archive articles with a meaningful principal season use optional canonical `season` metadata. The Season page automatically shows matching original writing under **From the Archive**, and the article shows **Explore [season]** only when that structured destination exists. An unavailable season does not invalidate otherwise valid Archive metadata. Career or multi-season articles may omit the field; assess that choice during publishing review, without inferring it from an opening date or name.
+
+New articles and season records join these connections at build time without editing application code or reverse lists. Previous/next links use the chronological published collection and skip gaps. Filename/identity checks and explicit `relatedSeasons` existence checks remain strict; optional Archive season availability is deliberately different.
+
+The Seasons ↔ Archive integration is a separate feature review: do not merge or deploy it under the earlier season-content publication authority. Review `docs/seasons-archive-integration-review.md` first.

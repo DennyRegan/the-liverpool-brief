@@ -2,12 +2,14 @@
 // This script only reads content and HTTP responses; it never starts a server or changes articles.
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import { getSeasons, getPublishedArchiveSeason } from '../lib/content/seasons.ts';
 import { getArchiveFeatures } from '../lib/content/archive.ts';
 import { getHistory, getEraArticles } from '../lib/content/history.ts';
 import { getHistoryEvents, getHistoryWindow, getWeekReading } from '../lib/content/this-week.ts';
 
 const origin = process.env.BASE_URL || 'http://127.0.0.1:3130';
 const articles = getArchiveFeatures();
+const seasons = getSeasons();
 const slugs = new Set(articles.map(article => article.slug));
 const { eras } = getHistory();
 const mainOf = html => html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? '';
@@ -27,6 +29,10 @@ for (const article of articles) {
   const main = mainOf(await get(route));
   assert.equal((main.match(/<h1\b/g) ?? []).length, 1, `${route}: one article heading`);
   assert.match(main, /class="article-body"/, `${route}: original Markdown article renders`);
+  const destination = getPublishedArchiveSeason(article, seasons);
+  const seasonLinks = [...main.matchAll(/href="(\/history\/seasons\/[^"?#]+)"/g)].map(match => match[1]);
+  assert.deepEqual(seasonLinks, destination ? [`/history/seasons/${destination.season}`] : [], `${route}: only a published season destination`);
+  if (destination) await get(`/history/seasons/${destination.season}`);
   const sections = [...main.matchAll(/<section\b[^>]*>[\s\S]*?<\/section>/g)]
     .map(match => match[0]).filter(section => /class="[^"]*\barchive-discovery\b/.test(section));
   assert.ok(sections.length <= 1, `${route}: one discovery section`);

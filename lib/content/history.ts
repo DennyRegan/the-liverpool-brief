@@ -92,6 +92,12 @@ export function seasonKey(value?: string): string | undefined {
   return `${match[1]}-${String(expected % 100).padStart(2, "0")}`;
 }
 
+/** Stored identity shared by Archive metadata and structured Season records. */
+export const SeasonIdSchema = z.string().refine(
+  value => /^\d{4}-\d{2}$/.test(value) && seasonKey(value) === value,
+  "Use a consecutive canonical season, e.g. 1987-88",
+);
+
 /** Explicit contexts win. Never infer a career from a person's name or prose date. */
 export function getArticleEraIds(article: ArchiveContext, eras: HistoryEra[]): string[] {
   if (article.historyEras) {

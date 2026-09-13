@@ -18,7 +18,7 @@ Archive Markdown at `content/archive/liverpool/<slug>.md` remains the only artic
 | `decade` | Required existing display/grouping string, such as `1980s`. |
 | `category` | Existing navigation grouping: `match`, `person` or `season`; defaults to `match`. Its meaning has not changed. |
 | `articleType` | Optional precise subject: `match`, `player`, `manager`, `transfer`, `season`, `competition`, `club-event` or `other`. A player article can retain `category: person`. |
-| `season` | Optional consecutive football season. Prefer quoted `"1987-88"`; slash or en-dash separators and four-digit ending years are also accepted and normalized for matching. |
+| `season` | Optional principal season in canonical consecutive `YYYY-YY` form, e.g. `"1987-88"`. Other separators or four-digit ending years are rejected. A structured record need not exist yet. |
 | `historyEras` | Optional non-empty array of existing managerial tenure IDs; explicit editorial contexts override automatic placement. |
 | `playerIds` | Optional array of central people discussed as players; each entity must have kind `person`. |
 | `managerIds` | Optional array of central people discussed as managers; each entity must have kind `person`. |
@@ -54,7 +54,7 @@ Tag what the article is substantially about, not every name in its prose. The cu
 ## Publishing another article
 
 1. Write the original article once in `content/archive/liverpool/<slug>.md`, retaining the existing required frontmatter and canonical slug conventions.
-2. Have AI/Codex propose the article type, historical context and meaningful relationship IDs. Denny reviews those editorial choices against the article and its research.
+2. Have AI/Codex propose the article type, historical context, principal `season` where meaningful, and relationship IDs. Leave career/multi-season writing without a season when no principal campaign exists; this is editorial review, not automatic prose inference. Denny reviews those editorial choices against the article and its research.
 3. Reuse canonical entities; add only missing entities to `entities.json`. Add explicit `historyEras` when the article spans tenures or automatic placement is unsuitable.
 4. Run `npm test`, `npm run lint` and `npm run build`. The build already runs `scripts/validate-history.mjs`, including registry, Archive, era and This Week validation.
 5. Review the article, related reading and applicable History/This Week links in a preview. Follow the normal branch review and deployment process after approval.
@@ -141,3 +141,11 @@ The constants, eligibility check, ordering and reason policy are together in the
 V1 adds metadata and automatic related reading to existing historical articles. It does not add another article system, database, CMS, runtime AI, embeddings, semantic search, graph visualization, accounts, personalization or saved-history features. There are no new public entity indexes or player, manager, season, competition or decade hubs: those need enough original writing to justify a useful destination.
 
 Future destinations can query the same validated `playerIds`, `managerIds`, `competitionIds`, normalized `season` and other relationship fields, using registry labels and existing `/archive/<slug>` links. A person page can combine player and manager references by the same ID. Article bodies, URLs and authoring format do not need restructuring. Expand the registry only as approved articles require it; do not create a speculative historical dataset.
+
+## Seasons integration
+
+The existing Season system and Archive now share `SeasonIdSchema` in `lib/content/history.ts`. `getSeasonArchiveArticles` selects canonical Archive objects by season metadata for the conditional **From the Archive** section. `ArchiveSeasonLink` uses published `getSeasons()` records to show **Explore 1987–88** after the article body. Missing records suppress the link, not the article or its valid metadata. Publishing a corresponding record later enables it at the next build.
+
+No article lists belong in season JSON. Same-season recommendations retain their existing five-point weight, self-exclusion and metadata-driven ranking. Season managers, players, trophies, transfers and events already share the entity registry used by Archive. No additional entity catalogue or destination pages are needed. The existing Season navigation selects adjacent published records, skipping gaps; it never calculates a URL for an unwritten season.
+
+See `seasons-archive-integration-review.md` for the complete current article audit and review checklist. This integration branch is for review only; earlier authorisation to publish season reference content does not authorise merging or deploying this change.

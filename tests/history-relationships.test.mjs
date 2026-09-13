@@ -183,10 +183,10 @@ test('bad era registry data reports eras.json through the existing History loade
   }
 }));
 
-test('legacy season spellings normalize without changing their editorial display value', () => {
+test('legacy spellings normalize for matching but stored metadata must be canonical', () => {
   for (const season of ['1987-88', '1987/88', '1987–88', '1987-1988']) {
     assert.equal(seasonKey(season), '1987-88');
-    assert.equal(ArchiveFeatureSchema.parse({ ...valid, season }).season, season);
+    assert.equal(ArchiveFeatureSchema.safeParse({ ...valid, season }).success, season === "1987-88");
   }
   assert.equal(seasonKey('1999-00'), '1999-00');
   for (const season of ['1987-89', '87-88', '1987', '1987-1989']) {
