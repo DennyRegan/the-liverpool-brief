@@ -773,5 +773,110 @@
     "id": "premier-league",
     "label": "Premier League",
     "kind": "competition"
+  },
+  {
+    "id": "phil-babb",
+    "label": "Phil Babb",
+    "kind": "person"
+  },
+  {
+    "id": "john-scales",
+    "label": "John Scales",
+    "kind": "person"
+  },
+  {
+    "id": "mark-kennedy",
+    "label": "Mark Kennedy",
+    "kind": "person"
+  },
+  {
+    "id": "stan-collymore",
+    "label": "Stan Collymore",
+    "kind": "person"
+  },
+  {
+    "id": "jason-mcateer",
+    "label": "Jason McAteer",
+    "kind": "person"
+  },
+  {
+    "id": "patrik-berger",
+    "label": "Patrik Berger",
+    "kind": "person"
+  },
+  {
+    "id": "bjorn-tore-kvarme",
+    "label": "Bjørn Tore Kvarme",
+    "kind": "person"
+  },
+  {
+    "id": "michael-owen",
+    "label": "Michael Owen",
+    "kind": "person"
+  },
+  {
+    "id": "dominic-matteo",
+    "label": "Dominic Matteo",
+    "kind": "person"
+  },
+  {
+    "id": "oyvind-leonhardsen",
+    "label": "Øyvind Leonhardsen",
+    "kind": "person"
+  },
+  {
+    "id": "danny-murphy",
+    "label": "Danny Murphy",
+    "kind": "person"
+  },
+  {
+    "id": "paul-ince",
+    "label": "Paul Ince",
+    "kind": "person"
+  },
+  {
+    "id": "karl-heinz-riedle",
+    "label": "Karl-Heinz Riedle",
+    "kind": "person"
+  },
+  {
+    "id": "brad-friedel",
+    "label": "Brad Friedel",
+    "kind": "person"
+  },
+  {
+    "id": "gerard-houllier",
+    "label": "Gérard Houllier",
+    "kind": "person"
+  },
+  {
+    "id": "jamie-carragher",
+    "label": "Jamie Carragher",
+    "kind": "person"
+  },
+  {
+    "id": "vegard-heggem",
+    "label": "Vegard Heggem",
+    "kind": "person"
+  },
+  {
+    "id": "sean-dundee",
+    "label": "Sean Dundee",
+    "kind": "person"
+  },
+  {
+    "id": "rigobert-song",
+    "label": "Rigobert Song",
+    "kind": "person"
+  },
+  {
+    "id": "djimi-traore",
+    "label": "Djimi Traoré",
+    "kind": "person"
+  },
+  {
+    "id": "steven-gerrard",
+    "label": "Steven Gerrard",
+    "kind": "person"
   }
 ]
