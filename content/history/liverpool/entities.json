@@ -453,5 +453,60 @@
     "id": "uefa-cup",
     "label": "UEFA Cup",
     "kind": "competition"
+  },
+  {
+    "id": "ray-kennedy",
+    "label": "Ray Kennedy",
+    "kind": "person"
+  },
+  {
+    "id": "phil-neal",
+    "label": "Phil Neal",
+    "kind": "person"
+  },
+  {
+    "id": "joey-jones",
+    "label": "Joey Jones",
+    "kind": "person"
+  },
+  {
+    "id": "david-fairclough",
+    "label": "David Fairclough",
+    "kind": "person"
+  },
+  {
+    "id": "david-johnson",
+    "label": "David Johnson",
+    "kind": "person"
+  },
+  {
+    "id": "alan-hansen",
+    "label": "Alan Hansen",
+    "kind": "person"
+  },
+  {
+    "id": "graeme-souness",
+    "label": "Graeme Souness",
+    "kind": "person"
+  },
+  {
+    "id": "steve-ogrizovic",
+    "label": "Steve Ogrizovic",
+    "kind": "person"
+  },
+  {
+    "id": "alan-kennedy",
+    "label": "Alan Kennedy",
+    "kind": "person"
+  },
+  {
+    "id": "kevin-sheedy",
+    "label": "Kevin Sheedy",
+    "kind": "person"
+  },
+  {
+    "id": "frank-mcgarvey",
+    "label": "Frank McGarvey",
+    "kind": "person"
   }
 ]

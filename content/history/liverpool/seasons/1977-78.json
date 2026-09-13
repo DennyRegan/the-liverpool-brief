@@ -1,0 +1,293 @@
+{
+  "season": "1977-78",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bob-paisley"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 2,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "kenny-dalglish",
+      "goals": 31,
+      "sourceIds": [
+        "lfch-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 4–2 away to Chelsea.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Runners-up — lost 1–0 to Nottingham Forest in the Old Trafford replay after a 0–0 Wembley draw.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Winners — beat Club Brugge 1–0 at Wembley through Kenny Dalglish.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-europe",
+        "lfc-dalglish"
+      ]
+    },
+    {
+      "competitionId": "european-super-cup",
+      "kind": "europe",
+      "result": "Winners — beat Hamburg 7–1 on aggregate, drawing 1–1 away and winning 6–0 at Anfield.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-super"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Shared — drew 0–0 with Manchester United at Wembley.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-shield"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "european-cup",
+    "european-super-cup",
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "kenny-dalglish",
+    "phil-neal",
+    "ray-kennedy",
+    "ray-clemence",
+    "emlyn-hughes",
+    "terry-mcdermott",
+    "jimmy-case",
+    "steve-heighway",
+    "phil-thompson",
+    "david-fairclough",
+    "ian-callaghan",
+    "alan-hansen",
+    "graeme-souness"
+  ],
+  "transfers": {
+    "out": [
+      {
+        "personId": "kevin-keegan",
+        "club": "Hamburg",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-keegan-move",
+          "lfc-dalglish"
+        ],
+        "note": "June 1977 departure, allocated to the incoming campaign."
+      },
+      {
+        "personId": "alec-lindsay",
+        "club": "Stoke City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in September 1977."
+      },
+      {
+        "personId": "alan-waddle",
+        "club": "Leicester City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in September 1977."
+      },
+      {
+        "personId": "john-toshack",
+        "club": "Swansea City",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in February 1978."
+      }
+    ],
+    "in": [
+      {
+        "personId": "kenny-dalglish",
+        "club": "Celtic",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-dalglish"
+        ],
+        "note": "Joined in August 1977."
+      },
+      {
+        "personId": "steve-ogrizovic",
+        "club": "Chesterfield",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in November 1977."
+      },
+      {
+        "personId": "graeme-souness",
+        "club": "Middlesbrough",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-souness"
+        ],
+        "note": "Joined in January 1978."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool retained the European Cup, beating Club Brugge 1–0 at Wembley on 10 May. Kenny Dalglish scored the winner after a pass from Graeme Souness, completing a first Liverpool season in which he led the scoring with 31 goals in all competitions.",
+    "Dalglish had arrived from Celtic after Kevin Keegan’s departure for Hamburg, while Souness joined from Middlesbrough in January. Liverpool also won the European Super Cup, beating Hamburg 7–1 on aggregate. Terry McDermott scored a hat-trick in the 6–0 second-leg win at Anfield.",
+    "At home, Liverpool finished runners-up in the First Division, seven points behind Nottingham Forest. Forest also beat them 1–0 in the League Cup final replay after a goalless first match. Chelsea ended Liverpool’s FA Cup run in the third round, while the Charity Shield was shared with Manchester United."
+  ],
+  "events": [
+    {
+      "id": "hamburg-1977",
+      "title": "The first European Super Cup",
+      "date": "1977-12-06",
+      "detail": "Liverpool beat Hamburg 6–0 at Anfield to complete a 7–1 aggregate victory.",
+      "competitionIds": [
+        "european-super-cup"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-games",
+        "lfc-super"
+      ]
+    },
+    {
+      "id": "wembley-1978",
+      "title": "The European Cup retained",
+      "date": "1978-05-10",
+      "detail": "Dalglish scored the only goal against Club Brugge at Wembley.",
+      "competitionIds": [
+        "european-cup"
+      ],
+      "personIds": [
+        "kenny-dalglish",
+        "graeme-souness"
+      ],
+      "sourceIds": [
+        "lfch-games",
+        "lfc-europe",
+        "lfc-dalglish"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1976-77"
+  ],
+  "sources": [
+    {
+      "id": "lfc-paisley",
+      "label": "Liverpool FC: Bob Paisley, manager",
+      "url": "https://www.liverpoolfc.com/info/bob-paisley-0",
+      "confidence": "high",
+      "claims": "Manager from 1974 to 1983; first-season runners-up finish, the 1976 double, 1977 European Cup and 1979 league record."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1977-78",
+      "url": "https://www.rsssf.org/engpaul/FLA/1977-78.html",
+      "confidence": "high",
+      "claims": "Final First Division standings, points, wins, draws, defeats and goals for and against."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1977-78 results",
+      "url": "https://www.lfchistory.net/season-archive/games/19",
+      "confidence": "high",
+      "claims": "Competitive fixture dates, scores, venues and cup rounds; supports the competition results and dated match events."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1977-78 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/19",
+      "confidence": "high",
+      "claims": "Leading competitive scorer and goals by competition, excluding friendlies."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1977-78 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/19",
+      "confidence": "high",
+      "claims": "Listed incoming and outgoing transfers, clubs and chronology. Summer moves follow the incoming-campaign convention."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1977-78 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/19",
+      "confidence": "high",
+      "claims": "First-team involvement supporting the editorial key-player selection."
+    },
+    {
+      "id": "lfc-europe",
+      "label": "Liverpool FC: European Cup",
+      "url": "https://www.liverpoolfc.com/info/european-cup-champions-league",
+      "confidence": "high",
+      "claims": "First win on 25 May 1977, 3–1 against Borussia Mönchengladbach with McDermott, Smith and Neal scoring; retained on 10 May 1978 through Dalglish against Club Brugge."
+    },
+    {
+      "id": "lfc-shield",
+      "label": "Liverpool FC: Charity and Community Shield",
+      "url": "https://www.liverpoolfc.com/info/charity-community-shield",
+      "confidence": "high",
+      "claims": "Outright winners in 1974 and 1976; shared with Manchester United in 1977. The club attributes the 1974 match to Paisley."
+    },
+    {
+      "id": "lfc-dalglish",
+      "label": "Liverpool FC: Kenny Dalglish",
+      "url": "https://www.liverpoolfc.com/info/kenny-dalglish",
+      "confidence": "high",
+      "claims": "Joined from Celtic in August 1977 for £440,000 after Keegan left for Hamburg; led scoring with 31 goals in his first season including the 1978 European Cup winner; Football Writers’ Footballer of the Year in 1979."
+    },
+    {
+      "id": "lfc-super",
+      "label": "Liverpool FC: UEFA Super Cup",
+      "url": "https://www.liverpoolfc.com/info/uefa-super-cup",
+      "confidence": "high",
+      "claims": "First won on 6 December 1977, following 1–1 away and 6–0 home results against Hamburg; McDermott hat-trick. Anderlecht won the following edition 4–3 on aggregate."
+    },
+    {
+      "id": "lfc-souness",
+      "label": "Liverpool FC: Graeme Souness",
+      "url": "https://www.liverpoolfc.com/info/graeme-souness",
+      "confidence": "high",
+      "claims": "Joined from Middlesbrough and supplied the pass for Dalglish’s goal in the 1978 European Cup final."
+    },
+    {
+      "id": "lfch-keegan-move",
+      "label": "LFChistory: Keegan’s June 1977 transfer",
+      "url": "https://www.lfchistory.net/season-archive/transfers/18",
+      "confidence": "high",
+      "claims": "Keegan moved to Hamburg on 3 June 1977; allocated here under the summer transfer convention."
+    }
+  ],
+  "researchNotes": [
+    "The 1977 European Super Cup belongs to 1977–78 because both legs were played during this campaign. The Charity Shield was shared, not won outright. Hansen’s signing is already recorded in 1976–77 and is not duplicated.",
+    "Overview evidence: paragraph 1 — lfc-europe, lfc-dalglish, lfc-souness and lfch-scorers; paragraph 2 — lfch-transfers, lfch-keegan-move, lfc-dalglish, lfc-souness, lfc-super and lfch-games; paragraph 3 — rsssf-league, lfch-games and lfc-shield."
+  ]
+}
