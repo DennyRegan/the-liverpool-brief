@@ -1,0 +1,320 @@
+{
+  "season": "2015-16",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "brendan-rodgers",
+    "jurgen-klopp"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 8,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "daniel-sturridge",
+      "goals": 13,
+      "sourceIds": [
+        "lfch-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–1 away to West Ham United in a replay.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Runners-up — lost 3–1 on penalties to Manchester City after a 1–1 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-league-cup-final"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Europa League runners-up — lost 3–1 to Sevilla in Basel.",
+      "sourceIds": [
+        "lfch-games",
+        "uefa-final"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "daniel-sturridge",
+    "simon-mignolet",
+    "nathaniel-clyne",
+    "alberto-moreno",
+    "emre-can",
+    "adam-lallana",
+    "roberto-firmino",
+    "james-milner",
+    "philippe-coutinho",
+    "dejan-lovren",
+    "divock-origi",
+    "jordan-henderson"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "joe-gomez",
+        "club": "Charlton Athletic",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "adam-bogdan",
+        "club": "Bolton Wanderers",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-bogdan"
+        ]
+      },
+      {
+        "personId": "danny-ings",
+        "club": "Burnley",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-ings"
+        ],
+        "note": "Joined after his Burnley contract expired; compensation was payable."
+      },
+      {
+        "personId": "james-milner",
+        "club": "Manchester City",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-milner"
+        ]
+      },
+      {
+        "personId": "nathaniel-clyne",
+        "club": "Southampton",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "roberto-firmino",
+        "club": "Hoffenheim",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "christian-benteke",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "marko-grujic",
+        "club": "Red Star Belgrade",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steven-caulker",
+        "club": "Queens Park Rangers",
+        "deal": "loan",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "steven-gerrard",
+        "club": "LA Galaxy",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-gerrard"
+        ]
+      },
+      {
+        "personId": "iago-aspas",
+        "club": "Sevilla",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "sebastian-coates",
+        "club": "Sunderland",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "raheem-sterling",
+        "club": "Manchester City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "rickie-lambert",
+        "club": "West Bromwich Albion",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "fabio-borini",
+        "club": "Sunderland",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Jürgen Klopp replaced Brendan Rodgers in October, and Liverpool finished eighth in the Premier League with 60 points. Roberto Firmino, James Milner and Nathaniel Clyne were among the summer recruits, while Steven Gerrard and Raheem Sterling departed. Daniel Sturridge was the leading scorer with 13 competitive goals.",
+    "Two cup runs ended in final defeats. Manchester City won the League Cup on penalties after a 1–1 draw at Wembley. In Europe, Liverpool eliminated Manchester United, Borussia Dortmund and Villarreal before losing 3–1 to Sevilla in Basel, despite Sturridge giving them the lead. The Dortmund quarter-final brought a 4–3 Anfield win from 3–1 down, settled by Dejan Lovren’s added-time winner. West Ham ended the FA Cup run in a fourth-round replay.",
+    "On 26 April 2016, the new Hillsborough inquests returned verdicts of unlawful killing, following the campaign by bereaved families and survivors."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2014-15"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2015-16 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/125",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2015-16 games",
+      "url": "https://www.lfchistory.net/season-archive/games/125",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2015-16 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/125",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2015-16 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/125",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2015-16 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/125",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-rodgers",
+      "label": "Liverpool FC: Brendan Rodgers",
+      "url": "https://www.liverpoolfc.com/info/brendan-rodgers",
+      "confidence": "high",
+      "claims": "2014–15 Champions League group exit and domestic cup semi-finals; departure on 4 October 2015 after the Everton draw."
+    },
+    {
+      "id": "lfc-klopp",
+      "label": "Liverpool FC: Jürgen Klopp",
+      "url": "https://www.liverpoolfc.com/info/jurgen-klopp",
+      "confidence": "high",
+      "claims": "Manager from October 2015; eighth place and two cup finals in 2015–16, Champions League qualification in 2017, final defeat in 2018, 97 league points and sixth European Cup in 2019."
+    },
+    {
+      "id": "lfc-milner",
+      "label": "Liverpool FC: James Milner",
+      "url": "https://www.liverpoolfc.com/info/james-milner",
+      "confidence": "high",
+      "claims": "Free transfer from Manchester City in 2015; played predominantly at left-back in 2016–17, making 40 appearances as Liverpool finished fourth."
+    },
+    {
+      "id": "lfc-ings",
+      "label": "Liverpool FC: Danny Ings",
+      "url": "https://www.liverpoolfc.com/info/danny-ings",
+      "confidence": "high",
+      "claims": "Joined from Burnley in summer 2015; Southampton loan in August 2018 ahead of a permanent move the following year."
+    },
+    {
+      "id": "lfc-bogdan",
+      "label": "Liverpool FC: Adam Bogdan",
+      "url": "https://www.liverpoolfc.com/info/adam-bogdan",
+      "confidence": "high",
+      "claims": "Free transfer from Bolton in July 2015; Wigan loan in July 2016 and Hibernian loan for 2018–19."
+    },
+    {
+      "id": "lfc-gerrard",
+      "label": "Liverpool FC: Steven Gerrard",
+      "url": "https://www.liverpoolfc.com/info/steven-gerrard",
+      "confidence": "high",
+      "claims": "13 goals in 2014–15; announced final season in January, departed for LA Galaxy after 710 appearances and 186 goals."
+    },
+    {
+      "id": "uefa-final",
+      "label": "UEFA: Sevilla win the Europa League final",
+      "url": "https://www.uefa.com/uefaeuropaleague/news/0250-0c51138a700a-9c0eb3116927-1000--sevilla-make-it-three-in-row-at-liverpool-s-expense/",
+      "confidence": "high",
+      "claims": "Liverpool lost 3–1 in Basel after leading through Sturridge; Gameiro and Coke scored after the interval."
+    },
+    {
+      "id": "lfch-league-cup-final",
+      "label": "LFChistory: 2016 League Cup final",
+      "url": "https://www.lfchistory.net/games/5545",
+      "confidence": "high",
+      "claims": "1–1 after extra time; Manchester City won the shoot-out 3–1."
+    },
+    {
+      "id": "lfch-dortmund",
+      "label": "LFChistory: Liverpool 4–3 Dortmund",
+      "url": "https://www.lfchistory.net/games/5549",
+      "confidence": "high",
+      "claims": "Liverpool recovered from 3–1 down; Lovren scored the added-time winner for a 5–4 aggregate victory."
+    },
+    {
+      "id": "lfc-hillsborough",
+      "label": "Liverpool FC: Hillsborough",
+      "url": "https://www.liverpoolfc.com/hillsborough",
+      "confidence": "high",
+      "claims": "New inquests returned unlawful-killing verdicts on 26 April 2016 following the families’ and survivors’ campaign."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-rodgers, lfc-klopp, lfch-league, lfch-transfers, lfc-gerrard, lfc-milner and lfch-scorers; paragraph 2 — lfch-games, lfch-league-cup-final, uefa-final, lfch-dortmund and lfc-milner; paragraph 3 — lfc-hillsborough.",
+    "The inquest paragraph reports the verdict without confusing it with a criminal conviction or implying that the campaign for accountability ended.",
+    "The Ings transfer is permanent, not labelled free: the ledger records compensation despite his expired contract. Unverified loan destinations and reserve moves are omitted."
+  ],
+  "managerNote": "Brendan Rodgers left on 4 October 2015; Jürgen Klopp took over later that month."
+}

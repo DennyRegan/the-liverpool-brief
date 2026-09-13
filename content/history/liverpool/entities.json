@@ -1388,5 +1388,205 @@
     "id": "jon-flanagan",
     "label": "Jon Flanagan",
     "kind": "person"
+  },
+  {
+    "id": "jurgen-klopp",
+    "label": "Jürgen Klopp",
+    "kind": "person"
+  },
+  {
+    "id": "rickie-lambert",
+    "label": "Rickie Lambert",
+    "kind": "person"
+  },
+  {
+    "id": "adam-lallana",
+    "label": "Adam Lallana",
+    "kind": "person"
+  },
+  {
+    "id": "emre-can",
+    "label": "Emre Can",
+    "kind": "person"
+  },
+  {
+    "id": "lazar-markovic",
+    "label": "Lazar Marković",
+    "kind": "person"
+  },
+  {
+    "id": "dejan-lovren",
+    "label": "Dejan Lovren",
+    "kind": "person"
+  },
+  {
+    "id": "divock-origi",
+    "label": "Divock Origi",
+    "kind": "person"
+  },
+  {
+    "id": "javier-manquillo",
+    "label": "Javier Manquillo",
+    "kind": "person"
+  },
+  {
+    "id": "alberto-moreno",
+    "label": "Alberto Moreno",
+    "kind": "person"
+  },
+  {
+    "id": "mario-balotelli",
+    "label": "Mario Balotelli",
+    "kind": "person"
+  },
+  {
+    "id": "martin-kelly",
+    "label": "Martin Kelly",
+    "kind": "person"
+  },
+  {
+    "id": "suso",
+    "label": "Suso",
+    "kind": "person"
+  },
+  {
+    "id": "joe-gomez",
+    "label": "Joe Gomez",
+    "kind": "person"
+  },
+  {
+    "id": "adam-bogdan",
+    "label": "Adam Bogdan",
+    "kind": "person"
+  },
+  {
+    "id": "danny-ings",
+    "label": "Danny Ings",
+    "kind": "person"
+  },
+  {
+    "id": "james-milner",
+    "label": "James Milner",
+    "kind": "person"
+  },
+  {
+    "id": "nathaniel-clyne",
+    "label": "Nathaniel Clyne",
+    "kind": "person"
+  },
+  {
+    "id": "roberto-firmino",
+    "label": "Roberto Firmino",
+    "kind": "person"
+  },
+  {
+    "id": "christian-benteke",
+    "label": "Christian Benteke",
+    "kind": "person"
+  },
+  {
+    "id": "marko-grujic",
+    "label": "Marko Grujić",
+    "kind": "person"
+  },
+  {
+    "id": "steven-caulker",
+    "label": "Steven Caulker",
+    "kind": "person"
+  },
+  {
+    "id": "sadio-mane",
+    "label": "Sadio Mané",
+    "kind": "person"
+  },
+  {
+    "id": "loris-karius",
+    "label": "Loris Karius",
+    "kind": "person"
+  },
+  {
+    "id": "joel-matip",
+    "label": "Joël Matip",
+    "kind": "person"
+  },
+  {
+    "id": "ragnar-klavan",
+    "label": "Ragnar Klavan",
+    "kind": "person"
+  },
+  {
+    "id": "georginio-wijnaldum",
+    "label": "Georginio Wijnaldum",
+    "kind": "person"
+  },
+  {
+    "id": "jordon-ibe",
+    "label": "Jordon Ibe",
+    "kind": "person"
+  },
+  {
+    "id": "mohamed-salah",
+    "label": "Mohamed Salah",
+    "kind": "person"
+  },
+  {
+    "id": "dominic-solanke",
+    "label": "Dominic Solanke",
+    "kind": "person"
+  },
+  {
+    "id": "andy-robertson",
+    "label": "Andy Robertson",
+    "kind": "person"
+  },
+  {
+    "id": "alex-oxlade-chamberlain",
+    "label": "Alex Oxlade-Chamberlain",
+    "kind": "person"
+  },
+  {
+    "id": "virgil-van-dijk",
+    "label": "Virgil van Dijk",
+    "kind": "person"
+  },
+  {
+    "id": "andre-wisdom",
+    "label": "Andre Wisdom",
+    "kind": "person"
+  },
+  {
+    "id": "kevin-stewart",
+    "label": "Kevin Stewart",
+    "kind": "person"
+  },
+  {
+    "id": "trent-alexander-arnold",
+    "label": "Trent Alexander-Arnold",
+    "kind": "person"
+  },
+  {
+    "id": "naby-keita",
+    "label": "Naby Keïta",
+    "kind": "person"
+  },
+  {
+    "id": "fabinho",
+    "label": "Fabinho",
+    "kind": "person"
+  },
+  {
+    "id": "xherdan-shaqiri",
+    "label": "Xherdan Shaqiri",
+    "kind": "person"
+  },
+  {
+    "id": "alisson-becker",
+    "label": "Alisson Becker",
+    "kind": "person"
+  },
+  {
+    "id": "danny-ward",
+    "label": "Danny Ward",
+    "kind": "person"
   }
 ]

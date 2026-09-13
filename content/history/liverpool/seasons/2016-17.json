@@ -1,0 +1,259 @@
+{
+  "season": "2016-17",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "jurgen-klopp"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 4,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "philippe-coutinho",
+      "goals": 14,
+      "sourceIds": [
+        "lfch-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–1 at home to Wolverhampton Wanderers.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Semi-final — lost 2–0 on aggregate to Southampton.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "philippe-coutinho",
+    "sadio-mane",
+    "divock-origi",
+    "georginio-wijnaldum",
+    "nathaniel-clyne",
+    "roberto-firmino",
+    "james-milner",
+    "emre-can",
+    "adam-lallana",
+    "joel-matip",
+    "simon-mignolet",
+    "jordan-henderson"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "sadio-mane",
+        "club": "Southampton",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "loris-karius",
+        "club": "Mainz 05",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "joel-matip",
+        "club": "Schalke 04",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-matip"
+        ]
+      },
+      {
+        "personId": "ragnar-klavan",
+        "club": "Augsburg",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "georginio-wijnaldum",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "martin-skrtel",
+        "club": "Fenerbahçe",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jordon-ibe",
+        "club": "Bournemouth",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "joe-allen",
+        "club": "Stoke City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "christian-benteke",
+        "club": "Crystal Palace",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "luis-alberto",
+        "club": "Lazio",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mario-balotelli",
+        "club": "Nice",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "tiago-ilori",
+        "club": "Reading",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "adam-bogdan",
+        "club": "Wigan Athletic",
+        "deal": "loan",
+        "sourceIds": [
+          "lfc-bogdan"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished fourth in Jürgen Klopp’s first full season, collecting 76 points and securing a return to the Champions League with a 3–0 final-day win over Middlesbrough. Sadio Mané, Georginio Wijnaldum and Joël Matip joined the squad, while James Milner spent the campaign predominantly at left-back. Philippe Coutinho led the scoring with 14 competitive goals; he and Mané each scored 13 in the league.",
+    "The expanded Main Stand welcomed supporters for the 4–1 home win over Leicester in September. Liverpool scored 78 league goals across the season, but their domestic cup runs both ended in January: Southampton won each leg of the League Cup semi-final 1–0, and Wolverhampton Wanderers won 2–1 at Anfield in the FA Cup fourth round. There was no European campaign that season."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2015-16"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2016-17 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/126",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2016-17 games",
+      "url": "https://www.lfchistory.net/season-archive/games/126",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2016-17 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/126",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2016-17 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/126",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2016-17 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/126",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-klopp",
+      "label": "Liverpool FC: Jürgen Klopp",
+      "url": "https://www.liverpoolfc.com/info/jurgen-klopp",
+      "confidence": "high",
+      "claims": "Manager from October 2015; eighth place and two cup finals in 2015–16, Champions League qualification in 2017, final defeat in 2018, 97 league points and sixth European Cup in 2019."
+    },
+    {
+      "id": "lfc-milner",
+      "label": "Liverpool FC: James Milner",
+      "url": "https://www.liverpoolfc.com/info/james-milner",
+      "confidence": "high",
+      "claims": "Free transfer from Manchester City in 2015; played predominantly at left-back in 2016–17, making 40 appearances as Liverpool finished fourth."
+    },
+    {
+      "id": "lfc-mane",
+      "label": "Liverpool FC: Sadio Mané",
+      "url": "https://www.liverpoolfc.com/info/sadio-mane",
+      "confidence": "high",
+      "claims": "Joined from Southampton in 2016; 2017 fourth-place finish; shared the 2018–19 Premier League Golden Boot with Salah and Aubameyang on 22 goals."
+    },
+    {
+      "id": "lfc-matip",
+      "label": "Liverpool FC: Joël Matip",
+      "url": "https://www.liverpoolfc.com/info/joel-matip",
+      "confidence": "high",
+      "claims": "Joined from Schalke 04 on a free transfer in 2016; helped achieve Champions League qualification."
+    },
+    {
+      "id": "lfc-bogdan",
+      "label": "Liverpool FC: Adam Bogdan",
+      "url": "https://www.liverpoolfc.com/info/adam-bogdan",
+      "confidence": "high",
+      "claims": "Free transfer from Bolton in July 2015; Wigan loan in July 2016 and Hibernian loan for 2018–19."
+    },
+    {
+      "id": "guardian-main-stand",
+      "label": "The Guardian: opening weekend for the new Main Stand",
+      "url": "https://www.theguardian.com/football/blog/2016/sep/09/premier-league-10-things-to-look-out-for-this-weekend",
+      "confidence": "high",
+      "claims": "The expanded Main Stand was unveiled for the home match against Leicester in September 2016."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-league, lfch-games, lfch-transfers, lfch-scorers, lfc-klopp, lfc-mane, lfc-milner and lfc-matip; paragraph 2 — guardian-main-stand and lfch-games, with league goals from lfch-league.",
+    "Fourth place brought access to Champions League qualification, not an automatic group-stage berth; the summary does not claim otherwise. Coutinho is the all-competition leader, while Coutinho and Mané share the club’s league lead.",
+    "No stadium capacity or construction cost is asserted. Transfers are a selected senior list; loans and permanent moves remain distinct."
+  ]
+}
