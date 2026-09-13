@@ -378,5 +378,80 @@
     "id": "phil-thompson",
     "label": "Phil Thompson",
     "kind": "person"
+  },
+  {
+    "id": "bobby-graham",
+    "label": "Bobby Graham",
+    "kind": "person"
+  },
+  {
+    "id": "steve-heighway",
+    "label": "Steve Heighway",
+    "kind": "person"
+  },
+  {
+    "id": "john-toshack",
+    "label": "John Toshack",
+    "kind": "person"
+  },
+  {
+    "id": "brian-hall",
+    "label": "Brian Hall",
+    "kind": "person"
+  },
+  {
+    "id": "john-mclaughlin",
+    "label": "John McLaughlin",
+    "kind": "person"
+  },
+  {
+    "id": "jack-whitham",
+    "label": "Jack Whitham",
+    "kind": "person"
+  },
+  {
+    "id": "doug-livermore",
+    "label": "Doug Livermore",
+    "kind": "person"
+  },
+  {
+    "id": "frank-lane",
+    "label": "Frank Lane",
+    "kind": "person"
+  },
+  {
+    "id": "ian-ross",
+    "label": "Ian Ross",
+    "kind": "person"
+  },
+  {
+    "id": "peter-cormack",
+    "label": "Peter Cormack",
+    "kind": "person"
+  },
+  {
+    "id": "trevor-storton",
+    "label": "Trevor Storton",
+    "kind": "person"
+  },
+  {
+    "id": "phil-boersma",
+    "label": "Phil Boersma",
+    "kind": "person"
+  },
+  {
+    "id": "jimmy-case",
+    "label": "Jimmy Case",
+    "kind": "person"
+  },
+  {
+    "id": "alan-waddle",
+    "label": "Alan Waddle",
+    "kind": "person"
+  },
+  {
+    "id": "uefa-cup",
+    "label": "UEFA Cup",
+    "kind": "competition"
   }
 ]

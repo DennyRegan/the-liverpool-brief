@@ -26,12 +26,14 @@ Preparatory summer transfers belong with the incoming campaign, rather than mech
 
 ## Archive integration
 
-A season page selects existing Archive objects by their `season` metadata and links to their unchanged `/archive/{slug}` URLs. Common legacy spellings are normalised by the shared `seasonKey` helper. Do not copy Archive bodies or create a second article. No current Archive article covers these first ten seasons, so their Related Archive blocks are omitted. A future matching article appears automatically after the usual content build; no season-file change is needed. Matching and deduplication are covered with temporary fixtures and a real existing Archive example.
+A season page selects existing Archive objects by their `season` metadata and links to their unchanged `/archive/{slug}` URLs. Common legacy spellings are normalised by the shared `seasonKey` helper. Do not copy Archive bodies or create a second article. No current Archive article has matching season metadata for 1959–60 through 1973–74, so their Related Archive blocks are omitted. The Phil Thompson biography has person and era metadata but no season; it is not assigned one merely to populate a season page. A future matching article appears automatically after the usual content build; no season-file change is needed. Matching and deduplication are covered with temporary fixtures and a real existing Archive example.
 
 ## Review and checks
 
 Use `npm test`, `npm run lint`, `npm run build`, then `node scripts/verify-seasons.mjs` and the existing `node scripts/verify-history-explorer.mjs`. The route checks start and stop their own local production server. They do not publish anything.
 
-For local editorial review after building, run `npm start -- --hostname 127.0.0.1 --port 3140` and open `http://127.0.0.1:3140/history/seasons`. Review the first season’s managerial note, promotion in 1961–62, the FA Cup/Europe account in 1964–65, the corrected scoring record in 1965–66, and the final 1968–69 entry. Check sources expanded on a narrow mobile screen and use both previous/next links and the History Explorer/Seasons switch.
+For local editorial review after building, run `npm start -- --hostname 127.0.0.1 --port 3140` and open `http://127.0.0.1:3140/history/seasons`. Review the first season’s managerial note, promotion in 1961–62, the FA Cup/Europe account in 1964–65, and the corrected scoring record in 1965–66. For the second batch, check the 1968–69/1969–70 navigation boundary, the 1971–72 Charity Shield, the 1972–73 double and the 1973–74 retirement chronology. Check sources expanded on a narrow mobile screen and use both previous/next links and the History Explorer/Seasons switch.
+
+The [1969–74 research audit](research/seasons-1969-1974.md) records every overview sentence’s evidence and the transfer boundary decisions for Whitham, Keegan and Case. Consult it before adding 1974–75 to avoid duplicating arrivals or treating the 1974 Charity Shield as part of the previous campaign. New summaries should remain approximately two or three concise paragraphs.
 
 Per-batch source audits are under `docs/research/`. No merge or deployment is authorised by this feature’s implementation brief: editorial review must happen first.

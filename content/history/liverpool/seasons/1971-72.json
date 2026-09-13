@@ -1,0 +1,333 @@
+{
+  "season": "1971-72",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 3,
+    "sourceIds": [
+      "rsssf-league",
+      "lfch-games"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "john-toshack",
+      "goals": 13,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–0 to Leeds United at Elland Road in a replay, after a 0–0 draw at Anfield.",
+      "sourceIds": [
+        "fchd-fa-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–1 away to West Ham United.",
+      "sourceIds": [
+        "rsssf-league-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup-winners-cup",
+      "kind": "europe",
+      "result": "Second round — lost 3–1 on aggregate to Bayern Munich after a 0–0 home draw and a 3–1 away defeat.",
+      "sourceIds": [
+        "rsssf-europe",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Runners-up — lost 1–0 to Leicester City at Filbert Street.",
+      "sourceIds": [
+        "rsssf-shield",
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "ray-clemence",
+    "emlyn-hughes",
+    "chris-lawler",
+    "ian-callaghan",
+    "steve-heighway",
+    "tommy-smith",
+    "alec-lindsay",
+    "larry-lloyd",
+    "kevin-keegan",
+    "john-toshack",
+    "brian-hall"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "kevin-keegan",
+        "club": "Scunthorpe United",
+        "deal": "permanent",
+        "note": "Signed in May 1971 for the incoming campaign; made his competitive debut in August.",
+        "sourceIds": [
+          "lfch-keegan-transfer",
+          "lfc-keegan-debut",
+          "lfch-games"
+        ]
+      },
+      {
+        "personId": "frank-lane",
+        "club": "Tranmere Rovers",
+        "deal": "permanent",
+        "note": "Joined in September 1971.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "ian-st-john",
+        "club": "Free agency",
+        "deal": "released",
+        "note": "Left Liverpool in May 1971.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-st-john"
+        ]
+      },
+      {
+        "personId": "tommy-lawrence",
+        "club": "Tranmere Rovers",
+        "deal": "free",
+        "note": "Left in November 1971.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-lawrence"
+        ]
+      },
+      {
+        "personId": "ron-yeats",
+        "club": "Tranmere Rovers",
+        "deal": "free",
+        "note": "Left in December 1971.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-yeats"
+        ]
+      },
+      {
+        "personId": "ian-ross",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "note": "Left in February 1972.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "bobby-graham",
+        "club": "Coventry City",
+        "deal": "permanent",
+        "note": "Left in March 1972.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-graham"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished third with 57 points, just one behind champions Derby County. A 1–0 defeat at Derby and a goalless draw at Arsenal in their final two league games left them short of the title.",
+    "Kevin Keegan arrived from Scunthorpe United and scored on his competitive debut in a 3–1 home win over Nottingham Forest. He finished with 11 goals in all competitions, while John Toshack led the scoring with 13, all in the league. Ian St John, Tommy Lawrence and Ron Yeats left the club during 1971.",
+    "There was no trophy in the cups either. Leeds United won an FA Cup fourth-round replay, West Ham United ended the League Cup run at the same stage, and Bayern Munich beat Liverpool 3–1 on aggregate in the second round of the Cup Winners’ Cup. The campaign had begun with a 1–0 Charity Shield defeat by Leicester City."
+  ],
+  "events": [
+    {
+      "id": "keegan-debut-1971",
+      "title": "Keegan scores on debut",
+      "date": "1971-08-14",
+      "detail": "Keegan scored in Liverpool’s 3–1 league win over Nottingham Forest at Anfield.",
+      "personIds": [
+        "kevin-keegan"
+      ],
+      "competitionIds": [
+        "first-division"
+      ],
+      "sourceIds": [
+        "lfc-keegan-debut",
+        "lfch-games"
+      ]
+    },
+    {
+      "id": "everton-four-goals-1972",
+      "title": "Four goals against Everton",
+      "date": "1972-03-04",
+      "detail": "Liverpool beat Everton 4–0 at Anfield.",
+      "personIds": [],
+      "competitionIds": [
+        "first-division"
+      ],
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "id": "highbury-finale-1972",
+      "title": "A goalless finish at Highbury",
+      "date": "1972-05-08",
+      "detail": "Liverpool drew 0–0 with Arsenal in their final league fixture and finished one point behind Derby County.",
+      "personIds": [],
+      "competitionIds": [
+        "first-division"
+      ],
+      "sourceIds": [
+        "lfch-games",
+        "rsssf-league"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1970-71",
+    "1972-73"
+  ],
+  "sources": [
+    {
+      "id": "lfc-shankly",
+      "label": "Liverpool FC: Bill Shankly",
+      "url": "https://www.liverpoolfc.com/info/bill-shankly",
+      "confidence": "high",
+      "claims": "Shankly was Liverpool manager throughout this campaign."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1971–72 results",
+      "url": "https://www.lfchistory.net/season-archive/games/13",
+      "confidence": "high",
+      "claims": "Dates, venues, scores and competition stages for the season’s competitive fixtures; confirms league and cup outcomes and dated match events."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1971–72",
+      "url": "https://www.rsssf.org/engpaul/FLA/1971-72.html",
+      "confidence": "high",
+      "claims": "Third with 57 points, one behind champions Derby County. Leeds, Liverpool and Manchester City each had 57 points and were separated by goal average."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1971–72 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/13",
+      "confidence": "high",
+      "claims": "Toshack led with 13 competitive goals, all in the league; Keegan scored 11, comprising nine league and two FA Cup goals."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1971–72 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/13",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting the selected key players; starts and substitute appearances are considered together."
+    },
+    {
+      "id": "fchd-fa-cup",
+      "label": "Football Club History Database: FA Cup 1971–72",
+      "url": "https://fchd.info/cups/facup1971-72.htm",
+      "confidence": "high",
+      "claims": "Fourth-round exit: 0–0 with Leeds at Anfield, then a 2–0 replay defeat at Elland Road."
+    },
+    {
+      "id": "rsssf-league-cup",
+      "label": "RSSSF: League Cup results",
+      "url": "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+      "confidence": "high",
+      "claims": "Fourth-round exit: West Ham United won 2–1 at Upton Park."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 1971–72",
+      "url": "https://www.rsssf.org/ec/ec197172.html",
+      "confidence": "high",
+      "claims": "Cup Winners’ Cup second-round exit to Bayern Munich: 0–0 at Anfield and 3–1 defeat away."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1971–72 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/13",
+      "confidence": "high",
+      "claims": "Frank Lane arrived from Tranmere in September 1971. St John left on a free transfer in May; Lawrence and Yeats joined Tranmere in November and December; Ross joined Aston Villa in February 1972 and Graham joined Coventry in March."
+    },
+    {
+      "id": "afv-scorers",
+      "label": "11v11: Liverpool players, 1971–72",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1972/",
+      "confidence": "high",
+      "claims": "Independently corroborates Toshack’s leading total of 13 and Keegan’s 11 competitive goals."
+    },
+    {
+      "id": "lfch-keegan-transfer",
+      "label": "LFChistory: Keegan’s May 1971 arrival",
+      "url": "https://www.lfchistory.net/season-archive/transfers/12",
+      "confidence": "high",
+      "claims": "Keegan joined from Scunthorpe United on 3 May 1971. The incoming campaign convention places the move here; the disputed fee is omitted."
+    },
+    {
+      "id": "lfc-keegan-debut",
+      "label": "Liverpool FC: Kevin Keegan’s debut",
+      "url": "https://www.liverpoolfc.com/news/first-team/286766-3-kevin-keegan",
+      "confidence": "high",
+      "claims": "May 1971 signing from Scunthorpe; scored on debut in the opening league game against Nottingham Forest after not playing in the Charity Shield."
+    },
+    {
+      "id": "rsssf-shield",
+      "label": "RSSSF: Charity Shield results",
+      "url": "https://rsssf.org/tablese/engsupcuphist.html",
+      "confidence": "high",
+      "claims": "Leicester City beat Liverpool 1–0 in the 1971 Charity Shield."
+    },
+    {
+      "id": "lfc-st-john",
+      "label": "Liverpool FC: Ian St John",
+      "url": "https://www.liverpoolfc.com/info/ian-st-john",
+      "confidence": "high",
+      "claims": "St John left Liverpool in 1971."
+    },
+    {
+      "id": "lfc-lawrence",
+      "label": "Liverpool FC: Tommy Lawrence",
+      "url": "https://www.liverpoolfc.com/info/tommy-lawrence",
+      "confidence": "high",
+      "claims": "Lawrence moved to Tranmere Rovers in November 1971."
+    },
+    {
+      "id": "lfc-yeats",
+      "label": "Liverpool FC: Ron Yeats",
+      "url": "https://www.liverpoolfc.com/info/ron-yeats",
+      "confidence": "high",
+      "claims": "Yeats left Liverpool late in 1971 and subsequently played for Tranmere Rovers."
+    },
+    {
+      "id": "lfc-graham",
+      "label": "Liverpool FC: Bobby Graham remembered",
+      "url": "https://www.liverpoolfc.com/news/rest-peace-bobby-graham",
+      "confidence": "high",
+      "claims": "Graham left for Coventry City in March 1972; unrelated injury and return chronology in this article is not used."
+    }
+  ],
+  "researchNotes": [
+    "Toshack’s 13 goals were all scored in the league and were also Liverpool’s highest all-competition total. The Charity Shield is included among competitive matches; Liverpool did not score in it.",
+    "The three clubs on 57 points were separated by goal average, not modern goal difference. No disputed refereeing decision is needed to explain the final table.",
+    "Keegan’s signing is allocated to this incoming campaign. Published accounts give both £33,000 and £35,000, so no fee is stated.",
+    "St John is recorded as leaving into free agency rather than as a direct transfer to Coventry. The precise terms of his intervening spell outside England are not asserted."
+  ]
+}

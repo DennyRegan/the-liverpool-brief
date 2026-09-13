@@ -1,0 +1,320 @@
+{
+  "season": "1970-71",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 5,
+    "sourceIds": [
+      "rsssf-league",
+      "lfch-games"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "alun-evans",
+      "goals": 15,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Runners-up — lost 2–1 to Arsenal after extra time at Wembley.",
+      "sourceIds": [
+        "fchd-fa-cup",
+        "lfch-games",
+        "lfch-final"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 2–0 away to Swindon Town.",
+      "sourceIds": [
+        "rsssf-league-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "inter-cities-fairs-cup",
+      "kind": "europe",
+      "result": "Semi-final — lost 1–0 on aggregate to Leeds United, with a 1–0 defeat at Anfield followed by a 0–0 away draw.",
+      "sourceIds": [
+        "rsssf-europe",
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "ray-clemence",
+    "chris-lawler",
+    "tommy-smith",
+    "larry-lloyd",
+    "emlyn-hughes",
+    "brian-hall",
+    "steve-heighway",
+    "john-mclaughlin",
+    "peter-thompson",
+    "alec-lindsay",
+    "alun-evans",
+    "ian-callaghan",
+    "john-toshack"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "jack-whitham",
+        "club": "Sheffield Wednesday",
+        "deal": "permanent",
+        "note": "Joined ahead of the 1970–71 campaign.",
+        "sourceIds": [
+          "lfch-whitham-transfer",
+          "lfc-whitham"
+        ]
+      },
+      {
+        "personId": "steve-heighway",
+        "club": "Skelmersdale United",
+        "deal": "permanent",
+        "note": "Joined in May 1970.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-heighway"
+        ]
+      },
+      {
+        "personId": "john-toshack",
+        "club": "Cardiff City",
+        "deal": "permanent",
+        "note": "Joined in November 1970.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-toshack"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "peter-wall",
+        "club": "Crystal Palace",
+        "deal": "permanent",
+        "note": "Left in May 1970.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "geoff-strong",
+        "club": "Coventry City",
+        "deal": "permanent",
+        "note": "Left in August 1970.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-strong"
+        ]
+      },
+      {
+        "personId": "doug-livermore",
+        "club": "Norwich City",
+        "deal": "permanent",
+        "note": "Left in November 1970.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished fifth with 51 points for the second successive season. They conceded only 24 league goals, fewer than any other First Division side, and went unbeaten at Anfield in the league. Steve Heighway arrived from Skelmersdale United, with John Toshack joining from Cardiff City in November.",
+    "A 2–1 semi-final victory over Everton took Liverpool to Wembley, where they lost the FA Cup final 2–1 to Arsenal after extra time on 8 May. Heighway scored Liverpool’s goal, but his first season ended without silverware.",
+    "Alun Evans led the scoring with 15 goals in all competitions, including a hat-trick in the 3–0 home win over Bayern Munich. Liverpool won that Fairs Cup quarter-final 4–1 on aggregate before losing the semi-final to Leeds United by a single goal over two legs. Swindon Town had already knocked them out of the League Cup in the third round."
+  ],
+  "events": [
+    {
+      "id": "evans-bayern-hat-trick-1971",
+      "title": "Evans scores three against Bayern",
+      "date": "1971-03-10",
+      "detail": "Evans scored all three goals in the 3–0 Fairs Cup quarter-final first-leg victory at Anfield.",
+      "personIds": [
+        "alun-evans"
+      ],
+      "competitionIds": [
+        "inter-cities-fairs-cup"
+      ],
+      "sourceIds": [
+        "lfc-evans",
+        "lfch-games"
+      ]
+    },
+    {
+      "id": "everton-semi-final-1971",
+      "title": "Everton beaten in the semi-final",
+      "date": "1971-03-27",
+      "detail": "Liverpool won 2–1 at Old Trafford to reach the FA Cup final.",
+      "personIds": [],
+      "competitionIds": [
+        "fa-cup"
+      ],
+      "sourceIds": [
+        "fchd-fa-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "id": "arsenal-final-1971",
+      "title": "Extra-time defeat at Wembley",
+      "date": "1971-05-08",
+      "detail": "Arsenal won the FA Cup final 2–1 after extra time. Steve Heighway scored for Liverpool.",
+      "personIds": [
+        "steve-heighway"
+      ],
+      "competitionIds": [
+        "fa-cup"
+      ],
+      "sourceIds": [
+        "lfch-games",
+        "fchd-fa-cup",
+        "lfc-heighway",
+        "lfch-final"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1969-70",
+    "1971-72"
+  ],
+  "sources": [
+    {
+      "id": "lfc-shankly",
+      "label": "Liverpool FC: Bill Shankly",
+      "url": "https://www.liverpoolfc.com/info/bill-shankly",
+      "confidence": "high",
+      "claims": "Shankly was Liverpool manager throughout this campaign."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1970–71 results",
+      "url": "https://www.lfchistory.net/season-archive/games/12",
+      "confidence": "high",
+      "claims": "Dates, venues, scores and competition stages for the season’s competitive fixtures; confirms league and cup outcomes and dated match events."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1970–71",
+      "url": "https://www.rsssf.org/engpaul/FLA/1970-71.html",
+      "confidence": "high",
+      "claims": "Fifth with 51 points; 24 goals conceded, the division’s lowest total. Liverpool were unbeaten at home in the league: 11 wins and ten draws."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1970–71 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/12",
+      "confidence": "high",
+      "claims": "Alun Evans led with 15 competitive goals: ten league, one FA Cup, one League Cup and three Fairs Cup."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1970–71 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/12",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting the selected key players; starts and substitute appearances are considered together."
+    },
+    {
+      "id": "fchd-fa-cup",
+      "label": "Football Club History Database: FA Cup 1970–71",
+      "url": "https://fchd.info/cups/facup1970-71.htm",
+      "confidence": "high",
+      "claims": "Liverpool beat Everton 2–1 in the semi-final and lost the Wembley final 2–1 to Arsenal."
+    },
+    {
+      "id": "rsssf-league-cup",
+      "label": "RSSSF: League Cup results",
+      "url": "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+      "confidence": "high",
+      "claims": "Third-round exit, 2–0 at Swindon Town."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 1970–71",
+      "url": "https://www.rsssf.org/ec/ec197071.html",
+      "confidence": "high",
+      "claims": "Bayern Munich beaten 4–1 on aggregate in the quarter-final; Leeds United won the semi-final 1–0 on aggregate."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1970–71 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/12",
+      "confidence": "high",
+      "claims": "Heighway arrived from Skelmersdale in May 1970, Toshack from Cardiff in November; Wall moved to Crystal Palace in May, Strong to Coventry in August and Livermore to Norwich in November. Keegan’s May 1971 arrival is allocated to 1971–72."
+    },
+    {
+      "id": "afv-scorers",
+      "label": "11v11: Liverpool players, 1970–71",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1971/",
+      "confidence": "high",
+      "claims": "Independently corroborates Evans’s leading all-competition total of 15. Appearance figures elsewhere in this table differ from LFChistory and are not used."
+    },
+    {
+      "id": "lfch-whitham-transfer",
+      "label": "LFChistory: Whitham’s April 1970 transfer",
+      "url": "https://www.lfchistory.net/season-archive/transfers/11",
+      "confidence": "high",
+      "claims": "Whitham joined from Sheffield Wednesday after Liverpool’s last league game of 1969–70; included with the incoming campaign."
+    },
+    {
+      "id": "lfc-whitham",
+      "label": "Liverpool FC: Jack Whitham",
+      "url": "https://www.liverpoolfc.com/info/jack-whitham",
+      "confidence": "high",
+      "claims": "Confirms the move from Sheffield Wednesday in 1970 and that his first Liverpool season was 1970–71. Its approximate interval after Hunt’s departure is not used."
+    },
+    {
+      "id": "lfch-final",
+      "label": "LFChistory: FA Cup final, 8 May 1971",
+      "url": "https://www.lfchistory.net/games/626",
+      "confidence": "high",
+      "claims": "The final finished 2–1 to Arsenal after extra time; Heighway scored for Liverpool."
+    },
+    {
+      "id": "lfc-heighway",
+      "label": "Liverpool FC: Steve Heighway",
+      "url": "https://www.liverpoolfc.com/info/steve-heighway",
+      "confidence": "high",
+      "claims": "Joined from non-league Skelmersdale United in 1970, made 49 appearances in his first campaign and scored in the 1971 FA Cup final."
+    },
+    {
+      "id": "lfc-toshack",
+      "label": "Liverpool FC: John Toshack",
+      "url": "https://www.liverpoolfc.com/info/john-toshack",
+      "confidence": "high",
+      "claims": "Toshack signed for Liverpool in November 1970."
+    },
+    {
+      "id": "lfc-strong",
+      "label": "Liverpool FC: Geoff Strong",
+      "url": "https://www.liverpoolfc.com/info/geoff-strong",
+      "confidence": "high",
+      "claims": "Strong left Liverpool for Coventry City in 1970."
+    },
+    {
+      "id": "lfc-evans",
+      "label": "Liverpool FC: Alun Evans",
+      "url": "https://www.liverpoolfc.com/info/alun-evans",
+      "confidence": "high",
+      "claims": "Evans scored a hat-trick against Bayern Munich in the 1971 Fairs Cup."
+    }
+  ],
+  "researchNotes": [
+    "Evans’s 15 goals are an all-competition total, independently corroborated by 11v11. Its appearance figures have discrepancies, so the key-player selection follows LFChistory’s season appearance ledger.",
+    "Whitham and Heighway are allocated to the incoming campaign. Keegan’s May 1971 signing is recorded under 1971–72, when he first played competitive football for Liverpool.",
+    "No fee or free-transfer label is asserted for Heighway: the transfer ledger’s asterisked “Free” entry needs qualification. Other uncorroborated fees are omitted."
+  ]
+}
