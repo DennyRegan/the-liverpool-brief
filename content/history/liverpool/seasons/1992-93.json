@@ -1,0 +1,212 @@
+{
+  "season": "1992-93",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "graeme-souness"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 6,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "ian-rush",
+      "goals": 22,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorer"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Runners-up — lost 4–3 to Leeds United.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 2–0 at home to Bolton Wanderers in a replay.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–1 away to Crystal Palace in a replay.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup-winners-cup",
+      "kind": "europe",
+      "result": "Second round — lost 6–2 on aggregate to Spartak Moscow.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "ian-rush",
+    "mark-walters",
+    "don-hutchison",
+    "mike-marsh",
+    "mark-wright",
+    "jamie-redknapp",
+    "steve-mcmanaman",
+    "david-burrows",
+    "steve-nicol",
+    "rob-jones",
+    "david-james"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "david-james",
+        "club": "Watford",
+        "deal": "permanent",
+        "note": "Joined in June 1992.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "paul-stewart",
+        "club": "Tottenham Hotspur",
+        "deal": "permanent",
+        "note": "Joined in July 1992.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "torben-piechnik",
+        "club": "FC Copenhagen",
+        "deal": "permanent",
+        "note": "Joined in September 1992.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "stig-inge-bjornebye",
+        "club": "Rosenborg",
+        "deal": "permanent",
+        "note": "Joined in December 1992.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "barry-venison",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "note": "Left in July 1992.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ray-houghton",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "note": "Left in July 1992.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "dean-saunders",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "note": "Left in September 1992.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished sixth under Graeme Souness in the first Premier League season, with 59 points. They were still 15th after losing to Manchester United in early March, before improving their position during the run-in. Their final match was a 6–2 home win over Tottenham, but they won only three away league games all season.",
+    "The FA Cup defence ended in the third round when Bolton Wanderers won a replay 2–0 at Anfield. Crystal Palace knocked Liverpool out of the League Cup in the fourth round, while Spartak Moscow won their Cup Winners’ Cup second-round tie 6–2 on aggregate. Leeds United had beaten Liverpool 4–3 in the Charity Shield.",
+    "Ian Rush was leading scorer with 22 competitive goals, including one in the Shield. David James joined from Watford and Paul Stewart from Tottenham, followed by Torben Piechnik and Stig Inge Bjørnebye. Ray Houghton and Dean Saunders moved to Aston Villa, while Barry Venison left for Newcastle United."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1991-92"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 1992-93 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1992-93.html",
+      "confidence": "high",
+      "claims": "Division, final position, points, goals and home/away record. Margins are arithmetic from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1992-93 games",
+      "url": "https://www.lfchistory.net/season-archive/games/33",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, venues and cup stages; aggregates calculated from the legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1992-93 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/33",
+      "confidence": "high",
+      "claims": "All-competitive scoring including the Charity Shield; friendlies and shoot-out kicks excluded."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1992-93 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/33",
+      "confidence": "high",
+      "claims": "Selected senior transfer clubs and dates; loan and permanent moves distinguished."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1992-93 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/33",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting editorial key-player selections."
+    },
+    {
+      "id": "afv-scorer",
+      "label": "11v11: Liverpool players, 1992-93",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1993/",
+      "confidence": "high",
+      "claims": "Independent corroboration of the leading competitive scorer and total."
+    },
+    {
+      "id": "lfc-souness",
+      "label": "Liverpool FC: Graeme Souness, manager",
+      "url": "https://www.liverpoolfc.com/info/graeme-souness-0",
+      "confidence": "high",
+      "claims": "Managed from 1991 to 1994; successive sixth places, 1992 FA Cup win, heart surgery and Moran’s cover, departure after the Bristol City cup defeat. Transfer dates come from the ledgers."
+    },
+    {
+      "id": "pl-first-season",
+      "label": "Premier League: 1992–93 season review",
+      "url": "https://www.premierleague.com/en/news/58731",
+      "confidence": "high",
+      "claims": "1992–93 was the inaugural Premier League season; Liverpool lost their first match 1–0 at Nottingham Forest."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-souness, pl-first-season and lfch-games; paragraph 2 — lfch-games; paragraph 3 — lfch-scorers, afv-scorer and lfch-transfers.",
+    "The division is the Premier League, not the Football League First Division. Rush’s 22 includes the Charity Shield and is independently corroborated by 11v11. No disputed fees or motives for departures are included."
+  ]
+}

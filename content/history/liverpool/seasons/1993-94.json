@@ -1,0 +1,228 @@
+{
+  "season": "1993-94",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "graeme-souness",
+    "roy-evans"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 8,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "ian-rush",
+      "goals": 19,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorer"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 1–0 at home to Bristol City in a replay.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 4–3 on penalties to Wimbledon after a 2–2 replay draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-wimbledon-replay"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "ian-rush",
+    "robbie-fowler",
+    "neil-ruddock",
+    "rob-jones",
+    "jamie-redknapp",
+    "mark-wright",
+    "bruce-grobbelaar",
+    "steve-nicol",
+    "steve-mcmanaman",
+    "nigel-clough",
+    "john-barnes"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "nigel-clough",
+        "club": "Nottingham Forest",
+        "deal": "permanent",
+        "note": "Joined in June 1993.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "neil-ruddock",
+        "club": "Tottenham Hotspur",
+        "deal": "permanent",
+        "note": "Joined in July 1993.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "julian-dicks",
+        "club": "West Ham United",
+        "deal": "permanent",
+        "note": "Joined in September 1993 in a player-exchange deal.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "david-burrows",
+        "club": "West Ham United",
+        "deal": "permanent",
+        "note": "Left in September 1993 in a player-exchange deal.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mike-marsh",
+        "club": "West Ham United",
+        "deal": "permanent",
+        "note": "Left in September 1993 in a player-exchange deal.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mike-hooper",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "note": "Left in September 1993.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ronny-rosenthal",
+        "club": "Tottenham Hotspur",
+        "deal": "permanent",
+        "note": "Left in January 1994.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished eighth in the Premier League with 60 points. Graeme Souness left in January after Bristol City won an FA Cup third-round replay 1–0 at Anfield, and Roy Evans was appointed as his replacement. Wimbledon had already ended Liverpool’s League Cup run, winning a fourth-round replay on penalties.",
+    "Robbie Fowler scored on his first-team debut at Fulham, then scored all five goals in the return leg at Anfield. He finished his debut season with 18 competitive goals, one behind leading scorer Ian Rush. Nigel Clough, Neil Ruddock and Julian Dicks joined, while David Burrows and Mike Marsh moved to West Ham United.",
+    "The final home match, against Norwich City on 30 April, was the last played in front of the all-standing Kop before its replacement with seats. Liverpool lost 1–0, then ended the campaign with a 2–1 defeat at Aston Villa. Across the league season they won 17 games and lost 16."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1992-93"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 1993-94 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1993-94.html",
+      "confidence": "high",
+      "claims": "Division, final position, points, goals and home/away record. Margins are arithmetic from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1993-94 games",
+      "url": "https://www.lfchistory.net/season-archive/games/35",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, venues and cup stages; aggregates calculated from the legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1993-94 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/35",
+      "confidence": "high",
+      "claims": "All-competitive scoring including the Charity Shield; friendlies and shoot-out kicks excluded."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1993-94 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/35",
+      "confidence": "high",
+      "claims": "Selected senior transfer clubs and dates; loan and permanent moves distinguished."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1993-94 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/35",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting editorial key-player selections."
+    },
+    {
+      "id": "afv-scorer",
+      "label": "11v11: Liverpool players, 1993-94",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1994/",
+      "confidence": "high",
+      "claims": "Independent corroboration of the leading competitive scorer and total."
+    },
+    {
+      "id": "lfc-souness",
+      "label": "Liverpool FC: Graeme Souness, manager",
+      "url": "https://www.liverpoolfc.com/info/graeme-souness-0",
+      "confidence": "high",
+      "claims": "Managed from 1991 to 1994; successive sixth places, 1992 FA Cup win, heart surgery and Moran’s cover, departure after the Bristol City cup defeat. Transfer dates come from the ledgers."
+    },
+    {
+      "id": "lfch-manager-dates",
+      "label": "LFChistory: managerial appointments",
+      "url": "https://www.lfchistory.net/managers",
+      "confidence": "high",
+      "claims": "Moran appointed 22 February 1991, Souness 16 April 1991 and Evans 31 January 1994."
+    },
+    {
+      "id": "lfc-evans",
+      "label": "Liverpool FC: Roy Evans, manager",
+      "url": "https://www.liverpoolfc.com/info/roy-evans-0",
+      "confidence": "high",
+      "claims": "Succeeded Souness during 1993–94; the team finished eighth."
+    },
+    {
+      "id": "lfc-fowler",
+      "label": "Liverpool FC: Robbie Fowler",
+      "url": "https://www.liverpoolfc.com/info/robbie-fowler",
+      "confidence": "high",
+      "claims": "Scored on his Fulham debut and five times against the same opponents in the return; 18 competitive goals in 1993–94."
+    },
+    {
+      "id": "lfc-kop",
+      "label": "Liverpool FC: The story of the Spion Kop",
+      "url": "https://www.liverpoolfc.com/news/125-years-story-spion-kop",
+      "confidence": "high",
+      "claims": "The final match in front of the all-standing Kop was on 30 April 1994, before its replacement with seats."
+    },
+    {
+      "id": "lfch-wimbledon-replay",
+      "label": "LFChistory: Wimbledon League Cup replay",
+      "url": "https://www.lfchistory.net/games/1933",
+      "confidence": "high",
+      "claims": "2–2 after extra time on 14 December 1993; Wimbledon won the shoot-out 4–3."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-souness, lfc-evans, lfch-manager-dates, lfch-games and lfch-wimbledon-replay; paragraph 2 — lfc-fowler, lfch-games, lfch-scorers, afv-scorer and lfch-transfers; paragraph 3 — lfc-kop, lfch-games and rsssf-league.",
+    "The 2–2 Wimbledon replay was decided by a 4–3 shoot-out, not a second replay. Shoot-out kicks are excluded from player goal totals. Souness’s last match, his departure and Evans’s appointment are separate events; only the verified appointment day is stated in the manager note.",
+    "Babb and Scales arrived in the next campaign and are not included here. The Kop’s final standing match is distinguished from the reopening of its seated replacement."
+  ],
+  "managerNote": "Souness left in January 1994 after the Bristol City FA Cup defeat. Evans was appointed on 31 January."
+}

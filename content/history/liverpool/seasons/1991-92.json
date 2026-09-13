@@ -1,0 +1,270 @@
+{
+  "season": "1991-92",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "graeme-souness",
+    "ronnie-moran"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 6,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "dean-saunders",
+      "goals": 23,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-saunders"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Sunderland 2–0 at Wembley.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-fa-cup"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 1–0 away to Peterborough United.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Quarter-final — lost 4–1 on aggregate to Genoa.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-europe-return"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "fa-cup"
+  ],
+  "keyPlayerIds": [
+    "dean-saunders",
+    "bruce-grobbelaar",
+    "mike-marsh",
+    "steve-nicol",
+    "steve-mcmanaman",
+    "ray-houghton",
+    "david-burrows",
+    "jan-molby",
+    "rob-jones",
+    "mark-wright",
+    "michael-thomas"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "mark-wright",
+        "club": "Derby County",
+        "deal": "permanent",
+        "note": "Joined in July 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "dean-saunders",
+        "club": "Derby County",
+        "deal": "permanent",
+        "note": "Joined in July 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mark-walters",
+        "club": "Rangers",
+        "deal": "permanent",
+        "note": "Joined in August 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "rob-jones",
+        "club": "Crewe Alexandra",
+        "deal": "permanent",
+        "note": "Joined in October 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "michael-thomas",
+        "club": "Arsenal",
+        "deal": "permanent",
+        "note": "Joined in December 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "peter-beardsley",
+        "club": "Everton",
+        "deal": "permanent",
+        "note": "Left in August 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steve-staunton",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "note": "Left in August 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "gary-gillespie",
+        "club": "Celtic",
+        "deal": "permanent",
+        "note": "Left in August 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "david-speedie",
+        "club": "Blackburn Rovers",
+        "deal": "permanent",
+        "note": "Left in August 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jimmy-carter",
+        "club": "Arsenal",
+        "deal": "permanent",
+        "note": "Left in October 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steve-mcmahon",
+        "club": "Manchester City",
+        "deal": "permanent",
+        "note": "Left in December 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "gary-ablett",
+        "club": "Everton",
+        "deal": "permanent",
+        "note": "Left in January 1992.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished sixth in the First Division in Graeme Souness’s first full season, 18 points behind champions Leeds United, but won the FA Cup. Michael Thomas and Ian Rush scored in the 2–0 final victory over Sunderland. Ronnie Moran deputised during Souness’s recovery from heart surgery in the closing weeks of the campaign.",
+    "The squad changed substantially: Dean Saunders and Mark Wright arrived from Derby County, Mark Walters from Rangers and Rob Jones from Crewe. Peter Beardsley, Steve Staunton and Steve McMahon were among those who left. Saunders finished as leading scorer with 23 competitive goals, nine of them in the UEFA Cup.",
+    "Liverpool returned to European competition after six years away, opening with a 6–1 home win over Kuusysi Lahti. They overturned a 2–0 first-leg deficit against Auxerre with a 3–0 Anfield victory, but Genoa eliminated them in the quarter-finals. Peterborough United ended their League Cup run in the fourth round."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1990-91"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 1991-92 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1991-92.html",
+      "confidence": "high",
+      "claims": "Division, final position, points, goals and home/away record. Margins are arithmetic from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1991-92 games",
+      "url": "https://www.lfchistory.net/season-archive/games/34",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, venues and cup stages; aggregates calculated from the legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1991-92 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/34",
+      "confidence": "high",
+      "claims": "All-competitive scoring including the Charity Shield; friendlies and shoot-out kicks excluded."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1991-92 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/34",
+      "confidence": "high",
+      "claims": "Selected senior transfer clubs and dates; loan and permanent moves distinguished."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1991-92 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/34",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting editorial key-player selections."
+    },
+    {
+      "id": "lfc-souness",
+      "label": "Liverpool FC: Graeme Souness, manager",
+      "url": "https://www.liverpoolfc.com/info/graeme-souness-0",
+      "confidence": "high",
+      "claims": "Managed from 1991 to 1994; successive sixth places, 1992 FA Cup win, heart surgery and Moran’s cover, departure after the Bristol City cup defeat. Transfer dates come from the ledgers."
+    },
+    {
+      "id": "lfc-moran",
+      "label": "Liverpool FC: Ronnie Moran",
+      "url": "https://www.liverpoolfc.com/info/ronnie-moran",
+      "confidence": "high",
+      "claims": "Caretaker after Dalglish’s 1991 resignation and during Souness’s recovery from heart surgery in 1992."
+    },
+    {
+      "id": "lfc-saunders",
+      "label": "Liverpool FC: Dean Saunders",
+      "url": "https://www.liverpoolfc.com/info/dean-saunders",
+      "confidence": "high",
+      "claims": "23 goals in his debut season, nine in the UEFA Cup; arrival from Derby and 1992 FA Cup final appearance."
+    },
+    {
+      "id": "lfc-fa-cup",
+      "label": "Liverpool FC: FA Cup",
+      "url": "https://www.liverpoolfc.com/info/fa-cup",
+      "confidence": "high",
+      "claims": "Liverpool beat Sunderland 2–0 on 9 May 1992, with goals from Michael Thomas and Ian Rush."
+    },
+    {
+      "id": "lfch-europe-return",
+      "label": "LFChistory: The Resurgence Years",
+      "url": "https://www.lfchistory.net/articles/330",
+      "confidence": "high",
+      "claims": "Liverpool returned to Europe in 1991 after a six-year absence; 6–1 against Kuusysi, comeback against Auxerre and quarter-final exit against Genoa. Used only for these events, checked against fixtures."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-souness, lfc-fa-cup and lfc-moran; paragraph 2 — lfch-transfers, lfc-souness, lfch-scorers and lfc-saunders; paragraph 3 — lfch-games and lfch-europe-return.",
+    "The UEFA Cup fourth round was the quarter-final. Souness remained the appointed manager during his health absence; Moran is identified as his deputy rather than a permanent replacement. No disputed claim about who exclusively managed the final is made.",
+    "The LFChistory Souness narrative incorrectly begins the European run with Auxerre. The complete fixtures and dedicated European history establish Kuusysi as the first-round opponents."
+  ],
+  "managerNote": "Souness remained manager. Moran deputised during his recovery from heart surgery in April and May."
+}
