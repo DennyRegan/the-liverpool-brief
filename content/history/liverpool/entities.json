@@ -653,5 +653,125 @@
     "id": "football-league-centenary-trophy",
     "label": "Football League Centenary Trophy",
     "kind": "competition"
+  },
+  {
+    "id": "glenn-hysen",
+    "label": "Glenn Hysén",
+    "kind": "person"
+  },
+  {
+    "id": "steve-harkness",
+    "label": "Steve Harkness",
+    "kind": "person"
+  },
+  {
+    "id": "ronny-rosenthal",
+    "label": "Ronny Rosenthal",
+    "kind": "person"
+  },
+  {
+    "id": "don-hutchison",
+    "label": "Don Hutchison",
+    "kind": "person"
+  },
+  {
+    "id": "jimmy-carter",
+    "label": "Jimmy Carter",
+    "kind": "person"
+  },
+  {
+    "id": "jamie-redknapp",
+    "label": "Jamie Redknapp",
+    "kind": "person"
+  },
+  {
+    "id": "david-speedie",
+    "label": "David Speedie",
+    "kind": "person"
+  },
+  {
+    "id": "mark-wright",
+    "label": "Mark Wright",
+    "kind": "person"
+  },
+  {
+    "id": "dean-saunders",
+    "label": "Dean Saunders",
+    "kind": "person"
+  },
+  {
+    "id": "mark-walters",
+    "label": "Mark Walters",
+    "kind": "person"
+  },
+  {
+    "id": "rob-jones",
+    "label": "Rob Jones",
+    "kind": "person"
+  },
+  {
+    "id": "michael-thomas",
+    "label": "Michael Thomas",
+    "kind": "person"
+  },
+  {
+    "id": "mike-marsh",
+    "label": "Mike Marsh",
+    "kind": "person"
+  },
+  {
+    "id": "steve-mcmanaman",
+    "label": "Steve McManaman",
+    "kind": "person"
+  },
+  {
+    "id": "david-james",
+    "label": "David James",
+    "kind": "person"
+  },
+  {
+    "id": "paul-stewart",
+    "label": "Paul Stewart",
+    "kind": "person"
+  },
+  {
+    "id": "torben-piechnik",
+    "label": "Torben Piechnik",
+    "kind": "person"
+  },
+  {
+    "id": "stig-inge-bjornebye",
+    "label": "Stig Inge Bjørnebye",
+    "kind": "person"
+  },
+  {
+    "id": "nigel-clough",
+    "label": "Nigel Clough",
+    "kind": "person"
+  },
+  {
+    "id": "neil-ruddock",
+    "label": "Neil Ruddock",
+    "kind": "person"
+  },
+  {
+    "id": "julian-dicks",
+    "label": "Julian Dicks",
+    "kind": "person"
+  },
+  {
+    "id": "robbie-fowler",
+    "label": "Robbie Fowler",
+    "kind": "person"
+  },
+  {
+    "id": "roy-evans",
+    "label": "Roy Evans",
+    "kind": "person"
+  },
+  {
+    "id": "premier-league",
+    "label": "Premier League",
+    "kind": "competition"
   }
 ]
