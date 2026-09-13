@@ -1,0 +1,280 @@
+{
+  "season": "2001-02",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "gerard-houllier",
+    "phil-thompson"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 2,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "michael-owen",
+      "goals": 28,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-owen"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Winners — beat Manchester United 2–1.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-shield"
+      ]
+    },
+    {
+      "competitionId": "european-super-cup",
+      "kind": "europe",
+      "result": "Winners — beat Bayern Munich 3–2.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-super-cup"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 1–0 away to Arsenal.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 2–1 at home to Grimsby Town.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League quarter-final — lost 4–3 on aggregate to Bayer Leverkusen.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "charity-shield",
+    "european-super-cup"
+  ],
+  "keyPlayerIds": [
+    "michael-owen",
+    "sami-hyypia",
+    "stephane-henchoz",
+    "emile-heskey",
+    "danny-murphy",
+    "john-arne-riise",
+    "jamie-carragher",
+    "jerzy-dudek",
+    "dietmar-hamann",
+    "steven-gerrard",
+    "gary-mcallister",
+    "jari-litmanen"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "john-arne-riise",
+        "club": "Monaco",
+        "deal": "permanent",
+        "note": "Joined in June 2001.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "chris-kirkland",
+        "club": "Coventry City",
+        "deal": "permanent",
+        "note": "Joined in August 2001.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jerzy-dudek",
+        "club": "Feyenoord",
+        "deal": "permanent",
+        "note": "Joined in August 2001.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "nicolas-anelka",
+        "club": "Paris Saint-Germain",
+        "deal": "loan",
+        "note": "Joined on loan in December 2001.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "milan-baros",
+        "club": "Baník Ostrava",
+        "deal": "permanent",
+        "note": "Joined in December 2001.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "abel-xavier",
+        "club": "Everton",
+        "deal": "permanent",
+        "note": "Joined in January 2002.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "christian-ziege",
+        "club": "Tottenham Hotspur",
+        "deal": "permanent",
+        "note": "Left in July 2001.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "robbie-fowler",
+        "club": "Leeds United",
+        "deal": "permanent",
+        "note": "Left in November 2001.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "sander-westerveld",
+        "club": "Real Sociedad",
+        "deal": "permanent",
+        "note": "Left in December 2001.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jamie-redknapp",
+        "club": "Tottenham Hotspur",
+        "deal": "free",
+        "note": "Left in April 2002.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "nicolas-anelka",
+        "club": "Paris Saint-Germain",
+        "deal": "loan",
+        "note": "Returned at the end of his loan in May 2002.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished second in the Premier League with 80 points, seven behind Arsenal. They added the Charity Shield and UEFA Super Cup in August, beating Manchester United 2–1 and Bayern Munich 3–2 respectively. These were the fourth and fifth trophies won during calendar year 2001.",
+    "Gérard Houllier fell ill during the home match against Leeds on 13 October and underwent heart surgery. Phil Thompson took temporary charge during his recovery. Houllier returned to the dugout for the 2–0 win over Roma on 19 March, which secured a Champions League quarter-final place. Bayer Leverkusen then eliminated Liverpool 4–3 on aggregate.",
+    "Michael Owen scored 28 competitive goals and received the European Footballer of the Year award during the season. John Arne Riise and Jerzy Dudek joined, while Robbie Fowler moved to Leeds and Nicolas Anelka arrived on loan from Paris Saint-Germain. Arsenal ended Liverpool’s FA Cup defence in the fourth round; Grimsby Town had already knocked them out of the League Cup."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2000-01"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 2001-02 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/2001-02.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points and goals; gaps and combined home/away totals calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2001-02 games",
+      "url": "https://www.lfchistory.net/season-archive/games/44",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, results and cup stages; two-leg aggregates and league runs calculated from the full fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2001-02 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/44",
+      "confidence": "high",
+      "claims": "All-competitive scorer totals, including qualifying matches, Shield and Super Cup where played; excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2001-02 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/44",
+      "confidence": "high",
+      "claims": "Selected senior moves and dates. Summer preparation allocated to the incoming season, with loans distinguished."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 2001-02 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/44",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting key-player selections."
+    },
+    {
+      "id": "lfc-houllier",
+      "label": "Liverpool FC: Gérard Houllier",
+      "url": "https://www.liverpoolfc.com/info/gerard-houllier",
+      "confidence": "high",
+      "claims": "Sole manager from November 1998; 2001 treble and Champions League qualification, October 2001 illness and Thompson’s temporary charge; league finishes and departure after 2003–04. Its 1999–2000 claim of six final winless games is not used: dated fixtures show five."
+    },
+    {
+      "id": "lfc-owen",
+      "label": "Liverpool FC: Michael Owen",
+      "url": "https://www.liverpoolfc.com/info/michael-owen",
+      "confidence": "high",
+      "claims": "Competitive totals of 12 in 1999–2000, 24 in 2000–01 and 28 in each of 2001–02 and 2002–03; two 2001 FA Cup final goals; European Footballer of the Year in calendar 2001."
+    },
+    {
+      "id": "lfc-return",
+      "label": "Liverpool FC: Houllier returns against Roma",
+      "url": "https://www.liverpoolfc.com/news/features/390639-on-this-day-liverpool-fc-march-19",
+      "confidence": "high",
+      "claims": "Houllier returned to the dugout on 19 March 2002; Liverpool beat Roma 2–0 to reach the Champions League quarter-finals."
+    },
+    {
+      "id": "lfc-shield",
+      "label": "Liverpool FC: Charity and Community Shield",
+      "url": "https://www.liverpoolfc.com/info/charity-community-shield",
+      "confidence": "high",
+      "claims": "Liverpool beat Manchester United 2–1 in the 2001 Shield."
+    },
+    {
+      "id": "lfc-super-cup",
+      "label": "Liverpool FC: UEFA Super Cup",
+      "url": "https://www.liverpoolfc.com/info/uefa-super-cup",
+      "confidence": "high",
+      "claims": "Liverpool beat Bayern Munich 3–2 in Monaco on 24 August 2001."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-shield, lfc-super-cup, lfch-games and lfc-houllier; paragraph 2 — lfc-houllier, lfc-return and lfch-games; paragraph 3 — lfch-scorers, lfc-owen, lfch-transfers and lfch-games.",
+    "The existing european-cup identity is retained for the renamed Champions League, with the contemporary name stated in the result and summary. This avoids a duplicate identity for the same competition.",
+    "Owen’s total includes qualifying games and both August trophies. The European award concerns calendar 2001 and was received during 2001–02. Houllier’s appointed role is distinguished from Thompson’s temporary cover.",
+    "McAllister’s 13 May 2002 Coventry departure is allocated to the incoming 2002–03 campaign. Anelka’s loan ending is retained here to close the same loan spell."
+  ],
+  "managerNote": "Houllier remained manager. Thompson took temporary charge while he recovered from heart surgery; Houllier returned to the dugout in March 2002."
+}

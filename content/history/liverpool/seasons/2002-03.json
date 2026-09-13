@@ -1,0 +1,240 @@
+{
+  "season": "2002-03",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "gerard-houllier"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 5,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "michael-owen",
+      "goals": 28,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-owen"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Community Shield runners-up — lost 1–0 to Arsenal.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–0 at home to Crystal Palace in a replay.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Manchester United 2–0 in Cardiff.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-league-cup"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League first group phase — third in Group B; transferred to the UEFA Cup.",
+      "sourceIds": [
+        "lfch-games",
+        "rsssf-europe"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Quarter-final — lost 3–1 on aggregate to Celtic.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "league-cup"
+  ],
+  "keyPlayerIds": [
+    "michael-owen",
+    "danny-murphy",
+    "sami-hyypia",
+    "john-arne-riise",
+    "steven-gerrard",
+    "jamie-carragher",
+    "emile-heskey",
+    "djimi-traore",
+    "el-hadji-diouf",
+    "jerzy-dudek",
+    "milan-baros",
+    "dietmar-hamann"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "bruno-cheyrou",
+        "club": "Lille",
+        "deal": "permanent",
+        "note": "Joined in May 2002 ahead of the new campaign.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "el-hadji-diouf",
+        "club": "Lens",
+        "deal": "permanent",
+        "note": "Joined in summer 2002.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "salif-diao",
+        "club": "Sedan",
+        "deal": "permanent",
+        "note": "Joined in August 2002.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "gary-mcallister",
+        "club": "Coventry City",
+        "deal": "free",
+        "note": "Left on 13 May 2002 after the previous campaign.",
+        "sourceIds": [
+          "lfch-prior-transfers"
+        ]
+      },
+      {
+        "personId": "nick-barmby",
+        "club": "Leeds United",
+        "deal": "permanent",
+        "note": "Left in August 2002.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "stephen-wright",
+        "club": "Sunderland",
+        "deal": "permanent",
+        "note": "Left in August 2002.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jari-litmanen",
+        "club": "Ajax",
+        "deal": "free",
+        "note": "Left in August 2002.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the League Cup but slipped to fifth in the Premier League with 64 points. Steven Gerrard and Michael Owen scored in the 2–0 final victory over Manchester United in Cardiff on 2 March. Liverpool had been unbeaten in their opening 12 league matches, but then went 11 without a league win.",
+    "Their Champions League campaign ended in the first group phase, with a 3–3 draw at Basel leaving them third in the group. They continued in the UEFA Cup before Celtic won their quarter-final 3–1 on aggregate. Crystal Palace knocked Liverpool out of the FA Cup in a fourth-round replay, winning 2–0 at Anfield.",
+    "Owen again finished as leading scorer with 28 competitive goals. Summer arrivals included El Hadji Diouf, Salif Diao and Bruno Cheyrou, while Gary McAllister, Nick Barmby and Jari Litmanen left. A 2–1 defeat at Chelsea on the final league day left Liverpool three points behind their opponents in fourth place."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2001-02"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 2002-03 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/2002-03.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points and goals; gaps and combined home/away totals calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2002-03 games",
+      "url": "https://www.lfchistory.net/season-archive/games/45",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, results and cup stages; two-leg aggregates and league runs calculated from the full fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2002-03 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/45",
+      "confidence": "high",
+      "claims": "All-competitive scorer totals, including qualifying matches, Shield and Super Cup where played; excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2002-03 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/45",
+      "confidence": "high",
+      "claims": "Selected senior moves and dates. Summer preparation allocated to the incoming season, with loans distinguished."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 2002-03 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/45",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting key-player selections."
+    },
+    {
+      "id": "lfc-houllier",
+      "label": "Liverpool FC: Gérard Houllier",
+      "url": "https://www.liverpoolfc.com/info/gerard-houllier",
+      "confidence": "high",
+      "claims": "Sole manager from November 1998; 2001 treble and Champions League qualification, October 2001 illness and Thompson’s temporary charge; league finishes and departure after 2003–04. Its 1999–2000 claim of six final winless games is not used: dated fixtures show five."
+    },
+    {
+      "id": "lfc-owen",
+      "label": "Liverpool FC: Michael Owen",
+      "url": "https://www.liverpoolfc.com/info/michael-owen",
+      "confidence": "high",
+      "claims": "Competitive totals of 12 in 1999–2000, 24 in 2000–01 and 28 in each of 2001–02 and 2002–03; two 2001 FA Cup final goals; European Footballer of the Year in calendar 2001."
+    },
+    {
+      "id": "lfc-league-cup",
+      "label": "Liverpool FC: League Cup",
+      "url": "https://www.liverpoolfc.com/info/league-cup",
+      "confidence": "high",
+      "claims": "2001 final finished 1–1 after extra time, Liverpool winning the shoot-out 5–4; Gerrard and Owen scored in the 2–0 2003 final win over Manchester United."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 2002–03",
+      "url": "https://www.rsssf.org/ec/ec200203.html",
+      "confidence": "high",
+      "claims": "Liverpool finished third in Champions League first-phase Group B with eight points and transferred to the UEFA Cup."
+    },
+    {
+      "id": "lfch-prior-transfers",
+      "label": "LFChistory: 2001–02 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/44",
+      "confidence": "high",
+      "claims": "McAllister returned to Coventry City on 13 May 2002, allocated to the incoming season."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-league-cup and lfch-games; paragraph 2 — rsssf-europe and lfch-games; paragraph 3 — lfch-scorers, lfc-owen, lfch-transfers, lfch-prior-transfers, lfch-games and rsssf-league.",
+    "The opening 12-match unbeaten league run and subsequent 11-match winless league run are counted separately from cup fixtures. Cup victories during the latter period mean it must not be described as an all-competition winless run.",
+    "The UEFA Cup fifth round was the quarter-final. The renamed Community Shield retains the existing charity-shield identity; its contemporary name appears in the result. Anelka’s loan departure was already recorded with the previous season."
+  ]
+}

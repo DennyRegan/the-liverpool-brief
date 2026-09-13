@@ -878,5 +878,145 @@
     "id": "steven-gerrard",
     "label": "Steven Gerrard",
     "kind": "person"
+  },
+  {
+    "id": "sami-hyypia",
+    "label": "Sami Hyypiä",
+    "kind": "person"
+  },
+  {
+    "id": "stephane-henchoz",
+    "label": "Stéphane Henchoz",
+    "kind": "person"
+  },
+  {
+    "id": "sander-westerveld",
+    "label": "Sander Westerveld",
+    "kind": "person"
+  },
+  {
+    "id": "dietmar-hamann",
+    "label": "Dietmar Hamann",
+    "kind": "person"
+  },
+  {
+    "id": "vladimir-smicer",
+    "label": "Vladimír Šmicer",
+    "kind": "person"
+  },
+  {
+    "id": "titi-camara",
+    "label": "Titi Camara",
+    "kind": "person"
+  },
+  {
+    "id": "emile-heskey",
+    "label": "Emile Heskey",
+    "kind": "person"
+  },
+  {
+    "id": "gary-mcallister",
+    "label": "Gary McAllister",
+    "kind": "person"
+  },
+  {
+    "id": "markus-babbel",
+    "label": "Markus Babbel",
+    "kind": "person"
+  },
+  {
+    "id": "nick-barmby",
+    "label": "Nick Barmby",
+    "kind": "person"
+  },
+  {
+    "id": "christian-ziege",
+    "label": "Christian Ziege",
+    "kind": "person"
+  },
+  {
+    "id": "igor-biscan",
+    "label": "Igor Bišćan",
+    "kind": "person"
+  },
+  {
+    "id": "jari-litmanen",
+    "label": "Jari Litmanen",
+    "kind": "person"
+  },
+  {
+    "id": "john-arne-riise",
+    "label": "John Arne Riise",
+    "kind": "person"
+  },
+  {
+    "id": "chris-kirkland",
+    "label": "Chris Kirkland",
+    "kind": "person"
+  },
+  {
+    "id": "jerzy-dudek",
+    "label": "Jerzy Dudek",
+    "kind": "person"
+  },
+  {
+    "id": "nicolas-anelka",
+    "label": "Nicolas Anelka",
+    "kind": "person"
+  },
+  {
+    "id": "milan-baros",
+    "label": "Milan Baroš",
+    "kind": "person"
+  },
+  {
+    "id": "abel-xavier",
+    "label": "Abel Xavier",
+    "kind": "person"
+  },
+  {
+    "id": "bruno-cheyrou",
+    "label": "Bruno Cheyrou",
+    "kind": "person"
+  },
+  {
+    "id": "el-hadji-diouf",
+    "label": "El Hadji Diouf",
+    "kind": "person"
+  },
+  {
+    "id": "salif-diao",
+    "label": "Salif Diao",
+    "kind": "person"
+  },
+  {
+    "id": "stephen-wright",
+    "label": "Stephen Wright",
+    "kind": "person"
+  },
+  {
+    "id": "harry-kewell",
+    "label": "Harry Kewell",
+    "kind": "person"
+  },
+  {
+    "id": "steve-finnan",
+    "label": "Steve Finnan",
+    "kind": "person"
+  },
+  {
+    "id": "anthony-le-tallec",
+    "label": "Anthony Le Tallec",
+    "kind": "person"
+  },
+  {
+    "id": "florent-sinama-pongolle",
+    "label": "Florent Sinama-Pongolle",
+    "kind": "person"
+  },
+  {
+    "id": "paul-jones",
+    "label": "Paul Jones",
+    "kind": "person"
   }
 ]
