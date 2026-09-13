@@ -1,0 +1,190 @@
+{
+  "season": "2023-24",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "jurgen-klopp"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 3,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "mohamed-salah",
+      "goals": 25,
+      "sourceIds": [
+        "lfch-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Quarter-final — lost 4–3 away to Manchester United.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Chelsea 1–0 after extra time.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-league-cup-final",
+        "lfc-klopp"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Europa League quarter-final — lost 3–1 on aggregate to Atalanta.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "league-cup"
+  ],
+  "keyPlayerIds": [
+    "mohamed-salah",
+    "darwin-nunez",
+    "cody-gakpo",
+    "harvey-elliott",
+    "joe-gomez",
+    "luis-diaz",
+    "virgil-van-dijk",
+    "alexis-mac-allister",
+    "dominik-szoboszlai",
+    "wataru-endo",
+    "trent-alexander-arnold",
+    "alisson-becker",
+    "caoimhin-kelleher",
+    "jarell-quansah",
+    "conor-bradley"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "alexis-mac-allister",
+        "club": "Brighton & Hove Albion",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "dominik-szoboszlai",
+        "club": "RB Leipzig",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "wataru-endo",
+        "club": "Stuttgart",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ryan-gravenberch",
+        "club": "Bayern Munich",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "jordan-henderson",
+        "club": "Al Ettifaq",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "fabinho",
+        "club": "Al Ittihad",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Jürgen Klopp’s final season brought the League Cup and third place in the Premier League with 82 points. He announced in January that he would leave at the end of the campaign. Virgil van Dijk scored the extra-time winner as Liverpool beat Chelsea 1–0 in the League Cup final.",
+    "Alexis Mac Allister, Dominik Szoboszlai, Wataru Endo and Ryan Gravenberch joined a midfield that lost Jordan Henderson and Fabinho. Mohamed Salah was the leading scorer with 25 competitive goals, followed by Darwin Núñez on 18 and Cody Gakpo on 16.",
+    "April league defeats by Crystal Palace and Everton preceded the third-place finish. Atalanta eliminated Liverpool from the Europa League quarter-finals, winning 3–1 on aggregate, while Manchester United won the FA Cup quarter-final 4–3. Klopp’s last match was a 2–0 home victory over Wolverhampton Wanderers."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2022-23"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2023-24 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/133",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2023-24 games",
+      "url": "https://www.lfchistory.net/season-archive/games/133",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2023-24 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/133",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2023-24 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/133",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2023-24 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/133",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-klopp",
+      "label": "Liverpool FC: Jürgen Klopp",
+      "url": "https://www.liverpoolfc.com/info/jurgen-klopp",
+      "confidence": "high",
+      "claims": "Title after the pandemic interruption in 2020; third place in 2021; two cups in 2022; January 2024 announcement of departure and final-season League Cup win."
+    },
+    {
+      "id": "lfch-league-cup-final",
+      "label": "LFChistory: 2024 League Cup final",
+      "url": "https://www.lfchistory.net/games/5986",
+      "confidence": "high",
+      "claims": "Liverpool beat Chelsea 1–0 after extra time; Virgil van Dijk scored the winner."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-klopp, lfch-league, lfch-games and lfch-league-cup-final; paragraph 2 — lfch-transfers and lfch-scorers; paragraph 3 — lfch-games and lfc-klopp.",
+    "No disputed account of why Klopp left is asserted. The season is described as his final one; no unverified managerial appearance total is used.",
+    "Selected incoming and outgoing senior transfers only. Unverified destinations following contract expiries and transfer fees are omitted."
+  ]
+}
