@@ -1,0 +1,210 @@
+{
+  "season": "1980-81",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bob-paisley"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 5,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "terry-mcdermott",
+      "goals": 22,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorer"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Winners — beat West Ham United 1–0 at Wembley.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–1 away to Everton.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Winners — beat West Ham United 2–1 in the Villa Park replay after a 1–1 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-league-cup"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Winners — beat Real Madrid 1–0 in Paris.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-europe"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "charity-shield",
+    "league-cup",
+    "european-cup"
+  ],
+  "keyPlayerIds": [
+    "terry-mcdermott",
+    "phil-neal",
+    "ray-kennedy",
+    "ray-clemence",
+    "sammy-lee",
+    "graeme-souness",
+    "kenny-dalglish",
+    "alan-hansen",
+    "alan-kennedy"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "bruce-grobbelaar",
+        "club": "Vancouver Whitecaps",
+        "deal": "permanent",
+        "note": "Joined in March 1981.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-grobbelaar"
+        ]
+      },
+      {
+        "personId": "craig-johnston",
+        "club": "Middlesbrough",
+        "deal": "permanent",
+        "note": "Joined in April 1981.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "steve-heighway",
+        "club": "Minnesota Kicks",
+        "deal": "free",
+        "note": "Left in April 1981.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished fifth in the First Division, nine points behind champions Aston Villa, but won the European Cup and League Cup under Bob Paisley. Alan Kennedy scored the only goal against Real Madrid in Paris to secure the club’s third European Cup.",
+    "The League Cup was a first for Liverpool. After drawing 1–1 with West Ham United at Wembley, they won the replay 2–1 at Villa Park through Kenny Dalglish and Alan Hansen. West Ham had also been beaten in the Charity Shield, while Everton ended Liverpool’s FA Cup run in the fourth round.",
+    "Terry McDermott finished as leading scorer with 22 competitive goals, including one in the Shield. Bruce Grobbelaar arrived from Vancouver Whitecaps and Craig Johnston from Middlesbrough during the spring, while Steve Heighway left for Minnesota Kicks. Grobbelaar’s competitive debut would follow in the next campaign."
+  ],
+  "events": [
+    {
+      "id": "oulu-home",
+      "title": "Ten goals at Anfield",
+      "date": "1980-10-01",
+      "detail": "Liverpool beat Oulu Palloseura 10–1 in the European Cup first round.",
+      "competitionIds": [
+        "european-cup"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1979-80"
+  ],
+  "sources": [
+    {
+      "id": "lfc-paisley",
+      "label": "Liverpool FC: Bob Paisley, manager",
+      "url": "https://www.liverpoolfc.com/info/bob-paisley-0",
+      "confidence": "high",
+      "claims": "Manager from 1974 to 1983; the 1980 title, 1981 European Cup and final-season league and League Cup double."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1980-81",
+      "url": "https://www.rsssf.org/engpaul/FLA/1980-81.html",
+      "confidence": "high",
+      "claims": "Final division, position and points; home and away league records."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1980-81 games",
+      "url": "https://www.lfchistory.net/season-archive/games/22",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, scores, cup stages and venues; aggregate scores calculated from the two legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1980-81 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/22",
+      "confidence": "high",
+      "claims": "All-competitive goalscorers, including the Charity Shield and excluding friendlies."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1980-81 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/22",
+      "confidence": "high",
+      "claims": "Transfer clubs, type and dates for the selected senior moves."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1980-81 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/22",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting the editorial key-player selection."
+    },
+    {
+      "id": "lfc-league-cup",
+      "label": "Liverpool FC: League Cup",
+      "url": "https://www.liverpoolfc.com/info/league-cup",
+      "confidence": "high",
+      "claims": "First four wins, 1981–84; final and replay scores, dates, venues, extra time and named goalscorers."
+    },
+    {
+      "id": "lfc-europe",
+      "label": "Liverpool FC: European Cup",
+      "url": "https://www.liverpoolfc.com/info/european-cup-champions-league",
+      "confidence": "high",
+      "claims": "1981 final: Alan Kennedy scored in a 1–0 win over Real Madrid in Paris on 27 May. 1984 final: 1–1 with Roma in Rome on 30 May; Liverpool won 4–2 on penalties, Alan Kennedy scoring the decisive kick."
+    },
+    {
+      "id": "afv-scorer",
+      "label": "11v11: Liverpool players, 1980–81",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1981/",
+      "confidence": "high",
+      "claims": "Corroborates McDermott’s leading total of 22 competitive goals; other totals are not used."
+    },
+    {
+      "id": "lfc-grobbelaar",
+      "label": "Liverpool FC: Bruce Grobbelaar",
+      "url": "https://www.liverpoolfc.com/info/bruce-grobbelaar",
+      "confidence": "high",
+      "claims": "Signed from Vancouver Whitecaps in March 1981; competitive debut followed in August 1981."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-paisley and lfc-europe; paragraph 2 — lfc-league-cup and lfch-games; paragraph 3 — lfch-scorers, afv-scorer, lfch-transfers and lfc-grobbelaar.",
+    "McDermott’s 22 includes the Charity Shield; 21 excludes it. 11v11 corroborates his total but disagrees with LFChistory on other players, including the Kennedys and Neal. Those disputed scoring figures are omitted.",
+    "Ray Clemence’s and Jimmy Case’s August 1981 departures belong to 1981–82. Spring arrivals Grobbelaar and Johnston remain here but are not key-player selections for this campaign."
+  ]
+}

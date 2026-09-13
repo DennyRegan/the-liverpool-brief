@@ -1,0 +1,252 @@
+{
+  "season": "1981-82",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bob-paisley"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "ian-rush",
+      "goals": 30,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-rush"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fifth round — lost 2–0 away to Chelsea.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Tottenham Hotspur 3–1 after extra time.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-league-cup"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Quarter-final — lost 2–1 on aggregate to CSKA Sofia.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "intercontinental-cup",
+      "kind": "other",
+      "result": "Runners-up — lost 3–0 to Flamengo in Tokyo.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division",
+    "league-cup"
+  ],
+  "keyPlayerIds": [
+    "ian-rush",
+    "kenny-dalglish",
+    "bruce-grobbelaar",
+    "phil-neal",
+    "mark-lawrenson",
+    "graeme-souness",
+    "alan-hansen",
+    "ronnie-whelan",
+    "terry-mcdermott"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "mark-lawrenson",
+        "club": "Brighton & Hove Albion",
+        "deal": "permanent",
+        "note": "Joined in August 1981.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-lawrenson"
+        ]
+      },
+      {
+        "personId": "steve-nicol",
+        "club": "Ayr United",
+        "deal": "permanent",
+        "note": "Joined in October 1981.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "ray-clemence",
+        "club": "Tottenham Hotspur",
+        "deal": "permanent",
+        "note": "Left in August 1981.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-grobbelaar"
+        ]
+      },
+      {
+        "personId": "jimmy-case",
+        "club": "Brighton & Hove Albion",
+        "deal": "permanent",
+        "note": "Left in August 1981.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "avi-cohen",
+        "club": "Maccabi Tel Aviv",
+        "deal": "permanent",
+        "note": "Left in November 1981.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ray-kennedy",
+        "club": "Swansea City",
+        "deal": "permanent",
+        "note": "Left in January 1982.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "richard-money",
+        "club": "Luton Town",
+        "deal": "permanent",
+        "note": "Left in April 1982.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool recovered from 12th place after a Boxing Day home defeat by Manchester City to win the First Division under Bob Paisley. They finished four points ahead of Ipswich Town and retained the League Cup, beating Tottenham Hotspur 3–1 after extra time with two Ronnie Whelan goals and one from Ian Rush.",
+    "Rush scored 30 competitive goals. Mark Lawrenson joined from Brighton, and Bruce Grobbelaar took over in goal after Ray Clemence moved to Tottenham. Jimmy Case also departed, followed during the season by Ray Kennedy. Away from the pitch, former manager Bill Shankly died on 29 September 1981, aged 68.",
+    "There were defeats elsewhere: Flamengo won the Intercontinental Cup meeting 3–0 in Tokyo, CSKA Sofia knocked Liverpool out of the European Cup at the quarter-final stage, and Chelsea ended the FA Cup run in the fifth round. A 3–1 league victory over Tottenham at Anfield secured the championship."
+  ],
+  "events": [
+    {
+      "id": "shankly-death",
+      "title": "Bill Shankly dies",
+      "date": "1981-09-29",
+      "detail": "Former Liverpool manager Bill Shankly died aged 68.",
+      "competitionIds": [],
+      "personIds": [
+        "bill-shankly"
+      ],
+      "sourceIds": [
+        "lfc-shankly"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1980-81"
+  ],
+  "sources": [
+    {
+      "id": "lfc-paisley",
+      "label": "Liverpool FC: Bob Paisley, manager",
+      "url": "https://www.liverpoolfc.com/info/bob-paisley-0",
+      "confidence": "high",
+      "claims": "Manager from 1974 to 1983; the 1980 title, 1981 European Cup and final-season league and League Cup double."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1981-82",
+      "url": "https://www.rsssf.org/engpaul/FLA/1981-82.html",
+      "confidence": "high",
+      "claims": "Final division, position and points; home and away league records."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1981-82 games",
+      "url": "https://www.lfchistory.net/season-archive/games/24",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, scores, cup stages and venues; aggregate scores calculated from the two legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1981-82 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/24",
+      "confidence": "high",
+      "claims": "All-competitive goalscorers, including the Charity Shield and excluding friendlies."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1981-82 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/24",
+      "confidence": "high",
+      "claims": "Transfer clubs, type and dates for the selected senior moves."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1981-82 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/24",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting the editorial key-player selection."
+    },
+    {
+      "id": "lfc-rush",
+      "label": "Liverpool FC: Ian Rush",
+      "url": "https://www.liverpoolfc.com/info/ian-rush",
+      "confidence": "high",
+      "claims": "Joined from Chester in 1980; 30 competitive goals in 1981–82, 31 in 1982–83 and 47 in 1983–84; four goals at Everton in November 1982."
+    },
+    {
+      "id": "lfc-league-cup",
+      "label": "Liverpool FC: League Cup",
+      "url": "https://www.liverpoolfc.com/info/league-cup",
+      "confidence": "high",
+      "claims": "First four wins, 1981–84; final and replay scores, dates, venues, extra time and named goalscorers."
+    },
+    {
+      "id": "lfc-lawrenson",
+      "label": "Liverpool FC: Mark Lawrenson",
+      "url": "https://www.liverpoolfc.com/info/mark-lawrenson",
+      "confidence": "high",
+      "claims": "Joined from Brighton in 1981; Liverpool’s recovery from mid-table and 3–1 title-clinching win over Tottenham."
+    },
+    {
+      "id": "lfc-grobbelaar",
+      "label": "Liverpool FC: Bruce Grobbelaar",
+      "url": "https://www.liverpoolfc.com/info/bruce-grobbelaar",
+      "confidence": "high",
+      "claims": "Replaced Clemence following his summer 1981 move to Tottenham; league and League Cup success in first playing season."
+    },
+    {
+      "id": "lfc-shankly",
+      "label": "Liverpool FC: Remembering Bill Shankly",
+      "url": "https://www.liverpoolfc.com/news/lfc-remembers-bill-shankly-anniversary-his-passing",
+      "confidence": "high",
+      "claims": "Former manager Bill Shankly died on 29 September 1981, aged 68."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-games, rsssf-league, lfc-paisley and lfc-league-cup; paragraph 2 — lfch-scorers, lfc-rush, lfch-transfers, lfc-lawrenson, lfc-grobbelaar and lfc-shankly; paragraph 3 — lfch-games and lfc-lawrenson.",
+    "The European Cup third round was the quarter-final. The December 1981 World Club Championship fixture is filed under the Intercontinental Cup, rather than the later FIFA Club World Cup.",
+    "Kevin Sheedy’s 26 May 1982 departure followed the league season and is allocated to the incoming 1982–83 campaign. Nicol is listed as a signing, not a first-team key player for 1981–82."
+  ]
+}
