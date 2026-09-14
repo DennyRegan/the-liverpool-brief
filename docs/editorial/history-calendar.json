@@ -501,9 +501,13 @@
       "historicalEventDate": "2008-09-27",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "GPT-6 Astra — /root/astra_research_writer",
+      "claim": {
+        "token": "astra-research-writer-goodison-2008-2026-09-14T19:36:16.657Z",
+        "claimedAt": "2026-09-14T19:36:16.657Z",
+        "baseCommit": "47c0d40eb93f56e0fd6ff9dc802b2cf1d0db12ee"
+      },
       "eventPath": "content/this-week/liverpool/2008-09-27-torres-goodison-double.md",
       "draftPath": null,
       "originalDraftId": null,
