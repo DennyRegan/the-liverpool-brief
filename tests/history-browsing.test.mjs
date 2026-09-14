@@ -10,13 +10,16 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'alonso-own-half-newcastle-2006',
     'anfield-first-european-match-reykjavik-1964',
     'forshaw-hat-trick-manchester-united-1925',
+    'fowler-scoring-debut-fulham-1993',
     'henderson-chelsea-winner-2016',
     'liverpool-arsenal-1971-toshack-smith',
     'liverpool-everton-comeback-1970',
     'liverpool-monaco-champions-league-2004',
     'liverpool-stromsgodset-record-win-1974',
+    'mcmahon-four-fulham-ten-goals-1986',
     'saunders-four-kuusysi-european-return-1991',
     'steve-nicol-hat-trick-newcastle-1987',
+    'torres-first-hat-trick-reading-2007',
     'whelan-wembley-final-tottenham-1982',
   ]);
   assert.deepEqual(getHistoryBrowseArticles('players'), []);

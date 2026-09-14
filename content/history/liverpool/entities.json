@@ -1868,5 +1868,25 @@
     "id": "matt-mcqueen",
     "label": "Matt McQueen",
     "kind": "person"
+  },
+  {
+    "id": "fulham",
+    "label": "Fulham",
+    "kind": "opposition"
+  },
+  {
+    "id": "reading",
+    "label": "Reading",
+    "kind": "opposition"
+  },
+  {
+    "id": "craven-cottage",
+    "label": "Craven Cottage",
+    "kind": "location"
+  },
+  {
+    "id": "madejski-stadium",
+    "label": "Madejski Stadium",
+    "kind": "location"
   }
 ]

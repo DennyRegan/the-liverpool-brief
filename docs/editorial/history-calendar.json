@@ -315,15 +315,19 @@
       "historicalEventDate": "1993-09-22",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "GPT-6 Astra — /root/astra_research_writer",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1993-09-22-fowler-scoring-debut.md",
       "draftPath": "docs/editorial/drafts/fowler-scoring-debut-fulham-1993.md",
       "originalDraftId": null,
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source discrepancies, exclusions and optional metadata gaps are recorded in docs/editorial/drafts/fowler-scoring-debut-fulham-1993-editor-notes.md.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-14T19:39:31.519048Z",
+        "evidence": "Denny: “Approve all three make live to site” — 14 September 2026, referring to Fowler debut, McMahon Fulham and Torres Reading drafts."
+      },
+      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source discrepancies, exclusions and optional metadata gaps are recorded in docs/editorial/drafts/fowler-scoring-debut-fulham-1993-editor-notes.md. Publication approved 14 September 2026. Actual publication date and validated opposition/venue IDs added; prose unchanged. Awaiting live verification.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/1993-09-22-fowler-scoring-debut.md",
@@ -368,15 +372,19 @@
       "historicalEventDate": "1986-09-23",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "GPT-6 Astra — /root/astra_research_writer",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1986-09-23-fulham-ten-goals.md",
       "draftPath": "docs/editorial/drafts/mcmahon-four-fulham-ten-goals-1986.md",
       "originalDraftId": null,
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/mcmahon-four-fulham-ten-goals-1986-editor-notes.md.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-14T19:39:31.519094Z",
+        "evidence": "Denny: “Approve all three make live to site” — 14 September 2026, referring to Fowler debut, McMahon Fulham and Torres Reading drafts."
+      },
+      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/mcmahon-four-fulham-ten-goals-1986-editor-notes.md. Publication approved 14 September 2026. Actual publication date and validated opposition/venue IDs added; prose unchanged. Awaiting live verification.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/1986-09-23-fulham-ten-goals.md",
@@ -421,15 +429,19 @@
       "historicalEventDate": "2007-09-25",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "GPT-6 Astra — /root/astra_research_writer",
       "claim": null,
       "eventPath": "content/this-week/liverpool/2007-09-25-torres-reading-hat-trick.md",
       "draftPath": "docs/editorial/drafts/torres-first-hat-trick-reading-2007.md",
       "originalDraftId": null,
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/torres-first-hat-trick-reading-2007-editor-notes.md.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-14T19:39:31.519100Z",
+        "evidence": "Denny: “Approve all three make live to site” — 14 September 2026, referring to Fowler debut, McMahon Fulham and Torres Reading drafts."
+      },
+      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/torres-first-hat-trick-reading-2007-editor-notes.md. Publication approved 14 September 2026. Actual publication date and validated opposition/venue IDs added; prose unchanged. Awaiting live verification.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/2007-09-25-torres-reading-hat-trick.md",
