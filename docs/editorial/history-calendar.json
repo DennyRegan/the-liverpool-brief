@@ -11,7 +11,8 @@
     "Inventory reconciliation, not fresh match research. Existing drafts were retrieved in full and copied without rewriting; no publication approval was invented.",
     "Current week: six ready-for-review drafts, two existing published factual reports. Goodison (21 September) already exists but lacks factual classification.",
     "Weeks 28 September–4 October and 5–11 October remain provisional. Empty dates are research gaps, not claims that no worthwhile event exists.",
-    "The classic-match progress file and prior chat lists are historical inputs, not independent commissioning queues. This calendar now records overlapping selections and drafts."
+    "The classic-match progress file and prior chat lists are historical inputs, not independent commissioning queues. This calendar now records overlapping selections and drafts.",
+    "14 September 2026 follow-up: seven later-week provisional proposals have retrieved-source core event/date verification in docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md. They remain provisional/planned, not commissioned or approved articles. Original proposal evidence retained as provenance."
   ],
   "gaps": [
     {
@@ -550,15 +551,20 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2002-09-28-proposed-match.",
       "evidence": [
         {
           "location": "User-supplied conversation, 14 September 2026",
           "confidence": "unverified",
           "scope": "Proposed topic/date only; not a retrieved historical source."
+        },
+        {
+          "location": "docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2002-09-28-proposed-match",
+          "confidence": "high",
+          "scope": "Exact date; Manchester City 0–3 Liverpool at Maine Road; Owen hat-trick."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1981-09-29-shankly-remembrance",
@@ -574,15 +580,20 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1981-09-29-shankly-remembrance.",
       "evidence": [
         {
           "location": "User-supplied conversation, 14 September 2026",
           "confidence": "unverified",
           "scope": "Proposed topic/date only; not a retrieved historical source."
+        },
+        {
+          "location": "docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1981-09-29-shankly-remembrance",
+          "confidence": "high",
+          "scope": "Shankly’s death on 29 September 1981, aged 68; not a memorial ceremony."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "leeds-liverpool-1972-phil-boersma",
@@ -646,15 +657,20 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1981-09-30-proposed-match.",
       "evidence": [
         {
           "location": "User-supplied conversation, 14 September 2026",
           "confidence": "unverified",
           "scope": "Proposed topic/date only; not a retrieved historical source."
+        },
+        {
+          "location": "docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1981-09-30-proposed-match",
+          "confidence": "high",
+          "scope": "Exact date; Liverpool 7–0 Oulu at Anfield; European Cup first-round second leg."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1986-09-30-classic-165",
@@ -694,15 +710,20 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1980-10-01-proposed-match.",
       "evidence": [
         {
           "location": "User-supplied conversation, 14 September 2026",
           "confidence": "unverified",
           "scope": "Proposed topic/date only; not a retrieved historical source."
+        },
+        {
+          "location": "docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1980-10-01-proposed-match",
+          "confidence": "high",
+          "scope": "Exact date; Liverpool 10–1 Oulu; Souness and McDermott hat-tricks."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "2019-10-02-proposed-match",
@@ -718,15 +739,20 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2019-10-02-proposed-match.",
       "evidence": [
         {
           "location": "User-supplied conversation, 14 September 2026",
           "confidence": "unverified",
           "scope": "Proposed topic/date only; not a retrieved historical source."
+        },
+        {
+          "location": "docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2019-10-02-proposed-match",
+          "confidence": "high",
+          "scope": "Exact date; Liverpool 4–3 Salzburg; Champions League Group E; Salah’s second goal decided it."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1979-10-03-classic-092",
@@ -766,15 +792,20 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1993-10-05-proposed-match.",
       "evidence": [
         {
           "location": "User-supplied conversation, 14 September 2026",
           "confidence": "unverified",
           "scope": "Proposed topic/date only; not a retrieved historical source."
+        },
+        {
+          "location": "docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1993-10-05-proposed-match",
+          "confidence": "high",
+          "scope": "Exact date; Liverpool 5–0 Fulham; Fowler scored all five; League Cup second-round second leg."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1972-10-07-classic-017",
@@ -814,15 +845,20 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2015-10-08-klopp-appointment.",
       "evidence": [
         {
           "location": "User-supplied conversation, 14 September 2026",
           "confidence": "unverified",
           "scope": "Proposed topic/date only; not a retrieved historical source."
+        },
+        {
+          "location": "docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2015-10-08-klopp-appointment",
+          "confidence": "high",
+          "scope": "Klopp appointed and announced on 8 October 2015; presentation was the following day."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     }
   ]
 }
