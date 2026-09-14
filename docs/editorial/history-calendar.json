@@ -448,27 +448,28 @@
       "historicalEventDate": "2009-09-26",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "GPT-6 Astra — /root/astra_research_writer",
-      "claim": {
-        "token": "astra-research-writer-hull-2026-09-14T19:32:39.719Z",
-        "claimedAt": "2026-09-14T19:32:39.719Z",
-        "baseCommit": "65b62a6e6f8f4c780453ba58faf2c904cfd76bb3"
-      },
+      "claim": null,
       "eventPath": "content/this-week/liverpool/2009-09-26-torres-hull-hat-trick.md",
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/torres-babel-six-goals-hull-2009.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Existing This Week selection; retrieve sources before writing.",
+      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/torres-babel-six-goals-hull-2009-editor-notes.md.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/2009-09-26-torres-hull-hat-trick.md",
           "confidence": "high",
           "scope": "Retrieved repository inventory, not a new historical fact-check."
+        },
+        {
+          "location": "docs/editorial/drafts/torres-babel-six-goals-hull-2009-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual draft and source/conflict audit by configured GPT-6 Astra; unpublished pending Denny review."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "verified"
     },
     {
       "id": "1978-09-27-classic-084",
