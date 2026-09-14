@@ -78,3 +78,13 @@ export function getSeasonFeatures() {
         .filter(feature => feature.category === "season")
         .sort((a, b) => ((a.season ?? a.historicalPeriod) < (b.season ?? b.historicalPeriod) ? -1 : 1));
 }
+
+// Editorial placement is explicit; never infer factual status from a subject or prose.
+export function getFactualHistoryArticles(root = process.cwd()) {
+    return getArchiveFeatures(root).filter(article => article.editorialMode === "factual");
+}
+
+export function getHistoryBrowseArticles(section: "matches" | "players", root = process.cwd()) {
+    const type = section === "matches" ? "match" : "player";
+    return getFactualHistoryArticles(root).filter(article => article.articleType === type);
+}

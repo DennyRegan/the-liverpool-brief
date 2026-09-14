@@ -6,7 +6,7 @@ import { SiteHeader } from "@/app/components/SiteHeader";
 import { HistoryNav } from "@/app/components/history/HistoryNav";
 import { getSeasons, getSeasonEras, getSeasonArchiveArticles, seasonLabel, leagueFinish, type HistorySeason } from "@/lib/content/seasons";
 import { getHistoryEntities } from "@/lib/content/entities";
-import { getArchiveFeatures } from "@/lib/content/archive";
+import { getFactualHistoryArticles } from "@/lib/content/archive";
 import { eraYears } from "@/lib/content/history";
 import { formatListDate } from "@/lib/format";
 
@@ -50,7 +50,7 @@ export default async function SeasonPage({ params }: Props) {
   const season = seasons[index];
   const names = new Map(getHistoryEntities().map(entity => [entity.id, entity.label]));
   const eras = getSeasonEras(id);
-  const articles = getSeasonArchiveArticles(id, getArchiveFeatures());
+  const articles = getSeasonArchiveArticles(id, getFactualHistoryArticles());
 
   return <>
     <SiteHeader active="history" />

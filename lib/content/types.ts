@@ -45,6 +45,8 @@ export const ArchiveFeatureSchema = z.object({
     slug: HistoryIdSchema,
     // Navigation category is intentionally independent of the subject of the article.
     articleType: z.enum(["match", "player", "manager", "transfer", "season", "competition", "club-event", "other"]).optional(),
+    // Explicit editorial approval for factual History browsing; absent means unreviewed.
+    editorialMode: z.enum(["factual", "opinion"]).optional(),
     playerIds: HistoryIdsSchema.optional(),
     managerIds: HistoryIdsSchema.optional(),
     oppositionIds: HistoryIdsSchema.optional(),

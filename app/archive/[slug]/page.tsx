@@ -77,18 +77,22 @@ export default async function ArchiveFeaturePage({
   const curatedSlugs = new Set(relatedMatches.map(article => article.slug));
   const recommendations = getRelatedArchiveArticles(
     feature,
-    getArchiveFeatures().filter(article => !curatedSlugs.has(article.slug)),
+    getArchiveFeatures().filter(article => !curatedSlugs.has(article.slug) && (feature.editorialMode !== "factual" || article.editorialMode === "factual")),
     getHistory().eras,
     getHistoryEntities(),
   );
 
+  const historyDestination = feature.editorialMode === "factual"
+    ? feature.articleType === "player" ? "/history/players" : feature.articleType === "match" ? "/history/matches" : "/history"
+    : undefined;
+
   return (
     <div className="min-h-screen">
-      <SiteHeader active="archive" />
+      <SiteHeader active={historyDestination ? "history" : "archive"} />
       <main id="main-content" className="reading-page">
         <div className="flex items-center justify-between mb-8">
-          <Link href="/archive" className="text-sm font-medium text-accent hover:text-accent-dark">
-            ‹ Back
+          <Link href={historyDestination ?? "/archive"} className="text-sm font-medium text-accent hover:text-accent-dark">
+            {historyDestination === "/history/matches" ? "‹ History matches" : historyDestination === "/history/players" ? "‹ History players" : "‹ Back"}
           </Link>
           <ShareButton title={feature.title} />
         </div>

@@ -66,7 +66,7 @@ for (const era of eras) {
   const html = await get(`/history/${era.id}`);
   assert.equal((mainOf(html).match(/<h1\b/g) ?? []).length, 1, `${era.id}: one era heading`);
   assert.ok(html.includes(`href="https://theliverpoolbrief.com/history/${era.id}"`), `${era.id}: canonical History URL`);
-  assert.deepEqual(archiveLinks(mainOf(html)), getEraArticles(articles, era.id, eras).map(article => article.slug), `${era.id}: existing canonical Archive selection, once each`);
+  assert.deepEqual(archiveLinks(mainOf(html)), getEraArticles(articles.filter(article => article.editorialMode === "factual"), era.id, eras).map(article => article.slug), `${era.id}: existing canonical Archive selection, once each`);
 }
 console.log(`PASS History landing and all ${eras.length} existing era routes`);
 
@@ -102,3 +102,29 @@ for (const route of ['/archive/connected-history-missing-fixture', '/history/con
 }
 console.log(`PASS all ${opinionSlugs.length} Opinion URLs, ${routes.length} existing collection/navigation routes and 2 missing routes`);
 console.log(`PASS connected History HTTP regression against ${origin}`);
+
+// The new factual browsers must not reclassify unreviewed original writing.
+const approved = articles.filter(article => article.editorialMode === 'factual');
+for (const [section, type] of [['matches', 'match'], ['players', 'player']]) {
+  const route = `/history/${section}`;
+  const html = await get(route);
+  const main = mainOf(html);
+  assert.deepEqual(archiveLinks(main), approved.filter(a => a.articleType === type).map(a => a.slug), `${route}: only explicitly approved subjects`);
+  assert.equal((main.match(/<h1\b/g) ?? []).length, 1);
+  assert.ok(html.includes(`href="https://theliverpoolbrief.com${route}"`));
+  const nav = main.match(/<nav\b[^>]*aria-label="History sections"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
+  assert.ok(nav);
+  assert.equal((nav.match(/aria-current="page"/g) ?? []).length, 1);
+  assert.ok(nav.includes(`/history/${section}`));
+}
+for (const route of ['/articles', '/articles?category=archive', '/']) {
+  const links = archiveLinks(mainOf(await get(route)));
+  for (const article of approved) assert.ok(!links.includes(article.slug), `${route}: approved History leaves Articles`);
+  if (route !== '/') for (const article of articles.filter(a => a.editorialMode !== 'factual')) assert.ok(links.includes(article.slug), `${route}: unreviewed writing stays available`);
+}
+for (const article of approved) {
+  const main = mainOf(await get(`/archive/${article.slug}`));
+  assert.ok(main.includes('href="/history/matches"'));
+  for (const slug of archiveLinks(main)) assert.ok(approved.some(a => a.slug === slug), 'Factual recommendations exclude opinion');
+}
+console.log('PASS factual browsers, empty Players, original article URLs, Articles separation and factual recommendations');

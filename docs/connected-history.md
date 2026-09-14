@@ -149,3 +149,16 @@ The existing Season system and Archive now share `SeasonIdSchema` in `lib/conten
 No article lists belong in season JSON. Same-season recommendations retain their existing five-point weight, self-exclusion and metadata-driven ranking. Season managers, players, trophies, transfers and events already share the entity registry used by Archive. No additional entity catalogue or destination pages are needed. The existing Season navigation selects adjacent published records, skipping gaps; it never calculates a URL for an unwritten season.
 
 See `seasons-archive-integration-review.md` for the complete current article audit and review checklist. This integration branch is for review only; earlier authorisation to publish season reference content does not authorise merging or deploying this change.
+
+
+## Factual History browsing — 14 September 2026
+
+`/history/matches` and `/history/players` are browsing views of the existing Archive Markdown collection. Canonical article URLs stay `/archive/<slug>`. No second content store, entity registry or individual player profiles are created.
+
+Optional `editorialMode: factual | opinion` records an explicit editorial decision. An omitted value is unreviewed, not implicitly factual. Only `factual` content enters History reading selections and leaves the combined Articles/homepage writing collection. Existing opinion and unreviewed Archive pieces remain in Articles. Subject selection uses existing `articleType: match | player`; person IDs alone never turn a match report into a player article. Existing entity relationships and seasons continue to validate and drive discovery.
+
+Denny approved only `alonso-own-half-newcastle-2006` and `steve-nicol-hat-trick-newcastle-1987` for this initial move. All other articles retain their metadata and prose pending his review. Players initially shows an honest empty state, with no speculative names or profile links. Future approved biographies need only the existing player metadata plus `editorialMode: factual`.
+
+History era and Season reading panels select approved factual Archive content. Factual article recommendations also stay within factual content; factual articles link back to the relevant History browser and highlight History in the header. The established era records and season reference records remain unchanged. Legacy Archive collection URLs remain available for compatibility. This Week and canonical article bodies are preserved.
+
+The four History navigation links wrap on narrow screens. Both browsing routes are static server components, use original excerpts and historical periods, and list each qualifying article once in the existing publication order. This feature introduces no client state, filter framework, database or dependency.

@@ -3,14 +3,14 @@ import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
 import { once } from 'node:events';
 import { getSeasons, getSeasonArchiveArticles } from '../lib/content/seasons.ts';
-import { getArchiveFeatures } from '../lib/content/archive.ts';
+import { getFactualHistoryArticles } from '../lib/content/archive.ts';
 import { getHistory } from '../lib/content/history.ts';
 
 const origin = 'http://127.0.0.1:3141';
 const server = spawn(process.execPath, ['node_modules/next/dist/bin/next', 'start', '--hostname', '127.0.0.1', '--port', '3141'], { stdio: ['ignore', 'pipe', 'pipe'] });
 const mainOf = html => (html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? '').replace(/<!--[\s\S]*?-->/g, '');
 const all = getSeasons();
-const archive = getArchiveFeatures();
+const archive = getFactualHistoryArticles();
 const get = async route => {
   const response = await fetch(new URL(route, origin), { signal: AbortSignal.timeout(15000) });
   assert.equal(response.status, 200, route);
