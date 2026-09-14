@@ -1813,5 +1813,10 @@
     "id": "wembley",
     "label": "Wembley",
     "kind": "location"
+  },
+  {
+    "id": "everton",
+    "label": "Everton",
+    "kind": "opposition"
   }
 ]
