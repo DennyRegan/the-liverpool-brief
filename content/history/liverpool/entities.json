@@ -1798,5 +1798,15 @@
     "id": "curtis-jones",
     "label": "Curtis Jones",
     "kind": "person"
+  },
+  {
+    "id": "newcastle-united",
+    "label": "Newcastle United",
+    "kind": "opposition"
+  },
+  {
+    "id": "st-james-park",
+    "label": "St James’ Park",
+    "kind": "location"
   }
 ]
