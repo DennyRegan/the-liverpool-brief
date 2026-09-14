@@ -1,0 +1,790 @@
+{
+  "version": 1,
+  "canonicalLocation": "https://github.com/DennyRegan/the-liverpool-brief/blob/main/docs/editorial/history-calendar.json",
+  "workflow": "docs/editorial/README.md",
+  "timezone": "Europe/London",
+  "updatedAt": "2026-09-14",
+  "reconciledThrough": "2026-10-11",
+  "baseCommit": "a657fd3",
+  "activation": "Read and write only the latest main version after the setup PR is approved and merged. Review branch is not a second active calendar.",
+  "reviewNotes": [
+    "Inventory reconciliation, not fresh match research. Existing drafts were retrieved in full and copied without rewriting; no publication approval was invented.",
+    "Current week: six ready-for-review drafts, two existing published factual reports. Goodison (21 September) already exists but lacks factual classification.",
+    "Weeks 28 September–4 October and 5–11 October remain provisional. Empty dates are research gaps, not claims that no worthwhile event exists.",
+    "The classic-match progress file and prior chat lists are historical inputs, not independent commissioning queues. This calendar now records overlapping selections and drafts."
+  ],
+  "gaps": [
+    {
+      "featuredWeek": "2026-09-21",
+      "dates": [
+        "2026-09-24"
+      ],
+      "note": "No selected event. Research only if worthwhile; no filler."
+    },
+    {
+      "featuredWeek": "2026-09-28",
+      "dates": [
+        "2026-10-03",
+        "2026-10-04"
+      ],
+      "note": "3 October has a longlist alternative; assess before selection. 4 October remains unresearched."
+    },
+    {
+      "featuredWeek": "2026-10-05",
+      "dates": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11"
+      ],
+      "note": "7 October has a longlist alternative. Broader research needed; do not force daily coverage."
+    }
+  ],
+  "entries": [
+    {
+      "id": "1964-09-14-first-european-night-anfield",
+      "event": "Anfield hosts its first European match",
+      "historicalEventDate": "1964-09-14",
+      "featuredWeek": "2026-09-14",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor (existing completed draft)",
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/1964-09-14-first-european-night-anfield.md",
+      "draftPath": "docs/editorial/drafts/anfield-first-european-match-reykjavik-1964.md",
+      "originalDraftId": "libfile_e787a24fc9f08191b0514fd2d6db4cfb",
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/1964-09-14-first-european-night-anfield.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "2004-09-15-monaco-champions-league",
+      "event": "A winning start to the Champions League group stage",
+      "historicalEventDate": "2004-09-15",
+      "featuredWeek": "2026-09-14",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor (existing completed draft)",
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/2004-09-15-monaco-champions-league.md",
+      "draftPath": "docs/editorial/drafts/liverpool-monaco-champions-league-2004.md",
+      "originalDraftId": "libfile_60a9983506608191850116ca96a22279",
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/2004-09-15-monaco-champions-league.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1986-09-16-classic-163",
+      "event": "Liverpool 3–1 Everton",
+      "historicalEventDate": "1986-09-16",
+      "featuredWeek": "2026-09-14",
+      "selection": "alternative",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Preserved classic-match longlist 163; not a commissioned draft. Do not replace selected topics without recording the decision here.",
+      "evidence": [
+        {
+          "location": "libfile_7daf9eb45c848191ad54fc730946ff74",
+          "confidence": "high",
+          "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "2016-09-16-henderson-chelsea",
+      "event": "Henderson’s long-range winner at Chelsea",
+      "historicalEventDate": "2016-09-16",
+      "featuredWeek": "2026-09-14",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor (existing completed draft)",
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/2016-09-16-henderson-chelsea.md",
+      "draftPath": "docs/editorial/drafts/henderson-chelsea-winner-2016.md",
+      "originalDraftId": "libfile_6e2ed20bc2b081918ec000160594b671",
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/2016-09-16-henderson-chelsea.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1974-09-17-stromsgodset-record-win",
+      "event": "Liverpool record an 11–0 European win",
+      "historicalEventDate": "1974-09-17",
+      "featuredWeek": "2026-09-14",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor (existing completed draft)",
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/1974-09-17-stromsgodset-record-win.md",
+      "draftPath": "docs/editorial/drafts/liverpool-stromsgodset-record-win-1974.md",
+      "originalDraftId": "libfile_016e9c1f785c8191becce05729f25b22",
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/1974-09-17-stromsgodset-record-win.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1991-09-18-saunders-european-return",
+      "event": "Saunders scores four on Liverpool’s European return",
+      "historicalEventDate": "1991-09-18",
+      "featuredWeek": "2026-09-14",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor (existing completed draft)",
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/1991-09-18-saunders-european-return.md",
+      "draftPath": "docs/editorial/drafts/saunders-four-kuusysi-european-return-1991.md",
+      "originalDraftId": "libfile_b96f24ec7f688191b1ff1cc251a1af50",
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/1991-09-18-saunders-european-return.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1925-09-19-forshaw-manchester-united",
+      "event": "Forshaw’s hat-trick in a 5–0 win over United",
+      "historicalEventDate": "1925-09-19",
+      "featuredWeek": "2026-09-14",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor (existing completed draft)",
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/1925-09-19-forshaw-manchester-united.md",
+      "draftPath": "docs/editorial/drafts/forshaw-hat-trick-manchester-united-1925.md",
+      "originalDraftId": "libfile_7a896d8b17d08191960b768f4b5493f3",
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/1925-09-19-forshaw-manchester-united.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1987-09-20-nicol-newcastle",
+      "event": "Nicol’s hat-trick at Newcastle",
+      "historicalEventDate": "1987-09-20",
+      "featuredWeek": "2026-09-14",
+      "selection": "selected",
+      "status": "published",
+      "owner": null,
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/1987-09-20-nicol-newcastle.md",
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/steve-nicol-hat-trick-newcastle-1987",
+      "approval": null,
+      "notes": "Existing published factual article; no new approval inferred.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/1987-09-20-nicol-newcastle.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "2006-09-20-alonso-own-half",
+      "event": "Alonso scores from inside his own half",
+      "historicalEventDate": "2006-09-20",
+      "featuredWeek": "2026-09-14",
+      "selection": "selected",
+      "status": "published",
+      "owner": null,
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/2006-09-20-alonso-own-half.md",
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/alonso-own-half-newcastle-2006",
+      "approval": null,
+      "notes": "Existing published factual article; no new approval inferred.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/2006-09-20-alonso-own-half.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1985-09-21-goodison-derby-win",
+      "event": "Three first-half goals settle the Goodison derby",
+      "historicalEventDate": "1985-09-21",
+      "featuredWeek": "2026-09-21",
+      "selection": "selected",
+      "status": "published",
+      "owner": null,
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/1985-09-21-goodison-derby-win.md",
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpools-manager-scored-after-21-seconds-at-goodison",
+      "approval": null,
+      "notes": "Existing published article is unreviewed for factual History classification. Reuse writing; Denny must approve reclassification. Do not rewrite.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/1985-09-21-goodison-derby-win.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1993-09-22-fowler-scoring-debut",
+      "event": "Fowler scores on his Liverpool debut",
+      "historicalEventDate": "1993-09-22",
+      "featuredWeek": "2026-09-21",
+      "selection": "selected",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/1993-09-22-fowler-scoring-debut.md",
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Existing This Week selection; retrieve sources before writing.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/1993-09-22-fowler-scoring-debut.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "liverpool-sheffield-united-1972-five-goals",
+      "event": "Liverpool 5–0 Sheffield United: three quick goals take Liverpool towards the top",
+      "historicalEventDate": "1972-09-23",
+      "featuredWeek": "2026-09-21",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "Archive editor (existing completed draft)",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/015-liverpool-sheffield-united-1972-five-goals.md",
+      "originalDraftId": "libfile_72c94663f87c819188edfcfd0083ee6d",
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Saved draft from the classic-match queue. Preserve alongside the selected event; do not silently replace that selection or rewrite.",
+      "evidence": [
+        {
+          "location": "libfile_72c94663f87c819188edfcfd0083ee6d",
+          "confidence": "high",
+          "scope": "Retrieved complete saved draft; publication not approved."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1986-09-23-fulham-ten-goals",
+      "event": "Liverpool put ten past Fulham",
+      "historicalEventDate": "1986-09-23",
+      "featuredWeek": "2026-09-21",
+      "selection": "selected",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/1986-09-23-fulham-ten-goals.md",
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Existing This Week selection; retrieve sources before writing.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/1986-09-23-fulham-ten-goals.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1989-09-23-classic-192",
+      "event": "Everton 1–3 Liverpool",
+      "historicalEventDate": "1989-09-23",
+      "featuredWeek": "2026-09-21",
+      "selection": "alternative",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Preserved classic-match longlist 192; not a commissioned draft. Do not replace selected topics without recording the decision here.",
+      "evidence": [
+        {
+          "location": "libfile_7daf9eb45c848191ad54fc730946ff74",
+          "confidence": "high",
+          "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "2007-09-25-torres-reading-hat-trick",
+      "event": "Torres hits a hat-trick at Reading",
+      "historicalEventDate": "2007-09-25",
+      "featuredWeek": "2026-09-21",
+      "selection": "selected",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/2007-09-25-torres-reading-hat-trick.md",
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Existing This Week selection; retrieve sources before writing.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/2007-09-25-torres-reading-hat-trick.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "2009-09-26-torres-hull-hat-trick",
+      "event": "Torres and Babel lead a six-goal win",
+      "historicalEventDate": "2009-09-26",
+      "featuredWeek": "2026-09-21",
+      "selection": "selected",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/2009-09-26-torres-hull-hat-trick.md",
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Existing This Week selection; retrieve sources before writing.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/2009-09-26-torres-hull-hat-trick.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1978-09-27-classic-084",
+      "event": "Liverpool 0–0 Nottingham Forest",
+      "historicalEventDate": "1978-09-27",
+      "featuredWeek": "2026-09-21",
+      "selection": "alternative",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Preserved classic-match longlist 084; not a commissioned draft. Do not replace selected topics without recording the decision here.",
+      "evidence": [
+        {
+          "location": "libfile_7daf9eb45c848191ad54fc730946ff74",
+          "confidence": "high",
+          "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "2008-09-27-torres-goodison-double",
+      "event": "Torres scores twice to win the derby",
+      "historicalEventDate": "2008-09-27",
+      "featuredWeek": "2026-09-21",
+      "selection": "selected",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": "content/this-week/liverpool/2008-09-27-torres-goodison-double.md",
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Existing This Week selection; retrieve sources before writing.",
+      "evidence": [
+        {
+          "location": "content/this-week/liverpool/2008-09-27-torres-goodison-double.md",
+          "confidence": "high",
+          "scope": "Retrieved repository inventory, not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1985-09-28-classic-153",
+      "event": "Liverpool 4–1 Tottenham Hotspur",
+      "historicalEventDate": "1985-09-28",
+      "featuredWeek": "2026-09-28",
+      "selection": "alternative",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Preserved classic-match longlist 153; not a commissioned draft. Do not replace selected topics without recording the decision here.",
+      "evidence": [
+        {
+          "location": "libfile_7daf9eb45c848191ad54fc730946ff74",
+          "confidence": "high",
+          "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "2002-09-28-proposed-match",
+      "event": "Manchester City 0–3 Liverpool — Owen hat-trick",
+      "historicalEventDate": "2002-09-28",
+      "featuredWeek": "2026-09-28",
+      "selection": "provisional",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "evidence": [
+        {
+          "location": "User-supplied conversation, 14 September 2026",
+          "confidence": "unverified",
+          "scope": "Proposed topic/date only; not a retrieved historical source."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1981-09-29-shankly-remembrance",
+      "event": "Remembering Bill Shankly",
+      "historicalEventDate": "1981-09-29",
+      "featuredWeek": "2026-09-28",
+      "selection": "provisional",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "evidence": [
+        {
+          "location": "User-supplied conversation, 14 September 2026",
+          "confidence": "unverified",
+          "scope": "Proposed topic/date only; not a retrieved historical source."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "leeds-liverpool-1972-phil-boersma",
+      "event": "Leeds United 1–2 Liverpool: Phil Boersma completes the comeback",
+      "historicalEventDate": "1972-09-30",
+      "featuredWeek": "2026-09-28",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "Archive editor (existing completed draft)",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/016-leeds-liverpool-1972-phil-boersma.md",
+      "originalDraftId": "libfile_052c897475a48191a01a5c287bdc9880",
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Saved draft from the classic-match queue. Preserve alongside the selected event; do not silently replace that selection or rewrite.",
+      "evidence": [
+        {
+          "location": "libfile_052c897475a48191a01a5c287bdc9880",
+          "confidence": "high",
+          "scope": "Retrieved complete saved draft; publication not approved."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1975-09-30-classic-044",
+      "event": "Liverpool 3–1 Hibernian",
+      "historicalEventDate": "1975-09-30",
+      "featuredWeek": "2026-09-28",
+      "selection": "alternative",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Preserved classic-match longlist 044; not a commissioned draft. Do not replace selected topics without recording the decision here.",
+      "evidence": [
+        {
+          "location": "libfile_7daf9eb45c848191ad54fc730946ff74",
+          "confidence": "high",
+          "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1981-09-30-proposed-match",
+      "event": "Liverpool 7–0 Oulu Palloseura",
+      "historicalEventDate": "1981-09-30",
+      "featuredWeek": "2026-09-28",
+      "selection": "provisional",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "evidence": [
+        {
+          "location": "User-supplied conversation, 14 September 2026",
+          "confidence": "unverified",
+          "scope": "Proposed topic/date only; not a retrieved historical source."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1986-09-30-classic-165",
+      "event": "Everton 1–4 Liverpool",
+      "historicalEventDate": "1986-09-30",
+      "featuredWeek": "2026-09-28",
+      "selection": "alternative",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Preserved classic-match longlist 165; not a commissioned draft. Do not replace selected topics without recording the decision here.",
+      "evidence": [
+        {
+          "location": "libfile_7daf9eb45c848191ad54fc730946ff74",
+          "confidence": "high",
+          "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1980-10-01-proposed-match",
+      "event": "Liverpool 10–1 Oulu Palloseura",
+      "historicalEventDate": "1980-10-01",
+      "featuredWeek": "2026-09-28",
+      "selection": "provisional",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "evidence": [
+        {
+          "location": "User-supplied conversation, 14 September 2026",
+          "confidence": "unverified",
+          "scope": "Proposed topic/date only; not a retrieved historical source."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "2019-10-02-proposed-match",
+      "event": "Liverpool 4–3 Salzburg",
+      "historicalEventDate": "2019-10-02",
+      "featuredWeek": "2026-09-28",
+      "selection": "provisional",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "evidence": [
+        {
+          "location": "User-supplied conversation, 14 September 2026",
+          "confidence": "unverified",
+          "scope": "Proposed topic/date only; not a retrieved historical source."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1979-10-03-classic-092",
+      "event": "Dinamo Tbilisi 3–0 Liverpool",
+      "historicalEventDate": "1979-10-03",
+      "featuredWeek": "2026-09-28",
+      "selection": "alternative",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Preserved classic-match longlist 092; not a commissioned draft. Do not replace selected topics without recording the decision here.",
+      "evidence": [
+        {
+          "location": "libfile_7daf9eb45c848191ad54fc730946ff74",
+          "confidence": "high",
+          "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1993-10-05-proposed-match",
+      "event": "Liverpool 5–0 Fulham — Fowler scores five",
+      "historicalEventDate": "1993-10-05",
+      "featuredWeek": "2026-10-05",
+      "selection": "provisional",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "evidence": [
+        {
+          "location": "User-supplied conversation, 14 September 2026",
+          "confidence": "unverified",
+          "scope": "Proposed topic/date only; not a retrieved historical source."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1972-10-07-classic-017",
+      "event": "Liverpool 1–0 Everton",
+      "historicalEventDate": "1972-10-07",
+      "featuredWeek": "2026-10-05",
+      "selection": "alternative",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Preserved classic-match longlist 017; not a commissioned draft. Do not replace selected topics without recording the decision here.",
+      "evidence": [
+        {
+          "location": "libfile_7daf9eb45c848191ad54fc730946ff74",
+          "confidence": "high",
+          "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "2015-10-08-klopp-appointment",
+      "event": "Jürgen Klopp appointed Liverpool manager",
+      "historicalEventDate": "2015-10-08",
+      "featuredWeek": "2026-10-05",
+      "selection": "provisional",
+      "status": "planned",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified.",
+      "evidence": [
+        {
+          "location": "User-supplied conversation, 14 September 2026",
+          "confidence": "unverified",
+          "scope": "Proposed topic/date only; not a retrieved historical source."
+        }
+      ],
+      "researchStatus": "needs_research"
+    }
+  ]
+}

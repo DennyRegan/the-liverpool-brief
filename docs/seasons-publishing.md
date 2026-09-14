@@ -1,5 +1,7 @@
 # Seasons publishing and research
 
+For shared historical writing and event selection, first read the latest main `docs/editorial/history-calendar.json` and follow `docs/editorial/README.md`; stop if inaccessible. Reuse/claim work there, save drafts with their status and reconcile concurrent changes. Requested factual article drafts may continue without awaiting prior approvals, but publishing new articles still requires explicit Denny approval. Keep British English, text only, retrieved sources and confidence labels in editorial notes. Existing season-reference permissions below do not authorise article publication, calendar approval or site feature releases.
+
 Seasons lives inside History at `/history/seasons`. Existing History Explorer and era URLs remain in place. These are AI-assisted reference entries; the editor’s Archive remains the canonical home for original long-form writing.
 
 ## Data and relationships
