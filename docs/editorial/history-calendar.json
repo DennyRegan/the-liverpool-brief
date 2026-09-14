@@ -419,27 +419,28 @@
       "historicalEventDate": "2007-09-25",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "GPT-6 Astra — /root/astra_research_writer",
-      "claim": {
-        "token": "astra-research-writer-reading-2026-09-14T19:28:01.484Z",
-        "claimedAt": "2026-09-14T19:28:01.484Z",
-        "baseCommit": "dc82f32ba2e172a0e01deed8247a15b385a0515a"
-      },
+      "claim": null,
       "eventPath": "content/this-week/liverpool/2007-09-25-torres-reading-hat-trick.md",
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/torres-first-hat-trick-reading-2007.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Existing This Week selection; retrieve sources before writing.",
+      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/torres-first-hat-trick-reading-2007-editor-notes.md.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/2007-09-25-torres-reading-hat-trick.md",
           "confidence": "high",
           "scope": "Retrieved repository inventory, not a new historical fact-check."
+        },
+        {
+          "location": "docs/editorial/drafts/torres-first-hat-trick-reading-2007-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual draft and source/conflict audit by configured GPT-6 Astra; unpublished pending Denny review."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "verified"
     },
     {
       "id": "2009-09-26-torres-hull-hat-trick",
