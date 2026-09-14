@@ -1808,5 +1808,10 @@
     "id": "st-james-park",
     "label": "St James’ Park",
     "kind": "location"
+  },
+  {
+    "id": "wembley",
+    "label": "Wembley",
+    "kind": "location"
   }
 ]
