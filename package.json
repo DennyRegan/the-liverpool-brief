@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "validate:calendar": "node scripts/validate-editorial-calendar.mjs",
     "dev": "node scripts/dev.mjs",
     "build": "node scripts/validate-history.mjs && next build",
     "start": "next start",

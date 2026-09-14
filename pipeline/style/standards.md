@@ -620,3 +620,6 @@ yes.
 A feature that fails this checklist is not ready for publication, however fluent
 or dramatic it may sound. The Archive earns trust one carefully researched piece
 at a time.
+# Shared editorial coordination
+
+Before commissioning or running this pipeline for history writing, the supervising editor must read the latest main `docs/editorial/history-calendar.json` and follow `docs/editorial/README.md`. Stop if unavailable. Claim work on that shared calendar before drafting, reuse existing drafts, save results and update status immediately, preserving other writers and reconciling concurrent saves. This is the only commissioning queue; source packets and old longlists are not competing plans. Requested factual drafts are permitted, but explicit Denny approval is required before publishing new articles. Keep retrieved-source checks, British English, text only and confidence labels in editorial notes. This coordination rule does not weaken the evidence constraints below.
