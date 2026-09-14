@@ -365,27 +365,28 @@
       "historicalEventDate": "1986-09-23",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "GPT-6 Astra — /root/astra_research_writer",
-      "claim": {
-        "token": "astra-research-writer-fulham-1986-2026-09-14T19:25:35.147Z",
-        "claimedAt": "2026-09-14T19:25:35.147Z",
-        "baseCommit": "9dd9b47eb94b24c65cb0f04915e0bd82c51f24a2"
-      },
+      "claim": null,
       "eventPath": "content/this-week/liverpool/1986-09-23-fulham-ten-goals.md",
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/mcmahon-four-fulham-ten-goals-1986.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Existing This Week selection; retrieve sources before writing.",
+      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/mcmahon-four-fulham-ten-goals-1986-editor-notes.md.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/1986-09-23-fulham-ten-goals.md",
           "confidence": "high",
           "scope": "Retrieved repository inventory, not a new historical fact-check."
+        },
+        {
+          "location": "docs/editorial/drafts/mcmahon-four-fulham-ten-goals-1986-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual draft and source/conflict audit by configured GPT-6 Astra; unpublished pending Denny review."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "verified"
     },
     {
       "id": "1989-09-23-classic-192",
