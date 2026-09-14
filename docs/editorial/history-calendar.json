@@ -48,15 +48,19 @@
       "historicalEventDate": "1964-09-14",
       "featuredWeek": "2026-09-14",
       "selection": "selected",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "Archive editor (existing completed draft)",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1964-09-14-first-european-night-anfield.md",
       "draftPath": "docs/editorial/drafts/anfield-first-european-match-reykjavik-1964.md",
       "originalDraftId": "libfile_e787a24fc9f08191b0514fd2d6db4cfb",
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-14T19:15:00.978827Z",
+        "evidence": "Explicit instruction in the existing six-report drafting conversation on 14 September 2026: “Commit and publish all”. Applies to the completed 14–19 September reports."
+      },
+      "notes": "Denny approved publication of this completed report. Metadata gaps resolved and article sources retained at the bottom. Publication queued; live verification pending.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/1964-09-14-first-european-night-anfield.md",
@@ -72,15 +76,19 @@
       "historicalEventDate": "2004-09-15",
       "featuredWeek": "2026-09-14",
       "selection": "selected",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "Archive editor (existing completed draft)",
       "claim": null,
       "eventPath": "content/this-week/liverpool/2004-09-15-monaco-champions-league.md",
       "draftPath": "docs/editorial/drafts/liverpool-monaco-champions-league-2004.md",
       "originalDraftId": "libfile_60a9983506608191850116ca96a22279",
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-14T19:15:00.978981Z",
+        "evidence": "Explicit instruction in the existing six-report drafting conversation on 14 September 2026: “Commit and publish all”. Applies to the completed 14–19 September reports."
+      },
+      "notes": "Denny approved publication of this completed report. Metadata gaps resolved and article sources retained at the bottom. Publication queued; live verification pending.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/2004-09-15-monaco-champions-league.md",
@@ -120,15 +128,19 @@
       "historicalEventDate": "2016-09-16",
       "featuredWeek": "2026-09-14",
       "selection": "selected",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "Archive editor (existing completed draft)",
       "claim": null,
       "eventPath": "content/this-week/liverpool/2016-09-16-henderson-chelsea.md",
       "draftPath": "docs/editorial/drafts/henderson-chelsea-winner-2016.md",
       "originalDraftId": "libfile_6e2ed20bc2b081918ec000160594b671",
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-14T19:15:00.979055Z",
+        "evidence": "Explicit instruction in the existing six-report drafting conversation on 14 September 2026: “Commit and publish all”. Applies to the completed 14–19 September reports."
+      },
+      "notes": "Denny approved publication of this completed report. Metadata gaps resolved and article sources retained at the bottom. Publication queued; live verification pending.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/2016-09-16-henderson-chelsea.md",
@@ -144,15 +156,19 @@
       "historicalEventDate": "1974-09-17",
       "featuredWeek": "2026-09-14",
       "selection": "selected",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "Archive editor (existing completed draft)",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1974-09-17-stromsgodset-record-win.md",
       "draftPath": "docs/editorial/drafts/liverpool-stromsgodset-record-win-1974.md",
       "originalDraftId": "libfile_016e9c1f785c8191becce05729f25b22",
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-14T19:15:00.979126Z",
+        "evidence": "Explicit instruction in the existing six-report drafting conversation on 14 September 2026: “Commit and publish all”. Applies to the completed 14–19 September reports."
+      },
+      "notes": "Denny approved publication of this completed report. Metadata gaps resolved and article sources retained at the bottom. Publication queued; live verification pending.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/1974-09-17-stromsgodset-record-win.md",
@@ -168,15 +184,19 @@
       "historicalEventDate": "1991-09-18",
       "featuredWeek": "2026-09-14",
       "selection": "selected",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "Archive editor (existing completed draft)",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1991-09-18-saunders-european-return.md",
       "draftPath": "docs/editorial/drafts/saunders-four-kuusysi-european-return-1991.md",
       "originalDraftId": "libfile_b96f24ec7f688191b1ff1cc251a1af50",
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-14T19:15:00.979191Z",
+        "evidence": "Explicit instruction in the existing six-report drafting conversation on 14 September 2026: “Commit and publish all”. Applies to the completed 14–19 September reports."
+      },
+      "notes": "Denny approved publication of this completed report. Metadata gaps resolved and article sources retained at the bottom. Publication queued; live verification pending.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/1991-09-18-saunders-european-return.md",
@@ -192,15 +212,19 @@
       "historicalEventDate": "1925-09-19",
       "featuredWeek": "2026-09-14",
       "selection": "selected",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "Archive editor (existing completed draft)",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1925-09-19-forshaw-manchester-united.md",
       "draftPath": "docs/editorial/drafts/forshaw-hat-trick-manchester-united-1925.md",
       "originalDraftId": "libfile_7a896d8b17d08191960b768f4b5493f3",
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Denny confirmed completed on 14 September; awaiting review. No publication permission. See preserved editor notes for metadata gates.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-14T19:15:00.979255Z",
+        "evidence": "Explicit instruction in the existing six-report drafting conversation on 14 September 2026: “Commit and publish all”. Applies to the completed 14–19 September reports."
+      },
+      "notes": "Denny approved publication of this completed report. Metadata gaps resolved and article sources retained at the bottom. Publication queued; live verification pending.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/1925-09-19-forshaw-manchester-united.md",
