@@ -1,7 +1,7 @@
 # The Liverpool Brief — Project Context
 
 ## Product
-Independent Liverpool writing by Denny Regan. Home has a short introduction, one current Brief story, the latest Opinion and the latest Archive article. Articles combines writing with All / Opinion / Archive filters. Existing Archive article URLs remain permanent. This Week surfaces recurring events and a bottom Further reading collection. The Brief remains at /brief. History explores managerial eras and links the same canonical Archive articles.
+Independent Liverpool writing by Denny Regan. Home leads with the latest article and two further reads from the combined Articles collection. A compact Brief follows, then three mixed factual History/season picks, a linked event from the fixed current week, and populated History browsing destinations. Factual History cannot displace the Articles lead. Season recency uses reviewedOn (labelled Reviewed), since season records have no publication date. Articles combines writing with All / Opinion / Archive filters. Existing Archive article URLs remain permanent. This Week surfaces recurring events and a bottom Further reading collection. The Brief remains at /brief. History explores managerial eras and links the same canonical Archive articles.
 
 ## Navigation
 Home | The Brief | Articles | History | This Week | About. Maintain mobile layout.
