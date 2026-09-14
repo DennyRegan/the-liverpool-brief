@@ -1,5 +1,11 @@
 # Shared history editorial workflow
 
+## Astra ownership — Denny's instruction, 14 September 2026
+
+GPT-6 Astra (`gpt-6-astra`) must explicitly handle historical research, source assessment, fact-checking and factual article writing. A coordinating or publishing agent may maintain the calendar, validate metadata and publish specifically approved articles, but must not substitute another model for this research or writing.
+
+Use a runtime-confirmed Astra session or explicitly delegate the research and writing to an Astra worker with model `gpt-6-astra` where supported. This instruction authorises that delegation. A prompt saying “act as Astra” is not model selection. If Astra execution cannot be selected or verified, stop research/writing and report the model-routing blocker; do not silently fall back. Record the actual configured model and available run/worker identifier in editorial notes, never invent them or put them in public prose. Preserve existing completed drafts without relabelling their authorship. Denny's article approval and all shared-calendar, source and publication rules still apply.
+
 The only commissioning calendar is [`docs/editorial/history-calendar.json`](https://github.com/DennyRegan/the-liverpool-brief/blob/main/docs/editorial/history-calendar.json) on **main** in `DennyRegan/the-liverpool-brief`. It records event/date, featured Monday, selection, writing status, ownership, real draft path and published destination. This guide is a protocol, not a second list.
 
 ## Activation and access

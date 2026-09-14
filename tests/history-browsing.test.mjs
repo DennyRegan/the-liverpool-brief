@@ -7,7 +7,16 @@ import { getArchiveFeatures, getHistoryBrowseArticles } from '../lib/content/arc
 
 test('only approved reports enter Matches; existing player articles wait for review', () => {
   assert.deepEqual(getHistoryBrowseArticles('matches').map(a => a.slug).sort(), [
-    'alonso-own-half-newcastle-2006', 'liverpool-arsenal-1971-toshack-smith', 'liverpool-everton-comeback-1970', 'steve-nicol-hat-trick-newcastle-1987',
+    'alonso-own-half-newcastle-2006',
+    'anfield-first-european-match-reykjavik-1964',
+    'forshaw-hat-trick-manchester-united-1925',
+    'henderson-chelsea-winner-2016',
+    'liverpool-arsenal-1971-toshack-smith',
+    'liverpool-everton-comeback-1970',
+    'liverpool-monaco-champions-league-2004',
+    'liverpool-stromsgodset-record-win-1974',
+    'saunders-four-kuusysi-european-return-1991',
+    'steve-nicol-hat-trick-newcastle-1987',
     'whelan-wembley-final-tottenham-1982',
   ]);
   assert.deepEqual(getHistoryBrowseArticles('players'), []);

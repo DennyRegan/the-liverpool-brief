@@ -1823,5 +1823,50 @@
     "id": "everton",
     "label": "Everton",
     "kind": "opposition"
+  },
+  {
+    "id": "kr-reykjavik",
+    "label": "KR Reykjavík",
+    "kind": "opposition"
+  },
+  {
+    "id": "as-monaco",
+    "label": "AS Monaco",
+    "kind": "opposition"
+  },
+  {
+    "id": "chelsea",
+    "label": "Chelsea",
+    "kind": "opposition"
+  },
+  {
+    "id": "stromsgodset",
+    "label": "Strømsgodset",
+    "kind": "opposition"
+  },
+  {
+    "id": "kuusysi-lahti",
+    "label": "Kuusysi Lahti",
+    "kind": "opposition"
+  },
+  {
+    "id": "manchester-united",
+    "label": "Manchester United",
+    "kind": "opposition"
+  },
+  {
+    "id": "stamford-bridge",
+    "label": "Stamford Bridge",
+    "kind": "location"
+  },
+  {
+    "id": "dick-forshaw",
+    "label": "Dick Forshaw",
+    "kind": "person"
+  },
+  {
+    "id": "matt-mcqueen",
+    "label": "Matt McQueen",
+    "kind": "person"
   }
 ]
