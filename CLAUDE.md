@@ -7,7 +7,7 @@ Independent Liverpool writing by Denny Regan. Home leads with the latest article
 Home | The Brief | Articles | History | This Week | About. Maintain mobile layout.
 
 ## Editorial rules
-Preserve Denny’s existing opinion text and URLs. The ten original AI-written Archive articles remain withdrawn. All new articles are written by Denny; AI assists research, fact-checking and grammar only. Denny has authorised scheduled research and upload of short, source-verified historical entries. Never invent facts or dates. Long-form articles remain written by Denny.
+Preserve Denny’s opinion writing and existing text/URLs. The ten withdrawn original AI Archive articles stay withdrawn. Requested factual articles may be drafted by editors/AI, with explicit Denny approval before publication. Read the latest main `docs/editorial/history-calendar.json` and follow `docs/editorial/README.md`: stop if inaccessible, claim visibly before writing, preserve existing drafts, save each result and reconcile concurrent changes. Maintain the current UK calendar week plus three weeks ahead. Never invent facts, dates, sources, draft paths or approval; use British English, text only and source confidence labels in editorial notes. Continue drafting without waiting for the previous draft's approval. No separate supporting-article plan governs this work.
 
 ## Architecture
 Next.js App Router; local Markdown with YAML frontmatter validated by Zod. Opinion: content/articles/liverpool. Archive: content/archive/liverpool. Current brief: content/briefs/liverpool/current.md. Recurring events: content/this-week/liverpool.

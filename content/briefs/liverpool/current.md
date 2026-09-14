@@ -1,10 +1,32 @@
 ---
 {
-  "lastUpdated": "2026-09-13T07:14:22.189Z",
+  "lastUpdated": "2026-09-14T17:21:54.369Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
+    {
+      "headline": "Gomez set to return; Mamardashvili to start against Spurs",
+      "category": "Team news",
+      "summary": "Joe Gomez is expected to be available for Liverpool’s Carabao Cup third-round tie against Tottenham at Anfield on 15 September, following a muscle injury sustained in pre-season. Andoni Iraola will decide how many minutes he can play and has confirmed Giorgi Mamardashvili will start in goal. Conor Bradley remains some way from returning to team training.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official fitness update, 14 September 2026",
+          "url": "https://www.liverpoolfc.com/news/fitness-latest-joe-gomez-return-update-conor-bradley"
+        },
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official Tottenham team news, 14 September 2026",
+          "url": "https://www.liverpoolfc.com/news/liverpool-v-tottenham-hotspur-team-news-4"
+        },
+        {
+          "name": "Reuters — confidence: high",
+          "platform": "Press conference report, 14 September 2026",
+          "url": "https://www.reuters.com/sports/soccer/iraola-weighing-player-workloads-liverpool-prepare-spurs-clash-2026-09-14/"
+        }
+      ]
+    },
     {
       "headline": "Liverpool held by Fulham as Gakpo returns",
       "category": "Match",

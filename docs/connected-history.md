@@ -1,5 +1,7 @@
 # Connected history and discovery V1
 
+Before any historical article work, read the latest main `docs/editorial/history-calendar.json` and follow `docs/editorial/README.md`. Claim work before drafting, reuse saved writing, update the shared row after each save and reconcile concurrent changes. If the calendar is unavailable, stop. Requested factual drafts are permitted; no new article publication or factual reclassification is approved by the calendar. Keep British English, text only, retrieved-source checks and source confidence labels in editorial notes. The calendar is the only commissioning queue; canonical metadata below remains binding.
+
 Review branch: `feature/connected-history-v1`. This work must be reviewed before merge or production deployment.
 
 Archive Markdown at `content/archive/liverpool/<slug>.md` remains the only article source. The existing loader, Zod schema, canonical `/archive/<slug>` URLs, combined Articles collection, History Explorer and This Week connections are retained. The entity registry contains labels and identities, never article bodies. Opinion has its own unchanged schema and collection.

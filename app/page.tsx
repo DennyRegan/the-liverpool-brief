@@ -3,7 +3,7 @@ import { getWriting } from "@/lib/content/writing";
 import { getBrief } from "@/lib/content/briefs";
 import { getArchiveFeatures } from "@/lib/content/archive";
 import { getSeasons, seasonLabel } from "@/lib/content/seasons";
-import { getHistoryEvents, getHistoryWindow, getWeekReading } from "@/lib/content/this-week";
+import { getHistoryEvents, getHistoryWindow, getArticleWeek } from "@/lib/content/this-week";
 import { selectHomeWriting, selectHomeHistory, selectSeasonSpotlight } from "@/lib/content/homepage";
 import { formatLastUpdated, formatListDate, getArticleExcerpt, getExcerpt } from "@/lib/format";
 import { SiteHeader } from "@/app/components/SiteHeader";
@@ -32,13 +32,11 @@ export default function Home() {
   const labels: Record<string, string> = { match: "Match", player: "Player", manager: "Manager", transfer: "Transfer", season: "Season", competition: "Competition", "club-event": "Club history", other: "History" };
   const days = getHistoryWindow(getHistoryEvents());
   const spotlight = selectSeasonSpotlight(seasons, days[0].iso);
-  const weekReading = getWeekReading(archive, days);
-  const candidates = days.flatMap(day => day.events.map(event => ({
-    day, event,
-    article: archive.find(article => article.slug === event.archiveSlug) ?? weekReading.find(article =>
-      article.historicalEventDate === `${event.year}-${String(event.month).padStart(2, "0")}-${String(event.day).padStart(2, "0")}`),
+  const candidates = getArticleWeek(factual, days).flatMap(day => day.articles.map(article => ({
+    day, article,
+    event: { year: article.historicalEventDate?.slice(0, 4) ?? article.historicalPeriod, title: article.title, summary: article.excerpt },
   })));
-  const feature = candidates.find(candidate => candidate.article) ?? candidates[0];
+  const feature = candidates[0];
   const browse = [
     ...(factual.some(article => article.articleType === "match") ? [{ href: "/history/matches", title: "Matches", text: "The games worth remembering." }] : []),
     ...(factual.some(article => article.articleType === "player") ? [{ href: "/history/players", title: "Players", text: "The people who wore the shirt." }] : []),

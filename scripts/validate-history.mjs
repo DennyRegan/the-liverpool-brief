@@ -1,4 +1,6 @@
 import { getSeasons } from '../lib/content/seasons.ts';
+import fs from 'node:fs';
+import { validateCalendar, calendarPath } from './validate-editorial-calendar.mjs';
 import { getHistoryEntities } from '../lib/content/entities.ts';
 import { getHistoryEvents } from '../lib/content/this-week.ts';
 import { getArchiveFeatures } from '../lib/content/archive.ts';
@@ -19,3 +21,4 @@ for (const era of history.eras) {
 console.log(`Validated ${history.eras.length} managerial eras and ${articles.length} canonical Archive associations.`);
 
 console.log(`Validated ${getSeasons().length} structured season records.`);
+console.log(`Validated ${validateCalendar(JSON.parse(fs.readFileSync(calendarPath, 'utf8'))).length} shared editorial calendar entries.`);

@@ -44,6 +44,8 @@ An optional article `excerpt` supplies the homepage, collection and article desc
 
 ## This Week
 
+All editors and the existing weekly task use the latest main [shared editorial calendar](docs/editorial/history-calendar.json) and [claim/save/reconcile workflow](docs/editorial/README.md). If it cannot be accessed, stop rather than create another plan. It covers the current UK Monday–Sunday week plus three weeks ahead and preserves completed drafts pending explicit publication approval.
+
 See [the This Week guide](docs/this-week.md) for content examples, image and Archive links, date behaviour, validation and exact checks. No production events or replacement Archive articles have been invented.
 
 Use Node 22.18+ or 24, then `npm ci`, `npm test`, `npm run lint`, and `npm run build`. Tests use Node’s built-in runner; no new dependencies were introduced. The build validates history entries before compiling. Preview with `npm run dev`.
