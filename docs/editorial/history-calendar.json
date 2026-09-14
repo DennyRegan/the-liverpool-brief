@@ -9,10 +9,12 @@
   "activation": "Read and write only the latest main version after the setup PR is approved and merged. Review branch is not a second active calendar.",
   "reviewNotes": [
     "Inventory reconciliation, not fresh match research. Existing drafts were retrieved in full and copied without rewriting; no publication approval was invented.",
-    "Current week: six ready-for-review drafts, two existing published factual reports. Goodison (21 September) already exists but lacks factual classification.",
+    "Initial setup inventory on 14 September (retained as history): six ready-for-review drafts, two existing published factual reports. Goodison (21 September) already exists but lacks factual classification.",
     "Weeks 28 September–4 October and 5–11 October remain provisional. Empty dates are research gaps, not claims that no worthwhile event exists.",
     "The classic-match progress file and prior chat lists are historical inputs, not independent commissioning queues. This calendar now records overlapping selections and drafts.",
-    "14 September 2026 follow-up: seven later-week provisional proposals have retrieved-source core event/date verification in docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md. They remain provisional/planned, not commissioned or approved articles. Original proposal evidence retained as provenance."
+    "14 September 2026 follow-up: seven later-week provisional proposals have retrieved-source core event/date verification in docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md. They remain provisional/planned, not commissioned or approved articles. Original proposal evidence retained as provenance.",
+    "14 September 2026 completed follow-up: 14–20 September retains eight published reports. For 21–27 September, five selected missing reports are now saved ready_for_review by explicitly configured gpt-6-astra (/root/astra_research_writer); the existing 1985 Goodison article still needs separate factual-classification approval. Seven later-week proposals have verified core dates/facts but remain provisional/planned. No new articles or short events were published by this run; existing drafts and concurrent main changes were preserved.",
+    "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "gaps": [
     {
@@ -20,7 +22,7 @@
       "dates": [
         "2026-09-24"
       ],
-      "note": "No selected event. Research only if worthwhile; no filler."
+      "note": "24 September remains without a selected event; research selectively, no filler. Five selected reports for 22, 23 and 25–27 September are ready for review. Existing 21 September 1985 writing requires explicit factual-classification approval."
     },
     {
       "featuredWeek": "2026-09-28",
@@ -28,7 +30,7 @@
         "2026-10-03",
         "2026-10-04"
       ],
-      "note": "3 October has a longlist alternative; assess before selection. 4 October remains unresearched."
+      "note": "Five core-event/date-verified proposals remain provisional. 3 October has an unresearched longlist alternative; 4 October remains unresearched. The saved 30 September Leeds alternative is preserved without replacing selections."
     },
     {
       "featuredWeek": "2026-10-05",
@@ -39,7 +41,7 @@
         "2026-10-10",
         "2026-10-11"
       ],
-      "note": "7 October has a longlist alternative. Broader research needed; do not force daily coverage."
+      "note": "Two core-event/date-verified proposals remain provisional. 7 October has an unresearched longlist alternative. The listed dates remain research/selection gaps, not findings that no worthwhile event exists; no forced daily coverage."
     }
   ],
   "entries": [
@@ -501,27 +503,28 @@
       "historicalEventDate": "2008-09-27",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "GPT-6 Astra — /root/astra_research_writer",
-      "claim": {
-        "token": "astra-research-writer-goodison-2008-2026-09-14T19:36:16.657Z",
-        "claimedAt": "2026-09-14T19:36:16.657Z",
-        "baseCommit": "47c0d40eb93f56e0fd6ff9dc802b2cf1d0db12ee"
-      },
+      "claim": null,
       "eventPath": "content/this-week/liverpool/2008-09-27-torres-goodison-double.md",
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/torres-goodison-derby-double-2008.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Existing This Week selection; retrieve sources before writing.",
+      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/torres-goodison-derby-double-2008-editor-notes.md.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/2008-09-27-torres-goodison-double.md",
           "confidence": "high",
           "scope": "Retrieved repository inventory, not a new historical fact-check."
+        },
+        {
+          "location": "docs/editorial/drafts/torres-goodison-derby-double-2008-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual draft and source/conflict audit by configured GPT-6 Astra; unpublished pending Denny review."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "verified"
     },
     {
       "id": "1985-09-28-classic-153",
