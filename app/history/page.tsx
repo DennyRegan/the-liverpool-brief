@@ -8,7 +8,7 @@ import { formatListDate } from "@/lib/format";
 
 export const metadata = {
   title: "Liverpool History Explorer | The Liverpool Brief",
-  description: "Explore Liverpool’s modern history, from Bill Shankly onwards. The managers, major honours, key players and original Archive writing, era by era.",
+  description: "Explore Liverpool’s modern history, from Bill Shankly onwards. The managers, major honours, key players and related articles, era by era.",
   alternates: { canonical: "/history" },
 };
 

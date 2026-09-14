@@ -4,6 +4,10 @@
 This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
 <!-- END:nextjs-agent-rules -->
 
+## Public writing sections
+
+Denny's decision: Articles is one collection, without Opinion/Archive tabs or a separate Archive section. Original writing belongs in Articles; factual reports and biographies remain in History. Preserve existing story URLs (including `/archive/[slug]`) and content metadata. Legacy Archive collection routes redirect to `/articles`; do not reintroduce the public Archive label.
+
 ## Shared history calendar — required before editorial work
 
 Read the latest **main** version of `docs/editorial/history-calendar.json` in `DennyRegan/the-liverpool-brief` and `docs/editorial/README.md` before choosing, researching or writing history content. If the canonical calendar is unavailable, stop; do not create another plan. Claim work visibly on the authoritative calendar before drafting, save each draft outside published collections, update status immediately, and fetch/reconcile concurrent changes before every save. Preserve other writers' work. Maintain the current Monday–Sunday Europe/London week plus three weeks ahead, nearest genuine gaps first.
