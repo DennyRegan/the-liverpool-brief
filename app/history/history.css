@@ -100,7 +100,7 @@
 }
 
 /* Seasons shares the History palette, typography and source disclosure. */
-.history-nav { display: flex; gap: 24px; border-bottom: 1px solid var(--line); margin-bottom: 32px; }
+.history-nav { display: flex; flex-wrap: wrap; gap: 0 24px; border-bottom: 1px solid var(--line); margin-bottom: 32px; }
 .history-nav a { min-height: 48px; display: inline-flex; align-items: center; padding: 10px 0; font-size: 14px; border-bottom: 2px solid transparent; }
 .history-nav a[aria-current='page'] { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
 .seasons-page, .season-detail { max-width: 880px; }
@@ -157,3 +157,7 @@
   .season-transfers { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px; }
   .season-section h2 { font-size: 30px; }
 }
+
+.hx-browse-list h2 { font-size: 26px; line-height: 1.25; }
+.hx-browse-list h2 a { display: block; padding-block: 8px; min-height: 48px; }
+.hx-browse-list { max-width: 760px; }

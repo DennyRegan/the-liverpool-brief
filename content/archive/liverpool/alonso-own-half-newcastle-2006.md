@@ -8,6 +8,7 @@ excerpt: "Dirk Kuyt scored his first Liverpool goal before Xabi Alonso struck fr
 slug: "alonso-own-half-newcastle-2006"
 category: "match"
 articleType: "match"
+editorialMode: "factual"
 season: "2006-07"
 playerIds: [xabi-alonso, dirk-kuyt]
 managerIds: [rafael-benitez]

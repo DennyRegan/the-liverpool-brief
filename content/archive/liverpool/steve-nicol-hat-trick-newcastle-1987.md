@@ -8,6 +8,7 @@ excerpt: "Selected on the right of midfield, Steve Nicol scored a hat-trick as L
 slug: "steve-nicol-hat-trick-newcastle-1987"
 category: "match"
 articleType: "match"
+editorialMode: "factual"
 season: "1987-88"
 playerIds: [steve-nicol, peter-beardsley, john-barnes, john-aldridge]
 managerIds: [kenny-dalglish]

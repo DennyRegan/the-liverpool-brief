@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { EraPortrait } from "@/app/components/history/EraPortrait";
 import { EraFacts } from "@/app/components/history/EraFacts";
-import { getArchiveFeatures } from "@/lib/content/archive";
+import { getFactualHistoryArticles } from "@/lib/content/archive";
 import { eraYears, getEraArticles, getHistory } from "@/lib/content/history";
 import { formatListDate } from "@/lib/format";
 
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-type Reading = ReturnType<typeof getArchiveFeatures>[number];
+type Reading = ReturnType<typeof getFactualHistoryArticles>[number];
 
 function ArchiveReading({ articles }: { articles: Reading[] }) {
   return <ul className="hx-reading-list" role="list">{articles.map(article => <li key={article.slug}>
@@ -49,7 +49,7 @@ export default async function EraPage({ params }: Props) {
   const era = history.eras[index];
   const previous = history.eras[index - 1];
   const next = history.eras[index + 1];
-  const articles = getEraArticles(getArchiveFeatures(), era.id, history.eras);
+  const articles = getEraArticles(getFactualHistoryArticles(), era.id, history.eras);
 
   return <>
     <SiteHeader active="history" />

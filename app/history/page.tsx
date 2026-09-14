@@ -2,7 +2,7 @@ import Link from "next/link";
 import { HistoryNav } from "@/app/components/history/HistoryNav";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { EraCard } from "@/app/components/history/EraCard";
-import { getArchiveFeatures } from "@/lib/content/archive";
+import { getFactualHistoryArticles } from "@/lib/content/archive";
 import { getHistory, getEraArticles, eraYears } from "@/lib/content/history";
 import { formatListDate } from "@/lib/format";
 
@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function HistoryPage() {
   const history = getHistory();
-  const articles = getArchiveFeatures();
+  const articles = getFactualHistoryArticles();
   return (
     <>
       <SiteHeader active="history" />
@@ -45,7 +45,7 @@ export default function HistoryPage() {
           <p>A guide to the men’s first team, including the 1991 caretaker spell and the 1998 joint tenure. Key players are a small editorial selection.</p>
           <p>{history.honoursNote}</p>
           <p>Facts checked {formatListDate(history.verifiedOn)}. Sources and date notes appear with each era.</p>
-          <Link href="/articles?category=archive">Read all Archive writing <span aria-hidden="true">→</span></Link>
+          <Link href="/history/matches">Browse historical matches <span aria-hidden="true">→</span></Link>
           <a href="#main-content">Back to the top <span aria-hidden="true">↑</span></a>
         </aside>
       </main>

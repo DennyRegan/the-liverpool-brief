@@ -3,13 +3,13 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { spawn } from 'node:child_process';
 import { once } from 'node:events';
-import { getArchiveFeatures } from '../lib/content/archive.ts';
+import { getFactualHistoryArticles } from '../lib/content/archive.ts';
 import { getHistory, getEraArticles } from '../lib/content/history.ts';
 
 const origin = 'http://127.0.0.1:3128';
 const server = spawn(process.execPath, ['node_modules/next/dist/bin/next', 'start', '--hostname', '127.0.0.1', '--port', '3128'], { stdio: ['ignore', 'pipe', 'pipe'] });
 const { eras } = getHistory();
-const articles = getArchiveFeatures();
+const articles = getFactualHistoryArticles();
 const get = async route => {
   const response = await fetch(new URL(route, origin), { signal: AbortSignal.timeout(15000) });
   assert.equal(response.status, 200, route);
