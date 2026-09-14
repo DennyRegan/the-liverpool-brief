@@ -1,0 +1,11 @@
+# Article-only This Week — separate review
+
+This site change depends on the shared workflow/calendar PR #25. Read the latest main `docs/editorial/history-calendar.json` and `docs/editorial/README.md` before future editorial work. Do not merge/deploy this display without separate approval, and do not treat any draft as approved.
+
+The renderer reuses canonical Archive objects and the existing UK Monday–Sunday date function. Only `editorialMode: factual` articles in the published collection qualify; exact historical dates automatically place them on their anniversary. Explicit event associations support legacy articles lacking dates, but cannot move a dated article to a contradictory event. Duplicate associations produce one card. Annual short entries remain unchanged in their existing files for editorial reuse; the public page no longer shows source-only entries or a separate Further reading list.
+
+With the currently approved collection, this week shows only Nicol and Alonso on 20 September. This is intentional: the six completed drafts remain outside the published collection until approved. Goodison also stays outside the factual display until Denny approves its classification. Do not publish/reclassify merely to populate a week. No new article bodies, metadata classifications, event files, URLs or registry entities are changed here.
+
+The open homepage PR #23 did not modify the This Week renderer/loader at inspection, so its work is preserved. No global CSS or homepage changes are included. Server components and existing native links/styles are reused without new client code or dependencies.
+
+Checks: 89 tests and lint passed after reconciliation of main #24; production webpack build passed before that unrelated January-content update, and `node scripts/verify-article-week.mjs` passed with two linked cards. Run the build again after the final merge. Mobile browser visual verification remains UNVERIFIED because the cloud browser could not reach localhost. Before release, review `/this-week` at 390 px and 1280 px: fixed date range, dated article cards, working links, no empty day cards, no images, no duplicate reading section and no horizontal overflow. Check an empty week and Monday rollover using the existing tests. This document records a prepared change, not an implemented production release.

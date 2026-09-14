@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { z } from "zod";
+import type { ArchiveFeature } from "./types.ts";
 
 const HttpUrl = z.url().refine(value => /^https?:\/\//.test(value), "Use an http or https source URL");
 export const HistoryEventSchema = z.object({
@@ -89,4 +90,23 @@ export function getWeekReading<T extends { slug: string; historicalEventDate?: s
   const dates = new Set(days.map(day => day.iso.slice(5)));
   const linked = new Set(days.flatMap(day => day.events.flatMap(event => event.archiveSlug ? [event.archiveSlug] : [])));
   return articles.filter(article => linked.has(article.slug) || (article.historicalEventDate && dates.has(article.historicalEventDate.slice(5))));
+}
+
+// Published factual articles only. Editorial drafts/calendar rows are never read here.
+// Keep the existing week arithmetic and canonical article objects/URLs.
+export function getArticleWeek(articles: ArchiveFeature[], days: ReturnType<typeof getHistoryWindow>) {
+  const seen = new Set<string>();
+  return days.map(day => ({
+    ...day,
+    articles: articles.filter(article => {
+      if (article.editorialMode !== "factual" || seen.has(article.slug)) return false;
+      const explicit = day.events.some(event => event.archiveSlug === article.slug && (
+        !article.historicalEventDate || article.historicalEventDate === `${event.year}-${String(event.month).padStart(2, "0")}-${String(event.day).padStart(2, "0")}`
+      ));
+      const anniversary = article.historicalEventDate?.slice(5) === day.iso.slice(5);
+      if (!explicit && !anniversary) return false;
+      seen.add(article.slug);
+      return true;
+    }).sort((a, b) => (a.historicalEventDate ?? "").localeCompare(b.historicalEventDate ?? "") || a.slug.localeCompare(b.slug)),
+  }));
 }
