@@ -86,5 +86,10 @@ export function getFactualHistoryArticles(root = process.cwd()) {
 
 export function getHistoryBrowseArticles(section: "matches" | "players", root = process.cwd()) {
     const type = section === "matches" ? "match" : "player";
-    return getFactualHistoryArticles(root).filter(article => article.articleType === type);
+    const articles = getFactualHistoryArticles(root).filter(article => article.articleType === type);
+    if (section === "matches") return articles;
+    const people = new Map(getHistoryEntities(root).map(entity => [entity.id, entity.label]));
+    // For biographies the first player ID identifies the main subject.
+    const name = (article: typeof articles[number]) => people.get(article.playerIds?.[0] ?? "") ?? article.title;
+    return articles.sort((a, b) => name(a).localeCompare(name(b), "en-GB") || a.slug.localeCompare(b.slug));
 }
