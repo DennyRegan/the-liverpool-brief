@@ -18,8 +18,8 @@ export function EraCard({ era, articles }: { era: HistoryEra; articles: Reading[
       <div className="hx-era-body">
         <p className="hx-summary">{era.summary}</p>
         <EraFacts era={era} />
-        {articles.length > 0 && <aside className="hx-card-reading" aria-label={`Archive writing from ${era.manager}, ${eraYears(era)}`}>
-          <h3 className="eyebrow">From the Archive</h3>
+        {articles.length > 0 && <aside className="hx-card-reading" aria-label={`Related writing from ${era.manager}, ${eraYears(era)}`}>
+          <h3 className="eyebrow">Related articles</h3>
           <ul role="list">{articles.slice(0, 2).map(article => <li key={article.slug}>
             <Link href={`/archive/${article.slug}`} prefetch={false}>{article.title}<span aria-hidden="true"> ↗</span></Link>
           </li>)}</ul>

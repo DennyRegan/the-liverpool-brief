@@ -5,15 +5,11 @@ import { ArticleCollection } from "@/app/components/ArticleCollection";
 
 export const metadata = { title: "Articles | The Liverpool Brief", alternates: { canonical: "/articles" } };
 
-export default async function ArticlesPage({ searchParams }: {
-  searchParams: Promise<{ category?: string | string[] }>;
-}) {
-  const { category } = await searchParams;
-  const filter = category === "archive" ? "Archive" : category === "opinion" ? "Opinion" : "All";
+export default function ArticlesPage() {
   const articles = getWriting().map(article => ({
     slug: article.slug, href: article.href, title: article.title, category: article.category,
     date: formatListDate(article.date), excerpt: getArticleExcerpt(article, 220),
     minutes: Math.max(1, Math.ceil(article.body.split(/\s+/).length / 220)),
   }));
-  return <><SiteHeader active="articles" /><main id="main-content" className="site-width collection"><ArticleCollection articles={articles} filter={filter} /></main></>;
+  return <><SiteHeader active="articles" /><main id="main-content" className="site-width collection"><ArticleCollection articles={articles} /></main></>;
 }

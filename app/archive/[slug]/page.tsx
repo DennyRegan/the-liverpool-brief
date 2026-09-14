@@ -91,8 +91,8 @@ export default async function ArchiveFeaturePage({
       <SiteHeader active={historyDestination ? "history" : "archive"} />
       <main id="main-content" className="reading-page">
         <div className="flex items-center justify-between mb-8">
-          <Link href={historyDestination ?? "/archive"} className="text-sm font-medium text-accent hover:text-accent-dark">
-            {historyDestination === "/history/matches" ? "‹ History matches" : historyDestination === "/history/players" ? "‹ History players" : "‹ Back"}
+          <Link href={historyDestination ?? "/articles"} className="text-sm font-medium text-accent hover:text-accent-dark">
+            {historyDestination === "/history/matches" ? "‹ History matches" : historyDestination === "/history/players" ? "‹ History players" : historyDestination ? "‹ History" : "‹ Articles"}
           </Link>
           <ShareButton title={feature.title} />
         </div>

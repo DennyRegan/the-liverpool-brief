@@ -54,15 +54,15 @@ export default async function ArticlePage({
       <SiteHeader active="articles" />
       <main id="main-content" className="reading-page">
         <div className="flex items-center justify-between mb-8">
-          <Link href="/articles?category=opinion" className="text-sm font-medium text-accent hover:text-accent-dark">
-            ‹ Opinion
+          <Link href="/articles" className="text-sm font-medium text-accent hover:text-accent-dark">
+            ‹ Articles
           </Link>
           <ShareButton title={article.title} />
         </div>
 
         <h1 className="article-title">{article.title}</h1>
         <p className="text-sm text-gray-500 mb-8">
-          By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">{article.category === "History" ? "Archive" : article.category}</span>
+          By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">Article</span>
         </p>
 
         <div className="article-body">

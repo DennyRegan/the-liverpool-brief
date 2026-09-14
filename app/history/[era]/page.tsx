@@ -69,7 +69,7 @@ export default async function EraPage({ params }: Props) {
 
       {articles.length > 0 && <section className="hx-reading" aria-labelledby="era-writing">
         <p className="eyebrow">Original writing · Denny Regan</p>
-        <h2 id="era-writing">From the Archive</h2>
+        <h2 id="era-writing">Related articles</h2>
         <ArchiveReading articles={articles.slice(0, 3)} />
         {articles.length > 3 && <details className="hx-more-reading">
           <summary>More writing from this era</summary>

@@ -60,7 +60,7 @@ export default async function SeasonPage({ params }: Props) {
       <header className="season-header">
         <p className="eyebrow">Liverpool · Season reference</p>
         <h1>{seasonLabel(id)}</h1>
-        <p className="season-editorial-note">A historical reference entry. Original long-form writing appears in <Link href="/articles?category=archive">the Archive</Link>.</p>
+        <p className="season-editorial-note">A historical reference entry. Original long-form writing appears in <Link href="/articles">Articles</Link>.</p>
       </header>
       <nav className="season-jump" aria-label="On this season page">
         <a href="#season-overview">Overview</a><a href="#season-transfers">Transfers</a><a href="#season-connections">Connections</a><a href="#season-sources">Sources</a>
@@ -104,7 +104,7 @@ export default async function SeasonPage({ params }: Props) {
         {season.relatedSeasons.length > 0 && <div className="season-connections-links"><h3>Related seasons</h3>{season.relatedSeasons.map(id => <Link href={`/history/seasons/${id}`} key={id}>{seasonLabel(id)} <span aria-hidden="true">→</span></Link>)}</div>}
       </section>
       {articles.length > 0 && <section className="hx-reading" aria-labelledby="season-archive">
-        <p className="eyebrow">Original writing · Denny Regan</p><h2 id="season-archive">From the Archive</h2>
+        <p className="eyebrow">Original writing · Denny Regan</p><h2 id="season-archive">Related articles</h2>
         <ul className="hx-reading-list" role="list">{articles.map(article => <li key={article.slug}><article>
           <h3><Link href={`/archive/${article.slug}`} prefetch={false}>{article.title} <span aria-hidden="true">↗</span></Link></h3><p>{article.excerpt}</p>
         </article></li>)}</ul>
