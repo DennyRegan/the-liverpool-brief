@@ -5,9 +5,10 @@ import os from 'node:os';
 import path from 'node:path';
 import { getArchiveFeatures, getHistoryBrowseArticles } from '../lib/content/archive.ts';
 
-test('only the two approved reports enter Matches; existing player articles wait for review', () => {
+test('only approved reports enter Matches; existing player articles wait for review', () => {
   assert.deepEqual(getHistoryBrowseArticles('matches').map(a => a.slug).sort(), [
     'alonso-own-half-newcastle-2006', 'steve-nicol-hat-trick-newcastle-1987',
+    'whelan-wembley-final-tottenham-1982',
   ]);
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
