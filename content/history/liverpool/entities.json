@@ -1815,6 +1815,11 @@
     "kind": "location"
   },
   {
+    "id": "arsenal",
+    "label": "Arsenal",
+    "kind": "opposition"
+  },
+  {
     "id": "everton",
     "label": "Everton",
     "kind": "opposition"
