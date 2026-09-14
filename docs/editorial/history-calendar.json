@@ -312,27 +312,28 @@
       "historicalEventDate": "1993-09-22",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "GPT-6 Astra — /root/astra_research_writer",
-      "claim": {
-        "token": "astra-research-writer-fowler-2026-09-14T19:22:04.970Z",
-        "claimedAt": "2026-09-14T19:22:04.970Z",
-        "baseCommit": "f570308413cf0939ca6d2aa9872d676ec555f27e"
-      },
+      "claim": null,
       "eventPath": "content/this-week/liverpool/1993-09-22-fowler-scoring-debut.md",
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/fowler-scoring-debut-fulham-1993.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Existing This Week selection; retrieve sources before writing.",
+      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source discrepancies, exclusions and optional metadata gaps are recorded in docs/editorial/drafts/fowler-scoring-debut-fulham-1993-editor-notes.md.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/1993-09-22-fowler-scoring-debut.md",
           "confidence": "high",
           "scope": "Retrieved repository inventory, not a new historical fact-check."
+        },
+        {
+          "location": "docs/editorial/drafts/fowler-scoring-debut-fulham-1993-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual draft and source/conflict audit by configured GPT-6 Astra; unpublished pending Denny review."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "verified"
     },
     {
       "id": "liverpool-sheffield-united-1972-five-goals",
