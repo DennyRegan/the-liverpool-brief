@@ -23,3 +23,11 @@ export function selectHomeHistory<T extends DatedLink & { kind: string }>(items:
   }
   return newestFirst(selected);
 }
+
+/** The caller supplies Monday from the shared Europe/London calendar window. */
+export function selectSeasonSpotlight<T extends { season: string }>(seasons: T[], monday: string): T | undefined {
+  if (!seasons.length) return undefined;
+  const ordered = [...seasons].sort((a, b) => a.season.localeCompare(b.season));
+  const week = Math.floor((Date.parse(`${monday}T12:00:00Z`) - Date.parse("2026-09-14T12:00:00Z")) / (7 * 86400000));
+  return ordered[((week % ordered.length) + ordered.length) % ordered.length];
+}

@@ -31,11 +31,14 @@ try {
   const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1];
   assert.ok(main, 'homepage has a main content landmark');
   assert.equal((main.match(/<h1[ >]/g) || []).length, 1, 'one lead heading');
-  assert.deepEqual([...main.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1]), ['Articles', 'The Brief', 'Latest in History', 'This Week in History', 'Explore Liverpool history']);
+  assert.deepEqual([...main.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1]), ['Articles', 'The Brief', 'Latest in History', 'This Week in History', 'Season spotlight', 'Explore Liverpool history']);
   assert.doesNotMatch(main, /articles\?category=/);
   assert.match(main, /href="\/articles"/);
   assert.match(main, /href="\/history\/seasons/);
   assert.match(main, /href="\/this-week"/);
+  const historySection = main.split('id="home-history-heading"')[1].split('</section>')[0];
+  assert.doesNotMatch(historySection, /href="\/history\/seasons\//, 'seasons do not occupy Latest in History');
+  assert.match(main, /Explore this season/);
   const links = new Set([...main.matchAll(/href="([^"]+)"/g)].map(match => match[1].replaceAll('&amp;', '&')));
   for (const href of links) {
     const destination = await fetch(new URL(href, origin), { signal: AbortSignal.timeout(10000) });

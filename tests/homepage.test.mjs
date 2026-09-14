@@ -26,3 +26,31 @@ test('History fills spare places and breaks same-date ties consistently', () => 
   assert.deepEqual(selectHomeHistory([]), []);
   assert.deepEqual(selectHomeHistory([a]), [a]);
 });
+
+import { selectSeasonSpotlight } from '../lib/content/homepage.ts';
+import { getHistoryWindow } from '../lib/content/this-week.ts';
+const seasons = [{ season: '1961-62' }, { season: '1959-60' }, { season: '1960-61' }];
+const spotlightAt = iso => selectSeasonSpotlight(seasons, getHistoryWindow([], new Date(iso))[0].iso);
+
+test('season spotlight stays fixed all week and advances at London Monday midnight', () => {
+  const monday = spotlightAt('2026-09-13T23:00:00Z');
+  assert.equal(monday.season, '1959-60');
+  assert.equal(spotlightAt('2026-09-20T22:59:59Z'), monday);
+  assert.equal(spotlightAt('2026-09-20T23:00:00Z').season, '1960-61');
+});
+
+test('season rotation visits every published season before repeating without mutating input', () => {
+  const before = [...seasons];
+  assert.equal(selectSeasonSpotlight(seasons, '2026-09-28').season, '1961-62');
+  assert.equal(selectSeasonSpotlight(seasons, '2026-10-05').season, '1959-60');
+  assert.deepEqual(seasons, before);
+  assert.equal(selectSeasonSpotlight([], '2026-09-14'), undefined);
+  assert.equal(selectSeasonSpotlight([seasons[0]], '2026-09-21'), seasons[0]);
+});
+
+test('spotlight respects the 25-hour autumn Sunday and year boundaries', () => {
+  assert.equal(spotlightAt('2026-10-25T23:59:59Z'), spotlightAt('2026-10-19T00:00:00Z'));
+  assert.notEqual(spotlightAt('2026-10-26T00:00:00Z'), spotlightAt('2026-10-25T23:59:59Z'));
+  assert.equal(spotlightAt('2027-01-03T23:59:59Z'), spotlightAt('2026-12-28T00:00:00Z'));
+  assert.notEqual(spotlightAt('2027-01-04T00:00:00Z'), spotlightAt('2027-01-03T23:59:59Z'));
+});

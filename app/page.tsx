@@ -4,7 +4,7 @@ import { getBrief } from "@/lib/content/briefs";
 import { getArchiveFeatures } from "@/lib/content/archive";
 import { getSeasons, seasonLabel } from "@/lib/content/seasons";
 import { getHistoryEvents, getHistoryWindow, getWeekReading } from "@/lib/content/this-week";
-import { selectHomeWriting, selectHomeHistory } from "@/lib/content/homepage";
+import { selectHomeWriting, selectHomeHistory, selectSeasonSpotlight } from "@/lib/content/homepage";
 import { formatLastUpdated, formatListDate, getArticleExcerpt, getExcerpt } from "@/lib/format";
 import { SiteHeader } from "@/app/components/SiteHeader";
 
@@ -23,19 +23,15 @@ export default function Home() {
   const factual = archive.filter(article => article.editorialMode === "factual");
   const seasons = getSeasons();
   const history = selectHomeHistory([
-    ...factual.map(article => ({
+    ...factual.filter(article => article.articleType !== "season").map(article => ({
       href: `/archive/${article.slug}`, title: article.title, summary: article.excerpt,
       kind: article.articleType ?? "other", date: article.date,
       context: article.historicalEventDate ? formatListDate(article.historicalEventDate) : article.historicalPeriod,
     })),
-    ...seasons.map(season => ({
-      href: `/history/seasons/${season.season}`, title: `Liverpool ${seasonLabel(season.season)}`,
-      summary: season.overview[0], kind: "season", date: season.reviewedOn,
-      context: `Reviewed ${formatListDate(season.reviewedOn)}`,
-    })),
   ]);
   const labels: Record<string, string> = { match: "Match", player: "Player", manager: "Manager", transfer: "Transfer", season: "Season", competition: "Competition", "club-event": "Club history", other: "History" };
   const days = getHistoryWindow(getHistoryEvents());
+  const spotlight = selectSeasonSpotlight(seasons, days[0].iso);
   const weekReading = getWeekReading(archive, days);
   const candidates = days.flatMap(day => day.events.map(event => ({
     day, event,
@@ -81,14 +77,21 @@ export default function Home() {
           <p className="article-meta"><span>{labels[item.kind]}</span><span>{item.context}</span></p>
           <h3><Link href={item.href}>{item.title}</Link></h3>
           <p className="home-summary">{getExcerpt(item.summary, 180)}</p>
-          <Link className="read-link" href={item.href}>Read {item.kind === "season" ? "season" : "story"} →</Link>
+          <Link className="read-link" href={item.href}>Read story →</Link>
         </article>)}</div>
       </section>}
 
+      {(feature || spotlight) && <div className="home-weekly-features">
       {feature && <section className="home-week" aria-labelledby="home-week-heading">
         <div><h2 id="home-week-heading" className="eyebrow">This Week in History</h2><p className="home-week-date">{feature.day.label}<span>{feature.event.year}</span></p></div>
         <article><h3>{feature.article ? <Link href={`/archive/${feature.article.slug}`}>{feature.event.title}</Link> : feature.event.title}</h3><p className="home-summary">{feature.event.summary}</p><div className="home-links">{feature.article && <Link className="read-link" href={`/archive/${feature.article.slug}`}>Read the full story →</Link>}<Link className="read-link" href="/this-week">See the whole week →</Link></div></article>
       </section>}
+
+      {spotlight && <section className="home-week home-season" aria-labelledby="home-season-heading">
+        <div><h2 id="home-season-heading" className="eyebrow">Season spotlight</h2></div>
+        <article><h3><Link href={`/history/seasons/${spotlight.season}`}>Liverpool {seasonLabel(spotlight.season)}</Link></h3><p className="home-summary">{spotlight.overview[0]}</p><div className="home-links"><Link className="read-link" href={`/history/seasons/${spotlight.season}`}>Explore this season →</Link></div></article>
+      </section>}
+      </div>}
 
       <section className="home-section home-explore" aria-labelledby="home-explore-heading">
         <div className="home-section-heading"><h2 id="home-explore-heading" className="eyebrow">Explore Liverpool history</h2></div>

@@ -44,9 +44,13 @@ button { cursor: pointer; }
 .home-history-grid article { display: flex; flex-direction: column; min-width: 0; }
 .home-history-grid article + article { border-left: 1px solid var(--line); padding-left: 30px; }
 .home-history-grid .read-link { margin-top: auto; padding-top: 20px; }
-.home-week { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 36px; padding: 32px; margin: 4px 0 36px; border: 1px solid var(--line); border-left: 4px solid var(--accent); }
-.home-week-date { font-size: 15px; margin-top: 22px; }
-.home-week-date span { display: block; font-family: var(--font-source-serif), Georgia, serif; font-size: 56px; line-height: 1.2; letter-spacing: -.04em; }
+.home-weekly-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; margin: 4px 0 36px; }
+.home-week { display: flex; flex-direction: column; gap: 20px; min-width: 0; padding: 28px; border: 1px solid var(--line); border-left: 4px solid var(--accent); }
+.home-week article { display: flex; flex-direction: column; flex: 1; }
+.home-week .home-links { margin-top: auto; padding-top: 16px; }
+.home-season { border-left-color: var(--foreground); }
+.home-week-date { font-size: 14px; margin-top: 12px; color: var(--muted); }
+.home-week-date span { margin-left: 8px; }
 .home-week h3 { font-size: 32px; margin-top: 0; }
 .home-browse { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; }
 .home-browse > a { border-top: 1px solid var(--line); padding: 12px 0; }
@@ -64,7 +68,8 @@ button { cursor: pointer; }
  .home-brief-label p { margin-top: 0; }
  .home-history-grid { grid-template-columns: 1fr; gap: 24px; }
  .home-history-grid article + article { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 24px; }
- .home-week { grid-template-columns: 1fr; gap: 20px; padding: 24px; }
+ .home-weekly-features { grid-template-columns: 1fr; gap: 20px; }
+ .home-week { gap: 20px; padding: 24px; }
  .home-week-date { margin-top: 12px; }
  .home-week-date span { display: inline; font: inherit; margin-left: 8px; }
  .home-week h3 { font-size: 28px; }
