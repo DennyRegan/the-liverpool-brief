@@ -312,9 +312,13 @@
       "historicalEventDate": "1993-09-22",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "GPT-6 Astra — /root/astra_research_writer",
+      "claim": {
+        "token": "astra-research-writer-fowler-2026-09-14T19:22:04.970Z",
+        "claimedAt": "2026-09-14T19:22:04.970Z",
+        "baseCommit": "f570308413cf0939ca6d2aa9872d676ec555f27e"
+      },
       "eventPath": "content/this-week/liverpool/1993-09-22-fowler-scoring-debut.md",
       "draftPath": null,
       "originalDraftId": null,
