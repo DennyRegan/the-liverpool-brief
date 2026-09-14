@@ -161,3 +161,10 @@
 .hx-browse-list h2 { font-size: 26px; line-height: 1.25; }
 .hx-browse-list h2 a { display: block; padding-block: 8px; min-height: 48px; }
 .hx-browse-list { max-width: 760px; }
+
+.hx-match-filters { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; margin-bottom: 20px; }
+.hx-match-filters label { display: grid; gap: 8px; font-size: 14px; flex: 0 1 220px; min-width: 0; }
+.hx-match-filters select, .hx-match-filters button { min-height: 48px; padding: 10px 14px; border: 1px solid var(--line); background: var(--background); color: var(--foreground); font: inherit; border-radius: 0; }
+.hx-match-filters select { width: 100%; }
+.hx-match-filters button { cursor: pointer; color: var(--accent); }
+.hx-match-filters :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }

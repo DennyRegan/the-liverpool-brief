@@ -29,3 +29,22 @@ test('future player content needs explicit approval and player type; shared play
     assert.throws(() => getArchiveFeatures(root), /phil-thompson/);
   } finally { fs.rmSync(root, { recursive: true, force: true }); }
 });
+
+test('player biographies sort by the canonical subject first name, independently of title and publication date', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'history-player-order-'));
+  try {
+    fs.cpSync('content', path.join(root, 'content'), { recursive: true });
+    for (const slug of ['phil-thompson', 'john-barnes-1987']) {
+      const filename = path.join(root, 'content/archive/liverpool', `${slug}.md`);
+      const original = fs.readFileSync(filename, 'utf8');
+      fs.writeFileSync(filename, original.replace('articleType: "player"', 'articleType: "player"\neditorialMode: "factual"')
+        .replace(/^title:.*$/m, `title: "${slug === 'phil-thompson' ? 'A captain' : 'Z winger'}"`));
+    }
+    // Put first-name order in conflict with surname order.
+    const entitiesPath = path.join(root, 'content/history/liverpool/entities.json');
+    const entities = JSON.parse(fs.readFileSync(entitiesPath, 'utf8'));
+    entities.find(entity => entity.id === 'phil-thompson').label = 'Alan Thompson';
+    fs.writeFileSync(entitiesPath, JSON.stringify(entities));
+    assert.deepEqual(getHistoryBrowseArticles('players', root).map(a => a.slug), ['phil-thompson', 'john-barnes-1987']);
+  } finally { fs.rmSync(root, { recursive: true, force: true }); }
+});

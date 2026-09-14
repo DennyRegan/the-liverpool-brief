@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { HistoryBrowseList } from "./HistoryBrowseList";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { HistoryNav } from "@/app/components/history/HistoryNav";
 import { getHistoryBrowseArticles } from "@/lib/content/archive";
@@ -17,15 +17,7 @@ export function HistoryBrowse({ section }: { section: "matches" | "players" }) {
           ? "Historical match reports: what happened, how the games unfolded and why they mattered."
           : "The careers and contributions of Liverpool players, told through factual biographies and historical accounts."}</p>
       </header>
-      {articles.length > 0 ? <ul className="hx-reading-list hx-browse-list" role="list">
-        {articles.map(article => <li key={article.slug}>
-          <article>
-            <p className="hx-period">{article.historicalPeriod}</p>
-            <h2><Link href={`/archive/${article.slug}`} prefetch={false}>{article.title}<span aria-hidden="true"> ↗</span></Link></h2>
-            <p>{article.excerpt}</p>
-          </article>
-        </li>)}
-      </ul> : <p className="hx-quiet">{matches ? "Historical match reports will appear here as they are published." : "Player biographies will appear here as they are published."}</p>}
+      <HistoryBrowseList section={section} articles={articles.map(({ slug, title, excerpt, historicalPeriod, decade, season }) => ({ slug, title, excerpt, historicalPeriod, decade, season }))} />
     </main>
   </>;
 }
