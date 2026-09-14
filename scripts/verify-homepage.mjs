@@ -30,29 +30,24 @@ try {
   const html = await response.text();
   const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1];
   assert.ok(main, 'homepage has a main content landmark');
-  assert.match(main, /Liverpool news, opinion and history\./);
-  assert.ok(main.indexOf('home-intro') < main.indexOf('<section'), 'introduction precedes the content');
-  assert.equal((main.match(/<article>/g) || []).length, 3, 'exactly three content previews');
-  assert.deepEqual([...main.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1]), ['The Brief', 'Opinion', 'Archive']);
-  assert.match(main, /href="\/brief"/);
-  assert.match(main, /href="\/articles\/[^"?]+"/);
-  assert.match(main, /href="\/archive\/[^"?]+"/);
-  assert.match(main, /href="\/articles\?category=opinion"/);
-  assert.match(main, /href="\/articles\?category=archive"/);
-
+  assert.equal((main.match(/<h1[ >]/g) || []).length, 1, 'one lead heading');
+  assert.deepEqual([...main.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1]), ['Articles', 'The Brief', 'Latest in History', 'This Week in History', 'Season spotlight', 'Explore Liverpool history']);
+  assert.doesNotMatch(main, /articles\?category=/);
+  assert.match(main, /href="\/articles"/);
+  assert.match(main, /href="\/history\/seasons/);
+  assert.match(main, /href="\/this-week"/);
+  const historySection = main.split('id="home-history-heading"')[1].split('</section>')[0];
+  assert.doesNotMatch(historySection, /href="\/history\/seasons\//, 'seasons do not occupy Latest in History');
+  assert.match(main, /Explore this season/);
   const links = new Set([...main.matchAll(/href="([^"]+)"/g)].map(match => match[1].replaceAll('&amp;', '&')));
   for (const href of links) {
     const destination = await fetch(new URL(href, origin), { signal: AbortSignal.timeout(10000) });
     assert.equal(destination.status, 200, href);
     const body = await destination.text();
     assert.match(body, /id="main-content"/, `${href} renders its content`);
-    if (href.includes('?category=')) {
-      const category = href.endsWith('opinion') ? 'Opinion' : 'Archive';
-      assert.ok(new RegExp(`aria-current="page"[^>]*>${category}</a>`).test(body), `${category} filter is active`);
-    }
     console.log(`PASS ${href}`);
   }
-  console.log('PASS introduction + exactly one Brief story, one Opinion and one Archive preview');
+  console.log('PASS article lead, Brief, mixed History, weekly feature and working destinations');
 } finally {
   if (server.exitCode === null) {
     const exited = once(server, 'exit');
