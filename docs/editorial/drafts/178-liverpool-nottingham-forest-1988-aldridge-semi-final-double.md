@@ -26,7 +26,7 @@ Liverpool took the lead when Steve McMahon released Barnes down the left and Ste
 
 Nigel Clough headed narrowly wide soon after the restart. Liverpool then doubled their lead in the fifty-first minute: Beardsley found Barnes on the left, and his cross was volleyed in by Aldridge.
 
-Clough brought Forest back into the tie midway through the second half, scoring after Paul Wilkinson flicked on Crosby's long throw. Sutton later saved from Barnes as Liverpool sought a third. There was no further goal, leaving Kenny Dalglish's side through to the final with their league challenge still running alongside it.
+Clough brought Forest back into the tie midway through the second half, scoring after Paul Wilkinson flicked on Crosby's long throw. Sutton later saved from Barnes as Liverpool sought a third.
 
 ## Sources
 
@@ -44,3 +44,5 @@ Confidence/scope: High record from LF1631 and independent11v11match215940: date,
 Conflicts/omissions: Penalty given12minutes in Sunday Times and14 in LF; public timing rounded. Clough66 in newspaper and67 in LF likewise rounded. Ablett dismissal question expressly attributed to the Sunday Times, not stated as an adjudicated refereeing error. No statistics for penalty streak or season goals, no unsupported praise rankings, no invented crowd atmosphere. No footage watched. This is a report of the1988 match, not the1989 disaster; it does not claim the1988 crowd arrangements were safe or uneventful. Fuller stadium-safety history requires its own appropriately sourced treatment. Finished copy checked claim by claim and repetition removed; canonical metadata reused.
 
 Group final self-review15 September2026: public copy re-read against retrieved evidence, narrative chronology and source word limits checked, frontmatter parsed. Repetitive closing material removed where unnecessary; stable for independent review.
+
+Independent review15 September2026 — actual model `gpt-6-astra`, reviewer `/root/astra_b`: Fresh full Times/Sunday Times semi-final transcription checked for goal mechanics, Barnes defensive support and the explicitly attributed Ablett judgement; minute conflicts remain rounded appropriately. Removed the repetitive final sentence. Contemporary evidence supports the retained narrative. Source scopes and combined newspaper word allowances reviewed; no footage viewed. Stable after this bounded factual and prose review.

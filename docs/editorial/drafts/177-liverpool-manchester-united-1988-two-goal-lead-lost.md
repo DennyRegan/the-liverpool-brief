@@ -24,7 +24,7 @@ Bryan Robson put the visitors ahead after three minutes. Liverpool overturned th
 
 Alex Ferguson introduced Jesper Olsen and Norman Whiteside before United lost Colin Gibson to a second booking around the hour. Whiteside himself was booked for a challenge on McMahon, while Olsen hit the crossbar. Liverpool's extra man did not prevent the visitors from creating the chances they needed.
 
-Robson scored again in the sixty-sixth minute, his shot deflected beyond Bruce Grobbelaar. Gordon Strachan completed the recovery thirteen minutes from time, running through to finish past the goalkeeper. He celebrated in front of the Kop by pretending to smoke a cigar, an incident he discussed in a later Irish Examiner interview.
+Robson scored again in the sixty-sixth minute, his shot deflected beyond Bruce Grobbelaar. Gordon Strachan completed the recovery thirteen minutes from time, running through to finish past the goalkeeper. He celebrated in front of the Kop by pretending to smoke a cigar.
 
 Liverpool finished the afternoon on 77 points from 33 matches, United on 66 from 35.
 
@@ -44,3 +44,5 @@ Confidence/scope: High fundamentals from LF1630 independently cross-checked agai
 Conflicts/omissions: Some later summaries incorrectly give3–1 at half-time; contemporary-style statistical records consistently2–1, third goal46. Historical-lineups record has divergent minute conventions and malformed United lineup; not used.11v11 and LF differ in which outgoing United player each simultaneous substitute replaced, so pairings omitted. Irish Examiner attributes final through-ball to Davenport; united.no attributes it to Robson: passer omitted rather than adjudicated from memory. Exact opening/second-goal mechanics not reconstructed beyond verified sequence. No managerial rant quotations, invented motives or claim the title could have been secured that day. Times archive label was visible but report itself could not be retrieved; not cited as read. Guardian/That1980sSportsBlog same-article material not used as an additional independent source. Final arithmetic and chronology checked; metadata uses existing canonical entities.
 
 Group final self-review15 September2026: public copy re-read against retrieved evidence, narrative chronology and source word limits checked, frontmatter parsed. Repetitive closing material removed where unnecessary; stable for independent review.
+
+Independent review15 September2026 — actual model `gpt-6-astra`, reviewer `/root/astra_b`: Fresh MUFCInfo match record independently confirms the six-goal sequence, substitutes, dismissal, Olsen crossbar and cigar celebration; LF1630 table independently re-retrieved at77points/33games and66/35. Removed an unnecessary public reference to the interview research. No material factual correction needed. Source scopes and combined newspaper word allowances reviewed; no footage viewed. Stable after this bounded factual and prose review.

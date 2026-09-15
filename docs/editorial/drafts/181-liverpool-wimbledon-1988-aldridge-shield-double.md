@@ -24,7 +24,7 @@ Wimbledon had Simon Tracey in goal this time. Liverpool were captained by Ronnie
 
 John Fashanu gave Wimbledon the lead after seventeen minutes, heading in Dennis Wise's cross from the right. Aldridge equalised before the half-hour after Tracey ventured outside his area to head clear. John Barnes passed to Aldridge, who scored with the goalkeeper stranded.
 
-Tracey recovered to make important saves. He denied Barnes in the first half and twice thwarted Steve McMahon after the interval. Liverpool still needed a second goal, and again Barnes provided it. His run down the left ended with a cross that Aldridge controlled and finished in the sixty-ninth minute.
+Tracey recovered to make important saves, denying Barnes in the first half and McMahon soon after the restart. Liverpool went ahead in the sixty-ninth minute when Barnes’s run down the left ended with a cross that Aldridge controlled and finished.
 
 Wimbledon continued to threaten through Wise, and Peter Cawley tested Bruce Grobbelaar near the end. Liverpool held the lead to take the Shield before a crowd of 54,887.
 
@@ -46,3 +46,5 @@ Conflicts/omissions: Equaliser23 in LF/11v11 but26 in Sunday Times; public befor
 Metadata publication note: Wimbledon does not yet have a registry entry at final audit; `wimbledon` is a proposed opposition ID for coordinator confirmation/addition, not an existing canonical ID. No alternative club identity should be substituted.
 
 Group final self-review15 September2026: public copy re-read against retrieved evidence, narrative chronology and source word limits checked, frontmatter parsed. Repetitive closing material removed where unnecessary; stable for independent review.
+
+Independent review15 September2026 — actual model `gpt-6-astra`, reviewer `/root/astra_b`: Fresh full Times/Sunday Times transcription and LF1640 record checked. Corrected narrative order: the second McMahon save came after the69th-minute winner, so the paragraph now uses only his early second-half chance before describing the goal. Rounded equaliser timing preserves the documented conflict. Other important claims supported. Source scopes and combined newspaper word allowances reviewed; no footage viewed. Stable after this bounded factual and prose review.
