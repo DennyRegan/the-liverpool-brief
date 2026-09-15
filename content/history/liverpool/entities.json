@@ -1888,5 +1888,50 @@
     "id": "madejski-stadium",
     "label": "Madejski Stadium",
     "kind": "location"
+  },
+  {
+    "id": "leeds-united",
+    "kind": "opposition",
+    "label": "Leeds United"
+  },
+  {
+    "id": "elland-road",
+    "kind": "location",
+    "label": "Elland Road"
+  },
+  {
+    "id": "bayern-munich",
+    "kind": "opposition",
+    "label": "Bayern Munich"
+  },
+  {
+    "id": "white-hart-lane",
+    "kind": "location",
+    "label": "White Hart Lane"
+  },
+  {
+    "id": "old-trafford",
+    "kind": "location",
+    "label": "Old Trafford"
+  },
+  {
+    "id": "derby-county",
+    "kind": "opposition",
+    "label": "Derby County"
+  },
+  {
+    "id": "baseball-ground",
+    "kind": "location",
+    "label": "Baseball Ground"
+  },
+  {
+    "id": "manchester-city",
+    "kind": "opposition",
+    "label": "Manchester City"
+  },
+  {
+    "id": "sheffield-united",
+    "kind": "opposition",
+    "label": "Sheffield United"
   }
 ]
