@@ -2644,15 +2644,11 @@
       "historicalEventDate": "1977-08-27",
       "featuredWeek": "2026-08-24",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-069",
-        "claimedAt": "2026-09-15T12:59:33.890Z",
-        "baseCommit": "754e15b4c96ce50a4ecec02248dfa7bf6cd6aa9c"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/069-liverpool-west-bromwich-albion-1977-dalglish-third-goal.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -2660,15 +2656,20 @@
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/069-liverpool-west-bromwich-albion-1977-dalglish-third-goal.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1977-10-19-classic-070",
@@ -2740,15 +2741,11 @@
       "historicalEventDate": "1977-12-06",
       "featuredWeek": "2026-11-30",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-072",
-        "claimedAt": "2026-09-15T12:59:33.890Z",
-        "baseCommit": "754e15b4c96ce50a4ecec02248dfa7bf6cd6aa9c"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/072-liverpool-hamburg-1977-super-cup.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -2756,15 +2753,20 @@
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/072-liverpool-hamburg-1977-super-cup.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1978-02-07-classic-073",
@@ -2934,7 +2936,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T13:04:45.764Z",
+  "updatedAt": "2026-09-15T13:06:04.410Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
