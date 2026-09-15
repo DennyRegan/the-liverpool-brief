@@ -26,7 +26,7 @@ Everton lost Peter Reid to a thigh injury, with Paul Bracewell replacing him, bu
 
 Headers from Ian Snodin and Neil Pointon tested Grobbelaar after the interval. Liverpool survived, then produced the move that settled the match with about a quarter of an hour remaining. Barnes exchanged passes with Beardsley and crossed for Houghton, who arrived to head past Neville Southall.
 
-The 1–0 win, watched by 48,270, secured Liverpool's place in the last eight. Everton's pressure had yielded no goal; Liverpool's decisive combination had been enough.
+The 1–0 win, watched by 48,270, secured Liverpool's place in the last eight.
 
 ## Sources
 
@@ -42,3 +42,5 @@ Classic 175. Actual configured model `gpt-6-astra`; worker `/root/astra_b`. Sour
 Confidence/scope: LF1622 and11v11 — High independently agreeing date, round, venue, result, crowd, scorer and starting teams. LF assists/timeline agrees Barnes assist and late goal. Stuart Jones, Times — High contemporary match development, Liverpool’s restricted service, central defensive pairing, Reid injury, Everton chances and Barnes/Beardsley/Houghton move. Full article freshly retrieved/read; public contribution under200 words, no quotations. The Anfield Wrap — Medium/High independent retrospective confirming header from Barnes cross, crowd and cup progress, freshly read; not a second contemporary account.
 
 Finished-claim review: Houghton76LF versus Times about15minutes left and other records75, hence approximate phrasing.11v11 erroneously lists Bracewell replacing Power; contemporary Jones and LF agree Reid, so use agreeing evidence. No detailed injury diagnosis beyond thigh, no assertion Bracewell’s exact absence duration. No speculative shot total, claim of Everton dominance throughout, predetermined league title, next-round opponent before draw or footage watched. Last paragraph confines consequence to quarter-final qualification.
+
+Final self-review complete: public claims checked against retrieved source passages; chronology, numerical context, source allowance and metadata fences rechecked. Publication date omitted.

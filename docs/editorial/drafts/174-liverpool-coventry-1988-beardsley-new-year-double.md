@@ -10,7 +10,7 @@ articleType: "match"
 season: "1987-88"
 playerIds: ["peter-beardsley", "john-aldridge", "ray-houghton", "john-barnes", "steve-nicol"]
 managerIds: ["kenny-dalglish"]
-oppositionIds: ["coventry-city"]
+oppositionIds: []
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/1614", "https://www.11v11.com/matches/liverpool-v-coventry-city-01-january-1988-88786/", "https://www.lfchistory.net/images/newspapers/riley/19880101vcoventry.pdf", "https://www.nufc-history.co.uk/nufc-1987-88-matches.html"]
@@ -42,3 +42,7 @@ Classic 174. Actual configured model `gpt-6-astra`; worker `/root/astra_b`. Sour
 Confidence/scope: LF1614 and11v11 — High independent date/result/competition/venue, scorers and teams; LF detailed timeline supplies22/53/75/83 andNicol/Beardsley assists. BDF indexed result independently supports opener22, but direct page failed and is not claimed as full retrieval. Times — High contemporary development and goal mechanics, full PDF text freshly read; selected public derivation below200 words, no quotations. LF table56/43 and22/21 games agrees contemporary thirteen-point lead;17x3+5 arithmetic checked. NUFC History — Medium/High independent1January Forest0–2Newcastle result, freshly retrieved. Previous Newcastle fixture independently verified for173 rather than borrowing our prose as evidence.
 
 Final claim check: Coventry defender Smith is David in LF lineup but Kevan in11v11 and KSmith in contemporary report. Omit his name from goal reconstruction; no need to resolve an incidental identity to tell this match. Historical Lineups PDF erroneously prints0–0 interval and32 opener, rejected against other records. Houghton75LF/76Times rounded; no claim every finish was a first-time shot. No declared title inevitability or contemporary speculation presented as fact, no dubious record/eighth-four-goal statistic, no footage claim. Canonical1987-88 match season retained.
+
+Metadata check: Coventry City has no existing entity ID in the current registry. Opposition array left empty for coordinator to register or resolve before publication; no invented ID retained.
+
+Final self-review complete: public claims checked against retrieved source passages; chronology, numerical context, source allowance and metadata fences rechecked. Publication date omitted.

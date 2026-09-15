@@ -28,7 +28,7 @@ Sutton also turned a Beardsley shot against the bar. Alan Green's contemporary B
 
 Des Walker went off at half-time with an ankle injury, Darren Wassall replacing him. Gillespie volleyed in the third around the hour. Barnes then created Beardsley's goal, beating opponents on the left before supplying his teammate, and Aldridge completed the scoring near the end after work by Nigel Spackman.
 
-A crowd of 39,535 watched Liverpool move to 80 points. Forest remained fifth, seventeen points behind them. Liverpool had followed a closely contested cup victory with five unanswered goals against the same side.
+A crowd of 39,535 watched Liverpool move to 80 points. Forest remained fifth, seventeen points behind them.
 
 ## Sources
 
@@ -46,3 +46,5 @@ Classic179. Actual model `gpt-6-astra`; worker `/root/astra_c`. Coordinator conf
 Confidence/scope: High fundamental record LF1632 independently cross-checked11v11match88929 and officialLFC2023. Full Times PDF54lines supplies first-goal sequence, Aldridge chip, Beardsley bar save, Walker ankle issue, Gillespie volley and Barnes creation. Full Brian Pead reproduction439 independently corroborates second/fourth/fifth mechanics, Walker substitution and Sutton saves. LF assist record independently supports Beardsley to Aldridge, Barnes to Beardsley, Spackman to Aldridge. BBC report706 full named transcription independently supports scoring pattern, woodwork and saves, explicitly attributed rather than claiming audio heard. Each source under200 public derived words; no direct quotations. OfficialLFC independently corroborates eleven-point advantage, two games in hand, six remaining and Forest fifth; LF table80–63=17. Prior2April/9April reports freshly retrieved during adjacent178 research.
 
 Conflicts/omissions: Times says two points needed for mathematical certainty, BBC one given goal difference. Public copy uses actual points/games rather than compressing that distinction. Times calls Aldridge final goal24th, Pead calls first26th: season goal count omitted. Pead attributes Gillespie supply to Beardsley, LF to Houghton: precise third-goal assist omitted. Minute conventions differ slightly, so most rounded. No Finney quotation or blanket best-ever ranking; no assertion source video/audio watched. No claim crowd atmosphere or tactics beyond documented moves. Self-review checked date arithmetic, goals and table context; prose confined to evidenced reconstruction and canonical entities.
+
+Group final self-review15 September2026: public copy re-read against retrieved evidence, narrative chronology and source word limits checked, frontmatter parsed. Repetitive closing material removed where unnecessary; stable for independent review.
