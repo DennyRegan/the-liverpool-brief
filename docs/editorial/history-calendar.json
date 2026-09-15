@@ -3093,15 +3093,11 @@
       "historicalEventDate": "1978-08-22",
       "featuredWeek": "2026-08-17",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-080",
-        "claimedAt": "2026-09-15T13:18:04.175Z",
-        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/080-ipswich-liverpool-1978-dalglish-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -3109,15 +3105,20 @@
         "recordedAt": "2026-09-15T13:18:04.175Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/080-ipswich-liverpool-1978-dalglish-double.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1978-08-26-classic-081",
@@ -3312,15 +3313,11 @@
       "historicalEventDate": "1979-05-08",
       "featuredWeek": "2026-05-04",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-088",
-        "claimedAt": "2026-09-15T13:18:04.175Z",
-        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/088-liverpool-aston-villa-1979-eleventh-title.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -3328,15 +3325,20 @@
         "recordedAt": "2026-09-15T13:18:04.175Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/088-liverpool-aston-villa-1979-eleventh-title.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1979-05-17-classic-089",
@@ -3474,7 +3476,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T13:25:51.962Z",
+  "updatedAt": "2026-09-15T13:26:22.824Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
