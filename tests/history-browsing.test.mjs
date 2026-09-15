@@ -153,6 +153,20 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'liverpool-walsall-1984-semi-final-draw',
     'benfica-liverpool-1984-dalglish-three-assists',
     'liverpool-everton-1984-wembley-draw',
+    'liverpool-everton-1984-souness-replay-winner',
+    'liverpool-west-ham-1984-four-before-half-hour',
+    'liverpool-dinamo-1984-lee-header',
+    'dinamo-liverpool-1984-rush-double',
+    'liverpool-roma-1984-kennedy-penalty',
+    'liverpool-everton-1984-charity-shield-own-goal',
+    'liverpool-everton-1984-sharp-volley',
+    'liverpool-benfica-1984-rush-hat-trick',
+    'benfica-liverpool-1984-quarter-final-survival',
+    'liverpool-austria-vienna-1985-walsh-double',
+    'liverpool-panathinaikos-1985-rush-double',
+    'liverpool-manchester-united-1985-two-late-equalisers',
+    'liverpool-manchester-united-1985-replay-defeat',
+    'liverpool-arsenal-1985-dalglish-first-competitive-match',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
