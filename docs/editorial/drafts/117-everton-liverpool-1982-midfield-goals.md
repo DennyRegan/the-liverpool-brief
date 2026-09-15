@@ -36,7 +36,7 @@ Souness, Liverpool's captain, restored the lead in the 57th minute from Kenny Da
 
 The crowd was 51,847. Howard Kendall's Everton remained twelfth, while Liverpool's victory brought them to 54 points from 29 matches, level on points with Manchester United and Ipswich Town and ahead of both on goal difference.
 
-Southampton still led the table with 58 points. Liverpool were four behind, but had played four fewer matches than the leaders. The derby win left them with games in hand as well as three more points in the title race.
+Southampton still led the table with 58 points. Liverpool were four behind, but had played four fewer matches than the leaders.
 
 ## Sources
 
@@ -51,3 +51,5 @@ Classic 117. Actual configured model `gpt-6-astra`; worker `/root/astra_c`. Fres
 Confidence/scope: LFChistory — High date, competition, score, goals/assists, captain and post-match table. Everton Results — High independent date, half-time, scorer sequence/times, crowd and start/end positions; full indexed record retrieved, direct page access unreliable. 11v11 — Medium/High independent result, venue, crowd and scorers. Public copy under200 words excluding title, with all record-derived claims within source limit. Table arithmetic54/58 and29/33 explicitly checked; three points awarded for a win in1981–82.
 
 Every substantive claim checked. Sharp minute23/24 differs, so exact time omitted. Dalglish/Rush assist credits rely on LFChistory and are not expanded into finish mechanics. Broad search found a later fan reconstruction but its context incorrectly calls Liverpool defending league champions, so not used. No reliable contemporary narrative recovered; selective account does not invent chances, tactics, atmosphere or quotations. No footage viewed. Canonical existing IDs used; no publication date.
+
+Independent review: `gpt-6-astra`, `/root/astra_b`, 15 September 2026. Fresh retrieval checked the important match facts, league-table arithmetic and winning-run chronology against the cited records. Confirmed 54 points from 29, Southampton 58 from 33, Liverpool third and Everton twelfth. No substantive correction; redundant final sentence removed.

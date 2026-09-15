@@ -37,7 +37,7 @@ Liverpool introduced Graeme Souness for Craig Johnston at half-time. Dalglish th
 
 Neither side scored again. The crowd of 38,091 had seen Tottenham hold the leaders to a draw, while Liverpool extended their unbeaten league sequence to twelve matches. That sequence had begun with a 5–1 victory at Stoke City on 9 March.
 
-Liverpool finished the day five points clear of Ipswich Town. Both had four matches remaining: Liverpool had 79 points from 38 games and Ipswich 74. Dalglish's double had preserved a point with the title still to be decided.
+Liverpool finished the day five points clear of Ipswich Town. Both had four matches remaining: Liverpool had 79 points from 38 games and Ipswich 74.
 
 ## Sources
 
@@ -53,3 +53,5 @@ Classic 120. Actual configured model `gpt-6-astra`; worker `/root/astra_c`. Fres
 Confidence/scope: LFChistory match — High date/venue/result, half-time, scoring/substitution sequence, free-kick type, assist and table. 11v11 match — Medium/High independent result, scorers, venue, crowd and Souness/Johnston substitution. Independent 11v11 season list and LFChistory season list — High for eleven straight league victories from9 March to1 May and draw ending run; intervening cup matches excluded. All public copy under200 words excluding title; individual page-derived material below200.
 
 Claim-by-claim final check complete. Goal times50/61 and eleven-minute interval follow LFChistory; 11v11 confirms Dalglish scored both, not precise minutes. Five-point gap and four games remaining derived from79/74 and38 played. No unsupported reason for substitution, tactical change, free-kick trajectory or other chance. Opposing keeper was Milija Aleksic, not Ray Clemence; copy avoids confusing the May3 away game with May15 title-clinching match. No contemporary report recovered, quotations or footage claim. Existing canonical IDs; no publication date.
+
+Independent review: `gpt-6-astra`, `/root/astra_b`, 15 September 2026. Fresh retrieval checked the important match facts, league-table arithmetic and winning-run chronology against the cited records. Independent 11v11 season record confirms eleven straight league wins before this draw, and the match table verifies 79/74 with four games remaining. No substantive correction; repetitive closing sentence removed.

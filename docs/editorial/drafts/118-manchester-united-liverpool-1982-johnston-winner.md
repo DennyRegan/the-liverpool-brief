@@ -36,7 +36,7 @@ United had the chance to go ahead after eight minutes. Frank Stapleton took the 
 
 Terry McDermott replaced Graeme Souness at the interval. The decisive goal followed in the 63rd minute: Johnston scored from Ian Rush's assist to give Liverpool the lead. United made a late change of their own, bringing Ashley Grimes on for Kevin Moran, but could not equalise.
 
-The result put Liverpool on 63 points from 32 matches. Ipswich had 61 from the same number, while United were eight points behind Liverpool. A match which had offered the hosts an early penalty ended with the visitors strengthening their position in the title race.
+The result put Liverpool on 63 points from 32 matches. Ipswich had 61 from the same number, while United were eight points behind Liverpool.
 
 ## Sources
 
@@ -51,3 +51,5 @@ Classic 118. Actual configured model `gpt-6-astra`; worker `/root/astra_c`. Fres
 Confidence/scope: LFChistory — High date/result/venue, penalty8, goal63, Rush assist, substitutions and table. Liverpool FC official retrospective — High independent penalty save, winner/timing and five preceding league wins; establishes League Cup holders, pre-match leaders and United five points back. MUFCInfo — Medium/High independent result/scorer/time, early penalty and managers. Public copy under200 words excluding heading; all page-derived portions below200. Table63/61 and initial five-point gap plus three-point win checked.
 
 Every substantive claim checked. Attendance omitted because LFChistory50,969 conflicts with MUFCInfo48,371. Grobbelaar's programme-photo explanation appears in both archives, but its original interview could not be retrieved; omitted rather than quoting unattributed recollection. No penalty-award mechanics, detailed finish, inferred injury causing substitution, atmosphere or footage claim. Exact substitution time for Grimes unnecessary and omitted. No claim Liverpool first went top on this date. Existing canonical IDs; no publication date.
+
+Independent review: `gpt-6-astra`, `/root/astra_b`, 15 September 2026. Fresh retrieval checked the important match facts, league-table arithmetic and winning-run chronology against the cited records. Official Liverpool account independently confirms the Stapleton penalty save, Johnston winner and five preceding league wins. Post-match table 63/61 and United 55 checked. No substantive correction; repetitive conclusion removed.
