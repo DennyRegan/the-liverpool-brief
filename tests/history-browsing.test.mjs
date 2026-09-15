@@ -180,6 +180,21 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'liverpool-everton-1986-super-cup-first-leg',
     'everton-liverpool-1986-super-cup-rush-hat-trick',
     'liverpool-norwich-1986-walsh-hat-trick',
+    'liverpool-leicester-1987-rush-hat-trick',
+    'liverpool-arsenal-1987-nicholas-league-cup-final',
+    'liverpool-everton-1987-rush-equals-dean',
+    'arsenal-liverpool-1987-barnes-beardsley-debuts',
+    'liverpool-qpr-1987-barnes-takes-liverpool-top',
+    'liverpool-everton-1987-barnes-creates-derby-win',
+    'liverpool-newcastle-1987-aldridge-double',
+    'liverpool-coventry-1988-beardsley-new-year-double',
+    'everton-liverpool-1988-houghton-cup-header',
+    'everton-liverpool-1988-unbeaten-start-ends',
+    'liverpool-manchester-united-1988-two-goal-lead-lost',
+    'liverpool-nottingham-forest-1988-aldridge-semi-final-double',
+    'liverpool-nottingham-forest-1988-five-at-anfield',
+    'liverpool-wimbledon-1988-fa-cup-final-defeat',
+    'liverpool-wimbledon-1988-aldridge-shield-double',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
