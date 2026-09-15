@@ -1,9 +1,11 @@
 ---
 title: 'Liverpool 1–2 Brighton: Case ends Liverpool’s FA Cup run'
 historicalEventDate: '1983-02-20'
-historicalPeriod: '20 February 1983 · FA Cup fifth round · Anfield'
+historicalPeriod: 20 February 1983 · FA Cup fifth round · Anfield
 decade: 1980s
-excerpt: 'Jimmy Case scored Brighton’s winner soon after Craig Johnston equalised, and Phil Neal missed a penalty as Liverpool went out at Anfield.'
+excerpt: >-
+  Jimmy Case scored Brighton’s winner soon after Craig Johnston equalised, and
+  Phil Neal missed a penalty as Liverpool went out at Anfield.
 slug: liverpool-brighton-1983-case-cup-winner
 category: match
 articleType: match
@@ -21,10 +23,13 @@ competitionIds:
 locationIds:
   - anfield
 sources:
-  - https://www.lfchistory.net/games/1322
-  - https://www.brightonandhovealbion.com/media-article/Best-results-series%3A-Liverpool-defeated-at-Anfield
-  - https://thegoldstonewrap.com/2014/02/20/seagulls-soar-over-anfield/
-  - https://www.lfchistory.net/articles/369
+  - 'https://www.lfchistory.net/games/1322'
+  - >-
+    https://www.brightonandhovealbion.com/media-article/Best-results-series%3A-Liverpool-defeated-at-Anfield
+  - 'https://thegoldstonewrap.com/2014/02/20/seagulls-soar-over-anfield/'
+  - 'https://www.lfchistory.net/articles/369'
+oppositionIds:
+  - brighton-hove-albion
 ---
 
 # Liverpool 1–2 Brighton: Case ends Liverpool’s FA Cup run

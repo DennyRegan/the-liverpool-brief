@@ -38,7 +38,7 @@ He put Liverpool ahead during the opening twenty minutes of the derby. That rema
 
 Robinson doubled the lead on the hour. Nicol supplied the third late in the game, with Mark Lawrenson credited with the assist. It was Liverpool's fourth successive league victory.
 
-Liverpool finished with 26 points from twelve matches, one ahead of Manchester United. Everton were seventeenth with fifteen points and only seven league goals. The neighbours' contrasting positions were clear: Liverpool had followed their European progress by taking the domestic lead, while Howard Kendall's side had failed to score again.
+Liverpool finished with 26 points from twelve matches, one ahead of Manchester United. Everton were seventeenth with fifteen points and only seven league goals.
 
 ## Sources
 
@@ -55,3 +55,5 @@ Classic 133. Actual configured model `gpt-6-astra`; worker `/root/astra_c`. Fres
 Confidence/scope: LFChistory — High match fundamentals, sequence, Lawrenson assist and post-match table. 11v11 — Medium/High independent date/result, scorers, venue/crowd and eleven. EFC Statto — Medium/High independent opposition-side half-time, scorers/sequence, managers and crowd. Liverweb — Medium/High independent preceding league results: West Ham, QPR and Luton wins; Rush five against Luton. Bilbao LFChistory — High prior date/goal/eleven; independently corroborated by Athletic Club official record retrieved during132 research. Public copy under200 words, all page-derived portions below200.
 
 Every substantive claim checked. Rush16/17 and Nicol85/86 differ across archives, so no exact times; Robinson60 consistent. Table arithmetic26/25 checked against eight wins and two draws. Everton had also failed to score in preceding league defeat at Leicester; season records and Patrick Murphy's ToffeeWeb retrospective corroborate, but its mistaken final placing16 and unsourced Kendall remarks are not used. No sufficiently reliable contemporary match narrative recovered. Single-blog finish reconstruction, Scully filming, live-television first and speculative explanations omitted. No chances, goal mechanics, crowd psychology, quotes or footage invented. Existing canonical IDs used; no publication date.
+
+Independent publication review, 15 September 2026 — actual `gpt-6-astra`, worker `/root/astra_a`: Fresh LFChistory full match/table and independent 11v11 record support result, personnel, crowd and scorers. Checked table arithmetic: eight wins plus two draws equals26 points, one above United; Everton17th with15 points/seven goals. Removed repetitive final summary. Thin narrative appropriately avoids unsupported mechanics.

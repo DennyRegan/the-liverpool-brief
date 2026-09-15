@@ -1,19 +1,31 @@
 ---
-title: "Liverpool 3–2 Widzew Łódź: a late victory cannot save the tie"
-historicalEventDate: "1983-03-16"
-historicalPeriod: "16 March 1983 · European Cup quarter-final, second leg · Anfield"
-decade: "1980s"
-excerpt: "Liverpool recovered to win on the night, but Widzew’s two away goals helped secure a 4–3 aggregate victory."
-slug: "liverpool-widzew-1983-victory-elimination"
-category: "match"
-articleType: "match"
-season: "1982-83"
-playerIds: ["phil-neal", "ian-rush", "david-hodgson"]
-managerIds: ["bob-paisley"]
-oppositionIds: []
-competitionIds: ["european-cup"]
-locationIds: ["anfield"]
-sources: ["https://www.lfchistory.net/games/1327", "https://www.lfcineurope.com/8283-3RPM.html", "https://www.liverweb.org.uk/season_season-198283.html"]
+title: 'Liverpool 3–2 Widzew Łódź: a late victory cannot save the tie'
+historicalEventDate: '1983-03-16'
+historicalPeriod: '16 March 1983 · European Cup quarter-final, second leg · Anfield'
+decade: 1980s
+excerpt: >-
+  Liverpool recovered to win on the night, but Widzew’s two away goals helped
+  secure a 4–3 aggregate victory.
+slug: liverpool-widzew-1983-victory-elimination
+category: match
+articleType: match
+season: 1982-83
+playerIds:
+  - phil-neal
+  - ian-rush
+  - david-hodgson
+managerIds:
+  - bob-paisley
+oppositionIds:
+  - widzew-lodz
+competitionIds:
+  - european-cup
+locationIds:
+  - anfield
+sources:
+  - 'https://www.lfchistory.net/games/1327'
+  - 'https://www.lfcineurope.com/8283-3RPM.html'
+  - 'https://www.liverweb.org.uk/season_season-198283.html'
 ---
 
 # Liverpool 3–2 Widzew Łódź: a late victory cannot save the tie

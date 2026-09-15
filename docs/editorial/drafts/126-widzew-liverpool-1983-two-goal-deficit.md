@@ -3,7 +3,9 @@ title: 'Widzew Łódź 2–0 Liverpool: an error and a header leave a two-goal d
 historicalEventDate: '1983-03-02'
 historicalPeriod: '2 March 1983 · European Cup quarter-final, first leg · ŁKS Stadium, Łódź'
 decade: 1980s
-excerpt: 'Mirosław Tłokiński punished Bruce Grobbelaar’s handling error before Wiesław Wraga headed Widzew’s second, leaving Liverpool without an away goal.'
+excerpt: >-
+  Mirosław Tłokiński punished Bruce Grobbelaar’s handling error before Wiesław
+  Wraga headed Widzew’s second, leaving Liverpool without an away goal.
 slug: widzew-liverpool-1983-two-goal-deficit
 category: match
 articleType: match
@@ -18,9 +20,14 @@ managerIds:
 competitionIds:
   - european-cup
 sources:
-  - https://www.lfchistory.net/games/1324
-  - https://www.laczynaspilka.pl/biblioteka/mecze/widzew-lodz-liverpool-fc-20-02031983
-  - https://www.lfcineurope.com/8283-3BRPM.html
+  - 'https://www.lfchistory.net/games/1324'
+  - >-
+    https://www.laczynaspilka.pl/biblioteka/mecze/widzew-lodz-liverpool-fc-20-02031983
+  - 'https://www.lfcineurope.com/8283-3BRPM.html'
+oppositionIds:
+  - widzew-lodz
+locationIds:
+  - lks-stadium
 ---
 
 # Widzew Łódź 2–0 Liverpool: an error and a header leave a two-goal deficit

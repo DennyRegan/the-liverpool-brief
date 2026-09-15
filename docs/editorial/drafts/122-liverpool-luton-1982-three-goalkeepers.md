@@ -1,9 +1,11 @@
 ---
 title: 'Liverpool 3–3 Luton Town: three goalkeepers and two comebacks'
 historicalEventDate: '1982-09-11'
-historicalPeriod: '11 September 1982 · First Division · Anfield'
+historicalPeriod: 11 September 1982 · First Division · Anfield
 decade: 1980s
-excerpt: 'Liverpool scored against three different Luton goalkeepers but needed Craig Johnston’s equaliser to take a point at Anfield.'
+excerpt: >-
+  Liverpool scored against three different Luton goalkeepers but needed Craig
+  Johnston’s equaliser to take a point at Anfield.
 slug: liverpool-luton-1982-three-goalkeepers
 category: match
 articleType: match
@@ -19,11 +21,16 @@ competitionIds:
 locationIds:
   - anfield
 sources:
-  - https://www.lfchistory.net/games/1286
-  - https://www.11v11.com/matches/liverpool-v-luton-town-11-september-1982-86297/
-  - https://hattersheritage.co.uk/matches/liverpool-vs-luton-town-fc-11-sep-1982
-  - https://cdn.hattersheritage.co.uk/1982-83%2BSeason%2BDONE%2FMatches%2FM3523%2BLiverpool%2Bv%2BLuton%2BTown%2FMatch%2BReports%2FMatch%2BReport_5.pdf
-  - https://cdn.hattersheritage.co.uk/1982-83%2BSeason%2BDONE%2FMatches%2FM3523%2BLiverpool%2Bv%2BLuton%2BTown%2FMatch%2BReports%2FMatch%2BReport_4.pdf
+  - 'https://www.lfchistory.net/games/1286'
+  - >-
+    https://www.11v11.com/matches/liverpool-v-luton-town-11-september-1982-86297/
+  - 'https://hattersheritage.co.uk/matches/liverpool-vs-luton-town-fc-11-sep-1982'
+  - >-
+    https://cdn.hattersheritage.co.uk/1982-83%2BSeason%2BDONE%2FMatches%2FM3523%2BLiverpool%2Bv%2BLuton%2BTown%2FMatch%2BReports%2FMatch%2BReport_5.pdf
+  - >-
+    https://cdn.hattersheritage.co.uk/1982-83%2BSeason%2BDONE%2FMatches%2FM3523%2BLiverpool%2Bv%2BLuton%2BTown%2FMatch%2BReports%2FMatch%2BReport_4.pdf
+oppositionIds:
+  - luton-town
 ---
 
 # Liverpool 3–3 Luton Town: three goalkeepers and two comebacks

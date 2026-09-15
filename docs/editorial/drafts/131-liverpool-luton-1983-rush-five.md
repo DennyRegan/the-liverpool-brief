@@ -1,19 +1,34 @@
 ---
-title: "Liverpool 6–0 Luton Town: Rush scores five at Anfield"
-historicalEventDate: "1983-10-29"
-historicalPeriod: "29 October 1983 · First Division · Anfield"
-decade: "1980s"
-excerpt: "Ian Rush scored a first-half hat-trick and two more after the interval as Liverpool overwhelmed Luton Town."
-slug: "liverpool-luton-1983-rush-five"
-category: "match"
-articleType: "match"
-season: "1983-84"
-playerIds: ["ian-rush", "steve-nicol", "kenny-dalglish"]
-managerIds: ["joe-fagan"]
-oppositionIds: []
-competitionIds: ["first-division"]
-locationIds: ["anfield"]
-sources: ["https://www.lfchistory.net/games/1356", "https://www.lfchistory.net/articles/1980", "https://hattersheritage.co.uk/matches/liverpool-vs-luton-town-fc-29-oct-1983", "https://www.theanfieldwrap.com/2016/10/liverpool-the-day-ian-rush-scored-five/", "https://www.liverpoolfc.com/info/liverpool-fc-records"]
+title: 'Liverpool 6–0 Luton Town: Rush scores five at Anfield'
+historicalEventDate: '1983-10-29'
+historicalPeriod: 29 October 1983 · First Division · Anfield
+decade: 1980s
+excerpt: >-
+  Ian Rush scored a first-half hat-trick and two more after the interval as
+  Liverpool overwhelmed Luton Town.
+slug: liverpool-luton-1983-rush-five
+category: match
+articleType: match
+season: 1983-84
+playerIds:
+  - ian-rush
+  - steve-nicol
+  - kenny-dalglish
+managerIds:
+  - joe-fagan
+oppositionIds:
+  - luton-town
+competitionIds:
+  - first-division
+locationIds:
+  - anfield
+sources:
+  - 'https://www.lfchistory.net/games/1356'
+  - 'https://www.lfchistory.net/articles/1980'
+  - 'https://hattersheritage.co.uk/matches/liverpool-vs-luton-town-fc-29-oct-1983'
+  - >-
+    https://www.theanfieldwrap.com/2016/10/liverpool-the-day-ian-rush-scored-five/
+  - 'https://www.liverpoolfc.com/info/liverpool-fc-records'
 ---
 
 # Liverpool 6–0 Luton Town: Rush scores five at Anfield
