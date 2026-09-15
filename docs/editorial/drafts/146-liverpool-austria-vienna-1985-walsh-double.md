@@ -26,7 +26,7 @@ Liverpool's first two goals began with Alan Hansen passes. For the opener, Alan 
 
 The third came almost immediately after the restart, Erich Obermayer turning Ian Rush's cross into his own net. Walsh then volleyed Liverpool's fourth after Austria failed to clear a Whelan delivery. With little more than ten minutes of the half played, the tie was effectively settled.
 
-Prohaska scored from a free-kick after 64 minutes, but Liverpool had another opportunity to extend the margin. Walsh took a penalty awarded for a foul on Nicol and shot wide, missing his chance of a hat-trick. His two earlier finishes had already helped put Liverpool into the last four.
+Prohaska scored from a free-kick after 64 minutes, but Liverpool had another opportunity to extend the margin. Walsh took a penalty awarded for a foul on Nicol and shot wide, missing his chance of a hat-trick.
 
 ## Sources
 
@@ -41,3 +41,5 @@ Classic 146. Actual configured model `gpt-6-astra`; worker `/root/astra_b`. Sour
 Confidence/scope: LFChistory — High fundamentals, full teams/managers,2–0half-time, scorer order, missed penalty and5–2aggregate. Official Austria retrospective independently confirms20March,Anfield,4–1,first-leg1–1andProhaska. Armstrong/Guardian and Ross/Liverpool Post — High independent contemporary agreement on Hansen/Kennedy/Walsh opener, Hansen/Whelan/Nicol second, Rush/Obermayer own goal, Walsh volley, early counterattacks; Medium/High transcription fidelity. Actual linked report page retrieved in full by public HTTP. Public source-derived allocation below200 words on shared contemporary page, other facts independently supported; no quotations.
 
 Finished check: early cleared header attributed Polster by Armstrong, Daxbacher by Ross, so attacker unnamed. Nicol timing37press/38archive/39LF omitted. Own-goal ball trajectory differs low-deflection/looping; public gives core agreed attribution only. Walsh55/56rounded. Prohaska free-kick from Ross; scorer/time independently LF/official. Penalty foul on Nicol Armstrong, wide miss Ross/LF. Suspension context and Fagan dressing-room criticism omitted for concise match focus, no watched footage. Austria Vienna opposition entity absent from inspected registry; coordinator to validate addition. Publication date unset.
+
+Final self-review, actual `gpt-6-astra` `/root/astra_b`: checked finished substantive claims against retrieved evidence, timings and immediate consequences; removed unnecessary repetition. Frontmatter parsed successfully, event/publication dates remain separate. Shared validation and publication belong to coordinator.
