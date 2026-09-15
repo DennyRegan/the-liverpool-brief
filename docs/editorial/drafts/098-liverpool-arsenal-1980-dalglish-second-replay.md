@@ -20,11 +20,11 @@ sources: ["https://www.lfchistory.net/games/1152", "https://www.englishfootballl
 
 Kenny Dalglish scored in stoppage time to keep Liverpool in the FA Cup on 28 April 1980. Arsenal had led almost from the kick-off at Villa Park, but the semi-final's second replay finished 1–1 after extra-time. A fourth match would be needed.
 
-The first meeting at Hillsborough had ended goalless; the replay at Villa Park had produced a 1–1 draw over 120 minutes. Liverpool and Arsenal had also drawn 1–1 in the league at Anfield between the two replays. Familiarity had done little to separate them.
+The first meeting at Hillsborough had ended goalless; the replay at Villa Park had produced a 1–1 draw over 120 minutes. Liverpool and Arsenal had also drawn 1–1 in the league at Anfield between the two replays.
 
 This time Alan Sunderland scored in the opening minute, leaving Liverpool to pursue the game. Bob Paisley replaced Alan Kennedy with David Fairclough at half-time, adding another forward while Arsenal still held their early advantage.
 
-Arsenal came within moments of reaching Wembley. With normal time running out, a collision between David Johnson and Fairclough left Johnson needing treatment. Then Dalglish finished from close range in stoppage time, with Ray Kennedy credited with the assist. Liverpool had made it 1–1 just before the match could be lost.
+Arsenal came within moments of reaching Wembley. With normal time running out, a collision between David Johnson and Fairclough left Johnson needing treatment. Then Dalglish finished from close range in stoppage time, with Ray Kennedy credited with the assist.
 
 The additional half-hour produced no further goal. After another 120 minutes before a crowd of 42,975, the teams were still level.
 

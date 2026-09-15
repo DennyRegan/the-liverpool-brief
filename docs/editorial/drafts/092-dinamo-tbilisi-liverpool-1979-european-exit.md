@@ -1,7 +1,9 @@
 ---
-title: 'Dinamo Tbilisi 3–0 Liverpool: three second-half goals end the European campaign'
+title: >-
+  Dinamo Tbilisi 3–0 Liverpool: three second-half goals end the European
+  campaign
 historicalEventDate: '1979-10-03'
-historicalPeriod: 3 October 1979 · European Cup first round, second leg · Tbilisi
+historicalPeriod: '3 October 1979 · European Cup first round, second leg · Tbilisi'
 decade: 1970s
 excerpt: >-
   Liverpool's first-leg advantage disappeared in Georgia as Dinamo scored three
@@ -18,10 +20,13 @@ managerIds:
 competitionIds:
   - european-cup
 sources:
-  - https://www.lfchistory.net/games/1108
-  - https://www.lfcineurope.com/7980-1RPM.html
-  - https://www.rsssf.org/ec/ec197980det.html
-  - https://www.uefa.com/news-media/mediaservices/informationkits/competitions/uefachampionsleague/1979/match/63613/
+  - 'https://www.lfchistory.net/games/1108'
+  - 'https://www.lfcineurope.com/7980-1RPM.html'
+  - 'https://www.rsssf.org/ec/ec197980det.html'
+  - >-
+    https://www.uefa.com/news-media/mediaservices/informationkits/competitions/uefachampionsleague/1979/match/63613/
+oppositionIds:
+  - dinamo-tbilisi
 ---
 
 # Dinamo Tbilisi 3–0 Liverpool: three second-half goals end the European campaign

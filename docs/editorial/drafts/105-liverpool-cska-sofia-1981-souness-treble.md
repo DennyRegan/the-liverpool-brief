@@ -3,7 +3,9 @@ title: 'Liverpool 5–1 CSKA Sofia: Souness strikes three times'
 historicalEventDate: '1981-03-04'
 historicalPeriod: '4 March 1981 · European Cup quarter-final, first leg · Anfield'
 decade: 1980s
-excerpt: 'Graeme Souness scored his second hat-trick of the European campaign as Liverpool established a four-goal lead over CSKA Sofia.'
+excerpt: >-
+  Graeme Souness scored his second hat-trick of the European campaign as
+  Liverpool established a four-goal lead over CSKA Sofia.
 slug: liverpool-cska-sofia-1981-souness-treble
 category: match
 articleType: match
@@ -22,8 +24,12 @@ locationIds:
 sources:
   - 'https://www.lfchistory.net/SeasonArchive/Game/1202'
   - 'https://www.lfcineurope.com/8081-3BRPM.html'
-  - 'https://www.liverpoolfc.com/news/features/414980-liverpool-s-20-european-hat-tricks'
-  - 'https://www.uefa.com/news-media/mediaservices/informationkits/competitions/uefachampionsleague/1980/match/63733/'
+  - >-
+    https://www.liverpoolfc.com/news/features/414980-liverpool-s-20-european-hat-tricks
+  - >-
+    https://www.uefa.com/news-media/mediaservices/informationkits/competitions/uefachampionsleague/1980/match/63733/
+oppositionIds:
+  - cska-sofia
 ---
 
 # Liverpool 5–1 CSKA Sofia: Souness strikes three times

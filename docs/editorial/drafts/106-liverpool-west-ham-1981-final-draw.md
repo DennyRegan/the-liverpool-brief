@@ -38,7 +38,7 @@ Neither team scored in the regulation 90 minutes. Ray Kennedy captained Liverpoo
 
 Alan Kennedy's shot brought a disputed lead. Sammy Lee lay in an offside position; referee Clive Thomas allowed the goal. Lee was in front of West Ham goalkeeper Phil Parkes when Kennedy scored.
 
-West Ham then won a penalty after Terry McDermott handled on the goal-line. Stewart beat Ray Clemence in the 120th minute, bringing the sides level before the crowd of 100,000. Liverpool's lead had lasted only two minutes.
+West Ham then won a penalty after Terry McDermott handled on the goal-line. Stewart beat Ray Clemence in the 120th minute, bringing the sides level before the crowd of 100,000.
 
 The trophy would be decided at Villa Park on 1 April. Liverpool won that replay 2–1 to take the League Cup for the first time, but at Wembley Stewart had ensured that Kennedy's late goal would not settle the final.
 

@@ -3,7 +3,9 @@ title: 'Aberdeen 0–1 Liverpool: McDermott gives Liverpool the advantage'
 historicalEventDate: '1980-10-22'
 historicalPeriod: '22 October 1980 · European Cup second round, first leg · Pittodrie'
 decade: 1980s
-excerpt: 'Terry McDermott scored after five minutes at Pittodrie as Liverpool took a one-goal lead back to Anfield.'
+excerpt: >-
+  Terry McDermott scored after five minutes at Pittodrie as Liverpool took a
+  one-goal lead back to Anfield.
 slug: aberdeen-liverpool-1980-mcdermott-chip
 category: match
 articleType: match
@@ -22,6 +24,10 @@ sources:
   - 'https://www.lfcineurope.com/8081-2BRPM.html'
   - 'https://www.afc.co.uk/en/news/aberdeen-v-england-previous-european-ties'
   - 'https://www.11v11.com/matches/aberdeen-v-liverpool-22-october-1980-219410/'
+oppositionIds:
+  - aberdeen
+locationIds:
+  - pittodrie
 ---
 
 # Aberdeen 0–1 Liverpool: McDermott gives Liverpool the advantage
@@ -32,11 +38,11 @@ The goal began with Ray Kennedy intercepting a pass from Willie Miller. Kenny Da
 
 Aberdeen had John McMaster off the field with a nose injury when Liverpool scored. His difficulties continued: a knee injury forced his replacement by Doug Bell in the 15th minute.
 
-Ray Clemence preserved the lead with a full-length save from Mark McGhee around the half-hour. At the other end, Leighton stopped Alan Hansen after the Liverpool defender went through from Dalglish's pass. Aberdeen remained within a goal, but Liverpool had the advantage they needed to manage the return.
+Ray Clemence preserved the lead with a full-length save from Mark McGhee around the half-hour. At the other end, Leighton stopped Alan Hansen after the Liverpool defender went through from Dalglish's pass.
 
 In the second half Liverpool brought more men behind the ball, conceding midfield space while protecting their defence. Jimmy Case replaced Sammy Lee in the 68th minute. The score did not change.
 
-The crowd of 24,000 saw Aberdeen lose the home leg in their first European Cup campaign. For Liverpool, McDermott's carefully worked finish had secured both an away goal and a lead to take to Anfield on 5 November. The tie still required a second performance; the first had left them well placed.
+The crowd of 24,000 saw Aberdeen lose the home leg in their first European Cup campaign. For Liverpool, McDermott's carefully worked finish had secured both an away goal and a lead to take to Anfield on 5 November.
 
 ## Sources
 

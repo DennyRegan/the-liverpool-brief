@@ -3,7 +3,9 @@ title: 'Liverpool 10–1 Oulu: Souness and McDermott share six goals'
 historicalEventDate: '1980-10-01'
 historicalPeriod: '1 October 1980 · European Cup first round, second leg · Anfield'
 decade: 1980s
-excerpt: 'Hat-tricks from Graeme Souness and Terry McDermott helped Liverpool turn a level tie into an 11–2 aggregate victory.'
+excerpt: >-
+  Hat-tricks from Graeme Souness and Terry McDermott helped Liverpool turn a
+  level tie into an 11–2 aggregate victory.
 slug: liverpool-oulu-1980-ten-goals
 category: match
 articleType: match
@@ -21,7 +23,10 @@ locationIds:
 sources:
   - 'https://www.lfchistory.net/games/1169'
   - 'https://www.lfcineurope.com/8081-1RPM.html'
-  - 'https://www.liverpoolfc.com/amp/news/features/371686-liverpool-s-10-biggest-european-victories'
+  - >-
+    https://www.liverpoolfc.com/amp/news/features/371686-liverpool-s-10-biggest-european-victories
+oppositionIds:
+  - oulu-palloseura
 ---
 
 # Liverpool 10–1 Oulu: Souness and McDermott share six goals
@@ -34,9 +39,7 @@ Keith Armstrong scored for Oulu soon after the interval. Liverpool's response wa
 
 Kennedy added the seventh before David Fairclough scored twice with headers. McDermott supplied the tenth in the 83rd minute, joining Souness on three goals. Dalglish finished without one, despite his part in constructing the victory.
 
-The attendance was 21,013. Liverpool had led 4–0 at the interval and won the second half 6–1, a considerably different return from the draw in Oulu a fortnight earlier. Five players shared the ten goals: Souness and McDermott with three apiece, Fairclough with two, Lee and Kennedy with one each.
-
-It was Liverpool's biggest European Cup victory. 
+The crowd of 21,013 had seen Liverpool's biggest European Cup victory.
 
 ## Sources
 

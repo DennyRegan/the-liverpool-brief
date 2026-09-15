@@ -1,18 +1,35 @@
 ---
-title: "Liverpool 0–1 Arsenal: Talbot ends the four-match semi-final"
-historicalEventDate: "1980-05-01"
-historicalPeriod: "1 May 1980 · FA Cup semi-final third replay · Highfield Road"
-decade: "1980s"
-excerpt: "Brian Talbot’s early header settled the fourth meeting of an FA Cup semi-final spread over 19 days."
-slug: "liverpool-arsenal-1980-talbot-third-replay"
-category: "match"
-articleType: "match"
-season: "1979-80"
-playerIds: ["ray-kennedy", "avi-cohen", "david-johnson"]
-managerIds: ["bob-paisley"]
-oppositionIds: ["arsenal"]
-competitionIds: ["fa-cup"]
-sources: ["https://www.lfchistory.net/games/1153", "https://www.liverpoolfc.com/news/features/394559-coin-tosses-seven-hour-battles-and-more-liverpool-s-long-winded-cup-ties", "https://www.englishfootballleaguetables.co.uk/v/m-arsenalvliverpool.html", "https://www.theanfieldwrap.com/2015/04/getting-a-semi-on-four-liverpool-last-fours-to-remember/", "https://blog.woolwicharsenal.co.uk/archives/13141"]
+title: 'Liverpool 0–1 Arsenal: Talbot ends the four-match semi-final'
+historicalEventDate: '1980-05-01'
+historicalPeriod: 1 May 1980 · FA Cup semi-final third replay · Highfield Road
+decade: 1980s
+excerpt: >-
+  Brian Talbot’s early header settled the fourth meeting of an FA Cup semi-final
+  spread over 19 days.
+slug: liverpool-arsenal-1980-talbot-third-replay
+category: match
+articleType: match
+season: 1979-80
+playerIds:
+  - ray-kennedy
+  - avi-cohen
+  - david-johnson
+managerIds:
+  - bob-paisley
+oppositionIds:
+  - arsenal
+competitionIds:
+  - fa-cup
+sources:
+  - 'https://www.lfchistory.net/games/1153'
+  - >-
+    https://www.liverpoolfc.com/news/features/394559-coin-tosses-seven-hour-battles-and-more-liverpool-s-long-winded-cup-ties
+  - 'https://www.englishfootballleaguetables.co.uk/v/m-arsenalvliverpool.html'
+  - >-
+    https://www.theanfieldwrap.com/2015/04/getting-a-semi-on-four-liverpool-last-fours-to-remember/
+  - 'https://blog.woolwicharsenal.co.uk/archives/13141'
+locationIds:
+  - highfield-road
 ---
 
 # Liverpool 0–1 Arsenal: Talbot ends the four-match semi-final
@@ -25,7 +42,7 @@ Avi Cohen came into Liverpool's defence in place of Alan Kennedy. But Arsenal ag
 
 This time Liverpool could not retrieve the game. Arsenal's central defenders, David O'Leary and Willie Young, dealt with the high balls sent towards them. David Fairclough replaced David Johnson in the second half, but the change produced no equaliser.
 
-Arsenal were through to face West Ham United at Wembley. Liverpool's chance of a league and FA Cup double was gone, with a home league match against Aston Villa only two days away. After four games, the semi-final had been decided by a single goal.
+Arsenal were through to face West Ham United at Wembley. Liverpool's chance of a league and FA Cup double was gone, with a home league match against Aston Villa only two days away.
 
 ## Sources
 
