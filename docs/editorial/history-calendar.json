@@ -6882,15 +6882,11 @@
       "historicalEventDate": "1990-01-09",
       "featuredWeek": "2026-01-05",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-195",
-        "claimedAt": "2026-09-15T14:48:10.972Z",
-        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/195-liverpool-swansea-1990-rush-replay-hat-trick.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -6898,15 +6894,20 @@
         "recordedAt": "2026-09-15T14:48:10.972Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/195-liverpool-swansea-1990-rush-replay-hat-trick.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1990-02-03-classic-196",
@@ -7035,6 +7036,342 @@
         }
       ],
       "researchStatus": "needs_research"
+    },
+    {
+      "id": "1970-11-21-classic-001",
+      "event": "Liverpool 3–2 Everton",
+      "historicalEventDate": "1970-11-21",
+      "featuredWeek": "2026-11-16",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-everton-comeback-1970",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1971-01-30-classic-002",
+      "event": "Liverpool 2–0 Arsenal",
+      "historicalEventDate": "1971-01-30",
+      "featuredWeek": "2026-01-26",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-arsenal-1971-toshack-smith",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1971-02-06-classic-003",
+      "event": "Leeds United 0–1 Liverpool",
+      "historicalEventDate": "1971-02-06",
+      "featuredWeek": "2026-02-02",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/leeds-liverpool-1971-early-winner",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1971-03-10-classic-004",
+      "event": "Liverpool 3–0 Bayern Munich",
+      "historicalEventDate": "1971-03-10",
+      "featuredWeek": "2026-03-09",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-bayern-1971-alun-evans",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1971-03-16-classic-005",
+      "event": "Tottenham Hotspur 0–1 Liverpool",
+      "historicalEventDate": "1971-03-16",
+      "featuredWeek": "2026-03-16",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/tottenham-liverpool-1971-heighway-clemence",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1971-03-27-classic-006",
+      "event": "Liverpool 2–1 Everton",
+      "historicalEventDate": "1971-03-27",
+      "featuredWeek": "2026-03-23",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-everton-1971-brian-hall",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1971-05-08-classic-007",
+      "event": "Liverpool 1–2 Arsenal, after extra time",
+      "historicalEventDate": "1971-05-08",
+      "featuredWeek": "2026-05-04",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-arsenal-1971-fa-cup-final",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1971-11-06-classic-008",
+      "event": "Liverpool 3–2 Arsenal",
+      "historicalEventDate": "1971-11-06",
+      "featuredWeek": "2026-11-02",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-arsenal-1971-ian-ross",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1971-12-11-classic-009",
+      "event": "Liverpool 3–2 Derby County",
+      "historicalEventDate": "1971-12-11",
+      "featuredWeek": "2026-12-07",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-derby-1971-jack-whitham",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1972-03-04-classic-010",
+      "event": "Liverpool 4–0 Everton",
+      "historicalEventDate": "1972-03-04",
+      "featuredWeek": "2026-03-02",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-everton-1972-four-goal-derby",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1972-03-18-classic-011",
+      "event": "Liverpool 5–0 Newcastle United",
+      "historicalEventDate": "1972-03-18",
+      "featuredWeek": "2026-03-16",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-newcastle-1972-five-goals",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1972-04-03-classic-012",
+      "event": "Manchester United 0–3 Liverpool",
+      "historicalEventDate": "1972-04-03",
+      "featuredWeek": "2026-03-30",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/manchester-united-liverpool-1972-thompson-debut",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1972-05-01-classic-013",
+      "event": "Derby County 1–0 Liverpool",
+      "historicalEventDate": "1972-05-01",
+      "featuredWeek": "2026-04-27",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/derby-liverpool-1972-mcgovern-title-race",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1972-08-12-classic-014",
+      "event": "Liverpool 2–0 Manchester City",
+      "historicalEventDate": "1972-08-12",
+      "featuredWeek": "2026-08-10",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-manchester-city-1972-opening-day",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
     }
   ],
   "gaps": [
@@ -7076,7 +7413,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T15:03:33.988Z",
+  "updatedAt": "2026-09-15T15:03:57.363Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
