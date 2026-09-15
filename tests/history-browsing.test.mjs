@@ -80,6 +80,21 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'liverpool-leeds-1977-fairclough-league-victory',
     'zurich-liverpool-1977-neal-first-leg-win',
     'liverpool-zurich-1977-first-european-cup-final',
+    'liverpool-everton-1977-semi-final-draw',
+    'liverpool-everton-1977-replay-wembley',
+    'liverpool-ipswich-1977-kennedy-keegan',
+    'liverpool-west-ham-1977-tenth-title',
+    'liverpool-manchester-united-1977-fa-cup-final',
+    'liverpool-gladbach-1977-first-european-cup',
+    'middlesbrough-liverpool-1977-dalglish-league-debut',
+    'liverpool-west-bromwich-albion-1977-dalglish-third-goal',
+    'liverpool-dynamo-dresden-1977-five-goal-defence',
+    'hamburg-liverpool-1977-fairclough-super-cup',
+    'liverpool-hamburg-1977-super-cup',
+    'liverpool-arsenal-1978-league-cup-semi-final',
+    'benfica-liverpool-1978-hughes-winner',
+    'liverpool-benfica-1978-european-cup-semi-final',
+    'liverpool-nottingham-forest-1978-wembley-draw',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
