@@ -22,7 +22,7 @@ Liverpool displaced Queens Park Rangers at the top of the First Division with a 
 
 QPR arrived three points ahead, having conceded only five goals in ten league matches. Liverpool had played eight, winning seven and drawing one. Victory would put Kenny Dalglish’s side level on points with the leaders and ahead on goal difference.
 
-Rangers defended with a sweeper, but threatened on the break early on. Bruce Grobbelaar turned over Gary Bannister’s attempted lob and stopped Ian Dawes’s header from a David Neill cross.
+Rangers defended with a sweeper, but threatened on the break early on. Bruce Grobbelaar turned over Gary Bannister’s attempted lob and stopped Ian Dawes’s header from a Warren Neill cross.
 
 Liverpool went ahead four minutes before half-time. Barnes created the opening and Craig Johnston finished right-footed past David Seaman. At 65 minutes, Terry Fenwick handled a Barnes free-kick under pressure from Gary Gillespie, and John Aldridge converted the penalty.
 
@@ -48,3 +48,6 @@ Contemporary evidence: full indexed newspaper compilation read. The file and cov
 Report supports sweeper formation, two selected early saves, Johnston goal from Barnes, Fenwick handball under Gillespie pressure, penalty, Barnes–Aldridge combination and final solo goal. Later Tomkins article independently corroborates the last two finishes and the final evasion of Fenwick/Parker before a low shot past Seaman. It is a 2012 retrospective, not contemporary reporting; its wider player-career chronology is outside source scope and not adopted. Guardian tribute mirror also retrieved but not used as a public source or to evade original-source limits. Public newspaper-derived narrative remains below 200 words; no quotations.
 
 Conflicts and omissions: LF gives Barnes's first goal as 79, Sunday Times 78; exact minute omitted. Solo run begins ten yards inside QPR half in Sunday Times, on halfway in Tomkins; public rounds to around halfway. Omitted exact distances, the reporter's speculation about Aldridge's state of mind while Rush watched, disputed disallowed-goal judgement, lockout estimates and Aldridge consecutive-scoring record rather than expanding beyond independently checked scope. Finished substantive-claim and prose review complete.
+
+
+Independent publication review,15September2026 — actual model `gpt-6-astra`, reviewer `/root/astra_c`: Fresh full indexed Sunday Times QPR report recovered from the misleadingly named Luton compilation; its match identity is unambiguous. Independent11v11 pre-match table arithmetic and official2012 Tomkins goal account agree with the principal claims. Corrected David Neill to Warren Neill: the report says only Neill, and LF1600 identifies the QPR right-back as Warren. All other mechanics and table arithmetic pass. Source limits and retrospective scope checked.
