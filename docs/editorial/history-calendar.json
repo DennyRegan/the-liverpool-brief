@@ -4501,15 +4501,11 @@
       "historicalEventDate": "1982-09-11",
       "featuredWeek": "2026-09-07",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-122",
-        "claimedAt": "2026-09-15T13:55:07.879Z",
-        "baseCommit": "78bc46ff090cf6a22ae4e54b6c669d31cf3af135"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/122-liverpool-luton-1982-three-goalkeepers.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -4517,15 +4513,20 @@
         "recordedAt": "2026-09-15T13:55:07.879Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 122–136 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/122-liverpool-luton-1982-three-goalkeepers.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1982-11-06-classic-123",
@@ -4694,15 +4695,11 @@
       "historicalEventDate": "1983-03-26",
       "featuredWeek": "2026-03-23",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-128",
-        "claimedAt": "2026-09-15T13:55:07.879Z",
-        "baseCommit": "78bc46ff090cf6a22ae4e54b6c669d31cf3af135"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/128-liverpool-manchester-united-1983-whelan-final.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -4710,15 +4707,20 @@
         "recordedAt": "2026-09-15T13:55:07.879Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 122–136 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/128-liverpool-manchester-united-1983-whelan-final.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1983-05-07-classic-129",
@@ -5018,7 +5020,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T14:04:22.530Z",
+  "updatedAt": "2026-09-15T14:04:56.097Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
