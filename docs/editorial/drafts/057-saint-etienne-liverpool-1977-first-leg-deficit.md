@@ -12,7 +12,7 @@ season: "1976-77"
 playerIds: ["kevin-keegan", "john-toshack", "terry-mcdermott"]
 managerIds: ["bob-paisley"]
 competitionIds: ["european-cup"]
-sources: ["https://www.lfchistory.net/games/957", "https://www.uefa.com/uefachampionsleague/match/63383--st-etienne-vs-liverpool/events/", "https://www.lfchistory.net/season-archive/games/18", "https://en.wikipedia.org/wiki/1976_European_Cup_final"]
+sources: ["https://www.lfchistory.net/games/957", "https://www.uefa.com/uefachampionsleague/match/63383--st-etienne-vs-liverpool/events/", "https://www.lfchistory.net/season-archive/games/18", "https://fcbayern.com/en/club/honours/champions-league/european-cup-winner-1976"]
 ---
 
 # Saint-Étienne 1–0 Liverpool: Bathenay leaves Anfield with the deciding say
@@ -36,7 +36,7 @@ There were three league fixtures to play before the second leg on 16 March. The 
 - [LFChistory — Saint-Étienne v Liverpool, 2 March 1977](https://www.lfchistory.net/games/957)
 - [UEFA — Saint-Étienne v Liverpool, first-leg record](https://www.uefa.com/uefachampionsleague/match/63383--st-etienne-vs-liverpool/events/)
 - [LFChistory — Liverpool's 1976–77 results](https://www.lfchistory.net/season-archive/games/18)
-- [1976 European Cup final — match record and references](https://en.wikipedia.org/wiki/1976_European_Cup_final)
+- [Bayern Munich — European Cup winners 1976](https://fcbayern.com/en/club/honours/champions-league/european-cup-winner-1976)
 
 ---
 
@@ -44,7 +44,7 @@ There were three league fixtures to play before the second leg on 16 March. The 
 
 Classic 057. Research and factual writing: configured model `gpt-6-astra`; worker `/root/next15_astra/astra_057_061`. Retrieved 15 September 2026. Confirmed fetched main `b0d26a166103570f31b93127466857fa903bde62`, claim owner `/root/next15_astra`. Denny's 15 September commission preapproves source-checked publication of this batch; publication and approval recording belong to the coordinator. This worker changed no calendar or published collection.
 
-Confidence and scope: LFChistory match — High for date, score, managers, line-up, injury absence, goalless half-time and Johnson replacing Toshack. UEFA event record — High independent competition/date/result/scorer confirmation; retrieved page is sparse, search-index match text supplies the event details. LFChistory season — High for Trabzonspor results and intervening Newcastle, Tottenham and Middlesbrough fixtures; not independent of the match archive. Wikipedia 1976 final — Medium for previous-year finalist context, date, venue and result; a referenced secondary record, not a contemporary account.
+Confidence and scope: LFChistory match — High for date, score, managers, line-up, injury absence, goalless half-time and Johnson replacing Toshack. UEFA event record — High independent competition/date/result/scorer confirmation; retrieved page is sparse, search-index match text supplies the event details. LFChistory season — High for Trabzonspor results and intervening Newcastle, Tottenham and Middlesbrough fixtures; not independent of the match archive. Bayern Munich official 1976 honours record — High for previous-year finalist context, 12 May 1976 date, Hampden venue and 1–0 result. This replaces the initially consulted Wikipedia secondary record with an independently retrieved official club source; prose unchanged.
 
 Evidence limits: LFChistory gives Bathenay at 78 minutes, UEFA 79; use late second-half wording only. Attendance varies across records and is omitted. No detailed mechanics of the goal or individual chances asserted. The official Liverpool members article returned 404; not used. Search results for Soccer Nostalgia contain wrong match dates, so that account is excluded. Match-record-derived prose is limited to approximately 180 words; chronology and aggregate implications are separately grounded.
 

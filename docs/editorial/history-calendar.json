@@ -2138,12 +2138,17 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Official Bayern source replaces secondary previous-final context citation; public prose unchanged. All listed sources retrieved.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; historical facts require retrieved-source verification."
+        },
+        {
+          "location": "docs/editorial/drafts/057-saint-etienne-liverpool-1977-first-leg-deficit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
         },
         {
           "location": "docs/editorial/drafts/057-saint-etienne-liverpool-1977-first-leg-deficit.md",
