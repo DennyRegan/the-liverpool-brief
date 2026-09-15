@@ -6507,7 +6507,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T14:38:25.470Z",
+  "updatedAt": "2026-09-15T14:40:49.730Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
