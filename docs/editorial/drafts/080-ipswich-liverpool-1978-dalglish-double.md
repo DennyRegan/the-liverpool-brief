@@ -21,9 +21,13 @@ oppositionIds:
 competitionIds:
   - first-division
 sources:
-  - https://www.lfchistory.net/games/1043
-  - https://playupliverpool.com/1978/08/22/ipswich-town-v-liverpool-0-3-league-match-august-22-1978/
-  - https://www.historical-lineups.com/wp-content/uploads/2012/12/Weeks-01-106.pdf
+  - 'https://www.lfchistory.net/games/1043'
+  - >-
+    https://playupliverpool.com/1978/08/22/ipswich-town-v-liverpool-0-3-league-match-august-22-1978/
+  - >-
+    https://www.historical-lineups.com/wp-content/uploads/2012/12/Weeks-01-106.pdf
+locationIds:
+  - portman-road
 ---
 
 # Ipswich Town 0–3 Liverpool: Dalglish doubles up at Portman Road
@@ -36,7 +40,7 @@ Souness put Liverpool ahead after 17 minutes. Five minutes later, Heighway suppl
 
 The Liverpool Echo's report identified Souness and Heighway as the outstanding performers. It described Souness controlling the midfield through his distribution, against an Ipswich side weakened by injuries. Liverpool's advantage on the scoreboard reflected their command of the game, although the report also noted several missed chances.
 
-Ipswich replaced Brian Talbot with Eric Gates during the second half. Liverpool made no change, and Dalglish completed the scoring in the 74th minute from Souness's assist. The midfielder had both opened the scoring and helped make the goal that settled the final margin.
+Ipswich replaced Brian Talbot with Eric Gates during the second half. Liverpool made no change, and Dalglish completed the scoring in the 74th minute from Souness's assist.
 
 The crowd of 28,114 had seen Liverpool score three without reply on their first league trip of the season. Dalglish, who had also scored against QPR, already had three goals from two matches. Liverpool left Portman Road with maximum points and a first clean sheet of the new campaign.
 

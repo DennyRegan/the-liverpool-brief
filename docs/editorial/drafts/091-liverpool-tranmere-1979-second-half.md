@@ -1,7 +1,7 @@
 ---
 title: 'Liverpool 4–0 Tranmere Rovers: four second-half goals settle the tie'
 historicalEventDate: '1979-09-04'
-historicalPeriod: 4 September 1979 · League Cup second round, second leg · Anfield
+historicalPeriod: '4 September 1979 · League Cup second round, second leg · Anfield'
 decade: 1970s
 excerpt: >-
   Tranmere held Liverpool scoreless for three halves before Phil Thompson's goal
@@ -25,6 +25,8 @@ sources:
   - 'https://www.11v11.com/teams/tranmere-rovers/tab/matches/season/1980/'
   - 'https://www.tranmere-web.com/games/Liverpool'
   - 'https://lfcstats.co.uk/leaguecup1.html'
+oppositionIds:
+  - tranmere-rovers
 ---
 
 # Liverpool 4–0 Tranmere Rovers: four second-half goals settle the tie

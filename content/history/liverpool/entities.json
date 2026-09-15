@@ -2138,5 +2138,30 @@
     "id": "nottingham-forest",
     "label": "Nottingham Forest",
     "kind": "opposition"
+  },
+  {
+    "id": "portman-road",
+    "label": "Portman Road",
+    "kind": "location"
+  },
+  {
+    "id": "city-ground",
+    "label": "City Ground",
+    "kind": "location"
+  },
+  {
+    "id": "norwich-city",
+    "label": "Norwich City",
+    "kind": "opposition"
+  },
+  {
+    "id": "aston-villa",
+    "label": "Aston Villa",
+    "kind": "opposition"
+  },
+  {
+    "id": "tranmere-rovers",
+    "label": "Tranmere Rovers",
+    "kind": "opposition"
   }
 ]

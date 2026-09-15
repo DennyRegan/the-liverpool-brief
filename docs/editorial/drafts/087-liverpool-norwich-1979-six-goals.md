@@ -4,8 +4,8 @@ historicalEventDate: '1979-02-21'
 historicalPeriod: 21 February 1979 · First Division · Anfield
 decade: 1970s
 excerpt: >-
-  Kenny Dalglish and David Johnson scored twice each as Liverpool turned a narrow
-  half-time lead into a six-goal victory over Norwich.
+  Kenny Dalglish and David Johnson scored twice each as Liverpool turned a
+  narrow half-time lead into a six-goal victory over Norwich.
 slug: liverpool-norwich-1979-six-goals
 category: match
 articleType: match
@@ -24,7 +24,10 @@ locationIds:
 sources:
   - 'https://www.lfchistory.net/games/1073'
   - 'https://www.liverpoolfc.com/news/first-team/111954-great-lfc-v-norwich-stats'
-  - 'https://www.11v11.com/teams/norwich-city/tab/opposingTeams/opposition/Liverpool/'
+  - >-
+    https://www.11v11.com/teams/norwich-city/tab/opposingTeams/opposition/Liverpool/
+oppositionIds:
+  - norwich-city
 ---
 
 # Liverpool 6–0 Norwich City: three goals after the interval settle it

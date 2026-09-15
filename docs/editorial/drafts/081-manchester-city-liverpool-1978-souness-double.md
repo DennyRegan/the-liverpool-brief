@@ -44,7 +44,7 @@ Souness scored again three minutes after the restart. Dalglish then made it 4–
 
 Liverpool used no substitute, leaving David Fairclough on the bench. The crowd of 46,710 saw a game in which City's chances had kept the Liverpool defence occupied, but Liverpool's finishing produced a decisive margin.
 
-The win put Liverpool top on goal difference, level on six points with West Bromwich Albion and Everton. They had scored nine goals in three matches. At Maine Road, Souness's two goals helped turn a first-half challenge into a comfortable winning score.
+The win put Liverpool top on goal difference, level on six points with West Bromwich Albion and Everton. They had scored nine goals in three matches.
 
 ## Sources
 

@@ -43,7 +43,7 @@ Before the interval, Emlyn Hughes lifted the ball towards Kennedy, who headed do
 
 Liverpool used no substitutes. Bob Paisley had left David Fairclough on the bench, starting Dalglish, Case and Steve Heighway in an eleven which also included Tommy Smith and Phil Thompson. The crowd of 51,500 saw Liverpool keep the clean sheet that made their three goals decisive.
 
-The final would be against Club Brugge at Wembley on 10 May. Liverpool had earned the opportunity to retain the European Cup, with Kennedy's goal and two assists central to the evening that took them there.
+The final would be against Club Brugge at Wembley on 10 May. Liverpool had earned the opportunity to retain the European Cup.
 
 ## Sources
 

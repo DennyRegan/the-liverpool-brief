@@ -46,7 +46,6 @@ Brugge still threatened an equaliser. A defensive hesitation allowed Jan Sørens
 
 The finish gave Dalglish the defining moment, but Souness's contribution ran through the match. Both the Guardian and Liverpool Daily Post's contemporary reports emphasised the quality of his passing; the Post named him its man of the match. The pass that released Dalglish was the most consequential of them.
 
-Liverpool had won the European Cup in consecutive seasons. At Wembley, a controlled finish and a late defensive clearance were enough to complete the second victory.
 
 ## Sources
 

@@ -24,8 +24,11 @@ sources:
   - 'https://www.lfchistory.net/games/1093'
   - 'https://www.11v11.com/matches/liverpool-v-aston-villa-08-may-1979-84851/'
   - 'https://www.liverpoolfc.com/news/first-team/120373-lfc-120-milestone-moments'
-  - 'https://www.pitchpublishing.co.uk/sites/default/files/associated_downloads/Liverpool%20Minute%20by%20Minute%20SAMPLE.pdf'
+  - >-
+    https://www.pitchpublishing.co.uk/sites/default/files/associated_downloads/Liverpool%20Minute%20by%20Minute%20SAMPLE.pdf
   - 'https://www.11v11.com/teams/liverpool/tab/matches/season/1979/'
+oppositionIds:
+  - aston-villa
 ---
 
 # Liverpool 3–0 Aston Villa: an eleventh league title at Anfield
