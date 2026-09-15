@@ -4005,15 +4005,11 @@
       "historicalEventDate": "1981-04-08",
       "featuredWeek": "2026-04-06",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-108",
-        "claimedAt": "2026-09-15T13:47:52.947Z",
-        "baseCommit": "025d71ece606d1254fce21e9c45713b798ebc753"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/108-liverpool-bayern-1981-anfield-draw.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -4021,15 +4017,20 @@
         "recordedAt": "2026-09-15T13:47:52.947Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 107–121 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/108-liverpool-bayern-1981-anfield-draw.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1981-04-22-classic-109",
@@ -4134,15 +4135,11 @@
       "historicalEventDate": "1981-11-07",
       "featuredWeek": "2026-11-02",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-113",
-        "claimedAt": "2026-09-15T13:47:52.947Z",
-        "baseCommit": "025d71ece606d1254fce21e9c45713b798ebc753"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/113-liverpool-everton-1981-dalglish-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -4150,15 +4147,20 @@
         "recordedAt": "2026-09-15T13:47:52.947Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 107–121 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/113-liverpool-everton-1981-dalglish-double.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1981-12-13-classic-114",
@@ -4287,15 +4289,11 @@
       "historicalEventDate": "1982-04-07",
       "featuredWeek": "2026-04-06",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-118",
-        "claimedAt": "2026-09-15T13:47:52.947Z",
-        "baseCommit": "025d71ece606d1254fce21e9c45713b798ebc753"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/118-manchester-united-liverpool-1982-johnston-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -4303,15 +4301,20 @@
         "recordedAt": "2026-09-15T13:47:52.947Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 107–121 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/118-manchester-united-liverpool-1982-johnston-winner.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1982-04-10-classic-119",
@@ -4319,15 +4322,11 @@
       "historicalEventDate": "1982-04-10",
       "featuredWeek": "2026-04-06",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-119",
-        "claimedAt": "2026-09-15T13:47:52.947Z",
-        "baseCommit": "025d71ece606d1254fce21e9c45713b798ebc753"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/119-manchester-city-liverpool-1982-five-goals.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -4335,15 +4334,20 @@
         "recordedAt": "2026-09-15T13:47:52.947Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 107–121 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/119-manchester-city-liverpool-1982-five-goals.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1982-05-03-classic-120",
@@ -4449,7 +4453,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T13:51:43.174Z",
+  "updatedAt": "2026-09-15T13:52:58.128Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
