@@ -3,7 +3,7 @@ title: "Liverpool 4–0 Newcastle: Aldridge scores twice to close the year"
 historicalEventDate: "1987-12-28"
 historicalPeriod: "28 December 1987 · First Division · Anfield"
 decade: "1980s"
-excerpt: "John Aldridge scored twice after the interval as Liverpool ended 1987 unbeaten in the league and ten points clear."
+excerpt: "John Aldridge scored twice after the interval as Liverpool closed the year ten points clear with their unbeaten league start intact."
 slug: "liverpool-newcastle-1987-aldridge-double"
 category: "match"
 articleType: "match"
@@ -46,3 +46,5 @@ Confidence/scope: LF1613 and11v11 — High independent date, score, competition,
 Peter Ball, Times — High contemporary selected mechanics and development; full linked PDF text freshly retrieved. Public derivation under200 words, no quotation or footage claim. NUFC History — Medium/High independent score and contemporary-decision controversies, explicitly describes penalty as dubious and Gascoigne offside as harsh; public neutrally records awards without declaring them right. Its post-match position18th conflicts with LF14th, omitted; Times crowd44,647 conflicts with agreeing databases44,637, omitted. Historical Lineups PDF has impossible McAteer/McClair scorer text and omitted Nicol, rejected. No record-breaking superlative, definitive title prediction, crowd anecdote or missile incident included. Finished claims checked against sources; first-half1–0 and second-half order consistent.
 
 Final self-review complete: public claims checked against retrieved source passages; chronology, numerical context, source allowance and metadata fences rechecked. Publication date omitted.
+
+Independent review — 15 September 2026, actual model `gpt-6-astra`, worker `/root/astra_a`: Freshly retrieved LF record/table and independent NUFC season account corroborate score, goal distribution, penalty, disallowed Gascoigne goal and numerical context. The writer had retrieved Peter Ball’s full Times report, but this reviewer’s direct-open and indexed-search attempts did not recover it; detailed collision/finish narrative is therefore not claimed as freshly reverified from that report in this independent audit. Source limitation retained explicitly. Narrowed excerpt to unbeaten league start to avoid implying an unbeaten calendar year. No substantive contradiction found.

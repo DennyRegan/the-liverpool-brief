@@ -1,19 +1,32 @@
 ---
-title: "Liverpool 2–1 Wimbledon: Aldridge wins the Charity Shield"
-historicalEventDate: "1988-08-20"
-historicalPeriod: "20 August 1988 · Charity Shield · Wembley"
-decade: "1980s"
-excerpt: "John Barnes created both goals for John Aldridge as Liverpool came from behind to beat Wimbledon at Wembley."
-slug: "liverpool-wimbledon-1988-aldridge-shield-double"
-category: "match"
-articleType: "match"
-season: "1988-89"
-playerIds: ["john-aldridge", "john-barnes", "ronnie-whelan"]
-managerIds: ["kenny-dalglish"]
-oppositionIds: ["wimbledon"]
-competitionIds: ["charity-shield"]
-locationIds: ["wembley"]
-sources: ["https://www.lfchistory.net/games/1640", "https://www.11v11.com/matches/liverpool-v-wimbledon-20-august-1988-295465/", "https://www.lfchistory.net/images/newspapers/riley/19880820vwimbledon.pdf", "https://www.lfchistory.net/games/1639"]
+title: 'Liverpool 2–1 Wimbledon: Aldridge wins the Charity Shield'
+historicalEventDate: '1988-08-20'
+historicalPeriod: 20 August 1988 · Charity Shield · Wembley
+decade: 1980s
+excerpt: >-
+  John Barnes created both goals for John Aldridge as Liverpool came from behind
+  to beat Wimbledon at Wembley.
+slug: liverpool-wimbledon-1988-aldridge-shield-double
+category: match
+articleType: match
+season: 1988-89
+playerIds:
+  - john-aldridge
+  - john-barnes
+  - ronnie-whelan
+managerIds:
+  - kenny-dalglish
+oppositionIds:
+  - wimbledon
+competitionIds:
+  - charity-shield
+locationIds:
+  - wembley
+sources:
+  - 'https://www.lfchistory.net/games/1640'
+  - 'https://www.11v11.com/matches/liverpool-v-wimbledon-20-august-1988-295465/'
+  - 'https://www.lfchistory.net/images/newspapers/riley/19880820vwimbledon.pdf'
+  - 'https://www.lfchistory.net/games/1639'
 ---
 
 # Liverpool 2–1 Wimbledon: Aldridge wins the Charity Shield

@@ -1,19 +1,32 @@
 ---
-title: "Liverpool 0–1 Wimbledon: Beasant and Sanchez deny the Double"
-historicalEventDate: "1988-05-14"
-historicalPeriod: "14 May 1988 · FA Cup final · Wembley"
-decade: "1980s"
-excerpt: "Lawrie Sanchez headed the winner and Dave Beasant saved John Aldridge’s penalty as Wimbledon beat the league champions at Wembley."
-slug: "liverpool-wimbledon-1988-fa-cup-final-defeat"
-category: "match"
-articleType: "match"
-season: "1987-88"
-playerIds: ["john-aldridge", "peter-beardsley", "john-barnes"]
-managerIds: ["kenny-dalglish"]
-oppositionIds: ["wimbledon"]
-competitionIds: ["fa-cup"]
-locationIds: ["wembley"]
-sources: ["https://www.lfchistory.net/games/1639", "https://www.lfchistory.net/articles/3272", "https://www.lfchistory.net/Images/newspapers/riley/19880514vWimbledon.pdf", "https://www.chelseafc.com/en/news/article/hands-on--dave-beasant"]
+title: 'Liverpool 0–1 Wimbledon: Beasant and Sanchez deny the Double'
+historicalEventDate: '1988-05-14'
+historicalPeriod: 14 May 1988 · FA Cup final · Wembley
+decade: 1980s
+excerpt: >-
+  Lawrie Sanchez headed the winner and Dave Beasant saved John Aldridge’s
+  penalty as Wimbledon beat the league champions at Wembley.
+slug: liverpool-wimbledon-1988-fa-cup-final-defeat
+category: match
+articleType: match
+season: 1987-88
+playerIds:
+  - john-aldridge
+  - peter-beardsley
+  - john-barnes
+managerIds:
+  - kenny-dalglish
+oppositionIds:
+  - wimbledon
+competitionIds:
+  - fa-cup
+locationIds:
+  - wembley
+sources:
+  - 'https://www.lfchistory.net/games/1639'
+  - 'https://www.lfchistory.net/articles/3272'
+  - 'https://www.lfchistory.net/Images/newspapers/riley/19880514vWimbledon.pdf'
+  - 'https://www.chelseafc.com/en/news/article/hands-on--dave-beasant'
 ---
 
 # Liverpool 0–1 Wimbledon: Beasant and Sanchez deny the Double

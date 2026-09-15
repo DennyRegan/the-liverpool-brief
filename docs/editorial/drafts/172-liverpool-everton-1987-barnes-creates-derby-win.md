@@ -44,3 +44,5 @@ Confidence/scope: LF1603 and11v11 — High independently agreeing date, competit
 Final substantive check: League Cup defeat clearly separate from unbeaten league record; no claim Liverpool unbeaten in all competitions. The source transcription contains “tense triumph” where record supports tenth, so numerical claim established from table. No precise injury, booking, transfer fee, supporter incident or later title outcome. Brief match reconstruction deliberately omits wider season hype. Model and worker above are actual runtime identities.
 
 Final self-review complete: public claims checked against retrieved source passages; chronology, numerical context, source allowance and metadata fences rechecked. Publication date omitted.
+
+Independent review — 15 September 2026, actual model `gpt-6-astra`, worker `/root/astra_a`: Freshly retrieved full indexed Times report and opened Anfield Wrap retrospective independently support first-goal interception/finish, Barnes backheel and second-goal sequence, unchanged side and four-day League Cup chronology. Match record and table arithmetic checked. No public correction required.
