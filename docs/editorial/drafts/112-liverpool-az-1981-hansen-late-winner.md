@@ -1,5 +1,5 @@
 ---
-title: "Liverpool 3–2 AZ ’67: Hansen settles an unsettled tie"
+title: "Liverpool 3–2 AZ ’67: Hansen takes Liverpool into the last eight"
 historicalEventDate: "1981-11-04"
 historicalPeriod: "4 November 1981 · European Cup second round, second leg · Anfield"
 decade: "1980s"
@@ -16,7 +16,7 @@ locationIds: ["anfield"]
 sources: ["https://lfchistory.net/games/1236", "https://www.11v11.com/matches/liverpool-v-az-alkmaar-04-november-1981-219424/", "https://www.lfcineurope.com/8182-2RPM.html", "https://www.rsssf.org/tablesn/nl-az-in-ec.html"]
 ---
 
-# Liverpool 3–2 AZ ’67: Hansen settles an unsettled tie
+# Liverpool 3–2 AZ ’67: Hansen takes Liverpool into the last eight
 
 Alan Hansen's late goal carried Liverpool into the European Cup quarter-finals on 4 November 1981. AZ ’67 had twice equalised at Anfield before the centre-half settled the second leg 3–2, giving the holders a 5–4 aggregate victory.
 

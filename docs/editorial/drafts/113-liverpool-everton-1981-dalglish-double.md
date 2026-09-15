@@ -26,7 +26,7 @@ Dalglish's first goal came from a rebound after Jim Arnold saved Ronnie Whelan's
 
 Everton's task became harder when Eamonn O'Keefe was sent off in the 68th minute for a high challenge on Whelan. Rush made it 3–0 with a quarter of an hour remaining, bundling the ball in during a scramble. The finish began his scoring record in the fixture.
 
-Ferguson replied with five minutes left, but Liverpool had already established the decisive advantage. The win, watched by 48,861, took them above Everton to seventh in the First Division. Their neighbours fell to 12th. Dalglish's two goals had separated sides which were still level at the interval.
+Ferguson replied with five minutes left, but Liverpool had already established the decisive advantage. The win, watched by 48,861, took them above Everton to seventh in the First Division. Their neighbours fell to 12th.
 
 ## Sources
 
