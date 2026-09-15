@@ -19,6 +19,7 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'mcmahon-four-fulham-ten-goals-1986',
     'saunders-four-kuusysi-european-return-1991',
     'steve-nicol-hat-trick-newcastle-1987',
+    'torres-babel-six-goals-hull-2009',
     'torres-first-hat-trick-reading-2007',
     'whelan-wembley-final-tottenham-1982',
   ]);

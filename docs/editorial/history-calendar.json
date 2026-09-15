@@ -3,7 +3,7 @@
   "canonicalLocation": "https://github.com/DennyRegan/the-liverpool-brief/blob/main/docs/editorial/history-calendar.json",
   "workflow": "docs/editorial/README.md",
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-15",
   "reconciledThrough": "2026-10-11",
   "baseCommit": "a657fd3",
   "activation": "Read and write only the latest main version after the setup PR is approved and merged. Review branch is not a second active calendar.",
@@ -462,15 +462,19 @@
       "historicalEventDate": "2009-09-26",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "GPT-6 Astra — /root/astra_research_writer",
       "claim": null,
       "eventPath": "content/this-week/liverpool/2009-09-26-torres-hull-hat-trick.md",
       "draftPath": "docs/editorial/drafts/torres-babel-six-goals-hull-2009.md",
       "originalDraftId": null,
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/torres-babel-six-goals-hull-2009-editor-notes.md.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T05:33:55.402102Z",
+        "evidence": "Denny: “Commit and make live” after reading the complete 26 September Torres/Hull draft in this conversation. Approval applies only to this article."
+      },
+      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/torres-babel-six-goals-hull-2009-editor-notes.md. Publication approved 15 September 2026; approved prose preserved, publication date set to 2026-09-15. Awaiting production verification.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/2009-09-26-torres-hull-hat-trick.md",
