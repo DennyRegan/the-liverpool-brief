@@ -627,8 +627,8 @@
           "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
         },
         {
-          "location": "docs/editorial/drafts/044-liverpool-hibernian-1975-toshack-headers.md",
           "confidence": "high",
+          "location": "docs/editorial/drafts/044-liverpool-hibernian-1975-toshack-headers.md",
           "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
         }
       ],
@@ -810,8 +810,8 @@
     {
       "approval": {
         "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
       },
       "claim": null,
       "draftPath": "docs/editorial/drafts/017-liverpool-everton-1972-cormack-winner.md",
@@ -824,8 +824,8 @@
           "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
         },
         {
-          "location": "docs/editorial/drafts/017-liverpool-everton-1972-cormack-winner.md",
           "confidence": "high",
+          "location": "docs/editorial/drafts/017-liverpool-everton-1972-cormack-winner.md",
           "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
         }
       ],
@@ -870,843 +870,1263 @@
       "status": "planned"
     },
     {
-      "id": "1972-11-18-classic-018",
-      "event": "Liverpool 3–2 Newcastle United",
-      "historicalEventDate": "1972-11-18",
-      "featuredWeek": "2026-11-16",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
       "claim": null,
-      "eventPath": "content/this-week/liverpool/1972-11-18-liverpool-newcastle-1972-five-goal-win.md",
       "draftPath": "docs/editorial/drafts/018-liverpool-newcastle-1972-five-goal-win.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/liverpool-newcastle-1972-five-goal-win",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "event": "Liverpool 3–2 Newcastle United",
+      "eventPath": "content/this-week/liverpool/1972-11-18-liverpool-newcastle-1972-five-goal-win.md",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "scope": "Longlist proposal; independent historical research required."
         },
         {
+          "confidence": "high",
           "location": "docs/editorial/drafts/018-liverpool-newcastle-1972-five-goal-win.md",
-          "confidence": "high",
           "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
         }
       ],
-      "researchStatus": "verified"
+      "featuredWeek": "2026-11-16",
+      "historicalEventDate": "1972-11-18",
+      "id": "1972-11-18-classic-018",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "publishedDestination": "/archive/liverpool-newcastle-1972-five-goal-win",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
     },
     {
-      "id": "1972-12-02-classic-019",
-      "event": "Liverpool 4–3 Birmingham City",
-      "historicalEventDate": "1972-12-02",
-      "featuredWeek": "2026-11-30",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
       "claim": null,
-      "eventPath": "content/this-week/liverpool/1972-12-02-liverpool-birmingham-1972-comeback.md",
       "draftPath": "docs/editorial/drafts/019-liverpool-birmingham-1972-comeback.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/liverpool-birmingham-1972-comeback",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "event": "Liverpool 4–3 Birmingham City",
+      "eventPath": "content/this-week/liverpool/1972-12-02-liverpool-birmingham-1972-comeback.md",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "scope": "Longlist proposal; independent historical research required."
         },
         {
+          "confidence": "high",
           "location": "docs/editorial/drafts/019-liverpool-birmingham-1972-comeback.md",
-          "confidence": "high",
           "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
         }
       ],
-      "researchStatus": "verified"
+      "featuredWeek": "2026-11-30",
+      "historicalEventDate": "1972-12-02",
+      "id": "1972-12-02-classic-019",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "publishedDestination": "/archive/liverpool-birmingham-1972-comeback",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
     },
     {
-      "id": "1972-12-13-classic-020",
-      "event": "Liverpool 3–1 Dynamo Berlin",
-      "historicalEventDate": "1972-12-13",
-      "featuredWeek": "2026-12-07",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
       "claim": null,
-      "eventPath": "content/this-week/liverpool/1972-12-13-liverpool-dynamo-berlin-1972-uefa-cup.md",
       "draftPath": "docs/editorial/drafts/020-liverpool-dynamo-berlin-1972-uefa-cup.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/liverpool-dynamo-berlin-1972-uefa-cup",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "event": "Liverpool 3–1 Dynamo Berlin",
+      "eventPath": "content/this-week/liverpool/1972-12-13-liverpool-dynamo-berlin-1972-uefa-cup.md",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "scope": "Longlist proposal; independent historical research required."
         },
         {
+          "confidence": "high",
           "location": "docs/editorial/drafts/020-liverpool-dynamo-berlin-1972-uefa-cup.md",
-          "confidence": "high",
           "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
         }
       ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1973-03-03-classic-021",
-      "event": "Everton 0–2 Liverpool",
-      "historicalEventDate": "1973-03-03",
-      "featuredWeek": "2026-03-02",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
-      "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-03-03-everton-liverpool-1973-hughes-double.md",
-      "draftPath": "docs/editorial/drafts/021-everton-liverpool-1973-hughes-double.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/everton-liverpool-1973-hughes-double",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; independent historical research required."
-        },
-        {
-          "location": "docs/editorial/drafts/021-everton-liverpool-1973-hughes-double.md",
-          "confidence": "high",
-          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1973-04-10-classic-022",
-      "event": "Liverpool 1–0 Tottenham Hotspur",
-      "historicalEventDate": "1973-04-10",
-      "featuredWeek": "2026-04-06",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_022_026",
-      "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-04-10-liverpool-tottenham-1973-lindsay-semi-final.md",
-      "draftPath": "docs/editorial/drafts/022-liverpool-tottenham-1973-lindsay-semi-final.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/liverpool-tottenham-1973-lindsay-semi-final",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; independent historical research required."
-        },
-        {
-          "location": "docs/editorial/drafts/022-liverpool-tottenham-1973-lindsay-semi-final.md",
-          "confidence": "high",
-          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1973-04-23-classic-023",
-      "event": "Liverpool 2–0 Leeds United",
-      "historicalEventDate": "1973-04-23",
-      "featuredWeek": "2026-04-20",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_022_026",
-      "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-04-23-liverpool-leeds-1973-cormack-keegan.md",
-      "draftPath": "docs/editorial/drafts/023-liverpool-leeds-1973-cormack-keegan.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/liverpool-leeds-1973-cormack-keegan",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; independent historical research required."
-        },
-        {
-          "location": "docs/editorial/drafts/023-liverpool-leeds-1973-cormack-keegan.md",
-          "confidence": "high",
-          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1973-04-25-classic-024",
-      "event": "Tottenham Hotspur 2–1 Liverpool",
-      "historicalEventDate": "1973-04-25",
-      "featuredWeek": "2026-04-20",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_022_026",
-      "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-04-25-tottenham-liverpool-1973-heighway-away-goal.md",
-      "draftPath": "docs/editorial/drafts/024-tottenham-liverpool-1973-heighway-away-goal.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/tottenham-liverpool-1973-heighway-away-goal",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; independent historical research required."
-        },
-        {
-          "location": "docs/editorial/drafts/024-tottenham-liverpool-1973-heighway-away-goal.md",
-          "confidence": "high",
-          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1973-05-10-classic-025",
-      "event": "Liverpool 3–0 Borussia Mönchengladbach",
-      "historicalEventDate": "1973-05-10",
-      "featuredWeek": "2026-05-04",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_022_026",
-      "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-05-10-liverpool-gladbach-1973-keegan-toshack-final.md",
-      "draftPath": "docs/editorial/drafts/025-liverpool-gladbach-1973-keegan-toshack-final.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/liverpool-gladbach-1973-keegan-toshack-final",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; independent historical research required."
-        },
-        {
-          "location": "docs/editorial/drafts/025-liverpool-gladbach-1973-keegan-toshack-final.md",
-          "confidence": "high",
-          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1973-05-23-classic-026",
-      "event": "Borussia Mönchengladbach 2–0 Liverpool",
-      "historicalEventDate": "1973-05-23",
-      "featuredWeek": "2026-05-18",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_022_026",
-      "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-05-23-gladbach-liverpool-1973-first-european-trophy.md",
-      "draftPath": "docs/editorial/drafts/026-gladbach-liverpool-1973-first-european-trophy.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/gladbach-liverpool-1973-first-european-trophy",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; independent historical research required."
-        },
-        {
-          "location": "docs/editorial/drafts/026-gladbach-liverpool-1973-first-european-trophy.md",
-          "confidence": "high",
-          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1973-10-24-classic-027",
-      "event": "Red Star Belgrade 2–1 Liverpool",
-      "historicalEventDate": "1973-10-24",
-      "featuredWeek": "2026-10-19",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_027_031",
-      "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-10-24-red-star-liverpool-1973-lawler-away-goal.md",
-      "draftPath": "docs/editorial/drafts/027-red-star-liverpool-1973-lawler-away-goal.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/red-star-liverpool-1973-lawler-away-goal",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; independent historical research required."
-        },
-        {
-          "location": "docs/editorial/drafts/027-red-star-liverpool-1973-lawler-away-goal.md",
-          "confidence": "high",
-          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1973-11-03-classic-028",
-      "event": "Arsenal 0–2 Liverpool",
-      "historicalEventDate": "1973-11-03",
-      "featuredWeek": "2026-11-02",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_027_031",
-      "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-11-03-arsenal-liverpool-1973-first-away-win.md",
-      "draftPath": "docs/editorial/drafts/028-arsenal-liverpool-1973-first-away-win.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/arsenal-liverpool-1973-first-away-win",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; independent historical research required."
-        },
-        {
-          "location": "docs/editorial/drafts/028-arsenal-liverpool-1973-first-away-win.md",
-          "confidence": "high",
-          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1973-11-06-classic-029",
-      "event": "Liverpool 1–2 Red Star Belgrade",
-      "historicalEventDate": "1973-11-06",
-      "featuredWeek": "2026-11-02",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_027_031",
-      "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-11-06-liverpool-red-star-1973-european-lesson.md",
-      "draftPath": "docs/editorial/drafts/029-liverpool-red-star-1973-european-lesson.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/liverpool-red-star-1973-european-lesson",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; independent historical research required."
-        },
-        {
-          "location": "docs/editorial/drafts/029-liverpool-red-star-1973-european-lesson.md",
-          "confidence": "high",
-          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1973-12-08-classic-030",
-      "event": "Everton 0–1 Liverpool",
-      "historicalEventDate": "1973-12-08",
       "featuredWeek": "2026-12-07",
+      "historicalEventDate": "1972-12-13",
+      "id": "1972-12-13-classic-020",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "publishedDestination": "/archive/liverpool-dynamo-berlin-1972-uefa-cup",
+      "researchStatus": "verified",
       "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_027_031",
+      "status": "published"
+    },
+    {
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
       "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-12-08-everton-liverpool-1973-alan-waddle.md",
+      "draftPath": "docs/editorial/drafts/021-everton-liverpool-1973-hughes-double.md",
+      "event": "Everton 0–2 Liverpool",
+      "eventPath": "content/this-week/liverpool/1973-03-03-everton-liverpool-1973-hughes-double.md",
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/021-everton-liverpool-1973-hughes-double.md",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
+        }
+      ],
+      "featuredWeek": "2026-03-02",
+      "historicalEventDate": "1973-03-03",
+      "id": "1973-03-03-classic-021",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "publishedDestination": "/archive/everton-liverpool-1973-hughes-double",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
+    },
+    {
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/022-liverpool-tottenham-1973-lindsay-semi-final.md",
+      "event": "Liverpool 1–0 Tottenham Hotspur",
+      "eventPath": "content/this-week/liverpool/1973-04-10-liverpool-tottenham-1973-lindsay-semi-final.md",
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/022-liverpool-tottenham-1973-lindsay-semi-final.md",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
+        }
+      ],
+      "featuredWeek": "2026-04-06",
+      "historicalEventDate": "1973-04-10",
+      "id": "1973-04-10-classic-022",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_022_026",
+      "publishedDestination": "/archive/liverpool-tottenham-1973-lindsay-semi-final",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
+    },
+    {
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/023-liverpool-leeds-1973-cormack-keegan.md",
+      "event": "Liverpool 2–0 Leeds United",
+      "eventPath": "content/this-week/liverpool/1973-04-23-liverpool-leeds-1973-cormack-keegan.md",
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/023-liverpool-leeds-1973-cormack-keegan.md",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
+        }
+      ],
+      "featuredWeek": "2026-04-20",
+      "historicalEventDate": "1973-04-23",
+      "id": "1973-04-23-classic-023",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_022_026",
+      "publishedDestination": "/archive/liverpool-leeds-1973-cormack-keegan",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
+    },
+    {
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/024-tottenham-liverpool-1973-heighway-away-goal.md",
+      "event": "Tottenham Hotspur 2–1 Liverpool",
+      "eventPath": "content/this-week/liverpool/1973-04-25-tottenham-liverpool-1973-heighway-away-goal.md",
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/024-tottenham-liverpool-1973-heighway-away-goal.md",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
+        }
+      ],
+      "featuredWeek": "2026-04-20",
+      "historicalEventDate": "1973-04-25",
+      "id": "1973-04-25-classic-024",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_022_026",
+      "publishedDestination": "/archive/tottenham-liverpool-1973-heighway-away-goal",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
+    },
+    {
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/025-liverpool-gladbach-1973-keegan-toshack-final.md",
+      "event": "Liverpool 3–0 Borussia Mönchengladbach",
+      "eventPath": "content/this-week/liverpool/1973-05-10-liverpool-gladbach-1973-keegan-toshack-final.md",
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/025-liverpool-gladbach-1973-keegan-toshack-final.md",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
+        }
+      ],
+      "featuredWeek": "2026-05-04",
+      "historicalEventDate": "1973-05-10",
+      "id": "1973-05-10-classic-025",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_022_026",
+      "publishedDestination": "/archive/liverpool-gladbach-1973-keegan-toshack-final",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
+    },
+    {
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/026-gladbach-liverpool-1973-first-european-trophy.md",
+      "event": "Borussia Mönchengladbach 2–0 Liverpool",
+      "eventPath": "content/this-week/liverpool/1973-05-23-gladbach-liverpool-1973-first-european-trophy.md",
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/026-gladbach-liverpool-1973-first-european-trophy.md",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
+        }
+      ],
+      "featuredWeek": "2026-05-18",
+      "historicalEventDate": "1973-05-23",
+      "id": "1973-05-23-classic-026",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_022_026",
+      "publishedDestination": "/archive/gladbach-liverpool-1973-first-european-trophy",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
+    },
+    {
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/027-red-star-liverpool-1973-lawler-away-goal.md",
+      "event": "Red Star Belgrade 2–1 Liverpool",
+      "eventPath": "content/this-week/liverpool/1973-10-24-red-star-liverpool-1973-lawler-away-goal.md",
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/027-red-star-liverpool-1973-lawler-away-goal.md",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
+        }
+      ],
+      "featuredWeek": "2026-10-19",
+      "historicalEventDate": "1973-10-24",
+      "id": "1973-10-24-classic-027",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_027_031",
+      "publishedDestination": "/archive/red-star-liverpool-1973-lawler-away-goal",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
+    },
+    {
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/028-arsenal-liverpool-1973-first-away-win.md",
+      "event": "Arsenal 0–2 Liverpool",
+      "eventPath": "content/this-week/liverpool/1973-11-03-arsenal-liverpool-1973-first-away-win.md",
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/028-arsenal-liverpool-1973-first-away-win.md",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
+        }
+      ],
+      "featuredWeek": "2026-11-02",
+      "historicalEventDate": "1973-11-03",
+      "id": "1973-11-03-classic-028",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_027_031",
+      "publishedDestination": "/archive/arsenal-liverpool-1973-first-away-win",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
+    },
+    {
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/029-liverpool-red-star-1973-european-lesson.md",
+      "event": "Liverpool 1–2 Red Star Belgrade",
+      "eventPath": "content/this-week/liverpool/1973-11-06-liverpool-red-star-1973-european-lesson.md",
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/029-liverpool-red-star-1973-european-lesson.md",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
+        }
+      ],
+      "featuredWeek": "2026-11-02",
+      "historicalEventDate": "1973-11-06",
+      "id": "1973-11-06-classic-029",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_027_031",
+      "publishedDestination": "/archive/liverpool-red-star-1973-european-lesson",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
+    },
+    {
+      "approval": {
+        "by": "Denny",
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
+      },
+      "claim": null,
       "draftPath": "docs/editorial/drafts/030-everton-liverpool-1973-alan-waddle.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/everton-liverpool-1973-alan-waddle",
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
-      },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "event": "Everton 0–1 Liverpool",
+      "eventPath": "content/this-week/liverpool/1973-12-08-everton-liverpool-1973-alan-waddle.md",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "scope": "Longlist proposal; independent historical research required."
         },
         {
+          "confidence": "high",
           "location": "docs/editorial/drafts/030-everton-liverpool-1973-alan-waddle.md",
-          "confidence": "high",
           "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
         }
       ],
-      "researchStatus": "verified"
+      "featuredWeek": "2026-12-07",
+      "historicalEventDate": "1973-12-08",
+      "id": "1973-12-08-classic-030",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_027_031",
+      "publishedDestination": "/archive/everton-liverpool-1973-alan-waddle",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
     },
     {
-      "id": "1973-12-22-classic-031",
-      "event": "Liverpool 2–0 Manchester United",
-      "historicalEventDate": "1973-12-22",
-      "featuredWeek": "2026-12-21",
-      "selection": "alternative",
-      "status": "published",
-      "owner": "gpt-6-astra /root/astra_batch_027_031",
-      "claim": null,
-      "eventPath": "content/this-week/liverpool/1973-12-22-liverpool-manchester-united-1973-ten-home-wins.md",
-      "draftPath": "docs/editorial/drafts/031-liverpool-manchester-united-1973-ten-home-wins.md",
-      "originalDraftId": null,
-      "publishedDestination": "/archive/liverpool-manchester-united-1973-ten-home-wins",
       "approval": {
         "by": "Denny",
-        "recordedAt": "2026-09-15T10:27:10Z",
-        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031."
+        "evidence": "Denny: “Ok commit and make all live to site” after receiving two samples from completed batch 017–031.",
+        "recordedAt": "2026-09-15T10:27:10Z"
       },
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/031-liverpool-manchester-united-1973-ten-home-wins.md",
+      "event": "Liverpool 2–0 Manchester United",
+      "eventPath": "content/this-week/liverpool/1973-12-22-liverpool-manchester-united-1973-ten-home-wins.md",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "scope": "Longlist proposal; independent historical research required."
         },
         {
-          "location": "docs/editorial/drafts/031-liverpool-manchester-united-1973-ten-home-wins.md",
           "confidence": "high",
+          "location": "docs/editorial/drafts/031-liverpool-manchester-united-1973-ten-home-wins.md",
           "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
         }
       ],
-      "researchStatus": "verified"
+      "featuredWeek": "2026-12-21",
+      "historicalEventDate": "1973-12-22",
+      "id": "1973-12-22-classic-031",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft. Published in PR #29 after explicit batch approval; all 15 live pages and Matches/Season links verified HTTP 200 on 15 September 2026.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_027_031",
+      "publishedDestination": "/archive/liverpool-manchester-united-1973-ten-home-wins",
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "published"
     },
     {
-      "id": "1974-03-09-classic-032",
-      "event": "Bristol City 0–1 Liverpool",
-      "historicalEventDate": "1974-03-09",
-      "featuredWeek": "2026-03-09",
-      "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_032_036",
-      "claim": null,
-      "eventPath": null,
-      "draftPath": "docs/editorial/drafts/032-bristol-city-liverpool-1974-toshack-cup-quarter-final.md",
-      "originalDraftId": null,
-      "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/032-bristol-city-liverpool-1974-toshack-cup-quarter-final.md",
+      "event": "Bristol City 0–1 Liverpool",
+      "eventPath": null,
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "scope": "Longlist proposal; verify historical facts before drafting."
         },
         {
-          "location": "docs/editorial/drafts/032-bristol-city-liverpool-1974-toshack-cup-quarter-final.md",
           "confidence": "high",
+          "location": "docs/editorial/drafts/032-bristol-city-liverpool-1974-toshack-cup-quarter-final.md",
           "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
         }
       ],
-      "researchStatus": "verified"
+      "featuredWeek": "2026-03-09",
+      "historicalEventDate": "1974-03-09",
+      "id": "1974-03-09-classic-032",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_032_036",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
     },
     {
-      "id": "1974-04-03-classic-033",
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/033-liverpool-leicester-1974-semi-final-replay.md",
       "event": "Liverpool 3–1 Leicester City",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/033-liverpool-leicester-1974-semi-final-replay.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-03-30",
       "historicalEventDate": "1974-04-03",
+      "id": "1974-04-03-classic-033",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_032_036",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/034-liverpool-newcastle-1974-fa-cup-final.md",
+      "event": "Liverpool 3–0 Newcastle United",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/034-liverpool-newcastle-1974-fa-cup-final.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-05-04",
+      "historicalEventDate": "1974-05-04",
+      "id": "1974-05-04-classic-034",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_032_036",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/035-tottenham-liverpool-1974-shankly-final-league-match.md",
+      "event": "Tottenham Hotspur 1–1 Liverpool",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/035-tottenham-liverpool-1974-shankly-final-league-match.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-05-04",
+      "historicalEventDate": "1974-05-08",
+      "id": "1974-05-08-classic-035",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_032_036",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/036-liverpool-leeds-1974-charity-shield.md",
+      "event": "Liverpool 1–1 Leeds United",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/036-liverpool-leeds-1974-charity-shield.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-08-10",
+      "historicalEventDate": "1974-08-10",
+      "id": "1974-08-10-classic-036",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_032_036",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/037-liverpool-tottenham-1974-boersma-hat-trick.md",
+      "event": "Liverpool 5–2 Tottenham Hotspur",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/037-liverpool-tottenham-1974-boersma-hat-trick.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-09-07",
+      "historicalEventDate": "1974-09-07",
+      "id": "1974-09-07-classic-037",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_037_042",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/039-liverpool-manchester-city-1974-boxing-day.md",
+      "event": "Liverpool 4–1 Manchester City",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/039-liverpool-manchester-city-1974-boxing-day.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-12-21",
+      "historicalEventDate": "1974-12-26",
+      "id": "1974-12-26-classic-039",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_037_042",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/040-liverpool-ipswich-1975-toshack-double.md",
+      "event": "Liverpool 5–2 Ipswich Town",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/040-liverpool-ipswich-1975-toshack-double.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-02-02",
+      "historicalEventDate": "1975-02-08",
+      "id": "1975-02-08-classic-040",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_037_042",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/041-liverpool-newcastle-1975-toshack-mcdermott.md",
+      "event": "Liverpool 4–0 Newcastle United",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/041-liverpool-newcastle-1975-toshack-mcdermott.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-03-23",
+      "historicalEventDate": "1975-03-25",
+      "id": "1975-03-25-classic-041",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_037_042",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/042-bill-shankly-testimonial-anfield-1975.md",
+      "event": "Liverpool 6–2 Don Revie Select XI",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/042-bill-shankly-testimonial-anfield-1975.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-04-27",
+      "historicalEventDate": "1975-04-29",
+      "id": "1975-04-29-classic-042",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_037_042",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/043-leeds-liverpool-1975-callaghan-double.md",
+      "event": "Leeds United 0–3 Liverpool",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/043-leeds-liverpool-1975-callaghan-double.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-08-24",
+      "historicalEventDate": "1975-08-26",
+      "id": "1975-08-26-classic-043",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_043_046",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/045-tottenham-liverpool-1975-four-scorers.md",
+      "event": "Tottenham Hotspur 0–4 Liverpool",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/045-tottenham-liverpool-1975-four-scorers.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-12-07",
+      "historicalEventDate": "1975-12-13",
+      "id": "1975-12-13-classic-045",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_043_046",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "approval": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/046-liverpool-ipswich-1976-three-equalisers.md",
+      "event": "Liverpool 3–3 Ipswich Town",
+      "eventPath": null,
+      "evidence": [
+        {
+          "confidence": "unverified",
+          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "confidence": "high",
+          "location": "docs/editorial/drafts/046-liverpool-ipswich-1976-three-equalisers.md",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+        }
+      ],
+      "featuredWeek": "2026-01-05",
+      "historicalEventDate": "1976-01-10",
+      "id": "1976-01-10-classic-046",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "originalDraftId": null,
+      "owner": "gpt-6-astra /root/astra_batch_043_046",
+      "publishedDestination": null,
+      "researchStatus": "verified",
+      "selection": "alternative",
+      "status": "ready_for_review"
+    },
+    {
+      "id": "1976-03-30-classic-047",
+      "event": "Barcelona 0–1 Liverpool",
+      "historicalEventDate": "1976-03-30",
       "featuredWeek": "2026-03-30",
       "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_032_036",
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-047",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
       "eventPath": null,
-      "draftPath": "docs/editorial/drafts/033-liverpool-leicester-1974-semi-final-replay.md",
+      "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/033-liverpool-leicester-1974-semi-final-replay.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "needs_research"
     },
     {
-      "id": "1974-05-04-classic-034",
-      "event": "Liverpool 3–0 Newcastle United",
-      "historicalEventDate": "1974-05-04",
-      "featuredWeek": "2026-05-04",
+      "id": "1976-04-03-classic-048",
+      "event": "Liverpool 1–0 Everton",
+      "historicalEventDate": "1976-04-03",
+      "featuredWeek": "2026-03-30",
       "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_032_036",
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-048",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
       "eventPath": null,
-      "draftPath": "docs/editorial/drafts/034-liverpool-newcastle-1974-fa-cup-final.md",
+      "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/034-liverpool-newcastle-1974-fa-cup-final.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "needs_research"
     },
     {
-      "id": "1974-05-08-classic-035",
-      "event": "Tottenham Hotspur 1–1 Liverpool",
-      "historicalEventDate": "1974-05-08",
-      "featuredWeek": "2026-05-04",
+      "id": "1976-04-14-classic-049",
+      "event": "Liverpool 1–1 Barcelona",
+      "historicalEventDate": "1976-04-14",
+      "featuredWeek": "2026-04-13",
       "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_032_036",
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-049",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
       "eventPath": null,
-      "draftPath": "docs/editorial/drafts/035-tottenham-liverpool-1974-shankly-final-league-match.md",
+      "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/035-tottenham-liverpool-1974-shankly-final-league-match.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "needs_research"
     },
     {
-      "id": "1974-08-10-classic-036",
-      "event": "Liverpool 1–1 Leeds United",
-      "historicalEventDate": "1974-08-10",
-      "featuredWeek": "2026-08-10",
+      "id": "1976-04-17-classic-050",
+      "event": "Liverpool 5–3 Stoke City",
+      "historicalEventDate": "1976-04-17",
+      "featuredWeek": "2026-04-13",
       "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_032_036",
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-050",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
       "eventPath": null,
-      "draftPath": "docs/editorial/drafts/036-liverpool-leeds-1974-charity-shield.md",
+      "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/036-liverpool-leeds-1974-charity-shield.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "needs_research"
     },
     {
-      "id": "1974-09-07-classic-037",
-      "event": "Liverpool 5–2 Tottenham Hotspur",
-      "historicalEventDate": "1974-09-07",
-      "featuredWeek": "2026-09-07",
+      "id": "1976-04-19-classic-051",
+      "event": "Manchester City 0–3 Liverpool",
+      "historicalEventDate": "1976-04-19",
+      "featuredWeek": "2026-04-13",
       "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_037_042",
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-051",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
       "eventPath": null,
-      "draftPath": "docs/editorial/drafts/037-liverpool-tottenham-1974-boersma-hat-trick.md",
+      "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/037-liverpool-tottenham-1974-boersma-hat-trick.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "needs_research"
     },
     {
-      "id": "1974-12-26-classic-039",
-      "event": "Liverpool 4–1 Manchester City",
-      "historicalEventDate": "1974-12-26",
-      "featuredWeek": "2026-12-21",
-      "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_037_042",
-      "claim": null,
-      "eventPath": null,
-      "draftPath": "docs/editorial/drafts/039-liverpool-manchester-city-1974-boxing-day.md",
-      "originalDraftId": null,
-      "publishedDestination": null,
-      "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/039-liverpool-manchester-city-1974-boxing-day.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1975-02-08-classic-040",
-      "event": "Liverpool 5–2 Ipswich Town",
-      "historicalEventDate": "1975-02-08",
-      "featuredWeek": "2026-02-02",
-      "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_037_042",
-      "claim": null,
-      "eventPath": null,
-      "draftPath": "docs/editorial/drafts/040-liverpool-ipswich-1975-toshack-double.md",
-      "originalDraftId": null,
-      "publishedDestination": null,
-      "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/040-liverpool-ipswich-1975-toshack-double.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1975-03-25-classic-041",
-      "event": "Liverpool 4–0 Newcastle United",
-      "historicalEventDate": "1975-03-25",
-      "featuredWeek": "2026-03-23",
-      "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_037_042",
-      "claim": null,
-      "eventPath": null,
-      "draftPath": "docs/editorial/drafts/041-liverpool-newcastle-1975-toshack-mcdermott.md",
-      "originalDraftId": null,
-      "publishedDestination": null,
-      "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
-      "evidence": [
-        {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
-          "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/041-liverpool-newcastle-1975-toshack-mcdermott.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
-        }
-      ],
-      "researchStatus": "verified"
-    },
-    {
-      "id": "1975-04-29-classic-042",
-      "event": "Liverpool 6–2 Don Revie Select XI",
-      "historicalEventDate": "1975-04-29",
+      "id": "1976-04-28-classic-052",
+      "event": "Liverpool 3–2 Club Brugge",
+      "historicalEventDate": "1976-04-28",
       "featuredWeek": "2026-04-27",
       "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_037_042",
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-052",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
       "eventPath": null,
-      "draftPath": "docs/editorial/drafts/042-bill-shankly-testimonial-anfield-1975.md",
+      "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/042-bill-shankly-testimonial-anfield-1975.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "needs_research"
     },
     {
-      "id": "1975-08-26-classic-043",
-      "event": "Leeds United 0–3 Liverpool",
-      "historicalEventDate": "1975-08-26",
-      "featuredWeek": "2026-08-24",
+      "id": "1976-05-04-classic-053",
+      "event": "Wolverhampton Wanderers 1–3 Liverpool",
+      "historicalEventDate": "1976-05-04",
+      "featuredWeek": "2026-05-04",
       "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_043_046",
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-053",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
       "eventPath": null,
-      "draftPath": "docs/editorial/drafts/043-leeds-liverpool-1975-callaghan-double.md",
+      "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/043-leeds-liverpool-1975-callaghan-double.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "needs_research"
     },
     {
-      "id": "1975-12-13-classic-045",
-      "event": "Tottenham Hotspur 0–4 Liverpool",
-      "historicalEventDate": "1975-12-13",
-      "featuredWeek": "2026-12-07",
+      "id": "1976-05-19-classic-054",
+      "event": "Club Brugge 1–1 Liverpool",
+      "historicalEventDate": "1976-05-19",
+      "featuredWeek": "2026-05-18",
       "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_043_046",
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-054",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
       "eventPath": null,
-      "draftPath": "docs/editorial/drafts/045-tottenham-liverpool-1975-four-scorers.md",
+      "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/045-tottenham-liverpool-1975-four-scorers.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "needs_research"
     },
     {
-      "id": "1976-01-10-classic-046",
-      "event": "Liverpool 3–3 Ipswich Town",
-      "historicalEventDate": "1976-01-10",
-      "featuredWeek": "2026-01-05",
+      "id": "1976-08-14-classic-055",
+      "event": "Liverpool 1–0 Southampton",
+      "historicalEventDate": "1976-08-14",
+      "featuredWeek": "2026-08-10",
       "selection": "alternative",
-      "status": "ready_for_review",
-      "owner": "gpt-6-astra /root/astra_batch_043_046",
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-055",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
       "eventPath": null,
-      "draftPath": "docs/editorial/drafts/046-liverpool-ipswich-1976-three-equalisers.md",
+      "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
       "evidence": [
         {
-          "location": "libfile_83ca75659d5881919e65e85c2aba4921",
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
-          "scope": "Longlist proposal; verify historical facts before drafting."
-        },
-        {
-          "location": "docs/editorial/drafts/046-liverpool-ipswich-1976-three-equalisers.md",
-          "confidence": "high",
-          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1976-09-11-classic-056",
+      "event": "Derby County 2–3 Liverpool",
+      "historicalEventDate": "1976-09-11",
+      "featuredWeek": "2026-09-07",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-056",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
+      "evidence": [
+        {
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1977-03-02-classic-057",
+      "event": "Saint-Étienne 1–0 Liverpool",
+      "historicalEventDate": "1977-03-02",
+      "featuredWeek": "2026-03-02",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-057",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
+      "evidence": [
+        {
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1977-03-16-classic-058",
+      "event": "Liverpool 3–1 Saint-Étienne",
+      "historicalEventDate": "1977-03-16",
+      "featuredWeek": "2026-03-16",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-058",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
+      "evidence": [
+        {
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1977-04-02-classic-059",
+      "event": "Liverpool 3–1 Leeds United",
+      "historicalEventDate": "1977-04-02",
+      "featuredWeek": "2026-03-30",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-059",
+        "claimedAt": "2026-09-15T12:34:40.804Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
+      "evidence": [
+        {
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1977-04-06-classic-060",
+      "event": "Zürich 1–3 Liverpool",
+      "historicalEventDate": "1977-04-06",
+      "featuredWeek": "2026-04-06",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-060",
+        "claimedAt": "2026-09-15T12:34:40.805Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
+      "evidence": [
+        {
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1977-04-20-classic-061",
+      "event": "Liverpool 3–0 Zürich",
+      "historicalEventDate": "1977-04-20",
+      "featuredWeek": "2026-04-20",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/next15_astra",
+      "claim": {
+        "token": "next15-astra-20260915-061",
+        "claimedAt": "2026-09-15T12:34:40.805Z",
+        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
+      "evidence": [
+        {
+          "location": "01-classic-liverpool-games-1970-1990-1-.md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; historical facts require retrieved-source verification."
+        }
+      ],
+      "researchStatus": "needs_research"
     }
   ],
   "gaps": [
