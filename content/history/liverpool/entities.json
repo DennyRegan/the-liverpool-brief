@@ -2163,5 +2163,40 @@
     "id": "tranmere-rovers",
     "label": "Tranmere Rovers",
     "kind": "opposition"
+  },
+  {
+    "id": "dinamo-tbilisi",
+    "label": "Dinamo Tbilisi",
+    "kind": "opposition"
+  },
+  {
+    "id": "hillsborough",
+    "label": "Hillsborough",
+    "kind": "location"
+  },
+  {
+    "id": "highfield-road",
+    "label": "Highfield Road",
+    "kind": "location"
+  },
+  {
+    "id": "oulu-palloseura",
+    "label": "Oulu Palloseura",
+    "kind": "opposition"
+  },
+  {
+    "id": "aberdeen",
+    "label": "Aberdeen",
+    "kind": "opposition"
+  },
+  {
+    "id": "pittodrie",
+    "label": "Pittodrie",
+    "kind": "location"
+  },
+  {
+    "id": "cska-sofia",
+    "label": "CSKA Sofia",
+    "kind": "opposition"
   }
 ]
