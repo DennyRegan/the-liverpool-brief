@@ -138,6 +138,21 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'manchester-city-liverpool-1982-five-goals',
     'tottenham-liverpool-1982-dalglish-recovery',
     'liverpool-nottingham-forest-1982-late-recovery',
+    'liverpool-luton-1982-three-goalkeepers',
+    'everton-liverpool-1982-rush-four',
+    'liverpool-manchester-city-1982-dalglish-hat-trick',
+    'liverpool-brighton-1983-case-cup-winner',
+    'widzew-liverpool-1983-two-goal-deficit',
+    'liverpool-widzew-1983-victory-elimination',
+    'liverpool-manchester-united-1983-whelan-final',
+    'liverpool-aston-villa-1983-paisley-anfield-farewell',
+    'arsenal-liverpool-1983-dalglish-finish',
+    'liverpool-luton-1983-rush-five',
+    'athletic-bilbao-liverpool-1983-rush-header',
+    'liverpool-everton-1983-derby-lead',
+    'liverpool-walsall-1984-semi-final-draw',
+    'benfica-liverpool-1984-dalglish-three-assists',
+    'liverpool-everton-1984-wembley-draw',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
