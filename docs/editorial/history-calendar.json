@@ -1395,27 +1395,28 @@
       "historicalEventDate": "1974-05-04",
       "featuredWeek": "2026-05-04",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_batch_032_036",
-      "claim": {
-        "token": "classic-032-046-20260915-034",
-        "claimedAt": "2026-09-15T10:37:29Z",
-        "baseCommit": "61dd0de7fc2995104f91598a7d4c74a62a7d9239"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/034-liverpool-newcastle-1974-fa-cup-final.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved.",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
       "evidence": [
         {
           "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
           "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "location": "docs/editorial/drafts/034-liverpool-newcastle-1974-fa-cup-final.md",
+          "confidence": "high",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1974-05-08-classic-035",
@@ -1537,27 +1538,28 @@
       "historicalEventDate": "1975-02-08",
       "featuredWeek": "2026-02-02",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_batch_037_042",
-      "claim": {
-        "token": "classic-032-046-20260915-040",
-        "claimedAt": "2026-09-15T10:37:29Z",
-        "baseCommit": "61dd0de7fc2995104f91598a7d4c74a62a7d9239"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/040-liverpool-ipswich-1975-toshack-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved.",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
       "evidence": [
         {
           "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
           "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "location": "docs/editorial/drafts/040-liverpool-ipswich-1975-toshack-double.md",
+          "confidence": "high",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1975-03-25-classic-041",
@@ -1650,27 +1652,28 @@
       "historicalEventDate": "1975-12-13",
       "featuredWeek": "2026-12-07",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_batch_043_046",
-      "claim": {
-        "token": "classic-032-046-20260915-045",
-        "claimedAt": "2026-09-15T10:37:29Z",
-        "baseCommit": "61dd0de7fc2995104f91598a7d4c74a62a7d9239"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/045-tottenham-liverpool-1975-four-scorers.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved.",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
       "evidence": [
         {
           "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
           "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "location": "docs/editorial/drafts/045-tottenham-liverpool-1975-four-scorers.md",
+          "confidence": "high",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1976-01-10-classic-046",
