@@ -1,19 +1,34 @@
 ---
-title: "Liverpool 4–1 QPR: Dalglish returns after the cup defeat"
-historicalEventDate: "1986-03-08"
-historicalPeriod: "8 March 1986 · First Division · Anfield"
-decade: "1980s"
-excerpt: "Steve McMahon scored twice as Liverpool beat QPR three days after their League Cup elimination, with Kenny Dalglish back in the side."
-slug: "liverpool-qpr-1986-dalglish-returns"
-category: "match"
-articleType: "match"
-season: "1985-86"
-playerIds: ["kenny-dalglish", "steve-mcmahon", "ian-rush", "john-wark"]
-managerIds: ["kenny-dalglish"]
-oppositionIds: ["queens-park-rangers"]
-competitionIds: ["first-division"]
-locationIds: ["anfield"]
-sources: ["https://www.lfchistory.net/games/1517", "https://www.11v11.com/matches/liverpool-v-queens-park-rangers-08-march-1986-87962/", "https://www.lfchistory.net/articles/675", "https://www.lfchistory.net/games/1516"]
+title: 'Liverpool 4–1 QPR: Dalglish returns after the cup defeat'
+historicalEventDate: '1986-03-08'
+historicalPeriod: 8 March 1986 · First Division · Anfield
+decade: 1980s
+excerpt: >-
+  Steve McMahon scored twice as Liverpool beat QPR three days after their League
+  Cup elimination, with Kenny Dalglish back in the side.
+slug: liverpool-qpr-1986-dalglish-returns
+category: match
+articleType: match
+season: 1985-86
+playerIds:
+  - kenny-dalglish
+  - steve-mcmahon
+  - ian-rush
+  - john-wark
+managerIds:
+  - kenny-dalglish
+oppositionIds:
+  - queens-park-rangers
+competitionIds:
+  - first-division
+locationIds:
+  - anfield
+sources:
+  - 'https://www.lfchistory.net/games/1517'
+  - >-
+    https://www.11v11.com/matches/liverpool-v-queens-park-rangers-08-march-1986-87962/
+  - 'https://www.lfchistory.net/articles/675'
+  - 'https://www.lfchistory.net/games/1516'
 ---
 
 # Liverpool 4–1 QPR: Dalglish returns after the cup defeat

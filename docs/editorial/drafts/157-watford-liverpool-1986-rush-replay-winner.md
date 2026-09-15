@@ -1,18 +1,37 @@
 ---
-title: "Mølby rescues Liverpool before Rush wins the Watford replay"
-historicalEventDate: "1986-03-17"
-historicalPeriod: "17 March 1986"
-decade: "1980s"
-excerpt: "A late Jan Mølby penalty forced extra time at Watford, where Ian Rush secured Liverpool’s place in the FA Cup semi-finals."
-slug: "watford-liverpool-1986-rush-replay-winner"
-category: "match"
-articleType: "match"
-season: "1985-86"
-playerIds: ["jan-molby", "ian-rush", "kenny-dalglish", "john-barnes"]
-managerIds: ["kenny-dalglish"]
-oppositionIds: []
-competitionIds: ["fa-cup"]
-sources: ["https://lfchistory.net/games/1520", "https://www.11v11.com/matches/watford-v-liverpool-17-march-1986-215622/", "https://www.liverpoolfc.com/news/first-team/220065-no-1-the-great-dane-keeps-our-double-dreams-alive-and-kicking", "https://www.theanfieldwrap.com/2016/03/liverpool-on-the-march-with-kennys-army-watford-away/", "https://watfordlegends.com/enjoy-the-game/tony-coton-enjoy-game-interview/", "https://watfordlegends.com/enjoy-the-game/steve-terry-enjoy-game-interview/"]
+title: Mølby rescues Liverpool before Rush wins the Watford replay
+historicalEventDate: '1986-03-17'
+historicalPeriod: 17 March 1986
+decade: 1980s
+excerpt: >-
+  A late Jan Mølby penalty forced extra time at Watford, where Ian Rush secured
+  Liverpool’s place in the FA Cup semi-finals.
+slug: watford-liverpool-1986-rush-replay-winner
+category: match
+articleType: match
+season: 1985-86
+playerIds:
+  - jan-molby
+  - ian-rush
+  - kenny-dalglish
+  - john-barnes
+managerIds:
+  - kenny-dalglish
+oppositionIds:
+  - watford
+competitionIds:
+  - fa-cup
+sources:
+  - 'https://lfchistory.net/games/1520'
+  - 'https://www.11v11.com/matches/watford-v-liverpool-17-march-1986-215622/'
+  - >-
+    https://www.liverpoolfc.com/news/first-team/220065-no-1-the-great-dane-keeps-our-double-dreams-alive-and-kicking
+  - >-
+    https://www.theanfieldwrap.com/2016/03/liverpool-on-the-march-with-kennys-army-watford-away/
+  - 'https://watfordlegends.com/enjoy-the-game/tony-coton-enjoy-game-interview/'
+  - 'https://watfordlegends.com/enjoy-the-game/steve-terry-enjoy-game-interview/'
+locationIds:
+  - vicarage-road
 ---
 
 # Mølby rescues Liverpool before Rush wins the Watford replay
@@ -49,3 +68,5 @@ Reconstruction scope: Shaw and Nevin’s book extract, republished by The Anfiel
 Conflict: Coton denies contact; Terry recalls Rush going over his arm while also disputing the penalty. The article reports the award and attributes Coton’s denial, without finding a dive or an established foul. Omitted purported contemporary quotations recycled without original provenance, estimated away-support numbers and speculative implications for the league title. A partisan referee essay consulted during research incorrectly credits Rush with the penalty and was rejected. No contemporary full match report recovered; the limitation is reflected in selective reconstruction.
 
 Metadata: existing player IDs only. Watford and Vicarage Road were not found in the current entity registry; opposition/location left for coordinator review rather than inventing IDs. Self-review checked every substantive claim, chronology and source derivation; no invented colour or direct quotations.
+
+Independent publication review — 15 September 2026, actual `gpt-6-astra`, worker `/root/astra_a`: Fresh independent review reread the Shaw–Nevin retrospective and Coton/Terry first-person interviews. Their accounts support pressure, the awarded penalty and the carefully attributed disagreement; no claim that a foul or dive is established. Season chronology independently checked against 11v11. No public change required.
