@@ -26,7 +26,7 @@ His third came from a different kind of finish. Steve Nicol reached the byline o
 
 Rush's fourth, ten minutes into the second half, was a first-time volley from Alan Kennedy's long ball. He completed his five with two minutes remaining, reacting after Sealey blocked Souness's close-range effort.
 
-The victory, watched by 31,940, put Rush alongside John Miller, Andy McGuigan and John Evans as the fourth Liverpool player to score five in a match. His finishes had ranged from close-range rebounds to a header and a volley; Luton had been beaten before the interval, but Rush continued to add to the score.
+The victory, watched by 31,940, put Rush alongside John Miller, Andy McGuigan and John Evans as the fourth Liverpool player to score five in a match.
 
 ## Sources
 
@@ -43,3 +43,5 @@ Classic 131. Actual configured model `gpt-6-astra`; worker `/root/astra_b`. Sour
 Confidence/scope: LFChistory match — High date, ground, score, sequence/times, Nicol/Kennedy assists and crowd. Contemporary Liverpool Echo report, reproduced by LFChistory — High selective goal mechanics; public prose deriving from this report under 200 words. Hatters Heritage — Medium/High independent result, five Rush goals and crowd. The Anfield Wrap 2016 recollection — Medium independent eyewitness recollection specifically agreeing with Nicol cross/header and fourth-goal volley; contemporary report governs, no later atmospheric detail borrowed. Club records — High five-goal list; Miller1892, McGuigan1902, Evans1954 precede Rush, Fowler1993 follows. Record independently consistent with match archive’s five-player present-day note.
 
 Final claim-by-claim check complete. Do not say Rush was the fifth such scorer in October1983: he was fourth. Exact75-second opener avoided in favour of corroborated broad opening sequence. No dubious claim this win sent Liverpool top (match table has them second, United25/Liverpool23). No weather, injury speculation, quotations or claim footage watched; contemporary account describes sunshine while Rush’s later interview remembers a cold day, neither necessary. Hatters linked newspaper PDFs failed retrieval and are not listed as consulted. Luton opposition ID absent from inspected registry; publisher should reuse/add canonical ID.
+
+Independent publication review: `gpt-6-astra`, `/root/astra_c`, 15 September 2026. Fresh Echo transcription and independent Anfield Wrap recollection agree on the selected goal mechanics. Club records independently confirm Rush was the fourth five-goal scorer at this date; Liverweb confirms score, sequence and crowd. Removed repetitive final sentence. Hatters page returned 403 during this review; its previously retrieved record was not relied upon by reviewer. No material factual conflict or source-budget issue found.

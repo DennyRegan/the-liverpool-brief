@@ -24,7 +24,7 @@ United went ahead after 12 minutes. Norman Whiteside controlled a long ball, got
 
 Liverpool had to wait until the 75th minute for their reply. Kennedy, advancing from left-back, struck from distance to beat Gary Bailey and bring the holders level. United had already lost Kevin Moran, replaced by Lou Macari.
 
-Late in normal time Grobbelaar fouled McQueen as he ran towards goal. Referee George Courtney booked the goalkeeper, who remained on the field for extra-time.
+Late in normal time Grobbelaar fouled Gordon McQueen as he ran towards goal. Referee George Courtney booked the goalkeeper, who remained on the field for extra-time.
 
 Eight minutes into the additional period, Whelan curled his shot past Bailey for the winning goal. He had scored twice in the previous year's final against Tottenham; another decisive Wembley finish now completed Liverpool's recovery.
 
@@ -45,3 +45,5 @@ Classic 128. Actual configured model `gpt-6-astra`; worker `/root/astra_b`. Sour
 Confidence/scope: LFChistory — High fundamentals, sequence, times and Moran substitution. Liverpool FC retrospective — High goal mechanics, Whelan's curl, retirement and Paisley lifting trophy. National Football Museum — High independent final result, Whiteside's age/record and opening-goal control, three successive cups and retirement. Publisher's sample of The King Takes Over — Medium/High retrospective corroboration of goal sequence, late Grobbelaar/McQueen foul, booking and extra-time; no more than 200 public words derived. Guardian retrospective independently corroborates the booking; the fuller foul description is supported by the publisher’s sample.
 
 Final substantive-claim check complete. No assertion about whether a red card was mandatory under 1983 laws and no modern denial-of-goalscoring-opportunity rule projected backwards. No contemporary full report recovered; later reconstructions identified as such here. No quote or claim to have watched footage. Whelan 98, Kennedy75 and Whiteside12 agree across records/club; publisher gives Whelan99, so the agreed record/club time governs. Short conclusion deliberately confined to Paisley's trophy presentation rather than later-season honours.
+
+Independent publication review: `gpt-6-astra`, `/root/astra_c`, 15 September 2026. Fresh club and National Football Museum accounts agree on the final result, goals, Whiteside record and Paisley farewell. Publisher sample separately confirms the booking and Souness sending Paisley to receive the cup. Added Gordon on McQueen’s first mention. No material factual conflict or source-budget issue found.
