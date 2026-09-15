@@ -804,12 +804,8 @@
     },
     {
       "approval": null,
-      "claim": {
-        "token": "classic-017-031-20260915-017",
-        "claimedAt": "2026-09-15T08:49:16Z",
-        "baseCommit": "276d280e041352a3f64bb2dc787ef73d31124624"
-      },
-      "draftPath": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/017-liverpool-everton-1972-cormack-winner.md",
       "event": "Liverpool 1–0 Everton",
       "eventPath": null,
       "evidence": [
@@ -817,18 +813,23 @@
           "confidence": "high",
           "location": "libfile_7daf9eb45c848191ad54fc730946ff74",
           "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
+        },
+        {
+          "location": "docs/editorial/drafts/017-liverpool-everton-1972-cormack-winner.md",
+          "confidence": "high",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
         }
       ],
       "featuredWeek": "2026-10-05",
       "historicalEventDate": "1972-10-07",
       "id": "1972-10-07-classic-017",
-      "notes": "Preserved classic-match longlist 017; not a commissioned draft. Do not replace selected topics without recording the decision here. Explicit next-batch drafting request received; no publication approval.",
+      "notes": "Preserved classic-match longlist 017; not a commissioned draft. Do not replace selected topics without recording the decision here. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_batch_017_031",
       "publishedDestination": null,
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "selection": "alternative",
-      "status": "writing"
+      "status": "ready_for_review"
     },
     {
       "approval": null,
@@ -865,27 +866,28 @@
       "historicalEventDate": "1972-11-18",
       "featuredWeek": "2026-11-16",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_batch_017_031",
-      "claim": {
-        "token": "classic-017-031-20260915-018",
-        "claimedAt": "2026-09-15T08:49:16Z",
-        "baseCommit": "276d280e041352a3f64bb2dc787ef73d31124624"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/018-liverpool-newcastle-1972-five-goal-win.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval.",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft.",
       "evidence": [
         {
           "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
           "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "location": "docs/editorial/drafts/018-liverpool-newcastle-1972-five-goal-win.md",
+          "confidence": "high",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1972-12-02-classic-019",
