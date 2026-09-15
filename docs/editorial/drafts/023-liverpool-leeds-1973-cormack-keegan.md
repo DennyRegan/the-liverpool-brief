@@ -14,6 +14,7 @@ managerIds: ["bill-shankly"]
 oppositionIds: ["leeds-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
+sources: ["https://www.lfchistory.net/games/740", "https://www.ozwhitelufc.net.au/23-04-1973%20Liverpool%20v%20LUFC.htm", "https://www.liverpoolfc.com/news/50-years-ago-kop-salutes-bill-shankly-he-lifts-last-league-title-liverpool"]
 ---
 
 # Liverpool 2–0 Leeds United: Cormack and Keegan put the title within reach

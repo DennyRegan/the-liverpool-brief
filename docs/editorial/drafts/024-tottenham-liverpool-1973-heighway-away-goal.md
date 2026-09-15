@@ -14,6 +14,7 @@ managerIds: ["bill-shankly"]
 oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["uefa-cup"]
 locationIds: ["white-hart-lane"]
+sources: ["https://www.lfchistory.net/games/741", "https://www.uefa.com/uefaeuropaleague/match/64293--tottenham-vs-liverpool/", "https://www.tottenhamhotspur.com/news/1000693/history-benfica-to-bodglimt-63-years-of-semi-final-showdowns-in-europe", "https://www.liverpoolfc.com/news/first-team/210891-the-story-of-an-all-english-uefa-cup-tie-for-lfc-in-1973", "https://www.liverpoolfc.com/news/50-years-ago-kop-salutes-bill-shankly-he-lifts-last-league-title-liverpool"]
 ---
 
 # Tottenham Hotspur 2–1 Liverpool: Heighway's away goal opens the final

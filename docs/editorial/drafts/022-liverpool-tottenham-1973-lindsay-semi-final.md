@@ -14,6 +14,7 @@ managerIds: ["bill-shankly"]
 oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["uefa-cup"]
 locationIds: ["anfield"]
+sources: ["https://www.lfchistory.net/games/736", "https://www.liverpoolfc.com/news/first-team/210891-the-story-of-an-all-english-uefa-cup-tie-for-lfc-in-1973", "https://www.liverpoolfc.com/news/features/350551-missing-men-tottenham-hotspur-1973", "https://www.uefa.com/uefaeuropaleague/match/64293--tottenham-vs-liverpool/"]
 ---
 
 # Liverpool 1–0 Tottenham Hotspur: Lindsay gives Liverpool the advantage
