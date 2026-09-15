@@ -76,7 +76,8 @@ test('history remains text-only while preserving recurring events and Archive li
   const events = getHistoryEvents();
   const week = getHistoryWindow(events, new Date('2026-09-10T12:00:00Z'));
   const selected = week.flatMap(day => day.events);
-  assert.deepEqual(selected.map(event => event.day), [7, 9, 10, 11, 12, 13]);
+  assert.deepEqual([...new Set(selected.map(event => event.day))], [7, 9, 10, 11, 12, 13]);
+  assert.ok(selected.some(event => event.archiveSlug === 'liverpool-tottenham-1974-boersma-hat-trick'));
   assert.equal(week[1].events.length, 0);
   assert.equal(selected.find(event => event.day === 12).archiveSlug, 'liverpool-9-crystal-palace-0');
   assert.ok(events.every(event => !event.image && event.source.startsWith('https://')));
