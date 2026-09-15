@@ -36,7 +36,7 @@ Joe Fagan retained the eleven who had won at Athletic Bilbao four days earlier. 
 
 He put Liverpool ahead during the opening twenty minutes of the derby. That remained the only goal of the first half, leaving Everton within reach at the interval.
 
-Robinson doubled the lead on the hour. Nicol supplied the third late in the game, with Mark Lawrenson credited with the assist. All three scorers had started in Bilbao; this time each contributed a goal to a fourth successive league victory.
+Robinson doubled the lead on the hour. Nicol supplied the third late in the game, with Mark Lawrenson credited with the assist. It was Liverpool's fourth successive league victory.
 
 Liverpool finished with 26 points from twelve matches, one ahead of Manchester United. Everton were seventeenth with fifteen points and only seven league goals. The neighbours' contrasting positions were clear: Liverpool had followed their European progress by taking the domestic lead, while Howard Kendall's side had failed to score again.
 
