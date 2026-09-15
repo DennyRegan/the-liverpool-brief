@@ -1,5 +1,7 @@
 ---
-title: 'Liverpool 3–0 Borussia Mönchengladbach: Kennedy leads the way back to the final'
+title: >-
+  Liverpool 3–0 Borussia Mönchengladbach: Kennedy leads the way back to the
+  final
 historicalEventDate: '1978-04-12'
 historicalPeriod: 12 April 1978 · European Cup semi-final second leg · Anfield
 decade: 1970s
@@ -24,12 +26,13 @@ competitionIds:
 locationIds:
   - anfield
 sources:
-  - https://www.lfchistory.net/games/1033
-  - https://www.11v11.com/matches/liverpool-v-borussia-m%C3%B6nchengladbach-12-april-1978-219402/
-  - https://www.lfcineurope.com/7778-3RPM.html
+  - 'https://www.lfchistory.net/games/1033'
+  - >-
+    https://www.11v11.com/matches/liverpool-v-borussia-m%C3%B6nchengladbach-12-april-1978-219402/
+  - 'https://www.lfcineurope.com/7778-3RPM.html'
+date: '2026-09-15'
+editorialMode: factual
 ---
-
-# Liverpool 3–0 Borussia Mönchengladbach: Kennedy leads the way back to the final
 
 Liverpool overturned a first-leg deficit to reach their second successive European Cup final on 12 April 1978. A 3–0 victory over Borussia Mönchengladbach at Anfield completed a 4–2 aggregate win against the side they had beaten in the previous year's final.
 
@@ -50,13 +53,3 @@ The final would be against Club Brugge at Wembley on 10 May. Liverpool had earne
 - [LFChistory — Liverpool v Borussia Mönchengladbach, 12 April 1978](https://www.lfchistory.net/games/1033)
 - [11v11 — European Cup semi-final record](https://www.11v11.com/matches/liverpool-v-borussia-m%C3%B6nchengladbach-12-april-1978-219402/)
 - [David Lacey, Guardian, and Horace Yates, Liverpool Daily Post — contemporary reports reproduced by LFC in Europe](https://www.lfcineurope.com/7778-3RPM.html)
-
-## EDITOR NOTES
-
-Classic 078. Actual configured model `gpt-6-astra`; worker `/root/astra_a`. Fresh source retrieval and finished-copy fact check 15 September 2026. Claim read on main at 7a77298; coordinator maintains shared records and publication.
-
-Confidence and scope: LFChistory — High match fundamentals, line-ups, unused substitutes, goal/assist sequence and attendance. 11v11 — Medium/High independent result, date and competition record. Guardian/Daily Post reports reproduced by LFC in Europe — High as contemporary accounts for goal mechanics, midfield performances, first-leg/aggregate score, previous final and forthcoming Wembley final; archive transcriptions rather than original scans. Both full reports retrieved directly from the public page. Combined source-derived public narrative kept below 200 words for that webpage.
-
-Verification: every substantive statement checked. Main result and scorers cross-checked against independent record and contemporary reports; each goal's mechanics corroborated between Lacey and Yates. Dalglish's goal recorded at 35 minutes by LFChistory versus 34 in reports; Case at 56 in LFChistory, around 55 in Guardian, 54 in Daily Post. Public copy deliberately omits exact minutes for both. No footage watched, imagined atmosphere or unsupported tactical explanation. No publication date assigned.
-
-Independent review: DFB records 54,000 spectators, versus LFChistory’s 51,500. Exact attendance omitted from the finished public copy because the discrepancy remains unresolved. DFB match record freshly retrieved for this check: https://datencenter.dfb.de/en/data-center/champions-league/1977-1978/2/liverpool-fc-borussia-monchengladbach-648798 (High for official match record; conflicting attendance not used).

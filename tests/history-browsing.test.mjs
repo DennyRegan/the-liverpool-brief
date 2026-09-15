@@ -95,6 +95,20 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'benfica-liverpool-1978-hughes-winner',
     'liverpool-benfica-1978-european-cup-semi-final',
     'liverpool-nottingham-forest-1978-wembley-draw',
+    'liverpool-nottingham-forest-1978-european-cup-exit',
+    'liverpool-nottingham-forest-1978-league-cup-replay',
+    'liverpool-gladbach-1978-semi-final',
+    'liverpool-brugge-1978-european-cup-final',
+    'ipswich-liverpool-1978-dalglish-double',
+    'manchester-city-liverpool-1978-souness-double',
+    'nottingham-forest-liverpool-1978-first-leg',
+    'liverpool-derby-county-1978-five-goals',
+    'manchester-united-liverpool-1978-boxing-day',
+    'liverpool-norwich-1979-six-goals',
+    'liverpool-aston-villa-1979-eleventh-title',
+    'leeds-liverpool-1979-record-points',
+    'liverpool-arsenal-1979-charity-shield',
+    'liverpool-tranmere-1979-second-half',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);

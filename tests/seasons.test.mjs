@@ -105,7 +105,10 @@ test('Archive links use exact normalised metadata, preserve originals and dedupl
   assert.equal(actual[0], original);
   assert.deepEqual(getSeasonArchiveArticles('invalid', [original]), []);
   const archive = getArchiveFeatures();
-  assert.equal(getSeasonArchiveArticles('1978-79', archive)[0].slug, 'liverpool-7-tottenham-0');
+  const tottenham = archive.find(article => article.slug === 'liverpool-7-tottenham-0');
+  const seasonArticles = getSeasonArchiveArticles('1978-79', archive);
+  assert.equal(seasonArticles.filter(article => article.slug === tottenham.slug).length, 1);
+  assert.equal(seasonArticles.find(article => article.slug === tottenham.slug), tottenham, 'Existing canonical article survives additions to the season');
   assert.deepEqual(getSeasonArchiveArticles('1959-60', [original, other]), [], 'No unrelated filler when metadata does not match');
 });
 
