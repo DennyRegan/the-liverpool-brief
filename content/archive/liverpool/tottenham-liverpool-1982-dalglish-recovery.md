@@ -1,0 +1,50 @@
+---
+title: 'Tottenham 2–2 Liverpool: Dalglish recovers a point'
+historicalEventDate: '1982-05-03'
+historicalPeriod: 3 May 1982 · First Division · White Hart Lane
+decade: 1980s
+excerpt: >-
+  Two goals from Kenny Dalglish brought Liverpool back from 2–0 down at White
+  Hart Lane as their eleven-match winning run ended.
+slug: tottenham-liverpool-1982-dalglish-recovery
+category: match
+articleType: match
+season: 1981-82
+playerIds:
+  - kenny-dalglish
+  - graeme-souness
+  - ronnie-whelan
+managerIds:
+  - bob-paisley
+oppositionIds:
+  - tottenham-hotspur
+competitionIds:
+  - first-division
+locationIds:
+  - white-hart-lane
+sources:
+  - 'https://www.lfchistory.net/games/1276'
+  - >-
+    https://www.11v11.com/matches/tottenham-hotspur-v-liverpool-03-may-1982-86206/
+  - 'https://www.11v11.com/teams/liverpool/tab/matches/season/1982/'
+  - 'https://www.lfchistory.net/season-archive/games/24'
+date: '2026-09-15'
+editorialMode: factual
+---
+
+Kenny Dalglish scored twice in eleven second-half minutes to recover a point for Liverpool at Tottenham on 3 May 1982. The 2–2 draw ended a run of eleven successive league victories, but rescued a match in which Liverpool had trailed 2–0 at half-time.
+
+Steve Perryman put Tottenham ahead after eight minutes at White Hart Lane. Steve Archibald added their second in the 40th, leaving Bob Paisley's side with two goals to retrieve after the interval.
+
+Liverpool introduced Graeme Souness for Craig Johnston at half-time. Dalglish then reduced the deficit with a direct free-kick in the 50th minute and equalised in the 61st, with Ronnie Whelan providing the assist.
+
+Neither side scored again. The crowd of 38,091 had seen Tottenham hold the leaders to a draw, while Liverpool extended their unbeaten league sequence to twelve matches. That sequence had begun with a 5–1 victory at Stoke City on 9 March.
+
+Liverpool finished the day five points clear of Ipswich Town. Both had four matches remaining: Liverpool had 79 points from 38 games and Ipswich 74.
+
+## Sources
+
+- [LFChistory — Tottenham v Liverpool, 3 May 1982](https://www.lfchistory.net/games/1276)
+- [11v11 — Tottenham v Liverpool match record](https://www.11v11.com/matches/tottenham-hotspur-v-liverpool-03-may-1982-86206/)
+- [11v11 — Liverpool's 1981–82 results](https://www.11v11.com/teams/liverpool/tab/matches/season/1982/)
+- [LFChistory — Liverpool's 1981–82 results](https://www.lfchistory.net/season-archive/games/24)

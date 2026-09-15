@@ -124,6 +124,20 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'liverpool-aberdeen-1980-quarter-finals',
     'liverpool-cska-sofia-1981-souness-treble',
     'liverpool-west-ham-1981-final-draw',
+    'liverpool-oulu-1981-rush-first-goal',
+    'liverpool-west-ham-1981-first-league-cup',
+    'liverpool-bayern-1981-anfield-draw',
+    'bayern-liverpool-1981-ray-kennedy-away-goal',
+    'liverpool-real-madrid-1981-third-european-cup',
+    'liverpool-az-1981-hansen-late-winner',
+    'liverpool-everton-1981-dalglish-double',
+    'flamengo-liverpool-1981-tokyo-defeat',
+    'liverpool-manchester-city-1981-boxing-day-defeat',
+    'everton-liverpool-1982-midfield-goals',
+    'manchester-united-liverpool-1982-johnston-winner',
+    'manchester-city-liverpool-1982-five-goals',
+    'tottenham-liverpool-1982-dalglish-recovery',
+    'liverpool-nottingham-forest-1982-late-recovery',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
