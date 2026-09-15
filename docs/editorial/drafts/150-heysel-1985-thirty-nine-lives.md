@@ -1,15 +1,34 @@
 ---
-title: "Heysel, 29 May 1985: thirty-nine lives lost"
-historicalEventDate: "1985-05-29"
-historicalPeriod: "29 May 1985 · Heysel Stadium, Brussels"
-decade: "1980s"
-excerpt: "Thirty-nine people were killed before the European Cup final at Heysel. The violence, failures of protection and subsequent findings form the essential record."
-slug: "heysel-1985-thirty-nine-lives"
-category: "match"
-articleType: "club-event"
-season: "1984-85"
-competitionIds: ["european-cup"]
-sources: ["https://www.liverpoolfc.com/news/lfc-pays-respects-40th-anniversary-heysel-stadium-disaster", "https://hatfulofhistory.wordpress.com/wp-content/uploads/2020/12/175864796-popplewell-final-report-1986.pdf", "https://editorial.uefa.com/resources/021f-0f842a4ba426-22bf135e36bc-1000/uefa_60_years_at_the_heart_of_football.pdf", "https://www.lemonde.fr/archives/article/1989/05/02/seize-inculpes-du-heysel-condamnes-a-des-peines-assorties-de-sursis-la-clemence-et-l-oubli_4107092_1819218.html", "https://www.coe.int/en/web/sport/violence-convention", "https://www.vrt.be/vrtnws/en/2025/05/29/the-heizel-stadium-disaster-footballs-darkest-hour/"]
+title: 'Heysel, 29 May 1985: thirty-nine lives lost'
+historicalEventDate: '1985-05-29'
+historicalPeriod: '29 May 1985 · Heysel Stadium, Brussels'
+decade: 1980s
+excerpt: >-
+  Thirty-nine people were killed before the European Cup final at Heysel. The
+  violence, failures of protection and subsequent findings form the essential
+  record.
+slug: heysel-1985-thirty-nine-lives
+category: match
+articleType: club-event
+season: 1984-85
+competitionIds:
+  - european-cup
+sources:
+  - >-
+    https://www.liverpoolfc.com/news/lfc-pays-respects-40th-anniversary-heysel-stadium-disaster
+  - >-
+    https://hatfulofhistory.wordpress.com/wp-content/uploads/2020/12/175864796-popplewell-final-report-1986.pdf
+  - >-
+    https://editorial.uefa.com/resources/021f-0f842a4ba426-22bf135e36bc-1000/uefa_60_years_at_the_heart_of_football.pdf
+  - >-
+    https://www.lemonde.fr/archives/article/1989/05/02/seize-inculpes-du-heysel-condamnes-a-des-peines-assorties-de-sursis-la-clemence-et-l-oubli_4107092_1819218.html
+  - 'https://www.coe.int/en/web/sport/violence-convention'
+  - >-
+    https://www.vrt.be/vrtnws/en/2025/05/29/the-heizel-stadium-disaster-footballs-darkest-hour/
+oppositionIds:
+  - juventus
+locationIds:
+  - heysel-stadium
 ---
 
 # Heysel, 29 May 1985: thirty-nine lives lost
@@ -18,7 +37,7 @@ Thirty-nine people were killed at Heysel Stadium in Brussels on 29 May 1985, bef
 
 A group of Liverpool supporters charged into Section Z, forcing spectators to flee towards the perimeter. People were crushed as the crowd pressed against a retaining wall; the wall collapsed. The violence took place in a stadium whose segregation, policing and physical condition had failed to protect those inside.
 
-Section Z was nominally reserved for neutral spectators, beside the Liverpool sections. Large numbers of its tickets had reached Juventus supporters. The barrier between Sections Y and Z was too weak to withstand a determined breach. In his January 1986 report, Mr Justice Popplewell described broken concrete on the terraces, exposed reinforcement and deteriorating crush barriers. He also identified failures in ticket control, searches and police communication.
+Section Z was nominally reserved for neutral spectators, beside the Liverpool sections. Large numbers of its tickets had reached Juventus supporters. The barrier between Sections Y and Z was too weak to withstand a determined breach. In his January 1986 report, Mr Justice Popplewell found that the perimeter wall was inadequate to withstand crowd pressure. He distinguished this from the poor condition of the terraces, which he said had played no part in the disaster. He also identified failures in ticket control, searches and police communication.
 
 The Belgian parliamentary commission, reporting in July 1985, placed the principal responsibility on the supporters who made the fatal charge. Its findings also examined the failures of the authorities responsible for organising and policing the event. Popplewell reproduced its central conclusion while distinguishing his examination of safety lessons from the criminal proceedings in Belgium.
 
@@ -32,7 +51,7 @@ UEFA excluded English clubs from European competition in June 1985. The general 
 
 Heysel also gave urgency to work already under way at the Council of Europe. Its convention on spectator violence opened for signature on 19 August 1985, requiring practical measures to prevent violence and deal with offenders.
 
-Both clubs commemorate the 39 people killed. Liverpool and Juventus marked the fortieth anniversary in 2025 with commemorations at Anfield, Turin and Brussels. The lasting human loss belongs at the centre of the record.
+Both clubs commemorate the 39 people killed. Liverpool and Juventus marked the fortieth anniversary in 2025 with commemorations at Anfield, Turin and Brussels.
 
 ## Sources
 
@@ -58,3 +77,5 @@ UEFA2014 history is primary for institutional decisions and an interested retros
 VRT and Euronews2015 independently support official fear of further violence as the reason to proceed; UEFA history records consultation between police, organising bodies and clubs. The UEFA final record corroborates the score and penalty. Council of Europe is primary for its existing1983/1984 work, convention opening and obligations. LFC/Juventus official2025 remembrance supports the final paragraph. No inference that the announced Anfield replacement memorial was unveiled in2025: it was subsequently unveiled in2026; detail deliberately omitted.
 
 Final claim-by-claim review completed. Injury counts vary, hence hundreds. Nationality totals and individual ages omitted rather than introducing unnecessary numerical detail. No invented witness scene, speculative motivation, precise disputed charge time, referee controversy, allegation about third-party infiltrators, claim to have viewed footage or quotations from bereaved people. Contemporary rumours are not recycled. Captain Mahieu's first-instance conviction is not listed because the subsequent appeal outcome needs fuller original legal documentation; the paragraph is a selective account, not an exhaustive defendant list. The sporting ban is clearly distinguished from criminal responsibility. Article centres those killed, the mechanism of the disaster and findings, without claiming safety failures absolved the attackers or that all Liverpool supporters participated.
+
+Independent publication review — `gpt-6-astra`, `/root/astra_a`, 15 September 2026: freshly read Popplewell Chapter 1, Le Monde 2 May 1989, the cited June 1990 La Stampa/Agi-AP and L’Unità transcriptions, UEFA institutional history pp.83–84, Council of Europe, VRT and both clubs’ 2025 commemoration pages. Main record, attributed commission conclusion, supporter convictions/one appeal acquittal, Roosens/Bangerter, exclusion chronology and commemorations pass. Stadium paragraph tightened to preserve Popplewell 1.11/1.13 distinction: inadequate wall, but poor terraces explicitly not a cause in his report. Removed closing editorial maxim. Legal verification uses contemporary judgment reporting, not original judgments; UPI request returned403 in this independent run, so not counted as reviewer corroboration. VRT contains peripheral inaccuracies (including its later stadium-use chronology), none imported. No further material issues; source-derived prose remains within limits.

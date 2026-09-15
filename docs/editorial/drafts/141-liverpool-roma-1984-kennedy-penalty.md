@@ -1,9 +1,11 @@
 ---
 title: 'Liverpool 1–1 Roma: Kennedy’s penalty completes the treble'
 historicalEventDate: '1984-05-30'
-historicalPeriod: '30 May 1984 · European Cup final · Stadio Olimpico'
+historicalPeriod: 30 May 1984 · European Cup final · Stadio Olimpico
 decade: 1980s
-excerpt: 'Alan Kennedy converted the decisive penalty as Liverpool won a fourth European Cup in Rome and completed Joe Fagan’s treble.'
+excerpt: >-
+  Alan Kennedy converted the decisive penalty as Liverpool won a fourth European
+  Cup in Rome and completed Joe Fagan’s treble.
 slug: liverpool-roma-1984-kennedy-penalty
 category: match
 articleType: match
@@ -21,11 +23,16 @@ competitionIds:
 locationIds:
   - stadio-olimpico
 sources:
-  - https://www.lfchistory.net/games/1406
-  - https://www.uefa.com/uefachampionsleague/news/00ad-0e6a0b25af45-1d23225afb81-1000/
-  - https://www.lfcineurope.com/8384-5RPM.html
-  - https://www.liverpoolfc.com/news/classic-match-i-dont-know-what-it-i-love-it-story-rome-1984?amp=1
-  - https://www.uefa.com/uefachampionsleague/news/01d9-0e7237cbaf2d-34db83247035-1000--grobbelaar-reflects-on-1984-shoot-out/
+  - 'https://www.lfchistory.net/games/1406'
+  - >-
+    https://www.uefa.com/uefachampionsleague/news/00ad-0e6a0b25af45-1d23225afb81-1000/
+  - 'https://www.lfcineurope.com/8384-5RPM.html'
+  - >-
+    https://www.liverpoolfc.com/news/classic-match-i-dont-know-what-it-i-love-it-story-rome-1984?amp=1
+  - >-
+    https://www.uefa.com/uefachampionsleague/news/01d9-0e7237cbaf2d-34db83247035-1000--grobbelaar-reflects-on-1984-shoot-out/
+oppositionIds:
+  - roma
 ---
 
 # Liverpool 1–1 Roma: Kennedy’s penalty completes the treble

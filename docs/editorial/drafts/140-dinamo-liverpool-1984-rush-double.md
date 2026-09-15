@@ -3,7 +3,9 @@ title: 'Dinamo Bucharest 1–2 Liverpool: Rush sends Liverpool back to Rome'
 historicalEventDate: '1984-04-25'
 historicalPeriod: '25 April 1984 · European Cup semi-final, second leg · 23 August Stadium'
 decade: 1980s
-excerpt: 'Ian Rush scored twice as Liverpool won in Bucharest and secured a 3–1 aggregate victory to reach the European Cup final.'
+excerpt: >-
+  Ian Rush scored twice as Liverpool won in Bucharest and secured a 3–1
+  aggregate victory to reach the European Cup final.
 slug: dinamo-liverpool-1984-rush-double
 category: match
 articleType: match
@@ -18,10 +20,15 @@ managerIds:
 competitionIds:
   - european-cup
 sources:
-  - https://www.lfchistory.net/games/1400
-  - https://www.rsssf.org/ec/ec198384det.html
-  - https://www.lfcineurope.com/8384-4RPM.html
-  - https://www.liverpoolfc.com/news/first-team/163355-souness-me-and-the-butcher-of-bilbao
+  - 'https://www.lfchistory.net/games/1400'
+  - 'https://www.rsssf.org/ec/ec198384det.html'
+  - 'https://www.lfcineurope.com/8384-4RPM.html'
+  - >-
+    https://www.liverpoolfc.com/news/first-team/163355-souness-me-and-the-butcher-of-bilbao
+oppositionIds:
+  - dinamo-bucharest
+locationIds:
+  - 23-august-stadium
 ---
 
 # Dinamo Bucharest 1–2 Liverpool: Rush sends Liverpool back to Rome
@@ -54,3 +61,5 @@ Confidence/scope: LFChistory — High date/result, correct23 August venue, first
 Finished check: first goal10/11/12 differs; late goal84/85 and Nicol73/75/76 vary, so rounded. Orac39 consistent in contemporary reports/LF/RSSSF; erroneous66-minute goal in some databases is not used. Lawrenson free-kick foul opponent differs Turcu/Augustin; omitted. Whelan beaten marker Marin/Rednic differs; omitted. All three contemporary reports agree100th and101st club goals, but Mirror season tally42 contradicts Post41/Guardian opening40, so no seasonal tally. Away-goal arithmetic explicitly checked: after0–1, Dinamo require3; after1–1,2 more. Dinamo home-ground database attribution conflicts with numerous contemporary23 August accounts and LF, so those preferred. No crowd count, revenge motive, weather colour, secret-police anecdotes, quotations or footage claim. Correct Dinamo/23 August metadata absent in inspected registry; coordinator to add. Publication date unset.
 
 Independent review by actual `gpt-6-astra`, worker `/root/astra_b`, 15 September 2026: freshly read complete contemporary second-leg page and retrieved RSSSF/official Liverpool accounts. Barclay, McGhee and Ross agree opener from Souness following corner, Rush100th, Orac before half-time and Lee/Whelan late move; diverging incidental details already omitted. Venue and3–1aggregate consistent; away-goal arithmetic correct at both0–1and1–1. Four away wins and final opposition/date supported RSSSF. No material correction or repetition edit needed; no footage reviewed.
+
+Author final self-review completed15 September2026: re-read finished public copy against retrieved evidence, checked chronological and scoring arithmetic, source limits and metadata; no unsupported additions retained.

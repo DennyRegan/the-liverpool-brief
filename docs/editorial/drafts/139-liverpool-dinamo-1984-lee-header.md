@@ -3,7 +3,9 @@ title: 'Liverpool 1–0 Dinamo Bucharest: Lee heads a narrow advantage'
 historicalEventDate: '1984-04-11'
 historicalPeriod: '11 April 1984 · European Cup semi-final, first leg · Anfield'
 decade: 1980s
-excerpt: 'Sammy Lee’s header gave Liverpool a one-goal lead in a contentious European Cup semi-final against Dinamo Bucharest.'
+excerpt: >-
+  Sammy Lee’s header gave Liverpool a one-goal lead in a contentious European
+  Cup semi-final against Dinamo Bucharest.
 slug: liverpool-dinamo-1984-lee-header
 category: match
 articleType: match
@@ -19,11 +21,16 @@ competitionIds:
 locationIds:
   - anfield
 sources:
-  - https://www.lfchistory.net/games/1396
-  - https://www.11v11.com/matches/liverpool-v-dinamo-bucuresti-11-april-1984-219450/
-  - https://www.lfcineurope.com/8384-4BRPM.html
-  - https://www.bibliotecadeva.ro/periodice/flacara/1984/04/flacara_1984_04_15.pdf
-  - https://www.independent.co.uk/sport/football/premier-league/graeme-souness-punch-liverpool-dinamo-bucharest-lica-movila-a9460471.html
+  - 'https://www.lfchistory.net/games/1396'
+  - >-
+    https://www.11v11.com/matches/liverpool-v-dinamo-bucuresti-11-april-1984-219450/
+  - 'https://www.lfcineurope.com/8384-4BRPM.html'
+  - >-
+    https://www.bibliotecadeva.ro/periodice/flacara/1984/04/flacara_1984_04_15.pdf
+  - >-
+    https://www.independent.co.uk/sport/football/premier-league/graeme-souness-punch-liverpool-dinamo-bucharest-lica-movila-a9460471.html
+oppositionIds:
+  - dinamo-bucharest
 ---
 
 # Liverpool 1–0 Dinamo Bucharest: Lee heads a narrow advantage

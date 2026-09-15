@@ -1,19 +1,34 @@
 ---
-title: "Liverpool 4–1 Austria Vienna: Walsh scores twice in quarter-final win"
-historicalEventDate: "1985-03-20"
-historicalPeriod: "20 March 1985 · European Cup quarter-final, second leg · Anfield"
-decade: "1980s"
-excerpt: "Paul Walsh scored twice and missed a penalty as Liverpool beat Austria Vienna 4–1, reaching the semi-finals 5–2 on aggregate."
-slug: "liverpool-austria-vienna-1985-walsh-double"
-category: "match"
-articleType: "match"
-season: "1984-85"
-playerIds: ["paul-walsh", "steve-nicol", "alan-hansen", "ronnie-whelan", "alan-kennedy"]
-managerIds: ["joe-fagan"]
-oppositionIds: []
-competitionIds: ["european-cup"]
-locationIds: ["anfield"]
-sources: ["https://www.lfchistory.net/games/1451", "https://fk-austria.at/news/an-diesem-tag-viertelfinale-gegen-liverpool-bitteres-x", "https://www.lfcineurope.com/8485-3RPM.html"]
+title: 'Liverpool 4–1 Austria Vienna: Walsh scores twice in quarter-final win'
+historicalEventDate: '1985-03-20'
+historicalPeriod: '20 March 1985 · European Cup quarter-final, second leg · Anfield'
+decade: 1980s
+excerpt: >-
+  Paul Walsh scored twice and missed a penalty as Liverpool beat Austria Vienna
+  4–1, reaching the semi-finals 5–2 on aggregate.
+slug: liverpool-austria-vienna-1985-walsh-double
+category: match
+articleType: match
+season: 1984-85
+playerIds:
+  - paul-walsh
+  - steve-nicol
+  - alan-hansen
+  - ronnie-whelan
+  - alan-kennedy
+managerIds:
+  - joe-fagan
+oppositionIds:
+  - austria-vienna
+competitionIds:
+  - european-cup
+locationIds:
+  - anfield
+sources:
+  - 'https://www.lfchistory.net/games/1451'
+  - >-
+    https://fk-austria.at/news/an-diesem-tag-viertelfinale-gegen-liverpool-bitteres-x
+  - 'https://www.lfcineurope.com/8485-3RPM.html'
 ---
 
 # Liverpool 4–1 Austria Vienna: Walsh scores twice in quarter-final win
