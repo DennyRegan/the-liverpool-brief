@@ -109,6 +109,21 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'leeds-liverpool-1979-record-points',
     'liverpool-arsenal-1979-charity-shield',
     'liverpool-tranmere-1979-second-half',
+    'liverpool-oulu-1980-ten-goals',
+    'dinamo-tbilisi-liverpool-1979-european-exit',
+    'manchester-city-liverpool-1979-dalglish-double',
+    'liverpool-manchester-united-1979-boxing-day',
+    'everton-liverpool-1980-goodison-derby',
+    'tottenham-liverpool-1980-mcdermott-volley',
+    'liverpool-arsenal-1980-hillsborough-stalemate',
+    'liverpool-arsenal-1980-dalglish-second-replay',
+    'liverpool-arsenal-1980-talbot-third-replay',
+    'liverpool-aston-villa-1980-cohen-title',
+    'liverpool-west-ham-1980-mcdermott-shield',
+    'aberdeen-liverpool-1980-mcdermott-chip',
+    'liverpool-aberdeen-1980-quarter-finals',
+    'liverpool-cska-sofia-1981-souness-treble',
+    'liverpool-west-ham-1981-final-draw',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
