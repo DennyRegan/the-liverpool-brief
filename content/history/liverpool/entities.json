@@ -2298,5 +2298,25 @@
     "id": "heysel-stadium",
     "label": "Heysel Stadium",
     "kind": "location"
+  },
+  {
+    "id": "queens-park-rangers",
+    "label": "Queens Park Rangers",
+    "kind": "opposition"
+  },
+  {
+    "id": "watford",
+    "label": "Watford",
+    "kind": "opposition"
+  },
+  {
+    "id": "vicarage-road",
+    "label": "Vicarage Road",
+    "kind": "location"
+  },
+  {
+    "id": "oxford-united",
+    "label": "Oxford United",
+    "kind": "opposition"
   }
 ]
