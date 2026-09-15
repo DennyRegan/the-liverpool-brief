@@ -1,19 +1,35 @@
 ---
-title: "Rush scores three as Liverpool settle the Swansea replay"
-historicalEventDate: "1990-01-09"
-historicalPeriod: "9 January 1990"
-decade: "1990s"
-excerpt: "Three days after being held at the Vetch Field, Liverpool beat Swansea City 8–0 at Anfield in the FA Cup."
-slug: "liverpool-swansea-1990-rush-replay-hat-trick"
-category: "match"
-articleType: "match"
-season: "1989-90"
-playerIds: ["ian-rush", "john-barnes", "ronnie-whelan", "peter-beardsley", "steve-nicol"]
-managerIds: ["kenny-dalglish"]
-oppositionIds: ["swansea-city"]
-competitionIds: ["fa-cup"]
-locationIds: ["anfield"]
-sources: ["https://lfchistory.net/games/1719", "https://lfchistory.net/games/1718", "https://www.swanseacity.com/news/centenary-feature-1983-1991", "https://www.11v11.com/teams/swansea-city/tab/matches/season/1990/comp/7/", "https://lfchistory.net/articles/3909"]
+title: Rush scores three as Liverpool settle the Swansea replay
+historicalEventDate: '1990-01-09'
+historicalPeriod: 9 January 1990
+decade: 1990s
+excerpt: >-
+  Three days after being held at the Vetch Field, Liverpool beat Swansea City
+  8–0 at Anfield in the FA Cup.
+slug: liverpool-swansea-1990-rush-replay-hat-trick
+category: match
+articleType: match
+season: 1989-90
+playerIds:
+  - ian-rush
+  - john-barnes
+  - ronnie-whelan
+  - peter-beardsley
+  - steve-nicol
+managerIds:
+  - kenny-dalglish
+oppositionIds:
+  - swansea-city
+competitionIds:
+  - fa-cup
+locationIds:
+  - anfield
+sources:
+  - 'https://lfchistory.net/games/1719'
+  - 'https://lfchistory.net/games/1718'
+  - 'https://www.swanseacity.com/news/centenary-feature-1983-1991'
+  - 'https://www.11v11.com/teams/swansea-city/tab/matches/season/1990/comp/7/'
+  - 'https://lfchistory.net/articles/3909'
 ---
 
 # Rush scores three as Liverpool settle the Swansea replay
