@@ -2263,5 +2263,40 @@
     "id": "walsall",
     "label": "Walsall",
     "kind": "opposition"
+  },
+  {
+    "id": "dinamo-bucharest",
+    "label": "Dinamo Bucharest",
+    "kind": "opposition"
+  },
+  {
+    "id": "23-august-stadium",
+    "label": "23 August Stadium",
+    "kind": "location"
+  },
+  {
+    "id": "roma",
+    "label": "Roma",
+    "kind": "opposition"
+  },
+  {
+    "id": "austria-vienna",
+    "label": "Austria Vienna",
+    "kind": "opposition"
+  },
+  {
+    "id": "panathinaikos",
+    "label": "Panathinaikos",
+    "kind": "opposition"
+  },
+  {
+    "id": "juventus",
+    "label": "Juventus",
+    "kind": "opposition"
+  },
+  {
+    "id": "heysel-stadium",
+    "label": "Heysel Stadium",
+    "kind": "location"
   }
 ]
