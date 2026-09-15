@@ -2198,5 +2198,35 @@
     "id": "cska-sofia",
     "label": "CSKA Sofia",
     "kind": "opposition"
+  },
+  {
+    "id": "olympic-stadium-munich",
+    "label": "Olympic Stadium, Munich",
+    "kind": "location"
+  },
+  {
+    "id": "real-madrid",
+    "label": "Real Madrid",
+    "kind": "opposition"
+  },
+  {
+    "id": "parc-des-princes",
+    "label": "Parc des Princes",
+    "kind": "location"
+  },
+  {
+    "id": "az-alkmaar",
+    "label": "AZ Alkmaar",
+    "kind": "opposition"
+  },
+  {
+    "id": "flamengo",
+    "label": "Flamengo",
+    "kind": "opposition"
+  },
+  {
+    "id": "national-stadium-tokyo",
+    "label": "National Stadium, Tokyo",
+    "kind": "location"
   }
 ]
