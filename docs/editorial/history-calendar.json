@@ -978,7 +978,7 @@
       "featuredWeek": "2026-04-06",
       "selection": "alternative",
       "status": "writing",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "owner": "gpt-6-astra /root/astra_batch_022_026",
       "claim": {
         "token": "classic-017-031-20260915-022",
         "claimedAt": "2026-09-15T08:49:16Z",
@@ -1006,7 +1006,7 @@
       "featuredWeek": "2026-04-20",
       "selection": "alternative",
       "status": "writing",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "owner": "gpt-6-astra /root/astra_batch_022_026",
       "claim": {
         "token": "classic-017-031-20260915-023",
         "claimedAt": "2026-09-15T08:49:16Z",
@@ -1034,7 +1034,7 @@
       "featuredWeek": "2026-04-20",
       "selection": "alternative",
       "status": "writing",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "owner": "gpt-6-astra /root/astra_batch_022_026",
       "claim": {
         "token": "classic-017-031-20260915-024",
         "claimedAt": "2026-09-15T08:49:16Z",
@@ -1062,7 +1062,7 @@
       "featuredWeek": "2026-05-04",
       "selection": "alternative",
       "status": "writing",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "owner": "gpt-6-astra /root/astra_batch_022_026",
       "claim": {
         "token": "classic-017-031-20260915-025",
         "claimedAt": "2026-09-15T08:49:16Z",
@@ -1090,7 +1090,7 @@
       "featuredWeek": "2026-05-18",
       "selection": "alternative",
       "status": "writing",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "owner": "gpt-6-astra /root/astra_batch_022_026",
       "claim": {
         "token": "classic-017-031-20260915-026",
         "claimedAt": "2026-09-15T08:49:16Z",
@@ -1118,7 +1118,7 @@
       "featuredWeek": "2026-10-19",
       "selection": "alternative",
       "status": "writing",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "owner": "gpt-6-astra /root/astra_batch_027_031",
       "claim": {
         "token": "classic-017-031-20260915-027",
         "claimedAt": "2026-09-15T08:49:16Z",
@@ -1146,7 +1146,7 @@
       "featuredWeek": "2026-11-02",
       "selection": "alternative",
       "status": "writing",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "owner": "gpt-6-astra /root/astra_batch_027_031",
       "claim": {
         "token": "classic-017-031-20260915-028",
         "claimedAt": "2026-09-15T08:49:16Z",
@@ -1174,7 +1174,7 @@
       "featuredWeek": "2026-11-02",
       "selection": "alternative",
       "status": "writing",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "owner": "gpt-6-astra /root/astra_batch_027_031",
       "claim": {
         "token": "classic-017-031-20260915-029",
         "claimedAt": "2026-09-15T08:49:16Z",
@@ -1202,7 +1202,7 @@
       "featuredWeek": "2026-12-07",
       "selection": "alternative",
       "status": "writing",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "owner": "gpt-6-astra /root/astra_batch_027_031",
       "claim": {
         "token": "classic-017-031-20260915-030",
         "claimedAt": "2026-09-15T08:49:16Z",
@@ -1230,7 +1230,7 @@
       "featuredWeek": "2026-12-21",
       "selection": "alternative",
       "status": "writing",
-      "owner": "gpt-6-astra /root/astra_batch_017_031",
+      "owner": "gpt-6-astra /root/astra_batch_027_031",
       "claim": {
         "token": "classic-017-031-20260915-031",
         "claimedAt": "2026-09-15T08:49:16Z",
