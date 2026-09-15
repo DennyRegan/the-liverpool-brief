@@ -672,12 +672,8 @@
         "recordedAt": "2026-09-15T13:47:52.947Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 107–121 publication."
       },
-      "claim": {
-        "token": "01a0a524-classic-111",
-        "claimedAt": "2026-09-15T13:47:52.947Z",
-        "baseCommit": "025d71ece606d1254fce21e9c45713b798ebc753"
-      },
-      "draftPath": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/111-liverpool-oulu-1981-rush-first-goal.md",
       "event": "Liverpool 7–0 Oulu Palloseura",
       "eventPath": null,
       "evidence": [
@@ -690,18 +686,23 @@
           "confidence": "high",
           "location": "docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1981-09-30-proposed-match",
           "scope": "Exact date; Liverpool 7–0 Oulu at Anfield; European Cup first-round second leg."
+        },
+        {
+          "location": "docs/editorial/drafts/111-liverpool-oulu-1981-rush-first-goal.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "1981-09-30",
       "id": "1981-09-30-proposed-match",
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1981-09-30-proposed-match. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1981-09-30-proposed-match. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "publishedDestination": null,
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "selection": "provisional",
-      "status": "writing"
+      "status": "approved"
     },
     {
       "approval": null,
@@ -5014,7 +5015,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T13:58:43.522Z",
+  "updatedAt": "2026-09-15T13:59:30.723Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
