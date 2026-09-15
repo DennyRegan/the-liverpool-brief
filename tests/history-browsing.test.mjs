@@ -208,6 +208,9 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'chelsea-liverpool-1989-five-at-stamford-bridge',
     'liverpool-swansea-1990-rush-replay-hat-trick',
     'liverpool-everton-1990-barnes-beardsley-derby-double',
+    'palace-liverpool-1990-semi-final',
+    'liverpool-qpr-1990-eighteenth-title',
+    'coventry-liverpool-1990-barnes-hat-trick',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
