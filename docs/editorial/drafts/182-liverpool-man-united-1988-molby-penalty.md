@@ -24,9 +24,9 @@ The early exchanges brought injuries and changes on both sides. Gordon Strachan 
 
 Barnes created the decisive opening in the 38th minute. A challenge from Viv Anderson inside the penalty area brought no award, but shortly afterwards Steve Bruce brought him down as he ran across the box. Keith Hackett pointed to the spot. Leighton was booked for protesting, then beaten by Mølby’s penalty.
 
-United improved after half-time, and Bruce Grobbelaar saved Anderson’s header. They could not find an equaliser. Ian Rush, introduced for John Aldridge late on, missed an opportunity to extend Liverpool’s lead.
+Bruce Grobbelaar saved Anderson’s header, and United’s improvement after half-time failed to produce an equaliser. Ian Rush, introduced for John Aldridge late on, missed an opportunity to extend Liverpool’s lead.
 
-Liverpool had won their first two league matches without conceding, following a 3–0 opening victory at Charlton. Against opponents who had repeatedly taken points from Anfield during the preceding eight seasons, one goal was enough.
+Liverpool had won their first two league matches without conceding, following a 3–0 opening victory at Charlton.
 
 ## Sources
 
@@ -44,3 +44,5 @@ Record high confidence: fully retrieved indexed LF match record and opened indep
 Contemporary evidence: full indexed Times/Sunday Times compilation read, two separate reports “Reds’ class wins brawl” and “Mind over muscle buries record”. Byline absent in retrieved transcription; no named author invented. Both describe Barnes’s successive Anderson/Bruce incidents and resulting penalty, Leighton booking, Liverpool’s greater attacking threat and first-half injuries. Times supplies Anderson header save and Rush late missed chance. Record independently verifies substitution identities. No injury mechanism inferred, especially Strachan’s uncertain cause. Newspaper-derived public narrative below 200 words, no quotations, no footage or page-image viewing claimed.
 
 Conflicts and omissions: MUFCinfo independently agrees match basics but erroneously prints penalty 68, against LF and contemporary 38; its minute rejected, page not needed as public source. McMahon 24/25 and Rush 78/79 minute variation avoided. No unsupported claim that this was Rush’s first return appearance, no definitive judgement on unawarded penalty, disciplinary rhetoric or prediction of title outcome. Final substantive claim and prose review complete.
+
+Independent review,15 September2026 — actual model `gpt-6-astra`, reviewer `/root/astra_b`: fresh full Times/Sunday Times transcription and independent11v11 history/season records support the penalty, league-only run since26December1979 and two opening clean-sheet wins. Reordered Anderson header save: Sunday Times places it at45minutes, so copy must not imply it occurred after the interval. Trimmed repeated closing verdict. Other material claims and source scopes pass; no footage viewed.

@@ -30,7 +30,7 @@ Steve McMahon equalised just after the hour. Thomas interrupted Liverpool’s pa
 
 Aldridge settled the tie in the 87th minute. Houghton chipped a cross into the area, and Aldridge sent a looping header over Lukic.
 
-Liverpool had earned a fourth-round visit to West Ham United the following week. After three matches against Arsenal, they were through by a single goal.
+Liverpool had earned a fourth-round visit to West Ham United the following week.
 
 ## Sources
 
@@ -51,3 +51,5 @@ Contemporary evidence: linked Times PDF opened and full extracted text read. It 
 Winner mechanism: the surviving Times text reports Aldridge’s late winner in its opening but does not reconstruct it at the end. Freshly opened Steven Pye 2020 Guardian retrospective supplies Houghton chipped cross and looping header, independently agreeing with LF Houghton assist. Public derivation exclusive to this source is the short finishing sentence, below its 25-word allowance; no duplicated-blog allowance added. Other overlapping facts established from independently retrieved records and contemporary report, not derived from this retrospective. No footage viewed or retrospective presented as a contemporary eyewitness account.
 
 Omissions: no crowd/projectile anecdote, penalty-shootout rules discussion, sweeping verdict about title superiority or hindsight framing as rehearsal for May. Do not reproduce the Times suggestion that winning this tie established inevitable league supremacy. Only the immediate fourth-round consequence is used. Final substantive claim, chronology and prose review complete.
+
+Independent review,15 September2026 — actual model `gpt-6-astra`, reviewer `/root/astra_b`: fresh full Times transcription confirms match development, Rush injury and substitution, Merson and McMahon mechanics, late winner and next-round destination. Independently retrieved11v11 season sequence supports the two prior draws and30November West Ham match. Fresh Guardian Pye text corroborates the header; exclusive public derivation remains below25words. Removed repeated final sentence; no material factual changes. No footage viewed.

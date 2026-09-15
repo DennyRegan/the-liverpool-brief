@@ -26,7 +26,7 @@ Their breakthrough came from a mistake by substitute Paul McGrath. Steve McMahon
 
 McClair equalised almost immediately with a volley. Liverpool still threatened, Jim Leighton saving from McMahon, but United went ahead in the 75th minute when Hughes scored after Steve Nicol’s attempted clearance broke down.
 
-Two minutes later, Lee Sharpe’s run and cross brought Beardsmore the third goal. Liverpool had gone from leading a match in which they had struggled to facing a two-goal deficit.
+Two minutes later, Lee Sharpe’s run and cross brought Beardsmore the third goal.
 
 The defeat left them fifth in the First Division, nine points behind Arsenal and Norwich City. Liverpool had 28 points from 19 matches; Arsenal had played one fewer. United moved to sixth, a point behind Kenny Dalglish’s side.
 
@@ -48,3 +48,5 @@ Contemporary evidence: complete indexed Times report freshly read. Supports Unit
 Independent narrative check: full indexed Ultimate United retrospective retrieved. Secondary fan-history source, medium confidence only and not contemporary testimony. Independently corroborates McClair volley, quick sequence, Hughes shot after a defensive mistake, Sharpe cross and Beardsmore goal. Its awards and broad career conclusions not used. It credits Beardsmore’s pressure before Hughes scored, whereas Times says Hughes charged down Nicol; public avoids attributing the block and simply describes clearance breaking down. Official MUTV podcast landing-page summary retrieved, but interview not played and no recollections borrowed. Other inconsistent retrospective ages/debut claims omitted.
 
 Omissions: no title-race recovery predicted from the New Year vantage point, no assertion that this was United’s biggest win since 1969 without defining competition and margin, no precise unfitness diagnosis needed, no alleged Leighton handball adjudication. Source table establishes actual contemporary gap rather than later-season memory. Final substantive claim and prose review complete.
+
+Independent review,15 September2026 — actual model `gpt-6-astra`, reviewer `/root/astra_b`: fresh full Times transcription, Ultimate United account and LF1667 match/table checked. Decisive goal sequence, early Hughes/Hooper incident, Barnes combination and Sharpe final cross supported. The Hughes-goal block attribution remains prudently omitted. Table independently re-read at37points for Arsenal/Norwich,28Liverpool and27United; stated games/positions and nine-point gap correct. Removed repeated description of the score reversal. Source scopes/word allowance pass; no footage viewed. Stable.
