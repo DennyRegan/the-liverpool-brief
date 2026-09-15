@@ -1840,19 +1840,19 @@
       "historicalEventDate": "1976-03-30",
       "featuredWeek": "2026-03-30",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1976-03-30-barcelona-liverpool-1976-toshack-advantage.md",
       "draftPath": "docs/editorial/drafts/047-barcelona-liverpool-1976-toshack-advantage.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/barcelona-liverpool-1976-toshack-advantage",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed: existing prose preserved and all five sources freshly retrieved; private confidence/scopes and missing entity proposals in saved draft. Current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed: existing prose preserved and all five sources freshly retrieved; private confidence/scopes and missing entity proposals in saved draft. Current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -1863,6 +1863,11 @@
           "location": "docs/editorial/drafts/047-barcelona-liverpool-1976-toshack-advantage.md",
           "confidence": "high",
           "scope": "Preserved 379-word factual draft, freshly retrieved-source recheck and metadata/private evidence notes by gpt-6-astra /root/next15_astra."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/barcelona-liverpool-1976-toshack-advantage",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -1873,19 +1878,19 @@
       "historicalEventDate": "1976-04-03",
       "featuredWeek": "2026-03-30",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1976-04-03-liverpool-everton-1976-fairclough-derby-winner.md",
       "draftPath": "docs/editorial/drafts/048-liverpool-everton-1976-fairclough-derby-winner.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-everton-1976-fairclough-derby-winner",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -1896,6 +1901,11 @@
           "location": "docs/editorial/drafts/048-liverpool-everton-1976-fairclough-derby-winner.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-everton-1976-fairclough-derby-winner",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -1906,19 +1916,19 @@
       "historicalEventDate": "1976-04-14",
       "featuredWeek": "2026-04-13",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1976-04-14-liverpool-barcelona-1976-thompson-semi-final.md",
       "draftPath": "docs/editorial/drafts/049-liverpool-barcelona-1976-thompson-semi-final.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-barcelona-1976-thompson-semi-final",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -1929,6 +1939,11 @@
           "location": "docs/editorial/drafts/049-liverpool-barcelona-1976-thompson-semi-final.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-barcelona-1976-thompson-semi-final",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -1939,19 +1954,19 @@
       "historicalEventDate": "1976-04-17",
       "featuredWeek": "2026-04-13",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1976-04-17-liverpool-stoke-1976-eight-goal-easter.md",
       "draftPath": "docs/editorial/drafts/050-liverpool-stoke-1976-eight-goal-easter.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-stoke-1976-eight-goal-easter",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -1962,6 +1977,11 @@
           "location": "docs/editorial/drafts/050-liverpool-stoke-1976-eight-goal-easter.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-stoke-1976-eight-goal-easter",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -1972,19 +1992,19 @@
       "historicalEventDate": "1976-04-19",
       "featuredWeek": "2026-04-13",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1976-04-19-manchester-city-liverpool-1976-fairclough-double.md",
       "draftPath": "docs/editorial/drafts/051-manchester-city-liverpool-1976-fairclough-double.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/manchester-city-liverpool-1976-fairclough-double",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -1995,6 +2015,11 @@
           "location": "docs/editorial/drafts/051-manchester-city-liverpool-1976-fairclough-double.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/manchester-city-liverpool-1976-fairclough-double",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2005,19 +2030,19 @@
       "historicalEventDate": "1976-04-28",
       "featuredWeek": "2026-04-27",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1976-04-28-liverpool-brugge-1976-anfield-final-comeback.md",
       "draftPath": "docs/editorial/drafts/052-liverpool-brugge-1976-anfield-final-comeback.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-brugge-1976-anfield-final-comeback",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -2028,6 +2053,11 @@
           "location": "docs/editorial/drafts/052-liverpool-brugge-1976-anfield-final-comeback.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-brugge-1976-anfield-final-comeback",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2038,19 +2068,19 @@
       "historicalEventDate": "1976-05-04",
       "featuredWeek": "2026-05-04",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1976-05-04-wolves-liverpool-1976-title-at-molineux.md",
       "draftPath": "docs/editorial/drafts/053-wolves-liverpool-1976-title-at-molineux.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/wolves-liverpool-1976-title-at-molineux",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -2061,6 +2091,11 @@
           "location": "docs/editorial/drafts/053-wolves-liverpool-1976-title-at-molineux.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/wolves-liverpool-1976-title-at-molineux",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2071,19 +2106,19 @@
       "historicalEventDate": "1976-05-19",
       "featuredWeek": "2026-05-18",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1976-05-19-brugge-liverpool-1976-uefa-cup-double.md",
       "draftPath": "docs/editorial/drafts/054-brugge-liverpool-1976-uefa-cup-double.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/brugge-liverpool-1976-uefa-cup-double",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -2094,6 +2129,11 @@
           "location": "docs/editorial/drafts/054-brugge-liverpool-1976-uefa-cup-double.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/brugge-liverpool-1976-uefa-cup-double",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2104,19 +2144,19 @@
       "historicalEventDate": "1976-08-14",
       "featuredWeek": "2026-08-10",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1976-08-14-liverpool-southampton-1976-toshack-charity-shield.md",
       "draftPath": "docs/editorial/drafts/055-liverpool-southampton-1976-toshack-charity-shield.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-southampton-1976-toshack-charity-shield",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -2127,6 +2167,11 @@
           "location": "docs/editorial/drafts/055-liverpool-southampton-1976-toshack-charity-shield.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-southampton-1976-toshack-charity-shield",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2137,19 +2182,19 @@
       "historicalEventDate": "1976-09-11",
       "featuredWeek": "2026-09-07",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1976-09-11-derby-liverpool-1976-keegan-comeback-winner.md",
       "draftPath": "docs/editorial/drafts/056-derby-liverpool-1976-keegan-comeback-winner.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/derby-liverpool-1976-keegan-comeback-winner",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -2160,6 +2205,11 @@
           "location": "docs/editorial/drafts/056-derby-liverpool-1976-keegan-comeback-winner.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/derby-liverpool-1976-keegan-comeback-winner",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2170,19 +2220,19 @@
       "historicalEventDate": "1977-03-02",
       "featuredWeek": "2026-03-02",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-03-02-saint-etienne-liverpool-1977-first-leg-deficit.md",
       "draftPath": "docs/editorial/drafts/057-saint-etienne-liverpool-1977-first-leg-deficit.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/saint-etienne-liverpool-1977-first-leg-deficit",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Official Bayern source replaces secondary previous-final context citation; public prose unchanged. All listed sources retrieved. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Official Bayern source replaces secondary previous-final context citation; public prose unchanged. All listed sources retrieved. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -2198,6 +2248,11 @@
           "location": "docs/editorial/drafts/057-saint-etienne-liverpool-1977-first-leg-deficit.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/saint-etienne-liverpool-1977-first-leg-deficit",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2208,19 +2263,19 @@
       "historicalEventDate": "1977-03-16",
       "featuredWeek": "2026-03-16",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-03-16-liverpool-saint-etienne-1977-fairclough-winner.md",
       "draftPath": "docs/editorial/drafts/058-liverpool-saint-etienne-1977-fairclough-winner.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-saint-etienne-1977-fairclough-winner",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -2231,6 +2286,11 @@
           "location": "docs/editorial/drafts/058-liverpool-saint-etienne-1977-fairclough-winner.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-saint-etienne-1977-fairclough-winner",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2241,19 +2301,19 @@
       "historicalEventDate": "1977-04-02",
       "featuredWeek": "2026-03-30",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-04-02-liverpool-leeds-1977-fairclough-league-victory.md",
       "draftPath": "docs/editorial/drafts/059-liverpool-leeds-1977-fairclough-league-victory.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-leeds-1977-fairclough-league-victory",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -2264,6 +2324,11 @@
           "location": "docs/editorial/drafts/059-liverpool-leeds-1977-fairclough-league-victory.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-leeds-1977-fairclough-league-victory",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2274,19 +2339,19 @@
       "historicalEventDate": "1977-04-06",
       "featuredWeek": "2026-04-06",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-04-06-zurich-liverpool-1977-neal-first-leg-win.md",
       "draftPath": "docs/editorial/drafts/060-zurich-liverpool-1977-neal-first-leg-win.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/zurich-liverpool-1977-neal-first-leg-win",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -2297,6 +2362,11 @@
           "location": "docs/editorial/drafts/060-zurich-liverpool-1977-neal-first-leg-win.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/zurich-liverpool-1977-neal-first-leg-win",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2307,19 +2377,19 @@
       "historicalEventDate": "1977-04-20",
       "featuredWeek": "2026-04-20",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/next15_astra",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-04-20-liverpool-zurich-1977-first-european-cup-final.md",
       "draftPath": "docs/editorial/drafts/061-liverpool-zurich-1977-first-european-cup-final.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-zurich-1977-first-european-cup-final",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:46:46.684Z",
         "evidence": "Denny explicitly instructed: ‘Write the next 15 I don’t need to approve when done. Once writ upload and publish’, then reaffirmed ‘As long as they are factually correct. Commit and publish.’ Applies to source-checked classic batch047–061."
       },
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release. Source-assessed final draft confirmed by Astra coordinator; current-batch explicit Denny publication authority recorded. Public prose preserved and metadata completed; deployment pending live verification. Published via PR31, production commit 46ef86c26641e5d179066445dcea9677b4be4cb8. All 15 live article URLs returned 200; History Matches and 1975-76/1976-77 Season links verified 15 September 2026. Exact date-based anniversary selection verified locally.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
@@ -2330,6 +2400,11 @@
           "location": "docs/editorial/drafts/061-liverpool-zurich-1977-first-european-cup-final.md",
           "confidence": "high",
           "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-zurich-1977-first-european-cup-final",
+          "confidence": "high",
+          "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2374,7 +2449,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T12:46:46.684Z",
+  "updatedAt": "2026-09-15T12:52:20.459Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
