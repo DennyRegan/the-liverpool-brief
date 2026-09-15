@@ -452,8 +452,16 @@
       "status": "published"
     },
     {
-      "approval": null,
-      "claim": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "claim": {
+        "token": "01a0a524-classic-084",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
       "draftPath": null,
       "event": "Liverpool 0–0 Nottingham Forest",
       "eventPath": null,
@@ -467,13 +475,13 @@
       "featuredWeek": "2026-09-21",
       "historicalEventDate": "1978-09-27",
       "id": "1978-09-27-classic-084",
-      "notes": "Preserved classic-match longlist 084; not a commissioned draft. Do not replace selected topics without recording the decision here.",
+      "notes": "Preserved classic-match longlist 084; not a commissioned draft. Do not replace selected topics without recording the decision here. Current task commissions this longlist entry alongside batch077–091; prior weekly selection preserved.",
       "originalDraftId": null,
-      "owner": null,
+      "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "publishedDestination": null,
       "researchStatus": "needs_research",
       "selection": "alternative",
-      "status": "planned"
+      "status": "writing"
     },
     {
       "approval": null,
@@ -2415,19 +2423,19 @@
       "historicalEventDate": "1977-04-23",
       "featuredWeek": "2026-04-20",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-04-23-liverpool-everton-1977-semi-final-draw.md",
       "draftPath": "docs/editorial/drafts/062-liverpool-everton-1977-semi-final-draw.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-everton-1977-semi-final-draw",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2438,6 +2446,11 @@
           "location": "docs/editorial/drafts/062-liverpool-everton-1977-semi-final-draw.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-everton-1977-semi-final-draw",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2448,19 +2461,19 @@
       "historicalEventDate": "1977-04-27",
       "featuredWeek": "2026-04-27",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-04-27-liverpool-everton-1977-replay-wembley.md",
       "draftPath": "docs/editorial/drafts/063-liverpool-everton-1977-replay-wembley.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-everton-1977-replay-wembley",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2471,6 +2484,11 @@
           "location": "docs/editorial/drafts/063-liverpool-everton-1977-replay-wembley.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-everton-1977-replay-wembley",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2481,19 +2499,19 @@
       "historicalEventDate": "1977-04-30",
       "featuredWeek": "2026-04-27",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-04-30-liverpool-ipswich-1977-kennedy-keegan.md",
       "draftPath": "docs/editorial/drafts/064-liverpool-ipswich-1977-kennedy-keegan.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-ipswich-1977-kennedy-keegan",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2504,6 +2522,11 @@
           "location": "docs/editorial/drafts/064-liverpool-ipswich-1977-kennedy-keegan.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-ipswich-1977-kennedy-keegan",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2514,19 +2537,19 @@
       "historicalEventDate": "1977-05-14",
       "featuredWeek": "2026-05-11",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-05-14-liverpool-west-ham-1977-tenth-title.md",
       "draftPath": "docs/editorial/drafts/065-liverpool-west-ham-1977-tenth-title.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-west-ham-1977-tenth-title",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2537,6 +2560,11 @@
           "location": "docs/editorial/drafts/065-liverpool-west-ham-1977-tenth-title.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-west-ham-1977-tenth-title",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2547,19 +2575,19 @@
       "historicalEventDate": "1977-05-21",
       "featuredWeek": "2026-05-18",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-05-21-liverpool-manchester-united-1977-fa-cup-final.md",
       "draftPath": "docs/editorial/drafts/066-liverpool-manchester-united-1977-fa-cup-final.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-manchester-united-1977-fa-cup-final",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2570,6 +2598,11 @@
           "location": "docs/editorial/drafts/066-liverpool-manchester-united-1977-fa-cup-final.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-manchester-united-1977-fa-cup-final",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2580,19 +2613,19 @@
       "historicalEventDate": "1977-05-25",
       "featuredWeek": "2026-05-25",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-05-25-liverpool-gladbach-1977-first-european-cup.md",
       "draftPath": "docs/editorial/drafts/067-liverpool-gladbach-1977-first-european-cup.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-gladbach-1977-first-european-cup",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2603,6 +2636,11 @@
           "location": "docs/editorial/drafts/067-liverpool-gladbach-1977-first-european-cup.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-gladbach-1977-first-european-cup",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2613,19 +2651,19 @@
       "historicalEventDate": "1977-08-20",
       "featuredWeek": "2026-08-17",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-08-20-middlesbrough-liverpool-1977-dalglish-league-debut.md",
       "draftPath": "docs/editorial/drafts/068-middlesbrough-liverpool-1977-dalglish-league-debut.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/middlesbrough-liverpool-1977-dalglish-league-debut",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2636,6 +2674,11 @@
           "location": "docs/editorial/drafts/068-middlesbrough-liverpool-1977-dalglish-league-debut.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/middlesbrough-liverpool-1977-dalglish-league-debut",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2646,19 +2689,19 @@
       "historicalEventDate": "1977-08-27",
       "featuredWeek": "2026-08-24",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-08-27-liverpool-west-bromwich-albion-1977-dalglish-third-goal.md",
       "draftPath": "docs/editorial/drafts/069-liverpool-west-bromwich-albion-1977-dalglish-third-goal.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-west-bromwich-albion-1977-dalglish-third-goal",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2669,6 +2712,11 @@
           "location": "docs/editorial/drafts/069-liverpool-west-bromwich-albion-1977-dalglish-third-goal.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-west-bromwich-albion-1977-dalglish-third-goal",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2679,19 +2727,19 @@
       "historicalEventDate": "1977-10-19",
       "featuredWeek": "2026-10-19",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-10-19-liverpool-dynamo-dresden-1977-five-goal-defence.md",
       "draftPath": "docs/editorial/drafts/070-liverpool-dynamo-dresden-1977-five-goal-defence.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-dynamo-dresden-1977-five-goal-defence",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2702,6 +2750,11 @@
           "location": "docs/editorial/drafts/070-liverpool-dynamo-dresden-1977-five-goal-defence.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-dynamo-dresden-1977-five-goal-defence",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2712,19 +2765,19 @@
       "historicalEventDate": "1977-11-22",
       "featuredWeek": "2026-11-16",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-11-22-hamburg-liverpool-1977-fairclough-super-cup.md",
       "draftPath": "docs/editorial/drafts/071-hamburg-liverpool-1977-fairclough-super-cup.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/hamburg-liverpool-1977-fairclough-super-cup",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2735,6 +2788,11 @@
           "location": "docs/editorial/drafts/071-hamburg-liverpool-1977-fairclough-super-cup.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/hamburg-liverpool-1977-fairclough-super-cup",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2745,19 +2803,19 @@
       "historicalEventDate": "1977-12-06",
       "featuredWeek": "2026-11-30",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1977-12-06-liverpool-hamburg-1977-super-cup.md",
       "draftPath": "docs/editorial/drafts/072-liverpool-hamburg-1977-super-cup.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-hamburg-1977-super-cup",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2768,6 +2826,11 @@
           "location": "docs/editorial/drafts/072-liverpool-hamburg-1977-super-cup.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-hamburg-1977-super-cup",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2778,19 +2841,19 @@
       "historicalEventDate": "1978-02-07",
       "featuredWeek": "2026-02-02",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1978-02-07-liverpool-arsenal-1978-league-cup-semi-final.md",
       "draftPath": "docs/editorial/drafts/073-liverpool-arsenal-1978-league-cup-semi-final.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-arsenal-1978-league-cup-semi-final",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2801,6 +2864,11 @@
           "location": "docs/editorial/drafts/073-liverpool-arsenal-1978-league-cup-semi-final.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-arsenal-1978-league-cup-semi-final",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2811,19 +2879,19 @@
       "historicalEventDate": "1978-03-01",
       "featuredWeek": "2026-02-23",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1978-03-01-benfica-liverpool-1978-hughes-winner.md",
       "draftPath": "docs/editorial/drafts/074-benfica-liverpool-1978-hughes-winner.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/benfica-liverpool-1978-hughes-winner",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2834,6 +2902,11 @@
           "location": "docs/editorial/drafts/074-benfica-liverpool-1978-hughes-winner.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/benfica-liverpool-1978-hughes-winner",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2844,19 +2917,19 @@
       "historicalEventDate": "1978-03-15",
       "featuredWeek": "2026-03-09",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1978-03-15-liverpool-benfica-1978-european-cup-semi-final.md",
       "draftPath": "docs/editorial/drafts/075-liverpool-benfica-1978-european-cup-semi-final.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-benfica-1978-european-cup-semi-final",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2867,6 +2940,11 @@
           "location": "docs/editorial/drafts/075-liverpool-benfica-1978-european-cup-semi-final.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-benfica-1978-european-cup-semi-final",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
@@ -2877,19 +2955,19 @@
       "historicalEventDate": "1978-03-18",
       "featuredWeek": "2026-03-16",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1978-03-18-liverpool-nottingham-forest-1978-wembley-draw.md",
       "draftPath": "docs/editorial/drafts/076-liverpool-nottingham-forest-1978-wembley-draw.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-nottingham-forest-1978-wembley-draw",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T12:59:33.890Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 062–076 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Live publication verified 15 September 2026: PR32, production commit 84b7d30d6bae2111a5707fbb8b53be0c2326bee1, Vercel READY. All 15 live pages, sources, History/Season links and anniversary selection passed; 94 tests, lint and build passed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -2900,9 +2978,454 @@
           "location": "docs/editorial/drafts/076-liverpool-nottingham-forest-1978-wembley-draw.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-nottingham-forest-1978-wembley-draw",
+          "confidence": "high",
+          "scope": "Observed live HTTP200, source section and bidirectional season/History links; historical evidence in draft notes."
         }
       ],
       "researchStatus": "verified"
+    },
+    {
+      "id": "1978-03-22-classic-077",
+      "event": "Liverpool 0–1 Nottingham Forest",
+      "historicalEventDate": "1978-03-22",
+      "featuredWeek": "2026-03-16",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-077",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1978-04-12-classic-078",
+      "event": "Liverpool 3–0 Borussia Mönchengladbach",
+      "historicalEventDate": "1978-04-12",
+      "featuredWeek": "2026-04-06",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-078",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1978-05-10-classic-079",
+      "event": "Liverpool 1–0 Club Brugge",
+      "historicalEventDate": "1978-05-10",
+      "featuredWeek": "2026-05-04",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-079",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1978-08-22-classic-080",
+      "event": "Ipswich Town 0–3 Liverpool",
+      "historicalEventDate": "1978-08-22",
+      "featuredWeek": "2026-08-17",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-080",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1978-08-26-classic-081",
+      "event": "Manchester City 1–4 Liverpool",
+      "historicalEventDate": "1978-08-26",
+      "featuredWeek": "2026-08-24",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-081",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1978-09-02-classic-082",
+      "event": "Liverpool 7–0 Tottenham Hotspur",
+      "historicalEventDate": "1978-09-02",
+      "featuredWeek": "2026-08-31",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-7-tottenham-0",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1978-09-13-classic-083",
+      "event": "Nottingham Forest 2–0 Liverpool",
+      "historicalEventDate": "1978-09-13",
+      "featuredWeek": "2026-09-07",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-083",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1978-10-14-classic-085",
+      "event": "Liverpool 5–0 Derby County",
+      "historicalEventDate": "1978-10-14",
+      "featuredWeek": "2026-10-12",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-085",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1978-12-26-classic-086",
+      "event": "Manchester United 0–3 Liverpool",
+      "historicalEventDate": "1978-12-26",
+      "featuredWeek": "2026-12-21",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-086",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1979-02-21-classic-087",
+      "event": "Liverpool 6–0 Norwich City",
+      "historicalEventDate": "1979-02-21",
+      "featuredWeek": "2026-02-16",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-087",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1979-05-08-classic-088",
+      "event": "Liverpool 3–0 Aston Villa",
+      "historicalEventDate": "1979-05-08",
+      "featuredWeek": "2026-05-04",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-088",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1979-05-17-classic-089",
+      "event": "Leeds United 0–3 Liverpool",
+      "historicalEventDate": "1979-05-17",
+      "featuredWeek": "2026-05-11",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-089",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1979-08-11-classic-090",
+      "event": "Liverpool 3–1 Arsenal",
+      "historicalEventDate": "1979-08-11",
+      "featuredWeek": "2026-08-10",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-090",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1979-09-04-classic-091",
+      "event": "Liverpool 4–0 Tranmere Rovers",
+      "historicalEventDate": "1979-09-04",
+      "featuredWeek": "2026-08-31",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-091",
+        "claimedAt": "2026-09-15T13:18:04.175Z",
+        "baseCommit": "84b7d30d6bae2111a5707fbb8b53be0c2326bee1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T13:18:04.175Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 077–091 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
     }
   ],
   "gaps": [
@@ -2944,7 +3467,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T13:11:20.939Z",
+  "updatedAt": "2026-09-15T13:18:04.175Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
