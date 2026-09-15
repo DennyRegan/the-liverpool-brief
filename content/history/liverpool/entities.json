@@ -1933,5 +1933,55 @@
     "id": "sheffield-united",
     "kind": "opposition",
     "label": "Sheffield United"
+  },
+  {
+    "id": "birmingham-city",
+    "label": "Birmingham City",
+    "kind": "opposition"
+  },
+  {
+    "id": "dynamo-berlin",
+    "label": "Dynamo Berlin",
+    "kind": "opposition"
+  },
+  {
+    "id": "goodison-park",
+    "label": "Goodison Park",
+    "kind": "location"
+  },
+  {
+    "id": "borussia-monchengladbach",
+    "label": "Borussia Mönchengladbach",
+    "kind": "opposition"
+  },
+  {
+    "id": "bokelbergstadion",
+    "label": "Bökelbergstadion",
+    "kind": "location"
+  },
+  {
+    "id": "red-star-belgrade",
+    "label": "Red Star Belgrade",
+    "kind": "opposition"
+  },
+  {
+    "id": "crvena-zvezda-stadium",
+    "label": "Crvena Zvezda Stadium",
+    "kind": "location"
+  },
+  {
+    "id": "highbury",
+    "label": "Highbury",
+    "kind": "location"
+  },
+  {
+    "id": "jupp-heynckes",
+    "label": "Jupp Heynckes",
+    "kind": "person"
+  },
+  {
+    "id": "martin-peters",
+    "label": "Martin Peters",
+    "kind": "person"
   }
 ]
