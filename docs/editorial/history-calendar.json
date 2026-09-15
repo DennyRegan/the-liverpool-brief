@@ -68,7 +68,7 @@
       "claim": null,
       "draftPath": "docs/editorial/drafts/163-liverpool-everton-1986-super-cup-first-leg.md",
       "event": "Liverpool 3–1 Everton",
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-09-16-liverpool-everton-1986-super-cup-first-leg.md",
       "evidence": [
         {
           "confidence": "high",
@@ -84,7 +84,7 @@
       "featuredWeek": "2026-09-14",
       "historicalEventDate": "1986-09-16",
       "id": "1986-09-16-classic-163",
-      "notes": "Preserved classic-match longlist 163; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Preserved classic-match longlist 163; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "publishedDestination": null,
@@ -536,7 +536,7 @@
       "claim": null,
       "draftPath": "docs/editorial/drafts/153-liverpool-tottenham-1985-molby-two-penalties.md",
       "event": "Liverpool 4–1 Tottenham Hotspur",
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1985-09-28-liverpool-tottenham-1985-molby-two-penalties.md",
       "evidence": [
         {
           "confidence": "high",
@@ -552,7 +552,7 @@
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "1985-09-28",
       "id": "1985-09-28-classic-153",
-      "notes": "Preserved classic-match longlist 153; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Preserved classic-match longlist 153; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "publishedDestination": null,
@@ -736,7 +736,7 @@
       "claim": null,
       "draftPath": "docs/editorial/drafts/165-everton-liverpool-1986-super-cup-rush-hat-trick.md",
       "event": "Everton 1–4 Liverpool",
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-09-30-everton-liverpool-1986-super-cup-rush-hat-trick.md",
       "evidence": [
         {
           "confidence": "high",
@@ -752,7 +752,7 @@
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "1986-09-30",
       "id": "1986-09-30-classic-165",
-      "notes": "Preserved classic-match longlist 165; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Preserved classic-match longlist 165; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "publishedDestination": null,
@@ -5666,7 +5666,7 @@
       "status": "approved",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1985-11-26-liverpool-manchester-united-1985-molby-turnaround.md",
       "draftPath": "docs/editorial/drafts/154-liverpool-manchester-united-1985-molby-turnaround.md",
       "originalDraftId": null,
       "publishedDestination": null,
@@ -5675,7 +5675,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5699,7 +5699,7 @@
       "status": "approved",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-02-22-liverpool-everton-1986-eight-points-behind.md",
       "draftPath": "docs/editorial/drafts/155-liverpool-everton-1986-eight-points-behind.md",
       "originalDraftId": null,
       "publishedDestination": null,
@@ -5708,7 +5708,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5732,7 +5732,7 @@
       "status": "approved",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-03-08-liverpool-qpr-1986-dalglish-returns.md",
       "draftPath": "docs/editorial/drafts/156-liverpool-qpr-1986-dalglish-returns.md",
       "originalDraftId": null,
       "publishedDestination": null,
@@ -5741,7 +5741,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5765,7 +5765,7 @@
       "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-03-17-watford-liverpool-1986-rush-replay-winner.md",
       "draftPath": "docs/editorial/drafts/157-watford-liverpool-1986-rush-replay-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
@@ -5774,7 +5774,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5798,7 +5798,7 @@
       "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-03-22-liverpool-oxford-1986-dalglish-creates-six-goal-win.md",
       "draftPath": "docs/editorial/drafts/158-liverpool-oxford-1986-dalglish-creates-six-goal-win.md",
       "originalDraftId": null,
       "publishedDestination": null,
@@ -5807,7 +5807,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5831,7 +5831,7 @@
       "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-04-05-liverpool-southampton-1986-rush-extra-time-double.md",
       "draftPath": "docs/editorial/drafts/159-liverpool-southampton-1986-rush-extra-time-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
@@ -5840,7 +5840,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5864,7 +5864,7 @@
       "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-05-03-chelsea-liverpool-1986-dalglish-title-winner.md",
       "draftPath": "docs/editorial/drafts/160-chelsea-liverpool-1986-dalglish-title-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
@@ -5873,7 +5873,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5897,7 +5897,7 @@
       "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-05-10-liverpool-everton-1986-rush-double-wembley.md",
       "draftPath": "docs/editorial/drafts/161-liverpool-everton-1986-rush-double-wembley.md",
       "originalDraftId": null,
       "publishedDestination": null,
@@ -5906,7 +5906,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5930,7 +5930,7 @@
       "status": "approved",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-08-16-liverpool-everton-1986-shared-charity-shield.md",
       "draftPath": "docs/editorial/drafts/162-liverpool-everton-1986-shared-charity-shield.md",
       "originalDraftId": null,
       "publishedDestination": null,
@@ -5939,7 +5939,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5963,7 +5963,7 @@
       "status": "approved",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1986-11-01-liverpool-norwich-1986-walsh-hat-trick.md",
       "draftPath": "docs/editorial/drafts/166-liverpool-norwich-1986-walsh-hat-trick.md",
       "originalDraftId": null,
       "publishedDestination": null,
@@ -5972,7 +5972,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -6508,7 +6508,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T14:43:16.674Z",
+  "updatedAt": "2026-09-15T14:43:18.633Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
