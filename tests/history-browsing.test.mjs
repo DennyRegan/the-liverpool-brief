@@ -167,6 +167,19 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'liverpool-manchester-united-1985-two-late-equalisers',
     'liverpool-manchester-united-1985-replay-defeat',
     'liverpool-arsenal-1985-dalglish-first-competitive-match',
+    'liverpool-tottenham-1985-molby-two-penalties',
+    'liverpool-manchester-united-1985-molby-turnaround',
+    'liverpool-everton-1986-eight-points-behind',
+    'liverpool-qpr-1986-dalglish-returns',
+    'watford-liverpool-1986-rush-replay-winner',
+    'liverpool-oxford-1986-dalglish-creates-six-goal-win',
+    'liverpool-southampton-1986-rush-extra-time-double',
+    'chelsea-liverpool-1986-dalglish-title-winner',
+    'liverpool-everton-1986-rush-double-wembley',
+    'liverpool-everton-1986-shared-charity-shield',
+    'liverpool-everton-1986-super-cup-first-leg',
+    'everton-liverpool-1986-super-cup-rush-hat-trick',
+    'liverpool-norwich-1986-walsh-hat-trick',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
