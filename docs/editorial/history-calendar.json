@@ -616,12 +616,8 @@
     },
     {
       "approval": null,
-      "claim": {
-        "token": "classic-032-046-20260915-044",
-        "claimedAt": "2026-09-15T10:37:29Z",
-        "baseCommit": "61dd0de7fc2995104f91598a7d4c74a62a7d9239"
-      },
-      "draftPath": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/044-liverpool-hibernian-1975-toshack-headers.md",
       "event": "Liverpool 3–1 Hibernian",
       "eventPath": null,
       "evidence": [
@@ -629,18 +625,23 @@
           "confidence": "high",
           "location": "libfile_7daf9eb45c848191ad54fc730946ff74",
           "scope": "Retrieved longlist inventory only, historical claims UNVERIFIED in setup."
+        },
+        {
+          "location": "docs/editorial/drafts/044-liverpool-hibernian-1975-toshack-headers.md",
+          "confidence": "high",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
         }
       ],
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "1975-09-30",
       "id": "1975-09-30-classic-044",
-      "notes": "Preserved classic-match longlist 044; not a commissioned draft. Do not replace selected topics without recording the decision here. Drafting explicitly requested; publication not approved.",
+      "notes": "Preserved classic-match longlist 044; not a commissioned draft. Do not replace selected topics without recording the decision here. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_batch_043_046",
       "publishedDestination": null,
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "selection": "alternative",
-      "status": "writing"
+      "status": "ready_for_review"
     },
     {
       "approval": null,
@@ -1365,27 +1366,28 @@
       "historicalEventDate": "1974-04-03",
       "featuredWeek": "2026-03-30",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_batch_032_036",
-      "claim": {
-        "token": "classic-032-046-20260915-033",
-        "claimedAt": "2026-09-15T10:37:29Z",
-        "baseCommit": "61dd0de7fc2995104f91598a7d4c74a62a7d9239"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/033-liverpool-leicester-1974-semi-final-replay.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved.",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
       "evidence": [
         {
           "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
           "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "location": "docs/editorial/drafts/033-liverpool-leicester-1974-semi-final-replay.md",
+          "confidence": "high",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1974-05-04-classic-034",
@@ -1506,27 +1508,28 @@
       "historicalEventDate": "1974-12-26",
       "featuredWeek": "2026-12-21",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_batch_037_042",
-      "claim": {
-        "token": "classic-032-046-20260915-039",
-        "claimedAt": "2026-09-15T10:37:29Z",
-        "baseCommit": "61dd0de7fc2995104f91598a7d4c74a62a7d9239"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/039-liverpool-manchester-city-1974-boxing-day.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved.",
+      "notes": "Denny commissioned next classic batch032–046;032–046 excludes already published038. Annual date association, not replacement of weekly selections. Drafting explicitly requested; publication not approved. Completed Astra factual draft; sources, confidence and exclusions in private notes. Awaiting Denny review; not published.",
       "evidence": [
         {
           "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
           "scope": "Longlist proposal; verify historical facts before drafting."
+        },
+        {
+          "location": "docs/editorial/drafts/039-liverpool-manchester-city-1974-boxing-day.md",
+          "confidence": "high",
+          "scope": "Retrieved-source Astra draft with confidence/scopes and exclusions; publication not approved."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1975-02-08-classic-040",
