@@ -38,7 +38,7 @@ Luton continued to attack despite the disruption. Antić put David Moss through 
 
 Bob Paisley had replaced Kenny Dalglish with Craig Johnston. The substitute brought Liverpool level again with about a quarter of an hour remaining, finishing from Rush's pass to become the third Liverpool scorer to beat a different goalkeeper that afternoon.
 
-The match ended with a point each before a crowd of 33,694. Liverpool had twice recovered after falling behind, but their own half-time lead had lasted little more than a quarter of an hour against a side forced to put an outfield player in goal.
+The match ended with a point each before a crowd of 33,694.
 
 ## Sources
 
@@ -55,3 +55,5 @@ Classic 122. Actual configured model `gpt-6-astra`; worker `/root/astra_a`. Fres
 Confidence/scope: LFChistory — High date, competition, score, halftime, personnel, goalkeeper changes and attendance. 11v11 — Medium/High independent Liverpool scorers, selection and Johnston/Dalglish substitution; incomplete opposition fields not used. Hatters Heritage — High independent result, crowd, Luton scorers and three-keeper account. Derek Hill and Keith Ray contemporary newspaper clippings — High corroborated match sequence, Medium publication attribution: both linked PDFs actually downloaded, rendered and visually read in full; clipping crops preserve headlines and bylines but not newspaper mastheads/dates, so outlets not invented. Hill supports halftime goalkeeper switch and Moss/Stein second-half goals; Ray independently supports Moss lob, Antić supply and Johnston from Rush. Each clipping supplies fewer than200 public derivative words; factual record also separately corroborated.
 
 Finished claim check: 3–3 and 2–1 halftime agree records/clippings; distinct scorers against Findlay/Stephens/Donaghy agree independent archives. Injury described variously as torn chest/stomach muscle; omitted diagnosis. Findlay exit37/38 and Johnston goal75/76 differ, so rounded. No precise goal minute, penalty verdict, attendance atmosphere, historical league milestone, quotes or footage claim. Contemporary photo caption in third retrieved scan inspected but not relied on for match reconstruction. Luton Town entity absent from inspected registry: coordinator to validate addition. Publication date unset.
+
+Independent review: `gpt-6-astra`, `/root/astra_b`, 15 September 2026. Fresh Hatters Heritage and LFChistory records confirm the three distinct goalkeepers, result, attendance and substitution sequence. Independently read both author-downloaded contemporary clipping images: Hill confirms halftime goalkeeper change and Moss/Stein goals; Ray confirms Antić supplying Moss and Johnston finishing Rush’s pass. No substantive correction. Removed repetitive final recap; retained attendance. Clipped publication mastheads are absent, as stated, and source word scopes remain adequate.
