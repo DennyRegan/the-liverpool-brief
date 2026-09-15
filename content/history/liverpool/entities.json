@@ -1983,5 +1983,45 @@
     "id": "martin-peters",
     "label": "Martin Peters",
     "kind": "person"
+  },
+  {
+    "id": "bristol-city",
+    "label": "Bristol City",
+    "kind": "opposition"
+  },
+  {
+    "id": "ashton-gate",
+    "label": "Ashton Gate",
+    "kind": "location"
+  },
+  {
+    "id": "leicester-city",
+    "label": "Leicester City",
+    "kind": "opposition"
+  },
+  {
+    "id": "villa-park",
+    "label": "Villa Park",
+    "kind": "location"
+  },
+  {
+    "id": "max-thompson",
+    "label": "Max Thompson",
+    "kind": "person"
+  },
+  {
+    "id": "ipswich-town",
+    "label": "Ipswich Town",
+    "kind": "opposition"
+  },
+  {
+    "id": "hibernian",
+    "label": "Hibernian",
+    "kind": "opposition"
+  },
+  {
+    "id": "trevor-whymark",
+    "label": "Trevor Whymark",
+    "kind": "person"
   }
 ]

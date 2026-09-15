@@ -51,6 +51,20 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'torres-babel-six-goals-hull-2009',
     'torres-first-hat-trick-reading-2007',
     'whelan-wembley-final-tottenham-1982',
+    'bristol-city-liverpool-1974-toshack-cup-quarter-final',
+    'liverpool-leicester-1974-semi-final-replay',
+    'liverpool-newcastle-1974-fa-cup-final',
+    'tottenham-liverpool-1974-shankly-final-league-match',
+    'liverpool-leeds-1974-charity-shield',
+    'liverpool-tottenham-1974-boersma-hat-trick',
+    'liverpool-manchester-city-1974-boxing-day',
+    'liverpool-ipswich-1975-toshack-double',
+    'liverpool-newcastle-1975-toshack-mcdermott',
+    'bill-shankly-testimonial-anfield-1975',
+    'leeds-liverpool-1975-callaghan-double',
+    'liverpool-hibernian-1975-toshack-headers',
+    'tottenham-liverpool-1975-four-scorers',
+    'liverpool-ipswich-1976-three-equalisers',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
