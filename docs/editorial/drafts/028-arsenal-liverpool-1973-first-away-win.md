@@ -13,6 +13,7 @@ playerIds: ["emlyn-hughes", "john-toshack", "alec-lindsay"]
 managerIds: ["bill-shankly"]
 oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]
+sources: ["https://www.lfchistory.net/games/763", "https://www.liverpoolfc.com/news/bill-shanklys-final-season-champions-creep-closer-receive-european-lesson-november", "https://blog.woolwicharsenal.co.uk/archives/12978"]
 ---
 
 # Arsenal 0–2 Liverpool: Hughes and Toshack end the away wait
@@ -43,7 +44,7 @@ There was little time to dwell on it. Red Star Belgrade were due at Anfield thre
 
 Status: awaiting Denny’s approval; not published. Longlist 028. Research and writing configured model: gpt-6-astra. Worker: /root/astra_batch_027_031. Sources retrieved 15 September 2026.
 
-Evidence: LFChistory match record — High for exact date, result, scorers/minutes, teams, substitution, attendance and post-match table. Liverpool FC November retrospective — High for independent result/scorer check and first away league win after three points/three goals in seven trips; Medium for historical action descriptions (Hughes shot and Toshack header from Lindsay free-kick). Arsenal History Society — Medium for independent opposition-side result, attendance and Arsenal selection/context. Its historical article was retrieved through indexed search text; not a contemporary report. Two points for a win is reflected directly in the table arithmetic (seven wins and three draws = seventeen).
+Evidence: LFChistory match record — High for exact date, result, scorers/minutes, teams, substitution, attendance and post-match table. Liverpool FC November retrospective — High for independent result/scorer check and first away league win after three points/three goals in seven trips; Medium for historical action descriptions (Hughes shot and Toshack header from Lindsay free-kick). Arsenal History Society — Medium for independent opposition-side result, attendance and Arsenal selection/context. Its historical article was opened and retrieved; it is not a contemporary report. Two points for a win is reflected directly in the table arithmetic (seven wins and three draws = seventeen).
 
 Scope/exclusions: this was the first away LEAGUE win, not an assertion covering friendlies or every competition. LFChistory and Arsenal History Society both recount Smith’s walkout, but disagree in emphasis/location and do not supply a newly retrieved contemporary first-hand explanation. The article records his absence only, avoiding motives, precise walkout timing and disciplinary narrative. No invented build-up to Hughes’s shot or additional chances. No direct quotations. No claim that the Highbury win caused later improvement.
 

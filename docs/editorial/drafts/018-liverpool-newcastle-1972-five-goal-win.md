@@ -33,7 +33,7 @@ The afternoon also came at the end of an important week for two of Liverpool’s
 
 Liverpool’s championship challenge was not sustained only by their most prominent scorer. Keegan would finish level with Toshack on thirteen league goals, while this victory required contributions from a midfielder and a full-back before the centre-forward supplied the decisive third.
 
-Newcastle had answered twice. Liverpool’s third lead of the afternoon’s scoring sequence was the one they preserved, and they remained top of the table.
+Newcastle had answered twice, but Liverpool finished with both points and remained top of the table.
 
 ## Sources
 

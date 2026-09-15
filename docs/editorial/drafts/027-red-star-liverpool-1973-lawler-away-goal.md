@@ -12,6 +12,7 @@ season: "1973-74"
 playerIds: ["chris-lawler"]
 managerIds: ["bill-shankly"]
 competitionIds: ["european-cup"]
+sources: ["https://www.lfchistory.net/games/760", "https://www.liverpoolfc.com/news/bill-shanklys-final-season-tough-october-anfield-remains-fortress", "https://www.lfchistory.net/season-archive/games/15"]
 ---
 
 # Red Star Belgrade 2–1 Liverpool: Lawler keeps the tie within reach
