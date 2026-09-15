@@ -1857,27 +1857,28 @@
       "historicalEventDate": "1976-04-17",
       "featuredWeek": "2026-04-13",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/next15_astra",
-      "claim": {
-        "token": "next15-astra-20260915-050",
-        "claimedAt": "2026-09-15T12:34:40.804Z",
-        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/050-liverpool-stoke-1976-eight-goal-easter.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; historical facts require retrieved-source verification."
+        },
+        {
+          "location": "docs/editorial/drafts/050-liverpool-stoke-1976-eight-goal-easter.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1976-04-19-classic-051",
@@ -1942,27 +1943,28 @@
       "historicalEventDate": "1976-05-04",
       "featuredWeek": "2026-05-04",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/next15_astra",
-      "claim": {
-        "token": "next15-astra-20260915-053",
-        "claimedAt": "2026-09-15T12:34:40.804Z",
-        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/053-wolves-liverpool-1976-title-at-molineux.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; historical facts require retrieved-source verification."
+        },
+        {
+          "location": "docs/editorial/drafts/053-wolves-liverpool-1976-title-at-molineux.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1976-05-19-classic-054",
@@ -2083,27 +2085,28 @@
       "historicalEventDate": "1977-03-16",
       "featuredWeek": "2026-03-16",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/next15_astra",
-      "claim": {
-        "token": "next15-astra-20260915-058",
-        "claimedAt": "2026-09-15T12:34:40.804Z",
-        "baseCommit": "856e01b0650104932d75b3c085ad29aeee360231"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/058-liverpool-saint-etienne-1977-fairclough-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified.",
+      "notes": "Denny explicitly commissioned next fifteen classic articles 047–061 and authorised source-checked publication without further approval, 15 September 2026. Annual association; preserves weekly selections. Astra research and writing; 047 existing final copy to be preserved and reverified. Completed Astra factual draft, retrieved-source scopes/confidences and exclusions in private notes. Denny current-batch preapproval recorded; publisher handles release.",
       "evidence": [
         {
           "location": "01-classic-liverpool-games-1970-1990-1-.md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; historical facts require retrieved-source verification."
+        },
+        {
+          "location": "docs/editorial/drafts/058-liverpool-saint-etienne-1977-fairclough-winner.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual Astra draft with private evidence assessment; no publication performed by writer."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1977-04-02-classic-059",
