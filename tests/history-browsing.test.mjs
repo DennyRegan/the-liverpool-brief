@@ -195,6 +195,19 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'liverpool-nottingham-forest-1988-five-at-anfield',
     'liverpool-wimbledon-1988-fa-cup-final-defeat',
     'liverpool-wimbledon-1988-aldridge-shield-double',
+    'liverpool-man-united-1988-molby-penalty',
+    'liverpool-arsenal-1988-aldridge-second-replay',
+    'man-united-liverpool-1989-seven-minutes',
+    'everton-liverpool-1989-return-at-goodison',
+    'liverpool-nottingham-forest-1989-rescheduled-semi-final',
+    'liverpool-everton-1989-rush-extra-time-double',
+    'liverpool-west-ham-1989-four-second-half-goals',
+    'liverpool-arsenal-1989-thomas-title-decider',
+    'everton-liverpool-1989-rush-double-takes-top-spot',
+    'liverpool-arsenal-1989-barnes-free-kick',
+    'chelsea-liverpool-1989-five-at-stamford-bridge',
+    'liverpool-swansea-1990-rush-replay-hat-trick',
+    'liverpool-everton-1990-barnes-beardsley-derby-double',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
