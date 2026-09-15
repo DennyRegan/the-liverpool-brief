@@ -41,7 +41,6 @@ Everton lost Geoff Nulty to injury following a tackle by Jimmy Case in the secon
 
 Dean had attended a lunch with Bill Shankly before the game to mark the launch of the clubs' annuals. Journalist John Keith, whose guests they were, later recalled Shankly paying tribute to Dean before the three travelled to Goodison. Fellow reporter Eric Brown also recalled learning of Dean's collapse while covering the match.
 
-Johnson and Neal had settled the derby on the pitch. Dean's death made it an afternoon remembered across the city for much more than Liverpool's win.
 
 ## Sources
 
@@ -59,3 +58,5 @@ Classic 095. Actual configured model `gpt-6-astra`; worker `/root/astra_a`. Fres
 Confidence/scope: LFChistory — High date/result/scorers and half-time sequence. Everton Results — High independent Everton-side record, including goal minutes and both teams' start/end positions; full indexed page retrieved, direct web open returned error. St Helens Town official former-player profile — Medium/High retrospective confirmation that Case tackle in this derby ended Nulty's career; corroborated by independently retrieved EFC Statto retirement record and NUFC.com former-player history. EFC Statto dates retirement to May1980; article deliberately says injury would ultimately end career, not that retirement was known at the time. This Is Anfield — High for John Keith's explicitly identified later eyewitness recollection of lunch, annuals and travelling to game; not contemporary reporting. SJA — High for Eric Brown's separately attributed later eyewitness recollection of covering match and Dean's collapse; no graphic detail reproduced.
 
 Final review: core match facts independently checked. Exact crowd omitted: LFChistory53,013 versus Everton Results53,018. Nulty substitution59/60 rounded around hour. Neal penalty31 supported by both records; unproven circumstances of award and goal mechanics omitted. No judgements about intent behind Case challenge. Dean's exact time of death omitted because accounts vary; age omitted as unnecessary (correct age73). No quotation or footage claim. Sources under200 derived public words each. No publication date set.
+
+Independent publication review, 15 September 2026: `gpt-6-astra`, `/root/astra_c`. Independently retrieved Everton Results indexed scorer record, St Helens Town Nulty profile, John Keith interview and Eric Brown SJA recollection. Match sequence and separately attributed later recollections pass. Removed the final paragraph, which repeated the lead. Source-derived public copy remains within stated limits. Frontmatter parsed and all supplied entity IDs exist.
