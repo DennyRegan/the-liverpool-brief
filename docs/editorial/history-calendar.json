@@ -348,15 +348,19 @@
       "historicalEventDate": "1972-09-23",
       "featuredWeek": "2026-09-21",
       "selection": "alternative",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "Archive editor (existing completed draft)",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1972-09-23-liverpool-sheffield-united-1972-five-goals.md",
       "draftPath": "docs/editorial/drafts/015-liverpool-sheffield-united-1972-five-goals.md",
       "originalDraftId": "libfile_72c94663f87c819188edfcfd0083ee6d",
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Saved draft from the classic-match queue. Preserve alongside the selected event; do not silently replace that selection or rewrite.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T08:31:31Z",
+        "evidence": "Chat: Yes great commit and make live all please — approval for classic-match batch 003–016 after reviewing Bayern and Everton samples."
+      },
+      "notes": "Saved draft from the classic-match queue. Preserve alongside the selected event; do not silently replace that selection or rewrite. Batch publication approved 15 September 2026; existing selection retained.",
       "evidence": [
         {
           "location": "libfile_72c94663f87c819188edfcfd0083ee6d",
@@ -630,15 +634,19 @@
       "historicalEventDate": "1972-09-30",
       "featuredWeek": "2026-09-28",
       "selection": "alternative",
-      "status": "ready_for_review",
+      "status": "approved",
       "owner": "Archive editor (existing completed draft)",
       "claim": null,
-      "eventPath": null,
+      "eventPath": "content/this-week/liverpool/1972-09-30-leeds-liverpool-1972-phil-boersma.md",
       "draftPath": "docs/editorial/drafts/016-leeds-liverpool-1972-phil-boersma.md",
       "originalDraftId": "libfile_052c897475a48191a01a5c287bdc9880",
       "publishedDestination": null,
-      "approval": null,
-      "notes": "Saved draft from the classic-match queue. Preserve alongside the selected event; do not silently replace that selection or rewrite.",
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T08:31:31Z",
+        "evidence": "Chat: Yes great commit and make live all please — approval for classic-match batch 003–016 after reviewing Bayern and Everton samples."
+      },
+      "notes": "Saved draft from the classic-match queue. Preserve alongside the selected event; do not silently replace that selection or rewrite. Batch publication approved 15 September 2026; existing selection retained.",
       "evidence": [
         {
           "location": "libfile_052c897475a48191a01a5c287bdc9880",

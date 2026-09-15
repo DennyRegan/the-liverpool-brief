@@ -12,6 +12,20 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'forshaw-hat-trick-manchester-united-1925',
     'fowler-scoring-debut-fulham-1993',
     'henderson-chelsea-winner-2016',
+    'leeds-liverpool-1971-early-winner',
+    'liverpool-bayern-1971-alun-evans',
+    'tottenham-liverpool-1971-heighway-clemence',
+    'liverpool-everton-1971-brian-hall',
+    'liverpool-arsenal-1971-fa-cup-final',
+    'liverpool-arsenal-1971-ian-ross',
+    'liverpool-derby-1971-jack-whitham',
+    'liverpool-everton-1972-four-goal-derby',
+    'liverpool-newcastle-1972-five-goals',
+    'manchester-united-liverpool-1972-thompson-debut',
+    'derby-liverpool-1972-mcgovern-title-race',
+    'liverpool-manchester-city-1972-opening-day',
+    'liverpool-sheffield-united-1972-five-goals',
+    'leeds-liverpool-1972-phil-boersma',
     'liverpool-arsenal-1971-toshack-smith',
     'liverpool-everton-comeback-1970',
     'liverpool-monaco-champions-league-2004',
@@ -22,7 +36,7 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'torres-babel-six-goals-hull-2009',
     'torres-first-hat-trick-reading-2007',
     'whelan-wembley-final-tottenham-1982',
-  ]);
+  ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
 });
