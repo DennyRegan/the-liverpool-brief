@@ -2023,5 +2023,70 @@
     "id": "trevor-whymark",
     "label": "Trevor Whymark",
     "kind": "person"
+  },
+  {
+    "id": "barcelona",
+    "label": "Barcelona",
+    "kind": "opposition"
+  },
+  {
+    "id": "camp-nou",
+    "label": "Camp Nou",
+    "kind": "location"
+  },
+  {
+    "id": "stoke-city",
+    "label": "Stoke City",
+    "kind": "opposition"
+  },
+  {
+    "id": "maine-road",
+    "label": "Maine Road",
+    "kind": "location"
+  },
+  {
+    "id": "club-brugge",
+    "label": "Club Brugge",
+    "kind": "opposition"
+  },
+  {
+    "id": "wolverhampton-wanderers",
+    "label": "Wolverhampton Wanderers",
+    "kind": "opposition"
+  },
+  {
+    "id": "molineux",
+    "label": "Molineux",
+    "kind": "location"
+  },
+  {
+    "id": "olympic-stadium-bruges",
+    "label": "Olympic Stadium, Bruges",
+    "kind": "location"
+  },
+  {
+    "id": "southampton",
+    "label": "Southampton",
+    "kind": "opposition"
+  },
+  {
+    "id": "saint-etienne",
+    "label": "Saint-Étienne",
+    "kind": "opposition"
+  },
+  {
+    "id": "stade-geoffroy-guichard",
+    "label": "Stade Geoffroy-Guichard",
+    "kind": "location"
+  },
+  {
+    "id": "fc-zurich",
+    "label": "FC Zürich",
+    "kind": "opposition"
+  },
+  {
+    "id": "letzigrund",
+    "label": "Letzigrund",
+    "kind": "location"
   }
 ]

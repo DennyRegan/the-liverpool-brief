@@ -65,6 +65,21 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'liverpool-hibernian-1975-toshack-headers',
     'tottenham-liverpool-1975-four-scorers',
     'liverpool-ipswich-1976-three-equalisers',
+    'barcelona-liverpool-1976-toshack-advantage',
+    'liverpool-everton-1976-fairclough-derby-winner',
+    'liverpool-barcelona-1976-thompson-semi-final',
+    'liverpool-stoke-1976-eight-goal-easter',
+    'manchester-city-liverpool-1976-fairclough-double',
+    'liverpool-brugge-1976-anfield-final-comeback',
+    'wolves-liverpool-1976-title-at-molineux',
+    'brugge-liverpool-1976-uefa-cup-double',
+    'liverpool-southampton-1976-toshack-charity-shield',
+    'derby-liverpool-1976-keegan-comeback-winner',
+    'saint-etienne-liverpool-1977-first-leg-deficit',
+    'liverpool-saint-etienne-1977-fairclough-winner',
+    'liverpool-leeds-1977-fairclough-league-victory',
+    'zurich-liverpool-1977-neal-first-leg-win',
+    'liverpool-zurich-1977-first-european-cup-final',
   ].sort());
   assert.deepEqual(getHistoryBrowseArticles('players'), []);
   assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
