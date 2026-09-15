@@ -1,18 +1,36 @@
 ---
-title: "Liverpool 4–1 Benfica: early goals secure the semi-final place"
-historicalEventDate: "1978-03-15"
-historicalPeriod: "15 March 1978 · European Cup quarter-final second leg · Anfield"
-decade: "1970s"
-excerpt: "Ian Callaghan and Kenny Dalglish scored early as Liverpool completed a 6–2 aggregate win over Benfica before the League Cup final."
-slug: "liverpool-benfica-1978-european-cup-semi-final"
-category: "match"
-articleType: "match"
-season: "1977-78"
-playerIds: ["ian-callaghan", "kenny-dalglish", "terry-mcdermott", "phil-neal"]
-managerIds: ["bob-paisley"]
-competitionIds: ["european-cup"]
-locationIds: ["anfield"]
-sources: ["https://www.lfchistory.net/games/1027", "https://www.lfcineurope.com/7778-2.html", "https://www.lfcineurope.com/7778-2RPM.html", "https://www.uefa.com/uefachampionsleague/news/01b0-0ea833082f67-b6e66cfc72fa-1000--liverpool-expect-tough-challenge/", "https://www.liverpoolfc.com/news/first-team/208124-a-history-of-lfc-s-league-cup-finals-1978-and-1981"]
+title: 'Liverpool 4–1 Benfica: early goals secure the semi-final place'
+historicalEventDate: '1978-03-15'
+historicalPeriod: 15 March 1978 · European Cup quarter-final second leg · Anfield
+decade: 1970s
+excerpt: >-
+  Ian Callaghan and Kenny Dalglish scored early as Liverpool completed a 6–2
+  aggregate win over Benfica before the League Cup final.
+slug: liverpool-benfica-1978-european-cup-semi-final
+category: match
+articleType: match
+season: 1977-78
+playerIds:
+  - ian-callaghan
+  - kenny-dalglish
+  - terry-mcdermott
+  - phil-neal
+managerIds:
+  - bob-paisley
+competitionIds:
+  - european-cup
+locationIds:
+  - anfield
+sources:
+  - 'https://www.lfchistory.net/games/1027'
+  - 'https://www.lfcineurope.com/7778-2.html'
+  - 'https://www.lfcineurope.com/7778-2RPM.html'
+  - >-
+    https://www.uefa.com/uefachampionsleague/news/01b0-0ea833082f67-b6e66cfc72fa-1000--liverpool-expect-tough-challenge/
+  - >-
+    https://www.liverpoolfc.com/news/first-team/208124-a-history-of-lfc-s-league-cup-finals-1978-and-1981
+oppositionIds:
+  - benfica
 ---
 
 # Liverpool 4–1 Benfica: early goals secure the semi-final place

@@ -2088,5 +2088,55 @@
     "id": "letzigrund",
     "label": "Letzigrund",
     "kind": "location"
+  },
+  {
+    "id": "west-ham-united",
+    "label": "West Ham United",
+    "kind": "opposition"
+  },
+  {
+    "id": "stadio-olimpico",
+    "label": "Stadio Olimpico",
+    "kind": "location"
+  },
+  {
+    "id": "middlesbrough",
+    "label": "Middlesbrough",
+    "kind": "opposition"
+  },
+  {
+    "id": "ayresome-park",
+    "label": "Ayresome Park",
+    "kind": "location"
+  },
+  {
+    "id": "west-bromwich-albion",
+    "label": "West Bromwich Albion",
+    "kind": "opposition"
+  },
+  {
+    "id": "dynamo-dresden",
+    "label": "Dynamo Dresden",
+    "kind": "opposition"
+  },
+  {
+    "id": "volksparkstadion",
+    "label": "Volksparkstadion",
+    "kind": "location"
+  },
+  {
+    "id": "benfica",
+    "label": "Benfica",
+    "kind": "opposition"
+  },
+  {
+    "id": "estadio-da-luz",
+    "label": "Estádio da Luz",
+    "kind": "location"
+  },
+  {
+    "id": "nottingham-forest",
+    "label": "Nottingham Forest",
+    "kind": "opposition"
   }
 ]

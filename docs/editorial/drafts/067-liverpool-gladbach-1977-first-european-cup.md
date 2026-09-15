@@ -1,18 +1,37 @@
 ---
-title: "Liverpool 3–1 Borussia Mönchengladbach: the first European Cup"
-historicalEventDate: "1977-05-25"
-historicalPeriod: "25 May 1977 · European Cup final · Stadio Olimpico, Rome"
-decade: "1970s"
-excerpt: "Goals from Terry McDermott, Tommy Smith and Phil Neal brought Liverpool their first European Cup, four days after defeat in the FA Cup final."
-slug: "liverpool-gladbach-1977-first-european-cup"
-category: "match"
-articleType: "match"
-season: "1976-77"
-playerIds: ["terry-mcdermott", "tommy-smith", "phil-neal", "kevin-keegan", "steve-heighway", "ray-clemence"]
-managerIds: ["bob-paisley"]
-oppositionIds: ["borussia-monchengladbach"]
-competitionIds: ["european-cup"]
-sources: ["https://www.uefa.com/uefachampionsleague/news/0059-0e6a07f41619-32cb61e67250-1000--1976-77-keegan-signs-off-in-style/", "https://www.liverpoolfc.com/news/history-made-reds-munch-gladbach-rome", "https://www.lfchistory.net/articles/666", "https://www.liverpoolfc.com/news/announcements/264257-rome-1977-through-the-eyes-of-the-11-reds-heroes"]
+title: 'Liverpool 3–1 Borussia Mönchengladbach: the first European Cup'
+historicalEventDate: '1977-05-25'
+historicalPeriod: '25 May 1977 · European Cup final · Stadio Olimpico, Rome'
+decade: 1970s
+excerpt: >-
+  Goals from Terry McDermott, Tommy Smith and Phil Neal brought Liverpool their
+  first European Cup, four days after defeat in the FA Cup final.
+slug: liverpool-gladbach-1977-first-european-cup
+category: match
+articleType: match
+season: 1976-77
+playerIds:
+  - terry-mcdermott
+  - tommy-smith
+  - phil-neal
+  - kevin-keegan
+  - steve-heighway
+  - ray-clemence
+managerIds:
+  - bob-paisley
+oppositionIds:
+  - borussia-monchengladbach
+competitionIds:
+  - european-cup
+sources:
+  - >-
+    https://www.uefa.com/uefachampionsleague/news/0059-0e6a07f41619-32cb61e67250-1000--1976-77-keegan-signs-off-in-style/
+  - 'https://www.liverpoolfc.com/news/history-made-reds-munch-gladbach-rome'
+  - 'https://www.lfchistory.net/articles/666'
+  - >-
+    https://www.liverpoolfc.com/news/announcements/264257-rome-1977-through-the-eyes-of-the-11-reds-heroes
+locationIds:
+  - stadio-olimpico
 ---
 
 # Liverpool 3–1 Borussia Mönchengladbach: the first European Cup

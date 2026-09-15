@@ -1,18 +1,34 @@
 ---
-title: "Hamburg 1–1 Liverpool: Fairclough levels the Super Cup tie"
-historicalEventDate: "1977-11-22"
-historicalPeriod: "22 November 1977 · European Super Cup first leg · Volksparkstadion"
-decade: "1970s"
-excerpt: "David Fairclough's second-half equaliser cancelled out Ferdinand Keller's opener and left the Super Cup level before the return at Anfield."
-slug: "hamburg-liverpool-1977-fairclough-super-cup"
-category: "match"
-articleType: "match"
-season: "1977-78"
-playerIds: ["david-fairclough", "kenny-dalglish", "kevin-keegan"]
-managerIds: ["bob-paisley"]
-oppositionIds: ["hamburg"]
-competitionIds: ["european-super-cup"]
-sources: ["https://www.lfchistory.net/games/1001", "https://www.uefa.com/uefasupercup/history/1977/", "https://datencenter.dfb.de/datencenter/supercup/1977/finale/hamburger-sv-fc-liverpool-2206356", "https://www.transfermarkt.com/hamburger-sv_liverpool-fc/index/spielbericht/986630"]
+title: 'Hamburg 1–1 Liverpool: Fairclough levels the Super Cup tie'
+historicalEventDate: '1977-11-22'
+historicalPeriod: 22 November 1977 · European Super Cup first leg · Volksparkstadion
+decade: 1970s
+excerpt: >-
+  David Fairclough's second-half equaliser cancelled out Ferdinand Keller's
+  opener and left the Super Cup level before the return at Anfield.
+slug: hamburg-liverpool-1977-fairclough-super-cup
+category: match
+articleType: match
+season: 1977-78
+playerIds:
+  - david-fairclough
+  - kenny-dalglish
+  - kevin-keegan
+managerIds:
+  - bob-paisley
+oppositionIds:
+  - hamburg
+competitionIds:
+  - european-super-cup
+sources:
+  - 'https://www.lfchistory.net/games/1001'
+  - 'https://www.uefa.com/uefasupercup/history/1977/'
+  - >-
+    https://datencenter.dfb.de/datencenter/supercup/1977/finale/hamburger-sv-fc-liverpool-2206356
+  - >-
+    https://www.transfermarkt.com/hamburger-sv_liverpool-fc/index/spielbericht/986630
+locationIds:
+  - volksparkstadion
 ---
 
 # Hamburg 1–1 Liverpool: Fairclough levels the Super Cup tie

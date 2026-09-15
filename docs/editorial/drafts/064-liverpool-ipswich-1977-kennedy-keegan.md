@@ -22,7 +22,7 @@ Ray Kennedy and Kevin Keegan scored within three minutes of each other as Liverp
 
 Three days after beating Everton in the FA Cup semi-final replay, Bob Paisley's side returned to League business before 56,044 spectators. The victory left Liverpool on 52 points from 37 matches. Manchester City had 50 from 38, while Ipswich were third with 49 from 39. Liverpool held both the lead and games in hand.
 
-The first half produced no goals and a succession of forceful challenges. Steve Heighway suffered a cut above the eye and David Fairclough replaced him shortly before the interval. David Johnson was also hurt in an aerial collision but continued. Referee Peter Willis called the two captains together before half-time.
+The first half produced no goals and a succession of forceful challenges. Steve Heighway suffered a cut above the eye and David Fairclough replaced him shortly before the interval. David Johnson was also hurt in an aerial collision but continued. Referee Willis called the two captains together before half-time.
 
 For more than an hour neither team could establish a scoring advantage. The move which changed the match began near Liverpool's own penalty area, where Tommy Smith won possession against Paul Mariner and Trevor Whymark. The ball went through Jimmy Case to Kennedy, who scored in the 70th minute.
 

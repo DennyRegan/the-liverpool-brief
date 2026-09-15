@@ -1,18 +1,39 @@
 ---
-title: "Liverpool 0–0 Nottingham Forest: Woods takes the final to a replay"
-historicalEventDate: "1978-03-18"
-historicalPeriod: "18 March 1978 · League Cup final · Wembley"
-decade: "1970s"
-excerpt: "Liverpool's first League Cup final ended without a goal after extra time, with teenage goalkeeper Chris Woods helping Forest secure a replay."
-slug: "liverpool-nottingham-forest-1978-wembley-draw"
-category: "match"
-articleType: "match"
-season: "1977-78"
-playerIds: ["terry-mcdermott", "david-fairclough"]
-managerIds: ["bob-paisley"]
-competitionIds: ["league-cup"]
-locationIds: ["wembley", "old-trafford"]
-sources: ["https://www.lfchistory.net/games/1021", "https://www.rsssf.org/tablese/engleagcuphistfinal.html", "https://www.liverpoolfc.com/news/first-team/208124-a-history-of-lfc-s-league-cup-finals-1978-and-1981", "https://www.liverpoolfc.com/news/phil-thompsons-league-cup-final-memories-what-it-meant-lift-trophy-first-time", "https://heritage.bcsoccer.net/media/4416/vancouver-whitecaps-1980-07-23-vs-nottingham-forest-england-full.pdf", "https://www.thisisanfield.com/2013/11/ex-reds-terry-mcdermott/", "https://www.yumpu.com/en/document/view/70046765/forest-review-vol-57-cup-issue-3-v-ipswich-town"]
+title: 'Liverpool 0–0 Nottingham Forest: Woods takes the final to a replay'
+historicalEventDate: '1978-03-18'
+historicalPeriod: 18 March 1978 · League Cup final · Wembley
+decade: 1970s
+excerpt: >-
+  Liverpool's first League Cup final ended without a goal after extra time, with
+  teenage goalkeeper Chris Woods helping Forest secure a replay.
+slug: liverpool-nottingham-forest-1978-wembley-draw
+category: match
+articleType: match
+season: 1977-78
+playerIds:
+  - terry-mcdermott
+  - david-fairclough
+managerIds:
+  - bob-paisley
+competitionIds:
+  - league-cup
+locationIds:
+  - wembley
+  - old-trafford
+sources:
+  - 'https://www.lfchistory.net/games/1021'
+  - 'https://www.rsssf.org/tablese/engleagcuphistfinal.html'
+  - >-
+    https://www.liverpoolfc.com/news/first-team/208124-a-history-of-lfc-s-league-cup-finals-1978-and-1981
+  - >-
+    https://www.liverpoolfc.com/news/phil-thompsons-league-cup-final-memories-what-it-meant-lift-trophy-first-time
+  - >-
+    https://heritage.bcsoccer.net/media/4416/vancouver-whitecaps-1980-07-23-vs-nottingham-forest-england-full.pdf
+  - 'https://www.thisisanfield.com/2013/11/ex-reds-terry-mcdermott/'
+  - >-
+    https://www.yumpu.com/en/document/view/70046765/forest-review-vol-57-cup-issue-3-v-ipswich-town
+oppositionIds:
+  - nottingham-forest
 ---
 
 # Liverpool 0–0 Nottingham Forest: Woods takes the final to a replay

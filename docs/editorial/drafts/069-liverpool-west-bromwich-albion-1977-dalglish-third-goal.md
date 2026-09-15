@@ -1,18 +1,34 @@
 ---
-title: "Liverpool 3–0 West Bromwich Albion: Dalglish makes it three in three"
-historicalEventDate: "1977-08-27"
-historicalPeriod: "27 August 1977 · First Division · Anfield"
-decade: "1970s"
-excerpt: "Kenny Dalglish scored for the third successive league game before late goals from Steve Heighway and Jimmy Case completed Liverpool's victory."
-slug: "liverpool-west-bromwich-albion-1977-dalglish-third-goal"
-category: "match"
-articleType: "match"
-season: "1977-78"
-playerIds: ["kenny-dalglish", "steve-heighway", "jimmy-case", "ray-kennedy"]
-managerIds: ["bob-paisley"]
-competitionIds: ["first-division"]
-locationIds: ["anfield"]
-sources: ["https://lfchistory.net/games/983", "https://www.historical-lineups.com/wp-content/uploads/2012/12/1977-78-Week-1-10-1.pdf", "https://www.liverpoolfc.com/news/first-team/277726-timeline-kenny-dalglish-s-liverpool-love-affair"]
+title: 'Liverpool 3–0 West Bromwich Albion: Dalglish makes it three in three'
+historicalEventDate: '1977-08-27'
+historicalPeriod: 27 August 1977 · First Division · Anfield
+decade: 1970s
+excerpt: >-
+  Kenny Dalglish scored for the third successive league game before late goals
+  from Steve Heighway and Jimmy Case completed Liverpool's victory.
+slug: liverpool-west-bromwich-albion-1977-dalglish-third-goal
+category: match
+articleType: match
+season: 1977-78
+playerIds:
+  - kenny-dalglish
+  - steve-heighway
+  - jimmy-case
+  - ray-kennedy
+managerIds:
+  - bob-paisley
+competitionIds:
+  - first-division
+locationIds:
+  - anfield
+sources:
+  - 'https://lfchistory.net/games/983'
+  - >-
+    https://www.historical-lineups.com/wp-content/uploads/2012/12/1977-78-Week-1-10-1.pdf
+  - >-
+    https://www.liverpoolfc.com/news/first-team/277726-timeline-kenny-dalglish-s-liverpool-love-affair
+oppositionIds:
+  - west-bromwich-albion
 ---
 
 # Liverpool 3–0 West Bromwich Albion: Dalglish makes it three in three

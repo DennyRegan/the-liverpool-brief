@@ -1,17 +1,33 @@
 ---
-title: "Benfica 1–2 Liverpool: Hughes completes the recovery in Lisbon"
-historicalEventDate: "1978-03-01"
-historicalPeriod: "1 March 1978 · European Cup quarter-final first leg · Estádio da Luz"
-decade: "1970s"
-excerpt: "Jimmy Case's free-kick and Emlyn Hughes's second-half winner overturned Benfica's lead on a rain-soaked night in Lisbon."
-slug: "benfica-liverpool-1978-hughes-winner"
-category: "match"
-articleType: "match"
-season: "1977-78"
-playerIds: ["jimmy-case", "emlyn-hughes", "alan-hansen"]
-managerIds: ["bob-paisley"]
-competitionIds: ["european-cup"]
-sources: ["https://www.lfchistory.net/games/1025", "https://www.lfcineurope.com/7778-2B.html", "https://www.lfcineurope.com/7778-2BRPM.html", "https://www.uefa.com/uefachampionsleague/news/01b0-0ea833082f67-b6e66cfc72fa-1000--liverpool-expect-tough-challenge/"]
+title: 'Benfica 1–2 Liverpool: Hughes completes the recovery in Lisbon'
+historicalEventDate: '1978-03-01'
+historicalPeriod: 1 March 1978 · European Cup quarter-final first leg · Estádio da Luz
+decade: 1970s
+excerpt: >-
+  Jimmy Case's free-kick and Emlyn Hughes's second-half winner overturned
+  Benfica's lead on a rain-soaked night in Lisbon.
+slug: benfica-liverpool-1978-hughes-winner
+category: match
+articleType: match
+season: 1977-78
+playerIds:
+  - jimmy-case
+  - emlyn-hughes
+  - alan-hansen
+managerIds:
+  - bob-paisley
+competitionIds:
+  - european-cup
+sources:
+  - 'https://www.lfchistory.net/games/1025'
+  - 'https://www.lfcineurope.com/7778-2B.html'
+  - 'https://www.lfcineurope.com/7778-2BRPM.html'
+  - >-
+    https://www.uefa.com/uefachampionsleague/news/01b0-0ea833082f67-b6e66cfc72fa-1000--liverpool-expect-tough-challenge/
+oppositionIds:
+  - benfica
+locationIds:
+  - estadio-da-luz
 ---
 
 # Benfica 1–2 Liverpool: Hughes completes the recovery in Lisbon

@@ -1,17 +1,29 @@
 ---
-title: "Liverpool 0–0 West Ham United: the point that secured a tenth title"
-historicalEventDate: "1977-05-14"
-historicalPeriod: "14 May 1977 · First Division · Anfield"
-decade: "1970s"
-excerpt: "A goalless draw with West Ham took Liverpool beyond Manchester City's reach and confirmed a second successive League championship."
-slug: "liverpool-west-ham-1977-tenth-title"
-category: "match"
-articleType: "match"
-season: "1976-77"
-managerIds: ["bob-paisley"]
-competitionIds: ["first-division"]
-locationIds: ["anfield"]
-sources: ["https://www.lfchistory.net/games/976", "https://www.liverpoolfc.com/news/first-team/120373-lfc-120-milestone-moments", "https://www.soccerbase.com/matches/results.sd?date=1977-05-14", "https://www.lfchistory.net/games/978", "https://www.lfchistory.net/games/979"]
+title: 'Liverpool 0–0 West Ham United: the point that secured a tenth title'
+historicalEventDate: '1977-05-14'
+historicalPeriod: 14 May 1977 · First Division · Anfield
+decade: 1970s
+excerpt: >-
+  A goalless draw with West Ham took Liverpool beyond Manchester City's reach
+  and confirmed a second successive League championship.
+slug: liverpool-west-ham-1977-tenth-title
+category: match
+articleType: match
+season: 1976-77
+managerIds:
+  - bob-paisley
+competitionIds:
+  - first-division
+locationIds:
+  - anfield
+sources:
+  - 'https://www.lfchistory.net/games/976'
+  - 'https://www.liverpoolfc.com/news/first-team/120373-lfc-120-milestone-moments'
+  - 'https://www.soccerbase.com/matches/results.sd?date=1977-05-14'
+  - 'https://www.lfchistory.net/games/978'
+  - 'https://www.lfchistory.net/games/979'
+oppositionIds:
+  - west-ham-united
 ---
 
 # Liverpool 0–0 West Ham United: the point that secured a tenth title

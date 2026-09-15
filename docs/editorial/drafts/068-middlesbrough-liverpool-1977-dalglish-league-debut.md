@@ -1,22 +1,39 @@
 ---
-title: "Middlesbrough 1–1 Liverpool: Dalglish scores on his league debut"
-historicalEventDate: "1977-08-20"
-historicalPeriod: "20 August 1977 · First Division · Ayresome Park"
-decade: "1970s"
-excerpt: "Kenny Dalglish scored seven minutes into his first league appearance for Liverpool, but David Armstrong earned Middlesbrough a draw."
-slug: "middlesbrough-liverpool-1977-dalglish-league-debut"
-category: "match"
-articleType: "match"
-season: "1977-78"
-playerIds: ["kenny-dalglish", "terry-mcdermott"]
-managerIds: ["bob-paisley"]
-competitionIds: ["first-division"]
-sources: ["https://www.lfchistory.net/games/981", "https://www.liverpoolfc.com/news/first-team/277726-timeline-kenny-dalglish-s-liverpool-love-affair", "https://www.liverpoolfc.com/info/kenny-dalglish", "https://www.lfchistory.net/articles/500", "https://www.historical-lineups.com/wp-content/uploads/2012/12/1977-78-Week-1-10-1.pdf"]
+title: 'Middlesbrough 1–1 Liverpool: Dalglish scores on his league debut'
+historicalEventDate: '1977-08-20'
+historicalPeriod: 20 August 1977 · First Division · Ayresome Park
+decade: 1970s
+excerpt: >-
+  Kenny Dalglish scored seven minutes into his first league appearance for
+  Liverpool, but David Armstrong earned Middlesbrough a draw.
+slug: middlesbrough-liverpool-1977-dalglish-league-debut
+category: match
+articleType: match
+season: 1977-78
+playerIds:
+  - kenny-dalglish
+  - terry-mcdermott
+managerIds:
+  - bob-paisley
+competitionIds:
+  - first-division
+sources:
+  - 'https://www.lfchistory.net/games/981'
+  - >-
+    https://www.liverpoolfc.com/news/first-team/277726-timeline-kenny-dalglish-s-liverpool-love-affair
+  - 'https://www.liverpoolfc.com/info/kenny-dalglish'
+  - 'https://www.lfchistory.net/articles/500'
+  - >-
+    https://www.historical-lineups.com/wp-content/uploads/2012/12/1977-78-Week-1-10-1.pdf
+oppositionIds:
+  - middlesbrough
+locationIds:
+  - ayresome-park
 ---
 
 # Middlesbrough 1–1 Liverpool: Dalglish scores on his league debut
 
-Kenny Dalglish needed seven minutes to score his first Liverpool goal. On 20 August 1977, the new signing from Celtic put Bob Paisley's side ahead at Middlesbrough in the opening league match of the season. David Armstrong's equaliser after half-time left Liverpool with a 1–1 draw at Ayresome Park.
+Kenny Dalglish scored seven minutes into his league debut for Liverpool. On 20 August 1977, the new signing from Celtic put Bob Paisley's side ahead at Middlesbrough in the opening league match of the season. David Armstrong's equaliser after half-time left Liverpool with a 1–1 draw at Ayresome Park.
 
 Dalglish had joined for £440,000 that summer. His first Liverpool appearance had already come at Wembley on 13 August, in the goalless Charity Shield against Manchester United. Middlesbrough was his league debut, and the first opportunity to help defend the championship Liverpool had won alongside the European Cup.
 

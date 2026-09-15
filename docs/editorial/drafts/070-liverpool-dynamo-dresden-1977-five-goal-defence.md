@@ -1,18 +1,38 @@
 ---
-title: "Liverpool 5–1 Dynamo Dresden: a five-goal start to the defence"
-historicalEventDate: "1977-10-19"
-historicalPeriod: "19 October 1977 · European Cup second round first leg · Anfield"
-decade: "1970s"
-excerpt: "Alan Hansen scored his first Liverpool goal and Jimmy Case struck twice as the European champions opened their defence with a 5–1 victory."
-slug: "liverpool-dynamo-dresden-1977-five-goal-defence"
-category: "match"
-articleType: "match"
-season: "1977-78"
-playerIds: ["alan-hansen", "jimmy-case", "john-toshack", "phil-neal", "ray-kennedy"]
-managerIds: ["bob-paisley"]
-competitionIds: ["european-cup"]
-locationIds: ["anfield"]
-sources: ["https://www.lfchistory.net/games/993", "https://datencenter.dfb.de/en/data-center/champions-league/1977-1978/round-of-sixteen/liverpool-fc-dynamo-dresden-648773", "https://www.liverpoolfc.com/news/first-team/215985-no-9-hansen-heads-home-as-five-star-reds-thrash-dresden", "https://www.lfchistory.net/articles/2436", "https://www.transfermarkt.us/fc-liverpool_sg-dynamo-dresden/index/spielbericht/1090466"]
+title: 'Liverpool 5–1 Dynamo Dresden: a five-goal start to the defence'
+historicalEventDate: '1977-10-19'
+historicalPeriod: 19 October 1977 · European Cup second round first leg · Anfield
+decade: 1970s
+excerpt: >-
+  Alan Hansen scored his first Liverpool goal and Jimmy Case struck twice as the
+  European champions opened their defence with a 5–1 victory.
+slug: liverpool-dynamo-dresden-1977-five-goal-defence
+category: match
+articleType: match
+season: 1977-78
+playerIds:
+  - alan-hansen
+  - jimmy-case
+  - john-toshack
+  - phil-neal
+  - ray-kennedy
+managerIds:
+  - bob-paisley
+competitionIds:
+  - european-cup
+locationIds:
+  - anfield
+sources:
+  - 'https://www.lfchistory.net/games/993'
+  - >-
+    https://datencenter.dfb.de/en/data-center/champions-league/1977-1978/round-of-sixteen/liverpool-fc-dynamo-dresden-648773
+  - >-
+    https://www.liverpoolfc.com/news/first-team/215985-no-9-hansen-heads-home-as-five-star-reds-thrash-dresden
+  - 'https://www.lfchistory.net/articles/2436'
+  - >-
+    https://www.transfermarkt.us/fc-liverpool_sg-dynamo-dresden/index/spielbericht/1090466
+oppositionIds:
+  - dynamo-dresden
 ---
 
 # Liverpool 5–1 Dynamo Dresden: a five-goal start to the defence
