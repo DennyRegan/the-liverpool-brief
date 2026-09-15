@@ -2328,5 +2328,10 @@
     "id": "wimbledon",
     "label": "Wimbledon",
     "kind": "opposition"
+  },
+  {
+    "id": "swansea-city",
+    "label": "Swansea City",
+    "kind": "opposition"
   }
 ]
