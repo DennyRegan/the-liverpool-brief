@@ -31,7 +31,7 @@ Houghton supplied the goal that restored Liverpool’s lead after fifty-eight mi
 - [LFChistory — match record](https://www.lfchistory.net/games/1686)
 - [11v11 — independent semi-final record](https://www.11v11.com/matches/liverpool-v-nottingham-forest-07-may-1989-216103/)
 - [The Times — contemporary report](https://www.lfchistory.net/images/newspapers/riley/19890507vnottmf.pdf)
-- [David Marples, The Squall — Four Days of Misery, pages26–27](https://theblizzard.co.uk/wp-content/uploads/2021/01/Squall-Issue-1-8mb.pdf)
+- [David Marples, The Squall — Four Days of Misery, pages 26–27](https://theblizzard.co.uk/wp-content/uploads/2021/01/Squall-Issue-1-8mb.pdf)
 
 ## EDITOR NOTES
 
@@ -42,3 +42,5 @@ Confidence and scope: High — LF1686 complete record establishes date, Old Traf
 Final substantive-claim check: goal sequence and mechanics cross-checked between record, contemporary account and independent retrospective. Twenty-two days computed15April–7May. Contemporary within-four-minutes wording avoids3/4 minute conventions. Not called a normal replay of a completed draw. No claim football repaired grief, no adoption of the Times assertion players were fully recuperated, no speculative Forest motivation or bereaved-family wishes. No historical casualty figure transposed into present-day fact. Aldridge/Laws hair-ruffling incident and later feud excluded to keep this report focused; autobiographies themselves not consulted. No unverified unbeaten-run or season-goal total. Existing canonical metadata checked; no publication date.
 
 Group final self-review,15 September2026: substantive public claims rechecked against the retrieved sources and independent corroboration described above. Chronology, relative goal timings, season identity and source word allowances checked; repetitive closing material removed where appropriate. No shared calendar, public content or git edits. Stable for independent review.
+
+Independent publication review, 15 September 2026 — actual model `gpt-6-astra`, reviewer `/root/astra_c`: Fresh full contemporary Times transcription, independent 11v11 match record and David Marples’s Squall pages 26–27 checked. Date, venue, abandoned original tie, scorer sequence, both headed goals and Beardsley/Laws own goal pass. Houghton opening-cross collision and pre-interval woodwork remain contemporary-report details, accurately scoped. No factual correction; corrected spacing in source label. Public derivative word allowances checked, with overlapping compilations counted together; no direct quotations or footage claims. Chronology and source precision reviewed. Metadata IDs and YAML checked. Stable for coordinator.
