@@ -462,19 +462,19 @@
       "historicalEventDate": "2009-09-26",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "approved",
+      "status": "published",
       "owner": "GPT-6 Astra — /root/astra_research_writer",
       "claim": null,
       "eventPath": "content/this-week/liverpool/2009-09-26-torres-hull-hat-trick.md",
       "draftPath": "docs/editorial/drafts/torres-babel-six-goals-hull-2009.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/torres-babel-six-goals-hull-2009",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T05:33:55.402102Z",
         "evidence": "Denny: “Commit and make live” after reading the complete 26 September Torres/Hull draft in this conversation. Approval applies only to this article."
       },
-      "notes": "Source-verified Astra factual draft saved for Denny’s review; not published or approved. Publication date must be set on approval. Source audit and optional metadata gaps: docs/editorial/drafts/torres-babel-six-goals-hull-2009-editor-notes.md. Publication approved 15 September 2026; approved prose preserved, publication date set to 2026-09-15. Awaiting production verification.",
+      "notes": "Source-verified factual report by GPT-6 Astra. Denny approved publication on 15 September 2026 after reviewing the complete draft. Prose and original source list preserved; publication date 2026-09-15. Production deployment dpl_BXgdekx66yvzwbmviWxBMeiuxY5g verified READY and canonical article returned HTTP 200 with title and sources. History/Matches, Season 2009-10 and 26 September automatic article association validated. Source audit: docs/editorial/drafts/torres-babel-six-goals-hull-2009-editor-notes.md.",
       "evidence": [
         {
           "location": "content/this-week/liverpool/2009-09-26-torres-hull-hat-trick.md",
