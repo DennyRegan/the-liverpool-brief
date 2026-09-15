@@ -924,27 +924,28 @@
       "historicalEventDate": "1972-12-13",
       "featuredWeek": "2026-12-07",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_batch_017_031",
-      "claim": {
-        "token": "classic-017-031-20260915-020",
-        "claimedAt": "2026-09-15T08:49:16Z",
-        "baseCommit": "276d280e041352a3f64bb2dc787ef73d31124624"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/020-liverpool-dynamo-berlin-1972-uefa-cup.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval.",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft.",
       "evidence": [
         {
           "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
           "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "location": "docs/editorial/drafts/020-liverpool-dynamo-berlin-1972-uefa-cup.md",
+          "confidence": "high",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1973-03-03-classic-021",
@@ -1038,27 +1039,28 @@
       "historicalEventDate": "1973-04-25",
       "featuredWeek": "2026-04-20",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_batch_022_026",
-      "claim": {
-        "token": "classic-017-031-20260915-024",
-        "claimedAt": "2026-09-15T08:49:16Z",
-        "baseCommit": "276d280e041352a3f64bb2dc787ef73d31124624"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/024-tottenham-liverpool-1973-heighway-away-goal.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval.",
+      "notes": "Denny commissioned next classic-match batch 017–031 on 15 September 2026; draft only. Annual date association, not a replacement for existing weekly selections. Explicit next-batch drafting request received; no publication approval. Completed source-checked factual draft saved for Denny's review; no publication approval. Full evidence/conflict notes are in the draft.",
       "evidence": [
         {
           "location": "libfile_83ca75659d5881919e65e85c2aba4921",
           "confidence": "unverified",
           "scope": "Longlist proposal; independent historical research required."
+        },
+        {
+          "location": "docs/editorial/drafts/024-tottenham-liverpool-1973-heighway-away-goal.md",
+          "confidence": "high",
+          "scope": "Completed Astra draft with retrieved-source scope, conflicts and exclusions in private editor notes; not approved for publication."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1973-05-10-classic-025",
