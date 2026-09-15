@@ -84,7 +84,7 @@
       "featuredWeek": "2026-09-14",
       "historicalEventDate": "1986-09-16",
       "id": "1986-09-16-classic-163",
-      "notes": "Preserved classic-match longlist 163; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Preserved classic-match longlist 163; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "publishedDestination": null,
@@ -552,7 +552,7 @@
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "1985-09-28",
       "id": "1985-09-28-classic-153",
-      "notes": "Preserved classic-match longlist 153; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Preserved classic-match longlist 153; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "publishedDestination": null,
@@ -752,7 +752,7 @@
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "1986-09-30",
       "id": "1986-09-30-classic-165",
-      "notes": "Preserved classic-match longlist 165; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Preserved classic-match longlist 165; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "publishedDestination": null,
@@ -5675,7 +5675,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5708,7 +5708,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5741,7 +5741,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5774,7 +5774,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5807,7 +5807,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5840,7 +5840,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5873,7 +5873,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5906,7 +5906,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5939,7 +5939,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5972,7 +5972,7 @@
         "recordedAt": "2026-09-15T14:24:10.951Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 152–166 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5993,15 +5993,11 @@
       "historicalEventDate": "1987-02-14",
       "featuredWeek": "2026-02-09",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-167",
-        "claimedAt": "2026-09-15T14:34:56.072Z",
-        "baseCommit": "29ce25375e10d7695f0863b1c714e036e4fa9456"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/167-liverpool-leicester-1987-rush-hat-trick.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -6009,15 +6005,20 @@
         "recordedAt": "2026-09-15T14:34:56.072Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 167–181 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/167-liverpool-leicester-1987-rush-hat-trick.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1987-04-05-classic-168",
@@ -6153,15 +6154,11 @@
       "historicalEventDate": "1987-11-01",
       "featuredWeek": "2026-10-26",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-172",
-        "claimedAt": "2026-09-15T14:34:56.072Z",
-        "baseCommit": "29ce25375e10d7695f0863b1c714e036e4fa9456"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/172-liverpool-everton-1987-barnes-creates-derby-win.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -6169,15 +6166,20 @@
         "recordedAt": "2026-09-15T14:34:56.072Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 167–181 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/172-liverpool-everton-1987-barnes-creates-derby-win.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1987-12-28-classic-173",
@@ -6185,15 +6187,11 @@
       "historicalEventDate": "1987-12-28",
       "featuredWeek": "2026-12-28",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-173",
-        "claimedAt": "2026-09-15T14:34:56.072Z",
-        "baseCommit": "29ce25375e10d7695f0863b1c714e036e4fa9456"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/173-liverpool-newcastle-1987-aldridge-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -6201,15 +6199,20 @@
         "recordedAt": "2026-09-15T14:34:56.072Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 167–181 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/173-liverpool-newcastle-1987-aldridge-double.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1988-01-01-classic-174",
@@ -6217,15 +6220,11 @@
       "historicalEventDate": "1988-01-01",
       "featuredWeek": "2025-12-29",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-174",
-        "claimedAt": "2026-09-15T14:34:56.072Z",
-        "baseCommit": "29ce25375e10d7695f0863b1c714e036e4fa9456"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/174-liverpool-coventry-1988-beardsley-new-year-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -6233,15 +6232,20 @@
         "recordedAt": "2026-09-15T14:34:56.072Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 167–181 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/174-liverpool-coventry-1988-beardsley-new-year-double.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1988-02-21-classic-175",
@@ -6249,15 +6253,11 @@
       "historicalEventDate": "1988-02-21",
       "featuredWeek": "2026-02-16",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-175",
-        "claimedAt": "2026-09-15T14:34:56.072Z",
-        "baseCommit": "29ce25375e10d7695f0863b1c714e036e4fa9456"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/175-everton-liverpool-1988-houghton-cup-header.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -6265,15 +6265,20 @@
         "recordedAt": "2026-09-15T14:34:56.072Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 167–181 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/175-everton-liverpool-1988-houghton-cup-header.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1988-03-20-classic-176",
@@ -6346,15 +6351,11 @@
       "historicalEventDate": "1988-04-09",
       "featuredWeek": "2026-04-06",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-178",
-        "claimedAt": "2026-09-15T14:34:56.072Z",
-        "baseCommit": "29ce25375e10d7695f0863b1c714e036e4fa9456"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/178-liverpool-nottingham-forest-1988-aldridge-semi-final-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -6362,15 +6363,20 @@
         "recordedAt": "2026-09-15T14:34:56.072Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 167–181 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/178-liverpool-nottingham-forest-1988-aldridge-semi-final-double.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1988-04-13-classic-179",
@@ -6378,15 +6384,11 @@
       "historicalEventDate": "1988-04-13",
       "featuredWeek": "2026-04-13",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-179",
-        "claimedAt": "2026-09-15T14:34:56.072Z",
-        "baseCommit": "29ce25375e10d7695f0863b1c714e036e4fa9456"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/179-liverpool-nottingham-forest-1988-five-at-anfield.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -6394,15 +6396,20 @@
         "recordedAt": "2026-09-15T14:34:56.072Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 167–181 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/179-liverpool-nottingham-forest-1988-five-at-anfield.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1988-05-14-classic-180",
@@ -6410,15 +6417,11 @@
       "historicalEventDate": "1988-05-14",
       "featuredWeek": "2026-05-11",
       "selection": "alternative",
-      "status": "writing",
+      "status": "approved",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "claim": {
-        "token": "01a0a524-classic-180",
-        "claimedAt": "2026-09-15T14:34:56.072Z",
-        "baseCommit": "29ce25375e10d7695f0863b1c714e036e4fa9456"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/180-liverpool-wimbledon-1988-fa-cup-final-defeat.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": {
@@ -6426,15 +6429,20 @@
         "recordedAt": "2026-09-15T14:34:56.072Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 167–181 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
           "confidence": "unverified",
           "scope": "Longlist provenance only; fresh factual verification required."
+        },
+        {
+          "location": "docs/editorial/drafts/180-liverpool-wimbledon-1988-fa-cup-final-defeat.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1988-08-20-classic-181",
@@ -6508,7 +6516,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T14:43:18.633Z",
+  "updatedAt": "2026-09-15T14:47:22.016Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
