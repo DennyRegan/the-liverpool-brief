@@ -3,7 +3,9 @@ title: 'Liverpool 1–0 Real Madrid: Alan Kennedy wins the third European Cup'
 historicalEventDate: '1981-05-27'
 historicalPeriod: '27 May 1981 · European Cup final · Parc des Princes, Paris'
 decade: 1980s
-excerpt: 'Alan Kennedy’s late goal settled the Paris final and brought Liverpool their third European Cup under Bob Paisley.'
+excerpt: >-
+  Alan Kennedy’s late goal settled the Paris final and brought Liverpool their
+  third European Cup under Bob Paisley.
 slug: liverpool-real-madrid-1981-third-european-cup
 category: match
 articleType: match
@@ -18,11 +20,18 @@ managerIds:
 competitionIds:
   - european-cup
 sources:
-  - https://www.lfchistory.net/games/1218
-  - https://www.uefa.com/uefachampionsleague/news/0089-0e6a09dbb4da-9dc4666bbc2c-1000--1980-81-paisley-in-a-class-of-his-own/
-  - https://www.lfcineurope.com/8081-5RPM.html
-  - https://www.liverpoolfc.com/news/first-team/281807-1-liverpool-1-0-real-madrid-paris-may-1981
-  - https://www.liverpoolfc.com/news/first-team/185869-kennedy-i-ll-be-forever-grateful-to-bob
+  - 'https://www.lfchistory.net/games/1218'
+  - >-
+    https://www.uefa.com/uefachampionsleague/news/0089-0e6a09dbb4da-9dc4666bbc2c-1000--1980-81-paisley-in-a-class-of-his-own/
+  - 'https://www.lfcineurope.com/8081-5RPM.html'
+  - >-
+    https://www.liverpoolfc.com/news/first-team/281807-1-liverpool-1-0-real-madrid-paris-may-1981
+  - >-
+    https://www.liverpoolfc.com/news/first-team/185869-kennedy-i-ll-be-forever-grateful-to-bob
+oppositionIds:
+  - real-madrid
+locationIds:
+  - parc-des-princes
 ---
 
 # Liverpool 1–0 Real Madrid: Alan Kennedy wins the third European Cup

@@ -3,7 +3,9 @@ title: 'Bayern Munich 1–1 Liverpool: Ray Kennedy takes Liverpool to Paris'
 historicalEventDate: '1981-04-22'
 historicalPeriod: '22 April 1981 · European Cup semi-final, second leg · Olympic Stadium, Munich'
 decade: 1980s
-excerpt: 'Ray Kennedy’s late away goal took an injury-hit Liverpool through to the European Cup final despite Bayern’s equaliser.'
+excerpt: >-
+  Ray Kennedy’s late away goal took an injury-hit Liverpool through to the
+  European Cup final despite Bayern’s equaliser.
 slug: bayern-liverpool-1981-ray-kennedy-away-goal
 category: match
 articleType: match
@@ -22,11 +24,16 @@ oppositionIds:
 competitionIds:
   - european-cup
 sources:
-  - https://www.lfchistory.net/games/1213
-  - https://datencenter.dfb.de/datencenter/champions-league/1980-1981/2/bayern-muenchen-fc-liverpool-648619
-  - https://www.11v11.com/matches/bayern-m%C3%BCnchen-v-liverpool-22-april-1981-219415/
-  - https://www.lfcineurope.com/8081-4RPM.html
-  - https://www.theanfieldwrap.com/2016/10/liverpool-howard-gayles-61-minutes-in-munich-first-it-was-sweet-then-it-was-bitter/
+  - 'https://www.lfchistory.net/games/1213'
+  - >-
+    https://datencenter.dfb.de/datencenter/champions-league/1980-1981/2/bayern-muenchen-fc-liverpool-648619
+  - >-
+    https://www.11v11.com/matches/bayern-m%C3%BCnchen-v-liverpool-22-april-1981-219415/
+  - 'https://www.lfcineurope.com/8081-4RPM.html'
+  - >-
+    https://www.theanfieldwrap.com/2016/10/liverpool-howard-gayles-61-minutes-in-munich-first-it-was-sweet-then-it-was-bitter/
+locationIds:
+  - olympic-stadium-munich
 ---
 
 # Bayern Munich 1–1 Liverpool: Ray Kennedy takes Liverpool to Paris

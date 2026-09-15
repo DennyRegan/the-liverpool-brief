@@ -1,18 +1,33 @@
 ---
-title: "Flamengo 3–0 Liverpool: Zico directs the Tokyo defeat"
-historicalEventDate: "1981-12-13"
-historicalPeriod: "13 December 1981 · Intercontinental Cup · National Stadium, Tokyo"
-decade: "1980s"
-excerpt: "Two goals from Nunes and one from Adílio settled the Intercontinental Cup before half-time, with Zico creating all three."
-slug: "flamengo-liverpool-1981-tokyo-defeat"
-category: "match"
-articleType: "match"
-season: "1981-82"
-playerIds: ["bruce-grobbelaar", "craig-johnston", "phil-thompson"]
-managerIds: ["bob-paisley"]
-oppositionIds: []
-competitionIds: ["intercontinental-cup"]
-sources: ["https://www.lfcineurope.com/8182-ESA.html", "https://www.11v11.com/matches/flamengo-v-liverpool-13-december-1981-220967/", "https://www.lfcineurope.com/8182-ESARPM.html", "https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/articles/zico-flamengo-determination-love-passion"]
+title: 'Flamengo 3–0 Liverpool: Zico directs the Tokyo defeat'
+historicalEventDate: '1981-12-13'
+historicalPeriod: '13 December 1981 · Intercontinental Cup · National Stadium, Tokyo'
+decade: 1980s
+excerpt: >-
+  Two goals from Nunes and one from Adílio settled the Intercontinental Cup
+  before half-time, with Zico creating all three.
+slug: flamengo-liverpool-1981-tokyo-defeat
+category: match
+articleType: match
+season: 1981-82
+playerIds:
+  - bruce-grobbelaar
+  - craig-johnston
+  - phil-thompson
+managerIds:
+  - bob-paisley
+oppositionIds:
+  - flamengo
+competitionIds:
+  - intercontinental-cup
+sources:
+  - 'https://www.lfcineurope.com/8182-ESA.html'
+  - 'https://www.11v11.com/matches/flamengo-v-liverpool-13-december-1981-220967/'
+  - 'https://www.lfcineurope.com/8182-ESARPM.html'
+  - >-
+    https://www.fifa.com/en/tournaments/mens/club-world-cup/usa-2025/articles/zico-flamengo-determination-love-passion
+locationIds:
+  - national-stadium-tokyo
 ---
 
 # Flamengo 3–0 Liverpool: Zico directs the Tokyo defeat
