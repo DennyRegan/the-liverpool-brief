@@ -6962,7 +6962,7 @@
         "recordedAt": "2026-09-15T14:54:08.576Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 197–199 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR41, commit ef25002b61c23f1b86bad0ba644f1caa21cc4f79. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -6995,7 +6995,7 @@
         "recordedAt": "2026-09-15T14:54:08.576Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 197–199 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR41, commit ef25002b61c23f1b86bad0ba644f1caa21cc4f79. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -7028,7 +7028,7 @@
         "recordedAt": "2026-09-15T14:54:08.576Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 197–199 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR41, commit ef25002b61c23f1b86bad0ba644f1caa21cc4f79. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -7419,7 +7419,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T15:20:10.819Z",
+  "updatedAt": "2026-09-15T15:22:20.704Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
