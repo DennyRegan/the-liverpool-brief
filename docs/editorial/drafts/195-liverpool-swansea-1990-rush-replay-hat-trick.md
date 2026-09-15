@@ -26,7 +26,7 @@ Both teams kept the same starting line-ups at Anfield, but Swansea’s resistanc
 
 Rush and Peter Beardsley scored in quick succession early in the second half. Two further Rush goals completed his hat-trick before Steve Nicol made it eight with four minutes remaining.
 
-Liverpool had turned a scoreless first meeting into a victory shared between five scorers. Norwich City were their next opponents in the competition.
+Norwich City were Liverpool’s next opponents in the competition.
 
 ## Sources
 
@@ -45,3 +45,5 @@ High confidence records: full indexed LF1719/1718 establish both dates, venues, 
 Medium-high confidence retrospective evidence: complete Neil Moxley three-player interview reproduction LF3909 retrieved in indexed text. It independently lists scorers/times and records Bracey’s first-person recollection of Melville clearance and Walker crossbar; explicitly identified publicly as2011 recollection. Contemporary reports linked by the match archive could not be retrieved or located in indexed search, so no pretence of contemporary reconstruction of goal mechanics. Attempted public-page fallback returned403. No source is listed merely because it was linked. Public derivation from interview substantially below200words, no direct quotation; LF record derivation below200.
 
 Omissions: no invented assists/shot types, atmosphere or tactical explanations. Bracey’s financial insecurity and Curtis’s remembered exchange with Rush omitted; unnecessary to the short account. No unsourced biggest-ever claim (Newtown9–0 exists), future title prediction or footage-viewing claim. A deliberately brief report reflects evidence limitations. Final claim-by-claim review complete; YAML parsed. Coordinator should confirm Swansea entity ID in current registry.
+
+Independent review,15 September2026 — actual model `gpt-6-astra`, reviewer `/root/astra_b`: Fresh Moxley interview reproduction, official Swansea history and both LF match records checked. Starting elevens compared directly: unchanged for both clubs. Scorer/timing sequence,3–0 interval and second-half hat-trick agree with the independent interview box. Retrospective first-match recollection remains clearly attributed; lack of contemporary goal reconstruction accurately disclosed. Removed redundant concluding score/scorer summary. Source word allowances reviewed; no footage viewed. Stable.
