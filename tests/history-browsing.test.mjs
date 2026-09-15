@@ -7,6 +7,21 @@ import { getArchiveFeatures, getHistoryBrowseArticles } from '../lib/content/arc
 
 test('only approved reports enter Matches; existing player articles wait for review', () => {
   assert.deepEqual(getHistoryBrowseArticles('matches').map(a => a.slug).sort(), [
+    'liverpool-everton-1972-cormack-winner',
+    'liverpool-newcastle-1972-five-goal-win',
+    'liverpool-birmingham-1972-comeback',
+    'liverpool-dynamo-berlin-1972-uefa-cup',
+    'everton-liverpool-1973-hughes-double',
+    'liverpool-tottenham-1973-lindsay-semi-final',
+    'liverpool-leeds-1973-cormack-keegan',
+    'tottenham-liverpool-1973-heighway-away-goal',
+    'liverpool-gladbach-1973-keegan-toshack-final',
+    'gladbach-liverpool-1973-first-european-trophy',
+    'red-star-liverpool-1973-lawler-away-goal',
+    'arsenal-liverpool-1973-first-away-win',
+    'liverpool-red-star-1973-european-lesson',
+    'everton-liverpool-1973-alan-waddle',
+    'liverpool-manchester-united-1973-ten-home-wins',
     'alonso-own-half-newcastle-2006',
     'anfield-first-european-match-reykjavik-1964',
     'forshaw-hat-trick-manchester-united-1925',
