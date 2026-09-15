@@ -14,8 +14,7 @@ playerIds:
   - john-aldridge
   - john-barnes
   - ray-houghton
-managerIds:
-  - kenny-dalglish
+managerIds: []
 oppositionIds:
   - nottingham-forest
 competitionIds:

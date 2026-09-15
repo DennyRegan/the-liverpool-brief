@@ -10,14 +10,8 @@ slug: liverpool-arsenal-1988-aldridge-second-replay
 category: match
 articleType: match
 season: 1988-89
-playerIds:
-  - john-aldridge
-  - steve-mcmahon
-  - ray-houghton
-  - ian-rush
-  - peter-beardsley
-managerIds:
-  - kenny-dalglish
+playerIds: ["john-aldridge","steve-mcmahon","ray-houghton","ian-rush"]
+managerIds: []
 oppositionIds:
   - arsenal
 competitionIds:

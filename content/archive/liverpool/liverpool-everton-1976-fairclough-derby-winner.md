@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1975-76"
 playerIds: ["david-fairclough"]
-managerIds: ["bob-paisley"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

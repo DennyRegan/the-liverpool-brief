@@ -9,8 +9,8 @@ slug: "tottenham-liverpool-1973-heighway-away-goal"
 category: "match"
 articleType: "match"
 season: "1972-73"
-playerIds: ["steve-heighway", "kevin-keegan"]
-managerIds: ["bill-shankly"]
+playerIds: ["steve-heighway","martin-peters"]
+managerIds: []
 oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["uefa-cup"]
 locationIds: ["white-hart-lane"]

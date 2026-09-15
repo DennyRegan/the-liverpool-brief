@@ -10,14 +10,8 @@ slug: liverpool-coventry-1988-beardsley-new-year-double
 category: match
 articleType: match
 season: 1987-88
-playerIds:
-  - peter-beardsley
-  - john-aldridge
-  - ray-houghton
-  - john-barnes
-  - steve-nicol
-managerIds:
-  - kenny-dalglish
+playerIds: ["peter-beardsley","john-barnes"]
+managerIds: []
 oppositionIds:
   - coventry-city
 competitionIds:

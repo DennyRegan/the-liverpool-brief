@@ -8,11 +8,12 @@ slug: "liverpool-hibernian-1975-toshack-headers"
 category: "match"
 articleType: "match"
 season: "1975-76"
-playerIds: ["john-toshack", "kevin-keegan", "brian-hall", "ian-callaghan"]
-managerIds: ["bob-paisley"]
+playerIds: ["john-toshack"]
+managerIds: []
 competitionIds: ["uefa-cup"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/870", "https://www.liverpoolfc.com/news/features/414980-liverpool-s-20-european-hat-tricks", "https://www.besoccer.com/match/liverpool/hibernian-fc/19765105/events"]
+oppositionIds: ["hibernian"]
 ---
 
 # Liverpool 3–1 Hibernian: Toshack heads Liverpool through

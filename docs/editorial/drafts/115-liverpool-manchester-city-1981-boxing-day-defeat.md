@@ -8,7 +8,7 @@ slug: "liverpool-manchester-city-1981-boxing-day-defeat"
 category: "match"
 articleType: "match"
 season: "1981-82"
-playerIds: ["bruce-grobbelaar", "phil-thompson", "graeme-souness", "ronnie-whelan"]
+playerIds: ["bruce-grobbelaar","phil-thompson","graeme-souness"]
 managerIds: ["bob-paisley"]
 oppositionIds: ["manchester-city"]
 competitionIds: ["first-division"]

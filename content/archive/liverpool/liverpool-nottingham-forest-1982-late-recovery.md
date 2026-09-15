@@ -15,8 +15,7 @@ playerIds:
   - graeme-souness
   - ian-rush
   - kenny-dalglish
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - nottingham-forest
 competitionIds:

@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1974-75"
 playerIds: ["brian-hall", "john-toshack", "steve-heighway"]
-managerIds: ["bob-paisley"]
+managerIds: []
 oppositionIds: ["manchester-city"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

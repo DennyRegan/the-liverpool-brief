@@ -13,6 +13,8 @@ playerIds: ["john-toshack", "kevin-keegan"]
 managerIds: ["bob-paisley"]
 competitionIds: ["uefa-cup"]
 sources: ["https://www.lfchistory.net/games/908", "https://as.com/futbol/2019/04/30/champions/1556582770_274460.html", "https://www.liverpoolfc.com/news/five-memorable-anfield-encounters-against-spanish-opposition", "https://www.liverpoolfc.com/news/first-team/301343-4-wolves-1-3-liverpool-may-4-1976", "https://www.liverpoolfc.com/news/first-team/116465-lfc-buy-smith-s-memorabilia"]
+oppositionIds: ["barcelona"]
+locationIds: ["camp-nou"]
 ---
 
 # Barcelona 0–1 Liverpool: Toshack gives Paisley the advantage

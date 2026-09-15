@@ -15,6 +15,7 @@ season: "2004-05"
 slug: "liverpool-monaco-champions-league-2004"
 sources: ["https://www.uefa.com/uefachampionsleague/news/01a1-0ea6ec3ffa33-533a9eeb4482-1000--confident-liverpool-see-off-monaco/","https://www.anfield-online.co.uk/fixtures/2005/uefa/monacohome1509.html","https://www.lfchistory.net/opposition/teams/145"]
 title: "Cissé and Baroš give Liverpool a winning start against Monaco"
+oppositionIds: ["as-monaco"]
 ---
 
 Liverpool’s passing promised a comfortable evening. Their finishing kept Monaco in the match.

@@ -9,11 +9,12 @@ slug: "tottenham-liverpool-1974-shankly-final-league-match"
 category: "match"
 articleType: "match"
 season: "1973-74"
-playerIds: ["steve-heighway"]
+playerIds: ["steve-heighway","max-thompson"]
 managerIds: ["bill-shankly"]
 oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["first-division"]
 sources: ["https://www.lfchistory.net/games/805", "https://www.liverpoolfc.com/info/max-thompson", "https://www.liverpoolfc.com/news/bill-shanklys-final-season-1973-74-ends-silverware-wembley", "https://www.liverpoolfc.com/news/first-team/124678-our-10-youngest-players-ever", "https://www.lfchistory.net/managers/10"]
+locationIds: ["white-hart-lane"]
 ---
 
 # Tottenham Hotspur 1–1 Liverpool: Shankly's last league team

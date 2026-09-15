@@ -8,8 +8,8 @@ slug: "derby-liverpool-1976-keegan-comeback-winner"
 category: "match"
 articleType: "match"
 season: "1976-77"
-playerIds: ["kevin-keegan", "john-toshack", "ray-kennedy"]
-managerIds: ["bob-paisley"]
+playerIds: ["kevin-keegan","john-toshack"]
+managerIds: []
 oppositionIds: ["derby-county"]
 competitionIds: ["first-division"]
 locationIds: ["baseball-ground"]

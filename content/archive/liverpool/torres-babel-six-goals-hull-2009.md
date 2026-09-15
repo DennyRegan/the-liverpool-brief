@@ -10,10 +10,11 @@ category: "match"
 articleType: "match"
 editorialMode: "factual"
 season: "2009-10"
-playerIds: ["fernando-torres", "ryan-babel", "steven-gerrard"]
-managerIds: ["rafael-benitez"]
+playerIds: ["fernando-torres","ryan-babel"]
+managerIds: []
 competitionIds: ["premier-league"]
 locationIds: ["anfield"]
+oppositionIds: ["hull-city"]
 ---
 
 Fernando Torres scored three times and his replacement Ryan Babel twice as Liverpool beat Hull City 6–1 at Anfield on 26 September 2009. Steven Gerrard supplied the other goal in a victory that extended Liverpool’s winning run to six matches in all competitions.

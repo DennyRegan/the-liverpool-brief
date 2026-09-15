@@ -10,8 +10,8 @@ slug: "manchester-united-liverpool-1972-thompson-debut"
 category: "match"
 articleType: "match"
 season: "1971-72"
-playerIds: ["chris-lawler", "john-toshack", "emlyn-hughes", "phil-thompson"]
-managerIds: ["bill-shankly"]
+playerIds: ["phil-thompson"]
+managerIds: []
 oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["old-trafford"]

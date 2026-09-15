@@ -10,12 +10,8 @@ slug: liverpool-luton-1983-rush-five
 category: match
 articleType: match
 season: 1983-84
-playerIds:
-  - ian-rush
-  - steve-nicol
-  - kenny-dalglish
-managerIds:
-  - joe-fagan
+playerIds: ["ian-rush"]
+managerIds: []
 oppositionIds:
   - luton-town
 competitionIds:

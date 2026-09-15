@@ -10,12 +10,8 @@ slug: liverpool-walsall-1984-semi-final-draw
 category: match
 articleType: match
 season: 1983-84
-playerIds:
-  - ronnie-whelan
-  - phil-neal
-  - gary-gillespie
-managerIds:
-  - joe-fagan
+playerIds: ["ronnie-whelan","phil-neal"]
+managerIds: []
 competitionIds:
   - league-cup
 locationIds:

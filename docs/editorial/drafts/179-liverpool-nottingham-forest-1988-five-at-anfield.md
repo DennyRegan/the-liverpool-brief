@@ -8,12 +8,13 @@ slug: "liverpool-nottingham-forest-1988-five-at-anfield"
 category: "match"
 articleType: "match"
 season: "1987-88"
-playerIds: ["john-aldridge", "john-barnes", "peter-beardsley", "ray-houghton", "gary-gillespie"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["john-aldridge","john-barnes","peter-beardsley","ray-houghton"]
+managerIds: []
 oppositionIds: ["nottingham-forest"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/1632", "https://www.11v11.com/matches/liverpool-v-nottingham-forest-13-april-1988-88929/", "https://www.lfchistory.net/images/newspapers/riley/19880413vnottmf.pdf", "https://www.lfchistory.net/articles/439", "https://www.lfchistory.net/articles/706", "https://www.liverpoolfc.com/news/classic-match-dalglishs-reds-peak-perfect-anfield-performance"]
+themeIds: ["attacking-football"]
 ---
 
 # Liverpool 5–0 Nottingham Forest: five goals at Anfield

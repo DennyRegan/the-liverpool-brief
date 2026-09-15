@@ -8,8 +8,8 @@ slug: "liverpool-ipswich-1975-toshack-double"
 category: "match"
 articleType: "match"
 season: "1974-75"
-playerIds: ["john-toshack", "kevin-keegan", "brian-hall", "alec-lindsay", "peter-cormack"]
-managerIds: ["bob-paisley"]
+playerIds: ["john-toshack","kevin-keegan"]
+managerIds: []
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/843", "https://www.prideofanglia.com/page.php?page=seasons&text=1974-75", "https://www.prideofanglia.com/page.php?day=25&level=1&month=1&page=matchReport&sequence=0&year=1975", "https://www.lfchistory.net/season-archive/games/16"]

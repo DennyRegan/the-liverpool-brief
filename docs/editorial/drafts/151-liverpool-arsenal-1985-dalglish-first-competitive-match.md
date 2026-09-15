@@ -8,7 +8,7 @@ slug: "liverpool-arsenal-1985-dalglish-first-competitive-match"
 category: "match"
 articleType: "match"
 season: "1985-86"
-playerIds: ["kenny-dalglish", "ronnie-whelan", "steve-nicol", "jan-molby"]
+playerIds: ["kenny-dalglish","ronnie-whelan","steve-nicol"]
 managerIds: ["kenny-dalglish"]
 oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]

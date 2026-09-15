@@ -10,12 +10,8 @@ slug: liverpool-nottingham-forest-1978-european-cup-exit
 category: match
 articleType: match
 season: 1978-79
-playerIds:
-  - kenny-dalglish
-  - david-fairclough
-  - david-johnson
-managerIds:
-  - bob-paisley
+playerIds: ["kenny-dalglish"]
+managerIds: []
 oppositionIds:
   - nottingham-forest
 competitionIds:

@@ -10,12 +10,8 @@ slug: flamengo-liverpool-1981-tokyo-defeat
 category: match
 articleType: match
 season: 1981-82
-playerIds:
-  - bruce-grobbelaar
-  - craig-johnston
-  - phil-thompson
-managerIds:
-  - bob-paisley
+playerIds: ["bruce-grobbelaar"]
+managerIds: []
 oppositionIds:
   - flamengo
 competitionIds:

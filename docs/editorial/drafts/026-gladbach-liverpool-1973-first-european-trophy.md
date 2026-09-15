@@ -9,10 +9,12 @@ slug: "gladbach-liverpool-1973-first-european-trophy"
 category: "match"
 articleType: "match"
 season: "1972-73"
-playerIds: ["tommy-smith", "ray-clemence"]
+playerIds: ["tommy-smith","ray-clemence","jupp-heynckes"]
 managerIds: ["bill-shankly"]
 competitionIds: ["uefa-cup", "first-division"]
 sources: ["https://www.lfchistory.net/games/744", "https://www.uefa.com/uefaeuropaleague/news/002a-0e6a06a1e886-d331006e4a96-1000--1972-73-reds-reach-european-goal/", "https://www.liverpoolfc.com/news/50-years-ago-today-shanklys-reds-clinch-clubs-first-european-trophy", "https://www.lfchistory.net/articles/2870", "https://www.liverpoolfc.com/members/news/germany?amp=1", "https://www.liverpoolfc.com/news/five-more-stories-shanklys-second-coming-documentary?amp=1"]
+oppositionIds: ["borussia-monchengladbach"]
+locationIds: ["bokelbergstadion"]
 ---
 
 # Borussia Mönchengladbach 2–0 Liverpool: a defeat that delivered a European first

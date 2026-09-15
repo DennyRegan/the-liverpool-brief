@@ -10,7 +10,7 @@ category: "match"
 articleType: "match"
 season: "1974-75"
 historyEras: ["bill-shankly", "bob-paisley"]
-managerIds: ["bill-shankly", "bob-paisley"]
+managerIds: ["bill-shankly"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/friendly-games/8064", "https://www.lfchistory.net/articles/2522", "https://www.liverpoolfc.com/news/features/374163-in-numbers-bill-shankly-s-liverpool-reign", "https://www.lfchistory.net/season-archive/games/16"]
 ---

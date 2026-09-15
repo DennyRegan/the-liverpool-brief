@@ -13,8 +13,7 @@ season: 1984-85
 playerIds:
   - ronnie-whelan
   - paul-walsh
-managerIds:
-  - joe-fagan
+managerIds: []
 oppositionIds:
   - manchester-united
 competitionIds:

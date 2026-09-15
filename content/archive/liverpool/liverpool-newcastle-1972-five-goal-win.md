@@ -7,7 +7,7 @@ excerpt: "Liverpool recovered from defeat at Old Trafford with a five-goal victo
 historicalEventDate: "1972-11-18"
 historicalPeriod: "18 November 1972 · First Division · Anfield"
 locationIds: ["anfield"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["newcastle-united"]
 playerIds: ["john-toshack","peter-cormack","alec-lindsay","tommy-smith"]
 season: "1972-73"

@@ -10,13 +10,8 @@ slug: liverpool-qpr-1990-eighteenth-title
 category: match
 articleType: match
 season: 1989-90
-playerIds:
-  - ian-rush
-  - john-barnes
-  - steve-nicol
-  - alan-hansen
-managerIds:
-  - kenny-dalglish
+playerIds: ["ian-rush","john-barnes","alan-hansen"]
+managerIds: []
 oppositionIds:
   - queens-park-rangers
 competitionIds:

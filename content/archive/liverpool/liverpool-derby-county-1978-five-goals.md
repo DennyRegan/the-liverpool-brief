@@ -14,8 +14,7 @@ playerIds:
   - ray-kennedy
   - kenny-dalglish
   - david-johnson
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - derby-county
 competitionIds:

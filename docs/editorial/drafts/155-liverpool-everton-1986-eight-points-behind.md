@@ -8,8 +8,8 @@ slug: "liverpool-everton-1986-eight-points-behind"
 category: "match"
 articleType: "match"
 season: "1985-86"
-playerIds: ["bruce-grobbelaar", "jan-molby", "ian-rush"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["bruce-grobbelaar","ian-rush"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

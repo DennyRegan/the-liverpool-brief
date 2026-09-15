@@ -8,12 +8,14 @@ editorialMode: "factual"
 excerpt: "Jordan Henderson’s long-range strike gave Liverpool a two-goal lead at Stamford Bridge, and they held off Chelsea’s response to win 2–1."
 historicalEventDate: "2016-09-16"
 historicalPeriod: "16 September 2016"
-managerIds: ["jurgen-klopp"]
+managerIds: []
 playerIds: ["jordan-henderson","dejan-lovren"]
 season: "2016-17"
 slug: "henderson-chelsea-winner-2016"
 sources: ["https://www.skysports.com/football/news/11661/10580845/chelsea-1-2-liverpool-jordan-henderson-stunner-ends-antonio-contes-run","https://www.liverpoolfc.com/news/first-team/236143-i-had-a-good-feeling-going-into-the-game-and-we-produced","https://www.liverpoolfc.com/news/first-team/236066-photos-lovren-and-henderson-strike-as-liverpool-beat-chelsea","https://www.lfchistory.net/games/5557"]
 title: "Henderson’s curling finish crowns Liverpool’s win at Chelsea"
+oppositionIds: ["chelsea"]
+locationIds: ["stamford-bridge"]
 ---
 
 Jordan Henderson took a touch and bent the ball beyond Thibaut Courtois.

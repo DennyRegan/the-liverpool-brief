@@ -14,8 +14,7 @@ playerIds:
   - bruce-grobbelaar
   - craig-johnston
   - john-barnes
-managerIds:
-  - kenny-dalglish
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

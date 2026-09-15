@@ -10,16 +10,11 @@ slug: liverpool-nottingham-forest-1978-wembley-draw
 category: match
 articleType: match
 season: 1977-78
-playerIds:
-  - terry-mcdermott
-  - david-fairclough
-managerIds:
-  - bob-paisley
+playerIds: ["chris-woods"]
+managerIds: []
 competitionIds:
   - league-cup
-locationIds:
-  - wembley
-  - old-trafford
+locationIds: ["wembley"]
 sources:
   - 'https://www.lfchistory.net/games/1021'
   - 'https://www.rsssf.org/tablese/engleagcuphistfinal.html'

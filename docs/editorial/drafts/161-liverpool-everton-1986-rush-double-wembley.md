@@ -8,7 +8,7 @@ slug: "liverpool-everton-1986-rush-double-wembley"
 category: "match"
 articleType: "match"
 season: "1985-86"
-playerIds: ["ian-rush", "jan-molby", "craig-johnston", "bruce-grobbelaar", "alan-hansen"]
+playerIds: ["ian-rush","jan-molby","craig-johnston","bruce-grobbelaar"]
 managerIds: ["kenny-dalglish"]
 oppositionIds: ["everton"]
 competitionIds: ["fa-cup"]

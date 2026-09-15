@@ -8,8 +8,8 @@ slug: "liverpool-ipswich-1977-kennedy-keegan"
 category: "match"
 articleType: "match"
 season: "1976-77"
-playerIds: ["ray-kennedy", "kevin-keegan", "tommy-smith", "jimmy-case"]
-managerIds: ["bob-paisley"]
+playerIds: ["ray-kennedy","kevin-keegan"]
+managerIds: []
 competitionIds: ["first-division"]
 oppositionIds: ["ipswich-town"]
 locationIds: ["anfield"]

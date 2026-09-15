@@ -13,8 +13,7 @@ season: 1989-90
 playerIds:
   - john-barnes
   - peter-beardsley
-managerIds:
-  - kenny-dalglish
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

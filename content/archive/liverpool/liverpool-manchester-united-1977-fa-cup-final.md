@@ -11,13 +11,8 @@ slug: liverpool-manchester-united-1977-fa-cup-final
 category: match
 articleType: match
 season: 1976-77
-playerIds:
-  - jimmy-case
-  - ray-kennedy
-  - ian-callaghan
-  - joey-jones
-managerIds:
-  - bob-paisley
+playerIds: ["jimmy-case"]
+managerIds: []
 competitionIds:
   - fa-cup
 oppositionIds:

@@ -14,8 +14,7 @@ playerIds:
   - kenny-dalglish
   - ian-rush
   - jan-molby
-managerIds:
-  - kenny-dalglish
+managerIds: []
 oppositionIds:
   - oxford-united
 competitionIds:

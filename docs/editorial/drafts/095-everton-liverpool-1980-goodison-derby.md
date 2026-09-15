@@ -14,8 +14,7 @@ playerIds:
   - david-johnson
   - phil-neal
   - jimmy-case
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

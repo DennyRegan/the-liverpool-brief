@@ -10,7 +10,7 @@ slug: "liverpool-newcastle-1972-five-goals"
 category: "match"
 articleType: "match"
 season: "1971-72"
-playerIds: ["chris-lawler", "kevin-keegan", "john-toshack", "emlyn-hughes", "steve-heighway", "ray-clemence"]
+playerIds: ["ray-clemence"]
 managerIds: ["bill-shankly"]
 oppositionIds: ["newcastle-united"]
 competitionIds: ["first-division"]

@@ -10,12 +10,8 @@ slug: liverpool-everton-1986-super-cup-first-leg
 category: match
 articleType: match
 season: 1986-87
-playerIds:
-  - ian-rush
-  - steve-mcmahon
-  - kenny-dalglish
-managerIds:
-  - kenny-dalglish
+playerIds: ["ian-rush","steve-mcmahon"]
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

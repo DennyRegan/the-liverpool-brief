@@ -11,7 +11,7 @@ category: "match"
 articleType: "match"
 season: "1970-71"
 playerIds: ["steve-heighway", "ray-clemence"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["fa-cup"]
 locationIds: ["white-hart-lane"]

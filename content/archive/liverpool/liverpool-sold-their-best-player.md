@@ -9,10 +9,7 @@ slug: "liverpool-sold-their-best-player"
 category: "match"
 articleType: "match"
 season: "1977-78"
-playerIds:
-  - "kevin-keegan"
-  - "kenny-dalglish"
-  - "terry-mcdermott"
+playerIds: ["kevin-keegan","kenny-dalglish","terry-mcdermott","steve-heighway","ray-kennedy","david-fairclough"]
 managerIds:
   - "bob-paisley"
 oppositionIds:

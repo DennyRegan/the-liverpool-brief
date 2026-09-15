@@ -10,13 +10,8 @@ slug: liverpool-norwich-1979-six-goals
 category: match
 articleType: match
 season: 1978-79
-playerIds:
-  - kenny-dalglish
-  - david-johnson
-  - alan-kennedy
-  - ray-kennedy
-managerIds:
-  - bob-paisley
+playerIds: ["kenny-dalglish","david-johnson"]
+managerIds: []
 competitionIds:
   - first-division
 locationIds:

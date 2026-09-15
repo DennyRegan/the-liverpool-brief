@@ -10,12 +10,8 @@ slug: liverpool-arsenal-1979-charity-shield
 category: match
 articleType: match
 season: 1979-80
-playerIds:
-  - terry-mcdermott
-  - kenny-dalglish
-  - ray-kennedy
-managerIds:
-  - bob-paisley
+playerIds: ["terry-mcdermott","kenny-dalglish"]
+managerIds: []
 oppositionIds:
   - arsenal
 competitionIds:

@@ -12,8 +12,7 @@ playerIds:
   - alan-kennedy
   - sammy-lee
   - terry-mcdermott
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - west-ham-united
 competitionIds:

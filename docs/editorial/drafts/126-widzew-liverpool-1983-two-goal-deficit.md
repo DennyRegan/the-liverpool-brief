@@ -10,13 +10,8 @@ slug: widzew-liverpool-1983-two-goal-deficit
 category: match
 articleType: match
 season: 1982-83
-playerIds:
-  - bruce-grobbelaar
-  - mark-lawrenson
-  - alan-kennedy
-  - ian-rush
-managerIds:
-  - bob-paisley
+playerIds: ["bruce-grobbelaar","ian-rush"]
+managerIds: []
 competitionIds:
   - european-cup
 sources:

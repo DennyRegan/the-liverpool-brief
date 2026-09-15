@@ -9,11 +9,12 @@ slug: "liverpool-saint-etienne-1977-fairclough-winner"
 category: "match"
 articleType: "match"
 season: "1976-77"
-playerIds: ["david-fairclough", "ray-kennedy", "kevin-keegan", "john-toshack"]
-managerIds: ["bob-paisley"]
+playerIds: ["david-fairclough","ray-kennedy","kevin-keegan"]
+managerIds: []
 competitionIds: ["european-cup"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/961", "https://www.lfchistory.net/articles/1964", "https://www.liverpoolfc.com/news/first-team/131032-years-on-season-that-set-standards", "https://www.liverpoolfc.com/news/first-team/170778-video-fairclough-s-moment-in-time"]
+oppositionIds: ["saint-etienne"]
 ---
 
 # Liverpool 3–1 Saint-Étienne: Fairclough finds the goal Anfield needs

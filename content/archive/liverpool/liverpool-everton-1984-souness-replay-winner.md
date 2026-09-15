@@ -10,9 +10,7 @@ slug: liverpool-everton-1984-souness-replay-winner
 category: match
 articleType: match
 season: 1983-84
-playerIds:
-  - graeme-souness
-  - phil-neal
+playerIds: ["graeme-souness"]
 managerIds:
   - joe-fagan
 oppositionIds:

@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1977-78"
 playerIds: ["ray-kennedy", "kenny-dalglish", "david-fairclough"]
-managerIds: ["bob-paisley"]
+managerIds: []
 oppositionIds: ["arsenal"]
 competitionIds: ["league-cup"]
 locationIds: ["anfield", "highbury"]

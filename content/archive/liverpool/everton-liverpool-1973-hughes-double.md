@@ -6,9 +6,9 @@ decade: "1970s"
 excerpt: "Emlyn Hughes scored twice late in the game at Goodison Park, completing a league double over Everton and keeping Liverpool ahead in a closely contested championship race."
 historicalEventDate: "1973-03-03"
 historicalPeriod: "3 March 1973 · First Division · Goodison Park"
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["everton"]
-playerIds: ["emlyn-hughes","ian-callaghan"]
+playerIds: ["emlyn-hughes"]
 season: "1972-73"
 slug: "everton-liverpool-1973-hughes-double"
 sources: ["https://www.lfchistory.net/games/728","https://www.liverpoolfc.com/news/first-team/296817-2-everton-0-2-liverpool-march-3-1973","https://gameofthepeople.com/2015/02/27/we-are-the-champions-liverpool-1972-73/"]

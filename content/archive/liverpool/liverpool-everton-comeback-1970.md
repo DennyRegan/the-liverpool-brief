@@ -24,6 +24,7 @@ sources:
   - "https://www.transfermarkt.co.uk/fc-liverpool_everton/index/spielbericht/3276317"
   - "https://www.liverpoolfc.com/news/liverpools-greatest-no50-john-toshack"
   - "https://www.liverpoolfc.com/info/steve-heighway"
+themeIds: ["changing-attack"]
 ---
 
 Everton were two goals ahead. Liverpool had barely twenty minutes to recover.

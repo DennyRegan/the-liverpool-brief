@@ -10,12 +10,8 @@ slug: liverpool-wimbledon-1988-aldridge-shield-double
 category: match
 articleType: match
 season: 1988-89
-playerIds:
-  - john-aldridge
-  - john-barnes
-  - ronnie-whelan
-managerIds:
-  - kenny-dalglish
+playerIds: ["john-aldridge","john-barnes"]
+managerIds: []
 oppositionIds:
   - wimbledon
 competitionIds:

@@ -11,7 +11,7 @@ articleType: "match"
 editorialMode: "factual"
 season: "2006-07"
 playerIds: [xabi-alonso, dirk-kuyt]
-managerIds: [rafael-benitez]
+managerIds: []
 oppositionIds: [newcastle-united]
 competitionIds: [premier-league]
 locationIds: [anfield]

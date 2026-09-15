@@ -14,6 +14,7 @@ managerIds: ["bill-shankly"]
 competitionIds: ["uefa-cup"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/743", "https://www.uefa.com/uefaeuropaleague/news/002a-0e6a06a1e886-d331006e4a96-1000--1972-73-reds-reach-european-goal/", "https://www.liverpoolfc.com/news/first-team/115484-kop-10-perfect-matches", "https://www.liverpoolfc.com/news/50-years-ago-today-shanklys-reds-clinch-clubs-first-european-trophy", "https://en.wikipedia.org/wiki/1973_UEFA_Cup_final"]
+oppositionIds: ["borussia-monchengladbach"]
 ---
 
 # Liverpool 3–0 Borussia Mönchengladbach: Toshack's return transforms the final

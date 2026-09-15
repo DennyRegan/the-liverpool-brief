@@ -10,11 +10,8 @@ slug: middlesbrough-liverpool-1977-dalglish-league-debut
 category: match
 articleType: match
 season: 1977-78
-playerIds:
-  - kenny-dalglish
-  - terry-mcdermott
-managerIds:
-  - bob-paisley
+playerIds: ["kenny-dalglish"]
+managerIds: []
 competitionIds:
   - first-division
 sources:

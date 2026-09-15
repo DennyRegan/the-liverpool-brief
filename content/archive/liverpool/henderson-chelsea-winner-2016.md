@@ -10,7 +10,7 @@ editorialMode: "factual"
 excerpt: "Jordan Henderson’s long-range strike gave Liverpool a two-goal lead at Stamford Bridge, and they held off Chelsea’s response to win 2–1."
 historicalEventDate: "2016-09-16"
 historicalPeriod: "16 September 2016"
-managerIds: ["jurgen-klopp"]
+managerIds: []
 playerIds: ["jordan-henderson","dejan-lovren"]
 season: "2016-17"
 slug: "henderson-chelsea-winner-2016"

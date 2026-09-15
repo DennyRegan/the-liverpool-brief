@@ -9,12 +9,14 @@ excerpt: "Phil Thompson and Phil Boersma scored twice each as Liverpool beat Str
 historicalEventDate: "1974-09-17"
 historicalPeriod: "17 September 1974"
 locationIds: ["anfield"]
-managerIds: ["bob-paisley"]
+managerIds: []
 playerIds: ["phil-thompson","phil-boersma"]
 season: "1974-75"
 slug: "liverpool-stromsgodset-record-win-1974"
 sources: ["https://www.liverpoolfc.com/news/quite-extraordinary-liverpools-biggest-ever-win-50-years-ago-today","https://playupliverpool.com/1974/09/17/liverpool-v-stromsgodset-11-0-european-cup-september-17-1974/","https://www.11v11.com/matches/liverpool-v-stromsgodset-if-17-september-1974-219539/","https://www.thisisanfield.com/2022/09/11-goals-9-different-scorers-a-cat-the-story-of-liverpools-biggest-ever-win/"]
 title: "Nine scorers as Liverpool put eleven past Strømsgodset"
+themeIds: ["attacking-football"]
+oppositionIds: ["stromsgodset"]
 ---
 
 Liverpool scored eleven. Nine players shared the goals.

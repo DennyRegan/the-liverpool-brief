@@ -14,8 +14,7 @@ playerIds:
   - phil-thompson
   - kenny-dalglish
   - david-fairclough
-managerIds:
-  - bob-paisley
+managerIds: []
 competitionIds:
   - league-cup
 locationIds:

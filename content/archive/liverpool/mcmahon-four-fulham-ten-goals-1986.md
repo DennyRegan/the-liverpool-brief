@@ -11,7 +11,7 @@ articleType: "match"
 editorialMode: "factual"
 season: "1986-87"
 playerIds: ["steve-mcmahon", "ian-rush", "john-wark"]
-managerIds: ["kenny-dalglish"]
+managerIds: []
 competitionIds: ["league-cup"]
 oppositionIds: ["fulham"]
 locationIds: ["anfield"]

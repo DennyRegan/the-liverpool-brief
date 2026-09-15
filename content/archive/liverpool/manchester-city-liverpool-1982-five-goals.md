@@ -16,8 +16,7 @@ playerIds:
   - craig-johnston
   - mark-lawrenson
   - ian-rush
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - manchester-city
 competitionIds:

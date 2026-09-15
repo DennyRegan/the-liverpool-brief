@@ -8,8 +8,8 @@ slug: "liverpool-newcastle-1987-aldridge-double"
 category: "match"
 articleType: "match"
 season: "1987-88"
-playerIds: ["john-aldridge", "steve-mcmahon", "ray-houghton", "peter-beardsley"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["john-aldridge","steve-mcmahon"]
+managerIds: []
 oppositionIds: ["newcastle-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

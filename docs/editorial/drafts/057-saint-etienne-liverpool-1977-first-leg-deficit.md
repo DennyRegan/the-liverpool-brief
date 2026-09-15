@@ -9,10 +9,12 @@ slug: "saint-etienne-liverpool-1977-first-leg-deficit"
 category: "match"
 articleType: "match"
 season: "1976-77"
-playerIds: ["kevin-keegan", "john-toshack", "terry-mcdermott"]
-managerIds: ["bob-paisley"]
+playerIds: ["kevin-keegan"]
+managerIds: []
 competitionIds: ["european-cup"]
 sources: ["https://www.lfchistory.net/games/957", "https://www.uefa.com/uefachampionsleague/match/63383--st-etienne-vs-liverpool/events/", "https://www.lfchistory.net/season-archive/games/18", "https://fcbayern.com/en/club/honours/champions-league/european-cup-winner-1976"]
+oppositionIds: ["saint-etienne"]
+locationIds: ["stade-geoffroy-guichard"]
 ---
 
 # Saint-Étienne 1–0 Liverpool: Bathenay leaves Anfield with the deciding say

@@ -9,8 +9,8 @@ slug: "liverpool-everton-1972-cormack-winner"
 category: "match"
 articleType: "match"
 season: "1972-73"
-playerIds: ["peter-cormack", "steve-heighway"]
-managerIds: ["bill-shankly"]
+playerIds: ["peter-cormack"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

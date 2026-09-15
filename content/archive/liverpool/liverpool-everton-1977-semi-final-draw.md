@@ -10,12 +10,8 @@ slug: liverpool-everton-1977-semi-final-draw
 category: match
 articleType: match
 season: 1976-77
-playerIds:
-  - terry-mcdermott
-  - jimmy-case
-  - david-johnson
-managerIds:
-  - bob-paisley
+playerIds: ["terry-mcdermott","jimmy-case"]
+managerIds: []
 competitionIds:
   - fa-cup
 oppositionIds:

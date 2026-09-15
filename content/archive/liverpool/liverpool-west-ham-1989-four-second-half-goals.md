@@ -14,8 +14,7 @@ playerIds:
   - ray-houghton
   - john-barnes
   - john-aldridge
-managerIds:
-  - kenny-dalglish
+managerIds: []
 oppositionIds:
   - west-ham-united
 competitionIds:

@@ -11,9 +11,10 @@ articleType: "match"
 editorialMode: "factual"
 season: "1986-87"
 playerIds: ["steve-mcmahon", "ian-rush", "john-wark"]
-managerIds: ["kenny-dalglish"]
+managerIds: []
 competitionIds: ["league-cup"]
 locationIds: ["anfield"]
+oppositionIds: ["fulham"]
 ---
 
 Steve McMahon scored four goals in Liverpool’s 10–0 defeat of Fulham at Anfield on 23 September 1986. He also missed a penalty, striking the crossbar before completing his hat-trick from open play.

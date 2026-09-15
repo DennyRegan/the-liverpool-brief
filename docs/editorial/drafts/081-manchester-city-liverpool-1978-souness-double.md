@@ -14,8 +14,7 @@ playerIds:
   - graeme-souness
   - ray-kennedy
   - kenny-dalglish
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - manchester-city
 competitionIds:

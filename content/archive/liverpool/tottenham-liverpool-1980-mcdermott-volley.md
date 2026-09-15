@@ -12,8 +12,7 @@ articleType: match
 season: 1979-80
 playerIds:
   - terry-mcdermott
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - tottenham-hotspur
 competitionIds:

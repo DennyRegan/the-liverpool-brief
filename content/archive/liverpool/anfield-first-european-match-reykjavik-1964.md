@@ -10,8 +10,8 @@ excerpt: "Liverpool beat KR Reykjavík 6–1 as Anfield staged European football
 historicalEventDate: "1964-09-14"
 historicalPeriod: "14 September 1964"
 locationIds: ["anfield"]
-managerIds: ["bill-shankly"]
-playerIds: ["gerry-byrne","ian-st-john","bobby-graham"]
+managerIds: []
+playerIds: ["ian-st-john","bobby-graham","alan-acourt"]
 season: "1964-65"
 slug: "anfield-first-european-match-reykjavik-1964"
 sources: ["https://www.liverpoolfc.com/news/first-team/235595-on-this-day-at-anfield-our-first-ever-home-game-in-europe","https://www.lfchistory.net/games/244","https://www.lfchistory.net/articles/488"]

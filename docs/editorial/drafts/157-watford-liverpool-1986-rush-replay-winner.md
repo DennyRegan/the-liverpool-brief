@@ -10,13 +10,8 @@ slug: watford-liverpool-1986-rush-replay-winner
 category: match
 articleType: match
 season: 1985-86
-playerIds:
-  - jan-molby
-  - ian-rush
-  - kenny-dalglish
-  - john-barnes
-managerIds:
-  - kenny-dalglish
+playerIds: ["ian-rush","jan-molby","tony-coton"]
+managerIds: []
 oppositionIds:
   - watford
 competitionIds:

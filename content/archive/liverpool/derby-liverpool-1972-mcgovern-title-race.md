@@ -11,7 +11,7 @@ category: "match"
 articleType: "match"
 season: "1971-72"
 playerIds: []
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["derby-county"]
 competitionIds: ["first-division"]
 locationIds: ["baseball-ground"]

@@ -10,7 +10,7 @@ category: "match"
 articleType: "match"
 season: "1972-73"
 playerIds: ["peter-cormack", "kevin-keegan"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["leeds-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

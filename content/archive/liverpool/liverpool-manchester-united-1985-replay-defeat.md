@@ -10,12 +10,8 @@ slug: liverpool-manchester-united-1985-replay-defeat
 category: match
 articleType: match
 season: 1984-85
-playerIds:
-  - paul-walsh
-  - steve-nicol
-  - kenny-dalglish
-managerIds:
-  - joe-fagan
+playerIds: []
+managerIds: []
 oppositionIds:
   - manchester-united
 competitionIds:

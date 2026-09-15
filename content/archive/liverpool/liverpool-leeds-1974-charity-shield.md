@@ -16,6 +16,7 @@ locationIds: ["wembley"]
 sources: ["https://www.lfchistory.net/games/806", "https://soccerschools.liverpoolfc.com/history/timeline/1970-1995/shoot-out-glory-lands-shield", "https://www.lfchistory.net/managers/10", "https://en.wikipedia.org/wiki/1974_FA_Charity_Shield", "https://www.lfchistory.net/articles/2902"]
 date: "2026-09-15"
 editorialMode: "factual"
+historyEras: ["bill-shankly","bob-paisley"]
 ---
 
 The Charity Shield's first visit to Wembley brought together the league champions and FA Cup holders on 10 August 1974. Liverpool and Leeds United drew 1–1, with Liverpool winning the shoot-out 6–5. Yet the match's most enduring images came before the penalties, when Kevin Keegan and Billy Bremner were sent off.

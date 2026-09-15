@@ -11,7 +11,7 @@ category: "match"
 articleType: "match"
 season: "1970-71"
 playerIds: ["john-toshack", "tommy-smith"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

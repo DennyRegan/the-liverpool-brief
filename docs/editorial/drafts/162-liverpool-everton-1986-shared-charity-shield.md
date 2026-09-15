@@ -8,8 +8,8 @@ slug: "liverpool-everton-1986-shared-charity-shield"
 category: "match"
 articleType: "match"
 season: "1986-87"
-playerIds: ["ian-rush", "kenny-dalglish", "bruce-grobbelaar", "barry-venison", "mike-hooper"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["ian-rush","kenny-dalglish"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["charity-shield"]
 locationIds: ["wembley"]

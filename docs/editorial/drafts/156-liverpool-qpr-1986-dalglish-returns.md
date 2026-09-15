@@ -10,13 +10,8 @@ slug: liverpool-qpr-1986-dalglish-returns
 category: match
 articleType: match
 season: 1985-86
-playerIds:
-  - kenny-dalglish
-  - steve-mcmahon
-  - ian-rush
-  - john-wark
-managerIds:
-  - kenny-dalglish
+playerIds: ["kenny-dalglish","steve-mcmahon"]
+managerIds: []
 oppositionIds:
   - queens-park-rangers
 competitionIds:

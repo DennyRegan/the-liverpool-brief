@@ -13,6 +13,8 @@ season: "2007-08"
 playerIds: ["fernando-torres", "yossi-benayoun"]
 managerIds: ["rafael-benitez"]
 competitionIds: ["league-cup"]
+oppositionIds: ["reading"]
+locationIds: ["madejski-stadium"]
 ---
 
 Fernando Torres scored his first Liverpool hat-trick in a 4–2 League Cup win at Reading on 25 September 2007. All three goals came in the second half, after Yossi Benayoun had opened his own account for the club and Reading had twice recovered from a goal behind.

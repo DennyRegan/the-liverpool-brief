@@ -3,7 +3,7 @@ articleType: "match"
 category: "match"
 oppositionIds: ["manchester-united"]
 playerIds: ["dick-forshaw"]
-managerIds: ["matt-mcqueen"]
+managerIds: []
 competitionIds: ["first-division"]
 date: "2026-09-14"
 decade: "1920s"

@@ -10,12 +10,8 @@ slug: hamburg-liverpool-1977-fairclough-super-cup
 category: match
 articleType: match
 season: 1977-78
-playerIds:
-  - david-fairclough
-  - kenny-dalglish
-  - kevin-keegan
-managerIds:
-  - bob-paisley
+playerIds: ["david-fairclough"]
+managerIds: []
 oppositionIds:
   - hamburg
 competitionIds:

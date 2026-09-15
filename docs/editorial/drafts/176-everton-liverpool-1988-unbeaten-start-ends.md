@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1987-88"
 playerIds: ["bruce-grobbelaar", "craig-johnston", "john-barnes"]
-managerIds: ["kenny-dalglish"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["goodison-park"]

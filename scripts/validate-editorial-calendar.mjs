@@ -6,6 +6,9 @@ import matter from 'gray-matter';
 import { z } from 'zod';
 import { getHistoryEvents } from '../lib/content/this-week.ts';
 import { getArchiveFeatures } from '../lib/content/archive.ts';
+import { ArchiveFeatureSchema } from '../lib/content/types.ts';
+import { getHistoryEntities } from '../lib/content/entities.ts';
+import { getHistory, getArticleEraIds } from '../lib/content/history.ts';
 
 export const calendarPath = 'docs/editorial/history-calendar.json';
 const text = z.string().min(1);
@@ -30,6 +33,8 @@ export function validateCalendar(calendar, root = process.cwd()) {
   const entries = z.array(entrySchema).min(1).parse(calendar.entries);
   const ids = new Set(), dates = new Set(), drafts = new Set();
   const articles = new Map(getArchiveFeatures(root).map(a => [`/archive/${a.slug}`, a]));
+  const entities = new Map(getHistoryEntities(root).map(entity => [entity.id, entity.kind]));
+  const { eras } = getHistory(root);
   const events = new Map(getHistoryEvents(root).map(e => [`content/this-week/liverpool/${e.slug}.md`, e]));
   const readFile = (relative, prefix) => {
     assert.ok(relative.startsWith(prefix) && !relative.split('/').includes('..'), `Unsafe path: ${relative}`);
@@ -51,6 +56,12 @@ export function validateCalendar(calendar, root = process.cwd()) {
     if (e.draftPath) {
       assert.ok(!drafts.has(e.draftPath), `Draft reused by duplicate row: ${e.draftPath}`); drafts.add(e.draftPath);
       const draft = readFile(e.draftPath, 'docs/editorial/drafts/');
+      // Drafts share Archive metadata, but do not acquire a publication date or enter its loader.
+      ArchiveFeatureSchema.omit({ date: true, body: true }).parse(draft);
+      for (const [field, kind] of Object.entries({ playerIds: 'person', managerIds: 'person', oppositionIds: 'opposition', competitionIds: 'competition', locationIds: 'location', themeIds: 'theme' })) {
+        for (const id of draft[field] ?? []) assert.equal(entities.get(id), kind, `${e.id}: draft ${field} must use canonical ${kind} ID ${id}`);
+      }
+      getArticleEraIds(draft, eras);
       assert.equal(draft.historicalEventDate, e.historicalEventDate, `${e.id}: draft date mismatch`);
       if (draft.season) assert.match(draft.season, /^\d{4}-\d{2}$/, `${e.id}: noncanonical season`);
       if (draft.season) assert.equal(Number(draft.season.slice(5)), (Number(draft.season.slice(0, 4)) + 1) % 100, `${e.id}: nonconsecutive season`);

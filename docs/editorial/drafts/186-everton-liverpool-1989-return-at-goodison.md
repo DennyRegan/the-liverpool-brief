@@ -8,8 +8,8 @@ slug: "everton-liverpool-1989-return-at-goodison"
 category: "match"
 articleType: "match"
 season: "1988-89"
-playerIds: ["john-barnes", "peter-beardsley", "john-aldridge", "bruce-grobbelaar"]
-managerIds: ["kenny-dalglish"]
+playerIds: []
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["goodison-park"]

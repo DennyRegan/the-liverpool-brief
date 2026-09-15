@@ -9,9 +9,7 @@ slug: "liverpool-7-tottenham-0"
 category: "match"
 articleType: "match"
 season: "1978-79"
-playerIds:
-  - "kenny-dalglish"
-  - "terry-mcdermott"
+playerIds: ["kenny-dalglish","terry-mcdermott","david-johnson"]
 managerIds:
   - "bob-paisley"
 oppositionIds:

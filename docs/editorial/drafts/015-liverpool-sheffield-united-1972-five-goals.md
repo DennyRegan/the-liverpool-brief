@@ -9,8 +9,8 @@ slug: "liverpool-sheffield-united-1972-five-goals"
 category: "match"
 articleType: "match"
 season: "1972-73"
-playerIds: ["phil-boersma", "alec-lindsay", "steve-heighway", "peter-cormack", "kevin-keegan"]
-managerIds: ["bill-shankly"]
+playerIds: ["phil-boersma","peter-cormack","kevin-keegan"]
+managerIds: []
 oppositionIds: ["sheffield-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

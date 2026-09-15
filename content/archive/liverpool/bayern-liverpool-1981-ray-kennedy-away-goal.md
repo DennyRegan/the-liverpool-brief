@@ -10,13 +10,7 @@ slug: bayern-liverpool-1981-ray-kennedy-away-goal
 category: match
 articleType: match
 season: 1980-81
-playerIds:
-  - ray-kennedy
-  - david-johnson
-  - howard-gayle
-  - sammy-lee
-  - alan-hansen
-  - richard-money
+playerIds: ["ray-kennedy","howard-gayle","david-johnson"]
 managerIds:
   - bob-paisley
 oppositionIds:

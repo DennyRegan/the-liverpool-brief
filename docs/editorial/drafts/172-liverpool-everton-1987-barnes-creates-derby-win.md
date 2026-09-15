@@ -8,8 +8,8 @@ slug: "liverpool-everton-1987-barnes-creates-derby-win"
 category: "match"
 articleType: "match"
 season: "1987-88"
-playerIds: ["john-barnes", "steve-mcmahon", "peter-beardsley", "john-aldridge"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["john-barnes","steve-mcmahon","peter-beardsley"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

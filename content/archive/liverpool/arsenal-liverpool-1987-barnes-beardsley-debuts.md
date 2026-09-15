@@ -16,8 +16,7 @@ playerIds:
   - john-barnes
   - peter-beardsley
   - john-aldridge
-managerIds:
-  - kenny-dalglish
+managerIds: []
 oppositionIds:
   - arsenal
 competitionIds:
@@ -33,6 +32,7 @@ sources:
     https://www.liverpoolfc.com/news/first-team/230906-no-1-arsenal-1-2-liverpool-1987
 date: '2026-09-15'
 editorialMode: factual
+themeIds: ["changing-attack"]
 ---
 
 Steve Nicol’s header two minutes from time gave Liverpool a 2–1 win at Arsenal on the opening day of the league season, 15 August 1987. John Barnes and Peter Beardsley made their competitive debuts at Highbury, joining John Aldridge in the attack after Ian Rush’s departure for Juventus.

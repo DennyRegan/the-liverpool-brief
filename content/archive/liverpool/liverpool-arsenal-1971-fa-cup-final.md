@@ -10,7 +10,7 @@ slug: "liverpool-arsenal-1971-fa-cup-final"
 category: "match"
 articleType: "match"
 season: "1970-71"
-playerIds: ["steve-heighway", "ray-clemence"]
+playerIds: ["steve-heighway"]
 managerIds: ["bill-shankly"]
 oppositionIds: ["arsenal"]
 competitionIds: ["fa-cup"]

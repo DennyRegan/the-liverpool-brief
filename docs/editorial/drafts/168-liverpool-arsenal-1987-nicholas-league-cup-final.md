@@ -8,8 +8,8 @@ slug: "liverpool-arsenal-1987-nicholas-league-cup-final"
 category: "match"
 articleType: "match"
 season: "1986-87"
-playerIds: ["ian-rush", "jan-molby", "steve-mcmahon", "ronnie-whelan"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["ian-rush","jan-molby"]
+managerIds: []
 oppositionIds: ["arsenal"]
 competitionIds: ["league-cup"]
 locationIds: ["wembley"]

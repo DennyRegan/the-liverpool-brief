@@ -8,8 +8,8 @@ slug: "liverpool-norwich-1986-walsh-hat-trick"
 category: "match"
 articleType: "match"
 season: "1986-87"
-playerIds: ["paul-walsh", "ian-rush", "jan-molby", "steve-nicol", "kenny-dalglish"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["paul-walsh","ian-rush","jan-molby","kenny-dalglish"]
+managerIds: []
 oppositionIds: ["norwich-city"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

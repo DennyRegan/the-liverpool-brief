@@ -10,13 +10,8 @@ slug: dinamo-liverpool-1984-rush-double
 category: match
 articleType: match
 season: 1983-84
-playerIds:
-  - ian-rush
-  - graeme-souness
-  - sammy-lee
-  - ronnie-whelan
-managerIds:
-  - joe-fagan
+playerIds: ["ian-rush","graeme-souness"]
+managerIds: []
 competitionIds:
   - european-cup
 sources:

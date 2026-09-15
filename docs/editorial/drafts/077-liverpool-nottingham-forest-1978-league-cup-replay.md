@@ -13,8 +13,7 @@ season: 1977-78
 playerIds:
   - phil-thompson
   - terry-mcdermott
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - nottingham-forest
 competitionIds:

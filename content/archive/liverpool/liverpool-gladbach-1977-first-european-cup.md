@@ -17,8 +17,7 @@ playerIds:
   - kevin-keegan
   - steve-heighway
   - ray-clemence
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - borussia-monchengladbach
 competitionIds:
@@ -34,6 +33,7 @@ locationIds:
   - stadio-olimpico
 date: '2026-09-15'
 editorialMode: factual
+themeIds: ["player-farewells"]
 ---
 
 Liverpool won the European Cup for the first time on 25 May 1977, beating Borussia Mönchengladbach 3–1 at Rome's Stadio Olimpico. Terry McDermott, Tommy Smith and Phil Neal scored the goals; Kevin Keegan's last appearance for the club ended with the trophy that had eluded Liverpool throughout his time at Anfield.

@@ -10,14 +10,8 @@ slug: liverpool-nottingham-forest-1988-five-at-anfield
 category: match
 articleType: match
 season: 1987-88
-playerIds:
-  - john-aldridge
-  - john-barnes
-  - peter-beardsley
-  - ray-houghton
-  - gary-gillespie
-managerIds:
-  - kenny-dalglish
+playerIds: ["john-aldridge","john-barnes","peter-beardsley","ray-houghton"]
+managerIds: []
 oppositionIds:
   - nottingham-forest
 competitionIds:
@@ -35,6 +29,7 @@ sources:
     https://www.liverpoolfc.com/news/classic-match-dalglishs-reds-peak-perfect-anfield-performance
 date: '2026-09-15'
 editorialMode: factual
+themeIds: ["attacking-football"]
 ---
 
 Liverpool beat Nottingham Forest 5–0 at Anfield on 13 April 1988, four days after overcoming the same opponents in the FA Cup semi-final. John Aldridge scored twice, with Ray Houghton, Gary Gillespie and Peter Beardsley also on target. The result left Liverpool eleven points clear of Manchester United with two games in hand and six league matches remaining.

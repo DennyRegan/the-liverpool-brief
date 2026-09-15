@@ -8,7 +8,7 @@ slug: "chelsea-liverpool-1986-dalglish-title-winner"
 category: "match"
 articleType: "match"
 season: "1985-86"
-playerIds: ["kenny-dalglish", "jim-beglin"]
+playerIds: ["kenny-dalglish"]
 managerIds: ["kenny-dalglish"]
 oppositionIds: ["chelsea"]
 competitionIds: ["first-division"]

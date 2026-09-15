@@ -8,8 +8,8 @@ slug: "man-united-liverpool-1989-seven-minutes"
 category: "match"
 articleType: "match"
 season: "1988-89"
-playerIds: ["john-barnes", "peter-beardsley", "mike-hooper", "steve-mcmahon"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["john-barnes","steve-mcmahon"]
+managerIds: []
 oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["old-trafford"]

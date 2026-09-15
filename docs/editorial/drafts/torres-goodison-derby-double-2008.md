@@ -11,9 +11,10 @@ articleType: "match"
 editorialMode: "factual"
 season: "2008-09"
 playerIds: ["fernando-torres", "robbie-keane"]
-managerIds: ["rafael-benitez"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["premier-league"]
+locationIds: ["goodison-park"]
 ---
 
 Fernando Torres scored both goals as Liverpool beat Everton 2–0 at Goodison Park on 27 September 2008. Two finishes around the hour mark settled a match that had been goalless at half-time and gave Rafael Benítez’s side a third successive Merseyside derby victory.

@@ -10,7 +10,7 @@ excerpt: "Liverpool’s first European match since 1985 ended in a 6–1 win ove
 historicalEventDate: "1991-09-18"
 historicalPeriod: "18 September 1991"
 locationIds: ["anfield"]
-managerIds: ["graeme-souness"]
+managerIds: []
 playerIds: ["dean-saunders","ray-houghton"]
 season: "1991-92"
 slug: "saunders-four-kuusysi-european-return-1991"

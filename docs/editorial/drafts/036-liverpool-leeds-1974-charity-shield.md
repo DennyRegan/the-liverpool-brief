@@ -15,6 +15,7 @@ oppositionIds: ["leeds-united"]
 competitionIds: ["charity-shield"]
 locationIds: ["wembley"]
 sources: ["https://www.lfchistory.net/games/806", "https://soccerschools.liverpoolfc.com/history/timeline/1970-1995/shoot-out-glory-lands-shield", "https://www.lfchistory.net/managers/10", "https://en.wikipedia.org/wiki/1974_FA_Charity_Shield", "https://www.lfchistory.net/articles/2902"]
+historyEras: ["bill-shankly","bob-paisley"]
 ---
 
 # Liverpool 1–1 Leeds United: a Wembley Shield decided on penalties

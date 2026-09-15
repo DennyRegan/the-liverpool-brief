@@ -10,12 +10,8 @@ slug: liverpool-arsenal-1980-talbot-third-replay
 category: match
 articleType: match
 season: 1979-80
-playerIds:
-  - ray-kennedy
-  - avi-cohen
-  - david-johnson
-managerIds:
-  - bob-paisley
+playerIds: []
+managerIds: []
 oppositionIds:
   - arsenal
 competitionIds:

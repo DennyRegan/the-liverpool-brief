@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1988-89"
 playerIds: ["ray-houghton", "john-barnes", "john-aldridge"]
-managerIds: ["kenny-dalglish"]
+managerIds: []
 oppositionIds: ["west-ham-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

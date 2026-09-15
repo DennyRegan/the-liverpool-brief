@@ -10,13 +10,8 @@ slug: manchester-united-liverpool-1978-boxing-day
 category: match
 articleType: match
 season: 1978-79
-playerIds:
-  - ray-kennedy
-  - jimmy-case
-  - david-fairclough
-  - kenny-dalglish
-managerIds:
-  - bob-paisley
+playerIds: ["david-fairclough","jimmy-case","ray-kennedy"]
+managerIds: []
 oppositionIds:
   - manchester-united
 competitionIds:

@@ -14,8 +14,7 @@ playerIds:
   - ian-rush
   - michael-robinson
   - steve-nicol
-managerIds:
-  - joe-fagan
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

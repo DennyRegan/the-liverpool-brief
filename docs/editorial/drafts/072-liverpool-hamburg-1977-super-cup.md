@@ -8,8 +8,8 @@ slug: "liverpool-hamburg-1977-super-cup"
 category: "match"
 articleType: "match"
 season: "1977-78"
-playerIds: ["terry-mcdermott", "phil-thompson", "kevin-keegan"]
-managerIds: ["bob-paisley"]
+playerIds: ["terry-mcdermott","phil-thompson"]
+managerIds: []
 oppositionIds: ["hamburg"]
 competitionIds: ["european-super-cup"]
 locationIds: ["anfield"]

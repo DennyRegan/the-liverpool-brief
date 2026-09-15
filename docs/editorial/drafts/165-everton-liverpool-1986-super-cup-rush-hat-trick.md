@@ -8,8 +8,8 @@ slug: "everton-liverpool-1986-super-cup-rush-hat-trick"
 category: "match"
 articleType: "match"
 season: "1986-87"
-playerIds: ["ian-rush", "jan-molby", "steve-nicol", "john-wark", "bruce-grobbelaar"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["ian-rush","jan-molby","steve-nicol"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["football-league-super-cup"]
 locationIds: ["goodison-park"]

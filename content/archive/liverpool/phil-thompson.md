@@ -10,17 +10,13 @@ category: "person"
 articleType: "player"
 playerIds:
   - "phil-thompson"
-managerIds:
-  - "bill-shankly"
-  - "bob-paisley"
-competitionIds:
-  - "first-division"
-  - "european-cup"
-  - "league-cup"
-  - "fa-cup"
+managerIds: ["bill-shankly","bob-paisley","graeme-souness","gerard-houllier"]
+competitionIds: ["first-division","european-cup","league-cup","premier-league"]
 sources:
   - "https://www.liverpoolfc.com/info/phil-thompson"
   - "https://www.lfchistory.net/players/428"
+locationIds: ["parc-des-princes"]
+historyEras: ["bill-shankly","bob-paisley","graeme-souness","gerard-houllier"]
 ---
 
 Imagine captaining Liverpool to the European Cup. Imagine winning seven league titles with them. Imagine growing up supporting the club and eventually becoming the man who lifted its biggest trophy.

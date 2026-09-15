@@ -17,8 +17,7 @@ playerIds:
   - kenny-dalglish
   - jimmy-case
   - graeme-souness
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - borussia-monchengladbach
 competitionIds:

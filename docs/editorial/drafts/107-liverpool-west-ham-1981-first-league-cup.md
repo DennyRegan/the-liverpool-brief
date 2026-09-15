@@ -8,14 +8,8 @@ slug: liverpool-west-ham-1981-first-league-cup
 category: match
 articleType: match
 season: 1980-81
-playerIds:
-  - kenny-dalglish
-  - alan-hansen
-  - terry-mcdermott
-  - jimmy-case
-  - ian-rush
-managerIds:
-  - bob-paisley
+playerIds: ["kenny-dalglish","alan-hansen"]
+managerIds: []
 oppositionIds:
   - west-ham-united
 competitionIds:

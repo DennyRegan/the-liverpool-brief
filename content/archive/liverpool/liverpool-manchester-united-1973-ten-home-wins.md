@@ -7,9 +7,9 @@ excerpt: "Kevin Keegan’s penalty and Steve Heighway’s second-half goal prese
 historicalEventDate: "1973-12-22"
 historicalPeriod: "22 December 1973 · First Division · Anfield"
 locationIds: ["anfield"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["manchester-united"]
-playerIds: ["kevin-keegan","steve-heighway","alan-waddle"]
+playerIds: ["kevin-keegan","steve-heighway"]
 season: "1973-74"
 slug: "liverpool-manchester-united-1973-ten-home-wins"
 sources: ["https://www.lfchistory.net/games/775","https://mufcinfo.com/manupag/match_data/match_sql.php?my_match_date=1973-12-22","https://www.liverpoolfc.com/news/bill-shanklys-final-season-reds-keep-flawless-home-record-busy-december"]

@@ -10,12 +10,8 @@ slug: liverpool-everton-1989-rush-extra-time-double
 category: match
 articleType: match
 season: 1988-89
-playerIds:
-  - ian-rush
-  - john-aldridge
-  - john-barnes
-managerIds:
-  - kenny-dalglish
+playerIds: ["ian-rush","john-aldridge","john-barnes","steve-nicol"]
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

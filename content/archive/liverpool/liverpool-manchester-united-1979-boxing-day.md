@@ -10,13 +10,8 @@ slug: liverpool-manchester-united-1979-boxing-day
 category: match
 articleType: match
 season: 1979-80
-playerIds:
-  - alan-hansen
-  - david-johnson
-  - kenny-dalglish
-  - ray-kennedy
-managerIds:
-  - bob-paisley
+playerIds: ["alan-hansen","david-johnson"]
+managerIds: []
 oppositionIds:
   - manchester-united
 competitionIds:

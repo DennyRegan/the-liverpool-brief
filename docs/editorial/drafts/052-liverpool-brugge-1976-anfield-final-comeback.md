@@ -14,6 +14,7 @@ managerIds: ["bob-paisley"]
 competitionIds: ["uefa-cup"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/915", "https://www.liverpoolfc.com/news/first-team/221759-april-28-1976-anfield-liverpool-3-2-club-brugge-kv", "https://www.lfchistory.net/articles/602"]
+oppositionIds: ["club-brugge"]
 ---
 
 # Liverpool 3–2 Club Brugge: the final turns at Anfield

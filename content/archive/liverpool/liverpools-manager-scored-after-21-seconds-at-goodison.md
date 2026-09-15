@@ -9,13 +9,13 @@ slug: "liverpools-manager-scored-after-21-seconds-at-goodison"
 category: "match"
 articleType: "match"
 season: "1985-86"
-playerIds:
-  - "kenny-dalglish"
-  - "ian-rush"
+playerIds: ["kenny-dalglish"]
 managerIds:
   - "kenny-dalglish"
 competitionIds:
   - "first-division"
+oppositionIds: ["everton"]
+locationIds: ["goodison-park"]
 ---
 Liverpool’s manager scored after 21 seconds at Goodison Park.
 

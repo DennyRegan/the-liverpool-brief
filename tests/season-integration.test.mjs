@@ -10,6 +10,12 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import { getSeasons, SeasonSchema, getSeasonArchiveArticles } from '../lib/content/seasons.ts';
 import { getArchiveFeatures } from '../lib/content/archive.ts';
 import { ArchiveFeatureSchema } from '../lib/content/types.ts';
+import matter from 'gray-matter';
+import { getFactualHistoryArticles, getHistoryBrowseArticles } from '../lib/content/archive.ts';
+import { getHistory, getEraArticles } from '../lib/content/history.ts';
+import { getHistoryEntities } from '../lib/content/entities.ts';
+import { getRelatedArchiveArticles } from '../lib/content/discovery.ts';
+import { getArticleWeek, getHistoryWindow } from '../lib/content/this-week.ts';
 
 // Compile JSX with the existing TypeScript dependency; retain node:test and real Next links.
 const hooks = registerHooks({
@@ -110,4 +116,49 @@ test('both schemas require canonical consecutive IDs while Archive seasons remai
   for (const id of ['1987-88', '1999-00', '1892-93', undefined]) {
     assert.equal(ArchiveFeatureSchema.safeParse({ ...article, season: id }).success, true, String(id));
   }
+});
+
+test('metadata enrichment preserves directory-based publication and keeps editorial drafts out of every Archive selection', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'archive-draft-metadata-'));
+  try {
+    fs.cpSync('content', path.join(root, 'content'), { recursive: true });
+    const draftDir = path.join(root, 'docs/editorial/drafts');
+    fs.mkdirSync(draftDir, { recursive: true });
+    const original = getFactualHistoryArticles(root).find(a => a.season && a.historicalEventDate);
+    const draftSlug = 'unpublished-metadata-fixture';
+    const draftPath = path.join(draftDir, `${draftSlug}.md`);
+    const { body, ...metadata } = original;
+    const sparse = { ...metadata, slug: draftSlug };
+    delete sparse.season;
+    delete sparse.playerIds;
+    delete sparse.managerIds;
+    fs.writeFileSync(draftPath, matter.stringify(body, sparse));
+    const calendarPath = path.join(root, 'docs/editorial/history-calendar.json');
+    const calendar = JSON.stringify({ entries: [{ id: draftSlug, status: 'ready_for_review', draftPath: `docs/editorial/drafts/${draftSlug}.md`, publishedDestination: null }] });
+    fs.writeFileSync(calendarPath, calendar);
+    const before = getArchiveFeatures(root);
+    const publishedPath = path.join(root, 'content/archive/liverpool', `${original.slug}.md`);
+    const published = matter(fs.readFileSync(publishedPath, 'utf8'));
+    fs.writeFileSync(draftPath, matter.stringify(body, { ...sparse, season: original.season, playerIds: ['kenny-dalglish'] }));
+    fs.writeFileSync(publishedPath, matter.stringify(published.content, { ...published.data, playerIds: ['kenny-dalglish'] }));
+    const after = getArchiveFeatures(root);
+    assert.deepEqual(after.map(a => a.slug), before.map(a => a.slug));
+    assert.equal(fs.readFileSync(calendarPath, 'utf8'), calendar);
+    assert.equal(matter(fs.readFileSync(publishedPath, 'utf8')).content, published.content);
+    assert.equal(after.find(a => a.slug === original.slug).editorialMode, original.editorialMode);
+    assert.equal(after.find(a => a.slug === original.slug).date, original.date);
+    const factual = getFactualHistoryArticles(root);
+    const selected = getSeasonArchiveArticles(original.season, factual);
+    assert.ok(selected.some(a => a.slug === original.slug));
+    assert.ok(!selected.some(a => a.slug === draftSlug));
+    for (const section of ['matches', 'players']) assert.ok(!getHistoryBrowseArticles(section, root).some(a => a.slug === draftSlug));
+    const { eras } = getHistory(root);
+    for (const era of eras) assert.ok(!getEraArticles(factual, era.id, eras).some(a => a.slug === draftSlug));
+    for (const article of factual) assert.ok(!getRelatedArchiveArticles(article, factual, eras, getHistoryEntities(root)).some(r => r.article.slug === draftSlug));
+    const days = getHistoryWindow([], new Date(`2026${original.historicalEventDate.slice(4)}T12:00:00Z`));
+    assert.ok(!getArticleWeek(after, days).flatMap(day => day.articles).some(a => a.slug === draftSlug));
+    // Normal publication is a separate file-placement action; metadata needs no second edit.
+    fs.copyFileSync(draftPath, path.join(root, 'content/archive/liverpool', `${draftSlug}.md`));
+    assert.ok(getSeasonArchiveArticles(original.season, getFactualHistoryArticles(root)).some(a => a.slug === draftSlug));
+  } finally { fs.rmSync(root, { recursive: true, force: true }); }
 });

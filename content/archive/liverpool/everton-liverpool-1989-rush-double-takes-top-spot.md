@@ -10,13 +10,8 @@ slug: everton-liverpool-1989-rush-double-takes-top-spot
 category: match
 articleType: match
 season: 1989-90
-playerIds:
-  - ian-rush
-  - john-barnes
-  - peter-beardsley
-  - steve-mcmahon
-managerIds:
-  - kenny-dalglish
+playerIds: ["ian-rush","john-barnes","peter-beardsley"]
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

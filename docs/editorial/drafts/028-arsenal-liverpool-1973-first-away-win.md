@@ -9,11 +9,12 @@ slug: "arsenal-liverpool-1973-first-away-win"
 category: "match"
 articleType: "match"
 season: "1973-74"
-playerIds: ["emlyn-hughes", "john-toshack", "alec-lindsay"]
-managerIds: ["bill-shankly"]
+playerIds: ["emlyn-hughes","john-toshack"]
+managerIds: []
 oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]
 sources: ["https://www.lfchistory.net/games/763", "https://www.liverpoolfc.com/news/bill-shanklys-final-season-champions-creep-closer-receive-european-lesson-november", "https://blog.woolwicharsenal.co.uk/archives/12978"]
+locationIds: ["highbury"]
 ---
 
 # Arsenal 0–2 Liverpool: Hughes and Toshack end the away wait

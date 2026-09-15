@@ -10,14 +10,8 @@ slug: liverpool-panathinaikos-1985-rush-double
 category: match
 articleType: match
 season: 1984-85
-playerIds:
-  - ian-rush
-  - john-wark
-  - jim-beglin
-  - kenny-dalglish
-  - kevin-macdonald
-managerIds:
-  - joe-fagan
+playerIds: ["ian-rush","john-wark","kenny-dalglish","kevin-macdonald"]
+managerIds: []
 oppositionIds:
   - panathinaikos
 competitionIds:

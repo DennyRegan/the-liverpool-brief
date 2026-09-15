@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1973-74"
 playerIds: ["brian-hall", "kevin-keegan", "john-toshack"]
-managerIds: ["bill-shankly"]
+managerIds: []
 competitionIds: ["fa-cup"]
 sources: ["https://www.lfchistory.net/games/794", "https://www.lcfc.com/media-article/Leicester-City's-Seven-Previous-FA-Cup-Semi-Final-Appearances", "https://www.lfchistory.net/season-archive/games/15"]
 oppositionIds: ["leicester-city"]

@@ -10,13 +10,8 @@ slug: liverpool-manchester-city-1982-dalglish-hat-trick
 category: match
 articleType: match
 season: 1982-83
-playerIds:
-  - kenny-dalglish
-  - phil-neal
-  - ian-rush
-  - david-hodgson
-managerIds:
-  - bob-paisley
+playerIds: ["kenny-dalglish","phil-neal","ian-rush"]
+managerIds: []
 oppositionIds:
   - manchester-city
 competitionIds:

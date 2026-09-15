@@ -10,14 +10,8 @@ slug: liverpool-dynamo-dresden-1977-five-goal-defence
 category: match
 articleType: match
 season: 1977-78
-playerIds:
-  - alan-hansen
-  - jimmy-case
-  - john-toshack
-  - phil-neal
-  - ray-kennedy
-managerIds:
-  - bob-paisley
+playerIds: ["alan-hansen","jimmy-case","john-toshack"]
+managerIds: []
 competitionIds:
   - european-cup
 locationIds:
