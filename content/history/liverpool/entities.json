@@ -2228,5 +2228,40 @@
     "id": "national-stadium-tokyo",
     "label": "National Stadium, Tokyo",
     "kind": "location"
+  },
+  {
+    "id": "luton-town",
+    "label": "Luton Town",
+    "kind": "opposition"
+  },
+  {
+    "id": "brighton-hove-albion",
+    "label": "Brighton & Hove Albion",
+    "kind": "opposition"
+  },
+  {
+    "id": "widzew-lodz",
+    "label": "Widzew Łódź",
+    "kind": "opposition"
+  },
+  {
+    "id": "lks-stadium",
+    "label": "ŁKS Stadium",
+    "kind": "location"
+  },
+  {
+    "id": "athletic-club",
+    "label": "Athletic Club",
+    "kind": "opposition"
+  },
+  {
+    "id": "san-mames-original",
+    "label": "San Mamés (original stadium)",
+    "kind": "location"
+  },
+  {
+    "id": "walsall",
+    "label": "Walsall",
+    "kind": "opposition"
   }
 ]
