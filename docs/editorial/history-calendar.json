@@ -371,8 +371,16 @@
       "status": "published"
     },
     {
-      "approval": null,
-      "claim": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "claim": {
+        "token": "01a0a524-classic-192",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
       "draftPath": null,
       "event": "Everton 1–3 Liverpool",
       "eventPath": null,
@@ -386,13 +394,13 @@
       "featuredWeek": "2026-09-21",
       "historicalEventDate": "1989-09-23",
       "id": "1989-09-23-classic-192",
-      "notes": "Preserved classic-match longlist 192; not a commissioned draft. Do not replace selected topics without recording the decision here.",
+      "notes": "Preserved classic-match longlist 192; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
       "originalDraftId": null,
-      "owner": null,
+      "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "publishedDestination": null,
       "researchStatus": "needs_research",
       "selection": "alternative",
-      "status": "planned"
+      "status": "writing"
     },
     {
       "approval": {
@@ -6476,6 +6484,446 @@
         }
       ],
       "researchStatus": "needs_research"
+    },
+    {
+      "id": "1988-09-03-classic-182",
+      "event": "Liverpool 1–0 Manchester United",
+      "historicalEventDate": "1988-09-03",
+      "featuredWeek": "2026-08-31",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-182",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1988-11-23-classic-183",
+      "event": "Liverpool 2–1 Arsenal",
+      "historicalEventDate": "1988-11-23",
+      "featuredWeek": "2026-11-23",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-183",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1989-01-01-classic-184",
+      "event": "Manchester United 3–1 Liverpool",
+      "historicalEventDate": "1989-01-01",
+      "featuredWeek": "2025-12-29",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-184",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1989-04-15-classic-185",
+      "event": "Liverpool v Nottingham Forest, abandoned",
+      "historicalEventDate": "1989-04-15",
+      "featuredWeek": "2026-04-13",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-185",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1989-05-03-classic-186",
+      "event": "Everton 0–0 Liverpool",
+      "historicalEventDate": "1989-05-03",
+      "featuredWeek": "2026-04-27",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-186",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1989-05-07-classic-187",
+      "event": "Liverpool 3–1 Nottingham Forest",
+      "historicalEventDate": "1989-05-07",
+      "featuredWeek": "2026-05-04",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-187",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1989-05-20-classic-188",
+      "event": "Liverpool 3–2 Everton, after extra time",
+      "historicalEventDate": "1989-05-20",
+      "featuredWeek": "2026-05-18",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-188",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1989-05-23-classic-189",
+      "event": "Liverpool 5–1 West Ham United",
+      "historicalEventDate": "1989-05-23",
+      "featuredWeek": "2026-05-18",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-189",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1989-05-26-classic-190",
+      "event": "Liverpool 0–2 Arsenal",
+      "historicalEventDate": "1989-05-26",
+      "featuredWeek": "2026-05-25",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-190",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1989-09-12-classic-191",
+      "event": "Liverpool 9–0 Crystal Palace",
+      "historicalEventDate": "1989-09-12",
+      "featuredWeek": "2026-09-07",
+      "selection": "alternative",
+      "status": "published",
+      "owner": "Existing published article, preserved",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/liverpool-9-crystal-palace-0",
+      "approval": null,
+      "notes": "Existing canonical article discovered during duplicate check; preserve prose, URL and classification. No new publication or factual classification asserted.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1989-11-26-classic-193",
+      "event": "Liverpool 2–1 Arsenal",
+      "historicalEventDate": "1989-11-26",
+      "featuredWeek": "2026-11-23",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-193",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1989-12-16-classic-194",
+      "event": "Chelsea 2–5 Liverpool",
+      "historicalEventDate": "1989-12-16",
+      "featuredWeek": "2026-12-14",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-194",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1990-01-09-classic-195",
+      "event": "Liverpool 8–0 Swansea City",
+      "historicalEventDate": "1990-01-09",
+      "featuredWeek": "2026-01-05",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-195",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1990-02-03-classic-196",
+      "event": "Liverpool 2–1 Everton",
+      "historicalEventDate": "1990-02-03",
+      "featuredWeek": "2026-02-02",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
+      "claim": {
+        "token": "01a0a524-classic-196",
+        "claimedAt": "2026-09-15T14:48:10.972Z",
+        "baseCommit": "2027146d6ea66401e399a20fc322522465b77bdc"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": {
+        "by": "Denny",
+        "recordedAt": "2026-09-15T14:48:10.972Z",
+        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
+      },
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation.",
+      "evidence": [
+        {
+          "location": "../sources/classic-liverpool-games-1970-1990(1).md",
+          "confidence": "unverified",
+          "scope": "Longlist provenance only; fresh factual verification required."
+        }
+      ],
+      "researchStatus": "needs_research"
     }
   ],
   "gaps": [
@@ -6517,7 +6965,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T14:48:10.731Z",
+  "updatedAt": "2026-09-15T14:48:10.972Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
