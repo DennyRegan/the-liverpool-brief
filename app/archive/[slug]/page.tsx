@@ -1,3 +1,5 @@
+import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
+import { getArticleExperiences, toExperienceSummary } from "@/lib/content/interactive-history";
 import { ArchiveSeasonLink } from "@/app/components/ArchiveSeasonLink";
 import { getSeasons } from "@/lib/content/seasons";
 import Link from "next/link";
@@ -132,6 +134,7 @@ export default async function ArchiveFeaturePage({
             </ul>
           </div>
         )}
+      <ExperienceCards experiences={getArticleExperiences(feature.slug).map(toExperienceSummary)} headingId="article-interactive" />
         <ArchiveSeasonLink article={feature} seasons={getSeasons()} />
         <ArchiveDiscovery recommendations={recommendations} />
       </main>

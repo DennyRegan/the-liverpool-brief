@@ -63,9 +63,13 @@ try {
     assert.match(html, /href="\/history"/, `${route}: History is discoverable`);
   }
   const home = mainOf(await get('/'));
-  assert.deepEqual([...home.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1]), ['The Brief', 'Opinion', 'Archive']);
-  assert.equal((home.match(/<article>/g) ?? []).length, 3);
-  assert.ok(!home.includes('hx-'), 'homepage content is unchanged');
+  // The approved homepage now uses one Articles collection and separate History
+  // and weekly sections; do not resurrect the old Opinion/Archive layout here.
+  assert.deepEqual([...home.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1]), ['Articles', 'The Brief', 'Latest in History', 'This Week in History', 'Season spotlight', 'Explore Liverpool history']);
+  assert.doesNotMatch(home, /articles\?category=/);
+  assert.match(home, /href="\/articles"/);
+  assert.match(home, /href="\/history\/seasons/);
+  assert.match(home, /href="\/this-week"/);
   console.log(`PASS History landing, 16 era pages, 2 invalid routes and ${routes.length} existing routes`);
 } finally {
   if (server.exitCode === null) {

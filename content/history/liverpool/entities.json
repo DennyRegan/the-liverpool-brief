@@ -2333,5 +2333,130 @@
     "id": "swansea-city",
     "label": "Swansea City",
     "kind": "opposition"
+  },
+  {
+    "id": "ac-milan",
+    "label": "AC Milan",
+    "kind": "opposition"
+  },
+  {
+    "id": "ataturk-olympic-stadium",
+    "label": "Atatürk Olympic Stadium",
+    "kind": "location"
+  },
+  {
+    "id": "carlo-ancelotti",
+    "label": "Carlo Ancelotti",
+    "kind": "person"
+  },
+  {
+    "id": "dida",
+    "label": "Dida",
+    "kind": "person"
+  },
+  {
+    "id": "cafu",
+    "label": "Cafu",
+    "kind": "person"
+  },
+  {
+    "id": "jaap-stam",
+    "label": "Jaap Stam",
+    "kind": "person"
+  },
+  {
+    "id": "alessandro-nesta",
+    "label": "Alessandro Nesta",
+    "kind": "person"
+  },
+  {
+    "id": "paolo-maldini",
+    "label": "Paolo Maldini",
+    "kind": "person"
+  },
+  {
+    "id": "gennaro-gattuso",
+    "label": "Gennaro Gattuso",
+    "kind": "person"
+  },
+  {
+    "id": "andrea-pirlo",
+    "label": "Andrea Pirlo",
+    "kind": "person"
+  },
+  {
+    "id": "clarence-seedorf",
+    "label": "Clarence Seedorf",
+    "kind": "person"
+  },
+  {
+    "id": "kaka",
+    "label": "Kaká",
+    "kind": "person"
+  },
+  {
+    "id": "andriy-shevchenko",
+    "label": "Andriy Shevchenko",
+    "kind": "person"
+  },
+  {
+    "id": "hernan-crespo",
+    "label": "Hernán Crespo",
+    "kind": "person"
+  },
+  {
+    "id": "jon-dahl-tomasson",
+    "label": "Jon Dahl Tomasson",
+    "kind": "person"
+  },
+  {
+    "id": "serginho",
+    "label": "Serginho",
+    "kind": "person"
+  },
+  {
+    "id": "rui-costa",
+    "label": "Rui Costa",
+    "kind": "person"
+  },
+  {
+    "id": "christian-abbiati",
+    "label": "Christian Abbiati",
+    "kind": "person"
+  },
+  {
+    "id": "kakha-kaladze",
+    "label": "Kakha Kaladze",
+    "kind": "person"
+  },
+  {
+    "id": "alessandro-costacurta",
+    "label": "Alessandro Costacurta",
+    "kind": "person"
+  },
+  {
+    "id": "vikash-dhorasoo",
+    "label": "Vikash Dhorasoo",
+    "kind": "person"
+  },
+  {
+    "id": "grazer-ak",
+    "label": "Grazer AK",
+    "kind": "opposition"
+  },
+  {
+    "id": "olympiacos",
+    "label": "Olympiacos",
+    "kind": "opposition"
+  },
+  {
+    "id": "deportivo-la-coruna",
+    "label": "Deportivo La Coruña",
+    "kind": "opposition"
+  },
+  {
+    "id": "bayer-leverkusen",
+    "label": "Bayer Leverkusen",
+    "kind": "opposition"
   }
 ]
