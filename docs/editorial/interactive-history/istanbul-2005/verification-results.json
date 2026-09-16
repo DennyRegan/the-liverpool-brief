@@ -1,0 +1,197 @@
+{
+  "verifiedAt": "2026-09-16T18:19:03.312Z",
+  "implementationCommit": "61ec00fc751fb3c9cf5c210e6f2384592278b79f",
+  "rebasedMainCommit": "2992d68",
+  "specificationBaselineCommit": "7c3fde673c01904d81cec930f66064bf7cf45565",
+  "tests": {
+    "command": "npm test",
+    "passed": 122,
+    "failed": 0
+  },
+  "lint": {
+    "command": "npm run lint",
+    "passed": true
+  },
+  "productionBuild": {
+    "command": "INTERACTIVE_HISTORY_PREVIEW=istanbul-2005 npm run build",
+    "passed": true,
+    "nextVersion": "16.2.11",
+    "publishedExperiences": 0
+  },
+  "routeChecks": {
+    "seasons": {
+      "passed": true,
+      "pages": 67,
+      "internalDestinations": 293,
+      "invalidRoutes": 3
+    },
+    "historyExplorer": {
+      "passed": true,
+      "eras": 16,
+      "existingRoutes": 230,
+      "invalidRoutes": 2
+    },
+    "interactiveHistory": {
+      "passed": true,
+      "publicExperiences": 0,
+      "productionAllowlistSet": true,
+      "draftCollectionAndPreviewReturn404": true,
+      "discoveryHidden": true,
+      "productionTraceFilesChecked": 24,
+      "draftFilesInProductionTraces": 0
+    }
+  },
+  "performance": {
+    "method": "Production client-reference manifest: Interactive History chunks excluding chunks shared with History Matches; Node gzip and Brotli compression of emitted bytes. Control payload is the explicit local draft projection.",
+    "additionalFeatureJavaScript": {
+      "chunks": [
+        {
+          "chunk": "/_next/static/chunks/44qfq3eyz1tct.js",
+          "rawBytes": 17436,
+          "gzipBytes": 6025,
+          "brotliBytes": 5324
+        }
+      ],
+      "totalGzipBytes": 6025,
+      "budgetGzipBytes": 50000
+    },
+    "controlModel": {
+      "rawBytes": 8101,
+      "gzipBytes": 1285,
+      "brotliBytes": 1075,
+      "budgetGzipBytes": 75000
+    },
+    "webVitals": "No production field or production-page Web Vitals claim: the draft preview is intentionally unavailable in production. Development browser interaction checks are recorded separately."
+  },
+  "regression": {
+    "protectedContentUnchangedAgainstRebasedMain": true,
+    "paths": [
+      "docs/editorial/history-calendar.json",
+      "content/archive",
+      "content/articles",
+      "content/briefs",
+      "content/history/liverpool/seasons"
+    ]
+  },
+  "observations": [
+    "Next.js logs Internal: NoFallbackError for deliberate invalid static route requests; the route verifiers confirm the correct HTTP 404 responses.",
+    "The synthetic alternate match and Istanbul no-JavaScript document are exercised by the 122-test suite."
+  ],
+  "browser": {
+    "checks": [
+      "Half-time deep link starts at 0–3",
+      "Restart comparison and Hamann card preserve half-time state and history",
+      "Moment index preserves state; deliberate shoot-out entry resets to zero",
+      "Nine alternating reveals, exact tallies, separate match score and no tenth kick",
+      "Rewind and browser Back/Forward restore the same penalty prefix",
+      "Reset adds no duplicate entry; complete record is an independent disclosure",
+      "Attempt-five deep link resolves to five attempts and 2–1",
+      "Outcome deep link opens result; closing it preserves completed shoot-out",
+      "Source navigation and return preserve historical state and history",
+      "Leaving for canonical season and Back restores half-time",
+      "320/375/390/430/768/1280 widths have no page or state-bar overflow",
+      "Keyboard reveal and rewind retain stable action focus",
+      "Text enlargement and 400%-equivalent reflow preserve content; short viewport relaxes stickiness",
+      "Without JavaScript all moments and complete penalty disclosure remain readable"
+    ],
+    "errors": [],
+    "axeViolations": []
+  },
+  "browserEdges": {
+    "checks": [
+      "Introduction shortcut reaches half-time",
+      "Passive skipped-heading scroll replaces fragment without history entry",
+      "Passive penalty re-entry retains fifth attempt",
+      "Explicit penalty entry resets retained cursor",
+      "Opening and scrolling early aftermath never concludes the shoot-out",
+      "Reset removes stale winner announcement",
+      "Resize preserves moment and focus",
+      "Clipboard failure shows selectable complete moment URL",
+      "Unknown fragment recovers at introduction",
+      "Fresh source deep link resolves without historical jump",
+      "Axe WCAG A/AA scan has no violations",
+      "Delayed hydration shows neutral state and no premature penalty record"
+    ],
+    "axeViolations": [],
+    "performance": {
+      "environment": "Warm local development preview, Chromium, 390x844; no mobile CPU/network throttle; not field INP or production LCP",
+      "loadMetrics": {
+        "cls": 0,
+        "lcp": 280,
+        "events": []
+      },
+      "metrics": {
+        "cls": 0,
+        "lcp": 280,
+        "events": [
+          {
+            "name": "pointerdown",
+            "duration": 40
+          },
+          {
+            "name": "pointerup",
+            "duration": 40
+          },
+          {
+            "name": "click",
+            "duration": 40
+          },
+          {
+            "name": "pointerdown",
+            "duration": 16
+          },
+          {
+            "name": "pointerup",
+            "duration": 16
+          },
+          {
+            "name": "click",
+            "duration": 16
+          },
+          {
+            "name": "pointerdown",
+            "duration": 16
+          },
+          {
+            "name": "pointerup",
+            "duration": 16
+          },
+          {
+            "name": "click",
+            "duration": 16
+          },
+          {
+            "name": "pointerdown",
+            "duration": 24
+          },
+          {
+            "name": "pointerup",
+            "duration": 24
+          },
+          {
+            "name": "click",
+            "duration": 24
+          },
+          {
+            "name": "pointerdown",
+            "duration": 16
+          },
+          {
+            "name": "pointerup",
+            "duration": 16
+          },
+          {
+            "name": "click",
+            "duration": 16
+          }
+        ]
+      }
+    }
+  },
+  "additionalKeyboardCheck": "Keyboard activation of Go to half-time focuses #half-time visibly below the state bar.",
+  "manualReviewRemaining": [
+    "Physical mobile VoiceOver",
+    "Real-device and actual browser text/zoom review",
+    "Editorial approval of narrative, claim wording/locators and tactical schematics"
+  ]
+}
