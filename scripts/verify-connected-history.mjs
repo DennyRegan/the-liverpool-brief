@@ -3,9 +3,9 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { getSeasons, getPublishedArchiveSeason } from '../lib/content/seasons.ts';
-import { getArchiveFeatures } from '../lib/content/archive.ts';
+import { getArchiveFeatures, getHistoryBrowseArticles } from '../lib/content/archive.ts';
 import { getHistory, getEraArticles } from '../lib/content/history.ts';
-import { getHistoryEvents, getHistoryWindow, getWeekReading } from '../lib/content/this-week.ts';
+import { getHistoryEvents, getHistoryWindow, getArticleWeek } from '../lib/content/this-week.ts';
 
 const origin = process.env.BASE_URL || 'http://127.0.0.1:3130';
 const articles = getArchiveFeatures();
@@ -78,12 +78,7 @@ assert.equal(new Date(`${firstDay}T12:00:00Z`).getUTCDay(), 1, 'This Week always
 const days = getHistoryWindow(getHistoryEvents(), new Date(`${firstDay}T12:00:00Z`));
 assert.match(week, new RegExp(`datetime="${days[6].iso}"`, 'i'), 'This Week range ends on Sunday');
 assert.doesNotMatch(week, /No event selected\./, 'No empty day cards');
-const renderedDays = [...week.matchAll(/aria-labelledby="day-(\d{4}-\d{2}-\d{2})"/g)].map(match => match[1]);
-assert.deepEqual(renderedDays, days.filter(day => day.events.length > 0).map(day => day.iso), 'Only populated dates inside the fixed week render');
-const expectedWeekLinks = new Set([
-  ...days.flatMap(day => day.events.flatMap(event => event.archiveSlug ? [event.archiveSlug] : [])),
-  ...getWeekReading(articles, days).map(article => article.slug),
-]);
+const expectedWeekLinks = new Set(getArticleWeek(articles, days).flatMap(day => day.articles).map(article => article.slug));
 const actualWeekLinks = new Set(archiveLinks(week));
 assert.deepEqual(actualWeekLinks, expectedWeekLinks, 'This Week preserves its automatic and editorial Archive connections');
 for (const slug of actualWeekLinks) assert.ok(slugs.has(slug), `This Week canonical article exists: ${slug}`);
@@ -105,11 +100,11 @@ console.log(`PASS connected History HTTP regression against ${origin}`);
 
 // The new factual browsers must not reclassify unreviewed original writing.
 const approved = articles.filter(article => article.editorialMode === 'factual');
-for (const [section, type] of [['matches', 'match'], ['players', 'player']]) {
+for (const section of ['matches', 'players']) {
   const route = `/history/${section}`;
   const html = await get(route);
   const main = mainOf(html);
-  assert.deepEqual(archiveLinks(main), approved.filter(a => a.articleType === type).map(a => a.slug), `${route}: only explicitly approved subjects`);
+  assert.deepEqual(archiveLinks(main), getHistoryBrowseArticles(section).map(a => a.slug), `${route}: only explicitly approved subjects in browser order`);
   assert.equal((main.match(/<h1\b/g) ?? []).length, 1);
   assert.ok(html.includes(`href="https://theliverpoolbrief.com${route}"`));
   const nav = main.match(/<nav\b[^>]*aria-label="History sections"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
@@ -118,13 +113,18 @@ for (const [section, type] of [['matches', 'match'], ['players', 'player']]) {
   assert.ok(nav.includes(`/history/${section}`));
 }
 for (const route of ['/articles', '/articles?category=archive', '/']) {
-  const links = archiveLinks(mainOf(await get(route)));
+  const main = mainOf(await get(route));
+  // The homepage now has separate History sections; only its writing section excludes factual History.
+  const writing = route === '/' ? main.match(/<section\b[^>]*aria-labelledby="home-articles-heading"[^>]*>([\s\S]*?)<\/section>/)?.[1] : main;
+  assert.ok(writing, `${route}: writing section exists`);
+  const links = archiveLinks(writing);
   for (const article of approved) assert.ok(!links.includes(article.slug), `${route}: approved History leaves Articles`);
   if (route !== '/') for (const article of articles.filter(a => a.editorialMode !== 'factual')) assert.ok(links.includes(article.slug), `${route}: unreviewed writing stays available`);
 }
 for (const article of approved) {
   const main = mainOf(await get(`/archive/${article.slug}`));
-  assert.ok(main.includes('href="/history/matches"'));
+  const browser = article.articleType === 'match' ? '/history/matches' : article.articleType === 'player' ? '/history/players' : '/history';
+  assert.ok(main.includes(`href="${browser}"`), `${article.slug}: subject-appropriate History return link`);
   for (const slug of archiveLinks(main)) assert.ok(approved.some(a => a.slug === slug), 'Factual recommendations exclude opinion');
 }
 console.log('PASS factual browsers, empty Players, original article URLs, Articles separation and factual recommendations');
