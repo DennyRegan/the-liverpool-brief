@@ -1703,7 +1703,7 @@
   "diagrams": [
     {
       "id": "liverpool-start",
-      "title": "Liverpool starting structure",
+      "title": "Liverpool starting formation",
       "side": "subject",
       "personnelBoundary": null,
       "depictedPeriod": "Before kick-off",
@@ -1829,10 +1829,10 @@
     },
     {
       "id": "milan-start",
-      "title": "Milan’s starting structure",
+      "title": "Milan’s starting formation",
       "side": "opposition",
       "personnelBoundary": null,
-      "depictedPeriod": "Milan’s starting structure",
+      "depictedPeriod": "Milan’s starting formation",
       "partial": false,
       "players": [
         {
@@ -2503,7 +2503,7 @@
       ],
       "confidence": "Medium",
       "status": "approved",
-      "temporalScope": "Starting structure and first half",
+      "temporalScope": "Starting formation and first half",
       "displayTreatment": "interpretation-label",
       "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
@@ -3832,7 +3832,7 @@
       ],
       "confidence": "Medium",
       "status": "approved",
-      "temporalScope": "Milan starting structure",
+      "temporalScope": "Milan starting formation",
       "displayTreatment": "interpretation-label",
       "reviewNote": "Role schematic approved with the experience by Denny on 16 September 2026; diagram coordinates are display choices, not measured historical positions."
     }
