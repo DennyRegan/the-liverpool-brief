@@ -193,5 +193,15 @@
     "Physical mobile VoiceOver",
     "Real-device and actual browser text/zoom review",
     "Editorial approval of narrative, claim wording/locators and tactical schematics"
-  ]
+  ],
+  "finalContentCheck": {
+    "checkedAt": "2026-09-16T18:25:01.135Z",
+    "change": "Aligned the draft title to Istanbul 2005 so the generic public metadata matches specification section 3.2 exactly. No renderer, interaction or production-eligible content changed.",
+    "unitTestsPassed": 122,
+    "unitTestsFailed": 0,
+    "historyValidationPassed": true,
+    "localPreviewStatus": 200,
+    "hydratedHeadingAndPreviewTitlePassed": true,
+    "desktopScreenshotRefreshed": true
+  }
 }
