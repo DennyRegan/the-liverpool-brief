@@ -1,29 +1,24 @@
 ---
 {
-  "lastUpdated": "2026-09-14T17:21:54.369Z",
+  "lastUpdated": "2026-09-16T17:50:20.757Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
     {
-      "headline": "Gomez set to return; Mamardashvili to start against Spurs",
-      "category": "Team news",
-      "summary": "Joe Gomez is expected to be available for Liverpool’s Carabao Cup third-round tie against Tottenham at Anfield on 15 September, following a muscle injury sustained in pre-season. Andoni Iraola will decide how many minutes he can play and has confirmed Giorgi Mamardashvili will start in goal. Conor Bradley remains some way from returning to team training.",
+      "headline": "Liverpool beat Tottenham to reach Carabao Cup fourth round",
+      "category": "Match",
+      "summary": "Liverpool beat Tottenham 3–1 at Anfield on 15 September, with Alexis Mac Allister, Cody Gakpo and Dominik Szoboszlai scoring. Conor Gallagher pulled one back before Szoboszlai’s stoppage-time strike secured progress. Andoni Iraola made 10 changes, while Joe Gomez returned as captain and played 45 minutes; his half-time substitution was planned.",
       "sources": [
         {
           "name": "Liverpool FC — confidence: high",
-          "platform": "Official fitness update, 14 September 2026",
-          "url": "https://www.liverpoolfc.com/news/fitness-latest-joe-gomez-return-update-conor-bradley"
+          "platform": "Official match report, 15 September 2026",
+          "url": "https://www.liverpoolfc.com/news/liverpool-beat-spurs-secure-carabao-cup-progress-anfield"
         },
         {
           "name": "Liverpool FC — confidence: high",
-          "platform": "Official Tottenham team news, 14 September 2026",
-          "url": "https://www.liverpoolfc.com/news/liverpool-v-tottenham-hotspur-team-news-4"
-        },
-        {
-          "name": "Reuters — confidence: high",
-          "platform": "Press conference report, 14 September 2026",
-          "url": "https://www.reuters.com/sports/soccer/iraola-weighing-player-workloads-liverpool-prepare-spurs-clash-2026-09-14/"
+          "platform": "Official post-match press conference, 15 September 2026",
+          "url": "https://www.liverpoolfc.com/news/andoni-iraola-press-conference-carabao-cup-win-contagious-koumas-and-szoboszlai-worldie"
         }
       ]
     },
