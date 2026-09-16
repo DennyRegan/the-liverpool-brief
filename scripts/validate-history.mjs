@@ -22,3 +22,8 @@ console.log(`Validated ${history.eras.length} managerial eras and ${articles.len
 
 console.log(`Validated ${getSeasons().length} structured season records.`);
 console.log(`Validated ${validateCalendar(JSON.parse(fs.readFileSync(calendarPath, 'utf8'))).length} shared editorial calendar entries.`);
+
+// The loader remains a server-only module; Node CLI validation has no browser graph.
+await import("./register-server-only.mjs");
+const { getPublishedExperiences } = await import("../lib/content/interactive-history.ts");
+console.log(`Validated ${getPublishedExperiences().length} published interactive experiences.`);

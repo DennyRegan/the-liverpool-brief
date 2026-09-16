@@ -1,0 +1,4067 @@
+{
+  "schemaVersion": 1,
+  "id": "istanbul-2005",
+  "kind": "match",
+  "title": "Istanbul 2005",
+  "standfirst": "Follow Liverpool and AC Milan from kick-off through the half-time change, the comeback and the final’s resolution. Pause to examine the teams, roles and evidence at each moment.",
+  "dateRange": {
+    "start": "2005-05-25",
+    "end": "2005-05-25"
+  },
+  "relationships": {
+    "seasonIds": [
+      "2004-05"
+    ],
+    "eraIds": [
+      "rafael-benitez"
+    ],
+    "playerIds": [
+      "steven-gerrard",
+      "dietmar-hamann",
+      "jerzy-dudek",
+      "xabi-alonso",
+      "vladimir-smicer"
+    ],
+    "managerIds": [
+      "rafael-benitez",
+      "carlo-ancelotti"
+    ],
+    "oppositionIds": [
+      "ac-milan"
+    ],
+    "competitionIds": [
+      "european-cup"
+    ],
+    "locationIds": [
+      "ataturk-olympic-stadium"
+    ],
+    "articleSlugs": [
+      "liverpool-monaco-champions-league-2004"
+    ]
+  },
+  "match": {
+    "oppositionId": "ac-milan",
+    "rosters": {
+      "subject": {
+        "starters": [
+          {
+            "personId": "jerzy-dudek",
+            "shirtNumber": 1
+          },
+          {
+            "personId": "steve-finnan",
+            "shirtNumber": 3
+          },
+          {
+            "personId": "sami-hyypia",
+            "shirtNumber": 4
+          },
+          {
+            "personId": "milan-baros",
+            "shirtNumber": 5
+          },
+          {
+            "personId": "john-arne-riise",
+            "shirtNumber": 6
+          },
+          {
+            "personId": "harry-kewell",
+            "shirtNumber": 7
+          },
+          {
+            "personId": "steven-gerrard",
+            "shirtNumber": 8
+          },
+          {
+            "personId": "luis-garcia",
+            "shirtNumber": 10
+          },
+          {
+            "personId": "xabi-alonso",
+            "shirtNumber": 14
+          },
+          {
+            "personId": "djimi-traore",
+            "shirtNumber": 21
+          },
+          {
+            "personId": "jamie-carragher",
+            "shirtNumber": 23
+          }
+        ],
+        "substitutes": [
+          {
+            "personId": "scott-carson",
+            "shirtNumber": 20
+          },
+          {
+            "personId": "djibril-cisse",
+            "shirtNumber": 9
+          },
+          {
+            "personId": "vladimir-smicer",
+            "shirtNumber": 11
+          },
+          {
+            "personId": "dietmar-hamann",
+            "shirtNumber": 16
+          },
+          {
+            "personId": "josemi",
+            "shirtNumber": 17
+          },
+          {
+            "personId": "antonio-nunez",
+            "shirtNumber": 18
+          },
+          {
+            "personId": "igor-biscan",
+            "shirtNumber": 25
+          }
+        ]
+      },
+      "opposition": {
+        "starters": [
+          {
+            "personId": "dida",
+            "shirtNumber": 1
+          },
+          {
+            "personId": "cafu",
+            "shirtNumber": 2
+          },
+          {
+            "personId": "paolo-maldini",
+            "shirtNumber": 3
+          },
+          {
+            "personId": "andriy-shevchenko",
+            "shirtNumber": 7
+          },
+          {
+            "personId": "gennaro-gattuso",
+            "shirtNumber": 8
+          },
+          {
+            "personId": "hernan-crespo",
+            "shirtNumber": 11
+          },
+          {
+            "personId": "alessandro-nesta",
+            "shirtNumber": 13
+          },
+          {
+            "personId": "clarence-seedorf",
+            "shirtNumber": 20
+          },
+          {
+            "personId": "andrea-pirlo",
+            "shirtNumber": 21
+          },
+          {
+            "personId": "kaka",
+            "shirtNumber": 22
+          },
+          {
+            "personId": "jaap-stam",
+            "shirtNumber": 31
+          }
+        ],
+        "substitutes": [
+          {
+            "personId": "christian-abbiati",
+            "shirtNumber": 46
+          },
+          {
+            "personId": "kakha-kaladze",
+            "shirtNumber": 4
+          },
+          {
+            "personId": "alessandro-costacurta",
+            "shirtNumber": 5
+          },
+          {
+            "personId": "rui-costa",
+            "shirtNumber": 10
+          },
+          {
+            "personId": "jon-dahl-tomasson",
+            "shirtNumber": 15
+          },
+          {
+            "personId": "vikash-dhorasoo",
+            "shirtNumber": 24
+          },
+          {
+            "personId": "serginho",
+            "shirtNumber": 27
+          }
+        ]
+      }
+    },
+    "rules": {
+      "substitutionLimit": 3,
+      "allowReentry": false,
+      "extraTimeSubstitutionBonus": 0,
+      "resolution": "extra-time-then-penalties",
+      "claimIds": [
+        "historical-rules",
+        "named-squads"
+      ]
+    },
+    "competitionLabel": "UEFA Champions League final"
+  },
+  "events": [
+    {
+      "id": "match-started",
+      "sequence": 1,
+      "type": "phase-change",
+      "time": {
+        "label": "Kick-off",
+        "precision": "phase"
+      },
+      "payload": {
+        "phase": "first-half"
+      },
+      "claimIds": [
+        "match-started-claim"
+      ]
+    },
+    {
+      "id": "maldini-goal",
+      "sequence": 2,
+      "type": "goal",
+      "time": {
+        "label": "1′",
+        "precision": "minute",
+        "minute": 1
+      },
+      "payload": {
+        "side": "opposition",
+        "scorerId": "paolo-maldini",
+        "classification": "open-play"
+      },
+      "claimIds": [
+        "maldini-goal-claim",
+        "first-goal-construction",
+        "maldini-timing"
+      ]
+    },
+    {
+      "id": "smicer-for-kewell",
+      "sequence": 3,
+      "type": "substitution",
+      "time": {
+        "label": "23′",
+        "precision": "minute",
+        "minute": 23
+      },
+      "payload": {
+        "side": "subject",
+        "outgoingId": "harry-kewell",
+        "incomingId": "vladimir-smicer"
+      },
+      "claimIds": [
+        "smicer-for-kewell-claim"
+      ]
+    },
+    {
+      "id": "crespo-goal-one",
+      "sequence": 4,
+      "type": "goal",
+      "time": {
+        "label": "39′",
+        "precision": "minute",
+        "minute": 39
+      },
+      "payload": {
+        "side": "opposition",
+        "scorerId": "hernan-crespo",
+        "classification": "open-play"
+      },
+      "claimIds": [
+        "crespo-goal-one-claim",
+        "second-goal-construction"
+      ]
+    },
+    {
+      "id": "crespo-goal-two",
+      "sequence": 5,
+      "type": "goal",
+      "time": {
+        "label": "44′",
+        "precision": "minute",
+        "minute": 44
+      },
+      "payload": {
+        "side": "opposition",
+        "scorerId": "hernan-crespo",
+        "classification": "open-play"
+      },
+      "claimIds": [
+        "crespo-goal-two-claim",
+        "third-goal-construction"
+      ]
+    },
+    {
+      "id": "interval-start",
+      "sequence": 6,
+      "type": "phase-change",
+      "time": {
+        "label": "Half-time",
+        "precision": "phase"
+      },
+      "payload": {
+        "phase": "interval"
+      },
+      "claimIds": [
+        "interval-start-claim"
+      ]
+    },
+    {
+      "id": "hamann-for-finnan",
+      "sequence": 7,
+      "type": "substitution",
+      "time": {
+        "label": "Half-time",
+        "precision": "interval"
+      },
+      "payload": {
+        "side": "subject",
+        "outgoingId": "steve-finnan",
+        "incomingId": "dietmar-hamann"
+      },
+      "claimIds": [
+        "hamann-for-finnan-claim"
+      ]
+    },
+    {
+      "id": "second-half-start",
+      "sequence": 8,
+      "type": "phase-change",
+      "time": {
+        "label": "Second-half restart",
+        "precision": "phase"
+      },
+      "payload": {
+        "phase": "second-half"
+      },
+      "claimIds": [
+        "second-half-start-claim"
+      ]
+    },
+    {
+      "id": "gerrard-goal",
+      "sequence": 9,
+      "type": "goal",
+      "time": {
+        "label": "54′",
+        "precision": "minute",
+        "minute": 54
+      },
+      "payload": {
+        "side": "subject",
+        "scorerId": "steven-gerrard",
+        "classification": "open-play"
+      },
+      "claimIds": [
+        "gerrard-goal-claim",
+        "gerrard-construction"
+      ]
+    },
+    {
+      "id": "smicer-goal",
+      "sequence": 10,
+      "type": "goal",
+      "time": {
+        "label": "56′",
+        "precision": "minute",
+        "minute": 56
+      },
+      "payload": {
+        "side": "subject",
+        "scorerId": "vladimir-smicer",
+        "classification": "open-play"
+      },
+      "claimIds": [
+        "smicer-goal-claim",
+        "smicer-construction"
+      ]
+    },
+    {
+      "id": "liverpool-penalty-awarded",
+      "sequence": 11,
+      "type": "penalty-awarded",
+      "time": {
+        "label": "60′",
+        "precision": "minute",
+        "minute": 60
+      },
+      "payload": {
+        "side": "subject",
+        "involvedPersonIds": [
+          "steven-gerrard",
+          "gennaro-gattuso"
+        ]
+      },
+      "claimIds": [
+        "liverpool-penalty-awarded-claim"
+      ]
+    },
+    {
+      "id": "alonso-penalty-saved",
+      "sequence": 12,
+      "type": "penalty-saved",
+      "time": {
+        "label": "60′",
+        "precision": "minute",
+        "minute": 60
+      },
+      "payload": {
+        "side": "subject",
+        "takerId": "xabi-alonso",
+        "goalkeeperId": "dida"
+      },
+      "claimIds": [
+        "alonso-penalty-saved-claim"
+      ]
+    },
+    {
+      "id": "alonso-rebound-goal",
+      "sequence": 13,
+      "type": "goal",
+      "time": {
+        "label": "60′",
+        "precision": "minute",
+        "minute": 60
+      },
+      "payload": {
+        "side": "subject",
+        "scorerId": "xabi-alonso",
+        "classification": "rebound"
+      },
+      "claimIds": [
+        "alonso-rebound-goal-claim"
+      ]
+    },
+    {
+      "id": "carragher-booked",
+      "sequence": 14,
+      "type": "booking",
+      "time": {
+        "label": "76′",
+        "precision": "minute",
+        "minute": 76
+      },
+      "payload": {
+        "side": "subject",
+        "personId": "jamie-carragher"
+      },
+      "claimIds": [
+        "carragher-booked-claim"
+      ]
+    },
+    {
+      "id": "baros-booked",
+      "sequence": 15,
+      "type": "booking",
+      "time": {
+        "label": "81′",
+        "precision": "minute",
+        "minute": 81
+      },
+      "payload": {
+        "side": "subject",
+        "personId": "milan-baros"
+      },
+      "claimIds": [
+        "baros-booked-claim"
+      ]
+    },
+    {
+      "id": "cisse-for-baros",
+      "sequence": 16,
+      "type": "substitution",
+      "time": {
+        "label": "85′",
+        "precision": "minute",
+        "minute": 85
+      },
+      "payload": {
+        "side": "subject",
+        "outgoingId": "milan-baros",
+        "incomingId": "djibril-cisse"
+      },
+      "claimIds": [
+        "cisse-for-baros-claim"
+      ]
+    },
+    {
+      "id": "tomasson-for-crespo",
+      "sequence": 17,
+      "type": "substitution",
+      "time": {
+        "label": "85′",
+        "precision": "minute",
+        "minute": 85
+      },
+      "payload": {
+        "side": "opposition",
+        "outgoingId": "hernan-crespo",
+        "incomingId": "jon-dahl-tomasson"
+      },
+      "claimIds": [
+        "tomasson-for-crespo-claim"
+      ]
+    },
+    {
+      "id": "serginho-for-seedorf",
+      "sequence": 18,
+      "type": "substitution",
+      "time": {
+        "label": "86′",
+        "precision": "minute",
+        "minute": 86
+      },
+      "payload": {
+        "side": "opposition",
+        "outgoingId": "clarence-seedorf",
+        "incomingId": "serginho"
+      },
+      "claimIds": [
+        "serginho-for-seedorf-claim"
+      ]
+    },
+    {
+      "id": "normal-time-ended",
+      "sequence": 19,
+      "type": "phase-change",
+      "time": {
+        "label": "End of normal time",
+        "precision": "phase"
+      },
+      "payload": {
+        "phase": "end-normal-time"
+      },
+      "claimIds": [
+        "normal-time-ended-claim"
+      ]
+    },
+    {
+      "id": "extra-time-started",
+      "sequence": 20,
+      "type": "phase-change",
+      "time": {
+        "label": "Extra time begins",
+        "precision": "phase"
+      },
+      "payload": {
+        "phase": "extra-time-first"
+      },
+      "claimIds": [
+        "extra-time-started-claim"
+      ]
+    },
+    {
+      "id": "extra-time-interval",
+      "sequence": 21,
+      "type": "phase-change",
+      "time": {
+        "label": "Extra-time interval",
+        "precision": "phase"
+      },
+      "payload": {
+        "phase": "extra-time-interval"
+      },
+      "claimIds": [
+        "extra-time-interval-claim"
+      ]
+    },
+    {
+      "id": "extra-time-second-started",
+      "sequence": 22,
+      "type": "phase-change",
+      "time": {
+        "label": "Second extra-time period",
+        "precision": "phase"
+      },
+      "payload": {
+        "phase": "extra-time-second"
+      },
+      "claimIds": [
+        "extra-time-second-started-claim"
+      ]
+    },
+    {
+      "id": "rui-costa-for-gattuso",
+      "sequence": 23,
+      "type": "substitution",
+      "time": {
+        "label": "112′",
+        "precision": "minute",
+        "minute": 112
+      },
+      "payload": {
+        "side": "opposition",
+        "outgoingId": "gennaro-gattuso",
+        "incomingId": "rui-costa"
+      },
+      "claimIds": [
+        "rui-costa-for-gattuso-claim"
+      ]
+    },
+    {
+      "id": "dudek-double-save",
+      "sequence": 24,
+      "type": "incident",
+      "time": {
+        "label": "Late extra time",
+        "precision": "approximate"
+      },
+      "payload": {
+        "subtype": "goalkeeper-intervention",
+        "involvedPersonIds": [
+          "jerzy-dudek",
+          "andriy-shevchenko"
+        ]
+      },
+      "claimIds": [
+        "dudek-double-save-claim"
+      ]
+    },
+    {
+      "id": "extra-time-ended",
+      "sequence": 25,
+      "type": "phase-change",
+      "time": {
+        "label": "After extra time",
+        "precision": "phase"
+      },
+      "payload": {
+        "phase": "end-extra-time"
+      },
+      "claimIds": [
+        "extra-time-ended-claim"
+      ]
+    },
+    {
+      "id": "shootout-started",
+      "sequence": 26,
+      "type": "shootout-start",
+      "time": {
+        "label": "Shoot-out",
+        "precision": "phase"
+      },
+      "payload": {
+        "firstSide": "opposition",
+        "eligibleTakers": {
+          "subject": [
+            "jerzy-dudek",
+            "dietmar-hamann",
+            "sami-hyypia",
+            "djibril-cisse",
+            "john-arne-riise",
+            "vladimir-smicer",
+            "steven-gerrard",
+            "luis-garcia",
+            "xabi-alonso",
+            "djimi-traore",
+            "jamie-carragher"
+          ],
+          "opposition": [
+            "dida",
+            "cafu",
+            "paolo-maldini",
+            "andriy-shevchenko",
+            "rui-costa",
+            "jon-dahl-tomasson",
+            "alessandro-nesta",
+            "serginho",
+            "andrea-pirlo",
+            "kaka",
+            "jaap-stam"
+          ]
+        },
+        "initialKicks": 5
+      },
+      "claimIds": [
+        "shootout-started-claim",
+        "penalty-procedure"
+      ]
+    },
+    {
+      "id": "penalty-1",
+      "sequence": 27,
+      "type": "shootout-attempt",
+      "time": {
+        "label": "Attempt 1",
+        "precision": "phase"
+      },
+      "payload": {
+        "side": "opposition",
+        "takerId": "serginho",
+        "result": "off-target",
+        "description": "Over"
+      },
+      "claimIds": [
+        "penalty-1-claim"
+      ]
+    },
+    {
+      "id": "penalty-2",
+      "sequence": 28,
+      "type": "shootout-attempt",
+      "time": {
+        "label": "Attempt 2",
+        "precision": "phase"
+      },
+      "payload": {
+        "side": "subject",
+        "takerId": "dietmar-hamann",
+        "result": "scored",
+        "description": "Scored"
+      },
+      "claimIds": [
+        "penalty-2-claim"
+      ]
+    },
+    {
+      "id": "penalty-3",
+      "sequence": 29,
+      "type": "shootout-attempt",
+      "time": {
+        "label": "Attempt 3",
+        "precision": "phase"
+      },
+      "payload": {
+        "side": "opposition",
+        "takerId": "andrea-pirlo",
+        "result": "saved",
+        "description": "Saved"
+      },
+      "claimIds": [
+        "penalty-3-claim"
+      ]
+    },
+    {
+      "id": "penalty-4",
+      "sequence": 30,
+      "type": "shootout-attempt",
+      "time": {
+        "label": "Attempt 4",
+        "precision": "phase"
+      },
+      "payload": {
+        "side": "subject",
+        "takerId": "djibril-cisse",
+        "result": "scored",
+        "description": "Scored"
+      },
+      "claimIds": [
+        "penalty-4-claim"
+      ]
+    },
+    {
+      "id": "penalty-5",
+      "sequence": 31,
+      "type": "shootout-attempt",
+      "time": {
+        "label": "Attempt 5",
+        "precision": "phase"
+      },
+      "payload": {
+        "side": "opposition",
+        "takerId": "jon-dahl-tomasson",
+        "result": "scored",
+        "description": "Scored"
+      },
+      "claimIds": [
+        "penalty-5-claim"
+      ]
+    },
+    {
+      "id": "penalty-6",
+      "sequence": 32,
+      "type": "shootout-attempt",
+      "time": {
+        "label": "Attempt 6",
+        "precision": "phase"
+      },
+      "payload": {
+        "side": "subject",
+        "takerId": "john-arne-riise",
+        "result": "saved",
+        "description": "Saved"
+      },
+      "claimIds": [
+        "penalty-6-claim"
+      ]
+    },
+    {
+      "id": "penalty-7",
+      "sequence": 33,
+      "type": "shootout-attempt",
+      "time": {
+        "label": "Attempt 7",
+        "precision": "phase"
+      },
+      "payload": {
+        "side": "opposition",
+        "takerId": "kaka",
+        "result": "scored",
+        "description": "Scored"
+      },
+      "claimIds": [
+        "penalty-7-claim"
+      ]
+    },
+    {
+      "id": "penalty-8",
+      "sequence": 34,
+      "type": "shootout-attempt",
+      "time": {
+        "label": "Attempt 8",
+        "precision": "phase"
+      },
+      "payload": {
+        "side": "subject",
+        "takerId": "vladimir-smicer",
+        "result": "scored",
+        "description": "Scored"
+      },
+      "claimIds": [
+        "penalty-8-claim"
+      ]
+    },
+    {
+      "id": "penalty-9",
+      "sequence": 35,
+      "type": "shootout-attempt",
+      "time": {
+        "label": "Attempt 9",
+        "precision": "phase"
+      },
+      "payload": {
+        "side": "opposition",
+        "takerId": "andriy-shevchenko",
+        "result": "saved",
+        "description": "Saved"
+      },
+      "claimIds": [
+        "penalty-9-claim"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "arrival",
+      "title": "Before kick-off"
+    },
+    {
+      "id": "first-half",
+      "title": "The first half"
+    },
+    {
+      "id": "interval",
+      "title": "Half-time and the change"
+    },
+    {
+      "id": "comeback",
+      "title": "The comeback"
+    },
+    {
+      "id": "remaining-play",
+      "title": "Resolving the final"
+    },
+    {
+      "id": "penalties",
+      "title": "The shoot-out"
+    },
+    {
+      "id": "outcome",
+      "title": "After the final"
+    }
+  ],
+  "moments": [
+    {
+      "id": "before-kickoff",
+      "chapterId": "arrival",
+      "title": "Before kick-off",
+      "afterEventId": null,
+      "presentation": "exploration",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Liverpool and AC Milan meet at the Atatürk Olympic Stadium in Istanbul on 25 May 2005, with the European Cup to be decided in one final. Rafael Benítez names Jerzy Dudek in goal and Milan Baroš in attack; Carlo Ancelotti's side includes Paolo Maldini, Andrea Pirlo, Kaká, Andriy Shevchenko and Hernán Crespo. Harry Kewell starts for Liverpool, with Dietmar Hamann among the seven named substitutes. These are the players available at the beginning, before injuries and replacements alter the choices.",
+          "claimIds": [
+            "final-setting",
+            "named-squads",
+            "coaches"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "Liverpool's route has run through qualifying, a group and three knockout rounds. They have overcome Grazer AK, finished second in their group and eliminated Bayer Leverkusen, Juventus and Chelsea. Fourteen European matches, including qualifying, have brought them here. The road below keeps those stages together: the final is a new match at 0–0, but the route explains why Olympiacos, Juventus and Chelsea already carry such significance in this campaign.",
+          "claimIds": [
+            "road-count",
+            "road-qualifying",
+            "road-group",
+            "road-last-sixteen",
+            "road-quarter-final",
+            "road-semi-final"
+          ]
+        },
+        {
+          "id": "paragraph-3",
+          "type": "paragraph",
+          "text": "Begin with the two teams, or follow the match forward. At the interval, pause to compare the personnel Benítez still has with the side that restarts. The question is how Liverpool can find a way back while containing a Milan attack that will demand attention throughout the evening. The formations shown here are explanations of roles, with their sources and limits attached. The named teams and the changes to them come from the match record.",
+          "claimIds": [
+            "starting-roles",
+            "named-squads"
+          ]
+        },
+        {
+          "id": "road-disclosure",
+          "type": "context",
+          "contextId": "road"
+        },
+        {
+          "id": "venue-disclosure",
+          "type": "context",
+          "contextId": "venue"
+        },
+        {
+          "id": "subject-teams",
+          "type": "personnel",
+          "side": "subject",
+          "boundary": null
+        },
+        {
+          "id": "opposition-teams",
+          "type": "personnel",
+          "side": "opposition",
+          "boundary": null
+        },
+        {
+          "id": "liverpool-start",
+          "type": "diagram",
+          "diagramId": "liverpool-start"
+        },
+        {
+          "id": "milan-start",
+          "type": "diagram",
+          "diagramId": "milan-start"
+        }
+      ]
+    },
+    {
+      "id": "maldini",
+      "chapterId": "first-half",
+      "title": "Maldini gives Milan the lead",
+      "afterEventId": "maldini-goal",
+      "presentation": "standard",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Milan lead in the first minute. Pirlo delivers a free-kick and Maldini meets it to beat Dudek. The score is already Liverpool 0–1 Milan: Liverpool must now find a goal while facing the threat of conceding again. The official event record gives 1′. That is the useful boundary here; UEFA's accounts differ over the exact second.",
+          "claimIds": [
+            "maldini-goal-claim",
+            "first-goal-construction",
+            "maldini-timing"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "An early goal does not describe everything that follows. Liverpool's first-half record will include attempts of their own, and the eventual interval figures should not be read as evidence that they never threatened. For now, the change is precise and substantial: all eleven starters remain on each side, but Milan hold the lead.",
+          "claimIds": [
+            "first-half-statistics-shots",
+            "named-squads",
+            "maldini-goal-claim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kewell-smicer",
+      "chapterId": "first-half",
+      "title": "Šmicer replaces Kewell",
+      "afterEventId": "smicer-for-kewell",
+      "presentation": "standard",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Vladimír Šmicer replaces Kewell in the 23rd minute. Liverpool's attack changes before the score changes again. Kewell later recalled leaving through injury; the contemporary UEFA account also describes him pulling up. The personnel record establishes the replacement, while those accounts supply the reason.",
+          "claimIds": [
+            "smicer-for-kewell-claim",
+            "kewell-injury"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "This is Liverpool's first substitution. Under the rules in use for this match they may make three, without re-entry: Kewell cannot come back on. Šmicer is therefore part of the side that reaches the interval. Any explanation of the half-time decision must begin with that changed XI, rather than with the team sheet issued before kick-off.",
+          "claimIds": [
+            "smicer-for-kewell-claim",
+            "historical-rules"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crespo-first",
+      "chapterId": "first-half",
+      "title": "Crespo doubles the lead",
+      "afterEventId": "crespo-goal-one",
+      "presentation": "standard",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Crespo makes it 0–2 in the 39th minute. Milan move forward, Kaká finds Shevchenko and the striker squares for Crespo to finish. The sequence connects Milan's creative player with both forwards; the goal record identifies Crespo as the scorer. Liverpool's task has grown from finding an equaliser to recovering a two-goal deficit.",
+          "claimIds": [
+            "crespo-goal-one-claim",
+            "second-goal-construction"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "The later tactical analysis focuses on the space Milan could use through the middle. That is an interpretation of how the attack developed, rather than a measured map of the players' positions. The firmer ground is the passing sequence described in the contemporary account and the second goal now recorded against Liverpool.",
+          "claimIds": [
+            "starting-roles",
+            "second-goal-construction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crespo-second",
+      "chapterId": "first-half",
+      "title": "Crespo makes it three",
+      "afterEventId": "crespo-goal-two",
+      "presentation": "standard",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Five minutes after his first, Crespo scores again. Kaká supplies the pass through to him, and the official record places the goal at 44′. Milan take a three-goal lead towards half-time. The second and third goals have arrived close together, but they remain separate moments: first a two-goal problem, then a three-goal one.",
+          "claimIds": [
+            "crespo-goal-two-claim",
+            "crespo-goal-one-claim",
+            "third-goal-construction"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "The interval has not yet brought a chance to reorganise. Liverpool still have Šmicer in Kewell's place and Finnan on the field. Those details matter because the next change will involve a player who started in defence and a substitute who can alter the midfield. The score tells Benítez what must be recovered; the available personnel constrain how he can attempt it.",
+          "claimIds": [
+            "smicer-for-kewell-claim",
+            "named-squads",
+            "historical-rules"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "half-time",
+      "chapterId": "interval",
+      "title": "Half-time: the problem and the options",
+      "afterEventId": "interval-start",
+      "presentation": "exploration",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "At half-time Liverpool trail 0–3. Šmicer has already replaced Kewell, leaving two substitutions available. Finnan remains in the interval XI. Hamann, Cissé, Carson, Josemi, Núñez and Bišćan are the six unused named substitutes. That is the bench from which the next change can be made; it is not proof that every player is fully fit. Kewell is no longer an option under the no-re-entry rule.",
+          "claimIds": [
+            "interval-start-claim",
+            "smicer-for-kewell-claim",
+            "named-squads",
+            "historical-rules"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "Finnan's injury adds a constraint that the team list alone cannot show. In Liverpool FC's later player recollections, Finnan describes being injured and receiving treatment; Hamann recalls learning that Finnan, rather than Traoré, would be the player replaced. These are attributed memories recorded a decade later. They help explain the choice, but should not be presented as a verbatim record of everything said in the dressing room.",
+          "claimIds": [
+            "finnan-injury"
+          ]
+        },
+        {
+          "id": "paragraph-3",
+          "type": "paragraph",
+          "text": "The first-half figures give another view of the situation. UEFA records Liverpool with five shots, one 'shot on goal' and 44 per cent possession, against Milan's seven, five and 56 per cent. The report describes the completed half. It does not establish that Benítez had this exact statistical sheet available during the break, and the counts cannot measure the quality of every opportunity. They do prevent a loose claim that Liverpool had offered no threat at all.",
+          "claimIds": [
+            "first-half-statistics-shots",
+            "first-half-statistics-shots-on-goal",
+            "first-half-statistics-possession"
+          ]
+        },
+        {
+          "id": "paragraph-4",
+          "type": "paragraph",
+          "text": "The tactical question is how to add an attacking threat without leaving the centre exposed. Liverpool FC's 2015 analysis interprets the change as three defenders behind a midfield strengthened by Hamann, with Gerrard able to move further forward. The comparison below separates the interval personnel from the restart. Selecting the second view does not move the match on: it shows the proposed answer alongside the problem. Both views are schematics, not tracking data or evidence that players occupied fixed coordinates. The change is Hamann for Finnan before the restart, leaving Liverpool one substitution.",
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim",
+            "historical-rules",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "id": "interval-teams",
+          "type": "personnel",
+          "side": "subject",
+          "boundary": "interval-start"
+        },
+        {
+          "id": "first-half-figures",
+          "type": "statistics",
+          "statisticsId": "first-half-statistics"
+        },
+        {
+          "id": "interval-comparison",
+          "type": "comparison",
+          "title": "Compare the interval with the restart",
+          "views": [
+            {
+              "label": "At the interval",
+              "boundary": "interval-start",
+              "diagramId": "liverpool-interval"
+            },
+            {
+              "label": "At the restart",
+              "boundary": "second-half-start",
+              "diagramId": "liverpool-restart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restart",
+      "chapterId": "interval",
+      "title": "Hamann on; Liverpool restart",
+      "afterEventId": "second-half-start",
+      "presentation": "standard",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Hamann replaces Finnan before the second half begins. Liverpool restart at 0–3 with one substitution left. The actual exchange of players is established by UEFA's report, which records the change at 46′; 'second-half restart' describes the boundary without inventing an elapsed second.",
+          "claimIds": [
+            "hamann-for-finnan-claim",
+            "second-half-start-claim",
+            "historical-rules",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "The labels used to explain the new shape differ. Liverpool FC's retrospective analysis calls it 3-4-2-1; the surrounding analysis in Sky Sports' later account uses 3-5-2. Neither label changes who has come on or gone off. The important explanatory connection is Hamann's presence in midfield and the opportunity for Gerrard to operate further forward. The diagram follows the club analysis while keeping that attribution visible.",
+          "claimIds": [
+            "shape-labels",
+            "restart-roles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gerrard",
+      "chapterId": "comeback",
+      "title": "Gerrard: one goal back",
+      "afterEventId": "gerrard-goal",
+      "presentation": "compact-sequence",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Gerrard heads in Riise's cross in the 54th minute. Liverpool have their first goal: 1–3. It reduces the deficit to two and gives a concrete expression to the captain's attacking involvement after the restart. Milan still lead, and Liverpool still need two more goals simply to draw level.",
+          "claimIds": [
+            "gerrard-goal-claim",
+            "gerrard-construction",
+            "restart-roles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smicer",
+      "chapterId": "comeback",
+      "title": "Šmicer: the gap closes",
+      "afterEventId": "smicer-goal",
+      "presentation": "compact-sequence",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Šmicer scores from outside the penalty area two minutes later. The substitute who entered before half-time now makes it 2–3. Liverpool have cut the gap to one. His shot is a separate step in the recovery, after Gerrard's header and before the penalty incident that will offer another opportunity.",
+          "claimIds": [
+            "smicer-goal-claim",
+            "smicer-construction",
+            "smicer-for-kewell-claim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alonso",
+      "chapterId": "comeback",
+      "title": "Alonso: level from the rebound",
+      "afterEventId": "alonso-rebound-goal",
+      "presentation": "compact-sequence",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Liverpool are awarded a penalty for Gattuso's foul on Gerrard. Dida saves Alonso's kick, but Alonso follows in and scores from the rebound at 60′. The match is level at 3–3. The goal is the rebound, not a successful penalty: this sequence belongs to open match play, wholly separate from the later shoot-out.",
+          "claimIds": [
+            "liverpool-penalty-awarded-claim",
+            "alonso-penalty-saved-claim",
+            "alonso-rebound-goal-claim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "holding-the-draw",
+      "chapterId": "remaining-play",
+      "title": "Level, with the match still to resolve",
+      "afterEventId": "serginho-for-seedorf",
+      "presentation": "standard",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Drawing level does not decide the final. Liverpool and Milan still have the remainder of normal time to play. The score stays at 3–3 while further personnel changes reshape the contest. Carragher is booked at 76′ and Baroš at 81′; these are recorded disciplinary events, not additional goals or substitutions.",
+          "claimIds": [
+            "alonso-rebound-goal-claim",
+            "carragher-booked-claim",
+            "baros-booked-claim"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "At 85′ Cissé replaces Baroš and Tomasson replaces Crespo. Both changes have the same official minute; their order in the record here does not claim to resolve which happened first within it. Liverpool have now used all three substitutions. Milan bring on Serginho for Seedorf at 86′, the minute given by UEFA. The named unused players remain visible, but Liverpool cannot turn those names into further changes under this match's rules.",
+          "claimIds": [
+            "cisse-for-baros-claim",
+            "tomasson-for-crespo-claim",
+            "serginho-for-seedorf-claim",
+            "historical-rules"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ninety",
+      "chapterId": "remaining-play",
+      "title": "Ninety minutes; no winner yet",
+      "afterEventId": "normal-time-ended",
+      "presentation": "standard",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Normal time ends with the teams still level at 3–3. Liverpool have recovered the three goals conceded in the first half, but neither side has won the match. The final proceeds to extra time, with two further periods to be played before penalties become necessary if the score remains equal.",
+          "claimIds": [
+            "normal-time-ended-claim",
+            "historical-rules"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "There is no additional substitute awarded for extra time under the rules used here. Liverpool enter it having made all three changes. The match score at this boundary is known; the statistics available in UEFA's report are first-half figures and totals including extra time. Those later totals cannot be relabelled as the position after ninety minutes.",
+          "claimIds": [
+            "historical-rules",
+            "cisse-for-baros-claim",
+            "full-statistics-shots",
+            "first-half-statistics-shots"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extra-time",
+      "chapterId": "remaining-play",
+      "title": "Extra time and changing roles",
+      "afterEventId": "rui-costa-for-gattuso",
+      "presentation": "standard",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "The score remains 3–3 into extra time. Milan make their final substitution at 112′, Rui Costa replacing Gattuso. Liverpool's available on-field personnel have not changed since Cissé came on. Both sides have now used their three substitutions.",
+          "claimIds": [
+            "rui-costa-for-gattuso-claim",
+            "cisse-for-baros-claim",
+            "historical-rules"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "Later accounts describe Gerrard taking a deeper role on Liverpool's right in response to Serginho. The role detail shows that relationship, using players eligible at this late boundary. It is deliberately partial: it does not invent a complete extra-time formation or claim that the adjustment began at the instant Rui Costa entered. Gerrard's earlier attacking contribution and this later defensive responsibility belong to different stages of the same final.",
+          "claimIds": [
+            "later-gerrard-role"
+          ]
+        },
+        {
+          "id": "later-role",
+          "type": "diagram",
+          "diagramId": "gerrard-later-role"
+        }
+      ]
+    },
+    {
+      "id": "dudek-save",
+      "chapterId": "remaining-play",
+      "title": "Dudek keeps the final level",
+      "afterEventId": "dudek-double-save",
+      "presentation": "standard",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Late in extra time, Dudek makes a double save from Shevchenko. He stops the first effort and the immediate follow-up, keeping the match level. UEFA's contemporary report places the intervention near the end of extra time; the account here retains that approximate timing instead of assigning an unsupported exact timestamp.",
+          "claimIds": [
+            "dudek-double-save-claim"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "The consequence is a preserved 3–3, not a victory already secured. A Milan goal would have changed the score, but extra time was not being played under a rule that stopped the match as soon as a goal was scored. Dudek's intervention keeps Liverpool level as the final approaches its next method of resolution.",
+          "claimIds": [
+            "dudek-double-save-claim",
+            "historical-rules"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shootout",
+      "chapterId": "penalties",
+      "title": "The shoot-out",
+      "afterEventId": "shootout-started",
+      "presentation": "attempt-sequence",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "After 120 minutes the match is still 3–3. The shoot-out begins with Milan taking first. Match goals and shoot-out goals are counted separately: the original score will stay 3–3 while the penalty tally changes with each attempt.",
+          "claimIds": [
+            "extra-time-ended-claim",
+            "shootout-started-claim"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "Follow the kicks one at a time to see what each result leaves possible. Each side initially has five attempts, but the contest ends as soon as the trailing side can no longer draw level with its remaining kicks. An unsuccessful attempt changes that calculation even though it adds no goal. The full record is also available for reference; opening it does not advance the sequence.",
+          "claimIds": [
+            "penalty-procedure"
+          ]
+        },
+        {
+          "id": "penalties",
+          "type": "shootout"
+        }
+      ]
+    },
+    {
+      "id": "champions",
+      "chapterId": "outcome",
+      "title": "European champions — reveals the result",
+      "afterEventId": "penalty-9",
+      "presentation": "standard",
+      "blocks": [
+        {
+          "id": "paragraph-1",
+          "type": "paragraph",
+          "text": "Dudek saves Shevchenko's attempt and the shoot-out ends with Liverpool ahead 3–2. Milan have taken five kicks and Liverpool four. No fifth Liverpool attempt is required: Milan have no kick left with which to recover the deficit. The match result remains 3–3 after extra time, with Liverpool winning on penalties.",
+          "claimIds": [
+            "penalty-9-claim",
+            "penalty-procedure",
+            "final-outcome"
+          ]
+        },
+        {
+          "id": "paragraph-2",
+          "type": "paragraph",
+          "text": "Liverpool are European champions for the fifth time. The recovery from 0–3 made the later contest possible; it did not remove the need to finish normal time, withstand extra time and complete the shoot-out. The final statistics below cover the whole 120 minutes, excluding penalties. From here, the existing season and Benítez era pages place the evening back within the club's wider history.",
+          "claimIds": [
+            "final-outcome",
+            "full-statistics-shots"
+          ]
+        },
+        {
+          "id": "full-statistics",
+          "type": "statistics",
+          "statisticsId": "full-statistics"
+        }
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "id": "road",
+      "title": "Liverpool’s Road to Istanbul",
+      "scope": {
+        "type": "period",
+        "start": "2004-08-10",
+        "end": "2005-05-03",
+        "label": "Before the final"
+      },
+      "blocks": [
+        {
+          "id": "intro",
+          "type": "paragraph",
+          "text": "Fourteen matches, including qualifying, brought Liverpool to the final. Scores below are Liverpool first; home and away refer to Liverpool.",
+          "claimIds": [
+            "road-count"
+          ]
+        },
+        {
+          "id": "stage-qualifying",
+          "type": "context",
+          "contextId": "road-qualifying"
+        },
+        {
+          "id": "stage-group",
+          "type": "context",
+          "contextId": "road-group"
+        },
+        {
+          "id": "stage-last-sixteen",
+          "type": "context",
+          "contextId": "road-last-sixteen"
+        },
+        {
+          "id": "stage-quarter-final",
+          "type": "context",
+          "contextId": "road-quarter-final"
+        },
+        {
+          "id": "stage-semi-final",
+          "type": "context",
+          "contextId": "road-semi-final"
+        }
+      ]
+    },
+    {
+      "id": "road-qualifying",
+      "title": "Third qualifying round",
+      "scope": {
+        "type": "period",
+        "start": "2004-08-10",
+        "end": "2004-08-24",
+        "label": "Before the final"
+      },
+      "blocks": [
+        {
+          "id": "summary",
+          "type": "paragraph",
+          "text": "Liverpool progressed 2–1 on aggregate.",
+          "claimIds": [
+            "road-qualifying"
+          ]
+        },
+        {
+          "id": "fixtures",
+          "type": "list",
+          "items": [
+            {
+              "text": "2004-08-10 · Grazer AK · Away · 2–0 (Liverpool first)",
+              "claimIds": [
+                "fixture-2004-08-10"
+              ]
+            },
+            {
+              "text": "2004-08-24 · Grazer AK · Home · 0–1 (Liverpool first)",
+              "claimIds": [
+                "fixture-2004-08-24"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "road-group",
+      "title": "Group A",
+      "scope": {
+        "type": "period",
+        "start": "2004-09-15",
+        "end": "2004-12-08",
+        "label": "Before the final"
+      },
+      "blocks": [
+        {
+          "id": "summary",
+          "type": "paragraph",
+          "text": "Liverpool finished as group runners-up.",
+          "claimIds": [
+            "road-group"
+          ]
+        },
+        {
+          "id": "fixtures",
+          "type": "list",
+          "items": [
+            {
+              "text": "2004-09-15 · Monaco · Home · 2–0 (Liverpool first)",
+              "claimIds": [
+                "fixture-2004-09-15"
+              ]
+            },
+            {
+              "text": "2004-09-28 · Olympiacos · Away · 0–1 (Liverpool first)",
+              "claimIds": [
+                "fixture-2004-09-28"
+              ]
+            },
+            {
+              "text": "2004-10-19 · Deportivo · Home · 0–0 (Liverpool first)",
+              "claimIds": [
+                "fixture-2004-10-19"
+              ]
+            },
+            {
+              "text": "2004-11-03 · Deportivo · Away · 1–0 (Liverpool first)",
+              "claimIds": [
+                "fixture-2004-11-03"
+              ]
+            },
+            {
+              "text": "2004-11-23 · Monaco · Away · 0–1 (Liverpool first)",
+              "claimIds": [
+                "fixture-2004-11-23"
+              ]
+            },
+            {
+              "text": "2004-12-08 · Olympiacos · Home · 3–1 (Liverpool first)",
+              "claimIds": [
+                "fixture-2004-12-08"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "monaco-reading",
+          "type": "paragraph",
+          "text": "Read the existing [Liverpool–Monaco report](/archive/liverpool-monaco-champions-league-2004) for the opening group match.",
+          "claimIds": [
+            "fixture-2004-09-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "road-last-sixteen",
+      "title": "Round of 16",
+      "scope": {
+        "type": "period",
+        "start": "2005-02-22",
+        "end": "2005-03-09",
+        "label": "Before the final"
+      },
+      "blocks": [
+        {
+          "id": "summary",
+          "type": "paragraph",
+          "text": "Liverpool beat Bayer Leverkusen 6–2 on aggregate.",
+          "claimIds": [
+            "road-last-sixteen"
+          ]
+        },
+        {
+          "id": "fixtures",
+          "type": "list",
+          "items": [
+            {
+              "text": "2005-02-22 · Bayer Leverkusen · Home · 3–1 (Liverpool first)",
+              "claimIds": [
+                "fixture-2005-02-22"
+              ]
+            },
+            {
+              "text": "2005-03-09 · Bayer Leverkusen · Away · 3–1 (Liverpool first)",
+              "claimIds": [
+                "fixture-2005-03-09"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "road-quarter-final",
+      "title": "Quarter-final",
+      "scope": {
+        "type": "period",
+        "start": "2005-04-05",
+        "end": "2005-04-13",
+        "label": "Before the final"
+      },
+      "blocks": [
+        {
+          "id": "summary",
+          "type": "paragraph",
+          "text": "Liverpool beat Juventus 2–1 on aggregate.",
+          "claimIds": [
+            "road-quarter-final"
+          ]
+        },
+        {
+          "id": "fixtures",
+          "type": "list",
+          "items": [
+            {
+              "text": "2005-04-05 · Juventus · Home · 2–1 (Liverpool first)",
+              "claimIds": [
+                "fixture-2005-04-05"
+              ]
+            },
+            {
+              "text": "2005-04-13 · Juventus · Away · 0–0 (Liverpool first)",
+              "claimIds": [
+                "fixture-2005-04-13"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "road-semi-final",
+      "title": "Semi-final",
+      "scope": {
+        "type": "period",
+        "start": "2005-04-27",
+        "end": "2005-05-03",
+        "label": "Before the final"
+      },
+      "blocks": [
+        {
+          "id": "summary",
+          "type": "paragraph",
+          "text": "Liverpool beat Chelsea 1–0 on aggregate.",
+          "claimIds": [
+            "road-semi-final"
+          ]
+        },
+        {
+          "id": "fixtures",
+          "type": "list",
+          "items": [
+            {
+              "text": "2005-04-27 · Chelsea · Away · 0–0 (Liverpool first)",
+              "claimIds": [
+                "fixture-2005-04-27"
+              ]
+            },
+            {
+              "text": "2005-05-03 · Chelsea · Home · 1–0 (Liverpool first)",
+              "claimIds": [
+                "fixture-2005-05-03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "venue",
+      "title": "About the venue",
+      "scope": {
+        "type": "at-boundary",
+        "boundary": null,
+        "label": "Before kick-off"
+      },
+      "blocks": [
+        {
+          "id": "setting",
+          "type": "paragraph",
+          "text": "The Atatürk Olympic Stadium in Istanbul hosts the final on 25 May 2005.",
+          "claimIds": [
+            "final-setting"
+          ]
+        }
+      ]
+    }
+  ],
+  "diagrams": [
+    {
+      "id": "liverpool-start",
+      "title": "Liverpool starting structure",
+      "side": "subject",
+      "personnelBoundary": null,
+      "depictedPeriod": "Before kick-off",
+      "partial": false,
+      "players": [
+        {
+          "personId": "jerzy-dudek",
+          "role": "Goalkeeper",
+          "x": 50,
+          "y": 91,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        },
+        {
+          "personId": "steve-finnan",
+          "role": "Right-back",
+          "x": 82,
+          "y": 73,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        },
+        {
+          "personId": "jamie-carragher",
+          "role": "Centre-back",
+          "x": 61,
+          "y": 76,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        },
+        {
+          "personId": "sami-hyypia",
+          "role": "Centre-back",
+          "x": 39,
+          "y": 76,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        },
+        {
+          "personId": "djimi-traore",
+          "role": "Left-back",
+          "x": 18,
+          "y": 73,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        },
+        {
+          "personId": "xabi-alonso",
+          "role": "Deep midfield",
+          "x": 50,
+          "y": 59,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        },
+        {
+          "personId": "luis-garcia",
+          "role": "Right-sided midfield",
+          "x": 80,
+          "y": 44,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        },
+        {
+          "personId": "steven-gerrard",
+          "role": "Central midfield",
+          "x": 50,
+          "y": 39,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        },
+        {
+          "personId": "john-arne-riise",
+          "role": "Left-sided midfield",
+          "x": 20,
+          "y": 44,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        },
+        {
+          "personId": "harry-kewell",
+          "role": "Supporting forward",
+          "x": 50,
+          "y": 25,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        },
+        {
+          "personId": "milan-baros",
+          "role": "Striker",
+          "x": 50,
+          "y": 11,
+          "claimIds": [
+            "named-squads",
+            "starting-roles"
+          ]
+        }
+      ],
+      "claimIds": [
+        "named-squads",
+        "starting-roles"
+      ],
+      "interpretationNote": "Schematic interpretation of roles, not tracking data. Coordinates are editorial display choices.",
+      "description": "Dudek in goal; Finnan, Carragher, Hyypiä and Traoré across defence; Alonso deeper; García, Gerrard and Riise in midfield roles; Kewell supporting Baroš. This explanatory layout follows the later club analysis."
+    },
+    {
+      "id": "milan-start",
+      "title": "Milan’s starting structure",
+      "side": "opposition",
+      "personnelBoundary": null,
+      "depictedPeriod": "Milan’s starting structure",
+      "partial": false,
+      "players": [
+        {
+          "personId": "dida",
+          "role": "Goalkeeper",
+          "x": 50,
+          "y": 91,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        },
+        {
+          "personId": "cafu",
+          "role": "Right-back",
+          "x": 82,
+          "y": 73,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        },
+        {
+          "personId": "jaap-stam",
+          "role": "Centre-back",
+          "x": 61,
+          "y": 76,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        },
+        {
+          "personId": "alessandro-nesta",
+          "role": "Centre-back",
+          "x": 39,
+          "y": 76,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        },
+        {
+          "personId": "paolo-maldini",
+          "role": "Left-back",
+          "x": 18,
+          "y": 73,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        },
+        {
+          "personId": "andrea-pirlo",
+          "role": "Deep midfield",
+          "x": 50,
+          "y": 59,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        },
+        {
+          "personId": "gennaro-gattuso",
+          "role": "Right-sided midfield",
+          "x": 76,
+          "y": 45,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        },
+        {
+          "personId": "clarence-seedorf",
+          "role": "Left-sided midfield",
+          "x": 24,
+          "y": 45,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        },
+        {
+          "personId": "kaka",
+          "role": "Attacking midfield",
+          "x": 50,
+          "y": 31,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        },
+        {
+          "personId": "andriy-shevchenko",
+          "role": "Forward",
+          "x": 68,
+          "y": 13,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        },
+        {
+          "personId": "hernan-crespo",
+          "role": "Forward",
+          "x": 32,
+          "y": 13,
+          "claimIds": [
+            "named-squads",
+            "milan-starting-roles"
+          ]
+        }
+      ],
+      "claimIds": [
+        "named-squads",
+        "milan-starting-roles"
+      ],
+      "interpretationNote": "Schematic interpretation of roles, not tracking data. Coordinates are editorial display choices.",
+      "description": "Dida in goal; Cafu, Stam, Nesta and Maldini across defence; Pirlo at the base of a midfield diamond, Gattuso and Seedorf to either side, Kaká ahead; Shevchenko and Crespo in attack."
+    },
+    {
+      "id": "liverpool-interval",
+      "title": "Liverpool at the interval",
+      "side": "subject",
+      "personnelBoundary": "interval-start",
+      "depictedPeriod": "At the interval",
+      "partial": false,
+      "players": [
+        {
+          "personId": "jerzy-dudek",
+          "role": "Goalkeeper",
+          "x": 50,
+          "y": 91,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "personId": "steve-finnan",
+          "role": "Right-back",
+          "x": 82,
+          "y": 73,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "personId": "jamie-carragher",
+          "role": "Centre-back",
+          "x": 61,
+          "y": 76,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "personId": "sami-hyypia",
+          "role": "Centre-back",
+          "x": 39,
+          "y": 76,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "personId": "djimi-traore",
+          "role": "Left-back",
+          "x": 18,
+          "y": 73,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "personId": "xabi-alonso",
+          "role": "Deep midfield",
+          "x": 50,
+          "y": 59,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "personId": "luis-garcia",
+          "role": "Right-sided midfield",
+          "x": 80,
+          "y": 44,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "personId": "steven-gerrard",
+          "role": "Central midfield",
+          "x": 50,
+          "y": 39,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "personId": "john-arne-riise",
+          "role": "Left-sided midfield",
+          "x": 20,
+          "y": 44,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "personId": "vladimir-smicer",
+          "role": "Attacking role after Kewell’s departure",
+          "x": 50,
+          "y": 25,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        },
+        {
+          "personId": "milan-baros",
+          "role": "Striker",
+          "x": 50,
+          "y": 11,
+          "claimIds": [
+            "named-squads",
+            "starting-roles",
+            "smicer-for-kewell-claim"
+          ]
+        }
+      ],
+      "claimIds": [
+        "named-squads",
+        "starting-roles",
+        "smicer-for-kewell-claim"
+      ],
+      "interpretationNote": "Schematic interpretation of roles, not tracking data. Coordinates are editorial display choices.",
+      "description": "The starting personnel layout is updated to include Šmicer in Kewell’s place. Finnan remains on the field. This personnel schematic does not establish exact measured half-time positions."
+    },
+    {
+      "id": "liverpool-restart",
+      "title": "Liverpool at the restart",
+      "side": "subject",
+      "personnelBoundary": "second-half-start",
+      "depictedPeriod": "At the restart",
+      "partial": false,
+      "players": [
+        {
+          "personId": "jerzy-dudek",
+          "role": "Goalkeeper",
+          "x": 50,
+          "y": 91,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        },
+        {
+          "personId": "jamie-carragher",
+          "role": "Right of back three",
+          "x": 76,
+          "y": 73,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        },
+        {
+          "personId": "sami-hyypia",
+          "role": "Centre of back three",
+          "x": 50,
+          "y": 77,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        },
+        {
+          "personId": "djimi-traore",
+          "role": "Left of back three",
+          "x": 24,
+          "y": 73,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        },
+        {
+          "personId": "vladimir-smicer",
+          "role": "Right wing-back role",
+          "x": 88,
+          "y": 48,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        },
+        {
+          "personId": "dietmar-hamann",
+          "role": "Central midfield",
+          "x": 62,
+          "y": 52,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        },
+        {
+          "personId": "xabi-alonso",
+          "role": "Central midfield",
+          "x": 38,
+          "y": 52,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        },
+        {
+          "personId": "john-arne-riise",
+          "role": "Left wing-back role",
+          "x": 12,
+          "y": 48,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        },
+        {
+          "personId": "steven-gerrard",
+          "role": "Supporting attack",
+          "x": 65,
+          "y": 28,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        },
+        {
+          "personId": "luis-garcia",
+          "role": "Supporting attack",
+          "x": 35,
+          "y": 28,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        },
+        {
+          "personId": "milan-baros",
+          "role": "Striker",
+          "x": 50,
+          "y": 12,
+          "claimIds": [
+            "restart-roles",
+            "hamann-for-finnan-claim"
+          ]
+        }
+      ],
+      "claimIds": [
+        "restart-roles",
+        "hamann-for-finnan-claim"
+      ],
+      "interpretationNote": "Schematic interpretation of roles, not tracking data. Coordinates are editorial display choices. LFC’s retrospective analysis describes 3-4-2-1; other accounts use different labels.",
+      "description": "Hamann replaces Finnan. Carragher, Hyypiä and Traoré form the interpreted back three; Riise and Šmicer supply width; Hamann and Alonso occupy central midfield; Gerrard and García support Baroš."
+    },
+    {
+      "id": "gerrard-later-role",
+      "title": "Gerrard’s later right-sided role",
+      "side": "subject",
+      "personnelBoundary": "rui-costa-for-gattuso",
+      "depictedPeriod": "Later match and extra time — partial role detail",
+      "partial": true,
+      "players": [
+        {
+          "personId": "steven-gerrard",
+          "role": "Deeper right-sided protection",
+          "x": 72,
+          "y": 64,
+          "claimIds": [
+            "later-gerrard-role"
+          ]
+        },
+        {
+          "personId": "vladimir-smicer",
+          "role": "Role adjusted with Gerrard",
+          "x": 52,
+          "y": 35,
+          "claimIds": [
+            "later-gerrard-role"
+          ]
+        }
+      ],
+      "claimIds": [
+        "later-gerrard-role"
+      ],
+      "interpretationNote": "Schematic interpretation of roles, not tracking data. Coordinates are editorial display choices.",
+      "description": "Partial relationship only: Gerrard drops deeper on Liverpool’s right in response to Serginho, while Šmicer’s role adjusts. Serginho is an opponent, not a Liverpool marker. The exact start of this adjustment is not established."
+    }
+  ],
+  "statistics": [
+    {
+      "id": "first-half-statistics",
+      "title": "First-half statistics",
+      "provider": "UEFA original Full Time Report",
+      "period": {
+        "start": "match-started",
+        "end": "interval-start",
+        "includesAddedTime": true,
+        "includesExtraTime": false,
+        "label": "First half, including added time"
+      },
+      "evidenceContext": "Published as part of the completed match report; not evidence of what was available in the dressing room.",
+      "observations": [
+        {
+          "metricId": "shots",
+          "label": "Shots",
+          "unit": "count",
+          "values": {
+            "subject": 5,
+            "opposition": 7
+          },
+          "sourceId": "s2",
+          "claimId": "first-half-statistics-shots",
+          "caveat": "Single-provider observation; no interpolation between periods."
+        },
+        {
+          "metricId": "shots-on-goal",
+          "label": "Shots on goal — UEFA label",
+          "unit": "count",
+          "values": {
+            "subject": 1,
+            "opposition": 5
+          },
+          "sourceId": "s2",
+          "claimId": "first-half-statistics-shots-on-goal",
+          "caveat": "UEFA terminology retained; no detailed classification manual was retrieved."
+        },
+        {
+          "metricId": "possession",
+          "label": "Possession",
+          "unit": "percent",
+          "values": {
+            "subject": 44,
+            "opposition": 56
+          },
+          "sourceId": "s2",
+          "claimId": "first-half-statistics-possession",
+          "caveat": "Single-provider observation; no interpolation between periods."
+        }
+      ]
+    },
+    {
+      "id": "full-statistics",
+      "title": "Match statistics after extra time",
+      "provider": "UEFA original Full Time Report",
+      "period": {
+        "start": "match-started",
+        "end": "extra-time-ended",
+        "includesAddedTime": true,
+        "includesExtraTime": true,
+        "label": "After extra time, excluding shoot-out"
+      },
+      "evidenceContext": "Published as part of the completed match report; not evidence of what was available in the dressing room.",
+      "observations": [
+        {
+          "metricId": "shots",
+          "label": "Shots",
+          "unit": "count",
+          "values": {
+            "subject": 15,
+            "opposition": 22
+          },
+          "sourceId": "s2",
+          "claimId": "full-statistics-shots",
+          "caveat": "Single-provider observation; no interpolation between periods."
+        },
+        {
+          "metricId": "shots-on-goal",
+          "label": "Shots on goal — UEFA label",
+          "unit": "count",
+          "values": {
+            "subject": 7,
+            "opposition": 10
+          },
+          "sourceId": "s2",
+          "claimId": "full-statistics-shots-on-goal",
+          "caveat": "UEFA terminology retained; no detailed classification manual was retrieved."
+        },
+        {
+          "metricId": "possession",
+          "label": "Possession",
+          "unit": "percent",
+          "values": {
+            "subject": 45,
+            "opposition": 55
+          },
+          "sourceId": "s2",
+          "claimId": "full-statistics-possession",
+          "caveat": "Single-provider observation; no interpolation between periods."
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "final-setting",
+      "statement": "The final was played on 25 May 2005 at the Atatürk Olympic Stadium in Istanbul.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s1",
+          "locator": "Page 1 header",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 header",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "25 May 2005 final",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "named-squads",
+      "statement": "UEFA names both XIs and seven substitutes per side with shirt numbers as transcribed in the match rosters.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s1",
+          "locator": "Page 1 named line-ups and substitutes",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Before kick-off",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "coaches",
+      "statement": "Rafael Benítez and Carlo Ancelotti were the respective coaches.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s1",
+          "locator": "Page 1 coach fields",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Before kick-off",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "historical-rules",
+      "statement": "This final allowed three substitutions per side, no re-entry and no extra-time bonus; a level match proceeds through ordinary extra time then kicks from the penalty mark.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s10",
+          "locator": "Law 3 pp.16–17, Law 10 p.33, procedures pp.52–53",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s2",
+          "locator": "Pages 1–2 actual substitutions and extra time",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "25 May 2005 final",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "penalty-procedure",
+      "statement": "The shoot-out alternates sides with five initial kicks each, ending early when an opponent cannot catch up; only players on the field at the end are eligible, and takers cannot repeat before all eligible players have kicked.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s10",
+          "locator": "Procedures pp.52–53",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "After extra time",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "kewell-injury",
+      "statement": "Kewell left injured; UEFA contemporary reporting describes him pulling up and his later recollection states he came off injured.",
+      "kind": "contemporary-reporting",
+      "sourceRefs": [
+        {
+          "sourceId": "s3",
+          "locator": "García block",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s8",
+          "locator": "Harry Kewell recollection",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "First half",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "finnan-injury",
+      "statement": "Finnan later recalled being injured; Hamann recalled that Finnan’s injury changed who would leave at half-time.",
+      "kind": "later-recollection",
+      "sourceRefs": [
+        {
+          "sourceId": "s8",
+          "locator": "Steve Finnan and Dietmar Hamann recollections",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "Medium",
+      "status": "approved",
+      "temporalScope": "Half-time, recalled in 2015",
+      "displayTreatment": "named-attribution",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "starting-roles",
+      "statement": "Liverpool FC’s later analysis describes Alonso deep, Gerrard and Kewell further forward, with Milan threatening centrally through Pirlo and Kaká.",
+      "kind": "tactical-interpretation",
+      "sourceRefs": [
+        {
+          "sourceId": "s6",
+          "locator": "Initial tactical plan and central-space paragraphs",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "Medium",
+      "status": "approved",
+      "temporalScope": "Starting structure and first half",
+      "displayTreatment": "interpretation-label",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "restart-roles",
+      "statement": "Liverpool FC’s 2015 analysis interprets the restart as 3-4-2-1: Carragher, Hyypiä and Traoré behind Riise, Hamann, Alonso and Šmicer, with Gerrard and García supporting Baroš.",
+      "kind": "tactical-interpretation",
+      "sourceRefs": [
+        {
+          "sourceId": "s6",
+          "locator": "Paragraphs beginning The first part and Benitez brought on",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "Medium",
+      "status": "approved",
+      "temporalScope": "Second-half restart",
+      "displayTreatment": "interpretation-label",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "shape-labels",
+      "statement": "LFC’s analysis uses 3-4-2-1; Sky’s surrounding retrospective article uses 3-5-2, which is not presented as a direct Benítez quotation.",
+      "kind": "tactical-interpretation",
+      "sourceRefs": [
+        {
+          "sourceId": "s6",
+          "locator": "Restart shape paragraph",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s7",
+          "locator": "Half-time formation discussion",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "Medium",
+      "status": "approved",
+      "temporalScope": "Retrospective descriptions of restart",
+      "displayTreatment": "interpretation-label",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "later-gerrard-role",
+      "statement": "Later analysis describes Gerrard moving deeper on the right to respond to Serginho; the contemporary account also describes Gerrard very deep in extra time.",
+      "kind": "tactical-interpretation",
+      "sourceRefs": [
+        {
+          "sourceId": "s6",
+          "locator": "Final extra-time role paragraphs",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s3",
+          "locator": "Stunning stop",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s9",
+          "locator": "Extra-time role discussion",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "Medium",
+      "status": "approved",
+      "temporalScope": "Later match / extra time; exact start of adjustment not established",
+      "displayTreatment": "interpretation-label",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "maldini-timing",
+      "statement": "The official record gives Maldini 1 minute; UEFA sources differ between 51 and 52 seconds.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 1 minute goal",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s3",
+          "locator": "Fastest goal",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s13",
+          "locator": "Maldini final record",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "First minute",
+      "displayTreatment": "uncertainty-note",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "first-goal-construction",
+      "statement": "Maldini scored from Pirlo’s free-kick.",
+      "kind": "contemporary-reporting",
+      "sourceRefs": [
+        {
+          "sourceId": "s3",
+          "locator": "Fastest goal",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "First minute",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "second-goal-construction",
+      "statement": "Kaká found Shevchenko, who squared for Crespo to score.",
+      "kind": "contemporary-reporting",
+      "sourceRefs": [
+        {
+          "sourceId": "s3",
+          "locator": "García chances",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "39 minute goal",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "third-goal-construction",
+      "statement": "Kaká supplied the through pass for Crespo’s second goal.",
+      "kind": "contemporary-reporting",
+      "sourceRefs": [
+        {
+          "sourceId": "s3",
+          "locator": "Clinical third",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "44 minute goal",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "gerrard-construction",
+      "statement": "Gerrard headed in Riise’s cross.",
+      "kind": "contemporary-reporting",
+      "sourceRefs": [
+        {
+          "sourceId": "s3",
+          "locator": "Gerrard on target",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "54 minute goal",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "smicer-construction",
+      "statement": "Šmicer scored with a shot from outside the penalty area.",
+      "kind": "contemporary-reporting",
+      "sourceRefs": [
+        {
+          "sourceId": "s3",
+          "locator": "Liverpool level",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s8",
+          "locator": "Vladimír Šmicer recollection",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "56 minute goal",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "final-outcome",
+      "statement": "Liverpool drew 3–3 after extra time, won the shoot-out 3–2 and became European champions for the fifth time.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 result and page 2 penalties",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s3",
+          "locator": "Opening result and Fifth title",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Result and penalty record",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "After the final",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "match-started-claim",
+      "statement": "The final began with both starting XIs and the score 0–0.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Pages 1–2 period timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Kick-off",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "maldini-goal-claim",
+      "statement": "Paolo Maldini scored at 1 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 event timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "1′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "smicer-for-kewell-claim",
+      "statement": "Vladimir Smicer replaced Harry Kewell at 23 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 substitution timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "23′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "crespo-goal-one-claim",
+      "statement": "Hernan Crespo scored at 39 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 event timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "39′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "crespo-goal-two-claim",
+      "statement": "Hernan Crespo scored at 44 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 event timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "44′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "interval-start-claim",
+      "statement": "The first half ended with Milan leading Liverpool 3–0.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Pages 1–2 period timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Half-time",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "hamann-for-finnan-claim",
+      "statement": "Dietmar Hamann replaced Steve Finnan before the second-half restart (official report: 46 minute).",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 substitution timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Half-time",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "second-half-start-claim",
+      "statement": "The second half began after Hamann replaced Finnan, with Milan leading 3–0.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Pages 1–2 period timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Second-half restart",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "gerrard-goal-claim",
+      "statement": "Steven Gerrard scored at 54 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 event timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "54′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "smicer-goal-claim",
+      "statement": "Vladimir Smicer scored at 56 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 event timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "56′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "liverpool-penalty-awarded-claim",
+      "statement": "Liverpool received a penalty for Gattuso’s foul on Gerrard.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s3",
+          "locator": "Liverpool level",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "60′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "alonso-penalty-saved-claim",
+      "statement": "Dida saved Alonso’s penalty before Alonso scored the rebound.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 penalty/goal symbols at 60 minute",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s3",
+          "locator": "Liverpool level",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "60′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "alonso-rebound-goal-claim",
+      "statement": "Xabi Alonso scored at 60 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 event timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "60′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "carragher-booked-claim",
+      "statement": "Jamie Carragher was booked at 76 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 event timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "76′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "baros-booked-claim",
+      "statement": "Milan Baros was booked at 81 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 event timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "81′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "cisse-for-baros-claim",
+      "statement": "Djibril Cisse replaced Milan Baros at 85 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 substitution timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "85′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "tomasson-for-crespo-claim",
+      "statement": "Jon Dahl Tomasson replaced Hernan Crespo at 85 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 substitution timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "85′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "serginho-for-seedorf-claim",
+      "statement": "Serginho replaced Clarence Seedorf at 86 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 1 substitution timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "86′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "normal-time-ended-claim",
+      "statement": "Normal time ended 3–3.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Pages 1–2 period timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "End of normal time",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "extra-time-started-claim",
+      "statement": "The level final proceeded to ordinary extra time.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Pages 1–2 period timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Extra time begins",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "extra-time-interval-claim",
+      "statement": "The first extra-time period ended without a further goal.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Pages 1–2 period timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Extra-time interval",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "extra-time-second-started-claim",
+      "statement": "The second extra-time period began at 3–3.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Pages 1–2 period timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Second extra-time period",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "rui-costa-for-gattuso-claim",
+      "statement": "Rui Costa replaced Gennaro Gattuso at 112 minutes.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 substitution timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "112′",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "dudek-double-save-claim",
+      "statement": "Dudek made two successive saves from Shevchenko late in extra time; the score remained 3–3.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s3",
+          "locator": "Stunning stop",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Match account",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Late extra time",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "extra-time-ended-claim",
+      "statement": "Extra time ended with the score 3–3.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Pages 1–2 period timeline",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "After extra time",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "shootout-started-claim",
+      "statement": "The shoot-out began with Milan taking first and the players remaining on the field eligible.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 penalty list",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s10",
+          "locator": "Procedures pp.52–53",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Shoot-out",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "penalty-1-claim",
+      "statement": "Shoot-out attempt 1: Serginho, over.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 Penalties, chronological attempt 1",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Penalty shoot-out sequence",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Attempt 1",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "penalty-2-claim",
+      "statement": "Shoot-out attempt 2: Dietmar Hamann, scored.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 Penalties, chronological attempt 2",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Penalty shoot-out sequence",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Attempt 2",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "penalty-3-claim",
+      "statement": "Shoot-out attempt 3: Andrea Pirlo, saved.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 Penalties, chronological attempt 3",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Penalty shoot-out sequence",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Attempt 3",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "penalty-4-claim",
+      "statement": "Shoot-out attempt 4: Djibril Cisse, scored.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 Penalties, chronological attempt 4",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Penalty shoot-out sequence",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Attempt 4",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "penalty-5-claim",
+      "statement": "Shoot-out attempt 5: Jon Dahl Tomasson, scored.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 Penalties, chronological attempt 5",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Penalty shoot-out sequence",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Attempt 5",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "penalty-6-claim",
+      "statement": "Shoot-out attempt 6: John Arne Riise, saved.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 Penalties, chronological attempt 6",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Penalty shoot-out sequence",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Attempt 6",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "penalty-7-claim",
+      "statement": "Shoot-out attempt 7: Kaka, scored.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 Penalties, chronological attempt 7",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Penalty shoot-out sequence",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Attempt 7",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "penalty-8-claim",
+      "statement": "Shoot-out attempt 8: Vladimir Smicer, scored.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 Penalties, chronological attempt 8",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Penalty shoot-out sequence",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Attempt 8",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "penalty-9-claim",
+      "statement": "Shoot-out attempt 9: Andriy Shevchenko, saved.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 Penalties, chronological attempt 9",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s5",
+          "locator": "Penalty shoot-out sequence",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Attempt 9",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "first-half-statistics-shots",
+      "statement": "UEFA records first-half statistics: Shots, Liverpool 5, Milan 7.",
+      "kind": "statistical-observation",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 statistics, Half columns, Shots",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "First-half statistics",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "first-half-statistics-shots-on-goal",
+      "statement": "UEFA records first-half statistics: Shots on goal — UEFA label, Liverpool 1, Milan 5.",
+      "kind": "statistical-observation",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 statistics, Half columns, Shots on goal — UEFA label",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "First-half statistics",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "first-half-statistics-possession",
+      "statement": "UEFA records first-half statistics: Possession, Liverpool 44%, Milan 56%.",
+      "kind": "statistical-observation",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 statistics, Half columns, Possession",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "First-half statistics",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "full-statistics-shots",
+      "statement": "UEFA records match statistics after extra time: Shots, Liverpool 15, Milan 22.",
+      "kind": "statistical-observation",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 statistics, Full columns, Shots",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Match statistics after extra time",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "full-statistics-shots-on-goal",
+      "statement": "UEFA records match statistics after extra time: Shots on goal — UEFA label, Liverpool 7, Milan 10.",
+      "kind": "statistical-observation",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 statistics, Full columns, Shots on goal — UEFA label",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Match statistics after extra time",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "full-statistics-possession",
+      "statement": "UEFA records match statistics after extra time: Possession, Liverpool 45%, Milan 55%.",
+      "kind": "statistical-observation",
+      "sourceRefs": [
+        {
+          "sourceId": "s2",
+          "locator": "Page 2 statistics, Full columns, Possession",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Match statistics after extra time",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "road-qualifying",
+      "statement": "Liverpool progressed 2–1 on aggregate.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s12",
+          "locator": "2004–05 Third qualifying round section",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Before the final",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2004-08-10",
+      "statement": "2004-08-10: Liverpool versus Grazer AK, away, Liverpool-first result 2–0.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2004-08-10",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2004-08-10",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2004-08-24",
+      "statement": "2004-08-24: Liverpool versus Grazer AK, home, Liverpool-first result 0–1.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2004-08-24",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2004-08-24",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "road-group",
+      "statement": "Liverpool finished as group runners-up.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s12",
+          "locator": "2004–05 Group A section",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Before the final",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2004-09-15",
+      "statement": "2004-09-15: Liverpool versus Monaco, home, Liverpool-first result 2–0.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2004-09-15",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2004-09-15",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2004-09-28",
+      "statement": "2004-09-28: Liverpool versus Olympiacos, away, Liverpool-first result 0–1.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2004-09-28",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2004-09-28",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2004-10-19",
+      "statement": "2004-10-19: Liverpool versus Deportivo, home, Liverpool-first result 0–0.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2004-10-19",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2004-10-19",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2004-11-03",
+      "statement": "2004-11-03: Liverpool versus Deportivo, away, Liverpool-first result 1–0.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2004-11-03",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2004-11-03",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2004-11-23",
+      "statement": "2004-11-23: Liverpool versus Monaco, away, Liverpool-first result 0–1.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2004-11-23",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2004-11-23",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2004-12-08",
+      "statement": "2004-12-08: Liverpool versus Olympiacos, home, Liverpool-first result 3–1.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2004-12-08",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2004-12-08",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "road-last-sixteen",
+      "statement": "Liverpool beat Bayer Leverkusen 6–2 on aggregate.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s12",
+          "locator": "2004–05 Round of 16 section",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Before the final",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2005-02-22",
+      "statement": "2005-02-22: Liverpool versus Bayer Leverkusen, home, Liverpool-first result 3–1.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2005-02-22",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2005-02-22",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2005-03-09",
+      "statement": "2005-03-09: Liverpool versus Bayer Leverkusen, away, Liverpool-first result 3–1.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2005-03-09",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2005-03-09",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "road-quarter-final",
+      "statement": "Liverpool beat Juventus 2–1 on aggregate.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s12",
+          "locator": "2004–05 Quarter-final section",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Before the final",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2005-04-05",
+      "statement": "2005-04-05: Liverpool versus Juventus, home, Liverpool-first result 2–1.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2005-04-05",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2005-04-05",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2005-04-13",
+      "statement": "2005-04-13: Liverpool versus Juventus, away, Liverpool-first result 0–0.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2005-04-13",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2005-04-13",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "road-semi-final",
+      "statement": "Liverpool beat Chelsea 1–0 on aggregate.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s12",
+          "locator": "2004–05 Semi-final section",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Before the final",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2005-04-27",
+      "statement": "2005-04-27: Liverpool versus Chelsea, away, Liverpool-first result 0–0.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2005-04-27",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2005-04-27",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "fixture-2005-05-03",
+      "statement": "2005-05-03: Liverpool versus Chelsea, home, Liverpool-first result 1–0.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fixture row 2005-05-03",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "2005-05-03",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
+    },
+    {
+      "id": "road-count",
+      "statement": "The fourteen listed European fixtures before the final comprise two qualifiers, six group matches and six knockout matches.",
+      "kind": "verified-fact",
+      "sourceRefs": [
+        {
+          "sourceId": "s11",
+          "locator": "Fourteen European fixture rows from 10 August 2004 to 3 May 2005",
+          "relation": "supports"
+        }
+      ],
+      "confidence": "High",
+      "status": "approved",
+      "temporalScope": "Before the final",
+      "displayTreatment": "plain-fact",
+      "reviewNote": "Count calculated from transcribed fixture rows; no claim that fourteen excludes qualifying."
+    },
+    {
+      "id": "milan-starting-roles",
+      "statement": "The Milan starting schematic places Pirlo at the base of a midfield diamond, Gattuso and Seedorf beside him, Kaká behind Shevchenko and Crespo; it is an editorial role diagram.",
+      "kind": "tactical-interpretation",
+      "sourceRefs": [
+        {
+          "sourceId": "s1",
+          "locator": "Page 1 Milan starting-team layout",
+          "relation": "supports"
+        },
+        {
+          "sourceId": "s6",
+          "locator": "Paragraphs on Milan without conventional wingers and central midfield threat",
+          "relation": "qualifies"
+        }
+      ],
+      "confidence": "Medium",
+      "status": "approved",
+      "temporalScope": "Milan starting structure",
+      "displayTreatment": "interpretation-label",
+      "reviewNote": "Role schematic approved with the experience by Denny on 16 September 2026; diagram coordinates are display choices, not measured historical positions."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "title": "UEFA original line-ups",
+      "publisher": "UEFA",
+      "publishedOn": "2005-05-25",
+      "retrievedOn": "2026-09-16",
+      "type": "match-record",
+      "confidence": "High",
+      "scope": "Both starting XIs, seven named substitutes per side, shirt numbers and coaches.",
+      "independenceGroup": "uefa",
+      "locator": "Page 1",
+      "limitations": [
+        "Pre-match sheet does not establish later fitness."
+      ],
+      "url": "https://www.uefa.com/newsfiles/UCL/2004/1086988_LU.pdf"
+    },
+    {
+      "id": "s2",
+      "title": "UEFA original Full Time Report",
+      "publisher": "UEFA",
+      "publishedOn": "2005-05-25",
+      "retrievedOn": "2026-09-16",
+      "type": "match-record",
+      "confidence": "High",
+      "scope": "Official goal, substitution and booking minutes; shoot-out; first-half and after-extra-time statistics.",
+      "independenceGroup": "uefa",
+      "locator": "Pages 1–2",
+      "limitations": [
+        "Full includes extra time; original order is Milan first."
+      ],
+      "url": "https://www.uefa.com/newsfiles/UCL/2004/1086988_FR.pdf"
+    },
+    {
+      "id": "s3",
+      "title": "Liverpool triumph in Turkey",
+      "publisher": "UEFA",
+      "publishedOn": "2005-05-25",
+      "retrievedOn": "2026-09-16",
+      "type": "contemporary-report",
+      "confidence": "High",
+      "scope": "Principal event construction, result and fifth European title.",
+      "independenceGroup": "uefa",
+      "locator": "Sections Fastest goal through Stunning stop",
+      "limitations": [
+        "Approximate late timing; says 52 seconds for Maldini against 51 in UEFA record list."
+      ],
+      "url": "https://www.uefa.com/uefachampionsleague/news/0250-0c50f2820ac1-0d73022c807f-1000--liverpool-triumph-in-turkey/"
+    },
+    {
+      "id": "s5",
+      "title": "AC Milan–Liverpool match record",
+      "publisher": "LFChistory",
+      "publishedOn": null,
+      "retrievedOn": "2026-09-16",
+      "type": "specialist-record",
+      "confidence": "Medium",
+      "scope": "Corroborating teams, final result and shoot-out.",
+      "independenceGroup": "lfchistory",
+      "locator": "Match 4928",
+      "limitations": [
+        "Some event minutes differ from UEFA; attendance differs materially. Baseline retrieval retained."
+      ],
+      "url": "https://www.lfchistory.net/games/4928"
+    },
+    {
+      "id": "s6",
+      "title": "Istanbul 2005: A tactical analysis",
+      "publisher": "Liverpool FC",
+      "publishedOn": "2015-05-23",
+      "retrievedOn": "2026-09-16",
+      "type": "retrospective-analysis",
+      "confidence": "Medium",
+      "scope": "Starting and changed roles, 3-4-2-1 interpretation, later Gerrard role.",
+      "independenceGroup": "lfc",
+      "locator": "Paragraphs on initial plan, three at the back and Gerrard against Serginho",
+      "limitations": [
+        "Retrospective interpretation, not tracking data; its five-minutes wording for Gerrard does not override official 54 minute."
+      ],
+      "url": "https://www.liverpoolfc.com/news/first-team/185718-istanbul-2005-a-tactical-analysis"
+    },
+    {
+      "id": "s7",
+      "title": "Miracle of Istanbul: Rafael Benítez’s inside story",
+      "publisher": "Sky Sports",
+      "publishedOn": "2019-12-10",
+      "retrievedOn": "2026-09-16",
+      "type": "retrospective-analysis",
+      "confidence": "Medium",
+      "scope": "Alternative 3-5-2 description in surrounding article and attributed explanation.",
+      "independenceGroup": "sky",
+      "locator": "Half-time change discussion",
+      "limitations": [
+        "Article wording is not all a quotation from Benítez; embedded video not inspected. Baseline retrieval retained."
+      ],
+      "url": "https://www.skysports.com/football/news/11669/11882727/miracle-of-istanbul-rafael-benitezs-inside-story-on-liverpools-famous-comeback-against-ac-milan"
+    },
+    {
+      "id": "s8",
+      "title": "The players: How we won it in 2005",
+      "publisher": "Liverpool FC",
+      "publishedOn": "2015-05-22",
+      "retrievedOn": "2026-09-16",
+      "type": "later-participant-account",
+      "confidence": "Medium",
+      "scope": "Named recollections of Kewell/Finnan injury and Hamann replacement.",
+      "independenceGroup": "lfc",
+      "locator": "Steve Finnan, Harry Kewell and Dietmar Hamann sections",
+      "limitations": [
+        "Later memories, not contemporary dressing-room transcript."
+      ],
+      "url": "https://www.liverpoolfc.com/news/first-team/185665-the-players-how-we-won-it-in-2005"
+    },
+    {
+      "id": "s9",
+      "title": "Miracle of Istanbul: An oral history",
+      "publisher": "UEFA",
+      "publishedOn": "2023-06-09",
+      "retrievedOn": "2026-09-16",
+      "type": "later-participant-account",
+      "confidence": "Medium",
+      "scope": "Later Gerrard role and retrospective recollection.",
+      "independenceGroup": "uefa",
+      "locator": "Extra time and shoot-out discussion",
+      "limitations": [
+        "Later recollections; Hamann thought belongs before shoot-out, not half-time. Baseline retrieval retained."
+      ],
+      "url": "https://www.uefa.com/uefachampionsleague/news/025d-0f782b45c942-3e20b8c30dfa-1000--miracle-of-istanbul-an-oral-history/"
+    },
+    {
+      "id": "s10",
+      "title": "Laws of the Game 2004–05",
+      "publisher": "IFAB / FIFA",
+      "publishedOn": null,
+      "retrievedOn": "2026-09-16",
+      "type": "rules",
+      "confidence": "High",
+      "scope": "Three substitutions, no re-entry, extra time and kicks from penalty mark procedures.",
+      "independenceGroup": "ifab",
+      "locator": "Law 3 pp.16–17; Law 10 p.33; procedures pp.52–53",
+      "limitations": [
+        "Historical laws used with final match record. Baseline retrieval retained; no modern extra-time substitute applied.",
+        "Edition dated July 2004; exact publication day is not established."
+      ],
+      "url": "https://downloads.theifab.com/downloads/laws-of-the-game-2004-05?l=en"
+    },
+    {
+      "id": "s11",
+      "title": "Liverpool 2004–05 fixtures",
+      "publisher": "LFChistory",
+      "publishedOn": null,
+      "retrievedOn": "2026-09-16",
+      "type": "specialist-record",
+      "confidence": "High",
+      "scope": "Dates, venues and results for fourteen European fixtures before final.",
+      "independenceGroup": "lfchistory",
+      "locator": "European fixtures August 2004–May 2005",
+      "limitations": [
+        "Baseline retrieval retained; match scores normalised Liverpool first."
+      ],
+      "url": "https://www.lfchistory.net/season-archive/games/104"
+    },
+    {
+      "id": "s12",
+      "title": "The Road to Kiev versus the Road to Istanbul",
+      "publisher": "Liverpool FC",
+      "publishedOn": "2018-05-25",
+      "retrievedOn": "2026-09-16",
+      "type": "retrospective-analysis",
+      "confidence": "High",
+      "scope": "Qualifying, group progression and knockout aggregates.",
+      "independenceGroup": "lfc",
+      "locator": "2004–05 entries under Qualifying, Group, Last 16, Quarter-final, Semi-final",
+      "limitations": [
+        "Qualification shorthand treated cautiously; no unconditional two-goal pre-match requirement."
+      ],
+      "url": "https://www.liverpoolfc.com/news/first-team/303289-champions-league-final-liverpool-fc-kiev-istanbul"
+    },
+    {
+      "id": "s13",
+      "title": "Fastest Champions League goals",
+      "publisher": "UEFA",
+      "publishedOn": "2026-05-31",
+      "retrievedOn": "2026-09-16",
+      "type": "match-record",
+      "confidence": "High",
+      "scope": "UEFA record list states 51 seconds for Maldini.",
+      "independenceGroup": "uefa",
+      "locator": "Maldini final entry",
+      "limitations": [
+        "Conflicts with contemporary UEFA 52-second account; use 1 minute. Baseline retrieval retained."
+      ],
+      "url": "https://www.uefa.com/uefachampionsleague/news/0237-0e966468be2a-209986d8dffd-1000--fastest-champions-league-goals-roy-makaay-heads-list-includ/"
+    }
+  ],
+  "editorial": {
+    "status": "reviewed",
+    "reviewedOn": "2026-09-16",
+    "provenance": {
+      "specification": "Istanbul-Interactive-History-Specification.md v1.1, 16 September 2026",
+      "baselineCommit": "7c3fde673c01904d81cec930f66064bf7cf45565",
+      "researchModel": "gpt-6-astra",
+      "researchTask": "/root/astra_content"
+    },
+    "unresolvedIssues": [
+      {
+        "id": "source-conflicts",
+        "description": "Use official 1 minute for Maldini and 86 minute for Serginho. No exact seconds or attendance asserted.",
+        "blocking": false
+      },
+      {
+        "id": "period-data",
+        "description": "No verified 90-minute statistical breakdown, xG, tracking, passing network or player distances; omitted.",
+        "blocking": false
+      },
+      {
+        "id": "retrospective-limits",
+        "description": "Finnan/Hamann memories are attributed; alternative shape labels and the later Gerrard role retain timing/interpretation limits.",
+        "blocking": false
+      }
+    ]
+  },
+  "publication": {
+    "status": "published",
+    "publishedOn": "2026-09-16",
+    "approvalReference": "Denny explicitly approved publishing the reviewed local experience and its Interactive History subcategory on 16 September 2026 in Codex task 01a0ab51-f25b-7773-858f-724626988ff5: “Make this subcategory, add this content into that subcategory, commit, push, and make live to site.” See docs/editorial/interactive-history/istanbul-2005/publication.md."
+  }
+}

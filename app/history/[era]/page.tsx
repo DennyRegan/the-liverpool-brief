@@ -1,3 +1,5 @@
+import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
+import { getEraExperiences, toExperienceSummary } from "@/lib/content/interactive-history";
 import Link from "next/link";
 import { HistoryNav } from "@/app/components/history/HistoryNav";
 import { notFound } from "next/navigation";
@@ -67,6 +69,7 @@ export default async function EraPage({ params }: Props) {
       <p className="hx-context">{era.context}</p>
       <EraFacts era={era} detailed />
 
+      <ExperienceCards experiences={getEraExperiences(era.id).map(toExperienceSummary)} headingId="era-interactive" />
       {articles.length > 0 && <section className="hx-reading" aria-labelledby="era-writing">
         <p className="eyebrow">Original writing · Denny Regan</p>
         <h2 id="era-writing">Related articles</h2>

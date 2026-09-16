@@ -1,3 +1,5 @@
+import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
+import { getSeasonExperiences, toExperienceSummary } from "@/lib/content/interactive-history";
 import { SeasonNavigation } from "@/app/components/SeasonNavigation";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -103,6 +105,7 @@ export default async function SeasonPage({ params }: Props) {
         {eras.length > 0 && <div className="season-connections-links"><h3>In the History Explorer</h3>{eras.map(era => <Link key={era.id} href={`/history/${era.id}`}>{era.manager} · {eraYears(era)} <span aria-hidden="true">→</span></Link>)}</div>}
         {season.relatedSeasons.length > 0 && <div className="season-connections-links"><h3>Related seasons</h3>{season.relatedSeasons.map(id => <Link href={`/history/seasons/${id}`} key={id}>{seasonLabel(id)} <span aria-hidden="true">→</span></Link>)}</div>}
       </section>
+      <ExperienceCards experiences={getSeasonExperiences(id).map(toExperienceSummary)} headingId="season-interactive" />
       {articles.length > 0 && <section className="hx-reading" aria-labelledby="season-archive">
         <p className="eyebrow">Original writing · Denny Regan</p><h2 id="season-archive">Related articles</h2>
         <ul className="hx-reading-list" role="list">{articles.map(article => <li key={article.slug}><article>
