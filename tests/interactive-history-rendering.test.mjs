@@ -9,7 +9,7 @@ import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { fixture } from './fixtures/interactive-history.mjs';
 await import('../scripts/register-server-only.mjs');
-const { toExperienceDocument, toExperienceControls, validateExperienceReferences, getPreviewExperience } = await import('../lib/content/interactive-history.ts');
+const { toExperienceDocument, toExperienceControls, validateExperienceReferences, getPublishedExperience } = await import('../lib/content/interactive-history.ts');
 
 // Compile real server and client TSX using the repository's existing runner.
 // React's static renderer exercises the shared no-JavaScript reading document.
@@ -60,9 +60,9 @@ test('the real reader renders a different match and normal-time result without I
 });
 
 test('Istanbul server HTML preserves headings, static state, real links, evidence and complete fallback record', () => {
-  const draft = getPreviewExperience('istanbul-2005', { NODE_ENV: 'development', INTERACTIVE_HISTORY_PREVIEW: 'istanbul-2005' });
-  const html = render(draft);
-  for (const moment of draft.moments) assert.ok(html.includes(`id="${moment.id}"`), moment.id);
+  const experience = getPublishedExperience('istanbul-2005');
+  const html = render(experience);
+  for (const moment of experience.moments) assert.ok(html.includes(`id="${moment.id}"`), moment.id);
   for (let i = 1; i <= 9; i++) assert.ok(html.includes(`id="shootout-${i}"`));
   assert.match(html, /<details class="ih-full-record"><summary>Read the complete shoot-out record/);
   assert.match(html, /href="\/archive\/liverpool-monaco-champions-league-2004"/);

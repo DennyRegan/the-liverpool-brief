@@ -2373,10 +2373,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "25 May 2005 final",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "named-squads",
@@ -2390,10 +2390,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Before kick-off",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "coaches",
@@ -2407,10 +2407,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Before kick-off",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "historical-rules",
@@ -2429,10 +2429,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "25 May 2005 final",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "penalty-procedure",
@@ -2446,10 +2446,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "After extra time",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "kewell-injury",
@@ -2468,10 +2468,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "First half",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "finnan-injury",
@@ -2485,10 +2485,10 @@
         }
       ],
       "confidence": "Medium",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Half-time, recalled in 2015",
       "displayTreatment": "named-attribution",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "starting-roles",
@@ -2502,10 +2502,10 @@
         }
       ],
       "confidence": "Medium",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Starting structure and first half",
       "displayTreatment": "interpretation-label",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "restart-roles",
@@ -2519,10 +2519,10 @@
         }
       ],
       "confidence": "Medium",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Second-half restart",
       "displayTreatment": "interpretation-label",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "shape-labels",
@@ -2541,10 +2541,10 @@
         }
       ],
       "confidence": "Medium",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Retrospective descriptions of restart",
       "displayTreatment": "interpretation-label",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "later-gerrard-role",
@@ -2568,10 +2568,10 @@
         }
       ],
       "confidence": "Medium",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Later match / extra time; exact start of adjustment not established",
       "displayTreatment": "interpretation-label",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "maldini-timing",
@@ -2595,10 +2595,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "First minute",
       "displayTreatment": "uncertainty-note",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "first-goal-construction",
@@ -2612,10 +2612,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "First minute",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "second-goal-construction",
@@ -2629,10 +2629,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "39 minute goal",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "third-goal-construction",
@@ -2646,10 +2646,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "44 minute goal",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "gerrard-construction",
@@ -2663,10 +2663,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "54 minute goal",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "smicer-construction",
@@ -2685,10 +2685,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "56 minute goal",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "final-outcome",
@@ -2712,10 +2712,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "After the final",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "match-started-claim",
@@ -2729,10 +2729,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Kick-off",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "maldini-goal-claim",
@@ -2746,10 +2746,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "1′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "smicer-for-kewell-claim",
@@ -2763,10 +2763,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "23′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "crespo-goal-one-claim",
@@ -2780,10 +2780,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "39′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "crespo-goal-two-claim",
@@ -2797,10 +2797,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "44′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "interval-start-claim",
@@ -2814,10 +2814,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Half-time",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "hamann-for-finnan-claim",
@@ -2831,10 +2831,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Half-time",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "second-half-start-claim",
@@ -2848,10 +2848,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Second-half restart",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "gerrard-goal-claim",
@@ -2865,10 +2865,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "54′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "smicer-goal-claim",
@@ -2882,10 +2882,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "56′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "liverpool-penalty-awarded-claim",
@@ -2899,10 +2899,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "60′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "alonso-penalty-saved-claim",
@@ -2921,10 +2921,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "60′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "alonso-rebound-goal-claim",
@@ -2938,10 +2938,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "60′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "carragher-booked-claim",
@@ -2955,10 +2955,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "76′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "baros-booked-claim",
@@ -2972,10 +2972,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "81′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "cisse-for-baros-claim",
@@ -2989,10 +2989,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "85′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "tomasson-for-crespo-claim",
@@ -3006,10 +3006,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "85′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "serginho-for-seedorf-claim",
@@ -3023,10 +3023,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "86′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "normal-time-ended-claim",
@@ -3040,10 +3040,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "End of normal time",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "extra-time-started-claim",
@@ -3057,10 +3057,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Extra time begins",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "extra-time-interval-claim",
@@ -3074,10 +3074,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Extra-time interval",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "extra-time-second-started-claim",
@@ -3091,10 +3091,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Second extra-time period",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "rui-costa-for-gattuso-claim",
@@ -3108,10 +3108,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "112′",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "dudek-double-save-claim",
@@ -3130,10 +3130,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Late extra time",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "extra-time-ended-claim",
@@ -3147,10 +3147,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "After extra time",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "shootout-started-claim",
@@ -3169,10 +3169,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Shoot-out",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "penalty-1-claim",
@@ -3191,10 +3191,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Attempt 1",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "penalty-2-claim",
@@ -3213,10 +3213,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Attempt 2",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "penalty-3-claim",
@@ -3235,10 +3235,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Attempt 3",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "penalty-4-claim",
@@ -3257,10 +3257,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Attempt 4",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "penalty-5-claim",
@@ -3279,10 +3279,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Attempt 5",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "penalty-6-claim",
@@ -3301,10 +3301,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Attempt 6",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "penalty-7-claim",
@@ -3323,10 +3323,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Attempt 7",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "penalty-8-claim",
@@ -3345,10 +3345,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Attempt 8",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "penalty-9-claim",
@@ -3367,10 +3367,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Attempt 9",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "first-half-statistics-shots",
@@ -3384,10 +3384,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "First-half statistics",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "first-half-statistics-shots-on-goal",
@@ -3401,10 +3401,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "First-half statistics",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "first-half-statistics-possession",
@@ -3418,10 +3418,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "First-half statistics",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "full-statistics-shots",
@@ -3435,10 +3435,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Match statistics after extra time",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "full-statistics-shots-on-goal",
@@ -3452,10 +3452,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Match statistics after extra time",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "full-statistics-possession",
@@ -3469,10 +3469,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Match statistics after extra time",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "road-qualifying",
@@ -3486,10 +3486,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Before the final",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2004-08-10",
@@ -3503,10 +3503,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2004-08-10",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2004-08-24",
@@ -3520,10 +3520,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2004-08-24",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "road-group",
@@ -3537,10 +3537,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Before the final",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2004-09-15",
@@ -3554,10 +3554,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2004-09-15",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2004-09-28",
@@ -3571,10 +3571,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2004-09-28",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2004-10-19",
@@ -3588,10 +3588,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2004-10-19",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2004-11-03",
@@ -3605,10 +3605,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2004-11-03",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2004-11-23",
@@ -3622,10 +3622,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2004-11-23",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2004-12-08",
@@ -3639,10 +3639,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2004-12-08",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "road-last-sixteen",
@@ -3656,10 +3656,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Before the final",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2005-02-22",
@@ -3673,10 +3673,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2005-02-22",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2005-03-09",
@@ -3690,10 +3690,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2005-03-09",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "road-quarter-final",
@@ -3707,10 +3707,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Before the final",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2005-04-05",
@@ -3724,10 +3724,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2005-04-05",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2005-04-13",
@@ -3741,10 +3741,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2005-04-13",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "road-semi-final",
@@ -3758,10 +3758,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Before the final",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2005-04-27",
@@ -3775,10 +3775,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2005-04-27",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "fixture-2005-05-03",
@@ -3792,10 +3792,10 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "2005-05-03",
       "displayTreatment": "plain-fact",
-      "reviewNote": "Transcribed from the supplied retrieved baseline; editorial publication review remains outstanding."
+      "reviewNote": "Transcribed from the supplied retrieved baseline; approved for publication by Denny on 16 September 2026; see publication.md."
     },
     {
       "id": "road-count",
@@ -3809,7 +3809,7 @@
         }
       ],
       "confidence": "High",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Before the final",
       "displayTreatment": "plain-fact",
       "reviewNote": "Count calculated from transcribed fixture rows; no claim that fourteen excludes qualifying."
@@ -3831,10 +3831,10 @@
         }
       ],
       "confidence": "Medium",
-      "status": "needs-review",
+      "status": "approved",
       "temporalScope": "Milan starting structure",
       "displayTreatment": "interpretation-label",
-      "reviewNote": "Role schematic remains subject to editorial review; diagram coordinates are display choices, not measured historical positions."
+      "reviewNote": "Role schematic approved with the experience by Denny on 16 September 2026; diagram coordinates are display choices, not measured historical positions."
     }
   ],
   "sources": [
@@ -4033,8 +4033,8 @@
     }
   ],
   "editorial": {
-    "status": "working-draft",
-    "reviewedOn": null,
+    "status": "reviewed",
+    "reviewedOn": "2026-09-16",
     "provenance": {
       "specification": "Istanbul-Interactive-History-Specification.md v1.1, 16 September 2026",
       "baselineCommit": "7c3fde673c01904d81cec930f66064bf7cf45565",
@@ -4042,16 +4042,6 @@
       "researchTask": "/root/astra_content"
     },
     "unresolvedIssues": [
-      {
-        "id": "publication-review",
-        "description": "Working draft only. Denny has not approved the structured content, diagrams or publication.",
-        "blocking": true
-      },
-      {
-        "id": "schematic-review",
-        "description": "Review schematic role labels, especially the interval layout and Milan diamond; display coordinates are not evidence.",
-        "blocking": true
-      },
       {
         "id": "source-conflicts",
         "description": "Use official 1 minute for Maldini and 86 minute for Serginho. No exact seconds or attendance asserted.",
@@ -4070,6 +4060,8 @@
     ]
   },
   "publication": {
-    "status": "draft"
+    "status": "published",
+    "publishedOn": "2026-09-16",
+    "approvalReference": "Denny explicitly approved publishing the reviewed local experience and its Interactive History subcategory on 16 September 2026 in Codex task 01a0ab51-f25b-7773-858f-724626988ff5: “Make this subcategory, add this content into that subcategory, commit, push, and make live to site.” See docs/editorial/interactive-history/istanbul-2005/publication.md."
   }
 }

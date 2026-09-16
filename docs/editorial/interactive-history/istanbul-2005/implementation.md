@@ -1,5 +1,7 @@
 # Istanbul Interactive History — local review handover
 
+Publication update — 16 September 2026: Denny subsequently approved this experience and requested its release under History → Interactive History. The authoritative record is now `content/history/liverpool/interactive/istanbul-2005.json`; see [publication.md](./publication.md) for the approval and release checks. The original preview-stage audit below is retained as historical provenance.
+
 This is an isolated feature implementation and a working editorial draft. The user explicitly requested implementation and local review, prohibited merging/publishing, and required the existing publication schedule to remain unchanged. No article or experience has been published, commissioned on the calendar, or deployed by this task.
 
 ## Repository reconciliation

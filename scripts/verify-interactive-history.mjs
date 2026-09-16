@@ -31,11 +31,12 @@ try {
     const trace = JSON.parse(fs.readFileSync(`.next/server/app/${filename}`, 'utf8'));
     assert.ok(!trace.files.some(file => file.includes('docs/editorial/interactive-history')), `${filename}: production trace excludes editorial drafts`);
   }
-  await get('/history/interactive', experiences.length ? 200 : 404);
+  const collection = await get('/history/interactive', experiences.length ? 200 : 404);
   await get('/history/interactive/not-a-published-experience', 404);
   await get('/preview/interactive-history/istanbul-2005', 404);
   await get('/preview/interactive-history/unknown', 404);
   for (const experience of experiences) {
+    assert.ok(mainOf(collection).includes(`href="/history/interactive/${experience.id}"`), 'collection links to published experience');
     const html = await get(`/history/interactive/${experience.id}`);
     const main = mainOf(html);
     assert.equal((main.match(/<h1[ >]/g) ?? []).length, 1);
@@ -46,6 +47,20 @@ try {
     }
     for (const internal of [...main.matchAll(/href="(\/(?:archive|history)\/[^"#]+)"/g)].map(match => match[1])) await get(internal);
     assert.doesNotMatch(html, /"approvalReference"|"researchModel"|"researchTask"|"reviewNote"|"confidence"/);
+    assert.doesNotMatch(main, /Local review draft|editorial approval|Working draft only/i);
+    const routes = ['/history', '/history/matches', '/history/players',
+      ...experience.relationships.seasonIds.map(id => `/history/seasons/${id}`),
+      ...experience.relationships.eraIds.map(id => `/history/${id}`)];
+    for (const route of routes) {
+      const discovery = mainOf(await get(route));
+      assert.ok(discovery.includes('href="/history/interactive"'), `${route}: Interactive History subnavigation`);
+      if (route === '/history/matches') {
+        assert.match(discovery, /Explore Interactive History/, 'Matches has a separate collection link');
+      } else if (route !== '/history' && route !== '/history/players') {
+        assert.ok(discovery.includes(`href="/history/interactive/${experience.id}"`), `${route}: experience discovery`);
+      }
+      assert.doesNotMatch(discovery, /href="\/preview\/interactive-history/, `${route}: no draft link`);
+    }
   }
   if (!experiences.length) {
     await get('/history/interactive/istanbul-2005', 404);

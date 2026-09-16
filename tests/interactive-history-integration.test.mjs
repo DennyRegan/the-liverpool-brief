@@ -15,13 +15,33 @@ import { fixture } from './fixtures/interactive-history.mjs';
 
 function withRoot(run) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'interactive-publication-'));
-  try { fs.cpSync('content', path.join(root, 'content'), { recursive: true }); return run(root); }
+  try {
+    fs.cpSync('content', path.join(root, 'content'), { recursive: true });
+    // Publication fixtures start with an empty collection, independently of live content.
+    fs.rmSync(path.join(root, 'content/history/liverpool/interactive'), { recursive: true, force: true });
+    return run(root);
+  }
   finally { fs.rmSync(root, { recursive: true, force: true }); }
 }
 function write(root, record, draft = false) {
   const filename = draft ? path.join(root, 'docs/editorial/interactive-history', record.id, 'experience.json') : path.join(root, 'content/history/liverpool/interactive', `${record.id}.json`);
   fs.mkdirSync(path.dirname(filename), { recursive: true }); fs.writeFileSync(filename, JSON.stringify(record));
 }
+
+test('approved Istanbul is discoverable under Interactive History without a duplicate draft', () => {
+  const experience = getPublishedExperience('istanbul-2005');
+  assert.ok(experience);
+  assert.equal(experience.publication.status, 'published');
+  assert.match(experience.publication.approvalReference, /Denny.*16 September 2026/);
+  assert.equal(experience.editorial.status, 'reviewed');
+  assert.ok(getSeasonExperiences('2004-05').some(item => item.id === experience.id));
+  assert.ok(getEraExperiences('rafael-benitez').some(item => item.id === experience.id));
+  assert.equal(getPreviewExperience(experience.id, { NODE_ENV: 'development', INTERACTIVE_HISTORY_PREVIEW: experience.id }), undefined);
+  assert.equal(fs.existsSync('docs/editorial/interactive-history/istanbul-2005/experience.json'), false);
+  const document = toExperienceDocument(experience);
+  assert.equal(document.claims.length, 80);
+  assert.ok(!document.contentNotes.some(note => note.includes('editorial approval')));
+});
 
 test('drafts cannot enter any public selector; preview requires exact allowlist and development', () => withRoot(root => {
   const record = fixture(); record.publication = { status: 'draft' }; write(root, record, true);

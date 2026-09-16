@@ -204,8 +204,8 @@ test('clock-free context fixture uses the shared reading contract without match 
   assert.equal('clock' in replayContext(fixture.events, 'context-begins'), false);
 });
 
-test('Istanbul draft transcription matches the independently supplied score, personnel and penalty baseline', () => {
-  const file = new URL('../docs/editorial/interactive-history/istanbul-2005/experience.json', import.meta.url);
+test('published Istanbul matches the independently supplied score, personnel and penalty baseline', () => {
+  const file = new URL('../content/history/liverpool/interactive/istanbul-2005.json', import.meta.url);
   const record = validateExperience(JSON.parse(fs.readFileSync(file, 'utf8')));
   assert.equal(record.kind, 'match');
   const states = compileMatchStates(record.match, record.events);

@@ -1,5 +1,7 @@
 # Istanbul 2005 — structured working draft and evidence audit
 
+Publication update — 16 September 2026: Denny subsequently approved this experience and requested its release under History → Interactive History. The authoritative record is now `content/history/liverpool/interactive/istanbul-2005.json`; see [publication.md](./publication.md) for the approval and release checks. The original preview-stage audit below is retained as historical provenance.
+
 Status: **working draft for local preview; not approved for publication**. Research and factual drafting were performed in an explicitly configured **gpt-6-astra** worker, task **/root/astra_content**, on 16 September 2026. No public prose includes this internal provenance.
 
 ## Commission and boundary
