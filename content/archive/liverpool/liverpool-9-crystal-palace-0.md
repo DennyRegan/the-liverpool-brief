@@ -7,6 +7,7 @@ decade: "1980s"
 excerpt: "Nine goals, eight scorers, and a farewell to John Aldridge. Nobody at Anfield that night knew they were watching the end of something."
 slug: "liverpool-9-crystal-palace-0"
 category: "match"
+editorialMode: "factual"
 articleType: "match"
 season: "1989-90"
 playerIds:

@@ -1,8 +1,8 @@
 import { HistoryBrowse } from "@/app/components/history/HistoryBrowse";
 
 export const metadata = {
-  title: "Liverpool Players in History | The Liverpool Brief",
-  description: "Factual Liverpool player biographies and historical accounts, exploring their careers and contributions to the club.",
+  title: "Liverpool People in History | The Liverpool Brief",
+  description: "Explore Liverpool players and managers through original writing, alongside factual biographies and player features.",
   alternates: { canonical: "/history/players" },
 };
 

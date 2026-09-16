@@ -7,6 +7,7 @@ decade: "1980s"
 excerpt: "Liverpool lost their most potent goalscorer in the summer of 1987 and somehow became more potent. John Barnes was at the centre of the attack Kenny Dalglish built without Ian Rush."
 slug: "john-barnes-1987"
 category: "person"
+editorialMode: "factual"
 articleType: "player"
 season: "1987-88"
 playerIds:

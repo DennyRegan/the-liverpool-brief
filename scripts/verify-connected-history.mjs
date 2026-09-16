@@ -127,4 +127,4 @@ for (const article of approved) {
   assert.ok(main.includes(`href="${browser}"`), `${article.slug}: subject-appropriate History return link`);
   for (const slug of archiveLinks(main)) assert.ok(approved.some(a => a.slug === slug), 'Factual recommendations exclude opinion');
 }
-console.log('PASS factual browsers, empty Players, original article URLs, Articles separation and factual recommendations');
+console.log('PASS factual browsers, People and biographies, original article URLs, Articles separation and factual recommendations');

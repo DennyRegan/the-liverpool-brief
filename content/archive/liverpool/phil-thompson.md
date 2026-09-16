@@ -7,6 +7,7 @@ decade: "1980s"
 excerpt: "A Kirkby lad who stood on the Kop lifted the European Cup as Liverpool's captain. Almost nobody talks about him."
 slug: "phil-thompson"
 category: "person"
+editorialMode: "factual"
 articleType: "player"
 playerIds:
   - "phil-thompson"
