@@ -2,12 +2,11 @@ import ReactMarkdown from "react-markdown";
 import type { ReactNode } from "react";
 import type { ExperienceControls, ExperienceDocumentModel } from "@/lib/interactive-history/models";
 import type { Block, Boundary, Diagram, MatchEvent, Moment, Side, Statistics } from "@/lib/interactive-history/types";
-import { ExperienceController, MatchStateBar, ShootoutSequence } from "./ExperienceController";
+import { ExperienceController, MatchStateBar, ShootoutSequence, MatchExplorer, MomentPanel } from "./ExperienceController";
 import { StateComparison } from "./StateComparison";
 import "@/app/history/interactive/interactive-history.css";
 
 type Document = ExperienceDocumentModel;
-const sourceLabels: Record<string, string> = { "verified-fact": "Match record", "statistical-observation": "Statistical record", "contemporary-reporting": "Reported at the time", "later-recollection": "Later recollection", "tactical-interpretation": "Tactical interpretation" };
 
 function Markdown({ children }: { children: string }) {
   return <ReactMarkdown skipHtml allowedElements={["p", "em", "strong", "a", "code", "br"]} unwrapDisallowed>{children}</ReactMarkdown>;
@@ -21,19 +20,20 @@ export function ExperienceDocument({ document, controls, preview = false }: { do
   return <ExperienceController model={controls}>
     <header className="ih-introduction" id="experience-introduction">
       <p className="eyebrow">Interactive History {preview && <span className="ih-preview-label">· Local review draft</span>}</p>
-      <h1>{document.title}</h1>
+      <p className="ih-edition">THE LIVERPOOL BRIEF / INTERACTIVE HISTORY</p><h1>{document.title}</h1>
       <p className="ih-subject-date">{new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(document.dateRange.start))} <span>·</span> {document.match.competitionLabel ?? document.relationships.competitionIds.map(id => document.names[id]).join(" · ")} <span>·</span> {document.relationships.locationIds.map(id => document.names[id]).join(" · ")}</p>
       <p className="ih-standfirst">{document.standfirst}</p>
       <div className="ih-intro-links"><a className="ih-primary" href={`#${first.id}`}>Explore from the beginning <span aria-hidden="true">↓</span></a>{exploration && <a href={`#${exploration.id}`}>Go to half-time <span aria-hidden="true">↗</span></a>}</div>
-      <p className="ih-how-to">Read at your own pace. Open a team, compare the change, or follow the evidence at any moment.</p>{document.contentNotes.map(note => <p className="ih-caption" key={note}>{note}</p>)}
+      <p className="ih-how-to">Step inside the match. Choose a moment, explore the teams and reveal the shoot-out one penalty at a time.</p>{document.contentNotes.map(note => <p className="ih-caption" key={note}>{note}</p>)}
     </header>
-    <MatchStateBar />
+    <MatchStateBar /><MatchExplorer />
     <div className="ih-reading-layout">
       <aside className="ih-rail"><MomentIndex document={document} outcomeId={outcome?.id} /><p className="ih-rail-note">A match in moments.<br />Every score is {document.teams.subject} first.</p></aside>
       <div className="ih-narrative" data-narrative>
-        {document.moments.map(moment => moment.id === outcome?.id
+        {document.moments.map(moment => <MomentPanel id={moment.id} key={moment.id}>{moment.id === outcome?.id
           ? <details key={moment.id} className="ih-outcome" data-outcome-disclosure><summary>After the final <span>— reveals the result</span></summary><MomentSection document={document} controls={controls} moment={moment} /></details>
-          : <MomentSection key={moment.id} document={document} controls={controls} moment={moment} />)}
+          : <MomentSection key={moment.id} document={document} controls={controls} moment={moment} />}</MomentPanel>)}
+        <MatchExplorer footer />
       </div>
     </div>
     <div className="ih-after-reading"><ExperienceConnections document={document} /><EvidenceCatalogue document={document} /></div>
@@ -65,7 +65,6 @@ function MomentSection({ document, controls, moment }: { document: Document; con
       }
       return <BlockView key={block.id} block={block} document={document} controls={controls} />;
     })}</div>
-    <MomentEvidence document={document} title={moment.title} revealsResults={moment.presentation === "attempt-sequence"} claimIds={document.momentEvidence[moment.id] ?? []} />
   </section>;
 }
 
@@ -77,7 +76,7 @@ function BlockView({ block, document, controls }: { block: Block; document: Docu
       const context = document.contexts.find(item => item.id === block.contextId)!;
       return <details className="ih-context"><summary>{context.title}</summary><div className="ih-disclosure-body"><p className="ih-caption">{context.scope.label}</p>{context.blocks.map(child => <BlockView key={child.id} block={child} document={document} controls={controls} />)}</div></details>;
     }
-    case "personnel": return <Personnel document={document} side={block.side} boundary={block.boundary} />;
+    case "personnel": return <details className="ih-context ih-team-disclosure"><summary>Explore {document.teams[block.side]}’s team</summary><Personnel document={document} side={block.side} boundary={block.boundary} /></details>;
     case "diagram": return <TacticalDiagram document={document} diagram={document.diagrams.find(d => d.id === block.diagramId)!} />;
     case "comparison": return <StateComparison title={block.title} labels={[block.views[0].label, block.views[1].label]} views={block.views.map(view => <TacticalDiagram key={view.diagramId} document={document} diagram={document.diagrams.find(d => d.id === view.diagramId)!} label={view.label} headingLevel={4} />) as [ReactNode, ReactNode]} />;
     case "statistics": {
@@ -134,10 +133,6 @@ function StatisticComparison({ document, statistics }: { document: Document; sta
 function EvidenceLinks({ document, claimIds }: { document: Document; claimIds: string[] }) {
   const ids = [...new Set(document.claims.filter(claim => claimIds.includes(claim.id)).flatMap(claim => claim.sourceRefs.map(ref => ref.sourceId)))];
   return ids.length ? <p className="ih-evidence-links">Evidence: {ids.map((id, i) => <span key={id}>{i > 0 && " · "}<a href={`#source-${id}`}>{document.sources.find(source => source.id === id)?.publisher ?? id}<span className="ih-sr-only"> {id}</span></a></span>)}</p> : null;
-}
-function MomentEvidence({ document, title, claimIds, revealsResults = false }: { document: Document; title: string; claimIds: string[]; revealsResults?: boolean }) {
-  const claims = document.claims.filter(claim => claimIds.includes(claim.id));
-  return <details className="ih-evidence"><summary>Evidence for this moment{revealsResults && <span> — reveals all attempts</span>}<span className="ih-sr-only">: {title}</span></summary><div className="ih-disclosure-body"><h3>{title}: evidence</h3><ul>{claims.map(claim => <li key={claim.id}><span className="ih-evidence-label">{sourceLabels[claim.kind]}{claim.displayTreatment === "uncertainty-note" && " · Records differ"}</span><p>{claim.statement}</p><ul className="ih-claim-sources">{claim.sourceRefs.map((ref, i) => <li key={`${ref.sourceId}-${i}`}><a href={`#source-${ref.sourceId}`}>{document.sources.find(source => source.id === ref.sourceId)?.publisher} — {ref.locator}</a>{ref.relation !== "supports" && <> ({ref.relation})</>}</li>)}</ul></li>)}</ul></div></details>;
 }
 function EvidenceCatalogue({ document }: { document: Document }) {
   return <section className="ih-source-catalogue" aria-labelledby="experience-sources"><h2 id="experience-sources" tabIndex={-1}>Sources and historical notes</h2><p>The record, later memories and tactical explanations answer different questions. The notes identify their scope and limits.</p><details><summary>Open the source catalogue ({document.sources.length})</summary>{document.sources.map(source => <section key={source.id}><h3 id={`source-${source.id}`} tabIndex={-1}>{source.title}</h3><p>{source.publisher}{source.publishedOn && <> · {source.publishedOn}</>}</p><a href={source.url}>Read the source <span aria-hidden="true">↗</span></a><p>{source.scope}</p>{source.limitations.map((note, i) => <p className="ih-caption" key={i}>{note}</p>)}<a href={`#${document.moments[0].id}`} data-return-to-moment>Return to your moment ↑</a></section>)}</details></section>;
