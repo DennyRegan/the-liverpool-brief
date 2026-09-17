@@ -1,3 +1,4 @@
+import { getV3Context, getJourneys, deriveTimeline } from '../lib/content/history-v3.ts';
 import { getArticles } from '../lib/content/articles.ts';
 import { getMatchCentre } from '../lib/content/match-centre.ts';
 import { getSeasons } from '../lib/content/seasons.ts';
@@ -33,3 +34,6 @@ console.log(`Validated ${getPublishedExperiences().length} published interactive
 console.log(`Validated ${getArticles().length} Opinion/Analysis articles.`);
 const centre = getMatchCentre();
 console.log(`Validated Match Centre ${centre.season}: ${centre.fixtures.length} fixtures and ${centre.table.rows.length} table rows.`);
+
+const v3 = getV3Context();
+console.log(`Validated ${getJourneys(process.cwd(), v3).length} guided journeys and ${deriveTimeline(v3).reduce((n, s) => n + s.entries.length, 0)} timeline entries.`);

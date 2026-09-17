@@ -1,0 +1,39 @@
+{
+  "id": "liverpool-and-the-european-cup",
+  "title": "Liverpool and the European Cup",
+  "introduction": "Follow the available writing from Anfield’s first European match through four European Cup finals, then explore the 2004–05 season.",
+  "steps": [
+    {
+      "kind": "competition",
+      "id": "european-cup"
+    },
+    {
+      "kind": "article",
+      "id": "anfield-first-european-match-reykjavik-1964"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-saint-etienne-1977-fairclough-winner"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-gladbach-1977-first-european-cup"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-brugge-1978-european-cup-final"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-real-madrid-1981-third-european-cup"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-roma-1984-kennedy-penalty"
+    },
+    {
+      "kind": "season",
+      "id": "2004-05"
+    }
+  ]
+}

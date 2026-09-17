@@ -28,4 +28,4 @@ for(const a of getArchiveFeatures()){
 for(const path of ['/history/players','/history/opposition','/history/competitions','/history'])for(const href of links(mainOf(await get(path))))seen.add(href);
 for(const href of seen)await get(href);
 for(const path of ['/history/people/unknown','/history/people/dixie-dean','/history/people/everton','/history/opposition/hull-city','/history/competitions/intercontinental-cup','/history/opposition/unknown','/history/competitions/unknown','/archive/torres-goodison-derby-double-2008'])await get(path,404);
-console.log(`PASS ${destinations.length} entity destinations, 212 article exploration panels, ${seen.size} linked routes, ordering, deduplication, canonical tags and eight excluded routes`);
+console.log(`PASS ${destinations.length} entity destinations, ${getArchiveFeatures().length} article exploration panels, ${seen.size} linked routes, ordering, deduplication, canonical tags and eight excluded routes`);

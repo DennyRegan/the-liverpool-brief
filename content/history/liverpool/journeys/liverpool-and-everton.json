@@ -1,0 +1,35 @@
+{
+  "id": "liverpool-and-everton",
+  "title": "Liverpool and Everton",
+  "introduction": "Follow the derby through published accounts of league encounters, cup finals and the 1985–86 season.",
+  "steps": [
+    {
+      "kind": "opposition",
+      "id": "everton"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-everton-comeback-1970"
+    },
+    {
+      "kind": "article",
+      "id": "everton-liverpool-1982-rush-four"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-everton-1984-souness-replay-winner"
+    },
+    {
+      "kind": "season",
+      "id": "1985-86"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-everton-1986-rush-double-wembley"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-everton-1989-rush-extra-time-double"
+    }
+  ]
+}

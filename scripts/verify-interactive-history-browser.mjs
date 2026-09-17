@@ -12,6 +12,11 @@ const artifact = name => path.join(artifactDirectory, name);
 const base = process.env.INTERACTIVE_PREVIEW_URL ?? 'http://127.0.0.1:3145/preview/interactive-history/istanbul-2005';
 const browser = await chromium.launch({headless:true});
 const context = await browser.newContext({viewport:{width:1280,height:1000},reducedMotion:'reduce'});
+// Vercel serves this endpoint only on its platform, not in `next start`.
+// Keep every application-resource error fatal; stub only this local analytics script.
+if (['127.0.0.1', 'localhost'].includes(new URL(base).hostname)) {
+  await context.route(`${new URL(base).origin}/_vercel/insights/script.js*`, route => route.fulfill({ status: 200, contentType: 'application/javascript', body: '' }));
+}
 const page = await context.newPage();
 const errors=[]; const checks=[];
 page.on('pageerror',e=>errors.push(e.message));
@@ -107,6 +112,8 @@ await page.addStyleTag({content:'.ih-experience {font-size:32px} .ih-prose {font
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
 await page.setViewportSize({width:320,height:225});
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+// ResizeObserver applies the short-viewport state asynchronously.
+await page.waitForFunction(() => getComputedStyle(document.querySelector('[data-state-bar]')).position !== 'sticky');
 assert.notEqual(await bar.evaluate(e=>getComputedStyle(e).position),'sticky');
 check('Text enlargement and 400%-equivalent reflow preserve content; short viewport relaxes stickiness');
 await page.setViewportSize({width:390,height:844});await loaded('#half-time');

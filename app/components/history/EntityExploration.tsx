@@ -1,3 +1,4 @@
+import { ContinueFromHere } from "./V3Exploration";
 import { AnalysisReading } from '@/app/components/AnalysisReading';
 import Link from 'next/link';
 import { SiteHeader } from '@/app/components/SiteHeader';
@@ -51,5 +52,6 @@ export function EntityExploration({ destination }: { destination: Exploration })
       <AnalysisReading context={{ entityId: entity.id }} />
     {relevantSeasons.length > 0 && <details className="entity-context"><summary>Explore the seasons <span aria-hidden="true">↓</span></summary><ul role="list">{relevantSeasons.map(s => <li key={s.season}><Link href={`/history/seasons/${s.season}`}>{s.season.replace('-', '–')}</Link></li>)}</ul></details>}
     {tenures.length > 0 && <section className="entity-section" aria-labelledby="manager-eras"><h2 id="manager-eras">Managerial eras</h2><ul className="entity-era-links" role="list">{tenures.map(e => <li key={e.id}><Link href={`/history/${e.id}`}>{e.manager} · {eraYears(e)} <span aria-hidden="true">→</span></Link></li>)}</ul></section>}
+    <ContinueFromHere context={{ entityId: entity.id }} />
   </main></>;
 }

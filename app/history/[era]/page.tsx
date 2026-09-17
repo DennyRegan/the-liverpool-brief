@@ -1,3 +1,4 @@
+import { ContinueFromHere } from "@/app/components/history/V3Exploration";
 import { AnalysisReading } from '@/app/components/AnalysisReading';
 import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
 import { getEraExperiences, toExperienceSummary } from "@/lib/content/interactive-history";
@@ -101,6 +102,7 @@ export default async function EraPage({ params }: Props) {
           <span className="eyebrow">Next era →</span><span>{next.manager}</span><small>{eraYears(next)}</small>
         </Link>}
       </nav>
-    </main>
+    <ContinueFromHere context={{ eraId: era.id }} />
+      </main>
   </>;
 }
