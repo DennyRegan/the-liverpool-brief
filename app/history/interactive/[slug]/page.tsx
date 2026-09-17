@@ -1,5 +1,6 @@
-import { SiteHeader } from "@/app/components/SiteHeader";
-import { HistoryNav } from "@/app/components/history/HistoryNav";
+import Link from "next/link";
+
+
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ExperienceDocument } from "@/app/components/history/interactive/ExperienceDocument";
@@ -26,5 +27,5 @@ export default async function InteractiveExperiencePage({ params }: Props) {
   const { slug } = await params;
   const experience = getPublishedExperience(slug);
   if (!experience) notFound();
-  return <><SiteHeader active="history" /><main id="main-content" className="site-width hx-page ih-page"><HistoryNav active="interactive" /><ExperienceDocument document={toExperienceDocument(experience)} controls={toExperienceControls(experience)} preview={false} /></main></>;
+  return <><header className="ih-special-header"><Link href="/">The Liverpool Brief<span>Independent. In depth.</span></Link><Link href="/history/interactive">← All interactive history</Link></header><main id="main-content" className="ih-special-page"><ExperienceDocument document={toExperienceDocument(experience)} controls={toExperienceControls(experience)} preview={false} /></main></>;
 }

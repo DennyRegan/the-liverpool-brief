@@ -194,3 +194,105 @@
   .ih-experience { font-size: 11pt; }
   .ih-prose { font-size: 12pt; }
 }
+
+/* The interactive edition has its own visual rhythm, separate from article pages. */
+.ih-special-header { background: #111918; color: #f8f4eb; padding: 22px max(24px, calc((100vw - 1240px) / 2)); display: flex; justify-content: space-between; align-items: center; gap: 20px; border-bottom: 1px solid #34413d; }
+.ih-special-header > a:first-child { font-family: var(--font-source-serif), Georgia, serif; font-size: 24px; font-weight: 650; letter-spacing: -.04em; }
+.ih-special-header > a:first-child span { display: block; font-family: var(--font-geist-sans), sans-serif; font-size: 10px; font-weight: 400; letter-spacing: .14em; text-transform: uppercase; margin-top: 3px; color: #b7c3bc; }
+.ih-special-header > a:last-child { font-size: 12px; padding: 12px 0; }
+.ih-special-page { background: #f4f1e9; }
+.ih-special-page .ih-experience { --accent: #a51d2d; --accent-dark: #801323; --foreground: #17221e; --muted: #59625b; --line: #d5d7cc; --background: #f4f1e9; color: var(--foreground); }
+.ih-special-page .ih-introduction { position: relative; max-width: none; padding: 72px max(24px, calc((100vw - 1240px) / 2)) 56px; background: #111918; color: #faf5e9; border-bottom: 5px solid #b82d3a; }
+.ih-special-page .ih-introduction .eyebrow { display: none; }
+.ih-edition { display: none; }
+.ih-special-page .ih-edition { display: block; font-size: 10px; letter-spacing: .22em; color: #dfaa92; }
+.ih-special-page .ih-introduction h1 { max-width: 1040px; font-size: clamp(56px, 7.4vw, 104px); line-height: .98; margin: 28px 0; letter-spacing: -.055em; }
+.ih-special-page .ih-subject-date { color: #aebdb4; margin-top: 32px; }
+.ih-special-page .ih-standfirst { font-size: clamp(20px, 2vw, 26px); max-width: 850px; color: #d5ded6; }
+.ih-special-page .ih-introduction a { color: #f4e6d8; }
+.ih-special-page .ih-introduction .ih-primary { background: #b52a39; border-color: #b52a39; padding-inline: 26px; }
+.ih-special-page .ih-how-to, .ih-special-page .ih-introduction .ih-caption { color: #aebdb4; }
+.ih-special-page .ih-state-bar { padding-inline: max(24px, calc((100vw - 1240px) / 2)); background: #1c2923; color: #fff8eb; border: 0; min-height: 90px; visibility: visible; }
+.ih-special-page .ih-state-time { color: #c4cebd; }
+.ih-special-page .ih-state-score strong { font-size: 40px; padding-inline: 12px; line-height: 1; }
+.ih-special-page .ih-state-score small, .ih-special-page .ih-state-actions a, .ih-special-page .ih-state-actions button { color: #e7c9ae; }
+.ih-special-page .ih-copy-status { color: #17221e; }
+.ih-special-page .ih-copy-status button { color: #a51d2d; }
+.ih-explorer { max-width: 1240px; margin: 0 auto; padding: 36px 0 24px; }
+.ih-explorer[hidden], .ih-step-controls[hidden] { display: none; }
+.ih-explorer-heading { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 24px; }
+.ih-explorer-kicker { font-size: 10px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; color: var(--accent); }
+.ih-explorer-heading p { font-family: var(--font-source-serif), Georgia, serif; font-size: 26px; margin-top: 4px; }
+.ih-mode-switch { display: flex; padding: 4px; border: 1px solid var(--line); border-radius: 4px; }
+.ih-mode-switch button { font-size: 12px; padding: 12px 16px; min-height: 44px; border-radius: 2px; }
+.ih-mode-switch button[aria-pressed=true] { background: #1c2923; color: #fff8eb; }
+.ih-timeline { display: flex; gap: 8px; overflow-x: auto; padding: 0 0 14px; scrollbar-color: #778578 #e1e3d9; }
+.ih-timeline button { text-align: left; flex: 0 0 156px; padding: 14px 16px; border: 1px solid var(--line); border-top: 3px solid #c4cabb; background: #eeeee5; min-height: 122px; border-radius: 3px; }
+.ih-timeline button:hover { border-color: #a51d2d; }
+.ih-timeline button[aria-current=step] { background: #1c2923; color: #fff8eb; border-color: #1c2923; border-top-color: #c8424a; }
+.ih-timeline-number { display: block; font-family: var(--font-geist-mono), monospace; font-size: 10px; opacity: .7; margin-bottom: 10px; }
+.ih-timeline strong { display: block; font-size: 18px; }
+.ih-timeline-label { display: block; font-size: 11px; margin-top: 6px; line-height: 1.4; }
+.ih-explorer-progress { display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 11px; margin-top: 12px; }
+.ih-progress { appearance: none; display: block; border: 0; width: 100%; height: 3px; margin-top: 12px; background: #d5d7cc; color: #a51d2d; }
+.ih-progress::-webkit-progress-bar { background: #d5d7cc; }
+.ih-progress::-webkit-progress-value { background: #a51d2d; }
+.ih-progress::-moz-progress-bar { background: #a51d2d; }
+.ih-special-page .ih-reading-layout, .ih-special-page .ih-after-reading { max-width: 1240px; margin-inline: auto; }
+.ih-special-page .ih-reading-layout { grid-template-columns: 210px minmax(0, 1fr); gap: 64px; }
+.ih-special-page .ih-narrative { max-width: 870px; }
+.ih-special-page .ih-rail { border-right: 1px solid var(--line); padding-right: 24px; }
+.ih-special-page .ih-moment { padding: 38px 0; }
+.ih-special-page .ih-moment h2 { font-size: clamp(32px, 4vw, 54px); max-width: 780px; }
+.ih-special-page .ih-moment .ih-chapter-eyebrow { margin-bottom: 16px; }
+.ih-special-page .ih-moment-body > .ih-prose { max-width: 730px; }
+.ih-special-page .ih-moment-body > .ih-prose:first-child { font-size: 23px; line-height: 1.6; }
+.ih-special-page .ih-team-disclosure { background: #e9ebe1; padding-inline: 20px; border: 0; border-radius: 4px; }
+.ih-special-page .ih-team-disclosure > summary { font-weight: 600; padding-block: 18px; }
+.ih-special-page .ih-comparison { background: #e9ebe1; padding: 24px; border-radius: 4px; }
+.ih-special-page .ih-comparison > h3 { margin-top: 0; }
+.ih-special-page .ih-pitch-ground { fill: #203a2e; stroke: #536c58; }
+.ih-special-page .ih-pitch-lines { stroke: #92a48d; }
+.ih-special-page .ih-side-opposition .ih-player-marker { fill: #333; }
+.ih-special-page .ih-player-marker { stroke: #f4f1e9; fill: #bc3040; }
+.ih-special-page .ih-person-detail { background: #f4f1e9; }
+.ih-special-page .ih-penalty-score { background: #1c2923; color: #fff8eb; border-top: 4px solid #b52a39; border-radius: 4px; padding-block: 32px; }
+.ih-special-page .ih-penalty-score > span { color: #c5d0c0; }
+.ih-special-page .ih-penalty-score strong { font-size: 90px; }
+.ih-step-controls { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 28px 0; border-bottom: 1px solid var(--line); }
+.ih-step-controls button { min-height: 48px; font-size: 13px; padding: 12px 16px; background: #1c2923; color: #fff8eb; border-radius: 3px; }
+.ih-step-controls button:disabled { background: #e3e5dc; color: #5f685e; cursor: default; }
+.ih-step-controls > span { font-family: var(--font-geist-mono), monospace; font-size: 11px; white-space: nowrap; color: var(--muted); }
+.ih-special-page .ih-after-reading { padding-top: 24px; }
+.ih-special-page :focus-visible { outline: 3px solid #b65328; outline-offset: 4px; }
+@media (max-width: 1300px) {
+  .ih-special-page .ih-explorer, .ih-special-page .ih-reading-layout, .ih-special-page .ih-after-reading { margin-inline: 24px; }
+}
+@media (max-width: 900px) {
+  .ih-special-page .ih-reading-layout { display: block; }
+  .ih-special-page .ih-rail { border-right: 0; padding-right: 0; padding-top: 0; }
+  .ih-special-page .ih-introduction { padding-top: 48px; }
+  .ih-explorer-heading { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .ih-timeline button { flex-basis: 140px; }
+}
+@media (max-width: 540px) {
+  .ih-special-header { padding: 16px 20px; }
+  .ih-special-header > a:first-child { font-size: 20px; }
+  .ih-special-header > a:last-child { font-size: 10px; max-width: 95px; text-align: right; }
+  .ih-special-page .ih-introduction { padding: 40px 20px 32px; }
+  .ih-special-page .ih-introduction h1 { font-size: 54px; }
+  .ih-special-page .ih-state-bar { padding-inline: 20px; }
+  .ih-special-page .ih-state-score strong { font-size: 32px; padding-inline: 0; }
+  .ih-special-page .ih-explorer, .ih-special-page .ih-reading-layout, .ih-special-page .ih-after-reading { margin-inline: 20px; }
+  .ih-mode-switch { width: 100%; }
+  .ih-mode-switch button { flex: 1; padding-inline: 8px; }
+  .ih-special-page .ih-comparison { padding: 16px; }
+  .ih-step-controls button { font-size: 11px; padding: 10px; }
+  .ih-step-controls > span { font-size: 10px; }
+}
+@media print {
+  .ih-special-header, .ih-explorer, .ih-step-controls { display: none !important; }
+  .ih-moment-panel[hidden] { display: block !important; }
+  .ih-special-page .ih-introduction { background: white; color: black; padding: 0; }
+  .ih-special-page .ih-introduction p { color: black !important; }
+}

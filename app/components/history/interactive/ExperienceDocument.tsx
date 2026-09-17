@@ -2,7 +2,7 @@ import ReactMarkdown from "react-markdown";
 import type { ReactNode } from "react";
 import type { ExperienceControls, ExperienceDocumentModel } from "@/lib/interactive-history/models";
 import type { Block, Boundary, Diagram, MatchEvent, Moment, Side, Statistics } from "@/lib/interactive-history/types";
-import { ExperienceController, MatchStateBar, ShootoutSequence } from "./ExperienceController";
+import { ExperienceController, MatchStateBar, ShootoutSequence, MatchExplorer, MomentPanel } from "./ExperienceController";
 import { StateComparison } from "./StateComparison";
 import "@/app/history/interactive/interactive-history.css";
 
@@ -21,19 +21,20 @@ export function ExperienceDocument({ document, controls, preview = false }: { do
   return <ExperienceController model={controls}>
     <header className="ih-introduction" id="experience-introduction">
       <p className="eyebrow">Interactive History {preview && <span className="ih-preview-label">· Local review draft</span>}</p>
-      <h1>{document.title}</h1>
+      <p className="ih-edition">THE LIVERPOOL BRIEF / INTERACTIVE HISTORY</p><h1>{document.title}</h1>
       <p className="ih-subject-date">{new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(document.dateRange.start))} <span>·</span> {document.match.competitionLabel ?? document.relationships.competitionIds.map(id => document.names[id]).join(" · ")} <span>·</span> {document.relationships.locationIds.map(id => document.names[id]).join(" · ")}</p>
       <p className="ih-standfirst">{document.standfirst}</p>
       <div className="ih-intro-links"><a className="ih-primary" href={`#${first.id}`}>Explore from the beginning <span aria-hidden="true">↓</span></a>{exploration && <a href={`#${exploration.id}`}>Go to half-time <span aria-hidden="true">↗</span></a>}</div>
-      <p className="ih-how-to">Read at your own pace. Open a team, compare the change, or follow the evidence at any moment.</p>{document.contentNotes.map(note => <p className="ih-caption" key={note}>{note}</p>)}
+      <p className="ih-how-to">Step inside the match. Choose a moment, explore the teams and reveal the shoot-out one penalty at a time.</p>{document.contentNotes.map(note => <p className="ih-caption" key={note}>{note}</p>)}
     </header>
-    <MatchStateBar />
+    <MatchStateBar /><MatchExplorer />
     <div className="ih-reading-layout">
       <aside className="ih-rail"><MomentIndex document={document} outcomeId={outcome?.id} /><p className="ih-rail-note">A match in moments.<br />Every score is {document.teams.subject} first.</p></aside>
       <div className="ih-narrative" data-narrative>
-        {document.moments.map(moment => moment.id === outcome?.id
+        {document.moments.map(moment => <MomentPanel id={moment.id} key={moment.id}>{moment.id === outcome?.id
           ? <details key={moment.id} className="ih-outcome" data-outcome-disclosure><summary>After the final <span>— reveals the result</span></summary><MomentSection document={document} controls={controls} moment={moment} /></details>
-          : <MomentSection key={moment.id} document={document} controls={controls} moment={moment} />)}
+          : <MomentSection key={moment.id} document={document} controls={controls} moment={moment} />}</MomentPanel>)}
+        <MatchExplorer footer />
       </div>
     </div>
     <div className="ih-after-reading"><ExperienceConnections document={document} /><EvidenceCatalogue document={document} /></div>
@@ -77,7 +78,7 @@ function BlockView({ block, document, controls }: { block: Block; document: Docu
       const context = document.contexts.find(item => item.id === block.contextId)!;
       return <details className="ih-context"><summary>{context.title}</summary><div className="ih-disclosure-body"><p className="ih-caption">{context.scope.label}</p>{context.blocks.map(child => <BlockView key={child.id} block={child} document={document} controls={controls} />)}</div></details>;
     }
-    case "personnel": return <Personnel document={document} side={block.side} boundary={block.boundary} />;
+    case "personnel": return <details className="ih-context ih-team-disclosure"><summary>Explore {document.teams[block.side]}’s team</summary><Personnel document={document} side={block.side} boundary={block.boundary} /></details>;
     case "diagram": return <TacticalDiagram document={document} diagram={document.diagrams.find(d => d.id === block.diagramId)!} />;
     case "comparison": return <StateComparison title={block.title} labels={[block.views[0].label, block.views[1].label]} views={block.views.map(view => <TacticalDiagram key={view.diagramId} document={document} diagram={document.diagrams.find(d => d.id === view.diagramId)!} label={view.label} headingLevel={4} />) as [ReactNode, ReactNode]} />;
     case "statistics": {
