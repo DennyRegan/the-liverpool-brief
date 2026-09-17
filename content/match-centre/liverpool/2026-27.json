@@ -4,6 +4,7 @@
   "fixtures": [
     {
       "id": "2026-27-premier-league-newcastle-united-away",
+      "reportSlug": "newcastle-liverpool-2026-08-23",
       "oppositionId": "newcastle-united",
       "competitionId": "premier-league",
       "side": "away",
