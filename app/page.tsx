@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { getPublishedExperiences } from "@/lib/content/interactive-history";
+import "./homepage.css";
 import { getWriting } from "@/lib/content/writing";
 import { getBrief } from "@/lib/content/briefs";
 import { getArchiveFeatures } from "@/lib/content/archive";
@@ -16,6 +18,9 @@ export const metadata = {
 export const dynamic = "force-dynamic";
 
 export default function Home() {
+  const experiences = getPublishedExperiences();
+  const interactive = experiences.find(item => item.id === "istanbul-2005") ?? experiences[0];
+  const entryMoments = interactive?.moments.filter((moment, index) => index === 0 || moment.id === "half-time" || moment.presentation === "attempt-sequence") ?? [];
   const brief = getBrief();
   const story = brief.stories[0];
   const { lead, more } = selectHomeWriting(getWriting());
@@ -46,22 +51,46 @@ export default function Home() {
 
   return <>
     <SiteHeader active="home" />
-    <main id="main-content" className="site-width home-page">
+    <main id="main-content" className="site-width home-page home-editorial">
       <section className="home-articles" aria-labelledby="home-articles-heading">
-        <div className="home-section-heading"><h2 id="home-articles-heading" className="eyebrow">Articles</h2><Link className="read-link" href="/articles">All articles →</Link></div>
+        <div className="home-section-heading"><h2 id="home-articles-heading" className="eyebrow">The latest writing</h2><Link className="read-link" href="/articles">All articles →</Link></div>
         {lead ? <div className="home-writing">
           <article className="home-lead">
+            <p className="home-lead-label">From Denny Regan</p>
             <p className="article-meta"><time dateTime={lead.date}>{formatListDate(lead.date)}</time><span>By Denny Regan</span></p>
             <h1><Link href={lead.href}>{lead.title}</Link></h1>
             <p className="home-standfirst">{getArticleExcerpt(lead, 300)}</p>
             <Link className="read-link" href={lead.href}>Read article →</Link>
           </article>
-          {more.length > 0 && <div className="home-more">{more.map(article => <article key={article.href}>
+          {more.length > 0 && <div className="home-more"><p className="home-aside-label">More to read</p>{more.map(article => <article key={article.href}>
             <p className="article-meta"><time dateTime={article.date}>{formatListDate(article.date)}</time></p>
             <h3><Link href={article.href}>{article.title}</Link></h3>
             <p className="home-summary">{getArticleExcerpt(article, 150)}</p>
           </article>)}</div>}
         </div> : <h1 className="home-empty-title">Independent Liverpool writing</h1>}
+      </section>
+
+      {interactive && <section className="home-interactive" aria-labelledby="home-interactive-heading">
+        <div className="home-interactive-story">
+          <p className="home-interactive-label"><span aria-hidden="true" /> Interactive History</p>
+          <p className="home-interactive-invitation">Some nights deserve another look.</p>
+          <h2 id="home-interactive-heading"><Link href={`/history/interactive/${interactive.id}`}>{interactive.title}</Link></h2>
+          <p className="home-interactive-description">Step through the match. Explore the decisions. Take each moment in your own time.</p>
+          <Link className="home-interactive-cta" href={`/history/interactive/${interactive.id}`}>Explore the experience <span aria-hidden="true">↗</span></Link>
+        </div>
+        <div className="home-interactive-moments">
+          <p className="home-interactive-date">{formatListDate(interactive.dateRange.start)}</p>
+          <p className="home-interactive-start">Choose your starting point</p>
+          <ol>{entryMoments.map((moment, index) => <li key={moment.id}>
+            <Link href={`/history/interactive/${interactive.id}#${moment.id}`}><span className="home-entry-number" aria-hidden="true">0{index + 1}</span><span>{moment.title}</span><span aria-hidden="true">→</span></Link>
+          </li>)}</ol>
+          <Link className="home-interactive-all" href="/history/interactive">Discover Interactive History →</Link>
+        </div>
+      </section>}
+
+      <section className="home-section home-explore" aria-labelledby="home-explore-heading">
+        <div className="home-section-heading"><h2 id="home-explore-heading" className="eyebrow">Explore Liverpool history</h2></div>
+        <div className="home-browse">{browse.map(item => <Link key={item.href} href={item.href}><h3>{item.title}<span aria-hidden="true">↗</span></h3><p>{item.text}</p></Link>)}</div>
       </section>
 
       <section className="home-brief" aria-labelledby="home-brief-heading">
@@ -91,10 +120,7 @@ export default function Home() {
       </section>}
       </div>}
 
-      <section className="home-section home-explore" aria-labelledby="home-explore-heading">
-        <div className="home-section-heading"><h2 id="home-explore-heading" className="eyebrow">Explore Liverpool history</h2></div>
-        <div className="home-browse">{browse.map(item => <Link key={item.href} href={item.href}><h3>{item.title}<span aria-hidden="true">↗</span></h3><p>{item.text}</p></Link>)}</div>
-      </section>
+
     </main>
   </>;
 }
