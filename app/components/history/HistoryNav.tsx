@@ -8,6 +8,7 @@ export function HistoryNav({ active }: { active?: "explorer" | "seasons" | "matc
     <Link href="/history/seasons" aria-current={active === "seasons" ? "page" : undefined}>Seasons</Link>
     <Link href="/history/matches" aria-current={active === "matches" ? "page" : undefined}>Matches</Link>
     <Link href="/history/players" aria-current={active === "players" ? "page" : undefined}>People</Link>
+    <Link href="/this-week">This Week</Link>
     {hasExperiences && <Link href="/history/interactive" aria-current={active === "interactive" ? "page" : undefined}>Interactive History</Link>}
   </nav>;
 }

@@ -1,4 +1,5 @@
 ---
+season: "2026-27"
 title: "Why Barcola will justify the fee"
 date: "2026-09-04"
 category: "Opinion"

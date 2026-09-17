@@ -1,4 +1,5 @@
 ---
+season: "2026-27"
 title: "Liverpool spent £328m on attackers and fixed the defence with a loan"
 date: "2026-08-10"
 category: "Opinion"

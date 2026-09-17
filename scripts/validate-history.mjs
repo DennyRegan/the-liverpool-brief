@@ -1,3 +1,5 @@
+import { getArticles } from '../lib/content/articles.ts';
+import { getMatchCentre } from '../lib/content/match-centre.ts';
 import { getSeasons } from '../lib/content/seasons.ts';
 import fs from 'node:fs';
 import { validateCalendar, calendarPath } from './validate-editorial-calendar.mjs';
@@ -27,3 +29,7 @@ console.log(`Validated ${validateCalendar(JSON.parse(fs.readFileSync(calendarPat
 await import("./register-server-only.mjs");
 const { getPublishedExperiences } = await import("../lib/content/interactive-history.ts");
 console.log(`Validated ${getPublishedExperiences().length} published interactive experiences.`);
+
+console.log(`Validated ${getArticles().length} Opinion/Analysis articles.`);
+const centre = getMatchCentre();
+console.log(`Validated Match Centre ${centre.season}: ${centre.fixtures.length} fixtures and ${centre.table.rows.length} table rows.`);

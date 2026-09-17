@@ -1,3 +1,4 @@
+import { AnalysisReading } from '@/app/components/AnalysisReading';
 import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
 import { getSeasonExperiences, toExperienceSummary } from "@/lib/content/interactive-history";
 import { SeasonNavigation } from "@/app/components/SeasonNavigation";
@@ -121,6 +122,7 @@ export default async function SeasonPage({ params }: Props) {
         {season.researchNotes.length > 0 && <div className="season-research-notes"><h3>Notes on the record</h3>{season.researchNotes.map((note, i) => <p key={i}>{note}</p>)}</div>}
       </details>
       <SeasonNavigation season={id} seasons={seasons} />
+      <AnalysisReading context={{ season: season.season }} />
     </main>
   </>;
 }

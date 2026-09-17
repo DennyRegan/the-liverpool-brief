@@ -1,0 +1,59 @@
+.mc-page { padding-block: 2.5rem 4rem; max-width: 1000px; }
+.mc-intro h1 { font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(2.7rem, 6vw, 4.5rem); line-height: 1.08; margin: .6rem 0; }
+.mc-standfirst { font-size: 1.25rem; margin-bottom: 1rem; }
+.mc-note, .mc-competition { color: #605b55; font-size: .85rem; line-height: 1.6; }
+.mc-snapshot { border-block: 1px solid #cfc7bc; margin-top: 2rem; padding: 1.25rem 0; }
+.mc-snapshot h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1rem; }
+.mc-snapshot dl { display: grid; grid-template-columns: repeat(6, 1fr); gap: .75rem; }
+.mc-snapshot dt { font-size: .8rem; color: #605b55; }
+.mc-snapshot dd { font-size: 1.8rem; font-weight: 650; }
+.mc-match-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; border-bottom: 1px solid #cfc7bc; }
+.mc-match { min-width: 0; padding: 2rem 0; }
+.mc-match h2 { font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(1.65rem, 3vw, 2.25rem); line-height: 1.3; margin: .6rem 0 1rem; }
+.mc-match p { line-height: 1.7; }
+.mc-score { white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--accent, #a32020); }
+.mc-match .read-link, .mc-fixture .read-link { display: inline-flex; align-items: center; min-height: 44px; }
+.mc-section { margin-top: 2.5rem; }
+.mc-section > h2 { font-family: var(--font-source-serif), Georgia, serif; font-size: 2rem; margin-bottom: .65rem; }
+.mc-month { margin-top: 1.6rem; }
+.mc-month h3 { font-size: 1rem; font-weight: 650; border-bottom: 2px solid #39332e; padding-bottom: .6rem; }
+.mc-month ul, .mc-reading { list-style: none; padding: 0; }
+.mc-fixture { display: grid; grid-template-columns: 175px 1fr; gap: 1.25rem; border-bottom: 1px solid #dcd5cb; padding: 1rem 0; }
+.mc-fixture h4 { font-size: 1.1rem; font-weight: 600; }
+.mc-fixture p, .mc-fixture-date { font-size: .85rem; color: #605b55; }
+.mc-fixture-date small { display: block; margin-top: .25rem; }
+.mc-table { width: 100%; border-collapse: collapse; font-size: .95rem; font-variant-numeric: tabular-nums; }
+.mc-table caption { text-align: left; padding: .4rem 0 1rem; }
+.mc-table th, .mc-table td { padding: .75rem .5rem; border-bottom: 1px solid #dcd5cb; text-align: right; }
+.mc-table th:nth-child(2), .mc-table tbody th { text-align: left; }
+.mc-table tbody th { font-weight: 400; }
+.mc-table .mc-liverpool { background: #f0e4dc; color: #831c19; font-weight: 700; }
+.mc-table .mc-liverpool th { font-weight: 700; }
+.mc-table small { display: block; font-weight: 400; }
+.mc-sources { font-size: .8rem; padding-left: 1.25rem; margin-top: 1rem; }
+.mc-sources a { display: inline-block; padding-block: .55rem; text-decoration: underline; text-underline-offset: 3px; color: #8b2821; overflow-wrap: anywhere; }
+.mc-source-notes { border-top: 1px solid #cfc7bc; margin-top: 2.5rem; font-size: .85rem; }
+.mc-source-notes summary { padding-block: 1rem; cursor: pointer; }
+.mc-reading li { border-bottom: 1px solid #dcd5cb; padding: 1rem 0; }
+.mc-reading h3 { font-family: var(--font-source-serif), Georgia, serif; font-size: 1.45rem; margin: .4rem 0; }
+.mc-reading h3 a { display: inline-block; padding-block: .3rem; }
+.mc-reading p { line-height: 1.65; }
+.mc-briefing { border-top: 1px solid #cfc7bc; margin-top: 1rem; padding-top: 1rem; }
+.mc-briefing h3 { font-weight: 700; }
+.mc-briefing ul { list-style: disc; padding-left: 1.25rem; }
+.mc-briefing li { margin-top: .65rem; line-height: 1.6; }
+.mc-update { padding: 1rem; border-left: 3px solid #a32020; background: #f0e4dc; margin-top: 1rem; }
+.mc-page a:focus-visible, .mc-page summary:focus-visible { outline: 2px solid #a32020; outline-offset: 4px; }
+@media (max-width: 650px) {
+ .mc-page { padding-top: 1.75rem; }
+ .mc-match-pair { grid-template-columns: 1fr; gap: 0; }
+ .mc-match + .mc-match { border-top: 1px solid #cfc7bc; }
+ .mc-snapshot dl { grid-template-columns: repeat(3, 1fr); }
+ .mc-fixture { grid-template-columns: 1fr; gap: .4rem; }
+ .mc-fixture-date { display: flex; flex-wrap: wrap; gap: .25rem 1rem; align-items: baseline; }
+ .mc-table { font-size: .8rem; }
+ .mc-table th, .mc-table td { padding: .7rem .25rem; }
+}
+
+.mc-jump { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; padding-top: 1rem; }
+.mc-jump a { display: inline-flex; min-height: 44px; align-items: center; font-size: .85rem; text-decoration: underline; text-underline-offset: 4px; }

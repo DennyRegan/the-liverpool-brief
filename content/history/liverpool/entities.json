@@ -2478,5 +2478,55 @@
     "id": "tony-coton",
     "label": "Tony Coton",
     "kind": "person"
+  },
+  {
+    "id": "bournemouth",
+    "label": "Bournemouth",
+    "kind": "opposition"
+  },
+  {
+    "id": "brentford",
+    "label": "Brentford",
+    "kind": "opposition"
+  },
+  {
+    "id": "sunderland",
+    "label": "Sunderland",
+    "kind": "opposition"
+  },
+  {
+    "id": "atletico-madrid",
+    "label": "Atlético Madrid",
+    "kind": "opposition"
+  },
+  {
+    "id": "lask",
+    "label": "LASK",
+    "kind": "opposition"
+  },
+  {
+    "id": "villarreal",
+    "label": "Villarreal",
+    "kind": "opposition"
+  },
+  {
+    "id": "fenerbahce",
+    "label": "Fenerbahçe",
+    "kind": "opposition"
+  },
+  {
+    "id": "porto",
+    "label": "Porto",
+    "kind": "opposition"
+  },
+  {
+    "id": "inter-milan",
+    "label": "Inter Milan",
+    "kind": "opposition"
+  },
+  {
+    "id": "rc-lens",
+    "label": "Lens",
+    "kind": "opposition"
   }
 ]

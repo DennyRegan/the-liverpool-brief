@@ -171,3 +171,18 @@ button { cursor: pointer; }
 .archive-discovery { border-top: 1px solid var(--foreground); margin-top: 50px; padding-top: 24px; }
 .archive-discovery .article-card h3 { font-family: var(--font-source-serif), Georgia, serif; font-size: 27px; font-weight: 600; line-height: 1.25; letter-spacing: -.02em; margin: 14px 0 12px; overflow-wrap: anywhere; }
 .archive-discovery .article-card .archive-discovery-reason { margin-top: 16px; font-size: 12px; color: var(--accent); }
+
+/* Article types share the existing compact editorial navigation. */
+.writing-types { display: flex; gap: 24px; flex-wrap: wrap; border-bottom: 1px solid var(--line); margin-bottom: 24px; }
+.writing-types a { display: inline-flex; align-items: center; min-height: 44px; border-bottom: 2px solid transparent; font-size: 14px; }
+.writing-types a[aria-current] { border-color: var(--accent); color: var(--accent); }
+@media (min-width: 701px) and (max-width: 1050px) { .header-bottom { flex-wrap: wrap; gap: 0; } .header-bottom p { padding-top: 12px; } .header-bottom nav { flex-wrap: wrap; gap: 24px; } }
+
+.analysis-reading, .article-context { margin-block: 2rem; border-top: 1px solid var(--line); padding-top: 1.5rem; }
+.analysis-reading h2, .article-context h2 { font-family: Georgia, serif; font-size: 1.6rem; margin-bottom: 1rem; }
+.analysis-reading ul, .article-context ul { list-style: none; padding: 0; }
+.analysis-reading li { margin-block: 1rem; }
+.analysis-reading h3 { font-family: Georgia, serif; font-size: 1.25rem; }
+.analysis-reading h3 a, .article-context a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: underline; text-underline-offset: 3px; }
+.analysis-reading p { line-height: 1.65; }
+.article-context a:focus-visible, .analysis-reading a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }

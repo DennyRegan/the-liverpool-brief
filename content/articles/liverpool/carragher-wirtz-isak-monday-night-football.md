@@ -1,4 +1,5 @@
 ---
+season: "2026-27"
 title: "Carragher May Be Proved Right. He Still Shouldn't Have Said It On Monday"
 date: "2026-08-27"
 ---
