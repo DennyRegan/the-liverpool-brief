@@ -29,9 +29,8 @@ export default function HistoryPage() {
         </header>
 
         <nav className="entity-entry-links" aria-label="Ways into Liverpool history">
-          <Link href="/history/timeline">Timeline <span>Follow the writing through the years →</span></Link>
+          <Link href="/history/timeline">Timeline <span>Explore the seasons, stories and turning points →</span></Link>
           <Link href="/history/my-years">Your Liverpool Years <span>Choose where your story begins →</span></Link>
-          <Link href="/history/seasons">Seasons <span>Teams, trophies and turning points →</span></Link>
           <Link href="/history/matches">Matches <span>Explore the original match writing →</span></Link>
           <Link href="#era-index">Managerial eras <span>Follow Liverpool’s managers →</span></Link>
           <Link href="/history/journeys">Guided Journeys <span>Read a story across the library →</span></Link>

@@ -5,10 +5,9 @@ export function HistoryNav({ active }: { active?: "explorer" | "seasons" | "matc
   const hasExperiences = getPublishedExperiences().length > 0;
   return <nav className="history-nav" aria-label="History sections">
     <Link href="/history" aria-current={active === "explorer" ? "page" : undefined}>History Explorer</Link>
-    <Link href="/history/seasons" aria-current={active === "seasons" ? "page" : undefined}>Seasons</Link>
     <Link href="/history/matches" aria-current={active === "matches" ? "page" : undefined}>Matches</Link>
     <Link href="/history/players" aria-current={active === "players" ? "page" : undefined}>People</Link>
-    <Link href="/history/timeline" aria-current={active === "timeline" ? "page" : undefined}>Timeline</Link>
+    <Link href="/history/timeline" aria-current={active === "timeline" ? "page" : active === "seasons" ? "location" : undefined}>Timeline</Link>
     <Link href="/history/journeys" aria-current={active === "journeys" ? "page" : undefined}>Guided Journeys</Link>
     <Link href="/history/my-years" aria-current={active === "my-years" ? "page" : undefined}>Your Liverpool Years</Link>
     <Link href="/this-week">This Week</Link>

@@ -36,11 +36,11 @@ export default async function TimelinePage({
         <header className="hx-intro">
           <p className="eyebrow">Explore Liverpool history</p>
           <h1>Timeline</h1>
-          <p className="hx-standfirst">Follow the writing through the years.</p>
+          <p className="hx-standfirst">Explore Liverpool season by season.</p>
           <p>
-            A timeline of this library, not a complete record of the club.
-            Seasons provide context; stories and events follow their historical
-            dates.
+            Browse by decade or choose a season. Open a Season for its team,
+            trophies and connected articles, or follow the writing and events
+            through their historical dates. Coverage reflects the available library.
           </p>
         </header>
         <form className="v3-filters" action="/history/timeline" method="get">

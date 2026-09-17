@@ -63,7 +63,7 @@ export default async function SeasonPage({ params }: Props) {
     <SiteHeader active="history" />
     <main id="main-content" className="site-width hx-page season-detail">
       <HistoryNav active="seasons" />
-      <Link href="/history/seasons" className="hx-back">← All seasons</Link>
+      <Link href={`/history/timeline?season=${id}`} className="hx-back">← Timeline</Link>
       <header className="season-header">
         <p className="eyebrow">Liverpool · Season reference</p>
         <h1>{seasonLabel(id)}</h1>

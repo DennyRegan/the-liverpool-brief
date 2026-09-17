@@ -229,7 +229,9 @@ V3 adds navigation over the existing published factual library. It does not crea
 
 ### Routes and chronology
 
-- `/history`: nine ways into the library, four guided journeys, and the existing managerial chronology and anchors.
+Timeline is the single chronology entry in the History navigation and gateway. Season detail pages remain canonical and return to their selected Season in Timeline. The existing `/history/seasons` directory remains available for old links and bookmarks, beneath Timeline rather than as a separate top-level category.
+
+- `/history`: eight ways into the library, four guided journeys, and the existing managerial chronology and anchors.
 - `/history/timeline?decade=1980s&season=1985-86#year-1985`: native GET filters; supplied valid filters intersect. Invalid filters produce a visible recovery message. Year sections have stable fragment IDs.
 - `/history/journeys`: editorial journey directory.
 - `/history/journeys/[journey]`: ordered contents and starting link.

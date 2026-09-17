@@ -27,7 +27,7 @@ try {
   const landing = mainOf(await get('/history/seasons'));
   assert.deepEqual([...landing.matchAll(/href="\/history\/seasons\/([0-9-]+)"/g)].map(m => m[1]), all.map(s => s.season));
   assert.match(landing, /From Bill Shankly/);
-  assert.match(landing, /aria-current="page" href="\/history\/seasons"/);
+  assert.match(landing, /aria-current="location" href="\/history\/timeline"/);
   const internalLinks = new Set();
   for (let i = 0; i < all.length; i++) {
     const season = all[i];
@@ -38,6 +38,7 @@ try {
     assert.ok(html.includes(`href="https://theliverpoolbrief.com${route}"`), 'canonical URL');
     for (const heading of ['Season overview', 'Key players', 'Transfers in', 'Transfers out', 'Important connections', 'Sources &amp; historical notes']) assert.ok(main.includes(heading), `${route}: ${heading}`);
     assert.match(main, /A historical reference entry/);
+    assert.ok(main.includes(`href="/history/timeline?season=${season.season}"`), 'Return to Timeline selection');
     for (const kind of ['domestic', 'europe', 'other']) assert.equal(main.includes(`id="competition-${kind}"`), season.competitions.some(c => c.kind === kind), `${route}: only entered competitions`);
     for (const source of season.sources) assert.ok(main.includes(`id="source-${source.id}"`), `${route}: source ${source.id}`);
     const linked = getSeasonArchiveArticles(season.season, archive);
@@ -72,7 +73,8 @@ try {
   for (const route of [`/history/seasons/${unpublished}`, '/history/seasons/1959-61', '/history/seasons/unknown']) assert.equal((await fetch(new URL(route, origin))).status, 404, route);
   const explorer = mainOf(await get('/history'));
   assert.equal((explorer.match(/class="hx-era"/g) ?? []).length, getHistory().eras.length);
-  assert.ok(explorer.includes('href="/history/seasons"'));
+  assert.ok(explorer.includes('href="/history/timeline"'));
+  assert.ok(!explorer.includes('href="/history/seasons"'));
   console.log(`PASS ${all.length} season pages, chronological index, ${internalLinks.size} internal destinations, source anchors, conditional sections and 3 invalid routes`);
 } finally {
   if (server.exitCode === null) {

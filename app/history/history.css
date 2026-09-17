@@ -102,7 +102,7 @@
 /* Seasons shares the History palette, typography and source disclosure. */
 .history-nav { display: flex; flex-wrap: wrap; gap: 0 24px; border-bottom: 1px solid var(--line); margin-bottom: 32px; }
 .history-nav a { min-height: 48px; display: inline-flex; align-items: center; padding: 10px 0; font-size: 14px; border-bottom: 2px solid transparent; }
-.history-nav a[aria-current='page'] { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+.history-nav a[aria-current] { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
 .seasons-page, .season-detail { max-width: 880px; }
 .season-editorial-note { color: var(--muted); font-size: 13px; line-height: 1.85; margin-top: 20px; max-width: 680px; }
 .season-editorial-note a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }

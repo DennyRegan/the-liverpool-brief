@@ -276,3 +276,9 @@ Consider explicit editorial journey versioning if step reordering becomes freque
 6. Inspect Continue from here on Dalglish, Paisley, Everton, European Cup, 1985–86, an era and an article. Check that the suggestions feel editorially useful.
 7. Repeat representative interactions on your phone/tablet and with Tab/Enter. Assess the amount of header navigation and the long-form timeline rhythm.
 8. Review the diff and this report. Approve the product and editorial journey order before a separate merge/deployment instruction. This branch has not been merged or deployed.
+
+## Follow-up: one Timeline entry
+
+Approved after product review: merge the public Seasons/Timeline entry points. Timeline now provides the single chronology entry in History navigation and the gateway (eight choices). It explains decade/Season selection and links to existing detailed Season records. Season pages highlight Timeline as their parent section and return to `?season=YYYY-YY`. The old Season directory remains available for bookmarks, with a Timeline return link. Canonical Season URLs, article links, content and metadata are unchanged.
+
+Validation: 158 tests, lint and production build passed. Season, V3, Connected History, V2 exploration and History Explorer verifiers passed. Browser QA covered 320/390/768/1280px layouts and a keyboard-operated Timeline → 1985–86 → Timeline round trip preserving the selection, with no overflow. The V3 verifier now checks 404 distinct URLs; this count includes the added gateway check, not an HTTP error count. Existing verifier assertions were updated to expect Timeline instead of a separate Seasons navigation item. This follow-up remains on the V3 feature branch, unmerged and undeployed.

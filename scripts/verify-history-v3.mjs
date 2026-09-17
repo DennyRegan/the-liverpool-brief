@@ -27,6 +27,13 @@ async function target(href) {
   const anchor = href.split("#")[1];
   if (anchor) assert.ok(html.includes(`id="${anchor}"`), href);
 }
+// Timeline is the single chronology entry; canonical Season records stay reachable.
+const gateway = await get("/history");
+assert.ok(!gateway.includes('href="/history/seasons"'), "No competing Seasons entry");
+assert.ok(gateway.includes('href="/history/timeline"'));
+const seasonPage = await get("/history/seasons/1985-86");
+assert.ok(seasonPage.includes('href="/history/timeline?season=1985-86"'));
+assert.ok(seasonPage.includes('aria-current="location" href="/history/timeline"'));
 const directory = await get("/history/journeys");
 assert.equal((directory.match(/<h2\b/g) ?? []).length, journeys.length, "Journey directory uses h2 below h1");
 const html = await get("/history/timeline");
