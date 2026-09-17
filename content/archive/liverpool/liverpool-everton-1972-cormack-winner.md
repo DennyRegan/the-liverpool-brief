@@ -7,9 +7,9 @@ excerpt: "Peter Cormack supplied the late winner in his first Merseyside derby, 
 historicalEventDate: "1972-10-07"
 historicalPeriod: "7 October 1972 · First Division · Anfield"
 locationIds: ["anfield"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["everton"]
-playerIds: ["peter-cormack","steve-heighway"]
+playerIds: ["peter-cormack"]
 season: "1972-73"
 slug: "liverpool-everton-1972-cormack-winner"
 sources: ["https://www.lfchistory.net/games/695","https://www.liverpoolfc.com/news/liverpool-fc-deeply-saddened-passing-peter-cormack","https://gameofthepeople.com/2015/02/27/we-are-the-champions-liverpool-1972-73/"]

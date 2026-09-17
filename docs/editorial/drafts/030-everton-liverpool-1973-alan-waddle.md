@@ -9,11 +9,12 @@ slug: "everton-liverpool-1973-alan-waddle"
 category: "match"
 articleType: "match"
 season: "1973-74"
-playerIds: ["alan-waddle", "ian-callaghan", "kevin-keegan"]
-managerIds: ["bill-shankly"]
+playerIds: ["alan-waddle","kevin-keegan"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 sources: ["https://www.lfchistory.net/games/772", "https://www.liverpoolfc.com/info/alan-waddle", "https://www.liverpoolfc.com/news/bill-shanklys-final-season-reds-keep-flawless-home-record-busy-december"]
+locationIds: ["goodison-park"]
 ---
 
 # Everton 0–1 Liverpool: Alan Waddle’s one unforgettable goal

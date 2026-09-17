@@ -10,13 +10,8 @@ slug: athletic-bilbao-liverpool-1983-rush-header
 category: match
 articleType: match
 season: 1983-84
-playerIds:
-  - ian-rush
-  - alan-kennedy
-  - graeme-souness
-  - steve-nicol
-managerIds:
-  - joe-fagan
+playerIds: ["ian-rush","steve-nicol","graeme-souness"]
+managerIds: []
 competitionIds:
   - european-cup
 sources:

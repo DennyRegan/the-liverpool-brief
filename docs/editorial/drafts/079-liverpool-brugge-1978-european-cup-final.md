@@ -14,8 +14,7 @@ playerIds:
   - kenny-dalglish
   - graeme-souness
   - phil-thompson
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - club-brugge
 competitionIds:

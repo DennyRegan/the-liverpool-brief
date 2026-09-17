@@ -15,8 +15,7 @@ playerIds:
   - phil-neal
   - kenny-dalglish
   - alan-hansen
-managerIds:
-  - bob-paisley
+managerIds: []
 competitionIds:
   - european-cup
 locationIds:

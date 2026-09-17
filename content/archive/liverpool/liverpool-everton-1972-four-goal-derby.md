@@ -11,7 +11,7 @@ category: "match"
 articleType: "match"
 season: "1971-72"
 playerIds: ["chris-lawler", "emlyn-hughes"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

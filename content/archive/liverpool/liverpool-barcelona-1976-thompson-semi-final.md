@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1975-76"
 playerIds: ["phil-thompson", "john-toshack"]
-managerIds: ["bob-paisley"]
+managerIds: []
 competitionIds: ["uefa-cup"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/912", "https://www.liverpoolfc.com/news/five-memorable-anfield-encounters-against-spanish-opposition", "https://www.lfchistory.net/season-archive/games/17"]

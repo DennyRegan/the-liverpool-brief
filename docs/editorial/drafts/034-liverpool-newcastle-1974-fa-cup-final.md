@@ -9,12 +9,13 @@ slug: "liverpool-newcastle-1974-fa-cup-final"
 category: "match"
 articleType: "match"
 season: "1973-74"
-playerIds: ["kevin-keegan", "steve-heighway", "tommy-smith", "john-toshack", "alec-lindsay"]
+playerIds: ["kevin-keegan","steve-heighway","tommy-smith"]
 managerIds: ["bill-shankly"]
 oppositionIds: ["newcastle-united"]
 competitionIds: ["fa-cup"]
 locationIds: ["wembley"]
 sources: ["https://www.lfchistory.net/games/804", "https://www.liverpoolfc.com/news/liverpools-wembley-masterclass-shankly-farewell", "https://www.liverpoolfc.com/news/first-team/118719-fa-cup-final-memories-1974", "https://www.liverpoolfc.com/news/bill-shanklys-final-season-1973-74-ends-silverware-wembley"]
+themeIds: ["attacking-football"]
 ---
 
 # Liverpool 3–0 Newcastle United: Shankly's final FA Cup triumph

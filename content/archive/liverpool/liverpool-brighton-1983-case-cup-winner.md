@@ -15,9 +15,7 @@ playerIds:
   - michael-robinson
   - craig-johnston
   - phil-neal
-managerIds:
-  - bob-paisley
-  - jimmy-melia
+managerIds: ["bob-paisley"]
 competitionIds:
   - fa-cup
 locationIds:

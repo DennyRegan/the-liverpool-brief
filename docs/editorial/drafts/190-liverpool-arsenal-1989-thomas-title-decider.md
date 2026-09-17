@@ -8,8 +8,8 @@ slug: "liverpool-arsenal-1989-thomas-title-decider"
 category: "match"
 articleType: "match"
 season: "1988-89"
-playerIds: []
-managerIds: ["kenny-dalglish"]
+playerIds: ["michael-thomas"]
+managerIds: []
 oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

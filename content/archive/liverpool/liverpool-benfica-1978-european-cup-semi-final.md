@@ -15,8 +15,7 @@ playerIds:
   - kenny-dalglish
   - terry-mcdermott
   - phil-neal
-managerIds:
-  - bob-paisley
+managerIds: []
 competitionIds:
   - european-cup
 locationIds:

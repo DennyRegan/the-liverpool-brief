@@ -14,6 +14,7 @@ managerIds: ["bill-shankly"]
 competitionIds: ["european-cup"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/764", "https://www.uefa.com/uefachampionsleague/match/63186--liverpool-vs-crvena-zvezda/matchinfo/", "https://www.liverpoolfc.com/news/bill-shanklys-final-season-champions-creep-closer-receive-european-lesson-november", "https://www.liverpoolfc.com/news/features/321909-liverpool-red-star-belgrade-video-tifo"]
+oppositionIds: ["red-star-belgrade"]
 ---
 
 # Liverpool 1–2 Red Star Belgrade: an Anfield defeat with a lasting lesson

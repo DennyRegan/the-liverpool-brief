@@ -109,7 +109,7 @@ test('publication rejects absent approval, blocking evidence and unresolved cano
 }));
 
 test('referenced opinion articles are not factual candidates or reciprocal destinations', () => withRoot(root => {
-  const record = fixture(); record.relationships.articleSlugs = ['john-barnes-1987'];
+  const record = fixture(); record.relationships.articleSlugs = ['liverpool-7-tottenham-0'];
   assert.throws(() => validateExperienceReferences(record, root));
 }));
 

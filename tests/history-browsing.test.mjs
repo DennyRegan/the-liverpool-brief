@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { getArchiveFeatures, getHistoryBrowseArticles } from '../lib/content/archive.ts';
 
-test('only approved reports enter Matches; existing player articles wait for review', () => {
+test('approved factual matches and player articles enter their respective History browsers', () => {
   assert.deepEqual(getHistoryBrowseArticles('matches').map(a => a.slug).sort(), [
     'liverpool-everton-1972-cormack-winner',
     'liverpool-newcastle-1972-five-goal-win',
@@ -211,9 +211,11 @@ test('only approved reports enter Matches; existing player articles wait for rev
     'palace-liverpool-1990-semi-final',
     'liverpool-qpr-1990-eighteenth-title',
     'coventry-liverpool-1990-barnes-hat-trick',
+    'liverpool-9-crystal-palace-0',
+    'liverpools-manager-scored-after-21-seconds-at-goodison',
   ].sort());
-  assert.deepEqual(getHistoryBrowseArticles('players'), []);
-  assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 6);
+  assert.deepEqual(getHistoryBrowseArticles('players').map(a => a.slug), ['john-barnes-1987', 'phil-thompson']);
+  assert.equal(getArchiveFeatures().filter(a => a.editorialMode !== 'factual').length, 2);
 });
 
 test('future player content needs explicit approval and player type; shared player tags do not create profiles', () => {
@@ -221,13 +223,13 @@ test('future player content needs explicit approval and player type; shared play
   try {
     fs.cpSync('content', path.join(root, 'content'), { recursive: true });
     const filename = path.join(root, 'content/archive/liverpool/phil-thompson.md');
-    const original = fs.readFileSync(filename, 'utf8');
+    const original = fs.readFileSync(filename, 'utf8').replace(/^editorialMode:.*\n/m, '');
     fs.writeFileSync(filename, original.replace('articleType: "player"', 'articleType: "player"\neditorialMode: "factual"'));
-    assert.deepEqual(getHistoryBrowseArticles('players', root).map(a => a.slug), ['phil-thompson']);
+    assert.deepEqual(getHistoryBrowseArticles('players', root).map(a => a.slug), ['john-barnes-1987', 'phil-thompson']);
     fs.writeFileSync(filename, original.replace('articleType: "player"', 'articleType: "manager"\neditorialMode: "factual"'));
-    assert.deepEqual(getHistoryBrowseArticles('players', root), []);
+    assert.deepEqual(getHistoryBrowseArticles('players', root).map(a => a.slug), ['john-barnes-1987']);
     fs.writeFileSync(filename, original.replace('articleType: "player"', 'articleType: "player"\neditorialMode: "opinion"'));
-    assert.deepEqual(getHistoryBrowseArticles('players', root), []);
+    assert.deepEqual(getHistoryBrowseArticles('players', root).map(a => a.slug), ['john-barnes-1987']);
     fs.writeFileSync(filename, original.replace('articleType: "player"', 'articleType: "player"\neditorialMode: "automatic"'));
     assert.throws(() => getArchiveFeatures(root), /phil-thompson/);
   } finally { fs.rmSync(root, { recursive: true, force: true }); }
@@ -239,7 +241,7 @@ test('player biographies sort by the canonical subject first name, independently
     fs.cpSync('content', path.join(root, 'content'), { recursive: true });
     for (const slug of ['phil-thompson', 'john-barnes-1987']) {
       const filename = path.join(root, 'content/archive/liverpool', `${slug}.md`);
-      const original = fs.readFileSync(filename, 'utf8');
+      const original = fs.readFileSync(filename, 'utf8').replace(/^editorialMode:.*\n/m, '');
       fs.writeFileSync(filename, original.replace('articleType: "player"', 'articleType: "player"\neditorialMode: "factual"')
         .replace(/^title:.*$/m, `title: "${slug === 'phil-thompson' ? 'A captain' : 'Z winger'}"`));
     }

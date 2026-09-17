@@ -14,8 +14,7 @@ playerIds:
   - john-aldridge
   - peter-beardsley
   - john-barnes
-managerIds:
-  - kenny-dalglish
+managerIds: []
 oppositionIds:
   - wimbledon
 competitionIds:

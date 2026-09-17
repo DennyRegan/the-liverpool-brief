@@ -16,8 +16,7 @@ playerIds:
   - ray-kennedy
   - david-johnson
   - david-fairclough
-managerIds:
-  - bob-paisley
+managerIds: []
 competitionIds:
   - fa-cup
 oppositionIds:

@@ -14,8 +14,7 @@ playerIds:
   - ray-kennedy
   - kenny-dalglish
   - david-fairclough
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - arsenal
 competitionIds:

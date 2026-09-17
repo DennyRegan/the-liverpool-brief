@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1975-76"
 playerIds: ["phil-neal", "john-toshack", "ray-kennedy", "emlyn-hughes", "david-fairclough"]
-managerIds: ["bob-paisley"]
+managerIds: []
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/913", "https://www.11v11.com/matches/liverpool-v-stoke-city-17-april-1976-83447/", "https://www.lfchistory.net/season-archive/games/17"]

@@ -10,10 +10,11 @@ category: "match"
 articleType: "match"
 season: "1972-73"
 playerIds: ["phil-boersma", "steve-heighway", "john-toshack"]
-managerIds: ["bill-shankly"]
+managerIds: []
 competitionIds: ["uefa-cup"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/713", "https://www.uefa.com/uefaeuropaleague/match/64273--liverpool-vs-berlin/", "https://www.lfcineurope.com/7273-3.html", "https://www.liverpoolfc.com/info/phil-boersma", "https://www.lfchistory.net/season-archive/games/14"]
+oppositionIds: ["dynamo-berlin"]
 ---
 
 # Liverpool 3–1 Dynamo Berlin: an early lead, then a second response

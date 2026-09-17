@@ -10,14 +10,8 @@ slug: benfica-liverpool-1984-dalglish-three-assists
 category: match
 articleType: match
 season: 1983-84
-playerIds:
-  - ronnie-whelan
-  - kenny-dalglish
-  - craig-johnston
-  - ian-rush
-  - sammy-lee
-managerIds:
-  - joe-fagan
+playerIds: ["ronnie-whelan","kenny-dalglish","craig-johnston","ian-rush"]
+managerIds: []
 oppositionIds:
   - benfica
 competitionIds:

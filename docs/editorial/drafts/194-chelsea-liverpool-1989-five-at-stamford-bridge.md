@@ -8,8 +8,8 @@ slug: "chelsea-liverpool-1989-five-at-stamford-bridge"
 category: "match"
 articleType: "match"
 season: "1989-90"
-playerIds: ["ian-rush", "peter-beardsley", "ray-houghton", "steve-mcmahon", "jan-molby"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["ian-rush","peter-beardsley","steve-mcmahon"]
+managerIds: []
 oppositionIds: ["chelsea"]
 competitionIds: ["first-division"]
 locationIds: ["stamford-bridge"]

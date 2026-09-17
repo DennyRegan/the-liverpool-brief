@@ -10,8 +10,7 @@ slug: liverpool-west-ham-1977-tenth-title
 category: match
 articleType: match
 season: 1976-77
-managerIds:
-  - bob-paisley
+managerIds: []
 competitionIds:
   - first-division
 locationIds:

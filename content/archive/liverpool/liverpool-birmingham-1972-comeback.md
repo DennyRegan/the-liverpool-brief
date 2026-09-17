@@ -7,7 +7,7 @@ excerpt: "Birmingham led 2–0 and 3–1 at Anfield, but Liverpool recovered to 
 historicalEventDate: "1972-12-02"
 historicalPeriod: "2 December 1972 · First Division · Anfield"
 locationIds: ["anfield"]
-managerIds: ["bill-shankly"]
+managerIds: []
 playerIds: ["alec-lindsay","john-toshack","peter-cormack","kevin-keegan","emlyn-hughes"]
 season: "1972-73"
 slug: "liverpool-birmingham-1972-comeback"

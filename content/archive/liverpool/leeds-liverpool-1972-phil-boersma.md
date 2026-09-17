@@ -10,8 +10,8 @@ slug: "leeds-liverpool-1972-phil-boersma"
 category: "match"
 articleType: "match"
 season: "1972-73"
-playerIds: ["phil-boersma", "larry-lloyd", "trevor-storton"]
-managerIds: ["bill-shankly"]
+playerIds: ["phil-boersma","larry-lloyd"]
+managerIds: []
 oppositionIds: ["leeds-united"]
 competitionIds: ["first-division"]
 locationIds: ["elland-road"]

@@ -10,13 +10,8 @@ slug: liverpool-arsenal-1989-barnes-free-kick
 category: match
 articleType: match
 season: 1989-90
-playerIds:
-  - steve-mcmahon
-  - john-barnes
-  - barry-venison
-  - ray-houghton
-managerIds:
-  - kenny-dalglish
+playerIds: ["john-barnes","steve-mcmahon","ray-houghton"]
+managerIds: []
 oppositionIds:
   - arsenal
 competitionIds:

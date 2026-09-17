@@ -8,13 +8,8 @@ slug: liverpool-west-ham-1984-four-before-half-hour
 category: match
 articleType: match
 season: 1983-84
-playerIds:
-  - ian-rush
-  - kenny-dalglish
-  - graeme-souness
-  - ronnie-whelan
-managerIds:
-  - joe-fagan
+playerIds: ["ian-rush","kenny-dalglish","graeme-souness"]
+managerIds: []
 oppositionIds:
   - west-ham-united
 competitionIds:

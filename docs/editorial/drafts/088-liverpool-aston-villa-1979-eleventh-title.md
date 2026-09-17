@@ -14,8 +14,7 @@ playerIds:
   - alan-kennedy
   - kenny-dalglish
   - terry-mcdermott
-managerIds:
-  - bob-paisley
+managerIds: []
 competitionIds:
   - first-division
 locationIds:

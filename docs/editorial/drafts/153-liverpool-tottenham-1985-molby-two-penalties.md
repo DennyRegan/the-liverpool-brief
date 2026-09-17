@@ -8,8 +8,8 @@ slug: "liverpool-tottenham-1985-molby-two-penalties"
 category: "match"
 articleType: "match"
 season: "1985-86"
-playerIds: ["jan-molby", "ian-rush", "mark-lawrenson", "jim-beglin"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["jan-molby","ian-rush"]
+managerIds: []
 oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

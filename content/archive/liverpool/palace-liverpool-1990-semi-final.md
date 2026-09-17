@@ -10,13 +10,8 @@ slug: palace-liverpool-1990-semi-final
 category: match
 articleType: match
 season: 1989-90
-playerIds:
-  - ian-rush
-  - steve-mcmahon
-  - john-barnes
-  - steve-staunton
-managerIds:
-  - kenny-dalglish
+playerIds: ["ian-rush","steve-mcmahon","john-barnes"]
+managerIds: []
 oppositionIds:
   - crystal-palace
 competitionIds:

@@ -10,10 +10,11 @@ category: "match"
 articleType: "match"
 season: "1975-76"
 playerIds: ["david-fairclough", "steve-heighway"]
-managerIds: ["bob-paisley"]
+managerIds: []
 oppositionIds: ["manchester-city"]
 competitionIds: ["first-division"]
 sources: ["https://www.lfchistory.net/games/914", "https://www.11v11.com/matches/manchester-city-v-liverpool-19-april-1976-83457/", "https://www.lfchistory.net/articles/1494", "https://www.lfchistory.net/season-archive/games/17"]
+locationIds: ["maine-road"]
 ---
 
 # Manchester City 0–3 Liverpool: Fairclough finishes a perfect Easter

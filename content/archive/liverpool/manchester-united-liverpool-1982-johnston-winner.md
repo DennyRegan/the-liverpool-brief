@@ -10,12 +10,8 @@ slug: manchester-united-liverpool-1982-johnston-winner
 category: match
 articleType: match
 season: 1981-82
-playerIds:
-  - bruce-grobbelaar
-  - craig-johnston
-  - ian-rush
-managerIds:
-  - bob-paisley
+playerIds: ["bruce-grobbelaar","craig-johnston"]
+managerIds: []
 oppositionIds:
   - manchester-united
 competitionIds:

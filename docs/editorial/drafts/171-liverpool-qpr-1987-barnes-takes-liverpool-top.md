@@ -8,8 +8,8 @@ slug: "liverpool-qpr-1987-barnes-takes-liverpool-top"
 category: "match"
 articleType: "match"
 season: "1987-88"
-playerIds: ["john-barnes", "john-aldridge", "craig-johnston"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["john-barnes","john-aldridge"]
+managerIds: []
 oppositionIds: ["queens-park-rangers"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

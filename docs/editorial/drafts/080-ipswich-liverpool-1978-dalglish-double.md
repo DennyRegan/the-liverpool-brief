@@ -14,8 +14,7 @@ playerIds:
   - graeme-souness
   - kenny-dalglish
   - steve-heighway
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - ipswich-town
 competitionIds:

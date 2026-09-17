@@ -10,11 +10,8 @@ slug: liverpool-west-ham-1980-mcdermott-shield
 category: match
 articleType: match
 season: 1980-81
-playerIds:
-  - terry-mcdermott
-  - alan-kennedy
-managerIds:
-  - bob-paisley
+playerIds: ["terry-mcdermott"]
+managerIds: []
 oppositionIds:
   - west-ham-united
 competitionIds:

@@ -13,8 +13,7 @@ season: 1986-87
 playerIds:
   - ian-rush
   - paul-walsh
-managerIds:
-  - kenny-dalglish
+managerIds: []
 oppositionIds:
   - leicester-city
 competitionIds:

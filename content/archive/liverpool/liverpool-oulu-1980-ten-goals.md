@@ -14,8 +14,7 @@ playerIds:
   - graeme-souness
   - terry-mcdermott
   - kenny-dalglish
-managerIds:
-  - bob-paisley
+managerIds: []
 competitionIds:
   - european-cup
 locationIds:

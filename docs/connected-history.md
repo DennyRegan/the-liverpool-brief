@@ -168,3 +168,53 @@ The four History navigation links wrap on narrow screens. Both browsing routes a
 Matches browsing offers decade and season filters from approved articles' existing `decade` and `season` fields. Keep season IDs in `YYYY-YY` form (e.g. `1976-77`); the interface displays an en dash. Only populated options appear. Changing decade clears the season selection, and Reset filters restores all reports. Publication dates never determine these filters.
 
 Players browsing sorts alphabetically by first name using the full canonical label of the first `playerIds` entry. For a biography, put its main subject first, followed by any other referenced players. Equal full names sort by article slug. Legacy entries without a player ID fall back to their title; new biographies should always identify their subject. No player profiles are generated.
+
+## Connected History V2 — entity exploration (review branch, September 2026)
+
+This section supersedes V1's deferred entity destinations and the original empty Players state. V1 recommendations, article URLs, seasons and managerial eras remain intact. The feature is not approved for merge or production deployment.
+
+### Metadata baseline and publication
+
+V2 includes the completed metadata audit as a dependency and Denny's six explicit classification decisions: Barnes 1987, Palace 9–0, Dalglish at Goodison and Phil Thompson are factual; Tottenham 7–0 and the Keegan/Hamburg essay are Opinion. Article prose, titles, dates and slugs are unchanged. The earlier audit report is a dated snapshot; current counts below use the reviewed factual classification and all 212 already-public Archive files, including the three subsequently verified 1990 reports. Its old 209-live count is not the current publication boundary.
+
+`getExplorations()` uses only `getFactualHistoryArticles()`, which reads the existing public Archive directory. It does not read editorial drafts or trust calendar status to load articles. The Torres 2008 derby remains draft-only. The existing directory-plus-deployment publication boundary is preserved: metadata in an editorial draft cannot publish it, but putting a file in the public Archive directory includes it on the next deployed build. No new publication mechanism is introduced.
+
+### Destinations and thresholds
+
+| Type | Detail route | Minimum distinct factual articles | Eligible at review |
+| --- | --- | --- | --- |
+| Person | `/history/people/[id]` | 3 | 41 |
+| Opposition | `/history/opposition/[id]` | 5 | 10 |
+| Competition | `/history/competitions/[id]` | 5 | 6 |
+
+Thresholds count substantial reviewed relationships, not every mention or structured-season occurrence. A person in both roles counts once per canonical article. Unknown IDs, wrong entity kinds and below-threshold entities receive 404, with `dynamicParams = false` and static parameters generated only from eligible entities. All new detail pages have canonical metadata, titles and descriptions. Registry membership alone never creates a destination.
+
+`/history/players` remains the sole People index: it now offers eligible people alphabetically, followed by the original factual biographies/player features and their existing URLs. The navigation label becomes People. There is no second `/history/people` index. `/history/opposition` and `/history/competitions` are concise indexes reached from the History landing page; they do not add permanent main-navigation tabs. The existing Interactive History link is retained.
+
+### Derivation, chronology and roles
+
+`lib/content/exploration.ts` derives collections from canonical Archive objects and the existing registry. It stores no articles or reverse lists. Counts exclude Opinion, unreviewed material and all draft-only writing. Related Reading retains its original scoring and selection implementation.
+
+People combine `playerIds` and `managerIds` under one identity. Exclusive sections are **As a player**, **As manager**, and **As player and manager**; a dual-role article appears only in the third section. Each section groups writing by principal season, oldest first. Within a group, exact `historicalEventDate` takes precedence, then known season chronology, then publication date only as a fallback. Slugs break ties. No exact historical dates are invented. Articles without a principal season have a separate **Career and wider history** group even if they have an anchor event date.
+
+Opposition and Competition pages use the same chronological groups. Larger collections use native expandable season sections with the first group open; collections/role sections of 12 or fewer articles show all groups open. This keeps the 101-article First Division collection navigable without a flat wall of cards. No generated biographies, club histories or missing fixtures are supplied.
+
+### Seasons and managerial eras
+
+Every article retains its existing `Explore [season]` link. Entity groups link only to Season records that exist. People also link to existing Seasons where the canonical person appears in structured manager, key-player, scorer, transfer or event relationships. This is derived, never maintained as a reverse list. Season pages retain their existing Related articles section and automatic previous/next navigation.
+
+People pages link to existing managerial eras through exact canonical display-name equality with the era's `manager` label (including the two labels separated by ` & ` in the existing joint tenure). Dalglish's two eras remain two periods under one person. This is a deliberate compatibility compromise: era records do not yet contain person IDs. No date inference or duplicated tenure registry is used; tests cover Dalglish's two spells and the Evans/Houllier joint era. If canonical labels diverge in future, omit the unmatched link rather than guess; adding explicit person references to the existing era schema is a possible later refinement.
+
+### Article exploration and mobile use
+
+Factual article pages add **Explore this history** after the existing Season link and before Related Reading. Up to five eligible entity links are selected in editorial order: the first player and first manager (deduplicated), a principal opposition and competition, then remaining people/opposition/competitions to fill available slots. Ineligible candidates are omitted, never rendered as dead links. Season navigation remains its existing separate control. Opinion articles receive no V2 exploration panel and do not enter V2 collections.
+
+Native links and disclosures support keyboard and touch use without new client-side code, services or dependencies. Entity indexes become one column on small screens, controls wrap, and article exploration links have a 44px minimum height. Existing Matches filters, biographies, This Week and Interactive History remain available.
+
+### Publishing and checking
+
+Once separately approved, publish a correctly tagged article through the established Archive workflow. The next build recalculates all eligibility, counts and links; crossing a threshold creates the destination automatically. Removing sufficient published relationships removes the destination and all derived links. No application change or reverse list is needed.
+
+Run the existing calendar validation, full tests, lint, build, Season, History Explorer, This Week, Connected History and Interactive History checks. With a local production server at port 3152, also run `BASE_URL=http://127.0.0.1:3152 node scripts/verify-exploration.mjs`. This uses the existing Node/assert and HTTP-verifier approach and checks every eligible page, every Archive exploration panel, all linked destinations, deduplication/order and unknown/thin/draft 404s.
+
+Search, theme/location destinations, graph visualisation, generated biographies, databases, external APIs and runtime AI remain deliberately deferred. This version makes existing writing explorable; it does not claim complete coverage of any person, opponent or competition.

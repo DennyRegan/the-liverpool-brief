@@ -8,7 +8,7 @@ slug: "liverpool-arsenal-1980-dalglish-second-replay"
 category: "match"
 articleType: "match"
 season: "1979-80"
-playerIds: ["kenny-dalglish", "ray-kennedy", "david-fairclough"]
+playerIds: ["kenny-dalglish","david-fairclough"]
 managerIds: ["bob-paisley"]
 oppositionIds: ["arsenal"]
 competitionIds: ["fa-cup"]

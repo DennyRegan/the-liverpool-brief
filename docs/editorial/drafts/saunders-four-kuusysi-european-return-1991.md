@@ -9,12 +9,13 @@ excerpt: "Liverpool’s first European match since 1985 ended in a 6–1 win ove
 historicalEventDate: "1991-09-18"
 historicalPeriod: "18 September 1991"
 locationIds: ["anfield"]
-managerIds: ["graeme-souness"]
+managerIds: []
 playerIds: ["dean-saunders","ray-houghton"]
 season: "1991-92"
 slug: "saunders-four-kuusysi-european-return-1991"
 sources: ["https://www.lfchistory.net/games/1798","https://www.liverpoolfc.com/news/features/414980-liverpool-s-20-european-hat-tricks","https://www.lfchistory.net/articles/330","https://www.reuters.com/sports/soccer/liverpool-unveil-new-heysel-memorial-marking-40th-anniversary-disaster-2025-05-21/"]
 title: "Saunders scores four as Liverpool return to Europe"
+oppositionIds: ["kuusysi-lahti"]
 ---
 
 For much of Liverpool’s return to Europe, the lead was only one goal.

@@ -6,9 +6,9 @@ decade: "1970s"
 excerpt: "Late goals from Emlyn Hughes and John Toshack brought Liverpool their first away league victory of 1973–74, after seven unsuccessful attempts."
 historicalEventDate: "1973-11-03"
 historicalPeriod: "3 November 1973 · First Division · Highbury"
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["arsenal"]
-playerIds: ["emlyn-hughes","john-toshack","alec-lindsay"]
+playerIds: ["emlyn-hughes","john-toshack"]
 season: "1973-74"
 slug: "arsenal-liverpool-1973-first-away-win"
 sources: ["https://www.lfchistory.net/games/763","https://www.liverpoolfc.com/news/bill-shanklys-final-season-champions-creep-closer-receive-european-lesson-november","https://blog.woolwicharsenal.co.uk/archives/12978"]

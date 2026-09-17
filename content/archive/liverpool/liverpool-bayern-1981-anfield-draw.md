@@ -10,13 +10,8 @@ slug: liverpool-bayern-1981-anfield-draw
 category: match
 articleType: match
 season: 1980-81
-playerIds:
-  - kenny-dalglish
-  - terry-mcdermott
-  - steve-heighway
-  - ray-clemence
-managerIds:
-  - bob-paisley
+playerIds: ["kenny-dalglish","terry-mcdermott","steve-heighway"]
+managerIds: []
 oppositionIds:
   - bayern-munich
 competitionIds:

@@ -14,8 +14,7 @@ playerIds:
   - kenny-dalglish
   - david-johnson
   - ray-kennedy
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - manchester-city
 competitionIds:

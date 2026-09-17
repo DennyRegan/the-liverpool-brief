@@ -8,8 +8,8 @@ slug: "liverpool-everton-1981-dalglish-double"
 category: "match"
 articleType: "match"
 season: "1981-82"
-playerIds: ["kenny-dalglish", "ian-rush", "ronnie-whelan", "terry-mcdermott"]
-managerIds: ["bob-paisley"]
+playerIds: ["kenny-dalglish","ian-rush"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

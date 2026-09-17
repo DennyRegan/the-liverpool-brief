@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1988-89"
 playerIds: ["john-aldridge", "john-barnes", "ray-houghton"]
-managerIds: ["kenny-dalglish"]
+managerIds: []
 oppositionIds: ["nottingham-forest"]
 competitionIds: ["fa-cup"]
 locationIds: ["old-trafford"]

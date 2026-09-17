@@ -8,14 +8,8 @@ slug: everton-liverpool-1982-rush-four
 category: match
 articleType: match
 season: 1982-83
-playerIds:
-  - ian-rush
-  - alan-hansen
-  - mark-lawrenson
-  - kenny-dalglish
-  - sammy-lee
-managerIds:
-  - bob-paisley
+playerIds: ["ian-rush","alan-hansen","kenny-dalglish"]
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

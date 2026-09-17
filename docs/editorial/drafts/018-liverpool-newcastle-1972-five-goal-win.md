@@ -10,7 +10,7 @@ category: "match"
 articleType: "match"
 season: "1972-73"
 playerIds: ["john-toshack", "peter-cormack", "alec-lindsay", "tommy-smith"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["newcastle-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

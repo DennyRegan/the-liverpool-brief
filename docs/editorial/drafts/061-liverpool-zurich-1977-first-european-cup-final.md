@@ -9,11 +9,12 @@ slug: "liverpool-zurich-1977-first-european-cup-final"
 category: "match"
 articleType: "match"
 season: "1976-77"
-playerIds: ["jimmy-case", "kevin-keegan", "alan-waddle", "ray-kennedy"]
-managerIds: ["bob-paisley"]
+playerIds: ["jimmy-case","kevin-keegan"]
+managerIds: []
 competitionIds: ["european-cup"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/969", "https://www.lfchistory.net/articles/1832", "https://www.transfermarkt.com/liverpool-fc_fc-zurich/index/spielbericht/1020588", "https://www.watson.ch/sport/champions-league/407427994-1977-der-fc-zuerich-scheitert-im-meistercup-erst-im-halbfinal-an-liverpool"]
+oppositionIds: ["fc-zurich"]
 ---
 
 # Liverpool 3–0 Zürich: Case double opens the way to Rome

@@ -6,9 +6,9 @@ decade: "1970s"
 excerpt: "Alan Waddle scored the only goal at Goodison Park after Liverpool had lost Kevin Keegan before half-time. It would remain his only goal for the club."
 historicalEventDate: "1973-12-08"
 historicalPeriod: "8 December 1973 · First Division · Goodison Park"
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["everton"]
-playerIds: ["alan-waddle","ian-callaghan","kevin-keegan"]
+playerIds: ["alan-waddle","kevin-keegan"]
 season: "1973-74"
 slug: "everton-liverpool-1973-alan-waddle"
 sources: ["https://www.lfchistory.net/games/772","https://www.liverpoolfc.com/info/alan-waddle","https://www.liverpoolfc.com/news/bill-shanklys-final-season-reds-keep-flawless-home-record-busy-december"]

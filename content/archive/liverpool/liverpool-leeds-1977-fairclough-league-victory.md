@@ -8,8 +8,8 @@ slug: "liverpool-leeds-1977-fairclough-league-victory"
 category: "match"
 articleType: "match"
 season: "1976-77"
-playerIds: ["david-fairclough", "phil-neal", "steve-heighway", "jimmy-case"]
-managerIds: ["bob-paisley"]
+playerIds: ["david-fairclough","phil-neal","steve-heighway"]
+managerIds: []
 oppositionIds: ["leeds-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

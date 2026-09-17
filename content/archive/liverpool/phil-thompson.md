@@ -7,20 +7,17 @@ decade: "1980s"
 excerpt: "A Kirkby lad who stood on the Kop lifted the European Cup as Liverpool's captain. Almost nobody talks about him."
 slug: "phil-thompson"
 category: "person"
+editorialMode: "factual"
 articleType: "player"
 playerIds:
   - "phil-thompson"
-managerIds:
-  - "bill-shankly"
-  - "bob-paisley"
-competitionIds:
-  - "first-division"
-  - "european-cup"
-  - "league-cup"
-  - "fa-cup"
+managerIds: ["bill-shankly","bob-paisley","graeme-souness","gerard-houllier"]
+competitionIds: ["first-division","european-cup","league-cup","premier-league"]
 sources:
   - "https://www.liverpoolfc.com/info/phil-thompson"
   - "https://www.lfchistory.net/players/428"
+locationIds: ["parc-des-princes"]
+historyEras: ["bill-shankly","bob-paisley","graeme-souness","gerard-houllier"]
 ---
 
 Imagine captaining Liverpool to the European Cup. Imagine winning seven league titles with them. Imagine growing up supporting the club and eventually becoming the man who lifted its biggest trophy.

@@ -10,13 +10,8 @@ slug: liverpool-az-1981-hansen-late-winner
 category: match
 articleType: match
 season: 1981-82
-playerIds:
-  - alan-hansen
-  - terry-mcdermott
-  - ian-rush
-  - phil-thompson
-managerIds:
-  - bob-paisley
+playerIds: ["alan-hansen","terry-mcdermott","ian-rush"]
+managerIds: []
 oppositionIds:
   - az-alkmaar
 competitionIds:

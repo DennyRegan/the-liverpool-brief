@@ -10,12 +10,8 @@ slug: liverpool-dinamo-1984-lee-header
 category: match
 articleType: match
 season: 1983-84
-playerIds:
-  - sammy-lee
-  - alan-kennedy
-  - graeme-souness
-managerIds:
-  - joe-fagan
+playerIds: ["sammy-lee","graeme-souness"]
+managerIds: []
 competitionIds:
   - european-cup
 locationIds:

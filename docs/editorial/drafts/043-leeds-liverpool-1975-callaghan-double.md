@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1975-76"
 playerIds: ["ray-kennedy", "ian-callaghan", "kevin-keegan"]
-managerIds: ["bob-paisley"]
+managerIds: []
 oppositionIds: ["leeds-united"]
 competitionIds: ["first-division"]
 locationIds: ["elland-road"]

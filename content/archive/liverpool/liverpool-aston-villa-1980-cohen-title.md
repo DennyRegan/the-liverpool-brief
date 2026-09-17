@@ -10,12 +10,8 @@ slug: liverpool-aston-villa-1980-cohen-title
 category: match
 articleType: match
 season: 1979-80
-playerIds:
-  - avi-cohen
-  - david-johnson
-  - terry-mcdermott
-managerIds:
-  - bob-paisley
+playerIds: ["avi-cohen","david-johnson"]
+managerIds: []
 oppositionIds:
   - aston-villa
 competitionIds:

@@ -10,11 +10,7 @@ slug: liverpool-everton-1987-rush-equals-dean
 category: match
 articleType: match
 season: 1986-87
-playerIds:
-  - ian-rush
-  - steve-mcmahon
-  - mike-hooper
-  - gary-ablett
+playerIds: ["ian-rush"]
 managerIds:
   - kenny-dalglish
 oppositionIds:
@@ -31,6 +27,7 @@ sources:
     https://www.liverpoolfc.com/news/first-team/216950-no-7-ian-rush-saturday-april-25-1987
 date: '2026-09-15'
 editorialMode: factual
+themeIds: ["player-farewells"]
 ---
 
 Ian Rush scored twice as Liverpool beat league leaders Everton 3–1 at Anfield on 25 April 1987. His second brought him level with Dixie Dean’s record of 19 goals in Merseyside derbies, shortly before his agreed move to Juventus.

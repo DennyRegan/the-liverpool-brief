@@ -10,11 +10,8 @@ slug: liverpool-southampton-1986-rush-extra-time-double
 category: match
 articleType: match
 season: 1985-86
-playerIds:
-  - ian-rush
-  - steve-nicol
-managerIds:
-  - kenny-dalglish
+playerIds: ["ian-rush"]
+managerIds: []
 oppositionIds:
   - southampton
 competitionIds:

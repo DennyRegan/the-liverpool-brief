@@ -7,7 +7,7 @@ excerpt: "Second-half goals from Peter Cormack and Kevin Keegan ended Leeds Unit
 historicalEventDate: "1973-04-23"
 historicalPeriod: "23 April 1973 · First Division · Anfield"
 locationIds: ["anfield"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["leeds-united"]
 playerIds: ["peter-cormack","kevin-keegan"]
 season: "1972-73"

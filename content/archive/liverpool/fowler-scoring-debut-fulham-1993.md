@@ -10,7 +10,7 @@ category: "match"
 articleType: "match"
 editorialMode: "factual"
 season: "1993-94"
-playerIds: ["robbie-fowler", "ian-rush"]
+playerIds: ["robbie-fowler"]
 managerIds: ["graeme-souness"]
 competitionIds: ["league-cup"]
 oppositionIds: ["fulham"]

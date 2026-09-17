@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1974-75"
 playerIds: ["john-toshack", "terry-mcdermott", "kevin-keegan"]
-managerIds: ["bob-paisley"]
+managerIds: []
 oppositionIds: ["newcastle-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

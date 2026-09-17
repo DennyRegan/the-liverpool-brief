@@ -12,11 +12,8 @@ slug: dinamo-tbilisi-liverpool-1979-european-exit
 category: match
 articleType: match
 season: 1979-80
-playerIds:
-  - ray-clemence
-  - phil-thompson
-managerIds:
-  - bob-paisley
+playerIds: ["ray-clemence"]
+managerIds: []
 competitionIds:
   - european-cup
 sources:

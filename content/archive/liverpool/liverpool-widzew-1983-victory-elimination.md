@@ -14,8 +14,7 @@ playerIds:
   - phil-neal
   - ian-rush
   - david-hodgson
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - widzew-lodz
 competitionIds:

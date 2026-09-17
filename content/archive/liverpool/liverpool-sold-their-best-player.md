@@ -7,12 +7,10 @@ decade: "1970s"
 excerpt: "Six months after Kevin Keegan left for Hamburg, he returned to Anfield and found a Liverpool side that had somehow become even better."
 slug: "liverpool-sold-their-best-player"
 category: "match"
+editorialMode: "opinion"
 articleType: "match"
 season: "1977-78"
-playerIds:
-  - "kevin-keegan"
-  - "kenny-dalglish"
-  - "terry-mcdermott"
+playerIds: ["kevin-keegan","kenny-dalglish","terry-mcdermott","steve-heighway","ray-kennedy","david-fairclough"]
 managerIds:
   - "bob-paisley"
 oppositionIds:

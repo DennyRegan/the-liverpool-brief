@@ -8,12 +8,13 @@ slug: "liverpool-everton-1987-rush-equals-dean"
 category: "match"
 articleType: "match"
 season: "1986-87"
-playerIds: ["ian-rush", "steve-mcmahon", "mike-hooper", "gary-ablett"]
+playerIds: ["ian-rush"]
 managerIds: ["kenny-dalglish"]
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/1586", "https://www.evertonresults.com/198687.htm", "https://www.lfchistory.net/images/newspapers/riley/19870425veverton.pdf", "https://www.liverpoolfc.com/news/first-team/216950-no-7-ian-rush-saturday-april-25-1987"]
+themeIds: ["player-farewells"]
 ---
 
 # Rush equals Dean’s derby record as Liverpool beat Everton

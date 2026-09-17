@@ -8,8 +8,8 @@ slug: "liverpool-man-united-1988-molby-penalty"
 category: "match"
 articleType: "match"
 season: "1988-89"
-playerIds: ["jan-molby", "john-barnes", "steve-nicol"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["jan-molby","john-barnes"]
+managerIds: []
 oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

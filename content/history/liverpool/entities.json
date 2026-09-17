@@ -2458,5 +2458,25 @@
     "id": "bayer-leverkusen",
     "label": "Bayer Leverkusen",
     "kind": "opposition"
+  },
+  {
+    "id": "dixie-dean",
+    "label": "Dixie Dean",
+    "kind": "person"
+  },
+  {
+    "id": "chris-woods",
+    "label": "Chris Woods",
+    "kind": "person"
+  },
+  {
+    "id": "hull-city",
+    "label": "Hull City",
+    "kind": "opposition"
+  },
+  {
+    "id": "tony-coton",
+    "label": "Tony Coton",
+    "kind": "person"
   }
 ]

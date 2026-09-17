@@ -11,7 +11,7 @@ category: "match"
 articleType: "match"
 season: "1970-71"
 playerIds: ["john-toshack", "steve-heighway"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["leeds-united"]
 competitionIds: ["first-division"]
 locationIds: ["elland-road"]

@@ -10,13 +10,8 @@ slug: everton-liverpool-1988-houghton-cup-header
 category: match
 articleType: match
 season: 1987-88
-playerIds:
-  - ray-houghton
-  - john-barnes
-  - peter-beardsley
-  - bruce-grobbelaar
-managerIds:
-  - kenny-dalglish
+playerIds: ["ray-houghton","john-barnes","bruce-grobbelaar"]
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

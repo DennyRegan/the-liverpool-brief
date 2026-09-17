@@ -13,6 +13,8 @@ playerIds: ["kevin-keegan", "john-toshack", "ray-kennedy"]
 managerIds: ["bob-paisley"]
 competitionIds: ["first-division"]
 sources: ["https://www.lfchistory.net/games/916", "https://www.liverpoolfc.com/news/first-team/301343-4-wolves-1-3-liverpool-may-4-1976", "https://www.lfchistory.net/articles/602"]
+oppositionIds: ["wolverhampton-wanderers"]
+locationIds: ["molineux"]
 ---
 
 # Wolves 1–3 Liverpool: late goals settle the championship

@@ -6,6 +6,10 @@ import os from 'node:os';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
 import { once } from 'node:events';
+import { getFactualHistoryArticles } from '../lib/content/archive.ts';
+import { getEraArticles, getHistory } from '../lib/content/history.ts';
+
+const existingPaisley = getEraArticles(getFactualHistoryArticles(), 'bob-paisley', getHistory().eras).map(article => article.slug);
 
 const root = fs.mkdtempSync(path.join(os.tmpdir(), 'liverpool-history-publishing-'));
 for (const name of ['app', 'lib', 'content', 'public', 'scripts', 'package.json', 'package-lock.json', 'next.config.ts', 'tsconfig.json', 'postcss.config.mjs', 'next-env.d.ts']) {
@@ -32,7 +36,7 @@ try {
     'historyEras: [bob-paisley, joe-fagan]',
     'historyEras: [bob-paisley]',
   ];
-  files.forEach((file, index) => fs.writeFileSync(file, `---\ntitle: "History QA fixture ${index + 1}"\nslug: "${slugs[index]}"\ndate: "2026-09-07"\nhistoricalPeriod: "Verification fixture"\ndecade: "1980s"\ncategory: "match"\nexcerpt: "Temporary publishing verification fixture."\n${metadata[index]}\n---\nTemporary verification content. Never publish.\n`));
+  files.forEach((file, index) => fs.writeFileSync(file, `---\ntitle: "History QA fixture ${index + 1}"\nslug: "${slugs[index]}"\ndate: "2026-09-07"\nhistoricalPeriod: "Verification fixture"\ndecade: "1980s"\ncategory: "match"\neditorialMode: "factual"\narticleType: "match"\nexcerpt: "Temporary publishing verification fixture."\n${metadata[index]}\n---\nTemporary verification content. Never publish.\n`));
   const history = JSON.parse(originalHistory);
   history.eras.find(era => era.id === 'joe-fagan').image = {
     src: '/images/history/history-qa-missing.webp', alt: 'Editorial illustration of Joe Fagan', width: 600, height: 750,
@@ -49,25 +53,26 @@ try {
   });
   const paisley = await get('/history/bob-paisley');
   const links = [...paisley.matchAll(/href="\/archive\/([^"]+)"/g)].map(match => match[1]);
-  assert.equal(links.length, 4, 'several articles include all three fixtures and the real article');
-  assert.equal(new Set(links).size, 4, 'each canonical article appears once');
+  assert.deepEqual([...links].sort(), [...existingPaisley, ...slugs].sort(), 'existing articles and all three fixtures remain available');
+  assert.equal(new Set(links).size, links.length, 'each canonical article appears once');
   for (const slug of slugs) assert.ok(links.includes(slug), slug);
   const more = paisley.match(/<details class="hx-more-reading">([\s\S]*?)<\/details>/)?.[1];
   assert.ok(more, 'additional writing uses a native disclosure');
-  assert.equal((more.match(/<article>/g) ?? []).length, 1, 'first three visible, fourth disclosed');
+  assert.equal((more.match(/<article>/g) ?? []).length, links.length - 3, 'first three visible, remaining articles disclosed');
   const fagan = await get('/history/joe-fagan');
   assert.match(fagan, /href="\/archive\/history-qa-multiple"/, 'one canonical piece appears in a second era');
-  assert.match(fagan, /class="hx-monogram" aria-hidden="true">JF/, 'missing file renders the fallback');
-  assert.ok(!fagan.includes('<img'), 'missing illustration creates no broken image');
+  assert.ok(!fagan.includes('<img'), 'text-only History creates no broken illustration');
   const landing = await get('/history');
   const paisleyCard = landing.match(/<article class="hx-era" id="bob-paisley"[\s\S]*?<\/article>/)?.[0];
   assert.equal((paisleyCard?.match(/href="\/archive\//g) ?? []).length, 2, 'landing card remains concise');
   const archive = await get('/articles?category=archive');
+  const matches = await get('/history/matches');
   for (const slug of slugs) {
-    assert.ok(archive.includes(`href="/archive/${slug}"`), `Archive discovers ${slug}`);
+    assert.ok(matches.includes(`href="/archive/${slug}"`), `History Matches discovers ${slug}`);
+    assert.ok(!archive.includes(`href="/archive/${slug}"`), `factual fixture stays outside the Articles collection: ${slug}`);
     assert.match(await get(`/archive/${slug}`), /Temporary verification content/, 'existing canonical article route renders the original file');
   }
-  console.log('PASS real Markdown publication, dated and multi-era placement, four-article disclosure, one-article era, canonical URLs and missing illustration.');
+  console.log('PASS real Markdown publication, dated and multi-era placement, growing-archive disclosure, canonical URLs, factual collection separation and text-only History.');
 } finally {
   if (server && server.exitCode === null) {
     const exited = once(server, 'exit');

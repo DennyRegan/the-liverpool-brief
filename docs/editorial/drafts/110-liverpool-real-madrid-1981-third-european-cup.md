@@ -10,11 +10,7 @@ slug: liverpool-real-madrid-1981-third-european-cup
 category: match
 articleType: match
 season: 1980-81
-playerIds:
-  - alan-kennedy
-  - ray-kennedy
-  - graeme-souness
-  - ray-clemence
+playerIds: ["alan-kennedy"]
 managerIds:
   - bob-paisley
 competitionIds:

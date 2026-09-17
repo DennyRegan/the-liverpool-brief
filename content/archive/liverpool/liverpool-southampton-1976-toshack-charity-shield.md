@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1976-77"
 playerIds: ["john-toshack", "kevin-keegan"]
-managerIds: ["bob-paisley"]
+managerIds: []
 competitionIds: ["charity-shield"]
 locationIds: ["wembley"]
 sources: ["https://www.lfchistory.net/games/918", "https://www.transfermarkt.com/liverpool-fc_southampton-fc/index/spielbericht/2847073", "https://www.liverpoolfc.com/info/charity-community-shield", "https://www.lfchistory.net/season-archive/games/18", "https://en.wikipedia.org/wiki/1976_FA_Charity_Shield"]

@@ -11,7 +11,7 @@ category: "match"
 articleType: "match"
 season: "1972-73"
 playerIds: ["brian-hall", "ian-callaghan", "larry-lloyd"]
-managerIds: ["bill-shankly"]
+managerIds: []
 oppositionIds: ["manchester-city"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

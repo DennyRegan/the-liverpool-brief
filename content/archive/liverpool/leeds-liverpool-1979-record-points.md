@@ -15,8 +15,7 @@ playerIds:
   - jimmy-case
   - kenny-dalglish
   - ray-clemence
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - leeds-united
 competitionIds:

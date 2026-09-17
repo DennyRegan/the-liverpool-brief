@@ -8,8 +8,8 @@ slug: "liverpool-everton-1984-sharp-volley"
 category: "match"
 articleType: "match"
 season: "1984-85"
-playerIds: ["ian-rush", "mark-lawrenson", "bruce-grobbelaar"]
-managerIds: ["joe-fagan"]
+playerIds: ["ian-rush"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

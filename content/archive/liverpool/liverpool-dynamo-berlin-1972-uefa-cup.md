@@ -7,7 +7,7 @@ excerpt: "Phil Boersma scored inside the opening minute, but Dynamo Berlin’s e
 historicalEventDate: "1972-12-13"
 historicalPeriod: "13 December 1972 · UEFA Cup third round, second leg · Anfield"
 locationIds: ["anfield"]
-managerIds: ["bill-shankly"]
+managerIds: []
 playerIds: ["phil-boersma","steve-heighway","john-toshack"]
 season: "1972-73"
 slug: "liverpool-dynamo-berlin-1972-uefa-cup"

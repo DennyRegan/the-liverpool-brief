@@ -9,11 +9,12 @@ slug: "everton-liverpool-1973-hughes-double"
 category: "match"
 articleType: "match"
 season: "1972-73"
-playerIds: ["emlyn-hughes", "ian-callaghan"]
-managerIds: ["bill-shankly"]
+playerIds: ["emlyn-hughes"]
+managerIds: []
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 sources: ["https://www.lfchistory.net/games/728", "https://www.liverpoolfc.com/news/first-team/296817-2-everton-0-2-liverpool-march-3-1973", "https://gameofthepeople.com/2015/02/27/we-are-the-champions-liverpool-1972-73/"]
+locationIds: ["goodison-park"]
 ---
 
 # Everton 0–2 Liverpool: Hughes settles the derby in eight minutes

@@ -10,8 +10,8 @@ slug: "liverpool-arsenal-1971-ian-ross"
 category: "match"
 articleType: "match"
 season: "1971-72"
-playerIds: ["ian-ross", "emlyn-hughes", "ian-callaghan", "tommy-smith"]
-managerIds: ["bill-shankly"]
+playerIds: ["ian-ross","tommy-smith"]
+managerIds: []
 oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

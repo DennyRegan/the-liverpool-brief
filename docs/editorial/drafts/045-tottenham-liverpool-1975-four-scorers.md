@@ -8,8 +8,8 @@ slug: "tottenham-liverpool-1975-four-scorers"
 category: "match"
 articleType: "match"
 season: "1975-76"
-playerIds: ["kevin-keegan", "jimmy-case", "phil-neal", "steve-heighway", "john-toshack"]
-managerIds: ["bob-paisley"]
+playerIds: ["john-toshack","jimmy-case","kevin-keegan"]
+managerIds: []
 oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["first-division"]
 locationIds: ["white-hart-lane"]

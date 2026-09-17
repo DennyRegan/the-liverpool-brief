@@ -10,13 +10,8 @@ slug: aberdeen-liverpool-1980-mcdermott-chip
 category: match
 articleType: match
 season: 1980-81
-playerIds:
-  - terry-mcdermott
-  - kenny-dalglish
-  - david-johnson
-  - ray-clemence
-managerIds:
-  - bob-paisley
+playerIds: ["terry-mcdermott"]
+managerIds: []
 competitionIds:
   - european-cup
 sources:

@@ -8,8 +8,8 @@ slug: "coventry-liverpool-1990-barnes-hat-trick"
 category: "match"
 articleType: "match"
 season: "1989-90"
-playerIds: ["john-barnes", "ronny-rosenthal", "ian-rush"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["john-barnes","ronny-rosenthal"]
+managerIds: []
 oppositionIds: ["coventry-city"]
 competitionIds: ["first-division"]
 locationIds: ["highfield-road"]

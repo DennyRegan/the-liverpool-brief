@@ -10,13 +10,8 @@ slug: liverpool-cska-sofia-1981-souness-treble
 category: match
 articleType: match
 season: 1980-81
-playerIds:
-  - graeme-souness
-  - steve-heighway
-  - sammy-lee
-  - terry-mcdermott
-managerIds:
-  - bob-paisley
+playerIds: ["graeme-souness","steve-heighway"]
+managerIds: []
 competitionIds:
   - european-cup
 locationIds:

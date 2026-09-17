@@ -17,8 +17,7 @@ playerIds:
   - kevin-keegan
   - steve-heighway
   - ray-clemence
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - borussia-monchengladbach
 competitionIds:
@@ -32,6 +31,7 @@ sources:
     https://www.liverpoolfc.com/news/announcements/264257-rome-1977-through-the-eyes-of-the-11-reds-heroes
 locationIds:
   - stadio-olimpico
+themeIds: ["player-farewells"]
 ---
 
 # Liverpool 3–1 Borussia Mönchengladbach: the first European Cup

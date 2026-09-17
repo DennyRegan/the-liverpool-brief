@@ -10,12 +10,8 @@ slug: benfica-liverpool-1978-hughes-winner
 category: match
 articleType: match
 season: 1977-78
-playerIds:
-  - jimmy-case
-  - emlyn-hughes
-  - alan-hansen
-managerIds:
-  - bob-paisley
+playerIds: ["jimmy-case","emlyn-hughes"]
+managerIds: []
 competitionIds:
   - european-cup
 sources:

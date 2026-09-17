@@ -14,8 +14,7 @@ playerIds:
   - ronnie-whelan
   - graeme-souness
   - craig-johnston
-managerIds:
-  - bob-paisley
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

@@ -10,9 +10,11 @@ category: "match"
 articleType: "match"
 editorialMode: "factual"
 season: "1993-94"
-playerIds: ["robbie-fowler", "ian-rush"]
+playerIds: ["robbie-fowler"]
 managerIds: ["graeme-souness"]
 competitionIds: ["league-cup"]
+oppositionIds: ["fulham"]
+locationIds: ["craven-cottage"]
 ---
 
 Robbie Fowler marked his first senior Liverpool appearance with a goal in a 3–1 win at Fulham on 22 September 1993. The 18-year-old started alongside Ian Rush at Craven Cottage and helped Liverpool establish a two-goal lead before scoring the late third himself.

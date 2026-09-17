@@ -10,13 +10,8 @@ slug: liverpool-west-bromwich-albion-1977-dalglish-third-goal
 category: match
 articleType: match
 season: 1977-78
-playerIds:
-  - kenny-dalglish
-  - steve-heighway
-  - jimmy-case
-  - ray-kennedy
-managerIds:
-  - bob-paisley
+playerIds: ["kenny-dalglish","steve-heighway","jimmy-case"]
+managerIds: []
 competitionIds:
   - first-division
 locationIds:

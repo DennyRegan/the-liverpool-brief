@@ -26,6 +26,11 @@ export default function HistoryPage() {
           <p className="hx-standfirst">The managers, the teams and the moments that shaped modern Liverpool. Follow the story from Shankly, or step into an era you remember.</p>
         </header>
 
+        <nav className="entity-entry-links" aria-label="Ways into Liverpool history">
+          <Link href="/history/players">People <span>Players, managers and their stories →</span></Link>
+          <Link href="/history/opposition">Opposition <span>Liverpool against familiar rivals →</span></Link>
+          <Link href="/history/competitions">Competitions <span>League campaigns and cup runs →</span></Link>
+        </nav>
         <details className="hx-index" id="era-index">
           <summary>Choose an era<span aria-hidden="true">↓</span></summary>
           <nav aria-label="Choose a managerial era">

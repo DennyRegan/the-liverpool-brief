@@ -8,11 +8,12 @@ slug: "liverpool-ipswich-1976-three-equalisers"
 category: "match"
 articleType: "match"
 season: "1975-76"
-playerIds: ["kevin-keegan", "jimmy-case"]
-managerIds: ["bob-paisley"]
+playerIds: ["kevin-keegan","jimmy-case","trevor-whymark"]
+managerIds: []
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/893", "https://www.11v11.com/matches/liverpool-v-ipswich-town-10-january-1976-83284/", "https://www.prideofanglia.com/page.php?day=10&month=1&page=matchReport&sequence=0&year=1976", "https://en.wikipedia.org/wiki/1975%E2%80%9376_Liverpool_F.C._season"]
+oppositionIds: ["ipswich-town"]
 ---
 
 # Liverpool 3–3 Ipswich Town: three leads, three replies

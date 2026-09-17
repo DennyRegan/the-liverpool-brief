@@ -8,12 +8,8 @@ slug: tottenham-liverpool-1982-dalglish-recovery
 category: match
 articleType: match
 season: 1981-82
-playerIds:
-  - kenny-dalglish
-  - graeme-souness
-  - ronnie-whelan
-managerIds:
-  - bob-paisley
+playerIds: ["kenny-dalglish"]
+managerIds: []
 oppositionIds:
   - tottenham-hotspur
 competitionIds:

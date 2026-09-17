@@ -8,8 +8,8 @@ slug: "zurich-liverpool-1977-neal-first-leg-win"
 category: "match"
 articleType: "match"
 season: "1976-77"
-playerIds: ["phil-neal", "steve-heighway", "ray-kennedy", "terry-mcdermott"]
-managerIds: ["bob-paisley"]
+playerIds: ["phil-neal","steve-heighway"]
+managerIds: []
 competitionIds: ["european-cup"]
 sources: ["https://www.lfchistory.net/games/965", "https://www.lfchistory.net/articles/1836", "https://www.watson.ch/sport/champions-league/407427994-1977-der-fc-zuerich-scheitert-im-meistercup-erst-im-halbfinal-an-liverpool", "https://www.lfchistory.net/games/964"]
 oppositionIds: ["fc-zurich"]

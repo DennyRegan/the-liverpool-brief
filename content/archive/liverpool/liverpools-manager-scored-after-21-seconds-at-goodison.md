@@ -7,15 +7,16 @@ decade: "1980s"
 excerpt: "Kenny Dalglish picked himself for the Merseyside derby. Twenty-one seconds later, Liverpool’s player-manager had put them ahead at Goodison Park."
 slug: "liverpools-manager-scored-after-21-seconds-at-goodison"
 category: "match"
+editorialMode: "factual"
 articleType: "match"
 season: "1985-86"
-playerIds:
-  - "kenny-dalglish"
-  - "ian-rush"
+playerIds: ["kenny-dalglish"]
 managerIds:
   - "kenny-dalglish"
 competitionIds:
   - "first-division"
+oppositionIds: ["everton"]
+locationIds: ["goodison-park"]
 ---
 Liverpool’s manager scored after 21 seconds at Goodison Park.
 

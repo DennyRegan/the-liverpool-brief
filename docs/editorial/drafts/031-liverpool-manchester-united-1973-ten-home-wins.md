@@ -9,8 +9,8 @@ slug: "liverpool-manchester-united-1973-ten-home-wins"
 category: "match"
 articleType: "match"
 season: "1973-74"
-playerIds: ["kevin-keegan", "steve-heighway", "alan-waddle"]
-managerIds: ["bill-shankly"]
+playerIds: ["kevin-keegan","steve-heighway"]
+managerIds: []
 oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

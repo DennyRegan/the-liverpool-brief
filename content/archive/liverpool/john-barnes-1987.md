@@ -7,6 +7,7 @@ decade: "1980s"
 excerpt: "Liverpool lost their most potent goalscorer in the summer of 1987 and somehow became more potent. John Barnes was at the centre of the attack Kenny Dalglish built without Ian Rush."
 slug: "john-barnes-1987"
 category: "person"
+editorialMode: "factual"
 articleType: "player"
 season: "1987-88"
 playerIds:
@@ -16,8 +17,7 @@ playerIds:
   - "ian-rush"
 managerIds:
   - "kenny-dalglish"
-competitionIds:
-  - "first-division"
+competitionIds: ["first-division","fa-cup"]
 themeIds:
   - "attacking-football"
   - "changing-attack"
@@ -31,6 +31,8 @@ sources:
   - "https://www.lfchistory.net/players/261"
   - "https://www.lfchistory.net/players/261/assists-per-season/29"
   - "https://www.lfchistory.net/season-archive/appearances/29"
+oppositionIds: ["queens-park-rangers"]
+locationIds: ["anfield"]
 ---
 
 Liverpool lost their most potent goalscorer in the summer of 1987 and somehow became more potent.

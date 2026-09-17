@@ -10,11 +10,8 @@ slug: liverpool-arsenal-1980-hillsborough-stalemate
 category: match
 articleType: match
 season: 1979-80
-playerIds:
-  - jimmy-case
-  - david-fairclough
-managerIds:
-  - bob-paisley
+playerIds: []
+managerIds: []
 oppositionIds:
   - arsenal
 competitionIds:

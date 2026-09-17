@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1987-88"
 playerIds: ["peter-beardsley", "gary-gillespie", "steve-mcmahon"]
-managerIds: ["kenny-dalglish"]
+managerIds: []
 oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]

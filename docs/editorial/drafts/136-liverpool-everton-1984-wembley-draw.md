@@ -8,12 +8,8 @@ slug: liverpool-everton-1984-wembley-draw
 category: match
 articleType: match
 season: 1983-84
-playerIds:
-  - alan-hansen
-  - bruce-grobbelaar
-  - alan-kennedy
-managerIds:
-  - joe-fagan
+playerIds: ["alan-hansen"]
+managerIds: []
 oppositionIds:
   - everton
 competitionIds:

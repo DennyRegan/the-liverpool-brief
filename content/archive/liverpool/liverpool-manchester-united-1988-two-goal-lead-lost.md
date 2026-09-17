@@ -14,8 +14,7 @@ playerIds:
   - peter-beardsley
   - gary-gillespie
   - steve-mcmahon
-managerIds:
-  - kenny-dalglish
+managerIds: []
 oppositionIds:
   - manchester-united
 competitionIds:

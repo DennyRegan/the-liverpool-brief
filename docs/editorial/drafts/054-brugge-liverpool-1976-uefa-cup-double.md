@@ -11,8 +11,10 @@ articleType: "match"
 season: "1975-76"
 playerIds: ["kevin-keegan", "emlyn-hughes"]
 managerIds: ["bob-paisley"]
-competitionIds: ["uefa-cup"]
+competitionIds: ["uefa-cup","first-division"]
 sources: ["https://www.lfchistory.net/games/917", "https://www.liverpoolfc.com/news/first-team/221760-may-19-1976-olympic-stadium-club-brugge-kv-1-1-liverpool", "https://www.uefa.com/uefaeuropaleague/news/004e-0e6a07b4a2b7-2cb62806e092-1000--1975-76-keegan-lifts-liverpool-again/"]
+oppositionIds: ["club-brugge"]
+locationIds: ["olympic-stadium-bruges"]
 ---
 
 # Club Brugge 1–1 Liverpool: Keegan's reply completes the double

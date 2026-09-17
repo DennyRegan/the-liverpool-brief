@@ -8,14 +8,8 @@ slug: liverpool-oulu-1981-rush-first-goal
 category: match
 articleType: match
 season: 1981-82
-playerIds:
-  - ian-rush
-  - mark-lawrenson
-  - terry-mcdermott
-  - phil-neal
-managerIds:
-  - bob-paisley
-  - bill-shankly
+playerIds: ["ian-rush","mark-lawrenson"]
+managerIds: ["bill-shankly"]
 oppositionIds:
   - oulu-palloseura
 competitionIds:

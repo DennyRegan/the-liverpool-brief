@@ -9,7 +9,7 @@ category: "match"
 articleType: "match"
 season: "1976-77"
 playerIds: ["phil-neal", "jimmy-case", "ray-kennedy", "david-johnson", "david-fairclough"]
-managerIds: ["bob-paisley"]
+managerIds: []
 competitionIds: ["fa-cup"]
 oppositionIds: ["everton"]
 locationIds: ["maine-road"]

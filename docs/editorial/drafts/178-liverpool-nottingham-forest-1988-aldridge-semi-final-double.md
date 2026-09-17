@@ -8,8 +8,8 @@ slug: "liverpool-nottingham-forest-1988-aldridge-semi-final-double"
 category: "match"
 articleType: "match"
 season: "1987-88"
-playerIds: ["john-aldridge", "john-barnes", "peter-beardsley", "gary-ablett"]
-managerIds: ["kenny-dalglish"]
+playerIds: ["john-aldridge","john-barnes","gary-ablett"]
+managerIds: []
 oppositionIds: ["nottingham-forest"]
 competitionIds: ["fa-cup"]
 locationIds: ["hillsborough"]

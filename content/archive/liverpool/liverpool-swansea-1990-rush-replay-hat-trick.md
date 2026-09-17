@@ -10,14 +10,8 @@ slug: liverpool-swansea-1990-rush-replay-hat-trick
 category: match
 articleType: match
 season: 1989-90
-playerIds:
-  - ian-rush
-  - john-barnes
-  - ronnie-whelan
-  - peter-beardsley
-  - steve-nicol
-managerIds:
-  - kenny-dalglish
+playerIds: ["ian-rush","john-barnes"]
+managerIds: []
 oppositionIds:
   - swansea-city
 competitionIds:

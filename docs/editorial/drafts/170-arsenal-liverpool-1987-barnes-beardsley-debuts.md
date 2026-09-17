@@ -9,11 +9,12 @@ category: "match"
 articleType: "match"
 season: "1987-88"
 playerIds: ["steve-nicol", "john-barnes", "peter-beardsley", "john-aldridge"]
-managerIds: ["kenny-dalglish"]
+managerIds: []
 oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]
 locationIds: ["highbury"]
 sources: ["https://lfchistory.net/games/1590", "https://www.11v11.com/matches/arsenal-v-liverpool-15-august-1987-88560/", "https://www.lfchistory.net/images/newspapers/riley/19870815varsenal.pdf", "https://lfchistory.net/articles/3318", "https://www.liverpoolfc.com/news/first-team/230906-no-1-arsenal-1-2-liverpool-1987"]
+themeIds: ["changing-attack"]
 ---
 
 # Nicol’s late header wins the day for Liverpool’s new attack

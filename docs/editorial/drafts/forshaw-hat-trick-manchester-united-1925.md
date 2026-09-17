@@ -13,6 +13,9 @@ season: "1925-26"
 slug: "forshaw-hat-trick-manchester-united-1925"
 sources: ["https://www.lfchistory.net/games/3638","https://playupliverpool.com/1925/09/19/liverpool-v-manchester-united-5-0-league-match-september-19-1925/"]
 title: "Forshaw’s hat-trick leads Liverpool’s five-goal defeat of United"
+managerIds: []
+playerIds: ["dick-forshaw"]
+oppositionIds: ["manchester-united"]
 ---
 
 Liverpool led Manchester United by one goal at half-time. By the finish, they had five.

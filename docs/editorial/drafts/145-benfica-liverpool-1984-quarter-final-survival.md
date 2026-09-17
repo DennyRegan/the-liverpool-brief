@@ -8,8 +8,8 @@ slug: "benfica-liverpool-1984-quarter-final-survival"
 category: "match"
 articleType: "match"
 season: "1984-85"
-playerIds: ["kenny-dalglish", "bruce-grobbelaar", "mark-lawrenson", "alan-hansen"]
-managerIds: ["joe-fagan"]
+playerIds: ["kenny-dalglish","bruce-grobbelaar"]
+managerIds: []
 oppositionIds: ["benfica"]
 competitionIds: ["european-cup"]
 locationIds: ["estadio-da-luz"]

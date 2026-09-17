@@ -10,10 +10,11 @@ category: "match"
 articleType: "match"
 season: "1972-73"
 playerIds: ["alec-lindsay", "john-toshack", "peter-cormack", "kevin-keegan", "emlyn-hughes"]
-managerIds: ["bill-shankly"]
+managerIds: []
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 sources: ["https://www.lfchistory.net/games/709", "https://www.footballdatabase.eu/en/match/overview/128106-liverpool-birmingham_city", "https://www.lfchistory.net/season-archive/games/14"]
+oppositionIds: ["birmingham-city"]
 ---
 
 # Liverpool 4–3 Birmingham City: Lindsay leads the recovery

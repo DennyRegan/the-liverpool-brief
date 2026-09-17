@@ -10,14 +10,8 @@ slug: liverpool-austria-vienna-1985-walsh-double
 category: match
 articleType: match
 season: 1984-85
-playerIds:
-  - paul-walsh
-  - steve-nicol
-  - alan-hansen
-  - ronnie-whelan
-  - alan-kennedy
-managerIds:
-  - joe-fagan
+playerIds: ["paul-walsh","ronnie-whelan","alan-hansen"]
+managerIds: []
 oppositionIds:
   - austria-vienna
 competitionIds:

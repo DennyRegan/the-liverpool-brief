@@ -8,8 +8,8 @@ slug: "bristol-city-liverpool-1974-toshack-cup-quarter-final"
 category: "match"
 articleType: "match"
 season: "1973-74"
-playerIds: ["john-toshack", "ray-clemence"]
-managerIds: ["bill-shankly"]
+playerIds: ["john-toshack"]
+managerIds: []
 competitionIds: ["fa-cup"]
 sources: ["https://www.lfchistory.net/games/791", "https://www.11v11.com/matches/bristol-city-v-liverpool-09-march-1974-213668/", "https://www.lfchistory.net/season-archive/games/15", "https://www.lcfc.com/media-article/Leicester-City's-Seven-Previous-FA-Cup-Semi-Final-Appearances"]
 oppositionIds: ["bristol-city"]

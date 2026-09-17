@@ -6,7 +6,7 @@ decade: "1970s"
 excerpt: "Chris Lawler pulled a goal back after Red Star had taken a two-goal lead, leaving Liverpool with a recoverable deficit but a third successive away defeat."
 historicalEventDate: "1973-10-24"
 historicalPeriod: "24 October 1973 · European Cup second round, first leg · Belgrade"
-managerIds: ["bill-shankly"]
+managerIds: []
 playerIds: ["chris-lawler"]
 season: "1973-74"
 slug: "red-star-liverpool-1973-lawler-away-goal"

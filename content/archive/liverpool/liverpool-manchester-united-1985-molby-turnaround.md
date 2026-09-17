@@ -12,8 +12,7 @@ articleType: match
 season: 1985-86
 playerIds:
   - jan-molby
-managerIds:
-  - kenny-dalglish
+managerIds: []
 oppositionIds:
   - manchester-united
 competitionIds:
