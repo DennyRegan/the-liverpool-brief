@@ -1,0 +1,81 @@
+/* Homepage-only presentation. Shared navigation and article styles stay independent. */
+.home-editorial { padding-top: 34px; }
+.home-editorial .home-section-heading { margin-bottom: 24px; }
+.home-editorial .home-section-heading .eyebrow { font-size: 11px; letter-spacing: .14em; }
+.home-editorial .read-link { font-size: 12px; min-height: 44px; }
+.home-editorial .home-writing { grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 54px; padding-bottom: 48px; }
+.home-editorial .home-lead { padding: 28px 32px 30px; background: #efeee6; border-top: 3px solid #a42332; }
+.home-lead-label, .home-aside-label { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; color: #7b2930; margin-bottom: 20px; }
+.home-editorial .home-lead h1 { font-size: clamp(38px, 4.1vw, 54px); line-height: 1.06; margin-block: 18px 22px; }
+.home-editorial .home-standfirst { font-size: 20px; line-height: 1.6; color: #55594f; }
+.home-editorial .home-more { border-left: 0; padding: 12px 0 0; }
+.home-editorial .home-more h3 { font-size: 27px; }
+.home-editorial .home-more .home-summary { font-size: 14px; }
+.home-editorial .home-more article + article { padding-top: 22px; margin-top: 22px; }
+.home-editorial .home-lead > .read-link { color: #922131; font-weight: 600; }
+.home-interactive { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 64px; padding: 48px; background: #801d2c; color: #fff4e6; border-top: 5px solid #bc5c58; margin-bottom: 38px; }
+.home-interactive a:hover { color: #fff; text-decoration: underline; }
+.home-interactive a:focus-visible { outline-color: #fff4e6; }
+.home-interactive-label { display: flex; gap: 10px; align-items: center; font-size: 10px; letter-spacing: .18em; text-transform: uppercase; font-weight: 600; }
+.home-interactive-label > span { width: 7px; height: 7px; border-radius: 50%; background: #e7b38f; }
+.home-interactive-invitation { color: #edc4ba; font-family: var(--font-source-serif), Georgia, serif; font-size: 21px; margin-top: 32px; }
+.home-interactive h2 { font-family: var(--font-source-serif), Georgia, serif; font-weight: 600; font-size: clamp(46px, 5.4vw, 72px); letter-spacing: -.055em; line-height: 1.05; margin: 10px 0 22px; }
+.home-interactive-description { max-width: 360px; color: #f0d4cb; font-size: 15px; line-height: 1.75; }
+.home-interactive-cta { display: inline-flex; align-items: center; justify-content: space-between; gap: 32px; min-height: 48px; padding: 14px 20px; margin-top: 28px; background: #fff0dc; color: #651525; font-size: 13px; font-weight: 600; }
+.home-interactive .home-interactive-cta:hover { color: #651525; background: white; }
+.home-interactive-moments { border-left: 1px solid #ad6065; padding-left: 34px; display: flex; flex-direction: column; justify-content: center; }
+.home-interactive-date { font-size: 11px; color: #e4b7ad; text-transform: uppercase; letter-spacing: .1em; }
+.home-interactive-start { font-family: var(--font-source-serif), Georgia, serif; font-size: 25px; line-height: 1.2; margin: 20px 0; }
+.home-interactive-moments ol { list-style: none; padding: 0; }
+.home-interactive-moments li { border-top: 1px solid #ad6065; }
+.home-interactive-moments li:last-child { border-bottom: 1px solid #ad6065; }
+.home-interactive-moments li a { display: grid; grid-template-columns: 24px minmax(0, 1fr) 16px; gap: 12px; padding-block: 20px; min-height: 60px; align-items: center; font-size: 14px; }
+.home-entry-number { font-size: 10px; color: #e4b7ad; font-family: var(--font-geist-mono), monospace; }
+.home-interactive-all { font-size: 11px; padding-top: 20px; min-height: 44px; color: #f0d4cb; }
+.home-editorial .home-explore { border-top: 0; padding-top: 0; padding-bottom: 38px; }
+.home-editorial .home-browse { gap: 12px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.home-editorial .home-browse > a { background: #e9ede3; border: 1px solid #d9dfd0; padding: 16px 18px 20px; }
+.home-editorial .home-browse > a:hover { background: #dfe5d7; }
+.home-editorial .home-browse h3 { font-size: 22px; margin: 0 0 12px; }
+.home-editorial .home-browse p { font-size: 12px; color: #586050; }
+.home-editorial .home-brief { grid-template-columns: 160px minmax(0,1fr); padding: 24px 0; margin-bottom: 36px; background: transparent; border-top: 1px solid #b9bdb1; border-bottom: 1px solid #b9bdb1; }
+.home-editorial .home-brief h3 { font-size: 24px; }
+.home-editorial .home-brief .home-summary { font-size: 14px; max-width: 700px; }
+.home-editorial .home-history-grid h3 { font-size: 28px; }
+.home-editorial .home-history-grid .home-summary { font-size: 14px; }
+.home-editorial .home-week { background: #eeeee5; border: 0; border-top: 3px solid #a42332; padding: 28px; }
+.home-editorial .home-season { background: #e7ece2; border-top-color: #344936; }
+.home-editorial .home-week .home-summary { font-size: 14px; }
+@media (max-width: 850px) {
+  .home-editorial .home-writing { gap: 28px; }
+  .home-editorial .home-lead { padding: 24px; }
+  .home-interactive { padding: 32px; gap: 32px; }
+  .home-interactive-moments { padding-left: 24px; }
+  .home-editorial .home-browse { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .home-editorial { padding-top: 24px; }
+  .home-editorial .home-writing { grid-template-columns: 1fr; padding-bottom: 32px; gap: 28px; }
+  .home-editorial .home-lead { padding: 24px 20px; }
+  .home-editorial .home-lead h1 { font-size: 38px; }
+  .home-editorial .home-standfirst { font-size: 19px; }
+  .home-editorial .home-more { padding-top: 22px; }
+  .home-editorial .home-more h3 { font-size: 25px; }
+  .home-interactive { grid-template-columns: 1fr; padding: 28px 24px; gap: 32px; margin-bottom: 30px; }
+  .home-interactive h2 { font-size: 52px; }
+  .home-interactive-invitation { font-size: 19px; margin-top: 24px; }
+  .home-interactive-cta { width: 100%; }
+  .home-interactive-moments { border-left: 0; padding: 24px 0 0; border-top: 1px solid #ad6065; }
+  .home-interactive-start { font-size: 24px; }
+  .home-interactive-moments li a { padding-block: 16px; }
+  .home-editorial .home-browse { gap: 10px; }
+  .home-editorial .home-browse > a { padding: 16px 14px; }
+  .home-editorial .home-browse h3 { font-size: 21px; }
+  .home-editorial .home-brief { grid-template-columns: 1fr; gap: 14px; }
+  .home-editorial .home-week { padding: 24px; }
+}
+@media (max-width: 360px) {
+  .home-interactive { padding-inline: 20px; }
+  .home-interactive h2 { font-size: 44px; }
+  .home-editorial .home-browse { grid-template-columns: 1fr; }
+}

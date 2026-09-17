@@ -40,9 +40,17 @@ try {
     assert.match(main, /A historical reference entry/);
     for (const kind of ['domestic', 'europe', 'other']) assert.equal(main.includes(`id="competition-${kind}"`), season.competitions.some(c => c.kind === kind), `${route}: only entered competitions`);
     for (const source of season.sources) assert.ok(main.includes(`id="source-${source.id}"`), `${route}: source ${source.id}`);
-    const expectedArchive = getSeasonArchiveArticles(season.season, archive).map(a => a.slug);
+    const linked = getSeasonArchiveArticles(season.season, archive);
+    const matches = linked.filter(a => a.articleType === 'match').sort((a,b) => (a.historicalEventDate ?? '').localeCompare(b.historicalEventDate ?? '') || a.title.localeCompare(b.title));
+    const related = linked.filter(a => a.articleType !== 'match');
+    const expectedArchive = [...matches, ...related].map(a => a.slug);
+    assert.equal(main.includes('id="season-matches"'), matches.length > 0);
+    if (matches.length) {
+      assert.ok(main.indexOf('id="season-overview"') < main.indexOf('id="season-matches"'));
+      assert.ok(main.indexOf('id="season-matches"') < main.indexOf('id="season-players"'));
+    }
     assert.deepEqual([...main.matchAll(/href="\/archive\/([^"]+)"/g)].map(m => m[1]), expectedArchive);
-    assert.equal(main.includes('id="season-archive"'), expectedArchive.length > 0);
+    assert.equal(main.includes('id="season-archive"'), related.length > 0);
     assert.equal(main.includes('rel="prev"'), i > 0);
     assert.equal(main.includes('rel="next"'), i < all.length - 1);
     for (const [rel, neighbour] of [['prev', all[i - 1]], ['next', all[i + 1]]]) {
@@ -55,6 +63,10 @@ try {
     console.log(`PASS ${route}`);
   }
   for (const route of internalLinks) await get(route);
+  for (const article of archive.filter(a => a.articleType === 'match' && a.season >= '1970-71' && a.season <= '1989-90')) {
+    const report = mainOf(await get(`/archive/${article.slug}`));
+    assert.ok(report.includes(`href="/history/seasons/${article.season}"`), `${article.slug}: return to season`);
+  }
   const missingYear = Number(all.at(-1).season.slice(0, 4)) + 1;
   const unpublished = `${missingYear}-${String((missingYear + 1) % 100).padStart(2, '0')}`;
   for (const route of [`/history/seasons/${unpublished}`, '/history/seasons/1959-61', '/history/seasons/unknown']) assert.equal((await fetch(new URL(route, origin))).status, 404, route);
