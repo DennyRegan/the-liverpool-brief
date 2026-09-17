@@ -2,6 +2,7 @@
 title: "Why are Liverpool being written off?"
 date: "2026-09-06"
 category: "Opinion"
+season: "2026-27"
 excerpt: "Liverpool have gone from overwhelming title favourites to barely being mentioned. After Ipswich, I think they are genuine contenders — a lot more than people are giving them credit for."
 slug: "why-are-liverpool-being-written-off"
 sources:

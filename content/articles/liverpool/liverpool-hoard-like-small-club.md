@@ -1,4 +1,5 @@
 ---
+season: "2026-27"
 title: "Liverpool act like a big club and hoard like a small one"
 date: "2026-08-09"
 ---

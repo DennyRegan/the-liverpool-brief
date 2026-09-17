@@ -218,3 +218,7 @@ Once separately approved, publish a correctly tagged article through the establi
 Run the existing calendar validation, full tests, lint, build, Season, History Explorer, This Week, Connected History and Interactive History checks. With a local production server at port 3152, also run `BASE_URL=http://127.0.0.1:3152 node scripts/verify-exploration.mjs`. This uses the existing Node/assert and HTTP-verifier approach and checks every eligible page, every Archive exploration panel, all linked destinations, deduplication/order and unknown/thin/draft 404s.
 
 Search, theme/location destinations, graph visualisation, generated biographies, databases, external APIs and runtime AI remain deliberately deferred. This version makes existing writing explorable; it does not claim complete coverage of any person, opponent or competition.
+
+### Analysis in Articles
+
+Evidence-led Analysis remains canonical in `content/articles/liverpool` at `/articles/<slug>`, using the same optional entity/season/era/match metadata schemas. It can appear in separately labelled Analysis reading on existing Season, entity, era and match destinations. It never changes factual V2 eligibility or article counts. See [Match Centre and Analysis](match-centre.md) for publication and verification details.

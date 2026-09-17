@@ -1,3 +1,4 @@
+import { AnalysisReading } from '@/app/components/AnalysisReading';
 import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
 import { getEraExperiences, toExperienceSummary } from "@/lib/content/interactive-history";
 import Link from "next/link";
@@ -80,6 +81,7 @@ export default async function EraPage({ params }: Props) {
         </details>}
       </section>}
 
+      <AnalysisReading context={{ eraId: era.id }} />
       <details className="hx-sources">
         <summary>Sources &amp; historical notes</summary>
         <p>Facts checked {formatListDate(history.verifiedOn)}. Key players are an editorial selection{era.endDate ? "." : " from the early squad."}</p>

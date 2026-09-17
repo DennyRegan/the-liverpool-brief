@@ -1,4 +1,5 @@
 ---
+season: "2026-27"
 title: "Trey Nyoni has earned his place in Liverpool’s midfield"
 date: "2026-09-16"
 category: "Opinion"

@@ -51,13 +51,13 @@ export default function Home() {
         <div className="home-section-heading"><h2 id="home-articles-heading" className="eyebrow">Articles</h2><Link className="read-link" href="/articles">All articles →</Link></div>
         {lead ? <div className="home-writing">
           <article className="home-lead">
-            <p className="article-meta"><time dateTime={lead.date}>{formatListDate(lead.date)}</time><span>By Denny Regan</span></p>
+            <p className="article-meta"><time dateTime={lead.date}>{formatListDate(lead.date)}</time><span>{lead.category}</span><span>By Denny Regan</span></p>
             <h1><Link href={lead.href}>{lead.title}</Link></h1>
             <p className="home-standfirst">{getArticleExcerpt(lead, 300)}</p>
             <Link className="read-link" href={lead.href}>Read article →</Link>
           </article>
           {more.length > 0 && <div className="home-more">{more.map(article => <article key={article.href}>
-            <p className="article-meta"><time dateTime={article.date}>{formatListDate(article.date)}</time></p>
+            <p className="article-meta"><time dateTime={article.date}>{formatListDate(article.date)}</time><span>{article.category}</span></p>
             <h3><Link href={article.href}>{article.title}</Link></h3>
             <p className="home-summary">{getArticleExcerpt(article, 150)}</p>
           </article>)}</div>}

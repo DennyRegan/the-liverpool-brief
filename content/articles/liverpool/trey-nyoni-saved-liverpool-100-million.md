@@ -1,4 +1,5 @@
 ---
+season: "2026-27"
 title: "Has Trey Nyoni Saved Liverpool £100 Million?"
 date: "2026-08-03"
 ---

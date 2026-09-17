@@ -1,4 +1,5 @@
 ---
+season: "2026-27"
 title: "Mac Allister should have kept this behind closed doors"
 date: "2026-09-12"
 category: "Opinion"
