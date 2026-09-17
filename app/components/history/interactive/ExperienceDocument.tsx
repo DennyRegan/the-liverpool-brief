@@ -7,7 +7,6 @@ import { StateComparison } from "./StateComparison";
 import "@/app/history/interactive/interactive-history.css";
 
 type Document = ExperienceDocumentModel;
-const sourceLabels: Record<string, string> = { "verified-fact": "Match record", "statistical-observation": "Statistical record", "contemporary-reporting": "Reported at the time", "later-recollection": "Later recollection", "tactical-interpretation": "Tactical interpretation" };
 
 function Markdown({ children }: { children: string }) {
   return <ReactMarkdown skipHtml allowedElements={["p", "em", "strong", "a", "code", "br"]} unwrapDisallowed>{children}</ReactMarkdown>;
@@ -66,7 +65,6 @@ function MomentSection({ document, controls, moment }: { document: Document; con
       }
       return <BlockView key={block.id} block={block} document={document} controls={controls} />;
     })}</div>
-    <MomentEvidence document={document} title={moment.title} revealsResults={moment.presentation === "attempt-sequence"} claimIds={document.momentEvidence[moment.id] ?? []} />
   </section>;
 }
 
@@ -135,10 +133,6 @@ function StatisticComparison({ document, statistics }: { document: Document; sta
 function EvidenceLinks({ document, claimIds }: { document: Document; claimIds: string[] }) {
   const ids = [...new Set(document.claims.filter(claim => claimIds.includes(claim.id)).flatMap(claim => claim.sourceRefs.map(ref => ref.sourceId)))];
   return ids.length ? <p className="ih-evidence-links">Evidence: {ids.map((id, i) => <span key={id}>{i > 0 && " · "}<a href={`#source-${id}`}>{document.sources.find(source => source.id === id)?.publisher ?? id}<span className="ih-sr-only"> {id}</span></a></span>)}</p> : null;
-}
-function MomentEvidence({ document, title, claimIds, revealsResults = false }: { document: Document; title: string; claimIds: string[]; revealsResults?: boolean }) {
-  const claims = document.claims.filter(claim => claimIds.includes(claim.id));
-  return <details className="ih-evidence"><summary>Evidence for this moment{revealsResults && <span> — reveals all attempts</span>}<span className="ih-sr-only">: {title}</span></summary><div className="ih-disclosure-body"><h3>{title}: evidence</h3><ul>{claims.map(claim => <li key={claim.id}><span className="ih-evidence-label">{sourceLabels[claim.kind]}{claim.displayTreatment === "uncertainty-note" && " · Records differ"}</span><p>{claim.statement}</p><ul className="ih-claim-sources">{claim.sourceRefs.map((ref, i) => <li key={`${ref.sourceId}-${i}`}><a href={`#source-${ref.sourceId}`}>{document.sources.find(source => source.id === ref.sourceId)?.publisher} — {ref.locator}</a>{ref.relation !== "supports" && <> ({ref.relation})</>}</li>)}</ul></li>)}</ul></div></details>;
 }
 function EvidenceCatalogue({ document }: { document: Document }) {
   return <section className="ih-source-catalogue" aria-labelledby="experience-sources"><h2 id="experience-sources" tabIndex={-1}>Sources and historical notes</h2><p>The record, later memories and tactical explanations answer different questions. The notes identify their scope and limits.</p><details><summary>Open the source catalogue ({document.sources.length})</summary>{document.sources.map(source => <section key={source.id}><h3 id={`source-${source.id}`} tabIndex={-1}>{source.title}</h3><p>{source.publisher}{source.publishedOn && <> · {source.publishedOn}</>}</p><a href={source.url}>Read the source <span aria-hidden="true">↗</span></a><p>{source.scope}</p>{source.limitations.map((note, i) => <p className="ih-caption" key={i}>{note}</p>)}<a href={`#${document.moments[0].id}`} data-return-to-moment>Return to your moment ↑</a></section>)}</details></section>;
