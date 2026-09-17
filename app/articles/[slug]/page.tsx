@@ -1,3 +1,5 @@
+import { analysisConnections } from '@/lib/content/analysis';
+import { getMatchCentre } from '@/lib/content/match-centre';
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -29,6 +31,7 @@ export async function generateMetadata({
 
   return {
     title: article.title,
+    alternates: { canonical: `/articles/${article.slug}` },
     description,
     openGraph: {
       title: article.title,
@@ -49,6 +52,8 @@ export default async function ArticlePage({
   } catch {
     notFound();
   }
+  const connections = analysisConnections(article);
+  const currentSeason = getMatchCentre().season;
   return (
     <div className="min-h-screen">
       <SiteHeader active="articles" />
@@ -62,7 +67,7 @@ export default async function ArticlePage({
 
         <h1 className="article-title">{article.title}</h1>
         <p className="text-sm text-gray-500 mb-8">
-          By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">Article</span>
+          By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">{article.category}</span>
         </p>
 
         <div className="article-body">
@@ -98,6 +103,8 @@ export default async function ArticlePage({
             </ol>
           </div>
         )}
+        {article.season === currentSeason && <p className="article-context"><Link href="/match-centre">Follow {currentSeason.replace("-", "–")} in Match Centre →</Link></p>}
+        {connections.length > 0 && <nav className="article-context" aria-label="Connected reading"><h2>Explore the context</h2><ul role="list">{connections.map(link => <li key={link.href}><Link href={link.href}>{link.label} →</Link></li>)}</ul></nav>}
         <aside className="read-next"><p className="eyebrow">Keep reading</p>{getArticles().filter(item => item.slug !== article.slug).slice(0, 2).map(item => <Link key={item.slug} href={`/articles/${item.slug}`}>{item.title} <span aria-hidden="true">↗</span></Link>)}</aside>
       </main>
     </div>

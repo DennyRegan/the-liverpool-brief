@@ -53,3 +53,7 @@ Archive articles with a meaningful principal season use optional canonical `seas
 New articles and season records join these connections at build time without editing application code or reverse lists. Previous/next links use the chronological published collection and skip gaps. Filename/identity checks and explicit `relatedSeasons` existence checks remain strict; optional Archive season availability is deliberately different.
 
 The Seasons ↔ Archive integration is a separate feature review: do not merge or deploy it under the earlier season-content publication authority. Review `docs/seasons-archive-integration-review.md` first.
+
+### Current Match Centre and Analysis
+
+Current fixtures/results/table belong to the sourced Match Centre register, with reports referencing existing factual Archive match articles. When publishing a completed Season record, reuse its canonical season ID; do not copy current reports. Analysis stays in Articles and can surface in a separately labelled Season section through exact season metadata. See [Match Centre and Analysis](match-centre.md).

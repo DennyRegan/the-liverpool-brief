@@ -4,11 +4,13 @@ import { readFileSync } from 'node:fs';
 
 const read = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 
-test('Articles has one collection with no legacy category tabs', () => {
+test('Articles keeps one canonical collection with Opinion and Analysis views', () => {
   const collection = read('app/components/ArticleCollection.tsx');
   assert.doesNotMatch(collection, /Article categories|Archive subcategories|filter\s*=/);
   assert.match(collection, /\[featured, \.\.\.rest\] = articles/);
-  assert.doesNotMatch(read('app/articles/page.tsx'), /searchParams|filter=/);
+  assert.match(read('app/articles/page.tsx'), /type=opinion/);
+  assert.match(read('app/articles/page.tsx'), /type=analysis/);
+  assert.doesNotMatch(read('app/articles/page.tsx'), /Archive subcategories|type=archive/);
 });
 
 test('legacy Archive collection routes return readers to Articles', () => {

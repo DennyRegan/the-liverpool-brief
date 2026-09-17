@@ -1,4 +1,5 @@
 ---
+season: "2026-27"
 title: "Is Rio Playing on the Right Wing a Sign of Things to Come?"
 date: "2026-07-30"
 ---

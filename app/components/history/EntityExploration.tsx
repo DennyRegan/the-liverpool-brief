@@ -1,3 +1,4 @@
+import { AnalysisReading } from '@/app/components/AnalysisReading';
 import Link from 'next/link';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { HistoryNav } from './HistoryNav';
@@ -47,6 +48,7 @@ export function EntityExploration({ destination }: { destination: Exploration })
     </header>
     {sections.length > 1 && <nav className="season-jump" aria-label="On this page">{sections.map(s => <a key={s.id} href={`#${s.id}`}>{s.label}</a>)}</nav>}
     {sections.map(s => <section className="entity-section" key={s.id} aria-labelledby={s.id}><h2 id={s.id}>{s.label}</h2><ArticleGroups articles={s.articles} available={available} prefix={s.label} /></section>)}
+      <AnalysisReading context={{ entityId: entity.id }} />
     {relevantSeasons.length > 0 && <details className="entity-context"><summary>Explore the seasons <span aria-hidden="true">↓</span></summary><ul role="list">{relevantSeasons.map(s => <li key={s.season}><Link href={`/history/seasons/${s.season}`}>{s.season.replace('-', '–')}</Link></li>)}</ul></details>}
     {tenures.length > 0 && <section className="entity-section" aria-labelledby="manager-eras"><h2 id="manager-eras">Managerial eras</h2><ul className="entity-era-links" role="list">{tenures.map(e => <li key={e.id}><Link href={`/history/${e.id}`}>{e.manager} · {eraYears(e)} <span aria-hidden="true">→</span></Link></li>)}</ul></section>}
   </main></>;

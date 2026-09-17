@@ -1,0 +1,975 @@
+{
+  "season": "2026-27",
+  "updatedAt": "2026-09-17T07:45:00+01:00",
+  "fixtures": [
+    {
+      "id": "2026-27-premier-league-newcastle-united-away",
+      "oppositionId": "newcastle-united",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "St James’ Park",
+      "date": "2026-08-23",
+      "kickoff": "2026-08-23T16:30:00+01:00",
+      "status": "completed",
+      "sourceIds": [
+        "schedule",
+        "results"
+      ],
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "2026-27-premier-league-nottingham-forest-home",
+      "oppositionId": "nottingham-forest",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-08-29",
+      "kickoff": "2026-08-29T12:30:00+01:00",
+      "status": "completed",
+      "sourceIds": [
+        "schedule",
+        "results",
+        "september"
+      ],
+      "score": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "id": "2026-27-premier-league-ipswich-town-away",
+      "oppositionId": "ipswich-town",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Portman Road",
+      "date": "2026-09-04",
+      "kickoff": "2026-09-04T20:00:00+01:00",
+      "status": "completed",
+      "sourceIds": [
+        "schedule",
+        "results",
+        "september"
+      ],
+      "score": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "id": "2026-27-european-cup-atletico-madrid-home",
+      "oppositionId": "atletico-madrid",
+      "competitionId": "european-cup",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-09-09",
+      "kickoff": "2026-09-09T20:00:00+01:00",
+      "status": "completed",
+      "sourceIds": [
+        "schedule",
+        "scores",
+        "europe"
+      ],
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "round": "League phase"
+    },
+    {
+      "id": "2026-27-premier-league-fulham-home",
+      "oppositionId": "fulham",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-09-12",
+      "kickoff": "2026-09-12T15:00:00+01:00",
+      "status": "completed",
+      "sourceIds": [
+        "schedule",
+        "results"
+      ],
+      "score": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "id": "2026-27-league-cup-tottenham-hotspur-home",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "league-cup",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-09-15",
+      "kickoff": "2026-09-15T20:00:00+01:00",
+      "status": "completed",
+      "sourceIds": [
+        "spurs",
+        "spurs-date",
+        "scores"
+      ],
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "round": "Third round"
+    },
+    {
+      "id": "2026-27-premier-league-bournemouth-away",
+      "oppositionId": "bournemouth",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Vitality Stadium",
+      "date": "2026-09-20",
+      "kickoff": "2026-09-20T14:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "september"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-manchester-city-home",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-10-11",
+      "kickoff": "2026-10-11T16:30:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-european-cup-lask-away",
+      "oppositionId": "lask",
+      "competitionId": "european-cup",
+      "side": "away",
+      "venue": "Raiffeisen Arena",
+      "date": "2026-10-14",
+      "kickoff": "2026-10-14T17:45:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "europe"
+      ],
+      "round": "League phase"
+    },
+    {
+      "id": "2026-27-premier-league-brentford-away",
+      "oppositionId": "brentford",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Brentford Community Stadium",
+      "date": "2026-10-17",
+      "kickoff": "2026-10-17T15:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-european-cup-villarreal-home",
+      "oppositionId": "villarreal",
+      "competitionId": "european-cup",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-10-20",
+      "kickoff": "2026-10-20T20:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "europe"
+      ],
+      "round": "League phase"
+    },
+    {
+      "id": "2026-27-premier-league-brighton-hove-albion-home",
+      "oppositionId": "brighton-hove-albion",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-10-24",
+      "kickoff": "2026-10-24T15:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-arsenal-home",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-11-01",
+      "kickoff": "2026-11-01T16:30:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-european-cup-fenerbahce-away",
+      "oppositionId": "fenerbahce",
+      "competitionId": "european-cup",
+      "side": "away",
+      "venue": "Sukru Saracoglu Stadium",
+      "date": "2026-11-04",
+      "kickoff": "2026-11-04T17:45:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "europe"
+      ],
+      "round": "League phase"
+    },
+    {
+      "id": "2026-27-premier-league-crystal-palace-away",
+      "oppositionId": "crystal-palace",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Selhurst Park",
+      "date": "2026-11-07",
+      "kickoff": "2026-11-07T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-manchester-united-home",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-11-21",
+      "kickoff": "2026-11-21T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-european-cup-club-brugge-away",
+      "oppositionId": "club-brugge",
+      "competitionId": "european-cup",
+      "side": "away",
+      "venue": "Jan Breydel Stadium",
+      "date": "2026-11-25",
+      "kickoff": "2026-11-25T20:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "europe"
+      ],
+      "round": "League phase"
+    },
+    {
+      "id": "2026-27-premier-league-everton-away",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Hill Dickinson Stadium",
+      "date": "2026-11-28",
+      "kickoff": "2026-11-28T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-sunderland-home",
+      "oppositionId": "sunderland",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-12-02",
+      "kickoff": "2026-12-02T20:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-chelsea-away",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Stamford Bridge",
+      "date": "2026-12-05",
+      "kickoff": "2026-12-05T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-european-cup-porto-home",
+      "oppositionId": "porto",
+      "competitionId": "european-cup",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-12-09",
+      "kickoff": "2026-12-09T20:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "europe"
+      ],
+      "round": "League phase"
+    },
+    {
+      "id": "2026-27-premier-league-leeds-united-home",
+      "oppositionId": "leeds-united",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-12-12",
+      "kickoff": "2026-12-12T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-tottenham-hotspur-home",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2026-12-19",
+      "kickoff": "2026-12-19T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-hull-city-away",
+      "oppositionId": "hull-city",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "MKM Stadium",
+      "date": "2026-12-26",
+      "kickoff": "2026-12-26T17:30:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "festive"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-aston-villa-away",
+      "oppositionId": "aston-villa",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Villa Park",
+      "date": "2026-12-30",
+      "kickoff": "2026-12-30T20:15:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "festive"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-coventry-city-home",
+      "oppositionId": "coventry-city",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-01-02",
+      "kickoff": "2027-01-02T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "festive"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-sunderland-away",
+      "oppositionId": "sunderland",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Stadium of Light",
+      "date": "2027-01-05",
+      "kickoff": "2027-01-05T20:15:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "festive"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-crystal-palace-home",
+      "oppositionId": "crystal-palace",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-01-16",
+      "kickoff": "2027-01-16T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-european-cup-inter-milan-away",
+      "oppositionId": "inter-milan",
+      "competitionId": "european-cup",
+      "side": "away",
+      "venue": "San Siro",
+      "date": "2027-01-19",
+      "kickoff": "2027-01-19T20:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "europe"
+      ],
+      "round": "League phase"
+    },
+    {
+      "id": "2026-27-premier-league-manchester-united-away",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Old Trafford",
+      "date": "2027-01-23",
+      "kickoff": "2027-01-23T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-european-cup-rc-lens-home",
+      "oppositionId": "rc-lens",
+      "competitionId": "european-cup",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-01-27",
+      "kickoff": "2027-01-27T20:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule",
+        "europe"
+      ],
+      "round": "League phase"
+    },
+    {
+      "id": "2026-27-premier-league-everton-home",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-01-30",
+      "kickoff": "2027-01-30T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-arsenal-away",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Emirates Stadium",
+      "date": "2027-02-06",
+      "kickoff": "2027-02-06T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-coventry-city-away",
+      "oppositionId": "coventry-city",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Coventry BS Arena",
+      "date": "2027-02-10",
+      "kickoff": "2027-02-10T20:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-hull-city-home",
+      "oppositionId": "hull-city",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-02-20",
+      "kickoff": "2027-02-20T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-tottenham-hotspur-away",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Tottenham Hotspur Stadium",
+      "date": "2027-02-27",
+      "kickoff": "2027-02-27T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-aston-villa-home",
+      "oppositionId": "aston-villa",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-03-03",
+      "kickoff": "2027-03-03T20:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-ipswich-town-home",
+      "oppositionId": "ipswich-town",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-03-13",
+      "kickoff": "2027-03-13T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-fulham-away",
+      "oppositionId": "fulham",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Craven Cottage",
+      "date": "2027-03-20",
+      "kickoff": "2027-03-20T15:00:00+00:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-newcastle-united-home",
+      "oppositionId": "newcastle-united",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-04-10",
+      "kickoff": "2027-04-10T15:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-nottingham-forest-away",
+      "oppositionId": "nottingham-forest",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "City Ground",
+      "date": "2027-04-17",
+      "kickoff": "2027-04-17T15:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-leeds-united-away",
+      "oppositionId": "leeds-united",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Elland Road",
+      "date": "2027-04-24",
+      "kickoff": "2027-04-24T15:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-chelsea-home",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-05-01",
+      "kickoff": "2027-05-01T15:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-manchester-city-away",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Etihad Stadium",
+      "date": "2027-05-08",
+      "kickoff": "2027-05-08T15:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-brentford-home",
+      "oppositionId": "brentford",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-05-15",
+      "kickoff": "2027-05-15T15:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-brighton-hove-albion-away",
+      "oppositionId": "brighton-hove-albion",
+      "competitionId": "premier-league",
+      "side": "away",
+      "venue": "Amex Stadium",
+      "date": "2027-05-23",
+      "kickoff": "2027-05-23T15:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-premier-league-bournemouth-home",
+      "oppositionId": "bournemouth",
+      "competitionId": "premier-league",
+      "side": "home",
+      "venue": "Anfield",
+      "date": "2027-05-30",
+      "kickoff": "2027-05-30T15:00:00+01:00",
+      "status": "scheduled",
+      "sourceIds": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "2026-27-league-cup-chelsea-home",
+      "oppositionId": "chelsea",
+      "competitionId": "league-cup",
+      "side": "home",
+      "venue": "Anfield",
+      "round": "Fourth round",
+      "status": "scheduled",
+      "dateNote": "Week commencing 26 October; date to be confirmed",
+      "sourceIds": [
+        "chelsea-cup"
+      ]
+    }
+  ],
+  "table": {
+    "asOf": "2026-09-16T17:30:00+01:00",
+    "sourceIds": [
+      "table"
+    ],
+    "rows": [
+      {
+        "position": 1,
+        "clubId": "arsenal",
+        "played": 4,
+        "won": 4,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 8,
+        "goalsAgainst": 1,
+        "points": 12
+      },
+      {
+        "position": 2,
+        "clubId": "manchester-city",
+        "played": 4,
+        "won": 4,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 8,
+        "goalsAgainst": 2,
+        "points": 12
+      },
+      {
+        "position": 3,
+        "clubId": "leeds-united",
+        "played": 4,
+        "won": 2,
+        "drawn": 2,
+        "lost": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
+        "points": 8
+      },
+      {
+        "position": 4,
+        "clubId": "hull-city",
+        "played": 4,
+        "won": 2,
+        "drawn": 2,
+        "lost": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "points": 8
+      },
+      {
+        "position": 5,
+        "clubId": "brighton-hove-albion",
+        "played": 4,
+        "won": 2,
+        "drawn": 1,
+        "lost": 1,
+        "goalsFor": 13,
+        "goalsAgainst": 5,
+        "points": 7
+      },
+      {
+        "position": 6,
+        "clubId": "chelsea",
+        "played": 4,
+        "won": 2,
+        "drawn": 1,
+        "lost": 1,
+        "goalsFor": 10,
+        "goalsAgainst": 9,
+        "points": 7
+      },
+      {
+        "position": 7,
+        "clubId": "brentford",
+        "played": 4,
+        "won": 1,
+        "drawn": 3,
+        "lost": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 4,
+        "points": 6
+      },
+      {
+        "position": 8,
+        "clubId": "liverpool",
+        "played": 4,
+        "won": 1,
+        "drawn": 3,
+        "lost": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 4,
+        "points": 6
+      },
+      {
+        "position": 9,
+        "clubId": "everton",
+        "played": 4,
+        "won": 1,
+        "drawn": 3,
+        "lost": 0,
+        "goalsFor": 5,
+        "goalsAgainst": 3,
+        "points": 6
+      },
+      {
+        "position": 10,
+        "clubId": "ipswich-town",
+        "played": 4,
+        "won": 2,
+        "drawn": 0,
+        "lost": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 10,
+        "points": 6
+      },
+      {
+        "position": 11,
+        "clubId": "nottingham-forest",
+        "played": 4,
+        "won": 1,
+        "drawn": 2,
+        "lost": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 4,
+        "points": 5
+      },
+      {
+        "position": 12,
+        "clubId": "newcastle-united",
+        "played": 4,
+        "won": 1,
+        "drawn": 2,
+        "lost": 1,
+        "goalsFor": 7,
+        "goalsAgainst": 8,
+        "points": 5
+      },
+      {
+        "position": 13,
+        "clubId": "manchester-united",
+        "played": 4,
+        "won": 1,
+        "drawn": 1,
+        "lost": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 7,
+        "points": 4
+      },
+      {
+        "position": 14,
+        "clubId": "sunderland",
+        "played": 4,
+        "won": 1,
+        "drawn": 1,
+        "lost": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "points": 4
+      },
+      {
+        "position": 15,
+        "clubId": "bournemouth",
+        "played": 4,
+        "won": 0,
+        "drawn": 3,
+        "lost": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 7,
+        "points": 3
+      },
+      {
+        "position": 16,
+        "clubId": "crystal-palace",
+        "played": 4,
+        "won": 1,
+        "drawn": 0,
+        "lost": 3,
+        "goalsFor": 6,
+        "goalsAgainst": 11,
+        "points": 3
+      },
+      {
+        "position": 17,
+        "clubId": "tottenham-hotspur",
+        "played": 4,
+        "won": 0,
+        "drawn": 2,
+        "lost": 2,
+        "goalsFor": 0,
+        "goalsAgainst": 5,
+        "points": 2
+      },
+      {
+        "position": 18,
+        "clubId": "fulham",
+        "played": 4,
+        "won": 0,
+        "drawn": 1,
+        "lost": 3,
+        "goalsFor": 4,
+        "goalsAgainst": 7,
+        "points": 1
+      },
+      {
+        "position": 19,
+        "clubId": "aston-villa",
+        "played": 4,
+        "won": 0,
+        "drawn": 1,
+        "lost": 3,
+        "goalsFor": 1,
+        "goalsAgainst": 7,
+        "points": 1
+      },
+      {
+        "position": 20,
+        "clubId": "coventry-city",
+        "played": 4,
+        "won": 0,
+        "drawn": 0,
+        "lost": 4,
+        "goalsFor": 0,
+        "goalsAgainst": 10,
+        "points": 0
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "schedule",
+      "label": "Liverpool fixture list — Anfield Online",
+      "url": "https://www.anfield-online.co.uk/fixtures/2026-27/",
+      "checkedOn": "2026-09-17"
+    },
+    {
+      "id": "results",
+      "label": "Liverpool results — Liverpool FC",
+      "url": "https://www.liverpoolfc.com/matches/mens-team/results/2026/premier-league",
+      "checkedOn": "2026-09-17"
+    },
+    {
+      "id": "september",
+      "label": "August and September fixture changes — Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/three-premier-league-fixture-changes-liverpool-august-and-september",
+      "checkedOn": "2026-09-17"
+    },
+    {
+      "id": "europe",
+      "label": "Champions League fixture details — Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/champions-league-fixture-details-liverpools-eight-league-phase-matches",
+      "checkedOn": "2026-09-17"
+    },
+    {
+      "id": "scores",
+      "label": "September results — Sky Sports",
+      "url": "https://www.skysports.com/liverpool-scores-fixtures",
+      "checkedOn": "2026-09-17"
+    },
+    {
+      "id": "spurs",
+      "label": "Tottenham cup result — Liverpool FC",
+      "url": "https://lfcbeta.liverpoolfc.com/news/liverpool-beat-spurs-secure-carabao-cup-progress-anfield",
+      "checkedOn": "2026-09-17"
+    },
+    {
+      "id": "spurs-date",
+      "label": "Tottenham cup fixture details — Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpool-v-tottenham-hotspur-carabao-cup-ticket-details?amp=1",
+      "checkedOn": "2026-09-17"
+    },
+    {
+      "id": "festive",
+      "label": "Festive fixture changes — Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/festive-fixtures-updates-three-liverpools-premier-league-games",
+      "checkedOn": "2026-09-17"
+    },
+    {
+      "id": "chelsea-cup",
+      "label": "Chelsea fourth-round draw — Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpool-face-chelsea-carabao-cup-fourth-round?amp=1",
+      "checkedOn": "2026-09-17"
+    },
+    {
+      "id": "table",
+      "label": "Premier League table — Sky Sports",
+      "url": "https://www.skysports.com/premier-league-table",
+      "checkedOn": "2026-09-17"
+    }
+  ]
+}

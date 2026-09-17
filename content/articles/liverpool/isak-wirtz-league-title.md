@@ -1,4 +1,5 @@
 ---
+season: "2026-27"
 title: "Isak and Wirtz Will Take Us to the League Title"
 date: "2026-08-06"
 ---

@@ -20,16 +20,6 @@ editorsNote: z.string().optional(),
 stories: z.array(StorySchema) ,
 });
 
-export const ArticleSchema = z.object({
-    title: z.string(),
-    date: z.string(),
-    slug: z.string(),
-    category: z.string().default("Opinion"),
-    excerpt: z.string().optional(),
-    sources: z.array(z.string()).optional(),
-    whatMatters: z.array(z.string()).optional(),
-    body: z.string(),
-});
 export const ArchiveFeatureSchema = z.object({
     // The date of the historical event; date below remains the publication date.
     historicalEventDate: z.iso.date().optional(),
@@ -71,3 +61,16 @@ export const ArchiveFeatureSchema = z.object({
 });
 
 export type ArchiveFeature = z.infer<typeof ArchiveFeatureSchema>;
+
+// Analysis reuses the existing canonical History relationships, not a second taxonomy.
+export const ArticleSchema = ArchiveFeatureSchema.pick({
+    season: true, historicalEventDate: true, historyEras: true,
+    playerIds: true, managerIds: true, oppositionIds: true, competitionIds: true,
+    locationIds: true, themeIds: true, relatedMatches: true,
+}).extend({
+    title: z.string(), date: z.iso.date(), slug: HistoryIdSchema,
+    category: z.enum(["Opinion", "Analysis"]).default("Opinion"),
+    excerpt: z.string().optional(), sources: z.array(z.string()).optional(),
+    whatMatters: z.array(z.string()).optional(), body: z.string(),
+});
+export type Article = z.infer<typeof ArticleSchema>;

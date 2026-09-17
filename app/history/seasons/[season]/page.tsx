@@ -1,3 +1,4 @@
+import { AnalysisReading } from '@/app/components/AnalysisReading';
 import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
 import { getSeasonExperiences, toExperienceSummary } from "@/lib/content/interactive-history";
 import { SeasonNavigation } from "@/app/components/SeasonNavigation";
@@ -54,6 +55,9 @@ export default async function SeasonPage({ params }: Props) {
   const eras = getSeasonEras(id);
   const articles = getSeasonArchiveArticles(id, getFactualHistoryArticles());
 
+  const matches = articles.filter(article => article.articleType === "match").sort((a, b) => (a.historicalEventDate ?? "").localeCompare(b.historicalEventDate ?? "") || a.title.localeCompare(b.title));
+  const related = articles.filter(article => article.articleType !== "match");
+
   return <>
     <SiteHeader active="history" />
     <main id="main-content" className="site-width hx-page season-detail">
@@ -65,7 +69,7 @@ export default async function SeasonPage({ params }: Props) {
         <p className="season-editorial-note">A historical reference entry. Original long-form writing appears in <Link href="/articles">Articles</Link>.</p>
       </header>
       <nav className="season-jump" aria-label="On this season page">
-        <a href="#season-overview">Overview</a><a href="#season-transfers">Transfers</a><a href="#season-connections">Connections</a><a href="#season-sources">Sources</a>
+        <a href="#season-overview">Overview</a>{matches.length > 0 && <a href="#season-matches">Match reports ({matches.length})</a>}<a href="#season-transfers">Transfers</a><a href="#season-connections">Connections</a><a href="#season-sources">Sources</a>
       </nav>
       <dl className="season-facts">
         <div><dt>Manager{season.managerIds.length > 1 ? "s" : ""}</dt><dd>{season.managerIds.map(id => names.get(id)).join(" / ")}{season.managerNote && <small>{season.managerNote}</small>}</dd></div>
@@ -78,6 +82,15 @@ export default async function SeasonPage({ params }: Props) {
         <h2 id="season-overview">Season overview</h2>
         {season.overview.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
       </section>
+      {matches.length > 0 && <section className="season-section hx-reading" aria-labelledby="season-matches">
+        <h2 id="season-matches">Match reports</h2>
+        <p className="hx-quiet">Explore {matches.length} published {matches.length === 1 ? "report" : "reports"} from {seasonLabel(id)}, in match order.</p>
+        <ul className="hx-reading-list" role="list">{matches.map(article => <li key={article.slug}><article>
+          {article.historicalEventDate && <p className="hx-period"><time dateTime={article.historicalEventDate}>{formatListDate(article.historicalEventDate)}</time></p>}
+          <h3><Link href={`/archive/${article.slug}`} prefetch={false}>{article.title} <span aria-hidden="true">↗</span></Link></h3>
+          <p>{article.excerpt}</p>
+        </article></li>)}</ul>
+      </section>}
       <div className="season-competitions">
         {([['domestic', 'Domestic cups'], ['europe', 'Europe'], ['other', 'Other major competitions']] as const).map(([kind, label]) => {
           const competitions = season.competitions.filter(competition => competition.kind === kind);
@@ -106,9 +119,9 @@ export default async function SeasonPage({ params }: Props) {
         {season.relatedSeasons.length > 0 && <div className="season-connections-links"><h3>Related seasons</h3>{season.relatedSeasons.map(id => <Link href={`/history/seasons/${id}`} key={id}>{seasonLabel(id)} <span aria-hidden="true">→</span></Link>)}</div>}
       </section>
       <ExperienceCards experiences={getSeasonExperiences(id).map(toExperienceSummary)} headingId="season-interactive" />
-      {articles.length > 0 && <section className="hx-reading" aria-labelledby="season-archive">
-        <p className="eyebrow">Original writing · Denny Regan</p><h2 id="season-archive">Related articles</h2>
-        <ul className="hx-reading-list" role="list">{articles.map(article => <li key={article.slug}><article>
+      {related.length > 0 && <section className="hx-reading" aria-labelledby="season-archive">
+        <p className="eyebrow">More from this season</p><h2 id="season-archive">Related articles</h2>
+        <ul className="hx-reading-list" role="list">{related.map(article => <li key={article.slug}><article>
           <h3><Link href={`/archive/${article.slug}`} prefetch={false}>{article.title} <span aria-hidden="true">↗</span></Link></h3><p>{article.excerpt}</p>
         </article></li>)}</ul>
       </section>}
@@ -121,6 +134,7 @@ export default async function SeasonPage({ params }: Props) {
         {season.researchNotes.length > 0 && <div className="season-research-notes"><h3>Notes on the record</h3>{season.researchNotes.map((note, i) => <p key={i}>{note}</p>)}</div>}
       </details>
       <SeasonNavigation season={id} seasons={seasons} />
+      <AnalysisReading context={{ season: season.season }} />
     </main>
   </>;
 }
