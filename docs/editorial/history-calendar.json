@@ -5606,19 +5606,15 @@
       "historicalEventDate": "1985-05-29",
       "featuredWeek": "2026-05-25",
       "selection": "alternative",
-      "status": "approved",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": "content/this-week/liverpool/1985-05-29-heysel-1985-thirty-nine-lives.md",
+      "eventPath": null,
       "draftPath": "docs/editorial/drafts/150-heysel-1985-thirty-nine-lives.md",
       "originalDraftId": null,
       "publishedDestination": null,
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T14:07:04.676Z",
-        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 137–151 publication."
-      },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR37, commit d3ee07a9e0e9fda9344c224f86ace84f8441019d. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
+      "approval": null,
+      "notes": "PUBLICATION HOLD — Denny, 17 September 2026: remove Heysel and Hillsborough articles from the live site until he has read them thoroughly. Previous batch approval is revoked for this article. Do not republish without fresh, specific approval. Exact withdrawn article and annual-event files are preserved in docs/editorial/drafts/held-for-review/. Original research draft remains at draftPath. Historical notes (superseded by this hold): Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR37, commit d3ee07a9e0e9fda9344c224f86ace84f8441019d. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -6596,19 +6592,15 @@
       "historicalEventDate": "1989-04-15",
       "featuredWeek": "2026-04-13",
       "selection": "alternative",
-      "status": "approved",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
-      "eventPath": "content/this-week/liverpool/1989-04-15-hillsborough-1989-ninety-seven-lives.md",
+      "eventPath": null,
       "draftPath": "docs/editorial/drafts/185-hillsborough-1989-ninety-seven-lives.md",
       "originalDraftId": null,
       "publishedDestination": null,
-      "approval": {
-        "by": "Denny",
-        "recordedAt": "2026-09-15T14:48:10.972Z",
-        "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 182–196 publication."
-      },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR40, commit d7e92ee5a6210ae5ff22ba535e5a74e4f4d92479. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
+      "approval": null,
+      "notes": "PUBLICATION HOLD — Denny, 17 September 2026: remove Heysel and Hillsborough articles from the live site until he has read them thoroughly. Previous batch approval is revoked for this article. Do not republish without fresh, specific approval. Exact withdrawn article and annual-event files are preserved in docs/editorial/drafts/held-for-review/. Original research draft remains at draftPath. Historical notes (superseded by this hold): Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR40, commit d7e92ee5a6210ae5ff22ba535e5a74e4f4d92479. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",

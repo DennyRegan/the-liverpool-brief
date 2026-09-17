@@ -4,7 +4,7 @@ import { createContext, useCallback, useContext, useEffect, useRef, useState, ty
 import type { ExperienceControls } from "@/lib/interactive-history/models";
 
 type ControllerValue = {
-  model: ExperienceControls; selected: string | null; cursor: number; announcement: string;
+  reading: boolean; setReading: (value: boolean) => void; model: ExperienceControls; selected: string | null; cursor: number; announcement: string;
   navigate: (id: string, options?: { move?: boolean; focus?: boolean; history?: "push" | "replace" | "none"; announce?: string; exposeOutcome?: boolean }) => void;
 };
 const ControllerContext = createContext<ControllerValue | null>(null);
@@ -16,6 +16,9 @@ function useExperience() {
 
 export function ExperienceController({ model, children }: { model: ExperienceControls; children: ReactNode }) {
   const root = useRef<HTMLDivElement>(null);
+  const [reading, setReading] = useState(false);
+  const readingRef = useRef(false);
+  useEffect(() => { readingRef.current = reading; }, [reading]);
   const [selected, setSelected] = useState<string | null>(null);
   const [cursor, setCursor] = useState(0);
   const [announcement, setAnnouncement] = useState("");
@@ -68,7 +71,7 @@ export function ExperienceController({ model, children }: { model: ExperienceCon
     if (options.move !== false) {
       root.current?.querySelectorAll<HTMLDetailsElement>("[data-moment-index]").forEach(index => { index.open = false; });
       // The principal target stays visible while the subordinate landmarks share its position.
-      position(attemptIndex >= 0 && startId ? startId : id, options.focus);
+      requestAnimationFrame(() => position(attemptIndex >= 0 && startId ? startId : id, options.focus));
       if (root.current) root.current.dataset.inNarrative = "true";
     }
     requestAnimationFrame(() => requestAnimationFrame(() => { suppressScroll.current = false; }));
@@ -134,6 +137,7 @@ export function ExperienceController({ model, children }: { model: ExperienceCon
         if (!narrative) return;
         const rect = narrative.getBoundingClientRect();
         element.dataset.inNarrative = String(rect.top <= threshold && rect.bottom > threshold);
+        if (!readingRef.current) return;
         let next = model.moments[0].id;
         for (const heading of element.querySelectorAll<HTMLElement>("[data-moment-id]")) {
           const id = heading.dataset.momentId!;
@@ -179,8 +183,8 @@ export function ExperienceController({ model, children }: { model: ExperienceCon
     };
   }, [model, navigate, position, startId, outcomeId]);
 
-  return <ControllerContext.Provider value={{ model, selected, cursor, announcement, navigate }}>
-    <div ref={root} className="ih-experience" data-enhanced={selected !== null} onClick={event => {
+  return <ControllerContext.Provider value={{ model, selected, cursor, announcement, navigate, reading, setReading }}>
+    <div ref={root} className="ih-experience" data-reading={reading} data-enhanced={selected !== null} onClick={event => {
       const link = (event.target as HTMLElement).closest<HTMLAnchorElement>("a[href^='#']");
       if (!link || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       const id = link.getAttribute("href")!.slice(1);
@@ -254,3 +258,42 @@ export function ShootoutSequence() {
   </div>;
 }
 function ordinal(n: number) { return ["", "first", "second", "third", "fourth", "fifth"][n] ?? `${n}th`; }
+
+
+/** Server-rendered content stays complete; hydration adds a focused moment view. */
+export function MomentPanel({ id, children }: { id: string; children: ReactNode }) {
+  const { model, selected, reading } = useExperience();
+  const shootout = model.moments.find(moment => moment.state.shootout && !moment.state.outcome);
+  const active = model.attempts.some(attempt => attempt.id === selected) ? shootout?.id : selected;
+  return <div className="ih-moment-panel" hidden={selected !== null && !reading && active !== id}>{children}</div>;
+}
+
+export function MatchExplorer({ footer = false }: { footer?: boolean }) {
+  const { model, selected, reading, setReading, navigate } = useExperience();
+  const shootout = model.moments.find(moment => moment.state.shootout && !moment.state.outcome);
+  const active = model.attempts.some(attempt => attempt.id === selected) ? shootout?.id : selected;
+  const index = Math.max(0, model.moments.findIndex(moment => moment.id === active));
+  const moment = model.moments[index];
+  const jump = (offset: number) => {
+    const next = model.moments[index + offset];
+    if (next) navigate(next.id, { focus: true });
+  };
+  if (footer) return <div className="ih-step-controls" hidden={selected === null || reading}>
+    <button type="button" disabled={index === 0} onClick={() => jump(-1)}>← Previous moment</button>
+    <span>{String(index + 1).padStart(2, "0")} / {model.moments.length}</span>
+    <button type="button" disabled={index === model.moments.length - 1} onClick={() => jump(1)}>{model.moments[index + 1]?.state.outcome ? "Reveal the aftermath" : "Next moment"} →</button>
+  </div>;
+  return <section className="ih-explorer" aria-label="Explore the match" hidden={selected === null}>
+    <div className="ih-explorer-heading"><div><span className="ih-explorer-kicker">The night, moment by moment</span><p>Choose where you want to be.</p></div>
+      <div className="ih-mode-switch" role="group" aria-label="Reading mode">
+        <button type="button" aria-pressed={!reading} onClick={() => setReading(false)}>Explore moments</button>
+        <button type="button" aria-pressed={reading} onClick={() => setReading(true)}>Read the full story</button>
+      </div>
+    </div>
+    <nav className="ih-timeline" aria-label="Match timeline">{model.moments.map((item, i) => <button key={item.id} type="button" aria-current={item.id === moment.id ? "step" : undefined} aria-label={`${item.state.timeLabel}: ${item.title}${item.state.outcome ? "; reveals the result" : ""}`} onClick={() => navigate(item.id, { focus: true })}>
+      <span className="ih-timeline-number">{String(i + 1).padStart(2, "0")}</span><strong>{item.state.timeLabel}</strong><span className="ih-timeline-label">{item.title}</span>
+    </button>)}</nav>
+    <div className="ih-explorer-progress"><span>Moment {index + 1} of {model.moments.length}</span><span>{moment.title}</span></div>
+    <progress className="ih-progress" value={index + 1} max={model.moments.length} aria-label="Position in the match" />
+  </section>;
+}

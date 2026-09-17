@@ -68,7 +68,8 @@ test('Istanbul server HTML preserves headings, static state, real links, evidenc
   assert.match(html, /href="\/archive\/liverpool-monaco-champions-league-2004"/);
   assert.match(html, /At the interval/);
   assert.match(html, /At the restart/);
-  assert.match(html, /Evidence for this moment/);
+  assert.doesNotMatch(html, /Evidence for this moment/);
+  assert.match(html, /Sources and historical notes/);
   assert.doesNotMatch(html, /researchModel|reviewNote|approvalReference|confidence/);
   const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map(match => match[1]);
   assert.equal(new Set(ids).size, ids.length, 'native fragment IDs must be unique');
