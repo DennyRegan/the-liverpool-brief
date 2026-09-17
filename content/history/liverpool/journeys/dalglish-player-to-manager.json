@@ -1,0 +1,43 @@
+{
+  "id": "dalglish-player-to-manager",
+  "title": "Kenny Dalglish: player to manager",
+  "introduction": "Follow Dalglish through his Liverpool league debut, European success and the first seasons of his player-manager years.",
+  "steps": [
+    {
+      "kind": "person",
+      "id": "kenny-dalglish"
+    },
+    {
+      "kind": "article",
+      "id": "middlesbrough-liverpool-1977-dalglish-league-debut"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-brugge-1978-european-cup-final"
+    },
+    {
+      "kind": "era",
+      "id": "kenny-dalglish-1985-1991"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-arsenal-1985-dalglish-first-competitive-match"
+    },
+    {
+      "kind": "article",
+      "id": "chelsea-liverpool-1986-dalglish-title-winner"
+    },
+    {
+      "kind": "season",
+      "id": "1985-86"
+    },
+    {
+      "kind": "article",
+      "id": "john-barnes-1987"
+    },
+    {
+      "kind": "season",
+      "id": "1987-88"
+    }
+  ]
+}

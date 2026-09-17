@@ -222,3 +222,46 @@ Search, theme/location destinations, graph visualisation, generated biographies,
 ### Analysis in Articles
 
 Evidence-led Analysis remains canonical in `content/articles/liverpool` at `/articles/<slug>`, using the same optional entity/season/era/match metadata schemas. It can appear in separately labelled Analysis reading on existing Season, entity, era and match destinations. It never changes factual V2 eligibility or article counts. See [Match Centre and Analysis](match-centre.md) for publication and verification details.
+
+## V3: interactive exploration
+
+V3 adds navigation over the existing published factual library. It does not create a second article, Season or entity collection. The implementation lives in `lib/content/history-v3.ts`; the render-scoped React cache in `history-v3-view.ts` shares its projections between server components. V2 eligibility remains in `deriveExplorations`, unchanged.
+
+### Routes and chronology
+
+Timeline is the single chronology entry in the History navigation and gateway. Season detail pages remain canonical and return to their selected Season in Timeline. The existing `/history/seasons` directory remains available for old links and bookmarks, beneath Timeline rather than as a separate top-level category.
+
+- `/history`: eight ways into the library, four guided journeys, and the existing managerial chronology and anchors.
+- `/history/timeline?decade=1980s&season=1985-86#year-1985`: native GET filters; supplied valid filters intersect. Invalid filters produce a visible recovery message. Year sections have stable fragment IDs.
+- `/history/journeys`: editorial journey directory.
+- `/history/journeys/[journey]`: ordered contents and starting link.
+- `/history/journeys/[journey]/[step]`: static, numbered reader steps with previous/next links, canonical destination and context links. Unknown journeys/steps return 404.
+- `/history/my-years?from=1985`: native GET starting-year selection. No account, personal information or storage is needed. “Just let me explore” leads to the timeline.
+
+The timeline groups by calendar year. Existing Season records appear as **period context**, including their canonical trophies. Factual article entries use `historicalEventDate`, never publication date; dated Season events and managerial-era starts retain their actual dates. If a Season contains a summer arrival assigned to the incoming campaign, its actual calendar date and its canonical Season association are both preserved. Undated Season events follow dated entries in their Season's starting year and explicitly say the exact date is not recorded. No dates are parsed from prose. Career-wide player/manager articles without a principal Season remain discoverable through V2 rather than being represented as a single event on their anchor date.
+
+Each article appears once in the timeline. A structured Season event and an original article can concern the same occurrence: they are labelled as different source types and retain their own canonical destination. Event links use derived `#event-[event.id]` anchors on the existing Season page. Sparse years are not filled with invented material. New qualifying published articles and canonical records enter the projection automatically.
+
+Your Liverpool Years includes calendar sections at or after the selected year and excludes entries assigned to a Season beginning before that year. Earlier records can remain optional context links outside the main sequence. This is an interest-based starting point, not a birthday or anniversary model. The selector spans the earliest and latest supported timeline year. Invalid input leaves the selector available with an explanation. No unpublished Season page is invented for an article with a Season value but no published Season record.
+
+### Curated journey format
+
+`content/history/liverpool/journeys/*.json` contains strict definitions with `id`, `title`, a short `introduction`, and ordered `steps` containing only `{kind, id}`. Supported kinds are article, season, person, opposition, competition and era. Titles, excerpts, dates and Season overviews resolve from canonical loaders. Article bodies are never copied. Duplicate steps, unknown fields, missing or ineligible destinations fail validation and the production build. Definitions must contain 3–12 steps and match their filenames.
+
+Initial routes are Dalglish: player to manager; Liverpool and the European Cup; Bob Paisley's Liverpool; and Liverpool and Everton. They have intentionally curated order, not a recommendation score. Refer to the V3 review report for the exact approved-content references. If an article is withdrawn or an entity falls below V2 eligibility, update the editorial journey deliberately; never silently skip a broken step or publish a draft to repair it.
+
+Reader progress is the numbered URL. Opening an original and using browser Back returns to the step. There is no localStorage dependency, account, custom router or duplicate article renderer. Journey additions do not change existing step references; editorial reordering changes what a step number means and should therefore be considered deliberately.
+
+### Continuation and editorial boundaries
+
+People, Competition, Opposition, Season, era and factual Archive pages have a restrained Continue from here panel, with at most three links. It can offer a journey containing the exact current destination (preferred over article-overlap fallback), an eligible connected entity or Season, and a relevant timeline decade/year. Entity-to-entity suggestions require at least two shared factual articles. Season suggestions use their existing manager/key-player IDs. Existing Related Reading and Explore This History logic and ordering are unchanged. Timeline sections also expose canonical context and a link into the next available year.
+
+All V3 article inputs come from `getFactualHistoryArticles`. Opinion never silently enters V3. Draft visibility follows the canonical loader; journeys fail closed when a referenced article is unavailable. There is no new publication flag, eligibility threshold, reverse article list, canonical URL or article metadata field. Previously withdrawn content and the Torres Goodison draft remain unavailable.
+
+### Rendering and verification
+
+All new UI is server-rendered. Journey routes and existing destinations remain statically generated. Timeline and Your Liverpool Years render on the server for readable query-state URLs, using a few hundred local records; there is no database or remote recommendation call. The full timeline still sends its entries in HTML even when native disclosures are closed. Decade/Season filters reduce the response. Revisit pagination only if measured growth warrants it.
+
+Native labelled forms, links and details/summary provide keyboard and no-JavaScript behaviour. New standalone controls have 44–48px minimum heights, focus uses the site's visible outline, and the layout is vertical. There is no required animation, hover, canvas or client state. No AI, semantic search, graph, saved profile or new historical writing is included.
+
+Run `npm test`, `npm run lint`, `npm run build`, the existing verification scripts, and `BASE_URL=http://127.0.0.1:3157 node scripts/verify-history-v3.mjs` against a production preview. The V3 verifier checks every timeline entry/context/fragment, every journey step, continuation targets, seven starting years, invalid input, unavailable routes and factual publication boundaries. Browser review remains necessary for responsive behaviour, keyboard focus and complete reading journeys.

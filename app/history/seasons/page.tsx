@@ -17,6 +17,7 @@ export default function SeasonsPage() {
     <SiteHeader active="history" />
     <main id="main-content" className="site-width hx-page seasons-page">
       <HistoryNav active="seasons" />
+      <Link href="/history/timeline" className="hx-back">← Timeline</Link>
       <header className="hx-intro">
         <p className="eyebrow">Liverpool history · Season by season</p>
         <h1>Seasons</h1>

@@ -1,3 +1,4 @@
+import { ContinueFromHere } from "@/app/components/history/V3Exploration";
 import { AnalysisReading } from '@/app/components/AnalysisReading';
 import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
 import { getSeasonExperiences, toExperienceSummary } from "@/lib/content/interactive-history";
@@ -62,7 +63,7 @@ export default async function SeasonPage({ params }: Props) {
     <SiteHeader active="history" />
     <main id="main-content" className="site-width hx-page season-detail">
       <HistoryNav active="seasons" />
-      <Link href="/history/seasons" className="hx-back">← All seasons</Link>
+      <Link href={`/history/timeline?season=${id}`} className="hx-back">← Timeline</Link>
       <header className="season-header">
         <p className="eyebrow">Liverpool · Season reference</p>
         <h1>{seasonLabel(id)}</h1>
@@ -111,7 +112,7 @@ export default async function SeasonPage({ params }: Props) {
       </section>
       <section className="season-section" aria-labelledby="season-connections">
         <h2 id="season-connections">Important connections</h2>
-        {season.events.length > 0 && <ul className="season-events" role="list">{season.events.map(event => <li key={event.id}>
+        {season.events.length > 0 && <ul className="season-events" role="list">{season.events.map(event => <li key={event.id} id={`event-${event.id}`}>
           {event.date && <p className="hx-period"><time dateTime={event.date}>{formatListDate(event.date)}</time></p>}
           <h3>{event.title}</h3><p>{event.detail}</p>
         </li>)}</ul>}
@@ -135,6 +136,7 @@ export default async function SeasonPage({ params }: Props) {
       </details>
       <SeasonNavigation season={id} seasons={seasons} />
       <AnalysisReading context={{ season: season.season }} />
-    </main>
+    <ContinueFromHere context={{ season: id }} />
+      </main>
   </>;
 }

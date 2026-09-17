@@ -1,0 +1,39 @@
+{
+  "id": "bob-paisleys-liverpool",
+  "title": "Bob Paisley’s Liverpool",
+  "introduction": "Explore Paisley’s tenure through its Season records and published match reports, from 1974 to his Anfield farewell.",
+  "steps": [
+    {
+      "kind": "person",
+      "id": "bob-paisley"
+    },
+    {
+      "kind": "era",
+      "id": "bob-paisley"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-leeds-1974-charity-shield"
+    },
+    {
+      "kind": "season",
+      "id": "1975-76"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-gladbach-1977-first-european-cup"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-real-madrid-1981-third-european-cup"
+    },
+    {
+      "kind": "season",
+      "id": "1982-83"
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-aston-villa-1983-paisley-anfield-farewell"
+    }
+  ]
+}

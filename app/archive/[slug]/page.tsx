@@ -1,3 +1,4 @@
+import { ContinueFromHere } from "@/app/components/history/V3Exploration";
 import { AnalysisReading } from '@/app/components/AnalysisReading';
 import { ArticleExploration } from '@/app/components/ArticleExploration';
 import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
@@ -141,6 +142,7 @@ export default async function ArchiveFeaturePage({
         <ArticleExploration article={feature} />
       <AnalysisReading context={{ matchSlug: feature.slug }} />
         <ArchiveDiscovery recommendations={recommendations} />
+      <ContinueFromHere context={{ articleSlug: feature.slug }} />
       </main>
     </div>
   );
