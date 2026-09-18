@@ -24,6 +24,12 @@ For a new season, create the sourced fixture/table register, update `current.jso
 
 ## Analysis
 
+### Approved next-match previews
+
+A fixture may have `preview: { title, body, updatedAt, sourceIds }`, with Markdown prose stored once on its existing stable fixture record. It is a preview, never a completed match report or an Archive article. The Next Match card links to the full-width `#match-preview` article on this page. Only the selected upcoming fixture's preview is rendered; it disappears from this position when that fixture is no longer next. Stored preview evidence IDs must resolve and its timestamp cannot exceed the register update. Source and confidence notes remain editorial, not part of the preview prose. Publication still requires Denny's approval.
+
+On 18 September 2026, Denny approved the Bournemouth preview with its penultimate tactical paragraph removed. No other prose changes were authorised.
+
 Articles supports `category: Opinion | Analysis`; legacy files without a category remain Opinion. All views preserve existing `/articles/<slug>` and legacy `/archive/<slug>` URLs. `/articles?type=analysis` and `?type=opinion` filter the same collection. No Analysis destination is added to the top-level navigation. Home's existing latest-writing selection supports both types.
 
 Analysis can reuse the existing optional relationship fields: `season`, `historicalEventDate`, `historyEras`, `playerIds`, `managerIds`, `oppositionIds`, `competitionIds`, `locationIds`, `themeIds`, and `relatedMatches`. Their schemas and canonical IDs are shared with Archive. Invalid entity kinds, unknown IDs and draft/non-match `relatedMatches` fail validation.

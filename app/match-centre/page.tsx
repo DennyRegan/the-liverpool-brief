@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { getHistoryEntities } from '@/lib/content/entities';
 import { getMatchCentre, selectMatches, fixtureTime, getCurrentSeasonReading, type Fixture, type MatchCentre } from '@/lib/content/match-centre';
@@ -41,6 +42,7 @@ export default function MatchCentrePage() {
       <p>{f.date ? <time dateTime={f.date}>{dateLabel(f.date)}</time> : f.dateNote} · {fixtureTime(f)}</p>
       {resultNote(f) && <p>{resultNote(f)}</p>}
       {f.reportSlug && <Link className="read-link" href={`/archive/${f.reportSlug}`}>Read the match report <span aria-hidden="true">→</span></Link>}
+      {title === 'Next Match' && f.preview && <a className="read-link" href="#match-preview">Read the match preview <span aria-hidden="true">→</span></a>}
       {title === 'Next Match' && f.briefing && <div className="mc-briefing"><h3>Match Briefing</h3><p className="mc-note">Updated {updatedLabel(f.briefing.updatedAt)}</p><ul>{f.briefing.points.map(point => <li key={point}>{point}</li>)}</ul><Sources data={data} ids={f.briefing.sourceIds} /></div>}
     </> : <p>{title === 'Last Match' ? 'No completed competitive matches have been recorded yet.' : 'The next fixture is awaiting confirmation.'}</p>}</section>;
   }
@@ -49,6 +51,12 @@ export default function MatchCentrePage() {
     <section className="mc-snapshot" aria-label="Premier League season snapshot"><h2>Premier League</h2><dl>{[['Position', row.position], ['Played', row.played], ['Won', row.won], ['Drawn', row.drawn], ['Lost', row.lost], ['Points', row.points]].map(([name, value]) => <div key={name}><dt>{name}</dt><dd>{value}</dd></div>)}</dl><p className="mc-note">Table as of {updatedLabel(data.table.asOf)}</p></section>
     {waiting.length > 0 && <p className="mc-update">Result awaiting an editorial update: {waiting.map(f => `${label(f.oppositionId)} (${dateLabel(f.date!)})`).join('; ')}. See Fixtures &amp; Results below.</p>}
     <div className="mc-match-pair">{card(last, 'Last Match')}{card(next, 'Next Match')}</div>
+    {next?.preview && <article id="match-preview" className="mc-preview" aria-labelledby="match-preview-title" tabIndex={-1}>
+      <p className="eyebrow">Next Match · Preview</p>
+      <h2 id="match-preview-title">{next.preview.title}</h2>
+      <p className="mc-note">Updated {updatedLabel(next.preview.updatedAt)}</p>
+      <ReactMarkdown skipHtml components={{ h2: ({ children }) => <h3>{children}</h3> }}>{next.preview.body}</ReactMarkdown>
+    </article>}
     <nav className="mc-jump" aria-label="Match Centre sections"><a href="#fixtures">Fixtures &amp; Results</a><a href="#league-table">League Table</a>{reading.length > 0 && <a href="#season-reading">This season’s writing</a>}</nav>
     <section className="mc-section" aria-labelledby="fixtures"><h2 id="fixtures">Fixtures &amp; Results</h2><p className="mc-note">All confirmed competitive fixtures. Further cup ties will be added after the draws.</p>
       {months.map(month => <section className="mc-month" key={month}><h3>{month === 'tbc' ? 'Date to be confirmed' : new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric', timeZone: 'Europe/London' }).format(new Date(`${month}-01T12:00:00Z`))}</h3><ul role="list">{ordered.filter(f => (f.date?.slice(0, 7) ?? 'tbc') === month).map(f => <li key={f.id} className="mc-fixture"><div className="mc-fixture-date">{f.date ? <time dateTime={f.date}>{dateLabel(f.date)}</time> : f.dateNote}<small>{f.status === 'completed' ? 'Full time' : f.status === 'postponed' ? 'Postponed' : f.status === 'cancelled' ? 'Cancelled' : waitingIds.has(f.id) ? 'Awaiting result' : fixtureTime(f)}</small></div><div><h4>{teams(f)}</h4><p>{competition(f.competitionId)} · {f.side === 'home' ? 'Home' : f.side === 'away' ? 'Away' : 'Neutral'}{f.round && ` · ${f.round}`}</p>{resultNote(f) && <p>{resultNote(f)}</p>}{f.date && f.dateNote && <p>{f.dateNote}</p>}{f.reportSlug && <Link href={`/archive/${f.reportSlug}`} className="read-link">Match report <span aria-hidden="true">→</span></Link>}</div></li>)}</ul></section>)}

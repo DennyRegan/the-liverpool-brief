@@ -55,6 +55,26 @@ test('optional briefing supports sourced text and rejects missing or future evid
  next.briefing={updatedAt:data.updatedAt,points:['Verified test context.'],sourceIds:['september']};assert.equal(MatchCentreSchema.safeParse(data).success,true);
  next.briefing.sourceIds=['missing'];assert.equal(MatchCentreSchema.safeParse(data).success,false);
 });
+test('approved preview belongs only to the next fixture and excludes the removed paragraph',()=>{
+ const data=getMatchCentre();const next=selectMatches(data,now).next;
+ assert.equal(next.oppositionId,'bournemouth');assert.match(next.preview.title,/Iraola returns/);
+ assert.match(next.preview.body,/Iraola’s return will provide the occasion/);
+ assert.doesNotMatch(next.preview.body,/The tactical question is whether/);
+ assert.equal(data.fixtures.filter(f=>f.preview).length,1);
+ assert.equal(selectMatches(data,new Date('2026-09-20T13:01:00Z')).next.preview,undefined);
+ for(const status of ['postponed','cancelled','completed']){
+  const changed=structuredClone(data);changed.fixtures.find(f=>f.id===next.id).status=status;
+  assert.notEqual(selectMatches(changed,now).next?.id,next.id);
+ }
+});
+test('preview requires non-empty prose, known sources and a non-future update',()=>{
+ for(const change of [p=>p.body=' ',p=>p.title='',p=>p.sourceIds=['missing'],p=>p.updatedAt='2099-01-01T00:00:00Z']){
+  const data=structuredClone(getMatchCentre());change(data.fixtures.find(f=>f.preview).preview);
+  assert.equal(MatchCentreSchema.safeParse(data).success,false);
+ }
+ const data=structuredClone(getMatchCentre());delete data.fixtures.find(f=>f.preview).preview;
+ assert.equal(MatchCentreSchema.safeParse(data).success,true);
+});
 test('report links require a published factual match with exact fixture relationships',()=>withContent(root=>{
  const data=getMatchCentre(root);data.fixtures[0].reportSlug='torres-goodison-derby-double-2008';saveCentre(root,data);assert.throws(()=>getMatchCentre(root),/published and match/);
  const original=getFactualHistoryArticles(root).find(a=>a.articleType==='match'),{body,...meta}=original;

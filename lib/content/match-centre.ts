@@ -18,6 +18,7 @@ export const FixtureSchema = z.object({
   dateNote: Text.optional(), status: z.enum(['scheduled', 'completed', 'postponed', 'cancelled']),
   score: Score.optional(), penalties: Score.optional(), afterExtraTime: z.boolean().optional(),
   reportSlug: HistoryIdSchema.optional(), sourceIds: Sources,
+  preview: z.object({ title: Text, body: Text, updatedAt: z.iso.datetime({ offset: true }), sourceIds: Sources }).strict().optional(),
   briefing: z.object({ updatedAt: z.iso.datetime({ offset: true }), points: z.array(Text).min(1).max(6), sourceIds: Sources }).strict().optional(),
 }).strict().superRefine((f, ctx) => {
   const fail = (message: string) => ctx.addIssue({ code: 'custom', message });
@@ -42,12 +43,13 @@ export const MatchCentreSchema = z.object({
   if(data.table.rows.filter(r=>r.clubId==='liverpool').length!==1) fail('Table must include Liverpool exactly once');
   if(Date.parse(data.table.asOf)>Date.parse(data.updatedAt)) fail('Table cannot be newer than the overall update');
   const sourceIds=new Set(data.sources.map(s=>s.id));
-  for(const id of [...data.table.sourceIds,...data.fixtures.flatMap(f=>[...f.sourceIds,...(f.briefing?.sourceIds??[])])]) if(!sourceIds.has(id)) fail(`Unknown source: ${id}`);
+  for(const id of [...data.table.sourceIds,...data.fixtures.flatMap(f=>[...f.sourceIds,...(f.briefing?.sourceIds??[]),...(f.preview?.sourceIds??[])])]) if(!sourceIds.has(id)) fail(`Unknown source: ${id}`);
   const start=data.season.slice(0,4), end=String(Number(start)+1);
   for(const f of data.fixtures){
     if(f.date && (f.date<`${start}-07-01` || f.date>`${end}-06-30`)) fail(`Fixture ${f.id} is outside its season`);
     if(f.status==='completed' && f.date! > data.updatedAt.slice(0,10)) fail(`Future result: ${f.id}`);
     if(f.briefing && Date.parse(f.briefing.updatedAt)>Date.parse(data.updatedAt)) fail(`Future briefing: ${f.id}`);
+    if(f.preview && Date.parse(f.preview.updatedAt)>Date.parse(data.updatedAt)) fail(`Future preview: ${f.id}`);
   }
 });
 export type Fixture = z.infer<typeof FixtureSchema>;

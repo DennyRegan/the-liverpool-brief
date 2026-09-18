@@ -1,4 +1,10 @@
 .mc-page { padding-block: 2.5rem 4rem; max-width: 1000px; }
+.mc-preview { max-width: 720px; margin: 2.5rem auto; padding-block: 1.5rem; border-block: 1px solid #cfc7bc; scroll-margin-top: 2rem; overflow-wrap: anywhere; }
+.mc-preview h2, .mc-preview h3 { font-family: var(--font-source-serif), Georgia, serif; line-height: 1.25; }
+.mc-preview h2 { font-size: clamp(1.8rem, 4vw, 2.65rem); margin: .65rem 0 1rem; }
+.mc-preview h3 { font-size: 1.45rem; margin: 2rem 0 1rem; }
+.mc-preview p { line-height: 1.8; margin-block: 1rem; }
+.mc-preview:focus-visible { outline: 2px solid #a32020; outline-offset: 6px; }
 .mc-intro h1 { font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(2.7rem, 6vw, 4.5rem); line-height: 1.08; margin: .6rem 0; }
 .mc-standfirst { font-size: 1.25rem; margin-bottom: 1rem; }
 .mc-note, .mc-competition { color: #605b55; font-size: .85rem; line-height: 1.6; }
