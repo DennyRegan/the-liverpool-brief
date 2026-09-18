@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { socialMetadata } from '@/lib/social-metadata';
 import ReactMarkdown from 'react-markdown';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { getHistoryEntities } from '@/lib/content/entities';
@@ -6,7 +7,10 @@ import { getMatchCentre, selectMatches, fixtureTime, getCurrentSeasonReading, ty
 import { formatLongDate, getArticleExcerpt } from '@/lib/format';
 import './match-centre.css';
 
-export const metadata = { title: 'Match Centre | The Liverpool Brief', description: 'Liverpool’s current season: results, fixtures, match briefings and the Premier League table.', alternates: { canonical: '/match-centre' } };
+export function generateMetadata() {
+  const { next } = selectMatches(getMatchCentre());
+  return socialMetadata(next?.preview?.title ?? 'Match Centre | The Liverpool Brief', 'Liverpool’s current season: results, fixtures, match previews and the Premier League table.', '/match-centre');
+}
 // A scheduled fixture must stop being advertised as upcoming after kick-off,
 // even when no editor has recorded its result yet. Scores are never inferred.
 export const dynamic = 'force-dynamic';

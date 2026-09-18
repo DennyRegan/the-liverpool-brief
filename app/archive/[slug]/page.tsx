@@ -1,4 +1,5 @@
 import { ContinueFromHere } from "@/app/components/history/V3Exploration";
+import { socialMetadata } from '@/lib/social-metadata';
 import { AnalysisReading } from '@/app/components/AnalysisReading';
 import { ArticleExploration } from '@/app/components/ArticleExploration';
 import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
@@ -35,14 +36,7 @@ export async function generateMetadata({
     return {};
   }
 
-  return {
-    title: feature.title,
-    description: feature.excerpt,
-    openGraph: {
-      title: feature.title,
-      description: feature.excerpt,
-    },
-  };
+  return socialMetadata(feature.title, feature.excerpt, `/archive/${feature.slug}`);
 }
 
 export default async function ArchiveFeaturePage({

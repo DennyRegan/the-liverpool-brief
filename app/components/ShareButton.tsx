@@ -6,11 +6,11 @@ export function ShareButton({ title }: { title: string }) {
   const [copied, setCopied] = useState(false);
 
   async function handleShare() {
-    const url = window.location.href;
+    const url = document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.href ?? `${window.location.origin}${window.location.pathname}`;
 
     if (navigator.share) {
       try {
-        await navigator.share({ title, text: "The Liverpool Brief", url });
+        await navigator.share({ title, text: title, url });
       } catch {
         // User cancelled the share sheet, or it failed silently — nothing to do.
       }

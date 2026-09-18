@@ -1,4 +1,5 @@
 import { analysisConnections } from '@/lib/content/analysis';
+import { socialMetadata } from '@/lib/social-metadata';
 import { getMatchCentre } from '@/lib/content/match-centre';
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -29,15 +30,7 @@ export async function generateMetadata({
 
   const description = getArticleExcerpt(article);
 
-  return {
-    title: article.title,
-    alternates: { canonical: `/articles/${article.slug}` },
-    description,
-    openGraph: {
-      title: article.title,
-      description,
-    },
-  };
+  return socialMetadata(article.title, description, `/articles/${article.slug}`);
 }
 
 export default async function ArticlePage({
