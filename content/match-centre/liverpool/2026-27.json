@@ -23,6 +23,7 @@
     },
     {
       "id": "2026-27-premier-league-nottingham-forest-home",
+      "reportSlug": "liverpool-nottingham-forest-2026-08-29",
       "oppositionId": "nottingham-forest",
       "competitionId": "premier-league",
       "side": "home",
@@ -42,6 +43,7 @@
     },
     {
       "id": "2026-27-premier-league-ipswich-town-away",
+      "reportSlug": "ipswich-liverpool-2026-09-04",
       "oppositionId": "ipswich-town",
       "competitionId": "premier-league",
       "side": "away",
@@ -61,6 +63,7 @@
     },
     {
       "id": "2026-27-european-cup-atletico-madrid-home",
+      "reportSlug": "liverpool-atletico-madrid-2026-09-09",
       "oppositionId": "atletico-madrid",
       "competitionId": "european-cup",
       "side": "home",
@@ -81,6 +84,7 @@
     },
     {
       "id": "2026-27-premier-league-fulham-home",
+      "reportSlug": "liverpool-fulham-2026-09-12",
       "oppositionId": "fulham",
       "competitionId": "premier-league",
       "side": "home",

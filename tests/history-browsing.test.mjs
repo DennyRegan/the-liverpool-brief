@@ -9,6 +9,10 @@ test('approved factual matches and player articles enter their respective Histor
   assert.deepEqual(getHistoryBrowseArticles('matches').map(a => a.slug).sort(), [
     'newcastle-liverpool-2026-08-23',
     'liverpool-tottenham-2026-09-15',
+    'liverpool-nottingham-forest-2026-08-29',
+    'ipswich-liverpool-2026-09-04',
+    'liverpool-atletico-madrid-2026-09-09',
+    'liverpool-fulham-2026-09-12',
     'liverpool-everton-1972-cormack-winner',
     'liverpool-newcastle-1972-five-goal-win',
     'liverpool-birmingham-1972-comeback',
