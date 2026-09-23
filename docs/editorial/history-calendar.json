@@ -7370,6 +7370,174 @@
         }
       ],
       "researchStatus": "not_rechecked"
+    },
+    {
+      "id": "1990-09-16-classic-200",
+      "event": "Liverpool 4–0 Manchester United",
+      "historicalEventDate": "1990-09-16",
+      "featuredWeek": "2026-09-14",
+      "selection": "provisional",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
+      "claim": {
+        "token": "1990-91-classics-20260923-fyltntm-1",
+        "claimedAt": "2026-09-23T11:38:29.073Z",
+        "baseCommit": "25550a9c3e131af7e47701cb21a5a882b11bb5b2"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "1990–91 Classic Matches season batch commissioned by Denny on 23 September 2026. Candidate selected for historical significance from the 1990–91 fixture list; detailed source verification and final selection pending. Text-only draft for approval; no publication authorised.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/32",
+          "confidence": "medium",
+          "scope": "Retrieved fixture inventory for date, score, venue and competition; narrative and detailed match claims await independent source checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1990-09-22-classic-201",
+      "event": "Everton 2–3 Liverpool",
+      "historicalEventDate": "1990-09-22",
+      "featuredWeek": "2026-09-21",
+      "selection": "provisional",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
+      "claim": {
+        "token": "1990-91-classics-20260923-fyltntm-2",
+        "claimedAt": "2026-09-23T11:38:29.073Z",
+        "baseCommit": "25550a9c3e131af7e47701cb21a5a882b11bb5b2"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "1990–91 Classic Matches season batch commissioned by Denny on 23 September 2026. Candidate selected for historical significance from the 1990–91 fixture list; detailed source verification and final selection pending. Text-only draft for approval; no publication authorised.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/32",
+          "confidence": "medium",
+          "scope": "Retrieved fixture inventory for date, score, venue and competition; narrative and detailed match claims await independent source checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1991-02-20-classic-202",
+      "event": "Everton 4–4 Liverpool",
+      "historicalEventDate": "1991-02-20",
+      "featuredWeek": "2027-02-15",
+      "selection": "provisional",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
+      "claim": {
+        "token": "1990-91-classics-20260923-fyltntm-3",
+        "claimedAt": "2026-09-23T11:38:29.073Z",
+        "baseCommit": "25550a9c3e131af7e47701cb21a5a882b11bb5b2"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "1990–91 Classic Matches season batch commissioned by Denny on 23 September 2026. Candidate selected for historical significance from the 1990–91 fixture list; detailed source verification and final selection pending. Text-only draft for approval; no publication authorised.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/32",
+          "confidence": "medium",
+          "scope": "Retrieved fixture inventory for date, score, venue and competition; narrative and detailed match claims await independent source checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1991-03-03-classic-203",
+      "event": "Liverpool 0–1 Arsenal",
+      "historicalEventDate": "1991-03-03",
+      "featuredWeek": "2027-03-01",
+      "selection": "provisional",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
+      "claim": {
+        "token": "1990-91-classics-20260923-fyltntm-4",
+        "claimedAt": "2026-09-23T11:38:29.073Z",
+        "baseCommit": "25550a9c3e131af7e47701cb21a5a882b11bb5b2"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "1990–91 Classic Matches season batch commissioned by Denny on 23 September 2026. Candidate selected for historical significance from the 1990–91 fixture list; detailed source verification and final selection pending. Text-only draft for approval; no publication authorised.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/32",
+          "confidence": "medium",
+          "scope": "Retrieved fixture inventory for date, score, venue and competition; narrative and detailed match claims await independent source checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1991-03-23-classic-204",
+      "event": "Derby County 1–7 Liverpool",
+      "historicalEventDate": "1991-03-23",
+      "featuredWeek": "2027-03-22",
+      "selection": "provisional",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
+      "claim": {
+        "token": "1990-91-classics-20260923-fyltntm-5",
+        "claimedAt": "2026-09-23T11:38:29.073Z",
+        "baseCommit": "25550a9c3e131af7e47701cb21a5a882b11bb5b2"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "1990–91 Classic Matches season batch commissioned by Denny on 23 September 2026. Candidate selected for historical significance from the 1990–91 fixture list; detailed source verification and final selection pending. Text-only draft for approval; no publication authorised.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/32",
+          "confidence": "medium",
+          "scope": "Retrieved fixture inventory for date, score, venue and competition; narrative and detailed match claims await independent source checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1991-04-13-classic-205",
+      "event": "Leeds United 4–5 Liverpool",
+      "historicalEventDate": "1991-04-13",
+      "featuredWeek": "2027-04-12",
+      "selection": "provisional",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
+      "claim": {
+        "token": "1990-91-classics-20260923-fyltntm-6",
+        "claimedAt": "2026-09-23T11:38:29.073Z",
+        "baseCommit": "25550a9c3e131af7e47701cb21a5a882b11bb5b2"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "1990–91 Classic Matches season batch commissioned by Denny on 23 September 2026. Candidate selected for historical significance from the 1990–91 fixture list; detailed source verification and final selection pending. Text-only draft for approval; no publication authorised.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/32",
+          "confidence": "medium",
+          "scope": "Retrieved fixture inventory for date, score, venue and competition; narrative and detailed match claims await independent source checks."
+        }
+      ],
+      "researchStatus": "needs_research"
     }
   ],
   "gaps": [
@@ -7411,7 +7579,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-15T15:22:20.704Z",
+  "updatedAt": "2026-09-23T11:38:29.073Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
