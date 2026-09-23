@@ -7,6 +7,7 @@ import { getArchiveFeatures, getHistoryBrowseArticles } from '../lib/content/arc
 
 test('approved factual matches and player articles enter their respective History browsers', () => {
   assert.deepEqual(getHistoryBrowseArticles('matches').map(a => a.slug).sort(), [
+    'bournemouth-liverpool-2026-09-20',
     'newcastle-liverpool-2026-08-23',
     'liverpool-tottenham-2026-09-15',
     'liverpool-nottingham-forest-2026-08-29',

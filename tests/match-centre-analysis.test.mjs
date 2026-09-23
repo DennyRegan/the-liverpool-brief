@@ -55,12 +55,12 @@ test('optional briefing supports sourced text and rejects missing or future evid
  next.briefing={updatedAt:data.updatedAt,points:['Verified test context.'],sourceIds:['september']};assert.equal(MatchCentreSchema.safeParse(data).success,true);
  next.briefing.sourceIds=['missing'];assert.equal(MatchCentreSchema.safeParse(data).success,false);
 });
-test('completed Bournemouth fixture leaves no outdated match preview in the live register',()=>{
+test('completed Bournemouth fixture links its approved report and leaves no outdated preview',()=>{
  const data=getMatchCentre();const next=selectMatches(data,new Date('2026-09-23T12:00:00Z')).next;
  assert.equal(next.oppositionId,'manchester-city');
  assert.equal(data.fixtures.filter(f=>f.preview).length,0);
  assert.equal(data.fixtures.find(f=>f.oppositionId==='bournemouth').preview,undefined);
- assert.equal(data.fixtures.find(f=>f.oppositionId==='bournemouth').reportSlug,undefined);
+ assert.equal(data.fixtures.find(f=>f.oppositionId==='bournemouth').reportSlug,'bournemouth-liverpool-2026-09-20');
  for(const status of ['postponed','cancelled','completed']){
   const changed=structuredClone(data);changed.fixtures.find(f=>f.id===next.id).status=status;
   assert.notEqual(selectMatches(changed,now).next?.id,next.id);
