@@ -1,6 +1,6 @@
 ---
 {
-  "lastUpdated": "2026-09-22T18:02:04.485Z",
+  "lastUpdated": "2026-09-23T17:00:58.000Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
@@ -38,6 +38,35 @@
           "name": "Liverpool FC — confidence: high",
           "platform": "Official internationals guide, 22 September 2026",
           "url": "https://www.liverpoolfc.com/news/internationals-guide-when-and-where-liverpool-players-are-action"
+        }
+      ]
+    },
+    {
+      "headline": "Liverpool v Chelsea fixture details confirmed",
+      "category": "Fixtures",
+      "summary": "Liverpool will host Chelsea in the Carabao Cup fourth round at 8pm GMT on Wednesday 28 October. The tie will be shown live in the UK on Sky Sports and ITV.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official fixture confirmation, 18 September 2026",
+          "url": "https://www.liverpoolfc.com/news/liverpool-v-chelsea-carabao-cup-fixture-details-confirmed"
+        }
+      ]
+    },
+    {
+      "headline": "Ngumoha named in England squad",
+      "category": "Internationals",
+      "summary": "Rio Ngumoha has been selected for England’s four upcoming Nations League matches against Spain, Croatia and Czechia. The 18-year-old made his senior international debut against New Zealand in June.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official squad announcement, 18 September 2026",
+          "url": "https://www.liverpoolfc.com/news/rio-ngumoha-receives-england-call"
+        },
+        {
+          "name": "Reuters — confidence: high",
+          "platform": "Squad announcement report, 18 September 2026",
+          "url": "https://www.reuters.com/sports/soccer/alexander-arnold-returns-england-squad-tuchel-makes-10-changes-world-cup-2026-09-18/"
         }
       ]
     }
