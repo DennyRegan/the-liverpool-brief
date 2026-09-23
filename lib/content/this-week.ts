@@ -59,14 +59,18 @@ export function getHistoryEvents(root = process.cwd()): HistoryEvent[] {
   });
 }
 
-export function getHistoryWindow(events: HistoryEvent[], now = new Date()) {
-  // Use London's calendar day, then UTC calendar arithmetic (not 24-hour local jumps).
-  // This keeps midnight and daylight-saving boundaries consistent on every server.
+export function getLondonToday(now = new Date()) {
   const parts = new Intl.DateTimeFormat("en-GB", {
     timeZone: "Europe/London", year: "numeric", month: "2-digit", day: "2-digit",
   }).formatToParts(now);
   const part = (type: string) => parts.find(p => p.type === type)!.value;
-  const today = new Date(`${part("year")}-${part("month")}-${part("day")}T12:00:00Z`);
+  return `${part("year")}-${part("month")}-${part("day")}`;
+}
+
+export function getHistoryWindow(events: HistoryEvent[], now = new Date()) {
+  // Use London's calendar day, then UTC calendar arithmetic (not 24-hour local jumps).
+  // This keeps midnight and daylight-saving boundaries consistent on every server.
+  const today = new Date(`${getLondonToday(now)}T12:00:00Z`);
   // One fixed calendar week: Sunday is six days after Monday, not a new window.
   const monday = new Date(today);
   monday.setUTCDate(today.getUTCDate() - ((today.getUTCDay() + 6) % 7));
@@ -109,4 +113,12 @@ export function getArticleWeek(articles: ArchiveFeature[], days: ReturnType<type
       return true;
     }).sort((a, b) => (a.historicalEventDate ?? "").localeCompare(b.historicalEventDate ?? "") || a.slug.localeCompare(b.slug)),
   }));
+}
+
+// Articles already published elsewhere are revealed in This Week only when
+// their anniversary reaches the UK calendar day. This is display scheduling,
+// not an approval or article-publication mechanism.
+export function getVisibleArticleWeek(articles: ArchiveFeature[], days: ReturnType<typeof getHistoryWindow>, now = new Date()) {
+  const today = getLondonToday(now);
+  return getArticleWeek(articles, days).filter(day => day.iso <= today);
 }

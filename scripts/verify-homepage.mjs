@@ -31,7 +31,9 @@ try {
   const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1];
   assert.ok(main, 'homepage has a main content landmark');
   assert.equal((main.match(/<h1[ >]/g) || []).length, 1, 'one lead heading');
-  assert.deepEqual([...main.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1].replace(/<[^>]+>/g, '')).filter((_, i) => i !== 1), ['Featured writing', 'Explore Liverpool history', 'The Brief', 'Latest in History', 'This Week in History', 'Season spotlight']);
+  const headings = [...main.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1].replace(/<[^>]+>/g, '')).filter((_, i) => i !== 1);
+  // The home card appears only on a day with a published history article.
+  assert.deepEqual(headings.filter(heading => heading !== 'This Week in History'), ['Featured writing', 'Explore Liverpool history', 'The Brief', 'Latest in History', 'Season spotlight']);
   assert.match(main, /id="home-match-feature-heading"/);
   assert.doesNotMatch(main, /articles\?category=/);
   assert.match(main, /href="\/articles"/);

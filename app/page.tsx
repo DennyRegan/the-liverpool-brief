@@ -4,7 +4,7 @@ import { getWriting } from "@/lib/content/writing";
 import { getBrief } from "@/lib/content/briefs";
 import { getArchiveFeatures } from "@/lib/content/archive";
 import { getSeasons, seasonLabel } from "@/lib/content/seasons";
-import { getHistoryEvents, getHistoryWindow, getArticleWeek } from "@/lib/content/this-week";
+import { getHistoryEvents, getHistoryWindow, getLondonToday, getVisibleArticleWeek } from "@/lib/content/this-week";
 import { selectHomeWriting, selectHomeHistory, selectSeasonSpotlight } from "@/lib/content/homepage";
 import { formatLastUpdated, formatListDate, getArticleExcerpt, getExcerpt } from "@/lib/format";
 import { SiteHeader } from "@/app/components/SiteHeader";
@@ -33,9 +33,10 @@ export default function Home() {
     })),
   ]);
   const labels: Record<string, string> = { match: "Match", player: "Player", manager: "Manager", transfer: "Transfer", season: "Season", competition: "Competition", "club-event": "Club history", other: "History" };
-  const days = getHistoryWindow(getHistoryEvents());
+  const now = new Date();
+  const days = getHistoryWindow(getHistoryEvents(), now);
   const spotlight = selectSeasonSpotlight(seasons, days[0].iso);
-  const candidates = getArticleWeek(factual, days).flatMap(day => day.articles.map(article => ({
+  const candidates = getVisibleArticleWeek(factual, days, now).filter(day => day.iso === getLondonToday(now)).flatMap(day => day.articles.map(article => ({
     day, article,
     event: { year: article.historicalEventDate?.slice(0, 4) ?? article.historicalPeriod, title: article.title, summary: article.excerpt },
   })));
