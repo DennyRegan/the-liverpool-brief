@@ -105,7 +105,7 @@ export default function Home() {
       {(feature || spotlight) && <div className="home-weekly-features">
       {feature && <section className="home-week" aria-labelledby="home-week-heading">
         <div><h2 id="home-week-heading" className="eyebrow">This Week in History</h2><p className="home-week-date">{feature.day.label}<span>{feature.event.year}</span></p></div>
-        <article><h3>{feature.article ? <Link href={`/archive/${feature.article.slug}`}>{feature.event.title}</Link> : feature.event.title}</h3><p className="home-summary">{feature.event.summary}</p><div className="home-links">{feature.article && <Link className="read-link" href={`/archive/${feature.article.slug}`}>Read the full story →</Link>}<Link className="read-link" href="/this-week">See the whole week →</Link></div></article>
+        <article><h3>{feature.article ? <Link href={`/archive/${feature.article.slug}`}>{feature.event.title}</Link> : feature.event.title}</h3><p className="home-summary">{feature.event.summary}</p><div className="home-links">{feature.article && <Link className="read-link" href={`/archive/${feature.article.slug}`}>Read the full story →</Link>}<Link className="read-link" href="/this-week">Explore this week →</Link></div></article>
       </section>}
 
       {spotlight && <section className="home-week home-season" aria-labelledby="home-season-heading">
