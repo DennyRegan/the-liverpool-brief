@@ -218,6 +218,12 @@ test('approved factual matches and player articles enter their respective Histor
     'palace-liverpool-1990-semi-final',
     'liverpool-qpr-1990-eighteenth-title',
     'coventry-liverpool-1990-barnes-hat-trick',
+    'liverpool-manchester-united-1990-beardsley-hat-trick',
+    'everton-liverpool-1990-opening-streak',
+    'everton-liverpool-1991-four-four',
+    'liverpool-arsenal-1991-title-race',
+    'derby-liverpool-1991-seven-goals',
+    'leeds-liverpool-1991-five-four',
     'liverpool-9-crystal-palace-0',
     'liverpools-manager-scored-after-21-seconds-at-goodison',
   ].sort());
