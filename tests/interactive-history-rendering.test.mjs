@@ -60,7 +60,7 @@ test('the real reader renders a different match and normal-time result without I
 });
 
 test('Istanbul server HTML preserves headings, static state, real links, evidence and complete fallback record', () => {
-  const experience = getPublishedExperience('istanbul-2005');
+  const experience = validateExperienceReferences(JSON.parse(fs.readFileSync('docs/editorial/interactive-history/istanbul-2005/held-experience.json', 'utf8')));
   const html = render(experience);
   for (const moment of experience.moments) assert.ok(html.includes(`id="${moment.id}"`), moment.id);
   for (let i = 1; i <= 9; i++) assert.ok(html.includes(`id="shootout-${i}"`));

@@ -65,7 +65,8 @@ try {
   const home = mainOf(await get('/'));
   // The approved homepage now uses one Articles collection and separate History
   // and weekly sections; do not resurrect the old Opinion/Archive layout here.
-  assert.deepEqual([...home.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1].replace(/<[^>]+>/g, '')), ['The latest writing', 'Istanbul 2005', 'Explore Liverpool history', 'The Brief', 'Latest in History', 'This Week in History', 'Season spotlight']);
+  assert.deepEqual([...home.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1].replace(/<[^>]+>/g, '')).filter((_, i) => i !== 1), ['Featured writing', 'Explore Liverpool history', 'The Brief', 'Latest in History', 'This Week in History', 'Season spotlight']);
+  assert.match(home, /id="home-match-feature-heading"/);
   assert.doesNotMatch(home, /articles\?category=/);
   assert.match(home, /href="\/articles"/);
   assert.match(home, /href="\/history\/seasons/);

@@ -24,7 +24,7 @@ export function HistoryBrowse({ section }: { section: "matches" | "players" }) {
       {matches && getPublishedExperiences().length > 0 && <p className="hx-context"><Link href="/history/interactive">Explore Interactive History <span aria-hidden="true">→</span></Link></p>}
       {!matches && <section aria-labelledby="people-explore"><h2 id="people-explore" className="entity-heading">Explore people</h2><EntityDirectory destinations={getExplorations().filter(d => d.entity.kind === 'person')} /></section>}
       {!matches && <h2 className="entity-heading" id="biographies">Biographies and player features</h2>}
-      <HistoryBrowseList section={section} articles={articles.map(({ slug, title, excerpt, historicalPeriod, decade, season }) => ({ slug, title, excerpt, historicalPeriod, decade, season }))} />
+      <HistoryBrowseList section={section} articles={articles.map(({ slug, title, excerpt, historicalPeriod, historicalEventDate, decade, season }) => ({ slug, title, excerpt, historicalPeriod, historicalEventDate, decade, season }))} />
     </main>
   </>;
 }

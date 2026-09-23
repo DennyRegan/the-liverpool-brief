@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "updatedAt": "2026-09-18T14:45:00Z",
+  "updatedAt": "2026-09-23T12:00:00Z",
   "fixtures": [
     {
       "id": "2026-27-premier-league-newcastle-united-away",
@@ -124,30 +124,20 @@
     },
     {
       "id": "2026-27-premier-league-bournemouth-away",
-      "preview": {
-        "title": "Iraola returns to Bournemouth with Liverpool’s midfield decision still to make",
-        "body": "**Bournemouth v Liverpool | Premier League | Vitality Stadium | Sunday 20 September 2026, 2pm BST**\n\nAndoni Iraola returns to Bournemouth with affection for the club he left and a selection decision that says much about the team he is trying to build. Liverpool’s cup win over Tottenham has given him alternatives. Sunday will show how much weight he gives them.\n\nThree draws from four league matches have left Liverpool unbeaten but short of momentum. Tuesday’s 3–1 victory restored some encouragement after the goalless afternoon against Fulham. Carrying that improvement into the Premier League is the next requirement, against opponents whose own encouraging week has changed the mood around this fixture.\n\nBournemouth have yet to win in the league under Marco Rose. They have, however, just won in Europe for the first time. Their 2–1 victory at Real Sociedad gives Liverpool good reason to look beyond the early table.\n\n## A return with little room for sentiment\n\nIraola spent three years at Bournemouth and has spoken warmly about seeing former players and colleagues again. His instruction for the match itself was rather less sentimental: Liverpool must be “as ruthless as possible”.\n\nHe does not expect to encounter an unfamiliar team. In his assessment, Rose has retained much of Bournemouth’s personnel and footballing approach. That continuity makes the reunion interesting in both directions. Iraola knows the players he will face; many of them know what he wants Liverpool to do.\n\nNeither side can assume that familiarity will settle the contest. For Liverpool, the useful question is whether they can execute their game with enough speed and accuracy to make Bournemouth’s knowledge of it less relevant.\n\n## The cup win has opened up selection\n\nIraola changed ten starters against Tottenham, with Ronald Araujo the only player retained from the Fulham line-up. Alexis Mac Allister scored the opener, Cody Gakpo added the second and Dominik Szoboszlai settled the tie from distance after coming off the bench.\n\nThose contributions give the manager several competing claims. Mac Allister also scored the winner against Atlético Madrid. Gakpo’s return to the starting side and the scoresheet strengthens the competition in attack. Szoboszlai supplied a decisive finish even though he had been left out of the initial XI.\n\nThe more revealing choice may concern Trey Nyoni, who started alongside Mac Allister in midfield. Does Iraola retain that partnership, or restore the more established options? A cup selection is an opportunity to show readiness. Giving Nyoni the same responsibility away from home in the league would be a more substantial endorsement.\n\nIt would also be premature to treat one victory as a complete answer. Tottenham still created chances, and Liverpool needed their third goal after the visitors had reduced the deficit. The case for change deserves consideration without pretending every difficulty disappeared on Tuesday.\n\n## Liverpool’s injury picture is clearer\n\nLiverpool have confirmed that Conor Bradley, Federico Chiesa, Hugo Ekitike and Giovanni Leoni remain unavailable. Iraola reported no additional fitness concerns on Friday, subject to the final training session before travelling.\n\nJoe Gomez’s return against Tottenham adds another defensive option. Gakpo’s involvement also means his earlier fitness problem should not be carried into this preview as though his status were unchanged.\n\nThere is greater uncertainty over Bournemouth’s final matchday position. Eli Junior Kroupi, Julian Araujo, Amine Adli and Veljko Milosavljevic are listed among their existing injury absences. Rose’s pre-Liverpool comments were made before the trip to Spain, so they cannot confirm how every player emerged from Thursday’s match.\n\nThat distinction matters. Bournemouth’s decisions may concern recovery and minutes as much as injuries. A player being available does not necessarily make him ready for another full game.\n\n## Bournemouth offer more than their league record suggests\n\nAfter an opening defeat by Manchester City, Bournemouth drew with Everton, Newcastle and Brentford. The latter two matches both finished 2–2. Their attack has supplied goals; turning those goals into league victories remains the unresolved part.\n\nThe win in Spain offers a different reference point. Justin Kluivert and Rayan scored as Bournemouth established a two-goal lead, before Real Sociedad pulled one back. Bournemouth then held on to secure a result that should give Rose’s players confidence for Liverpool’s visit.\n\nMarcus Tavernier is another significant threat, with three Premier League goals already. Alongside Kluivert, Rayan and Evanilson, he gives Liverpool several players to account for rather than one obvious attacking outlet.\n\nThe selection around them remains open. Rose has already discussed rotation, and the side that starts on Sunday need not be the one that began in San Sebastian.\n\n## Liverpool must make their extra recovery count\n\nLiverpool played on Tuesday; Bournemouth played on Thursday and had the journey home from Spain to follow. Iraola has acknowledged that the schedule should favour his side.\n\nThat is an opportunity, rather than a guarantee. Bournemouth’s European win may bring energy of its own, particularly early in front of their supporters. Liverpool need to be ready for that opening spell while making the match demanding enough to test the home side’s recovery.\n\nIraola’s return will provide the occasion. His selection, and Liverpool’s ability to turn another promising cup performance into league points, will provide the more useful measure of progress.",
-        "updatedAt": "2026-09-18T14:45:00Z",
-        "sourceIds": [
-          "preview-team-news",
-          "preview-iraola",
-          "preview-spurs",
-          "preview-atletico",
-          "preview-form",
-          "preview-bournemouth"
-        ]
-      },
       "oppositionId": "bournemouth",
       "competitionId": "premier-league",
       "side": "away",
       "venue": "Vitality Stadium",
       "date": "2026-09-20",
       "kickoff": "2026-09-20T14:00:00+01:00",
-      "status": "scheduled",
+      "status": "completed",
       "sourceIds": [
-        "schedule",
-        "september"
-      ]
+        "results"
+      ],
+      "score": {
+        "home": 0,
+        "away": 1
+      }
     },
     {
       "id": "2026-27-premier-league-manchester-city-home",
@@ -976,7 +966,7 @@
       "id": "results",
       "label": "Liverpool results — Liverpool FC",
       "url": "https://www.liverpoolfc.com/matches/mens-team/results/2026/premier-league",
-      "checkedOn": "2026-09-17"
+      "checkedOn": "2026-09-23"
     },
     {
       "id": "september",

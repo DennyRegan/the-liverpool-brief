@@ -22,7 +22,7 @@ const analysis=(extra={})=>({title:'Test investigation',slug:'test-investigation
 
 test('real register contains all 38 league fixtures, eight European and two cup ties; snapshot reconciles',()=>{
  const data=getMatchCentre();assert.equal(data.fixtures.length,48);assert.equal(data.fixtures.filter(f=>f.competitionId==='premier-league').length,38);
- const selected=selectMatches(data,now);assert.equal(selected.last.oppositionId,'tottenham-hotspur');assert.deepEqual(selected.last.score,{home:3,away:1});assert.equal(selected.next.oppositionId,'bournemouth');assert.equal(selected.waiting.length,0);
+ const selected=selectMatches(data,new Date('2026-09-23T12:00:00Z'));assert.equal(selected.last.oppositionId,'bournemouth');assert.deepEqual(selected.last.score,{home:0,away:1});assert.equal(selected.next.oppositionId,'manchester-city');assert.equal(selected.waiting.length,0);
  assert.equal(data.table.rows.find(r=>r.clubId==='liverpool').points,6);assert.equal(selected.ordered.at(-1).oppositionId,'chelsea');
 });
 test('lifecycle advances only recorded results; passed kick-offs await editorial updates',()=>{
@@ -51,17 +51,16 @@ test('table arithmetic, duplicate positions, missing sources and future results 
  for(const change of mutations){const data=structuredClone(getMatchCentre());change(data);assert.equal(MatchCentreSchema.safeParse(data).success,false);}
 });
 test('optional briefing supports sourced text and rejects missing or future evidence references',()=>{
- const data=getMatchCentre(), next=data.fixtures.find(f=>f.oppositionId==='bournemouth');
+ const data=getMatchCentre(), next=data.fixtures.find(f=>f.oppositionId==='manchester-city');
  next.briefing={updatedAt:data.updatedAt,points:['Verified test context.'],sourceIds:['september']};assert.equal(MatchCentreSchema.safeParse(data).success,true);
  next.briefing.sourceIds=['missing'];assert.equal(MatchCentreSchema.safeParse(data).success,false);
 });
-test('approved preview belongs only to the next fixture and excludes the removed paragraph',()=>{
- const data=getMatchCentre();const next=selectMatches(data,now).next;
- assert.equal(next.oppositionId,'bournemouth');assert.match(next.preview.title,/Iraola returns/);
- assert.match(next.preview.body,/Iraola’s return will provide the occasion/);
- assert.doesNotMatch(next.preview.body,/The tactical question is whether/);
- assert.equal(data.fixtures.filter(f=>f.preview).length,1);
- assert.equal(selectMatches(data,new Date('2026-09-20T13:01:00Z')).next.preview,undefined);
+test('completed Bournemouth fixture leaves no outdated match preview in the live register',()=>{
+ const data=getMatchCentre();const next=selectMatches(data,new Date('2026-09-23T12:00:00Z')).next;
+ assert.equal(next.oppositionId,'manchester-city');
+ assert.equal(data.fixtures.filter(f=>f.preview).length,0);
+ assert.equal(data.fixtures.find(f=>f.oppositionId==='bournemouth').preview,undefined);
+ assert.equal(data.fixtures.find(f=>f.oppositionId==='bournemouth').reportSlug,undefined);
  for(const status of ['postponed','cancelled','completed']){
   const changed=structuredClone(data);changed.fixtures.find(f=>f.id===next.id).status=status;
   assert.notEqual(selectMatches(changed,now).next?.id,next.id);
@@ -69,10 +68,10 @@ test('approved preview belongs only to the next fixture and excludes the removed
 });
 test('preview requires non-empty prose, known sources and a non-future update',()=>{
  for(const change of [p=>p.body=' ',p=>p.title='',p=>p.sourceIds=['missing'],p=>p.updatedAt='2099-01-01T00:00:00Z']){
-  const data=structuredClone(getMatchCentre());change(data.fixtures.find(f=>f.preview).preview);
+  const data=structuredClone(getMatchCentre());const f=data.fixtures.find(f=>f.oppositionId==='manchester-city');f.preview={title:'Upcoming match',body:'Verified match context.',updatedAt:data.updatedAt,sourceIds:['september']};change(f.preview);
   assert.equal(MatchCentreSchema.safeParse(data).success,false);
  }
- const data=structuredClone(getMatchCentre());delete data.fixtures.find(f=>f.preview).preview;
+ const data=structuredClone(getMatchCentre());
  assert.equal(MatchCentreSchema.safeParse(data).success,true);
 });
 test('report links require a published factual match with exact fixture relationships',()=>withContent(root=>{

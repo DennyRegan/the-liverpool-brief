@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { getPublishedExperiences } from "@/lib/content/interactive-history";
 import "./homepage.css";
 import { getWriting } from "@/lib/content/writing";
 import { getBrief } from "@/lib/content/briefs";
@@ -18,14 +17,13 @@ export const metadata = {
 export const dynamic = "force-dynamic";
 
 export default function Home() {
-  const experiences = getPublishedExperiences();
-  const interactive = experiences.find(item => item.id === "istanbul-2005") ?? experiences[0];
-  const entryMoments = interactive?.moments.filter((moment, index) => index === 0 || moment.id === "half-time" || moment.presentation === "attempt-sequence") ?? [];
   const brief = getBrief();
   const story = brief.stories[0];
   const { lead, more } = selectHomeWriting(getWriting());
   const archive = getArchiveFeatures();
   const factual = archive.filter(article => article.editorialMode === "factual");
+  const featuredMatch = [...factual].filter(article => article.articleType === "match" && article.historicalEventDate)
+    .sort((a, b) => (b.historicalEventDate ?? "").localeCompare(a.historicalEventDate ?? ""))[0];
   const seasons = getSeasons();
   const history = selectHomeHistory([
     ...factual.filter(article => article.articleType !== "season").map(article => ({
@@ -53,10 +51,9 @@ export default function Home() {
     <SiteHeader active="home" />
     <main id="main-content" className="site-width home-page home-editorial">
       <section className="home-articles" aria-labelledby="home-articles-heading">
-        <div className="home-section-heading"><h2 id="home-articles-heading" className="eyebrow">The latest writing</h2><Link className="read-link" href="/articles">All articles →</Link></div>
+        <div className="home-section-heading"><h2 id="home-articles-heading" className="eyebrow">Featured writing</h2><Link className="read-link" href="/articles">All articles →</Link></div>
         {lead ? <div className="home-writing">
           <article className="home-lead">
-            <p className="home-lead-label">From Denny Regan</p>
             <p className="article-meta"><time dateTime={lead.date}>{formatListDate(lead.date)}</time><span>{lead.category}</span><span>By Denny Regan</span></p>
             <h1><Link href={lead.href}>{lead.title}</Link></h1>
             <p className="home-standfirst">{getArticleExcerpt(lead, 300)}</p>
@@ -70,21 +67,17 @@ export default function Home() {
         </div> : <h1 className="home-empty-title">Independent Liverpool writing</h1>}
       </section>
 
-      {interactive && <section className="home-interactive" aria-labelledby="home-interactive-heading">
-        <div className="home-interactive-story">
-          <p className="home-interactive-label"><span aria-hidden="true" /> Interactive History</p>
-          <p className="home-interactive-invitation">Some nights deserve another look.</p>
-          <h2 id="home-interactive-heading"><Link href={`/history/interactive/${interactive.id}`}>{interactive.title}</Link></h2>
-          <p className="home-interactive-description">Step through the match. Explore the decisions. Take each moment in your own time.</p>
-          <Link className="home-interactive-cta" href={`/history/interactive/${interactive.id}`}>Explore the experience <span aria-hidden="true">↗</span></Link>
+      {featuredMatch && <section className="home-match-feature" aria-labelledby="home-match-feature-heading">
+        <div className="home-match-feature-copy">
+          <p className="home-match-feature-label">From the match archive</p>
+          <h2 id="home-match-feature-heading"><Link href={`/archive/${featuredMatch.slug}`}>{featuredMatch.title}</Link></h2>
+          <p className="home-match-feature-summary">{getExcerpt(featuredMatch.excerpt, 210)}</p>
+          <Link className="home-match-feature-link" href={`/archive/${featuredMatch.slug}`}>Read the match report <span aria-hidden="true">↗</span></Link>
         </div>
-        <div className="home-interactive-moments">
-          <p className="home-interactive-date">{formatListDate(interactive.dateRange.start)}</p>
-          <p className="home-interactive-start">Choose your starting point</p>
-          <ol>{entryMoments.map((moment, index) => <li key={moment.id}>
-            <Link href={`/history/interactive/${interactive.id}#${moment.id}`}><span className="home-entry-number" aria-hidden="true">0{index + 1}</span><span>{moment.title}</span><span aria-hidden="true">→</span></Link>
-          </li>)}</ol>
-          <Link className="home-interactive-all" href="/history/interactive">Discover Interactive History →</Link>
+        <div className="home-match-feature-index">
+          <p className="home-match-feature-label">Explore the collection</p>
+          <p className="home-match-feature-date">{formatListDate(featuredMatch.historicalEventDate!)}</p>
+          <nav aria-label="Explore Liverpool history"><Link href="/history/matches">Match reports <span aria-hidden="true">→</span></Link><Link href="/history/seasons">Season by season <span aria-hidden="true">→</span></Link><Link href="/history/players">People <span aria-hidden="true">→</span></Link></nav>
         </div>
       </section>}
 

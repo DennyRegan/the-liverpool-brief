@@ -5,7 +5,7 @@ import Link from "next/link";
 
 type BrowseArticle = {
   slug: string; title: string; excerpt: string; historicalPeriod: string;
-  decade: string; season?: string;
+  decade: string; season?: string; historicalEventDate?: string;
 };
 
 export function HistoryBrowseList({ section, articles }: { section: "matches" | "players"; articles: BrowseArticle[] }) {
@@ -15,7 +15,8 @@ export function HistoryBrowseList({ section, articles }: { section: "matches" | 
   const decades = [...new Set(articles.map(article => article.decade))].sort().reverse();
   const inDecade = articles.filter(article => !decade || article.decade === decade);
   const seasons = [...new Set(inDecade.flatMap(article => article.season ? [article.season] : []))].sort().reverse();
-  const visible = matches ? inDecade.filter(article => !season || article.season === season) : articles;
+  const visible = matches ? inDecade.filter(article => !season || article.season === season)
+    .sort((a, b) => (b.historicalEventDate ?? "").localeCompare(a.historicalEventDate ?? "") || a.title.localeCompare(b.title)) : articles;
 
   return <>
     {matches && articles.length > 0 && <>
@@ -31,6 +32,7 @@ export function HistoryBrowseList({ section, articles }: { section: "matches" | 
         {(decade || season) && <button type="button" onClick={() => { setDecade(""); setSeason(""); }}>Reset filters</button>}
       </div>
       <p className="hx-quiet" role="status">{visible.length} {visible.length === 1 ? "match" : "matches"}</p>
+      <p className="hx-quiet">Newest matches first</p>
     </>}
     {!matches && articles.length > 0 && <p className="hx-quiet">Alphabetical by first name</p>}
     {visible.length > 0 ? <ul className="hx-reading-list hx-browse-list" role="list">
