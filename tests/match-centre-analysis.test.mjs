@@ -23,7 +23,8 @@ const analysis=(extra={})=>({title:'Test investigation',slug:'test-investigation
 test('real register contains all 38 league fixtures, eight European and two cup ties; snapshot reconciles',()=>{
  const data=getMatchCentre();assert.equal(data.fixtures.length,48);assert.equal(data.fixtures.filter(f=>f.competitionId==='premier-league').length,38);
  const selected=selectMatches(data,new Date('2026-09-23T12:00:00Z'));assert.equal(selected.last.oppositionId,'bournemouth');assert.deepEqual(selected.last.score,{home:0,away:1});assert.equal(selected.next.oppositionId,'manchester-city');assert.equal(selected.waiting.length,0);
- assert.equal(data.table.rows.find(r=>r.clubId==='liverpool').points,6);assert.equal(selected.ordered.at(-1).oppositionId,'chelsea');
+ const liverpool=data.table.rows.find(r=>r.clubId==='liverpool');assert.deepEqual([liverpool.position,liverpool.played,liverpool.points],[6,5,9]);assert.equal(data.table.asOf,'2026-09-21T13:55:00+01:00');assert.equal(selected.ordered.at(-1).oppositionId,'chelsea');
+ assert.deepEqual(selected.upcoming.slice(0,4).map(f=>f.oppositionId),['manchester-city','lask','brentford','villarreal']);
 });
 test('lifecycle advances only recorded results; passed kick-offs await editorial updates',()=>{
  const before=fixture(), completed=fixture({id:'previous',date:'2026-09-12',kickoff:undefined,status:'completed',score:{home:0,away:0}});
@@ -31,6 +32,7 @@ test('lifecycle advances only recorded results; passed kick-offs await editorial
  const result=selectMatches({fixtures:[future,before,completed]},new Date('2026-09-20T14:00:00Z'));
  assert.equal(result.last.id,'previous');assert.equal(result.next.id,'next');assert.deepEqual(result.waiting.map(f=>f.id),['fixture']);
  assert.equal(selectMatches({fixtures:[{...before,status:'completed',score:{home:2,away:1}},future]},new Date('2026-09-21')).last.id,'fixture');
+ assert.deepEqual(result.upcoming.map(f=>f.id),['next']);
 });
 test('postponed, cancelled and undated fixtures never become next match',()=>{
  const fixtures=[fixture({status:'postponed'}),fixture({id:'cancelled',status:'cancelled'}),fixture({id:'undated',date:undefined,kickoff:undefined,dateNote:'Awaiting confirmation'})];

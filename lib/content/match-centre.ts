@@ -85,10 +85,12 @@ export function selectMatches(data: Pick<MatchCentre,'fixtures'>, now = new Date
   const ordered=[...data.fixtures].sort((a,b)=>(a.kickoff??a.date??'9999').localeCompare(b.kickoff??b.date??'9999')||a.id.localeCompare(b.id));
   const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/London',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
   const waiting=ordered.filter(f=>f.status==='scheduled' && f.date && (f.kickoff?Date.parse(f.kickoff)<=now.getTime():f.date<today));
+  const upcoming=ordered.filter(f=>f.status==='scheduled' && f.date && (f.kickoff?Date.parse(f.kickoff)>now.getTime():f.date>=today));
   return {
     ordered,
     last:ordered.filter(f=>f.status==='completed').at(-1),
-    next:ordered.find(f=>f.status==='scheduled' && f.date && (f.kickoff?Date.parse(f.kickoff)>now.getTime():f.date>=today)),
+    next:upcoming[0],
+    upcoming,
     waiting,
   };
 }

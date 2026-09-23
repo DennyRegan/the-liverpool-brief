@@ -21,6 +21,14 @@
 .mc-match .read-link, .mc-fixture .read-link { display: inline-flex; align-items: center; min-height: 44px; }
 .mc-section { margin-top: 2.5rem; }
 .mc-section > h2 { font-family: var(--font-source-serif), Georgia, serif; font-size: 2rem; margin-bottom: .65rem; }
+.mc-upcoming { list-style: none; padding: 0; }
+.mc-disclosure { border-block: 1px solid #cfc7bc; margin-top: 1.25rem; }
+.mc-disclosure > summary { cursor: pointer; list-style-position: inside; padding: 1rem .25rem; font-weight: 650; }
+.mc-disclosure > summary h2 { display: inline; font-family: var(--font-source-serif), Georgia, serif; font-size: 2rem; }
+.mc-disclosure > summary .mc-note { font-weight: 400; }
+.mc-disclosure > summary h2 + .mc-note { display: block; margin: .35rem 0 0 1.4rem; }
+.mc-disclosure[open] > summary { border-bottom: 1px solid #dcd5cb; }
+.mc-table-scroll { overflow-x: auto; }
 .mc-month { margin-top: 1.6rem; }
 .mc-month h3 { font-size: 1rem; font-weight: 650; border-bottom: 2px solid #39332e; padding-bottom: .6rem; }
 .mc-month ul, .mc-reading { list-style: none; padding: 0; }

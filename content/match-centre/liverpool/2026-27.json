@@ -693,230 +693,230 @@
     }
   ],
   "table": {
-    "asOf": "2026-09-16T17:30:00+01:00",
+    "asOf": "2026-09-21T13:55:00+01:00",
     "sourceIds": [
       "table"
     ],
     "rows": [
       {
         "position": 1,
-        "clubId": "arsenal",
-        "played": 4,
-        "won": 4,
+        "clubId": "manchester-city",
+        "played": 5,
+        "won": 5,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 8,
-        "goalsAgainst": 1,
-        "points": 12
+        "goalsFor": 13,
+        "goalsAgainst": 5,
+        "points": 15
       },
       {
         "position": 2,
-        "clubId": "manchester-city",
-        "played": 4,
+        "clubId": "arsenal",
+        "played": 5,
         "won": 4,
         "drawn": 0,
-        "lost": 0,
+        "lost": 1,
         "goalsFor": 8,
-        "goalsAgainst": 2,
+        "goalsAgainst": 4,
         "points": 12
       },
       {
         "position": 3,
-        "clubId": "leeds-united",
-        "played": 4,
-        "won": 2,
-        "drawn": 2,
-        "lost": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 3,
-        "points": 8
+        "clubId": "brighton-hove-albion",
+        "played": 5,
+        "won": 3,
+        "drawn": 1,
+        "lost": 1,
+        "goalsFor": 16,
+        "goalsAgainst": 5,
+        "points": 10
       },
       {
         "position": 4,
-        "clubId": "hull-city",
-        "played": 4,
+        "clubId": "brentford",
+        "played": 5,
         "won": 2,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 0,
-        "goalsFor": 5,
-        "goalsAgainst": 2,
-        "points": 8
+        "goalsFor": 10,
+        "goalsAgainst": 4,
+        "points": 9
       },
       {
         "position": 5,
-        "clubId": "brighton-hove-albion",
-        "played": 4,
+        "clubId": "leeds-united",
+        "played": 5,
         "won": 2,
-        "drawn": 1,
-        "lost": 1,
-        "goalsFor": 13,
-        "goalsAgainst": 5,
-        "points": 7
+        "drawn": 3,
+        "lost": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
+        "points": 9
       },
       {
         "position": 6,
-        "clubId": "chelsea",
-        "played": 4,
+        "clubId": "liverpool",
+        "played": 5,
         "won": 2,
-        "drawn": 1,
-        "lost": 1,
-        "goalsFor": 10,
-        "goalsAgainst": 9,
-        "points": 7
+        "drawn": 3,
+        "lost": 0,
+        "goalsFor": 7,
+        "goalsAgainst": 4,
+        "points": 9
       },
       {
         "position": 7,
-        "clubId": "brentford",
-        "played": 4,
-        "won": 1,
-        "drawn": 3,
-        "lost": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 4,
-        "points": 6
-      },
-      {
-        "position": 8,
-        "clubId": "liverpool",
-        "played": 4,
-        "won": 1,
+        "clubId": "everton",
+        "played": 5,
+        "won": 2,
         "drawn": 3,
         "lost": 0,
         "goalsFor": 6,
+        "goalsAgainst": 3,
+        "points": 9
+      },
+      {
+        "position": 8,
+        "clubId": "hull-city",
+        "played": 5,
+        "won": 2,
+        "drawn": 2,
+        "lost": 1,
+        "goalsFor": 6,
         "goalsAgainst": 4,
-        "points": 6
+        "points": 8
       },
       {
         "position": 9,
-        "clubId": "everton",
-        "played": 4,
-        "won": 1,
-        "drawn": 3,
-        "lost": 0,
-        "goalsFor": 5,
-        "goalsAgainst": 3,
-        "points": 6
+        "clubId": "newcastle-united",
+        "played": 5,
+        "won": 2,
+        "drawn": 2,
+        "lost": 1,
+        "goalsFor": 9,
+        "goalsAgainst": 9,
+        "points": 8
       },
       {
         "position": 10,
-        "clubId": "ipswich-town",
-        "played": 4,
+        "clubId": "chelsea",
+        "played": 5,
         "won": 2,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 2,
-        "goalsFor": 7,
-        "goalsAgainst": 10,
-        "points": 6
+        "goalsFor": 10,
+        "goalsAgainst": 12,
+        "points": 7
       },
       {
         "position": 11,
-        "clubId": "nottingham-forest",
-        "played": 4,
-        "won": 1,
-        "drawn": 2,
-        "lost": 1,
-        "goalsFor": 4,
-        "goalsAgainst": 4,
-        "points": 5
+        "clubId": "ipswich-town",
+        "played": 5,
+        "won": 2,
+        "drawn": 0,
+        "lost": 3,
+        "goalsFor": 7,
+        "goalsAgainst": 11,
+        "points": 6
       },
       {
         "position": 12,
-        "clubId": "newcastle-united",
-        "played": 4,
+        "clubId": "manchester-united",
+        "played": 5,
         "won": 1,
         "drawn": 2,
-        "lost": 1,
-        "goalsFor": 7,
+        "lost": 2,
+        "goalsFor": 8,
         "goalsAgainst": 8,
         "points": 5
       },
       {
         "position": 13,
-        "clubId": "manchester-united",
-        "played": 4,
+        "clubId": "nottingham-forest",
+        "played": 5,
         "won": 1,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 2,
-        "goalsFor": 7,
-        "goalsAgainst": 7,
-        "points": 4
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "points": 5
       },
       {
         "position": 14,
         "clubId": "sunderland",
-        "played": 4,
+        "played": 5,
         "won": 1,
         "drawn": 1,
-        "lost": 2,
-        "goalsFor": 3,
-        "goalsAgainst": 5,
+        "lost": 3,
+        "goalsFor": 6,
+        "goalsAgainst": 10,
         "points": 4
       },
       {
         "position": 15,
-        "clubId": "bournemouth",
-        "played": 4,
-        "won": 0,
-        "drawn": 3,
-        "lost": 1,
-        "goalsFor": 6,
-        "goalsAgainst": 7,
-        "points": 3
-      },
-      {
-        "position": 16,
         "clubId": "crystal-palace",
-        "played": 4,
+        "played": 5,
         "won": 1,
-        "drawn": 0,
+        "drawn": 1,
         "lost": 3,
         "goalsFor": 6,
         "goalsAgainst": 11,
-        "points": 3
+        "points": 4
       },
       {
-        "position": 17,
-        "clubId": "tottenham-hotspur",
-        "played": 4,
-        "won": 0,
-        "drawn": 2,
-        "lost": 2,
-        "goalsFor": 0,
-        "goalsAgainst": 5,
-        "points": 2
-      },
-      {
-        "position": 18,
-        "clubId": "fulham",
-        "played": 4,
-        "won": 0,
+        "position": 16,
+        "clubId": "aston-villa",
+        "played": 5,
+        "won": 1,
         "drawn": 1,
         "lost": 3,
         "goalsFor": 4,
-        "goalsAgainst": 7,
-        "points": 1
+        "goalsAgainst": 9,
+        "points": 4
+      },
+      {
+        "position": 17,
+        "clubId": "bournemouth",
+        "played": 5,
+        "won": 0,
+        "drawn": 3,
+        "lost": 2,
+        "goalsFor": 6,
+        "goalsAgainst": 8,
+        "points": 3
+      },
+      {
+        "position": 18,
+        "clubId": "coventry-city",
+        "played": 5,
+        "won": 1,
+        "drawn": 0,
+        "lost": 4,
+        "goalsFor": 1,
+        "goalsAgainst": 10,
+        "points": 3
       },
       {
         "position": 19,
-        "clubId": "aston-villa",
-        "played": 4,
+        "clubId": "fulham",
+        "played": 5,
         "won": 0,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 3,
-        "goalsFor": 1,
-        "goalsAgainst": 7,
-        "points": 1
+        "goalsFor": 5,
+        "goalsAgainst": 8,
+        "points": 2
       },
       {
         "position": 20,
-        "clubId": "coventry-city",
-        "played": 4,
+        "clubId": "tottenham-hotspur",
+        "played": 5,
         "won": 0,
-        "drawn": 0,
-        "lost": 4,
-        "goalsFor": 0,
-        "goalsAgainst": 10,
-        "points": 0
+        "drawn": 2,
+        "lost": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 8,
+        "points": 2
       }
     ]
   },
@@ -1015,7 +1015,7 @@
       "id": "table",
       "label": "Premier League table — Sky Sports",
       "url": "https://www.skysports.com/premier-league-table",
-      "checkedOn": "2026-09-17"
+      "checkedOn": "2026-09-23"
     }
   ]
 }
