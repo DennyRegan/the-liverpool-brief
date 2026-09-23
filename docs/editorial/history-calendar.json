@@ -7377,19 +7377,19 @@
       "historicalEventDate": "1990-09-16",
       "featuredWeek": "2026-09-14",
       "selection": "selected",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
       "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/liverpool-manchester-united-1990-beardsley-hat-trick.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-manchester-united-1990-beardsley-hat-trick",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-23T11:53:11Z",
         "evidence": "Denny reviewed the complete six 1990–91 Classic Matches drafts and instructed on 23 September 2026: “Ok commit and make live. Make sure to use correct metadata format”. This approves publication of these six specific articles."
       },
-      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Live routes must be verified before marking this row published.",
+      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Production deployment dpl_HHvbyMbtWSdmDJXscSSxt6vVtebs from commit cef82cf0ff9ec9d825aa9fb0032a9aaff3341558 reached READY on 23 September 2026. Canonical article URL returned HTTP 200; all six articles, History → Matches, the 1990–91 Season page and the current This Week page were verified live.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/32",
@@ -7410,19 +7410,19 @@
       "historicalEventDate": "1990-09-22",
       "featuredWeek": "2026-09-21",
       "selection": "selected",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
       "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/everton-liverpool-1990-opening-streak.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/everton-liverpool-1990-opening-streak",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-23T11:53:11Z",
         "evidence": "Denny reviewed the complete six 1990–91 Classic Matches drafts and instructed on 23 September 2026: “Ok commit and make live. Make sure to use correct metadata format”. This approves publication of these six specific articles."
       },
-      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Live routes must be verified before marking this row published.",
+      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Production deployment dpl_HHvbyMbtWSdmDJXscSSxt6vVtebs from commit cef82cf0ff9ec9d825aa9fb0032a9aaff3341558 reached READY on 23 September 2026. Canonical article URL returned HTTP 200; all six articles, History → Matches, the 1990–91 Season page and the current This Week page were verified live.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/32",
@@ -7443,19 +7443,19 @@
       "historicalEventDate": "1991-02-20",
       "featuredWeek": "2027-02-15",
       "selection": "selected",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
       "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/everton-liverpool-1991-four-four.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/everton-liverpool-1991-four-four",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-23T11:53:11Z",
         "evidence": "Denny reviewed the complete six 1990–91 Classic Matches drafts and instructed on 23 September 2026: “Ok commit and make live. Make sure to use correct metadata format”. This approves publication of these six specific articles."
       },
-      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Live routes must be verified before marking this row published.",
+      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Production deployment dpl_HHvbyMbtWSdmDJXscSSxt6vVtebs from commit cef82cf0ff9ec9d825aa9fb0032a9aaff3341558 reached READY on 23 September 2026. Canonical article URL returned HTTP 200; all six articles, History → Matches, the 1990–91 Season page and the current This Week page were verified live.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/32",
@@ -7476,19 +7476,19 @@
       "historicalEventDate": "1991-03-03",
       "featuredWeek": "2027-03-01",
       "selection": "selected",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
       "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/liverpool-arsenal-1991-title-race.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-arsenal-1991-title-race",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-23T11:53:11Z",
         "evidence": "Denny reviewed the complete six 1990–91 Classic Matches drafts and instructed on 23 September 2026: “Ok commit and make live. Make sure to use correct metadata format”. This approves publication of these six specific articles."
       },
-      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Live routes must be verified before marking this row published.",
+      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Production deployment dpl_HHvbyMbtWSdmDJXscSSxt6vVtebs from commit cef82cf0ff9ec9d825aa9fb0032a9aaff3341558 reached READY on 23 September 2026. Canonical article URL returned HTTP 200; all six articles, History → Matches, the 1990–91 Season page and the current This Week page were verified live.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/32",
@@ -7509,19 +7509,19 @@
       "historicalEventDate": "1991-03-23",
       "featuredWeek": "2027-03-22",
       "selection": "selected",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
       "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/derby-liverpool-1991-seven-goals.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/derby-liverpool-1991-seven-goals",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-23T11:53:11Z",
         "evidence": "Denny reviewed the complete six 1990–91 Classic Matches drafts and instructed on 23 September 2026: “Ok commit and make live. Make sure to use correct metadata format”. This approves publication of these six specific articles."
       },
-      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Live routes must be verified before marking this row published.",
+      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Production deployment dpl_HHvbyMbtWSdmDJXscSSxt6vVtebs from commit cef82cf0ff9ec9d825aa9fb0032a9aaff3341558 reached READY on 23 September 2026. Canonical article URL returned HTTP 200; all six articles, History → Matches, the 1990–91 Season page and the current This Week page were verified live.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/32",
@@ -7542,19 +7542,19 @@
       "historicalEventDate": "1991-04-13",
       "featuredWeek": "2027-04-12",
       "selection": "selected",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1990-91-classics-20260923-fyltntm",
       "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/leeds-liverpool-1991-five-four.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/leeds-liverpool-1991-five-four",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-23T11:53:11Z",
         "evidence": "Denny reviewed the complete six 1990–91 Classic Matches drafts and instructed on 23 September 2026: “Ok commit and make live. Make sure to use correct metadata format”. This approves publication of these six specific articles."
       },
-      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Live routes must be verified before marking this row published.",
+      "notes": "1990–91 Classic Matches batch requested by Denny on 23 September 2026. Astra-researched draft and source audit preserved in docs/editorial/drafts/. Denny approved all six articles for publication on 23 September. Public copy retains the approved prose, removes the duplicate Markdown title and uses the actual publication date. Entity, season and era metadata verified. No public source list, in line with Denny’s preference. Production deployment dpl_HHvbyMbtWSdmDJXscSSxt6vVtebs from commit cef82cf0ff9ec9d825aa9fb0032a9aaff3341558 reached READY on 23 September 2026. Canonical article URL returned HTTP 200; all six articles, History → Matches, the 1990–91 Season page and the current This Week page were verified live.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/32",
@@ -7609,7 +7609,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-23T11:53:11Z",
+  "updatedAt": "2026-09-23T12:01:45.579Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
