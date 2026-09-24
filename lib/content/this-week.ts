@@ -115,10 +115,10 @@ export function getArticleWeek(articles: ArchiveFeature[], days: ReturnType<type
   }));
 }
 
-// Articles already published elsewhere are revealed in This Week only when
-// their anniversary reaches the UK calendar day. This is display scheduling,
-// not an approval or article-publication mechanism.
-export function getVisibleArticleWeek(articles: ArchiveFeature[], days: ReturnType<typeof getHistoryWindow>, now = new Date()) {
-  const today = getLondonToday(now);
-  return getArticleWeek(articles, days).filter(day => day.iso <= today);
+// Prefer today's story, then the next one this week; after the last story,
+// keep the most recent one. The homepage should not disappear on a quiet day.
+export function getHomeWeekFeature(days: ReturnType<typeof getArticleWeek>, today: string) {
+  const populated = days.filter(day => day.articles.length > 0);
+  const day = populated.find(item => item.iso >= today) ?? populated.at(-1);
+  return day ? { day, article: day.articles[0] } : undefined;
 }

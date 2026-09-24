@@ -4,7 +4,7 @@ import { getWriting } from "@/lib/content/writing";
 import { getBrief } from "@/lib/content/briefs";
 import { getArchiveFeatures } from "@/lib/content/archive";
 import { getSeasons, seasonLabel } from "@/lib/content/seasons";
-import { getHistoryEvents, getHistoryWindow, getLondonToday, getVisibleArticleWeek } from "@/lib/content/this-week";
+import { getArticleWeek, getHistoryEvents, getHistoryWindow, getHomeWeekFeature, getLondonToday } from "@/lib/content/this-week";
 import { selectHomeWriting, selectHomeHistory, selectSeasonSpotlight } from "@/lib/content/homepage";
 import { formatLastUpdated, formatListDate, getArticleExcerpt, getExcerpt } from "@/lib/format";
 import { SiteHeader } from "@/app/components/SiteHeader";
@@ -36,11 +36,7 @@ export default function Home() {
   const now = new Date();
   const days = getHistoryWindow(getHistoryEvents(), now);
   const spotlight = selectSeasonSpotlight(seasons, days[0].iso);
-  const candidates = getVisibleArticleWeek(factual, days, now).filter(day => day.iso === getLondonToday(now)).flatMap(day => day.articles.map(article => ({
-    day, article,
-    event: { year: article.historicalEventDate?.slice(0, 4) ?? article.historicalPeriod, title: article.title, summary: article.excerpt },
-  })));
-  const feature = candidates[0];
+  const feature = getHomeWeekFeature(getArticleWeek(factual, days), getLondonToday(now));
   const browse = [
     ...(factual.some(article => article.articleType === "match") ? [{ href: "/history/matches", title: "Matches", text: "The games worth remembering." }] : []),
     ...(factual.some(article => article.articleType === "player") ? [{ href: "/history/players", title: "Players", text: "The people who wore the shirt." }] : []),
@@ -102,17 +98,17 @@ export default function Home() {
         </article>)}</div>
       </section>}
 
-      {(feature || spotlight) && <div className="home-weekly-features">
-      {feature && <section className="home-week" aria-labelledby="home-week-heading">
-        <div><h2 id="home-week-heading" className="eyebrow">This Week in History</h2><p className="home-week-date">{feature.day.label}<span>{feature.event.year}</span></p></div>
-        <article><h3>{feature.article ? <Link href={`/archive/${feature.article.slug}`}>{feature.event.title}</Link> : feature.event.title}</h3><p className="home-summary">{feature.event.summary}</p><div className="home-links">{feature.article && <Link className="read-link" href={`/archive/${feature.article.slug}`}>Read the full story →</Link>}<Link className="read-link" href="/this-week">Explore this week →</Link></div></article>
-      </section>}
+      <div className="home-weekly-features">
+      <section className="home-week" aria-labelledby="home-week-heading">
+        <div><h2 id="home-week-heading" className="eyebrow">This Week in History</h2>{feature && <p className="home-week-date">{feature.day.label}<span>{feature.article.historicalEventDate?.slice(0, 4) ?? feature.article.historicalPeriod}</span></p>}</div>
+        <article>{feature ? <><h3><Link href={`/archive/${feature.article.slug}`}>{feature.article.title}</Link></h3><p className="home-summary">{feature.article.excerpt}</p><div className="home-links"><Link className="read-link" href={`/archive/${feature.article.slug}`}>Read the full story →</Link><Link className="read-link" href="/this-week">Explore this week →</Link></div></> : <><p className="home-summary">No stories selected for this week yet.</p><Link className="read-link" href="/this-week">Explore this week →</Link></>}</article>
+      </section>
 
       {spotlight && <section className="home-week home-season" aria-labelledby="home-season-heading">
         <div><h2 id="home-season-heading" className="eyebrow">Season spotlight</h2></div>
         <article><h3><Link href={`/history/seasons/${spotlight.season}`}>Liverpool {seasonLabel(spotlight.season)}</Link></h3><p className="home-summary">{spotlight.overview[0]}</p><div className="home-links"><Link className="read-link" href={`/history/seasons/${spotlight.season}`}>Explore this season →</Link></div></article>
       </section>}
-      </div>}
+      </div>
 
 
     </main>

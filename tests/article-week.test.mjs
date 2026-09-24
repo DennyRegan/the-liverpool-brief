@@ -3,25 +3,31 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { getArticleWeek, getHistoryWindow, getLondonToday, getVisibleArticleWeek } from '../lib/content/this-week.ts';
+import { getArticleWeek, getHistoryWindow, getHomeWeekFeature, getLondonToday } from '../lib/content/this-week.ts';
 import { getArchiveFeatures } from '../lib/content/archive.ts';
 const article = (slug, date, extra = {}) => ({ slug, historicalEventDate: date, editorialMode: 'factual', ...extra });
 const event = (slug, date, archiveSlug) => ({ slug, year: Number(date.slice(0,4)), month: Number(date.slice(5,7)), day: Number(date.slice(8)), archiveSlug });
 const selected = days => days.flatMap(d => d.articles).map(a => a.slug);
 
-test('daily selection reveals approved stories at UK midnight, never on an earlier day', () => {
+test('the full Monday-to-Sunday selection remains visible throughout the week', () => {
   const articles = [article('monday', '1980-09-21'), article('wednesday', '1986-09-23'), article('friday', '1990-09-25'), article('draft', '1970-09-23', { editorialMode: undefined })];
   const visible = instant => {
     const now = new Date(instant);
-    return getVisibleArticleWeek(articles, getHistoryWindow([], now), now);
+    return getArticleWeek(articles, getHistoryWindow([], now));
   };
-  assert.deepEqual(selected(visible('2026-09-22T22:59:59Z')), ['monday']);
-  assert.deepEqual(selected(visible('2026-09-22T23:00:00Z')), ['monday', 'wednesday']);
-  assert.deepEqual(selected(visible('2026-09-24T22:59:59Z')), ['monday', 'wednesday']);
-  assert.deepEqual(selected(visible('2026-09-24T23:00:00Z')), ['monday', 'wednesday', 'friday']);
+  assert.deepEqual(selected(visible('2026-09-22T22:59:59Z')), ['monday', 'wednesday', 'friday']);
+  assert.deepEqual(selected(visible('2026-09-24T22:59:59Z')), ['monday', 'wednesday', 'friday']);
   assert.deepEqual(selected(visible('2026-09-27T22:59:59Z')), ['monday', 'wednesday', 'friday']);
   assert.deepEqual(selected(visible('2026-09-27T23:00:00Z')), []);
   assert.equal(getLondonToday(new Date('2027-01-04T00:00:00Z')), '2027-01-04');
+});
+
+test('homepage selects today, then the next story, then the latest past story', () => {
+  const week = getArticleWeek([article('monday', '1980-09-21'), article('friday', '1990-09-25')], getHistoryWindow([], new Date('2026-09-24T12:00:00Z')));
+  assert.equal(getHomeWeekFeature(week, '2026-09-21')?.article.slug, 'monday');
+  assert.equal(getHomeWeekFeature(week, '2026-09-24')?.article.slug, 'friday');
+  assert.equal(getHomeWeekFeature(week, '2026-09-27')?.article.slug, 'friday');
+  assert.equal(getHomeWeekFeature(getArticleWeek([], getHistoryWindow([], new Date('2026-09-24T12:00:00Z'))), '2026-09-24'), undefined);
 });
 
 test('article-only week excludes unreviewed and opinion content and dates outside the week', () => {
