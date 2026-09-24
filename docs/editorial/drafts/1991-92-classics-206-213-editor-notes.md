@@ -33,3 +33,26 @@ Draft: `docs/editorial/drafts/liverpool-sunderland-1992-fa-cup-final.md`. Second
 Claim map: lead/result/goals/record from match ledger and official histories; first-half chances and additional second-half opportunities from press; Souness physical attendance from contemporary reports and LFChistory; Moran ceremonial role from his official club recollection. Rush’s earlier final doubles freshly verified in official FA Cup history, https://www.liverpoolfc.com/info/fa-cup (High: two in 1986, two in 1989, 1992 fifth club win); no claim about all FA Cup goals.
 
 Conflicts/omissions: Guardian/British Soccer Week Rush68 versus official/database67; 67 retained on concordant club and ledger evidence. Thomas goal variously volley/half-volley; public says right-footed shot. Thomas second-goal touch is described as a pass in Sunday Times/British Soccer Week but a loose ball after challenge in Guardian: “ball ran through to Rush” does not invent a deliberate assist. Official 2012 retrospective says Moran “in charge”, while LFChistory lists Souness and contemporary press establishes him on bench; public distinguishes attendance, deputising and leading out rather than assigning exclusive management. No exact surgery date, medical assessment, penalty controversy or attendance (sources vary). UNVERIFIED/omitted: exclusive decision-making responsibility between Souness/Moran and footage-level intentionality of Thomas touch. No quotes; press-derived public narrative under200 words, supported by separately retrieved records/club histories.
+
+
+## 206 — Liverpool 3–1 Everton, 31 August 1991
+
+Draft: `docs/editorial/drafts/liverpool-everton-1991-burrows-derby.md`.
+
+- **High**, https://www.lfchistory.net/games/1795 — date, venue, result, first Burrows Liverpool goal, scorers, line-ups/substitutions, managers, position and points.
+- **High**, https://www.11v11.com/matches/liverpool-v-everton-31-august-1991-90165/ — independent match identity, scorers and line-ups.
+- **High for agreed actions; Medium for minute differences**, https://www.lfchistory.net/images/newspapers/riley/19910831vEverton.pdf — retrieved Times, Guardian, Sunday Times and British Soccer Week reports: early deflected Burrows goal, Walters cross/Saunders volley, Burrows pass/Houghton near-post finish, Beardsley return and Newell assist, absent Barnes/Rush/Wright, Whelan injury.
+- **High**, https://www.lfchistory.net/season-archive/games/34 — opening five fixtures, three home victories and league position. Ten points follows three wins and one draw, also recorded in match table.
+
+Conflicts/omissions: Burrows48/49seconds becomes inside opening minute. Newell76 in LFChistory versus78 in 11v11/press: no precise minute used. No claim concerning an Everton scoring record or motives behind Beardsley transfer. Narrative actions from contemporary reports; fixture, personnel and outcome independently checked. No quotes; press-derived passage under200 words.
+
+## 208 — Liverpool 3–2 Ipswich Town, 26 February 1992
+
+Draft: `docs/editorial/drafts/liverpool-ipswich-1992-extra-time-replay.md`.
+
+- **High for match structure and Liverpool goals; Medium for opposition clock**, https://www.lfchistory.net/games/1835 — fifth-round replay, venue/date, 1–0 half-time, 1–1 at90, 3–2 after extra time; Houghton45, Mølby98, McManaman100; substitution/assist context.
+- **High**, https://www.11v11.com/matches/liverpool-v-ipswich-town-26-february-1992-216574/ — independent result, extra time and Liverpool scoring minutes.
+- **High for agreed sequence; Medium for minutes**, https://www.lfchistory.net/images/newspapers/riley/19920226vIpswich.pdf — Times, Guardian and British Soccer Week contemporary reports: Ipswich Second Division; first-half chances, Houghton after returned corner, Johnson header from Whitton cross, Dozzell rebound after Stockwell pass, Stockwell foul/Saunders/Mølby free kick, Rosenthal pass/McManaman narrow-angle winner; Villa next.
+- **High**, https://www.lfchistory.net/season-archive/games/34 — original Ipswich0–0 ten days earlier, preceding Bristol Rovers replay, Villa quarter-final. Second successive replay, not third: Crewe was decided first time.
+
+Conflicts/omissions: Johnson89 in LFChistory is contradicted by contemporary81/82; public uses late second half. Dozzell95/96 and Mølby98/99 minor variations: no precise Dozzell minute; Mølby98 on concordant ledgers. Goal post of Johnson header varies, omitted. No all-time Ipswich Anfield record or disputed referee claims. No quotes; contemporary match-action paraphrase under200 words, remaining context from separate records.

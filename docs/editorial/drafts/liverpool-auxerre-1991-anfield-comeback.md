@@ -26,4 +26,4 @@ Auxerre still threatened to undo that work. Bruce Grobbelaar had already made an
 
 The French side were reduced to ten men with 15 minutes remaining when Frédéric Darras received a second booking for fouling Walters. Eight minutes later, Mølby sent Walters through. He reached the ball ahead of goalkeeper Bruno Martini and finished inside the far post in front of the Kop.
 
-Only 23,094 spectators were present, but they had seen Liverpool overturn a two-goal first-leg deficit in Europe for the first time. Marsh’s first goal had restored parity; Walters’s late finish ensured there would be no need for extra time.
+The crowd of 23,094 had seen Liverpool overturn a two-goal first-leg deficit in Europe for the first time. Marsh’s first goal had restored parity; Walters’s late finish ensured there would be no need for extra time.
