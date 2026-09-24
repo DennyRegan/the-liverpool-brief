@@ -15,6 +15,9 @@ oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 date: "2026-09-23"
+sources:
+  - "https://www.lfchistory.net/games/1778"
+  - "https://www.lfchistory.net/images/newspapers/riley/19910303vArsenal.pdf"
 ---
 
 Paul Merson’s second-half goal gave Arsenal a 1–0 victory at Anfield on 3 March 1991 and a three-point lead over Liverpool. Both clubs still had 12 league matches to play, but the direct meeting ended with the champions suffering their third successive defeat since Kenny Dalglish’s resignation.
@@ -30,3 +33,8 @@ He intercepted a Liverpool pass, advanced and exchanged passes with Alan Smith. 
 Moran brought David Speedie on for Gary Gillespie, but Liverpool could not equalise. Arsenal had completed a league double, having won 3–0 at Highbury in December, and inflicted Liverpool’s first home defeat of the season.
 
 The result did not settle the championship. It did leave Liverpool chasing their principal rivals at the end of a sequence that had also cost them their place in the FA Cup. A return to winning form was needed with almost a third of the league programme still remaining.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1778)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19910303vArsenal.pdf)

@@ -15,6 +15,9 @@ oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["goodison-park"]
 date: "2026-09-23"
+sources:
+  - "https://www.lfchistory.net/games/1748"
+  - "https://www.lfchistory.net/images/newspapers/riley/19900922veverton.pdf"
 ---
 
 Liverpool’s sixth successive league victory of 1990–91 demanded a late defensive effort after a three-goal lead had almost disappeared. A 3–2 win at Goodison Park on 22 September preserved their perfect start, with Peter Beardsley scoring twice six days after his hat-trick against Manchester United.
@@ -30,3 +33,8 @@ Andy Hinchcliffe scored after Everton took a free-kick quickly. Later, Stuart Mc
 Bruce Grobbelaar made important late saves and Ronnie Whelan cleared off the line as Liverpool held on. Beardsley and Barnes had supplied the goals; the final stages required their team-mates to protect them.
 
 Liverpool finished the afternoon on 18 points, four ahead of Arsenal. The opening league sequence would extend to eight wins before Norwich City finally took a point from them in October.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1748)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19900922veverton.pdf)

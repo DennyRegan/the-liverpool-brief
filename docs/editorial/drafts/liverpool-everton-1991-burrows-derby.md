@@ -14,6 +14,11 @@ managerIds: ["graeme-souness"]
 oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
+sources:
+  - "https://www.lfchistory.net/games/1795"
+  - "https://www.lfchistory.net/images/newspapers/riley/19910831vEverton.pdf"
+  - "https://www.lfchistory.net/season-archive/games/34"
+  - "https://www.11v11.com/matches/liverpool-v-everton-31-august-1991-90165/"
 ---
 
 David Burrows had never scored for Liverpool before Everton arrived at Anfield on 31 August 1991. Inside the opening minute, the left-back had his first goal and Graeme Souness’s side had the lead in a derby they would win 3–1.
@@ -25,3 +30,10 @@ Peter Beardsley’s first return to Anfield as an Everton player had provided th
 Burrows helped to settle the result after the interval. His long ball sent Ray Houghton forward, and the midfielder beat Southall at his near post in the 62nd minute. Liverpool now had three goals from three different scorers.
 
 Beardsley supplied the pass from which Mike Newell pulled one back late on, but Everton could not recover the three-goal deficit. Liverpool’s third home league match of the season had brought a third victory, following wins over Oldham Athletic and Queens Park Rangers. With ten points from their opening five games, they stood second in the First Division.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1795)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19910831vEverton.pdf)
+- [LFChistory: 1991–92 season results](https://www.lfchistory.net/season-archive/games/34)
+- [11v11: match record](https://www.11v11.com/matches/liverpool-v-everton-31-august-1991-90165/)

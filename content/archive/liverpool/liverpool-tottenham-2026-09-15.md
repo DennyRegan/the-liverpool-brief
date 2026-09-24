@@ -14,6 +14,9 @@ playerIds: ["alexis-mac-allister", "cody-gakpo", "dominik-szoboszlai", "giorgi-m
 oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["league-cup"]
 locationIds: ["anfield"]
+sources:
+  - "https://www.liverpoolfc.com/news/liverpool-beat-spurs-secure-carabao-cup-progress-anfield"
+  - "https://www.skysports.com/football/liverpool-vs-spurs/report/577579"
 ---
 
 Dominik Szoboszlai's long-range goal in stoppage time secured Liverpool's place in the Carabao Cup fourth round after Tottenham Hotspur had threatened to overturn a two-goal deficit at Anfield.
@@ -43,3 +46,8 @@ Liverpool could have restored their two-goal lead when Mac Allister found Szobos
 Alexander Isak, on for Koumas, had an attempt blocked, while Savio shot wide for Spurs. Szoboszlai finally settled the contest in the first minute of added time, controlling a bouncing ball outside the area and driving a powerful shot beyond Dúbravka into the top corner.
 
 Iraola said the changes had supplied the fresh legs Liverpool needed. He singled out the young players' willingness to compete and praised Koumas's influence on the intensity of those around him. The forward's work had helped set the tone; Mamardashvili's saves and the quality of Liverpool's finishing ensured that the performance brought a place in the next round.
+
+## Sources
+
+- [Liverpool FC: Tottenham cup match report](https://www.liverpoolfc.com/news/liverpool-beat-spurs-secure-carabao-cup-progress-anfield)
+- [Sky Sports: Liverpool 3–1 Tottenham](https://www.skysports.com/football/liverpool-vs-spurs/report/577579)

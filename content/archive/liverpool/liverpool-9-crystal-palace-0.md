@@ -95,3 +95,9 @@ That is what it looked like at the top. Seven months later Palace beat them in a
 Nobody in Anfield that night was watching the end of anything. They were watching the best team in the country take a newly promoted side apart, and saying goodbye to a lad from Garston who had scored 63 goals in 104 games and was going to Spain because there wasn't room for him.
 
 It is the highest point of the last great Liverpool team, and it is high because of how ordinary it felt at the time. Nine goals, and the story of the night was a substitution.
+
+## Sources
+
+- [LFChistory: Liverpool 9–0 Crystal Palace match record](https://www.lfchistory.net/games/1697)
+- [The Times: contemporary match report, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19890912vCrystalPalace.pdf)
+- [Liverpool FC: Aldridge’s Anfield farewell against Palace](https://www.liverpoolfc.com/news/announcements/277818-no-10-palace-beaten-9-0-in-aldo-s-anfield-farewell)

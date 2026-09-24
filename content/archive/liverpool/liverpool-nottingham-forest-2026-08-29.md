@@ -14,6 +14,9 @@ playerIds: ["alexander-isak", "cody-gakpo", "florian-wirtz"]
 oppositionIds: ["nottingham-forest"]
 competitionIds: ["premier-league"]
 locationIds: ["anfield"]
+sources:
+  - "https://www.liverpoolfc.com/news/isak-and-munoz-score-liverpool-draw-nottingham-forest"
+  - "https://www.skysports.com/football/liverpool-vs-nottingham-forest/559460"
 ---
 
 Víctor Muñoz marked his first Liverpool start with an equaliser eight minutes from time, rescuing a 2–2 draw against Nottingham Forest on an afternoon that left Andoni Iraola still waiting for his first competitive win in charge.
@@ -41,3 +44,8 @@ Wirtz found him with a pass to feet. The forward turned and struck a rising shot
 Dominik Szoboszlai sent a late free-kick narrowly wide, but Liverpool could not complete the turnaround. Forest continued to defend their area and left Anfield with a point of their own.
 
 Iraola praised Muñoz's persistence, including his willingness to keep taking on defenders after unsuccessful attempts. His assessment of the team was less forgiving. He attributed the improved second half to greater intensity and urgency, but made clear that the slow opening had cost Liverpool. Two comebacks had prevented defeat; neither had delivered the win he wanted.
+
+## Sources
+
+- [Liverpool FC: Nottingham Forest match report](https://www.liverpoolfc.com/news/isak-and-munoz-score-liverpool-draw-nottingham-forest)
+- [Sky Sports: Liverpool 2–2 Nottingham Forest](https://www.skysports.com/football/liverpool-vs-nottingham-forest/559460)

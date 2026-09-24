@@ -15,6 +15,9 @@ oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 date: "2026-09-23"
+sources:
+  - "https://www.lfchistory.net/games/1747"
+  - "https://www.lfchistory.net/images/newspapers/riley/19900916vManUtd.pdf"
 ---
 
 Peter Beardsley returned to Liverpool’s starting line-up with a hat-trick against Manchester United on 16 September 1990. The 4–0 victory at Anfield gave Kenny Dalglish’s side five wins from their opening five league matches and a four-point lead at the top of the First Division.
@@ -28,3 +31,8 @@ Barnes made it 3–0 before the interval. Ray Houghton crossed from the right, S
 Beardsley completed his hat-trick late in the second half. Houghton took a free-kick quickly, releasing him to lift the ball over Sealey. Ian Rush had chances without joining the scorers, while Liverpool kept United out to secure their second clean sheet of the league campaign.
 
 The champions had already beaten Sheffield United, Nottingham Forest, Aston Villa and Wimbledon. United became the fifth side in that sequence, and Liverpool’s most emphatic league win of the new season left them with 15 points from a possible 15. Six days later, Beardsley would score twice more in the derby at Goodison Park.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1747)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19900916vManUtd.pdf)

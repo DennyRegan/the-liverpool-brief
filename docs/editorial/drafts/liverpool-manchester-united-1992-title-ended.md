@@ -14,6 +14,12 @@ managerIds: ["ronnie-moran"]
 oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
+sources:
+  - "https://www.lfchistory.net/games/1852"
+  - "https://www.lfchistory.net/images/newspapers/riley/19920426vManUtd.pdf"
+  - "https://www.lfchistory.net/season-archive/games/34"
+  - "https://www.liverpoolfc.com/info/mark-walters"
+  - "https://www.liverpoolfc.com/info/ronnie-moran-0"
 ---
 
 Ian Rush scored his first goal against Manchester United on 26 April 1992, helping Liverpool to the victory that ended their visitors’ championship challenge. Mark Walters added the second in a 2–0 Anfield win which confirmed Leeds United as First Division champions.
@@ -27,3 +33,11 @@ United repeatedly threatened an equaliser. Paul Ince struck the post, and the vi
 The second goal arrived in the 87th minute. Ray Houghton’s shot was touched on to the crossbar by Schmeichel, and Walters followed up to finish the rebound. The substitute had completed the job begun by the striker he replaced.
 
 Liverpool remained sixth, well outside the championship contest themselves, but their last home league match of the season had decided its outcome. United left Anfield with their title hopes over; Liverpool still had an FA Cup final against Sunderland to come.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1852)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19920426vManUtd.pdf)
+- [LFChistory: 1991–92 season results](https://www.lfchistory.net/season-archive/games/34)
+- [Liverpool FC: Mark Walters profile](https://www.liverpoolfc.com/info/mark-walters)
+- [Liverpool FC: Ronnie Moran biography](https://www.liverpoolfc.com/info/ronnie-moran-0)

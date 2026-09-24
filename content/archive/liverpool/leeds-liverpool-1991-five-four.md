@@ -15,6 +15,11 @@ oppositionIds: ["leeds-united"]
 competitionIds: ["first-division"]
 locationIds: ["elland-road"]
 date: "2026-09-23"
+sources:
+  - "https://www.lfchistory.net/games/1785"
+  - "https://www.lfchistory.net/images/newspapers/riley/19910413vleeds.pdf"
+  - "https://www.liverpoolfc.com/news/first-team/216020-april-13-on-this-day-in-lfc-history-5"
+  - "https://www.11v11.com/matches/leeds-united-v-liverpool-13-april-1991-90070/"
 ---
 
 Liverpool scored four times in the opening 28 minutes at Elland Road on 13 April 1991, then needed a fifth goal to secure a 5–4 victory over Leeds United. John Barnes scored twice for Ronnie Moran’s side, while Lee Chapman’s second-half hat-trick brought Leeds within one goal of a remarkable recovery.
@@ -30,3 +35,10 @@ Barnes intervened again in the 79th minute, restoring a three-goal cushion at 5�
 Liverpool had conceded four second-half goals but kept all three points. Barnes’s second was their only goal after the interval, separating the teams at the end of a match in which both had produced four-goal spells.
 
 The victory ended a three-match league sequence without a win, following defeats by Queens Park Rangers and Southampton and a draw with Coventry City. Liverpool remained second in the First Division, with Leeds fourth, after an afternoon whose final score scarcely resembled the position at half-time.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1785)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19910413vleeds.pdf)
+- [Liverpool FC: the nine-goal match at Leeds](https://www.liverpoolfc.com/news/first-team/216020-april-13-on-this-day-in-lfc-history-5)
+- [11v11: match record](https://www.11v11.com/matches/leeds-united-v-liverpool-13-april-1991-90070/)

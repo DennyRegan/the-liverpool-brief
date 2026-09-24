@@ -95,3 +95,9 @@ Kenny Dalglish is Liverpool's greatest ever player and one of the greatest in th
 
 Two things were true at Anfield that afternoon, and neither takes anything from the other. Terry McDermott scored one of the greatest goals the ground has seen. And the best player on the pitch was the one who started it.
 
+## Sources
+
+- [LFChistory: Liverpool 7–0 Tottenham match record](https://www.lfchistory.net/games/1046)
+- [Liverpool FC: McDermott’s Anfield Road end header](https://www.liverpoolfc.com/news/anfield-road-end-goals-mcdermotts-header-leaves-paisley-awe)
+- [LFChistory: seven-goal match retrospective](https://www.lfchistory.net/articles/595)
+- [FourFourTwo: Ardiles, Villa and the 1978 overseas arrivals](https://www.fourfourtwo.com/features/ossie-ardiles-ricky-villa-tottenham-british-footballs-first-foreign-footballers)

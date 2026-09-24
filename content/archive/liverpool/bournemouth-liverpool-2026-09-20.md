@@ -13,6 +13,9 @@ season: "2026-27"
 playerIds: ["alexander-isak", "cody-gakpo", "florian-wirtz", "alisson-becker", "virgil-van-dijk"]
 oppositionIds: ["bournemouth"]
 competitionIds: ["premier-league"]
+sources:
+  - "https://www.liverpoolfc.com/news/alexander-isak-scores-earn-liverpool-victory-bournemouth"
+  - "https://www.skysports.com/football/bournemouth-vs-liverpool/report/559484"
 ---
 
 Liverpool spent much of Sunday afternoon looking for a way through at Bournemouth. Alexander Isak needed one clear opening. His 57th-minute finish gave Andoni Iraola a 1–0 win on his return to the Vitality Stadium and Liverpool their second Premier League victory of the season.
@@ -26,3 +29,8 @@ Then Cody Gakpo changed the direction of the match. He beat two defenders down t
 Liverpool still had work to do. Evanilson broke free and drew a diving save from Alisson, while Bournemouth continued to send balls into the box. Jeremy Jacquet and Virgil van Dijk helped keep those attacks from becoming a sustained run of clear chances. At the other end, substitute Lewis Koumas had a late effort saved by Petrović.
 
 There was no rush of Liverpool chances, and Bournemouth will regret Christie’s opportunity before the goal. But after three draws in their first four league games, Liverpool found a way to turn a close contest into three points. Isak supplied the finish; the clean sheet made it count.
+
+## Sources
+
+- [Liverpool FC: Bournemouth match report](https://www.liverpoolfc.com/news/alexander-isak-scores-earn-liverpool-victory-bournemouth)
+- [Sky Sports: Bournemouth 0–1 Liverpool](https://www.skysports.com/football/bournemouth-vs-liverpool/report/559484)

@@ -14,6 +14,10 @@ managerIds: []
 oppositionIds: ["portsmouth"]
 competitionIds: ["fa-cup"]
 locationIds: ["highbury"]
+sources:
+  - "https://www.lfchistory.net/games/1845"
+  - "https://www.lfchistory.net/images/newspapers/riley/19920405vPortsmouth.pdf"
+  - "https://www.lfchistory.net/season-archive/games/34"
 ---
 
 Ronnie Whelan kept Liverpool in the FA Cup with an equaliser in the closing minutes of extra time against Portsmouth at Highbury on 5 April 1992. Reduced to ten men by injury and trailing to Darren Anderton’s goal, Liverpool recovered to draw their semi-final 1–1.
@@ -27,3 +31,9 @@ Anderton finally broke the deadlock in the second period of extra time. Warren N
 Liverpool’s reprieve began with Steve Nicol carrying the ball forward and drawing a foul from Andy Awford outside the penalty area. John Barnes took the free kick. When the ball came back off the post, Whelan reached the rebound and scored.
 
 After almost two hours of football, Portsmouth’s lead had lasted only a few minutes. Liverpool had survived the late combination of an injury and a goal against them; the teams would meet again at Villa Park eight days later to decide who faced Sunderland in the final.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1845)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19920405vPortsmouth.pdf)
+- [LFChistory: 1991–92 season results](https://www.lfchistory.net/season-archive/games/34)

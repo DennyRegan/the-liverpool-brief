@@ -14,6 +14,9 @@ playerIds: ["alisson-becker", "alexander-isak"]
 oppositionIds: ["fulham"]
 competitionIds: ["premier-league"]
 locationIds: ["anfield"]
+sources:
+  - "https://www.liverpoolfc.com/news/liverpool-held-0-0-draw-fulham-anfield"
+  - "https://www.skysports.com/football/news/13583567/liverpool-0-0-fulham-andoni-iraola-waiting-for-first-premier-league-win-at-anfield-as-alvaro-arbeloa-makes-point"
 ---
 
 Liverpool's unbeaten start under Andoni Iraola continued with a goalless draw against Fulham, but a third draw in four Premier League matches left them with six points and still awaiting a home league victory.
@@ -39,3 +42,8 @@ Fulham continued to carry a threat. Alisson had to deal with King's effort from 
 Their final chances came in added time. Isak glanced a corner wide, then Ngumoha sent Frimpong's cross over the bar. Fulham had held on, while Liverpool's first scoreless performance of the campaign left Iraola reflecting on an attack that had not matched its recent standards.
 
 He felt the team's organisation had improved after the interval, but acknowledged that their best openings had largely come from set-pieces. A second successive league clean sheet gave Liverpool something to build on. On this occasion, it was the missing goal that determined the result.
+
+## Sources
+
+- [Liverpool FC: Fulham match report](https://www.liverpoolfc.com/news/liverpool-held-0-0-draw-fulham-anfield)
+- [Sky Sports: Liverpool 0–0 Fulham](https://www.skysports.com/football/news/13583567/liverpool-0-0-fulham-andoni-iraola-waiting-for-first-premier-league-win-at-anfield-as-alvaro-arbeloa-makes-point)

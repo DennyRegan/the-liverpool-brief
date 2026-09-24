@@ -14,6 +14,9 @@ playerIds: ["alexis-mac-allister", "dominik-szoboszlai", "florian-wirtz"]
 oppositionIds: ["atletico-madrid"]
 competitionIds: ["european-cup"]
 locationIds: ["anfield"]
+sources:
+  - "https://www.liverpoolfc.com/news/liverpool-comeback-clinches-champions-league-win-over-atletico-madrid"
+  - "https://www.skysports.com/football/liverpool-vs-a-madrid/report/577604"
 ---
 
 Alexis Mac Allister's second-half strike completed a Liverpool comeback against Atlético Madrid, securing a 2–1 win on Andoni Iraola's Champions League debut as a head coach.
@@ -41,3 +44,8 @@ Liverpool remained capable of adding a third. Robin Le Normand blocked an Isak a
 Mac Allister's post-match assessment focused on the response to conceding. He acknowledged that Liverpool had not defended the opening goal properly, but welcomed the team's determination and the way their improved start to the second half had produced the decisive strike.
 
 For Iraola, the result provided a winning first European night at Anfield. Liverpool had again needed to recover from a deficit, as they had in their opening two league games. This time the recovery delivered victory, leaving them with a successful start to the league phase before October's trip to LASK.
+
+## Sources
+
+- [Liverpool FC: Atlético Madrid match report](https://www.liverpoolfc.com/news/liverpool-comeback-clinches-champions-league-win-over-atletico-madrid)
+- [Sky Sports: Liverpool 2–1 Atlético Madrid](https://www.skysports.com/football/liverpool-vs-a-madrid/report/577604)

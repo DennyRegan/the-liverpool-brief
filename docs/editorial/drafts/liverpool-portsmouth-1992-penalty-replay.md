@@ -14,6 +14,12 @@ managerIds: ["ronnie-moran"]
 oppositionIds: ["portsmouth"]
 competitionIds: ["fa-cup"]
 locationIds: ["villa-park"]
+sources:
+  - "https://www.lfchistory.net/games/1848"
+  - "https://www.lfchistory.net/images/newspapers/riley/19920413vPortsmouth.pdf"
+  - "https://www.lfchistory.net/season-archive/games/34"
+  - "https://www.liverpoolfc.com/news/first-team/278507-no-7-thomas-secures-fa-cup-joy-for-the-reds-in-1992"
+  - "https://www.liverpoolfc.com/info/ronnie-moran-0"
 ---
 
 Liverpool reached the FA Cup final without leading Portsmouth during four hours of their semi-final tie. After a second 120-minute contest finished goalless at Villa Park on 13 April 1992, three successful penalties carried them through the replay, 3–1 in the shoot-out.
@@ -29,3 +35,11 @@ Martin Kuhl put Portsmouth’s first kick wide. John Barnes scored for Liverpool
 Saunders made it three successful Liverpool kicks from three. Beresford had to score to keep Portsmouth in contention, but his effort went wide and the contest was over.
 
 Liverpool could now prepare for Sunderland at Wembley on 9 May. Portsmouth had conceded just once across four hours of football, but the penalty shoot-out had cost them their Wembley place.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1848)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19920413vPortsmouth.pdf)
+- [LFChistory: 1991–92 season results](https://www.lfchistory.net/season-archive/games/34)
+- [Liverpool FC: Thomas and the 1992 FA Cup victory](https://www.liverpoolfc.com/news/first-team/278507-no-7-thomas-secures-fa-cup-joy-for-the-reds-in-1992)
+- [Liverpool FC: Ronnie Moran biography](https://www.liverpoolfc.com/info/ronnie-moran-0)

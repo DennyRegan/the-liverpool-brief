@@ -137,3 +137,10 @@ All working.
 No passengers.
 
 That was Paisley’s Liverpool.
+
+## Sources
+
+- [UEFA: the 1977 European Super Cup](https://www.uefa.com/uefasupercup/history/1977/)
+- [Liverpool FC: Terry McDermott profile](https://www.liverpoolfc.com/info/terry-mcdermott)
+- [LFChistory: Liverpool 6–0 Hamburg match record](https://www.lfchistory.net/games/1005)
+- [LFChistory: Terry McDermott career statistics](https://www.lfchistory.net/players/369)

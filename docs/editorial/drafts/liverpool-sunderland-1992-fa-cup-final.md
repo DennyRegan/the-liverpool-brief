@@ -14,6 +14,11 @@ managerIds: ["graeme-souness", "ronnie-moran"]
 oppositionIds: ["sunderland"]
 competitionIds: ["fa-cup"]
 locationIds: ["wembley"]
+sources:
+  - "https://www.lfchistory.net/games/1854"
+  - "https://www.lfchistory.net/Images/newspapers/riley/19920509vSunderland.pdf"
+  - "https://www.liverpoolfc.com/news/first-team/119035-fa-cup-final-memories-1992"
+  - "https://www.liverpoolfc.com/news/first-team/278507-no-7-thomas-secures-fa-cup-joy-for-the-reds-in-1992"
 ---
 
 Michael Thomas and Ian Rush scored after half-time as Liverpool beat Sunderland 2–0 at Wembley on 9 May 1992. The victory brought the club its fifth FA Cup, with Steve McManaman creating the opening goal and Rush setting a record for scoring in finals.
@@ -27,3 +32,10 @@ Norman kept out a long-range Mølby effort, and Dean Saunders headed against the
 Rush had now scored five goals across three FA Cup finals, adding to his doubles against Everton in 1986 and 1989. Liverpool had a two-goal lead to protect, and Sunderland could find no way back.
 
 Graeme Souness was on the bench after heart surgery, while Ronnie Moran, who had deputised during his absence, led the team out. Captain Mark Wright lifted the trophy at the end of a final decided by Liverpool’s improvement after the interval.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1854)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/Images/newspapers/riley/19920509vSunderland.pdf)
+- [Liverpool FC: memories of the 1992 FA Cup final](https://www.liverpoolfc.com/news/first-team/119035-fa-cup-final-memories-1992)
+- [Liverpool FC: Thomas and the 1992 FA Cup victory](https://www.liverpoolfc.com/news/first-team/278507-no-7-thomas-secures-fa-cup-joy-for-the-reds-in-1992)

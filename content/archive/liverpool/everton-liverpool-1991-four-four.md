@@ -15,6 +15,11 @@ oppositionIds: ["everton"]
 competitionIds: ["fa-cup"]
 locationIds: ["goodison-park"]
 date: "2026-09-23"
+sources:
+  - "https://www.lfchistory.net/games/1775"
+  - "https://www.lfchistory.net/images/newspapers/riley/19910220vEverton.pdf"
+  - "https://www.liverpoolfc.com/news/features/394559-coin-tosses-seven-hour-battles-and-more-liverpool-s-long-winded-cup-ties"
+  - "https://www.liverpoolfc.com/news/first-team/296818-3-everton-4-4-liverpool-february-20-1991"
 ---
 
 Liverpool led four times at Goodison Park on 20 February 1991 and still could not settle their FA Cup fifth-round tie with Everton. Peter Beardsley scored twice, Ian Rush and John Barnes once each, but two goals apiece from Graeme Sharp and substitute Tony Cottee produced a 4–4 draw after extra time.
@@ -30,3 +35,10 @@ Barnes supplied the fourth Liverpool goal with a curling right-footed shot over 
 The draw meant another replay at Goodison rather than a penalty shoot-out. Before that match could take place, Dalglish resigned on 22 February. This became the final game of his first spell as Liverpool manager.
 
 Ronnie Moran took temporary charge, and Everton won the second replay 1–0 on 27 February. The eight-goal match had left the cup contest unresolved; within a week, Liverpool had both a different manager and an exit from the competition.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1775)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19910220vEverton.pdf)
+- [Liverpool FC: the 1991 Everton cup trilogy](https://www.liverpoolfc.com/news/features/394559-coin-tosses-seven-hour-battles-and-more-liverpool-s-long-winded-cup-ties)
+- [Liverpool FC: the 4–4 Goodison replay](https://www.liverpoolfc.com/news/first-team/296818-3-everton-4-4-liverpool-february-20-1991)

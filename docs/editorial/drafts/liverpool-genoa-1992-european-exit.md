@@ -14,6 +14,10 @@ managerIds: ["graeme-souness"]
 oppositionIds: ["genoa"]
 competitionIds: ["uefa-cup"]
 locationIds: ["anfield"]
+sources:
+  - "https://www.lfchistory.net/games/1841"
+  - "https://www.lfchistory.net/images/newspapers/riley/19920318vgenoa.pdf"
+  - "https://www.lfchistory.net/season-archive/games/34"
 ---
 
 Liverpool had recovered from a two-goal first-leg deficit against Auxerre earlier in the season. Genoa denied them a repeat at Anfield on 18 March 1992, winning 2–1 to end their UEFA Cup campaign at the quarter-final stage.
@@ -27,3 +31,9 @@ Ian Rush gave the home side a response shortly after the restart, heading in Bar
 Instead, Genoa scored again. Tomáš Skuhravý helped launch the move, Stefano Eranio broke forward and Aguilera finished his delivery to claim his second goal of the evening.
 
 The 4–1 aggregate defeat concluded a European return that had taken Liverpool past Kuusysi Lahti, Auxerre and Swarovski Tirol. They had reached the last eight of the UEFA Cup; Genoa’s victories in both legs ensured their first campaign back ended there.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1841)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19920318vgenoa.pdf)
+- [LFChistory: 1991–92 season results](https://www.lfchistory.net/season-archive/games/34)

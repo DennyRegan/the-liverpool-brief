@@ -14,6 +14,11 @@ managerIds: []
 oppositionIds: ["ipswich-town"]
 competitionIds: ["fa-cup"]
 locationIds: ["anfield"]
+sources:
+  - "https://www.lfchistory.net/games/1835"
+  - "https://www.lfchistory.net/images/newspapers/riley/19920226vIpswich.pdf"
+  - "https://www.lfchistory.net/season-archive/games/34"
+  - "https://www.11v11.com/matches/liverpool-v-ipswich-town-26-february-1992-216574/"
 ---
 
 Liverpool were behind in extra time and facing an FA Cup exit when Jan Mølby and Steve McManaman transformed their fifth-round replay against Ipswich Town. Their goals, two minutes apart, secured a 3–2 win at Anfield on 26 February 1992 and a home quarter-final against Aston Villa.
@@ -27,3 +32,10 @@ Liverpool’s response came before the extra-time interval. Stockwell fouled Dea
 Two minutes later, Ronny Rosenthal released McManaman on the right. The winger finished from a narrow angle to restore Liverpool’s lead, completing the third change in the score during a frantic opening period of extra time.
 
 Ipswich had twice overturned Liverpool’s position in the tie. This time the home side held their advantage, reaching the last eight after a second successive replay in the competition.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1835)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19920226vIpswich.pdf)
+- [LFChistory: 1991–92 season results](https://www.lfchistory.net/season-archive/games/34)
+- [11v11: match record](https://www.11v11.com/matches/liverpool-v-ipswich-town-26-february-1992-216574/)

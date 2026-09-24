@@ -99,7 +99,9 @@ test('one historical Analysis reaches season, person, manager, competition, era 
  const links=analysisConnections(a,root);assert.ok(links.some(l=>l.href==='/history/people/john-barnes'));assert.ok(links.some(l=>l.href==='/history/seasons/1987-88'));assert.ok(links.some(l=>l.href===`/archive/${match.slug}`));assert.equal(new Set(links.map(l=>l.href)).size,links.length);
  assert.deepEqual(getExplorations(root).map(d=>[d.href,d.articles.length]),before);
  assert.equal(getWriting(root).filter(w=>w.slug===a.slug)[0].href,`/articles/${a.slug}`);
- assert.equal(selectHomeWriting(getWriting(root)).lead.slug,a.slug);
+ const testWriting=getWriting(root).find(w=>w.slug===a.slug);
+ assert.ok(testWriting);
+ assert.equal(selectHomeWriting([testWriting]).lead.slug,a.slug);
 }));
 test('current Analysis and Opinion use exact season metadata; drafts and unapproved reports stay hidden',()=>withContent(root=>{
  const a=analysis({season:'2026-27'});writeArticle(root,a);

@@ -17,6 +17,11 @@ competitionIds:
   - "first-division"
 oppositionIds: ["everton"]
 locationIds: ["goodison-park"]
+sources:
+  - "https://www.lfchistory.net/games/1479"
+  - "https://www.lfchistory.net/stats/fastest-goals"
+  - "https://www.liverpoolfc.com/news/features/339442-five-memorable-liverpool-wins-at-goodison-park"
+  - "https://www.liverpoolfc.com/info/kenny-dalglish-first-spell"
 ---
 Liverpool’s manager scored after 21 seconds at Goodison Park.
 
@@ -89,3 +94,10 @@ He scored the only goal.
 The manager had won Liverpool the league.
 
 Literally.
+
+## Sources
+
+- [LFChistory: Everton 2–3 Liverpool match record](https://www.lfchistory.net/games/1479)
+- [LFChistory: fastest Liverpool goals](https://www.lfchistory.net/stats/fastest-goals)
+- [Liverpool FC: memorable Goodison victories](https://www.liverpoolfc.com/news/features/339442-five-memorable-liverpool-wins-at-goodison-park)
+- [Liverpool FC: Dalglish’s first managerial spell](https://www.liverpoolfc.com/info/kenny-dalglish-first-spell)

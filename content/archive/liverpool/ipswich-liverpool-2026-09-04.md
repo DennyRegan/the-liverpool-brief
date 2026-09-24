@@ -14,6 +14,9 @@ playerIds: ["alexander-isak", "cody-gakpo"]
 oppositionIds: ["ipswich-town"]
 competitionIds: ["premier-league"]
 locationIds: ["portman-road"]
+sources:
+  - "https://www.liverpoolfc.com/news/alexander-isak-scores-twice-secure-liverpool-win-ipswich"
+  - "https://www.skysports.com/football/news/13565652/ipswich-0-2-liverpool-andoni-iraola-up-and-running-as-reds-boss-with-alexander-isak-at-the-double"
 ---
 
 Alexander Isak scored twice inside the opening nine minutes at Portman Road to give Andoni Iraola his first competitive victory as Liverpool head coach. Both goals came from Cody Gakpo passes, establishing a 2–0 advantage that Ipswich Town were unable to overturn.
@@ -41,3 +44,8 @@ Barcola came on with Ryan Gravenberch in the 64th minute, replacing Muñoz and I
 Trey Nyoni and Lewis Koumas were also introduced before the finish. Liverpool had not needed another burst of scoring: the two early goals and their subsequent defending had done the job.
 
 Isak explained afterwards that starting quickly had been a specific aim following the first two draws. He also described the intention to move forward promptly after regaining possession, before opponents could recover their shape. At Portman Road, Gakpo had twice found him in those openings. The next test would be Atlético Madrid at Anfield; Liverpool could approach it with their first win secured.
+
+## Sources
+
+- [Liverpool FC: Ipswich match report](https://www.liverpoolfc.com/news/alexander-isak-scores-twice-secure-liverpool-win-ipswich)
+- [Sky Sports: Ipswich 0–2 Liverpool](https://www.skysports.com/football/news/13565652/ipswich-0-2-liverpool-andoni-iraola-up-and-running-as-reds-boss-with-alexander-isak-at-the-double)

@@ -15,6 +15,11 @@ oppositionIds: ["derby-county"]
 competitionIds: ["first-division"]
 locationIds: ["baseball-ground"]
 date: "2026-09-23"
+sources:
+  - "https://www.lfchistory.net/games/1781"
+  - "https://www.lfchistory.net/images/newspapers/riley/19910323vDerby.pdf"
+  - "https://www.liverpoolfc.com/news/first-team/236388-no-1-seven-up-reds-shine-at-the-baseball-ground"
+  - "https://www.11v11.com/matches/derby-county-v-liverpool-23-march-1991-90024/"
 ---
 
 Liverpool returned to the top of the First Division with a 7–1 win at Derby County on 23 March 1991. John Barnes and Steve Nicol scored twice each, while Jan Mølby, Ian Rush and Ray Houghton also found the net at the Baseball Ground.
@@ -30,3 +35,10 @@ Houghton completed the scoring at the end of the match after a Barnes backheel. 
 The win had an immediate effect on the title race. Arsenal drew 0–0 at Norwich City, leaving Liverpool a point ahead with both clubs having played 29 matches. The six-goal margin also cut Arsenal’s advantage on goal difference to four.
 
 It was Liverpool’s third consecutive league victory under Moran, following wins over Manchester City and Sunderland. Less than a month after Dalglish’s departure, the caretaker had brought them back to first place. Derby, meanwhile, remained bottom after an afternoon in which their early equaliser had been followed by six unanswered goals.
+
+## Sources
+
+- [LFChistory: match record](https://www.lfchistory.net/games/1781)
+- [Contemporary match reports, via LFChistory (PDF)](https://www.lfchistory.net/images/newspapers/riley/19910323vDerby.pdf)
+- [Liverpool FC: seven goals at the Baseball Ground](https://www.liverpoolfc.com/news/first-team/236388-no-1-seven-up-reds-shine-at-the-baseball-ground)
+- [11v11: match record](https://www.11v11.com/matches/derby-county-v-liverpool-23-march-1991-90024/)
