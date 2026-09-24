@@ -7662,27 +7662,28 @@
       "historicalEventDate": "1992-03-18",
       "featuredWeek": "2027-03-15",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
-      "claim": {
-        "token": "1991-92-classics-20260924-9832v62z-209",
-        "claimedAt": "2026-09-24T05:37:11.074Z",
-        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/liverpool-genoa-1992-european-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 18 Mar 1992: European quarter-final exit at Anfield. Draft review precedes any publication; no approval recorded.",
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 18 Mar 1992: European quarter-final exit at Anfield. Draft review precedes any publication; no approval recorded. Astra completed an unpublished source-checked draft; full source scopes, conflicts and excluded claims are in docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md. No Denny publication approval.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/34",
           "confidence": "high",
           "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        },
+        {
+          "location": "docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved contemporary reports, independent match records and claim-specific source assessment for article 209."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1992-04-05-classic-210",
@@ -7690,27 +7691,28 @@
       "historicalEventDate": "1992-04-05",
       "featuredWeek": "2027-04-05",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
-      "claim": {
-        "token": "1991-92-classics-20260924-9832v62z-210",
-        "claimedAt": "2026-09-24T05:37:11.074Z",
-        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/liverpool-portsmouth-1992-whelan-rescue.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 5 Apr 1992: FA Cup semi-final after extra time. Draft review precedes any publication; no approval recorded.",
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 5 Apr 1992: FA Cup semi-final after extra time. Draft review precedes any publication; no approval recorded. Astra completed an unpublished source-checked draft; full source scopes, conflicts and excluded claims are in docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md. No Denny publication approval.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/34",
           "confidence": "high",
           "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        },
+        {
+          "location": "docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved contemporary reports, independent match records and claim-specific source assessment for article 210."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1992-04-13-classic-211",
@@ -7718,27 +7720,28 @@
       "historicalEventDate": "1992-04-13",
       "featuredWeek": "2027-04-12",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
-      "claim": {
-        "token": "1991-92-classics-20260924-9832v62z-211",
-        "claimedAt": "2026-09-24T05:37:11.074Z",
-        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/liverpool-portsmouth-1992-penalty-replay.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 13 Apr 1992: FA Cup semi-final replay. Draft review precedes any publication; no approval recorded.",
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 13 Apr 1992: FA Cup semi-final replay. Draft review precedes any publication; no approval recorded. Astra completed an unpublished source-checked draft; full source scopes, conflicts and excluded claims are in docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md. No Denny publication approval.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/34",
           "confidence": "high",
           "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        },
+        {
+          "location": "docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved contemporary reports, independent match records and claim-specific source assessment for article 211."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1992-04-26-classic-212",
@@ -7746,27 +7749,28 @@
       "historicalEventDate": "1992-04-26",
       "featuredWeek": "2027-04-26",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
-      "claim": {
-        "token": "1991-92-classics-20260924-9832v62z-212",
-        "claimedAt": "2026-09-24T05:37:11.074Z",
-        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/liverpool-manchester-united-1992-title-ended.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 26 Apr 1992: decisive result in United–Leeds title race. Draft review precedes any publication; no approval recorded.",
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 26 Apr 1992: decisive result in United–Leeds title race. Draft review precedes any publication; no approval recorded. Astra completed an unpublished source-checked draft; full source scopes, conflicts and excluded claims are in docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md. No Denny publication approval.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/34",
           "confidence": "high",
           "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        },
+        {
+          "location": "docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved contemporary reports, independent match records and claim-specific source assessment for article 212."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1992-05-09-classic-213",
@@ -7837,7 +7841,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-24T05:47:21.019Z",
+  "updatedAt": "2026-09-24T05:51:09.917Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }

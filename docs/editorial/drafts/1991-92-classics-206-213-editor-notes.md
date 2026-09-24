@@ -56,3 +56,53 @@ Draft: `docs/editorial/drafts/liverpool-ipswich-1992-extra-time-replay.md`.
 - **High**, https://www.lfchistory.net/season-archive/games/34 — original Ipswich0–0 ten days earlier, preceding Bristol Rovers replay, Villa quarter-final. Second successive replay, not third: Crewe was decided first time.
 
 Conflicts/omissions: Johnson89 in LFChistory is contradicted by contemporary81/82; public uses late second half. Dozzell95/96 and Mølby98/99 minor variations: no precise Dozzell minute; Mølby98 on concordant ledgers. Goal post of Johnson header varies, omitted. No all-time Ipswich Anfield record or disputed referee claims. No quotes; contemporary match-action paraphrase under200 words, remaining context from separate records.
+
+## 209 — Liverpool 1–2 Genoa, 18 March 1992
+
+Draft: `docs/editorial/drafts/liverpool-genoa-1992-european-exit.md`.
+
+- **High**, https://www.lfchistory.net/games/1841 — fixture, Anfield, quarter-final second leg, result, Aguilera27/72, Rush49, Wright/Tanner substitution and Hooper in goal.
+- **High for agreed actions; Medium for clocks**, https://www.lfchistory.net/images/newspapers/riley/19920318vgenoa.pdf — retrieved Times and Guardian: Braglia saves Barnes/Mølby, Wright hamstring injury, Ruotolo cross via Burrows/Aguilera control, Barnes cross/Rush header, Skuhravý/Eranio/Aguilera second goal sequence, aggregate4–1 and conclusion of European return.
+- **High for score only**, https://www.uefa.com/uefaeuropaleague/match/4994--genoa-vs-liverpool/ and https://www.uefa.com/uefaeuropaleague/match/4995--liverpool-vs-genoa/ — UEFA titles confirm2–0 and1–2. Extracted body offers no detailed events; not used for player or clock evidence.
+- **High**, https://www.lfchistory.net/season-archive/games/34 — Auxerre recovery and progression past Kuusysi/Auxerre/Tirol; two Genoa results. Aggregate arithmetic and need for three more goals after Rush follow recorded scores and away-goals rule.
+
+Conflicts/omissions: Rush47/48/49 in press/ledger becomes shortly after restart. Aguilera second71/72: no minute. Times claims Liverpool had never overturned a two-goal European first-leg deficit: rejected because Auxerre in this same season directly disproves it. No claim that Genoa were first Italian winners at Anfield. No exact length/reason for European ban, no invention of supporter sentiment. Contemporary action narrative under200 words; separate ledger supplies tournament route.
+
+## 210 — Liverpool 1–1 Portsmouth, 5 April 1992
+
+Draft: `docs/editorial/drafts/liverpool-portsmouth-1992-whelan-rescue.md`.
+
+- **High**, https://www.lfchistory.net/games/1845 — semi-final at Highbury, date, 0–0 after90, 1–1 after extra time, Anderton/Whelan order, two substitutions before McManaman injury.
+- **High for agreed events; Medium for precise minutes/touch**, https://www.lfchistory.net/images/newspapers/riley/19920405vPortsmouth.pdf — contemporary Times/Guardian/British Soccer Week: Grobbelaar save McLoughlin, Knight save Whelan, Rush volley crossbar, McManaman injured against Beresford/leaves ten, Neill pass/Anderton goal, Nicol fouled by Awford, Barnes free kick off post/Whelan rebound, Villa Park replay.
+- **High**, https://www.lfchistory.net/season-archive/games/34 — dates/venues, replay eight days later, Sunderland final.
+
+Conflicts/omissions: Anderton110/111, Whelan116/117: qualitative late extra-time chronology used. Times describes Knight pushing Barnes free kick onto post; other accounts do not establish goalkeeper touch, so public states ball came back off post. No diagnosis/severity assigned to McManaman injury, no exact goal minutes. LFChistory note calling this Souness's last game of season conflicts with final record, omitted. Under200 words of match-action paraphrase from contemporary compilation; fixture/structure separately documented.
+
+## 211 — Liverpool 0–0 Portsmouth, 13 April 1992; Liverpool win penalties3–1
+
+Draft: `docs/editorial/drafts/liverpool-portsmouth-1992-penalty-replay.md`.
+
+- **High**, https://www.lfchistory.net/games/1848 — Villa Park replay date/result, extra time, exact penalty sequence: Kuhl wide, Barnes scores, Symons scores, Rush scores, Neill saved, Saunders scores, Beresford wide.
+- **High for agreed actions; Medium for exact minutes**, https://www.lfchistory.net/images/newspapers/riley/19920413vPortsmouth.pdf — retrieved Times/Guardian/British Soccer Week: Anderton lob, Thomas/Saunders chance/Knight save/Symons block, McLoughlin crossbar from Beresford delivery, shoot-out and final opponent; Souness in hospital.
+- **High**, https://www.liverpoolfc.com/news/first-team/278507-no-7-thomas-secures-fa-cup-joy-for-the-reds-in-1992 and https://www.liverpoolfc.com/news/thomas-and-rush-end-tough-campaign-high-wembley — official club histories confirm Moran directed replay while Souness recovering, shoot-out following120 goalless minutes.
+- **High**, https://www.liverpoolfc.com/info/ronnie-moran-0 — official biography confirms deputising during Souness surgery and final ceremonial role.
+- **High**, https://www.lfchistory.net/season-archive/games/34 — both semi-final dates and final9May. Four hours without Liverpool leading is arithmetic from two120-minute games and the first match's scoring order.
+
+Conflicts/omissions: match record formally lists Souness as manager; public properly identifies active deputy Moran, supported by club and contemporary accounts. No exact operation date/medical detail. McLoughlin crossbar85/87 conflict omitted. Contemporary reports call this the first FA Cup semi-final settled by penalties; record superlative omitted as unnecessary. Avoid confusing it with first-ever FA Cup shoot-out. No quotes; penalty sequence sourced to independent match ledger, not solely press.
+
+## 212 — Liverpool 2–0 Manchester United, 26 April 1992
+
+Draft: `docs/editorial/drafts/liverpool-manchester-united-1992-title-ended.md`.
+
+- **High**, https://www.lfchistory.net/games/1852 — date/venue, Rush12/Walters87, Rush replaced27, position sixth, result.
+- **High**, https://www.11v11.com/matches/liverpool-v-manchester-united-26-april-1992-90569/ — independently confirms result, scorer minutes, substitution and league position.
+- **High for agreed actions; Medium for woodwork attribution**, https://www.lfchistory.net/images/newspapers/riley/19920426vManUtd.pdf — contemporary Times/Guardian reports: Leeds earlier win at Sheffield United, Manchester United needing win, Rush first goal against them/Barnes pass/in off post, knee injury, Ince post, repeated crossbar incidents, Schmeichel saves Saunders/Mølby, Houghton shot tipped onto bar/Walters rebound.
+- **High**, https://www.liverpoolfc.com/info/mark-walters — club confirms Walters scored on day Manchester United lost title to Leeds.
+- **High**, https://www.liverpoolfc.com/info/ronnie-moran-0 and https://lfchistory.net/managers/17 — official biography confirms deputising during surgery; detailed manager history specifies final seven league games that season and Souness return at final.
+- **High**, https://www.lfchistory.net/season-archive/games/34 — final home league game, sixth position and forthcoming Sunderland final.
+
+Conflicts/omissions: contemporary accounts attribute one United header against bar to different players (Bruce/McClair), so no player named for that incident; generic crossbar statement secure. No exact count of Rush's previous United appearances, no Leeds score, no retrospective inference about players' motivations. Formal match manager Souness distinguished from actual deputy Moran. Contemporary-derived action/context under200 words, fixture/status/management supported separately.
+
+## Batch review
+
+All eight drafts are private editorial files, with publication date omitted and factual metadata. No public source list, inline citation or Markdown H1. Dates/scores/competitions/venues and scorers checked against retrieved match records; narrative relies on retrieved contemporary reports with discrepancies recorded above. No quotes used. Player/opponent/competition/location IDs are canonical registry references; coordinator manages calendar status and saves. The eight cover distinct selected fixtures and do not duplicate the existing Kuusysi article. No additional Low-confidence claim included.
