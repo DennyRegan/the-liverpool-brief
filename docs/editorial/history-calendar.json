@@ -7568,6 +7568,230 @@
         }
       ],
       "researchStatus": "verified"
+    },
+    {
+      "id": "1991-08-31-classic-206",
+      "event": "Liverpool 3–1 Everton",
+      "historicalEventDate": "1991-08-31",
+      "featuredWeek": "2027-08-30",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
+      "claim": {
+        "token": "1991-92-classics-20260924-9832v62z-206",
+        "claimedAt": "2026-09-24T05:37:11.074Z",
+        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 31 Aug 1991: Peter Beardsley returns to Anfield with Everton. Draft review precedes any publication; no approval recorded.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/34",
+          "confidence": "high",
+          "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1991-11-06-classic-207",
+      "event": "Liverpool 3–0 Auxerre",
+      "historicalEventDate": "1991-11-06",
+      "featuredWeek": "2026-11-02",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
+      "claim": {
+        "token": "1991-92-classics-20260924-9832v62z-207",
+        "claimedAt": "2026-09-24T05:37:11.074Z",
+        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 6 Nov 1991: Liverpool overturn a two-goal European deficit. Draft review precedes any publication; no approval recorded.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/34",
+          "confidence": "high",
+          "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1992-02-26-classic-208",
+      "event": "Liverpool 3–2 Ipswich Town",
+      "historicalEventDate": "1992-02-26",
+      "featuredWeek": "2027-02-22",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
+      "claim": {
+        "token": "1991-92-classics-20260924-9832v62z-208",
+        "claimedAt": "2026-09-24T05:37:11.074Z",
+        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 26 Feb 1992: FA Cup fifth-round replay after extra time. Draft review precedes any publication; no approval recorded.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/34",
+          "confidence": "high",
+          "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1992-03-18-classic-209",
+      "event": "Liverpool 1–2 Genoa",
+      "historicalEventDate": "1992-03-18",
+      "featuredWeek": "2027-03-15",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
+      "claim": {
+        "token": "1991-92-classics-20260924-9832v62z-209",
+        "claimedAt": "2026-09-24T05:37:11.074Z",
+        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 18 Mar 1992: European quarter-final exit at Anfield. Draft review precedes any publication; no approval recorded.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/34",
+          "confidence": "high",
+          "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1992-04-05-classic-210",
+      "event": "Liverpool 1–1 Portsmouth",
+      "historicalEventDate": "1992-04-05",
+      "featuredWeek": "2027-04-05",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
+      "claim": {
+        "token": "1991-92-classics-20260924-9832v62z-210",
+        "claimedAt": "2026-09-24T05:37:11.074Z",
+        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 5 Apr 1992: FA Cup semi-final after extra time. Draft review precedes any publication; no approval recorded.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/34",
+          "confidence": "high",
+          "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1992-04-13-classic-211",
+      "event": "Liverpool 0–0 Portsmouth (3–1 on penalties)",
+      "historicalEventDate": "1992-04-13",
+      "featuredWeek": "2027-04-12",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
+      "claim": {
+        "token": "1991-92-classics-20260924-9832v62z-211",
+        "claimedAt": "2026-09-24T05:37:11.074Z",
+        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 13 Apr 1992: FA Cup semi-final replay. Draft review precedes any publication; no approval recorded.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/34",
+          "confidence": "high",
+          "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1992-04-26-classic-212",
+      "event": "Liverpool 2–0 Manchester United",
+      "historicalEventDate": "1992-04-26",
+      "featuredWeek": "2027-04-26",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
+      "claim": {
+        "token": "1991-92-classics-20260924-9832v62z-212",
+        "claimedAt": "2026-09-24T05:37:11.074Z",
+        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 26 Apr 1992: decisive result in United–Leeds title race. Draft review precedes any publication; no approval recorded.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/34",
+          "confidence": "high",
+          "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1992-05-09-classic-213",
+      "event": "Liverpool 2–0 Sunderland",
+      "historicalEventDate": "1992-05-09",
+      "featuredWeek": "2027-05-03",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
+      "claim": {
+        "token": "1991-92-classics-20260924-9832v62z-213",
+        "claimedAt": "2026-09-24T05:37:11.074Z",
+        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 9 May 1992: FA Cup final. Draft review precedes any publication; no approval recorded.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/34",
+          "confidence": "high",
+          "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        }
+      ],
+      "researchStatus": "needs_research"
     }
   ],
   "gaps": [
@@ -7609,7 +7833,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-23T12:01:45.579Z",
+  "updatedAt": "2026-09-24T05:37:11.074Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
