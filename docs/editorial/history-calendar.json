@@ -7603,27 +7603,28 @@
       "historicalEventDate": "1991-11-06",
       "featuredWeek": "2026-11-02",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
-      "claim": {
-        "token": "1991-92-classics-20260924-9832v62z-207",
-        "claimedAt": "2026-09-24T05:37:11.074Z",
-        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/liverpool-auxerre-1991-anfield-comeback.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 6 Nov 1991: Liverpool overturn a two-goal European deficit. Draft review precedes any publication; no approval recorded.",
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 6 Nov 1991: Liverpool overturn a two-goal European deficit. Draft review precedes any publication; no approval recorded. Astra completed the source-checked unpublished draft; claim map, conflicts and confidence labels are in docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md. No Denny publication approval.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/34",
           "confidence": "high",
           "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        },
+        {
+          "location": "docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match-specific contemporary, official and independent records with source scopes and disputed details for article 207."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1992-02-26-classic-208",
@@ -7771,27 +7772,28 @@
       "historicalEventDate": "1992-05-09",
       "featuredWeek": "2027-05-03",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/season_1990_91_astra; task 1991-92-classics-20260924-9832v62z",
-      "claim": {
-        "token": "1991-92-classics-20260924-9832v62z-213",
-        "claimedAt": "2026-09-24T05:37:11.074Z",
-        "baseCommit": "8472c2d74a76fb79ac7b47b3b5a1a305aa409199"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/liverpool-sunderland-1992-fa-cup-final.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 9 May 1992: FA Cup final. Draft review precedes any publication; no approval recorded.",
+      "notes": "Denny requested a researched 1991–92 Classic Matches batch on 24 September 2026. Preliminary fixture selection: 9 May 1992: FA Cup final. Draft review precedes any publication; no approval recorded. Astra completed the source-checked unpublished draft; claim map, conflicts and confidence labels are in docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md. No Denny publication approval.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/34",
           "confidence": "high",
           "scope": "Retrieved season fixture ledger establishes event date, score, venue and competition only; match narrative still needs independent checks."
+        },
+        {
+          "location": "docs/editorial/drafts/1991-92-classics-206-213-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match-specific contemporary, official and independent records with source scopes and disputed details for article 213."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     }
   ],
   "gaps": [
@@ -7833,7 +7835,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-24T05:37:11.074Z",
+  "updatedAt": "2026-09-24T05:42:33.573Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }

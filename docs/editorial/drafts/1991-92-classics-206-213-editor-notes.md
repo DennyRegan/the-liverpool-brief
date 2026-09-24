@@ -1,0 +1,35 @@
+# Classic Matches 206–213: 1991–92 editorial evidence
+
+Research/writing: actual configured model `gpt-6-astra`, worker `/root/season_1990_91_astra`, task `1991-92-classics-20260924-9832v62z`. Fresh retrieval 24 September 2026. Coordinator confirmed eight remote main claims at `860198a7f30b1089bd493cd4bb2955a062e8248d`. Coordinator owns calendar, reconciliation and git saves. Drafts remain unpublished and unapproved. Read AGENTS.md, editorial README, season context, current ArchiveFeatureSchema, canonical entities and previous batch samples. Follow Denny’s newer instruction: no sources or editorial notes in public draft files; no publication date. All historical dates use historicalEventDate. Kuusysi report is already published and is not duplicated.
+
+## Shared source
+
+- **High**, https://www.lfchistory.net/season-archive/games/34 — full season ledger freshly retrieved. Scope: fixture chronology, dates, results, cup rounds and venues. Independent specialist archive, not Liverpool’s official website. Match action requires the match-specific evidence below.
+
+## 207 — Liverpool 3–0 Auxerre, 6 November 1991
+
+Draft: `docs/editorial/drafts/liverpool-auxerre-1991-anfield-comeback.md`. First requested reader sample.
+
+- **High**, https://www.lfchistory.net/games/1810 — date/venue, round, 2–0 half-time, 3–0 result, first-leg 0–2 and aggregate 3–2; Mølby penalty4, Marsh29, Walters83; Marsh first goal; Souness/Roux managers; Darras75; attendance23,094.
+- **High**, https://www.11v11.com/matches/liverpool-v-auxerre-06-november-1991-217664/ — independent fixture/result/stage/venue, attendance, all three scorers/minutes and Marsh’s first Liverpool goal. Not evidence for Darras or Auxerre chances because opposition details are absent.
+- **High for agreed match action, Medium for isolated clock differences**, https://www.lfchistory.net/images/newspapers/riley/19911106vAuxerre.pdf — actually retrieved and read contemporary Times, Guardian and British Soccer Week compilation. Scope: Mahé foul on McManaman, Marsh header from Houghton, Grobbelaar saves, Roche second-half effort, Darras second booking for Walters foul, Mølby through-ball/finish inside far post; first Liverpool recovery from a two-goal European first-leg deficit.
+- **High**, https://www.liverpoolfc.com/news/first-team/130169-marsh-calls-on-spirit-of-auxerre-91 — official interview with participant Mike Marsh; unfamiliar right-back assignment, header before half-hour, Mølby releasing Walters who beats keeper to ball, 23,000 crowd and unprecedented two-goal recovery. Retrospective recollection, cross-checked against contemporary reports and independent records; no quotation used.
+- **High**, https://www.liverpoolfc.com/news/comebacks-and-first-step-glory-five-memorable-wins-v-french-teams — retrieved official club retrospective independently corroborates first-leg deficit, penalty4, Marsh before half-hour, winner83 and Mølby pass.
+
+Claim map: lead, scoring chronology, first goal and attendance from independent records; action corroborated by contemporary reports and Marsh interview. Public first-ever claim explicitly limited to a two-goal FIRST-LEG European deficit, not all comebacks. Sources contribute fewer than200 public words each; no direct quotation.
+
+Conflicts/omissions: Times gives Marsh31 and Walters84; records and official accounts support Marsh29 and Walters83. Public keeps approximate Marsh timing, uses independently corroborated seven-minutes-remaining winner. Times calls referee Danish in narrative but Portuguese in team block; referee omitted. Early saved Auxerre effort attributed to Kovács in Times/British Soccer Week but Dutuel in Guardian; public does not name that shooter. No claim that the stadium was full, no invented atmosphere, no unsupported foreign-player-rule explanation. UNVERIFIED/omitted: footage-level confirmation of every touch, unneeded injury lists and quoted tactical motives.
+
+## 213 — Liverpool 2–0 Sunderland, 9 May 1992
+
+Draft: `docs/editorial/drafts/liverpool-sunderland-1992-fa-cup-final.md`. Second requested reader sample.
+
+- **High**, https://www.lfchistory.net/games/1854 — date, Wembley final, 0–0 half-time, Thomas47 and Rush67, captain Wright, line-up, Souness returned/Moran led team out. Record distinguishes formal manager from ceremonial role.
+- **High**, https://www.11v11.com/matches/liverpool-v-sunderland-09-may-1992-216586/ — independent fixture/result/scorers and personnel.
+- **High for agreed actions; Medium for minor clock/assist differences**, https://www.lfchistory.net/Images/newspapers/riley/19920509vSunderland.pdf — actual retrieved contemporary Times, Guardian, Sunday Times and British Soccer Week compilation. Scope: Thomas early miss after Houghton pass; Byrne miscue; McManaman switched left to right before interval; Thomas right-foot shot following McManaman delivery; Mølby saved, Saunders header onto bar; Saunders/Thomas/Rush goal sequence, low far-corner finish; Souness on bench following surgery. No contemporary rhetorical judgements adopted.
+- **High**, https://www.liverpoolfc.com/news/first-team/119035-fa-cup-final-memories-1992 — official club retrospective: Sunderland Second Division, Thomas just after interval/Rush23minutes remaining; record five goals across three finals; Moran leads team out while Souness recovering.
+- **High**, https://www.liverpoolfc.com/news/first-team/278507-no-7-thomas-secures-fa-cup-joy-for-the-reds-in-1992 — official club retrospective independently confirms McManaman assist, Thomas47/Rush67, Wright lifts trophy, Souness trophy. Fifth club FA Cup corroborated by contemporary reports.
+
+Claim map: lead/result/goals/record from match ledger and official histories; first-half chances and additional second-half opportunities from press; Souness physical attendance from contemporary reports and LFChistory; Moran ceremonial role from his official club recollection. Rush’s earlier final doubles freshly verified in official FA Cup history, https://www.liverpoolfc.com/info/fa-cup (High: two in 1986, two in 1989, 1992 fifth club win); no claim about all FA Cup goals.
+
+Conflicts/omissions: Guardian/British Soccer Week Rush68 versus official/database67; 67 retained on concordant club and ledger evidence. Thomas goal variously volley/half-volley; public says right-footed shot. Thomas second-goal touch is described as a pass in Sunday Times/British Soccer Week but a loose ball after challenge in Guardian: “ball ran through to Rush” does not invent a deliberate assist. Official 2012 retrospective says Moran “in charge”, while LFChistory lists Souness and contemporary press establishes him on bench; public distinguishes attendance, deputising and leading out rather than assigning exclusive management. No exact surgery date, medical assessment, penalty controversy or attendance (sources vary). UNVERIFIED/omitted: exclusive decision-making responsibility between Souness/Moran and footage-level intentionality of Thomas touch. No quotes; press-derived public narrative under200 words, supported by separately retrieved records/club histories.

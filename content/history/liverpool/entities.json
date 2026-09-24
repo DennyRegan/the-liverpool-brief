@@ -2528,5 +2528,20 @@
     "id": "rc-lens",
     "label": "Lens",
     "kind": "opposition"
+  },
+  {
+    "id": "auxerre",
+    "label": "Auxerre",
+    "kind": "opposition"
+  },
+  {
+    "id": "genoa",
+    "label": "Genoa",
+    "kind": "opposition"
+  },
+  {
+    "id": "portsmouth",
+    "label": "Portsmouth",
+    "kind": "opposition"
   }
 ]
