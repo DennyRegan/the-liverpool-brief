@@ -1,6 +1,6 @@
 ---
 {
-  "lastUpdated": "2026-09-23T17:00:58.000Z",
+  "lastUpdated": "2026-09-24T17:10:31.000Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
@@ -67,6 +67,33 @@
           "name": "Reuters — confidence: high",
           "platform": "Squad announcement report, 18 September 2026",
           "url": "https://www.reuters.com/sports/soccer/alexander-arnold-returns-england-squad-tuchel-makes-10-changes-world-cup-2026-09-18/"
+        }
+      ]
+    },
+    {
+      "headline": "Liverpool feature in three Premier League award shortlists",
+      "category": "Awards",
+      "summary": "Andoni Iraola is nominated for Manager of the Month, while Alexander Isak and Jeremy Jacquet are shortlisted for Player of the Month. Alisson Becker’s save against Bournemouth is also up for Save of the Month. Isak scored three league goals in September, and Liverpool kept three clean sheets.",
+      "sources": [
+        {
+          "name": "Premier League — confidence: high",
+          "platform": "Manager of the Month shortlist, 24 September 2026",
+          "url": "https://www.premierleague.com/en/news/4725621"
+        },
+        {
+          "name": "Premier League — confidence: high",
+          "platform": "Player of the Month shortlist, 24 September 2026",
+          "url": "https://www.premierleague.com/en/news/4725624"
+        },
+        {
+          "name": "Premier League — confidence: high",
+          "platform": "Save of the Month shortlist, 24 September 2026",
+          "url": "https://www.premierleague.com/en/news/4725622"
+        },
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Alisson nominated for Save of the Month, 24 September 2026",
+          "url": "https://www.liverpoolfc.com/news/alisson-becker-nominated-premier-league-save-month-0"
         }
       ]
     }
