@@ -8068,27 +8068,28 @@
       "historicalEventDate": "1974-07-26",
       "featuredWeek": "2026-07-20",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/paisley_research; workspace 16ee02921922",
-      "claim": {
-        "token": "paisley-guided-journey-16ee02921922-20260925",
-        "claimedAt": "2026-09-25T13:05:10.485Z",
-        "baseCommit": "6335ad76a8852fa02cc1e5989620e0014c951b93"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/bob-paisley-guided-journey.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned a complete connected Paisley journey on 25 September 2026. Unpublished factual chapter draft and evidence only; no article, journey or site publication approved. Appointment date is calendar anchor, not whole narrative period. Existing weekly selections and all other drafts preserved.",
+      "notes": "Denny commissioned a complete connected Paisley journey on 25 September 2026. Unpublished factual chapter draft and evidence only; no article, journey or site publication approved. Appointment date is calendar anchor, not whole narrative period. Existing weekly selections and all other drafts preserved. Complete eight-chapter chronological draft and JSON reader data saved with separate source-confidence evidence notes. Original canonical article links are optional depth. No publication date, public collection change, site release or approval inferred. Appointment anchor is announcement date; notes distinguish 13 August official takeover.",
       "evidence": [
         {
           "location": "content/history/liverpool/journeys/bob-paisleys-liverpool.json",
           "confidence": "high",
           "scope": "Existing canonical journey identity and destination references; not sufficient evidence for new chapter prose."
+        },
+        {
+          "location": "docs/editorial/drafts/bob-paisley-guided-journey-evidence.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research, factual writing and cross-checks by configured gpt-6-astra worker /root/paisley_research; full source scopes, conflicts and navigation mapping in separate notes."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     }
   ],
   "gaps": [
@@ -8130,7 +8131,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-25T13:05:10.485Z",
+  "updatedAt": "2026-09-25T13:12:47.324Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
