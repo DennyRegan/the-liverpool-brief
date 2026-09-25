@@ -7800,6 +7800,258 @@
         }
       ],
       "researchStatus": "verified"
+    },
+    {
+      "id": "1994-08-20-crystal-palace-liverpool",
+      "event": "Crystal Palace 1–6 Liverpool",
+      "historicalEventDate": "1994-08-20",
+      "featuredWeek": "2026-08-17",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
+      "claim": {
+        "token": "1994-95-12e9ee40df22",
+        "claimedAt": "2026-09-25T11:42:47.036Z",
+        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/36",
+          "confidence": "high",
+          "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1994-08-28-liverpool-arsenal",
+      "event": "Liverpool 3–0 Arsenal",
+      "historicalEventDate": "1994-08-28",
+      "featuredWeek": "2026-08-24",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
+      "claim": {
+        "token": "1994-95-12e9ee40df22",
+        "claimedAt": "2026-09-25T11:42:47.036Z",
+        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/36",
+          "confidence": "high",
+          "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1994-11-30-blackburn-rovers-liverpool",
+      "event": "Blackburn Rovers 1–3 Liverpool",
+      "historicalEventDate": "1994-11-30",
+      "featuredWeek": "2026-11-30",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
+      "claim": {
+        "token": "1994-95-12e9ee40df22",
+        "claimedAt": "2026-09-25T11:42:47.036Z",
+        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/36",
+          "confidence": "high",
+          "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1995-01-11-liverpool-arsenal",
+      "event": "Liverpool 1–0 Arsenal",
+      "historicalEventDate": "1995-01-11",
+      "featuredWeek": "2026-01-05",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
+      "claim": {
+        "token": "1994-95-12e9ee40df22",
+        "claimedAt": "2026-09-25T11:42:47.036Z",
+        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/36",
+          "confidence": "high",
+          "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1995-03-08-crystal-palace-liverpool",
+      "event": "Crystal Palace 0–1 Liverpool",
+      "historicalEventDate": "1995-03-08",
+      "featuredWeek": "2026-03-02",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
+      "claim": {
+        "token": "1994-95-12e9ee40df22",
+        "claimedAt": "2026-09-25T11:42:47.036Z",
+        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/36",
+          "confidence": "high",
+          "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1995-03-11-liverpool-tottenham-hotspur",
+      "event": "Liverpool 1–2 Tottenham Hotspur",
+      "historicalEventDate": "1995-03-11",
+      "featuredWeek": "2026-03-09",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
+      "claim": {
+        "token": "1994-95-12e9ee40df22",
+        "claimedAt": "2026-09-25T11:42:47.036Z",
+        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/36",
+          "confidence": "high",
+          "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1995-03-19-liverpool-manchester-united",
+      "event": "Liverpool 2–0 Manchester United",
+      "historicalEventDate": "1995-03-19",
+      "featuredWeek": "2026-03-16",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
+      "claim": {
+        "token": "1994-95-12e9ee40df22",
+        "claimedAt": "2026-09-25T11:42:47.036Z",
+        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/36",
+          "confidence": "high",
+          "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1995-04-02-liverpool-bolton-wanderers",
+      "event": "Liverpool 2–1 Bolton Wanderers",
+      "historicalEventDate": "1995-04-02",
+      "featuredWeek": "2026-03-30",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
+      "claim": {
+        "token": "1994-95-12e9ee40df22",
+        "claimedAt": "2026-09-25T11:42:47.036Z",
+        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/36",
+          "confidence": "high",
+          "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        }
+      ],
+      "researchStatus": "needs_research"
+    },
+    {
+      "id": "1995-05-14-liverpool-blackburn-rovers",
+      "event": "Liverpool 2–1 Blackburn Rovers",
+      "historicalEventDate": "1995-05-14",
+      "featuredWeek": "2026-05-11",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
+      "claim": {
+        "token": "1994-95-12e9ee40df22",
+        "claimedAt": "2026-09-25T11:42:47.036Z",
+        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/36",
+          "confidence": "high",
+          "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        }
+      ],
+      "researchStatus": "needs_research"
     }
   ],
   "gaps": [
@@ -7841,7 +8093,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-24T05:51:09.917Z",
+  "updatedAt": "2026-09-25T11:42:47.036Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
