@@ -1,6 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
 import {
   getV3Context,
   deriveTimeline,
@@ -11,6 +13,9 @@ import {
   continueFrom,
   JourneySchema,
   timelineOptions,
+  journeyStepHref,
+  journeyStepIndex,
+  journeyMinutes,
 } from "../lib/content/history-v3.ts";
 const context = getV3Context();
 const timeline = deriveTimeline(context);
@@ -139,19 +144,94 @@ test("all four editorial journeys resolve deterministically to canonical destina
     const raw = JSON.parse(
       fs.readFileSync(`content/history/liverpool/journeys/${j.id}.json`),
     );
-    assert.deepEqual(
-      raw.steps.map((s) => Object.keys(s).sort()),
-      raw.steps.map(() => ["id", "kind"]),
-    );
+    assert.ok(JourneySchema.safeParse(raw).success);
     for (const s of j.steps) {
       assert.ok(s.href.startsWith("/"));
       assert.ok(!("body" in s));
+      const { chapter, reading, ...canonical } = s;
       assert.deepEqual(
         resolveJourneyStep({ kind: s.kind, id: s.id }, context),
-        s,
+        canonical,
       );
+      if (chapter) {
+        assert.ok(chapter.paragraphs.length);
+        for (const ref of reading) assert.equal(ref.href, resolveJourneyStep(ref, context).href);
+      }
     }
   }
+});
+
+function narrativeFixture() {
+  const legacy = journeys.find((j) => j.id === "dalglish-player-to-manager");
+  return {
+    id: "chapter-fixture", title: "Test journey", introduction: "Test introduction",
+    sources: [{ id: "test-source", label: "Test evidence", url: "https://example.com/evidence" }],
+    legacySteps: ["chapter-three", "chapter-one", "chapter-two"],
+    steps: legacy.steps.slice(0, 3).map(({ kind, id }, index) => ({
+      kind, id, chapter: {
+        slug: ["chapter-one", "chapter-two", "chapter-three"][index],
+        title: `Chapter ${index + 1}`, period: "Test period",
+        paragraphs: ["Test paragraph. This is a schema fixture, not historical writing."],
+        sourceIds: ["test-source"], furtherReading: [],
+      },
+    })),
+  };
+}
+
+test("narrative validation rejects partial stories, unsafe sources and broken migrations", () => {
+  assert.equal(JourneySchema.safeParse(narrativeFixture()).success, true);
+  for (const mutate of [
+    (j) => delete j.steps[0].chapter,
+    (j) => j.steps[1].chapter.slug = j.steps[0].chapter.slug,
+    (j) => j.steps[0].chapter.slug = "1",
+    (j) => j.steps[0].chapter.sourceIds = ["unknown"],
+    (j) => j.steps[0].chapter.sourceIds = ["test-source", "test-source"],
+    (j) => j.steps[0].chapter.paragraphs = [" "],
+    (j) => j.sources[0].url = "javascript:alert(1)",
+    (j) => j.sources.push(j.sources[0]),
+    (j) => j.legacySteps[0] = "missing-chapter",
+  ]) {
+    const raw = narrativeFixture();
+    mutate(raw);
+    assert.equal(JourneySchema.safeParse(raw).success, false);
+  }
+});
+
+test("chapters resolve canonical reading, keep stable slugs and migrate old links deliberately", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "journey-chapter-test-"));
+  try {
+    const dir = path.join(root, "content/history/liverpool/journeys");
+    fs.mkdirSync(dir, { recursive: true });
+    const filename = path.join(dir, "chapter-fixture.json");
+    const raw = narrativeFixture();
+    raw.steps[0].chapter.furtherReading = [{ kind: "season", id: "1982-83" }];
+    fs.writeFileSync(filename, JSON.stringify(raw));
+    const [journey] = getJourneys(root, context);
+    assert.equal(journey.steps[0].reading[0].href, "/history/seasons/1982-83");
+    assert.equal(journeyStepHref(journey, 0), "/history/journeys/chapter-fixture/chapter-one");
+    assert.equal(journeyStepIndex(journey, "chapter-three"), 2);
+    assert.equal(journeyStepIndex(journey, "1"), 2);
+    assert.equal(journeyStepIndex(journey, "2"), 0);
+    for (const bad of ["0", "01", "-1", "1.0", "4", "unknown", "1e0"])
+      assert.equal(journeyStepIndex(journey, bad), -1);
+    assert.ok(journeyMinutes(journey) >= 1);
+    raw.steps[0].chapter.furtherReading = [{ kind: "article", id: "not-published" }];
+    fs.writeFileSync(filename, JSON.stringify(raw));
+    assert.throws(() => getJourneys(root, context), /unavailable/);
+    raw.steps[0].chapter.furtherReading = [{ kind: "article", id: "opinion" }];
+    fs.writeFileSync(filename, JSON.stringify(raw));
+    assert.throws(() => getJourneys(root, { ...context, articles: [...context.articles, { ...context.articles[0], slug: "opinion", editorialMode: "opinion" }] }), /unavailable/);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test("unconverted journeys keep their existing numbered URLs", () => {
+  const legacy = journeys.find((j) => j.id === "dalglish-player-to-manager");
+  assert.equal(journeyStepHref(legacy, 0), "/history/journeys/dalglish-player-to-manager/1");
+  assert.equal(journeyStepIndex(legacy, "1"), 0);
+  assert.equal(journeyStepIndex(legacy, "01"), -1);
+  assert.equal(journeyStepIndex(legacy, "99"), -1);
 });
 
 test("journeys fail closed for unavailable articles, thin entities, missing Seasons and duplicated steps", () => {

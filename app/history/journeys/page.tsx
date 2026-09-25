@@ -16,11 +16,11 @@ export default function JourneysPage() {
           <p className="eyebrow">One story leads to another</p>
           <h1>Guided Journeys</h1>
           <p className="hx-standfirst">
-            Choose a path through the original writing.
+            Follow the people, decisions and matches that shaped Liverpool.
           </p>
           <p>
-            A few starting points, each following existing articles, people and
-            Seasons. Take the next step, or follow a connection of your own.
+            Read a connected story, or take a route through the original writing.
+            Each journey gives you places to explore further along the way.
           </p>
         </header>
         <JourneyCards journeys={getV3View().journeys} />

@@ -224,26 +224,35 @@ export function selectLiverpoolYears(
     .filter((s) => s.entries.length);
 }
 
+const JourneyRefSchema = z.object({
+  kind: z.enum(["article", "season", "person", "opposition", "competition", "era"]),
+  id: HistoryIdSchema,
+}).strict();
+export type JourneyRef = z.infer<typeof JourneyRefSchema>;
+const ChapterSchema = z.object({
+  slug: HistoryIdSchema.refine((value) => !/^\d+$/.test(value), "Chapter slugs must not be numeric"),
+  title: z.string().trim().min(1),
+  period: z.string().trim().min(1),
+  paragraphs: z.array(z.string().trim().min(1)).min(1),
+  sourceIds: z.array(HistoryIdSchema).min(1),
+  furtherReading: z.array(JourneyRefSchema).max(2).default([]),
+}).strict();
 export const JourneySchema = z
   .object({
     id: HistoryIdSchema,
     title: z.string().trim().min(1),
     introduction: z.string().trim().min(1),
+    sources: z.array(z.object({
+      id: HistoryIdSchema,
+      label: z.string().trim().min(1),
+      url: z.url().refine((url) => url.startsWith("https://"), "Sources require HTTPS"),
+    }).strict()).optional(),
+    closing: z.string().trim().min(1).optional(),
+    // Explicit migration map: old step 1 maps to item 0, not today's first chapter.
+    legacySteps: z.array(HistoryIdSchema).min(1).max(12).optional(),
     steps: z
       .array(
-        z
-          .object({
-            kind: z.enum([
-              "article",
-              "season",
-              "person",
-              "opposition",
-              "competition",
-              "era",
-            ]),
-            id: HistoryIdSchema,
-          })
-          .strict(),
+        JourneyRefSchema.extend({ chapter: ChapterSchema.optional() }).strict(),
       )
       .min(3)
       .max(12),
@@ -253,8 +262,28 @@ export const JourneySchema = z
     (j) =>
       new Set(j.steps.map((s) => `${s.kind}:${s.id}`)).size === j.steps.length,
     "Remove duplicate journey steps",
-  );
-export type JourneyRef = z.infer<typeof JourneySchema>["steps"][number];
+  )
+  .superRefine((journey, ctx) => {
+    const chapters = journey.steps.flatMap((s) => s.chapter ? [s.chapter] : []);
+    const issue = (message: string) => ctx.addIssue({ code: "custom", message });
+    if (!chapters.length) {
+      if (journey.sources || journey.closing || journey.legacySteps)
+        issue("Narrative fields require chapters");
+      return;
+    }
+    if (chapters.length !== journey.steps.length) issue("Every narrative step needs a chapter");
+    const slugs = new Set(chapters.map((c) => c.slug));
+    if (slugs.size !== chapters.length) issue("Chapter slugs must be unique");
+    const sources = new Set(journey.sources?.map((s) => s.id));
+    if (!sources.size || sources.size !== journey.sources?.length) issue("Provide unique journey sources");
+    for (const chapter of chapters) {
+      if (new Set(chapter.sourceIds).size !== chapter.sourceIds.length) issue("Remove duplicate chapter source IDs");
+      if (chapter.sourceIds.some((id) => !sources.has(id))) issue("Chapter refers to an unknown source");
+      const refs = chapter.furtherReading.map((ref) => `${ref.kind}:${ref.id}`);
+      if (new Set(refs).size !== refs.length) issue("Remove duplicate further reading");
+    }
+    if (journey.legacySteps?.some((slug) => !slugs.has(slug))) issue("Legacy steps must point to existing chapters");
+  });
 export function resolveJourneyStep(ref: JourneyRef, context: V3Context) {
   const { articles, seasons, eras, destinations } = context;
   if (ref.kind === "article") {
@@ -359,11 +388,35 @@ export function getJourneys(
         throw new Error("Journey ID must match filename");
       return {
         ...definition,
-        steps: definition.steps.map((ref) => resolveJourneyStep(ref, context)),
+        steps: definition.steps.map(({ chapter, ...ref }) => ({
+          ...resolveJourneyStep(ref, context),
+          ...(chapter ? {
+            chapter,
+            reading: chapter.furtherReading.map((r) => resolveJourneyStep(r, context)),
+          } : {}),
+        })),
       };
     });
 }
 export type Journey = ReturnType<typeof getJourneys>[number];
+export function journeyStepHref(journey: Journey, index: number) {
+  return `/history/journeys/${journey.id}/${journey.steps[index].chapter?.slug ?? index + 1}`;
+}
+export function journeyStepIndex(journey: Journey, segment: string): number {
+  const chapterIndex = journey.steps.findIndex((s) => s.chapter?.slug === segment);
+  if (chapterIndex >= 0) return chapterIndex;
+  if (!/^[1-9]\d*$/.test(segment)) return -1;
+  const oldIndex = Number(segment) - 1;
+  if (journey.steps[0].chapter) {
+    const target = journey.legacySteps?.[oldIndex];
+    return target ? journey.steps.findIndex((s) => s.chapter?.slug === target) : -1;
+  }
+  return journey.steps[oldIndex] ? oldIndex : -1;
+}
+export function journeyMinutes(journey: Journey) {
+  const text = [journey.introduction, journey.closing ?? "", ...journey.steps.flatMap((s) => s.chapter?.paragraphs ?? [])].join(" ");
+  return Math.max(1, Math.ceil(text.trim().split(/\s+/).length / 220));
+}
 export type ContinueContext =
   | { season: string }
   | { entityId: string }
@@ -442,7 +495,7 @@ export function continueFrom(
     refs = [{ kind: "article", id: a.slug }];
   }
   const matches = (j: Journey, r: JourneyRef) =>
-    j.steps.some((s) => r.kind === s.kind && r.id === s.id);
+    j.steps.some((s) => [s, ...(s.reading ?? [])].some((ref) => r.kind === ref.kind && r.id === ref.id));
   const journey =
     journeys.find((j) => refs[0] && matches(j, refs[0])) ??
     journeys.find((j) => refs.some((r) => matches(j, r)));

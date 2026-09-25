@@ -6,6 +6,7 @@ import {
   getJourneys,
   continueFrom,
   selectLiverpoolYears,
+  journeyStepHref,
 } from "../lib/content/history-v3.ts";
 const base = process.env.BASE_URL ?? "http://127.0.0.1:3157";
 const context = getV3Context(),
@@ -48,12 +49,12 @@ assert.equal((html.match(/data-timeline-id="article-/g) ?? []).length, timeline.
 for (const j of journeys) {
   await target("/history/journeys/" + j.id);
   for (const [i, s] of j.steps.entries()) {
-    const step = await get(`/history/journeys/${j.id}/${i + 1}`);
+    const step = await get(journeyStepHref(j, i));
     assert.ok(step.includes(`href="${s.href}"`));
     assert.ok(
       step
         .replaceAll(/<!--.*?-->/g, "")
-        .includes(`Step ${i + 1} of ${j.steps.length}`),
+        .includes(`${s.chapter ? "Chapter" : "Step"} ${i + 1} of ${j.steps.length}`),
     );
     if (i) assert.ok(step.includes('rel="prev"'));
     if (i < j.steps.length - 1) assert.ok(step.includes('rel="next"'));
@@ -105,7 +106,7 @@ const published = new Set(context.articles.map((a) => "/archive/" + a.slug));
 for (const route of [
   "/history/timeline",
   ...journeys.flatMap((j) =>
-    j.steps.map((_, i) => `/history/journeys/${j.id}/${i + 1}`),
+    j.steps.map((_, i) => journeyStepHref(j, i)),
   ),
   ...["1965", "1974", "1977", "1985", "1990", "2005", "2015"].map(
     (y) => "/history/my-years?from=" + y,

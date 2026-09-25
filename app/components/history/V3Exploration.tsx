@@ -40,7 +40,7 @@ export function JourneyCards({
     <ul className="v3-journey-cards" role="list">
       {journeys.map((j) => (
         <li key={j.id}>
-          <p className="eyebrow">Guided journey · {j.steps.length} stops</p>
+          <p className="eyebrow">Guided journey · {j.steps.length} {j.steps[0].chapter ? "chapters" : "stops"}</p>
           <Heading>
             <Link href={`/history/journeys/${j.id}`}>
               {j.title} <span aria-hidden="true">→</span>

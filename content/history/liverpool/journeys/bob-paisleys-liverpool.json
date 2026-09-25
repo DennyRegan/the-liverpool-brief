@@ -1,39 +1,462 @@
 {
   "id": "bob-paisleys-liverpool",
   "title": "Bob Paisley’s Liverpool",
-  "introduction": "Explore Paisley’s tenure through its Season records and published match reports, from 1974 to his Anfield farewell.",
+  "introduction": "Bob Paisley inherited a winning Liverpool side in 1974. Keeping it successful meant changing it: finding new roles for established players, replacing departed favourites and recovering when rivals exposed its weaknesses. Follow the nine seasons from Shankly’s departure to Paisley’s farewell, with the original match reports available whenever you want to go deeper.",
   "steps": [
     {
-      "kind": "person",
-      "id": "bob-paisley"
-    },
-    {
-      "kind": "era",
-      "id": "bob-paisley"
-    },
-    {
-      "kind": "article",
-      "id": "liverpool-leeds-1974-charity-shield"
+      "kind": "season",
+      "id": "1974-75",
+      "chapter": {
+        "slug": "taking-over",
+        "title": "Taking over without starting again",
+        "period": "1974–75",
+        "paragraphs": [
+          "Bill Shankly’s retirement in July 1974 left Liverpool with a difficult succession, not a broken team. They had just won the FA Cup. His replacement, Bob Paisley, already knew the players and the working methods behind that success: he had served on Shankly’s staff throughout the Scot’s time at Anfield. Liverpool kept that experience inside the club rather than beginning again under an outsider.",
+          "The first league campaign brought second place, two points behind Derby County. Europe supplied both an extraordinary result and an early warning. An 11–0 victory over Strømsgodset was followed by elimination against Ferencváros: a 1–1 draw at Anfield and a goalless return sent Liverpool out on away goals. The FA Cup defence ended at Ipswich in the fourth round.",
+          "Changes were already under way. Paisley recruited Phil Neal from Northampton Town and Terry McDermott from Newcastle during 1974. Ray Kennedy, Shankly’s final signing, was still playing as a forward. These were not yet the finished combinations later associated with Paisley. Neal settled quickly; McDermott’s route into a regular place took longer. The next advance would depend on developing the players Liverpool had, as well as bringing others in."
+        ],
+        "sourceIds": [
+          "paisley",
+          "games-1974",
+          "table-1974",
+          "neal",
+          "mcdermott",
+          "ray"
+        ],
+        "furtherReading": [
+          {
+            "kind": "article",
+            "id": "liverpool-leeds-1974-charity-shield"
+          },
+          {
+            "kind": "article",
+            "id": "liverpool-stromsgodset-record-win-1974"
+          }
+        ]
+      }
     },
     {
       "kind": "season",
-      "id": "1975-76"
+      "id": "1975-76",
+      "chapter": {
+        "slug": "making-the-team-his-own",
+        "title": "Making the team his own",
+        "period": "1975–76",
+        "paragraphs": [
+          "Ray Kennedy’s move into left midfield helped turn continuity into something more than preservation. Signed as an established centre-forward, he had scored ten times in his first Liverpool season without securing the role in which he would become most influential. Kennedy had previous experience of playing deeper; Paisley redeployed him to left midfield. Alongside the emergence of Jimmy Case, that adjustment changed the midfield without dismantling the side.",
+          "The rewards came in a championship race that remained unresolved until Liverpool’s last league match. Away to Wolves on 4 May, they won 3–1 and finished one point ahead of Queens Park Rangers. Paisley had his first league title, but the season still had another test to complete.",
+          "Club Brugge had led 2–0 early in the first leg of the UEFA Cup final at Anfield. Liverpool recovered through Ray Kennedy, Case and Kevin Keegan to take a 3–2 advantage to Belgium. Brugge scored first again in the return; Keegan’s reply secured a 1–1 draw and a 4–3 aggregate victory. Liverpool had repeated the league and UEFA Cup double achieved under Shankly in 1973, with Paisley’s changes now contributing directly to the outcome. The championship also opened the route into the next European Cup."
+        ],
+        "sourceIds": [
+          "ray",
+          "lfch-paisley",
+          "games-1975",
+          "table-1975",
+          "uefa-cup"
+        ],
+        "furtherReading": [
+          {
+            "kind": "article",
+            "id": "wolves-liverpool-1976-title-at-molineux"
+          },
+          {
+            "kind": "article",
+            "id": "brugge-liverpool-1976-uefa-cup-double"
+          }
+        ]
+      }
     },
     {
       "kind": "article",
-      "id": "liverpool-gladbach-1977-first-european-cup"
+      "id": "liverpool-gladbach-1977-first-european-cup",
+      "chapter": {
+        "slug": "the-road-to-rome",
+        "title": "The road to Rome",
+        "period": "1976–77",
+        "paragraphs": [
+          "Paisley’s third season extended the challenge from winning the league to competing for three major trophies at once. Liverpool retained the championship, finishing a point ahead of Manchester City, and reached both the FA Cup and European Cup finals. McDermott, whose first two seasons had produced only 25 appearances, was now a regular starter.",
+          "The European run was not an uninterrupted procession. Liverpool lost away to Saint-Étienne in the quarter-final before winning the Anfield return 3–1. A 6–1 aggregate victory over Zürich then took them to their first European Cup final. Before Rome, however, came Wembley: Manchester United’s 2–1 FA Cup final win ended the possibility of a treble.",
+          "Four days later, on 25 May 1977, Liverpool beat Borussia Mönchengladbach 3–1. McDermott’s opening goal was answered by Allan Simonsen; Tommy Smith’s header and Phil Neal’s penalty settled the final. The scorers reflected the overlap of generations: Smith from Shankly’s established side, Neal and McDermott recruited under Paisley.",
+          "Rome was both a breakthrough and a parting. Keegan’s final competitive Liverpool appearance ended with the European Cup, before his move to Hamburg. Paisley now faced a different problem from the one he had inherited in 1974: how to replace a central player in a team that had just reached the top."
+        ],
+        "sourceIds": [
+          "table-1976",
+          "mcdermott",
+          "games-1976",
+          "uefa-rome",
+          "europe"
+        ],
+        "furtherReading": [
+          {
+            "kind": "article",
+            "id": "liverpool-saint-etienne-1977-fairclough-winner"
+          },
+          {
+            "kind": "article",
+            "id": "liverpool-manchester-united-1977-fa-cup-final"
+          }
+        ]
+      }
     },
     {
       "kind": "article",
-      "id": "liverpool-real-madrid-1981-third-european-cup"
+      "id": "liverpool-brugge-1978-european-cup-final",
+      "chapter": {
+        "slug": "renewing-the-european-champions",
+        "title": "Renewing the European champions",
+        "period": "1977–78",
+        "paragraphs": [
+          "Kenny Dalglish arrived from Celtic in August 1977 to replace Keegan. He did more than preserve Liverpool’s goalscoring: his ability to bring other players into attacks became a defining part of the side. His first season produced 31 goals in all competitions, including the one that would keep the European Cup at Anfield.",
+          "The renewal extended beyond the forward line. Alan Hansen made his first-team debut in September and Graeme Souness joined from Middlesbrough in January. By the European final at Wembley, Hansen was in the starting side and Souness supplied the pass from which Dalglish scored against Club Brugge. Liverpool won 1–0 on 10 May 1978. Two of the newcomers had combined for the decisive goal, while a third had helped defend the lead.",
+          "Success abroad did not mean control of every competition. Nottingham Forest finished seven points above Liverpool in the league and also beat them in the League Cup final replay. Even the 6–0 Anfield victory over Hamburg in the European Super Cup could not make those domestic setbacks disappear. Liverpool had successfully changed important parts of a European champion team; reclaiming superiority at home was a separate task, and Forest had shown how difficult it could be."
+        ],
+        "sourceIds": [
+          "dalglish",
+          "hansen",
+          "uefa-wembley",
+          "table-1977",
+          "games-1977"
+        ],
+        "furtherReading": [
+          {
+            "kind": "article",
+            "id": "liverpool-hamburg-1977-super-cup"
+          },
+          {
+            "kind": "article",
+            "id": "liverpool-nottingham-forest-1978-league-cup-replay"
+          }
+        ]
+      }
     },
     {
       "kind": "season",
-      "id": "1982-83"
+      "id": "1978-79",
+      "chapter": {
+        "slug": "dominance-and-its-limits",
+        "title": "Dominance and its limits",
+        "period": "1978–80",
+        "paragraphs": [
+          "Liverpool’s answer in the league was emphatic. In 1978–79 they finished eight points ahead of Forest, scoring 85 goals and conceding only 16 across 42 matches. Their 68 points were earned when a win was worth two. The 7–0 defeat of Tottenham illustrated the attacking possibilities, but the defensive record mattered just as much to the final margin.",
+          "Hansen had moved ahead of Emlyn Hughes in the defensive order. Souness was established in midfield, while Dalglish’s combination of scoring and creating linked the attack. This was no longer simply the side Paisley had inherited with one famous forward exchanged for another. Several of the players who would shape Liverpool’s next era were already central to it.",
+          "Yet league supremacy did not prevent European disappointment. Forest knocked Liverpool out in the first round of the 1978–79 European Cup. A year later Dinamo Tbilisi overturned a 2–1 Anfield defeat with a 3–0 home win at the same stage.",
+          "Liverpool nevertheless retained the league in 1979–80, two points ahead of Manchester United. Arsenal also ended an FA Cup semi-final that required three replays. Two championships had confirmed the team’s domestic strength; consecutive early European exits showed that its achievements could not be treated as an automatic guide to what came next."
+        ],
+        "sourceIds": [
+          "table-1978",
+          "hansen",
+          "souness",
+          "dalglish",
+          "games-1978",
+          "games-1979",
+          "table-1979"
+        ],
+        "furtherReading": [
+          {
+            "kind": "article",
+            "id": "liverpool-aston-villa-1979-eleventh-title"
+          },
+          {
+            "kind": "article",
+            "id": "dinamo-tbilisi-liverpool-1979-european-exit"
+          }
+        ]
+      }
     },
     {
       "kind": "article",
-      "id": "liverpool-aston-villa-1983-paisley-anfield-farewell"
+      "id": "liverpool-real-madrid-1981-third-european-cup",
+      "chapter": {
+        "slug": "paris-amid-the-uncertainty",
+        "title": "Paris amid the uncertainty",
+        "period": "1980–81",
+        "paragraphs": [
+          "The next campaign reversed the balance between league and cup football. Liverpool fell to fifth in the First Division, but reached two finals and won both. It was a season that resists a simple label: the weekly league results had deteriorated, while the ability to negotiate decisive cup matches remained.",
+          "The League Cup arrived first. After a 1–1 draw with West Ham at Wembley, Liverpool won the replay 2–1 at Villa Park through Dalglish and Hansen. It was the club’s first success in the competition, beginning a run that would stretch beyond Paisley’s retirement.",
+          "Europe required a different kind of passage through the semi-final. Bayern Munich held Liverpool to a goalless draw at Anfield; Ray Kennedy’s goal in the 1–1 return sent the Reds through on away goals. The player Paisley had moved back into midfield five years earlier had helped create another European final.",
+          "In Paris on 27 May, Alan Kennedy scored the only goal against Real Madrid. Liverpool were European champions for the third time under Paisley. But the final should not obscure the transition already beginning. Bruce Grobbelaar had been signed in March, and Ronnie Whelan made his scoring debut in April. The next season would ask considerably more of the emerging players."
+        ],
+        "sourceIds": [
+          "table-1980",
+          "league-cup",
+          "games-1980",
+          "ray",
+          "europe",
+          "grobbelaar",
+          "whelan"
+        ],
+        "furtherReading": [
+          {
+            "kind": "article",
+            "id": "bayern-liverpool-1981-ray-kennedy-away-goal"
+          },
+          {
+            "kind": "article",
+            "id": "liverpool-west-ham-1981-first-league-cup"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "season",
+      "id": "1981-82",
+      "chapter": {
+        "slug": "a-new-side-finds-its-feet",
+        "title": "A new side finds its feet",
+        "period": "1981–82",
+        "paragraphs": [
+          "Replacing established players became unavoidable. Ray Clemence left for Tottenham and Grobbelaar took over in goal. Mark Lawrenson arrived from Brighton, while Whelan developed into a regular and Ray Kennedy moved to Swansea during the season. Liverpool were changing in several areas at once.",
+          "Ian Rush’s progress was another part of the rebuilding. Signed from Chester in 1980, he had gone through his first Liverpool campaign without scoring. Paisley retained him, and in 1981–82 Rush scored 30 times in all competitions. Dalglish now had a younger partner whose running and finishing gave the attack a new combination.",
+          "The changeover was not smooth. Flamengo beat Liverpool 3–0 in Tokyo, and a Boxing Day defeat by Manchester City left them twelfth in the league. Souness became captain in January. Results subsequently improved: Liverpool won 13 and drew three of their final 16 league games, securing the title by beating Tottenham 3–1 at Anfield.",
+          "Whelan’s two goals and Rush’s one had already beaten Spurs in the League Cup final. The emerging players were no longer merely preparations for the future; they were deciding trophies. CSKA Sofia still ended the European Cup defence in the quarter-finals, but the domestic double showed that Paisley’s renewed side could win in its own right."
+        ],
+        "sourceIds": [
+          "grobbelaar",
+          "lawrenson",
+          "ray",
+          "rush",
+          "souness",
+          "games-1981",
+          "league-cup",
+          "whelan"
+        ],
+        "furtherReading": [
+          {
+            "kind": "article",
+            "id": "liverpool-manchester-city-1981-boxing-day-defeat"
+          },
+          {
+            "kind": "article",
+            "id": "whelan-wembley-final-tottenham-1982"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "article",
+      "id": "liverpool-aston-villa-1983-paisley-anfield-farewell",
+      "chapter": {
+        "slug": "leaving-a-team-not-a-monument",
+        "title": "The final season",
+        "period": "1982–83",
+        "paragraphs": [
+          "Paisley’s final season brought another league and League Cup double. Liverpool finished eleven points above Watford, with 87 league goals. Rush scored 31 times in all competitions, including four in the 5–0 victory at Everton. The attack that had emerged during the previous campaign was now central to another championship.",
+          "At Wembley, Liverpool recovered from conceding first to Manchester United and won the League Cup final 2–1 after extra time. Alan Kennedy equalised and Whelan scored the winner. Paisley went up to collect the trophy on the players’ behalf: a public farewell for a manager whose work was more often associated with the background.",
+          "The ending was not spotless. Brighton knocked Liverpool out of the FA Cup and Widzew Łódź eliminated them from Europe. They failed to win any of their last seven league games, including the 1–1 draw with Aston Villa on 7 May, Paisley’s final home league match. The championship margin survived that poor finish.",
+          "Joe Fagan succeeded him in 1983. Paisley left six league titles and three European Cups, but also a team that had changed repeatedly to earn them. From Ray Kennedy’s new midfield role to Dalglish replacing Keegan, and from Clemence’s departure to Rush and Whelan’s emergence, renewal had been part of the achievement rather than something postponed until it was over."
+        ],
+        "sourceIds": [
+          "table-1982",
+          "rush",
+          "league-cup",
+          "lfch-paisley",
+          "games-1982",
+          "paisley",
+          "fagan",
+          "ray",
+          "dalglish",
+          "grobbelaar",
+          "whelan"
+        ],
+        "furtherReading": [
+          {
+            "kind": "article",
+            "id": "everton-liverpool-1982-rush-four"
+          },
+          {
+            "kind": "article",
+            "id": "liverpool-manchester-united-1983-whelan-final"
+          }
+        ]
+      }
     }
+  ],
+  "closing": "Paisley’s nine seasons were not nine repetitions of the same winning formula. There were lost finals, early European exits and an unsettled rebuilding season alongside the honours. The continuity lay in keeping Liverpool competitive while the people doing the work changed. Fagan inherited that continuing task, not a finished story.",
+  "sources": [
+    {
+      "id": "paisley",
+      "label": "Liverpool FC — Bob Paisley",
+      "url": "https://www.liverpoolfc.com/info/bob-paisley-0"
+    },
+    {
+      "id": "lfch-paisley",
+      "label": "LFChistory — Bob Paisley",
+      "url": "https://lfchistory.net/managers/10"
+    },
+    {
+      "id": "ray",
+      "label": "Liverpool FC — Ray Kennedy",
+      "url": "https://www.liverpoolfc.com/info/ray-kennedy"
+    },
+    {
+      "id": "neal",
+      "label": "Liverpool FC — Phil Neal",
+      "url": "https://www.liverpoolfc.com/info/phil-neal"
+    },
+    {
+      "id": "mcdermott",
+      "label": "Liverpool FC — Terry McDermott",
+      "url": "https://www.liverpoolfc.com/info/terry-mcdermott"
+    },
+    {
+      "id": "dalglish",
+      "label": "Liverpool FC — Kenny Dalglish",
+      "url": "https://www.liverpoolfc.com/info/kenny-dalglish"
+    },
+    {
+      "id": "hansen",
+      "label": "Liverpool FC — Alan Hansen",
+      "url": "https://www.liverpoolfc.com/info/alan-hansen"
+    },
+    {
+      "id": "souness",
+      "label": "Liverpool FC — Graeme Souness",
+      "url": "https://www.liverpoolfc.com/info/graeme-souness"
+    },
+    {
+      "id": "grobbelaar",
+      "label": "Liverpool FC — Bruce Grobbelaar",
+      "url": "https://www.liverpoolfc.com/info/bruce-grobbelaar"
+    },
+    {
+      "id": "lawrenson",
+      "label": "Liverpool FC — Mark Lawrenson",
+      "url": "https://www.liverpoolfc.com/info/mark-lawrenson"
+    },
+    {
+      "id": "rush",
+      "label": "Liverpool FC — Ian Rush",
+      "url": "https://www.liverpoolfc.com/info/ian-rush"
+    },
+    {
+      "id": "whelan",
+      "label": "Liverpool FC — Ronnie Whelan",
+      "url": "https://www.liverpoolfc.com/info/ronnie-whelan"
+    },
+    {
+      "id": "fagan",
+      "label": "Liverpool FC — Joe Fagan",
+      "url": "https://www.liverpoolfc.com/info/joe-fagan"
+    },
+    {
+      "id": "uefa-cup",
+      "label": "Liverpool FC — UEFA Cup",
+      "url": "https://www.liverpoolfc.com/info/uefa-cup"
+    },
+    {
+      "id": "europe",
+      "label": "Liverpool FC — European Cup & Champions League",
+      "url": "https://www.liverpoolfc.com/info/european-cup-champions-league"
+    },
+    {
+      "id": "league-cup",
+      "label": "Liverpool FC — League Cup",
+      "url": "https://www.liverpoolfc.com/info/league-cup"
+    },
+    {
+      "id": "uefa-rome",
+      "label": "UEFA — 1976/77: Keegan signs off in style",
+      "url": "https://www.uefa.com/uefachampionsleague/news/0059-0e6a07f41619-32cb61e67250-1000--1976-77-keegan-signs-off-in-style/"
+    },
+    {
+      "id": "uefa-wembley",
+      "label": "UEFA — Souness recalls Liverpool’s ’78 success",
+      "url": "https://www.uefa.com/uefachampionsleague/news/01f1-0e787d96b549-30281fdb4072-1000--souness-recalls-liverpool-s-78-success/"
+    },
+    {
+      "id": "games-1974",
+      "label": "LFChistory — 1974–75 results",
+      "url": "https://www.lfchistory.net/season-archive/games/16"
+    },
+    {
+      "id": "games-1975",
+      "label": "LFChistory — 1975–76 results",
+      "url": "https://www.lfchistory.net/season-archive/games/17"
+    },
+    {
+      "id": "games-1976",
+      "label": "LFChistory — 1976–77 results",
+      "url": "https://www.lfchistory.net/season-archive/games/18"
+    },
+    {
+      "id": "games-1977",
+      "label": "LFChistory — 1977–78 results",
+      "url": "https://www.lfchistory.net/season-archive/games/19"
+    },
+    {
+      "id": "games-1978",
+      "label": "LFChistory — 1978–79 results",
+      "url": "https://www.lfchistory.net/season-archive/games/20"
+    },
+    {
+      "id": "games-1979",
+      "label": "LFChistory — 1979–80 results",
+      "url": "https://www.lfchistory.net/season-archive/games/21"
+    },
+    {
+      "id": "games-1980",
+      "label": "LFChistory — 1980–81 results",
+      "url": "https://www.lfchistory.net/season-archive/games/22"
+    },
+    {
+      "id": "games-1981",
+      "label": "LFChistory — 1981–82 results",
+      "url": "https://www.lfchistory.net/season-archive/games/24"
+    },
+    {
+      "id": "games-1982",
+      "label": "LFChistory — 1982–83 results",
+      "url": "https://www.lfchistory.net/season-archive/games/23"
+    },
+    {
+      "id": "table-1974",
+      "label": "RSSSF — 1974–75 league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1974-75.html"
+    },
+    {
+      "id": "table-1975",
+      "label": "RSSSF — 1975–76 league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1975-76.html"
+    },
+    {
+      "id": "table-1976",
+      "label": "RSSSF — 1976–77 league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1976-77.html"
+    },
+    {
+      "id": "table-1977",
+      "label": "RSSSF — 1977–78 league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1977-78.html"
+    },
+    {
+      "id": "table-1978",
+      "label": "RSSSF — 1978–79 league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1978-79.html"
+    },
+    {
+      "id": "table-1979",
+      "label": "RSSSF — 1979–80 league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1979-80.html"
+    },
+    {
+      "id": "table-1980",
+      "label": "RSSSF — 1980–81 league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1980-81.html"
+    },
+    {
+      "id": "table-1982",
+      "label": "RSSSF — 1982–83 league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1982-83.html"
+    }
+  ],
+  "legacySteps": [
+    "taking-over",
+    "taking-over",
+    "taking-over",
+    "making-the-team-his-own",
+    "the-road-to-rome",
+    "paris-amid-the-uncertainty",
+    "leaving-a-team-not-a-monument",
+    "leaving-a-team-not-a-monument"
   ]
 }

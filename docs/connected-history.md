@@ -265,3 +265,45 @@ All new UI is server-rendered. Journey routes and existing destinations remain s
 Native labelled forms, links and details/summary provide keyboard and no-JavaScript behaviour. New standalone controls have 44–48px minimum heights, focus uses the site's visible outline, and the layout is vertical. There is no required animation, hover, canvas or client state. No AI, semantic search, graph, saved profile or new historical writing is included.
 
 Run `npm test`, `npm run lint`, `npm run build`, the existing verification scripts, and `BASE_URL=http://127.0.0.1:3157 node scripts/verify-history-v3.mjs` against a production preview. The V3 verifier checks every timeline entry/context/fragment, every journey step, continuation targets, seven starting years, invalid input, unavailable routes and factual publication boundaries. Browser review remains necessary for responsive behaviour, keyboard focus and complete reading journeys.
+
+## Narrative journey pilot — Paisley (unpublished review)
+
+This review extends the existing journey format; it does not add another article
+collection. The three unconverted journeys retain their definitions and numbered
+routes. A narrative journey gives every step a `chapter` with a stable `slug`,
+`title`, display `period`, original connective `paragraphs`, `sourceIds`, and up
+to two `furtherReading` canonical references. The step's existing `{kind,id}` is
+its primary optional destination, not the chapter title. All references still
+resolve against published factual content and eligible canonical destinations.
+No original article body is copied or changed.
+
+Narrative definitions also carry `sources` (`id`, `label`, HTTPS `url`), an
+optional `closing`, and an explicit `legacySteps` migration array. Validation
+rejects partially narrated journeys, duplicate chapter slugs/sources, unknown
+source IDs, numeric chapter slugs, invalid migration targets and unavailable
+reading. Reader sources are disclosed at the bottom of each chapter; source
+confidence, claim scopes and research conflicts remain in editorial evidence
+notes outside public rendering. No single principal season is forced onto the
+nine-season Paisley story.
+
+Chapter URLs use `/history/journeys/[journey]/[chapter-slug]`. Paisley's former
+numeric routes issue permanent 308 redirects: 1–3 to `taking-over`; 4 to
+`making-the-team-his-own`; 5 to `the-road-to-rome`; 6 to
+`paris-amid-the-uncertainty`; 7–8 to `leaving-a-team-not-a-monument`. The last
+slug is stable despite the reader title being “The final season”. The contents
+URL and every original article/Season URL stay unchanged. New chapter ordering
+therefore cannot silently reinterpret an old numbered bookmark.
+
+The interface remains server-rendered, with no new dependencies, database,
+runtime AI or browser storage. Chapter contents, progress links and previous/next
+navigation are ordinary links; sources/contents are native disclosures. Optional
+reading explicitly opens in a new tab to keep the chapter in place. The contents
+page estimates reading time from the narrative word count at 220 words/minute;
+optional reading is excluded. No automatic cross-device or return-visit resume
+is claimed.
+
+Draft provenance is `docs/editorial/drafts/bob-paisley-guided-journey.json`, its
+Markdown review copy and companion evidence notes. The main calendar records
+this commission as ready for review, not approved. The proposed journey JSON
+and application changes belong only on `review/paisley-guided-story` until Denny
+approves release; do not merge them as routine editorial maintenance.
