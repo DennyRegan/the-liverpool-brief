@@ -4,10 +4,10 @@ Unpublished factual draft. Configured model gpt-6-astra; worker /root/astra_1994
 
 ## Retrieved sources and claim mapping
 
-- **High** — https://www.lfchistory.net/games/2003 — exact date, Anfield,2-0score, Redknapp25, Bruce own goal, team and substitutions, post-match table Blackburn76/United70 both34played,Liverpool4th. Supports P1,P2lineup,P3,P4Cole,P5attribution,P6.
+- **High** — https://www.lfchistory.net/games/2003 — exact date, Anfield,2-0score, Redknapp25, Bruce own goal, team and substitutions, post-match table Blackburn76/United70 both34played,Liverpool4th.
 - **Medium** — https://www.lfchistory.net/articles/1429 — full contemporary Daily Telegraph report retrieved. Jones suspension and Scales shift, Redknapp pastIrwin/throughPallister, Schmeichel saves, Giggs/Hughes chances, Thomas cross/McManaman shot deflected Bruce, title context. About150words of incident narrative. Avoid report's speculative motives for Cole selection.
 - **Medium** — https://www.skysports.com/football/liverpool-vs-manchester-united/teams/276486 — independent retrieved record agrees Redknapp25 and Bruce85own goal.
-- **High** — https://www.lfchistory.net/season-archive/games/36 — full results also available in1978selector:11MarSpurs1-2,14MarCoventry2-3,19MarUnited2-0 and14MayBlackburn. P1/P6context.
+- **High** — https://www.lfchistory.net/season-archive/games/36 — full results also available in1978selector:11MarSpurs1-2,14MarCoventry2-3,19MarUnited2-0 and14MayBlackburn..
 
 ## Conflicts and omissions
 

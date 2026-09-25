@@ -4,10 +4,10 @@ Unpublished factual draft. Configured model gpt-6-astra; worker /root/astra_1994
 
 ## Retrieved sources and claim mapping
 
-- **High** — https://www.lfchistory.net/games/2001 — date Saturday11March,1-2score, sixth round, Fowler38/Sheringham45/Klinsmann89, Walters assist and double substitution72. Supports P1–6 score/time/fixture facts.
+- **High** — https://www.lfchistory.net/games/2001 — date Saturday11March,1-2score, sixth round, Fowler38/Sheringham45/Klinsmann89, Walters assist and double substitution72.
 - **High** — https://www.thefa.com/news/2015/mar/08/fa-cup-sixth-round-classics — competition organiser's retrospective confirms date and score; Fowler opener, Sheringham curling right-footer, Sheringham pass to Klinsmann and winner with90seconds to go. Independent check on decisive action.
-- **Medium** — https://www.lfchistory.net/articles/1428 — retrieved contemporary Daily Telegraph report. Walters beats two and crosses for Fowler header; Howells/Klinsmann/Sheringham sequence and curling shot in off post; Anderton return of Scales clearance and Sheringham flick for winner. Supports P2–3,P5. Fewer140words of narrative drawn from this report. Opening managerial tangents excluded.
-- **High** — https://www.lfchistory.net/games/2000 — preceding Wednesday8March semi-final0-1Fowler; qualification confirmed. Supports P1,P2,P6; three-day interval arithmetic.
+- **Medium** — https://www.lfchistory.net/articles/1428 — retrieved contemporary Daily Telegraph report. Walters beats two and crosses for Fowler header; Howells/Klinsmann/Sheringham sequence and curling shot in off post; Anderton return of Scales clearance and Sheringham flick for winner. Fewer140words of narrative drawn from this report. Opening managerial tangents excluded.
+- **High** — https://www.lfchistory.net/games/2000 — preceding Wednesday8March semi-final0-1Fowler; qualification confirmed.
 
 ## Conflicts/omissions
 

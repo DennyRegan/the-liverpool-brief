@@ -4,9 +4,9 @@ Unpublished factual draft. Configured model: gpt-6-astra; worker /root/astra_199
 
 ## Retrieved sources and claim mapping
 
-- **High** — https://www.lfchistory.net/games/1960 — exact date, score, 26/29/31-minute goals, half-time/full-time3-0, Arsenal starters and later Mané record2:56 on16May2015. Supports paragraphs1,3–6. Retrieval included full record and two-games-played table.
-- **High** — https://www.liverpoolfc.com/news/remember-when-four-minutes-and-33-seconds-robbie-fowler-brilliance?amp=1 — official retrospective by Sam Williams,8April2023, retrieved full text. Fowler19, prior season breakthrough, first goal loose ball after set-piece, McManaman pass and left-foot second, attempted lift over Seaman/rebound third, No23, record nearly21years. Supports paragraphs1–4 and6. Approximately180 words of public copy derived; remainder record data and synthesis.
-- **Medium-high** — https://www.lfchistory.net/images/newspapers/mirror/1994-08-29_arsenal0-3liverpool_dailymirrorb.pdf — actual contemporary newspaper PDF retrieved; text and screenshot request made. Confirms match/report date and hat-trick account. Do not label footage watched. No verbatim copy taken.
+- **High** — https://www.lfchistory.net/games/1960 — exact date, score, 26/29/31-minute goals, half-time/full-time3-0, Arsenal starters and later Mané record2:56 on16May2015. Retrieval included full record and two-games-played table.
+- **High** — https://www.liverpoolfc.com/news/remember-when-four-minutes-and-33-seconds-robbie-fowler-brilliance?amp=1 — official retrospective by Sam Williams,8April2023, retrieved full text. Fowler19, prior season breakthrough, first goal loose ball after set-piece, McManaman pass and left-foot second, attempted lift over Seaman/rebound third, No23, record nearly21years. Final copy uses a shorter selection from this retrospective, with detailed finishes additionally verified in contemporary Mirror and the2012club account.
+- **Medium** — https://www.lfchistory.net/images/newspapers/mirror/1994-08-29_arsenal0-3liverpool_dailymirrorb.pdf — actual contemporary newspaper PDF retrieved; text and screenshot request made. Confirms match/report date and hat-trick account. Do not label footage watched. No verbatim copy taken.
 - **Medium** — https://www.11v11.com/matches/liverpool-v-arsenal-28-august-1994-21742/ — search retrieval independently corroborates date/fixture.
 
 ## Conflict handling
@@ -20,4 +20,4 @@ Unpublished factual draft. Configured model: gpt-6-astra; worker /root/astra_199
 ## Final copy check after tightening
 
 - Contemporary Mirror continuation PDF supplies second goal through Dixon and in off far post, and Barnes pass/Seaman block for third. Official2012 retrospective supplies difficult-angle follow-up; new source https://www.liverpoolfc.com/news/first-team/120658-most-exciting-pl-games-29 — High for corroborated finish, retrieved in full. New source https://www.lfchistory.net/images/newspapers/mirror/1994-08-29_arsenal0-3Liverpool_dailymirror.pdf — Medium-high contemporary back page, directly verifies4:33. No direct quotations used.
-- Final body has five paragraphs: record/date/result P1; goal descriptions P2–3; lineup/prior breakthrough P4; successor record P5. Previous references to a sixth paragraph concern superseded draft numbering. Removed preceding-match recap.
+- Final body has five paragraphs: record/date/result P1; goal descriptions P2–3; lineup/prior breakthrough P4; successor record. Previous references to a sixth paragraph concern superseded draft numbering. Removed preceding-match recap.
