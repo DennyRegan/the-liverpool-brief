@@ -8097,27 +8097,33 @@
       "historicalEventDate": "2007-07-04",
       "featuredWeek": "2026-06-29",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_torres; Torres biography 2026-09-25",
-      "claim": {
-        "token": "torres-biography-3aafbcaadc30-20260925",
-        "claimedAt": "2026-09-25T19:52:44.885Z",
-        "baseCommit": "6cbc5aae49b9bb12fd7bb42899fe99243f6b8032"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
-      "originalDraftId": null,
+      "draftPath": "docs/editorial/drafts/fernando-torres.md",
+      "originalDraftId": "libfile_95a5c874f9688191813d439a6bf70913",
       "publishedDestination": null,
       "approval": null,
-      "notes": "Explicitly commissioned by Denny on 25 September 2026: Write one on Fernando Torres. Career biography, not an anniversary report. Calendar date is the verified 4 July 2007 Liverpool signing solely as a factual commissioning anchor; no principal season. Preserve weekly selections. Draft only; destination/authorship and specific publication approval remain pending.",
+      "notes": "Explicitly commissioned by Denny on 25 September 2026: Write one on Fernando Torres. Career biography, not an anniversary report. Calendar date is the verified 4 July 2007 Liverpool signing solely as a factual commissioning anchor; no principal season. Preserve weekly selections. Draft only; destination/authorship and specific publication approval remain pending. Completed 813-word source-checked biography by configured gpt-6-astra /root/astra_torres. Research record, factual audit and proposed metadata saved alongside draft; 17 inspected source links at article foot. League and all-competition totals separated; 2008–09 source discrepancy resolved. Draft metadata and canonical IDs checked; publication date intentionally omitted. Full publication validation/rendering remains for an explicitly authorised publication.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/players/1186",
           "confidence": "high",
           "scope": "Signing date used for calendar anchor; root retrieved profile. Full biography verification assigned to explicitly configured gpt-6-astra /root/astra_torres."
+        },
+        {
+          "location": "docs/editorial/drafts/fernando-torres-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research by gpt-6-astra /root/astra_torres; source scopes, access dates, confidence and exclusions recorded."
+        },
+        {
+          "location": "docs/editorial/drafts/fernando-torres-factual-audit.md",
+          "confidence": "high",
+          "scope": "Statement-level audit of final biography. Confidence labels and model provenance remain editorial-only."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     }
   ],
   "gaps": [
