@@ -7923,27 +7923,28 @@
       "historicalEventDate": "1995-03-08",
       "featuredWeek": "2026-03-02",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
-      "claim": {
-        "token": "1994-95-12e9ee40df22",
-        "claimedAt": "2026-09-25T11:42:47.036Z",
-        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1995-03-08-crystal-palace-liverpool.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication. Finished retrieved-source article saved with companion -evidence.md for confidence labels, evidence mapping and exclusions. No article approval or publication.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/36",
           "confidence": "high",
           "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        },
+        {
+          "location": "docs/editorial/drafts/1995-03-08-crystal-palace-liverpool-evidence.md",
+          "confidence": "high",
+          "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1995-03-11-liverpool-tottenham-hotspur",
@@ -7951,27 +7952,28 @@
       "historicalEventDate": "1995-03-11",
       "featuredWeek": "2026-03-09",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
-      "claim": {
-        "token": "1994-95-12e9ee40df22",
-        "claimedAt": "2026-09-25T11:42:47.036Z",
-        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1995-03-11-liverpool-tottenham-hotspur.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication. Finished retrieved-source article saved with companion -evidence.md for confidence labels, evidence mapping and exclusions. No article approval or publication.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/36",
           "confidence": "high",
           "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        },
+        {
+          "location": "docs/editorial/drafts/1995-03-11-liverpool-tottenham-hotspur-evidence.md",
+          "confidence": "high",
+          "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1995-03-19-liverpool-manchester-united",
@@ -7979,27 +7981,28 @@
       "historicalEventDate": "1995-03-19",
       "featuredWeek": "2026-03-16",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_1994_95; task 12e9ee40df22",
-      "claim": {
-        "token": "1994-95-12e9ee40df22",
-        "claimedAt": "2026-09-25T11:42:47.036Z",
-        "baseCommit": "c17fdd776c505e6b81fbbbd6fb1c04d889b445a7"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1995-03-19-liverpool-manchester-united.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication.",
+      "notes": "Denny commissioned the best matches of 1994-95 on 25 September 2026, explicitly drafts only pending approval. Seasonal archive commission; annual association does not change weekly selections or schedule publication. Finished retrieved-source article saved with companion -evidence.md for confidence labels, evidence mapping and exclusions. No article approval or publication.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/36",
           "confidence": "high",
           "scope": "Season fixture inventory used for selection; detailed article research in progress."
+        },
+        {
+          "location": "docs/editorial/drafts/1995-03-19-liverpool-manchester-united-evidence.md",
+          "confidence": "high",
+          "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1995-04-02-liverpool-bolton-wanderers",
@@ -8097,7 +8100,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-25T11:49:17.102Z",
+  "updatedAt": "2026-09-25T11:52:22.694Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }

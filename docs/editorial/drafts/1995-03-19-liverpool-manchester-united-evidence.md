@@ -1,0 +1,19 @@
+# Editorial evidence: 19 March 1995
+
+Unpublished factual draft. Configured model gpt-6-astra; worker /root/astra_1994_95. Remote claim confirmed before writing. No footage viewed, quotations or publication date.
+
+## Retrieved sources and claim mapping
+
+- **High** — https://www.lfchistory.net/games/2003 — exact date, Anfield,2-0score, Redknapp25, Bruce own goal, team and substitutions, post-match table Blackburn76/United70 both34played,Liverpool4th. Supports P1,P2lineup,P3,P4Cole,P5attribution,P6.
+- **Medium** — https://www.lfchistory.net/articles/1429 — full contemporary Daily Telegraph report retrieved. Jones suspension and Scales shift, Redknapp pastIrwin/throughPallister, Schmeichel saves, Giggs/Hughes chances, Thomas cross/McManaman shot deflected Bruce, title context. About150words of incident narrative. Avoid report's speculative motives for Cole selection.
+- **Medium** — https://www.skysports.com/football/liverpool-vs-manchester-united/teams/276486 — independent retrieved record agrees Redknapp25 and Bruce85own goal.
+- **High** — https://www.lfchistory.net/season-archive/games/36 — full results also available in1978selector:11MarSpurs1-2,14MarCoventry2-3,19MarUnited2-0 and14MayBlackburn. P1/P6context.
+
+## Conflicts and omissions
+
+- Contemporary Telegraph incorrectly says Cole replaced Lee Sharpe; match record says Kanchelskis. Public copy only says Cole sent on at interval, common verified fact.
+- Bruce minute85LFChistory/Sky,86in11v11/mufcinfo,84inFBref. Omit precise minute.
+- Build-up assist: LFChistory credits Fowler; Telegraph describes ball running from Rush. Avoid naming final supplier; public action starts with Redknapp.
+- Mark Wright first-start-in-year statement omitted; not needed and requires separate appearance audit.
+- No assertion this match alone decided championship. Table gap is stated as then, not final.
+- All metadata IDs verified existing.
