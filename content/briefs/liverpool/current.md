@@ -1,43 +1,63 @@
 ---
 {
-  "lastUpdated": "2026-09-24T17:10:31.000Z",
+  "lastUpdated": "2026-09-25T17:24:33.000Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
     {
-      "headline": "Isak earns Liverpool a hard-fought win at Bournemouth",
-      "category": "Match",
-      "summary": "Alexander Isak scored the only goal as Liverpool beat Bournemouth 1–0 at the Vitality Stadium. The result leaves Andoni Iraola’s side unbeaten in seven matches this season, with Alisson recording a third consecutive Premier League clean sheet.",
+      "headline": "Manchester City found guilty of 114 charges, reports say",
+      "category": "Premier League",
+      "summary": "Manchester City have been found guilty of 114 of the Premier League’s 115 financial charges, according to reports on 25 September. City are expected to appeal and say the process remains ongoing. The Premier League has declined to comment.",
       "sources": [
         {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official post-match reaction, 21 September 2026",
-          "url": "https://www.liverpoolfc.com/news/alisson-becker-liverpools-win-bournemouth-confidence-and-clean-sheets"
+          "name": "Reuters — confidence: high",
+          "platform": "Report on the reported verdict and club response, 25 September 2026",
+          "url": "https://www.reuters.com/business/finance/man-city-found-guilty-all-one-115-charges-reports-say-2026-09-25/"
         }
       ]
     },
     {
-      "headline": "Three Liverpool league fixtures moved for television",
-      "category": "Fixtures",
-      "summary": "Liverpool’s November trips to Crystal Palace and Everton have been moved to Sundays. The Merseyside derby at Goodison Park will kick off at midday on 29 November, while Manchester United’s visit to Anfield has been scheduled for 4.30pm on 22 November.",
-      "sources": [
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official fixture update, 21 September 2026",
-          "url": "https://www.liverpoolfc.com/news/fixture-updates-three-premier-league-changes-liverpool-november"
-        }
-      ]
-    },
-    {
-      "headline": "Liverpool players depart for extended international window",
+      "headline": "Gakpo and Tsimikas make decisive international contributions",
       "category": "Internationals",
-      "summary": "A large group of Liverpool players will represent their countries during the September and October international period. The first senior fixtures begin on Thursday, when Virgil van Dijk, Cody Gakpo, Ryan Gravenberch and Jeremie Frimpong could feature as the Netherlands face Jürgen Klopp’s Germany.",
+      "summary": "Cody Gakpo volleyed in stoppage time to earn the Netherlands a 1–1 Nations League draw with Germany on 24 September, in Jürgen Klopp’s first match as Germany head coach. Kostas Tsimikas assisted Greece’s 95th-minute winner in a 2–1 victory over Serbia.",
       "sources": [
         {
           "name": "Liverpool FC — confidence: high",
-          "platform": "Official internationals guide, 22 September 2026",
-          "url": "https://www.liverpoolfc.com/news/internationals-guide-when-and-where-liverpool-players-are-action"
+          "platform": "International match roundup, 25 September 2026",
+          "url": "https://www.liverpoolfc.com/news/internationals-cody-gakpo-scores-late-equaliser-reunion-jurgen-klopp"
+        },
+        {
+          "name": "UEFA — confidence: high",
+          "platform": "Nations League matchday one roundup, 24 September 2026",
+          "url": "https://www.uefa.com/uefanationsleague/news/02a9-21abb9d8b85c-0d9416d472ce-1000--uefa-nations-league-matchday-1-highlights-and-round-up-c/"
+        }
+      ]
+    },
+    {
+      "headline": "Liverpool feature in three Premier League award shortlists",
+      "category": "Awards",
+      "summary": "Andoni Iraola is nominated for Manager of the Month, while Alexander Isak and Jeremy Jacquet are shortlisted for Player of the Month. Alisson Becker’s save against Bournemouth is also up for Save of the Month. Isak scored three league goals in September, and Liverpool kept three clean sheets.",
+      "sources": [
+        {
+          "name": "Premier League — confidence: high",
+          "platform": "Manager of the Month shortlist, 24 September 2026",
+          "url": "https://www.premierleague.com/en/news/4725621"
+        },
+        {
+          "name": "Premier League — confidence: high",
+          "platform": "Player of the Month shortlist, 24 September 2026",
+          "url": "https://www.premierleague.com/en/news/4725624"
+        },
+        {
+          "name": "Premier League — confidence: high",
+          "platform": "Save of the Month shortlist, 24 September 2026",
+          "url": "https://www.premierleague.com/en/news/4725622"
+        },
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Alisson nominated for Save of the Month, 24 September 2026",
+          "url": "https://www.liverpoolfc.com/news/alisson-becker-nominated-premier-league-save-month-0"
         }
       ]
     },
@@ -67,33 +87,6 @@
           "name": "Reuters — confidence: high",
           "platform": "Squad announcement report, 18 September 2026",
           "url": "https://www.reuters.com/sports/soccer/alexander-arnold-returns-england-squad-tuchel-makes-10-changes-world-cup-2026-09-18/"
-        }
-      ]
-    },
-    {
-      "headline": "Liverpool feature in three Premier League award shortlists",
-      "category": "Awards",
-      "summary": "Andoni Iraola is nominated for Manager of the Month, while Alexander Isak and Jeremy Jacquet are shortlisted for Player of the Month. Alisson Becker’s save against Bournemouth is also up for Save of the Month. Isak scored three league goals in September, and Liverpool kept three clean sheets.",
-      "sources": [
-        {
-          "name": "Premier League — confidence: high",
-          "platform": "Manager of the Month shortlist, 24 September 2026",
-          "url": "https://www.premierleague.com/en/news/4725621"
-        },
-        {
-          "name": "Premier League — confidence: high",
-          "platform": "Player of the Month shortlist, 24 September 2026",
-          "url": "https://www.premierleague.com/en/news/4725624"
-        },
-        {
-          "name": "Premier League — confidence: high",
-          "platform": "Save of the Month shortlist, 24 September 2026",
-          "url": "https://www.premierleague.com/en/news/4725622"
-        },
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Alisson nominated for Save of the Month, 24 September 2026",
-          "url": "https://www.liverpoolfc.com/news/alisson-becker-nominated-premier-league-save-month-0"
         }
       ]
     }
