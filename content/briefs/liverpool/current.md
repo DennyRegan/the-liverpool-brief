@@ -1,6 +1,6 @@
 ---
 {
-  "lastUpdated": "2026-09-25T17:24:33.000Z",
+  "lastUpdated": "2026-09-26T17:12:00.000Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
@@ -35,6 +35,18 @@
       ]
     },
     {
+      "headline": "Julian Ward returns as Liverpool sporting director",
+      "category": "Club",
+      "summary": "Liverpool have appointed Julian Ward as sporting director with immediate effect. Ward moves from his role as Fenway Sports Group’s technical director, returning to the position he left in 2023. He will lead the club’s football operations and support head coach Andoni Iraola.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official announcement, 26 September 2026",
+          "url": "https://www.liverpoolfc.com/news/julian-ward-appointed-lfc-sporting-director"
+        }
+      ]
+    },
+    {
       "headline": "Liverpool feature in three Premier League award shortlists",
       "category": "Awards",
       "summary": "Andoni Iraola is nominated for Manager of the Month, while Alexander Isak and Jeremy Jacquet are shortlisted for Player of the Month. Alisson Becker’s save against Bournemouth is also up for Save of the Month. Isak scored three league goals in September, and Liverpool kept three clean sheets.",
@@ -58,35 +70,6 @@
           "name": "Liverpool FC — confidence: high",
           "platform": "Alisson nominated for Save of the Month, 24 September 2026",
           "url": "https://www.liverpoolfc.com/news/alisson-becker-nominated-premier-league-save-month-0"
-        }
-      ]
-    },
-    {
-      "headline": "Liverpool v Chelsea fixture details confirmed",
-      "category": "Fixtures",
-      "summary": "Liverpool will host Chelsea in the Carabao Cup fourth round at 8pm GMT on Wednesday 28 October. The tie will be shown live in the UK on Sky Sports and ITV.",
-      "sources": [
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official fixture confirmation, 18 September 2026",
-          "url": "https://www.liverpoolfc.com/news/liverpool-v-chelsea-carabao-cup-fixture-details-confirmed"
-        }
-      ]
-    },
-    {
-      "headline": "Ngumoha named in England squad",
-      "category": "Internationals",
-      "summary": "Rio Ngumoha has been selected for England’s four upcoming Nations League matches against Spain, Croatia and Czechia. The 18-year-old made his senior international debut against New Zealand in June.",
-      "sources": [
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official squad announcement, 18 September 2026",
-          "url": "https://www.liverpoolfc.com/news/rio-ngumoha-receives-england-call"
-        },
-        {
-          "name": "Reuters — confidence: high",
-          "platform": "Squad announcement report, 18 September 2026",
-          "url": "https://www.reuters.com/sports/soccer/alexander-arnold-returns-england-squad-tuchel-makes-10-changes-world-cup-2026-09-18/"
         }
       ]
     }
