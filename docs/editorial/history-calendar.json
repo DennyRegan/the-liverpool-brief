@@ -8131,27 +8131,33 @@
       "historicalEventDate": "1998-11-29",
       "featuredWeek": "2026-11-23",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_gerrard; Gerrard biography 2026-09-27",
-      "claim": {
-        "token": "gerrard-f763f1320e0c-20260927",
-        "claimedAt": "2026-09-27T10:37:46.016Z",
-        "baseCommit": "cf7fbd53a040cb7bddf691205aa244dea07eb0d4"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/steven-gerrard.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Explicitly commissioned by Denny on 27 September 2026: Write Steven Gerrard; give appropriate depth to his claim as the club's greatest player. Career biography, not an anniversary report. Verified first-team debut, 29 November 1998, is solely the factual commissioning anchor; no principal season. Preserve weekly selections. Draft only, with destination/authorship and specific publication approval pending.",
+      "notes": "Explicitly commissioned by Denny on 27 September 2026: Write Steven Gerrard; give appropriate depth to his claim as the club's greatest player. Career biography, not an anniversary report. Verified first-team debut, 29 November 1998, is solely the factual commissioning anchor; no principal season. Preserve weekly selections. Draft only, with destination/authorship and specific publication approval pending. Completed 1,636-word biography by configured gpt-6-astra /root/astra_gerrard, with 29 inspected source links, separate confidence-labelled research record and paragraph factual audit. Draft metadata follows current schema and canonical identities; no principal season or publication date. AI-written factual reference biography, not Denny's original prose. Application tests, lint, build and rendered-page checks remain for specifically authorised publication.",
       "evidence": [
         {
           "location": "https://www.liverpoolfc.com/info/steven-gerrard",
           "confidence": "high",
           "scope": "Retrieved official profile confirms competitive debut 29 November 1998, used only as calendar anchor. Full source research and factual writing assigned to configured gpt-6-astra /root/astra_gerrard."
+        },
+        {
+          "location": "docs/editorial/drafts/steven-gerrard-research-audit.md",
+          "confidence": "high",
+          "scope": "Astra source register, claim coverage, paragraph audit, conflicts and exclusions; all narrative claims reviewed."
+        },
+        {
+          "location": "docs/editorial/drafts/steven-gerrard-publication-notes.md",
+          "confidence": "high",
+          "scope": "Repository-derived draft metadata and canonical identity checks; explicit publication and authorship gates retained."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "james-milner-career-biography",
@@ -8530,7 +8536,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-27T10:43:33.599Z",
+  "updatedAt": "2026-09-27T10:45:17.482Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
