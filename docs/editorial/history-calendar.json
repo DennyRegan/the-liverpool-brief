@@ -8159,27 +8159,28 @@
       "historicalEventDate": "2015-07-01",
       "featuredWeek": "2026-06-29",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/milner_biography; workspace 9fef0bf1087a",
-      "claim": {
-        "token": "milner-9fef0bf1087a-20260927",
-        "claimedAt": "2026-09-27T10:39:01.723Z",
-        "baseCommit": "19e0ebadde3cefba2f7396a4d7c259e636dfc80a"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/james-milner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned a James Milner biography on 27 September 2026. Career biography with Liverpool central; 1 July 2015 arrival is calendar anchor only, not a principal season or publication date. Preserve weekly selections. Draft only; specific publication approval remains pending.",
+      "notes": "Denny commissioned a James Milner biography on 27 September 2026. Career biography with Liverpool central; 1 July 2015 arrival is calendar anchor only, not a principal season or publication date. Preserve weekly selections. Draft only; specific publication approval remains pending. Completed 932-word retrieved-source biography with separate research record, paragraph audit and proposed metadata. Public prose contains no editorial confidence labels. Specific publication approval remains null.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/players/1285",
           "confidence": "high",
           "scope": "Liverpool arrival after Manchester City contract expired in June 2015; full research and writing by configured gpt-6-astra /root/milner_biography."
+        },
+        {
+          "location": "docs/editorial/drafts/james-milner-research-record.md",
+          "confidence": "high",
+          "scope": "Configured gpt-6-astra /root/milner_biography retrieved-source assessment, paragraph audit, conflicts and proposed metadata."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1995-08-19-liverpool-sheffield-wednesday",
@@ -8529,7 +8530,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-27T10:43:00.259Z",
+  "updatedAt": "2026-09-27T10:43:33.599Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
