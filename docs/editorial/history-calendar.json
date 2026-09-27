@@ -8152,6 +8152,34 @@
         }
       ],
       "researchStatus": "needs_research"
+    },
+    {
+      "id": "james-milner-career-biography",
+      "event": "James Milner: Liverpool career biography",
+      "historicalEventDate": "2015-07-01",
+      "featuredWeek": "2026-06-29",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/milner_biography; workspace 9fef0bf1087a",
+      "claim": {
+        "token": "milner-9fef0bf1087a-20260927",
+        "claimedAt": "2026-09-27T10:39:01.723Z",
+        "baseCommit": "19e0ebadde3cefba2f7396a4d7c259e636dfc80a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned a James Milner biography on 27 September 2026. Career biography with Liverpool central; 1 July 2015 arrival is calendar anchor only, not a principal season or publication date. Preserve weekly selections. Draft only; specific publication approval remains pending.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/players/1285",
+          "confidence": "high",
+          "scope": "Liverpool arrival after Manchester City contract expired in June 2015; full research and writing by configured gpt-6-astra /root/milner_biography."
+        }
+      ],
+      "researchStatus": "needs_research"
     }
   ],
   "gaps": [
@@ -8193,7 +8221,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-27T10:37:46.016Z",
+  "updatedAt": "2026-09-27T10:39:01.723Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
