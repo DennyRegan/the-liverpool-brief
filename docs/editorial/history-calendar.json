@@ -8124,6 +8124,34 @@
         }
       ],
       "researchStatus": "verified"
+    },
+    {
+      "id": "steven-gerrard-career-biography",
+      "event": "Steven Gerrard: Liverpool career biography",
+      "historicalEventDate": "1998-11-29",
+      "featuredWeek": "2026-11-23",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_gerrard; Gerrard biography 2026-09-27",
+      "claim": {
+        "token": "gerrard-f763f1320e0c-20260927",
+        "claimedAt": "2026-09-27T10:37:46.016Z",
+        "baseCommit": "cf7fbd53a040cb7bddf691205aa244dea07eb0d4"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Explicitly commissioned by Denny on 27 September 2026: Write Steven Gerrard; give appropriate depth to his claim as the club's greatest player. Career biography, not an anniversary report. Verified first-team debut, 29 November 1998, is solely the factual commissioning anchor; no principal season. Preserve weekly selections. Draft only, with destination/authorship and specific publication approval pending.",
+      "evidence": [
+        {
+          "location": "https://www.liverpoolfc.com/info/steven-gerrard",
+          "confidence": "high",
+          "scope": "Retrieved official profile confirms competitive debut 29 November 1998, used only as calendar anchor. Full source research and factual writing assigned to configured gpt-6-astra /root/astra_gerrard."
+        }
+      ],
+      "researchStatus": "needs_research"
     }
   ],
   "gaps": [
@@ -8165,7 +8193,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-25T13:12:47.324Z",
+  "updatedAt": "2026-09-27T10:37:46.016Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
