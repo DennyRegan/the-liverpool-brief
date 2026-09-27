@@ -8180,6 +8180,314 @@
         }
       ],
       "researchStatus": "needs_research"
+    },
+    {
+      "id": "1995-08-19-liverpool-sheffield-wednesday",
+      "event": "Liverpool 1–0 Sheffield Wednesday",
+      "historicalEventDate": "1995-08-19",
+      "featuredWeek": "2026-08-17",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_early; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-0",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
+    },
+    {
+      "id": "1995-09-23-liverpool-bolton-wanderers",
+      "event": "Liverpool 5–2 Bolton Wanderers",
+      "historicalEventDate": "1995-09-23",
+      "featuredWeek": "2026-09-21",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_early; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-1",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
+    },
+    {
+      "id": "1995-10-01-manchester-united-liverpool",
+      "event": "Manchester United 2–2 Liverpool",
+      "historicalEventDate": "1995-10-01",
+      "featuredWeek": "2026-09-28",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_early; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-2",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
+    },
+    {
+      "id": "1995-10-28-liverpool-manchester-city",
+      "event": "Liverpool 6–0 Manchester City",
+      "historicalEventDate": "1995-10-28",
+      "featuredWeek": "2026-10-26",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_early; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-3",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
+    },
+    {
+      "id": "1995-12-17-liverpool-manchester-united",
+      "event": "Liverpool 2–0 Manchester United",
+      "historicalEventDate": "1995-12-17",
+      "featuredWeek": "2026-12-14",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_early; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-4",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
+    },
+    {
+      "id": "1995-12-23-liverpool-arsenal",
+      "event": "Liverpool 3–1 Arsenal",
+      "historicalEventDate": "1995-12-23",
+      "featuredWeek": "2026-12-21",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_early; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-5",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
+    },
+    {
+      "id": "1996-01-20-liverpool-leeds-united",
+      "event": "Liverpool 5–0 Leeds United",
+      "historicalEventDate": "1996-01-20",
+      "featuredWeek": "2026-01-19",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_late; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-6",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
+    },
+    {
+      "id": "1996-02-24-blackburn-rovers-liverpool",
+      "event": "Blackburn Rovers 2–3 Liverpool",
+      "historicalEventDate": "1996-02-24",
+      "featuredWeek": "2026-02-23",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_late; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-7",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
+    },
+    {
+      "id": "1996-03-31-liverpool-aston-villa",
+      "event": "Liverpool 3–0 Aston Villa",
+      "historicalEventDate": "1996-03-31",
+      "featuredWeek": "2026-03-30",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_late; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-8",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
+    },
+    {
+      "id": "1996-04-03-liverpool-newcastle-united",
+      "event": "Liverpool 4–3 Newcastle United",
+      "historicalEventDate": "1996-04-03",
+      "featuredWeek": "2026-03-30",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_late; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-9",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
+    },
+    {
+      "id": "1996-05-11-liverpool-manchester-united",
+      "event": "Liverpool 0–1 Manchester United",
+      "historicalEventDate": "1996-05-11",
+      "featuredWeek": "2026-05-11",
+      "selection": "alternative",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_late; task 0ce4e1660e6c",
+      "claim": {
+        "token": "1995-96-0ce4e1660e6c-10",
+        "claimedAt": "2026-09-27T10:43:00.259Z",
+        "baseCommit": "0a1715d6cc5a4b8325f69f1fc52c58f1262bfb3b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review.",
+      "evidence": [
+        {
+          "location": "https://www.lfchistory.net/season-archive/games/37",
+          "confidence": "high",
+          "scope": "Retrieved season fixture inventory; detailed research in progress."
+        }
+      ],
+      "researchStatus": "in_progress"
     }
   ],
   "gaps": [
@@ -8221,7 +8529,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-27T10:39:01.723Z",
+  "updatedAt": "2026-09-27T10:43:00.259Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
