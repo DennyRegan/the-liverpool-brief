@@ -8543,7 +8543,11 @@
     },
     {
       "approval": null,
-      "claim": null,
+      "claim": {
+        "token": "astra-weekly-0928-rodgers-mukykh7f",
+        "claimedAt": "2026-09-28T08:01:06.075Z",
+        "baseCommit": "23de670a552d9810d72cf9e27eef063173715ab3"
+      },
       "draftPath": null,
       "event": "Liverpool dismiss Brendan Rodgers",
       "eventPath": null,
@@ -8567,13 +8571,13 @@
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "2015-10-04",
       "id": "2015-10-04-rodgers-dismissal",
-      "notes": "Selected after the 28 September 2026 four-week coverage sweep. Core event/date verified by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; this is not a full article fact-check, writing claim, approval or publication. See coverage notes for conflicts and exclusions.",
+      "notes": "Selected after the 28 September 2026 four-week coverage sweep. Core event/date verified by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; this is not a full article fact-check, writing claim, approval or publication. See coverage notes for conflicts and exclusions. Claimed on 28 September 2026 by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Departure and tenure account, distinct from the 8 October appointment draft.",
       "originalDraftId": null,
-      "owner": null,
+      "owner": "gpt-6-astra /root/astra_weekly_history_0928",
       "publishedDestination": null,
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "planned"
+      "status": "writing"
     },
     {
       "approval": null,
@@ -8797,7 +8801,7 @@
     "28 September 2026 four-week reconciliation: current week plus the following three weeks reviewed through 25 October. Four Astra drafts are ready for review; five newly selected proposals and one alternative have core date/event verification only. Honest no-selection gaps remain on 6, 10, 11, 16, 18, 21, 23 and 25 October. No filler or publication approval inferred."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-28T08:00:03.146Z",
+  "updatedAt": "2026-09-28T08:01:06.075Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
