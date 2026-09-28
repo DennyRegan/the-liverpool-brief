@@ -829,12 +829,8 @@
     },
     {
       "approval": null,
-      "claim": {
-        "token": "astra-weekly-0928-salzburg-mukxuo48",
-        "claimedAt": "2026-09-28T07:41:01.976Z",
-        "baseCommit": "88aad023d20171eb3ec15f166dca87d8fb34755f"
-      },
-      "draftPath": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/liverpool-salzburg-2019-salah-winner.md",
       "event": "Liverpool 4–3 Salzburg",
       "eventPath": null,
       "evidence": [
@@ -847,18 +843,23 @@
           "confidence": "high",
           "location": "docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2019-10-02-proposed-match",
           "scope": "Exact date; Liverpool 4–3 Salzburg; Champions League Group E; Salah’s second goal decided it."
+        },
+        {
+          "location": "docs/editorial/drafts/liverpool-salzburg-2019-salah-winner-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual draft, source assessment and discrepancy audit by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; unpublished pending Denny review."
         }
       ],
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "2019-10-02",
       "id": "2019-10-02-proposed-match",
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2019-10-02-proposed-match. Selected on 28 September 2026 for the uncovered 2 October anniversary: Champions League holders win 4–3 after losing a three-goal lead. Existing Oulu articles and all alternatives preserved; no publication approval. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2019-10-02-proposed-match. Selected on 28 September 2026 for the uncovered 2 October anniversary: Champions League holders win 4–3 after losing a three-goal lead. Existing Oulu articles and all alternatives preserved; no publication approval. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_weekly_history_0928",
       "publishedDestination": null,
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "writing"
+      "status": "ready_for_review"
     },
     {
       "approval": {
@@ -8571,7 +8572,7 @@
     "Five previously approved Archive articles in the 28 September–25 October four-week window were observed live on 28 September 2026 and reconciled to published; no article prose, code or layout changed."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-28T07:42:53.308Z",
+  "updatedAt": "2026-09-28T07:44:32.545Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
