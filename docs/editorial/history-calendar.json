@@ -968,12 +968,8 @@
     },
     {
       "approval": null,
-      "claim": {
-        "token": "astra-weekly-0928-klopp-muky4mxo",
-        "claimedAt": "2026-09-28T07:48:47.004Z",
-        "baseCommit": "8bb060161f81af0905887e11376741b78512a684"
-      },
-      "draftPath": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/jurgen-klopp-appointed-liverpool-2015.md",
       "event": "Jürgen Klopp appointed Liverpool manager",
       "eventPath": null,
       "evidence": [
@@ -986,18 +982,23 @@
           "confidence": "high",
           "location": "docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2015-10-08-klopp-appointment",
           "scope": "Klopp appointed and announced on 8 October 2015; presentation was the following day."
+        },
+        {
+          "location": "docs/editorial/drafts/jurgen-klopp-appointed-liverpool-2015-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual draft, appointment-date fact-check and discrepancy audit by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; unpublished pending Denny review."
         }
       ],
       "featuredWeek": "2026-10-05",
       "historicalEventDate": "2015-10-08",
       "id": "2015-10-08-klopp-appointment",
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2015-10-08-klopp-appointment. Selected on 28 September 2026 for the uncovered 8 October anniversary: appointment-focused factual account, carefully distinct from the 9 October presentation and later career. No alternative displaced or publication approval inferred. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2015-10-08-klopp-appointment. Selected on 28 September 2026 for the uncovered 8 October anniversary: appointment-focused factual account, carefully distinct from the 9 October presentation and later career. No alternative displaced or publication approval inferred. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_weekly_history_0928",
       "publishedDestination": null,
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "writing"
+      "status": "ready_for_review"
     },
     {
       "approval": {
@@ -8581,7 +8582,7 @@
     "Five previously approved Archive articles in the 28 September–25 October four-week window were observed live on 28 September 2026 and reconciled to published; no article prose, code or layout changed."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-28T07:48:47.004Z",
+  "updatedAt": "2026-09-28T07:53:33.914Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
