@@ -1,3 +1,27 @@
+---
+{
+  "title": "James Milner: Eight years at the heart of Liverpool",
+  "slug": "james-milner",
+  "excerpt": "James Milner's eight Liverpool seasons spanned rebuilding, European glory and a league title, with his contribution changing as the team developed.",
+  "historicalPeriod": "2015–2023",
+  "decade": "2010s",
+  "category": "person",
+  "articleType": "player",
+  "editorialMode": "factual",
+  "historyEras": [
+    "brendan-rodgers",
+    "jurgen-klopp"
+  ],
+  "playerIds": [
+    "james-milner"
+  ],
+  "managerIds": [
+    "brendan-rodgers",
+    "jurgen-klopp"
+  ]
+}
+---
+
 # James Milner: Eight years at the heart of Liverpool
 
 James Milner arrived at Liverpool in 2015 with two league titles already behind him. Eight years later, he left having helped the club become champions of England, Europe and the world. Across 332 appearances, his contribution took several forms: midfielder, full-back, penalty taker and vice-captain. The position changed with the needs of the team. His place in its development endured.
