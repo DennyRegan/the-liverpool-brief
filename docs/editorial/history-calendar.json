@@ -556,18 +556,23 @@
           "location": "docs/editorial/drafts/153-liverpool-tottenham-1985-molby-two-penalties.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-tottenham-1985-molby-two-penalties",
+          "confidence": "high",
+          "scope": "Live factual Archive destination observed on 28 September 2026; publication-status reconciliation only."
         }
       ],
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "1985-09-28",
       "id": "1985-09-28-classic-153",
-      "notes": "Preserved classic-match longlist 153; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
+      "notes": "Preserved classic-match longlist 153; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections. Live destination observed on 28 September 2026 and reconciled from approved to published; no article text changed.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-tottenham-1985-molby-two-penalties",
       "researchStatus": "verified",
       "selection": "alternative",
-      "status": "approved"
+      "status": "published"
     },
     {
       "approval": null,
@@ -761,18 +766,23 @@
           "location": "docs/editorial/drafts/165-everton-liverpool-1986-super-cup-rush-hat-trick.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/everton-liverpool-1986-super-cup-rush-hat-trick",
+          "confidence": "high",
+          "scope": "Live factual Archive destination observed on 28 September 2026; publication-status reconciliation only."
         }
       ],
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "1986-09-30",
       "id": "1986-09-30-classic-165",
-      "notes": "Preserved classic-match longlist 165; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
+      "notes": "Preserved classic-match longlist 165; not a commissioned draft. Do not replace selected topics without recording the decision here. Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR38, commit e7a568251089344ed91221ba88dcad1147667edf. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections. Live destination observed on 28 September 2026 and reconciled from approved to published; no article text changed.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_c; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
-      "publishedDestination": null,
+      "publishedDestination": "/archive/everton-liverpool-1986-super-cup-rush-hat-trick",
       "researchStatus": "verified",
       "selection": "alternative",
-      "status": "approved"
+      "status": "published"
     },
     {
       "approval": {
@@ -5384,19 +5394,19 @@
       "historicalEventDate": "1984-10-20",
       "featuredWeek": "2026-10-19",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1984-10-20-liverpool-everton-1984-sharp-volley.md",
       "draftPath": "docs/editorial/drafts/143-liverpool-everton-1984-sharp-volley.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-everton-1984-sharp-volley",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T14:07:04.676Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 137–151 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR37, commit d3ee07a9e0e9fda9344c224f86ace84f8441019d. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR37, commit d3ee07a9e0e9fda9344c224f86ace84f8441019d. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections. Live destination observed on 28 September 2026 and reconciled from approved to published; no article text changed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5407,6 +5417,11 @@
           "location": "docs/editorial/drafts/143-liverpool-everton-1984-sharp-volley.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-everton-1984-sharp-volley",
+          "confidence": "high",
+          "scope": "Live factual Archive destination observed on 28 September 2026; publication-status reconciliation only."
         }
       ],
       "researchStatus": "verified"
@@ -5417,19 +5432,19 @@
       "historicalEventDate": "1984-10-24",
       "featuredWeek": "2026-10-19",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1984-10-24-liverpool-benfica-1984-rush-hat-trick.md",
       "draftPath": "docs/editorial/drafts/144-liverpool-benfica-1984-rush-hat-trick.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-benfica-1984-rush-hat-trick",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T14:07:04.676Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 137–151 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR37, commit d3ee07a9e0e9fda9344c224f86ace84f8441019d. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR37, commit d3ee07a9e0e9fda9344c224f86ace84f8441019d. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections. Live destination observed on 28 September 2026 and reconciled from approved to published; no article text changed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -5440,6 +5455,11 @@
           "location": "docs/editorial/drafts/144-liverpool-benfica-1984-rush-hat-trick.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_b; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-benfica-1984-rush-hat-trick",
+          "confidence": "high",
+          "scope": "Live factual Archive destination observed on 28 September 2026; publication-status reconciliation only."
         }
       ],
       "researchStatus": "verified"
@@ -6139,19 +6159,19 @@
       "historicalEventDate": "1987-10-17",
       "featuredWeek": "2026-10-12",
       "selection": "alternative",
-      "status": "approved",
+      "status": "published",
       "owner": "gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19",
       "claim": null,
       "eventPath": "content/this-week/liverpool/1987-10-17-liverpool-qpr-1987-barnes-takes-liverpool-top.md",
       "draftPath": "docs/editorial/drafts/171-liverpool-qpr-1987-barnes-takes-liverpool-top.md",
       "originalDraftId": null,
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-qpr-1987-barnes-takes-liverpool-top",
       "approval": {
         "by": "Denny",
         "recordedAt": "2026-09-15T14:34:56.072Z",
         "evidence": "Current task: “carry on from the list in the files. Same instructions. Write in batches of 15. Same format as the others. Commit and publish once ready ... Do not stop until I say otherwise.” Authorises source-checked classic batch 167–181 publication."
       },
-      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR39, commit 0d525805c094639f5ec61ba1c996903bc4feddf0. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections.",
+      "notes": "Commissioned continuation of classic longlist in chronological batches. Annual association preserves current weekly selections. Publication depends on completed research and validation. Completed source-checked Astra draft; source scopes, confidence and exclusions recorded in its editor notes. Current task explicitly authorises publication after validation. Publication files prepared; live verification pending. Validated publication merged in PR39, commit 0d525805c094639f5ec61ba1c996903bc4feddf0. Production remains pending Vercel daily deployment allowance; do not mark live. Refresh actual publication dates before delayed deployment, then verify all live routes and connections. Live destination observed on 28 September 2026 and reconciled from approved to published; no article text changed.",
       "evidence": [
         {
           "location": "../sources/classic-liverpool-games-1970-1990(1).md",
@@ -6162,6 +6182,11 @@
           "location": "docs/editorial/drafts/171-liverpool-qpr-1987-barnes-takes-liverpool-top.md",
           "confidence": "high",
           "scope": "Retrieved-source factual writing and claim verification by explicitly configured gpt-6-astra /root/astra_a; task 01a0a524-2a03-77a1-9d67-ce2c5dc91e19. See draft editor notes for source-level limitations."
+        },
+        {
+          "location": "https://theliverpoolbrief.com/archive/liverpool-qpr-1987-barnes-takes-liverpool-top",
+          "confidence": "high",
+          "scope": "Live factual Archive destination observed on 28 September 2026; publication-status reconciliation only."
         }
       ],
       "researchStatus": "verified"
@@ -8542,10 +8567,11 @@
     "The classic-match progress file and prior chat lists are historical inputs, not independent commissioning queues. This calendar now records overlapping selections and drafts.",
     "14 September 2026 follow-up: seven later-week provisional proposals have retrieved-source core event/date verification in docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md. They remain provisional/planned, not commissioned or approved articles. Original proposal evidence retained as provenance.",
     "14 September 2026 completed follow-up: 14–20 September retains eight published reports. For 21–27 September, five selected missing reports are now saved ready_for_review by explicitly configured gpt-6-astra (/root/astra_research_writer); the existing 1985 Goodison article still needs separate factual-classification approval. Seven later-week proposals have verified core dates/facts but remain provisional/planned. No new articles or short events were published by this run; existing drafts and concurrent main changes were preserved.",
-    "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
+    "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval.",
+    "Five previously approved Archive articles in the 28 September–25 October four-week window were observed live on 28 September 2026 and reconciled to published; no article prose, code or layout changed."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-28T07:41:01.976Z",
+  "updatedAt": "2026-09-28T07:42:53.308Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
