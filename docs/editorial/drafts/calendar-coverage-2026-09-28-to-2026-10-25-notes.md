@@ -121,3 +121,12 @@ All pages below were opened on 28 September 2026. Labels attach to the specified
 The main calendar's old gap notes still call 3/7 October unresearched and the four completed proposals provisional. Those descriptions are now stale: 3/7 already have factual articles for reuse; four agreed drafts are ready for review. Reconcile **selection gaps separately from publication gaps**.
 
 If the coordinator accepts the five recommended new selections (4/9/12/13/15 October), no-selection dates remain **6, 10, 11, 16, 18, 21, 23 and 25 October**. The 6 October agreement is deliberately folded into the 15 October event; 10/11 retain bounded leads without commissioning; later dates remain honest selective-research gaps. The Houllier alternative shares 13 October and does not fill an extra date. None of the new recommendations should be represented as already drafted, approved or published.
+
+## Post-sweep drafting status
+
+The nearest selected gaps were subsequently claimed one at a time and completed by the same explicitly configured `gpt-6-astra` worker after each prior atomic save was confirmed:
+
+- 4 October: Rodgers departure draft, completion commit `7e6a907f4959c060cdd85dcb234f05ab93a5350c`.
+- 9 October: Grimsby League Cup exit draft, completion commit `a7c267c17d1091bb165a795e5ba26aa3ff2c8b44`.
+
+Together with Shankly, Salzburg, Fowler and Klopp, six new drafts are now `ready_for_review`, unpublished and awaiting specific Denny approval. The later Salah, first league derby and NESV completion selections remain planned; Houllier remains an alternative. No further claim was taken in this run.

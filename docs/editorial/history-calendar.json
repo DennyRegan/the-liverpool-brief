@@ -8774,7 +8774,7 @@
         "2026-10-10",
         "2026-10-11"
       ],
-      "note": "No selected article for these dates after selective research. The 6 October sale agreement is background to the selected 15 October completion; 10 October's Rush milestone remains insufficiently verified; 11 October leads were not strong enough to commission. Reuse published 7 October coverage; Fowler and Klopp drafts await review; Grimsby is selected/planned."
+      "note": "No selected article for these dates after selective research. The 6 October sale agreement is background to the selected 15 October completion; 10 October's Rush milestone remains insufficiently verified; 11 October leads were not strong enough to commission. Reuse published 7 October coverage. Fowler, Klopp and Grimsby drafts are ready for review."
     },
     {
       "featuredWeek": "2026-10-12",
@@ -8804,10 +8804,11 @@
     "14 September 2026 completed follow-up: 14–20 September retains eight published reports. For 21–27 September, five selected missing reports are now saved ready_for_review by explicitly configured gpt-6-astra (/root/astra_research_writer); the existing 1985 Goodison article still needs separate factual-classification approval. Seven later-week proposals have verified core dates/facts but remain provisional/planned. No new articles or short events were published by this run; existing drafts and concurrent main changes were preserved.",
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval.",
     "Five previously approved Archive articles in the 28 September–25 October four-week window were observed live on 28 September 2026 and reconciled to published; no article prose, code or layout changed.",
-    "28 September 2026 four-week reconciliation: current week plus the following three weeks reviewed through 25 October. Four Astra drafts are ready for review; five newly selected proposals and one alternative have core date/event verification only. Honest no-selection gaps remain on 6, 10, 11, 16, 18, 21, 23 and 25 October. No filler or publication approval inferred."
+    "28 September 2026 four-week reconciliation: current week plus the following three weeks reviewed through 25 October. Four Astra drafts are ready for review; five newly selected proposals and one alternative have core date/event verification only. Honest no-selection gaps remain on 6, 10, 11, 16, 18, 21, 23 and 25 October. No filler or publication approval inferred.",
+    "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-28T08:08:00.695Z",
+  "updatedAt": "2026-09-28T08:09:19.423Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
