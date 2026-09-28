@@ -62,7 +62,9 @@ export function validateCalendar(calendar, root = process.cwd()) {
         for (const id of draft[field] ?? []) assert.equal(entities.get(id), kind, `${e.id}: draft ${field} must use canonical ${kind} ID ${id}`);
       }
       getArticleEraIds(draft, eras);
-      assert.equal(draft.historicalEventDate, e.historicalEventDate, `${e.id}: draft date mismatch`);
+      // A career biography can use eras without treating its calendar anchor as a single event.
+      if (draft.historicalEventDate) assert.equal(draft.historicalEventDate, e.historicalEventDate, `${e.id}: draft date mismatch`);
+      else assert.ok(draft.category === 'person' && draft.historyEras?.length && !e.eventPath, `${e.id}: event draft requires historicalEventDate`);
       if (draft.season) assert.match(draft.season, /^\d{4}-\d{2}$/, `${e.id}: noncanonical season`);
       if (draft.season) assert.equal(Number(draft.season.slice(5)), (Number(draft.season.slice(0, 4)) + 1) % 100, `${e.id}: nonconsecutive season`);
     }
