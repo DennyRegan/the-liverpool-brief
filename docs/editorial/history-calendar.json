@@ -819,7 +819,11 @@
     },
     {
       "approval": null,
-      "claim": null,
+      "claim": {
+        "token": "astra-weekly-0928-salzburg-mukxuo48",
+        "claimedAt": "2026-09-28T07:41:01.976Z",
+        "baseCommit": "88aad023d20171eb3ec15f166dca87d8fb34755f"
+      },
       "draftPath": null,
       "event": "Liverpool 4–3 Salzburg",
       "eventPath": null,
@@ -838,13 +842,13 @@
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "2019-10-02",
       "id": "2019-10-02-proposed-match",
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2019-10-02-proposed-match.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2019-10-02-proposed-match. Selected on 28 September 2026 for the uncovered 2 October anniversary: Champions League holders win 4–3 after losing a three-goal lead. Existing Oulu articles and all alternatives preserved; no publication approval. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed.",
       "originalDraftId": null,
-      "owner": null,
+      "owner": "gpt-6-astra /root/astra_weekly_history_0928",
       "publishedDestination": null,
       "researchStatus": "verified",
-      "selection": "provisional",
-      "status": "planned"
+      "selection": "selected",
+      "status": "writing"
     },
     {
       "approval": {
@@ -8541,7 +8545,7 @@
     "The article-only display PR #26 was observed merged separately during this run (dc82f32); its application changes were preserved, not implemented or merged by this editorial run. Production/mobile visual release is not certified by these editorial checks. Calendar and strict unpublished draft metadata/entity checks passed; publication date remains unset until specific approval."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-28T07:29:51.299Z",
+  "updatedAt": "2026-09-28T07:41:01.976Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
