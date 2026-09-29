@@ -633,13 +633,13 @@
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "1981-09-29",
       "id": "1981-09-29-shankly-remembrance",
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1981-09-29-shankly-remembrance. Selected on 28 September 2026 for the uncovered 29 September anniversary: a factual account of Shankly's death and immediate club context, distinct from the existing 30 September Oulu match report; no opinion commission or publication approval. Claimed for retrieved-source research and drafting by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Completed retrieved-source Astra factual draft saved for review on 28 September 2026; no publication approval. Publication date remains unset. Source conflicts/exclusions: docs/editorial/drafts/remembering-bill-shankly-1981-editor-notes.md. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1981-09-29-shankly-remembrance. Selected on 28 September 2026 for the uncovered 29 September anniversary: a factual account of Shankly's death and immediate club context, distinct from the existing 30 September Oulu match report; no opinion commission or publication approval. Claimed for retrieved-source research and drafting by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Completed retrieved-source Astra factual draft saved for review on 28 September 2026; no publication approval. Publication date remains unset. Source conflicts/exclusions: docs/editorial/drafts/remembering-bill-shankly-1981-editor-notes.md. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending. Production deployment 5d9d286 succeeded on 29 September 2026; canonical article returned HTTP 200. Current-week articles confirmed in This Week. Existing source-audited prose preserved; Salzburg and Grimsby oppositionIds remain intentionally absent because neither club exists in the canonical registry.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_weekly_history_0928",
-      "publishedDestination": null,
+      "publishedDestination": "/archive/remembering-bill-shankly-1981",
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "approved"
+      "status": "published"
     },
     {
       "approval": {
@@ -861,13 +861,13 @@
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "2019-10-02",
       "id": "2019-10-02-proposed-match",
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2019-10-02-proposed-match. Selected on 28 September 2026 for the uncovered 2 October anniversary: Champions League holders win 4–3 after losing a three-goal lead. Existing Oulu articles and all alternatives preserved; no publication approval. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2019-10-02-proposed-match. Selected on 28 September 2026 for the uncovered 2 October anniversary: Champions League holders win 4–3 after losing a three-goal lead. Existing Oulu articles and all alternatives preserved; no publication approval. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending. Production deployment 5d9d286 succeeded on 29 September 2026; canonical article returned HTTP 200. Current-week articles confirmed in This Week. Existing source-audited prose preserved; Salzburg and Grimsby oppositionIds remain intentionally absent because neither club exists in the canonical registry.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_weekly_history_0928",
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-salzburg-2019-salah-winner",
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "approved"
+      "status": "published"
     },
     {
       "approval": {
@@ -937,13 +937,13 @@
       "featuredWeek": "2026-10-05",
       "historicalEventDate": "1993-10-05",
       "id": "1993-10-05-proposed-match",
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1993-10-05-proposed-match. Selected on 28 September 2026 for the uncovered 5 October anniversary: Fowler scores all five goals in the League Cup second leg, distinct from his published first-leg debut report. No existing alternative displaced; no publication approval. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#1993-10-05-proposed-match. Selected on 28 September 2026 for the uncovered 5 October anniversary: Fowler scores all five goals in the League Cup second leg, distinct from his published first-leg debut report. No existing alternative displaced; no publication approval. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending. Production deployment 5d9d286 succeeded on 29 September 2026; canonical article returned HTTP 200. Current-week articles confirmed in This Week. Existing source-audited prose preserved; Salzburg and Grimsby oppositionIds remain intentionally absent because neither club exists in the canonical registry.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_weekly_history_0928",
-      "publishedDestination": null,
+      "publishedDestination": "/archive/fowler-five-fulham-1993",
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "approved"
+      "status": "published"
     },
     {
       "approval": {
@@ -1008,13 +1008,13 @@
       "featuredWeek": "2026-10-05",
       "historicalEventDate": "2015-10-08",
       "id": "2015-10-08-klopp-appointment",
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2015-10-08-klopp-appointment. Selected on 28 September 2026 for the uncovered 8 October anniversary: appointment-focused factual account, carefully distinct from the 9 October presentation and later career. No alternative displaced or publication approval inferred. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2015-10-08-klopp-appointment. Selected on 28 September 2026 for the uncovered 8 October anniversary: appointment-focused factual account, carefully distinct from the 9 October presentation and later career. No alternative displaced or publication approval inferred. Claimed by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending. Production deployment 5d9d286 succeeded on 29 September 2026; canonical article returned HTTP 200. Current-week articles confirmed in This Week. Existing source-audited prose preserved; Salzburg and Grimsby oppositionIds remain intentionally absent because neither club exists in the canonical registry.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_weekly_history_0928",
-      "publishedDestination": null,
+      "publishedDestination": "/archive/jurgen-klopp-appointed-liverpool-2015",
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "approved"
+      "status": "published"
     },
     {
       "approval": {
@@ -8592,13 +8592,13 @@
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "2015-10-04",
       "id": "2015-10-04-rodgers-dismissal",
-      "notes": "Selected after the 28 September 2026 four-week coverage sweep. Core event/date verified by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; this is not a full article fact-check, writing claim, approval or publication. See coverage notes for conflicts and exclusions. Claimed on 28 September 2026 by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Departure and tenure account, distinct from the 8 October appointment draft. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending.",
+      "notes": "Selected after the 28 September 2026 four-week coverage sweep. Core event/date verified by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; this is not a full article fact-check, writing claim, approval or publication. See coverage notes for conflicts and exclusions. Claimed on 28 September 2026 by gpt-6-astra /root/astra_weekly_history_0928; no distinct task/run ID exposed. Departure and tenure account, distinct from the 8 October appointment draft. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending. Production deployment 5d9d286 succeeded on 29 September 2026; canonical article returned HTTP 200. Current-week articles confirmed in This Week. Existing source-audited prose preserved; Salzburg and Grimsby oppositionIds remain intentionally absent because neither club exists in the canonical registry.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_weekly_history_0928",
-      "publishedDestination": null,
+      "publishedDestination": "/archive/brendan-rodgers-dismissed-liverpool-2015",
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "approved"
+      "status": "published"
     },
     {
       "approval": {
@@ -8635,13 +8635,13 @@
       "featuredWeek": "2026-10-05",
       "historicalEventDate": "2001-10-09",
       "id": "2001-10-09-liverpool-grimsby-league-cup-exit",
-      "notes": "Selected after the 28 September 2026 four-week coverage sweep. Core event/date verified by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; this is not a full article fact-check, writing claim, approval or publication. See coverage notes for conflicts and exclusions. Claimed by gpt-6-astra /root/astra_weekly_history_0928 on 28 September 2026; no distinct task/run ID exposed. Cup-exit account; disputed action/timing details to be omitted. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending.",
+      "notes": "Selected after the 28 September 2026 four-week coverage sweep. Core event/date verified by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; this is not a full article fact-check, writing claim, approval or publication. See coverage notes for conflicts and exclusions. Claimed by gpt-6-astra /root/astra_weekly_history_0928 on 28 September 2026; no distinct task/run ID exposed. Cup-exit account; disputed action/timing details to be omitted. Completed retrieved-source factual draft on 28 September 2026; claim cleared after validation. Unpublished pending Denny review. Explicit publication approval recorded on 29 September 2026. Prepared for release; live verification pending. Production deployment 5d9d286 succeeded on 29 September 2026; canonical article returned HTTP 200. Current-week articles confirmed in This Week. Existing source-audited prose preserved; Salzburg and Grimsby oppositionIds remain intentionally absent because neither club exists in the canonical registry.",
       "originalDraftId": null,
       "owner": "gpt-6-astra /root/astra_weekly_history_0928",
-      "publishedDestination": null,
+      "publishedDestination": "/archive/liverpool-grimsby-2001-league-cup-exit",
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "approved"
+      "status": "published"
     },
     {
       "approval": null,
