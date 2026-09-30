@@ -7,6 +7,17 @@ import { getArchiveFeatures, getHistoryBrowseArticles } from '../lib/content/arc
 
 test('approved factual matches and player articles enter their respective History browsers', () => {
   assert.deepEqual(getHistoryBrowseArticles('matches').map(a => a.slug).sort(), [
+    '1995-08-19-liverpool-sheffield-wednesday',
+    '1995-09-23-liverpool-bolton-wanderers',
+    '1995-10-01-manchester-united-liverpool',
+    '1995-10-28-liverpool-manchester-city',
+    '1995-12-17-liverpool-manchester-united',
+    '1995-12-23-liverpool-arsenal',
+    '1996-01-20-liverpool-leeds-united',
+    '1996-02-24-blackburn-rovers-liverpool',
+    '1996-03-31-liverpool-aston-villa',
+    'liverpool-4-3-newcastle-1996',
+    '1996-05-11-liverpool-manchester-united',
     'bournemouth-liverpool-2026-09-20',
     'newcastle-liverpool-2026-08-23',
     'liverpool-tottenham-2026-09-15',
