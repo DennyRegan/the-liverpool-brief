@@ -26,7 +26,7 @@ The decisive change came around the hour. Gary Kelly brought down Rob Jones in t
 
 That second goal took Fowler's total for the season to 23. England manager Terry Venables was watching, having left the striker out of the squad gathering announced that week.
 
-Liverpool added two more goals late on. Collymore struck from outside the penalty area after Steve McManaman and Fowler combined, before Ruddock completed his double with a left-footed volley following a corner in stoppage time.
+Liverpool added two more goals late on. Collymore scored after Steve McManaman and Fowler combined, before Ruddock completed his double with a left-footed volley following a corner in stoppage time.
 
 The margin was emphatic, although both Evans and Leeds manager Howard Wilkinson considered Kelly's dismissal harsh. Until the penalty, Liverpool had led by a single goal; afterwards, Leeds had to play the remainder a man short.
 
