@@ -8313,27 +8313,28 @@
       "historicalEventDate": "1995-10-01",
       "featuredWeek": "2026-09-28",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/recovery_early",
-      "claim": {
-        "token": "1995-96-recovery-20260930-1995-10-01-manchester-united-liverpool",
-        "claimedAt": "2026-09-30T09:42:21.015Z",
-        "baseCommit": "19e574009339fde92bb6863fd5e6f65789ffe9a1"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1995-10-01-manchester-united-liverpool.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review. 30 September 2026: Denny explicitly instructed recovery/completion of this stalled batch. Prior owner gpt-6-astra /root/astra_early; task 0ce4e1660e6c superseded by this authorised recovery; no matching batch draft found in fetched branches/history. Weekly selection unchanged; publication not authorised.",
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review. 30 September 2026: Denny explicitly instructed recovery/completion of this stalled batch. Prior owner gpt-6-astra /root/astra_early; task 0ce4e1660e6c superseded by this authorised recovery; no matching batch draft found in fetched branches/history. Weekly selection unchanged; publication not authorised. Completed retrieved-source factual draft on 30 September 2026; unpublished pending Denny review. Source conflicts and exclusions documented in docs/editorial/drafts/1995-10-01-manchester-united-liverpool-evidence.md.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/37",
           "confidence": "high",
           "scope": "Retrieved season fixture inventory; detailed research in progress."
+        },
+        {
+          "location": "docs/editorial/drafts/1995-10-01-manchester-united-liverpool-evidence.md",
+          "confidence": "high",
+          "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1995-10-28-liverpool-manchester-city",
@@ -8341,27 +8342,28 @@
       "historicalEventDate": "1995-10-28",
       "featuredWeek": "2026-10-26",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/recovery_early",
-      "claim": {
-        "token": "1995-96-recovery-20260930-1995-10-28-liverpool-manchester-city",
-        "claimedAt": "2026-09-30T09:42:21.015Z",
-        "baseCommit": "19e574009339fde92bb6863fd5e6f65789ffe9a1"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1995-10-28-liverpool-manchester-city.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review. 30 September 2026: Denny explicitly instructed recovery/completion of this stalled batch. Prior owner gpt-6-astra /root/astra_early; task 0ce4e1660e6c superseded by this authorised recovery; no matching batch draft found in fetched branches/history. Weekly selection unchanged; publication not authorised.",
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review. 30 September 2026: Denny explicitly instructed recovery/completion of this stalled batch. Prior owner gpt-6-astra /root/astra_early; task 0ce4e1660e6c superseded by this authorised recovery; no matching batch draft found in fetched branches/history. Weekly selection unchanged; publication not authorised. Completed retrieved-source factual draft on 30 September 2026; unpublished pending Denny review. Source conflicts and exclusions documented in docs/editorial/drafts/1995-10-28-liverpool-manchester-city-evidence.md.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/37",
           "confidence": "high",
           "scope": "Retrieved season fixture inventory; detailed research in progress."
+        },
+        {
+          "location": "docs/editorial/drafts/1995-10-28-liverpool-manchester-city-evidence.md",
+          "confidence": "high",
+          "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1995-12-17-liverpool-manchester-united",
@@ -8454,27 +8456,28 @@
       "historicalEventDate": "1996-02-24",
       "featuredWeek": "2026-02-23",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/recovery_late",
-      "claim": {
-        "token": "1995-96-recovery-20260930-1996-02-24-blackburn-rovers-liverpool",
-        "claimedAt": "2026-09-30T09:42:21.015Z",
-        "baseCommit": "19e574009339fde92bb6863fd5e6f65789ffe9a1"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1996-02-24-blackburn-rovers-liverpool.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review. 30 September 2026: Denny explicitly instructed recovery/completion of this stalled batch. Prior owner gpt-6-astra /root/astra_late; task 0ce4e1660e6c superseded by this authorised recovery; no matching batch draft found in fetched branches/history. Weekly selection unchanged; publication not authorised.",
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review. 30 September 2026: Denny explicitly instructed recovery/completion of this stalled batch. Prior owner gpt-6-astra /root/astra_late; task 0ce4e1660e6c superseded by this authorised recovery; no matching batch draft found in fetched branches/history. Weekly selection unchanged; publication not authorised. Completed retrieved-source factual draft on 30 September 2026; unpublished pending Denny review. Source conflicts and exclusions documented in docs/editorial/drafts/1996-02-24-blackburn-rovers-liverpool-evidence.md.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/37",
           "confidence": "high",
           "scope": "Retrieved season fixture inventory; detailed research in progress."
+        },
+        {
+          "location": "docs/editorial/drafts/1996-02-24-blackburn-rovers-liverpool-evidence.md",
+          "confidence": "high",
+          "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1996-03-31-liverpool-aston-villa",
@@ -8482,27 +8485,28 @@
       "historicalEventDate": "1996-03-31",
       "featuredWeek": "2026-03-30",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/recovery_late",
-      "claim": {
-        "token": "1995-96-recovery-20260930-1996-03-31-liverpool-aston-villa",
-        "claimedAt": "2026-09-30T09:42:21.015Z",
-        "baseCommit": "19e574009339fde92bb6863fd5e6f65789ffe9a1"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1996-03-31-liverpool-aston-villa.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review. 30 September 2026: Denny explicitly instructed recovery/completion of this stalled batch. Prior owner gpt-6-astra /root/astra_late; task 0ce4e1660e6c superseded by this authorised recovery; no matching batch draft found in fetched branches/history. Weekly selection unchanged; publication not authorised.",
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review. 30 September 2026: Denny explicitly instructed recovery/completion of this stalled batch. Prior owner gpt-6-astra /root/astra_late; task 0ce4e1660e6c superseded by this authorised recovery; no matching batch draft found in fetched branches/history. Weekly selection unchanged; publication not authorised. Completed retrieved-source factual draft on 30 September 2026; unpublished pending Denny review. Source conflicts and exclusions documented in docs/editorial/drafts/1996-03-31-liverpool-aston-villa-evidence.md.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/37",
           "confidence": "high",
           "scope": "Retrieved season fixture inventory; detailed research in progress."
+        },
+        {
+          "location": "docs/editorial/drafts/1996-03-31-liverpool-aston-villa-evidence.md",
+          "confidence": "high",
+          "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1996-04-03-liverpool-newcastle-united",
@@ -8510,27 +8514,28 @@
       "historicalEventDate": "1996-04-03",
       "featuredWeek": "2026-03-30",
       "selection": "alternative",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/recovery_late",
-      "claim": {
-        "token": "1995-96-recovery-20260930-1996-04-03-liverpool-newcastle-united",
-        "claimedAt": "2026-09-30T09:42:21.015Z",
-        "baseCommit": "19e574009339fde92bb6863fd5e6f65789ffe9a1"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/liverpool-4-3-newcastle-1996.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review. 30 September 2026: Denny explicitly instructed recovery/completion of this stalled batch. Prior owner gpt-6-astra /root/astra_late; task 0ce4e1660e6c superseded by this authorised recovery; no matching batch draft found in fetched branches/history. Weekly selection unchanged; publication not authorised.",
+      "notes": "Denny commissioned 1995-96 best-match factual drafts on 27 September 2026. Seasonal commission; annual association does not change weekly selections or schedule publication. Explicitly commissioned alternatives, pending review. 30 September 2026: Denny explicitly instructed recovery/completion of this stalled batch. Prior owner gpt-6-astra /root/astra_late; task 0ce4e1660e6c superseded by this authorised recovery; no matching batch draft found in fetched branches/history. Weekly selection unchanged; publication not authorised. Completed retrieved-source factual draft on 30 September 2026; unpublished pending Denny review. Source conflicts and exclusions documented in docs/editorial/drafts/liverpool-4-3-newcastle-1996-evidence.md.",
       "evidence": [
         {
           "location": "https://www.lfchistory.net/season-archive/games/37",
           "confidence": "high",
           "scope": "Retrieved season fixture inventory; detailed research in progress."
+        },
+        {
+          "location": "docs/editorial/drafts/liverpool-4-3-newcastle-1996-evidence.md",
+          "confidence": "high",
+          "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "needs_research"
+      "researchStatus": "verified"
     },
     {
       "id": "1996-05-11-liverpool-manchester-united",
@@ -8835,7 +8840,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-30T11:33:25.765Z",
+  "updatedAt": "2026-09-30T11:35:06.001Z",
   "version": 1,
   "workflow": "docs/editorial/README.md"
 }
