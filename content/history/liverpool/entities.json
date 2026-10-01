@@ -2768,5 +2768,25 @@
     "id": "hampden-park",
     "label": "Hampden Park",
     "kind": "location"
+  },
+  {
+    "id": "bobby-tambling",
+    "label": "Bobby Tambling",
+    "kind": "person"
+  },
+  {
+    "id": "peter-osgood",
+    "label": "Peter Osgood",
+    "kind": "person"
+  },
+  {
+    "id": "reinhard-libuda",
+    "label": "Reinhard Libuda",
+    "kind": "person"
+  },
+  {
+    "id": "sigfried-held",
+    "label": "Sigfried Held",
+    "kind": "person"
   }
 ]

@@ -28,7 +28,7 @@ Liverpool had moved from needing a goal to defending an aggregate advantage. At 
 
 Juventus still had the second half to respond. Giampaolo Menichelli tested Lawrence soon after the restart, but the goalkeeper held his shot. Liverpool conceded no goal, preserving the margin created by that brief first-half burst.
 
-Their previous European campaign had ended against Internazionale in the semi-final. The new competition had immediately brought another Italian opponent and another away deficit, but this time Liverpool finished the tie at Anfield with a place in the next round.
+Their previous European campaign had ended against Internazionale in the semi-final. The new competition had brought another Italian opponent, but this tie ended at Anfield with a place in the next round.
 
 ## Sources
 

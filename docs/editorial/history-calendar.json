@@ -9864,7 +9864,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T20:46:25.670853Z",
+  "updatedAt": "2026-10-01T20:52:19.065767Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -16896,7 +16896,7 @@
         "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1965-66/leeds-liverpool-1965-milne-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -16939,7 +16939,7 @@
         "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1965-66/liverpool-chelsea-1966-fa-cup-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -16982,7 +16982,7 @@
         "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1965-66/liverpool-honved-1966-european-quarter-final.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17025,7 +17025,7 @@
         "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1965-66/liverpool-celtic-1966-first-european-final.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17068,7 +17068,7 @@
         "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1965-66/liverpool-chelsea-1966-title-clincher.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17111,7 +17111,7 @@
         "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1965-66/liverpool-dortmund-1966-european-final.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
