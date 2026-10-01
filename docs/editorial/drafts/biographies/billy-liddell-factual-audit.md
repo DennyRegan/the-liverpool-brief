@@ -27,6 +27,6 @@ Audit date: 2026-10-01. Auditor: configured `gpt-6-astra`, worker `/root/liddell
 
 Checked headline/excerpt against manuscript. Existing person, competition and `bill-shankly` era IDs inspected in the repository. Career period deliberately spans joining to retirement; it is not an invented event date. No `date`, `historicalEventDate` or principal `season`; no new era for pre-1959 material. Sources are grouped once at the bottom; confidence labels and production identity remain outside article prose. No quotation, illustrated reconstruction or publication approval.
 
-Sixteen prose paragraphs; 1,532 prose words (1,543 including title). Source-text allocation is spread over the distinct event accounts, ledgers and recollections; no long quotation or source-dominant retelling. The appended archive-caption source records the City chronology more precisely.
+Sixteen prose paragraphs; 1,535 prose words (1,543 including title). Source-text allocation is spread over the distinct event accounts, ledgers and recollections; no long quotation or source-dominant retelling. The appended archive-caption source records the City chronology more precisely.
 
 Result: factual manuscript ready for review. No unresolved factual blocker in the included claims. Excluded conflicts remain visible in the research record. Coordinator must still reconcile/checkpoint the real files and shared inventory; this audit neither publishes the biography nor approves automatic activation.

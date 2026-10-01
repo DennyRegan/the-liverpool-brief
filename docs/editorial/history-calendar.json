@@ -11134,6 +11134,11 @@
           "location": "docs/editorial/drafts/biographies/bill-shankly-factual-audit.md",
           "confidence": "high",
           "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/next-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Separate Astra reviewer independently retrieved principal/high-risk sources; subject-specific checked scope and limitations documented. Not exhaustive re-research or publication approval."
         }
       ],
       "researchStatus": "verified",
@@ -11155,33 +11160,42 @@
       "personId": "roger-hunt",
       "event": "Roger Hunt career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "publicationClass": "automatic-history-biography",
       "owner": "Astra /root/shankly_hunt",
-      "claim": {
-        "token": "next-ten-2026-10-01-roger-hunt",
-        "claimedAt": "2026-10-01T20:25:16.067057Z",
-        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/roger-hunt.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "notes": "Newly researched and written by gpt-6-astra /root/shankly_hunt; separate post-draft factual pass completed. Unpublished with no approval or publication slot. Conflicting evidence and excluded claims recorded in research notes.",
       "evidence": [
         {
-          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "location": "docs/editorial/drafts/biographies/roger-hunt-research-record.md",
           "confidence": "high",
-          "scope": "Repository selection and duplicate audit only; historical research follows."
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/roger-hunt-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/next-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Separate Astra reviewer independently retrieved principal/high-risk sources; subject-specific checked scope and limitations documented. Not exhaustive re-research or publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "A central scorer in the return to the First Division and the first Shankly honours.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/roger-hunt-research-record.md",
+          "docs/editorial/drafts/biographies/roger-hunt-factual-audit.md"
+        ],
         "model": "gpt-6-astra",
         "workerId": "/root/shankly_hunt",
         "blockers": []
@@ -11192,33 +11206,42 @@
       "personId": "jurgen-klopp",
       "event": "Jürgen Klopp career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "publicationClass": "automatic-history-biography",
       "owner": "Astra /root/klopp_fagan",
-      "claim": {
-        "token": "next-ten-2026-10-01-jurgen-klopp",
-        "claimedAt": "2026-10-01T20:25:16.067057Z",
-        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/jurgen-klopp.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "notes": "Newly researched and written by gpt-6-astra /root/klopp_fagan; separate post-draft factual pass completed. Liverpool career through May 2024; research cut-off 1 October 2026. Finals scope and concurrent 2019 league/European chronology corrected during independent review. Unpublished with no approval or publication slot.",
       "evidence": [
         {
-          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "location": "docs/editorial/drafts/biographies/jurgen-klopp-research-record.md",
           "confidence": "high",
-          "scope": "Repository selection and duplicate audit only; historical research follows."
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/jurgen-klopp-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/next-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Separate Astra reviewer independently retrieved principal/high-risk sources; subject-specific checked scope and limitations documented. Not exhaustive re-research or publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "The manager who restored European and league success across a defining modern era.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/jurgen-klopp-research-record.md",
+          "docs/editorial/drafts/biographies/jurgen-klopp-factual-audit.md"
+        ],
         "model": "gpt-6-astra",
         "workerId": "/root/klopp_fagan",
         "blockers": []
@@ -11249,6 +11272,11 @@
           "location": "docs/editorial/drafts/biographies/joe-fagan-factual-audit.md",
           "confidence": "high",
           "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/next-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Separate Astra reviewer independently retrieved principal/high-risk sources; subject-specific checked scope and limitations documented. Not exhaustive re-research or publication approval."
         }
       ],
       "researchStatus": "verified",
@@ -11290,6 +11318,11 @@
           "location": "docs/editorial/drafts/biographies/billy-liddell-factual-audit.md",
           "confidence": "high",
           "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/next-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Separate Astra reviewer independently retrieved principal/high-risk sources; subject-specific checked scope and limitations documented. Not exhaustive re-research or publication approval."
         }
       ],
       "researchStatus": "verified",
@@ -11311,33 +11344,42 @@
       "personId": "ian-st-john",
       "event": "Ian St John career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "publicationClass": "automatic-history-biography",
       "owner": "Astra /root/liddell_stjohn",
-      "claim": {
-        "token": "next-ten-2026-10-01-ian-st-john",
-        "claimedAt": "2026-10-01T20:25:16.067057Z",
-        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/ian-st-john.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "notes": "Newly researched and written by gpt-6-astra /root/liddell_stjohn; separate post-draft factual pass completed. Unpublished with no approval or publication slot. Conflicting evidence and excluded claims recorded in research notes.",
       "evidence": [
         {
-          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "location": "docs/editorial/drafts/biographies/ian-st-john-research-record.md",
           "confidence": "high",
-          "scope": "Repository selection and duplicate audit only; historical research follows."
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/ian-st-john-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/next-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Separate Astra reviewer independently retrieved principal/high-risk sources; subject-specific checked scope and limitations documented. Not exhaustive re-research or publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "A transformative signing and central forward in the first Shankly team.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/ian-st-john-research-record.md",
+          "docs/editorial/drafts/biographies/ian-st-john-factual-audit.md"
+        ],
         "model": "gpt-6-astra",
         "workerId": "/root/liddell_stjohn",
         "blockers": []
@@ -11368,6 +11410,11 @@
           "location": "docs/editorial/drafts/biographies/ron-yeats-factual-audit.md",
           "confidence": "high",
           "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/next-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Separate Astra reviewer independently retrieved principal/high-risk sources; subject-specific checked scope and limitations documented. Not exhaustive re-research or publication approval."
         }
       ],
       "researchStatus": "verified",
@@ -11389,33 +11436,42 @@
       "personId": "emlyn-hughes",
       "event": "Emlyn Hughes career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "publicationClass": "automatic-history-biography",
       "owner": "Astra /root/yeats_hughes",
-      "claim": {
-        "token": "next-ten-2026-10-01-emlyn-hughes",
-        "claimedAt": "2026-10-01T20:25:16.067057Z",
-        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/emlyn-hughes.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "notes": "Newly researched and written by gpt-6-astra /root/yeats_hughes; separate post-draft factual pass completed. Unpublished with no approval or publication slot. Conflicting evidence and excluded claims recorded in research notes.",
       "evidence": [
         {
-          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "location": "docs/editorial/drafts/biographies/emlyn-hughes-research-record.md",
           "confidence": "high",
-          "scope": "Repository selection and duplicate audit only; historical research follows."
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/emlyn-hughes-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/next-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Separate Astra reviewer independently retrieved principal/high-risk sources; subject-specific checked scope and limitations documented. Not exhaustive re-research or publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "A major captain linking Shankly’s rebuilding to Paisley’s European champions.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/emlyn-hughes-research-record.md",
+          "docs/editorial/drafts/biographies/emlyn-hughes-factual-audit.md"
+        ],
         "model": "gpt-6-astra",
         "workerId": "/root/yeats_hughes",
         "blockers": []
@@ -11446,6 +11502,11 @@
           "location": "docs/editorial/drafts/biographies/tommy-smith-factual-audit.md",
           "confidence": "high",
           "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/next-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Separate Astra reviewer independently retrieved principal/high-risk sources; subject-specific checked scope and limitations documented. Not exhaustive re-research or publication approval."
         }
       ],
       "researchStatus": "verified",
@@ -11467,33 +11528,42 @@
       "personId": "graeme-souness",
       "event": "Graeme Souness career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "publicationClass": "automatic-history-biography",
       "owner": "Astra /root/smith_souness",
-      "claim": {
-        "token": "next-ten-2026-10-01-graeme-souness",
-        "claimedAt": "2026-10-01T20:25:16.067057Z",
-        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/graeme-souness.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "notes": "Newly researched and written by gpt-6-astra /root/smith_souness; separate post-draft factual pass completed. Unpublished with no approval or publication slot. Player and managerial roles covered; sensitive material attributed and source conflicts documented.",
       "evidence": [
         {
-          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "location": "docs/editorial/drafts/biographies/graeme-souness-research-record.md",
           "confidence": "high",
-          "scope": "Repository selection and duplicate audit only; historical research follows."
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/graeme-souness-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/next-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Separate Astra reviewer independently retrieved principal/high-risk sources; subject-specific checked scope and limitations documented. Not exhaustive re-research or publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "A central midfielder and captain of the dominant European side, with a contrasting managerial return.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/graeme-souness-research-record.md",
+          "docs/editorial/drafts/biographies/graeme-souness-factual-audit.md"
+        ],
         "model": "gpt-6-astra",
         "workerId": "/root/smith_souness",
         "blockers": []

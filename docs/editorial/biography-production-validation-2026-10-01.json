@@ -1,0 +1,162 @@
+{
+  "verifiedAt": "2026-10-01T20:51:07.038Z",
+  "confidence": "high for executed technical checks; historical confidence is claim-specific in research records",
+  "newCompleted": 10,
+  "totalCompletedUnpublished": 40,
+  "notLocated": 3,
+  "publisherEnabled": false,
+  "automaticRuns": 0,
+  "publicCollectionsUnchanged": true,
+  "results": [
+    {
+      "subject": "bill-shankly",
+      "title": "Bill Shankly: the making of modern Liverpool",
+      "wordCount": 2265,
+      "sourceLinks": 24,
+      "manuscript": "docs/editorial/drafts/biographies/bill-shankly.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/bill-shankly-research-record.md",
+        "docs/editorial/drafts/biographies/bill-shankly-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "roger-hunt",
+      "title": "Roger Hunt: the goals that carried Liverpool upwards",
+      "wordCount": 1307,
+      "sourceLinks": 15,
+      "manuscript": "docs/editorial/drafts/biographies/roger-hunt.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/roger-hunt-research-record.md",
+        "docs/editorial/drafts/biographies/roger-hunt-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "jurgen-klopp",
+      "title": "Jürgen Klopp: rebuilding Liverpool as champions",
+      "wordCount": 2591,
+      "sourceLinks": 40,
+      "manuscript": "docs/editorial/drafts/biographies/jurgen-klopp.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/jurgen-klopp-research-record.md",
+        "docs/editorial/drafts/biographies/jurgen-klopp-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "joe-fagan",
+      "title": "Joe Fagan: a lifetime behind Liverpool’s treble",
+      "wordCount": 1389,
+      "sourceLinks": 15,
+      "manuscript": "docs/editorial/drafts/biographies/joe-fagan.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/joe-fagan-research-record.md",
+        "docs/editorial/drafts/biographies/joe-fagan-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "billy-liddell",
+      "title": "Billy Liddell: the player who sustained Liverpool",
+      "wordCount": 1535,
+      "sourceLinks": 16,
+      "manuscript": "docs/editorial/drafts/biographies/billy-liddell.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/billy-liddell-research-record.md",
+        "docs/editorial/drafts/biographies/billy-liddell-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "ian-st-john",
+      "title": "Ian St John: at the front of Liverpool's revival",
+      "wordCount": 1304,
+      "sourceLinks": 12,
+      "manuscript": "docs/editorial/drafts/biographies/ian-st-john.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/ian-st-john-research-record.md",
+        "docs/editorial/drafts/biographies/ian-st-john-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "ron-yeats",
+      "title": "Ron Yeats: the captain at the beginning",
+      "wordCount": 1163,
+      "sourceLinks": 12,
+      "manuscript": "docs/editorial/drafts/biographies/ron-yeats.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/ron-yeats-research-record.md",
+        "docs/editorial/drafts/biographies/ron-yeats-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "emlyn-hughes",
+      "title": "Emlyn Hughes: the captain who carried Liverpool into Europe’s elite",
+      "wordCount": 1410,
+      "sourceLinks": 17,
+      "manuscript": "docs/editorial/drafts/biographies/emlyn-hughes.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/emlyn-hughes-research-record.md",
+        "docs/editorial/drafts/biographies/emlyn-hughes-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "tommy-smith",
+      "title": "Tommy Smith",
+      "wordCount": 1327,
+      "sourceLinks": 15,
+      "manuscript": "docs/editorial/drafts/biographies/tommy-smith.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/tommy-smith-research-record.md",
+        "docs/editorial/drafts/biographies/tommy-smith-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "graeme-souness",
+      "title": "Graeme Souness",
+      "wordCount": 1819,
+      "sourceLinks": 21,
+      "manuscript": "docs/editorial/drafts/biographies/graeme-souness.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/graeme-souness-research-record.md",
+        "docs/editorial/drafts/biographies/graeme-souness-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "checks": 21,
+  "passed": true,
+  "results": [
+    {
+      "route": "/docs/editorial/drafts/biographies/bill-shankly-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/bill-shankly-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/roger-hunt-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/roger-hunt-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jurgen-klopp-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jurgen-klopp-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/joe-fagan-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/joe-fagan-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/billy-liddell-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/billy-liddell-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ian-st-john-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ian-st-john-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ron-yeats-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ron-yeats-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/emlyn-hughes-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/emlyn-hughes-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/tommy-smith-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/tommy-smith-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/graeme-souness-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/graeme-souness-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/next-ten-independent-review.md",
+      "expected": 404,
+      "actual": 404
+    }
+  ]
+}
