@@ -2748,5 +2748,25 @@
     "id": "helenio-herrera",
     "label": "Helenio Herrera",
     "kind": "person"
+  },
+  {
+    "id": "honved",
+    "label": "Honvéd",
+    "kind": "opposition"
+  },
+  {
+    "id": "borussia-dortmund",
+    "label": "Borussia Dortmund",
+    "kind": "opposition"
+  },
+  {
+    "id": "upton-park",
+    "label": "Upton Park",
+    "kind": "location"
+  },
+  {
+    "id": "hampden-park",
+    "label": "Hampden Park",
+    "kind": "location"
   }
 ]

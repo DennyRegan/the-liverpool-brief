@@ -9864,7 +9864,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T20:28:25.338757Z",
+  "updatedAt": "2026-10-01T20:40:02.280620Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -16624,6 +16624,522 @@
         "workerId": "/root/astra_decade_writer",
         "blockers": []
       }
+    },
+    {
+      "id": "match-1965-08-14-manchester-united-liverpool-1965-charity-shield",
+      "event": "Manchester United 2–2 Liverpool: Yeats rescues a share of the Shield at Old Trafford",
+      "historicalEventDate": "1965-08-14",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-08-14",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The FA Cup holders twice recover against the league champions, with their captain scoring the late second equaliser; a distinct opening trophy story.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Manchester United 2–2 Liverpool",
+        "opposition": "Manchester United",
+        "score": "2–2",
+        "editorialReason": "The FA Cup holders twice recover against the league champions, with their captain scoring the late second equaliser; a distinct opening trophy story.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-09-06-west-ham-liverpool-1965-hunt-hat-trick",
+      "event": "West Ham United 1–5 Liverpool: Hunt’s hat-trick caps Liverpool’s five at Upton Park",
+      "historicalEventDate": "1965-09-06",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-09-06",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A forceful early away performance and Hunt treble against the Cup Winners’ Cup holders show the attacking development before the eventual title lead.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "West Ham United 1–5 Liverpool",
+        "opposition": "West Ham United",
+        "score": "1–5",
+        "editorialReason": "A forceful early away performance and Hunt treble against the Cup Winners’ Cup holders show the attacking development before the eventual title lead.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-09-15-liverpool-west-ham-1965-strong-substitute",
+      "event": "Liverpool 1–1 West Ham United: Strong comes off the bench to rescue Liverpool",
+      "historicalEventDate": "1965-09-15",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-09-15",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Liverpool’s first Football League substitute scores the equaliser, a specific selection and rules milestone with an immediate match consequence.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–1 West Ham United",
+        "opposition": "West Ham United",
+        "score": "1–1",
+        "editorialReason": "Liverpool’s first Football League substitute scores the equaliser, a specific selection and rules milestone with an immediate match consequence.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-09-25-liverpool-everton-1965-five-goal-derby",
+      "event": "Liverpool 5–0 Everton: Liverpool turn the Anfield derby into a five-goal rout",
+      "historicalEventDate": "1965-09-25",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-09-25",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The emphatic derby reverses the previous season’s 0–4 at the same ground; contemporary reporting supplies meaningful development beyond the score.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–0 Everton",
+        "opposition": "Everton",
+        "score": "5–0",
+        "editorialReason": "The emphatic derby reverses the previous season’s 0–4 at the same ground; contemporary reporting supplies meaningful development beyond the score.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-10-13-liverpool-juventus-1965-anfield-comeback",
+      "event": "Liverpool 2–0 Juventus: Lawler and Strong overturn Juventus’s lead",
+      "historicalEventDate": "1965-10-13",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-10-13",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The opening European tie is rescued at Anfield after the Turin defeat; two goals from players outside the regular attacking pair establish the route to the final.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–0 Juventus",
+        "opposition": "Juventus",
+        "score": "2–0",
+        "editorialReason": "The opening European tie is rescued at Anfield after the Turin defeat; two goals from players outside the regular attacking pair establish the route to the final.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-11-17-liverpool-blackburn-1965-league-lead",
+      "event": "Liverpool 5–2 Blackburn Rovers: Five against Blackburn take Liverpool to the top",
+      "historicalEventDate": "1965-11-17",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-11-17",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "This rearranged match ends the fourth successive league win and begins the uninterrupted spell at the head of the table; Blackburn’s attempted recovery gives the match its own movement.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–2 Blackburn Rovers",
+        "opposition": "Blackburn Rovers",
+        "score": "5–2",
+        "editorialReason": "This rearranged match ends the fourth successive league win and begins the uninterrupted spell at the head of the table; Blackburn’s attempted recovery gives the match its own movement.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-12-28-leeds-liverpool-1965-milne-winner",
+      "event": "Leeds United 0–1 Liverpool: Milne gives Liverpool an immediate answer at Leeds",
+      "historicalEventDate": "1965-12-28",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-12-28",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A win at a title rival follows defeat by the same opponent at Anfield the previous day; the paired fixtures make this a specific test in the title race.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Leeds United 0–1 Liverpool",
+        "opposition": "Leeds United",
+        "score": "0–1",
+        "editorialReason": "A win at a title rival follows defeat by the same opponent at Anfield the previous day; the paired fixtures make this a specific test in the title race.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-01-22-liverpool-chelsea-1966-fa-cup-exit",
+      "event": "Liverpool 1–2 Chelsea: Chelsea end Liverpool’s FA Cup defence at the first hurdle",
+      "historicalEventDate": "1966-01-22",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-01-22",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The holders lose their only tie despite Hunt’s early goal; an essential failure in a season ultimately remembered for the championship and European final.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–2 Chelsea",
+        "opposition": "Chelsea",
+        "score": "1–2",
+        "editorialReason": "The holders lose their only tie despite Hunt’s early goal; an essential failure in a season ultimately remembered for the championship and European final.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-03-08-liverpool-honved-1966-european-quarter-final",
+      "event": "Liverpool 2–0 Honvéd: Lawler and St John take Liverpool past Honvéd",
+      "historicalEventDate": "1966-03-08",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-03-08",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A goalless away leg becomes a home quarter-final win and a second successive European semi-final; Lawler’s fourth European goal makes his contribution material.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–0 Honvéd",
+        "opposition": "Honvéd",
+        "score": "2–0",
+        "editorialReason": "A goalless away leg becomes a home quarter-final win and a second successive European semi-final; Lawler’s fourth European goal makes his contribution material.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-04-19-liverpool-celtic-1966-first-european-final",
+      "event": "Liverpool 2–0 Celtic: Strong heads Liverpool into their first European final",
+      "historicalEventDate": "1966-04-19",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-04-19",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The semi-final deficit is overturned after a goalless first half, with Strong’s injury and winner central to a well-sourced first-final milestone.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–0 Celtic",
+        "opposition": "Celtic",
+        "score": "2–0",
+        "editorialReason": "The semi-final deficit is overturned after a goalless first half, with Strong’s injury and winner central to a well-sourced first-final milestone.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-04-30-liverpool-chelsea-1966-title-clincher",
+      "event": "Liverpool 2–1 Chelsea: Hunt’s double brings the championship back to Anfield",
+      "historicalEventDate": "1966-04-30",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-04-30",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The decisive title match: Hunt restores the lead after Chelsea equalise, securing Shankly’s second First Division championship with one league game left.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Chelsea",
+        "opposition": "Chelsea",
+        "score": "2–1",
+        "editorialReason": "The decisive title match: Hunt restores the lead after Chelsea equalise, securing Shankly’s second First Division championship with one league game left.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-05-05-liverpool-dortmund-1966-european-final",
+      "event": "Liverpool 1–2 Borussia Dortmund: Liverpool’s first European final ends in extra-time defeat",
+      "historicalEventDate": "1966-05-05",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-05-05",
+        "claimedAt": "2026-10-01T20:40:02.280620Z",
+        "baseCommit": "4dea3fcb70cdcea8beba7521f57d7eaf262c87d7"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The first European final merits full treatment of the second-half exchange and extra-time winner, alongside careful handling of the disputed scorer attribution.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1965-66",
+        "season": "1965-66",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–2 Borussia Dortmund",
+        "opposition": "Borussia Dortmund",
+        "score": "1–2",
+        "editorialReason": "The first European final merits full treatment of the second-half exchange and extra-time winner, alongside careful handling of the disputed scorer attribution.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1965-66/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -16754,15 +17270,28 @@
     {
       "id": "1960s-1965-66",
       "season": "1965-66",
-      "stage": "season_research",
+      "stage": "drafting",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
-      "sourceNote": null,
-      "selectedRowIds": [],
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/season-research.md",
+      "selectedRowIds": [
+        "match-1965-08-14-manchester-united-liverpool-1965-charity-shield",
+        "match-1965-09-06-west-ham-liverpool-1965-hunt-hat-trick",
+        "match-1965-09-15-liverpool-west-ham-1965-strong-substitute",
+        "match-1965-09-25-liverpool-everton-1965-five-goal-derby",
+        "match-1965-10-13-liverpool-juventus-1965-anfield-comeback",
+        "match-1965-11-17-liverpool-blackburn-1965-league-lead",
+        "match-1965-12-28-leeds-liverpool-1965-milne-winner",
+        "match-1966-01-22-liverpool-chelsea-1966-fa-cup-exit",
+        "match-1966-03-08-liverpool-honved-1966-european-quarter-final",
+        "match-1966-04-19-liverpool-celtic-1966-first-european-final",
+        "match-1966-04-30-liverpool-chelsea-1966-title-clincher",
+        "match-1966-05-05-liverpool-dortmund-1966-european-final"
+      ],
       "reusedPaths": [],
       "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+      "nextStage": "Complete retrieved-source match reports and their factual audits."
     },
     {
       "id": "1960s-1966-67",
