@@ -1,0 +1,229 @@
+{
+  "season": "1960-61",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_decade_writer",
+  "retrievedOn": "2026-10-01",
+  "purpose": "Research handoff only. Calendar is sole status authority.",
+  "matches": [
+    {
+      "date": "1960-08-31",
+      "home": "Liverpool",
+      "away": "Southampton",
+      "score": "0–1",
+      "opposition": "Southampton",
+      "competition": "Second Division",
+      "title": "Liddell bows out as Southampton spoil Milne’s debut",
+      "slug": "liverpool-southampton-1960-liddell-final-appearance",
+      "editorialReason": "Liddell’s final competitive appearance and Milne’s debut meet in one match during the difficult start to Shankly’s first full campaign.",
+      "sourceNote": "docs/editorial/drafts/1960s/1960-61/research/liverpool-southampton-1960-liddell-final-appearance-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/48",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, team and milestones",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-southampton-31-august-1960-110171/",
+          "provider": "11v11 / Association of Football Statisticians",
+          "claims": "Independent result and milestones",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/billy-liddell/",
+          "provider": "Liverpool FC",
+          "claims": "Career context and final match",
+          "confidence": "High"
+        },
+        {
+          "url": "https://playupliverpool.com/1960/08/31/liverpool-v-southampton-0-1-league-match/",
+          "provider": "Daily Express, 1 September 1960, transcribed by Play Up Liverpool",
+          "claims": "Early Leishman shot, Reynolds saves, Mulgrew/O’Brien goal; retrieved via search text after direct-open challenge",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/2",
+          "provider": "LFChistory",
+          "claims": "Whole competitive fixture sequence, competitions and results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1960-61.html",
+          "provider": "RSSSF",
+          "claims": "Final Second Division table and promotion outcome.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1960-10-19",
+      "home": "Liverpool",
+      "away": "Luton Town",
+      "score": "1–1",
+      "opposition": "Luton Town",
+      "competition": "League Cup, second round",
+      "title": "Leishman opens Liverpool’s League Cup account before Luton strike late",
+      "slug": "liverpool-luton-1960-first-league-cup-match",
+      "editorialReason": "First match in the new national competition; a late equaliser prevents victory and forces a replay.",
+      "sourceNote": "docs/editorial/drafts/1960s/1960-61/research/liverpool-luton-1960-first-league-cup-match-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/58",
+          "provider": "LFChistory",
+          "claims": "Match identity, scorers, chronology",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/491",
+          "provider": "LFChistory / Robin Gowers",
+          "claims": "First tie, programme and subsequent ties",
+          "confidence": "High"
+        },
+        {
+          "url": "https://hattersheritage.co.uk/matches/liverpool-vs-luton-town-fc-19-oct-1960",
+          "provider": "Hatters Heritage",
+          "claims": "Opposition-side match corroboration",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/2",
+          "provider": "LFChistory",
+          "claims": "Whole competitive fixture sequence, competitions and results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1960-61.html",
+          "provider": "RSSSF",
+          "claims": "Final Second Division table and promotion outcome.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1960-11-26",
+      "home": "Liverpool",
+      "away": "Sheffield United",
+      "score": "4–2",
+      "opposition": "Sheffield United",
+      "competition": "Second Division",
+      "title": "Harrower’s hat-trick brings down the Second Division leaders",
+      "slug": "liverpool-sheffield-united-1960-harrower-hat-trick",
+      "editorialReason": "Autumn recovery brings victory over the leaders and eventual promotion rivals; a substantial Harrower performance merits coverage.",
+      "sourceNote": "docs/editorial/drafts/1960s/1960-61/research/liverpool-sheffield-united-1960-harrower-hat-trick-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/66",
+          "provider": "LFChistory",
+          "claims": "Scoring sequence, match identity and contemporary league table",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverweb.org.uk/season_season-196061.html",
+          "provider": "Liverweb",
+          "claims": "Result and Liverpool scorers/timings; independence of underlying records unknown",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/2",
+          "provider": "LFChistory",
+          "claims": "Whole competitive fixture sequence, competitions and results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1960-61.html",
+          "provider": "RSSSF",
+          "claims": "Final Second Division table and promotion outcome.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1961-01-28",
+      "home": "Liverpool",
+      "away": "Sunderland",
+      "score": "0–2",
+      "opposition": "Sunderland",
+      "competition": "FA Cup, fourth round",
+      "title": "Sunderland’s early double ends Liverpool’s FA Cup run",
+      "slug": "liverpool-sunderland-1961-fa-cup-exit",
+      "editorialReason": "National cup elimination is an essential dimension of this near-promotion season; two early goals determine the tie.",
+      "sourceNote": "docs/editorial/drafts/1960s/1960-61/research/liverpool-sunderland-1961-fa-cup-exit-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/75",
+          "provider": "LFChistory",
+          "claims": "Result, scoring chronology, line-up and round",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-sunderland-28-january-1961-211575/",
+          "provider": "11v11 / Association of Football Statisticians",
+          "claims": "Independent result/round and scorers",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.thestatcat.co.uk/webroot/Match.aspx?LU=C&LUID=3&MatchID=2170",
+          "provider": "The StatCat",
+          "claims": "Search-retrieved Sunderland-side score and goal timings; direct open failed",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/2",
+          "provider": "LFChistory",
+          "claims": "Whole competitive fixture sequence, competitions and results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1960-61.html",
+          "provider": "RSSSF",
+          "claims": "Final Second Division table and promotion outcome.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1961-04-04",
+      "home": "Bristol Rovers",
+      "away": "Liverpool",
+      "score": "4–3",
+      "opposition": "Bristol Rovers",
+      "competition": "Second Division",
+      "title": "Lewis’s hat-trick cannot save Liverpool at Eastville",
+      "slug": "bristol-rovers-liverpool-1961-lewis-hat-trick",
+      "editorialReason": "Exceptional individual scoring inside a damaging Easter defeat illustrates the failing promotion challenge; no unsupported claim of mathematical elimination.",
+      "sourceNote": "docs/editorial/drafts/1960s/1960-61/research/bristol-rovers-liverpool-1961-lewis-hat-trick-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/86",
+          "provider": "LFChistory",
+          "claims": "Match, scoring sequence, venue and table",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/bristol-rovers-v-liverpool-04-april-1961-110537/",
+          "provider": "11v11 / Association of Football Statisticians",
+          "claims": "Result, attendance, hat-trick including a penalty",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/kevin-lewis",
+          "provider": "Liverpool FC",
+          "claims": "Leading scorer and first-season context",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/2",
+          "provider": "LFChistory",
+          "claims": "Whole competitive fixture sequence, competitions and results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1960-61.html",
+          "provider": "RSSSF",
+          "claims": "Final Second Division table and promotion outcome.",
+          "confidence": "High"
+        }
+      ]
+    }
+  ]
+}

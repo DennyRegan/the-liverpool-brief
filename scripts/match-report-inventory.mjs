@@ -31,27 +31,28 @@ export function getMatchReportInventory(root = process.cwd()) {
   }
   const reports = [...byDate.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([date, group]) => {
     const publicArticles = group.filter(a => a.published);
-    const row = rows.find(r => r.matchRecovery && r.historicalEventDate === date)
+    const row = rows.find(r => (r.matchRecovery || r.matchProduction) && r.historicalEventDate === date)
       ?? rows.find(r => r.historicalEventDate === date && group.some(a =>
         r.draftPath === a.articlePath || r.publishedDestination === `/archive/${a.data.slug}`));
     const preferred = publicArticles.find(a => row?.publishedDestination === `/archive/${a.data.slug}`)
       ?? publicArticles.find(a => a.data.editorialMode === 'factual') ?? publicArticles[0]
       ?? group.find(a => a.articlePath === row?.draftPath) ?? group[0];
     const a = preferred.data, recovered = row?.matchRecovery ?? null;
-    const blockers = [...(recovered?.blockers ?? [])];
+    const production = row?.matchProduction ?? null, stock = recovered ?? production;
+    const blockers = [...(stock?.blockers ?? [])];
     if (publicArticles.length > 1) blockers.push('Multiple pre-existing public reports share this match date; none removed by migration.');
     if (!a.oppositionIds?.length) blockers.push('Opposition metadata requires review.');
     if (!a.season) blockers.push('Principal season metadata requires review.');
     return {
       id: `match-${date}`, historicalEventDate: date, season: a.season ?? null,
-      opposition: recovered?.opposition ?? a.oppositionIds?.map(id => entities.get(id).label).join(' / ') ?? null,
+      opposition: stock?.opposition ?? a.oppositionIds?.map(id => entities.get(id).label).join(' / ') ?? null,
       oppositionIds: a.oppositionIds ?? [], competitionIds: a.competitionIds ?? [],
       competitions: (a.competitionIds ?? []).map(id => entities.get(id).label),
-      matchLabel: recovered?.matchLabel ?? a.title, score: recovered?.score ?? null,
+      matchLabel: stock?.matchLabel ?? a.title, score: stock?.score ?? null,
       slug: a.slug, title: a.title, articlePath: preferred.articlePath,
       draftPaths: group.filter(a => !a.published).map(a => a.articlePath),
       publishedPaths: publicArticles.map(a => a.articlePath),
-      completed: recovered?.completed ?? (['ready_for_review', 'approved', 'published'].includes(row?.status) || preferred.published),
+      completed: stock?.completed ?? (['ready_for_review', 'approved', 'published'].includes(row?.status) || preferred.published),
       published: preferred.published, unpublished: !preferred.published,
       status: preferred.published ? 'published' : row?.status ?? 'untracked',
       awaitingDennyReview: !preferred.published && (row?.status === 'ready_for_review' || row?.status === 'blocked'),
@@ -60,10 +61,14 @@ export function getMatchReportInventory(root = process.cwd()) {
       // featuredWeek selects an anniversary; it is never a release schedule.
       scheduled: false, scheduledAt: null, calendarRowId: row?.id ?? null,
       featuredWeek: row?.featuredWeek ?? null, selection: row?.selection ?? null,
-      recoveredFromWork: Boolean(recovered), recovery: recovered, blockers,
+      recoveredFromWork: Boolean(recovered), recovery: recovered,
+      newlyResearched: Boolean(production), production, blockers,
     };
   });
-  return { version: 1, source: calendarPath, derived: true, reports, notLocated: calendar.matchRecoveryGaps ?? [] };
+  return { version: 1, source: calendarPath, derived: true, reports,
+    productionBatches: calendar.matchProductionBatches ?? [],
+    inProduction: rows.filter(r => r.matchProduction && !r.matchProduction.completed),
+    notLocated: calendar.matchRecoveryGaps ?? [] };
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {

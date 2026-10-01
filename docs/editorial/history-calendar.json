@@ -9864,7 +9864,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T16:36:22.276Z",
+  "updatedAt": "2026-10-01T19:07:00.933110Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -14784,6 +14784,221 @@
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
         "blockers": []
       }
+    },
+    {
+      "id": "match-1960-08-31-liverpool-southampton-1960-liddell-final-appearance",
+      "event": "Liverpool 0–1 Southampton: Liddell bows out as Southampton spoil Milne’s debut",
+      "historicalEventDate": "1960-08-31",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1960-08-31",
+        "claimedAt": "2026-10-01T19:07:00.933110Z",
+        "baseCommit": "95962d015fbf69c9788d589f586ab8e481edf866"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Liddell’s final competitive appearance and Milne’s debut meet in one match during the difficult start to Shankly’s first full campaign.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1960-61",
+        "season": "1960-61",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–1 Southampton",
+        "opposition": "Southampton",
+        "score": "0–1",
+        "editorialReason": "Liddell’s final competitive appearance and Milne’s debut meet in one match during the difficult start to Shankly’s first full campaign.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1960-61/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1960-10-19-liverpool-luton-1960-first-league-cup-match",
+      "event": "Liverpool 1–1 Luton Town: Leishman opens Liverpool’s League Cup account before Luton strike late",
+      "historicalEventDate": "1960-10-19",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1960-10-19",
+        "claimedAt": "2026-10-01T19:07:00.933110Z",
+        "baseCommit": "95962d015fbf69c9788d589f586ab8e481edf866"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "First match in the new national competition; a late equaliser prevents victory and forces a replay.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1960-61",
+        "season": "1960-61",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–1 Luton Town",
+        "opposition": "Luton Town",
+        "score": "1–1",
+        "editorialReason": "First match in the new national competition; a late equaliser prevents victory and forces a replay.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1960-61/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1960-11-26-liverpool-sheffield-united-1960-harrower-hat-trick",
+      "event": "Liverpool 4–2 Sheffield United: Harrower’s hat-trick brings down the Second Division leaders",
+      "historicalEventDate": "1960-11-26",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1960-11-26",
+        "claimedAt": "2026-10-01T19:07:00.933110Z",
+        "baseCommit": "95962d015fbf69c9788d589f586ab8e481edf866"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Autumn recovery brings victory over the leaders and eventual promotion rivals; a substantial Harrower performance merits coverage.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1960-61",
+        "season": "1960-61",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–2 Sheffield United",
+        "opposition": "Sheffield United",
+        "score": "4–2",
+        "editorialReason": "Autumn recovery brings victory over the leaders and eventual promotion rivals; a substantial Harrower performance merits coverage.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1960-61/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1961-01-28-liverpool-sunderland-1961-fa-cup-exit",
+      "event": "Liverpool 0–2 Sunderland: Sunderland’s early double ends Liverpool’s FA Cup run",
+      "historicalEventDate": "1961-01-28",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1961-01-28",
+        "claimedAt": "2026-10-01T19:07:00.933110Z",
+        "baseCommit": "95962d015fbf69c9788d589f586ab8e481edf866"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "National cup elimination is an essential dimension of this near-promotion season; two early goals determine the tie.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1960-61",
+        "season": "1960-61",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–2 Sunderland",
+        "opposition": "Sunderland",
+        "score": "0–2",
+        "editorialReason": "National cup elimination is an essential dimension of this near-promotion season; two early goals determine the tie.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1960-61/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1961-04-04-bristol-rovers-liverpool-1961-lewis-hat-trick",
+      "event": "Bristol Rovers 4–3 Liverpool: Lewis’s hat-trick cannot save Liverpool at Eastville",
+      "historicalEventDate": "1961-04-04",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1961-04-04",
+        "claimedAt": "2026-10-01T19:07:00.933110Z",
+        "baseCommit": "95962d015fbf69c9788d589f586ab8e481edf866"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Exceptional individual scoring inside a damaging Easter defeat illustrates the failing promotion challenge; no unsupported claim of mathematical elimination.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1960-61",
+        "season": "1960-61",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Bristol Rovers 4–3 Liverpool",
+        "opposition": "Bristol Rovers",
+        "score": "4–3",
+        "editorialReason": "Exceptional individual scoring inside a damaging Easter defeat illustrates the failing promotion challenge; no unsupported claim of mathematical elimination.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1960-61/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -14796,6 +15011,146 @@
       "evidence": [
         "docs/editorial/drafts/match-recovery/evidence/Liverpool-1993-94-editor-notes.md"
       ]
+    }
+  ],
+  "matchProductionBatches": [
+    {
+      "id": "1960s-1960-61",
+      "season": "1960-61",
+      "stage": "drafting",
+      "owner": "Archive editor / 1960s production 2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "sourceNote": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+      "selectedRowIds": [
+        "match-1960-08-31-liverpool-southampton-1960-liddell-final-appearance",
+        "match-1960-10-19-liverpool-luton-1960-first-league-cup-match",
+        "match-1960-11-26-liverpool-sheffield-united-1960-harrower-hat-trick",
+        "match-1961-01-28-liverpool-sunderland-1961-fa-cup-exit",
+        "match-1961-04-04-bristol-rovers-liverpool-1961-lewis-hat-trick"
+      ],
+      "reusedPaths": [],
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "nextStage": "Complete retrieved-source match reports and their factual audits."
+    },
+    {
+      "id": "1960s-1961-62",
+      "season": "1961-62",
+      "stage": "not_started",
+      "owner": "Archive editor / 1960s production 2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+    },
+    {
+      "id": "1960s-1962-63",
+      "season": "1962-63",
+      "stage": "not_started",
+      "owner": "Archive editor / 1960s production 2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+    },
+    {
+      "id": "1960s-1963-64",
+      "season": "1963-64",
+      "stage": "not_started",
+      "owner": "Archive editor / 1960s production 2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+    },
+    {
+      "id": "1960s-1964-65",
+      "season": "1964-65",
+      "stage": "not_started",
+      "owner": "Archive editor / 1960s production 2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "content/archive/liverpool/anfield-first-european-match-reykjavik-1964.md"
+      ],
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+    },
+    {
+      "id": "1960s-1965-66",
+      "season": "1965-66",
+      "stage": "not_started",
+      "owner": "Archive editor / 1960s production 2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+    },
+    {
+      "id": "1960s-1966-67",
+      "season": "1966-67",
+      "stage": "not_started",
+      "owner": "Archive editor / 1960s production 2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+    },
+    {
+      "id": "1960s-1967-68",
+      "season": "1967-68",
+      "stage": "not_started",
+      "owner": "Archive editor / 1960s production 2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+    },
+    {
+      "id": "1960s-1968-69",
+      "season": "1968-69",
+      "stage": "not_started",
+      "owner": "Archive editor / 1960s production 2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+    },
+    {
+      "id": "1960s-1969-70",
+      "season": "1969-70",
+      "stage": "not_started",
+      "owner": "Archive editor / 1960s production 2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "nextStage": "Complete whole-season research and register the selected unwritten matches."
     }
   ]
 }

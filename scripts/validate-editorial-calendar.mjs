@@ -23,6 +23,14 @@ const matchRecoverySchema = z.object({
   sourceBodySha256: text, preservedSourcePath: text, articleBodySha256: text,
   duplicateResolution: text, blockers: z.array(text), pipelinePredecessor: text.optional(),
 }).strict();
+// New research shares the stock inventory, without invented recovery provenance.
+const matchProductionSchema = z.object({
+  batchId: text, season: z.string().regex(/^\d{4}-\d{2}$/),
+  completed: z.boolean(), reviewRequired: z.boolean(), matchLabel: text,
+  opposition: text, score: z.string().regex(/^\d+–\d+$/), editorialReason: text,
+  sourceFiles: z.array(text).min(1), model: z.literal('gpt-6-astra'),
+  workerId: text, blockers: z.array(text),
+}).strict();
 const entrySchema = z.object({
   id: text, event: text, historicalEventDate: z.iso.date(), featuredWeek: z.iso.date(),
   selection: z.enum(['selected', 'provisional', 'alternative']),
@@ -36,6 +44,7 @@ const entrySchema = z.object({
   evidence: z.array(z.object({ location: text, confidence: z.enum(['high', 'medium', 'low', 'unverified']), scope: text }).strict()).min(1),
   researchStatus: z.enum(['not_rechecked', 'needs_research', 'verified']),
   matchRecovery: matchRecoverySchema.optional(),
+  matchProduction: matchProductionSchema.optional(),
   migration: z.object({
     personId: text, completed: z.boolean(), reviewRequired: z.boolean(),
     sourceFiles: z.array(text), sourceManuscript: z.object({
@@ -48,7 +57,9 @@ const entrySchema = z.object({
 const biographySchema = entrySchema.omit({ historicalEventDate: true, featuredWeek: true })
   .extend({ personId: text });
 // An editorial stock item has an actual match date, but no invented anniversary week.
-const matchSchema = entrySchema.omit({ featuredWeek: true }).extend({ matchRecovery: matchRecoverySchema });
+const matchSchema = entrySchema.omit({ featuredWeek: true }).refine(
+  e => Boolean(e.matchRecovery) !== Boolean(e.matchProduction),
+  'Match stock requires either recovery provenance or new-research evidence');
 
 export function validateCalendar(calendar, root = process.cwd()) {
   assert.equal(calendar.version, 1);
@@ -57,6 +68,13 @@ export function validateCalendar(calendar, root = process.cwd()) {
   const entries = z.array(entrySchema).min(1).parse(calendar.entries);
   const biographies = z.array(biographySchema).parse(calendar.biographies ?? []);
   const matches = z.array(matchSchema).parse(calendar.matches ?? []);
+  const batches = z.array(z.object({
+    id: text, season: z.string().regex(/^\d{4}-\d{2}$/),
+    stage: z.enum(['not_started', 'season_research', 'match_research', 'drafting', 'fact_check', 'checkpointed']),
+    owner: text, model: z.literal('gpt-6-astra'), workerId: text,
+    sourceNote: text.nullable(), selectedRowIds: z.array(text), reusedPaths: z.array(text),
+    notes: text, nextStage: text.nullable(),
+  }).strict()).parse(calendar.matchProductionBatches ?? []);
   z.array(z.object({ id: text, season: z.string().regex(/^\d{4}-\d{2}$/),
     status: z.literal('NOT LOCATED'), articlePath: z.null(), notes: text, evidence: z.array(text).min(1),
   }).strict()).parse(calendar.matchRecoveryGaps ?? []);
@@ -95,9 +113,42 @@ export function validateCalendar(calendar, root = process.cwd()) {
     const weekDates = Array.from({ length: 7 }, (_, i) => new Date(+monday + i * 86400000).toISOString().slice(5, 10));
     assert.ok(weekDates.includes(e.historicalEventDate.slice(5)), `${e.id}: anniversary outside featured week`);
     }
-    if (e.matchRecovery) {
+    if (e.matchRecovery || e.matchProduction) {
       assert.ok(!recoveredMatches.has(e.historicalEventDate), `${e.id}: duplicate recovered match`);
       recoveredMatches.add(e.historicalEventDate);
+    }
+    if (e.matchProduction) {
+      const m = e.matchProduction;
+      assert.ok(batches.some(b => b.id === m.batchId && b.season === m.season), `${e.id}: unknown production batch`);
+      for (const file of m.sourceFiles) {
+        assert.ok(file.startsWith('docs/editorial/drafts/') && !file.split('/').includes('..'), `${e.id}: unsafe source path`);
+        assert.ok(fs.existsSync(path.join(root, file)), `${e.id}: missing source ${file}`);
+      }
+      const year = Number(e.historicalEventDate.slice(0, 4)) - (Number(e.historicalEventDate.slice(5, 7)) < 7 ? 1 : 0);
+      assert.equal(m.season, `${year}-${String((year + 1) % 100).padStart(2, '0')}`, `${e.id}: match outside production season`);
+      if (['ready_for_review', 'approved', 'published'].includes(e.status)) assert.equal(m.completed, true, `${e.id}: finished status requires completed research`);
+      if (e.status !== 'published') {
+        assert.equal(e.publishedDestination, null, `${e.id}: unpublished production has a destination`);
+        assert.ok(![...articles.values()].some(a => a.historicalEventDate === e.historicalEventDate && a.articleType === 'match'), `${e.id}: newly researched match already has public coverage`);
+        if (e.status !== 'approved') {
+          assert.equal(m.reviewRequired, true, `${e.id}: new writing requires Denny review`);
+          assert.equal(e.approval, null, `${e.id}: approval is only recorded at explicit approval`);
+        }
+      }
+      if (e.status === 'approved') assert.equal(m.blockers.length, 0, `${e.id}: unresolved production approval blockers`);
+      if (e.draftPath) {
+        const article = matter(fs.readFileSync(path.join(root, e.draftPath), 'utf8'));
+        assert.equal(article.data.articleType, 'match', `${e.id}: production must be a match report`);
+        assert.equal(article.data.slug, path.basename(e.draftPath, '.md'), `${e.id}: production filename/slug mismatch`);
+        assert.equal(article.data.season, m.season, `${e.id}: production season mismatch`);
+        assert.ok(!Object.hasOwn(article.data, 'date'), `${e.id}: production draft has publication date`);
+        assert.ok(article.data.oppositionIds?.length, `${e.id}: opposition identity required`);
+        assert.ok(article.data.competitionIds?.length, `${e.id}: competition identity required`);
+        assert.ok(article.data.managerIds?.length, `${e.id}: manager identity required`);
+        assert.ok(!articles.has(`/archive/${article.data.slug}`), `${e.id}: unpublished production slug is public`);
+      }
+    }
+    if (e.matchRecovery) {
       const m = e.matchRecovery;
       for (const file of m.sourceFiles) {
         assert.ok(file.startsWith('docs/editorial/drafts/') && !file.split('/').includes('..'), `${e.id}: unsafe source path`);
@@ -161,6 +212,20 @@ export function validateCalendar(calendar, root = process.cwd()) {
       assert.ok(article, `${e.id}: published destination missing from canonical collection`);
       if (e.historicalEventDate) assert.equal(article.historicalEventDate, e.historicalEventDate, `${e.id}: published date mismatch`);
     }
+  }
+  const batchIds = new Set(), batchSeasons = new Set();
+  for (const b of batches) {
+    assert.ok(!batchIds.has(b.id) && !batchSeasons.has(b.season), `${b.id}: duplicate production batch`);
+    batchIds.add(b.id); batchSeasons.add(b.season);
+    if (b.sourceNote) assert.ok(fs.existsSync(path.join(root, b.sourceNote)), `${b.id}: missing season research`);
+    for (const file of b.reusedPaths) assert.ok(fs.existsSync(path.join(root, file)), `${b.id}: missing reused article`);
+    assert.equal(new Set(b.selectedRowIds).size, b.selectedRowIds.length, `${b.id}: duplicate selected row`);
+    for (const id of b.selectedRowIds) {
+      const row = matches.find(r => r.id === id);
+      assert.ok(row?.matchProduction?.batchId === b.id, `${b.id}: selection belongs to another batch`);
+      if (b.stage === 'checkpointed') assert.equal(row.status, 'ready_for_review', `${b.id}: unfinished checkpoint`);
+    }
+    if (b.stage === 'checkpointed') assert.equal(b.nextStage, null, `${b.id}: completed batch has remaining work`);
   }
   return [...entries, ...biographies, ...matches];
 }

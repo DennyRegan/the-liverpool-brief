@@ -2628,5 +2628,15 @@
     "id": "sao-paulo",
     "label": "São Paulo",
     "kind": "opposition"
+  },
+  {
+    "id": "bristol-rovers",
+    "label": "Bristol Rovers",
+    "kind": "opposition"
+  },
+  {
+    "id": "eastville-stadium",
+    "label": "Eastville Stadium",
+    "kind": "location"
   }
 ]

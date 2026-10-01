@@ -11,7 +11,7 @@ const load = () => JSON.parse(fs.readFileSync(calendarPath, 'utf8'));
 test('repository calendar validates without imposing a fixed writing or approval count', () => {
   const rows = validateCalendar(load());
   assert.ok(rows.length > 0);
-  assert.ok(rows.every(e => e.personId || (e.matchRecovery && e.historicalEventDate) || (e.featuredWeek && e.historicalEventDate)));
+  assert.ok(rows.every(e => e.personId || ((e.matchRecovery || e.matchProduction) && e.historicalEventDate) || (e.featuredWeek && e.historicalEventDate)));
 });
 
 test('recovered manuscripts retain their exact bytes below added metadata', () => {
