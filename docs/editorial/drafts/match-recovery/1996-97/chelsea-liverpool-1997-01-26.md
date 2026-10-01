@@ -1,0 +1,51 @@
+---
+title: Liverpool’s two-goal lead disappears at Stamford Bridge
+slug: chelsea-liverpool-1997-01-26
+historicalEventDate: '1997-01-26'
+season: 1996-97
+historicalPeriod: '1997-01-26 · FA Cup, fourth round · Stamford Bridge'
+decade: 1990s
+excerpt: >-
+  Liverpool were 2–0 ahead at half-time and had chances to make the lead
+  greater. Twenty-six minutes of the second half took them out of the FA Cup.
+category: match
+articleType: match
+managerIds:
+  - roy-evans
+competitionIds:
+  - fa-cup
+oppositionIds:
+  - chelsea
+locationIds:
+  - stamford-bridge
+---
+# Liverpool’s two-goal lead disappears at Stamford Bridge
+
+**Chelsea 4–2 Liverpool | 26 January 1997**  
+FA Cup, fourth round · Stamford Bridge · Season 1996-97
+
+Liverpool were 2–0 ahead at half-time and had chances to make the lead greater. Twenty-six minutes of the second half took them out of the FA Cup.
+
+Robbie Fowler and Stan Collymore had given Roy Evans’s side command of the tie. Chelsea could not contain Liverpool’s first-half attacks, with John Barnes helping direct the play from midfield and the visitors finding space on both sides.
+
+Fowler opened the scoring after ten minutes, finishing Stig Inge Bjørnebye’s low delivery. Collymore doubled the advantage in the 21st minute. Before the interval, Steve McManaman missed another opportunity when through on goal.
+
+Ruud Gullit changed the contest at half-time. Scott Minto came off and Mark Hughes joined Gianluca Vialli and Gianfranco Zola in Chelsea’s attack. Roberto Di Matteo was also given the task of restricting Barnes.
+
+Hughes scored within five minutes of the restart, turning to beat David James. Eight minutes later, Zola equalised with a shot from outside the area.
+
+Liverpool’s comfortable lead had gone. Chelsea were finding the attacking connections that had been missing before the break, and Liverpool were struggling to stop them nearer the halfway line.
+
+Vialli put Chelsea ahead after 63 minutes, meeting Dan Petrescu’s pass. He completed the reversal with a header from Zola’s free-kick in the 76th.
+
+Evans’s assessment afterwards centred on Liverpool’s retreat. His side had allowed Chelsea the space to play, defending much closer to their own goal than they had in the first half.
+
+The result was especially severe because Liverpool had already shown they could control the match. Chelsea’s changes required an answer that never came. The visitors who had led by two goals were beaten by two, while Gullit’s team continued a cup run that would end with the trophy at Wembley.
+
+## Sources
+
+- **High confidence** — [LFChistory.net, match record](https://www.lfchistory.net/games/2102). Score, teams, substitutions and goal sequence.
+- **High confidence** — [Rob King, Press Association: “Hughes fires stunning Chelsea recovery”, archived by LFChistory.net](https://www.lfchistory.net/articles/2684). Contemporary reporting and Evans’s post-match explanation.
+- **High confidence** — [Chelsea FC: “Remember When… Chelsea turned the tide to leave Liverpool shell-shocked”](https://www.chelseafc.com/en/news/article/remember-when--chelsea-turned-the-tide-to-leave-liverpool-shell-). Corroborating club account of the half-time changes and goals; unrelated retrospective claims excluded.
+- **High confidence** — [Chelsea FC: “Ruud Gullit – Leading Chelsea to triumph”](https://www.chelseafc.com/en/news/article/ruud-gullit-leading-chelsea-to-triumph). Confirmation of Chelsea’s subsequent FA Cup victory.
+

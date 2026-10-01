@@ -8310,7 +8310,30 @@
           "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Six at Selhurst Park: Evans starts his first full season in style",
+        "opposition": "Crystal Palace",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/1994-08-20-crystal-palace-liverpool-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1994-95/1994-08-20-crystal-palace-liverpool.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1994-08-20-crystal-palace-liverpool.md",
+          "libraryFileId": "libfile_1be4a061d1108191a14ff710b64a9d23",
+          "modifiedAt": "2026-09-25T11:56:46.730380Z",
+          "sha256": "8f3142d0a20b6dd87f6b77fbac1e6ab7ad4175554459509a443d3a0565fc8fb7",
+          "archiveMember": "articles/1994-08-20-crystal-palace-liverpool.md"
+        },
+        "sourceBodySha256": "921e7e460addc50ff65f55c3d5df56d7323fd77ac62662ea2b4405a403deaeaf",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1994-08-20-crystal-palace-liverpool.md.txt",
+        "articleBodySha256": "921e7e460addc50ff65f55c3d5df56d7323fd77ac62662ea2b4405a403deaeaf",
+        "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1994-08-28-liverpool-arsenal",
@@ -8339,7 +8362,30 @@
           "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Four minutes, 33 seconds: Fowler's record hat-trick against Arsenal",
+        "opposition": "Arsenal",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/1994-08-28-liverpool-arsenal-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1994-95/1994-08-28-liverpool-arsenal.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1994-08-28-liverpool-arsenal.md",
+          "libraryFileId": "libfile_1be4a061d1108191a14ff710b64a9d23",
+          "modifiedAt": "2026-09-25T11:56:46.730380Z",
+          "sha256": "569cd6ab638f459b94f28ee879a098ce22f91a9872d9fbf9ee979b5fb41463c8",
+          "archiveMember": "articles/1994-08-28-liverpool-arsenal.md"
+        },
+        "sourceBodySha256": "1714fa475c2475ce865ee5468fcc9f582468659c9e7aa43eef83913fdda44763",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1994-08-28-liverpool-arsenal.md.txt",
+        "articleBodySha256": "1714fa475c2475ce865ee5468fcc9f582468659c9e7aa43eef83913fdda44763",
+        "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1994-11-30-blackburn-rovers-liverpool",
@@ -8368,7 +8414,32 @@
           "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Rush's last Liverpool hat-trick knocks Blackburn out of the League Cup",
+        "opposition": "Rush's last Liverpool hat-trick knocks Blackburn out of the League Cup",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/1994-11-30-blackburn-rovers-liverpool-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1994-95/1994-11-30-blackburn-rovers-liverpool.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1994-11-30-blackburn-rovers-liverpool.md",
+          "libraryFileId": "libfile_1be4a061d1108191a14ff710b64a9d23",
+          "modifiedAt": "2026-09-25T11:56:46.730380Z",
+          "sha256": "217843b972be5313ce45ad7e51b9eb617af451cf21ec6e5ab4c24da2d62f5dd0",
+          "archiveMember": "articles/1994-11-30-blackburn-rovers-liverpool.md"
+        },
+        "sourceBodySha256": "f1ef99e4680d99965f70e0a7437206f7a5bf86f7c9d8323e147161e5a0ffcb28",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1994-11-30-blackburn-rovers-liverpool.md.txt",
+        "articleBodySha256": "f1ef99e4680d99965f70e0a7437206f7a5bf86f7c9d8323e147161e5a0ffcb28",
+        "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
+        "blockers": [
+          "Canonical opposition entity not available for Rush's last Liverpool hat-trick knocks Blackburn out of the League Cup; identity retained as a label, no ID invented."
+        ]
+      }
     },
     {
       "id": "1995-01-11-liverpool-arsenal",
@@ -8397,7 +8468,30 @@
           "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Rush finishes the free-kick routine that takes Liverpool past Arsenal",
+        "opposition": "Arsenal",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/1995-01-11-liverpool-arsenal-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1994-95/1995-01-11-liverpool-arsenal.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-01-11-liverpool-arsenal.md",
+          "libraryFileId": "libfile_1be4a061d1108191a14ff710b64a9d23",
+          "modifiedAt": "2026-09-25T11:56:46.730380Z",
+          "sha256": "e7e1b2ec255182ec0b184e5f47f9b015c154a339044011f5b6c12733a4d34070",
+          "archiveMember": "articles/1995-01-11-liverpool-arsenal.md"
+        },
+        "sourceBodySha256": "3c3f96cd79498516a6939be9bde774ae1b4e60434e592d165fb4956da26d60a2",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1995-01-11-liverpool-arsenal.md.txt",
+        "articleBodySha256": "3c3f96cd79498516a6939be9bde774ae1b4e60434e592d165fb4956da26d60a2",
+        "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1995-03-08-crystal-palace-liverpool",
@@ -8426,7 +8520,30 @@
           "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Fowler sends Liverpool back to Wembley",
+        "opposition": "Crystal Palace",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/1995-03-08-crystal-palace-liverpool-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1994-95/1995-03-08-crystal-palace-liverpool.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-03-08-crystal-palace-liverpool.md",
+          "libraryFileId": "libfile_1be4a061d1108191a14ff710b64a9d23",
+          "modifiedAt": "2026-09-25T11:56:46.730380Z",
+          "sha256": "c599838351e4cd3dd4cfd68c98cfecb947de4d6efcaa66eac3c6543fc6cacff1",
+          "archiveMember": "articles/1995-03-08-crystal-palace-liverpool.md"
+        },
+        "sourceBodySha256": "c07fe6d54d9b90425c48df9dc1b5027cb18f184d7710fd31bcd4f24fa94029b5",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1995-03-08-crystal-palace-liverpool.md.txt",
+        "articleBodySha256": "c07fe6d54d9b90425c48df9dc1b5027cb18f184d7710fd31bcd4f24fa94029b5",
+        "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1995-03-11-liverpool-tottenham-hotspur",
@@ -8455,7 +8572,30 @@
           "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Klinsmann's late winner ends Liverpool's FA Cup run",
+        "opposition": "Tottenham Hotspur",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/1995-03-11-liverpool-tottenham-hotspur-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1994-95/1995-03-11-liverpool-tottenham-hotspur.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-03-11-liverpool-tottenham-hotspur.md",
+          "libraryFileId": "libfile_1be4a061d1108191a14ff710b64a9d23",
+          "modifiedAt": "2026-09-25T11:56:46.730380Z",
+          "sha256": "b934529dd41d1c387dc4b7e9d63f106179ea140a6f58b1067707fd30e166dfce",
+          "archiveMember": "articles/1995-03-11-liverpool-tottenham-hotspur.md"
+        },
+        "sourceBodySha256": "e70e5006a7d72d7f28836d002426debac04c85511d35fa289b3cefdcbc1920fa",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1995-03-11-liverpool-tottenham-hotspur.md.txt",
+        "articleBodySha256": "e70e5006a7d72d7f28836d002426debac04c85511d35fa289b3cefdcbc1920fa",
+        "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1995-03-19-liverpool-manchester-united",
@@ -8484,7 +8624,30 @@
           "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Redknapp puts Liverpool on course to beat Manchester United",
+        "opposition": "Manchester United",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/1995-03-19-liverpool-manchester-united-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1994-95/1995-03-19-liverpool-manchester-united.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-03-19-liverpool-manchester-united.md",
+          "libraryFileId": "libfile_1be4a061d1108191a14ff710b64a9d23",
+          "modifiedAt": "2026-09-25T11:56:46.730380Z",
+          "sha256": "90c03e11ced44002f1532ea86e172b182c43d9561e0def98dd7f9619745e2b2e",
+          "archiveMember": "articles/1995-03-19-liverpool-manchester-united.md"
+        },
+        "sourceBodySha256": "ce6ea2978a2654e8419f1de210307b527f0d5f68b352a6d093d1b57ad53bfe54",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1995-03-19-liverpool-manchester-united.md.txt",
+        "articleBodySha256": "ce6ea2978a2654e8419f1de210307b527f0d5f68b352a6d093d1b57ad53bfe54",
+        "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1995-04-02-liverpool-bolton-wanderers",
@@ -8513,7 +8676,32 @@
           "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "McManaman's Wembley double wins the League Cup for Liverpool",
+        "opposition": "McManaman's Wembley double wins the League Cup for Liverpool",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/1995-04-02-liverpool-bolton-wanderers-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1994-95/1995-04-02-liverpool-bolton-wanderers.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-04-02-liverpool-bolton-wanderers.md",
+          "libraryFileId": "libfile_1be4a061d1108191a14ff710b64a9d23",
+          "modifiedAt": "2026-09-25T11:56:46.730380Z",
+          "sha256": "d3d8926b6095c48325522e53933e1668f45ab41575dd2016ef5917df7f053a43",
+          "archiveMember": "articles/1995-04-02-liverpool-bolton-wanderers.md"
+        },
+        "sourceBodySha256": "4da04a0dbea9949b4c4cbb02ec2a40af28202160bfa4c0715869f5c65c33aaaf",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1995-04-02-liverpool-bolton-wanderers.md.txt",
+        "articleBodySha256": "4da04a0dbea9949b4c4cbb02ec2a40af28202160bfa4c0715869f5c65c33aaaf",
+        "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
+        "blockers": [
+          "Canonical opposition entity not available for McManaman's Wembley double wins the League Cup for Liverpool; identity retained as a label, no ID invented."
+        ]
+      }
     },
     {
       "id": "1995-05-14-liverpool-blackburn-rovers",
@@ -8542,7 +8730,32 @@
           "scope": "Historical research, article writing and claim checks by configured gpt-6-astra worker /root/astra_1994_95. Source-specific scopes and limitations in editorial notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool win, Blackburn celebrate: Anfield's extraordinary final day",
+        "opposition": "Liverpool win, Blackburn celebrate: Anfield's extraordinary final day",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/1995-05-14-liverpool-blackburn-rovers-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1994-95/1995-05-14-liverpool-blackburn-rovers.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-05-14-liverpool-blackburn-rovers.md",
+          "libraryFileId": "libfile_1be4a061d1108191a14ff710b64a9d23",
+          "modifiedAt": "2026-09-25T11:56:46.730380Z",
+          "sha256": "d7e2f12a327596eea3deacd647cd4efee4f385861c47f58a4f9cc0764272d6ac",
+          "archiveMember": "articles/1995-05-14-liverpool-blackburn-rovers.md"
+        },
+        "sourceBodySha256": "a62c1eb05d37cf45c4037ab1e115db524510e693621d5c8f78183317931d7596",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1995-05-14-liverpool-blackburn-rovers.md.txt",
+        "articleBodySha256": "a62c1eb05d37cf45c4037ab1e115db524510e693621d5c8f78183317931d7596",
+        "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
+        "blockers": [
+          "Canonical opposition entity not available for Liverpool win, Blackburn celebrate: Anfield's extraordinary final day; identity retained as a label, no ID invented."
+        ]
+      }
     },
     {
       "id": "1974-07-26-bob-paisley-guided-journey",
@@ -8752,7 +8965,32 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Collymore wins on his Liverpool debut",
+        "opposition": "Collymore wins on his Liverpool debut",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1995-08-19-liverpool-sheffield-wednesday-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1995-08-19-liverpool-sheffield-wednesday.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-08-19-liverpool-sheffield-wednesday.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "bd266039fdbd47cfe0dfef963154ee81c6a508a2e65029ef8ae0b4387d98423e",
+          "archiveMember": "articles/1995-08-19-liverpool-sheffield-wednesday.md"
+        },
+        "sourceBodySha256": "c2b87608241071ba4ca09ad6a1c517255f9bfb51c455f30545bf9bd43a89fd24",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1995-08-19-liverpool-sheffield-wednesday.md.txt",
+        "articleBodySha256": "1cf14d0f02c5cf545bc6f0eee5825222613586e78cb36122f01c9b762b7cf799",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": [
+          "Canonical opposition entity not available for Collymore wins on his Liverpool debut; identity retained as a label, no ID invented."
+        ]
+      }
     },
     {
       "id": "1995-09-23-liverpool-bolton-wanderers",
@@ -8785,7 +9023,32 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Fowler scores four against Bolton",
+        "opposition": "Fowler scores four against Bolton",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1995-09-23-liverpool-bolton-wanderers-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1995-09-23-liverpool-bolton-wanderers.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-09-23-liverpool-bolton-wanderers.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "4378400d16dfcc63eeda8343716b51c79f1007d9423a7d0db41bcbd28b70883f",
+          "archiveMember": "articles/1995-09-23-liverpool-bolton-wanderers.md"
+        },
+        "sourceBodySha256": "8d5f3aebc82b86e541de14e36ae1c476acc312622c2deabe3edcecd183d4ac31",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1995-09-23-liverpool-bolton-wanderers.md.txt",
+        "articleBodySha256": "c4928a48595999393cea5bfc0b8c41150f0e0b17eebef6e0018b6982322ca765",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": [
+          "Canonical opposition entity not available for Fowler scores four against Bolton; identity retained as a label, no ID invented."
+        ]
+      }
     },
     {
       "id": "1995-10-01-manchester-united-liverpool",
@@ -8818,7 +9081,30 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Fowler's double on Cantona's return",
+        "opposition": "Manchester United",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1995-10-01-manchester-united-liverpool-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1995-10-01-manchester-united-liverpool.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-10-01-manchester-united-liverpool.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "5fc0ef1a1d364f50a9e3231c0ae6c3955c71d19856f5cdcdaefc4779c8501c8a",
+          "archiveMember": "articles/1995-10-01-manchester-united-liverpool.md"
+        },
+        "sourceBodySha256": "8819b991e1c0dd47ce6e217c560273e4b5562202ae7c09f08883a692babdfebc",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1995-10-01-manchester-united-liverpool.md.txt",
+        "articleBodySha256": "97ac5cd088e912c627f8dd5683c9890585e637727d718ec315192534dbf61597",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1995-10-28-liverpool-manchester-city",
@@ -8851,7 +9137,30 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool put six past Manchester City",
+        "opposition": "Manchester City",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1995-10-28-liverpool-manchester-city-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1995-10-28-liverpool-manchester-city.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-10-28-liverpool-manchester-city.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "2666f009cdc8ba2152d049ffd3394dba72d07b2a44e702a6a1e67909bc8b5022",
+          "archiveMember": "articles/1995-10-28-liverpool-manchester-city.md"
+        },
+        "sourceBodySha256": "7d434da63f89c3ce73b4e72819d702eae3364579a998c5b5b0e4c167aa97e6db",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1995-10-28-liverpool-manchester-city.md.txt",
+        "articleBodySha256": "c43ca295248c70e516211f7a3c35658e18d84bf883700fc97605418cc5d32ad2",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1995-12-17-liverpool-manchester-united",
@@ -8884,7 +9193,30 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Fowler scores twice to beat Manchester United",
+        "opposition": "Manchester United",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1995-12-17-liverpool-manchester-united-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1995-12-17-liverpool-manchester-united.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-12-17-liverpool-manchester-united.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "7c6859f65abb7a0676c93ec0f8b00d3ccc38f94e802d5690a96c7540e6d0dc9f",
+          "archiveMember": "articles/1995-12-17-liverpool-manchester-united.md"
+        },
+        "sourceBodySha256": "f2b5d9f5beb15a6c002ec03501acfddfee2f8c1efe572bf79d0b8e7227d8ada7",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1995-12-17-liverpool-manchester-united.md.txt",
+        "articleBodySha256": "a1f503765a8197e18d7ce4cccf92929b990da7ad72ce9e6c43153dbd61ed33a2",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1995-12-23-liverpool-arsenal",
@@ -8917,7 +9249,30 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Fowler's hat-trick, Collymore's three assists",
+        "opposition": "Arsenal",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1995-12-23-liverpool-arsenal-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1995-12-23-liverpool-arsenal.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1995-12-23-liverpool-arsenal.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "0b8a05454ab2e70737094aec2fadb22c109cc3c83c0fdfae44eb93d0f4870075",
+          "archiveMember": "articles/1995-12-23-liverpool-arsenal.md"
+        },
+        "sourceBodySha256": "085eb801608055e8cdbd546731c0ecdc8fb9751c84f172fe20d59ae5adc6cbb9",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1995-12-23-liverpool-arsenal.md.txt",
+        "articleBodySha256": "ede07564192e457ca1b74c0ca7c4b8570b4edcdcb60c16dfdfbcd36632681cc7",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1996-01-20-liverpool-leeds-united",
@@ -8950,7 +9305,30 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Ruddock and Fowler double up as Liverpool put five past Leeds",
+        "opposition": "Leeds United",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1996-01-20-liverpool-leeds-united-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1996-01-20-liverpool-leeds-united.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1996-01-20-liverpool-leeds-united.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "d3c1bc5eca5c75db1d44ce5c2f5def3c0b4c1ef7793ae804b9f2ab9c46cb61b5",
+          "archiveMember": "articles/1996-01-20-liverpool-leeds-united.md"
+        },
+        "sourceBodySha256": "cfe807fd5acb02b7259e065854bb5105de2a4d864c08f1ce49f69759a25759e6",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1996-01-20-liverpool-leeds-united.md.txt",
+        "articleBodySha256": "d2a07e75ff9ff42bf87f4c9c76939f2aa33f74843fbd871eac1c9adb00bece6a",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1996-02-24-blackburn-rovers-liverpool",
@@ -8983,7 +9361,32 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Collymore's double helps Liverpool survive a Blackburn fightback",
+        "opposition": "Collymore's double helps Liverpool survive a Blackburn fightback",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1996-02-24-blackburn-rovers-liverpool-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1996-02-24-blackburn-rovers-liverpool.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1996-02-24-blackburn-rovers-liverpool.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "ad7c451d488939b162813ef69951dc08544b66d4b4d8512692d04a4a0d250456",
+          "archiveMember": "articles/1996-02-24-blackburn-rovers-liverpool.md"
+        },
+        "sourceBodySha256": "1c182cff19f3b07d0589d06d1864d5fe3298657084d9e3e53e34ab9fa70a5eee",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1996-02-24-blackburn-rovers-liverpool.md.txt",
+        "articleBodySha256": "82dab56b00a7b3385a3d357a3046b64bc1bb49da458700e357f8040ae062f09d",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": [
+          "Canonical opposition entity not available for Collymore's double helps Liverpool survive a Blackburn fightback; identity retained as a label, no ID invented."
+        ]
+      }
     },
     {
       "id": "1996-03-31-liverpool-aston-villa",
@@ -9016,7 +9419,30 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Fowler finishes Villa's challenge as Liverpool reach Wembley",
+        "opposition": "Aston Villa",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1996-03-31-liverpool-aston-villa-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1996-03-31-liverpool-aston-villa.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1996-03-31-liverpool-aston-villa.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "93cbe76939b2d1ed9dae925efaaaf781f499e15ab3fb4f126a1f14bf809d386f",
+          "archiveMember": "articles/1996-03-31-liverpool-aston-villa.md"
+        },
+        "sourceBodySha256": "9fbea0108b8ca259d442f6597df35f611cea12b6c8eaf47f4e2e31daed488aef",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1996-03-31-liverpool-aston-villa.md.txt",
+        "articleBodySha256": "7af86b150a263d571711c608b18fa186763f5b665f1e58205247c6e5afd1b047",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1996-04-03-liverpool-newcastle-united",
@@ -9049,7 +9475,30 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Collymore settles seven-goal Anfield contest in stoppage time",
+        "opposition": "Newcastle United",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1996-04-03-liverpool-newcastle-united-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1996-04-03-liverpool-newcastle-united.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1996-04-03-liverpool-newcastle-united.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "123b9578ad807e8df35c539077b753efd661fe93f1195dcfd5dd4e0cbca78733",
+          "archiveMember": "articles/1996-04-03-liverpool-newcastle-united.md"
+        },
+        "sourceBodySha256": "3a193bbec4e3f3c1cde01da046d7a5e6c8941e3647143b306cdcac17246a5b02",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1996-04-03-liverpool-newcastle-united.md.txt",
+        "articleBodySha256": "77728e84767a55c9a2626145f56d915e21e028ef43683accede75dfe04c05ce3",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1996-05-11-liverpool-manchester-united",
@@ -9082,7 +9531,30 @@
           "scope": "Configured Astra retrieved-source factual research and claim audit; individual source confidence and exclusions recorded in notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Cantona's late goal ends Liverpool's FA Cup challenge",
+        "opposition": "Manchester United",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/1996-05-11-liverpool-manchester-united-evidence.md",
+          "docs/editorial/drafts/match-recovery/originals/1995-96/1996-05-11-liverpool-manchester-united.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "1996-05-11-liverpool-manchester-united.md",
+          "libraryFileId": "libfile_4765590a4e28819198111b2a4c426098",
+          "modifiedAt": "2026-09-27T10:52:24.879416Z",
+          "sha256": "60590295817150bf04b13ec6ab9889542aa485a2eab108c60cf826acc189d1ed",
+          "archiveMember": "articles/1996-05-11-liverpool-manchester-united.md"
+        },
+        "sourceBodySha256": "076a03c5df49b0e918a8ee3848b0c1956f19d42453482f9c0b08a68f93fe5ff2",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1996-05-11-liverpool-manchester-united.md.txt",
+        "articleBodySha256": "cf24daf7ff2c38138b88abc19fe3e5a1efd447d6f503189ad0f48529d4da71d3",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "approval": {
@@ -9359,7 +9831,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T16:31:53.863Z",
+  "updatedAt": "2026-10-01T16:35:09.156Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -10873,6 +11345,552 @@
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
         "blockers": []
       }
+    },
+    {
+      "id": "match-1996-08-17-undefined",
+      "historicalEventDate": "1996-08-17",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/middlesbrough-liverpool-1996-08-17.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/01-middlesbrough-liverpool-1996-08-17.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Middlesbrough 3–3 Liverpool",
+        "opposition": "Middlesbrough",
+        "score": "3–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/01-middlesbrough-liverpool-1996-08-17.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "01-middlesbrough-liverpool-1996-08-17.md",
+          "libraryFileId": "libfile_7de4f57fded08191902c09d3fc52e7b1",
+          "modifiedAt": "2026-09-27T12:05:29.730781Z",
+          "sha256": "0f49ed04a6983ef6ea1f28ec428dcf4b48530332d4f63110d2a97d68adbfe1f6"
+        },
+        "sourceBodySha256": "0f49ed04a6983ef6ea1f28ec428dcf4b48530332d4f63110d2a97d68adbfe1f6",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/01-middlesbrough-liverpool-1996-08-17.md.txt",
+        "articleBodySha256": "0f49ed04a6983ef6ea1f28ec428dcf4b48530332d4f63110d2a97d68adbfe1f6",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      },
+      "event": "Three leads, one Ravanelli: Liverpool’s six-goal opening day"
+    },
+    {
+      "id": "match-1996-09-21-undefined",
+      "historicalEventDate": "1996-09-21",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/liverpool-chelsea-1996-09-21.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/02-liverpool-chelsea-1996-09-21.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–1 Chelsea",
+        "opposition": "Chelsea",
+        "score": "5–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/02-liverpool-chelsea-1996-09-21.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "02-liverpool-chelsea-1996-09-21.md",
+          "libraryFileId": "libfile_a84f1a23e2cc8191ab91289115e21bbc",
+          "modifiedAt": "2026-09-27T12:05:29.789842Z",
+          "sha256": "04a971cc6582a0fd92255bc8d058336a72e5e59e611bf00834cc9273ad47bd54"
+        },
+        "sourceBodySha256": "04a971cc6582a0fd92255bc8d058336a72e5e59e611bf00834cc9273ad47bd54",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/02-liverpool-chelsea-1996-09-21.md.txt",
+        "articleBodySha256": "04a971cc6582a0fd92255bc8d058336a72e5e59e611bf00834cc9273ad47bd54",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      },
+      "event": "Berger’s first start brings five goals against Chelsea"
+    },
+    {
+      "id": "match-1996-10-31-undefined",
+      "historicalEventDate": "1996-10-31",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/liverpool-sion-1996-10-31.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/03-liverpool-sion-1996-10-31.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 6–3 Sion",
+        "opposition": "Sion",
+        "score": "6–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/03-liverpool-sion-1996-10-31.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "03-liverpool-sion-1996-10-31.md",
+          "libraryFileId": "libfile_c6286b84b3dc81918eb450b3cac80c70",
+          "modifiedAt": "2026-09-27T12:05:29.789514Z",
+          "sha256": "8d4e395b809712f91f3cea74e2e66f1972431ad0827a61c71ba5c2dbaaf369b1"
+        },
+        "sourceBodySha256": "8d4e395b809712f91f3cea74e2e66f1972431ad0827a61c71ba5c2dbaaf369b1",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/03-liverpool-sion-1996-10-31.md.txt",
+        "articleBodySha256": "8d4e395b809712f91f3cea74e2e66f1972431ad0827a61c71ba5c2dbaaf369b1",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Sion; identity retained as a label, no ID invented."
+        ]
+      },
+      "event": "Six goals against Sion after Liverpool twice face elimination"
+    },
+    {
+      "id": "match-1996-11-27-undefined",
+      "historicalEventDate": "1996-11-27",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/liverpool-arsenal-1996-11-27.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/04-liverpool-arsenal-1996-11-27.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–2 Arsenal",
+        "opposition": "Arsenal",
+        "score": "4–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/04-liverpool-arsenal-1996-11-27.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "04-liverpool-arsenal-1996-11-27.md",
+          "libraryFileId": "libfile_6759c9fbdf8c81918ae5b16b982a4c17",
+          "modifiedAt": "2026-09-27T12:05:29.786070Z",
+          "sha256": "3924bcc1ea888b2def8d196d0297a6340984b5657cc752b1a59ab8a192e8a776"
+        },
+        "sourceBodySha256": "3924bcc1ea888b2def8d196d0297a6340984b5657cc752b1a59ab8a192e8a776",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/04-liverpool-arsenal-1996-11-27.md.txt",
+        "articleBodySha256": "3924bcc1ea888b2def8d196d0297a6340984b5657cc752b1a59ab8a192e8a776",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      },
+      "event": "Fowler and Berger see off Arsenal in a six-goal cup tie"
+    },
+    {
+      "id": "match-1996-12-14-undefined",
+      "historicalEventDate": "1996-12-14",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/liverpool-middlesbrough-1996-12-14.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/05-liverpool-middlesbrough-1996-12-14.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–1 Middlesbrough",
+        "opposition": "Middlesbrough",
+        "score": "5–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/05-liverpool-middlesbrough-1996-12-14.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "05-liverpool-middlesbrough-1996-12-14.md",
+          "libraryFileId": "libfile_bcaef6af7c2881919f241dbd56506bba",
+          "modifiedAt": "2026-09-27T12:05:29.786571Z",
+          "sha256": "89e715bb779c495051feea2d6eafc15ee757e48005be33b66f40f0124a6327b6"
+        },
+        "sourceBodySha256": "89e715bb779c495051feea2d6eafc15ee757e48005be33b66f40f0124a6327b6",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/05-liverpool-middlesbrough-1996-12-14.md.txt",
+        "articleBodySha256": "89e715bb779c495051feea2d6eafc15ee757e48005be33b66f40f0124a6327b6",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      },
+      "event": "Fowler reaches 100 with four against Middlesbrough"
+    },
+    {
+      "id": "match-1997-01-26-undefined",
+      "historicalEventDate": "1997-01-26",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/chelsea-liverpool-1997-01-26.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/06-chelsea-liverpool-1997-01-26.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Chelsea 4–2 Liverpool",
+        "opposition": "Chelsea",
+        "score": "4–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/06-chelsea-liverpool-1997-01-26.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "06-chelsea-liverpool-1997-01-26.md",
+          "libraryFileId": "libfile_e354c7cf1430819193700250fa68bceb",
+          "modifiedAt": "2026-09-27T12:05:29.729099Z",
+          "sha256": "fcfaa1963bbec6cb0f91e88ed7ce7395ef48ebfbd5098ab9a8059367107fcff5"
+        },
+        "sourceBodySha256": "fcfaa1963bbec6cb0f91e88ed7ce7395ef48ebfbd5098ab9a8059367107fcff5",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/06-chelsea-liverpool-1997-01-26.md.txt",
+        "articleBodySha256": "fcfaa1963bbec6cb0f91e88ed7ce7395ef48ebfbd5098ab9a8059367107fcff5",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      },
+      "event": "Liverpool’s two-goal lead disappears at Stamford Bridge"
+    },
+    {
+      "id": "match-1997-03-10-undefined",
+      "historicalEventDate": "1997-03-10",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/liverpool-newcastle-1997-03-10.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/07-liverpool-newcastle-1997-03-10.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–3 Newcastle United",
+        "opposition": "Newcastle United",
+        "score": "4–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/07-liverpool-newcastle-1997-03-10.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "07-liverpool-newcastle-1997-03-10.md",
+          "libraryFileId": "libfile_2c793ab88298819187c911da279f9cca",
+          "modifiedAt": "2026-09-27T12:05:29.822203Z",
+          "sha256": "f311e0ce62f5b54e844012d8c2c85690705ddeeb3763e6b74ec77f9b932175a5"
+        },
+        "sourceBodySha256": "f311e0ce62f5b54e844012d8c2c85690705ddeeb3763e6b74ec77f9b932175a5",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/07-liverpool-newcastle-1997-03-10.md.txt",
+        "articleBodySha256": "f311e0ce62f5b54e844012d8c2c85690705ddeeb3763e6b74ec77f9b932175a5",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      },
+      "event": "Fowler wins another 4–3 after Liverpool lose a three-goal lead"
+    },
+    {
+      "id": "match-1997-03-20-undefined",
+      "historicalEventDate": "1997-03-20",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/liverpool-brann-1997-03-20.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/08-liverpool-brann-1997-03-20.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–0 Brann",
+        "opposition": "Brann",
+        "score": "3–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/08-liverpool-brann-1997-03-20.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "08-liverpool-brann-1997-03-20.md",
+          "libraryFileId": "libfile_0a1688d8bb8c8191a6fba7c5b31fb3b5",
+          "modifiedAt": "2026-09-27T12:05:29.732123Z",
+          "sha256": "1dc9e9537dc9ddb92f7420869b83b80bee34907bfb6bc25e979f8e0735d69185"
+        },
+        "sourceBodySha256": "1dc9e9537dc9ddb92f7420869b83b80bee34907bfb6bc25e979f8e0735d69185",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/08-liverpool-brann-1997-03-20.md.txt",
+        "articleBodySha256": "1dc9e9537dc9ddb92f7420869b83b80bee34907bfb6bc25e979f8e0735d69185",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Brann; identity retained as a label, no ID invented."
+        ]
+      },
+      "event": "Fowler’s goals and dockers message as Liverpool reach the last four"
+    },
+    {
+      "id": "match-1997-03-24-undefined",
+      "historicalEventDate": "1997-03-24",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/arsenal-liverpool-1997-03-24.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/09-arsenal-liverpool-1997-03-24.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Arsenal 1–2 Liverpool",
+        "opposition": "Arsenal",
+        "score": "1–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/09-arsenal-liverpool-1997-03-24.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "09-arsenal-liverpool-1997-03-24.md",
+          "libraryFileId": "libfile_f308c4b663d8819186f98e0dbf66db6c",
+          "modifiedAt": "2026-09-27T12:05:29.793166Z",
+          "sha256": "5badb4589b48dbf0e4be593c843c3e7f6ab9d5c04a596f2e9dc5c2b9bb3cf973"
+        },
+        "sourceBodySha256": "5badb4589b48dbf0e4be593c843c3e7f6ab9d5c04a596f2e9dc5c2b9bb3cf973",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/09-arsenal-liverpool-1997-03-24.md.txt",
+        "articleBodySha256": "5badb4589b48dbf0e4be593c843c3e7f6ab9d5c04a596f2e9dc5c2b9bb3cf973",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      },
+      "event": "The penalty Fowler tried to refuse at Highbury"
+    },
+    {
+      "id": "match-1997-04-19-undefined",
+      "historicalEventDate": "1997-04-19",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/liverpool-manchester-united-1997-04-19.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/10-liverpool-manchester-united-1997-04-19.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–3 Manchester United",
+        "opposition": "Manchester United",
+        "score": "1–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/10-liverpool-manchester-united-1997-04-19.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "10-liverpool-manchester-united-1997-04-19.md",
+          "libraryFileId": "libfile_d979d8abb48481918eac42ee26778393",
+          "modifiedAt": "2026-09-27T12:05:29.792806Z",
+          "sha256": "5de748043987ae3bcbdf6bab4079a82bbafdffbc084cd68d607c4068ab3aa117"
+        },
+        "sourceBodySha256": "5de748043987ae3bcbdf6bab4079a82bbafdffbc084cd68d607c4068ab3aa117",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/10-liverpool-manchester-united-1997-04-19.md.txt",
+        "articleBodySha256": "5de748043987ae3bcbdf6bab4079a82bbafdffbc084cd68d607c4068ab3aa117",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      },
+      "event": "Pallister’s headers turn the title race against Liverpool"
+    },
+    {
+      "id": "match-1997-04-24-undefined",
+      "historicalEventDate": "1997-04-24",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/liverpool-paris-saint-germain-1997-04-24.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/11-liverpool-paris-saint-germain-1997-04-24.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–0 Paris Saint-Germain",
+        "opposition": "Paris Saint-Germain",
+        "score": "2–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/11-liverpool-paris-saint-germain-1997-04-24.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "11-liverpool-paris-saint-germain-1997-04-24.md",
+          "libraryFileId": "libfile_73d9d9c93e5c8191a7be5abb522874bc",
+          "modifiedAt": "2026-09-27T12:05:29.820482Z",
+          "sha256": "bcd6067d612975baefe4f4d6d8dc17c060ad314265139ad6cd0ef4526743bf5c"
+        },
+        "sourceBodySha256": "bcd6067d612975baefe4f4d6d8dc17c060ad314265139ad6cd0ef4526743bf5c",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/11-liverpool-paris-saint-germain-1997-04-24.md.txt",
+        "articleBodySha256": "bcd6067d612975baefe4f4d6d8dc17c060ad314265139ad6cd0ef4526743bf5c",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Paris Saint-Germain; identity retained as a label, no ID invented."
+        ]
+      },
+      "event": "Liverpool come one goal short against Paris Saint-Germain"
+    },
+    {
+      "id": "match-1997-05-06-undefined",
+      "historicalEventDate": "1997-05-06",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1996-97/wimbledon-liverpool-1997-05-06.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1996-97/12-wimbledon-liverpool-1997-05-06.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Wimbledon 2–1 Liverpool",
+        "opposition": "Wimbledon",
+        "score": "2–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/EDITOR-NOTES-1996-97.md",
+          "docs/editorial/drafts/match-recovery/originals/1996-97/12-wimbledon-liverpool-1997-05-06.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "12-wimbledon-liverpool-1997-05-06.md",
+          "libraryFileId": "libfile_55f4c64e2a5c8191a75ac5dd763eedb3",
+          "modifiedAt": "2026-09-27T12:05:29.789089Z",
+          "sha256": "731246813f9a77faa433a1342365b138ada0a560e67e668cfbf2d6d10238ae00"
+        },
+        "sourceBodySha256": "731246813f9a77faa433a1342365b138ada0a560e67e668cfbf2d6d10238ae00",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/12-wimbledon-liverpool-1997-05-06.md.txt",
+        "articleBodySha256": "731246813f9a77faa433a1342365b138ada0a560e67e668cfbf2d6d10238ae00",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      },
+      "event": "Michael Owen scores on debut as Liverpool lose at Wimbledon"
     }
   ]
 }

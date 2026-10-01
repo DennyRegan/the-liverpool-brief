@@ -1,0 +1,49 @@
+---
+title: Fowler reaches 100 with four against Middlesbrough
+slug: liverpool-middlesbrough-1996-12-14
+historicalEventDate: '1996-12-14'
+season: 1996-97
+historicalPeriod: 1996-12-14 · Premier League · Anfield
+decade: 1990s
+excerpt: >-
+  Robbie Fowler began the afternoon with 98 Liverpool goals. He finished it with
+  102.
+category: match
+articleType: match
+managerIds:
+  - roy-evans
+competitionIds:
+  - premier-league
+oppositionIds:
+  - middlesbrough
+locationIds:
+  - anfield
+---
+# Fowler reaches 100 with four against Middlesbrough
+
+**Liverpool 5–1 Middlesbrough | 14 December 1996**  
+Premier League · Anfield · Season 1996-97
+
+Robbie Fowler began the afternoon with 98 Liverpool goals. He finished it with 102.
+
+Four goals against Middlesbrough carried him past his century in his 165th appearance. He was 21. The milestone was reached with the second goal, but the first arrived before the match was a minute old.
+
+Stan Collymore drove forward from the kick-off and saw his shot blocked. Fowler took the loose ball and beat Gary Walsh after 29 seconds.
+
+The partnership supplied the next goal too. Collymore struck a post and Fowler followed in to score. Having reached 100, he lifted his shirt to reveal a T-shirt celebrating the achievement.
+
+Collymore had returned to the starting side in place of the unwell Patrik Berger. Although Fowler would dominate the record of the match, his strike partner was involved throughout the first-half scoring. Walsh could only parry Collymore’s free-kick before Stig Inge Bjørnebye made it 3–0.
+
+Middlesbrough had little of the attacking success that had brought them a 3–3 draw with Liverpool on the opening day. They pulled a goal back after 75 minutes.
+
+Fowler responded by completing his hat-trick from Steve McManaman’s pass. He then scored a fourth, taking another opportunity supplied by Collymore.
+
+There was no need for the century to stand alone as a statistical achievement. The match showed how Fowler accumulated his goals: reacting first when shots were blocked or came back off the woodwork, then finishing the clearer opportunities his team-mates created.
+
+Liverpool won 5–1 and moved within a point of leaders Arsenal. Fowler had reached three figures and immediately begun adding to them.
+
+## Sources
+
+- **High confidence** — [LFChistory.net, match record](https://www.lfchistory.net/games/2092). Score, timing, assists and the current attribution of Middlesbrough’s goal to Michael Thomas.
+- **High confidence** — [Press Association: “Fowler beats Rush record with 100th goal”, archived by LFChistory.net](https://www.lfchistory.net/articles/1219). Contemporary account of Fowler’s milestone and Collymore’s involvement; goal-attribution disagreement is recorded in the separate editor notes.
+- **High confidence** — [Steve Hunter, Liverpool FC: “Most Exciting PL Games: 64”](https://www.liverpoolfc.com/news/first-team/120389-most-exciting-pl-games-64). Independent confirmation of 100 goals in 165 appearances and Thomas’s own goal.

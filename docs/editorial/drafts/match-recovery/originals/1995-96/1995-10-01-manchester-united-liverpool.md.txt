@@ -1,0 +1,38 @@
+---
+title: "Fowler's double on Cantona's return"
+slug: "1995-10-01-manchester-united-liverpool"
+historicalEventDate: "1995-10-01"
+historicalPeriod: "1 October 1995"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Eric Cantona returned from an eight-month suspension and helped Manchester United score inside two minutes."
+playerIds: ["robbie-fowler", "michael-thomas"]
+managerIds: ["roy-evans"]
+competitionIds: ["premier-league"]
+oppositionIds: ["manchester-united"]
+locationIds: ["old-trafford"]
+---
+
+Eric Cantona returned from an eight-month suspension and helped Manchester United score inside two minutes. Liverpool recovered to lead through two Robbie Fowler goals, only for Cantona's penalty to secure a draw.
+
+Cantona helped create the opening goal with a run into space. Andy Cole found him on the left, his cross reached Nicky Butt, and United were ahead.
+
+Liverpool's response took time to develop. Once their passing began to settle, they pushed United back. Fowler threatened to escape Steve Bruce and had a penalty appeal rejected before producing an equaliser from the left side of the attack. Rather than cross, he drove the ball inside Peter Schmeichel's near post.
+
+His second goal required a different finish. Early in the second half, Michael Thomas sent him through against Gary Neville. Fowler held off the defender and lifted the ball over Schmeichel as the goalkeeper advanced.
+
+Liverpool had turned an early deficit into a 2–1 lead. Fowler, starting alongside Ian Rush, had scored twice against United a week after putting four past Bolton.
+
+Thomas's loss of possession later gave United their opportunity to recover. Cantona released Ryan Giggs, Jamie Redknapp challenged him in the penalty area, and David Elleray pointed to the spot. Cantona converted with around 20 minutes remaining.
+
+Roy Evans disputed the decision afterwards and believed Liverpool should have had a penalty of their own. The draw left Liverpool fourth, one point behind United in third.
+
+## Sources
+
+- [LFChistory — match record and contemporary league table](https://www.lfchistory.net/games/2026).
+- [Press Association — contemporary match report, preserved by LFChistory](https://www.lfchistory.net/articles/756).
+- [The Independent — contemporary match report](https://www.the-independent.com/sport/football-cantona-refuses-to-be-upstaged-1575653.html).
+- [11v11 — independent match record](https://www.11v11.com/matches/manchester-united-v-liverpool-01-october-1995-22251/).

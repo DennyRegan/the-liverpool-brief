@@ -1,0 +1,41 @@
+---
+title: "Fowler's hat-trick, Collymore's three assists"
+slug: "1995-12-23-liverpool-arsenal"
+historicalEventDate: "1995-12-23"
+historicalPeriod: "23 December 1995"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Robbie Fowler scored all three Liverpool goals."
+playerIds: ["robbie-fowler", "stan-collymore"]
+managerIds: ["roy-evans"]
+competitionIds: ["premier-league"]
+oppositionIds: ["arsenal"]
+locationIds: ["anfield"]
+---
+
+Robbie Fowler scored all three Liverpool goals. Stan Collymore supplied every one of them. Six days after beating Manchester United at Anfield, Liverpool came from behind to beat Arsenal and move up to third.
+
+Arsenal arrived without suspended centre-backs Tony Adams and Steve Bould. Yet they took an early lead when Mark Wright brought down Ian Wright, who converted the penalty.
+
+David Seaman initially kept Liverpool out. He saved from Collymore and Michael Thomas as the home side pressed for an equaliser, with Steve McManaman carrying the attack through midfield.
+
+The breakthrough came five minutes before half-time. McManaman found Collymore, who passed to Fowler for a curling finish. Before that, Paul Merson had wasted an opportunity to extend Arsenal's lead, shooting over with only David James to beat.
+
+Liverpool kept attacking after the interval, with Jason McAteer advancing down the right. Collymore helped create the second with a flick-on. Fowler ran through and scored in the 59th minute, putting Liverpool ahead for the first time.
+
+His third arrived in the 78th. Collymore crossed and Fowler headed towards goal. Seaman could not hold the ball, which went over the line to complete the hat-trick.
+
+Fowler had now scored five goals in two home games against United and Arsenal. The latter had conceded a hat-trick to him at Anfield for the second successive season.
+
+The teams had begun level on points. Liverpool ended the afternoon three clear of Arsenal, with a second home victory in six days.
+
+## Sources
+
+- [LFChistory — match record and assist record](https://www.lfchistory.net/games/2042).
+- [Press Association — contemporary match report, preserved by LFChistory](https://www.lfchistory.net/articles/776).
+- [The Independent — contemporary match report](https://www.the-independent.com/sport/fowler-does-trick-for-liverpool-1527298.html).
+- [11v11 — independent match record](https://www.11v11.com/matches/liverpool-v-arsenal-23-december-1995-22353/).
+- [LFChistory — Manchester United match six days earlier](https://www.lfchistory.net/games/2041).

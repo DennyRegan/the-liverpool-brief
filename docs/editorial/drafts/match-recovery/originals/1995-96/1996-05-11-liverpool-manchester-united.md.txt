@@ -1,0 +1,33 @@
+---
+title: "Cantona's late goal ends Liverpool's FA Cup challenge"
+slug: "1996-05-11-liverpool-manchester-united"
+historicalEventDate: "1996-05-11"
+historicalPeriod: "11 May 1996"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Eric Cantona scored the only goal as Liverpool lost the FA Cup final to Manchester United at Wembley on 11 May 1996."
+playerIds: ["ian-rush", "david-james", "steve-mcmanaman"]
+managerIds: ["roy-evans"]
+competitionIds: ["fa-cup"]
+oppositionIds: ["manchester-united"]
+locationIds: ["wembley"]
+---
+
+Eric Cantona scored the only goal as Liverpool lost the FA Cup final to Manchester United at Wembley on 11 May 1996. The late strike settled a match which had remained goalless at half-time and completed United's second league and FA Cup double in three seasons.
+
+Liverpool struggled to find space against a crowded midfield. Roy Keane and Nicky Butt held deep positions, with David Beckham and Ryan Giggs moving infield to restrict Steve McManaman. United's approach reduced the room available to a player Liverpool relied on to carry the ball forward.
+
+United created early openings for Andy Cole, and David James saved from Beckham. Liverpool's clearest first-half opportunity fell to Jamie Redknapp, who shot over after Mark Wright laid back McManaman's cross. The interval arrived with neither side ahead.
+
+James denied Cantona early in the second half. Liverpool then changed their attack, Ian Rush replacing Stan Collymore in the 74th minute. United had already brought Paul Scholes on for Cole. Those substitutions did not break the deadlock, and the match was approaching extra time when Cantona struck.
+
+James punched away a Beckham corner, but the clearance reached Cantona outside the penalty area. His shot beat the goalkeeper and gave United the lead in the closing minutes. Liverpool could not respond before the final whistle.
+
+## Sources
+
+- [LFChistory: match record](https://lfchistory.net/games/2068)
+- [The Sunday Times: “Double delight for United”, archived by LFChistory](https://www.lfchistory.net/articles/810)
+- [Manchester United: history, 1990–1999](https://www.manutd.com/en/club/history/history-by-decade/1990-1999)

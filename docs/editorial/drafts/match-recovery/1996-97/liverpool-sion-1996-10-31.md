@@ -1,0 +1,49 @@
+---
+title: Six goals against Sion after Liverpool twice face elimination
+slug: liverpool-sion-1996-10-31
+historicalEventDate: '1996-10-31'
+season: 1996-97
+historicalPeriod: '1996-10-31 · European Cup Winners’ Cup, second round, second leg · Anfield'
+decade: 1990s
+excerpt: >-
+  With less than half an hour remaining, Liverpool were going out of Europe.
+  They finished the night having scored six.
+category: match
+articleType: match
+managerIds:
+  - roy-evans
+competitionIds:
+  - european-cup-winners-cup
+locationIds:
+  - anfield
+---
+# Six goals against Sion after Liverpool twice face elimination
+
+**Liverpool 6–3 Sion | 31 October 1996**  
+European Cup Winners’ Cup, second round, second leg · Anfield · Season 1996-97
+
+With less than half an hour remaining, Liverpool were going out of Europe. They finished the night having scored six.
+
+The final margin concealed how difficult Sion had made this second leg. Liverpool brought a 2–1 lead back from Switzerland, only to concede twice inside the opening quarter of the match. Frédéric Chassot finished Christophe Bonvin’s cross, then Bonvin struck from outside the area.
+
+Steve McManaman began the recovery with a shot into the corner. Liverpool were still behind at half-time, but Stig Inge Bjørnebye’s free-kick levelled the score on the night and restored their aggregate advantage.
+
+That should have been enough to establish some control. Instead, Chassot escaped Dominic Matteo and rounded David James to put Sion 3–2 ahead.
+
+The aggregate score was now 4–4. Sion’s three away goals outweighed Liverpool’s two. Another European exit was a real possibility.
+
+Liverpool answered with three goals in six minutes.
+
+John Barnes immediately brought them back to 3–3, turning Patrik Berger’s delivery into the net with a backheel. McManaman then created two goals for Robbie Fowler in successive minutes, the first after intercepting a poor backpass. From a position of danger, Liverpool suddenly led 5–3.
+
+Berger added the sixth near the end after a touch from Barnes. Liverpool were through to the quarter-finals, 8–4 on aggregate.
+
+McManaman had scored the goal that started the first recovery and supplied the passes that completed the second. Fowler had turned the tie decisively with his two finishes. Yet neither contribution erased what had happened at the other end.
+
+Liverpool’s attacking response had carried them into the last eight. Having twice been on course for elimination, they had needed far more of it than the first-leg result suggested.
+
+## Sources
+
+- **High confidence** — [LFChistory.net, match record](https://lfchistory.net/games/2083). Goals, first-leg score, aggregate and competition.
+- **High confidence** — [Ken Gaunt, Press Association: “Reds ease through to next round”, archived by LFChistory.net](https://lfchistory.net/articles/2661). Contemporary descriptions of the goals and turning points.
+- **High confidence** — [Guy Hodgson, The Independent, 1 November 1996: “Fowler caps Liverpool’s night of adventure”](https://www.independent.co.uk/sport/fowler-caps-liverpool-s-night-of-adventure-1350219.html). Independent contemporary cross-check of the result and aggregate.

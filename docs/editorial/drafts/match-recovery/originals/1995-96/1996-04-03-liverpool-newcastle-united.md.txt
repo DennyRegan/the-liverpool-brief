@@ -1,0 +1,37 @@
+---
+title: "Collymore settles seven-goal Anfield contest in stoppage time"
+slug: "1996-04-03-liverpool-newcastle-united"
+historicalEventDate: "1996-04-03"
+historicalPeriod: "3 April 1996"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Stan Collymore's stoppage-time goal gave Liverpool a 4–3 victory over Newcastle United at Anfield on 3 April 1996, ending a match in which Liverpool twice recovered after falling behind."
+playerIds: ["stan-collymore", "robbie-fowler", "steve-mcmanaman", "john-barnes"]
+managerIds: ["roy-evans"]
+competitionIds: ["premier-league"]
+oppositionIds: ["newcastle-united"]
+locationIds: ["anfield"]
+---
+
+Stan Collymore's stoppage-time goal gave Liverpool a 4–3 victory over Newcastle United at Anfield on 3 April 1996, ending a match in which Liverpool twice recovered after falling behind. Robbie Fowler and Collymore scored two apiece to keep Roy Evans' side in the Premier League title race.
+
+Liverpool struck in the second minute. Collymore turned and crossed for Fowler, whose header put the hosts ahead. Newcastle's response came through two goals in four minutes: Les Ferdinand equalised in the tenth after Faustino Asprilla's run and pull-back, then supplied David Ginola for the finish which made it 2–1.
+
+Newcastle carried that lead into the interval. Liverpool replaced Mark Wright with Steve Harkness at half-time, but the visitors soon threatened to extend their advantage. Rob Lee broke through and David James saved, keeping Liverpool within one goal. It was an important intervention in an evening when the goalkeeper also had costly moments.
+
+Fowler equalised in the 55th minute, meeting Steve McManaman's low delivery with a firm finish. Two minutes later Newcastle were ahead again. James came out of his goal and Asprilla clipped the ball past him for 3–2, restoring the visitors' advantage before Liverpool could build on their recovery.
+
+Collymore brought the scores level with a little over 20 minutes remaining, reaching Jason McAteer's low cross at the far post. The sixth goal still left both sides time to win. James blocked Ferdinand, while Pavel Srnicek kept out John Barnes at the other end.
+
+Evans introduced Ian Rush for Rob Jones in the closing minutes, and the substitute helped make the decisive goal. Rush and Barnes combined near the penalty area before Barnes found Collymore in space on the left. His finish beat Srnicek in added time. Liverpool had led after two minutes and would finish in front, having spent much of the intervening match trying to recover.
+
+The result left Liverpool third on 62 points, five behind Manchester United with both having played 32 games. Newcastle were second on 64 from 31, still holding a game in hand on both rivals. The defeat was damaging for Kevin Keegan's team, but it did not decide the championship that night.
+
+## Sources
+
+- [LFChistory: match record and contemporary league table](https://lfchistory.net/games/2061)
+- [Press Association: “Colly gets Liverpool back in title race”, archived by LFChistory](https://www.lfchistory.net/articles/801)
+- [Liverpool FC, Steve Hunter: “Most Exciting PL Games: 2”](https://www.liverpoolfc.com/news/first-team/121298-most-exciting-pl-games-2)

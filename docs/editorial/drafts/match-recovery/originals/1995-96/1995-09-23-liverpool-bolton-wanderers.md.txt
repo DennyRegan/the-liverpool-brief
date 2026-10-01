@@ -1,0 +1,37 @@
+---
+title: "Fowler scores four against Bolton"
+slug: "1995-09-23-liverpool-bolton-wanderers"
+historicalEventDate: "1995-09-23"
+historicalPeriod: "23 September 1995"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Robbie Fowler scored Liverpool's first four goals against Bolton."
+playerIds: ["robbie-fowler", "steve-mcmanaman"]
+managerIds: ["roy-evans"]
+competitionIds: ["premier-league"]
+locationIds: ["anfield"]
+---
+
+Robbie Fowler scored Liverpool's first four goals against Bolton. He was 20, starting alongside Stan Collymore with Ian Rush on the bench, and had completed his hat-trick almost as soon as the second half began.
+
+Liverpool gave Fowler a steady supply of chances. Jamie Redknapp and Steve McManaman created from midfield, while Rob Jones and Steve Harkness supplied width in Liverpool's 3–5–2. Bolton struggled to contain an attack that kept finding routes to Keith Branagan's goal.
+
+Redknapp's through ball brought the opener after 11 minutes. Fowler ran on to it and finished low. His second came from a much longer delivery: David James's clearance carried him through as Bolton waited for an offside decision that never came.
+
+Liverpool led 2–0 at the interval. Within two minutes of the restart, the ball broke to Fowler from a Redknapp cross and he completed his treble. His fourth arrived in the 67th minute. Receiving McManaman's cross inside the area, he settled himself and curled the ball inside the post.
+
+Bolton briefly reduced the margin through Andy Todd and Mark Patterson's penalty. Harkness then made it 5–2, ending any prospect of a late recovery.
+
+Roy Evans welcomed the performance but was disappointed by the two goals Liverpool conceded. Liverpool had created chances through midfield, out wide and directly from their goalkeeper. Fowler had converted four of them without a penalty.
+
+The win left Liverpool third, with five victories from their first seven league games.
+
+## Sources
+
+- [LFChistory — match record and contemporary league table](https://www.lfchistory.net/games/2024).
+- [Press Association — contemporary match report, preserved by LFChistory](https://www.lfchistory.net/articles/755).
+- [The Independent — Dave Hadfield's contemporary report](https://www.the-independent.com/sport/football-fowler-limits-damage-1602890.html).
+- [11v11 — independent match record](https://www.11v11.com/matches/liverpool-v-bolton-wanderers-23-september-1995-22236/).
