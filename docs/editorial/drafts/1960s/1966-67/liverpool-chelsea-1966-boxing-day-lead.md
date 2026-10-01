@@ -20,7 +20,7 @@ Willie Stevenson’s long-range strike broke the deadlock as Liverpool beat Chel
 
 Liverpool had won by the same score at Stamford Bridge on Christmas Eve. Now, after their European Cup elimination by Ajax, four league points against another contender put the domestic challenge back at the centre of the season.
 
-The first half produced no goals, although Charlie Cooke struck the crossbar for Chelsea. Peter Bonetti repeatedly denied Liverpool, and a penalty appeal after Hunt went down was unsuccessful.
+Neither side scored before half-time. Before Liverpool eventually broke through, Charlie Cooke had struck the crossbar for Chelsea, Peter Bonetti had repeatedly denied Liverpool and a penalty appeal after Hunt went down had been unsuccessful.
 
 The breakthrough came midway through the second half. A Callaghan delivery was headed on by Geoff Strong and headed out by Marvin Hinton. Stevenson met the clearance from about thirty yards and drove it past Bonetti.
 

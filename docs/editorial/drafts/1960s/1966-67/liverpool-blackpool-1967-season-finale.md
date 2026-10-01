@@ -35,3 +35,4 @@ The defeat left Liverpool on 51 points, nine behind champions Manchester United.
 - [Liverpool FC: Gordon Milne career record](https://www.liverpoolfc.com/info/gordon-milne)
 - [LFChistory: season results](https://www.lfchistory.net/season-archive/games/8)
 - [RSSSF: final league table](https://www.rsssf.org/engpaul/FLA/1966-67.html)
+- [Liverpool FC: Hughes’s arrival from Blackpool](https://www.liverpoolfc.com/news/liverpools-greatest-no17-emlyn-hughes)
