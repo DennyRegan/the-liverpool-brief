@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
-
-const SITE_URL = "https://theliverpoolbrief.com";
+import { SITE_URL } from "@/lib/site";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,6 +19,7 @@ const sourceSerif = Source_Serif_4({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  verification: { google: "xn6fBN5IjgA8G7Lr2P4ULNvj25btuyc-S8MEF4P-CsY" },
   title: "The Liverpool Brief",
   description: "Independent Liverpool opinion and history by Denny Regan.",
 };

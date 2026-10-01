@@ -5,6 +5,7 @@ import { getArticleWeek, getHistoryEvents, getHistoryWindow } from "@/lib/conten
 
 export const metadata = {
   title: "This Week in Liverpool History | The Liverpool Brief",
+  alternates: { canonical: "/this-week" },
   description: "A fixed Monday-to-Sunday week of Liverpool history, with researched reports and articles from the History collection.",
 };
 // Resolve London's current calendar week on each visit, including Monday rollover.

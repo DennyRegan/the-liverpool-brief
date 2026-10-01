@@ -2,7 +2,7 @@ import { getBrief } from '@/lib/content/briefs';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { formatLastUpdated } from '@/lib/format';
 
-export const metadata = { title: "The Brief | The Liverpool Brief", description: "A concise Liverpool news briefing with source links." };
+export const metadata = { title: "The Brief | The Liverpool Brief", description: "A concise Liverpool news briefing with source links.", alternates: { canonical: "/brief" } };
 
 type Story = ReturnType<typeof getBrief>['stories'][number];
 
