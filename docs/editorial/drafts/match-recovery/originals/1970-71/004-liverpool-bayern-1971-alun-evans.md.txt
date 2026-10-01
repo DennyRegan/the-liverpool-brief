@@ -1,0 +1,62 @@
+---
+# Draft: publication date and editorialMode are set only after approval.
+title: "Liverpool 3–0 Bayern Munich: Alun Evans returns with a hat-trick"
+historicalEventDate: "1971-03-10"
+historicalPeriod: "10 March 1971 · Inter-Cities Fairs Cup quarter-final, first leg · Anfield"
+decade: "1970s"
+excerpt: "Alun Evans had been out for four months. In his first start back, he scored three times against Bayern Munich."
+slug: "liverpool-bayern-1971-alun-evans"
+category: "match"
+articleType: "match"
+season: "1970-71"
+playerIds: ["alun-evans"]
+managerIds: ["bill-shankly"]
+oppositionIds: ["bayern-munich"]
+competitionIds: ["inter-cities-fairs-cup"]
+locationIds: ["anfield"]
+sources: ["https://www.lfchistory.net/games/608", "https://www.lfchistory.net/articles/4306", "https://www.liverpoolfc.com/info/alun-evans", "https://www.liverpoolfc.com/news/features/414980-liverpool-s-20-european-hat-tricks", "https://www.liverpoolfc.com/news/first-team/212975-march-24-in-lfc-history-smicer-s-strike-fowler-honesty-and-more"]
+---
+
+# Liverpool 3–0 Bayern Munich: Alun Evans returns with a hat-trick
+
+Alun Evans had been out for four months. In his first start back, he scored three times against Bayern Munich.
+
+The 3–0 victory at Anfield on 10 March 1971 gave Liverpool a commanding advantage in their Inter-Cities Fairs Cup quarter-final. It also made Evans the club’s first player to score a hat-trick in European competition.
+
+This was a return from a substantial interruption. Injured against Dinamo Bucharest in November, Evans had undergone a cartilage operation. He reappeared as a substitute against Tottenham four days before Bayern’s visit. Bill Shankly then put him back in the starting side for a match against Sepp Maier, Franz Beckenbauer and Gerd Müller.
+
+Evans scored the first after half an hour. Steve Heighway supplied the assist, and the forward’s shot from inside the penalty area put Liverpool ahead. They reached the interval with that goal separating the teams.
+
+The second came soon after the restart. Evans reacted quickly at close range to hook the ball in, beating Maier to the opportunity. Liverpool now had a two-goal lead, and their returning striker had both.
+
+His third came with seventeen minutes left. Maier could only parry a shot, and Evans followed in to complete the hat-trick. Liverpool had turned a difficult European assignment into a three-goal advantage without conceding.
+
+The performance stood out in a career whose early promise had been considerable. Shankly had brought Evans from Wolverhampton Wanderers in September 1968, and he had scored on his debut. By the end of 1970–71 he would have fifteen goals in thirty-four appearances, his most productive Liverpool season.
+
+Recalling the Bayern night years later, Evans remembered the reception after the match as well as the football. He had arranged to meet his father in a pub near Anfield before travelling back to Kidderminster. Finding it packed with Liverpool supporters, he was quickly surrounded. The evening’s goals had followed him through the door.
+
+Liverpool completed the tie with a 1–1 draw in Munich a fortnight later, Ian Ross scoring their goal. The aggregate margin was 4–1. Evans’s return at Anfield had supplied almost all of it.
+
+## Sources
+
+- [LFChistory — first-leg match record](https://www.lfchistory.net/games/608)
+- [LFChistory — interview with Alun Evans](https://www.lfchistory.net/articles/4306)
+- [Liverpool FC — Alun Evans profile](https://www.liverpoolfc.com/info/alun-evans)
+- [Liverpool FC — European hat-tricks](https://www.liverpoolfc.com/news/features/414980-liverpool-s-20-european-hat-tricks)
+- [Liverpool FC — 24 March 1971 return leg](https://www.liverpoolfc.com/news/first-team/212975-march-24-in-lfc-history-smicer-s-strike-fowler-honesty-and-more)
+
+---
+
+## Editor notes — not for publication
+
+Status: awaiting approval; not published. Longlist 004.
+
+First-leg identity and hat-trick cross-checked with club histories. Goal mechanics and post-match anecdote come from the Evans interview, not footage. Serious error excluded: the interview’s later narration conflates Evans’s November 1971 goal at Bayern with the March return. March’s scorer was Ian Ross, independently confirmed by Liverpool FC; no claim is made that Evans scored in that return. The competition was the Inter-Cities Fairs Cup, not the UEFA Cup or European Cup. No transfer-fee record is needed for this piece; no direct quotations used.
+
+Source confidence: LFChistory — first-leg match record: high for date, line-ups, result and goal times; LFChistory — interview with Alun Evans: high for his attributed recollections; medium for surrounding retrospective narration; Liverpool FC — Alun Evans profile: high for arrival and season totals used; Liverpool FC — European hat-tricks: high for first European hat-trick; Liverpool FC — 24 March 1971 return leg: high for Ross and aggregate result.
+
+Publication: add the actual publication date as date, set editorialMode to factual after approval, remove this editor section and the duplicate H1, and retain all historical metadata. The draft is deliberately outside the site content collection.
+
+Anniversary: historicalEventDate selects this article in This Week Further reading during the matching Monday–Sunday week after publication. For a daily event card use archiveSlug: liverpool-bayern-1971-alun-evans. Date match does not itself create a daily event card.
+
+Registry additions needed before publication: bayern-munich. Check labels against the latest registry before adding.

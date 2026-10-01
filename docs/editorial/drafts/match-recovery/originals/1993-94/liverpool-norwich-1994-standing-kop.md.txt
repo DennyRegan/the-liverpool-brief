@@ -1,0 +1,40 @@
+---
+# Draft: publication date and editorialMode are set only after approval.
+title: "Liverpool 0–1 Norwich City: Norwich win as Anfield says goodbye to the standing Kop"
+historicalEventDate: "1994-04-30"
+historicalPeriod: "30 April 1994 · Premier League · Anfield"
+decade: "1990s"
+excerpt: "The last goal scored in front of the old standing Kop belonged to Norwich City. Jeremy Goss struck it in the 35th minute, giving the visitors a 1–0 win on an afternoon devoted to the terrace Liverpool were about to lose."
+slug: "liverpool-norwich-1994-standing-kop"
+category: "match"
+articleType: "match"
+season: "1993-94"
+sources:
+  - "https://www.lfchistory.net/games/1957"
+  - "https://www.lfchistory.net/images/newspapers/riley/199400430vnorwich.pdf"
+  - "https://www.liverpoolfc.com/news/features/394103-remembering-a-fond-farewell-to-the-standing-kop"
+  - "https://www.11v11.com/matches/liverpool-v-norwich-city-30-april-1994-21685/"
+---
+
+# Liverpool 0–1 Norwich City: Norwich win as Anfield says goodbye to the standing Kop
+
+The last goal scored in front of the old standing Kop belonged to Norwich City. Jeremy Goss struck it in the 35th minute, giving the visitors a 1–0 win on an afternoon devoted to the terrace Liverpool were about to lose.
+
+The Kop would be rebuilt as an all-seater stand following the Taylor Report. Before kick-off, former players returned to the pitch, with Billy Liddell, Albert Stubbins and Kenny Dalglish among those welcomed back. Joe Fagan appeared alongside Nessie Shankly and Jessie Paisley. Gerry Marsden led the singing of You’ll Never Walk Alone.
+
+The match did not provide the farewell Liverpool wanted. Norwich’s Efan Ekoku and Chris Sutton troubled the defence, and Steve Nicol struck his own crossbar while trying to deal with an Ekoku cross. David James had to intervene repeatedly.
+
+Goss eventually beat him after Liverpool headed out Ian Crook’s free-kick. From outside the penalty area, he drove the ball back through the defenders and into the Kop-end goal.
+
+Liverpool attacked towards the Kop after half-time but could not score. Ronnie Whelan volleyed over, and Bryan Gunn saved a deflected effort from Neil Ruddock. Norwich remained dangerous on the break and held their lead to the end.
+
+Roy Evans acknowledged afterwards that the players had disappointed a crowd whose contribution he praised. Liverpool’s final home match of the season had produced another defeat, witnessed by 44,339 spectators.
+
+Supporters remained long after the whistle, continuing to sing and wave their flags. There had been no Liverpool goal for the terrace’s last afternoon. Its farewell continued without one.
+
+## Sources
+
+- [LFChistory: match record, Liverpool 0–1 Norwich City](https://www.lfchistory.net/games/1957).
+- [Contemporary reports from British Soccer Week, The Sunday Times and The Observer, compiled by Graeme Riley](https://www.lfchistory.net/images/newspapers/riley/199400430vnorwich.pdf).
+- [Liverpool FC: “Remembering a fond farewell to the standing Kop”, 30 April 2020](https://www.liverpoolfc.com/news/features/394103-remembering-a-fond-farewell-to-the-standing-kop).
+- [11v11: Liverpool v Norwich City, match record and terrace context](https://www.11v11.com/matches/liverpool-v-norwich-city-30-april-1994-21685/).

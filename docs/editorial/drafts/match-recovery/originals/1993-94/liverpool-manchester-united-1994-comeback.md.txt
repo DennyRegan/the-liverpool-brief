@@ -1,0 +1,42 @@
+---
+# Draft: publication date and editorialMode are set only after approval.
+title: "Liverpool 3–3 Manchester United: Clough and Ruddock bring Liverpool back from three down"
+historicalEventDate: "1994-01-04"
+historicalPeriod: "04 January 1994 · Premier League · Anfield"
+decade: "1990s"
+excerpt: "Manchester United led 3–0 at Anfield after 23 minutes. Liverpool were level before the night was out."
+slug: "liverpool-manchester-united-1994-comeback"
+category: "match"
+articleType: "match"
+season: "1993-94"
+sources:
+  - "https://www.lfchistory.net/games/1938"
+  - "https://www.lfchistory.net/images/newspapers/riley/19940104vmanutd.pdf"
+  - "https://www.liverpoolfc.com/news/first-team/121212-most-exciting-pl-games-8"
+---
+
+# Liverpool 3–3 Manchester United: Clough and Ruddock bring Liverpool back from three down
+
+Manchester United led 3–0 at Anfield after 23 minutes. Liverpool were level before the night was out.
+
+Two goals from Nigel Clough made the recovery possible. Neil Ruddock completed it with a header in the 79th minute, rescuing a point from a match that had threatened to become an overwhelming defeat.
+
+United’s early lead was built with three different finishes. Steve Bruce headed in Eric Cantona’s cross after a corner had been only partly cleared. Ryan Giggs lifted the second over Bruce Grobbelaar, and Denis Irwin struck a free-kick into the top corner for the third.
+
+Liverpool had been opened up repeatedly. Their response began almost immediately, when a loose ball reached Clough outside the penalty area. His low shot beat Peter Schmeichel and reduced the deficit to 3–1.
+
+Clough scored again seven minutes before half-time. Mark Wright brought the ball forward and, when his attempted pass broke into Clough’s path, the midfielder finished inside the penalty area. Liverpool went in only one goal behind.
+
+The second half required more than sustained pressure. United still threatened on the break, with Grobbelaar saving from Giggs. Schmeichel, in turn, kept out a curling effort from Jamie Redknapp. Both goalkeepers prevented the next goal from settling the match in a different direction.
+
+Graeme Souness introduced Stig Inge Bjørnebye for Steve McManaman with the game entering its final stages. The substitute provided the decisive delivery, crossing from the right for Ruddock to head past Schmeichel.
+
+Clough and Ruddock had scored all three Liverpool goals. United had to accept a draw despite the commanding position they had established so early.
+
+United remained league leaders. At Anfield, however, Liverpool had recovered from three goals down against the reigning champions and denied them a victory that had seemed secure.
+
+## Sources
+
+- [LFChistory: match record, Liverpool 3–3 Manchester United](https://www.lfchistory.net/games/1938).
+- [Contemporary reports from The Times, The Guardian and British Soccer Week, compiled by Graeme Riley](https://www.lfchistory.net/images/newspapers/riley/19940104vmanutd.pdf).
+- [Liverpool FC: “Most Exciting PL Games: 8”, 21 June 2012](https://www.liverpoolfc.com/news/first-team/121212-most-exciting-pl-games-8).

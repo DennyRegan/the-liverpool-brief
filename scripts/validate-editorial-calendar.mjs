@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import matter from 'gray-matter';
 import { z } from 'zod';
 import { getHistoryEvents } from '../lib/content/this-week.ts';
@@ -12,6 +13,16 @@ import { getHistory, getArticleEraIds } from '../lib/content/history.ts';
 
 export const calendarPath = 'docs/editorial/history-calendar.json';
 const text = z.string().min(1);
+const matchRecoverySchema = z.object({
+  completed: z.boolean(), reviewRequired: z.boolean(), matchLabel: text,
+  opposition: text, score: z.string().regex(/^\d+–\d+$/).nullable(),
+  sourceFiles: z.array(text).min(1), sourceManuscript: z.object({
+    name: text, libraryFileId: text, modifiedAt: text, sha256: z.string().regex(/^[a-f0-9]{64}$/),
+    archiveMember: text.optional(),
+  }).strict(),
+  sourceBodySha256: text, preservedSourcePath: text, articleBodySha256: text,
+  duplicateResolution: text, blockers: z.array(text), pipelinePredecessor: text.optional(),
+}).strict();
 const entrySchema = z.object({
   id: text, event: text, historicalEventDate: z.iso.date(), featuredWeek: z.iso.date(),
   selection: z.enum(['selected', 'provisional', 'alternative']),
@@ -24,6 +35,7 @@ const entrySchema = z.object({
   notes: text,
   evidence: z.array(z.object({ location: text, confidence: z.enum(['high', 'medium', 'low', 'unverified']), scope: text }).strict()).min(1),
   researchStatus: z.enum(['not_rechecked', 'needs_research', 'verified']),
+  matchRecovery: matchRecoverySchema.optional(),
   migration: z.object({
     personId: text, completed: z.boolean(), reviewRequired: z.boolean(),
     sourceFiles: z.array(text), sourceManuscript: z.object({
@@ -35,6 +47,8 @@ const entrySchema = z.object({
 // Career inventory shares this file and workflow, without an invented anniversary or schedule.
 const biographySchema = entrySchema.omit({ historicalEventDate: true, featuredWeek: true })
   .extend({ personId: text });
+// An editorial stock item has an actual match date, but no invented anniversary week.
+const matchSchema = entrySchema.omit({ featuredWeek: true }).extend({ matchRecovery: matchRecoverySchema });
 
 export function validateCalendar(calendar, root = process.cwd()) {
   assert.equal(calendar.version, 1);
@@ -42,6 +56,10 @@ export function validateCalendar(calendar, root = process.cwd()) {
   assert.equal(calendar.canonicalLocation, `https://github.com/DennyRegan/the-liverpool-brief/blob/main/${calendarPath}`);
   const entries = z.array(entrySchema).min(1).parse(calendar.entries);
   const biographies = z.array(biographySchema).parse(calendar.biographies ?? []);
+  const matches = z.array(matchSchema).parse(calendar.matches ?? []);
+  z.array(z.object({ id: text, season: z.string().regex(/^\d{4}-\d{2}$/),
+    status: z.literal('NOT LOCATED'), articlePath: z.null(), notes: text, evidence: z.array(text).min(1),
+  }).strict()).parse(calendar.matchRecoveryGaps ?? []);
   const ids = new Set(), dates = new Set(), drafts = new Set(), biographyPeople = new Set();
   const articles = new Map(getArchiveFeatures(root).map(a => [`/archive/${a.slug}`, a]));
   const entities = new Map(getHistoryEntities(root).map(entity => [entity.id, entity.kind]));
@@ -51,7 +69,8 @@ export function validateCalendar(calendar, root = process.cwd()) {
     assert.ok(relative.startsWith(prefix) && !relative.split('/').includes('..'), `Unsafe path: ${relative}`);
     return matter(fs.readFileSync(path.join(root, relative), 'utf8')).data;
   };
-  for (const e of [...entries, ...biographies]) {
+  const recoveredMatches = new Set();
+  for (const e of [...entries, ...biographies, ...matches]) {
     assert.ok(!ids.has(e.id), `Duplicate row ${e.id}`); ids.add(e.id);
     if (e.personId) assert.equal(entities.get(e.personId), 'person', `${e.id}: unknown biography person`);
     if (e.migration) {
@@ -68,13 +87,40 @@ export function validateCalendar(calendar, root = process.cwd()) {
       assert.ok(!biographyPeople.has(personId), `${e.id}: duplicate biography subject`);
       biographyPeople.add(personId);
     }
-    if (e.historicalEventDate) {
+    if (e.featuredWeek) {
     const identity = `${e.featuredWeek}:${e.historicalEventDate}:${e.event}`;
     assert.ok(!dates.has(identity), `Duplicate event ${identity}`); dates.add(identity);
     const monday = new Date(`${e.featuredWeek}T12:00:00Z`);
     assert.equal(monday.getUTCDay(), 1, `${e.id}: featuredWeek must be Monday`);
     const weekDates = Array.from({ length: 7 }, (_, i) => new Date(+monday + i * 86400000).toISOString().slice(5, 10));
     assert.ok(weekDates.includes(e.historicalEventDate.slice(5)), `${e.id}: anniversary outside featured week`);
+    }
+    if (e.matchRecovery) {
+      assert.ok(!recoveredMatches.has(e.historicalEventDate), `${e.id}: duplicate recovered match`);
+      recoveredMatches.add(e.historicalEventDate);
+      const m = e.matchRecovery;
+      for (const file of m.sourceFiles) {
+        assert.ok(file.startsWith('docs/editorial/drafts/') && !file.split('/').includes('..'), `${e.id}: unsafe source path`);
+        assert.ok(fs.existsSync(path.join(root, file)), `${e.id}: missing source ${file}`);
+      }
+      assert.ok(m.sourceFiles.includes(m.preservedSourcePath), `${e.id}: preserved source missing from evidence`);
+      const source = fs.readFileSync(path.join(root, m.preservedSourcePath), 'utf8');
+      assert.equal(createHash('sha256').update(source).digest('hex'), m.sourceManuscript.sha256, `${e.id}: recovered original changed`);
+      assert.equal(createHash('sha256').update(matter(source).content).digest('hex'), m.sourceBodySha256, `${e.id}: original body changed`);
+      const articlePath = e.publishedDestination ? `content/archive/liverpool/${e.publishedDestination.split('/').at(-1)}.md` : e.draftPath;
+      assert.ok(articlePath, `${e.id}: recovered completed match needs an article path`);
+      const article = matter(fs.readFileSync(path.join(root, articlePath), 'utf8'));
+      assert.equal(article.data.articleType, 'match', `${e.id}: recovered content must be a match report`);
+      assert.equal(article.data.historicalEventDate, e.historicalEventDate, `${e.id}: match date mismatch`);
+      const year = Number(e.historicalEventDate.slice(0, 4)) - (Number(e.historicalEventDate.slice(5, 7)) < 7 ? 1 : 0);
+      assert.equal(article.data.season, `${year}-${String((year + 1) % 100).padStart(2, '0')}`, `${e.id}: match outside principal season`);
+      if (e.status !== 'published') {
+        assert.ok(!Object.hasOwn(article.data, 'date'), `${e.id}: recovered draft has publication date`);
+        assert.ok(!articles.has(`/archive/${article.data.slug}`), `${e.id}: recovered unpublished slug is public`);
+        assert.equal(m.reviewRequired, true, `${e.id}: unreviewed recovery requires review`);
+      }
+      if (e.status === 'approved') assert.equal(m.blockers.length, 0, `${e.id}: unresolved match approval blockers`);
+      if (m.pipelinePredecessor) assert.ok(fs.existsSync(path.join(root, m.pipelinePredecessor)), `${e.id}: pipeline predecessor missing`);
     }
     if (e.eventPath) {
       const event = events.get(e.eventPath);

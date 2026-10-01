@@ -146,7 +146,28 @@
       "publishedDestination": "/archive/liverpool-stromsgodset-record-win-1974",
       "researchStatus": "not_rechecked",
       "selection": "selected",
-      "status": "published"
+      "status": "published",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Nine scorers as Liverpool put eleven past Strømsgodset",
+        "opposition": "Strømsgodset",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1974-75/liverpool-stromsgodset-record-win-1974.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-stromsgodset-record-win-1974.md",
+          "libraryFileId": "libfile_016e9c1f785c8191becce05729f25b22",
+          "modifiedAt": "2026-09-14T17:29:43.075172Z",
+          "sha256": "81c408ef374ce8de8b8c1be401cde05e4eafd0d3c8ca8716998ef61ccf082b69"
+        },
+        "sourceBodySha256": "1a8789cf8dcceaa081336c9a84bc7dd6237363899ad1bf458a69e8cf1da7f81d",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1974-75/liverpool-stromsgodset-record-win-1974.md.txt",
+        "articleBodySha256": "1a8789cf8dcceaa081336c9a84bc7dd6237363899ad1bf458a69e8cf1da7f81d",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "approval": {
@@ -174,7 +195,28 @@
       "publishedDestination": "/archive/saunders-four-kuusysi-european-return-1991",
       "researchStatus": "not_rechecked",
       "selection": "selected",
-      "status": "published"
+      "status": "published",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Saunders scores four as Liverpool return to Europe",
+        "opposition": "Kuusysi Lahti",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1991-92/saunders-four-kuusysi-european-return-1991.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "saunders-four-kuusysi-european-return-1991.md",
+          "libraryFileId": "libfile_b96f24ec7f688191b1ff1cc251a1af50",
+          "modifiedAt": "2026-09-14T17:29:43.054170Z",
+          "sha256": "3e8b4bf627e19c344a4a6755dbc6aadd23b527ae06d31603412f1e6eef87ae2f"
+        },
+        "sourceBodySha256": "37edbaa3de01bb8bac5badd9b66b502a151592df0be4d2618071a338bb28ecbe",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1991-92/saunders-four-kuusysi-european-return-1991.md.txt",
+        "articleBodySha256": "37edbaa3de01bb8bac5badd9b66b502a151592df0be4d2618071a338bb28ecbe",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "approval": {
@@ -335,7 +377,28 @@
       "publishedDestination": "/archive/liverpool-sheffield-united-1972-five-goals",
       "researchStatus": "not_rechecked",
       "selection": "alternative",
-      "status": "published"
+      "status": "published",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 5–0 Sheffield United",
+        "opposition": "Sheffield United",
+        "score": "5–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1972-73/015-liverpool-sheffield-united-1972-five-goals.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "015-liverpool-sheffield-united-1972-five-goals.md",
+          "libraryFileId": "libfile_72c94663f87c819188edfcfd0083ee6d",
+          "modifiedAt": "2026-09-14T14:13:42.691857Z",
+          "sha256": "aa7f39e8116986f9d411f5f4f015b0a33623c202c8e1c535643455bf9cb7d115"
+        },
+        "sourceBodySha256": "687306f3d6e3244f5ad96fdaa4dfc0e66fef287dd913479939d7360c0b05589f",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1972-73/015-liverpool-sheffield-united-1972-five-goals.md.txt",
+        "articleBodySha256": "425d689f1bd7734efd306c2aa5a4ecb1a596f8e66e89f5ae8c2abbc0d8aa164a",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "approval": {
@@ -667,7 +730,28 @@
       "publishedDestination": "/archive/leeds-liverpool-1972-phil-boersma",
       "researchStatus": "not_rechecked",
       "selection": "alternative",
-      "status": "published"
+      "status": "published",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Leeds United 1–2 Liverpool",
+        "opposition": "Leeds United",
+        "score": "1–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1972-73/016-leeds-liverpool-1972-phil-boersma.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "016-leeds-liverpool-1972-phil-boersma.md",
+          "libraryFileId": "libfile_052c897475a48191a01a5c287bdc9880",
+          "modifiedAt": "2026-09-14T14:15:36.361888Z",
+          "sha256": "1cfa14b6f5a85ac5c56777ddf310a00cdd625b6d823ddbd2cea70d3ad4a0dac7"
+        },
+        "sourceBodySha256": "3d55bf3d6c30000483572d8d0063711e33bb5ae4dde5adb868dd6cf809c7294a",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1972-73/016-leeds-liverpool-1972-phil-boersma.md.txt",
+        "articleBodySha256": "3f86708da2349b82f6f6df22976a877f6aebe023cbd4811d603ac89ceefb2458",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "approval": {
@@ -943,7 +1027,29 @@
       "publishedDestination": "/archive/fowler-five-fulham-1993",
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "published"
+      "status": "published",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 5–0 Fulham",
+        "opposition": "Fulham",
+        "score": "5–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/Liverpool-1993-94-editor-notes.md",
+          "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-fulham-1993-fowler-five.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-fulham-1993-fowler-five.md",
+          "libraryFileId": "libfile_35fa23f349f88191b9af4ec5bd6ea1dd",
+          "modifiedAt": "2026-09-25T11:32:33.317236Z",
+          "sha256": "e4f143ca8418f24b723c92b813d1d7b9a3efe9bd681b20c801e941e4565ac23c"
+        },
+        "sourceBodySha256": "1931bfda0fd280ca4990e56d65e246ba230d032791c70a4bf7615828a3c36b0a",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-fulham-1993-fowler-five.md.txt",
+        "articleBodySha256": "4bdee881dea640b09e71bc0747bf5af99f6ce8253d4b02872f9ef167a292647d",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "approval": {
@@ -2008,7 +2114,28 @@
           "scope": "Live publication and connected History/Season links observed after successful production deployment; historical evidence remains in Astra draft notes."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Barcelona 0–1 Liverpool",
+        "opposition": "Barcelona",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1975-76/barcelona-liverpool-1976-final-copy.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "barcelona-liverpool-1976-final-copy.md",
+          "libraryFileId": "libfile_02abda38a03481918ab76e5b517cebdb",
+          "modifiedAt": "2026-09-14T13:47:44.869503Z",
+          "sha256": "ee0e30904b244caaeb2b3fd9857c2ece036dc0ea79b61150014b8d57bb809119"
+        },
+        "sourceBodySha256": "ee0e30904b244caaeb2b3fd9857c2ece036dc0ea79b61150014b8d57bb809119",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1975-76/barcelona-liverpool-1976-final-copy.md.txt",
+        "articleBodySha256": "77bbc85d985b0d264bab4c50ad2fc36dcb14b7f7a512488bcd8f3d5bea962d17",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1976-04-03-classic-048",
@@ -7118,7 +7245,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 3–2 Everton",
+        "opposition": "Everton",
+        "score": "3–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1970-71/liverpool-everton-1970-final-copy.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-everton-1970-final-copy.md",
+          "libraryFileId": "libfile_b5764e6cbb5081919fd612c2e0a96af1",
+          "modifiedAt": "2026-09-14T13:29:14.192030Z",
+          "sha256": "764d9a5d63a8ac54ed259539e68bf854785d788db29032310deb2b5d3dcf73ac"
+        },
+        "sourceBodySha256": "764d9a5d63a8ac54ed259539e68bf854785d788db29032310deb2b5d3dcf73ac",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1970-71/liverpool-everton-1970-final-copy.md.txt",
+        "articleBodySha256": "02474177479542b20eaef4b0d9a968e3195aa8e378bbd9c7acbd808702718445",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1971-01-30-classic-002",
@@ -7142,7 +7290,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 2–0 Arsenal",
+        "opposition": "Arsenal",
+        "score": "2–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1970-71/002-liverpool-arsenal-1971-toshack-smith.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "002-liverpool-arsenal-1971-toshack-smith.md",
+          "libraryFileId": "libfile_59b71094adac81919ade91ac45967840",
+          "modifiedAt": "2026-09-14T13:57:37.117725Z",
+          "sha256": "b2b8d5c4aa6470da6175c38fd80122351187ad694347da87942da61582257f57"
+        },
+        "sourceBodySha256": "4122572169414c51efd3e1058c4ebb02f07d15a56f0430c06f8bb21155062dd6",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1970-71/002-liverpool-arsenal-1971-toshack-smith.md.txt",
+        "articleBodySha256": "cd15924886e449657bd5a3d210b658444eb957577de0d98b57bf54e483cd9ba8",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1971-02-06-classic-003",
@@ -7166,7 +7335,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Leeds United 0–1 Liverpool",
+        "opposition": "Leeds United",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1970-71/003-leeds-liverpool-1971-early-winner.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "003-leeds-liverpool-1971-early-winner.md",
+          "libraryFileId": "libfile_b0e503762be481918c621ec5e598ee20",
+          "modifiedAt": "2026-09-14T13:59:29.013621Z",
+          "sha256": "963d4e5e9ca784fcdf02a1ee41d6cee5764581452421a374d238b0199ecaa48e"
+        },
+        "sourceBodySha256": "3652aa0e2e16da2c3ea5d1d5c91c4c14348ee4e9c664031aeac3c0d2f0d11774",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1970-71/003-leeds-liverpool-1971-early-winner.md.txt",
+        "articleBodySha256": "883e4239d49b7110843fbdb766479398488dc969bee3f5f66d5a94b14a8e7705",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1971-03-10-classic-004",
@@ -7190,7 +7380,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 3–0 Bayern Munich",
+        "opposition": "Bayern Munich",
+        "score": "3–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1970-71/004-liverpool-bayern-1971-alun-evans.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "004-liverpool-bayern-1971-alun-evans.md",
+          "libraryFileId": "libfile_7519af70c18c81919b7791963b2484c8",
+          "modifiedAt": "2026-09-14T13:59:33.064223Z",
+          "sha256": "5749cc9ca553546c79dd8d6f7b993bb308cae4188e66c9a50ed23a4f933f9b03"
+        },
+        "sourceBodySha256": "f690960b9bc2a079c2633f234e2c1f0febcf862cb31d9ff0b1e7c43d9ad0ec97",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1970-71/004-liverpool-bayern-1971-alun-evans.md.txt",
+        "articleBodySha256": "b5bdb34f4c1123b3e0db9836d026d0ef96aea6a0616c2175afdc620485a5574f",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1971-03-16-classic-005",
@@ -7214,7 +7425,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Tottenham Hotspur 0–1 Liverpool",
+        "opposition": "Tottenham Hotspur",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1970-71/005-tottenham-liverpool-1971-heighway-clemence.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "005-tottenham-liverpool-1971-heighway-clemence.md",
+          "libraryFileId": "libfile_6ba98bd2b384819182ad6ec7a435b814",
+          "modifiedAt": "2026-09-14T14:04:17.662988Z",
+          "sha256": "c223279be014661a5d67d084d0830895e3eb4b39d1bee8d997d7af53a5f09017"
+        },
+        "sourceBodySha256": "bc8e7cfea4fd25d2dd28779a69f3a27c351276691dbe01be033eefe0d6d6efc3",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1970-71/005-tottenham-liverpool-1971-heighway-clemence.md.txt",
+        "articleBodySha256": "f930b347f19ea9e8c6a4f04bbce0f711bc4cbc286f4d70569bcceeb22a94253e",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1971-03-27-classic-006",
@@ -7238,7 +7470,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 2–1 Everton",
+        "opposition": "Everton",
+        "score": "2–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1970-71/006-liverpool-everton-1971-brian-hall.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "006-liverpool-everton-1971-brian-hall.md",
+          "libraryFileId": "libfile_ac3757fb9c1081918027f06f1dff8628",
+          "modifiedAt": "2026-09-14T14:04:33.667278Z",
+          "sha256": "e6c1b64ff173ebf293e76353e647d002b4f8a96eb649b6eb530c21f18c2e1abb"
+        },
+        "sourceBodySha256": "2917af94907f4ac53171446c04b09397f777f034702e9181732d2687c7084167",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1970-71/006-liverpool-everton-1971-brian-hall.md.txt",
+        "articleBodySha256": "14555f459b783c70a55620af206a635268c423503b867a8547e48e0780b4f9f0",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1971-05-08-classic-007",
@@ -7262,7 +7515,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 1–2 Arsenal",
+        "opposition": "Arsenal",
+        "score": "1–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1970-71/007-liverpool-arsenal-1971-fa-cup-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "007-liverpool-arsenal-1971-fa-cup-final.md",
+          "libraryFileId": "libfile_fdf1950464c881919605808386c5584c",
+          "modifiedAt": "2026-09-14T14:05:41.988052Z",
+          "sha256": "de3a09f024f06ed4e960b46debd992dcc2b1b7aa0d1ad55b350e86480fe8cfb7"
+        },
+        "sourceBodySha256": "c7c726d031ebf032cbf7e29a41d5e28c97eef595e52fc8c65ef376a94afcec6d",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1970-71/007-liverpool-arsenal-1971-fa-cup-final.md.txt",
+        "articleBodySha256": "b010607c70811865b6518baafb1612748d4da6870c57b48698460114e734748e",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1971-11-06-classic-008",
@@ -7286,7 +7560,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 3–2 Arsenal",
+        "opposition": "Arsenal",
+        "score": "3–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1971-72/008-liverpool-arsenal-1971-ian-ross.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "008-liverpool-arsenal-1971-ian-ross.md",
+          "libraryFileId": "libfile_2c9beb0625388191bbcd42bae4969488",
+          "modifiedAt": "2026-09-14T14:07:15.655508Z",
+          "sha256": "6df7186da3991a807790f6a3aaadedbf9d967ee71c243e29c27082c2761f4e00"
+        },
+        "sourceBodySha256": "4b45bc3776cc0bc83e35d542e049c11ab5f87944ca97c8993e345e61bd864a49",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1971-72/008-liverpool-arsenal-1971-ian-ross.md.txt",
+        "articleBodySha256": "e17f33488587863b979a136fa6f65ee2afa1242ad8134413e00c0fa10104bf99",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1971-12-11-classic-009",
@@ -7310,7 +7605,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 3–2 Derby County",
+        "opposition": "Derby County",
+        "score": "3–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1971-72/009-liverpool-derby-1971-jack-whitham.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "009-liverpool-derby-1971-jack-whitham.md",
+          "libraryFileId": "libfile_8269aef330888191b8bfbfcec866f8a3",
+          "modifiedAt": "2026-09-14T14:07:36.048419Z",
+          "sha256": "5fea9377166307ba55b4d6a5bde3a8715087f2972b7e07bda1b01fb2f82dbaa6"
+        },
+        "sourceBodySha256": "c2d78bb536b48cb0e33cad93a5a8fda19c06dea9aaaff5c7d8d6a58dec5e3a91",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1971-72/009-liverpool-derby-1971-jack-whitham.md.txt",
+        "articleBodySha256": "88866cae240f1fc38f850aab7bfc9b2357f47fa3a6a57387ce67aaf1dd170396",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1972-03-04-classic-010",
@@ -7334,7 +7650,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 4–0 Everton",
+        "opposition": "Everton",
+        "score": "4–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1971-72/010-liverpool-everton-1972-four-goal-derby.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "010-liverpool-everton-1972-four-goal-derby.md",
+          "libraryFileId": "libfile_15d520be224881919eed99785b6dfa51",
+          "modifiedAt": "2026-09-14T14:09:32.657644Z",
+          "sha256": "1ca2ea942e1a992b2f99c5edaef92967c93575999527cb2bdcef98680e3b63e6"
+        },
+        "sourceBodySha256": "ca23ef788362e2b74384cf221c7495d19ae234b644110cb7ff6a9af30c7a4da3",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1971-72/010-liverpool-everton-1972-four-goal-derby.md.txt",
+        "articleBodySha256": "0176b382178e90ee2f052d17514a22b990974bd5f8f3053760f4caa9606f6547",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1972-03-18-classic-011",
@@ -7358,7 +7695,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 5–0 Newcastle United",
+        "opposition": "Newcastle United",
+        "score": "5–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1971-72/011-liverpool-newcastle-1972-five-goals.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "011-liverpool-newcastle-1972-five-goals.md",
+          "libraryFileId": "libfile_a92b0aad518881918739d94c393f5b04",
+          "modifiedAt": "2026-09-14T14:10:15.002123Z",
+          "sha256": "d11cee7b37a1e53d690ab0ef1b7a9ecaf7dddede9e8de0d89ca2dfc05d18424a"
+        },
+        "sourceBodySha256": "111d8012b1e796d261f0ff2413db3d5dedb1cdc892416a79edc6c36022d4c241",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1971-72/011-liverpool-newcastle-1972-five-goals.md.txt",
+        "articleBodySha256": "f2257cd19eb11d4a823ee940529a03231d7317c8578d72e6d4044d027eb04d02",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1972-04-03-classic-012",
@@ -7382,7 +7740,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Manchester United 0–3 Liverpool",
+        "opposition": "Manchester United",
+        "score": "0–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1971-72/012-manchester-united-liverpool-1972-thompson-debut.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "012-manchester-united-liverpool-1972-thompson-debut.md",
+          "libraryFileId": "libfile_3d5e694954c881919724619694c08224",
+          "modifiedAt": "2026-09-14T14:10:53.613227Z",
+          "sha256": "1e460f6ac387ada85c061d67b74dd859dc59bd5a83567d18689f7104317a152b"
+        },
+        "sourceBodySha256": "cec0411493b37b5fc48b86b89c83ed40f43cf6d62c2872ed42a222de08efae35",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1971-72/012-manchester-united-liverpool-1972-thompson-debut.md.txt",
+        "articleBodySha256": "43833a9c35218b5de96357e1247fad6cf0f3411140f971d07c5ab7c7a107f349",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1972-05-01-classic-013",
@@ -7406,7 +7785,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Derby County 1–0 Liverpool",
+        "opposition": "Derby County",
+        "score": "1–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1971-72/013-derby-liverpool-1972-mcgovern-title-race.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "013-derby-liverpool-1972-mcgovern-title-race.md",
+          "libraryFileId": "libfile_50d80d7ae578819185f9380316b7b4e2",
+          "modifiedAt": "2026-09-14T14:11:34.161507Z",
+          "sha256": "2877100a431294899bbb6e7da9e9795a502aa0dc1226f44ea07e62574923ef67"
+        },
+        "sourceBodySha256": "7fe19a43c6230d6b27a6fcc38842fd64b01daaf44979e735068d9f18baf7282e",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1971-72/013-derby-liverpool-1972-mcgovern-title-race.md.txt",
+        "articleBodySha256": "859c7235712329d083fc58cc96f478f79efe09dad3e4ef6a458928ae517b1893",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1972-08-12-classic-014",
@@ -7430,7 +7830,28 @@
           "scope": "Longlist provenance only; fresh factual verification required."
         }
       ],
-      "researchStatus": "not_rechecked"
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Liverpool 2–0 Manchester City",
+        "opposition": "Manchester City",
+        "score": "2–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/1972-73/014-liverpool-manchester-city-1972-opening-day.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "014-liverpool-manchester-city-1972-opening-day.md",
+          "libraryFileId": "libfile_205c5abe7110819197dcac8998ec15ca",
+          "modifiedAt": "2026-09-14T14:13:28.635207Z",
+          "sha256": "89cb47e933c4071c5200c99671cf5a61e496e3a04f14513e2ef7d5c6f85629a5"
+        },
+        "sourceBodySha256": "15a4f854bade6b7e76ada3f1c02eaec74a2b57f376c6fd62c2da114781b05678",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1972-73/014-liverpool-manchester-city-1972-opening-day.md.txt",
+        "articleBodySha256": "d3121f254c83895a852e1de1f39e7cc61b35f47833d0231205e34ea2f8e26fe9",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "id": "1990-09-16-classic-200",
@@ -8938,7 +9359,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-09-30T11:47:09.391Z",
+  "updatedAt": "2026-10-01T16:31:53.863Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -10131,6 +10552,325 @@
         "reviewRequired": false,
         "sourceFiles": [],
         "duplicateResolution": "Existing published repository biography retained without modification.",
+        "blockers": []
+      }
+    }
+  ],
+  "matches": [
+    {
+      "id": "match-1994-01-25-liverpool-bristol-city-1994-souness-final-match",
+      "event": "Liverpool 0–1 Bristol City: Bristol City end Liverpool’s FA Cup run in Souness’s final match",
+      "historicalEventDate": "1994-01-25",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1993-94/liverpool-bristol-city-1994-souness-final-match.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-bristol-city-1994-souness-final-match.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–1 Bristol City",
+        "opposition": "Bristol City",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/Liverpool-1993-94-editor-notes.md",
+          "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-bristol-city-1994-souness-final-match.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-bristol-city-1994-souness-final-match.md",
+          "libraryFileId": "libfile_49d8f6d00b888191b3dadf6a6a5ee78b",
+          "modifiedAt": "2026-09-25T11:32:33.286955Z",
+          "sha256": "4b8654033d679ab452f585aaf5edb404285ee8f677a541bdb83e2902f4ea47a3"
+        },
+        "sourceBodySha256": "117539a841e179d477c400d4c17f98caab5c257d65a71b731bb1aaef9371c7fb",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-bristol-city-1994-souness-final-match.md.txt",
+        "articleBodySha256": "117539a841e179d477c400d4c17f98caab5c257d65a71b731bb1aaef9371c7fb",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1994-03-13-liverpool-everton-1994-fowler-rush",
+      "event": "Liverpool 2–1 Everton: Rush and Fowler win the standing Kop’s last derby",
+      "historicalEventDate": "1994-03-13",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1993-94/liverpool-everton-1994-fowler-rush.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-everton-1994-fowler-rush.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Everton",
+        "opposition": "Everton",
+        "score": "2–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/Liverpool-1993-94-editor-notes.md",
+          "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-everton-1994-fowler-rush.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-everton-1994-fowler-rush.md",
+          "libraryFileId": "libfile_72803543303881919871a2c6b96718fe",
+          "modifiedAt": "2026-09-25T11:32:33.313838Z",
+          "sha256": "1a9ab80f526c38c91d2135e48712629d5ebe73f7131d8b660c474f0f9d33d8b0"
+        },
+        "sourceBodySha256": "88e1ecb5248dc78415097a1e12dd235388339723bf5fdacc8687fbc3acc739d1",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-everton-1994-fowler-rush.md.txt",
+        "articleBodySha256": "88e1ecb5248dc78415097a1e12dd235388339723bf5fdacc8687fbc3acc739d1",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1994-01-04-liverpool-manchester-united-1994-comeback",
+      "event": "Liverpool 3–3 Manchester United: Clough and Ruddock bring Liverpool back from three down",
+      "historicalEventDate": "1994-01-04",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1993-94/liverpool-manchester-united-1994-comeback.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-manchester-united-1994-comeback.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–3 Manchester United",
+        "opposition": "Manchester United",
+        "score": "3–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/Liverpool-1993-94-editor-notes.md",
+          "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-manchester-united-1994-comeback.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-manchester-united-1994-comeback.md",
+          "libraryFileId": "libfile_5009cdd270288191bade3df749f8a550",
+          "modifiedAt": "2026-09-25T11:32:33.314577Z",
+          "sha256": "8d3583217a09db05e06dd933e12494df9c3645bd003ef95871383862bc2b89c4"
+        },
+        "sourceBodySha256": "1f93b1141b1745ab2178077c1ef212e075171bc560ce537e0a672a2eec7fb4f9",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-manchester-united-1994-comeback.md.txt",
+        "articleBodySha256": "1f93b1141b1745ab2178077c1ef212e075171bc560ce537e0a672a2eec7fb4f9",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1994-04-30-liverpool-norwich-1994-standing-kop",
+      "event": "Liverpool 0–1 Norwich City: Norwich win as Anfield says goodbye to the standing Kop",
+      "historicalEventDate": "1994-04-30",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1993-94/liverpool-norwich-1994-standing-kop.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-norwich-1994-standing-kop.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–1 Norwich City",
+        "opposition": "Norwich City",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/Liverpool-1993-94-editor-notes.md",
+          "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-norwich-1994-standing-kop.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-norwich-1994-standing-kop.md",
+          "libraryFileId": "libfile_7cc76b053bd48191909111a1d7d1249b",
+          "modifiedAt": "2026-09-25T11:32:33.287636Z",
+          "sha256": "549b182336ac7be034a009a6c38a924f57dd98f9394ca42ce63e9b095d00d479"
+        },
+        "sourceBodySha256": "097af943eea1f65f3434f350d96a8a3fb47ad32789890b34d9e5bb3a6d520979",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-norwich-1994-standing-kop.md.txt",
+        "articleBodySha256": "097af943eea1f65f3434f350d96a8a3fb47ad32789890b34d9e5bb3a6d520979",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1993-10-30-liverpool-southampton-1993-fowler-hat-trick",
+      "event": "Liverpool 4–2 Southampton: Fowler’s first league hat-trick holds off Le Tissier",
+      "historicalEventDate": "1993-10-30",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1993-94/liverpool-southampton-1993-fowler-hat-trick.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-southampton-1993-fowler-hat-trick.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–2 Southampton",
+        "opposition": "Southampton",
+        "score": "4–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/Liverpool-1993-94-editor-notes.md",
+          "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-southampton-1993-fowler-hat-trick.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-southampton-1993-fowler-hat-trick.md",
+          "libraryFileId": "libfile_cc7452e51d9c8191b2aec7728740698b",
+          "modifiedAt": "2026-09-25T11:32:33.287350Z",
+          "sha256": "545fa29d43e016fbd7845cd6f818e604fd35d8d85397ec4e98cd6be8bc67124f"
+        },
+        "sourceBodySha256": "8c7ef31e4abb34486cc93eee7ced00668fbd1b4cab8d424329f7b50bdbb8b2e1",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1993-94/liverpool-southampton-1993-fowler-hat-trick.md.txt",
+        "articleBodySha256": "8c7ef31e4abb34486cc93eee7ced00668fbd1b4cab8d424329f7b50bdbb8b2e1",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1993-08-22-swindon-liverpool-1993-mcmanaman",
+      "event": "Swindon Town 0–5 Liverpool: McManaman scores twice as Liverpool go top at Swindon",
+      "historicalEventDate": "1993-08-22",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1993-94/swindon-liverpool-1993-mcmanaman.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1993-94/swindon-liverpool-1993-mcmanaman.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Swindon Town 0–5 Liverpool",
+        "opposition": "Swindon Town",
+        "score": "0–5",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/Liverpool-1993-94-editor-notes.md",
+          "docs/editorial/drafts/match-recovery/originals/1993-94/swindon-liverpool-1993-mcmanaman.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "swindon-liverpool-1993-mcmanaman.md",
+          "libraryFileId": "libfile_6a3fafce37588191ac7792639928489a",
+          "modifiedAt": "2026-09-25T11:32:33.315741Z",
+          "sha256": "b8e2e1ae857f12fb4c60c6720cbac9d8c55ebe1f3cc09c7c969280d6fc1f20d6"
+        },
+        "sourceBodySha256": "5ad21e81febd212b896d52859fcb37d95d1d069b0754c93ac8efaf15535c5ab1",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1993-94/swindon-liverpool-1993-mcmanaman.md.txt",
+        "articleBodySha256": "5ad21e81febd212b896d52859fcb37d95d1d069b0754c93ac8efaf15535c5ab1",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Swindon Town; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-1993-12-18-tottenham-liverpool-1993-three-three",
+      "event": "Tottenham Hotspur 3–3 Liverpool: Liverpool’s second-half burst is answered by Tottenham",
+      "historicalEventDate": "1993-12-18",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1993-94/tottenham-liverpool-1993-three-three.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1993-94/tottenham-liverpool-1993-three-three.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Tottenham Hotspur 3–3 Liverpool",
+        "opposition": "Tottenham Hotspur",
+        "score": "3–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/evidence/Liverpool-1993-94-editor-notes.md",
+          "docs/editorial/drafts/match-recovery/originals/1993-94/tottenham-liverpool-1993-three-three.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "tottenham-liverpool-1993-three-three.md",
+          "libraryFileId": "libfile_77802d6ac29c81918b52c152bbc25c3e",
+          "modifiedAt": "2026-09-25T11:32:33.285190Z",
+          "sha256": "d847033c8423ccf6ebde7ca473290b42f66ce66aebc166d3e1db3b4150fb0d6c"
+        },
+        "sourceBodySha256": "aa983309d08b37f1e14c5d06b43ab8a7d3bc217286b64c26b897e6fcf7964d1b",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1993-94/tottenham-liverpool-1993-three-three.md.txt",
+        "articleBodySha256": "aa983309d08b37f1e14c5d06b43ab8a7d3bc217286b64c26b897e6fcf7964d1b",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
         "blockers": []
       }
     }

@@ -1,0 +1,44 @@
+---
+# Draft: publication date and editorialMode are set only after approval.
+title: "Liverpool 0–1 Bristol City: Bristol City end Liverpool’s FA Cup run in Souness’s final match"
+historicalEventDate: "1994-01-25"
+historicalPeriod: "25 January 1994 · FA Cup third-round replay · Anfield"
+decade: "1990s"
+excerpt: "Brian Tinnion’s goal knocked Liverpool out of the FA Cup. Three days later, Graeme Souness resigned."
+slug: "liverpool-bristol-city-1994-souness-final-match"
+category: "match"
+articleType: "match"
+season: "1993-94"
+sources:
+  - "https://www.lfchistory.net/games/1942"
+  - "https://www.lfchistory.net/images/newspapers/riley/19940125vbristolcity.pdf"
+  - "https://www.lfchistory.net/articles/949"
+  - "https://www.the-independent.com/sport/football-souness-bows-out-at-anfield-1410098.html"
+---
+
+# Liverpool 0–1 Bristol City: Bristol City end Liverpool’s FA Cup run in Souness’s final match
+
+Brian Tinnion’s goal knocked Liverpool out of the FA Cup. Three days later, Graeme Souness resigned.
+
+The 1–0 defeat by Bristol City became the final match of his Liverpool management. The visitors, from the division below, had exposed the home defence throughout an evening that ended with their passage to the fourth round and renewed demands for Souness to leave.
+
+The tie had already required two attempts at Ashton Gate. Floodlight failure stopped the first meeting; the rearranged game finished 1–1. Anfield offered Liverpool another opportunity to settle it, but City’s forwards continued to find space.
+
+Junior Bent’s speed repeatedly troubled Liverpool. Wayne Allison also unsettled the defence, while City goalkeeper Keith Welch kept out Steve McManaman. Liverpool created chances, but could not establish control over the replay.
+
+Bruce Grobbelaar was booked for handling outside his area as Bent broke through. The decision left Liverpool with eleven players, yet the escape did not solve the problem. Bent subsequently wasted another clear opening.
+
+Tinnion took his in the 66th minute. The ball broke to him following Allison’s challenge to the Liverpool defence, and he curled a left-footed shot beyond Grobbelaar. Welch later denied Steve Harkness an equaliser.
+
+City had earned a fourth-round meeting with Stockport County. Liverpool were out in the third round again, a year after Bolton Wanderers had beaten them in an Anfield replay.
+
+There was applause for the visitors and anger directed towards Liverpool’s management. Souness remained in office that night. His resignation was announced on 28 January, after discussions with the board.
+
+The cup defeat did not account for every difficulty of his tenure, but it was its final result. Liverpool’s next competitive match would be played under a new manager.
+
+## Sources
+
+- [LFChistory: match record, Liverpool 0–1 Bristol City](https://www.lfchistory.net/games/1942).
+- [The Times and The Guardian: contemporary match reports, page one of Graeme Riley’s compilation](https://www.lfchistory.net/images/newspapers/riley/19940125vbristolcity.pdf).
+- [LFChistory: “Souness resigns”, contemporary report and club statements](https://www.lfchistory.net/articles/949).
+- [Guy Hodgson, The Independent: “Souness bows out at Anfield”, 29 January 1994 UK edition](https://www.the-independent.com/sport/football-souness-bows-out-at-anfield-1410098.html).

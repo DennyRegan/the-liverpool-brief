@@ -1,0 +1,53 @@
+---
+title: >-
+  Tottenham Hotspur 3–3 Liverpool: Liverpool’s second-half burst is answered by
+  Tottenham
+historicalEventDate: '1993-12-18'
+historicalPeriod: 18 December 1993 · Premier League · White Hart Lane
+decade: 1990s
+excerpt: >-
+  Liverpool turned a half-time deficit into a 3–1 lead early in the second half
+  at White Hart Lane. They still left with only a point.
+slug: tottenham-liverpool-1993-three-three
+category: match
+articleType: match
+season: 1993-94
+sources:
+  - 'https://www.lfchistory.net/games/1934'
+  - 'https://www.lfchistory.net/images/newspapers/riley/19931218vspurs.pdf'
+  - >-
+    https://www.11v11.com/matches/tottenham-hotspur-v-liverpool-18-december-1993-21472/
+competitionIds:
+  - premier-league
+managerIds:
+  - graeme-souness
+playerIds:
+  - robbie-fowler
+  - jamie-redknapp
+oppositionIds:
+  - tottenham-hotspur
+---
+
+# Tottenham Hotspur 3–3 Liverpool: Liverpool’s second-half burst is answered by Tottenham
+
+Liverpool turned a half-time deficit into a 3–1 lead early in the second half at White Hart Lane. They still left with only a point.
+
+Robbie Fowler scored twice and Jamie Redknapp once in the burst that transformed the match. Tottenham then recovered through Micky Hazard and Darren Caskey to draw 3–3, exposing the gap between Liverpool’s attacking promise and their ability to protect a lead.
+
+The afternoon had begun with a minute’s silence for Danny Blanchflower. Tottenham’s former captain was remembered before a match in which both teams found considerably more success going forward than defending.
+
+Spurs led at the interval. Jason Dozzell’s headed flick sent Vinny Samways through to beat Bruce Grobbelaar in the 37th minute. Liverpool also lost John Barnes to injury, with Nigel Clough taking his place for the second half.
+
+Clough quickly helped change the game. His pass released Fowler for the equaliser after 49 minutes. Three minutes later, Redknapp’s free-kick went in via the post and Erik Thorstvedt, giving Liverpool the lead. When Ian Rush was fouled in the penalty area, Fowler converted to make it 3–1.
+
+Liverpool had scored three times before the second half was ten minutes old. Fowler had two of them, while the introduction of Clough had supplied the pass that started the recovery.
+
+Tottenham’s response came from the penalty spot after Nick Barmby was fouled. Hazard scored, and Caskey subsequently met David Kerslake’s cross with a header to level the match.
+
+Liverpool finished the afternoon seventh, with their two-goal advantage lost and two points gone.
+
+## Sources
+
+- [LFChistory: match record, Tottenham Hotspur 3–3 Liverpool](https://www.lfchistory.net/games/1934).
+- [Contemporary reports from The Times, The Guardian and The Sunday Times, compiled by Graeme Riley](https://www.lfchistory.net/images/newspapers/riley/19931218vspurs.pdf).
+- [11v11: Tottenham Hotspur v Liverpool, result and scorers](https://www.11v11.com/matches/tottenham-hotspur-v-liverpool-18-december-1993-21472/).
