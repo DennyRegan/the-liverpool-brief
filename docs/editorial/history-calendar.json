@@ -9864,7 +9864,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T21:10:35.486644Z",
+  "updatedAt": "2026-10-01T21:17:22.194336Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -17276,7 +17276,7 @@
         "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-petrolul-1966-brussels-play-off.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17362,7 +17362,7 @@
         "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1966-67/ajax-liverpool-1966-fog-defeat.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17405,7 +17405,7 @@
         "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-ajax-1966-european-cup-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17534,7 +17534,7 @@
         "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1967-fa-cup-screens.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
