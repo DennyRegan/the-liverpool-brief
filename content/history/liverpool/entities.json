@@ -2763,5 +2763,40 @@
     "id": "spartak-moscow",
     "label": "Spartak Moscow",
     "kind": "opposition"
+  },
+  {
+    "id": "honved",
+    "label": "Honvéd",
+    "kind": "opposition"
+  },
+  {
+    "id": "borussia-dortmund",
+    "label": "Borussia Dortmund",
+    "kind": "opposition"
+  },
+  {
+    "id": "upton-park",
+    "label": "Upton Park",
+    "kind": "location"
+  },
+  {
+    "id": "hampden-park",
+    "label": "Hampden Park",
+    "kind": "location"
+  },
+  {
+    "id": "besiktas",
+    "label": "Beşiktaş",
+    "kind": "opposition"
+  },
+  {
+    "id": "havant-waterlooville",
+    "label": "Havant & Waterlooville",
+    "kind": "opposition"
+  },
+  {
+    "id": "barnsley",
+    "label": "Barnsley",
+    "kind": "opposition"
   }
 ]
