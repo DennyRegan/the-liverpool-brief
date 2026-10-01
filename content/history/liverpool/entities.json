@@ -2813,5 +2813,35 @@
     "id": "alan-ball",
     "label": "Alan Ball",
     "kind": "person"
+  },
+  {
+    "id": "tsv-1860-munich",
+    "label": "TSV 1860 Munich",
+    "kind": "opposition"
+  },
+  {
+    "id": "ferencvaros",
+    "label": "Ferencváros",
+    "kind": "opposition"
+  },
+  {
+    "id": "burnden-park",
+    "label": "Burnden Park",
+    "kind": "location"
+  },
+  {
+    "id": "george-best",
+    "label": "George Best",
+    "kind": "person"
+  },
+  {
+    "id": "jeff-astle",
+    "label": "Jeff Astle",
+    "kind": "person"
+  },
+  {
+    "id": "clive-clark",
+    "label": "Clive Clark",
+    "kind": "person"
   }
 ]

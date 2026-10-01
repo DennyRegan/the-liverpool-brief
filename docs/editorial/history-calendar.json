@@ -9864,7 +9864,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T21:23:59.035084Z",
+  "updatedAt": "2026-10-01T21:31:31.992061Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -17636,6 +17636,479 @@
         "workerId": "/root/astra_decade_writer",
         "blockers": []
       }
+    },
+    {
+      "id": "match-1967-08-26-liverpool-newcastle-1967-hateley-hat-trick",
+      "event": "Liverpool 6–0 Newcastle United: Hateley opens his Liverpool account with three",
+      "historicalEventDate": "1967-08-26",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1967-08-26",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The record signing scores his first three Liverpool goals, Hughes opens his account and an unbeaten opening week ends with six at Anfield.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 6–0 Newcastle United",
+        "opposition": "Newcastle United",
+        "score": "6–0",
+        "editorialReason": "The record signing scores his first three Liverpool goals, Hughes opens his account and an unbeaten opening week ends with six at Anfield.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1967-09-23-liverpool-everton-1967-hunt-winner",
+      "event": "Liverpool 1–0 Everton: Hunt’s late winner keeps Liverpool above their neighbours",
+      "historicalEventDate": "1967-09-23",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1967-09-23",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A late derby winner preserves first place after the previous week’s Southampton defeat; Hateley and Hunt are central to the attacking partnership.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–0 Everton",
+        "opposition": "Everton",
+        "score": "1–0",
+        "editorialReason": "A late derby winner preserves first place after the previous week’s Southampton defeat; Hateley and Hunt are central to the attacking partnership.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1967-09-27-bolton-liverpool-1967-league-cup-exit",
+      "event": "Bolton Wanderers 3–2 Liverpool: Bolton end Liverpool’s League Cup return",
+      "historicalEventDate": "1967-09-27",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1967-09-27",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The renewed League Cup campaign ends at its first tie after a replay, despite Smith’s equaliser and Callaghan’s late reply; it records a distinct cup exit.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Bolton Wanderers 3–2 Liverpool",
+        "opposition": "Bolton Wanderers",
+        "score": "3–2",
+        "editorialReason": "The renewed League Cup campaign ends at its first tie after a replay, despite Smith’s equaliser and Callaghan’s late reply; it records a distinct cup exit.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1967-11-07-liverpool-tsv-munich-1967-eight-goals",
+      "event": "Liverpool 8–0 TSV 1860 Munich: Eight goals overwhelm Munich at Anfield",
+      "historicalEventDate": "1967-11-07",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1967-11-07",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A then-record European winning margin is built through six different scorers and a rapid second-half burst; this exceptional tie deserves full contemporary reconstruction.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 8–0 TSV 1860 Munich",
+        "opposition": "TSV 1860 Munich",
+        "score": "8–0",
+        "editorialReason": "A then-record European winning margin is built through six different scorers and a rapid second-half burst; this exceptional tie deserves full contemporary reconstruction.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1967-11-11-liverpool-manchester-united-1967-best-double",
+      "event": "Liverpool 1–2 Manchester United: Best’s double takes the lead from Liverpool",
+      "historicalEventDate": "1967-11-11",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1967-11-11",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Four days after the European eight, Liverpool lose first place to United; Hunt’s late goal is his 242 nd under the corrected historical register, a milestone with an explicit attribution conflict.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–2 Manchester United",
+        "opposition": "Manchester United",
+        "score": "1–2",
+        "editorialReason": "Four days after the European eight, Liverpool lose first place to United; Hunt’s late goal is his 242 nd under the corrected historical register, a milestone with an explicit attribution conflict.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-01-09-liverpool-ferencvaros-1968-fairs-cup-exit",
+      "event": "Liverpool 0–1 Ferencváros: Ferencváros complete Liverpool’s European elimination",
+      "historicalEventDate": "1968-01-09",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1968-01-09",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A second 1–0 defeat ends the European campaign after the huge Munich win; the home leg closes a distinct competition story.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–1 Ferencváros",
+        "opposition": "Ferencváros",
+        "score": "0–1",
+        "editorialReason": "A second 1–0 defeat ends the European campaign after the huge Munich win; the home leg closes a distinct competition story.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-02-19-liverpool-walsall-1968-hateley-four",
+      "event": "Liverpool 5–2 Walsall: Hateley scores four as Liverpool settle the Walsall replay",
+      "historicalEventDate": "1968-02-19",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1968-02-19",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The four-goal individual performance is a substantial scoring milestone within a replay-heavy cup run, distinct from the later Spurs and West Brom ties.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–2 Walsall",
+        "opposition": "Walsall",
+        "score": "5–2",
+        "editorialReason": "The four-goal individual performance is a substantial scoring milestone within a replay-heavy cup run, distinct from the later Spurs and West Brom ties.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-03-12-liverpool-tottenham-1968-fa-cup-replay",
+      "event": "Liverpool 2–1 Tottenham Hotspur: Liverpool remove the cup holders in a third successive replay",
+      "historicalEventDate": "1968-03-12",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1968-03-12",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Hunt and Smith take Liverpool through against the holders, after Bournemouth and Walsall also required replays; late Spurs resistance gives the tie its own development.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Tottenham Hotspur",
+        "opposition": "Tottenham Hotspur",
+        "score": "2–1",
+        "editorialReason": "Hunt and Smith take Liverpool through against the holders, after Bournemouth and Walsall also required replays; late Spurs resistance gives the tie its own development.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-04-06-manchester-united-liverpool-1968-comeback",
+      "event": "Manchester United 1–2 Liverpool: Liverpool answer Best and win at Old Trafford",
+      "historicalEventDate": "1968-04-06",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1968-04-06",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "An early deficit becomes an away win over title rivals, leaving Liverpool two points off the lead with games in hand during the season’s decisive stage.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Manchester United 1–2 Liverpool",
+        "opposition": "Manchester United",
+        "score": "1–2",
+        "editorialReason": "An early deficit becomes an away win over title rivals, leaving Liverpool two points off the lead with games in hand during the season’s decisive stage.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-04-18-liverpool-west-brom-1968-second-replay",
+      "event": "Liverpool 1–2 West Bromwich Albion: West Brom end the long cup tie at Maine Road",
+      "historicalEventDate": "1968-04-18",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1968-04-18",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The neutral second replay closes a nine-match FA Cup campaign without a semi-final place; Astle, Hateley and Clark supply a clear three-goal development.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–2 West Bromwich Albion",
+        "opposition": "West Bromwich Albion",
+        "score": "1–2",
+        "editorialReason": "The neutral second replay closes a nine-match FA Cup campaign without a semi-final place; Astle, Hateley and Clark supply a clear three-goal development.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-05-11-liverpool-nottingham-forest-1968-six-goals",
+      "event": "Liverpool 6–1 Nottingham Forest: Hateley’s hat-trick takes Liverpool into third",
+      "historicalEventDate": "1968-05-11",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1968-05-11",
+        "claimedAt": "2026-10-01T21:31:31.992061Z",
+        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A first-half deficit becomes six goals in the final home match, Hateley completes another hat-trick and Liverpool secure at least third while retaining a chance of second before the last away fixture.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1967-68",
+        "season": "1967-68",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 6–1 Nottingham Forest",
+        "opposition": "Nottingham Forest",
+        "score": "6–1",
+        "editorialReason": "A first-half deficit becomes six goals in the final home match, Hateley completes another hat-trick and Liverpool secure at least third while retaining a chance of second before the last away fixture.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -17816,15 +18289,27 @@
     {
       "id": "1960s-1967-68",
       "season": "1967-68",
-      "stage": "season_research",
+      "stage": "drafting",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
-      "sourceNote": null,
-      "selectedRowIds": [],
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+      "selectedRowIds": [
+        "match-1967-08-26-liverpool-newcastle-1967-hateley-hat-trick",
+        "match-1967-09-23-liverpool-everton-1967-hunt-winner",
+        "match-1967-09-27-bolton-liverpool-1967-league-cup-exit",
+        "match-1967-11-07-liverpool-tsv-munich-1967-eight-goals",
+        "match-1967-11-11-liverpool-manchester-united-1967-best-double",
+        "match-1968-01-09-liverpool-ferencvaros-1968-fairs-cup-exit",
+        "match-1968-02-19-liverpool-walsall-1968-hateley-four",
+        "match-1968-03-12-liverpool-tottenham-1968-fa-cup-replay",
+        "match-1968-04-06-manchester-united-liverpool-1968-comeback",
+        "match-1968-04-18-liverpool-west-brom-1968-second-replay",
+        "match-1968-05-11-liverpool-nottingham-forest-1968-six-goals"
+      ],
       "reusedPaths": [],
       "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+      "nextStage": "Complete retrieved-source match reports and their factual audits."
     },
     {
       "id": "1960s-1968-69",

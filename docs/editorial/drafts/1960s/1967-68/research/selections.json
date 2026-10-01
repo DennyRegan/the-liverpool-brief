@@ -1,0 +1,357 @@
+{
+  "season": "1967-68",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_decade_writer",
+  "retrievedOn": "2026-10-01",
+  "purpose": "Research handoff only; canonical calendar remains sole status authority.",
+  "wholeSeasonSources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/9",
+      "provider": "LFChistory",
+      "claims": "Complete 59-match chronology, league movement and cup routes.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/9",
+      "provider": "LFChistory",
+      "claims": "Final third place, 55 points, 22 wins, 11 draws, nine losses, 71–40;home 17–2–2,away 5–9–7.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.rsssf.org/engpaul/FLA/1967-68.html",
+      "provider": "RSSSF",
+      "claims": "Independent final table, points and home/away split.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/appearances/9",
+      "provider": "LFChistory",
+      "claims": "Eighteen players, Lawrence/Lawler 59 each, Hughes 56, Hateley 52, Clemence zero.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/9",
+      "provider": "LFChistory",
+      "claims": "Hunt 30 and Hateley 27; full competition breakdown.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/transfers/9",
+      "provider": "LFChistory",
+      "claims": "Hateley arrival and departures including Wallace/Stevenson; precise fees need corroboration.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.rsssf.org/ec/ec196768.html",
+      "provider": "RSSSF",
+      "claims": "Full Fairs Cup route and aggregates.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://fchd.info/cups/facup1967-68.htm",
+      "provider": "Football Club History Database",
+      "claims": "Independent full FA Cup route, replays and neutral second replay.",
+      "confidence": "High"
+    }
+  ],
+  "matches": [
+    {
+      "date": "1967-08-26",
+      "home": "Liverpool",
+      "away": "Newcastle United",
+      "score": "6–0",
+      "opposition": "Newcastle United",
+      "competition": "First Division",
+      "title": "Hateley opens his Liverpool account with three",
+      "slug": "liverpool-newcastle-1967-hateley-hat-trick",
+      "editorialReason": "The record signing scores his first three Liverpool goals, Hughes opens his account and an unbeaten opening week ends with six at Anfield.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/liverpool-newcastle-1967-hateley-hat-trick-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/403",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/154514-st-john-s-moving-tribute-to-hateley",
+          "provider": "Liverpool FC",
+          "claims": "Record £96,000 signing, third-game Newcastle hat-trick,52 appearances/27 goals; later St John memory separately scoped.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-newcastle-united-26-august-1967-79344/",
+          "provider": "11 v 11",
+          "claims": "Independent match identity/result/scorers.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1967-09-23",
+      "home": "Liverpool",
+      "away": "Everton",
+      "score": "1–0",
+      "opposition": "Everton",
+      "competition": "First Division",
+      "title": "Hunt’s late winner keeps Liverpool above their neighbours",
+      "slug": "liverpool-everton-1967-hunt-winner",
+      "editorialReason": "A late derby winner preserves first place after the previous week’s Southampton defeat; Hateley and Hunt are central to the attacking partnership.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/liverpool-everton-1967-hunt-winner-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/411",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1967-09-27",
+      "home": "Bolton Wanderers",
+      "away": "Liverpool",
+      "score": "3–2",
+      "opposition": "Bolton Wanderers",
+      "competition": "League Cup",
+      "title": "Bolton end Liverpool’s League Cup return",
+      "slug": "bolton-liverpool-1967-league-cup-exit",
+      "editorialReason": "The renewed League Cup campaign ends at its first tie after a replay, despite Smith’s equaliser and Callaghan’s late reply; it records a distinct cup exit.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/bolton-liverpool-1967-league-cup-exit-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/412",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/bolton-wanderers-v-liverpool-27-september-1967-28856/",
+          "provider": "11 v 11",
+          "claims": "Independent replay identity/result.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1967-11-07",
+      "home": "Liverpool",
+      "away": "TSV 1860 Munich",
+      "score": "8–0",
+      "opposition": "TSV 1860 Munich",
+      "competition": "Inter-Cities Fairs Cup",
+      "title": "Eight goals overwhelm Munich at Anfield",
+      "slug": "liverpool-tsv-munich-1967-eight-goals",
+      "editorialReason": "A then-record European winning margin is built through six different scorers and a rapid second-half burst; this exceptional tie deserves full contemporary reconstruction.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/liverpool-tsv-munich-1967-eight-goals-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/420",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3541",
+          "provider": "Daily Express 8 November 1967 reproduced by LFChistory",
+          "claims": "Contemporary goal construction and scoring burst; exact minutes conflict with modern ledger.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/features/371686-liverpool-s-10-biggest-european-victories",
+          "provider": "Liverpool FC",
+          "claims": "Official eight-goal result, six scorers and Hunt/Callaghan doubles.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1967-11-11",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "score": "1–2",
+      "opposition": "Manchester United",
+      "competition": "First Division",
+      "title": "Best’s double takes the lead from Liverpool",
+      "slug": "liverpool-manchester-united-1967-best-double",
+      "editorialReason": "Four days after the European eight, Liverpool lose first place to United; Hunt’s late goal is his 242 nd under the corrected historical register, a milestone with an explicit attribution conflict.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/liverpool-manchester-united-1967-best-double-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/421",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/players/326",
+          "provider": "LFChistory Hunt profile",
+          "claims": "Corrected 242 nd goal against United 11 November 1967.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3453",
+          "provider": "LFChistory correction research",
+          "claims": "Explains removal of misattributed 1966 goal and revised career record.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/roger-hunt",
+          "provider": "Liverpool FC",
+          "claims": "Conflicting official attribution to Munich 7 November; do not silently merge records.",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "date": "1968-01-09",
+      "home": "Liverpool",
+      "away": "Ferencváros",
+      "score": "0–1",
+      "opposition": "Ferencváros",
+      "competition": "Inter-Cities Fairs Cup",
+      "title": "Ferencváros complete Liverpool’s European elimination",
+      "slug": "liverpool-ferencvaros-1968-fairs-cup-exit",
+      "editorialReason": "A second 1–0 defeat ends the European campaign after the huge Munich win; the home leg closes a distinct competition story.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/liverpool-ferencvaros-1968-fairs-cup-exit-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/433",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://puskasakademia.hu/news/az-elso-siker-az-anfield-roadon",
+          "provider": "Puskás Institute",
+          "claims": "Independent two 1–0 legs/Branikovits goal and retrospective Rákosi account; minute 20/crowd 54,000 conflict withLFChistory 19/46,892.",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "date": "1968-02-19",
+      "home": "Liverpool",
+      "away": "Walsall",
+      "score": "5–2",
+      "opposition": "Walsall",
+      "competition": "FA Cup",
+      "title": "Hateley scores four as Liverpool settle the Walsall replay",
+      "slug": "liverpool-walsall-1968-hateley-four",
+      "editorialReason": "The four-goal individual performance is a substantial scoring milestone within a replay-heavy cup run, distinct from the later Spurs and West Brom ties.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/liverpool-walsall-1968-hateley-four-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/440",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/tony-hateley",
+          "provider": "Liverpool FC",
+          "claims": "Hateley four against Walsall and eightFA Cup goals.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1968-03-12",
+      "home": "Liverpool",
+      "away": "Tottenham Hotspur",
+      "score": "2–1",
+      "opposition": "Tottenham Hotspur",
+      "competition": "FA Cup",
+      "title": "Liverpool remove the cup holders in a third successive replay",
+      "slug": "liverpool-tottenham-1968-fa-cup-replay",
+      "editorialReason": "Hunt and Smith take Liverpool through against the holders, after Bournemouth and Walsall also required replays; late Spurs resistance gives the tie its own development.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/liverpool-tottenham-1968-fa-cup-replay-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/444",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-tottenham-hotspur-12-march-1968-212701/",
+          "provider": "11 v 11",
+          "claims": "Independent replay identity/result.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1968-04-06",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "score": "1–2",
+      "opposition": "Manchester United",
+      "competition": "First Division",
+      "title": "Liverpool answer Best and win at Old Trafford",
+      "slug": "manchester-united-liverpool-1968-comeback",
+      "editorialReason": "An early deficit becomes an away win over title rivals, leaving Liverpool two points off the lead with games in hand during the season’s decisive stage.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/manchester-united-liverpool-1968-comeback-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/448",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/manchester-united-v-liverpool-06-april-1968-79688/",
+          "provider": "11 v 11",
+          "claims": "Independent identity/result/scorers; attendance conflicts and will be omitted.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1968-04-18",
+      "home": "Liverpool",
+      "away": "West Bromwich Albion",
+      "score": "1–2",
+      "opposition": "West Bromwich Albion",
+      "competition": "FA Cup",
+      "title": "West Brom end the long cup tie at Maine Road",
+      "slug": "liverpool-west-brom-1968-second-replay",
+      "editorialReason": "The neutral second replay closes a nine-match FA Cup campaign without a semi-final place; Astle, Hateley and Clark supply a clear three-goal development.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/liverpool-west-brom-1968-second-replay-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/453",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1968-05-11",
+      "home": "Liverpool",
+      "away": "Nottingham Forest",
+      "score": "6–1",
+      "opposition": "Nottingham Forest",
+      "competition": "First Division",
+      "title": "Hateley’s hat-trick takes Liverpool into third",
+      "slug": "liverpool-nottingham-forest-1968-six-goals",
+      "editorialReason": "A first-half deficit becomes six goals in the final home match, Hateley completes another hat-trick and Liverpool secure at least third while retaining a chance of second before the last away fixture.",
+      "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/liverpool-nottingham-forest-1968-six-goals-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/458",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved match identity, result, scoring sequence and selection; narrative action requires separately scoped evidence.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/tony-hateley",
+          "provider": "Liverpool FC",
+          "claims": "Season 16 league/8 FA Cup/3 Europe totals and 27 overall.",
+          "confidence": "High"
+        }
+      ]
+    }
+  ]
+}
