@@ -9239,6 +9239,400 @@
         "duplicateResolution": "No existing full career biography found.",
         "blockers": []
       }
+    },
+    {
+      "id": "john-barnes-career-biography",
+      "personId": "john-barnes",
+      "event": "John Barnes",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/john-barnes.md",
+      "originalDraftId": "libfile_864282ed48ec819182609d29c0ecd073",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/John-Barnes-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "john-barnes",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/John-Barnes-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "John-Barnes-biography.md",
+          "libraryFileId": "libfile_864282ed48ec819182609d29c0ecd073",
+          "modifiedAt": "2026-09-25T10:41:15.060209Z",
+          "sha256": "0477548cbfb0ba9c4ef546e78544c40b2553da83ec61f05a1de95801f388b0b6"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "jordan-henderson-career-biography",
+      "personId": "jordan-henderson",
+      "event": "Jordan Henderson: the captain who earned his place",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/jordan-henderson.md",
+      "originalDraftId": "libfile_5fa8ab00a51881918418a33af0e42374",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Jordan-Henderson-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "jordan-henderson",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Jordan-Henderson-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Jordan-Henderson-biography.md",
+          "libraryFileId": "libfile_5fa8ab00a51881918418a33af0e42374",
+          "modifiedAt": "2026-09-27T10:40:42.774507Z",
+          "sha256": "60b8be526fc0d95c9a3b48c0242df674cde069d2e1d609f93e0cc7c7b09c7d79"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "kenny-dalglish-career-biography",
+      "personId": "kenny-dalglish",
+      "event": "Kenny Dalglish: a life at Liverpool",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/kenny-dalglish.md",
+      "originalDraftId": "libfile_5c6cc9bf464c8191ba9e23d602d17f16",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Kenny-Dalglish-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "kenny-dalglish",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Kenny-Dalglish-factual-audit.md",
+          "docs/editorial/drafts/biographies/Kenny-Dalglish-publication-notes.md",
+          "docs/editorial/drafts/biographies/Kenny-Dalglish-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Kenny-Dalglish-biography.md",
+          "libraryFileId": "libfile_5c6cc9bf464c8191ba9e23d602d17f16",
+          "modifiedAt": "2026-09-27T11:59:59.389306Z",
+          "sha256": "8d7cc2cd11c1d376b3270b0c4c5f3bfb02e4828d01e40e92888ca4f8474438e5"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "kevin-keegan-career-biography",
+      "personId": "kevin-keegan",
+      "event": "Kevin Keegan: From Shankly’s rebuilding to Rome",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/kevin-keegan.md",
+      "originalDraftId": "libfile_27d71f9eff2081918770ce3713dcb929",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Kevin-Keegan-factual-audit-and-metadata.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "kevin-keegan",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Kevin-Keegan-factual-audit-and-metadata.md",
+          "docs/editorial/drafts/biographies/Kevin-Keegan-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Kevin-Keegan-biography.md",
+          "libraryFileId": "libfile_27d71f9eff2081918770ce3713dcb929",
+          "modifiedAt": "2026-09-25T11:19:33.524988Z",
+          "sha256": "08ae618c6391829ad30db50e13c19e083ef9fe41456dae3ec5de2a3e27dc8b20"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "mark-lawrenson-career-biography",
+      "personId": "mark-lawrenson",
+      "event": "Mark Lawrenson",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/mark-lawrenson.md",
+      "originalDraftId": "libfile_c59259650f688191a917dc03d1abd549",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Mark-Lawrenson-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "mark-lawrenson",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Mark-Lawrenson-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Mark-Lawrenson-biography.md",
+          "libraryFileId": "libfile_c59259650f688191a917dc03d1abd549",
+          "modifiedAt": "2026-09-25T11:21:15.072467Z",
+          "sha256": "94e8932e2246823b6ac6aff69eae42663d8465a1cfbb2100afedc2badc531357"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "mohamed-salah-career-biography",
+      "personId": "mohamed-salah",
+      "event": "Mohamed Salah",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/mohamed-salah.md",
+      "originalDraftId": "libfile_923f97a0416c81919e9b2a78bb1bae6c",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Mohamed-Salah-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "mohamed-salah",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Mohamed-Salah-publication-notes.md",
+          "docs/editorial/drafts/biographies/Mohamed-Salah-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Mohamed-Salah-biography.md",
+          "libraryFileId": "libfile_923f97a0416c81919e9b2a78bb1bae6c",
+          "modifiedAt": "2026-09-27T11:54:33.486336Z",
+          "sha256": "1faf3d3baebbe5c6ff2fa67ea73be9274896a23cc2caa30f842a2671043ec871"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "peter-beardsley-career-biography",
+      "personId": "peter-beardsley",
+      "event": "Peter Beardsley: four seasons at the heart of Liverpool’s attack",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/peter-beardsley.md",
+      "originalDraftId": "libfile_06554a67d0b08191a9b8cc698c0593a1",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Peter-Beardsley-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "peter-beardsley",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Peter-Beardsley-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Peter-Beardsley-biography.md",
+          "libraryFileId": "libfile_06554a67d0b08191a9b8cc698c0593a1",
+          "modifiedAt": "2026-09-25T11:31:57.836336Z",
+          "sha256": "8e6c0fbd4e1901591fdcbbafba7ce9e97702ace3763f8ee2e83fe222b275b004"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "phil-neal-career-biography",
+      "personId": "phil-neal",
+      "event": "Phil Neal",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/phil-neal.md",
+      "originalDraftId": "libfile_5ef28253cf1c8191b954d855c72cef6a",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Phil-Neal-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "phil-neal",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Phil-Neal-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Phil-Neal-biography.md",
+          "libraryFileId": "libfile_5ef28253cf1c8191b954d855c72cef6a",
+          "modifiedAt": "2026-09-25T11:32:05.906308Z",
+          "sha256": "72389cc210ff0d7581b70479979b53f2a86574d48d69d88ffd391f72d058829f"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "ray-clemence-career-biography",
+      "personId": "ray-clemence",
+      "event": "Ray Clemence: the goalkeeper behind Liverpool’s rise",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/ray-clemence.md",
+      "originalDraftId": "libfile_e593035c564081918a26247329da5c92",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Ray-Clemence-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "ray-clemence",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Ray-Clemence-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Ray-Clemence-biography.md",
+          "libraryFileId": "libfile_e593035c564081918a26247329da5c92",
+          "modifiedAt": "2026-09-27T10:39:08.939498Z",
+          "sha256": "410ec35a3baddbc5cebaa903d8ba7ab9c029abe501d9ccb423bf574fc4833697"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "ray-kennedy-career-biography",
+      "personId": "ray-kennedy",
+      "event": "Ray Kennedy: the forward who became essential to Paisley’s Liverpool",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/ray-kennedy.md",
+      "originalDraftId": "libfile_7d596f7888dc8191bf189f1fce49db3d",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Ray-Kennedy-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "ray-kennedy",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Ray-Kennedy-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Ray-Kennedy-biography.md",
+          "libraryFileId": "libfile_7d596f7888dc8191bf189f1fce49db3d",
+          "modifiedAt": "2026-09-27T10:40:06.279246Z",
+          "sha256": "24ed930454530aace3150d606d72e1d7dbdd5b1d0c23dabdd06aea2eb7e8135d"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
     }
   ]
 }
