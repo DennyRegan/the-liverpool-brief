@@ -9864,7 +9864,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T21:04:35.478378Z",
+  "updatedAt": "2026-10-01T21:10:35.486644Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -17190,7 +17190,7 @@
         "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1966-charity-shield.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17233,7 +17233,7 @@
         "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1966-ball-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17319,7 +17319,7 @@
         "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-leeds-1966-five-goals.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17448,7 +17448,7 @@
         "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-chelsea-1966-boxing-day-lead.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17491,7 +17491,7 @@
         "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-stoke-1967-hughes-debut.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17577,7 +17577,7 @@
         "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-blackpool-1967-season-finale.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
