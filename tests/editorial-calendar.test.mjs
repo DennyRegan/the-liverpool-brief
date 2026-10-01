@@ -11,7 +11,7 @@ const load = () => JSON.parse(fs.readFileSync(calendarPath, 'utf8'));
 test('repository calendar validates without imposing a fixed writing or approval count', () => {
   const rows = validateCalendar(load());
   assert.ok(rows.length > 0);
-  assert.ok(rows.every(e => e.personId || (e.featuredWeek && e.historicalEventDate)));
+  assert.ok(rows.every(e => e.personId || (e.matchRecovery && e.historicalEventDate) || (e.featuredWeek && e.historicalEventDate)));
 });
 
 test('recovered manuscripts retain their exact bytes below added metadata', () => {
@@ -60,6 +60,7 @@ test('unpublished draft relationship metadata receives the existing Archive stru
   try {
     fs.cpSync('content', path.join(root, 'content'), { recursive: true });
     fs.cpSync('docs/editorial', path.join(root, 'docs/editorial'), { recursive: true });
+    fs.cpSync('pipeline/output/match', path.join(root, 'pipeline/output/match'), { recursive: true });
     const calendar = load();
     const row = calendar.entries.find(e => e.draftPath);
     const file = path.join(root, row.draftPath);
@@ -76,6 +77,6 @@ test('unpublished draft relationship metadata receives the existing Archive stru
       assert.throws(() => validateCalendar(calendar, root), JSON.stringify(changes));
     }
     fs.writeFileSync(file, matter.stringify(original.content, original.data));
-    assert.equal(validateCalendar(calendar, root).length, calendar.entries.length + (calendar.biographies?.length ?? 0));
+    assert.equal(validateCalendar(calendar, root).length, calendar.entries.length + (calendar.biographies?.length ?? 0) + (calendar.matches?.length ?? 0));
   } finally { fs.rmSync(root, { recursive: true, force: true }); }
 });

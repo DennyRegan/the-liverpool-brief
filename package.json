@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "validate:calendar": "node scripts/validate-editorial-calendar.mjs",
+    "inventory:matches": "node scripts/match-report-inventory.mjs",
     "dev": "node scripts/dev.mjs",
     "build": "node scripts/validate-history.mjs && next build",
     "start": "next start",

@@ -117,7 +117,10 @@ export function validateCalendar(calendar, root = process.cwd()) {
       if (e.status !== 'published') {
         assert.ok(!Object.hasOwn(article.data, 'date'), `${e.id}: recovered draft has publication date`);
         assert.ok(!articles.has(`/archive/${article.data.slug}`), `${e.id}: recovered unpublished slug is public`);
-        assert.equal(m.reviewRequired, true, `${e.id}: unreviewed recovery requires review`);
+        if (e.status !== 'approved') assert.equal(m.reviewRequired, true, `${e.id}: unreviewed recovery requires review`);
+        if (articlePath.startsWith('docs/editorial/drafts/match-recovery/')) {
+          assert.equal(article.data.slug, path.basename(articlePath, '.md'), `${e.id}: recovered filename/slug mismatch`);
+        }
       }
       if (e.status === 'approved') assert.equal(m.blockers.length, 0, `${e.id}: unresolved match approval blockers`);
       if (m.pipelinePredecessor) assert.ok(fs.existsSync(path.join(root, m.pipelinePredecessor)), `${e.id}: pipeline predecessor missing`);
@@ -159,7 +162,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
       if (e.historicalEventDate) assert.equal(article.historicalEventDate, e.historicalEventDate, `${e.id}: published date mismatch`);
     }
   }
-  return [...entries, ...biographies];
+  return [...entries, ...biographies, ...matches];
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {

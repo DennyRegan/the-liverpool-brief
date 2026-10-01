@@ -61,9 +61,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Cissé and Baroš give Liverpool a winning start against Monaco",
+        "matchLabel": "Liverpool 2–0 AS Monaco",
         "opposition": "AS Monaco",
-        "score": null,
+        "score": "2–0",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-monaco-champions-league-2004.md.txt"
         ],
@@ -171,9 +171,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Nine scorers as Liverpool put eleven past Strømsgodset",
+        "matchLabel": "Liverpool 11–0 Strømsgodset",
         "opposition": "Strømsgodset",
-        "score": null,
+        "score": "11–0",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/originals/1974-75/liverpool-stromsgodset-record-win-1974.md.txt"
         ],
@@ -220,9 +220,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Saunders scores four as Liverpool return to Europe",
+        "matchLabel": "Liverpool 6–1 Kuusysi Lahti",
         "opposition": "Kuusysi Lahti",
-        "score": null,
+        "score": "6–1",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/originals/1991-92/saunders-four-kuusysi-european-return-1991.md.txt"
         ],
@@ -8359,9 +8359,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": true,
-        "matchLabel": "Six at Selhurst Park: Evans starts his first full season in style",
+        "matchLabel": "Crystal Palace 1–6 Liverpool",
         "opposition": "Crystal Palace",
-        "score": null,
+        "score": "1–6",
         "sourceFiles": [
           "docs/editorial/drafts/1994-08-20-crystal-palace-liverpool-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1994-95/1994-08-20-crystal-palace-liverpool.md.txt"
@@ -8411,9 +8411,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": true,
-        "matchLabel": "Four minutes, 33 seconds: Fowler's record hat-trick against Arsenal",
+        "matchLabel": "Liverpool 3–0 Arsenal",
         "opposition": "Arsenal",
-        "score": null,
+        "score": "3–0",
         "sourceFiles": [
           "docs/editorial/drafts/1994-08-28-liverpool-arsenal-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1994-95/1994-08-28-liverpool-arsenal.md.txt"
@@ -8463,9 +8463,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": true,
-        "matchLabel": "Rush's last Liverpool hat-trick knocks Blackburn out of the League Cup",
-        "opposition": "Rush's last Liverpool hat-trick knocks Blackburn out of the League Cup",
-        "score": null,
+        "matchLabel": "Blackburn Rovers 1–3 Liverpool",
+        "opposition": "Blackburn Rovers",
+        "score": "1–3",
         "sourceFiles": [
           "docs/editorial/drafts/1994-11-30-blackburn-rovers-liverpool-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1994-95/1994-11-30-blackburn-rovers-liverpool.md.txt"
@@ -8482,7 +8482,7 @@
         "articleBodySha256": "f1ef99e4680d99965f70e0a7437206f7a5bf86f7c9d8323e147161e5a0ffcb28",
         "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
         "blockers": [
-          "Canonical opposition entity not available for Rush's last Liverpool hat-trick knocks Blackburn out of the League Cup; identity retained as a label, no ID invented."
+          "Canonical opposition entity not available for Blackburn Rovers; identity retained as a label, no ID invented."
         ]
       }
     },
@@ -8517,9 +8517,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": true,
-        "matchLabel": "Rush finishes the free-kick routine that takes Liverpool past Arsenal",
+        "matchLabel": "Liverpool 1–0 Arsenal",
         "opposition": "Arsenal",
-        "score": null,
+        "score": "1–0",
         "sourceFiles": [
           "docs/editorial/drafts/1995-01-11-liverpool-arsenal-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1994-95/1995-01-11-liverpool-arsenal.md.txt"
@@ -8569,9 +8569,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": true,
-        "matchLabel": "Fowler sends Liverpool back to Wembley",
+        "matchLabel": "Crystal Palace 0–1 Liverpool",
         "opposition": "Crystal Palace",
-        "score": null,
+        "score": "0–1",
         "sourceFiles": [
           "docs/editorial/drafts/1995-03-08-crystal-palace-liverpool-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1994-95/1995-03-08-crystal-palace-liverpool.md.txt"
@@ -8621,9 +8621,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": true,
-        "matchLabel": "Klinsmann's late winner ends Liverpool's FA Cup run",
+        "matchLabel": "Liverpool 1–2 Tottenham Hotspur",
         "opposition": "Tottenham Hotspur",
-        "score": null,
+        "score": "1–2",
         "sourceFiles": [
           "docs/editorial/drafts/1995-03-11-liverpool-tottenham-hotspur-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1994-95/1995-03-11-liverpool-tottenham-hotspur.md.txt"
@@ -8673,9 +8673,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": true,
-        "matchLabel": "Redknapp puts Liverpool on course to beat Manchester United",
+        "matchLabel": "Liverpool 2–0 Manchester United",
         "opposition": "Manchester United",
-        "score": null,
+        "score": "2–0",
         "sourceFiles": [
           "docs/editorial/drafts/1995-03-19-liverpool-manchester-united-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1994-95/1995-03-19-liverpool-manchester-united.md.txt"
@@ -8725,9 +8725,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": true,
-        "matchLabel": "McManaman's Wembley double wins the League Cup for Liverpool",
-        "opposition": "McManaman's Wembley double wins the League Cup for Liverpool",
-        "score": null,
+        "matchLabel": "Liverpool 2–1 Bolton Wanderers",
+        "opposition": "Bolton Wanderers",
+        "score": "2–1",
         "sourceFiles": [
           "docs/editorial/drafts/1995-04-02-liverpool-bolton-wanderers-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1994-95/1995-04-02-liverpool-bolton-wanderers.md.txt"
@@ -8744,7 +8744,7 @@
         "articleBodySha256": "4da04a0dbea9949b4c4cbb02ec2a40af28202160bfa4c0715869f5c65c33aaaf",
         "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
         "blockers": [
-          "Canonical opposition entity not available for McManaman's Wembley double wins the League Cup for Liverpool; identity retained as a label, no ID invented."
+          "Canonical opposition entity not available for Bolton Wanderers; identity retained as a label, no ID invented."
         ]
       }
     },
@@ -8779,9 +8779,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": true,
-        "matchLabel": "Liverpool win, Blackburn celebrate: Anfield's extraordinary final day",
-        "opposition": "Liverpool win, Blackburn celebrate: Anfield's extraordinary final day",
-        "score": null,
+        "matchLabel": "Liverpool 2–1 Blackburn Rovers",
+        "opposition": "Blackburn Rovers",
+        "score": "2–1",
         "sourceFiles": [
           "docs/editorial/drafts/1995-05-14-liverpool-blackburn-rovers-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1994-95/1995-05-14-liverpool-blackburn-rovers.md.txt"
@@ -8798,7 +8798,7 @@
         "articleBodySha256": "a62c1eb05d37cf45c4037ab1e115db524510e693621d5c8f78183317931d7596",
         "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
         "blockers": [
-          "Canonical opposition entity not available for Liverpool win, Blackburn celebrate: Anfield's extraordinary final day; identity retained as a label, no ID invented."
+          "Canonical opposition entity not available for Blackburn Rovers; identity retained as a label, no ID invented."
         ]
       }
     },
@@ -9014,9 +9014,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Collymore wins on his Liverpool debut",
-        "opposition": "Collymore wins on his Liverpool debut",
-        "score": null,
+        "matchLabel": "Liverpool 1–0 Sheffield Wednesday",
+        "opposition": "Sheffield Wednesday",
+        "score": "1–0",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1995-08-19-liverpool-sheffield-wednesday-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1995-08-19-liverpool-sheffield-wednesday.md.txt"
@@ -9033,7 +9033,7 @@
         "articleBodySha256": "1cf14d0f02c5cf545bc6f0eee5825222613586e78cb36122f01c9b762b7cf799",
         "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
         "blockers": [
-          "Canonical opposition entity not available for Collymore wins on his Liverpool debut; identity retained as a label, no ID invented."
+          "Canonical opposition entity not available for Sheffield Wednesday; identity retained as a label, no ID invented."
         ]
       }
     },
@@ -9072,9 +9072,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Fowler scores four against Bolton",
-        "opposition": "Fowler scores four against Bolton",
-        "score": null,
+        "matchLabel": "Liverpool 5–2 Bolton Wanderers",
+        "opposition": "Bolton Wanderers",
+        "score": "5–2",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1995-09-23-liverpool-bolton-wanderers-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1995-09-23-liverpool-bolton-wanderers.md.txt"
@@ -9091,7 +9091,7 @@
         "articleBodySha256": "c4928a48595999393cea5bfc0b8c41150f0e0b17eebef6e0018b6982322ca765",
         "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
         "blockers": [
-          "Canonical opposition entity not available for Fowler scores four against Bolton; identity retained as a label, no ID invented."
+          "Canonical opposition entity not available for Bolton Wanderers; identity retained as a label, no ID invented."
         ]
       }
     },
@@ -9130,9 +9130,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Fowler's double on Cantona's return",
+        "matchLabel": "Manchester United 2–2 Liverpool",
         "opposition": "Manchester United",
-        "score": null,
+        "score": "2–2",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1995-10-01-manchester-united-liverpool-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1995-10-01-manchester-united-liverpool.md.txt"
@@ -9186,9 +9186,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Liverpool put six past Manchester City",
+        "matchLabel": "Liverpool 6–0 Manchester City",
         "opposition": "Manchester City",
-        "score": null,
+        "score": "6–0",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1995-10-28-liverpool-manchester-city-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1995-10-28-liverpool-manchester-city.md.txt"
@@ -9242,9 +9242,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Fowler scores twice to beat Manchester United",
+        "matchLabel": "Liverpool 2–0 Manchester United",
         "opposition": "Manchester United",
-        "score": null,
+        "score": "2–0",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1995-12-17-liverpool-manchester-united-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1995-12-17-liverpool-manchester-united.md.txt"
@@ -9298,9 +9298,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Fowler's hat-trick, Collymore's three assists",
+        "matchLabel": "Liverpool 3–1 Arsenal",
         "opposition": "Arsenal",
-        "score": null,
+        "score": "3–1",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1995-12-23-liverpool-arsenal-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1995-12-23-liverpool-arsenal.md.txt"
@@ -9354,9 +9354,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Ruddock and Fowler double up as Liverpool put five past Leeds",
+        "matchLabel": "Liverpool 5–0 Leeds United",
         "opposition": "Leeds United",
-        "score": null,
+        "score": "5–0",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1996-01-20-liverpool-leeds-united-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1996-01-20-liverpool-leeds-united.md.txt"
@@ -9410,9 +9410,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Collymore's double helps Liverpool survive a Blackburn fightback",
-        "opposition": "Collymore's double helps Liverpool survive a Blackburn fightback",
-        "score": null,
+        "matchLabel": "Blackburn Rovers 2–3 Liverpool",
+        "opposition": "Blackburn Rovers",
+        "score": "2–3",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1996-02-24-blackburn-rovers-liverpool-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1996-02-24-blackburn-rovers-liverpool.md.txt"
@@ -9429,7 +9429,7 @@
         "articleBodySha256": "82dab56b00a7b3385a3d357a3046b64bc1bb49da458700e357f8040ae062f09d",
         "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
         "blockers": [
-          "Canonical opposition entity not available for Collymore's double helps Liverpool survive a Blackburn fightback; identity retained as a label, no ID invented."
+          "Canonical opposition entity not available for Blackburn Rovers; identity retained as a label, no ID invented."
         ]
       }
     },
@@ -9468,9 +9468,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Fowler finishes Villa's challenge as Liverpool reach Wembley",
+        "matchLabel": "Liverpool 3–0 Aston Villa",
         "opposition": "Aston Villa",
-        "score": null,
+        "score": "3–0",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1996-03-31-liverpool-aston-villa-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1996-03-31-liverpool-aston-villa.md.txt"
@@ -9524,9 +9524,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Collymore settles seven-goal Anfield contest in stoppage time",
+        "matchLabel": "Liverpool 4–3 Newcastle United",
         "opposition": "Newcastle United",
-        "score": null,
+        "score": "4–3",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1996-04-03-liverpool-newcastle-united-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1996-04-03-liverpool-newcastle-united.md.txt"
@@ -9580,9 +9580,9 @@
       "matchRecovery": {
         "completed": true,
         "reviewRequired": false,
-        "matchLabel": "Cantona's late goal ends Liverpool's FA Cup challenge",
+        "matchLabel": "Liverpool 0–1 Manchester United",
         "opposition": "Manchester United",
-        "score": null,
+        "score": "0–1",
         "sourceFiles": [
           "docs/editorial/drafts/match-recovery/evidence/1996-05-11-liverpool-manchester-united-evidence.md",
           "docs/editorial/drafts/match-recovery/originals/1995-96/1996-05-11-liverpool-manchester-united.md.txt"
