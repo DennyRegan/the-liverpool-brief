@@ -8236,7 +8236,24 @@
           "scope": "Repository-derived draft metadata and canonical identity checks; explicit publication and authorship gates retained."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "migration": {
+        "personId": "steven-gerrard",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/steven-gerrard-publication-notes.md",
+          "docs/editorial/drafts/steven-gerrard-research-audit.md"
+        ],
+        "sourceManuscript": {
+          "name": "Steven-Gerrard-biography.md",
+          "libraryFileId": "libfile_18aa9ef5f8bc8191886bdbd432d4ad49",
+          "modifiedAt": "2026-09-27T10:44:58.850772Z",
+          "sha256": "0aa958996b10b91375cfaf0199acffb3d87b91500319cbfe48a15ee16defba94"
+        },
+        "duplicateResolution": "Repository draft and recovered manuscript agree; repository retained.",
+        "blockers": []
+      }
     },
     {
       "id": "james-milner-career-biography",
@@ -8271,8 +8288,7 @@
         "completed": true,
         "reviewRequired": true,
         "sourceFiles": [
-          "docs/editorial/drafts/james-milner-research-record.md",
-          "docs/editorial/drafts/biographies/james-milner-recovered-version.md"
+          "docs/editorial/drafts/james-milner-research-record.md"
         ],
         "sourceManuscript": {
           "name": "James-Milner-biography.md",
@@ -8280,10 +8296,8 @@
           "modifiedAt": "2026-09-27T10:44:49.296893Z",
           "sha256": "9491d97c79e21d07ad8d45e5dcb6d749f30a0de10f8fcf69257b950caffa7653"
         },
-        "duplicateResolution": "Repository draft retained; differing recovered manuscript preserved for authority review.",
-        "blockers": [
-          "Confirm authoritative version against preserved recovered manuscript."
-        ]
+        "duplicateResolution": "Repository draft and recovered manuscript agree after normalising the existing title heading; repository retained.",
+        "blockers": []
       }
     },
     {
@@ -9632,6 +9646,461 @@
         },
         "duplicateResolution": "No existing full career biography found.",
         "blockers": []
+      }
+    },
+    {
+      "id": "robbie-fowler-career-biography",
+      "personId": "robbie-fowler",
+      "event": "Robbie Fowler: Liverpool’s instinctive goalscorer",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/robbie-fowler.md",
+      "originalDraftId": "libfile_b8729f15e27c8191a30fbfa11a78fc1a",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Robbie-Fowler-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "robbie-fowler",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Robbie-Fowler-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Robbie-Fowler-biography.md",
+          "libraryFileId": "libfile_b8729f15e27c8191a30fbfa11a78fc1a",
+          "modifiedAt": "2026-09-25T10:34:52.528712Z",
+          "sha256": "4362121ba6cacfb8e206be31f76b379ad8fc2c513255ff578b9bd8d1e79dd6f6"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "roberto-firmino-career-biography",
+      "personId": "roberto-firmino",
+      "event": "Roberto Firmino: the forward who made Liverpool work",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/roberto-firmino.md",
+      "originalDraftId": "libfile_11680bf82ee881918f34d2716e3a252c",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Roberto-Firmino-factual-audit-and-metadata.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "roberto-firmino",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Roberto-Firmino-factual-audit-and-metadata.md",
+          "docs/editorial/drafts/biographies/Roberto-Firmino-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Roberto-Firmino-biography.md",
+          "libraryFileId": "libfile_11680bf82ee881918f34d2716e3a252c",
+          "modifiedAt": "2026-09-27T10:39:40.838569Z",
+          "sha256": "059301c849569e8438ad755ae9b7357e5faa01b14241563899d8800172890fcb"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "ronnie-moran-career-biography",
+      "personId": "ronnie-moran",
+      "event": "Ronnie Moran: A lifetime at Liverpool",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/ronnie-moran.md",
+      "originalDraftId": "libfile_38d3cce6c05081919a27e558f47a0ad2",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Ronnie-Moran-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "ronnie-moran",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Ronnie-Moran-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Ronnie-Moran.md",
+          "libraryFileId": "libfile_38d3cce6c05081919a27e558f47a0ad2",
+          "modifiedAt": "2026-09-25T10:52:26.511064Z",
+          "sha256": "98e75673798d5c596678f363b8e088532bfccd1dede6ab146483ad5cb3d9459b"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "ronnie-whelan-career-biography",
+      "personId": "ronnie-whelan",
+      "event": "Ronnie Whelan: From Wembley goalscorer to Liverpool’s midfield organiser",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/ronnie-whelan.md",
+      "originalDraftId": "libfile_73959725f4e8819190ed39026b20ea28",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Ronnie-Whelan-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "ronnie-whelan",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Ronnie-Whelan-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Ronnie-Whelan-biography.md",
+          "libraryFileId": "libfile_73959725f4e8819190ed39026b20ea28",
+          "modifiedAt": "2026-09-25T11:09:36.216138Z",
+          "sha256": "1186bc67bde5178a8248864829de8bea54cfce5ab45ef0569fb534a55302bff0"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "sadio-mane-career-biography",
+      "personId": "sadio-mane",
+      "event": "Sadio Mané",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/sadio-mane.md",
+      "originalDraftId": "libfile_eef2356b52388191adbd66746a319fbf",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Sadio-Mane-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "sadio-mane",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Sadio-Mane-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Sadio-Mane-biography.md",
+          "libraryFileId": "libfile_eef2356b52388191adbd66746a319fbf",
+          "modifiedAt": "2026-09-25T10:25:59.776019Z",
+          "sha256": "c9def5ee6a797804dd6a79fc3ca0ceb98e8a66f96f446f2892c7ca6105536998"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "sammy-lee-career-biography",
+      "personId": "sammy-lee",
+      "event": "Sammy Lee: Liverpool’s ever-present",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/sammy-lee.md",
+      "originalDraftId": "libfile_fa9c316a69148191bebf9d56b618581a",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Sammy-Lee-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "sammy-lee",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Sammy-Lee-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Sammy-Lee-biography.md",
+          "libraryFileId": "libfile_fa9c316a69148191bebf9d56b618581a",
+          "modifiedAt": "2026-09-25T10:21:00.313684Z",
+          "sha256": "fb979814b4429315c5efb9276a7903d1ba93f4634c3f96582bdb718ce84e079c"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "steve-heighway-career-biography",
+      "personId": "steve-heighway",
+      "event": "Steve Heighway: from the wing to the academy",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/steve-heighway.md",
+      "originalDraftId": "libfile_ef32ece9d7a08191b9b01e83969f19c9",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Steve-Heighway-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "steve-heighway",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Steve-Heighway-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Steve-Heighway-biography.md",
+          "libraryFileId": "libfile_ef32ece9d7a08191b9b01e83969f19c9",
+          "modifiedAt": "2026-09-25T11:19:33.536167Z",
+          "sha256": "5cc56e7be754d76f1c784807bbd13d8f5af2539c44514b8ec35e696e416ca6af"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "steve-mcmahon-career-biography",
+      "personId": "steve-mcmahon",
+      "event": "Steve McMahon",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/steve-mcmahon.md",
+      "originalDraftId": "libfile_1b6919f118888191ac86185086a1d3b4",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Steve-McMahon-Research-Record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "steve-mcmahon",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Steve-McMahon-Research-Record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Steve-McMahon-Biography.md",
+          "libraryFileId": "libfile_1b6919f118888191ac86185086a1d3b4",
+          "modifiedAt": "2026-09-25T11:33:33.724775Z",
+          "sha256": "486b9fe4f30262f086f381e2eef68e5f2f43fbda3d4d001f8f8ea5e6911663af"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "steve-mcmanaman-career-biography",
+      "personId": "steve-mcmanaman",
+      "event": "Steve McManaman",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/steve-mcmanaman.md",
+      "originalDraftId": "libfile_67155aadbd2c819180a0c3e441cebb11",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Steve-McManaman-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "steve-mcmanaman",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Steve-McManaman-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Steve-McManaman-biography.md",
+          "libraryFileId": "libfile_67155aadbd2c819180a0c3e441cebb11",
+          "modifiedAt": "2026-09-25T11:20:42.826384Z",
+          "sha256": "2766b10613d311b576f4424b0a70fb359bb274565b066a0fdee71f8241a9d912"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "alan-hansen-career-biography",
+      "personId": "alan-hansen",
+      "event": "Alan Hansen: Liverpool career biography",
+      "selection": "selected",
+      "status": "blocked",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Alan-Hansen-research-record.md",
+          "confidence": "high",
+          "scope": "Recovery inventory only. No manuscript recreated."
+        }
+      ],
+      "migration": {
+        "personId": "alan-hansen",
+        "completed": false,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Alan-Hansen-research-record.md"
+        ],
+        "duplicateResolution": "No full career article found in main, drafts or remote branch filename inventories.",
+        "blockers": [
+          "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved."
+        ]
+      }
+    },
+    {
+      "id": "terry-mcdermott-career-biography",
+      "personId": "terry-mcdermott",
+      "event": "Terry McDermott: Liverpool career biography",
+      "selection": "selected",
+      "status": "blocked",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Terry-McDermott-research-record.md",
+          "confidence": "high",
+          "scope": "Recovery inventory only. No manuscript recreated."
+        }
+      ],
+      "migration": {
+        "personId": "terry-mcdermott",
+        "completed": false,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Terry-McDermott-research-record.md"
+        ],
+        "duplicateResolution": "No full career article found in main, drafts or remote branch filename inventories.",
+        "blockers": [
+          "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved."
+        ]
+      }
+    },
+    {
+      "id": "sami-hyypia-career-biography",
+      "personId": "sami-hyypia",
+      "event": "Sami Hyypiä: Liverpool career biography",
+      "selection": "selected",
+      "status": "blocked",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "NOT LOCATED: no completed manuscript or research file found; retrieved prior task context reports failed research/writing attempts.",
+      "evidence": [
+        {
+          "location": "Liverpool Brief Biography Writer: Write Sami Hyypia Biography, 25 September 2026",
+          "confidence": "unverified",
+          "scope": "Recovery inventory only. No manuscript recreated."
+        }
+      ],
+      "migration": {
+        "personId": "sami-hyypia",
+        "completed": false,
+        "reviewRequired": true,
+        "sourceFiles": [],
+        "duplicateResolution": "No full career article found in main, drafts or remote branch filename inventories.",
+        "blockers": [
+          "NOT LOCATED: no completed manuscript or research file found; retrieved prior task context reports failed research/writing attempts."
+        ]
       }
     }
   ]
