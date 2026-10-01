@@ -111,7 +111,8 @@ test('missing opposition metadata blocks a recovered report even if the old bloc
     assert.equal(changed.technicallyReady, false);
     assert.ok(changed.blockers.includes('Canonical opposition is missing.'));
     fs.writeFileSync(file, original);
-    const legacy = q.entries.find(e => !e.recoveredFromWork);
+    const legacy = q.entries.find(e => !e.recoveredFromWork && !e.newlyResearched);
+    assert.ok(legacy, 'Use untracked legacy stock for the duplicate-slug fixture');
     const legacyFile = path.join(root, legacy.canonicalDraftPath);
     const legacyArticle = matter(fs.readFileSync(legacyFile, 'utf8'));
     fs.writeFileSync(legacyFile, matter.stringify(legacyArticle.content, { ...legacyArticle.data, slug: e.slug }));

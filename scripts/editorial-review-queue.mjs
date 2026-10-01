@@ -75,7 +75,8 @@ export function getEditorialReviewQueue(kind, root = process.cwd()) {
       canonicalDraftPath: r.articlePath, draftPath: r.articlePath, status: r.status,
       completed: r.completed, unpublished: true, alreadyPublishedElsewhere: false,
       publishedPaths: r.publishedPaths, approval: r.approval,
-      recoveredFromWork: r.recoveredFromWork, calendarRowId: r.calendarRowId,
+      recoveredFromWork: r.recoveredFromWork, newlyResearched: r.newlyResearched,
+      calendarRowId: r.calendarRowId,
       blockers: [...r.blockers, ...draftBlockers(root, r.articlePath),
         ...(!r.oppositionIds.length ? ['Canonical opposition is missing.'] : []),
         ...(!r.competitionIds.length ? ['Canonical competition is missing.'] : [])],
@@ -86,7 +87,7 @@ export function getEditorialReviewQueue(kind, root = process.cwd()) {
   let rank = 0;
   entries = entries.map(e => {
     const blockers = [...e.blockers];
-    if (!e.completed) blockers.push('Completed manuscript has not been recovered.');
+    if (!e.completed) blockers.push('Completed manuscript is not recorded.');
     if (!['ready_for_review', 'approved'].includes(e.status)) blockers.push(`Editorial status is ${e.status}.`);
     if (slugCounts.get(e.slug) > 1) blockers.push('Duplicate unpublished slug.');
     const uniqueBlockers = [...new Set(blockers)];

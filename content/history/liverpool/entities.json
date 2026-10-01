@@ -2638,5 +2638,10 @@
     "id": "eastville-stadium",
     "label": "Eastville Stadium",
     "kind": "location"
+  },
+  {
+    "id": "charlie-hurley",
+    "label": "Charlie Hurley",
+    "kind": "person"
   }
 ]

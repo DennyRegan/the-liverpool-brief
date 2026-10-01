@@ -9864,7 +9864,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T19:07:00.933110Z",
+  "updatedAt": "2026-10-01T19:18:18.219485Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -14790,38 +14790,41 @@
       "event": "Liverpool 0–1 Southampton: Liddell bows out as Southampton spoil Milne’s debut",
       "historicalEventDate": "1960-08-31",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1960-08-31",
-        "claimedAt": "2026-10-01T19:07:00.933110Z",
-        "baseCommit": "95962d015fbf69c9788d589f586ab8e481edf866"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1960-61/liverpool-southampton-1960-liddell-final-appearance.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "Liddell’s final competitive appearance and Milne’s debut meet in one match during the difficult start to Shankly’s first full campaign.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1960-61/research/liverpool-southampton-1960-liddell-final-appearance-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1960-61/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1960-61",
         "season": "1960-61",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 0–1 Southampton",
         "opposition": "Southampton",
         "score": "0–1",
         "editorialReason": "Liddell’s final competitive appearance and Milne’s debut meet in one match during the difficult start to Shankly’s first full campaign.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1960-61/research/season-research.md"
+          "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "docs/editorial/drafts/1960s/1960-61/research/liverpool-southampton-1960-liddell-final-appearance-notes.md",
+          "docs/editorial/drafts/1960s/1960-61/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -14833,38 +14836,41 @@
       "event": "Liverpool 1–1 Luton Town: Leishman opens Liverpool’s League Cup account before Luton strike late",
       "historicalEventDate": "1960-10-19",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1960-10-19",
-        "claimedAt": "2026-10-01T19:07:00.933110Z",
-        "baseCommit": "95962d015fbf69c9788d589f586ab8e481edf866"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1960-61/liverpool-luton-1960-first-league-cup-match.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "First match in the new national competition; a late equaliser prevents victory and forces a replay.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1960-61/research/liverpool-luton-1960-first-league-cup-match-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1960-61/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1960-61",
         "season": "1960-61",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–1 Luton Town",
         "opposition": "Luton Town",
         "score": "1–1",
         "editorialReason": "First match in the new national competition; a late equaliser prevents victory and forces a replay.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1960-61/research/season-research.md"
+          "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "docs/editorial/drafts/1960s/1960-61/research/liverpool-luton-1960-first-league-cup-match-notes.md",
+          "docs/editorial/drafts/1960s/1960-61/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -14876,38 +14882,41 @@
       "event": "Liverpool 4–2 Sheffield United: Harrower’s hat-trick brings down the Second Division leaders",
       "historicalEventDate": "1960-11-26",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1960-11-26",
-        "claimedAt": "2026-10-01T19:07:00.933110Z",
-        "baseCommit": "95962d015fbf69c9788d589f586ab8e481edf866"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1960-61/liverpool-sheffield-united-1960-harrower-hat-trick.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "Autumn recovery brings victory over the leaders and eventual promotion rivals; a substantial Harrower performance merits coverage.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1960-61/research/liverpool-sheffield-united-1960-harrower-hat-trick-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1960-61/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1960-61",
         "season": "1960-61",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 4–2 Sheffield United",
         "opposition": "Sheffield United",
         "score": "4–2",
         "editorialReason": "Autumn recovery brings victory over the leaders and eventual promotion rivals; a substantial Harrower performance merits coverage.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1960-61/research/season-research.md"
+          "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "docs/editorial/drafts/1960s/1960-61/research/liverpool-sheffield-united-1960-harrower-hat-trick-notes.md",
+          "docs/editorial/drafts/1960s/1960-61/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -14919,38 +14928,41 @@
       "event": "Liverpool 0–2 Sunderland: Sunderland’s early double ends Liverpool’s FA Cup run",
       "historicalEventDate": "1961-01-28",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1961-01-28",
-        "claimedAt": "2026-10-01T19:07:00.933110Z",
-        "baseCommit": "95962d015fbf69c9788d589f586ab8e481edf866"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1960-61/liverpool-sunderland-1961-fa-cup-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "National cup elimination is an essential dimension of this near-promotion season; two early goals determine the tie.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1960-61/research/liverpool-sunderland-1961-fa-cup-exit-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1960-61/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1960-61",
         "season": "1960-61",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 0–2 Sunderland",
         "opposition": "Sunderland",
         "score": "0–2",
         "editorialReason": "National cup elimination is an essential dimension of this near-promotion season; two early goals determine the tie.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1960-61/research/season-research.md"
+          "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "docs/editorial/drafts/1960s/1960-61/research/liverpool-sunderland-1961-fa-cup-exit-notes.md",
+          "docs/editorial/drafts/1960s/1960-61/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -14962,38 +14974,41 @@
       "event": "Bristol Rovers 4–3 Liverpool: Lewis’s hat-trick cannot save Liverpool at Eastville",
       "historicalEventDate": "1961-04-04",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1961-04-04",
-        "claimedAt": "2026-10-01T19:07:00.933110Z",
-        "baseCommit": "95962d015fbf69c9788d589f586ab8e481edf866"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1960-61/bristol-rovers-liverpool-1961-lewis-hat-trick.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "Exceptional individual scoring inside a damaging Easter defeat illustrates the failing promotion challenge; no unsupported claim of mathematical elimination.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1960-61/research/bristol-rovers-liverpool-1961-lewis-hat-trick-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1960-61/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1960-61",
         "season": "1960-61",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Bristol Rovers 4–3 Liverpool",
         "opposition": "Bristol Rovers",
         "score": "4–3",
         "editorialReason": "Exceptional individual scoring inside a damaging Easter defeat illustrates the failing promotion challenge; no unsupported claim of mathematical elimination.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1960-61/research/season-research.md"
+          "docs/editorial/drafts/1960s/1960-61/research/season-research.md",
+          "docs/editorial/drafts/1960s/1960-61/research/bristol-rovers-liverpool-1961-lewis-hat-trick-notes.md",
+          "docs/editorial/drafts/1960s/1960-61/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -15017,7 +15032,7 @@
     {
       "id": "1960s-1960-61",
       "season": "1960-61",
-      "stage": "drafting",
+      "stage": "checkpointed",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
@@ -15030,13 +15045,13 @@
         "match-1961-04-04-bristol-rovers-liverpool-1961-lewis-hat-trick"
       ],
       "reusedPaths": [],
-      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete retrieved-source match reports and their factual audits."
+      "notes": "Five finished match reports; all source/claim audits and independent Astra review passed. No factual/entity blockers. Awaiting Denny review; no approval/publication/schedule.",
+      "nextStage": null
     },
     {
       "id": "1960s-1961-62",
       "season": "1961-62",
-      "stage": "not_started",
+      "stage": "season_research",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
