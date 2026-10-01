@@ -223,7 +223,10 @@ export function validateCalendar(calendar, root = process.cwd()) {
     for (const id of b.selectedRowIds) {
       const row = matches.find(r => r.id === id);
       assert.ok(row?.matchProduction?.batchId === b.id, `${b.id}: selection belongs to another batch`);
-      if (b.stage === 'checkpointed') assert.equal(row.status, 'ready_for_review', `${b.id}: unfinished checkpoint`);
+      if (b.stage === 'checkpointed') {
+        assert.ok(['ready_for_review', 'approved', 'published'].includes(row.status), `${b.id}: unfinished checkpoint`);
+        assert.equal(row.matchProduction.completed, true, `${b.id}: incomplete production checkpoint`);
+      }
     }
     if (b.stage === 'checkpointed') assert.equal(b.nextStage, null, `${b.id}: completed batch has remaining work`);
   }

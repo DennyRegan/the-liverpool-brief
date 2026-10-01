@@ -84,6 +84,12 @@ test('new-production stock rejects inferred approval, false completion, duplicat
     const duplicate = structuredClone(f.c);
     duplicate.matches.push({ ...duplicate.matches[index], id: 'duplicate-production-fixture' });
     assert.throws(() => validateCalendar(duplicate, f.root), /duplicate recovered match/);
+    // A completed production batch must remain valid when a later, real approval is recorded.
+    const approved = structuredClone(f.c);
+    approved.matches[index].status = 'approved';
+    approved.matches[index].approval = { by: 'Denny', recordedAt: '2026-10-01T12:00:00Z', evidence: 'Synthetic test fixture only.' };
+    approved.matches[index].matchProduction.reviewRequired = false;
+    assert.doesNotThrow(() => validateCalendar(approved, f.root));
     const file = path.join(f.root, f.row.draftPath);
     const a = matter(fs.readFileSync(file, 'utf8'));
     fs.writeFileSync(file, matter.stringify(a.content, { ...a.data, date: '2026-10-01' }));
