@@ -20,13 +20,13 @@
         {
           "url": "https://www.lfchistory.net/games/187",
           "provider": "LFChistory",
-          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "claims": "Match identity, scoring sequence and listed player involvement; the paragraph audit below distinguishes independently corroborated facts from single-record incident detail.",
           "confidence": "High"
         },
         {
           "url": "https://www.lfchistory.net/season-archive/games/5",
           "provider": "LFChistory",
-          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "claims": "Complete 47-match national competitive chronology, surrounding league results and cup route.",
           "confidence": "High"
         },
         {
@@ -46,6 +46,18 @@
           "provider": "Liverpool FC",
           "claims": "Thompson arrival from Preston and ever-present championship season.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/blackburn-rovers-v-liverpool-24-august-1963-77474/",
+          "provider": "11v11: match record",
+          "claims": "Independent match date, result, competition, ground and listed Liverpool scorers/eleven; specific printed use mapped below.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/transfers/5",
+          "provider": "LFChistory: transfers",
+          "claims": "Peter Thompson arrival from Preston on14 August1963; fees omitted.",
+          "confidence": "High"
         }
       ]
     },
@@ -64,13 +76,13 @@
         {
           "url": "https://www.lfchistory.net/games/194",
           "provider": "LFChistory",
-          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "claims": "Match identity, scoring sequence and listed player involvement; the paragraph audit below distinguishes independently corroborated facts from single-record incident detail.",
           "confidence": "High"
         },
         {
           "url": "https://www.lfchistory.net/season-archive/games/5",
           "provider": "LFChistory",
-          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "claims": "Complete 47-match national competitive chronology, surrounding league results and cup route.",
           "confidence": "High"
         },
         {
@@ -84,6 +96,18 @@
           "provider": "Liverpool FC",
           "claims": "Retrospective context: three opening home defeats and 6–0 Wolves breakthrough; anecdotal explanations remain Medium confidence.",
           "confidence": "Medium"
+        },
+        {
+          "url": "https://www.wolvesheroes.com/keepers-painful-farewell/",
+          "provider": "Wolves Heroes: Finlayson’s final appearance",
+          "claims": "Independent opponent history reproducing Daily Mail evidence: Finlayson hand injury, departure after four goals, Murray in goal for two further goals, last appearance.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-wolverhampton-wanderers-16-september-1963-77550/",
+          "provider": "11v11: match record",
+          "claims": "Independent match date, result, competition, ground and listed Liverpool scorers/eleven; specific printed use mapped below.",
+          "confidence": "High"
         }
       ]
     },
@@ -102,13 +126,13 @@
         {
           "url": "https://www.lfchistory.net/games/196",
           "provider": "LFChistory",
-          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "claims": "Match identity, scoring sequence and listed player involvement; the paragraph audit below distinguishes independently corroborated facts from single-record incident detail.",
           "confidence": "High"
         },
         {
           "url": "https://www.lfchistory.net/season-archive/games/5",
           "provider": "LFChistory",
-          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "claims": "Complete 47-match national competitive chronology, surrounding league results and cup route.",
           "confidence": "High"
         },
         {
@@ -121,6 +145,18 @@
           "url": "https://www.liverpoolfc.com/news/first-team/161391-the-story-of-bill-shankly-s-first-title",
           "provider": "Liverpool FC",
           "claims": "Independent official corroboration of 2–1 win over reigning champions and place in season recovery.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.bluecorrespondent.co.uk/1963-64/september1963.html",
+          "provider": "Liverpool Echo and Daily Post, transcribed by Blue Correspondent",
+          "claims": "Michael Charters’s contemporary28 September1963 Echo report, supported by later Yates/Edwards reports: Callaghan goals, Melia involvement, Vernon reply, late pressure. Transcription errors and minute variants logged below.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-everton-28-september-1963-77571/",
+          "provider": "11v11: match record",
+          "claims": "Independent match date, result, competition, ground and listed Liverpool scorers/eleven; specific printed use mapped below.",
           "confidence": "High"
         }
       ]
@@ -140,13 +176,13 @@
         {
           "url": "https://www.lfchistory.net/games/204",
           "provider": "LFChistory",
-          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "claims": "Match identity, scoring sequence and listed player involvement; the paragraph audit below distinguishes independently corroborated facts from single-record incident detail.",
           "confidence": "High"
         },
         {
           "url": "https://www.lfchistory.net/season-archive/games/5",
           "provider": "LFChistory",
-          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "claims": "Complete 47-match national competitive chronology, surrounding league results and cup route.",
           "confidence": "High"
         },
         {
@@ -164,8 +200,20 @@
         {
           "url": "https://www.11v11.com/matches/manchester-united-v-liverpool-23-november-1963-77678/",
           "provider": "11v11",
-          "claims": "Independent match identity and Yeats scorer, retrieved through indexed search.",
+          "claims": "Independent match date, result, competition, ground and listed Liverpool scorers/eleven; specific printed use mapped below.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/goalscorers/5",
+          "provider": "LFChistory: season scorers",
+          "claims": "Separate league and FA Cup scoring totals: Hunt31+2, StJohn21+1, Arrowsmith15+4, Yeats one league goal, as used below.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://oldtrafford.dk/historie/harry-gregg/",
+          "provider": "OldTrafford.dk / Arne Madsen",
+          "claims": "Gregg biography corroborates broken collarbone following collision with Yeats and David Herd taking over in goal. Its date10 November is wrong; match identity/date follows independent match records.",
+          "confidence": "Medium"
         }
       ]
     },
@@ -184,13 +232,13 @@
         {
           "url": "https://www.lfchistory.net/games/209",
           "provider": "LFChistory",
-          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "claims": "Match identity, scoring sequence and listed player involvement; the paragraph audit below distinguishes independently corroborated facts from single-record incident detail.",
           "confidence": "High"
         },
         {
           "url": "https://www.lfchistory.net/season-archive/games/5",
           "provider": "LFChistory",
-          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "claims": "Complete 47-match national competitive chronology, surrounding league results and cup route.",
           "confidence": "High"
         },
         {
@@ -204,6 +252,18 @@
           "provider": "The Times archive",
           "claims": "Reproduced contemporary report attributes second-half improvement to increased left-wing attacks; 100-word source allowance, use bounded paraphrase.",
           "confidence": "Medium"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-stoke-city-26-december-1963-77730/",
+          "provider": "11v11: match record",
+          "claims": "Independent match date, result, competition, ground and listed Liverpool scorers/eleven; specific printed use mapped below.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/goalscorers/5",
+          "provider": "LFChistory: season scorers",
+          "claims": "Separate league and FA Cup scoring totals: Hunt31+2, StJohn21+1, Arrowsmith15+4, Yeats one league goal, as used below.",
+          "confidence": "High"
         }
       ]
     },
@@ -222,13 +282,13 @@
         {
           "url": "https://www.lfchistory.net/games/220",
           "provider": "LFChistory",
-          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "claims": "Match identity, scoring sequence and listed player involvement; the paragraph audit below distinguishes independently corroborated facts from single-record incident detail.",
           "confidence": "High"
         },
         {
           "url": "https://www.lfchistory.net/season-archive/games/5",
           "provider": "LFChistory",
-          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "claims": "Complete 47-match national competitive chronology, surrounding league results and cup route.",
           "confidence": "High"
         },
         {
@@ -241,6 +301,12 @@
           "url": "https://www.swanseacity.com/news/classic-swans-fa-cup-encounters",
           "provider": "Swansea City",
           "claims": "Opponent history corroborates date/result, McLaughlin/Thomas goals, Dwyer performance and late Moran miss.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-swansea-town-29-february-1964-212068/",
+          "provider": "11v11: cup match record",
+          "claims": "Independent match date, result, competition, ground and listed Liverpool scorers/eleven; specific printed use mapped below.",
           "confidence": "High"
         }
       ]
@@ -260,19 +326,31 @@
         {
           "url": "https://www.lfchistory.net/games/225",
           "provider": "LFChistory",
-          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "claims": "Match identity, scoring sequence and listed player involvement; the paragraph audit below distinguishes independently corroborated facts from single-record incident detail.",
           "confidence": "High"
         },
         {
           "url": "https://www.lfchistory.net/season-archive/games/5",
           "provider": "LFChistory",
-          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "claims": "Complete 47-match national competitive chronology, surrounding league results and cup route.",
           "confidence": "High"
         },
         {
           "url": "https://www.rsssf.org/engpaul/FLA/1963-64.html",
           "provider": "RSSSF",
           "claims": "Independent final table: champion Liverpool57 points, Manchester United53, Everton52; division status of cup opponents.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/tottenham-hotspur-v-liverpool-27-march-1964-77857/",
+          "provider": "11v11: match record",
+          "claims": "Independent match date, result, competition, ground and listed Liverpool scorers/eleven; specific printed use mapped below.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/games/177",
+          "provider": "LFChistory: previous Easter defeat",
+          "claims": "Match identity, scoring sequence and listed player involvement; the paragraph audit below distinguishes independently corroborated facts from single-record incident detail.",
           "confidence": "High"
         }
       ]
@@ -292,13 +370,13 @@
         {
           "url": "https://www.lfchistory.net/games/228",
           "provider": "LFChistory",
-          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "claims": "Match identity, scoring sequence and listed player involvement; the paragraph audit below distinguishes independently corroborated facts from single-record incident detail.",
           "confidence": "High"
         },
         {
           "url": "https://www.lfchistory.net/season-archive/games/5",
           "provider": "LFChistory",
-          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "claims": "Complete 47-match national competitive chronology, surrounding league results and cup route.",
           "confidence": "High"
         },
         {
@@ -309,9 +387,27 @@
         },
         {
           "url": "https://www.lfchistory.net/articles/3582",
-          "provider": "Liverpool Echo via LFChistory",
-          "claims": "Contemporary account corroborates win and Kop singing; writer opinions are not objective evidence of player emotions.",
+          "provider": "Historical report reproduced by LFChistory (original provenance inconsistent)",
+          "claims": "Considered but not used in manuscript. Introduction/footer disagree on original publication and date; detailed player emotions are opinion.",
           "confidence": "Medium"
+        },
+        {
+          "url": "https://www.11v11.com/teams/liverpool/tab/matches/season/1964/",
+          "provider": "11v11: season results",
+          "claims": "Independent entire1963–64 sequence, including April4 result and seven-win championship run.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/goalscorers/5",
+          "provider": "LFChistory: season scorers",
+          "claims": "Separate league and FA Cup scoring totals: Hunt31+2, StJohn21+1, Arrowsmith15+4, Yeats one league goal, as used below.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/appearances/5",
+          "provider": "LFChistory: season appearances",
+          "claims": "Competition-specific appearances, including Arrowsmith20 league and24 total; Thompson47 total.",
+          "confidence": "High"
         }
       ]
     },
@@ -330,13 +426,13 @@
         {
           "url": "https://www.lfchistory.net/games/230",
           "provider": "LFChistory",
-          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "claims": "Match identity, scoring sequence and listed player involvement; the paragraph audit below distinguishes independently corroborated facts from single-record incident detail.",
           "confidence": "High"
         },
         {
           "url": "https://www.lfchistory.net/season-archive/games/5",
           "provider": "LFChistory",
-          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "claims": "Complete 47-match national competitive chronology, surrounding league results and cup route.",
           "confidence": "High"
         },
         {
@@ -355,6 +451,24 @@
           "url": "https://www.liverpoolfc.com/news/features/402698-a-history-of-liverpool-s-league-title-wins",
           "provider": "Liverpool FC",
           "claims": "Championship ended seventeen-year wait; Hunt31, StJohn21 and Arrowsmith15 league goals; team26 wins and57 points.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://playupliverpool.com/1964/04/18/liverpool-v-arsenal-5-0-league-match-april-18-1964/",
+          "provider": "Daily Mirror / Frank McGhee, transcribed by Play Up Liverpool",
+          "claims": "Frank McGhee, Daily Mirror20 April1964, transcribed: title-clinching match, Lawrence penalty save, first-half second goal, Thompson double, crowd singing/lap-of-honour appeal. Interpretive psychology omitted.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-arsenal-18-april-1964-77917/",
+          "provider": "11v11: match record",
+          "claims": "Independent match date, result, competition, ground and listed Liverpool scorers/eleven; specific printed use mapped below.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/161391-the-story-of-bill-shankly-s-first-title",
+          "provider": "Liverpool FC: story of the first Shankly title",
+          "claims": "Title secured with three games remaining and ensuing first European campaign. Other retrospective anecdotes and incorrect Easter Tottenham-leaders label not used.",
           "confidence": "High"
         }
       ]
