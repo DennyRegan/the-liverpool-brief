@@ -1,70 +1,41 @@
 ---
 {
-  "lastUpdated": "2026-09-29T17:28:16.536Z",
+  "lastUpdated": "2026-10-01T18:01:01.000Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
     {
-      "headline": "Commission finds Manchester City guilty of financial breaches",
-      "category": "Premier League",
-      "summary": "An independent commission has found Manchester City guilty of serious financial rule breaches from 2009–10 to 2017–18 and most charges of failing to cooperate. It found sham deals inflated income and reduced reported costs by more than £900m. Sanctions await a separate hearing; City deny wrongdoing and intend to appeal.",
-      "sources": [
-        {
-          "name": "Premier League — confidence: high",
-          "platform": "Official commission findings, 29 September 2026",
-          "url": "https://www.premierleague.com/en/news/4727779/premier-league-statement-manchester-city-fc/"
-        },
-        {
-          "name": "Reuters — confidence: high",
-          "platform": "Original reporting, 29 September 2026",
-          "url": "https://www.reuters.com/sports/soccer/man-city-found-guilty-all-charges-serious-financial-rule-breaches-premier-league-2026-09-29/"
-        }
-      ]
-    },
-    {
-      "headline": "Jacquet makes his senior France debut",
+      "headline": "Ngumoha becomes England's third-youngest competitive debutant",
       "category": "Internationals",
-      "summary": "Jérémy Jacquet made his senior France debut in a 1–0 Nations League win over Belgium on 28 September. The 21-year-old Liverpool defender started and played the full match as France kept a clean sheet.",
+      "summary": "Rio Ngumoha came off the bench in England's 2–0 Nations League win in Czechia on 29 September. Aged 18 years and 31 days, the Liverpool forward became England men's third-youngest competitive debutant.",
       "sources": [
         {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official internationals report, 28 September 2026",
-          "url": "https://www.liverpoolfc.com/news/internationals-jeremy-jacquet-enjoys-win-and-clean-sheet-france-debut"
+          "name": "England Football — confidence: high",
+          "platform": "Official England men's team record, 30 September 2026",
+          "url": "https://www.westeurope.englandfootball.com/articles/2026/Sep/30/england-men-youngest-debutants-20263009"
         },
         {
-          "name": "Reuters — confidence: high",
-          "platform": "Original reporting, 29 September 2026",
-          "url": "https://www.reuters.com/sports/soccer/french-win-belgium-shows-depth-talent-available-new-coach-zidane-2026-09-29/"
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official club report, 30 September 2026",
+          "url": "https://www.liverpoolfc.com/news/rio-ngumoha-becomes-englands-third-youngest-competitive-debutant"
         }
       ]
     },
     {
-      "headline": "Gakpo and Isak return early from international duty",
+      "headline": "Ekitike hopes for December return",
       "category": "Injuries",
-      "summary": "Cody Gakpo has withdrawn from the Netherlands squad with an ankle injury sustained against Serbia on 27 September. Alexander Isak has left Sweden’s camp with a minor injury. Both will be assessed by Liverpool; their availability for Manchester City’s visit on 11 October is not yet known.",
+      "summary": "Hugo Ekitike is jogging again as he recovers from April's Achilles injury, according to L'Équipe. He hopes to resume training in November and could return to matches in December. Liverpool have not confirmed a date; Andoni Iraola said on 11 September that January was a realistic possibility.",
       "sources": [
         {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official injury update, 28 September 2026",
-          "url": "https://www.liverpoolfc.com/news/cody-gakpo-withdraws-international-duty"
+          "name": "L'Équipe — confidence: medium",
+          "platform": "Original reporting, 30 September 2026",
+          "url": "https://www.lequipe.fr/Football/Actualites/Hugo-ekitike-victime-d-une-rupture-d-un-tendon-d-achille-en-avril-vise-un-retour-a-la-competition-en-decembre/1722370"
         },
         {
           "name": "Liverpool FC — confidence: high",
-          "platform": "Official injury update, 27 September 2026",
-          "url": "https://www.liverpoolfc.com/news/alexander-isak-return-international-duty"
-        }
-      ]
-    },
-    {
-      "headline": "Julian Ward returns as Liverpool sporting director",
-      "category": "Club",
-      "summary": "Liverpool have appointed Julian Ward as sporting director with immediate effect. Ward moves from his role as Fenway Sports Group’s technical director, returning to the position he left in 2023. He will lead the club’s football operations and support head coach Andoni Iraola.",
-      "sources": [
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official announcement, 26 September 2026",
-          "url": "https://www.liverpoolfc.com/news/julian-ward-appointed-lfc-sporting-director"
+          "platform": "Iraola press-conference comments, 11 September 2026",
+          "url": "https://www.liverpoolfc.com/news/lfc-fitness-update-iraola-provides-latest-gakpo-barcola-and-ekitike"
         }
       ]
     }
