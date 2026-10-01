@@ -2688,5 +2688,65 @@
     "id": "noel-dwyer",
     "label": "Noel Dwyer",
     "kind": "person"
+  },
+  {
+    "id": "anderlecht",
+    "label": "Anderlecht",
+    "kind": "opposition"
+  },
+  {
+    "id": "fc-cologne",
+    "label": "FC Cologne",
+    "kind": "opposition"
+  },
+  {
+    "id": "laugardalsvollur",
+    "label": "Laugardalsvöllur",
+    "kind": "location"
+  },
+  {
+    "id": "turf-moor",
+    "label": "Turf Moor",
+    "kind": "location"
+  },
+  {
+    "id": "de-kuip",
+    "label": "De Kuip",
+    "kind": "location"
+  },
+  {
+    "id": "san-siro",
+    "label": "San Siro",
+    "kind": "location"
+  },
+  {
+    "id": "billy-bremner",
+    "label": "Billy Bremner",
+    "kind": "person"
+  },
+  {
+    "id": "sandro-mazzola",
+    "label": "Sandro Mazzola",
+    "kind": "person"
+  },
+  {
+    "id": "mario-corso",
+    "label": "Mario Corso",
+    "kind": "person"
+  },
+  {
+    "id": "joaquin-peiro",
+    "label": "Joaquín Peiró",
+    "kind": "person"
+  },
+  {
+    "id": "giacinto-facchetti",
+    "label": "Giacinto Facchetti",
+    "kind": "person"
+  },
+  {
+    "id": "helenio-herrera",
+    "label": "Helenio Herrera",
+    "kind": "person"
   }
 ]
