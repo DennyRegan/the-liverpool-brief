@@ -2,6 +2,7 @@ import { SiteHeader } from "@/app/components/SiteHeader";
 
 export const metadata = {
   title: "About | The Liverpool Brief",
+  alternates: { canonical: "/about" },
   description: "An independent Liverpool FC publication covering opinion, analysis, history and the stories that matter around the club.",
 };
 
