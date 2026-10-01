@@ -1,5 +1,9 @@
 # Shared history editorial workflow
 
+## Automatic History queue authority — 1 October 2026
+
+Denny explicitly authorises completed, technically ready historical biographies and match reports in the automatic queue to publish without individual manuscript review after final activation. This is the narrow exception to the earlier per-article approval language below; it does not authorise any other editorial category. Read [automatic History publishing](automatic-history-publishing.md) for the eligibility, durable selection/retry, Tuesday/Friday schedule and activation boundary. The calendar remains the single source of truth. The implementation is disabled pending final approval; migration reports below remain historical audit snapshots.
+
 ## Career biography recovery inventory — 1 October 2026
 
 `docs/editorial/history-calendar.json` remains the single source of truth. Its `entries` retain the dated anniversary commissions; its `biographies` array extends the same inventory for career articles without assigning an artificial event date or a weekly slot. Both arrays use the existing status, approval, evidence, owner and draft-path conventions and are checked by `npm run validate:calendar`. Read both when listing biographies. Existing dated career rows (Torres, Gerrard and Milner) remain in `entries`; they have not been copied into `biographies`.

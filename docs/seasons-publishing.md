@@ -57,3 +57,7 @@ The Seasons ↔ Archive integration is a separate feature review: do not merge o
 ### Current Match Centre and Analysis
 
 Current fixtures/results/table belong to the sourced Match Centre register, with reports referencing existing factual Archive match articles. When publishing a completed Season record, reuse its canonical season ID; do not copy current reports. Analysis stays in Articles and can surface in a separately labelled Season section through exact season metadata. See [Match Centre and Analysis](match-centre.md).
+
+## Automatic History articles — narrow exception
+
+After Denny’s final activation approval, completed technically ready biographies and historical matches explicitly in the automatic queue may publish under the narrow authority documented in [automatic History publishing](editorial/automatic-history-publishing.md). The earlier per-article approval language remains binding for everything else. Season records, current coverage and This Week are outside this scheduler.

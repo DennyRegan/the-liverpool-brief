@@ -12,7 +12,10 @@
     "test": "node --test tests/*.test.mjs",
     "table:prepare": "node scripts/prepare-league-table.mjs",
     "queue:biographies": "node scripts/editorial-review-queue.mjs biographies",
-    "queue:matches": "node scripts/editorial-review-queue.mjs matches"
+    "queue:matches": "node scripts/editorial-review-queue.mjs matches",
+    "test:publisher": "node --test tests/automatic-history*.test.mjs",
+    "history:pool": "node scripts/automatic-history-publisher.mjs pool",
+    "history:dry-run": "node scripts/automatic-history-publisher.mjs dry-run"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

@@ -67,8 +67,8 @@ test('metadata-rich draft stays hidden and normal file-placement publication cro
  }finally{fs.rmSync(root,{recursive:true,force:true});}
 });
 
-test('real collections exclude Torres and both opinion articles; original biographies remain canonical',()=>{
+test('real collections exclude unpublished and opinion articles; original biographies remain canonical',()=>{
  const all=getExplorations();assert.ok(all.some(d=>d.entity.id==='kenny-dalglish'));assert.ok(all.some(d=>d.entity.id==='everton'));assert.ok(all.some(d=>d.entity.id==='european-cup'));
- for(const d of all)for(const a of d.articles)assert.ok(!['torres-goodison-derby-double-2008','liverpool-7-tottenham-0','liverpool-sold-their-best-player'].includes(a.slug));
+ for(const d of all)for(const a of d.articles)assert.ok(a.editorialMode==='factual' && getArchiveFeatures().some(p=>p.slug===a.slug));
  assert.ok(all.find(d=>d.entity.id==='phil-thompson').articles.some(a=>a.slug==='phil-thompson'&&!a.season));
 });

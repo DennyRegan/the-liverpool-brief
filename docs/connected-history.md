@@ -265,3 +265,7 @@ All new UI is server-rendered. Journey routes and existing destinations remain s
 Native labelled forms, links and details/summary provide keyboard and no-JavaScript behaviour. New standalone controls have 44–48px minimum heights, focus uses the site's visible outline, and the layout is vertical. There is no required animation, hover, canvas or client state. No AI, semantic search, graph, saved profile or new historical writing is included.
 
 Run `npm test`, `npm run lint`, `npm run build`, the existing verification scripts, and `BASE_URL=http://127.0.0.1:3157 node scripts/verify-history-v3.mjs` against a production preview. The V3 verifier checks every timeline entry/context/fragment, every journey step, continuation targets, seven starting years, invalid input, unavailable routes and factual publication boundaries. Browser review remains necessary for responsive behaviour, keyboard focus and complete reading journeys.
+
+## Automatic History articles — narrow exception
+
+After Denny’s final activation approval, completed technically ready biographies and historical matches explicitly in the automatic queue may publish under the narrow authority documented in [automatic History publishing](editorial/automatic-history-publishing.md). The earlier per-article approval language remains binding for everything else. Season records, current coverage and This Week are outside this scheduler.

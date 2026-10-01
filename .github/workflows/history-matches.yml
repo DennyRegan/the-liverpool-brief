@@ -1,0 +1,62 @@
+name: Weekly History matches
+on:
+  schedule:
+    - cron: '17 8,9 * * 5'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Validate a random selection without writing or publishing
+        type: boolean
+        default: true
+      retry_slot:
+        description: Live retry only — exact existing calendar slot (matches:YYYY-MM-DD)
+        type: string
+        default: ''
+permissions:
+  contents: read
+# Both queues serialize repository writes; separate calendar state prevents cross-queue failures.
+concurrency:
+  group: automatic-history-repository-writer
+  cancel-in-progress: false
+jobs:
+  dry-run:
+    if: github.event_name == 'workflow_dispatch' && inputs.dry_run
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run validate:calendar && npm test && npm run lint && npm run build
+      - run: node scripts/automatic-history-publisher.mjs dry-run matches
+      - name: Prove dry run left no repository changes
+        run: test -z "$(git status --porcelain)"
+  publish:
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || !inputs.dry_run)
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Configure publication bot identity
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Select, reserve, validate, publish and verify
+        env:
+          HISTORY_RETRY_SLOT: ${{ inputs.retry_slot }}
+        run: node scripts/run-automatic-history.mjs matches

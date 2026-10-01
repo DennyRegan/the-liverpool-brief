@@ -11,6 +11,8 @@ import { ArchiveFeatureSchema } from '../lib/content/types.ts';
 import { getHistoryEntities } from '../lib/content/entities.ts';
 import { getHistory, getArticleEraIds } from '../lib/content/history.ts';
 
+import { publicationClassSchema, isPublicStatus, validateAutomaticHistory } from './automatic-history-state.mjs';
+
 export const calendarPath = 'docs/editorial/history-calendar.json';
 const text = z.string().min(1);
 const matchRecoverySchema = z.object({
@@ -34,7 +36,8 @@ const matchProductionSchema = z.object({
 const entrySchema = z.object({
   id: text, event: text, historicalEventDate: z.iso.date(), featuredWeek: z.iso.date(),
   selection: z.enum(['selected', 'provisional', 'alternative']),
-  status: z.enum(['planned', 'writing', 'ready_for_review', 'approved', 'published', 'blocked']),
+  status: z.enum(['planned', 'writing', 'ready_for_review', 'approved', 'publication_pending', 'published', 'blocked']),
+  publicationClass: publicationClassSchema.optional(),
   owner: text.nullable(),
   claim: z.object({ token: text, claimedAt: z.iso.datetime(), baseCommit: text }).strict().nullable(),
   eventPath: text.nullable(), draftPath: text.nullable(), originalDraftId: text.nullable(),
@@ -126,8 +129,8 @@ export function validateCalendar(calendar, root = process.cwd()) {
       }
       const year = Number(e.historicalEventDate.slice(0, 4)) - (Number(e.historicalEventDate.slice(5, 7)) < 7 ? 1 : 0);
       assert.equal(m.season, `${year}-${String((year + 1) % 100).padStart(2, '0')}`, `${e.id}: match outside production season`);
-      if (['ready_for_review', 'approved', 'published'].includes(e.status)) assert.equal(m.completed, true, `${e.id}: finished status requires completed research`);
-      if (e.status !== 'published') {
+      if (['ready_for_review', 'approved', 'publication_pending', 'published'].includes(e.status)) assert.equal(m.completed, true, `${e.id}: finished status requires completed research`);
+      if (!isPublicStatus(e.status)) {
         assert.equal(e.publishedDestination, null, `${e.id}: unpublished production has a destination`);
         assert.ok(![...articles.values()].some(a => a.historicalEventDate === e.historicalEventDate && a.articleType === 'match'), `${e.id}: newly researched match already has public coverage`);
         if (e.status !== 'approved') {
@@ -136,7 +139,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
         }
       }
       if (e.status === 'approved') assert.equal(m.blockers.length, 0, `${e.id}: unresolved production approval blockers`);
-      if (e.draftPath) {
+      if (e.draftPath && !isPublicStatus(e.status)) {
         const article = matter(fs.readFileSync(path.join(root, e.draftPath), 'utf8'));
         assert.equal(article.data.articleType, 'match', `${e.id}: production must be a match report`);
         assert.equal(article.data.slug, path.basename(e.draftPath, '.md'), `${e.id}: production filename/slug mismatch`);
@@ -165,7 +168,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
       assert.equal(article.data.historicalEventDate, e.historicalEventDate, `${e.id}: match date mismatch`);
       const year = Number(e.historicalEventDate.slice(0, 4)) - (Number(e.historicalEventDate.slice(5, 7)) < 7 ? 1 : 0);
       assert.equal(article.data.season, `${year}-${String((year + 1) % 100).padStart(2, '0')}`, `${e.id}: match outside principal season`);
-      if (e.status !== 'published') {
+      if (!isPublicStatus(e.status)) {
         assert.ok(!Object.hasOwn(article.data, 'date'), `${e.id}: recovered draft has publication date`);
         assert.ok(!articles.has(`/archive/${article.data.slug}`), `${e.id}: recovered unpublished slug is public`);
         if (e.status !== 'approved') assert.equal(m.reviewRequired, true, `${e.id}: unreviewed recovery requires review`);
@@ -194,7 +197,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
       if (e.personId) {
         assert.equal(draft.slug, path.basename(e.draftPath, '.md'), `${e.id}: filename/slug mismatch`);
         assert.ok([...(draft.playerIds ?? []), ...(draft.managerIds ?? [])].includes(e.personId), `${e.id}: principal subject missing`);
-        if (e.status !== 'published') assert.ok(!articles.has(`/archive/${draft.slug}`), `${e.id}: unpublished biography duplicates public slug`);
+        if (!isPublicStatus(e.status)) assert.ok(!articles.has(`/archive/${draft.slug}`), `${e.id}: unpublished biography duplicates public slug`);
       }
       // A career biography can use eras without treating its calendar anchor as a single event.
       if (draft.historicalEventDate) assert.equal(draft.historicalEventDate, e.historicalEventDate, `${e.id}: draft date mismatch`);
@@ -206,7 +209,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
     if (e.status === 'writing') assert.ok(e.claim && e.owner, `${e.id}: writing requires a claim and owner`);
     else assert.equal(e.claim, null, `${e.id}: only writing rows may hold a claim`);
     if (e.status === 'approved') assert.ok(e.approval, `${e.id}: explicit approval missing`);
-    if (e.status === 'published') assert.ok(e.publishedDestination, `${e.id}: publication destination missing`);
+    if (isPublicStatus(e.status)) assert.ok(e.publishedDestination, `${e.id}: publication destination missing`);
     if (e.publishedDestination) {
       const article = articles.get(e.publishedDestination);
       assert.ok(article, `${e.id}: published destination missing from canonical collection`);
@@ -223,11 +226,13 @@ export function validateCalendar(calendar, root = process.cwd()) {
     for (const id of b.selectedRowIds) {
       const row = matches.find(r => r.id === id);
       assert.ok(row?.matchProduction?.batchId === b.id, `${b.id}: selection belongs to another batch`);
-      if (b.stage === 'checkpointed') assert.equal(row.status, 'ready_for_review', `${b.id}: unfinished checkpoint`);
+      if (b.stage === 'checkpointed') assert.ok(['ready_for_review', 'approved', 'publication_pending', 'published'].includes(row.status), `${b.id}: unfinished checkpoint`);
     }
     if (b.stage === 'checkpointed') assert.equal(b.nextStage, null, `${b.id}: completed batch has remaining work`);
   }
-  return [...entries, ...biographies, ...matches];
+  const rows = [...entries, ...biographies, ...matches];
+  validateAutomaticHistory(calendar, rows, articles);
+  return rows;
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {

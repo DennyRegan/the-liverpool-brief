@@ -77,7 +77,7 @@ test('preview requires non-empty prose, known sources and a non-future update',(
  assert.equal(MatchCentreSchema.safeParse(data).success,true);
 });
 test('report links require a published factual match with exact fixture relationships',()=>withContent(root=>{
- const data=getMatchCentre(root);data.fixtures[0].reportSlug='torres-goodison-derby-double-2008';saveCentre(root,data);assert.throws(()=>getMatchCentre(root),/published and match/);
+ const data=getMatchCentre(root);data.fixtures[0].reportSlug='synthetic-unpublished-history-fixture';saveCentre(root,data);assert.throws(()=>getMatchCentre(root),/published and match/);
  const original=getFactualHistoryArticles(root).find(a=>a.articleType==='match'),{body,...meta}=original;
  delete meta.historyEras;
  const f=data.fixtures[0]; const slug='test-current-match';

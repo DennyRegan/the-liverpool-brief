@@ -44,9 +44,7 @@ test("V3 projects canonical factual content without copying article bodies or pu
     entries.filter((e) => e.kind === "era").length,
     context.eras.length,
   );
-  assert.ok(
-    !JSON.stringify(timeline).includes("torres-goodison-derby-double-2008"),
-  );
+  for (const e of articles) assert.ok(context.articles.some(a => a.slug === e.id.replace(/^article-/, "")), "Only canonical public articles enter the timeline");
 });
 
 test("calendar chronology preserves summer dates, period context and undated events honestly", () => {
@@ -156,7 +154,7 @@ test("all four editorial journeys resolve deterministically to canonical destina
 
 test("journeys fail closed for unavailable articles, thin entities, missing Seasons and duplicated steps", () => {
   for (const ref of [
-    { kind: "article", id: "torres-goodison-derby-double-2008" },
+    { kind: "article", id: "synthetic-unpublished-history-fixture" },
     { kind: "article", id: "not-published" },
     { kind: "person", id: "not-eligible" },
     { kind: "season", id: "1800-01" },
