@@ -9864,7 +9864,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T19:48:57.538993Z",
+  "updatedAt": "2026-10-01T19:53:48.820163Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -15658,6 +15658,393 @@
         "workerId": "/root/astra_decade_writer",
         "blockers": []
       }
+    },
+    {
+      "id": "match-1963-08-24-blackburn-liverpool-1963-thompson-debut",
+      "event": "Blackburn Rovers 1–2 Liverpool: Thompson debuts as Liverpool turn defeat into victory at Ewood Park",
+      "historicalEventDate": "1963-08-24",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1963-08-24",
+        "claimedAt": "2026-10-01T19:53:48.820163Z",
+        "baseCommit": "c7ef8c9a305ad8d873db1db341fd0c786c0fa2a4"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Peter Thompson’s arrival is tested in a comeback win: Moran follows up his saved penalty and Callaghan wins the opening match. A substantive debut story with contemporary evidence, not a milestone alone.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Blackburn Rovers 1–2 Liverpool",
+        "opposition": "Blackburn Rovers",
+        "score": "1–2",
+        "editorialReason": "Peter Thompson’s arrival is tested in a comeback win: Moran follows up his saved penalty and Callaghan wins the opening match. A substantive debut story with contemporary evidence, not a milestone alone.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1963-09-16-liverpool-wolves-1963-first-home-win",
+      "event": "Liverpool 6–0 Wolverhampton Wanderers: Six goals end Liverpool’s losing start at Anfield",
+      "historicalEventDate": "1963-09-16",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1963-09-16",
+        "claimedAt": "2026-10-01T19:53:48.820163Z",
+        "baseCommit": "c7ef8c9a305ad8d873db1db341fd0c786c0fa2a4"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "First home win after three home defeats; Arrowsmith and Thompson open their Liverpool scoring accounts and five players score. Establishes the difficult beginning before the title challenge.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 6–0 Wolverhampton Wanderers",
+        "opposition": "Wolverhampton Wanderers",
+        "score": "6–0",
+        "editorialReason": "First home win after three home defeats; Arrowsmith and Thompson open their Liverpool scoring accounts and five players score. Establishes the difficult beginning before the title challenge.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1963-09-28-liverpool-everton-1963-callaghan-double",
+      "event": "Liverpool 2–1 Everton: Callaghan’s double beats the champions in the Anfield derby",
+      "historicalEventDate": "1963-09-28",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1963-09-28",
+        "claimedAt": "2026-10-01T19:53:48.820163Z",
+        "baseCommit": "c7ef8c9a305ad8d873db1db341fd0c786c0fa2a4"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A winger’s two goals beat reigning champions and begin a five-match league winning run after the Sheffield United setback. Distinct derby and recovery story.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Everton",
+        "opposition": "Everton",
+        "score": "2–1",
+        "editorialReason": "A winger’s two goals beat reigning champions and begin a five-match league winning run after the Sheffield United setback. Distinct derby and recovery story.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1963-11-23-manchester-united-liverpool-1963-yeats-winner",
+      "event": "Manchester United 0–1 Liverpool: Yeats heads Liverpool to the top at Old Trafford",
+      "historicalEventDate": "1963-11-23",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1963-11-23",
+        "claimedAt": "2026-10-01T19:53:48.820163Z",
+        "baseCommit": "c7ef8c9a305ad8d873db1db341fd0c786c0fa2a4"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Yeats’s first Liverpool goal decides an away victory that puts Liverpool top for the first time this season; turning point in championship credibility.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Manchester United 0–1 Liverpool",
+        "opposition": "Manchester United",
+        "score": "0–1",
+        "editorialReason": "Yeats’s first Liverpool goal decides an away victory that puts Liverpool top for the first time this season; turning point in championship credibility.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1963-12-26-liverpool-stoke-1963-hunt-four-goals",
+      "event": "Liverpool 6–1 Stoke City: Hunt scores four as Liverpool break away after half-time",
+      "historicalEventDate": "1963-12-26",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1963-12-26",
+        "claimedAt": "2026-10-01T19:53:48.820163Z",
+        "baseCommit": "c7ef8c9a305ad8d873db1db341fd0c786c0fa2a4"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Four second-half Hunt goals transform a level Boxing Day game; contemporary Times archive gives a supported tactical focus and illuminates leading scorer’s contribution.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 6–1 Stoke City",
+        "opposition": "Stoke City",
+        "score": "6–1",
+        "editorialReason": "Four second-half Hunt goals transform a level Boxing Day game; contemporary Times archive gives a supported tactical focus and illuminates leading scorer’s contribution.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-02-29-liverpool-swansea-1964-fa-cup-quarter-final",
+      "event": "Liverpool 1–2 Swansea Town: Swansea survive Liverpool’s fightback to end the cup run",
+      "historicalEventDate": "1964-02-29",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1964-02-29",
+        "claimedAt": "2026-10-01T19:53:48.820163Z",
+        "baseCommit": "c7ef8c9a305ad8d873db1db341fd0c786c0fa2a4"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Second Division opposition win at Anfield: two quick first-half goals, Thompson reply and missed Moran penalty end hopes of a double. Essential setback amid championship story.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–2 Swansea Town",
+        "opposition": "Swansea Town",
+        "score": "1–2",
+        "editorialReason": "Second Division opposition win at Anfield: two quick first-half goals, Thompson reply and missed Moran penalty end hopes of a double. Essential setback amid championship story.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-03-27-tottenham-liverpool-1964-hunt-hat-trick",
+      "event": "Tottenham Hotspur 1–3 Liverpool: Hunt’s hat-trick launches Liverpool’s winning Easter",
+      "historicalEventDate": "1964-03-27",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1964-03-27",
+        "claimedAt": "2026-10-01T19:53:48.820163Z",
+        "baseCommit": "c7ef8c9a305ad8d873db1db341fd0c786c0fa2a4"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Away hat-trick at major title rivals begins the three-win Easter period and reverses the previous season’s severe White Hart Lane defeat; meaningful run-in contest.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Tottenham Hotspur 1–3 Liverpool",
+        "opposition": "Tottenham Hotspur",
+        "score": "1–3",
+        "editorialReason": "Away hat-trick at major title rivals begins the three-win Easter period and reverses the previous season’s severe White Hart Lane defeat; meaningful run-in contest.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-04-04-liverpool-manchester-united-1964-arrowsmith-double",
+      "event": "Liverpool 3–0 Manchester United: Arrowsmith strikes twice as Liverpool pull clear of United",
+      "historicalEventDate": "1964-04-04",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1964-04-04",
+        "claimedAt": "2026-10-01T19:53:48.820163Z",
+        "baseCommit": "c7ef8c9a305ad8d873db1db341fd0c786c0fa2a4"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Victory over eventual runners-up makes five consecutive wins and opens a five-point margin over United, showing Arrowsmith’s emergence in the decisive run.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–0 Manchester United",
+        "opposition": "Manchester United",
+        "score": "3–0",
+        "editorialReason": "Victory over eventual runners-up makes five consecutive wins and opens a five-point margin over United, showing Arrowsmith’s emergence in the decisive run.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-04-18-liverpool-arsenal-1964-title-secured",
+      "event": "Liverpool 5–0 Arsenal: Five goals against Arsenal secure Shankly’s first league title",
+      "historicalEventDate": "1964-04-18",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1964-04-18",
+        "claimedAt": "2026-10-01T19:53:48.820163Z",
+        "baseCommit": "c7ef8c9a305ad8d873db1db341fd0c786c0fa2a4"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Championship clincher with three games left, five goals and penalty incidents at both ends; culmination of promotion-to-title transformation.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–0 Arsenal",
+        "opposition": "Arsenal",
+        "score": "5–0",
+        "editorialReason": "Championship clincher with three games left, five goals and penalty incidents at both ends; culmination of promotion-to-title transformation.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -15737,15 +16124,25 @@
     {
       "id": "1960s-1963-64",
       "season": "1963-64",
-      "stage": "season_research",
+      "stage": "drafting",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
-      "sourceNote": null,
-      "selectedRowIds": [],
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+      "selectedRowIds": [
+        "match-1963-08-24-blackburn-liverpool-1963-thompson-debut",
+        "match-1963-09-16-liverpool-wolves-1963-first-home-win",
+        "match-1963-09-28-liverpool-everton-1963-callaghan-double",
+        "match-1963-11-23-manchester-united-liverpool-1963-yeats-winner",
+        "match-1963-12-26-liverpool-stoke-1963-hunt-four-goals",
+        "match-1964-02-29-liverpool-swansea-1964-fa-cup-quarter-final",
+        "match-1964-03-27-tottenham-liverpool-1964-hunt-hat-trick",
+        "match-1964-04-04-liverpool-manchester-united-1964-arrowsmith-double",
+        "match-1964-04-18-liverpool-arsenal-1964-title-secured"
+      ],
       "reusedPaths": [],
       "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+      "nextStage": "Complete retrieved-source match reports and their factual audits."
     },
     {
       "id": "1960s-1964-65",

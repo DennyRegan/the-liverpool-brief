@@ -1,0 +1,363 @@
+{
+  "season": "1963-64",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_decade_writer",
+  "retrievedOn": "2026-10-01",
+  "purpose": "Research handoff only. Canonical calendar is sole status authority.",
+  "matches": [
+    {
+      "date": "1963-08-24",
+      "home": "Blackburn Rovers",
+      "away": "Liverpool",
+      "score": "1–2",
+      "opposition": "Blackburn Rovers",
+      "competition": "First Division",
+      "title": "Thompson debuts as Liverpool turn defeat into victory at Ewood Park",
+      "slug": "blackburn-liverpool-1963-thompson-debut",
+      "editorialReason": "Peter Thompson’s arrival is tested in a comeback win: Moran follows up his saved penalty and Callaghan wins the opening match. A substantive debut story with contemporary evidence, not a milestone alone.",
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/blackburn-liverpool-1963-thompson-debut-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/187",
+          "provider": "LFChistory",
+          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/5",
+          "provider": "LFChistory",
+          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1963-64.html",
+          "provider": "RSSSF",
+          "claims": "Independent final table: champion Liverpool57 points, Manchester United53, Everton52; division status of cup opponents.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/2959",
+          "provider": "Liverpool Echo / Horace Yates via LFChistory",
+          "claims": "Contemporary account of Thompson debut, Blackburn lead and Liverpool recovery; specific action to be audited.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/peter-thompson",
+          "provider": "Liverpool FC",
+          "claims": "Thompson arrival from Preston and ever-present championship season.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-09-16",
+      "home": "Liverpool",
+      "away": "Wolverhampton Wanderers",
+      "score": "6–0",
+      "opposition": "Wolverhampton Wanderers",
+      "competition": "First Division",
+      "title": "Six goals end Liverpool’s losing start at Anfield",
+      "slug": "liverpool-wolves-1963-first-home-win",
+      "editorialReason": "First home win after three home defeats; Arrowsmith and Thompson open their Liverpool scoring accounts and five players score. Establishes the difficult beginning before the title challenge.",
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/liverpool-wolves-1963-first-home-win-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/194",
+          "provider": "LFChistory",
+          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/5",
+          "provider": "LFChistory",
+          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1963-64.html",
+          "provider": "RSSSF",
+          "claims": "Independent final table: champion Liverpool57 points, Manchester United53, Everton52; division status of cup opponents.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/161391-the-story-of-bill-shankly-s-first-title",
+          "provider": "Liverpool FC",
+          "claims": "Retrospective context: three opening home defeats and 6–0 Wolves breakthrough; anecdotal explanations remain Medium confidence.",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "date": "1963-09-28",
+      "home": "Liverpool",
+      "away": "Everton",
+      "score": "2–1",
+      "opposition": "Everton",
+      "competition": "First Division",
+      "title": "Callaghan’s double beats the champions in the Anfield derby",
+      "slug": "liverpool-everton-1963-callaghan-double",
+      "editorialReason": "A winger’s two goals beat reigning champions and begin a five-match league winning run after the Sheffield United setback. Distinct derby and recovery story.",
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/liverpool-everton-1963-callaghan-double-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/196",
+          "provider": "LFChistory",
+          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/5",
+          "provider": "LFChistory",
+          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1963-64.html",
+          "provider": "RSSSF",
+          "claims": "Independent final table: champion Liverpool57 points, Manchester United53, Everton52; division status of cup opponents.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/161391-the-story-of-bill-shankly-s-first-title",
+          "provider": "Liverpool FC",
+          "claims": "Independent official corroboration of 2–1 win over reigning champions and place in season recovery.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-11-23",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "score": "0–1",
+      "opposition": "Manchester United",
+      "competition": "First Division",
+      "title": "Yeats heads Liverpool to the top at Old Trafford",
+      "slug": "manchester-united-liverpool-1963-yeats-winner",
+      "editorialReason": "Yeats’s first Liverpool goal decides an away victory that puts Liverpool top for the first time this season; turning point in championship credibility.",
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/manchester-united-liverpool-1963-yeats-winner-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/204",
+          "provider": "LFChistory",
+          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/5",
+          "provider": "LFChistory",
+          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1963-64.html",
+          "provider": "RSSSF",
+          "claims": "Independent final table: champion Liverpool57 points, Manchester United53, Everton52; division status of cup opponents.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/161391-the-story-of-bill-shankly-s-first-title",
+          "provider": "Liverpool FC",
+          "claims": "Yeats header, first goal and significance to championship challenge.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/manchester-united-v-liverpool-23-november-1963-77678/",
+          "provider": "11v11",
+          "claims": "Independent match identity and Yeats scorer, retrieved through indexed search.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-12-26",
+      "home": "Liverpool",
+      "away": "Stoke City",
+      "score": "6–1",
+      "opposition": "Stoke City",
+      "competition": "First Division",
+      "title": "Hunt scores four as Liverpool break away after half-time",
+      "slug": "liverpool-stoke-1963-hunt-four-goals",
+      "editorialReason": "Four second-half Hunt goals transform a level Boxing Day game; contemporary Times archive gives a supported tactical focus and illuminates leading scorer’s contribution.",
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/liverpool-stoke-1963-hunt-four-goals-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/209",
+          "provider": "LFChistory",
+          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/5",
+          "provider": "LFChistory",
+          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1963-64.html",
+          "provider": "RSSSF",
+          "claims": "Independent final table: champion Liverpool57 points, Manchester United53, Everton52; division status of cup opponents.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.thetimes.co.uk/article/boxing-day-1963-football-66-goals-the-times-archive-5gc53ffjb",
+          "provider": "The Times archive",
+          "claims": "Reproduced contemporary report attributes second-half improvement to increased left-wing attacks; 100-word source allowance, use bounded paraphrase.",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "date": "1964-02-29",
+      "home": "Liverpool",
+      "away": "Swansea Town",
+      "score": "1–2",
+      "opposition": "Swansea Town",
+      "competition": "FA Cup, sixth round",
+      "title": "Swansea survive Liverpool’s fightback to end the cup run",
+      "slug": "liverpool-swansea-1964-fa-cup-quarter-final",
+      "editorialReason": "Second Division opposition win at Anfield: two quick first-half goals, Thompson reply and missed Moran penalty end hopes of a double. Essential setback amid championship story.",
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/liverpool-swansea-1964-fa-cup-quarter-final-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/220",
+          "provider": "LFChistory",
+          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/5",
+          "provider": "LFChistory",
+          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1963-64.html",
+          "provider": "RSSSF",
+          "claims": "Independent final table: champion Liverpool57 points, Manchester United53, Everton52; division status of cup opponents.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.swanseacity.com/news/classic-swans-fa-cup-encounters",
+          "provider": "Swansea City",
+          "claims": "Opponent history corroborates date/result, McLaughlin/Thomas goals, Dwyer performance and late Moran miss.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1964-03-27",
+      "home": "Tottenham Hotspur",
+      "away": "Liverpool",
+      "score": "1–3",
+      "opposition": "Tottenham Hotspur",
+      "competition": "First Division",
+      "title": "Hunt’s hat-trick launches Liverpool’s winning Easter",
+      "slug": "tottenham-liverpool-1964-hunt-hat-trick",
+      "editorialReason": "Away hat-trick at major title rivals begins the three-win Easter period and reverses the previous season’s severe White Hart Lane defeat; meaningful run-in contest.",
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/tottenham-liverpool-1964-hunt-hat-trick-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/225",
+          "provider": "LFChistory",
+          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/5",
+          "provider": "LFChistory",
+          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1963-64.html",
+          "provider": "RSSSF",
+          "claims": "Independent final table: champion Liverpool57 points, Manchester United53, Everton52; division status of cup opponents.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1964-04-04",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "score": "3–0",
+      "opposition": "Manchester United",
+      "competition": "First Division",
+      "title": "Arrowsmith strikes twice as Liverpool pull clear of United",
+      "slug": "liverpool-manchester-united-1964-arrowsmith-double",
+      "editorialReason": "Victory over eventual runners-up makes five consecutive wins and opens a five-point margin over United, showing Arrowsmith’s emergence in the decisive run.",
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/liverpool-manchester-united-1964-arrowsmith-double-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/228",
+          "provider": "LFChistory",
+          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/5",
+          "provider": "LFChistory",
+          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1963-64.html",
+          "provider": "RSSSF",
+          "claims": "Independent final table: champion Liverpool57 points, Manchester United53, Everton52; division status of cup opponents.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3582",
+          "provider": "Liverpool Echo via LFChistory",
+          "claims": "Contemporary account corroborates win and Kop singing; writer opinions are not objective evidence of player emotions.",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "date": "1964-04-18",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "score": "5–0",
+      "opposition": "Arsenal",
+      "competition": "First Division",
+      "title": "Five goals against Arsenal secure Shankly’s first league title",
+      "slug": "liverpool-arsenal-1964-title-secured",
+      "editorialReason": "Championship clincher with three games left, five goals and penalty incidents at both ends; culmination of promotion-to-title transformation.",
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/liverpool-arsenal-1964-title-secured-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/230",
+          "provider": "LFChistory",
+          "claims": "Date, ground, result, half-time score, scorers and sequence; detailed event scopes to be recorded in companion audit.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/5",
+          "provider": "LFChistory",
+          "claims": "Complete 47-match national competitive sequence, league/cup chronology and surrounding results.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1963-64.html",
+          "provider": "RSSSF",
+          "claims": "Independent final table: champion Liverpool57 points, Manchester United53, Everton52; division status of cup opponents.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/2187",
+          "provider": "Contemporary Liverpool report via LFChistory",
+          "claims": "Detailed clinching-game reconstruction and both penalty incidents; minute variants require auditing.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/features/402698-a-history-of-liverpool-s-league-title-wins",
+          "provider": "Liverpool FC",
+          "claims": "Championship ended seventeen-year wait; Hunt31, StJohn21 and Arrowsmith15 league goals; team26 wins and57 points.",
+          "confidence": "High"
+        }
+      ]
+    }
+  ]
+}

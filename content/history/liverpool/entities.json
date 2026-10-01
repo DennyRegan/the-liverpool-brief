@@ -2678,5 +2678,15 @@
     "id": "mike-stringfellow",
     "label": "Mike Stringfellow",
     "kind": "person"
+  },
+  {
+    "id": "ewood-park",
+    "label": "Ewood Park",
+    "kind": "location"
+  },
+  {
+    "id": "noel-dwyer",
+    "label": "Noel Dwyer",
+    "kind": "person"
   }
 ]
