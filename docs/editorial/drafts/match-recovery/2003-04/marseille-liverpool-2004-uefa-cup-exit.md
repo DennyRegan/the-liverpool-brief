@@ -14,6 +14,7 @@ season: "2003-04"
 playerIds: [emile-heskey, igor-biscan, steven-gerrard, michael-owen]
 managerIds: [gerard-houllier]
 competitionIds: [uefa-cup]
+oppositionIds: [marseille]
 ---
 
 Liverpool's UEFA Cup campaign ended in Marseille after an advantage established by Emile Heskey disappeared either side of half-time. Igor Bišćan's dismissal and Didier Drogba's penalty brought the French side back into the tie before Abdoulaye Méïté's header secured a 2–1 victory, 3–2 on aggregate.

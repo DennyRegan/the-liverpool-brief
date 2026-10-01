@@ -13,6 +13,7 @@ season: "2002-03"
 playerIds: [danny-murphy, vladimir-smicer, michael-owen]
 managerIds: [gerard-houllier]
 competitionIds: [european-cup]
+oppositionIds: [basel]
 ---
 
 Liverpool came back from 3–0 down in Basel on 12 November 2002 and were still eliminated from the Champions League. They needed to win their final first-group-stage match. A late Michael Owen equaliser made it 3–3, but the point took Basel through and sent Liverpool into the UEFA Cup.

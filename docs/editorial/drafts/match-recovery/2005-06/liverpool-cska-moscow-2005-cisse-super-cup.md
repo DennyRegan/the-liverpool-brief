@@ -13,6 +13,7 @@ managerIds: ["rafael-benitez"]
 competitionIds: ["european-super-cup"]
 playerIds: ["djibril-cisse", "luis-garcia"]
 # date: assigned only at approved publication
+oppositionIds: [cska-moscow]
 ---
 
 Liverpool were eleven minutes from losing the European Super Cup when Rafael Benítez sent on Djibril Cissé in Monaco. By the end of extra time, the substitute had scored twice and made the third in a 3–1 victory over CSKA Moscow.

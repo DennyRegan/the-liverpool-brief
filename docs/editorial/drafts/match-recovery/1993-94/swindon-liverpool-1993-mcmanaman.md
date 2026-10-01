@@ -25,6 +25,7 @@ managerIds:
   - graeme-souness
 playerIds:
   - steve-mcmanaman
+oppositionIds: [swindon-town]
 ---
 
 # Swindon Town 0–5 Liverpool: McManaman scores twice as Liverpool go top at Swindon

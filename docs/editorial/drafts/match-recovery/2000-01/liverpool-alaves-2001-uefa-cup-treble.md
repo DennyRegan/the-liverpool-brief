@@ -13,6 +13,7 @@ season: "2000-01"
 playerIds: [gary-mcallister, robbie-fowler, steven-gerrard, markus-babbel, michael-owen]
 managerIds: [gerard-houllier]
 competitionIds: [uefa-cup]
+oppositionIds: [alaves]
 ---
 
 Liverpool led 2–0, 3–1 and 4–3 in Dortmund. Each time Alavés came back. The UEFA Cup final finally ended late in extra time when Gary McAllister's free-kick glanced off Delfí Geli's head and into his own net. Under the golden-goal rule, that touch settled the match immediately. Liverpool had won 5–4 and completed their cup treble.

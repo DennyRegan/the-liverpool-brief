@@ -8481,9 +8481,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1994-11-30-blackburn-rovers-liverpool.md.txt",
         "articleBodySha256": "f1ef99e4680d99965f70e0a7437206f7a5bf86f7c9d8323e147161e5a0ffcb28",
         "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
-        "blockers": [
-          "Canonical opposition entity not available for Blackburn Rovers; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -8743,9 +8741,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1995-04-02-liverpool-bolton-wanderers.md.txt",
         "articleBodySha256": "4da04a0dbea9949b4c4cbb02ec2a40af28202160bfa4c0715869f5c65c33aaaf",
         "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
-        "blockers": [
-          "Canonical opposition entity not available for Bolton Wanderers; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -8797,9 +8793,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1994-95/1995-05-14-liverpool-blackburn-rovers.md.txt",
         "articleBodySha256": "a62c1eb05d37cf45c4037ab1e115db524510e693621d5c8f78183317931d7596",
         "duplicateResolution": "Existing canonical repository draft retained; recovered original preserved as provenance.",
-        "blockers": [
-          "Canonical opposition entity not available for Blackburn Rovers; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -9032,9 +9026,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1995-08-19-liverpool-sheffield-wednesday.md.txt",
         "articleBodySha256": "1cf14d0f02c5cf545bc6f0eee5825222613586e78cb36122f01c9b762b7cf799",
         "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
-        "blockers": [
-          "Canonical opposition entity not available for Sheffield Wednesday; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -9090,9 +9082,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1995-09-23-liverpool-bolton-wanderers.md.txt",
         "articleBodySha256": "c4928a48595999393cea5bfc0b8c41150f0e0b17eebef6e0018b6982322ca765",
         "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
-        "blockers": [
-          "Canonical opposition entity not available for Bolton Wanderers; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -9428,9 +9418,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1995-96/1996-02-24-blackburn-rovers-liverpool.md.txt",
         "articleBodySha256": "82dab56b00a7b3385a3d357a3046b64bc1bb49da458700e357f8040ae062f09d",
         "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
-        "blockers": [
-          "Canonical opposition entity not available for Blackburn Rovers; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -11341,9 +11329,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1993-94/swindon-liverpool-1993-mcmanaman.md.txt",
         "articleBodySha256": "5ad21e81febd212b896d52859fcb37d95d1d069b0754c93ac8efaf15535c5ab1",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Swindon Town; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -11522,9 +11508,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/03-liverpool-sion-1996-10-31.md.txt",
         "articleBodySha256": "8d4e395b809712f91f3cea74e2e66f1972431ad0827a61c71ba5c2dbaaf369b1",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Sion; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       },
       "event": "Six goals against Sion after Liverpool twice face elimination"
     },
@@ -11749,9 +11733,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/08-liverpool-brann-1997-03-20.md.txt",
         "articleBodySha256": "1dc9e9537dc9ddb92f7420869b83b80bee34907bfb6bc25e979f8e0735d69185",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Brann; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       },
       "event": "Fowler’s goals and dockers message as Liverpool reach the last four"
     },
@@ -11886,9 +11868,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1996-97/11-liverpool-paris-saint-germain-1997-04-24.md.txt",
         "articleBodySha256": "bcd6067d612975baefe4f4d6d8dc17c060ad314265139ad6cd0ef4526743bf5c",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Paris Saint-Germain; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       },
       "event": "Liverpool come one goal short against Paris Saint-Germain"
     },
@@ -11981,9 +11961,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1997-98/celtic-liverpool-1997-mcmanaman-equaliser.md.txt",
         "articleBodySha256": "5982a2eb84fe114eb61de72b2eaeb1481219d1a3234ffba04abbb8ff51644a77",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Celtic; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -12124,9 +12102,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1997-98/sheffield-wednesday-liverpool-1998-owen-hat-trick.md.txt",
         "articleBodySha256": "c58330b1300d6cc029701101f4453f76110f4f2510e03f356e06f768eb02685d",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Sheffield Wednesday; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -12455,9 +12431,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1999-00/bradford-liverpool-2000-final-day-defeat.md.txt",
         "articleBodySha256": "cbbd8907e47876134777b60aea7b491a917e1dfef6fb7120d4b04e0fbbd87244",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Bradford; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -12551,9 +12525,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1999-00/liverpool-sheffield-wednesday-1999-gerrard-first-goal.md.txt",
         "articleBodySha256": "8ee3ad2d215a3c7539c08906f22ebc32214333c20807517b828a2ad1eb3c8594",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Sheffield Wednesday; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -12647,9 +12619,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/charlton-liverpool-2001-champions-league-place.md.txt",
         "articleBodySha256": "2f4190918a1dd62a79d381a38e4f7ce5a45f73b5c5c2c23dfcf02a7971495c55",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Charlton; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -12743,9 +12713,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-alaves-2001-uefa-cup-treble.md.txt",
         "articleBodySha256": "2239b99bfae5eb97bcf7e9d3f7e5cbbf8ee265806f8310eca36d73229ea052f2",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Alavés; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -13356,9 +13324,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2002-03/basel-liverpool-2002-comeback-elimination.md.txt",
         "articleBodySha256": "62687d3cf057222939c98e482818c5184494e06c9b1424678fb2b7b6bc2897c9",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Basel; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -13452,9 +13418,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2002-03/liverpool-celtic-2003-anfield-exit.md.txt",
         "articleBodySha256": "d85f8f5376fb1e2ba7ca2943f017f6838fb62eb81994b5137faedd8843069b11",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Celtic; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -13783,9 +13747,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2003-04/marseille-liverpool-2004-uefa-cup-exit.md.txt",
         "articleBodySha256": "bc61656966942677fbf9f5601525737bcbf16ff455a558f70d6f09a4a41b4c91",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Marseille; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -13832,9 +13794,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2004-05/burnley-liverpool-2005-fa-cup-exit.md.txt",
         "articleBodySha256": "9cf5080a3ccb77070010311182da742621d55d8bc0dbb2af739bc7afd0a4ec51",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for Burnley; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -14305,9 +14265,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md.txt",
         "articleBodySha256": "95ea73c0d300d91beb6c2f835d28e19cba70e0a02117e5137f1b62e38e667a93",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for CSKA Moscow; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -14495,9 +14453,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md.txt",
         "articleBodySha256": "88633913a81a837bb601f405f379be078ebc99410a5ff36146cf9100be31b31c",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for São Paulo; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     },
     {
@@ -14826,9 +14782,7 @@
         "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2006-07/psv-liverpool-2007-three-away-goals.md.txt",
         "articleBodySha256": "3e2fb3da40f875970aed5f3456828ad6815ce1bb288058d3a3da0ef17ff3e58f",
         "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
-        "blockers": [
-          "Canonical opposition entity not available for PSV; identity retained as a label, no ID invented."
-        ]
+        "blockers": []
       }
     }
   ],

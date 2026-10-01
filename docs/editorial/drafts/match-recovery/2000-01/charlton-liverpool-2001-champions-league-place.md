@@ -13,6 +13,7 @@ season: "2000-01"
 playerIds: [robbie-fowler, danny-murphy, michael-owen, sander-westerveld]
 managerIds: [gerard-houllier]
 competitionIds: [premier-league]
+oppositionIds: [charlton-athletic]
 ---
 
 Three trophies had been won, but Liverpool still needed a league result. Their sixty-third and final competitive match of the season offered the place in the Champions League qualifying round they had missed a year earlier. For forty-five minutes at Charlton, that last objective remained uncertain.

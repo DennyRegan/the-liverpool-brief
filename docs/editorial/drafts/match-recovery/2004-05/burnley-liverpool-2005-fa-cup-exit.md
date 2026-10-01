@@ -14,6 +14,7 @@ season: "2004-05"
 playerIds: [djimi-traore, antonio-nunez, jerzy-dudek]
 managerIds: [rafael-benitez]
 competitionIds: [fa-cup]
+oppositionIds: [burnley]
 ---
 
 Liverpool's first FA Cup tie under Rafael Benítez ended in defeat by Championship side Burnley. Djimi Traoré turned Richard Chaplow's low cross into his own net early in the second half, and Liverpool could not recover before Antonio Núñez's late dismissal reduced them to ten men.

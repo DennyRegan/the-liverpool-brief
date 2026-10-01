@@ -14,6 +14,7 @@ playerIds: ["stan-collymore", "ian-rush", "steve-mcmanaman"]
 managerIds: ["roy-evans"]
 competitionIds: ["premier-league"]
 locationIds: ["anfield"]
+oppositionIds: [sheffield-wednesday]
 ---
 
 Stan Collymore began his Liverpool career with the goal that won their opening league match of 1995–96. His 61st-minute strike gave Roy Evans's side a 1–0 victory over Sheffield Wednesday at Anfield on 19 August.

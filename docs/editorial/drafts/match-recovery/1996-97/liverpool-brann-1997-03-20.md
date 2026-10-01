@@ -17,6 +17,7 @@ competitionIds:
   - european-cup-winners-cup
 locationIds:
   - anfield
+oppositionIds: [brann]
 ---
 # Fowler’s goals and dockers message as Liverpool reach the last four
 

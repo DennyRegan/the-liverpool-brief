@@ -40,7 +40,7 @@ export function getMatchReportInventory(root = process.cwd()) {
     const a = preferred.data, recovered = row?.matchRecovery ?? null;
     const blockers = [...(recovered?.blockers ?? [])];
     if (publicArticles.length > 1) blockers.push('Multiple pre-existing public reports share this match date; none removed by migration.');
-    if (!a.oppositionIds?.length && !recovered) blockers.push('Opposition metadata requires review.');
+    if (!a.oppositionIds?.length) blockers.push('Opposition metadata requires review.');
     if (!a.season) blockers.push('Principal season metadata requires review.');
     return {
       id: `match-${date}`, historicalEventDate: date, season: a.season ?? null,

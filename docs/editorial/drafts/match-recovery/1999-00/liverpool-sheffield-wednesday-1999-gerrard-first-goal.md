@@ -14,6 +14,7 @@ playerIds: [steven-gerrard, sami-hyypia, danny-murphy]
 managerIds: [gerard-houllier]
 competitionIds: [premier-league]
 locationIds: [anfield]
+oppositionIds: [sheffield-wednesday]
 ---
 
 Steven Gerrard's first Liverpool goal arrived when the game still needed winning. Sheffield Wednesday had been behind since before half-time, but Niclas Alexandersson had twice threatened an equaliser. Then the nineteen-year-old midfielder took the ball forward, beat the challenges in his path and finished beyond Kevin Pressman. Liverpool's narrow lead became 3–1.

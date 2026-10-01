@@ -13,6 +13,7 @@ playerIds: ["steve-mcmanaman", "jamie-redknapp", "david-james", "ian-rush"]
 managerIds: ["roy-evans"]
 competitionIds: ["league-cup"]
 locationIds: ["wembley"]
+oppositionIds: [bolton-wanderers]
 ---
 
 Steve McManaman scored both Liverpool goals in the 2-1 victory over Bolton Wanderers at Wembley on 2 April 1995. The win brought the club a fifth League Cup and gave Roy Evans his first trophy as manager, though Bolton made Liverpool work to protect it.

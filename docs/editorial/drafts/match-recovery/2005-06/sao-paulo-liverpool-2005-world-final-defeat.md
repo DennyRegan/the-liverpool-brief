@@ -13,6 +13,7 @@ managerIds: ["rafael-benitez"]
 competitionIds: ["fifa-club-world-cup"]
 playerIds: ["pepe-reina", "luis-garcia"]
 # date: assigned only at approved publication
+oppositionIds: [sao-paulo]
 ---
 
 Liverpool’s eleven consecutive clean sheets ended in the Club World Championship final, and one goal was enough to decide it. Mineiro scored midway through the first half in Yokohama; São Paulo protected that advantage through an increasingly one-sided Liverpool pursuit to win 1–0.

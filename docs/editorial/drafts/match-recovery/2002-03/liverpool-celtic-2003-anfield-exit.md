@@ -14,6 +14,7 @@ playerIds: [steven-gerrard, jerzy-dudek]
 managerIds: [gerard-houllier]
 competitionIds: [uefa-cup]
 locationIds: [anfield]
+oppositionIds: [celtic]
 ---
 
 A free-kick just before half-time and a long-range finish late in the second half ended Liverpool's UEFA Cup campaign on 20 March 2003. Alan Thompson and John Hartson scored as Celtic won 2–0 at Anfield and advanced from the quarter-final 3–1 on aggregate.

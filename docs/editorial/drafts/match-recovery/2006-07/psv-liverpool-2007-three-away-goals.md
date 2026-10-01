@@ -13,6 +13,7 @@ managerIds: ["rafael-benitez"]
 competitionIds: ["european-cup"]
 playerIds: ["steven-gerrard", "john-arne-riise", "peter-crouch"]
 # date: assigned only at approved publication
+oppositionIds: [psv-eindhoven]
 ---
 
 Liverpool made the first leg of their Champions League quarter-final at PSV decisive, winning 3–0 through Gerrard, Riise and Crouch. All three goals had arrived soon after the hour, leaving the return at Anfield with a very different shape from the finely balanced Barcelona tie.

@@ -13,6 +13,7 @@ season: "1997-98"
 playerIds: [steve-mcmanaman, michael-owen]
 managerIds: [roy-evans]
 competitionIds: [uefa-cup]
+oppositionIds: [celtic]
 ---
 
 Steve McManaman began his run inside Liverpool's half with the UEFA Cup tie moving away from them. Celtic had overturned Michael Owen's early goal and led 2–1 as the first leg approached its end. Liverpool had already discovered how completely a match could change at Celtic Park. McManaman changed it once more.

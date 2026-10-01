@@ -14,6 +14,7 @@ playerIds: [michael-owen, robbie-fowler]
 managerIds: [roy-evans]
 competitionIds: [premier-league]
 locationIds: [hillsborough]
+oppositionIds: [sheffield-wednesday]
 ---
 
 Michael Owen scored three times at Hillsborough and still needed Kevin Pressman to make one fewer save. Liverpool's 3–3 draw with Sheffield Wednesday on 14 February 1998 was a landmark in the teenager's emergence, yet it carried the frustration of a victory left unclaimed.

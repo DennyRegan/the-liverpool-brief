@@ -17,6 +17,7 @@ competitionIds:
   - european-cup-winners-cup
 locationIds:
   - anfield
+oppositionIds: [paris-saint-germain]
 ---
 # Liverpool come one goal short against Paris Saint-Germain
 

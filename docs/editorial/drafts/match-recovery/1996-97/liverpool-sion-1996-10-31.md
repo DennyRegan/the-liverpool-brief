@@ -16,6 +16,7 @@ competitionIds:
   - european-cup-winners-cup
 locationIds:
   - anfield
+oppositionIds: [sion]
 ---
 # Six goals against Sion after Liverpool twice face elimination
 

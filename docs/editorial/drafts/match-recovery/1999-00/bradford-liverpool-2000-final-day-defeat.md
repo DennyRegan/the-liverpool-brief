@@ -13,6 +13,7 @@ season: "1999-00"
 playerIds: [michael-owen, emile-heskey]
 managerIds: [gerard-houllier]
 competitionIds: [premier-league]
+oppositionIds: [bradford-city]
 ---
 
 The opportunity remained available elsewhere. Leeds drew at West Ham, so a Liverpool victory at Bradford would have secured third place and entry to the Champions League qualifying round. At Valley Parade, however, Liverpool never recovered from David Wetherall's early header. The season ended with Bradford celebrating survival and Liverpool confronting a chance they had let pass.
