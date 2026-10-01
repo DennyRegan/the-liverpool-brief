@@ -62,8 +62,9 @@ The table above records the starting audit, not live production status. The exis
 | --- | ---: | ---: | --- |
 | 1992–93 | 11 | 0 | Independent Astra review complete; corrections reread |
 | 2007–08 | 13 | 1 | Independent Astra review complete; corrections reread |
+| 2008–09 | 12 | 1 | Independent Astra review complete; corrections reread |
 
-The 1992–93 newly written collection fills the missing programme without claiming that the old recovery batch was located. The next writing season is 2008–09, beginning with Liverpool 2–1 Manchester United on 13 September 2008. All selected future matches through 2024–25 are registered as unfinished, with their retrieved season-selection evidence retained. No future research is counted as complete stock.
+The 1992–93 newly written collection fills the missing programme without claiming that the old recovery batch was located. Thirty-six new reports are complete. The next writing season is 2009–10, beginning with Sunderland 1–0 Liverpool on 17 October 2009. Its eight existing selections have real claims divided among three Astra writers; the existing History calendar retains each actual worker identity. All selected future matches through 2024–25 are registered as unfinished, with their retrieved season-selection evidence retained. No future research is counted as complete stock.
 
 Two narrow validation changes support the growing inventory: delayed July 2020 league fixtures remain in 2019–20; a batch can reference an existing anniversary match row without duplicating it. A synthetic Git integration test now allows the full calendar to exceed Node's default output buffer. Publisher policy, enablement and scheduling are unchanged.
 

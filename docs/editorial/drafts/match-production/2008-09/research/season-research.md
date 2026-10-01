@@ -28,3 +28,11 @@ The league finish was second; the season record states 86 points, four behind Un
 - Selection evidence is retrieved; article-specific detailed reconstruction and independent factual cross-checks remain to be completed after remote claims.
 - Chelsea away scorer attribution conflict: LFChistory notes later Bosingwa own-goal ruling while Liverpool retain Alonso attribution. Investigate primary league record before prose.
 - No article prose drafted before root confirms remote season claims.
+
+## Manuscript completion checkpoint — 1 October 2026
+
+All twelve selected new reports are now written under the season root, each with a canonical `<slug>-notes.md` factual audit. The preparatory `<slug>.md` research records are retained as research only and do not count as additional articles. Existing Goodison report `docs/editorial/drafts/torres-goodison-derby-double-2008.md` remains unchanged and supplies the thirteenth represented match.
+
+All twelve received independent factual review by `/root/astra_history_production`; see `independent-review.md`. No remaining material factual blocker was identified. Chelsea26October formal scorer attribution remains an explicitly documented source conflict; prose describes Alonso’s shot deflecting off Bosingwa without assigning disputed formal credit. Optional unknown stadium IDs were omitted; all included canonical IDs validated.
+
+Local metadata/filename/date checks passed for twelve manuscripts. `npm run validate:calendar` passed654entries; `node scripts/validate-history.mjs` passed211History entries,583entities and654calendar entries, with existing module-type and era-association warnings. Root coordinator retains responsibility for authoritative completion status, full test/build checks and the remote checkpoint. No publication, approval or schedule has been assigned. Next season2009–10 must await the coordinator’s checkpoint and real claims.

@@ -2888,5 +2888,30 @@
     "id": "sigfried-held",
     "label": "Sigfried Held",
     "kind": "person"
+  },
+  {
+    "id": "ajax",
+    "label": "Ajax",
+    "kind": "opposition"
+  },
+  {
+    "id": "petrolul-ploiesti",
+    "label": "Petrolul Ploiești",
+    "kind": "opposition"
+  },
+  {
+    "id": "olympic-stadium-amsterdam",
+    "label": "Olympic Stadium, Amsterdam",
+    "kind": "location"
+  },
+  {
+    "id": "johan-cruyff",
+    "label": "Johan Cruyff",
+    "kind": "person"
+  },
+  {
+    "id": "alan-ball",
+    "label": "Alan Ball",
+    "kind": "person"
   }
 ]

@@ -73,7 +73,8 @@
       "score": "Sunderland 1–0 Liverpool",
       "slug": "beach-ball-sunderland-defeat-2009",
       "reason": "A unique decisive outside interference incident in a damaging fourth league defeat.",
-      "sourceUrl": "https://www.skysports.com/football/sunderland-vs-liverpool/report/110436"
+      "sourceUrl": "https://www.skysports.com/football/sunderland-vs-liverpool/report/110436",
+      "workerId": "/root/astra_2008_2013"
     },
     {
       "date": "2009-10-25",
@@ -83,7 +84,8 @@
       "score": "Liverpool 2–0 Manchester United",
       "slug": "torres-ngog-united-response-2009",
       "reason": "Ends four successive defeats; a third consecutive league win over United.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/121163-most-exciting-pl-games-16"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/121163-most-exciting-pl-games-16",
+      "workerId": "/root/astra_2008_2013"
     },
     {
       "date": "2009-11-04",
@@ -93,7 +95,8 @@
       "score": "Lyon 1–1 Liverpool",
       "slug": "lyon-late-equaliser-2009",
       "reason": "Late concession leaves Liverpool on brink of Champions League group elimination; Babel goal denied victory.",
-      "sourceUrl": "https://www.uefa.com/uefachampionsleague/news/01df-0e7340948fda-a079c00d7be2-1000--lyon-through-as-liverpool-teeter/"
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/news/01df-0e7340948fda-a079c00d7be2-1000--lyon-through-as-liverpool-teeter/",
+      "workerId": "/root/astra_2008_2013"
     },
     {
       "date": "2010-01-13",
@@ -103,7 +106,8 @@
       "score": "Liverpool 1–2 Reading after extra time",
       "slug": "reading-anfield-fa-cup-upset-2010",
       "reason": "Third-round replay loss to Championship opposition after late penalty and extra-time winner.",
-      "sourceUrl": "https://www.skysports.com/football/liverpool-vs-reading/report/139232"
+      "sourceUrl": "https://www.skysports.com/football/liverpool-vs-reading/report/139232",
+      "workerId": "/root/astra_2007_08"
     },
     {
       "date": "2010-02-06",
@@ -113,7 +117,8 @@
       "score": "Liverpool 1–0 Everton",
       "slug": "kuyt-ten-man-derby-2010",
       "reason": "Ten-man Liverpool win derby through Kuyt after Kyrgiakos dismissal.",
-      "sourceUrl": "https://www.uefa.com/news-media/news/0254-0d7cd4f8f065-bdacfe742608-1000--kuyt-decides-merseyside-derby/"
+      "sourceUrl": "https://www.uefa.com/news-media/news/0254-0d7cd4f8f065-bdacfe742608-1000--kuyt-decides-merseyside-derby/",
+      "workerId": "/root/astra_2007_08"
     },
     {
       "date": "2010-03-18",
@@ -123,7 +128,8 @@
       "score": "Liverpool 3–0 Lille",
       "slug": "torres-lille-european-recovery-2010",
       "reason": "Overturns one-goal first-leg deficit to reach Europa League quarter-final.",
-      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01e3-0e741a83a9f4-c849d0e7596f-1000--clinical-liverpool-punish-lille-lapses/"
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01e3-0e741a83a9f4-c849d0e7596f-1000--clinical-liverpool-punish-lille-lapses/",
+      "workerId": "/root/astra_2007_08"
     },
     {
       "date": "2010-04-08",
@@ -133,7 +139,8 @@
       "score": "Liverpool 4–1 Benfica",
       "slug": "torres-benfica-semi-final-2010",
       "reason": "Another first-leg deficit overturned; Torres double takes Liverpool to semi-final.",
-      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01e4-0e7450a577bb-1947462ffad1-1000--resurgent-liverpool-overpower-benfica/"
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01e4-0e7450a577bb-1947462ffad1-1000--resurgent-liverpool-overpower-benfica/",
+      "workerId": "/root/astra_independent_review"
     },
     {
       "date": "2010-04-29",
@@ -143,7 +150,8 @@
       "score": "Liverpool 2–1 Atlético Madrid after extra time",
       "slug": "forlan-ends-liverpool-european-run-2010",
       "reason": "Extra-time away goal ends final European campaign of Benítez’s Liverpool tenure.",
-      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01e4-0e74713ffe42-bc3ae871bec3-1000--forlan-puts-atletico-on-the-highway-to-hamburg/"
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01e4-0e74713ffe42-bc3ae871bec3-1000--forlan-puts-atletico-on-the-highway-to-hamburg/",
+      "workerId": "/root/astra_independent_review"
     }
   ],
   "reused": [

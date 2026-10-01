@@ -4,7 +4,7 @@ Configured model: `gpt-6-astra`. Reviewer: `/root/astra_history_production`. Sou
 
 ## Scope and current stage
 
-Independent source preparation complete; finished-manuscript audit pending files from the assigned writer. Twelve new articles are proposed. The existing 27 September 2008 Goodison report is reused and is outside the rewriting scope. No article or calendar file changed by this reviewer.
+Independent factual review completed for all twelve new manuscripts after their files were saved. Earlier requests were returned to the writer and the corrected files were reread. No material factual blocker remains in the retained prose. The existing 27 September 2008 Goodison report is reused and is outside the rewriting scope. No article or calendar file changed by this reviewer.
 
 ## Independently retrieved evidence
 
@@ -58,4 +58,54 @@ Independent source preparation complete; finished-manuscript audit pending files
 
 ## Finished-file findings
 
-Pending the new manuscripts. No factual sign-off yet.
+All twelve new manuscripts read against the independently retrieved sources below. The conclusion is factual review completion only, not editorial approval or permission to publish. Root metadata/route validation remains separate.
+
+## Additional contemporary checks retrieved during drafting
+
+Sky Sports reports below were independently opened. Confidence: High for the displayed contemporary match action and identity; later paragraphs are truncated in some responses, so unseen material is not treated as retrieved evidence.
+
+- https://www.skysports.com/football/liverpool-vs-man-utd/3737 — Riera debut, Gerrard/Torres start on bench, Brown own goal mechanism, Babel winner, Vidić second caution, Benítez’s previous eight league meetings.
+- https://www.skysports.com/football/newcastle-vs-liverpool/10905 — all five goal sequences, Given saves, Edgar reply, Lucas pass for Gerrard and penalty foul on Ngog.
+- https://www.skysports.com/football/fulham-vs-liverpool/16959 — four first-half woodwork incidents and substitute Benayoun stoppage-time winner, with United’s games in hand retained.
+- https://www.skysports.com/football/chelsea-vs-liverpool/report/17731 — eight-goal sequence and 7–5 aggregate; conflicts with UEFA over whether Torres or Kuyt was fouled before the opening free-kick. Recommend omitting that named victim.
+- https://www.skysports.com/football/liverpool-vs-chelsea/12790 — Torres double, Aurélio cross, Cole error, Lampard dismissal and deflected Alonso shot against bar.
+- https://www.skysports.com/football/middlesbrough-vs-liverpool/14426 — Downing corner/Alonso own goal, Aliadière cross/Tuncay second, El Zhar chance and seven-point deficit with an extra game played.
+- https://www.skysports.com/football/liverpool-vs-real-madrid/15316 — Torres opener, disputed Heinze handball decision, Babel cross/Gerrard goal, Casillas saves and 5–0 aggregate. State award rather than assert proven handball.
+- https://www.skysports.com/football/real-madrid-vs-liverpool/report/14328 — Benayoun header from Aurélio free-kick, Higuaín offside goal, Alonso long-range attempt and Torres chance.
+- https://www.skysports.com/football/manchester-city-vs-liverpool/5536 — City goals, Torres assists and Zabaleta dismissal, checked against the opponent’s official report. Current stadium branding in page header is not adopted for 2008.
+- https://www.skysports.com/football/liverpool-vs-arsenal/report/18209 — four Arshavin goals, two Torres/two Benayoun, attacking sequence, checked against UEFA and ledger.
+- https://www.skysports.com/football/man-utd-vs-liverpool/15444 — four-point gap with United’s game in hand, Evra foul for penalty, Škrtel long pass/Torres equaliser and Vidić dismissal.
+- **Liverpool FC — High**: https://www.liverpoolfc.com/news/first-team/211433-on-this-day-reds-run-riot-at-old-trafford — independent official corroboration of 4–1, warm-up withdrawal of Arbeloa, goals and dismissal; full relevant text retrieved.
+- **Liverpool FC — High**: https://www.liverpoolfc.com/news/first-team/207667-gotd-crouch-heads-the-winner-against-united — full relevant text retrieved to verify the earlier FA Cup victory under Benítez, mentioned as context in the September United manuscript.
+
+### Rolling manuscript review
+
+First three new articles (United home, City away, Chelsea away) read against the independently retrieved evidence. No material factual errors found. Requested tighter conclusions to avoid repeating the result and significance, plus a source record for the earlier FA Cup win where that opening context is retained. Full-season closure remains pending all twelve files and any corrections.
+
+Next three manuscripts (Newcastle away, Chelsea home, Real Madrid away) checked. Newcastle goal sequence and end-of-day lead, Chelsea rescission and games-in-hand context are sound. Requested that Madrid’s “Neither side made a breakthrough after the interval” become “For much of the second half the match remained goalless”, since the eventual winner was scored after the interval. Also requested removal of Newcastle’s repetitive final sentence. First-batch revisions reread and accepted as factual corrections/tightening only.
+
+The Guardian live-report search extract at https://www.theguardian.com/football/2009/feb/01/liverpool-chelsea-premier-league independently supports Benayoun’s involvement before Chelsea’s second concession (Medium: retrieved extract only). RTÉ full retrieval failed with 403 and is not claimed as evidence. The writer has been asked to identify their actually retrieved support for any detail beyond the displayed Sky text.
+
+Middlesbrough, Real Madrid home and Manchester United away manuscripts also reviewed. Factual sequence and milestones match sources. Requested final league-table citation for Middlesbrough’s eventual four-point gap and minor Dossena wording to avoid implying an earlier substitute scored at Old Trafford. Madrid penalty is correctly described as a referee’s award rather than proven handball. Earlier Madrid second-half timing, Newcastle ending and Chelsea Benayoun-detail corrections reread. Nine of twelve manuscripts have now been checked; final three remain pending.
+
+
+## Final reviewed-file record
+
+| Manuscript | Identity, action and consequence checked | Outcome |
+| --- | --- | --- |
+| `babel-ends-united-league-run-2008.md` | 13 September 2–1; Tevez/Brown own goal/Babel; Benítez’s first league win over United, Vidić dismissal | Factual review complete; repetitive closing passage removed |
+| `kuyt-completes-city-comeback-2008.md` | 5 October 3–2; two-goal deficit, Torres double, Zabaleta dismissal, Škrtel injury and Kuyt winner | Factual review complete |
+| `alonso-ends-chelsea-home-run-2008.md` | 26 October 1–0; deflected Alonso shot, 86-match league run, three-point lead | Factual review complete; avoids unsupported final scorer adjudication |
+| `gerrard-five-goals-newcastle-2008.md` | 28 December 5–1; four Liverpool scorers, Given saves, Gerrard supply/finishing, end-of-day three-point lead | Factual review complete; temporal scope explicit |
+| `torres-late-double-chelsea-2009.md` | 1 February 2–0; Torres late double, Lampard dismissal/rescission, two-point gap with United game in hand | Factual review complete; unnecessary Benayoun detail removed |
+| `benayoun-bernabeu-winner-2009.md` | 25 February 1–0; Benayoun header from Aurélio free-kick, saves and away-goal/aggregate advantage | Factual review complete; second-half goalless wording correctly narrowed |
+| `middlesbrough-title-setback-2009.md` | 28 February 0–2; Alonso own goal, Tuncay finish, fourteen-match home-side winless run, seven-point deficit and eventual final gap | Factual review complete; final-table source added |
+| `gerrard-torres-real-madrid-four-2009.md` | 10 March 4–0/5–0 aggregate; Gerrard’s hundredth European appearance, penalty award, goal sequence and qualification | Factual review complete; disputed decision properly attributed |
+| `four-at-old-trafford-2009.md` | 14 March 4–1; penalties, Torres equaliser, Vidić dismissal, Aurélio free-kick/Dossena lob, four-point gap | Factual review complete; minor substitute wording corrected |
+| `benayoun-late-fulham-winner-2009.md` | 4 April 1–0; four first-half woodwork incidents, substitute winner, two-point lead with United two games in hand | Factual review complete |
+| `eight-goals-stamford-bridge-2009.md` | 14 April 4–4/5–7 aggregate; eight-goal sequence, two recovery attempts, away-goals arithmetic and elimination | Factual review complete |
+| `arshavin-four-anfield-2009.md` | 21 April 4–4; Arshavin four, Torres/Benayoun doubles, temporary lead, five subsequent league wins and final 86/90 points | Factual review complete |
+
+The additional contemporary UEFA Chelsea report was independently retrieved in full: https://www.uefa.com/uefachampionsleague/news/01d8-0e72052ba82d-63a181434332-1000--chelsea-withstand-stunning-liverpool-surge/ — **High** for match sequence and outcome. It misidentifies Lucas’s nationality and differs on his goal minute; neither disputed detail is in public prose. The foul-victim conflict also remains excluded.
+
+All earlier timing/source/phrasing requests have been reread in the saved revisions. The pre-existing Goodison manuscript remains reused without modification. No public article, calendar status, approval, schedule or Git state was changed by this reviewer. This note records researched factual review, not an assertion that every historical match deserves selection or that publication has been authorised.
