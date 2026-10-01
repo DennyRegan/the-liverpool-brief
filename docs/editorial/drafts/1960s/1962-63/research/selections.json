@@ -1,0 +1,283 @@
+{
+  "season": "1962-63",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_decade_writer",
+  "retrievedOn": "2026-10-01",
+  "purpose": "Research handoff only. Calendar is sole status authority.",
+  "matches": [
+    {
+      "date": "1962-08-18",
+      "home": "Liverpool",
+      "away": "Blackpool",
+      "score": "1–2",
+      "opposition": "Blackpool",
+      "competition": "First Division",
+      "title": "Blackpool spoil Liverpool’s return to the First Division",
+      "slug": "liverpool-blackpool-1962-first-division-return",
+      "editorialReason": "First league match after eight seasons outside the top flight; a late two-goal setback gives the promotion story its immediate sequel.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/liverpool-blackpool-1962-first-division-return-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/139",
+          "provider": "LFChistory",
+          "claims": "Match identity, outcome, scoring sequence and line-up; precise scope to be audited",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1962-09-22",
+      "home": "Everton",
+      "away": "Liverpool",
+      "score": "2–2",
+      "opposition": "Everton",
+      "competition": "First Division",
+      "title": "Hunt rescues a point as the league derby returns",
+      "slug": "everton-liverpool-1962-league-derby-return",
+      "editorialReason": "First league derby since 1951; two Liverpool equalisers, a last-minute Hunt goal and former Red Morrissey scoring for Everton give the revived fixture a distinct story.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/everton-liverpool-1962-league-derby-return-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/148",
+          "provider": "LFChistory",
+          "claims": "Match identity, outcome, scoring sequence and line-up; precise scope to be audited",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1962-10-27",
+      "home": "West Bromwich Albion",
+      "away": "Liverpool",
+      "score": "1–0",
+      "opposition": "West Bromwich Albion",
+      "competition": "First Division",
+      "title": "Lawrence’s debut ends in defeat as Melia’s penalty is saved",
+      "slug": "west-brom-liverpool-1962-lawrence-debut",
+      "editorialReason": "Goalkeeper succession begins during the difficult autumn; Lawrence and Wallace debut, with a missed equalising penalty shaping the match.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/west-brom-liverpool-1962-lawrence-debut-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/152",
+          "provider": "LFChistory",
+          "claims": "Match identity, outcome, scoring sequence and line-up; precise scope to be audited",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/tommy-lawrence",
+          "provider": "Liverpool FC",
+          "claims": "Debut follows Furnell injury; retained place for remainder of season",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1962-12-22",
+      "home": "Liverpool",
+      "away": "Blackburn Rovers",
+      "score": "3–1",
+      "opposition": "Blackburn Rovers",
+      "competition": "First Division",
+      "title": "Liverpool make it seven straight wins before the winter freeze",
+      "slug": "liverpool-blackburn-1962-seven-straight-wins",
+      "editorialReason": "Comeback in league standing culminates in seventh successive victory, fifth place and last league match before a long weather interruption.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/liverpool-blackburn-1962-seven-straight-wins-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/161",
+          "provider": "LFChistory",
+          "claims": "Match identity, outcome, scoring sequence and line-up; precise scope to be audited",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.chelseafc.com/en/news/article/the-original-winter-break--when-the-big-freeze-of--63-stopped-pl",
+          "provider": "Chelsea FC",
+          "claims": "Independent national context of severe winter disruption, not Liverpool-specific dates",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-03-16",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "score": "1–2",
+      "opposition": "Arsenal",
+      "competition": "FA Cup, fifth round",
+      "title": "Melia and Moran carry Liverpool past Arsenal at Highbury",
+      "slug": "arsenal-liverpool-1963-fa-cup-fifth-round",
+      "editorialReason": "Away cup victory after a league draw on the same ground a week earlier, with Moran penalty and a late Arsenal reply; key progression toward semi-final.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/arsenal-liverpool-1963-fa-cup-fifth-round-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/170",
+          "provider": "LFChistory",
+          "claims": "Match identity, outcome, scoring sequence and line-up; precise scope to be audited",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-04-12",
+      "home": "Liverpool",
+      "away": "Tottenham Hotspur",
+      "score": "5–2",
+      "opposition": "Tottenham Hotspur",
+      "competition": "First Division",
+      "title": "Five second-half goals overturn Tottenham’s Anfield lead",
+      "slug": "liverpool-tottenham-1963-five-goal-comeback",
+      "editorialReason": "Exceptional recovery from 0–2 at half-time against eventual runners-up; offers a major standalone match story and first half of contrasting Easter pair.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/liverpool-tottenham-1963-five-goal-comeback-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/175",
+          "provider": "LFChistory",
+          "claims": "Match identity, outcome, scoring sequence and line-up; precise scope to be audited",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-04-15",
+      "home": "Tottenham Hotspur",
+      "away": "Liverpool",
+      "score": "7–2",
+      "opposition": "Tottenham Hotspur",
+      "competition": "First Division",
+      "title": "Greaves scores four as Tottenham turn the tables",
+      "slug": "tottenham-liverpool-1963-greaves-four-goals",
+      "editorialReason": "Severe reversal three days after a 5–2 win, with Greaves four-goal performance; essential evidence of remaining inconsistency, not omitted because it is a defeat.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/tottenham-liverpool-1963-greaves-four-goals-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/177",
+          "provider": "LFChistory",
+          "claims": "Match identity, outcome, scoring sequence and line-up; precise scope to be audited",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-04-27",
+      "home": "Leicester City",
+      "away": "Liverpool",
+      "score": "1–0",
+      "opposition": "Leicester City",
+      "competition": "FA Cup, semi-final",
+      "title": "Stringfellow and Banks deny Liverpool a place at Wembley",
+      "slug": "leicester-liverpool-1963-fa-cup-semi-final",
+      "editorialReason": "First Shankly FA Cup semi-final ends one match short of Wembley; important opponent-side recollections substantiate goal and Liverpool pressure.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/leicester-liverpool-1963-fa-cup-semi-final-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/180",
+          "provider": "LFChistory",
+          "claims": "Match identity, outcome, scoring sequence and line-up; precise scope to be audited",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lcfc.com/media-article/Foxes-Legends-On-Classic-Liverpool-Cup-Tie",
+          "provider": "Leicester City / John Hutchinson",
+          "claims": "Club historian and participant recollections of semi-final; detailed scopes checked during drafting",
+          "confidence": "Medium"
+        }
+      ]
+    }
+  ]
+}
