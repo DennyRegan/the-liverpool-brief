@@ -1,0 +1,397 @@
+{
+  "season": "1962-63",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_decade_writer",
+  "retrievedOn": "2026-10-01",
+  "purpose": "Research handoff only. Calendar is sole status authority.",
+  "matches": [
+    {
+      "date": "1962-08-18",
+      "home": "Liverpool",
+      "away": "Blackpool",
+      "score": "1–2",
+      "opposition": "Blackpool",
+      "competition": "First Division",
+      "title": "Blackpool spoil Liverpool’s return to the First Division",
+      "slug": "liverpool-blackpool-1962-first-division-return",
+      "editorialReason": "First league match after eight seasons outside the top flight; a late two-goal setback gives the promotion story its immediate sequel.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/liverpool-blackpool-1962-first-division-return-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/139",
+          "provider": "LFChistory",
+          "claims": "Match date, ground, score, half-time score, Charnley and Horne scoring in quick succession late in the match, Lewis reply, starting eleven and attendance.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-blackpool-18-august-1962-77015/",
+          "provider": "11v11: opening-day match",
+          "claims": "Independent match date, competition, venue, result and listed scorers/line-up; detailed scope is checked in the paragraph audit below.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/games/133",
+          "provider": "LFChistory: promotion match",
+          "claims": "Lewis scored both goals against Southampton when promotion was secured in April 1962; prior-season team personnel.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1961-62.html",
+          "provider": "RSSSF: 1961–62 league tables",
+          "claims": "Liverpool promotion as Second Division champions, including home league record of 18 wins and three draws.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1962-09-22",
+      "home": "Everton",
+      "away": "Liverpool",
+      "score": "2–2",
+      "opposition": "Everton",
+      "competition": "First Division",
+      "title": "Hunt rescues a point as the league derby returns",
+      "slug": "everton-liverpool-1962-league-derby-return",
+      "editorialReason": "First league derby since 1951; two Liverpool equalisers, a last-minute Hunt goal and former Red Morrissey scoring for Everton give the revived fixture a distinct story.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/everton-liverpool-1962-league-derby-return-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/148",
+          "provider": "LFChistory",
+          "claims": "Match date of 22 September, ground, score, four scorers, scoring order, Lewis involvement in Hunt equaliser and starting eleven. Exact first-half minutes are not used.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.bluecorrespondent.co.uk/1962-63/september1962.html",
+          "provider": "Liverpool Echo and Daily Post, transcribed by Blue Correspondent: September 1962",
+          "claims": "Michael Charters’s Liverpool Echo report of 22 September and subsequent Daily Post coverage: St John fitness test, both equalisers, Morrissey goal construction and Everton’s previous winning home start. Medium confidence for transcribed contemporary match action; exact disputed minutes omitted.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/296816-1-everton-2-2-liverpool-september-16-1962",
+          "provider": "Liverpool FC: Hunt’s derby equaliser",
+          "claims": "Eleven-year gap between league derbies and Hunt late equaliser. The headline/URL date is wrong and must not be used for match dating.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/transfers/4",
+          "provider": "LFChistory: transfer register",
+          "claims": "Morrissey to Everton in August 1962; Stevenson arriving from Rangers in October; Leishman leaving for Hibernian in January 1963, as relevant to the article.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1962-10-27",
+      "home": "West Bromwich Albion",
+      "away": "Liverpool",
+      "score": "1–0",
+      "opposition": "West Bromwich Albion",
+      "competition": "First Division",
+      "title": "Lawrence’s debut ends in defeat as Melia’s penalty is saved",
+      "slug": "west-brom-liverpool-1962-lawrence-debut",
+      "editorialReason": "Goalkeeper succession begins during the difficult autumn; Lawrence and Wallace debut, with a missed equalising penalty shaping the match.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/west-brom-liverpool-1962-lawrence-debut-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/152",
+          "provider": "LFChistory",
+          "claims": "Match identity, Kevan goal in the 17th minute, Melia penalty saved by Millington two minutes later, half-time score, two debuts and starting eleven. Penalty detail is a single-source historical record.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/tommy-lawrence",
+          "provider": "Liverpool FC",
+          "claims": "Debut follows Furnell injury; retained place for remainder of season",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/west-bromwich-albion-v-liverpool-27-october-1962-77172/",
+          "provider": "11v11: debut pair and Leishman’s last appearance",
+          "claims": "Independent match date, competition, venue, result and listed scorers/line-up; detailed scope is checked in the paragraph audit below.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.albiontillwedie.co.uk/seasonarchive/results/1962-63.html",
+          "provider": "Albion Till We Die: West Bromwich Albion season results",
+          "claims": "Independent opposition record of West Bromwich Albion 1–0 Liverpool and Kevan as scorer. Attendance differs from LFChistory and is omitted.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/appearances/4",
+          "provider": "LFChistory: season appearances",
+          "claims": "Furnell 13 league appearances; Lawrence 29 league and six FA Cup appearances; debut/appearance totals cross-checked against match sequence.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/transfers/4",
+          "provider": "LFChistory: transfer register",
+          "claims": "Morrissey to Everton in August 1962; Stevenson arriving from Rangers in October; Leishman leaving for Hibernian in January 1963, as relevant to the article.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1962-12-22",
+      "home": "Liverpool",
+      "away": "Blackburn Rovers",
+      "score": "3–1",
+      "opposition": "Blackburn Rovers",
+      "competition": "First Division",
+      "title": "Liverpool make it seven straight wins before the winter freeze",
+      "slug": "liverpool-blackburn-1962-seven-straight-wins",
+      "editorialReason": "Comeback in league standing culminates in seventh successive victory, fifth place and last league match before a long weather interruption.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/liverpool-blackburn-1962-seven-straight-wins-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/161",
+          "provider": "LFChistory",
+          "claims": "Match identity, three Liverpool scorers, Pickering equaliser, goal timings, credited assists and post-match table: fifth, 26 points from 23 games.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.chelseafc.com/en/news/article/the-original-winter-break--when-the-big-freeze-of--63-stopped-pl",
+          "provider": "Chelsea FC",
+          "claims": "Independent national context of severe winter disruption, not Liverpool-specific dates",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/teams/liverpool/tab/matches/season/1963/",
+          "provider": "11v11: Liverpool’s season results",
+          "claims": "Independent full Liverpool match sequence: seven consecutive league wins through 22 December, two January cup matches, league resumption on 13 February and nine-win league sequence ending in March.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-blackburn-rovers-22-december-1962-77253/",
+          "provider": "11v11",
+          "claims": "Independent match identity, 3–1 result and Liverpool scorers Lewis, St John and Moran.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-03-16",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "score": "1–2",
+      "opposition": "Arsenal",
+      "competition": "FA Cup, fifth round",
+      "title": "Melia and Moran carry Liverpool past Arsenal at Highbury",
+      "slug": "arsenal-liverpool-1963-fa-cup-fifth-round",
+      "editorialReason": "Away cup victory after a league draw on the same ground a week earlier, with Moran penalty and a late Arsenal reply; key progression toward semi-final.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/arsenal-liverpool-1963-fa-cup-fifth-round-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/170",
+          "provider": "LFChistory",
+          "claims": "FA Cup fifth-round identity, Melia goal at 33 minutes, Moran penalty at 65, McLeod reply at 85, Hunt credited involvement and Liverpool eleven.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/arsenal-v-liverpool-16-march-1963-211903/",
+          "provider": "11v11: cup match record",
+          "claims": "Independent match date, competition, venue, result and listed scorers/line-up; detailed scope is checked in the paragraph audit below.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/games/169",
+          "provider": "LFChistory: the previous week’s league draw",
+          "claims": "9 March league draw at Highbury: Liverpool twice ahead through Lewis and Hunt; same eleven as the cup match one week later.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-04-12",
+      "home": "Liverpool",
+      "away": "Tottenham Hotspur",
+      "score": "5–2",
+      "opposition": "Tottenham Hotspur",
+      "competition": "First Division",
+      "title": "Five second-half goals overturn Tottenham’s Anfield lead",
+      "slug": "liverpool-tottenham-1963-five-goal-comeback",
+      "editorialReason": "Exceptional recovery from 0–2 at half-time against eventual runners-up; offers a major standalone match story and first half of contrasting Easter pair.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/liverpool-tottenham-1963-five-goal-comeback-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/175",
+          "provider": "LFChistory",
+          "claims": "Match identity, 0–2 half-time score, five second-half Liverpool goals and their order/times, credited involvement in late goals. Yeats recollection is separately treated as Medium confidence retrospective testimony.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-tottenham-hotspur-12-april-1963-77361/",
+          "provider": "11v11: result and scorers",
+          "claims": "Independent match date, competition, venue, result and listed scorers/line-up; detailed scope is checked in the paragraph audit below.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.tottenhamhotspur.com/news/994816/greavsies-easter-treat-against-liverpool-1963",
+          "provider": "Tottenham Hotspur: the two Easter meetings",
+          "claims": "Opposition club retrospective corroborates Good Friday half-time/full-time reversal, Monday Greaves four-goal victory and Saturday Fulham draw. Its claim Spurs finished third is false and is not used.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/goalscorers/4",
+          "provider": "LFChistory: season scorers",
+          "claims": "Hunt was Liverpool’s leading scorer: 24 league goals and 26 in national competitions.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-04-15",
+      "home": "Tottenham Hotspur",
+      "away": "Liverpool",
+      "score": "7–2",
+      "opposition": "Tottenham Hotspur",
+      "competition": "First Division",
+      "title": "Greaves scores four as Tottenham turn the tables",
+      "slug": "tottenham-liverpool-1963-greaves-four-goals",
+      "editorialReason": "Severe reversal three days after a 5–2 win, with Greaves four-goal performance; essential evidence of remaining inconsistency, not omitted because it is a defeat.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/tottenham-liverpool-1963-greaves-four-goals-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/177",
+          "provider": "LFChistory",
+          "claims": "Match identity, all nine goals and their order, Greaves four including penalty, Hunt two, Jones two, Saul one and 3–1 half-time score.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.tottenhamhotspur.com/news/994816/greavsies-easter-treat-against-liverpool-1963",
+          "provider": "Tottenham Hotspur: Greaves’s four-goal game",
+          "claims": "Opposition club retrospective corroborates Good Friday half-time/full-time reversal, Monday Greaves four-goal victory and Saturday Fulham draw. Its claim Spurs finished third is false and is not used.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.11v11.com/matches/tottenham-hotspur-v-liverpool-15-april-1963-77383/",
+          "provider": "11v11: Easter Monday match",
+          "claims": "Independent match date, competition, venue, result and listed scorers/line-up; detailed scope is checked in the paragraph audit below.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1963-04-27",
+      "home": "Leicester City",
+      "away": "Liverpool",
+      "score": "1–0",
+      "opposition": "Leicester City",
+      "competition": "FA Cup, semi-final",
+      "title": "Stringfellow and Banks deny Liverpool a place at Wembley",
+      "slug": "leicester-liverpool-1963-fa-cup-semi-final",
+      "editorialReason": "First Shankly FA Cup semi-final ends one match short of Wembley; important opponent-side recollections substantiate goal and Liverpool pressure.",
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/leicester-liverpool-1963-fa-cup-semi-final-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/180",
+          "provider": "LFChistory",
+          "claims": "Neutral Hillsborough semi-final, 1–0 result, Stringfellow goal at 18 minutes, Lawler in Liverpool eleven and Melia absent.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/4",
+          "provider": "LFChistory",
+          "claims": "Complete national competitive sequence and cup route",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1962-63.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away outcomes",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lcfc.com/media-article/Foxes-Legends-On-Classic-Liverpool-Cup-Tie",
+          "provider": "Leicester City / John Hutchinson",
+          "claims": "John Hutchinson’s official Leicester history combines contemporary reports and later participant recollections: Melia injury, Riley free-kick/Stringfellow header, defensive response and Banks’s late save from St John. Detailed recollections are Medium confidence; inaccurate later-season Smith claim omitted.",
+          "confidence": "Medium"
+        }
+      ]
+    }
+  ]
+}

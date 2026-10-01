@@ -2653,5 +2653,30 @@
     "id": "roker-park",
     "label": "Roker Park",
     "kind": "location"
+  },
+  {
+    "id": "blackpool",
+    "label": "Blackpool",
+    "kind": "opposition"
+  },
+  {
+    "id": "the-hawthorns",
+    "label": "The Hawthorns",
+    "kind": "location"
+  },
+  {
+    "id": "jimmy-greaves",
+    "label": "Jimmy Greaves",
+    "kind": "person"
+  },
+  {
+    "id": "gordon-banks",
+    "label": "Gordon Banks",
+    "kind": "person"
+  },
+  {
+    "id": "mike-stringfellow",
+    "label": "Mike Stringfellow",
+    "kind": "person"
   }
 ]

@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T19:24:04.262968Z",
+  "updatedAt": "2026-10-01T19:48:57.538993Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -15154,258 +15154,658 @@
       "event": "Bristol Rovers 0–2 Liverpool: Yeats and St John begin with victory at Eastville",
       "historicalEventDate": "1961-08-19",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1961-08-19",
-        "claimedAt": "2026-10-01T19:24:04.262968Z",
-        "baseCommit": "14ee63a5d77bccd9f0a00f0814c26fd85f9dfc18"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1961-62/bristol-rovers-liverpool-1961-yeats-st-john-debuts.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "Competitive debuts of the two major recruits begin the promotion season, with Lewis scoring at the ground where his previous hat-trick had ended in defeat.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1961-62/research/bristol-rovers-liverpool-1961-yeats-st-john-debuts-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1961-62/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1961-62",
         "season": "1961-62",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Bristol Rovers 0–2 Liverpool",
         "opposition": "Bristol Rovers",
         "score": "0–2",
         "editorialReason": "Competitive debuts of the two major recruits begin the promotion season, with Lewis scoring at the ground where his previous hat-trick had ended in defeat.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1961-62/research/season-research.md"
+          "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "docs/editorial/drafts/1960s/1961-62/research/bristol-rovers-liverpool-1961-yeats-st-john-debuts-notes.md",
+          "docs/editorial/drafts/1960s/1961-62/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1961-08-30-sunderland-liverpool-1961-st-john-first-goals",
       "event": "Sunderland 1–4 Liverpool: St John opens his account as Liverpool sweep past Sunderland",
       "historicalEventDate": "1961-08-30",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1961-08-30",
-        "claimedAt": "2026-10-01T19:24:04.262968Z",
-        "baseCommit": "14ee63a5d77bccd9f0a00f0814c26fd85f9dfc18"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1961-62/sunderland-liverpool-1961-st-john-first-goals.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "First competitive St John goals and a double each for the new strike partnership; fourth successive opening win, away to eventual third-place finishers.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1961-62/research/sunderland-liverpool-1961-st-john-first-goals-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1961-62/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1961-62",
         "season": "1961-62",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Sunderland 1–4 Liverpool",
         "opposition": "Sunderland",
         "score": "1–4",
         "editorialReason": "First competitive St John goals and a double each for the new strike partnership; fourth successive opening win, away to eventual third-place finishers.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1961-62/research/season-research.md"
+          "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "docs/editorial/drafts/1960s/1961-62/research/sunderland-liverpool-1961-st-john-first-goals-notes.md",
+          "docs/editorial/drafts/1960s/1961-62/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1962-01-06-liverpool-chelsea-1962-fa-cup-four-goal-first-half",
       "event": "Liverpool 4–3 Chelsea: Liverpool survive Chelsea’s fightback after a four-goal first half",
       "historicalEventDate": "1962-01-06",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1962-01-06",
-        "claimedAt": "2026-10-01T19:24:04.262968Z",
-        "baseCommit": "14ee63a5d77bccd9f0a00f0814c26fd85f9dfc18"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1961-62/liverpool-chelsea-1962-fa-cup-four-goal-first-half.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "Second Division leaders defeat First Division opposition in an eventful national cup tie, after two league defeats over Christmas.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1961-62/research/liverpool-chelsea-1962-fa-cup-four-goal-first-half-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1961-62/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1961-62",
         "season": "1961-62",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 4–3 Chelsea",
         "opposition": "Chelsea",
         "score": "4–3",
         "editorialReason": "Second Division leaders defeat First Division opposition in an eventful national cup tie, after two league defeats over Christmas.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1961-62/research/season-research.md"
+          "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "docs/editorial/drafts/1960s/1961-62/research/liverpool-chelsea-1962-fa-cup-four-goal-first-half-notes.md",
+          "docs/editorial/drafts/1960s/1961-62/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1962-01-13-liverpool-norwich-1962-nine-goal-anfield-win",
       "event": "Liverpool 5–4 Norwich City: Liverpool outscore Norwich as Allcock’s hat-trick goes unrewarded",
       "historicalEventDate": "1962-01-13",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1962-01-13",
-        "claimedAt": "2026-10-01T19:24:04.262968Z",
-        "baseCommit": "14ee63a5d77bccd9f0a00f0814c26fd85f9dfc18"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1961-62/liverpool-norwich-1962-nine-goal-anfield-win.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "An exceptional nine-goal league game with repeated responses and an opposition hat-trick, a distinct test within the unbeaten home campaign.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1961-62/research/liverpool-norwich-1962-nine-goal-anfield-win-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1961-62/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1961-62",
         "season": "1961-62",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 5–4 Norwich City",
         "opposition": "Norwich City",
         "score": "5–4",
         "editorialReason": "An exceptional nine-goal league game with repeated responses and an opposition hat-trick, a distinct test within the unbeaten home campaign.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1961-62/research/season-research.md"
+          "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "docs/editorial/drafts/1960s/1961-62/research/liverpool-norwich-1962-nine-goal-anfield-win-notes.md",
+          "docs/editorial/drafts/1960s/1961-62/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1962-02-26-liverpool-preston-1962-fa-cup-second-replay-exit",
       "event": "Liverpool 0–1 Preston North End: Thompson settles the three-match struggle with Preston",
       "historicalEventDate": "1962-02-26",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1962-02-26",
-        "claimedAt": "2026-10-01T19:24:04.262968Z",
-        "baseCommit": "14ee63a5d77bccd9f0a00f0814c26fd85f9dfc18"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1961-62/liverpool-preston-1962-fa-cup-second-replay-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "Cup elimination after two goalless meetings, decided by the winger who later became a Liverpool player; prevents the season becoming only a promotion victory narrative.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1961-62/research/liverpool-preston-1962-fa-cup-second-replay-exit-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1961-62/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1961-62",
         "season": "1961-62",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 0–1 Preston North End",
         "opposition": "Preston North End",
         "score": "0–1",
         "editorialReason": "Cup elimination after two goalless meetings, decided by the winger who later became a Liverpool player; prevents the season becoming only a promotion victory narrative.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1961-62/research/season-research.md"
+          "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "docs/editorial/drafts/1960s/1961-62/research/liverpool-preston-1962-fa-cup-second-replay-exit-notes.md",
+          "docs/editorial/drafts/1960s/1961-62/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1962-04-21-liverpool-southampton-1962-promotion-secured",
       "event": "Liverpool 2–0 Southampton: Lewis’s double takes Liverpool back to the First Division",
       "historicalEventDate": "1962-04-21",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1962-04-21",
-        "claimedAt": "2026-10-01T19:24:04.262968Z",
-        "baseCommit": "14ee63a5d77bccd9f0a00f0814c26fd85f9dfc18"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1961-62/liverpool-southampton-1962-promotion-secured.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "The decisive promotion match ends eight seasons in the Second Division, with Lewis deputising for the unavailable St John and scoring both goals.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1961-62/research/liverpool-southampton-1962-promotion-secured-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1961-62/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1961-62",
         "season": "1961-62",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–0 Southampton",
         "opposition": "Southampton",
         "score": "2–0",
         "editorialReason": "The decisive promotion match ends eight seasons in the Second Division, with Lewis deputising for the unavailable St John and scoring both goals.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1961-62/research/season-research.md"
+          "docs/editorial/drafts/1960s/1961-62/research/season-research.md",
+          "docs/editorial/drafts/1960s/1961-62/research/liverpool-southampton-1962-promotion-secured-notes.md",
+          "docs/editorial/drafts/1960s/1961-62/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1962-08-18-liverpool-blackpool-1962-first-division-return",
+      "event": "Liverpool 1–2 Blackpool: Blackpool spoil Liverpool’s return to the First Division",
+      "historicalEventDate": "1962-08-18",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1962-63/liverpool-blackpool-1962-first-division-return.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "First league match after eight seasons outside the top flight; a late two-goal setback gives the promotion story its immediate sequel.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/liverpool-blackpool-1962-first-division-return-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1962-63",
+        "season": "1962-63",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–2 Blackpool",
+        "opposition": "Blackpool",
+        "score": "1–2",
+        "editorialReason": "First league match after eight seasons outside the top flight; a late two-goal setback gives the promotion story its immediate sequel.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1962-63/research/season-research.md",
+          "docs/editorial/drafts/1960s/1962-63/research/liverpool-blackpool-1962-first-division-return-notes.md",
+          "docs/editorial/drafts/1960s/1962-63/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1962-09-22-everton-liverpool-1962-league-derby-return",
+      "event": "Everton 2–2 Liverpool: Hunt rescues a point as the league derby returns",
+      "historicalEventDate": "1962-09-22",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1962-63/everton-liverpool-1962-league-derby-return.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "First league derby since 1951; two Liverpool equalisers, a last-minute Hunt goal and former Red Morrissey scoring for Everton give the revived fixture a distinct story.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/everton-liverpool-1962-league-derby-return-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1962-63",
+        "season": "1962-63",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Everton 2–2 Liverpool",
+        "opposition": "Everton",
+        "score": "2–2",
+        "editorialReason": "First league derby since 1951; two Liverpool equalisers, a last-minute Hunt goal and former Red Morrissey scoring for Everton give the revived fixture a distinct story.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1962-63/research/season-research.md",
+          "docs/editorial/drafts/1960s/1962-63/research/everton-liverpool-1962-league-derby-return-notes.md",
+          "docs/editorial/drafts/1960s/1962-63/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1962-10-27-west-brom-liverpool-1962-lawrence-debut",
+      "event": "West Bromwich Albion 1–0 Liverpool: Lawrence’s debut ends in defeat as Melia’s penalty is saved",
+      "historicalEventDate": "1962-10-27",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1962-63/west-brom-liverpool-1962-lawrence-debut.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Goalkeeper succession begins during the difficult autumn; Lawrence and Wallace debut, with a missed equalising penalty shaping the match.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/west-brom-liverpool-1962-lawrence-debut-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1962-63",
+        "season": "1962-63",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "West Bromwich Albion 1–0 Liverpool",
+        "opposition": "West Bromwich Albion",
+        "score": "1–0",
+        "editorialReason": "Goalkeeper succession begins during the difficult autumn; Lawrence and Wallace debut, with a missed equalising penalty shaping the match.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1962-63/research/season-research.md",
+          "docs/editorial/drafts/1960s/1962-63/research/west-brom-liverpool-1962-lawrence-debut-notes.md",
+          "docs/editorial/drafts/1960s/1962-63/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1962-12-22-liverpool-blackburn-1962-seven-straight-wins",
+      "event": "Liverpool 3–1 Blackburn Rovers: Liverpool make it seven straight wins before the winter freeze",
+      "historicalEventDate": "1962-12-22",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1962-63/liverpool-blackburn-1962-seven-straight-wins.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Comeback in league standing culminates in seventh successive victory, fifth place and last league match before a long weather interruption.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/liverpool-blackburn-1962-seven-straight-wins-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1962-63",
+        "season": "1962-63",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–1 Blackburn Rovers",
+        "opposition": "Blackburn Rovers",
+        "score": "3–1",
+        "editorialReason": "Comeback in league standing culminates in seventh successive victory, fifth place and last league match before a long weather interruption.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1962-63/research/season-research.md",
+          "docs/editorial/drafts/1960s/1962-63/research/liverpool-blackburn-1962-seven-straight-wins-notes.md",
+          "docs/editorial/drafts/1960s/1962-63/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1963-03-16-arsenal-liverpool-1963-fa-cup-fifth-round",
+      "event": "Arsenal 1–2 Liverpool: Melia and Moran carry Liverpool past Arsenal at Highbury",
+      "historicalEventDate": "1963-03-16",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1962-63/arsenal-liverpool-1963-fa-cup-fifth-round.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Away cup victory after a league draw on the same ground a week earlier, with Moran penalty and a late Arsenal reply; key progression toward semi-final.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/arsenal-liverpool-1963-fa-cup-fifth-round-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1962-63",
+        "season": "1962-63",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Arsenal 1–2 Liverpool",
+        "opposition": "Arsenal",
+        "score": "1–2",
+        "editorialReason": "Away cup victory after a league draw on the same ground a week earlier, with Moran penalty and a late Arsenal reply; key progression toward semi-final.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1962-63/research/season-research.md",
+          "docs/editorial/drafts/1960s/1962-63/research/arsenal-liverpool-1963-fa-cup-fifth-round-notes.md",
+          "docs/editorial/drafts/1960s/1962-63/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1963-04-12-liverpool-tottenham-1963-five-goal-comeback",
+      "event": "Liverpool 5–2 Tottenham Hotspur: Five second-half goals overturn Tottenham’s Anfield lead",
+      "historicalEventDate": "1963-04-12",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1962-63/liverpool-tottenham-1963-five-goal-comeback.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Exceptional recovery from 0–2 at half-time against eventual runners-up; offers a major standalone match story and first half of contrasting Easter pair.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/liverpool-tottenham-1963-five-goal-comeback-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1962-63",
+        "season": "1962-63",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–2 Tottenham Hotspur",
+        "opposition": "Tottenham Hotspur",
+        "score": "5–2",
+        "editorialReason": "Exceptional recovery from 0–2 at half-time against eventual runners-up; offers a major standalone match story and first half of contrasting Easter pair.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1962-63/research/season-research.md",
+          "docs/editorial/drafts/1960s/1962-63/research/liverpool-tottenham-1963-five-goal-comeback-notes.md",
+          "docs/editorial/drafts/1960s/1962-63/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1963-04-15-tottenham-liverpool-1963-greaves-four-goals",
+      "event": "Tottenham Hotspur 7–2 Liverpool: Greaves scores four as Tottenham turn the tables",
+      "historicalEventDate": "1963-04-15",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1962-63/tottenham-liverpool-1963-greaves-four-goals.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Severe reversal three days after a 5–2 win, with Greaves four-goal performance; essential evidence of remaining inconsistency, not omitted because it is a defeat.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/tottenham-liverpool-1963-greaves-four-goals-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1962-63",
+        "season": "1962-63",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Tottenham Hotspur 7–2 Liverpool",
+        "opposition": "Tottenham Hotspur",
+        "score": "7–2",
+        "editorialReason": "Severe reversal three days after a 5–2 win, with Greaves four-goal performance; essential evidence of remaining inconsistency, not omitted because it is a defeat.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1962-63/research/season-research.md",
+          "docs/editorial/drafts/1960s/1962-63/research/tottenham-liverpool-1963-greaves-four-goals-notes.md",
+          "docs/editorial/drafts/1960s/1962-63/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1963-04-27-leicester-liverpool-1963-fa-cup-semi-final",
+      "event": "Leicester City 1–0 Liverpool: Stringfellow and Banks deny Liverpool a place at Wembley",
+      "historicalEventDate": "1963-04-27",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1962-63/leicester-liverpool-1963-fa-cup-semi-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "First Shankly FA Cup semi-final ends one match short of Wembley; important opponent-side recollections substantiate goal and Liverpool pressure.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/leicester-liverpool-1963-fa-cup-semi-final-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1962-63/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1962-63",
+        "season": "1962-63",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Leicester City 1–0 Liverpool",
+        "opposition": "Leicester City",
+        "score": "1–0",
+        "editorialReason": "First Shankly FA Cup semi-final ends one match short of Wembley; important opponent-side recollections substantiate goal and Liverpool pressure.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1962-63/research/season-research.md",
+          "docs/editorial/drafts/1960s/1962-63/research/leicester-liverpool-1963-fa-cup-semi-final-notes.md",
+          "docs/editorial/drafts/1960s/1962-63/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-match"
     }
   ],
   "matchRecoveryGaps": [
@@ -15443,7 +15843,7 @@
     {
       "id": "1960s-1961-62",
       "season": "1961-62",
-      "stage": "drafting",
+      "stage": "checkpointed",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
@@ -15457,26 +15857,35 @@
         "match-1962-04-21-liverpool-southampton-1962-promotion-secured"
       ],
       "reusedPaths": [],
-      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete retrieved-source match reports and their factual audits."
+      "notes": "6 finished new match reports; retrieved-source claim audits and independent Astra review completed. Awaiting Denny review; no approval/publication/schedule.",
+      "nextStage": null
     },
     {
       "id": "1960s-1962-63",
       "season": "1962-63",
-      "stage": "not_started",
+      "stage": "checkpointed",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
-      "sourceNote": null,
-      "selectedRowIds": [],
+      "sourceNote": "docs/editorial/drafts/1960s/1962-63/research/season-research.md",
+      "selectedRowIds": [
+        "match-1962-08-18-liverpool-blackpool-1962-first-division-return",
+        "match-1962-09-22-everton-liverpool-1962-league-derby-return",
+        "match-1962-10-27-west-brom-liverpool-1962-lawrence-debut",
+        "match-1962-12-22-liverpool-blackburn-1962-seven-straight-wins",
+        "match-1963-03-16-arsenal-liverpool-1963-fa-cup-fifth-round",
+        "match-1963-04-12-liverpool-tottenham-1963-five-goal-comeback",
+        "match-1963-04-15-tottenham-liverpool-1963-greaves-four-goals",
+        "match-1963-04-27-leicester-liverpool-1963-fa-cup-semi-final"
+      ],
       "reusedPaths": [],
-      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+      "notes": "8 finished new match reports; retrieved-source claim audits and independent Astra review completed. Awaiting Denny review; no approval/publication/schedule.",
+      "nextStage": null
     },
     {
       "id": "1960s-1963-64",
       "season": "1963-64",
-      "stage": "not_started",
+      "stage": "season_research",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",

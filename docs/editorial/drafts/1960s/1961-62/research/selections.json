@@ -14,7 +14,7 @@
       "competition": "Second Division",
       "title": "Yeats and St John begin with victory at Eastville",
       "slug": "bristol-rovers-liverpool-1961-yeats-st-john-debuts",
-      "editorialReason": "Competitive debuts of the two major recruits begin the promotion season, with Lewis scoring at the ground where his previous hat-trick had ended in defeat.",
+      "editorialReason": "League debuts of the two major recruits begin the promotion season, with Lewis scoring at the ground where his previous hat-trick had ended in defeat.",
       "sourceNote": "docs/editorial/drafts/1960s/1961-62/research/bristol-rovers-liverpool-1961-yeats-st-john-debuts-notes.md",
       "sources": [
         {
@@ -34,6 +34,24 @@
           "provider": "RSSSF",
           "claims": "Independent final league table and promotion outcome",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/bristol-rovers-v-liverpool-19-august-1961-110593/",
+          "provider": "11v11: result and debuts",
+          "claims": "Detailed scope in companion evidence audit",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/games/86",
+          "provider": "LFChistory: previous Eastville meeting",
+          "claims": "Detailed scope in companion evidence audit",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/2",
+          "provider": "LFChistory: 1960–61 results",
+          "claims": "Detailed scope in companion evidence audit",
+          "confidence": "High"
         }
       ]
     },
@@ -46,7 +64,7 @@
       "competition": "Second Division",
       "title": "St John opens his account as Liverpool sweep past Sunderland",
       "slug": "sunderland-liverpool-1961-st-john-first-goals",
-      "editorialReason": "First competitive St John goals and a double each for the new strike partnership; fourth successive opening win, away to eventual third-place finishers.",
+      "editorialReason": "First St John league goals and a double each for the new strike partnership; fourth successive opening win, away to eventual third-place finishers.",
       "sourceNote": "docs/editorial/drafts/1960s/1961-62/research/sunderland-liverpool-1961-st-john-first-goals-notes.md",
       "sources": [
         {
@@ -65,6 +83,18 @@
           "url": "https://www.rsssf.org/engpaul/FLA/1961-62.html",
           "provider": "RSSSF",
           "claims": "Independent final league table and promotion outcome",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/sunderland-v-liverpool-30-august-1961-110635/",
+          "provider": "11v11: result and scorers",
+          "claims": "Detailed scope in companion evidence audit",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/goalscorers/3",
+          "provider": "LFChistory: season scorers",
+          "claims": "Detailed scope in companion evidence audit",
           "confidence": "High"
         }
       ]
@@ -104,6 +134,12 @@
           "provider": "Liverpool FC",
           "claims": "Independent official result, four-goal first half and scorers",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.bounder.friardale.co.uk/Results/1961.htm",
+          "provider": "Chelsea archive: 1961–62 results",
+          "claims": "Independent Chelsea-side result,halftime,scorers; Bridgesminute77differs",
+          "confidence": "High"
         }
       ]
     },
@@ -142,6 +178,18 @@
           "provider": "Liverpool FC",
           "claims": "Allcock hat-trick in the 5–4 defeat",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.independent.ie/sport/soccer/the-day-liverpool-beat-norwich-5-4-in-1962/34390836.html",
+          "provider": "Irish Independent: the 1962 match recalled",
+          "claims": "Search-retrieved action narrative; full direct open failed; disputed scorer described without assigning credit",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-norwich-city-13-january-1962-110862/",
+          "provider": "11v11: match record",
+          "claims": "Detailed scope in companion evidence audit",
+          "confidence": "High"
         }
       ]
     },
@@ -174,6 +222,30 @@
           "provider": "RSSSF",
           "claims": "Independent final league table and promotion outcome",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/2695",
+          "provider": "Lancashire Evening Post, reproduced by LFChistory: the three-match tie",
+          "claims": "Lancashire Evening Post retrospective: goal construction and tie context; conflicting crowd/minute/quoted round omitted",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/peter-thompson",
+          "provider": "Liverpool FC: Peter Thompson",
+          "claims": "Independent club confirmation of1962winninggoal and later arrival/title",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/games/123",
+          "provider": "LFChistory: first replay",
+          "claims": "First replay0–0afterextra time and lineup",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/2305",
+          "provider": "LFChistory: Thompson and Shankly",
+          "claims": "Thompson14August1963arrival and snowbound neutral-venue cup tie",
+          "confidence": "Medium"
         }
       ]
     },
@@ -212,6 +284,12 @@
           "provider": "Liverpool FC",
           "claims": "Lewis two-goal promotion achievement",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/2910",
+          "provider": "Liverpool Echo, reproduced by LFChistory: the promotion match",
+          "claims": "Liverpool Echo retrospective with contemporary extracts: title/promotion requirement, goal construction, conditions and celebrations",
+          "confidence": "Medium"
         }
       ]
     }
