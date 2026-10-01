@@ -1,0 +1,189 @@
+{
+  "season": "2017-18",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2013_2019",
+  "purpose": "Supporting researched season selection; history-calendar.json remains authoritative. Not a manuscript, status queue, approval or claim. Exact match details still require full individual-source research before drafting.",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/127",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Full competitive fixture ledger retrieved 2026-10-01: dates, scores, venues, stages and league-position progression. Individual incidents require separate match research."
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/127",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Final Premier League table retrieved 2026-10-01: placing, points and season record."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/332404-liverpool-2018-review",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Club calendar-year review, retrieved full relevant first-half section: Van Dijk derby debut; City 4–3; Porto five; Salah Watford four; City and Roma knockout ties; Brighton fourth-place confirmation and Kyiv final."
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/0245-0e9cd2ab3cdc-6f3db738a41f-1000--liverpool-end-season-with-champions-league-goals-record/",
+      "provider": "UEFA",
+      "confidence": "High",
+      "scope": "Retrieved search extract: 47 Champions League goals including qualifying; exact competition boundaries must remain explicit."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/303021-match-report-liverpool-fc-real-madrid-champions-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Retrieved search extract: Kyiv final loss, Mané equaliser and Bale two goals; full report required before manuscript."
+    }
+  ],
+  "selected": [
+    {
+      "date": "2017-08-23",
+      "opposition": "Hoffenheim",
+      "oppositionId": "hoffenheim",
+      "competitionId": "european-cup",
+      "score": "Liverpool 4–2 Hoffenheim",
+      "slug": "liverpool-hoffenheim-2017-champions-league-return",
+      "reason": "Qualifying play-off victory establishes return to the group stage; check archive erroneous round label."
+    },
+    {
+      "date": "2017-09-09",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Manchester City 5–0 Liverpool",
+      "slug": "manchester-city-liverpool-2017-mane-dismissed",
+      "reason": "Heavy defeat following Mané sending-off, necessary counterpoint to later City victories."
+    },
+    {
+      "date": "2017-10-17",
+      "opposition": "Maribor",
+      "oppositionId": "maribor",
+      "competitionId": "european-cup",
+      "score": "Maribor 0–7 Liverpool",
+      "slug": "maribor-liverpool-2017-seven-goal-away-record",
+      "reason": "Club-record European away victory; record scope requires official confirmation."
+    },
+    {
+      "date": "2017-10-22",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "score": "Tottenham Hotspur 4–1 Liverpool",
+      "slug": "tottenham-liverpool-2017-wembley-defeat",
+      "reason": "Significant defensive low before the subsequent improvement."
+    },
+    {
+      "date": "2017-12-06",
+      "opposition": "Spartak Moscow",
+      "oppositionId": "spartak-moscow",
+      "competitionId": "european-cup",
+      "score": "Liverpool 7–0 Spartak Moscow",
+      "slug": "liverpool-spartak-2017-coutinho-hat-trick",
+      "reason": "Seven-goal group-deciding performance with Coutinho hat-trick."
+    },
+    {
+      "date": "2018-01-05",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "fa-cup",
+      "score": "Liverpool 2–1 Everton",
+      "slug": "liverpool-everton-2018-van-dijk-debut-winner",
+      "reason": "Van Dijk winning goal on debut in an FA Cup derby."
+    },
+    {
+      "date": "2018-01-14",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–3 Manchester City",
+      "slug": "liverpool-manchester-city-2018-unbeaten-run-ended",
+      "reason": "Inflicts first league defeat on eventual champions."
+    },
+    {
+      "date": "2018-02-14",
+      "opposition": "Porto",
+      "oppositionId": "porto",
+      "competitionId": "european-cup",
+      "score": "Porto 0–5 Liverpool",
+      "slug": "porto-liverpool-2018-mane-hat-trick",
+      "reason": "Mané away European hat-trick establishes decisive knockout advantage."
+    },
+    {
+      "date": "2018-03-17",
+      "opposition": "Watford",
+      "oppositionId": "watford",
+      "competitionId": "premier-league",
+      "score": "Liverpool 5–0 Watford",
+      "slug": "liverpool-watford-2018-salah-four-goals",
+      "reason": "Four-goal Salah performance central to exceptional first season."
+    },
+    {
+      "date": "2018-04-04",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "european-cup",
+      "score": "Liverpool 3–0 Manchester City",
+      "slug": "liverpool-manchester-city-2018-anfield-quarter-final",
+      "reason": "Three first-half goals determine course of European quarter-final against domestic champions-elect."
+    },
+    {
+      "date": "2018-04-10",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "european-cup",
+      "score": "Manchester City 1–2 Liverpool",
+      "slug": "manchester-city-liverpool-2018-european-semi-final-reached",
+      "reason": "Away recovery completes European elimination of City; independent development warrants separate return-leg report."
+    },
+    {
+      "date": "2018-04-24",
+      "opposition": "Roma",
+      "oppositionId": "roma",
+      "competitionId": "european-cup",
+      "score": "Liverpool 5–2 Roma",
+      "slug": "liverpool-roma-2018-salah-semi-final",
+      "reason": "Salah and Firmino doubles establish major semi-final lead before Roma late recovery."
+    },
+    {
+      "date": "2018-05-02",
+      "opposition": "Roma",
+      "oppositionId": "roma",
+      "competitionId": "european-cup",
+      "score": "Roma 4–2 Liverpool",
+      "slug": "roma-liverpool-2018-champions-league-final-reached",
+      "reason": "Second-leg defeat still completes 7–6 aggregate passage to first European final since 2007."
+    },
+    {
+      "date": "2018-05-13",
+      "opposition": "Brighton & Hove Albion",
+      "oppositionId": "brighton-hove-albion",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–0 Brighton & Hove Albion",
+      "slug": "liverpool-brighton-2018-salah-record-top-four",
+      "reason": "Final-day victory secures fourth and Salah league scoring milestone."
+    },
+    {
+      "date": "2018-05-26",
+      "opposition": "Real Madrid",
+      "oppositionId": "real-madrid",
+      "competitionId": "european-cup",
+      "score": "Real Madrid 3–1 Liverpool",
+      "slug": "real-madrid-liverpool-2018-champions-league-final",
+      "reason": "European final defeat in Kyiv; Salah injury and decisive Bale goals."
+    }
+  ],
+  "reusedPaths": [],
+  "omissions": [
+    "Arsenal 4–0: impressive win, but City league/European games and the two large group-stage wins provide stronger historical landmarks.",
+    "Sevilla 3–3 away: a significant collapsed lead, to be incorporated into the Spartak group-deciding report if verified.",
+    "Porto home 0–0: include as tie conclusion within the five-goal away report.",
+    "Tottenham home 2–2 and other late league victories considered; avoid selecting every entertaining modern fixture.",
+    "West Brom FA Cup VAR match was considered; outside chosen campaign spine and not required merely because technology was used."
+  ],
+  "limitations": [
+    "No article prose drafted. Root must reserve exact calendar claims remotely and confirm previous season checkpoint before drafting.",
+    "Stable-date duplicate screen completed against local public/draft inventory and current main calendar. Refresh accessible branch inventory immediately before claiming each match.",
+    "Detailed goals, timings, actions and records in selection reasons are research leads unless explicitly supported by retrieved source scope; confirm independently in match-level evidence before manuscript.",
+    "Use canonical european-cup and uefa-cup IDs for their modern names; do not create separate competition identities."
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "season": "2011-12",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2008_2013",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/121",
+      "provider": "LFChistory",
+      "claims": "Complete competitive ledger; cup progress and league chronology.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/121",
+      "provider": "LFChistory",
+      "claims": "Eighth place, 52 points, six home wins.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.skysports.com/football/chelsea-vs-liverpool/report/251226",
+      "provider": "Sky Sports",
+      "claims": "Chelsea 0–2 Liverpool: Away quarter-final win with two Bellamy assists and Kelly’s first Liverpool goal.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01f9-0e7b92b8f0cd-fb17930a87a2-1000--liverpool-edge-into-league-cup-final/",
+      "provider": "UEFA",
+      "claims": "Liverpool 2–2 Manchester City: Bellamy equaliser seals 3–2 aggregate semi-final win and first Wembley visit since 1996.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/114894-late-kuyt-strike-seals-cup-win",
+      "provider": "Liverpool FC",
+      "claims": "Liverpool 2–1 Manchester United: Late substitute goal wins major fourth-round tie.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/116353-carling-cup-glory-for-reds",
+      "provider": "Liverpool FC",
+      "claims": "Liverpool 2–2 Cardiff City; Liverpool won 3–2 on penalties: First major trophy since 2006 after extra time and penalties.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/116841-stevie-treble-wins-the-derby",
+      "provider": "Liverpool FC",
+      "claims": "Liverpool 3–0 Everton: Captain’s hat-trick in his 400th Premier League appearance.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/117175-late-goals-leave-reds-frustrated",
+      "provider": "Liverpool FC",
+      "claims": "Queens Park Rangers 3–2 Liverpool: Two-goal lead lost late; a defining setback in poor league campaign.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/announcements/392886-watch-again-2012-liverpool-v-everton-fa-cup-semi-final-in-full",
+      "provider": "Liverpool FC",
+      "claims": "Liverpool 2–1 Everton: Comeback semi-final win sends Liverpool to second domestic final.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/118801-super-suarez-sinks-canaries",
+      "provider": "Liverpool FC",
+      "claims": "Norwich City 0–3 Liverpool: Suárez’s first club hat-trick completed with exceptional long-range lob.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news/01fd-0e7e11b4220e-e9939ea4380d-1000--chelsea-beat-liverpool-to-lift-seventh-fa-cup/",
+      "provider": "UEFA",
+      "claims": "Chelsea 2–1 Liverpool: Final defeat ends chance of domestic cup double despite Carroll-led recovery.",
+      "confidence": "High"
+    }
+  ],
+  "selected": [
+    {
+      "date": "2011-11-29",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "league-cup",
+      "score": "Chelsea 0–2 Liverpool",
+      "slug": "bellamy-kelly-chelsea-cup-win-2011",
+      "reason": "Away quarter-final win with two Bellamy assists and Kelly’s first Liverpool goal.",
+      "sourceUrl": "https://www.skysports.com/football/chelsea-vs-liverpool/report/251226"
+    },
+    {
+      "date": "2012-01-25",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "league-cup",
+      "score": "Liverpool 2–2 Manchester City",
+      "slug": "bellamy-sends-liverpool-wembley-2012",
+      "reason": "Bellamy equaliser seals 3–2 aggregate semi-final win and first Wembley visit since 1996.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01f9-0e7b92b8f0cd-fb17930a87a2-1000--liverpool-edge-into-league-cup-final/"
+    },
+    {
+      "date": "2012-01-28",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "fa-cup",
+      "score": "Liverpool 2–1 Manchester United",
+      "slug": "kuyt-late-united-fa-cup-winner-2012",
+      "reason": "Late substitute goal wins major fourth-round tie.",
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/114894-late-kuyt-strike-seals-cup-win"
+    },
+    {
+      "date": "2012-02-26",
+      "opposition": "Cardiff City",
+      "oppositionId": "cardiff-city",
+      "competitionId": "league-cup",
+      "score": "Liverpool 2–2 Cardiff City; Liverpool won 3–2 on penalties",
+      "slug": "liverpool-cardiff-league-cup-final-2012",
+      "reason": "First major trophy since 2006 after extra time and penalties.",
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/116353-carling-cup-glory-for-reds"
+    },
+    {
+      "date": "2012-03-13",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Liverpool 3–0 Everton",
+      "slug": "gerrard-derby-hat-trick-2012",
+      "reason": "Captain’s hat-trick in his 400th Premier League appearance.",
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/116841-stevie-treble-wins-the-derby"
+    },
+    {
+      "date": "2012-03-21",
+      "opposition": "Queens Park Rangers",
+      "oppositionId": "queens-park-rangers",
+      "competitionId": "premier-league",
+      "score": "Queens Park Rangers 3–2 Liverpool",
+      "slug": "qpr-three-late-goals-2012",
+      "reason": "Two-goal lead lost late; a defining setback in poor league campaign.",
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/117175-late-goals-leave-reds-frustrated"
+    },
+    {
+      "date": "2012-04-14",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "fa-cup",
+      "score": "Liverpool 2–1 Everton",
+      "slug": "carroll-wembley-derby-winner-2012",
+      "reason": "Comeback semi-final win sends Liverpool to second domestic final.",
+      "sourceUrl": "https://www.liverpoolfc.com/news/announcements/392886-watch-again-2012-liverpool-v-everton-fa-cup-semi-final-in-full"
+    },
+    {
+      "date": "2012-04-28",
+      "opposition": "Norwich City",
+      "oppositionId": "norwich-city",
+      "competitionId": "premier-league",
+      "score": "Norwich City 0–3 Liverpool",
+      "slug": "suarez-first-hat-trick-norwich-2012",
+      "reason": "Suárez’s first club hat-trick completed with exceptional long-range lob.",
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/118801-super-suarez-sinks-canaries"
+    },
+    {
+      "date": "2012-05-05",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "fa-cup",
+      "score": "Chelsea 2–1 Liverpool",
+      "slug": "carroll-rally-fa-cup-final-2012",
+      "reason": "Final defeat ends chance of domestic cup double despite Carroll-led recovery.",
+      "sourceUrl": "https://www.uefa.com/news/01fd-0e7e11b4220e-e9939ea4380d-1000--chelsea-beat-liverpool-to-lift-seventh-fa-cup/"
+    }
+  ],
+  "reused": [],
+  "deliberateOmissions": [
+    "Arsenal away league victory, Goodison win and Chelsea league double: significant but the selected cup ties and Gerrard derby have stronger enduring stories.",
+    "Manchester City semi-final first leg is essential context within second leg, not an obligatory separate report.",
+    "Blackburn 3–2 with goalkeeper dismissal: strong candidate, but Carroll’s decisive Wembley goal and the QPR late reversal are retained as the most consequential examples.",
+    "Tottenham 4–0 defeat and final Swansea loss: league weakness is represented by QPR and verified final-table context."
+  ],
+  "limitations": [
+    "Cardiff City canonical opposition identity requires root resolution.",
+    "The Suárez–Evra disciplinary context must not be simplified, reargued or omitted if essential to the United cup report. Retrieve original FA finding and Liverpool response before writing those claims.",
+    "RTÉ Norwich 28 April headline misleadingly calls it a first-half hat-trick: third goal came in second half. Use club and match chronology.",
+    "No prose written until remote claim confirmation."
+  ],
+  "reusedPaths": []
+}

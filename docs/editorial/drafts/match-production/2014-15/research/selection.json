@@ -1,0 +1,149 @@
+{
+  "season": "2014-15",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2013_2019",
+  "purpose": "Supporting researched season selection; history-calendar.json remains authoritative. Not a manuscript, status queue, approval or claim. Exact match details still require full individual-source research before drafting.",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/124",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Full competitive fixture ledger retrieved 2026-10-01: dates, scores, venues, stages and league-position progression. Individual incidents require separate match research."
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/124",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Final Premier League table retrieved 2026-10-01: placing, points and season record."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/171231-reds-through-after-true-penalty-drama",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Retrieved search extract: 23 September 2014, Middlesbrough 2–2, Liverpool win 14–13 shoot-out; match report retrieval required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/info/steven-gerrard",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Retrieved search extract: final season, departure announcement in January 2015, 13 goals; full source retrieval required for prose."
+    }
+  ],
+  "selected": [
+    {
+      "date": "2014-09-16",
+      "opposition": "Ludogorets Razgrad",
+      "oppositionId": "ludogorets-razgrad",
+      "competitionId": "european-cup",
+      "score": "Liverpool 2–1 Ludogorets Razgrad",
+      "slug": "liverpool-ludogorets-2014-champions-league-return",
+      "reason": "Champions League return after five years, won through a late Gerrard penalty."
+    },
+    {
+      "date": "2014-09-23",
+      "opposition": "Middlesbrough",
+      "oppositionId": "middlesbrough",
+      "competitionId": "league-cup",
+      "score": "Liverpool 2–2 Middlesbrough (Liverpool won 14–13 on penalties)",
+      "slug": "liverpool-middlesbrough-2014-thirty-penalty-shootout",
+      "reason": "Thirty-kick shoot-out and Rossiter debut goal make a unique cup tie."
+    },
+    {
+      "date": "2014-12-09",
+      "opposition": "Basel",
+      "oppositionId": "basel",
+      "competitionId": "european-cup",
+      "score": "Liverpool 1–1 Basel",
+      "slug": "liverpool-basel-2014-champions-league-exit",
+      "reason": "Home draw eliminates Liverpool at the group stage despite Gerrard free-kick."
+    },
+    {
+      "date": "2015-01-27",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "league-cup",
+      "score": "Chelsea 1–0 Liverpool (after extra time)",
+      "slug": "chelsea-liverpool-2015-league-cup-semi-final",
+      "reason": "Extra-time defeat ends a closely contested semi-final, first of two domestic last-four exits."
+    },
+    {
+      "date": "2015-02-26",
+      "opposition": "Beşiktaş",
+      "oppositionId": "besiktas",
+      "competitionId": "uefa-cup",
+      "score": "Beşiktaş 1–0 Liverpool (Beşiktaş won 5–4 on penalties)",
+      "slug": "besiktas-liverpool-2015-shootout-european-exit",
+      "reason": "European elimination on penalties in the return to the Atatürk Stadium."
+    },
+    {
+      "date": "2015-03-01",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 2–1 Manchester City",
+      "slug": "liverpool-manchester-city-2015-coutinho-winner",
+      "reason": "Victory against defending champions represents the strongest phase of the recovery towards the top four."
+    },
+    {
+      "date": "2015-03-22",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "score": "Liverpool 1–2 Manchester United",
+      "slug": "liverpool-manchester-united-2015-gerrard-red-card",
+      "reason": "Gerrard dismissal and defeat against direct Champions League qualification rivals."
+    },
+    {
+      "date": "2015-04-19",
+      "opposition": "Aston Villa",
+      "oppositionId": "aston-villa",
+      "competitionId": "fa-cup",
+      "score": "Aston Villa 2–1 Liverpool",
+      "slug": "aston-villa-liverpool-2015-fa-cup-semi-final",
+      "reason": "FA Cup semi-final loss ends remaining trophy possibility in Gerrard final season."
+    },
+    {
+      "date": "2015-05-16",
+      "opposition": "Crystal Palace",
+      "oppositionId": "crystal-palace",
+      "competitionId": "premier-league",
+      "score": "Liverpool 1–3 Crystal Palace",
+      "slug": "liverpool-crystal-palace-2015-gerrard-anfield-farewell",
+      "reason": "Gerrard final Anfield appearance, preserved as a match rather than a career biography."
+    },
+    {
+      "date": "2015-05-24",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "premier-league",
+      "score": "Stoke City 6–1 Liverpool",
+      "slug": "stoke-liverpool-2015-gerrard-final-match",
+      "reason": "Major defeat on Gerrard final Liverpool appearance and the season concluding fixture."
+    }
+  ],
+  "reusedPaths": [],
+  "omissions": [
+    "Tottenham 3–0 away and 3–2 home, QPR 3–2 and Bolton 2–1 replay were considered; sufficient season narrative exists in selected recovery win and decisive cup ties.",
+    "Real Madrid group losses: incorporate within the Basel elimination context rather than creating three articles for the same failed group campaign.",
+    "Gerrard Wimbledon brace: retain as context if relevant, with home farewell and final match stronger standalone landmarks."
+  ],
+  "limitations": [
+    "No article prose drafted. Root must reserve exact calendar claims remotely and confirm previous season checkpoint before drafting.",
+    "Stable-date duplicate screen completed against local public/draft inventory and current main calendar. Refresh accessible branch inventory immediately before claiming each match.",
+    "Detailed goals, timings, actions and records in selection reasons are research leads unless explicitly supported by retrieved source scope; confirm independently in match-level evidence before manuscript.",
+    "Use canonical european-cup and uefa-cup IDs for their modern names; do not create separate competition identities.",
+    "Ten individual source notes record full official reports and cross-checks. Conflicts include Stoke report incorrectly dated23May instead of24May2015, Gerrard dismissal elapsed seconds, and Beşiktaş second-leg mislabelling. No manuscripts or claims."
+  ],
+  "individualEvidenceNotes": [
+    "2014-09-16-sources.md",
+    "2014-09-23-sources.md",
+    "2014-12-09-sources.md",
+    "2015-01-27-sources.md",
+    "2015-02-26-sources.md",
+    "2015-03-01-sources.md",
+    "2015-03-22-sources.md",
+    "2015-04-19-sources.md",
+    "2015-05-16-sources.md",
+    "2015-05-24-sources.md"
+  ]
+}

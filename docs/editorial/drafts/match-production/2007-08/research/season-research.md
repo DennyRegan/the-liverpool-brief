@@ -1,12 +1,12 @@
 # 2007–08 season research and selection
 
-Configured researcher: `gpt-6-astra`; actual worker `/root/astra_2007_08`. Retrieved 1 October 2026. Supporting evidence only: `history-calendar.json` remains authoritative. No manuscript drafting until the coordinator confirms remote claims and the preceding season checkpoint.
+Configured researcher: `gpt-6-astra`; actual worker `/root/astra_2007_08`. Retrieved 1 October 2026. Supporting evidence only: `history-calendar.json` remains authoritative. The coordinator confirmed remote claims at `674c6329d63f8ed8c65df0a3c5d7f56abae582af` and the preceding season checkpoint before manuscript drafting.
 
 ## Broad assessment
 
-The complete competitive schedule and final league table were retrieved and reviewed. Liverpool finished fourth, eleven points behind the champions, with 76 points. Their substantial Champions League run ended in an extra-time semi-final defeat. Fernando Torres scored 33 competitive goals, including 24 in the league. The selection balances those achievements with the Barnsley defeat and exceptional Havant tie. It uses one already-published Reading article and proposes thirteen additional reports without a fixed season quota.
+The complete competitive schedule and final league table were retrieved and reviewed. Liverpool finished fourth, eleven points behind the champions, with 76 points. Their substantial Champions League run ended in an extra-time semi-final defeat. Fernando Torres scored 33 competitive goals, including 24 in the league. The selection balances those achievements with the Barnsley defeat and exceptional Havant tie. It reuses one already-published Reading article and selects thirteen additional reports without a fixed season quota. All thirteen manuscripts and their individual claim audits are now written.
 
-Local match inventory, calendar, public Archive files and draft metadata were searched before selection. The only completed 2007–08 match located is `content/archive/liverpool/torres-first-hat-trick-reading-2007.md`; its preserved draft is the same manuscript, not additional inventory. Remote-branch reconciliation belongs to the coordinator before reservation.
+Local match inventory, calendar, public Archive files and draft metadata were searched before selection. At the starting inventory check, the only completed 2007–08 match located was `content/archive/liverpool/torres-first-hat-trick-reading-2007.md`; its preserved draft is the same manuscript, not additional inventory. The coordinator performed remote-branch reconciliation before reservation.
 
 ## Broad sources
 
@@ -34,11 +34,11 @@ All match-record URLs below were opened through web research; narrative URLs wer
 | Chelsea, 30 April | https://www.lfchistory.net/games/5107 | https://www.uefa.com/uefachampionsleague/news/01cc-0e6f5930843b-dc2c92dca690-1000--drogba-double-takes-chelsea-to-moscow/ | Record and full UEFA narrative retrieved successfully on retry. |
 | Tottenham, 11 May | https://www.lfchistory.net/games/5086 | https://www.skysports.com/football/tottenham-vs-liverpool/102765 | Voronin then Torres; record and fourth place. Torres official report independently retrieved. |
 
-Additional High-confidence official contemporary summaries retrieved: https://www.uefa.com/news-media/news/01c9-0f84cc594aa9-c33c8e970663-1000--minnows-make-liverpool-sweat/ (Havant, but own-goal attribution conflicts); https://www.uefa.com/news-media/news/01ca-0f84ce732d5b-91a90f3f4ad8-1000--liverpool-felled-by-late-barnsley-blow/ (Barnsley result and sequence); https://www.fernando9torres.com/noticias/detalle/torres-consigue-el-reacutecord-con-un-golazo-en-la-uacuteltima-jornada-0-2 (Torres official contemporary Tottenham report; limited to record and supported action, omit promotional judgements).
+Additional High-confidence official contemporary summaries retrieved: https://www.uefa.com/news-media/news/01c9-0f84cc594aa9-c33c8e970663-1000--minnows-make-liverpool-sweat/ (Havant, including Škrtel own-goal attribution corroborated by LFChistory and the opponent’s official history); https://www.uefa.com/news-media/news/01ca-0f84ce732d5b-91a90f3f4ad8-1000--liverpool-felled-by-late-barnsley-blow/ (Barnsley result and sequence); https://www.fernando9torres.com/noticias/detalle/torres-consigue-el-reacutecord-con-un-golazo-en-la-uacuteltima-jornada-0-2 (Torres official contemporary Tottenham report; limited to record and supported action, omit promotional judgements).
 
 ## Exclusions and factual cautions
 
-`selection.json` records omissions and canonical IDs. Three initially absent club identities were reported to the coordinator. No quotation or footage description is required. Precise goal times vary across records; sequence is sufficient unless independently adjudicated. Do not claim that a record remains unbroken in the present. Do not turn a source's opinion about the owners, the manager's intentions or refereeing into an established fact. Conflicting Alfie Potter/Škrtel attribution will be recorded and the public copy will describe only verified action if unresolved.
+`selection.json` records omissions and canonical IDs. Three initially absent club identities were reported to the coordinator and resolved through the existing canonical registry (`besiktas`, `barnsley`, `havant-waterlooville`). No quotation or footage description is required. Precise goal times vary across records; sequence is sufficient unless independently adjudicated. Do not claim that a record remains unbroken in the present. Do not turn a source's opinion about the owners, the manager's intentions or refereeing into an established fact. The Alfie Potter shot/Škrtel own-goal attribution has been resolved: official Havant history, UEFA and LFChistory agree that the shot was credited as a Škrtel own goal.
 
 ## Additional cross-checks completed before drafting
 
@@ -62,4 +62,4 @@ Additional High-confidence official contemporary summaries retrieved: https://ww
 - **High:** https://www.skysports.com/football/liverpool-vs-arsenal/100711 — full quarter-final contemporary narrative, score, substitutions and decisive sequence. Penalty described as awarded, not as an uncontested interpretation.
 - **High for direct action; Medium for commentary:** https://www.lfchistory.net/articles/2274 — preserved Guardian Chelsea semi-final report, checked against UEFA; leave speculative pre-match motivation and broad judgements out.
 
-RTÉ retrieval failures and bootroom Liverpool article timeout are not passed off as full source retrievals. Search snippets there were used only to locate alternatives. Every final report will carry its own concise source record and claim audit; no source rating implies every sentence on its page is reliable.
+RTÉ retrieval failures and bootroom Liverpool article timeout are not passed off as full source retrievals. Search snippets there were used only to locate alternatives. Every final report carries its own source record and claim audit; no source rating implies every sentence on its page is reliable.

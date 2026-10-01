@@ -53,3 +53,18 @@ At the initial reconciled checkpoint, the all-era derived match review queue has
 Base includes the inactive publisher branch at `486b109` and newest migration checkpoint `43679da`, reconciled by row identity. Main was read at `1a76b30`. The 1960s production batches and the completed biography migration are preserved. Publisher implementation, policy and enablement are unchanged.
 
 **Confidence: High** for retrieved repository state, file identity, branch inspection and status/count projection. This audit is not a fresh factual recheck of existing manuscripts. Earlier research limitations remain in their own source notes. Newly written reports must have retrieved-source notes, confidence labels and finished factual checks.
+
+## Production checkpoints
+
+The table above records the starting audit, not live production status. The existing calendar batches `remaining-1990-91` through `remaining-2024-25` hold live progress and exact next actions. Earlier finished programmes are reused. Future selection manifests and source notes are research, not finished reports.
+
+| Newly completed season | New reports | Existing reports reused | Factual review |
+| --- | ---: | ---: | --- |
+| 1992–93 | 11 | 0 | Independent Astra review complete; corrections reread |
+| 2007–08 | 13 | 1 | Independent Astra review complete; corrections reread |
+
+The 1992–93 newly written collection fills the missing programme without claiming that the old recovery batch was located. The next writing season is 2008–09, beginning with Liverpool 2–1 Manchester United on 13 September 2008. All selected future matches through 2024–25 are registered as unfinished, with their retrieved season-selection evidence retained. No future research is counted as complete stock.
+
+Two narrow validation changes support the growing inventory: delayed July 2020 league fixtures remain in 2019–20; a batch can reference an existing anniversary match row without duplicating it. A synthetic Git integration test now allows the full calendar to exceed Node's default output buffer. Publisher policy, enablement and scheduling are unchanged.
+
+At this checkpoint, calendar/entity/history validation and all 200 tests pass. Lint has no errors and one pre-existing unused-variable warning. The preceding production build and 392 HTTP route checks passed; the final production run will repeat the build and unpublished-route checks against its final saved state.

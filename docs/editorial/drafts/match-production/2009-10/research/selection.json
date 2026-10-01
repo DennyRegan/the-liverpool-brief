@@ -1,0 +1,169 @@
+{
+  "season": "2009-10",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2008_2013",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/119",
+      "provider": "LFChistory",
+      "claims": "Complete competitive fixture ledger: selection and chronology.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/119",
+      "provider": "LFChistory",
+      "claims": "Seventh place, 63 points, 11 league defeats, seven points behind fourth-placed Tottenham.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.skysports.com/football/sunderland-vs-liverpool/report/110436",
+      "provider": "Sky Sports",
+      "claims": "Sunderland 1–0 Liverpool: A unique decisive outside interference incident in a damaging fourth league defeat.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/121163-most-exciting-pl-games-16",
+      "provider": "Liverpool FC",
+      "claims": "Liverpool 2–0 Manchester United: Ends four successive defeats; a third consecutive league win over United.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/01df-0e7340948fda-a079c00d7be2-1000--lyon-through-as-liverpool-teeter/",
+      "provider": "UEFA",
+      "claims": "Lyon 1–1 Liverpool: Late concession leaves Liverpool on brink of Champions League group elimination; Babel goal denied victory.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.skysports.com/football/liverpool-vs-reading/report/139232",
+      "provider": "Sky Sports",
+      "claims": "Liverpool 1–2 Reading after extra time: Third-round replay loss to Championship opposition after late penalty and extra-time winner.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/0254-0d7cd4f8f065-bdacfe742608-1000--kuyt-decides-merseyside-derby/",
+      "provider": "UEFA",
+      "claims": "Liverpool 1–0 Everton: Ten-man Liverpool win derby through Kuyt after Kyrgiakos dismissal.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/news/01e3-0e741a83a9f4-c849d0e7596f-1000--clinical-liverpool-punish-lille-lapses/",
+      "provider": "UEFA",
+      "claims": "Liverpool 3–0 Lille: Overturns one-goal first-leg deficit to reach Europa League quarter-final.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/news/01e4-0e7450a577bb-1947462ffad1-1000--resurgent-liverpool-overpower-benfica/",
+      "provider": "UEFA",
+      "claims": "Liverpool 4–1 Benfica: Another first-leg deficit overturned; Torres double takes Liverpool to semi-final.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/news/01e4-0e74713ffe42-bc3ae871bec3-1000--forlan-puts-atletico-on-the-highway-to-hamburg/",
+      "provider": "UEFA",
+      "claims": "Liverpool 2–1 Atlético Madrid after extra time: Extra-time away goal ends final European campaign of Benítez’s Liverpool tenure.",
+      "confidence": "High"
+    }
+  ],
+  "selected": [
+    {
+      "date": "2009-10-17",
+      "opposition": "Sunderland",
+      "oppositionId": "sunderland",
+      "competitionId": "premier-league",
+      "score": "Sunderland 1–0 Liverpool",
+      "slug": "beach-ball-sunderland-defeat-2009",
+      "reason": "A unique decisive outside interference incident in a damaging fourth league defeat.",
+      "sourceUrl": "https://www.skysports.com/football/sunderland-vs-liverpool/report/110436"
+    },
+    {
+      "date": "2009-10-25",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "score": "Liverpool 2–0 Manchester United",
+      "slug": "torres-ngog-united-response-2009",
+      "reason": "Ends four successive defeats; a third consecutive league win over United.",
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/121163-most-exciting-pl-games-16"
+    },
+    {
+      "date": "2009-11-04",
+      "opposition": "Lyon",
+      "oppositionId": "lyon",
+      "competitionId": "european-cup",
+      "score": "Lyon 1–1 Liverpool",
+      "slug": "lyon-late-equaliser-2009",
+      "reason": "Late concession leaves Liverpool on brink of Champions League group elimination; Babel goal denied victory.",
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/news/01df-0e7340948fda-a079c00d7be2-1000--lyon-through-as-liverpool-teeter/"
+    },
+    {
+      "date": "2010-01-13",
+      "opposition": "Reading",
+      "oppositionId": "reading",
+      "competitionId": "fa-cup",
+      "score": "Liverpool 1–2 Reading after extra time",
+      "slug": "reading-anfield-fa-cup-upset-2010",
+      "reason": "Third-round replay loss to Championship opposition after late penalty and extra-time winner.",
+      "sourceUrl": "https://www.skysports.com/football/liverpool-vs-reading/report/139232"
+    },
+    {
+      "date": "2010-02-06",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Liverpool 1–0 Everton",
+      "slug": "kuyt-ten-man-derby-2010",
+      "reason": "Ten-man Liverpool win derby through Kuyt after Kyrgiakos dismissal.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/0254-0d7cd4f8f065-bdacfe742608-1000--kuyt-decides-merseyside-derby/"
+    },
+    {
+      "date": "2010-03-18",
+      "opposition": "Lille",
+      "oppositionId": "lille",
+      "competitionId": "uefa-cup",
+      "score": "Liverpool 3–0 Lille",
+      "slug": "torres-lille-european-recovery-2010",
+      "reason": "Overturns one-goal first-leg deficit to reach Europa League quarter-final.",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01e3-0e741a83a9f4-c849d0e7596f-1000--clinical-liverpool-punish-lille-lapses/"
+    },
+    {
+      "date": "2010-04-08",
+      "opposition": "Benfica",
+      "oppositionId": "benfica",
+      "competitionId": "uefa-cup",
+      "score": "Liverpool 4–1 Benfica",
+      "slug": "torres-benfica-semi-final-2010",
+      "reason": "Another first-leg deficit overturned; Torres double takes Liverpool to semi-final.",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01e4-0e7450a577bb-1947462ffad1-1000--resurgent-liverpool-overpower-benfica/"
+    },
+    {
+      "date": "2010-04-29",
+      "opposition": "Atlético Madrid",
+      "oppositionId": "atletico-madrid",
+      "competitionId": "uefa-cup",
+      "score": "Liverpool 2–1 Atlético Madrid after extra time",
+      "slug": "forlan-ends-liverpool-european-run-2010",
+      "reason": "Extra-time away goal ends final European campaign of Benítez’s Liverpool tenure.",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01e4-0e74713ffe42-bc3ae871bec3-1000--forlan-puts-atletico-on-the-highway-to-hamburg/"
+    }
+  ],
+  "reused": [
+    {
+      "date": "2009-09-26",
+      "path": "content/archive/liverpool/torres-babel-six-goals-hull-2009.md",
+      "reason": "Published completed Torres hat-trick report; preserve canonical article."
+    }
+  ],
+  "deliberateOmissions": [
+    "Lyon home defeat and Debrecen away win: group-stage collapse can be established within the Lyon away report; do not duplicate the same elimination narrative.",
+    "Torres stoppage-time Aston Villa winner and Benayoun Burnley hat-trick: considered, but the retained Hull report already represents the season’s exceptional attacking performances.",
+    "Final Chelsea loss and Hull draw: final league outcome belongs in the Atletico aftermath and editorial season context, not routine closing-fixture reports."
+  ],
+  "limitations": [
+    "Lyon and Lille canonical opposition identities are absent in the current registry and require root resolution before draft metadata.",
+    "Detailed match-specific facts require full source retrieval and independent cross-check before drafting.",
+    "No match has been claimed or drafted by this worker."
+  ],
+  "reusedPaths": [
+    "content/archive/liverpool/torres-babel-six-goals-hull-2009.md"
+  ]
+}

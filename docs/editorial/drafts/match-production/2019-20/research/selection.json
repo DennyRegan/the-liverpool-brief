@@ -1,0 +1,273 @@
+{
+  "season": "2019-20",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2019_2025",
+  "purpose": "Supporting broad selection evidence only; history-calendar.json remains authoritative. No manuscript drafted.",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/129",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Retrieved full competitive schedule, dates, scores, venues and stages."
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/129",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Retrieved final table: champions99points, City81. Facts to be expressed without reusing source wording."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/360636-liverpool-chelsea-uefa-super-cup-match-report",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2019-08-14: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/371094-liverpool-arsenal-match-report-carabao-cup",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2019-10-30: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.skysports.com/football/a-villa-vs-liverpool/report/408082",
+      "provider": "Sky Sports",
+      "confidence": "High",
+      "scope": "2019-11-02: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/372789-match-report-liverpool-manchester-city-premier-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2019-11-10: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/376318-merseyside-derby-match-report-liverpool-everton",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2019-12-04: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/379492-liverpool-flamengo-club-world-cup-match-report",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2019-12-21: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/380036-match-report-leicester-city-premier-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2019-12-26: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/381309-match-report-liverpool-everton-fa-cup",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2020-01-05: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/383351-liverpool-manchester-united-premier-league-match-report",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2020-01-19: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/388739-match-report-liverpool-watford-premier-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2020-02-29: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/390146-match-report-liverpool-atletico-madrid-champions-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2020-03-11: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/amp/news/first-team/399680-match-report-crystal-palace-premier-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2020-06-24: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/402841-match-report-liverpool-chelsea-premier-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2020-07-22: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/403507-match-report-liverpool-newcastle-premier-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2020-07-26: retrieved contemporary match report supports result and editorial selection; claim-by-claim manuscript verification remains required."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/399866-liverpool-football-club-premier-league-champions-2019-20",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Retrieved25June2020 announcement: title confirmed by Chelsea2–1City, not won mathematically during Palace match."
+    },
+    {
+      "url": "https://www.skysports.com/football/liverpool-vs-chelsea/408344",
+      "provider": "Sky Sports",
+      "confidence": "High",
+      "scope": "Retrieved independent Chelsea report: Pulisic assisted Abraham; contradicts erroneous Giroud sentence in LFC report."
+    }
+  ],
+  "selected": [
+    {
+      "date": "2019-08-14",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "european-super-cup",
+      "score": "Liverpool 2–2 Chelsea (5–4 penalties)",
+      "slug": "liverpool-chelsea-2019-super-cup-shootout",
+      "reason": "Fourth European Super Cup; Adrian decisive on his full debut.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/360636-liverpool-chelsea-uefa-super-cup-match-report"
+    },
+    {
+      "date": "2019-10-30",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "league-cup",
+      "score": "Liverpool 5–5 Arsenal (5–4 penalties)",
+      "slug": "liverpool-arsenal-2019-ten-goal-cup-tie",
+      "reason": "Exceptional ten-goal cup recovery and decisive young players.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/371094-liverpool-arsenal-match-report-carabao-cup"
+    },
+    {
+      "date": "2019-11-02",
+      "opposition": "Aston Villa",
+      "oppositionId": "aston-villa",
+      "competitionId": "premier-league",
+      "score": "Aston Villa 1–2 Liverpool",
+      "slug": "aston-villa-liverpool-2019-late-turnaround",
+      "reason": "Two late goals preserve six-point advantage before the City meeting.",
+      "primarySource": "https://www.skysports.com/football/a-villa-vs-liverpool/report/408082"
+    },
+    {
+      "date": "2019-11-10",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 3–1 Manchester City",
+      "slug": "liverpool-manchester-city-2019-nine-point-gap",
+      "reason": "Direct title-rival victory puts Liverpool nine ahead of reigning champions.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/372789-match-report-liverpool-manchester-city-premier-league"
+    },
+    {
+      "date": "2019-12-04",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Liverpool 5–2 Everton",
+      "slug": "liverpool-everton-2019-five-goal-derby",
+      "reason": "Exceptional five-goal derby, Origi double and maintained title pace.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/376318-merseyside-derby-match-report-liverpool-everton"
+    },
+    {
+      "date": "2019-12-21",
+      "opposition": "Flamengo",
+      "oppositionId": "flamengo",
+      "competitionId": "fifa-club-world-cup",
+      "score": "Liverpool 1–0 Flamengo (after extra time)",
+      "slug": "liverpool-flamengo-2019-world-champions",
+      "reason": "Liverpool win the Club World Cup for the first time.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/379492-liverpool-flamengo-club-world-cup-match-report"
+    },
+    {
+      "date": "2019-12-26",
+      "opposition": "Leicester City",
+      "oppositionId": "leicester-city",
+      "competitionId": "premier-league",
+      "score": "Leicester City 0–4 Liverpool",
+      "slug": "leicester-liverpool-2019-boxing-day-statement",
+      "reason": "First beat second decisively; lead becomes 13 points with game in hand.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/380036-match-report-leicester-city-premier-league"
+    },
+    {
+      "date": "2020-01-05",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "fa-cup",
+      "score": "Liverpool 1–0 Everton",
+      "slug": "liverpool-everton-2020-curtis-jones-cup-winner",
+      "reason": "Jones first senior goal wins derby with heavily changed Liverpool side.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/381309-match-report-liverpool-everton-fa-cup"
+    },
+    {
+      "date": "2020-01-19",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "score": "Liverpool 2–0 Manchester United",
+      "slug": "liverpool-manchester-united-2020-sixteen-clear",
+      "reason": "Title lead reaches 16 points; Salah completes decisive rivalry win.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/383351-liverpool-manchester-united-premier-league-match-report"
+    },
+    {
+      "date": "2020-02-29",
+      "opposition": "Watford",
+      "oppositionId": "watford",
+      "competitionId": "premier-league",
+      "score": "Watford 3–0 Liverpool",
+      "slug": "watford-liverpool-2020-unbeaten-run-ends",
+      "reason": "First league defeat of season ends 44-match unbeaten sequence.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/388739-match-report-liverpool-watford-premier-league"
+    },
+    {
+      "date": "2020-03-11",
+      "opposition": "Atlético Madrid",
+      "oppositionId": "atletico-madrid",
+      "competitionId": "european-cup",
+      "score": "Liverpool 2–3 Atlético Madrid (after extra time)",
+      "slug": "liverpool-atletico-madrid-2020-title-defence-ends",
+      "reason": "European holders eliminated despite briefly leading the tie in extra time.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/390146-match-report-liverpool-atletico-madrid-champions-league"
+    },
+    {
+      "date": "2020-06-24",
+      "opposition": "Crystal Palace",
+      "oppositionId": "crystal-palace",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–0 Crystal Palace",
+      "slug": "liverpool-crystal-palace-2020-one-step-from-title",
+      "reason": "Final Liverpool match before clinching; distinguish 24 June win from 25 June title confirmation.",
+      "primarySource": "https://www.liverpoolfc.com/amp/news/first-team/399680-match-report-crystal-palace-premier-league"
+    },
+    {
+      "date": "2020-07-22",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "score": "Liverpool 5–3 Chelsea",
+      "slug": "liverpool-chelsea-2020-trophy-night",
+      "reason": "Eight-goal match precedes first Premier League trophy presentation.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/402841-match-report-liverpool-chelsea-premier-league"
+    },
+    {
+      "date": "2020-07-26",
+      "opposition": "Newcastle United",
+      "oppositionId": "newcastle-united",
+      "competitionId": "premier-league",
+      "score": "Newcastle United 1–3 Liverpool",
+      "slug": "newcastle-liverpool-2020-ninety-nine-points",
+      "reason": "Final-day comeback completes club-record 99-point championship.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/403507-match-report-liverpool-newcastle-premier-league"
+    }
+  ],
+  "reusedPaths": [
+    "content/archive/liverpool/liverpool-salzburg-2019-salah-winner.md"
+  ],
+  "omissions": [
+    "Community Shield defeat is not essential alongside the two subsequently won international finals.",
+    "Monterrey semifinal and Villa League Cup defeat form context for Club World Cup final; no second account commissioned simply for fixture congestion.",
+    "Shrewsbury replay and other early cup fixtures omitted; youth contribution already represented by Arsenal and Everton.",
+    "Routine league wins excluded. Chelsea FA Cup exit and post-title City 4–0 defeat can be verified as relevant context; selected Watford and Atlético articles preserve major defeats."
+  ],
+  "limitations": [
+    "This is selection research, not finished article fact-checking. Full lineups, times and detailed action must be cross-checked with independent match records before drafting.",
+    "Arsenal official opponent page 403; LFC full report successfully retrieved instead. Premier League Villa page returned navigation only; Sky contemporary report is substantive source.",
+    "Chelsea 22 July: LFC report wrongly credits Giroud with assist for Abraham; use Pulisic only after independent confirmation or omit assist.",
+    "No footage reviewed. Existing Salzburg report is reused unchanged. No canonical opposition gaps for these 14 selections."
+  ]
+}

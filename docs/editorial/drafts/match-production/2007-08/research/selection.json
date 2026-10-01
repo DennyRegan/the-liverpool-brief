@@ -2,7 +2,7 @@
   "season": "2007-08",
   "model": "gpt-6-astra",
   "workerId": "/root/astra_2007_08",
-  "purpose": "Supporting season selection evidence; history-calendar.json remains authoritative. No article drafted by this selection record.",
+  "purpose": "Supporting season selection evidence; thirteen selected manuscripts and claim audits completed. history-calendar.json remains authoritative for completion and eligibility.",
   "sources": [
     {
       "url": "https://www.lfchistory.net/season-archive/games/117",
@@ -31,7 +31,7 @@
       "competitionId": "premier-league",
       "score": "Liverpool 1–1 Chelsea",
       "slug": "liverpool-chelsea-2007-torres-first-goal",
-      "reason": "Torres scores his first Liverpool goal; a subsequently acknowledged refereeing error denies the home side victory."
+      "reason": "Torres scores his first Liverpool goal; Chelsea equalise through a penalty subsequently acknowledged as a refereeing error."
     },
     {
       "date": "2007-10-20",

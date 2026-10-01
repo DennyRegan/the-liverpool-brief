@@ -1,0 +1,178 @@
+{
+  "season": "2010-11",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2008_2013",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/120",
+      "provider": "LFChistory",
+      "claims": "Complete competitive ledger: fixtures, chronology and results.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/120",
+      "provider": "LFChistory",
+      "claims": "Sixth place and 58 points; four behind fifth-placed Tottenham.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.skysports.com/football/liverpool-vs-northampton-town/report/227792",
+      "provider": "Sky Sports",
+      "claims": "Liverpool 2–2 Northampton Town; Northampton won 4–2 on penalties: League Two opposition eliminate Liverpool at Anfield.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01ea-0e75c9233f47-5a9ac1ba78a5-1000--everton-compound-liverpool-s-woes/",
+      "provider": "UEFA",
+      "claims": "Everton 2–0 Liverpool: First game following ownership takeover ends in derby defeat and leaves Liverpool nineteenth.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/news/01eb-0e76295115ae-cd30c5b271c5-1000--gerrard-stuns-napoli-with-late-treble/",
+      "provider": "UEFA",
+      "claims": "Liverpool 3–1 Napoli: Half-time substitute scores three late goals to transform European match.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.skysports.com/football/blackburn-rovers-vs-liverpool/report/215379",
+      "provider": "Sky Sports",
+      "claims": "Blackburn Rovers 3–1 Liverpool: Final match of Hodgson tenure; managerial turning point.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01ed-0f8614c99f55-e50ad7cf8ee3-1000--united-edge-out-ten-man-liverpool/",
+      "provider": "UEFA",
+      "claims": "Manchester United 1–0 Liverpool: Dalglish’s first match after returning ends in FA Cup defeat; early penalty and Gerrard dismissal.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.skysports.com/football/liverpool-vs-stoke-city/215446",
+      "provider": "Sky Sports",
+      "claims": "Liverpool 2–0 Stoke City: Suárez scores on debut after Torres departure, a significant transition in attack.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01ee-0e77001396b2-fa878d2f3633-1000--chelsea-undone-by-revitalised-liverpool/",
+      "provider": "UEFA",
+      "claims": "Chelsea 0–1 Liverpool: Victory on Torres’s Chelsea debut; fourth successive league win under Dalglish.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01ef-0e775cde3ae8-bce66171b96d-1000--leaders-united-caught-out-by-kuyt-treble/",
+      "provider": "UEFA",
+      "claims": "Liverpool 3–1 Manchester United: Kuyt hat-trick against league leaders; Suárez central to opening goal.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/95919-maxi-hits-treble-in-reds-rout",
+      "provider": "Liverpool FC",
+      "claims": "Fulham 2–5 Liverpool: Maxi hat-trick and fifth place mark height of spring recovery.",
+      "confidence": "High"
+    }
+  ],
+  "selected": [
+    {
+      "date": "2010-09-22",
+      "opposition": "Northampton Town",
+      "oppositionId": "northampton-town",
+      "competitionId": "league-cup",
+      "score": "Liverpool 2–2 Northampton Town; Northampton won 4–2 on penalties",
+      "slug": "northampton-anfield-shootout-upset-2010",
+      "reason": "League Two opposition eliminate Liverpool at Anfield.",
+      "sourceUrl": "https://www.skysports.com/football/liverpool-vs-northampton-town/report/227792"
+    },
+    {
+      "date": "2010-10-17",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Everton 2–0 Liverpool",
+      "slug": "goodison-defeat-new-ownership-2010",
+      "reason": "First game following ownership takeover ends in derby defeat and leaves Liverpool nineteenth.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01ea-0e75c9233f47-5a9ac1ba78a5-1000--everton-compound-liverpool-s-woes/"
+    },
+    {
+      "date": "2010-11-04",
+      "opposition": "Napoli",
+      "oppositionId": "napoli",
+      "competitionId": "uefa-cup",
+      "score": "Liverpool 3–1 Napoli",
+      "slug": "gerrard-napoli-substitute-hat-trick-2010",
+      "reason": "Half-time substitute scores three late goals to transform European match.",
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01eb-0e76295115ae-cd30c5b271c5-1000--gerrard-stuns-napoli-with-late-treble/"
+    },
+    {
+      "date": "2011-01-05",
+      "opposition": "Blackburn Rovers",
+      "oppositionId": "blackburn-rovers",
+      "competitionId": "premier-league",
+      "score": "Blackburn Rovers 3–1 Liverpool",
+      "slug": "blackburn-hodgson-last-match-2011",
+      "reason": "Final match of Hodgson tenure; managerial turning point.",
+      "sourceUrl": "https://www.skysports.com/football/blackburn-rovers-vs-liverpool/report/215379"
+    },
+    {
+      "date": "2011-01-09",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "fa-cup",
+      "score": "Manchester United 1–0 Liverpool",
+      "slug": "dalglish-return-old-trafford-2011",
+      "reason": "Dalglish’s first match after returning ends in FA Cup defeat; early penalty and Gerrard dismissal.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01ed-0f8614c99f55-e50ad7cf8ee3-1000--united-edge-out-ten-man-liverpool/"
+    },
+    {
+      "date": "2011-02-02",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 2–0 Stoke City",
+      "slug": "suarez-scoring-debut-stoke-2011",
+      "reason": "Suárez scores on debut after Torres departure, a significant transition in attack.",
+      "sourceUrl": "https://www.skysports.com/football/liverpool-vs-stoke-city/215446"
+    },
+    {
+      "date": "2011-02-06",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "score": "Chelsea 0–1 Liverpool",
+      "slug": "meireles-chelsea-torres-debut-2011",
+      "reason": "Victory on Torres’s Chelsea debut; fourth successive league win under Dalglish.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01ee-0e77001396b2-fa878d2f3633-1000--chelsea-undone-by-revitalised-liverpool/"
+    },
+    {
+      "date": "2011-03-06",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "score": "Liverpool 3–1 Manchester United",
+      "slug": "kuyt-hat-trick-united-2011",
+      "reason": "Kuyt hat-trick against league leaders; Suárez central to opening goal.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01ef-0e775cde3ae8-bce66171b96d-1000--leaders-united-caught-out-by-kuyt-treble/"
+    },
+    {
+      "date": "2011-05-09",
+      "opposition": "Fulham",
+      "oppositionId": "fulham",
+      "competitionId": "premier-league",
+      "score": "Fulham 2–5 Liverpool",
+      "slug": "maxi-fulham-five-goals-2011",
+      "reason": "Maxi hat-trick and fifth place mark height of spring recovery.",
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/95919-maxi-hits-treble-in-reds-rout"
+    }
+  ],
+  "reused": [],
+  "deliberateOmissions": [
+    "Blackpool home defeat and Wolves home defeat: the Hodgson crisis is represented by Northampton, the first post-takeover derby and his final match.",
+    "Chelsea home 2–0: notable Torres double but Gerrard’s Napoli hat-trick represents the notable high point within this spell; away Chelsea win tells the subsequent transition.",
+    "Manchester City home 3–0, Arsenal late draw and Birmingham 5–0: considered; the Suárez debut, United hat-trick and Fulham performance sufficiently represent spring improvement.",
+    "Braga European elimination: result can be contextualised within the late-season report; no need for a separate routine scoreless second-leg report."
+  ],
+  "limitations": [
+    "Northampton Town and Napoli canonical opposition IDs require root resolution.",
+    "Hodgson departure and Dalglish appointment dates must be freshly cross-checked before applying retrospective last/first labels in prose.",
+    "No article prose written before season claim confirmation."
+  ],
+  "reusedPaths": []
+}

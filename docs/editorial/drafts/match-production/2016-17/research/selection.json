@@ -1,0 +1,139 @@
+{
+  "season": "2016-17",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2013_2019",
+  "purpose": "Supporting researched season selection; history-calendar.json remains authoritative. Not a manuscript, status queue, approval or claim. Exact match details still require full individual-source research before drafting.",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/126",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Full competitive fixture ledger retrieved 2026-10-01: dates, scores, venues, stages and league-position progression. Individual incidents require separate match research."
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/126",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Final Premier League table retrieved 2026-10-01: placing, points and season record."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/features/396245-gini-wijnaldum-liverpool-middlesbrough-2017-final",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Official retrospective and Wijnaldum recollection: final-day win required, scorers, fourth place and play-off qualification. Recollection is retrospective, not contemporary."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/264526-2016-17-pundits-picks-moment-of-the-season",
+      "provider": "Liverpool FC",
+      "confidence": "Medium",
+      "scope": "Retrieved search extract only: Wijnaldum Middlesbrough goal and Mané Goodison winner selected as season moments. Full page returned internal error; do not treat as full retrieval."
+    }
+  ],
+  "selected": [
+    {
+      "date": "2016-08-14",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "score": "Arsenal 3–4 Liverpool",
+      "slug": "arsenal-liverpool-2016-mane-debut-seven-goal-opener",
+      "reason": "Seven-goal season opener, Mané scoring debut and Coutinho brace."
+    },
+    {
+      "date": "2016-09-10",
+      "opposition": "Leicester City",
+      "oppositionId": "leicester-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–1 Leicester City",
+      "slug": "liverpool-leicester-2016-main-stand-opening",
+      "reason": "Expanded Main Stand first competitive match and victory over champions."
+    },
+    {
+      "date": "2016-11-06",
+      "opposition": "Watford",
+      "oppositionId": "watford",
+      "competitionId": "premier-league",
+      "score": "Liverpool 6–1 Watford",
+      "slug": "liverpool-watford-2016-six-goals-top-of-table",
+      "reason": "Six-goal win takes Klopp Liverpool top of the league."
+    },
+    {
+      "date": "2016-11-29",
+      "opposition": "Leeds United",
+      "oppositionId": "leeds-united",
+      "competitionId": "league-cup",
+      "score": "Liverpool 2–0 Leeds United",
+      "slug": "liverpool-leeds-2016-woodburn-youngest-scorer",
+      "reason": "Woodburn becomes youngest Liverpool scorer in quarter-final victory."
+    },
+    {
+      "date": "2016-12-04",
+      "opposition": "Bournemouth",
+      "oppositionId": "bournemouth",
+      "competitionId": "premier-league",
+      "score": "Bournemouth 4–3 Liverpool",
+      "slug": "bournemouth-liverpool-2016-two-goal-lead-lost",
+      "reason": "Major defensive collapse after 3–1 lead, illustrating inconsistent title challenge."
+    },
+    {
+      "date": "2016-12-19",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Everton 0–1 Liverpool",
+      "slug": "everton-liverpool-2016-mane-stoppage-time-derby",
+      "reason": "Stoppage-time derby winner at Goodison Park."
+    },
+    {
+      "date": "2017-01-25",
+      "opposition": "Southampton",
+      "oppositionId": "southampton",
+      "competitionId": "league-cup",
+      "score": "Liverpool 0–1 Southampton",
+      "slug": "liverpool-southampton-2017-league-cup-semi-final",
+      "reason": "Semi-final elimination during January downturn; FA Cup exit belongs in verified immediate consequences."
+    },
+    {
+      "date": "2017-02-11",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "score": "Liverpool 2–0 Tottenham Hotspur",
+      "slug": "liverpool-tottenham-2017-mane-ends-winless-run",
+      "reason": "Mané brace ends league winless sequence and restores top-four challenge."
+    },
+    {
+      "date": "2017-05-01",
+      "opposition": "Watford",
+      "oppositionId": "watford",
+      "competitionId": "premier-league",
+      "score": "Watford 0–1 Liverpool",
+      "slug": "watford-liverpool-2017-can-overhead-kick",
+      "reason": "Can overhead kick wins important top-four contest; individual landmark."
+    },
+    {
+      "date": "2017-05-21",
+      "opposition": "Middlesbrough",
+      "oppositionId": "middlesbrough",
+      "competitionId": "premier-league",
+      "score": "Liverpool 3–0 Middlesbrough",
+      "slug": "liverpool-middlesbrough-2017-champions-league-return",
+      "reason": "Final-day win secures fourth and Champions League play-off place."
+    }
+  ],
+  "reusedPaths": [
+    "content/archive/liverpool/henderson-chelsea-winner-2016.md"
+  ],
+  "omissions": [
+    "Chelsea away 16 September 2016 already has completed canonical coverage and is reused.",
+    "Manchester City 1–0 and Arsenal 3–1 are significant league wins but selected opening win, leaders milestone, downturn and qualification reports adequately explain this campaign.",
+    "Wolves FA Cup loss follows the Southampton semi-final exit by three days: include as factual January context rather than another similar downfall report.",
+    "West Ham 4–0 penultimate game contributes context to final-day qualification; no need to give both separate reports."
+  ],
+  "limitations": [
+    "No article prose drafted. Root must reserve exact calendar claims remotely and confirm previous season checkpoint before drafting.",
+    "Stable-date duplicate screen completed against local public/draft inventory and current main calendar. Refresh accessible branch inventory immediately before claiming each match.",
+    "Detailed goals, timings, actions and records in selection reasons are research leads unless explicitly supported by retrieved source scope; confirm independently in match-level evidence before manuscript.",
+    "Use canonical european-cup and uefa-cup IDs for their modern names; do not create separate competition identities."
+  ]
+}

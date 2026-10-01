@@ -9,7 +9,9 @@ import { calendarPath } from '../scripts/validate-editorial-calendar.mjs';
 import { restoreAutomaticStock } from './fixtures/automatic-editorial.mjs';
 
 const runnerURL = new URL('../scripts/run-automatic-history.mjs', import.meta.url).href;
-const git = (cwd, ...args) => execFileSync('git', args, { cwd, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
+// This integration test reads the full production calendar from its synthetic remote.
+// The researched inventory can exceed Node's default 1 MiB output buffer.
+const git = (cwd, ...args) => execFileSync('git', args, { cwd, encoding: 'utf8', maxBuffer: 16 * 1024 * 1024, stdio: ['ignore', 'pipe', 'pipe'] }).trim();
 
 test('actual Git transport keeps the same reserved item across failed checks, failed deployment and a successful retry', () => {
   const parent = fs.mkdtempSync(path.join(os.tmpdir(), 'publisher-git-'));

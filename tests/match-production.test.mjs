@@ -4,8 +4,16 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import matter from 'gray-matter';
-import { validateCalendar, calendarPath } from '../scripts/validate-editorial-calendar.mjs';
+import { validateCalendar, calendarPath, seasonForLiverpoolMatchDate } from '../scripts/validate-editorial-calendar.mjs';
 import { getMatchReportInventory } from '../scripts/match-report-inventory.mjs';
+
+test('July 2020 title presentation and final fixture retain 2019–20 without moving the next Community Shield', () => {
+  assert.equal(seasonForLiverpoolMatchDate('2020-07-22'), '2019-20');
+  assert.equal(seasonForLiverpoolMatchDate('2020-07-26'), '2019-20');
+  assert.equal(seasonForLiverpoolMatchDate('2020-08-29'), '2020-21');
+  assert.equal(seasonForLiverpoolMatchDate('2021-07-22'), '2021-22');
+  assert.equal(seasonForLiverpoolMatchDate('1992-08-08'), '1992-93');
+});
 
 function fixture() {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'match-production-'));

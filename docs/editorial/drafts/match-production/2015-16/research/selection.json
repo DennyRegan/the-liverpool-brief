@@ -1,0 +1,174 @@
+{
+  "season": "2015-16",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2013_2019",
+  "purpose": "Supporting researched season selection; history-calendar.json remains authoritative. Not a manuscript, status queue, approval or claim. Exact match details still require full individual-source research before drafting.",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/125",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Full competitive fixture ledger retrieved 2026-10-01: dates, scores, venues, stages and league-position progression. Individual incidents require separate match research."
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/125",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Final Premier League table retrieved 2026-10-01: placing, points and season record."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/223590-in-numbers-facts-and-figures-from-the-2015-16-campaign",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Club statistician season overview: 63 competitive games, 52 under Klopp, 98 goals and comeback results; retrieved full page."
+    }
+  ],
+  "selected": [
+    {
+      "date": "2015-10-17",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "score": "Tottenham Hotspur 0–0 Liverpool",
+      "slug": "tottenham-liverpool-2015-klopp-first-match",
+      "reason": "Klopp first competitive Liverpool match; manager transition already has separate factual coverage."
+    },
+    {
+      "date": "2015-10-31",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "score": "Chelsea 1–3 Liverpool",
+      "slug": "chelsea-liverpool-2015-klopp-first-league-win",
+      "reason": "Klopp first league win, away at the champions after Liverpool concede first."
+    },
+    {
+      "date": "2015-11-21",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Manchester City 1–4 Liverpool",
+      "slug": "manchester-city-liverpool-2015-four-at-the-etihad",
+      "reason": "Early landmark away victory in Klopp opening months."
+    },
+    {
+      "date": "2015-12-02",
+      "opposition": "Southampton",
+      "oppositionId": "southampton",
+      "competitionId": "league-cup",
+      "score": "Southampton 1–6 Liverpool",
+      "slug": "southampton-liverpool-2015-origi-hat-trick",
+      "reason": "Six-goal away quarter-final win with Origi hat-trick."
+    },
+    {
+      "date": "2016-01-23",
+      "opposition": "Norwich City",
+      "oppositionId": "norwich-city",
+      "competitionId": "premier-league",
+      "score": "Norwich City 4–5 Liverpool",
+      "slug": "norwich-liverpool-2016-lallana-nine-goal-winner",
+      "reason": "Nine-goal match, recovery from 3–1 down and stoppage-time winner after Norwich equalise."
+    },
+    {
+      "date": "2016-01-26",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "league-cup",
+      "score": "Liverpool 0–1 Stoke City (Liverpool won 6–5 on penalties)",
+      "slug": "liverpool-stoke-2016-penalties-wembley",
+      "reason": "Shoot-out sends Liverpool into Klopp first final; incorporate away leg context."
+    },
+    {
+      "date": "2016-02-28",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "league-cup",
+      "score": "Liverpool 1–1 Manchester City (Manchester City won 3–1 on penalties)",
+      "slug": "liverpool-manchester-city-2016-league-cup-final",
+      "reason": "First final under Klopp ends in a penalty shoot-out defeat."
+    },
+    {
+      "date": "2016-03-10",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "uefa-cup",
+      "score": "Liverpool 2–0 Manchester United",
+      "slug": "liverpool-manchester-united-2016-first-european-meeting",
+      "reason": "First European fixture between the clubs and decisive two-goal lead."
+    },
+    {
+      "date": "2016-03-17",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "uefa-cup",
+      "score": "Manchester United 1–1 Liverpool",
+      "slug": "manchester-united-liverpool-2016-coutinho-european-progress",
+      "reason": "Coutinho equaliser secures progression from the first European tie between the rivals."
+    },
+    {
+      "date": "2016-04-14",
+      "opposition": "Borussia Dortmund",
+      "oppositionId": "borussia-dortmund",
+      "competitionId": "uefa-cup",
+      "score": "Liverpool 4–3 Borussia Dortmund",
+      "slug": "liverpool-dortmund-2016-lovren-comeback",
+      "reason": "Three goals needed after Dortmund lead 3–1; Lovren added-time winner completes comeback."
+    },
+    {
+      "date": "2016-04-20",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–0 Everton",
+      "slug": "liverpool-everton-2016-four-goal-derby",
+      "reason": "Four-goal derby victory with Funes Mori dismissal and Origi injury; exact incident language requires match sources."
+    },
+    {
+      "date": "2016-05-05",
+      "opposition": "Villarreal",
+      "oppositionId": "villarreal",
+      "competitionId": "uefa-cup",
+      "score": "Liverpool 3–0 Villarreal",
+      "slug": "liverpool-villarreal-2016-europa-league-final-reached",
+      "reason": "Reverses away-leg defeat to reach European final."
+    },
+    {
+      "date": "2016-05-18",
+      "opposition": "Sevilla",
+      "oppositionId": "sevilla",
+      "competitionId": "uefa-cup",
+      "score": "Liverpool 1–3 Sevilla",
+      "slug": "liverpool-sevilla-2016-europa-league-final",
+      "reason": "Final defeat after a half-time lead ends the first Klopp season."
+    }
+  ],
+  "reusedPaths": [],
+  "omissions": [
+    "Everton 4 October 2015: published Rodgers departure article already establishes the managerial turning point; retain it as context without a second dismissal-centred article.",
+    "Dortmund away and Villarreal away belong as verified first-leg context in decisive Anfield returns.",
+    "Augsburg, Bordeaux and Rubin Kazan progress is covered in context; no automatic article for every European round.",
+    "Villa 6–0, Arsenal 3–3 and Palace late win considered but excluded after selecting more distinctive comebacks and major milestones."
+  ],
+  "limitations": [
+    "No article prose drafted. Root must reserve exact calendar claims remotely and confirm previous season checkpoint before drafting.",
+    "Stable-date duplicate screen completed against local public/draft inventory and current main calendar. Refresh accessible branch inventory immediately before claiming each match.",
+    "Detailed goals, timings, actions and records in selection reasons are research leads unless explicitly supported by retrieved source scope; confirm independently in match-level evidence before manuscript.",
+    "Use canonical european-cup and uefa-cup IDs for their modern names; do not create separate competition identities.",
+    "Thirteen individual evidence notes added: all full LFC match reports read, supporting UEFA/FA/opponent sources scoped. Final individual statistical event cross-checks remain before drafting. Sevilla2016 Sturridge assist and Villarreal own-goal touch differ between official narratives; omit disputed details pending resolution. No manuscripts."
+  ],
+  "individualEvidenceNotes": [
+    "2015-10-17-sources.md",
+    "2015-10-31-sources.md",
+    "2015-11-21-sources.md",
+    "2015-12-02-sources.md",
+    "2016-01-23-sources.md",
+    "2016-01-26-sources.md",
+    "2016-02-28-sources.md",
+    "2016-03-10-sources.md",
+    "2016-03-17-sources.md",
+    "2016-04-14-sources.md",
+    "2016-04-20-sources.md",
+    "2016-05-05-sources.md",
+    "2016-05-18-sources.md"
+  ]
+}

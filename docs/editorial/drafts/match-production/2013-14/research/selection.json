@@ -1,0 +1,192 @@
+{
+  "season": "2013-14",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2013_2019",
+  "purpose": "Supporting researched season selection; history-calendar.json remains authoritative. Not a manuscript, status queue, approval or claim. Exact match details still require full individual-source research before drafting.",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/123",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Full competitive fixture ledger retrieved 2026-10-01: dates, scores, venues, stages and league-position progression. Individual incidents require separate match research."
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/123",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Final Premier League table retrieved 2026-10-01: placing, points and season record."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/163620-br-from-carnlough-to-champions-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Contemporary review: Sturridge opening wins; both derbies; Suárez Norwich four; Spurs five; Arsenal five; eleven-win sequence; City win, Chelsea defeat, Palace draw, final Newcastle win."
+    },
+    {
+      "url": "https://www.premierleague.com/en/news/59027",
+      "provider": "Premier League",
+      "confidence": "High",
+      "scope": "Competition season review, retrieved page; title-race course and final standings."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/150488-suarez-makes-history-with-norwich-haul",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Retrieved search extract: Suárez four goals against Norwich and repeated hat-trick milestone; full individual report retrieval required before drafting."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/161549-reds-edge-by-norwich-to-move-five-clear",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Retrieved search extract: 20 April win secured Champions League football and five-point lead; Sterling double and Suárez goal."
+    }
+  ],
+  "selected": [
+    {
+      "date": "2013-08-17",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 1–0 Stoke City",
+      "slug": "liverpool-stoke-2013-mignolet-debut-save",
+      "reason": "Opening-day win with Mignolet penalty save on debut; establishes the campaign before the title challenge."
+    },
+    {
+      "date": "2013-09-01",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "score": "Liverpool 1–0 Manchester United",
+      "slug": "liverpool-manchester-united-2013-sturridge-shankly-centenary",
+      "reason": "Sturridge winner against reigning champions puts Liverpool top; Shankly centenary context."
+    },
+    {
+      "date": "2013-11-23",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Everton 3–3 Liverpool",
+      "slug": "everton-liverpool-2013-sturridge-six-goal-derby",
+      "reason": "Six-goal derby with repeated changes of lead and late Sturridge equaliser."
+    },
+    {
+      "date": "2013-12-04",
+      "opposition": "Norwich City",
+      "oppositionId": "norwich-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 5–1 Norwich City",
+      "slug": "liverpool-norwich-2013-suarez-four-goals",
+      "reason": "Suárez four-goal individual performance and third hat-trick against the same club."
+    },
+    {
+      "date": "2013-12-15",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "score": "Tottenham Hotspur 0–5 Liverpool",
+      "slug": "tottenham-liverpool-2013-five-at-white-hart-lane",
+      "reason": "Exceptional away performance in the emergence of the title-challenging attack."
+    },
+    {
+      "date": "2014-01-28",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–0 Everton",
+      "slug": "liverpool-everton-2014-four-goal-derby",
+      "reason": "Comprehensive derby victory during the development of the title challenge."
+    },
+    {
+      "date": "2014-02-08",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "score": "Liverpool 5–1 Arsenal",
+      "slug": "liverpool-arsenal-2014-four-in-twenty-minutes",
+      "reason": "Four early goals against the leaders begins eleven consecutive league victories."
+    },
+    {
+      "date": "2014-03-16",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "score": "Manchester United 0–3 Liverpool",
+      "slug": "manchester-united-liverpool-2014-gerrard-penalties",
+      "reason": "Three-goal Old Trafford victory and Gerrard penalty sequence during the title run."
+    },
+    {
+      "date": "2014-04-13",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 3–2 Manchester City",
+      "slug": "liverpool-manchester-city-2014-coutinho-title-race",
+      "reason": "Direct title-rival meeting decided after City recover a two-goal deficit."
+    },
+    {
+      "date": "2014-04-20",
+      "opposition": "Norwich City",
+      "oppositionId": "norwich-city",
+      "competitionId": "premier-league",
+      "score": "Norwich City 2–3 Liverpool",
+      "slug": "norwich-liverpool-2014-eleven-wins-champions-league",
+      "reason": "Eleventh successive league win confirms Champions League return and extends the lead."
+    },
+    {
+      "date": "2014-04-27",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "score": "Liverpool 0–2 Chelsea",
+      "slug": "liverpool-chelsea-2014-title-race-turns",
+      "reason": "Defeat ends winning sequence and changes control of the championship contest."
+    },
+    {
+      "date": "2014-05-05",
+      "opposition": "Crystal Palace",
+      "oppositionId": "crystal-palace",
+      "competitionId": "premier-league",
+      "score": "Crystal Palace 3–3 Liverpool",
+      "slug": "crystal-palace-liverpool-2014-three-goal-lead-lost",
+      "reason": "Three-goal lead lost in the penultimate fixture; decisive title-race setback."
+    },
+    {
+      "date": "2014-05-11",
+      "opposition": "Newcastle United",
+      "oppositionId": "newcastle-united",
+      "competitionId": "premier-league",
+      "score": "Liverpool 2–1 Newcastle United",
+      "slug": "liverpool-newcastle-2014-title-challenge-finale",
+      "reason": "Final-day recovery completes 84-point runners-up season as City secure the title."
+    }
+  ],
+  "reusedPaths": [],
+  "omissions": [
+    "Fulham 3–2 and West Ham 2–1: important parts of the eleven-win run, but their late penalties can supply verified context within the selected title-race reports.",
+    "Cardiff 6–3 and West Brom 4–1: additional Suárez hat-tricks; Norwich four-goal article provides stronger individual landmark.",
+    "Christmas away defeats at City and Chelsea: verify as context for the later direct-rival reports; do not multiply standalone reports only because rivals are involved.",
+    "Domestic cup ties did not produce a final or uniquely essential milestone beyond the selected league campaign."
+  ],
+  "limitations": [
+    "No article prose drafted. Root must reserve exact calendar claims remotely and confirm previous season checkpoint before drafting.",
+    "Stable-date duplicate screen completed against local public/draft inventory and current main calendar. Refresh accessible branch inventory immediately before claiming each match.",
+    "Detailed goals, timings, actions and records in selection reasons are research leads unless explicitly supported by retrieved source scope; confirm independently in match-level evidence before manuscript.",
+    "Use canonical european-cup and uefa-cup IDs for their modern names; do not create separate competition identities.",
+    "Individual 2013–14 match evidence is stored in 13 date-based source notes; Manchester United away and Crystal Palace still require fuller contemporary narrative retrieval. Palace second-goal attribution differs between contemporary Sky and current official record; use current Delaney own-goal attribution. No manuscripts written."
+  ],
+  "individualEvidenceNotes": [
+    "2013-08-17-sources.md",
+    "2013-09-01-sources.md",
+    "2013-11-23-sources.md",
+    "2013-12-04-sources.md",
+    "2013-12-15-sources.md",
+    "2014-01-28-sources.md",
+    "2014-02-08-sources.md",
+    "2014-03-16-sources.md",
+    "2014-04-13-sources.md",
+    "2014-04-20-sources.md",
+    "2014-04-27-sources.md",
+    "2014-05-05-sources.md",
+    "2014-05-11-sources.md"
+  ]
+}
