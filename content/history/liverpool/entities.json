@@ -2643,5 +2643,15 @@
     "id": "charlie-hurley",
     "label": "Charlie Hurley",
     "kind": "person"
+  },
+  {
+    "id": "preston-north-end",
+    "label": "Preston North End",
+    "kind": "opposition"
+  },
+  {
+    "id": "roker-park",
+    "label": "Roker Park",
+    "kind": "location"
   }
 ]
