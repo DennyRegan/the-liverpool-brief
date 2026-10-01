@@ -3,7 +3,7 @@
   "title": "Sammy Lee: Liverpool’s ever-present",
   "excerpt": "Sammy Lee’s Liverpool career.",
   "slug": "sammy-lee",
-  "historicalPeriod": "1978–2011",
+  "historicalPeriod": "Liverpool playing and coaching career",
   "decade": "1970s",
   "category": "person",
   "articleType": "player",

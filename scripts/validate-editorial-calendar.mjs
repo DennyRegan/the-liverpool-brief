@@ -42,7 +42,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
   assert.equal(calendar.canonicalLocation, `https://github.com/DennyRegan/the-liverpool-brief/blob/main/${calendarPath}`);
   const entries = z.array(entrySchema).min(1).parse(calendar.entries);
   const biographies = z.array(biographySchema).parse(calendar.biographies ?? []);
-  const ids = new Set(), dates = new Set(), drafts = new Set();
+  const ids = new Set(), dates = new Set(), drafts = new Set(), biographyPeople = new Set();
   const articles = new Map(getArchiveFeatures(root).map(a => [`/archive/${a.slug}`, a]));
   const entities = new Map(getHistoryEntities(root).map(entity => [entity.id, entity.kind]));
   const { eras } = getHistory(root);
@@ -61,6 +61,12 @@ export function validateCalendar(calendar, root = process.cwd()) {
         assert.ok(fs.existsSync(path.join(root, file)), `${e.id}: missing source file ${file}`);
       }
       if (e.status === 'approved') assert.equal(e.migration.blockers.length, 0, `${e.id}: unresolved approval blockers`);
+    }
+    const personId = e.personId ?? e.migration?.personId;
+    if (personId) {
+      assert.equal(e.id, `${personId}-career-biography`, `${e.id}: biography identity mismatch`);
+      assert.ok(!biographyPeople.has(personId), `${e.id}: duplicate biography subject`);
+      biographyPeople.add(personId);
     }
     if (e.historicalEventDate) {
     const identity = `${e.featuredWeek}:${e.historicalEventDate}:${e.event}`;
@@ -88,7 +94,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
       if (e.personId) {
         assert.equal(draft.slug, path.basename(e.draftPath, '.md'), `${e.id}: filename/slug mismatch`);
         assert.ok([...(draft.playerIds ?? []), ...(draft.managerIds ?? [])].includes(e.personId), `${e.id}: principal subject missing`);
-        assert.ok(!articles.has(`/archive/${draft.slug}`), `${e.id}: unpublished biography duplicates public slug`);
+        if (e.status !== 'published') assert.ok(!articles.has(`/archive/${draft.slug}`), `${e.id}: unpublished biography duplicates public slug`);
       }
       // A career biography can use eras without treating its calendar anchor as a single event.
       if (draft.historicalEventDate) assert.equal(draft.historicalEventDate, e.historicalEventDate, `${e.id}: draft date mismatch`);

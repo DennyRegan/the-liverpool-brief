@@ -1,5 +1,15 @@
 # Shared history editorial workflow
 
+## Career biography recovery inventory — 1 October 2026
+
+`docs/editorial/history-calendar.json` remains the single source of truth. Its `entries` retain the dated anniversary commissions; its `biographies` array extends the same inventory for career articles without assigning an artificial event date or a weekly slot. Both arrays use the existing status, approval, evidence, owner and draft-path conventions and are checked by `npm run validate:calendar`. Read both when listing biographies. Existing dated career rows (Torres, Gerrard and Milner) remain in `entries`; they have not been copied into `biographies`.
+
+`migration.personId` (or `personId` for an undated row) resolves to the canonical person registry. `migration.completed` records whether a finished manuscript exists, `reviewRequired` records the review gate, `sourceFiles` preserves research/audit paths, and `blockers` records concrete unresolved problems. `sourceManuscript` records the retrieved file identity, modification time and SHA-256 digest. A `blocked` row with `completed: false`, a null draft path and a NOT LOCATED note is a recovery gap, not a commissioned rewrite. `publishedDestination` records observed public articles; the pre-existing Phil Thompson biography is included without creating approval evidence.
+
+Recovered manuscripts live under `docs/editorial/drafts/biographies/`, outside all public content loaders. Article bodies, including headings and source lists, are preserved exactly; only compatible frontmatter is prepended. Editorial metadata and preserved historical handoff notes do not approve publication. Old notes describing previous schema limitations or rejected claims are provenance; this workflow and current schema govern the inventory now. Drafts have no publication `date`, and new rows have null approval and publication destination. No schedule or automatic publishing has been implemented.
+
+Before any future publication, Denny must approve the specific article and its destination/authorship treatment. Then record real approval evidence, resolve blockers, refresh any active-career facts against the recorded research cut-off, prepare the existing canonical article file and perform the publication checks. Technical migration validation is not a new factual fact-check. This branch must be reviewed before merging.
+
 ## Astra ownership — Denny's instruction, 14 September 2026
 
 GPT-6 Astra (`gpt-6-astra`) must explicitly handle historical research, source assessment, fact-checking and factual article writing. A coordinating or publishing agent may maintain the calendar, validate metadata and publish specifically approved articles, but must not substitute another model for this research or writing.

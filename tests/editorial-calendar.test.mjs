@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import matter from 'gray-matter';
+import { createHash } from 'node:crypto';
 import { validateCalendar, calendarPath } from '../scripts/validate-editorial-calendar.mjs';
 const load = () => JSON.parse(fs.readFileSync(calendarPath, 'utf8'));
 
@@ -11,6 +12,31 @@ test('repository calendar validates without imposing a fixed writing or approval
   const rows = validateCalendar(load());
   assert.ok(rows.length > 0);
   assert.ok(rows.every(e => e.personId || (e.featuredWeek && e.historicalEventDate)));
+});
+
+test('recovered manuscripts retain their exact bytes below added metadata', () => {
+  for (const row of load().biographies ?? []) {
+    if (!row.migration?.sourceManuscript || !row.draftPath) continue;
+    const body = matter(fs.readFileSync(row.draftPath, 'utf8')).content;
+    assert.equal(createHash('sha256').update(body.slice(1)).digest('hex'), row.migration.sourceManuscript.sha256, row.id);
+  }
+});
+
+test('career inventory needs neither an anniversary nor a schedule and rejects inferred approval', () => {
+  const original = load();
+  const index = original.biographies.findIndex(e => e.draftPath);
+  assert.ok(index >= 0);
+  for (const mutate of [
+    e => { e.status = 'approved'; },
+    e => { e.personId = 'anfield'; },
+    e => { e.id = 'invented-biography'; },
+    e => { e.featuredWeek = '2026-10-05'; },
+    e => { e.scheduledAt = '2026-10-05'; },
+    e => { e.migration.sourceFiles = ['docs/editorial/drafts/missing.md']; },
+  ]) {
+    const c = structuredClone(original); mutate(c.biographies[index]);
+    assert.throws(() => validateCalendar(c));
+  }
 });
 test('review drafts are kept outside published article collection', () => {
   for (const row of validateCalendar(load()).filter(e => e.draftPath)) {

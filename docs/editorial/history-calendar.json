@@ -10102,6 +10102,37 @@
           "NOT LOCATED: no completed manuscript or research file found; retrieved prior task context reports failed research/writing attempts."
         ]
       }
+    },
+    {
+      "id": "phil-thompson-career-biography",
+      "personId": "phil-thompson",
+      "event": "Phil Thompson",
+      "selection": "selected",
+      "status": "published",
+      "owner": "Existing repository publication; observed during migration",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": "/archive/phil-thompson",
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Repository-only biography already published before this migration. Existing canonical page returned HTTP 200 and contained Phil Thompson on 1 October 2026. No publication or approval was performed by this task; historical approval evidence was not reconstructed.",
+      "evidence": [
+        {
+          "location": "content/archive/liverpool/phil-thompson.md",
+          "confidence": "high",
+          "scope": "Existing repository article and observed live destination, not a factual recheck."
+        }
+      ],
+      "migration": {
+        "personId": "phil-thompson",
+        "completed": true,
+        "reviewRequired": false,
+        "sourceFiles": [],
+        "duplicateResolution": "Existing published repository biography retained without modification.",
+        "blockers": []
+      }
     }
   ]
 }

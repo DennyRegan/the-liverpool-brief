@@ -3,7 +3,7 @@
   "title": "Ronnie Moran: A lifetime at Liverpool",
   "excerpt": "Ronnie Moran’s Liverpool career.",
   "slug": "ronnie-moran",
-  "historicalPeriod": "1952–1998",
+  "historicalPeriod": "Liverpool player, coach and caretaker manager",
   "decade": "1950s",
   "category": "person",
   "articleType": "player",

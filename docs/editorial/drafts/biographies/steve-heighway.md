@@ -3,7 +3,7 @@
   "title": "Steve Heighway: from the wing to the academy",
   "excerpt": "Steve Heighway’s Liverpool career.",
   "slug": "steve-heighway",
-  "historicalPeriod": "1970–2007",
+  "historicalPeriod": "Liverpool playing and academy coaching career",
   "decade": "1970s",
   "category": "person",
   "articleType": "player",
