@@ -60,7 +60,7 @@ export function validateAutomaticHistory(calendar, rows, articles) {
     }
   }
   for (const row of rows) {
-    if (row.publicationClass === publicationClasses.biographies) assert.ok(row.migration && (row.personId ?? row.migration.personId), 'Biography class requires career identity');
+    if (row.publicationClass === publicationClasses.biographies) assert.ok((row.migration || row.biographyProduction) && (row.personId ?? row.migration?.personId), 'Biography class requires career identity');
     if (row.publicationClass === publicationClasses.matches) assert.ok(row.historicalEventDate && !row.migration, 'Match class requires a match row');
     if (row.status === 'publication_pending') assert.ok(config.runs.some(r => r.rowId === row.id && r.state === 'publication_pending'), 'Pending publication has no run');
   }

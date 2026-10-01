@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T19:48:57.538993Z",
+  "updatedAt": "2026-10-01T20:17:18.302085Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -11106,6 +11106,376 @@
         "reviewRequired": false,
         "sourceFiles": [],
         "duplicateResolution": "Existing published repository biography retained without modification.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "bill-shankly-career-biography",
+      "personId": "bill-shankly",
+      "event": "Bill Shankly career biography",
+      "selection": "selected",
+      "status": "writing",
+      "publicationClass": "automatic-history-biography",
+      "owner": "Astra /root/shankly_hunt",
+      "claim": {
+        "token": "next-ten-2026-10-01-bill-shankly",
+        "claimedAt": "2026-10-01T20:25:16.067057Z",
+        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "confidence": "high",
+          "scope": "Repository selection and duplicate audit only; historical research follows."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "The manager whose rebuilding established the foundations of modern Liverpool.",
+        "sourceFiles": [],
+        "model": "gpt-6-astra",
+        "workerId": "/root/shankly_hunt",
+        "blockers": []
+      }
+    },
+    {
+      "id": "roger-hunt-career-biography",
+      "personId": "roger-hunt",
+      "event": "Roger Hunt career biography",
+      "selection": "selected",
+      "status": "writing",
+      "publicationClass": "automatic-history-biography",
+      "owner": "Astra /root/shankly_hunt",
+      "claim": {
+        "token": "next-ten-2026-10-01-roger-hunt",
+        "claimedAt": "2026-10-01T20:25:16.067057Z",
+        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "confidence": "high",
+          "scope": "Repository selection and duplicate audit only; historical research follows."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "A central scorer in the return to the First Division and the first Shankly honours.",
+        "sourceFiles": [],
+        "model": "gpt-6-astra",
+        "workerId": "/root/shankly_hunt",
+        "blockers": []
+      }
+    },
+    {
+      "id": "jurgen-klopp-career-biography",
+      "personId": "jurgen-klopp",
+      "event": "Jürgen Klopp career biography",
+      "selection": "selected",
+      "status": "writing",
+      "publicationClass": "automatic-history-biography",
+      "owner": "Astra /root/klopp_fagan",
+      "claim": {
+        "token": "next-ten-2026-10-01-jurgen-klopp",
+        "claimedAt": "2026-10-01T20:25:16.067057Z",
+        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "confidence": "high",
+          "scope": "Repository selection and duplicate audit only; historical research follows."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "The manager who restored European and league success across a defining modern era.",
+        "sourceFiles": [],
+        "model": "gpt-6-astra",
+        "workerId": "/root/klopp_fagan",
+        "blockers": []
+      }
+    },
+    {
+      "id": "joe-fagan-career-biography",
+      "personId": "joe-fagan",
+      "event": "Joe Fagan career biography",
+      "selection": "selected",
+      "status": "writing",
+      "publicationClass": "automatic-history-biography",
+      "owner": "Astra /root/klopp_fagan",
+      "claim": {
+        "token": "next-ten-2026-10-01-joe-fagan",
+        "claimedAt": "2026-10-01T20:25:16.067057Z",
+        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "confidence": "high",
+          "scope": "Repository selection and duplicate audit only; historical research follows."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Boot Room continuity, the 1984 treble and a managerial career requiring careful Heysel context.",
+        "sourceFiles": [],
+        "model": "gpt-6-astra",
+        "workerId": "/root/klopp_fagan",
+        "blockers": []
+      }
+    },
+    {
+      "id": "billy-liddell-career-biography",
+      "personId": "billy-liddell",
+      "event": "Billy Liddell career biography",
+      "selection": "selected",
+      "status": "writing",
+      "publicationClass": "automatic-history-biography",
+      "owner": "Astra /root/liddell_stjohn",
+      "claim": {
+        "token": "next-ten-2026-10-01-billy-liddell",
+        "claimedAt": "2026-10-01T20:25:16.067057Z",
+        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "confidence": "high",
+          "scope": "Repository selection and duplicate audit only; historical research follows."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "A major pre-Shankly figure whose career connects post-war success with the Second Division years.",
+        "sourceFiles": [],
+        "model": "gpt-6-astra",
+        "workerId": "/root/liddell_stjohn",
+        "blockers": []
+      }
+    },
+    {
+      "id": "ian-st-john-career-biography",
+      "personId": "ian-st-john",
+      "event": "Ian St John career biography",
+      "selection": "selected",
+      "status": "writing",
+      "publicationClass": "automatic-history-biography",
+      "owner": "Astra /root/liddell_stjohn",
+      "claim": {
+        "token": "next-ten-2026-10-01-ian-st-john",
+        "claimedAt": "2026-10-01T20:25:16.067057Z",
+        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "confidence": "high",
+          "scope": "Repository selection and duplicate audit only; historical research follows."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "A transformative signing and central forward in the first Shankly team.",
+        "sourceFiles": [],
+        "model": "gpt-6-astra",
+        "workerId": "/root/liddell_stjohn",
+        "blockers": []
+      }
+    },
+    {
+      "id": "ron-yeats-career-biography",
+      "personId": "ron-yeats",
+      "event": "Ron Yeats career biography",
+      "selection": "selected",
+      "status": "writing",
+      "publicationClass": "automatic-history-biography",
+      "owner": "Astra /root/yeats_hughes",
+      "claim": {
+        "token": "next-ten-2026-10-01-ron-yeats",
+        "claimedAt": "2026-10-01T20:25:16.067057Z",
+        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "confidence": "high",
+          "scope": "Repository selection and duplicate audit only; historical research follows."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "The captain and defensive foundation of Liverpool’s rise under Shankly.",
+        "sourceFiles": [],
+        "model": "gpt-6-astra",
+        "workerId": "/root/yeats_hughes",
+        "blockers": []
+      }
+    },
+    {
+      "id": "emlyn-hughes-career-biography",
+      "personId": "emlyn-hughes",
+      "event": "Emlyn Hughes career biography",
+      "selection": "selected",
+      "status": "writing",
+      "publicationClass": "automatic-history-biography",
+      "owner": "Astra /root/yeats_hughes",
+      "claim": {
+        "token": "next-ten-2026-10-01-emlyn-hughes",
+        "claimedAt": "2026-10-01T20:25:16.067057Z",
+        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "confidence": "high",
+          "scope": "Repository selection and duplicate audit only; historical research follows."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "A major captain linking Shankly’s rebuilding to Paisley’s European champions.",
+        "sourceFiles": [],
+        "model": "gpt-6-astra",
+        "workerId": "/root/yeats_hughes",
+        "blockers": []
+      }
+    },
+    {
+      "id": "tommy-smith-career-biography",
+      "personId": "tommy-smith",
+      "event": "Tommy Smith career biography",
+      "selection": "selected",
+      "status": "writing",
+      "publicationClass": "automatic-history-biography",
+      "owner": "Astra /root/smith_souness",
+      "claim": {
+        "token": "next-ten-2026-10-01-tommy-smith",
+        "claimedAt": "2026-10-01T20:25:16.067057Z",
+        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "confidence": "high",
+          "scope": "Repository selection and duplicate audit only; historical research follows."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "A long-serving defender whose career spans Liverpool’s transformation and first European Cup.",
+        "sourceFiles": [],
+        "model": "gpt-6-astra",
+        "workerId": "/root/smith_souness",
+        "blockers": []
+      }
+    },
+    {
+      "id": "graeme-souness-career-biography",
+      "personId": "graeme-souness",
+      "event": "Graeme Souness career biography",
+      "selection": "selected",
+      "status": "writing",
+      "publicationClass": "automatic-history-biography",
+      "owner": "Astra /root/smith_souness",
+      "claim": {
+        "token": "next-ten-2026-10-01-graeme-souness",
+        "claimedAt": "2026-10-01T20:25:16.067057Z",
+        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "confidence": "high",
+          "scope": "Repository selection and duplicate audit only; historical research follows."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "A central midfielder and captain of the dominant European side, with a contrasting managerial return.",
+        "sourceFiles": [],
+        "model": "gpt-6-astra",
+        "workerId": "/root/smith_souness",
         "blockers": []
       }
     }
@@ -15806,6 +16176,936 @@
         "blockers": []
       },
       "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1963-08-24-blackburn-liverpool-1963-thompson-debut",
+      "event": "Blackburn Rovers 1–2 Liverpool: Thompson debuts as Liverpool turn defeat into victory at Ewood Park",
+      "historicalEventDate": "1963-08-24",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1963-64/blackburn-liverpool-1963-thompson-debut.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Peter Thompson’s arrival is tested in a comeback win: Moran follows up his saved penalty and Callaghan wins the opening match. A substantive debut story with contemporary evidence, not a milestone alone.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/blackburn-liverpool-1963-thompson-debut-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Blackburn Rovers 1–2 Liverpool",
+        "opposition": "Blackburn Rovers",
+        "score": "1–2",
+        "editorialReason": "Peter Thompson’s arrival is tested in a comeback win: Moran follows up his saved penalty and Callaghan wins the opening match. A substantive debut story with contemporary evidence, not a milestone alone.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "docs/editorial/drafts/1960s/1963-64/research/blackburn-liverpool-1963-thompson-debut-notes.md",
+          "docs/editorial/drafts/1960s/1963-64/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1963-09-16-liverpool-wolves-1963-first-home-win",
+      "event": "Liverpool 6–0 Wolverhampton Wanderers: Six goals end Liverpool’s losing start at Anfield",
+      "historicalEventDate": "1963-09-16",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1963-64/liverpool-wolves-1963-first-home-win.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "First home win after three home defeats; Arrowsmith and Thompson open their Liverpool scoring accounts and five players score. Establishes the difficult beginning before the title challenge.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-wolves-1963-first-home-win-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 6–0 Wolverhampton Wanderers",
+        "opposition": "Wolverhampton Wanderers",
+        "score": "6–0",
+        "editorialReason": "First home win after three home defeats; Arrowsmith and Thompson open their Liverpool scoring accounts and five players score. Establishes the difficult beginning before the title challenge.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "docs/editorial/drafts/1960s/1963-64/research/liverpool-wolves-1963-first-home-win-notes.md",
+          "docs/editorial/drafts/1960s/1963-64/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1963-09-28-liverpool-everton-1963-callaghan-double",
+      "event": "Liverpool 2–1 Everton: Callaghan’s double beats the champions in the Anfield derby",
+      "historicalEventDate": "1963-09-28",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1963-64/liverpool-everton-1963-callaghan-double.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A winger’s two goals beat reigning champions and begin a five-match league winning run after the Sheffield United setback. Distinct derby and recovery story.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-everton-1963-callaghan-double-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Everton",
+        "opposition": "Everton",
+        "score": "2–1",
+        "editorialReason": "A winger’s two goals beat reigning champions and begin a five-match league winning run after the Sheffield United setback. Distinct derby and recovery story.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "docs/editorial/drafts/1960s/1963-64/research/liverpool-everton-1963-callaghan-double-notes.md",
+          "docs/editorial/drafts/1960s/1963-64/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1963-11-23-manchester-united-liverpool-1963-yeats-winner",
+      "event": "Manchester United 0–1 Liverpool: Yeats heads Liverpool to the top at Old Trafford",
+      "historicalEventDate": "1963-11-23",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1963-64/manchester-united-liverpool-1963-yeats-winner.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Yeats’s first Liverpool goal decides an away victory that puts Liverpool top for the first time this season; turning point in championship credibility.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/manchester-united-liverpool-1963-yeats-winner-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Manchester United 0–1 Liverpool",
+        "opposition": "Manchester United",
+        "score": "0–1",
+        "editorialReason": "Yeats’s first Liverpool goal decides an away victory that puts Liverpool top for the first time this season; turning point in championship credibility.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "docs/editorial/drafts/1960s/1963-64/research/manchester-united-liverpool-1963-yeats-winner-notes.md",
+          "docs/editorial/drafts/1960s/1963-64/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1963-12-26-liverpool-stoke-1963-hunt-four-goals",
+      "event": "Liverpool 6–1 Stoke City: Hunt scores four as Liverpool break away after half-time",
+      "historicalEventDate": "1963-12-26",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1963-64/liverpool-stoke-1963-hunt-four-goals.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Four second-half Hunt goals transform a level Boxing Day game; contemporary Times archive gives a supported tactical focus and illuminates leading scorer’s contribution.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-stoke-1963-hunt-four-goals-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 6–1 Stoke City",
+        "opposition": "Stoke City",
+        "score": "6–1",
+        "editorialReason": "Four second-half Hunt goals transform a level Boxing Day game; contemporary Times archive gives a supported tactical focus and illuminates leading scorer’s contribution.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "docs/editorial/drafts/1960s/1963-64/research/liverpool-stoke-1963-hunt-four-goals-notes.md",
+          "docs/editorial/drafts/1960s/1963-64/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-02-29-liverpool-swansea-1964-fa-cup-quarter-final",
+      "event": "Liverpool 1–2 Swansea Town: Swansea survive Liverpool’s fightback to end the cup run",
+      "historicalEventDate": "1964-02-29",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1963-64/liverpool-swansea-1964-fa-cup-quarter-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Second Division opposition win at Anfield: two quick first-half goals, Thompson reply and missed Moran penalty end hopes of a double. Essential setback amid championship story.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-swansea-1964-fa-cup-quarter-final-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–2 Swansea Town",
+        "opposition": "Swansea Town",
+        "score": "1–2",
+        "editorialReason": "Second Division opposition win at Anfield: two quick first-half goals, Thompson reply and missed Moran penalty end hopes of a double. Essential setback amid championship story.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "docs/editorial/drafts/1960s/1963-64/research/liverpool-swansea-1964-fa-cup-quarter-final-notes.md",
+          "docs/editorial/drafts/1960s/1963-64/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-03-27-tottenham-liverpool-1964-hunt-hat-trick",
+      "event": "Tottenham Hotspur 1–3 Liverpool: Hunt’s hat-trick launches Liverpool’s winning Easter",
+      "historicalEventDate": "1964-03-27",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1963-64/tottenham-liverpool-1964-hunt-hat-trick.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Away hat-trick at major title rivals begins the three-win Easter period and reverses the previous season’s severe White Hart Lane defeat; meaningful run-in contest.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/tottenham-liverpool-1964-hunt-hat-trick-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Tottenham Hotspur 1–3 Liverpool",
+        "opposition": "Tottenham Hotspur",
+        "score": "1–3",
+        "editorialReason": "Away hat-trick at major title rivals begins the three-win Easter period and reverses the previous season’s severe White Hart Lane defeat; meaningful run-in contest.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "docs/editorial/drafts/1960s/1963-64/research/tottenham-liverpool-1964-hunt-hat-trick-notes.md",
+          "docs/editorial/drafts/1960s/1963-64/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-04-04-liverpool-manchester-united-1964-arrowsmith-double",
+      "event": "Liverpool 3–0 Manchester United: Arrowsmith strikes twice as Liverpool pull clear of United",
+      "historicalEventDate": "1964-04-04",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1963-64/liverpool-manchester-united-1964-arrowsmith-double.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Victory over eventual runners-up makes five consecutive wins and opens a five-point margin over United, showing Arrowsmith’s emergence in the decisive run.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-manchester-united-1964-arrowsmith-double-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–0 Manchester United",
+        "opposition": "Manchester United",
+        "score": "3–0",
+        "editorialReason": "Victory over eventual runners-up makes five consecutive wins and opens a five-point margin over United, showing Arrowsmith’s emergence in the decisive run.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "docs/editorial/drafts/1960s/1963-64/research/liverpool-manchester-united-1964-arrowsmith-double-notes.md",
+          "docs/editorial/drafts/1960s/1963-64/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-04-18-liverpool-arsenal-1964-title-secured",
+      "event": "Liverpool 5–0 Arsenal: Five goals against Arsenal secure Shankly’s first league title",
+      "historicalEventDate": "1964-04-18",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1963-64/liverpool-arsenal-1964-title-secured.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Championship clincher with three games left, five goals and penalty incidents at both ends; culmination of promotion-to-title transformation.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-arsenal-1964-title-secured-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1963-64/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
+        }
+      ],
+      "researchStatus": "verified",
+      "matchProduction": {
+        "batchId": "1960s-1963-64",
+        "season": "1963-64",
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–0 Arsenal",
+        "opposition": "Arsenal",
+        "score": "5–0",
+        "editorialReason": "Championship clincher with three games left, five goals and penalty incidents at both ends; culmination of promotion-to-title transformation.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+          "docs/editorial/drafts/1960s/1963-64/research/liverpool-arsenal-1964-title-secured-notes.md",
+          "docs/editorial/drafts/1960s/1963-64/research/independent-review.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-08-15-liverpool-west-ham-1964-charity-shield",
+      "event": "Liverpool 2–2 West Ham United: West Ham share the Shield after Liverpool twice lead",
+      "historicalEventDate": "1964-08-15",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1964-08-15",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1964-65/liverpool-west-ham-1964-charity-shield.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The champions begin with a shared trophy, twice surrendering the lead; Arrowsmith’s injury brings Chisnall into Liverpool’s recorded first substitution.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–2 West Ham United",
+        "opposition": "West Ham United",
+        "score": "2–2",
+        "editorialReason": "The champions begin with a shared trophy, twice surrendering the lead; Arrowsmith’s injury brings Chisnall into Liverpool’s recorded first substitution.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-08-17-kr-reykjavik-liverpool-1964-european-debut",
+      "event": "KR Reykjavík 0–5 Liverpool: Wallace opens Liverpool’s European account in Reykjavík",
+      "historicalEventDate": "1964-08-17",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1964-08-17",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1964-65/kr-reykjavik-liverpool-1964-european-debut.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The first European match is a distinct away-debut story, including Wallace’s first goal and Chisnall’s first Liverpool goal. The already completed home return will be reused, not rewritten.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "KR Reykjavík 0–5 Liverpool",
+        "opposition": "KR Reykjavík",
+        "score": "0–5",
+        "editorialReason": "The first European match is a distinct away-debut story, including Wallace’s first goal and Chisnall’s first Liverpool goal. The already completed home return will be reused, not rewritten.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-08-22-liverpool-arsenal-1964-first-match-of-the-day",
+      "event": "Liverpool 3–2 Arsenal: Wallace wins the first Match of the Day after Arsenal fight back",
+      "historicalEventDate": "1964-08-22",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1964-08-22",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1964-65/liverpool-arsenal-1964-first-match-of-the-day.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A late winner after a two-goal lead disappears makes a substantial opening league report, alongside the independently verifiable first BBC Match of the Day broadcast.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–2 Arsenal",
+        "opposition": "Arsenal",
+        "score": "3–2",
+        "editorialReason": "A late winner after a two-goal lead disappears makes a substantial opening league report, alongside the independently verifiable first BBC Match of the Day broadcast.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-09-19-liverpool-everton-1964-four-goal-defeat",
+      "event": "Liverpool 0–4 Everton: Everton put four past the champions at Anfield",
+      "historicalEventDate": "1964-09-19",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1964-09-19",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1964-65/liverpool-everton-1964-four-goal-defeat.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The derby exposes the poor league start and leaves Liverpool twenty-first; the season’s cup triumph must not obscure the failed title defence.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–4 Everton",
+        "opposition": "Everton",
+        "score": "0–4",
+        "editorialReason": "The derby exposes the poor league start and leaves Liverpool twenty-first; the season’s cup triumph must not obscure the failed title defence.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-11-25-liverpool-anderlecht-1964-red-shorts",
+      "event": "Liverpool 3–0 Anderlecht: Liverpool change into red shorts and take control against Anderlecht",
+      "historicalEventDate": "1964-11-25",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1964-11-25",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1964-65/liverpool-anderlecht-1964-red-shorts.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A convincing European step against the Belgian champions accompanies an important kit change, precisely distinguished from the later introduction of red socks.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–0 Anderlecht",
+        "opposition": "Anderlecht",
+        "score": "3–0",
+        "editorialReason": "A convincing European step against the Belgian champions accompanies an important kit change, precisely distinguished from the later introduction of red socks.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1964-12-05-burnley-liverpool-1964-hunt-hat-trick",
+      "event": "Burnley 1–5 Liverpool: Hunt’s hat-trick ends Liverpool’s wait for an away league win",
+      "historicalEventDate": "1964-12-05",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1964-12-05",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1964-65/burnley-liverpool-1964-hunt-hat-trick.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The first away league win comes through four late goals, with Strong and Lawler also scoring their first Liverpool goals: a substantive league recovery and changing-team story.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Burnley 1–5 Liverpool",
+        "opposition": "Burnley",
+        "score": "1–5",
+        "editorialReason": "The first away league win comes through four late goals, with Strong and Lawler also scoring their first Liverpool goals: a substantive league recovery and changing-team story.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-03-10-liverpool-leicester-1965-fa-cup-replay",
+      "event": "Liverpool 1–0 Leicester City: Hunt breaks Leicester’s resistance to put Liverpool in the semi-final",
+      "historicalEventDate": "1965-03-10",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-03-10",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A narrow replay victory removes the side who ended the 1963 cup run and had beaten Liverpool twice in this league season, completing the quarter-final stage of the first successful FA Cup campaign.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–0 Leicester City",
+        "opposition": "Leicester City",
+        "score": "1–0",
+        "editorialReason": "A narrow replay victory removes the side who ended the 1963 cup run and had beaten Liverpool twice in this league season, completing the quarter-final stage of the first successful FA Cup campaign.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-03-24-liverpool-cologne-1965-rotterdam-toss",
+      "event": "Liverpool 2–2 FC Cologne: Liverpool survive Cologne’s comeback and a deciding toss in Rotterdam",
+      "historicalEventDate": "1965-03-24",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-03-24",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The exceptional third match of a goalless two-leg tie brings a lost two-goal lead, extra time and a toss to decide advancement. The first two legs are essential context rather than separate duplicate-shaped reports.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–2 FC Cologne",
+        "opposition": "FC Cologne",
+        "score": "2–2",
+        "editorialReason": "The exceptional third match of a goalless two-leg tie brings a lost two-goal lead, extra time and a toss to decide advancement. The first two legs are essential context rather than separate duplicate-shaped reports.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-03-27-liverpool-chelsea-1965-fa-cup-semi-final",
+      "event": "Liverpool 2–0 Chelsea: Thompson and Stevenson take Liverpool back to Wembley",
+      "historicalEventDate": "1965-03-27",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-03-27",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Only three days after Rotterdam, Liverpool win a domestic semi-final through two second-half goals and reach their first FA Cup final since 1950.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–0 Chelsea",
+        "opposition": "Chelsea",
+        "score": "2–0",
+        "editorialReason": "Only three days after Rotterdam, Liverpool win a domestic semi-final through two second-half goals and reach their first FA Cup final since 1950.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-05-01-liverpool-leeds-1965-first-fa-cup",
+      "event": "Liverpool 2–1 Leeds United: St John wins Liverpool’s first FA Cup at Wembley",
+      "historicalEventDate": "1965-05-01",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-05-01",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The defining first FA Cup triumph after 73 years needs a full match reconstruction, including Byrne’s injury, the goalless ninety minutes and all three extra-time goals.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Leeds United",
+        "opposition": "Leeds United",
+        "score": "2–1",
+        "editorialReason": "The defining first FA Cup triumph after 73 years needs a full match reconstruction, including Byrne’s injury, the goalless ninety minutes and all three extra-time goals.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-05-04-liverpool-inter-1965-anfield-semi-final",
+      "event": "Liverpool 3–1 Inter Milan: Liverpool beat Inter three days after Wembley",
+      "historicalEventDate": "1965-05-04",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-05-04",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The European champions visit immediately after the first FA Cup victory; Liverpool build a two-goal first-leg advantage in a major European match deserving its own account.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–1 Inter Milan",
+        "opposition": "Inter Milan",
+        "score": "3–1",
+        "editorialReason": "The European champions visit immediately after the first FA Cup victory; Liverpool build a two-goal first-leg advantage in a major European match deserving its own account.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1965-05-12-inter-liverpool-1965-san-siro-semi-final",
+      "event": "Inter Milan 3–0 Liverpool: Inter overturn Liverpool’s lead at San Siro",
+      "historicalEventDate": "1965-05-12",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1965-05-12",
+        "claimedAt": "2026-10-01T20:13:15.447869Z",
+        "baseCommit": "ec9ae535c0d44732e9309b13484494528410ab2a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The season ends with reversal of the Anfield advantage. Reconstruct verified goals and disputed incidents with clearly scoped sources, without asserting referee motives or corruption.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1964-65",
+        "season": "1964-65",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Inter Milan 3–0 Liverpool",
+        "opposition": "Inter Milan",
+        "score": "3–0",
+        "editorialReason": "The season ends with reversal of the Anfield advantage. Reconstruct verified goals and disputed incidents with clearly scoped sources, without asserting referee motives or corruption.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1964-65/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -15885,30 +17185,53 @@
     {
       "id": "1960s-1963-64",
       "season": "1963-64",
-      "stage": "season_research",
+      "stage": "checkpointed",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
-      "sourceNote": null,
-      "selectedRowIds": [],
+      "sourceNote": "docs/editorial/drafts/1960s/1963-64/research/season-research.md",
+      "selectedRowIds": [
+        "match-1963-08-24-blackburn-liverpool-1963-thompson-debut",
+        "match-1963-09-16-liverpool-wolves-1963-first-home-win",
+        "match-1963-09-28-liverpool-everton-1963-callaghan-double",
+        "match-1963-11-23-manchester-united-liverpool-1963-yeats-winner",
+        "match-1963-12-26-liverpool-stoke-1963-hunt-four-goals",
+        "match-1964-02-29-liverpool-swansea-1964-fa-cup-quarter-final",
+        "match-1964-03-27-tottenham-liverpool-1964-hunt-hat-trick",
+        "match-1964-04-04-liverpool-manchester-united-1964-arrowsmith-double",
+        "match-1964-04-18-liverpool-arsenal-1964-title-secured"
+      ],
       "reusedPaths": [],
-      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+      "notes": "9 finished new match reports; retrieved-source claim audits and independent Astra review completed. Awaiting Denny review; no approval/publication/schedule.",
+      "nextStage": null
     },
     {
       "id": "1960s-1964-65",
       "season": "1964-65",
-      "stage": "not_started",
+      "stage": "drafting",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
-      "sourceNote": null,
-      "selectedRowIds": [],
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/season-research.md",
+      "selectedRowIds": [
+        "match-1964-08-15-liverpool-west-ham-1964-charity-shield",
+        "match-1964-08-17-kr-reykjavik-liverpool-1964-european-debut",
+        "match-1964-08-22-liverpool-arsenal-1964-first-match-of-the-day",
+        "match-1964-09-19-liverpool-everton-1964-four-goal-defeat",
+        "match-1964-11-25-liverpool-anderlecht-1964-red-shorts",
+        "match-1964-12-05-burnley-liverpool-1964-hunt-hat-trick",
+        "match-1965-03-10-liverpool-leicester-1965-fa-cup-replay",
+        "match-1965-03-24-liverpool-cologne-1965-rotterdam-toss",
+        "match-1965-03-27-liverpool-chelsea-1965-fa-cup-semi-final",
+        "match-1965-05-01-liverpool-leeds-1965-first-fa-cup",
+        "match-1965-05-04-liverpool-inter-1965-anfield-semi-final",
+        "match-1965-05-12-inter-liverpool-1965-san-siro-semi-final"
+      ],
       "reusedPaths": [
         "content/archive/liverpool/anfield-first-european-match-reykjavik-1964.md"
       ],
       "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+      "nextStage": "Complete retrieved-source match reports and their factual audits."
     },
     {
       "id": "1960s-1965-66",

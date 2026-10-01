@@ -33,6 +33,11 @@ const matchProductionSchema = z.object({
   sourceFiles: z.array(text).min(1), model: z.literal('gpt-6-astra'),
   workerId: text, blockers: z.array(text),
 }).strict();
+const biographyProductionSchema = z.object({
+  completed: z.boolean(), reviewRequired: z.boolean(), editorialReason: text,
+  sourceFiles: z.array(text), model: z.literal('gpt-6-astra'), workerId: text,
+  blockers: z.array(text),
+}).strict();
 const entrySchema = z.object({
   id: text, event: text, historicalEventDate: z.iso.date(), featuredWeek: z.iso.date(),
   selection: z.enum(['selected', 'provisional', 'alternative']),
@@ -48,6 +53,7 @@ const entrySchema = z.object({
   researchStatus: z.enum(['not_rechecked', 'needs_research', 'verified']),
   matchRecovery: matchRecoverySchema.optional(),
   matchProduction: matchProductionSchema.optional(),
+  biographyProduction: biographyProductionSchema.optional(),
   migration: z.object({
     personId: text, completed: z.boolean(), reviewRequired: z.boolean(),
     sourceFiles: z.array(text), sourceManuscript: z.object({
@@ -101,6 +107,26 @@ export function validateCalendar(calendar, root = process.cwd()) {
         assert.ok(fs.existsSync(path.join(root, file)), `${e.id}: missing source file ${file}`);
       }
       if (e.status === 'approved') assert.equal(e.migration.blockers.length, 0, `${e.id}: unresolved approval blockers`);
+    }
+    if (e.biographyProduction) {
+      const production = e.biographyProduction;
+      assert.ok(e.personId && !e.migration, `${e.id}: new biography must have one canonical identity and no recovery provenance`);
+      for (const file of production.sourceFiles) {
+        assert.ok(file.startsWith('docs/editorial/drafts/') && !file.split('/').includes('..'), `${e.id}: unsafe biography source path`);
+        assert.ok(fs.existsSync(path.join(root, file)), `${e.id}: missing biography source ${file}`);
+      }
+      if (['ready_for_review', 'approved', 'publication_pending', 'published'].includes(e.status)) {
+        assert.equal(production.completed, true, `${e.id}: finished biography requires completed evidence`);
+        assert.ok(production.sourceFiles.length >= 2, `${e.id}: research and audit records required`);
+        assert.equal(e.researchStatus, 'verified', `${e.id}: finished biography requires factual audit`);
+      }
+      if (!isPublicStatus(e.status)) {
+        assert.equal(e.publishedDestination, null, `${e.id}: unpublished biography has public destination`);
+        if (e.status !== 'approved') {
+          assert.equal(e.approval, null, `${e.id}: new biography has unapproved approval`);
+          assert.equal(production.reviewRequired, true, `${e.id}: new biography requires review`);
+        }
+      }
     }
     const personId = e.personId ?? e.migration?.personId;
     if (personId) {

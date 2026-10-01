@@ -44,7 +44,8 @@ export function getEditorialReviewQueue(kind, root = process.cwd()) {
   let entries;
   if (kind === 'biographies') {
     const published = getArchiveFeatures(root);
-    entries = rows.filter(r => r.migration && r.status !== 'published').map(r => {
+    entries = rows.filter(r => (r.migration || r.biographyProduction) && r.status !== 'published').map(r => {
+      const evidence = r.biographyProduction ?? r.migration;
       const personId = r.personId ?? r.migration.personId;
       const data = r.draftPath ? matter(fs.readFileSync(path.join(root, r.draftPath), 'utf8')).data : {};
       // A transfer/appointment or focused player article is not a career biography.
@@ -59,11 +60,12 @@ export function getEditorialReviewQueue(kind, root = process.cwd()) {
         id: r.id, personId, subject: entities.get(personId).label,
         articleType: data.articleType ?? null, title: data.title ?? r.event,
         slug: data.slug ?? null, canonicalDraftPath: r.draftPath, draftPath: r.draftPath,
-        status: r.status, completed: r.migration.completed,
+        status: r.status, completed: evidence.completed,
         unpublished: publishedPaths.length === 0, alreadyPublishedElsewhere: publishedPaths.length > 0,
-        publishedPaths, approval: r.approval, blockers: [...r.migration.blockers,
+        publishedPaths, approval: r.approval, blockers: [...evidence.blockers,
           ...draftBlockers(root, r.draftPath), ...(publishedPaths.length ? ['Career biography already published in the repository.'] : [])],
-        recoveryStatus: r.migration.completed ? 'RECOVERED' : 'NOT LOCATED',
+        recoveryStatus: r.biographyProduction ? 'NEW PRODUCTION' : r.migration.completed ? 'RECOVERED' : 'NOT LOCATED',
+        newlyResearched: Boolean(r.biographyProduction),
       };
     }).sort(biographyOrder);
   } else {
