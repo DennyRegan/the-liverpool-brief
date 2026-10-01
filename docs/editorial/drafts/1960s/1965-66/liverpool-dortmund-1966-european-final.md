@@ -13,14 +13,14 @@ managerIds: ["bill-shankly"]
 oppositionIds: ["borussia-dortmund"]
 competitionIds: ["european-cup-winners-cup"]
 locationIds: ["hampden-park"]
-playerIds: ["roger-hunt", "peter-thompson", "tommy-lawrence", "ron-yeats", "ian-st-john", "reinhard-libuda"]
+playerIds: ["roger-hunt", "peter-thompson", "tommy-lawrence", "ron-yeats", "ian-st-john", "reinhard-libuda", "sigfried-held"]
 ---
 
 Liverpool’s first European final ended with a desperate attempt to clear and a 2–1 defeat. Early in the second period of extra time at Hampden Park on 5 May 1966, Reinhard Libuda sent the ball towards the exposed goal; it struck the woodwork and went in off Ron Yeats as the captain tried to keep it out.
 
 Borussia Dortmund had beaten the newly crowned English champions. Liverpool had won the league against Chelsea five days earlier and were seeking a second major trophy, having eliminated Juventus, Standard Liège, Honvéd and Celtic on the way to Glasgow. Dortmund had removed the holders, West Ham, in the other semi-final.
 
-The first half finished goalless. Liverpool had an early effort cleared from the line by Theo Redder, while Tommy Lawrence was required to stop Dortmund’s attacks, including a shot from Held. Hans Tilkowski’s goal remained intact at the other end.
+The first half finished goalless. Liverpool had an early effort cleared from the line by Theo Redder, while Tommy Lawrence was required to stop Dortmund’s attacks, including a shot from Sigfried Held. Hans Tilkowski’s goal remained intact at the other end.
 
 After the interval Liverpool continued to seek the breakthrough, but Dortmund scored first. Held combined with Lothar Emmerich, continued his run and met the return delivery with a powerful finish past Lawrence. Just over an hour had gone, and Liverpool were behind.
 

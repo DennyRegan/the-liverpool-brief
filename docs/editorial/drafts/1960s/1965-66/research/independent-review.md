@@ -2,9 +2,9 @@
 
 Actual configured model: `gpt-6-astra`. Worker: `/root/astra_decade_checker`. Retrieval date: 1 October 2026. Parent released this season after completed remote checkpoint `4dea3fcb70cdcea8beba7521f57d7eaf262c87d7`. Both main and the editorial branch were fetched; latest main calendar and repository editorial instructions were consulted. The calendar remains the sole production-status authority.
 
-## Verdict: PENDING FINAL REVIEW
+## Verdict: PASS — independent factual review complete
 
-This is an incremental independent baseline and source ledger. No new manuscript or companion audit has yet been checked. No factual PASS, approval, publication permission or scheduling is asserted. Earlier season reviews remain preserved.
+All twelve selected manuscripts and all twelve companion source/claim audits have now been read in full and checked against the independently retrieved evidence below. Required factual corrections have been applied and rechecked. PASS is limited to historical accuracy and evidence-bounded editorial treatment; it is not Denny approval, publication permission or scheduling. Earlier season reviews remain preserved. The incremental checkpoints below retain the chronology of retrieval and are superseded by the final check at the end.
 
 ## Independently retrieved baseline
 
@@ -132,3 +132,29 @@ All twelve manuscripts have now been read in full; no companion audit was yet pr
 | https://datencenter.dfb.de/datencenter/personen/sigfried-held/spieler | German Football Association; search extraction plus direct page | High: exact full name **Sigfried Held**, born7 August1942. BVB final XI/scorer list independently agrees. Root informed for canonical identity; writer asked to remove incorrect ‘Siegfried’. |
 
 Substantive second-pass findings: Leeds same-XI and games-in-hand claims check out; Chelsea attack follows scoped club retrospective and Tambling memory; Honvéd two headers follow inspected clipping with no invented masthead; title-day mathematics independently proves champions with one league game remaining; final retains formal scorer/minute uncertainty while describing corroborated physical sequence. Remaining requests are Held spelling and removal of categorical Celtic deflection, since original reporting is uncertain. Juventus leg-order comparison has been corrected in the latest manuscript. Pending audit checks and final re-read prevent a PASS at this point.
+
+
+## Final manuscript and audit review — 1 October 2026
+
+Actual configured model: `gpt-6-astra`; workerId: `/root/astra_decade_checker`. Both remote main and the working editorial branch were refreshed immediately before this final save; the latest main calendar was read. Parent's remote selection claim remains `c7a1876e4ca0509cf3034277bed18885ff16f56a`. No calendar, registry, manuscript, public content, approval or scheduling was changed by this checker.
+
+| Historical date | Finished report | Independent verdict and principal scope |
+| --- | --- | --- |
+| 1965-08-14 | Manchester United 2–2 Liverpool, Charity Shield | PASS: four-goal sequence, injury replacement, documented moves and shared trophy; wrong database substitute rejected. |
+| 1965-09-06 | West Ham 1–5 Liverpool | PASS: three Hunt goals, first-half sequence, venue and early-season consequence; no unsupported goal mechanics. |
+| 1965-09-15 | Liverpool 1–1 West Ham | PASS: first Liverpool league substitute and first substitute scorer, Lawler replacement and late header; Dickie's account remains explicitly retrospective. |
+| 1965-09-25 | Liverpool 5–0 Everton | PASS: contemporary goal construction, actual positional role, correct half-time substitutions and prior derby context. |
+| 1965-10-13 | Liverpool 2–0 Juventus | PASS: both goals checked against the original Mirror clipping; aggregate and away-leg deficit correct. Italy comparison no longer implies the Inter legs had the same order. |
+| 1965-11-17 | Liverpool 5–2 Blackburn | PASS: all seven goals in order, penalty, fourth straight league win and table lead; bounded factual treatment where action evidence is thin. |
+| 1965-12-28 | Leeds 0–1 Liverpool | PASS: return fixture, unchanged Liverpool XI, Milne winner and games-in-hand context; unbeaten-run arithmetic checked. |
+| 1966-01-22 | Liverpool 1–2 Chelsea, FA Cup | PASS: third-round exit, early exchange and winning move; Tambling's memory attributed and conflicting winner minute omitted. |
+| 1966-03-08 | Liverpool 2–0 Honvéd | PASS: both headers checked against the inspected Russell clipping, aggregate and Lawler's European tally; masthead/date not invented. |
+| 1966-04-19 | Liverpool 2–0 Celtic | PASS: aggregate turnaround, Smith free kick, injured Strong header and late disallowance; no categorical deflection or offside adjudication. |
+| 1966-04-30 | Liverpool 2–1 Chelsea | PASS: three-goal sequence, title-day action, championship mathematics and one league match remaining. |
+| 1966-05-05 | Liverpool 1–2 Borussia Dortmund after extra time | PASS: match identity, second-half exchange, later Hunt recollection and physical winner; official Sigfried Held spelling, no false resolution of scorer/minute conflict. |
+
+The final audit pass covered all twelve companion files, including the Dortmund, derby and Honvéd notes read separately after the combined output was truncated. Final re-reading confirmed the Celtic manuscript now says its free kick “beat Simpson”, with the contemporary swerve/deflection uncertainty preserved in its audit, and the final uses **Sigfried Held**. The writer correctly distinguishes personally inspected Juventus/Honvéd clippings from the independently inspected Celtic clipping. Search-index retrieval, blocked direct pages and retrospective accounts are not represented as contemporary originals.
+
+Source scope and confidence are adequate for the claims retained. The shared September newspaper page supports bounded paraphrases across the two applicable reports; the final's overlapping sources support separate limited derivations rather than a long reproduction. British English, natural prose, chronology and the distinction between reported action and later memory were checked. No invented quotes, unsupported tactical reconstruction, crowd psychology, motives or certain referee errors remain. Exact attendance and conflicting scorer/minute claims have been omitted where they would exceed the evidence.
+
+Limitations remain explicit: databases can share errors; contemporary reports can disagree; cropped clippings lack complete provenance; neither writer nor checker claims to have watched match footage. This PASS does not settle the Dortmund winning-goal attribution, the Celtic offside decision, or exact disputed minutes. It confirms that the finished prose does not require those uncertainties to be settled. Technical schema, routing and production validation remain the root coordinator's separate responsibility. The season is ready for the parent's unpublished historical-stock checkpoint, with no authority inferred to publish or proceed to the next season before the parent's release.

@@ -22,7 +22,7 @@ Liverpool had lost the first leg of the Cup Winners’ Cup semi-final 1–0 at C
 
 The first half produced pressure but no breakthrough. Simpson kept Liverpool out, and Tommy Smith struck the crossbar with a long shot. At the interval Celtic still held their one-goal aggregate advantage.
 
-Smith removed it just after the hour. His free-kick was deflected past Simpson, putting Liverpool ahead on the night and level across the tie. Having threatened from distance before the break, he had now supplied the first goal.
+Smith removed it just after the hour. His free-kick beat Simpson, putting Liverpool ahead on the night and level across the tie. Having threatened from distance before the break, he had now supplied the first goal.
 
 Strong then made the decisive contribution. A leg injury had restricted him, but when Callaghan delivered from the right he climbed to head the ball beyond Simpson. Liverpool were 2–0 up and, for the first time in the semi-final, ahead on aggregate.
 
