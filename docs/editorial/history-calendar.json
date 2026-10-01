@@ -9864,7 +9864,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T20:57:05.004093Z",
+  "updatedAt": "2026-10-01T21:04:35.478378Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -17176,6 +17176,436 @@
         "workerId": "/root/astra_decade_writer",
         "blockers": []
       }
+    },
+    {
+      "id": "match-1966-08-13-everton-liverpool-1966-charity-shield",
+      "event": "Everton 0–1 Liverpool: Hunt settles the all-Merseyside Charity Shield",
+      "historicalEventDate": "1966-08-13",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-08-13",
+        "claimedAt": "2026-10-01T21:04:35.478378Z",
+        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The league champions and FA Cup holders meet after England’s World Cup victory; Hunt supplies the only goal and Liverpool’s sole trophy of this campaign.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1966-67",
+        "season": "1966-67",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Everton 0–1 Liverpool",
+        "opposition": "Everton",
+        "score": "0–1",
+        "editorialReason": "The league champions and FA Cup holders meet after England’s World Cup victory; Hunt supplies the only goal and Liverpool’s sole trophy of this campaign.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-08-27-everton-liverpool-1966-ball-double",
+      "event": "Everton 3–1 Liverpool: Ball’s double overturns Liverpool’s Goodison advantage",
+      "historicalEventDate": "1966-08-27",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-08-27",
+        "claimedAt": "2026-10-01T21:04:35.478378Z",
+        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Two weeks after the Shield, the league derby reverses the result and leaves the champions with two defeats in their first three league games; Ball’s arrival changes the immediate rivalry.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1966-67",
+        "season": "1966-67",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Everton 3–1 Liverpool",
+        "opposition": "Everton",
+        "score": "3–1",
+        "editorialReason": "Two weeks after the Shield, the league derby reverses the result and leaves the champions with two defeats in their first three league games; Ball’s arrival changes the immediate rivalry.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-10-19-liverpool-petrolul-1966-brussels-play-off",
+      "event": "Liverpool 2–0 Petrolul Ploiești: Liverpool settle the Petrolul tie in Brussels",
+      "historicalEventDate": "1966-10-19",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-10-19",
+        "claimedAt": "2026-10-01T21:04:35.478378Z",
+        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A neutral third match is needed after the first two legs finish 3–3 on aggregate; first-half goals settle an unexpectedly extended opening European tie.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1966-67",
+        "season": "1966-67",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–0 Petrolul Ploiești",
+        "opposition": "Petrolul Ploiești",
+        "score": "2–0",
+        "editorialReason": "A neutral third match is needed after the first two legs finish 3–3 on aggregate; first-half goals settle an unexpectedly extended opening European tie.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-11-19-liverpool-leeds-1966-five-goals",
+      "event": "Liverpool 5–0 Leeds United: Liverpool’s second-half rush overwhelms Leeds",
+      "historicalEventDate": "1966-11-19",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-11-19",
+        "claimedAt": "2026-10-01T21:04:35.478378Z",
+        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The fourth consecutive league win completes a 13–0 November sequence and brings Liverpool within one point of the leaders; a major recovery from their uneven start.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1966-67",
+        "season": "1966-67",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–0 Leeds United",
+        "opposition": "Leeds United",
+        "score": "5–0",
+        "editorialReason": "The fourth consecutive league win completes a 13–0 November sequence and brings Liverpool within one point of the leaders; a major recovery from their uneven start.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-12-07-ajax-liverpool-1966-fog-defeat",
+      "event": "Ajax 5–1 Liverpool: Ajax leave Liverpool four goals adrift in Amsterdam",
+      "historicalEventDate": "1966-12-07",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-12-07",
+        "claimedAt": "2026-10-01T21:04:35.478378Z",
+        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The season’s defining European reverse demands its own reconstruction, with a four-goal first half and a young Cruyff among the scorers; fog is verified but is not a substitute for Ajax’s performance.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1966-67",
+        "season": "1966-67",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Ajax 5–1 Liverpool",
+        "opposition": "Ajax",
+        "score": "5–1",
+        "editorialReason": "The season’s defining European reverse demands its own reconstruction, with a four-goal first half and a young Cruyff among the scorers; fog is verified but is not a substitute for Ajax’s performance.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-12-14-liverpool-ajax-1966-european-cup-exit",
+      "event": "Liverpool 2–2 Ajax: Cruyff and Hunt trade goals as Ajax end Liverpool’s European Cup",
+      "historicalEventDate": "1966-12-14",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-12-14",
+        "claimedAt": "2026-10-01T21:04:35.478378Z",
+        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The return independently demonstrates Ajax’s quality at Anfield and closes Liverpool’s European campaign; the alternating two-goal contributions are distinct from the fog game.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1966-67",
+        "season": "1966-67",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–2 Ajax",
+        "opposition": "Ajax",
+        "score": "2–2",
+        "editorialReason": "The return independently demonstrates Ajax’s quality at Anfield and closes Liverpool’s European campaign; the alternating two-goal contributions are distinct from the fog game.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1966-12-26-liverpool-chelsea-1966-boxing-day-lead",
+      "event": "Liverpool 2–1 Chelsea: Liverpool complete the Christmas double and go top",
+      "historicalEventDate": "1966-12-26",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1966-12-26",
+        "claimedAt": "2026-10-01T21:04:35.478378Z",
+        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "A second 2–1 win over Chelsea in three days puts Liverpool first on goal average, showing the domestic challenge remained viable after European elimination.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1966-67",
+        "season": "1966-67",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Chelsea",
+        "opposition": "Chelsea",
+        "score": "2–1",
+        "editorialReason": "A second 2–1 win over Chelsea in three days puts Liverpool first on goal average, showing the domestic challenge remained viable after European elimination.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1967-03-04-liverpool-stoke-1967-hughes-debut",
+      "event": "Liverpool 2–1 Stoke City: Hughes begins as Liverpool return to the top",
+      "historicalEventDate": "1967-03-04",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1967-03-04",
+        "claimedAt": "2026-10-01T21:04:35.478378Z",
+        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "An important new player makes his debut while Lawler and Hunt secure what proves Liverpool’s last return to first place this season.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1966-67",
+        "season": "1966-67",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Stoke City",
+        "opposition": "Stoke City",
+        "score": "2–1",
+        "editorialReason": "An important new player makes his debut while Lawler and Hunt secure what proves Liverpool’s last return to first place this season.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1967-03-11-everton-liverpool-1967-fa-cup-screens",
+      "event": "Everton 1–0 Liverpool: Ball ends Liverpool’s cup run before two Merseyside crowds",
+      "historicalEventDate": "1967-03-11",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1967-03-11",
+        "claimedAt": "2026-10-01T21:04:35.478378Z",
+        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The fifth-round defeat ends the cup campaign and is watched at both Goodison and on screens at Anfield; match consequence and broadcasting arrangement both matter.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1966-67",
+        "season": "1966-67",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Everton 1–0 Liverpool",
+        "opposition": "Everton",
+        "score": "1–0",
+        "editorialReason": "The fifth-round defeat ends the cup campaign and is watched at both Goodison and on screens at Anfield; match consequence and broadcasting arrangement both matter.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1967-05-13-liverpool-blackpool-1967-season-finale",
+      "event": "Liverpool 1–3 Blackpool: Blackpool end Liverpool’s fading title defence with three",
+      "historicalEventDate": "1967-05-13",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "claim": {
+        "token": "1960s-production-1967-05-13",
+        "claimedAt": "2026-10-01T21:04:35.478378Z",
+        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "The relegated bottom club wins at Anfield to close Liverpool’s slide to fifth; Milne’s last appearance and Wilson’s only appearance give the final fixture additional squad significance.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1966-67",
+        "season": "1966-67",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–3 Blackpool",
+        "opposition": "Blackpool",
+        "score": "1–3",
+        "editorialReason": "The relegated bottom club wins at Anfield to close Liverpool’s slide to fifth; Milne’s last appearance and Wilson’s only appearance give the final fixture additional squad significance.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_decade_writer",
+        "blockers": []
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -17332,15 +17762,26 @@
     {
       "id": "1960s-1966-67",
       "season": "1966-67",
-      "stage": "season_research",
+      "stage": "drafting",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
-      "sourceNote": null,
-      "selectedRowIds": [],
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+      "selectedRowIds": [
+        "match-1966-08-13-everton-liverpool-1966-charity-shield",
+        "match-1966-08-27-everton-liverpool-1966-ball-double",
+        "match-1966-10-19-liverpool-petrolul-1966-brussels-play-off",
+        "match-1966-11-19-liverpool-leeds-1966-five-goals",
+        "match-1966-12-07-ajax-liverpool-1966-fog-defeat",
+        "match-1966-12-14-liverpool-ajax-1966-european-cup-exit",
+        "match-1966-12-26-liverpool-chelsea-1966-boxing-day-lead",
+        "match-1967-03-04-liverpool-stoke-1967-hughes-debut",
+        "match-1967-03-11-everton-liverpool-1967-fa-cup-screens",
+        "match-1967-05-13-liverpool-blackpool-1967-season-finale"
+      ],
       "reusedPaths": [],
       "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+      "nextStage": "Complete retrieved-source match reports and their factual audits."
     },
     {
       "id": "1960s-1967-68",

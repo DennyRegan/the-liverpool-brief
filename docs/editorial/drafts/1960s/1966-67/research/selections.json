@@ -1,0 +1,449 @@
+{
+  "season": "1966-67",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_decade_writer",
+  "retrievedOn": "2026-10-01",
+  "purpose": "Research handoff only. Canonical calendar is sole status authority.",
+  "matches": [
+    {
+      "date": "1966-08-13",
+      "home": "Everton",
+      "away": "Liverpool",
+      "score": "0–1",
+      "opposition": "Everton",
+      "competition": "Charity Shield",
+      "title": "Hunt settles the all-Merseyside Charity Shield",
+      "slug": "everton-liverpool-1966-charity-shield",
+      "editorialReason": "The league champions and FA Cup holders meet after England’s World Cup victory; Hunt supplies the only goal and Liverpool’s sole trophy of this campaign.",
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1966-charity-shield-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/349",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, scoring sequence and team records; detailed action and assists require separate scoped corroboration.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/8",
+          "provider": "LFChistory",
+          "claims": "Entire 52-match chronology, league movement and full cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/8",
+          "provider": "LFChistory",
+          "claims": "Final table: fifth, 51 points, 19 wins, 13 draws, ten defeats, 64–47.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/scouse-double-why-1966-remembered-more-world-cup-liverpool?amp=1",
+          "provider": "Liverpool FC",
+          "claims": "Trophy parade and World Cup context; does not provide detailed match action.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-08-27",
+      "home": "Everton",
+      "away": "Liverpool",
+      "score": "3–1",
+      "opposition": "Everton",
+      "competition": "First Division",
+      "title": "Ball’s double overturns Liverpool’s Goodison advantage",
+      "slug": "everton-liverpool-1966-ball-double",
+      "editorialReason": "Two weeks after the Shield, the league derby reverses the result and leaves the champions with two defeats in their first three league games; Ball’s arrival changes the immediate rivalry.",
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1966-ball-double-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/352",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, scoring sequence and team records; detailed action and assists require separate scoped corroboration.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/8",
+          "provider": "LFChistory",
+          "claims": "Entire 52-match chronology, league movement and full cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/8",
+          "provider": "LFChistory",
+          "claims": "Final table: fifth, 51 points, 19 wins, 13 draws, ten defeats, 64–47.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table and home/away totals.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-10-19",
+      "home": "Liverpool",
+      "away": "Petrolul Ploiești",
+      "score": "2–0",
+      "opposition": "Petrolul Ploiești",
+      "competition": "European Cup",
+      "title": "Liverpool settle the Petrolul tie in Brussels",
+      "slug": "liverpool-petrolul-1966-brussels-play-off",
+      "editorialReason": "A neutral third match is needed after the first two legs finish 3–3 on aggregate; first-half goals settle an unexpectedly extended opening European tie.",
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/liverpool-petrolul-1966-brussels-play-off-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/364",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, scoring sequence and team records; detailed action and assists require separate scoped corroboration.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/8",
+          "provider": "LFChistory",
+          "claims": "Entire 52-match chronology, league movement and full cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/8",
+          "provider": "LFChistory",
+          "claims": "Final table: fifth, 51 points, 19 wins, 13 draws, ten defeats, 64–47.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196667.html",
+          "provider": "RSSSF",
+          "claims": "Independent three-match Petrolul route and Brussels play-off.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-11-19",
+      "home": "Liverpool",
+      "away": "Leeds United",
+      "score": "5–0",
+      "opposition": "Leeds United",
+      "competition": "First Division",
+      "title": "Liverpool’s second-half rush overwhelms Leeds",
+      "slug": "liverpool-leeds-1966-five-goals",
+      "editorialReason": "The fourth consecutive league win completes a 13–0 November sequence and brings Liverpool within one point of the leaders; a major recovery from their uneven start.",
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/liverpool-leeds-1966-five-goals-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/369",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, scoring sequence and team records; detailed action and assists require separate scoped corroboration.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/8",
+          "provider": "LFChistory",
+          "claims": "Entire 52-match chronology, league movement and full cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/8",
+          "provider": "LFChistory",
+          "claims": "Final table: fifth, 51 points, 19 wins, 13 draws, ten defeats, 64–47.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-leeds-united-19-november-1966-79037/",
+          "provider": "11v11",
+          "claims": "Independent identity, result and scorers; attendance conflicts with LFChistory.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-12-07",
+      "home": "Ajax",
+      "away": "Liverpool",
+      "score": "5–1",
+      "opposition": "Ajax",
+      "competition": "European Cup",
+      "title": "Ajax leave Liverpool four goals adrift in Amsterdam",
+      "slug": "ajax-liverpool-1966-fog-defeat",
+      "editorialReason": "The season’s defining European reverse demands its own reconstruction, with a four-goal first half and a young Cruyff among the scorers; fog is verified but is not a substitute for Ajax’s performance.",
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/ajax-liverpool-1966-fog-defeat-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/372",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, scoring sequence and team records; detailed action and assists require separate scoped corroboration.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/8",
+          "provider": "LFChistory",
+          "claims": "Entire 52-match chronology, league movement and full cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/8",
+          "provider": "LFChistory",
+          "claims": "Final table: fifth, 51 points, 19 wins, 13 draws, ten defeats, 64–47.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.ajax.nl/artikelen/on-this-day-ajax-domineert-in-befaamde-mistwedstrijd",
+          "provider": "Ajax",
+          "claims": "Official account of date, venue, fog, result and Ajax scorers; text, not watched footage.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196667.html",
+          "provider": "RSSSF",
+          "claims": "Independent tie results and aggregate.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-12-14",
+      "home": "Liverpool",
+      "away": "Ajax",
+      "score": "2–2",
+      "opposition": "Ajax",
+      "competition": "European Cup",
+      "title": "Cruyff and Hunt trade goals as Ajax end Liverpool’s European Cup",
+      "slug": "liverpool-ajax-1966-european-cup-exit",
+      "editorialReason": "The return independently demonstrates Ajax’s quality at Anfield and closes Liverpool’s European campaign; the alternating two-goal contributions are distinct from the fog game.",
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/liverpool-ajax-1966-european-cup-exit-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/374",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, scoring sequence and team records; detailed action and assists require separate scoped corroboration.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/8",
+          "provider": "LFChistory",
+          "claims": "Entire 52-match chronology, league movement and full cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/8",
+          "provider": "LFChistory",
+          "claims": "Final table: fifth, 51 points, 19 wins, 13 draws, ten defeats, 64–47.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.ajax.nl/artikelen/highlights-liverpool-ajax-1966-gelijkspel-op-anfield",
+          "provider": "Ajax",
+          "claims": "Official text confirms Anfield draw and qualification; video has not been watched.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-12-26",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "score": "2–1",
+      "opposition": "Chelsea",
+      "competition": "First Division",
+      "title": "Liverpool complete the Christmas double and go top",
+      "slug": "liverpool-chelsea-1966-boxing-day-lead",
+      "editorialReason": "A second 2–1 win over Chelsea in three days puts Liverpool first on goal average, showing the domestic challenge remained viable after European elimination.",
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/liverpool-chelsea-1966-boxing-day-lead-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/376",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, scoring sequence and team records; detailed action and assists require separate scoped corroboration.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/8",
+          "provider": "LFChistory",
+          "claims": "Entire 52-match chronology, league movement and full cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/8",
+          "provider": "LFChistory",
+          "claims": "Final table: fifth, 51 points, 19 wins, 13 draws, ten defeats, 64–47.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table and home/away totals.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1967-03-04",
+      "home": "Liverpool",
+      "away": "Stoke City",
+      "score": "2–1",
+      "opposition": "Stoke City",
+      "competition": "First Division",
+      "title": "Hughes begins as Liverpool return to the top",
+      "slug": "liverpool-stoke-1967-hughes-debut",
+      "editorialReason": "An important new player makes his debut while Lawler and Hunt secure what proves Liverpool’s last return to first place this season.",
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/liverpool-stoke-1967-hughes-debut-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/388",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, scoring sequence and team records; detailed action and assists require separate scoped corroboration.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/8",
+          "provider": "LFChistory",
+          "claims": "Entire 52-match chronology, league movement and full cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/8",
+          "provider": "LFChistory",
+          "claims": "Final table: fifth, 51 points, 19 wins, 13 draws, ten defeats, 64–47.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/liverpools-greatest-no17-emlyn-hughes",
+          "provider": "Liverpool FC",
+          "claims": "February arrival from Blackpool for £65,000 and later career context; no exact debut date in this article.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1967-03-11",
+      "home": "Everton",
+      "away": "Liverpool",
+      "score": "1–0",
+      "opposition": "Everton",
+      "competition": "FA Cup",
+      "title": "Ball ends Liverpool’s cup run before two Merseyside crowds",
+      "slug": "everton-liverpool-1967-fa-cup-screens",
+      "editorialReason": "The fifth-round defeat ends the cup campaign and is watched at both Goodison and on screens at Anfield; match consequence and broadcasting arrangement both matter.",
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1967-fa-cup-screens-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/389",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, scoring sequence and team records; detailed action and assists require separate scoped corroboration.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/8",
+          "provider": "LFChistory",
+          "claims": "Entire 52-match chronology, league movement and full cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/8",
+          "provider": "LFChistory",
+          "claims": "Final table: fifth, 51 points, 19 wins, 13 draws, ten defeats, 64–47.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/announcements/288508-from-eastenders-to-the-grand-national-10-unusual-lfc-kick-off-times",
+          "provider": "Liverpool FC",
+          "claims": "7pm kick-off, Goodison match and Anfield screening, Ball winner; reject broad claim that live televised football did not yet exist.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1967-05-13",
+      "home": "Liverpool",
+      "away": "Blackpool",
+      "score": "1–3",
+      "opposition": "Blackpool",
+      "competition": "First Division",
+      "title": "Blackpool end Liverpool’s fading title defence with three",
+      "slug": "liverpool-blackpool-1967-season-finale",
+      "editorialReason": "The relegated bottom club wins at Anfield to close Liverpool’s slide to fifth; Milne’s last appearance and Wilson’s only appearance give the final fixture additional squad significance.",
+      "sourceNote": "docs/editorial/drafts/1960s/1966-67/research/liverpool-blackpool-1967-season-finale-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/400",
+          "provider": "LFChistory",
+          "claims": "Match identity, score, scoring sequence and team records; detailed action and assists require separate scoped corroboration.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/8",
+          "provider": "LFChistory",
+          "claims": "Entire 52-match chronology, league movement and full cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/8",
+          "provider": "LFChistory",
+          "claims": "Final table: fifth, 51 points, 19 wins, 13 draws, ten defeats, 64–47.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/dave-wilson",
+          "provider": "Liverpool FC",
+          "claims": "Only appearance as substitute for Milne in final match; source wrongly calls fixture away, so venue claim rejected.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/gordon-milne",
+          "provider": "Liverpool FC",
+          "claims": "Milne’s Liverpool career and May1967 Blackpool move.",
+          "confidence": "High"
+        }
+      ]
+    }
+  ]
+}
