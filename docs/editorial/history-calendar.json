@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T20:27:16.359451Z",
+  "updatedAt": "2026-10-01T20:41:33.143924Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -16742,15 +16742,11 @@
       "event": "Liverpool 3–4 Leeds United: Seven-goal Shield final and Cantona hat-trick; a significant defeat in the season's only final.",
       "historicalEventDate": "1992-08-08",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "10e8c10b-7ec3-4f26-b141-8eec3fb9bd45",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/liverpool-leeds-1992-cantona-charity-shield.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -16760,27 +16756,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/liverpool-leeds-1992-cantona-charity-shield-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–4 Leeds United",
         "opposition": "Leeds United",
         "score": "3–4",
         "editorialReason": "Seven-goal Shield final and Cantona hat-trick; a significant defeat in the season's only final.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/liverpool-leeds-1992-cantona-charity-shield-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -16788,15 +16795,11 @@
       "event": "Nottingham Forest 1–0 Liverpool: Liverpool's first Premier League fixture, establishing the new competition's starting point.",
       "historicalEventDate": "1992-08-16",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "48ec6a9e-08d7-4093-9157-ea02d4b033e5",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/nottingham-forest-liverpool-1992-premier-league-begins.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -16806,27 +16809,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/nottingham-forest-liverpool-1992-premier-league-begins-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Nottingham Forest 1–0 Liverpool",
         "opposition": "Nottingham Forest",
         "score": "1–0",
         "editorialReason": "Liverpool's first Premier League fixture, establishing the new competition's starting point.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/nottingham-forest-liverpool-1992-premier-league-begins-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -16834,15 +16848,11 @@
       "event": "Liverpool 6–1 Apollon Limassol: Rush's four goals and club European scoring record.",
       "historicalEventDate": "1992-09-16",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "05bf6044-46b0-43fb-a299-d295ca4020a1",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/liverpool-apollon-1992-rush-four-european-record.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -16852,27 +16862,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/liverpool-apollon-1992-rush-four-european-record-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 6–1 Apollon Limassol",
         "opposition": "Apollon Limassol",
         "score": "6–1",
         "editorialReason": "Rush's four goals and club European scoring record.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/liverpool-apollon-1992-rush-four-european-record-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -16880,15 +16901,11 @@
       "event": "Aston Villa 4–2 Liverpool: Newly transferred Saunders immediately scores twice against Liverpool; revealing early Souness-era defeat.",
       "historicalEventDate": "1992-09-19",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "20e4f3fe-66a8-44d0-aeaa-f1ab3195ed5e",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/aston-villa-liverpool-1992-saunders-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -16898,27 +16915,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/aston-villa-liverpool-1992-saunders-double-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Aston Villa 4–2 Liverpool",
         "opposition": "Aston Villa",
         "score": "4–2",
         "editorialReason": "Newly transferred Saunders immediately scores twice against Liverpool; revealing early Souness-era defeat.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/aston-villa-liverpool-1992-saunders-double-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -16926,15 +16954,11 @@
       "event": "Liverpool 4–4 Chesterfield: Liverpool recover a three-goal deficit against fourth-tier opposition; exceptional cup tie.",
       "historicalEventDate": "1992-09-22",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "f23f7d92-f046-4cee-92ca-bbd6842cf933",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/liverpool-chesterfield-1992-four-goal-recovery.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -16944,27 +16968,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/liverpool-chesterfield-1992-four-goal-recovery-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 4–4 Chesterfield",
         "opposition": "Chesterfield",
         "score": "4–4",
         "editorialReason": "Liverpool recover a three-goal deficit against fourth-tier opposition; exceptional cup tie.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/liverpool-chesterfield-1992-four-goal-recovery-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -16972,15 +17007,11 @@
       "event": "Manchester United 2–2 Liverpool: Rush becomes Liverpool's all-time leading scorer; two-goal lead lost at Old Trafford.",
       "historicalEventDate": "1992-10-18",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "25e4fce5-53b8-4520-9516-7a6a7b9bcb9e",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/manchester-united-liverpool-1992-rush-record.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -16990,27 +17021,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/manchester-united-liverpool-1992-rush-record-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Manchester United 2–2 Liverpool",
         "opposition": "Manchester United",
         "score": "2–2",
         "editorialReason": "Rush becomes Liverpool's all-time leading scorer; two-goal lead lost at Old Trafford.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/manchester-united-liverpool-1992-rush-record-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -17018,15 +17060,11 @@
       "event": "Liverpool 0–2 Spartak Moscow: Decisive European elimination; covers away-leg context without duplicating the tie.",
       "historicalEventDate": "1992-11-04",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "7299ca8d-7dfd-4998-b85d-163801fe02ea",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/liverpool-spartak-moscow-1992-european-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17036,27 +17074,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/liverpool-spartak-moscow-1992-european-exit-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 0–2 Spartak Moscow",
         "opposition": "Spartak Moscow",
         "score": "0–2",
         "editorialReason": "Decisive European elimination; covers away-leg context without duplicating the tie.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/liverpool-spartak-moscow-1992-european-exit-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -17064,15 +17113,11 @@
       "event": "Liverpool 0–2 Bolton Wanderers: FA Cup holders eliminated at Anfield by lower-division opposition.",
       "historicalEventDate": "1993-01-13",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "c4ea47b9-9f63-4e73-ba8f-45ee1bd1715e",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/liverpool-bolton-1993-fa-cup-holders-beaten.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17082,27 +17127,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/liverpool-bolton-1993-fa-cup-holders-beaten-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 0–2 Bolton Wanderers",
         "opposition": "Bolton Wanderers",
         "score": "0–2",
         "editorialReason": "FA Cup holders eliminated at Anfield by lower-division opposition.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/liverpool-bolton-1993-fa-cup-holders-beaten-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -17110,15 +17166,11 @@
       "event": "Liverpool 1–0 Everton: Last-minute derby winner during Liverpool's recovery from the bottom half.",
       "historicalEventDate": "1993-03-20",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "2662957e-d4b2-4dcc-9b9a-0f6dc7eb18da",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/liverpool-everton-1993-rosenthal-late-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17128,27 +17180,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/liverpool-everton-1993-rosenthal-late-winner-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–0 Everton",
         "opposition": "Everton",
         "score": "1–0",
         "editorialReason": "Last-minute derby winner during Liverpool's recovery from the bottom half.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/liverpool-everton-1993-rosenthal-late-winner-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -17156,15 +17219,11 @@
       "event": "Liverpool 4–0 Coventry City: Liverpool's first Premier League hat-trick, Walters' exceptional individual performance.",
       "historicalEventDate": "1993-04-17",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "ae7aabd4-46b0-41ca-8b15-e137a4aede1b",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/liverpool-coventry-1993-walters-hat-trick.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17174,27 +17233,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/liverpool-coventry-1993-walters-hat-trick-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 4–0 Coventry City",
         "opposition": "Coventry City",
         "score": "4–0",
         "editorialReason": "Liverpool's first Premier League hat-trick, Walters' exceptional individual performance.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/liverpool-coventry-1993-walters-hat-trick-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -17202,15 +17272,11 @@
       "event": "Liverpool 6–2 Tottenham Hotspur: Six-goal final-day victory secures sixth after a much worse winter position; distinct season conclusion.",
       "historicalEventDate": "1993-05-08",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "a359a57e-276f-459a-ab2d-c44a2d6a569d",
-        "claimedAt": "2026-10-01T20:27:16.359451Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/1992-93/liverpool-tottenham-1993-six-goal-finale.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17220,27 +17286,38 @@
           "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/liverpool-tottenham-1993-six-goal-finale-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-1992-93",
         "season": "1992-93",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 6–2 Tottenham Hotspur",
         "opposition": "Tottenham Hotspur",
         "score": "6–2",
         "editorialReason": "Six-goal final-day victory secures sixth after a much worse winter position; distinct season conclusion.",
         "sourceFiles": [
-          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+          "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "docs/editorial/drafts/match-production/1992-93/research/liverpool-tottenham-1993-six-goal-finale-notes.md",
+          "docs/editorial/drafts/match-production/1992-93/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_history_production",
-        "blockers": [
-          "Match manuscript and finished factual audit pending."
-        ]
+        "blockers": []
       }
     }
   ],
@@ -17437,11 +17514,11 @@
     {
       "id": "remaining-1992-93",
       "season": "1992-93",
-      "stage": "match_research",
+      "stage": "checkpointed",
       "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_history_production",
-      "sourceNote": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+      "sourceNote": "docs/editorial/drafts/match-production/1992-93/research/season-research.md",
       "selectedRowIds": [
         "match-1992-08-08-liverpool-leeds-1992-cantona-charity-shield",
         "match-1992-08-16-nottingham-forest-liverpool-1992-premier-league-begins",
@@ -17456,8 +17533,597 @@
         "match-1993-05-08-liverpool-tottenham-1993-six-goal-finale"
       ],
       "reusedPaths": [],
-      "notes": "First genuine located programme gap, confirmed across all accessible repository branches. Earlier 1992-93 provenance remains NOT LOCATED. Newly commissioned production through 2024-25; no publication or approval.",
-      "nextStage": "Complete and fact-check all eleven researched selections, then validate and push season checkpoint."
+      "notes": "11 new complete reports; finished existing coverage reused. Unpublished, no approval or schedule. Finished source notes checked before technical validation and remote checkpoint.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-1990-91",
+      "season": "1990-91",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "content/archive/liverpool/liverpool-manchester-united-1990-beardsley-hat-trick.md",
+        "content/archive/liverpool/everton-liverpool-1990-opening-streak.md",
+        "content/archive/liverpool/everton-liverpool-1991-four-four.md",
+        "content/archive/liverpool/liverpool-arsenal-1991-title-race.md",
+        "content/archive/liverpool/derby-liverpool-1991-seven-goals.md",
+        "content/archive/liverpool/leeds-liverpool-1991-five-four.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-1991-92",
+      "season": "1991-92",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/liverpool-everton-1991-burrows-derby.md",
+        "content/archive/liverpool/saunders-four-kuusysi-european-return-1991.md",
+        "docs/editorial/drafts/liverpool-auxerre-1991-anfield-comeback.md",
+        "docs/editorial/drafts/liverpool-ipswich-1992-extra-time-replay.md",
+        "docs/editorial/drafts/liverpool-genoa-1992-european-exit.md",
+        "docs/editorial/drafts/liverpool-portsmouth-1992-whelan-rescue.md",
+        "docs/editorial/drafts/liverpool-portsmouth-1992-penalty-replay.md",
+        "docs/editorial/drafts/liverpool-manchester-united-1992-title-ended.md",
+        "docs/editorial/drafts/liverpool-sunderland-1992-fa-cup-final.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-1993-94",
+      "season": "1993-94",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/1993-94/swindon-liverpool-1993-mcmanaman.md",
+        "content/archive/liverpool/fowler-scoring-debut-fulham-1993.md",
+        "content/archive/liverpool/fowler-five-fulham-1993.md",
+        "docs/editorial/drafts/match-recovery/1993-94/liverpool-southampton-1993-fowler-hat-trick.md",
+        "docs/editorial/drafts/match-recovery/1993-94/tottenham-liverpool-1993-three-three.md",
+        "docs/editorial/drafts/match-recovery/1993-94/liverpool-manchester-united-1994-comeback.md",
+        "docs/editorial/drafts/match-recovery/1993-94/liverpool-bristol-city-1994-souness-final-match.md",
+        "docs/editorial/drafts/match-recovery/1993-94/liverpool-everton-1994-fowler-rush.md",
+        "docs/editorial/drafts/match-recovery/1993-94/liverpool-norwich-1994-standing-kop.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-1994-95",
+      "season": "1994-95",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/1994-08-20-crystal-palace-liverpool.md",
+        "docs/editorial/drafts/1994-08-28-liverpool-arsenal.md",
+        "docs/editorial/drafts/1994-11-30-blackburn-rovers-liverpool.md",
+        "docs/editorial/drafts/1995-01-11-liverpool-arsenal.md",
+        "docs/editorial/drafts/1995-03-08-crystal-palace-liverpool.md",
+        "docs/editorial/drafts/1995-03-11-liverpool-tottenham-hotspur.md",
+        "docs/editorial/drafts/1995-03-19-liverpool-manchester-united.md",
+        "docs/editorial/drafts/1995-04-02-liverpool-bolton-wanderers.md",
+        "docs/editorial/drafts/1995-05-14-liverpool-blackburn-rovers.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-1995-96",
+      "season": "1995-96",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "content/archive/liverpool/1995-08-19-liverpool-sheffield-wednesday.md",
+        "content/archive/liverpool/1995-09-23-liverpool-bolton-wanderers.md",
+        "content/archive/liverpool/1995-10-01-manchester-united-liverpool.md",
+        "content/archive/liverpool/1995-10-28-liverpool-manchester-city.md",
+        "content/archive/liverpool/1995-12-17-liverpool-manchester-united.md",
+        "content/archive/liverpool/1995-12-23-liverpool-arsenal.md",
+        "content/archive/liverpool/1996-01-20-liverpool-leeds-united.md",
+        "content/archive/liverpool/1996-02-24-blackburn-rovers-liverpool.md",
+        "content/archive/liverpool/1996-03-31-liverpool-aston-villa.md",
+        "content/archive/liverpool/liverpool-4-3-newcastle-1996.md",
+        "content/archive/liverpool/1996-05-11-liverpool-manchester-united.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-1996-97",
+      "season": "1996-97",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/1996-97/middlesbrough-liverpool-1996-08-17.md",
+        "docs/editorial/drafts/match-recovery/1996-97/liverpool-chelsea-1996-09-21.md",
+        "docs/editorial/drafts/match-recovery/1996-97/liverpool-sion-1996-10-31.md",
+        "docs/editorial/drafts/match-recovery/1996-97/liverpool-arsenal-1996-11-27.md",
+        "docs/editorial/drafts/match-recovery/1996-97/liverpool-middlesbrough-1996-12-14.md",
+        "docs/editorial/drafts/match-recovery/1996-97/chelsea-liverpool-1997-01-26.md",
+        "docs/editorial/drafts/match-recovery/1996-97/liverpool-newcastle-1997-03-10.md",
+        "docs/editorial/drafts/match-recovery/1996-97/liverpool-brann-1997-03-20.md",
+        "docs/editorial/drafts/match-recovery/1996-97/arsenal-liverpool-1997-03-24.md",
+        "docs/editorial/drafts/match-recovery/1996-97/liverpool-manchester-united-1997-04-19.md",
+        "docs/editorial/drafts/match-recovery/1996-97/liverpool-paris-saint-germain-1997-04-24.md",
+        "docs/editorial/drafts/match-recovery/1996-97/wimbledon-liverpool-1997-05-06.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-1997-98",
+      "season": "1997-98",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/1997-98/celtic-liverpool-1997-mcmanaman-equaliser.md",
+        "docs/editorial/drafts/match-recovery/1997-98/sheffield-wednesday-liverpool-1998-owen-hat-trick.md",
+        "docs/editorial/drafts/match-recovery/1997-98/manchester-united-liverpool-1998-ten-men-hold-on.md",
+        "docs/editorial/drafts/match-recovery/1997-98/liverpool-arsenal-1998-ince-double.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-1998-99",
+      "season": "1998-99",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/1998-99/newcastle-liverpool-1998-owen-first-half-hat-trick.md",
+        "docs/editorial/drafts/match-recovery/1998-99/liverpool-tottenham-1998-evans-final-match.md",
+        "docs/editorial/drafts/match-recovery/1998-99/manchester-united-liverpool-1999-late-fa-cup-defeat.md",
+        "docs/editorial/drafts/match-recovery/1998-99/liverpool-everton-1999-fowler-double-gerrard-clears.md",
+        "docs/editorial/drafts/match-recovery/1998-99/liverpool-manchester-united-1999-ince-equaliser.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-1999-00",
+      "season": "1999-00",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/1999-00/liverpool-everton-1999-three-red-cards.md",
+        "docs/editorial/drafts/match-recovery/1999-00/liverpool-west-ham-1999-camara-winner.md",
+        "docs/editorial/drafts/match-recovery/1999-00/liverpool-sheffield-wednesday-1999-gerrard-first-goal.md",
+        "docs/editorial/drafts/match-recovery/1999-00/arsenal-liverpool-2000-camara-highbury.md",
+        "docs/editorial/drafts/match-recovery/1999-00/bradford-liverpool-2000-final-day-defeat.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-2000-01",
+      "season": "2000-01",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/2000-01/manchester-united-liverpool-2000-murphy-free-kick.md",
+        "docs/editorial/drafts/match-recovery/2000-01/liverpool-crystal-palace-2001-five-goal-semi-final.md",
+        "docs/editorial/drafts/match-recovery/2000-01/roma-liverpool-2001-owen-double.md",
+        "docs/editorial/drafts/match-recovery/2000-01/liverpool-birmingham-2001-league-cup-final.md",
+        "docs/editorial/drafts/match-recovery/2000-01/everton-liverpool-2001-mcallister-derby-winner.md",
+        "docs/editorial/drafts/match-recovery/2000-01/liverpool-barcelona-2001-mcallister-semi-final.md",
+        "docs/editorial/drafts/match-recovery/2000-01/liverpool-arsenal-2001-owen-fa-cup-final.md",
+        "docs/editorial/drafts/match-recovery/2000-01/liverpool-alaves-2001-uefa-cup-treble.md",
+        "docs/editorial/drafts/match-recovery/2000-01/charlton-liverpool-2001-champions-league-place.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-2001-02",
+      "season": "2001-02",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/2001-02/liverpool-bayern-2001-super-cup.md",
+        "content/archive/liverpool/liverpool-grimsby-2001-league-cup-exit.md",
+        "docs/editorial/drafts/match-recovery/2001-02/liverpool-manchester-united-2001-riise-owen.md",
+        "docs/editorial/drafts/match-recovery/2001-02/manchester-united-liverpool-2002-murphy-winner.md",
+        "docs/editorial/drafts/match-recovery/2001-02/liverpool-roma-2002-houllier-return.md",
+        "docs/editorial/drafts/match-recovery/2001-02/leverkusen-liverpool-2002-quarter-final-exit.md",
+        "docs/editorial/drafts/match-recovery/2001-02/liverpool-ipswich-2002-second-place.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-2002-03",
+      "season": "2002-03",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/2002-03/manchester-city-liverpool-2002-owen-hat-trick.md",
+        "docs/editorial/drafts/match-recovery/2002-03/basel-liverpool-2002-comeback-elimination.md",
+        "docs/editorial/drafts/match-recovery/2002-03/liverpool-sheffield-united-2003-extra-time-final.md",
+        "docs/editorial/drafts/match-recovery/2002-03/liverpool-manchester-united-2003-league-cup-final.md",
+        "docs/editorial/drafts/match-recovery/2002-03/liverpool-celtic-2003-anfield-exit.md",
+        "docs/editorial/drafts/match-recovery/2002-03/chelsea-liverpool-2003-champions-league-place.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-2003-04",
+      "season": "2003-04",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/2003-04/everton-liverpool-2003-owen-kewell.md",
+        "docs/editorial/drafts/match-recovery/2003-04/chelsea-liverpool-2004-cheyrou.md",
+        "docs/editorial/drafts/match-recovery/2003-04/marseille-liverpool-2004-uefa-cup-exit.md",
+        "docs/editorial/drafts/match-recovery/2003-04/arsenal-liverpool-2004-henry-hat-trick.md",
+        "docs/editorial/drafts/match-recovery/2003-04/manchester-united-liverpool-2004-murphy-penalty.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-2004-05",
+      "season": "2004-05",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "content/archive/liverpool/liverpool-monaco-champions-league-2004.md",
+        "docs/editorial/drafts/match-recovery/2004-05/liverpool-arsenal-2004-mellor-winner.md",
+        "docs/editorial/drafts/match-recovery/2004-05/liverpool-olympiacos-2004-gerrard.md",
+        "docs/editorial/drafts/match-recovery/2004-05/burnley-liverpool-2005-fa-cup-exit.md",
+        "docs/editorial/drafts/match-recovery/2004-05/chelsea-liverpool-2005-league-cup-final.md",
+        "docs/editorial/drafts/match-recovery/2004-05/liverpool-juventus-2005-first-leg.md",
+        "docs/editorial/drafts/match-recovery/2004-05/juventus-liverpool-2005-second-leg.md",
+        "docs/editorial/drafts/match-recovery/2004-05/liverpool-chelsea-2005-champions-league-semi-final.md",
+        "docs/editorial/drafts/match-recovery/2004-05/istanbul-2005-champions-league-final.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-2005-06",
+      "season": "2005-06",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md",
+        "docs/editorial/drafts/match-recovery/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md",
+        "docs/editorial/drafts/match-recovery/2005-06/luton-liverpool-2006-sinama-pongolle-alonso-comeback.md",
+        "docs/editorial/drafts/match-recovery/2005-06/liverpool-manchester-united-2006-crouch-cup-header.md",
+        "docs/editorial/drafts/match-recovery/2005-06/liverpool-benfica-2006-european-defence-ends.md",
+        "docs/editorial/drafts/match-recovery/2005-06/chelsea-liverpool-2006-riise-garcia-semi-final.md",
+        "docs/editorial/drafts/match-recovery/2005-06/liverpool-west-ham-2006-gerrard-fa-cup-final.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-2006-07",
+      "season": "2006-07",
+      "stage": "checkpointed",
+      "owner": "Existing programme reuse / Archive editor",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/remaining-match-collection-2026-10-01.md",
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/match-recovery/2006-07/everton-liverpool-2006-johnson-derby-defeat.md",
+        "content/archive/liverpool/alonso-own-half-newcastle-2006.md",
+        "docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-baptista-four-cup-exit.md",
+        "docs/editorial/drafts/match-recovery/2006-07/barcelona-liverpool-2007-bellamy-riise-camp-nou.md",
+        "docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md",
+        "docs/editorial/drafts/match-recovery/2006-07/psv-liverpool-2007-three-away-goals.md",
+        "docs/editorial/drafts/match-recovery/2006-07/liverpool-chelsea-2007-agger-reina-shoot-out.md",
+        "docs/editorial/drafts/match-recovery/2006-07/milan-liverpool-2007-inzaghi-athens-final.md"
+      ],
+      "notes": "Existing completed commissioned selection retained; no new article, no rewriting and no fresh factual recheck. Original author and source limitations remain in each manuscript.",
+      "nextStage": null
+    },
+    {
+      "id": "remaining-2007-08",
+      "season": "2007-08",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2007_08",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "content/archive/liverpool/torres-first-hat-trick-reading-2007.md"
+      ],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2008-09",
+      "season": "2008-09",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2008_2013",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "docs/editorial/drafts/torres-goodison-derby-double-2008.md"
+      ],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2009-10",
+      "season": "2009-10",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2008_2013",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "content/archive/liverpool/torres-babel-six-goals-hull-2009.md"
+      ],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2010-11",
+      "season": "2010-11",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2008_2013",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2011-12",
+      "season": "2011-12",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2008_2013",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2012-13",
+      "season": "2012-13",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2008_2013",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2013-14",
+      "season": "2013-14",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2013_2019",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2014-15",
+      "season": "2014-15",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2013_2019",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2015-16",
+      "season": "2015-16",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2013_2019",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2016-17",
+      "season": "2016-17",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2013_2019",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "content/archive/liverpool/henderson-chelsea-winner-2016.md"
+      ],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2017-18",
+      "season": "2017-18",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2013_2019",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2018-19",
+      "season": "2018-19",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2013_2019",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2019-20",
+      "season": "2019-20",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2019_2025",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [
+        "content/archive/liverpool/liverpool-salzburg-2019-salah-winner.md"
+      ],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2020-21",
+      "season": "2020-21",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2019_2025",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2021-22",
+      "season": "2021-22",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2019_2025",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2022-23",
+      "season": "2022-23",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2019_2025",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2023-24",
+      "season": "2023-24",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2019_2025",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
+    },
+    {
+      "id": "remaining-2024-25",
+      "season": "2024-25",
+      "stage": "not_started",
+      "owner": "Archive editor / remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_2019_2025",
+      "sourceNote": null,
+      "selectedRowIds": [],
+      "reusedPaths": [],
+      "notes": "Finite commissioned unpublished collection through 2024–25. Broad season research and evidence-based selection must precede claims and writing; preserve existing finished reports.",
+      "nextStage": "Complete broad season research and register significant uncovered matches before drafting."
     }
   ],
   "automaticHistory": {

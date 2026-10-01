@@ -44,10 +44,14 @@ Every URL below was retrieved successfully through web research, including full 
 
 ## Additional retrieved checks
 
-- **High:** https://www.footballsite.co.uk/Statistics/CommunityShield/1992-93CharityShield.htm — independently retrieved result, scorers, venue and qualifying trophies for the Shield.
+- **Medium:** https://www.footballsite.co.uk/Statistics/CommunityShield/1992-93CharityShield.htm — retrieved search result supplies the result, scorers, venue and qualifying trophies for the Shield. Subsequent full-open failed; used only for the visible table's narrow record cross-check.
 - **High:** https://www.liverpoolfc.com/news/day-ian-rush-becomes-liverpools-record-goalscorer — official retrospective verifies 287th goal at Old Trafford broke Hunt's record; distinguish this from September's European record.
 - **High:** https://www.liverpoolfc.com/info/mark-walters — official Coventry hat-trick confirmation. Other career details are outside these reports' scope.
 - **High:** https://www.lfchistory.net/stats/player-hattricks — full chronological list supports Coventry as Liverpool's first Premier League hat-trick.
 - **Medium:** https://www.thisisanfield.com/2022/10/changing-of-football-forever-when-liverpool-played-forest-in-first-ever-premier-league-match/ — retrieved James interview/retrospective supports debut and first live Sky Premier League broadcast. Its supplied substitute lists conflict with primary reporting; those lists are not used.
+- **High for the Apollon passage only:** https://www.liverpoolfc.com/news/first-team/295068-salah-rush-fowler-suarez-four-goal-lfc-heroes — official confirmation of four goals, European total 19 and Hunt's 17. The article contains unrelated historical errors and repeats the 285 all-competition figure; those are not adopted.
+- **High for the narrow match identity:** https://www.bwfc.co.uk/club/history — opponent's official history confirms Liverpool replay victory, McGinlay/Walker and third-tier status. Its inconsistent retrospective division nomenclature is not copied.
+- **High:** https://www.11v11.com/matches/liverpool-v-tottenham-hotspur-08-may-1993-21240/ — independent scoring register confirms Nethercott own goal, Rush's 300th competitive goal, immediate fifth/final sixth distinction. The notes contain a stray Steve/Stuart typo, while the goal table correctly identifies Stuart. Tottenham substitutions differ from LFChistory; omit them.
+- **High:** https://www.liverpoolfc.com/info/ronny-rosenthal — official corroboration of late 1993 derby winner; no other biographical prose needed.
 
-Source retrieval and selection are complete; manuscript drafting, claim-by-claim final checks, metadata validation and durable Git checkpoint are distinct subsequent stages.
+Eleven manuscripts and their claim-by-claim notes are now saved. Independent Astra review corrected player first names, timing precision, a transfer interval and Spartak away-goals arithmetic before completion. The coordinator separately validates metadata and makes the durable Git checkpoint; no publication or approval is recorded here.

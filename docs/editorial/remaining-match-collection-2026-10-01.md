@@ -4,7 +4,7 @@ This dated audit accompanies Denny’s commissioned unpublished production throu
 
 The first genuinely incomplete located programme is **1992–93**. The earlier batch remains **NOT LOCATED**. Six 1990–91 reports are public; the eight 1991–92 selections are complete unpublished manuscripts alongside the public Kuusysi report. Migration recovered the finished 1993–94 through 2006–07 selections. These are reused without rewriting.
 
-All 55 accessible remote refs were inspected by exact historical date, including 1,154 distinct relevant Markdown blobs. No additional unidentified match manuscripts from 1990–91 through 2024–25 were found beyond the reconciled current collection. Originals, provenance, source notes and duplicate draft/public copies are not extra articles. The attached 1970–90 longlist is provenance outside this production period.
+All accessible remote refs were inspected by exact historical date, including 1,154 distinct relevant Markdown blobs. No additional unidentified match manuscripts from 1990–91 through 2024–25 were found beyond the reconciled current collection. Originals, provenance, source notes and duplicate draft/public copies are not extra articles. The attached 1970–90 longlist is provenance outside this production period.
 
 | Season | Published matches | Complete unpublished | In progress | Selected unwritten | Recovered finished | Coverage at start |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
