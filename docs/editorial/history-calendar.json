@@ -11114,33 +11114,37 @@
       "personId": "bill-shankly",
       "event": "Bill Shankly career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "publicationClass": "automatic-history-biography",
       "owner": "Astra /root/shankly_hunt",
-      "claim": {
-        "token": "next-ten-2026-10-01-bill-shankly",
-        "claimedAt": "2026-10-01T20:25:16.067057Z",
-        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/bill-shankly.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "notes": "Newly researched and written by gpt-6-astra /root/shankly_hunt; separate post-draft factual pass completed. Unpublished with no approval or publication slot. Conflicting evidence and excluded claims recorded in research notes.",
       "evidence": [
         {
-          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "location": "docs/editorial/drafts/biographies/bill-shankly-research-record.md",
           "confidence": "high",
-          "scope": "Repository selection and duplicate audit only; historical research follows."
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/bill-shankly-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "The manager whose rebuilding established the foundations of modern Liverpool.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/bill-shankly-research-record.md",
+          "docs/editorial/drafts/biographies/bill-shankly-factual-audit.md"
+        ],
         "model": "gpt-6-astra",
         "workerId": "/root/shankly_hunt",
         "blockers": []
@@ -11225,33 +11229,37 @@
       "personId": "joe-fagan",
       "event": "Joe Fagan career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "publicationClass": "automatic-history-biography",
       "owner": "Astra /root/klopp_fagan",
-      "claim": {
-        "token": "next-ten-2026-10-01-joe-fagan",
-        "claimedAt": "2026-10-01T20:25:16.067057Z",
-        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/joe-fagan.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "notes": "Newly researched and written by gpt-6-astra /root/klopp_fagan; separate post-draft factual pass completed. Unpublished with no approval or publication slot. Conflicting evidence and excluded claims recorded in research notes.",
       "evidence": [
         {
-          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "location": "docs/editorial/drafts/biographies/joe-fagan-research-record.md",
           "confidence": "high",
-          "scope": "Repository selection and duplicate audit only; historical research follows."
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/joe-fagan-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Boot Room continuity, the 1984 treble and a managerial career requiring careful Heysel context.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/joe-fagan-research-record.md",
+          "docs/editorial/drafts/biographies/joe-fagan-factual-audit.md"
+        ],
         "model": "gpt-6-astra",
         "workerId": "/root/klopp_fagan",
         "blockers": []
@@ -11262,33 +11270,37 @@
       "personId": "billy-liddell",
       "event": "Billy Liddell career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "publicationClass": "automatic-history-biography",
       "owner": "Astra /root/liddell_stjohn",
-      "claim": {
-        "token": "next-ten-2026-10-01-billy-liddell",
-        "claimedAt": "2026-10-01T20:25:16.067057Z",
-        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/billy-liddell.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "notes": "Newly researched and written by gpt-6-astra /root/liddell_stjohn; separate post-draft factual pass completed. Unpublished with no approval or publication slot. Conflicting evidence and excluded claims recorded in research notes.",
       "evidence": [
         {
-          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "location": "docs/editorial/drafts/biographies/billy-liddell-research-record.md",
           "confidence": "high",
-          "scope": "Repository selection and duplicate audit only; historical research follows."
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/billy-liddell-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "A major pre-Shankly figure whose career connects post-war success with the Second Division years.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/billy-liddell-research-record.md",
+          "docs/editorial/drafts/biographies/billy-liddell-factual-audit.md"
+        ],
         "model": "gpt-6-astra",
         "workerId": "/root/liddell_stjohn",
         "blockers": []
@@ -11336,33 +11348,37 @@
       "personId": "ron-yeats",
       "event": "Ron Yeats career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "publicationClass": "automatic-history-biography",
       "owner": "Astra /root/yeats_hughes",
-      "claim": {
-        "token": "next-ten-2026-10-01-ron-yeats",
-        "claimedAt": "2026-10-01T20:25:16.067057Z",
-        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/ron-yeats.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "notes": "Newly researched and written by gpt-6-astra /root/yeats_hughes; separate factual pass completed. Unpublished, no approval or publication slot. Conflicting transfer fee omitted; kit chronology and 1966 final attribution resolved in evidence.",
       "evidence": [
         {
-          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "location": "docs/editorial/drafts/biographies/ron-yeats-research-record.md",
           "confidence": "high",
-          "scope": "Repository selection and duplicate audit only; historical research follows."
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/ron-yeats-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "The captain and defensive foundation of Liverpool’s rise under Shankly.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/ron-yeats-research-record.md",
+          "docs/editorial/drafts/biographies/ron-yeats-factual-audit.md"
+        ],
         "model": "gpt-6-astra",
         "workerId": "/root/yeats_hughes",
         "blockers": []
@@ -11410,33 +11426,37 @@
       "personId": "tommy-smith",
       "event": "Tommy Smith career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "publicationClass": "automatic-history-biography",
       "owner": "Astra /root/smith_souness",
-      "claim": {
-        "token": "next-ten-2026-10-01-tommy-smith",
-        "claimedAt": "2026-10-01T20:25:16.067057Z",
-        "baseCommit": "a033bfb41f94e3c9913365735d795f7e46595c77"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/tommy-smith.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "New production explicitly commissioned by Denny, 1 October 2026. Dedicated working branch; not a recovery or a publication approval.",
+      "notes": "Newly researched by gpt-6-astra /root/smith_souness; separate factual pass completed. Includes attributed Gayle account; captaincy date discrepancy recorded and exact month excluded. Unpublished, no approval or publication slot.",
       "evidence": [
         {
-          "location": "docs/editorial/biography-production-2026-10-01.md",
+          "location": "docs/editorial/drafts/biographies/tommy-smith-research-record.md",
           "confidence": "high",
-          "scope": "Repository selection and duplicate audit only; historical research follows."
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/tommy-smith-factual-audit.md",
+          "confidence": "high",
+          "scope": "Retrieved-source research and separate factual audit for newly written biography; source-specific confidence and exclusions recorded within."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "A long-serving defender whose career spans Liverpool’s transformation and first European Cup.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/tommy-smith-research-record.md",
+          "docs/editorial/drafts/biographies/tommy-smith-factual-audit.md"
+        ],
         "model": "gpt-6-astra",
         "workerId": "/root/smith_souness",
         "blockers": []
