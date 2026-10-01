@@ -43,7 +43,9 @@
       "competitionId": "european-cup",
       "score": "Liverpool 4–2 Hoffenheim",
       "slug": "liverpool-hoffenheim-2017-champions-league-return",
-      "reason": "Qualifying play-off victory establishes return to the group stage; check archive erroneous round label."
+      "reason": "Qualifying play-off victory establishes return to the group stage; check archive erroneous round label.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review.md"
     },
     {
       "date": "2017-09-09",
@@ -52,7 +54,9 @@
       "competitionId": "premier-league",
       "score": "Manchester City 5–0 Liverpool",
       "slug": "manchester-city-liverpool-2017-mane-dismissed",
-      "reason": "Heavy defeat following Mané sending-off, necessary counterpoint to later City victories."
+      "reason": "Heavy defeat following Mané sending-off, necessary counterpoint to later City victories.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review.md"
     },
     {
       "date": "2017-10-17",
@@ -61,7 +65,9 @@
       "competitionId": "european-cup",
       "score": "Maribor 0–7 Liverpool",
       "slug": "maribor-liverpool-2017-seven-goal-away-record",
-      "reason": "Club-record European away victory; record scope requires official confirmation."
+      "reason": "Club-record European away victory; record scope requires official confirmation.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review.md"
     },
     {
       "date": "2017-10-22",
@@ -70,7 +76,9 @@
       "competitionId": "premier-league",
       "score": "Tottenham Hotspur 4–1 Liverpool",
       "slug": "tottenham-liverpool-2017-wembley-defeat",
-      "reason": "Significant defensive low before the subsequent improvement."
+      "reason": "Significant defensive low before the subsequent improvement.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review.md"
     },
     {
       "date": "2017-12-06",
@@ -79,7 +87,9 @@
       "competitionId": "european-cup",
       "score": "Liverpool 7–0 Spartak Moscow",
       "slug": "liverpool-spartak-2017-coutinho-hat-trick",
-      "reason": "Seven-goal group-deciding performance with Coutinho hat-trick."
+      "reason": "Seven-goal group-deciding performance with Coutinho hat-trick.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review.md"
     },
     {
       "date": "2018-01-05",
@@ -88,7 +98,9 @@
       "competitionId": "fa-cup",
       "score": "Liverpool 2–1 Everton",
       "slug": "liverpool-everton-2018-van-dijk-debut-winner",
-      "reason": "Van Dijk winning goal on debut in an FA Cup derby."
+      "reason": "Van Dijk winning goal on debut in an FA Cup derby.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review.md"
     },
     {
       "date": "2018-01-14",
@@ -97,7 +109,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 4–3 Manchester City",
       "slug": "liverpool-manchester-city-2018-unbeaten-run-ended",
-      "reason": "Inflicts first league defeat on eventual champions."
+      "reason": "Inflicts first league defeat on eventual champions.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review.md"
     },
     {
       "date": "2018-02-14",
@@ -106,7 +120,9 @@
       "competitionId": "european-cup",
       "score": "Porto 0–5 Liverpool",
       "slug": "porto-liverpool-2018-mane-hat-trick",
-      "reason": "Mané away European hat-trick establishes decisive knockout advantage."
+      "reason": "Mané away European hat-trick establishes decisive knockout advantage.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review.md"
     },
     {
       "date": "2018-03-17",
@@ -115,7 +131,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 5–0 Watford",
       "slug": "liverpool-watford-2018-salah-four-goals",
-      "reason": "Four-goal Salah performance central to exceptional first season."
+      "reason": "Four-goal Salah performance central to exceptional first season.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review-second.md"
     },
     {
       "date": "2018-04-04",
@@ -124,7 +142,9 @@
       "competitionId": "european-cup",
       "score": "Liverpool 3–0 Manchester City",
       "slug": "liverpool-manchester-city-2018-anfield-quarter-final",
-      "reason": "Three first-half goals determine course of European quarter-final against domestic champions-elect."
+      "reason": "Three first-half goals determine course of European quarter-final against domestic champions-elect.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review-second.md"
     },
     {
       "date": "2018-04-10",
@@ -133,7 +153,9 @@
       "competitionId": "european-cup",
       "score": "Manchester City 1–2 Liverpool",
       "slug": "manchester-city-liverpool-2018-european-semi-final-reached",
-      "reason": "Away recovery completes European elimination of City; independent development warrants separate return-leg report."
+      "reason": "Away recovery completes European elimination of City; independent development warrants separate return-leg report.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review-second.md"
     },
     {
       "date": "2018-04-24",
@@ -142,7 +164,9 @@
       "competitionId": "european-cup",
       "score": "Liverpool 5–2 Roma",
       "slug": "liverpool-roma-2018-salah-semi-final",
-      "reason": "Salah and Firmino doubles establish major semi-final lead before Roma late recovery."
+      "reason": "Salah and Firmino doubles establish major semi-final lead before Roma late recovery.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review-second.md"
     },
     {
       "date": "2018-05-02",
@@ -151,7 +175,9 @@
       "competitionId": "european-cup",
       "score": "Roma 4–2 Liverpool",
       "slug": "roma-liverpool-2018-champions-league-final-reached",
-      "reason": "Second-leg defeat still completes 7–6 aggregate passage to first European final since 2007."
+      "reason": "Second-leg defeat still completes 7–6 aggregate passage to first European final since 2007.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review-second.md"
     },
     {
       "date": "2018-05-13",
@@ -160,7 +186,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 4–0 Brighton & Hove Albion",
       "slug": "liverpool-brighton-2018-salah-record-top-four",
-      "reason": "Final-day victory secures fourth and Salah league scoring milestone."
+      "reason": "Final-day victory secures fourth and Salah league scoring milestone.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review-second.md"
     },
     {
       "date": "2018-05-26",
@@ -169,7 +197,9 @@
       "competitionId": "european-cup",
       "score": "Real Madrid 3–1 Liverpool",
       "slug": "real-madrid-liverpool-2018-champions-league-final",
-      "reason": "European final defeat in Kyiv; Salah injury and decisive Bale goals."
+      "reason": "European final defeat in Kyiv; Salah injury and decisive Bale goals.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2017-18/research/independent-review-second.md"
     }
   ],
   "reusedPaths": [],

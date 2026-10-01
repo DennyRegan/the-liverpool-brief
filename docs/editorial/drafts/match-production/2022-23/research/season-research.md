@@ -29,3 +29,9 @@ The complete competitive fixture ledger and league table were retrieved and insp
 
 - Guinness World Records: Retrieved exact record: Salah scored his Ibrox hat-trick in six minutes 12 seconds on 12 October 2022. https://www.guinnessworldrecords.com/world-records/101475-fastest-champions-league-hat-trick
 - UEFA: Retrieved current retrospective explicitly times Salah treble at six minutes 12 seconds; its table rounds to seven minutes. Use exact prose timing and exclude post-2024–25 material. https://www.uefa.com/uefachampionsleague/news/0257-0e99f0d0d91b-eb0f4ba7a8f7-1000/
+
+## Individual-match research checkpoint — 1 October 2026
+
+All 10 selected matches now have a dedicated `<selected slug>-notes.md` file beside this document, with 22 scoped source records in total. Each note records actually retrieved URLs, providers, supported claims, confidence, conflicts and remaining limitations. The selection manifest supplies the stable identity and primary source for each note.
+
+This is preparatory research, not a finished manuscript collection. No article has been drafted, approved, published or scheduled by this worker. The authoritative calendar status has not been altered. Before writing, the coordinator must activate the season, complete the repeated remote-claim and duplicate-identity checks, and verify any additional details required by the prose. Full line-ups and substitutions have not been transcribed or certified; unsupported observations, medical diagnoses and quotations must be omitted.

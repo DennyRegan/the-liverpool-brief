@@ -13,3 +13,9 @@ All sources and their confidence/scope are recorded in `selection.json`. The off
 The official22July Chelsea article includes an erroneous sentence saying Giroud squared for Abraham. Sky's independent report correctly identifies Pulisic's contribution; do not repeat the official error. Liverpool led City by nine points after10November but led the table by eight: these are different comparisons. At Watford the44-match league unbeaten sequence ended, not every competition's unbeaten run. Atlético won4–2 on aggregate after a3–2 extra-time second-leg victory. Club World Cup1–0 was after extra time. Penalty results are separate from the drawn scores in both cup shoot-outs.
 
 No footage watched, no source quotation proposed. Match-ledger identities and independent action checks remain for manuscript production. No new public content, entity registry or calendar changes were made by this worker.
+
+## Individual-match research checkpoint — 1 October 2026
+
+All 14 selected matches now have a dedicated `<selected slug>-notes.md` file beside this document, with 31 scoped source records in total. Each note records actually retrieved URLs, providers, supported claims, confidence, conflicts and remaining limitations. The selection manifest supplies the stable identity and primary source for each note.
+
+This is preparatory research, not a finished manuscript collection. No article has been drafted, approved, published or scheduled by this worker. The authoritative calendar status has not been altered. Before writing, the coordinator must activate the season, complete the repeated remote-claim and duplicate-identity checks, and verify any additional details required by the prose. Full line-ups and substitutions have not been transcribed or certified; unsupported observations, medical diagnoses and quotations must be omitted.

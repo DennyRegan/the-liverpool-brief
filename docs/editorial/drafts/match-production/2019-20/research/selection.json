@@ -122,7 +122,9 @@
       "score": "Liverpool 2–2 Chelsea (5–4 penalties)",
       "slug": "liverpool-chelsea-2019-super-cup-shootout",
       "reason": "Fourth European Super Cup; Adrian decisive on his full debut.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/360636-liverpool-chelsea-uefa-super-cup-match-report"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/360636-liverpool-chelsea-uefa-super-cup-match-report",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review.md"
     },
     {
       "date": "2019-10-30",
@@ -132,7 +134,9 @@
       "score": "Liverpool 5–5 Arsenal (5–4 penalties)",
       "slug": "liverpool-arsenal-2019-ten-goal-cup-tie",
       "reason": "Exceptional ten-goal cup recovery and decisive young players.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/371094-liverpool-arsenal-match-report-carabao-cup"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/371094-liverpool-arsenal-match-report-carabao-cup",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review.md"
     },
     {
       "date": "2019-11-02",
@@ -142,7 +146,9 @@
       "score": "Aston Villa 1–2 Liverpool",
       "slug": "aston-villa-liverpool-2019-late-turnaround",
       "reason": "Two late goals preserve six-point advantage before the City meeting.",
-      "primarySource": "https://www.skysports.com/football/a-villa-vs-liverpool/report/408082"
+      "primarySource": "https://www.skysports.com/football/a-villa-vs-liverpool/report/408082",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review.md"
     },
     {
       "date": "2019-11-10",
@@ -152,7 +158,9 @@
       "score": "Liverpool 3–1 Manchester City",
       "slug": "liverpool-manchester-city-2019-nine-point-gap",
       "reason": "Direct title-rival victory puts Liverpool nine ahead of reigning champions.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/372789-match-report-liverpool-manchester-city-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/372789-match-report-liverpool-manchester-city-premier-league",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review.md"
     },
     {
       "date": "2019-12-04",
@@ -162,7 +170,9 @@
       "score": "Liverpool 5–2 Everton",
       "slug": "liverpool-everton-2019-five-goal-derby",
       "reason": "Exceptional five-goal derby, Origi double and maintained title pace.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/376318-merseyside-derby-match-report-liverpool-everton"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/376318-merseyside-derby-match-report-liverpool-everton",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review.md"
     },
     {
       "date": "2019-12-21",
@@ -172,7 +182,9 @@
       "score": "Liverpool 1–0 Flamengo (after extra time)",
       "slug": "liverpool-flamengo-2019-world-champions",
       "reason": "Liverpool win the Club World Cup for the first time.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/379492-liverpool-flamengo-club-world-cup-match-report"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/379492-liverpool-flamengo-club-world-cup-match-report",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review.md"
     },
     {
       "date": "2019-12-26",
@@ -182,7 +194,9 @@
       "score": "Leicester City 0–4 Liverpool",
       "slug": "leicester-liverpool-2019-boxing-day-statement",
       "reason": "First beat second decisively; lead becomes 13 points with game in hand.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/380036-match-report-leicester-city-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/380036-match-report-leicester-city-premier-league",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review.md"
     },
     {
       "date": "2020-01-05",
@@ -192,7 +206,9 @@
       "score": "Liverpool 1–0 Everton",
       "slug": "liverpool-everton-2020-curtis-jones-cup-winner",
       "reason": "Jones first senior goal wins derby with heavily changed Liverpool side.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/381309-match-report-liverpool-everton-fa-cup"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/381309-match-report-liverpool-everton-fa-cup",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review-second.md"
     },
     {
       "date": "2020-01-19",
@@ -202,7 +218,9 @@
       "score": "Liverpool 2–0 Manchester United",
       "slug": "liverpool-manchester-united-2020-sixteen-clear",
       "reason": "Title lead reaches 16 points; Salah completes decisive rivalry win.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/383351-liverpool-manchester-united-premier-league-match-report"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/383351-liverpool-manchester-united-premier-league-match-report",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review-second.md"
     },
     {
       "date": "2020-02-29",
@@ -212,7 +230,9 @@
       "score": "Watford 3–0 Liverpool",
       "slug": "watford-liverpool-2020-unbeaten-run-ends",
       "reason": "First league defeat of season ends 44-match unbeaten sequence.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/388739-match-report-liverpool-watford-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/388739-match-report-liverpool-watford-premier-league",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review-second.md"
     },
     {
       "date": "2020-03-11",
@@ -222,7 +242,9 @@
       "score": "Liverpool 2–3 Atlético Madrid (after extra time)",
       "slug": "liverpool-atletico-madrid-2020-title-defence-ends",
       "reason": "European holders eliminated despite briefly leading the tie in extra time.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/390146-match-report-liverpool-atletico-madrid-champions-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/390146-match-report-liverpool-atletico-madrid-champions-league",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review-second.md"
     },
     {
       "date": "2020-06-24",
@@ -232,7 +254,9 @@
       "score": "Liverpool 4–0 Crystal Palace",
       "slug": "liverpool-crystal-palace-2020-one-step-from-title",
       "reason": "Final Liverpool match before clinching; distinguish 24 June win from 25 June title confirmation.",
-      "primarySource": "https://www.liverpoolfc.com/amp/news/first-team/399680-match-report-crystal-palace-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/amp/news/first-team/399680-match-report-crystal-palace-premier-league",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review-second.md"
     },
     {
       "date": "2020-07-22",
@@ -242,7 +266,9 @@
       "score": "Liverpool 5–3 Chelsea",
       "slug": "liverpool-chelsea-2020-trophy-night",
       "reason": "Eight-goal match precedes first Premier League trophy presentation.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/402841-match-report-liverpool-chelsea-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/402841-match-report-liverpool-chelsea-premier-league",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review-second.md"
     },
     {
       "date": "2020-07-26",
@@ -252,7 +278,9 @@
       "score": "Newcastle United 1–3 Liverpool",
       "slug": "newcastle-liverpool-2020-ninety-nine-points",
       "reason": "Final-day comeback completes club-record 99-point championship.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/403507-match-report-liverpool-newcastle-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/403507-match-report-liverpool-newcastle-premier-league",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2019-20/research/independent-review-second.md"
     }
   ],
   "reusedPaths": [

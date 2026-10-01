@@ -27,3 +27,9 @@ The complete competitive fixture ledger and league table were retrieved and insp
 - The user-defined endpoint is 2024–25; do not import later careers, transfers, deaths or subsequent season results into these match reports without necessity and evidence.
 - Full line-ups, exact times, detailed action and contextual claims need independent cross-checks during manuscript production. No footage reviewed.
 - No manuscript may begin until the coordinator confirms remote claims and chronological previous-season checkpoint.
+
+## Individual-match research checkpoint — 1 October 2026
+
+All 15 selected matches now have a dedicated `<selected slug>-notes.md` file beside this document, with 34 scoped source records in total. Each note records actually retrieved URLs, providers, supported claims, confidence, conflicts and remaining limitations. The selection manifest supplies the stable identity and primary source for each note.
+
+This is preparatory research, not a finished manuscript collection. No article has been drafted, approved, published or scheduled by this worker. The authoritative calendar status has not been altered. Before writing, the coordinator must activate the season, complete the repeated remote-claim and duplicate-identity checks, and verify any additional details required by the prose. Full line-ups and substitutions have not been transcribed or certified; unsupported observations, medical diagnoses and quotations must be omitted.

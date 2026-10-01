@@ -1,4 +1,4 @@
-# Chelsea 0–0 Liverpool (Liverpool win6–5penalties) — 2022-05-14
+# Chelsea 0–0 Liverpool (Liverpool win 6–5 penalties) — 2022-05-14
 
 Researcher: `gpt-6-astra`; worker `/root/astra_2019_2025`. Retrieved: 1 October 2026.
 

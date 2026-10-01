@@ -21,7 +21,7 @@ URL: https://www.liverpoolfc.com/news/first-team/411170-match-report-aston-villa
 
 Confidence: High. Scope is limited to the following claims.
 
-- Watkins scored a first-half hat-trick; McGinn,Barkley and Grealish twice completed Villa’s seven. Salah scored both Liverpool goals.
+- Watkins scored a first-half hat-trick; McGinn, Barkley and Grealish twice completed Villa’s seven. Salah scored both Liverpool goals.
 - Adrian’s misplaced pass allowed Grealish to set up Watkins’s opener; McGinn and Barkley benefited from deflections.
 - Adrian started in place of injured Alisson. Jota made his first league start for Liverpool while Mane was self-isolating after a positive COVID-19 test.
 - Liverpool’s perfect league start ended.

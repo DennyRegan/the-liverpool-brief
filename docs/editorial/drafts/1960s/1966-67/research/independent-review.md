@@ -2,9 +2,9 @@
 
 Actual configured model: `gpt-6-astra`. WorkerId: `/root/astra_decade_checker`. Retrieval date: 1 October 2026. Parent released this season after remote checkpoint `c4adbc3851250d8a148f0881efbcc541d00c0088`. Repository AGENTS/CLAUDE/editorial instructions and latest main calendar were read; main and working branch refreshed before this save. Root controls selection claims and the sole authoritative calendar. Previous reviews remain preserved.
 
-## Verdict: PENDING FINAL REVIEW
+## Verdict: PASS — independent factual review complete
 
-This is independently retrieved baseline evidence, not acceptance of writer notes. All ten selected manuscripts have now been read; companion audits remain pending, as does recheck of the cup-derby crowd arithmetic correction. No approval, publication, scheduling or next-season release is inferred.
+All ten selected manuscripts and all ten companion source/claim audits were independently checked against retrieved evidence, and all requested corrections were rechecked. The chronological sections below preserve the research and review trail; their earlier pending statements are superseded by this final verdict. No approval, publication, scheduling or next-season release is inferred.
 
 ## Retrieved baseline source ledger
 
@@ -51,7 +51,7 @@ Liverpool first reached top spot after the Boxing Day Chelsea win, lost it after
 
 Recorded new competitive appearances: Ian Ross 14 January at Sheffield Wednesday; Emlyn Hughes 4 March versus Stoke; John Ogston 7 April versus Newcastle; Dave Wilson 13 May versus Blackpool. Exact debut identities remain to be checked against match pages if selected. Hughes played ten league matches; Clemence joined in June and played none during these 52 fixtures. Avoid conflating signing season conventions with an appearance that did not happen.
 
-## Limits and work remaining
+## Initial baseline limits (review history)
 
 No quota or selection verdict is imposed by this baseline. Await writer's whole-season selection, independently retrieve individual match records and narrative evidence, compare exact historical dates against completed stock, then inspect actual finished manuscripts and each source/claim audit. No match action, precise injury, dressing-room speech, crowd causation or quotes may be inferred from score tables. Final PASS remains withheld until that work is complete.
 
@@ -128,3 +128,32 @@ Further independent retrieval:
 - https://lfcineurope.com/album/6667-2MR3.jpg — independently downloaded to `/tmp/checker-6667-2MR3.jpg` and visually inspected. Contemporary crowd-crush follow-up, picture caption identifies Liverpool/Ajax; no masthead/date visible. Conflicting initial explanations of supposed smoke appear within clipping itself. High for documented crush/injuries, not for a settled cause or exact final casualty total. Manuscript correctly gives no cause/count and is independently corroborated by Barham's report. Public footer uses previously inspected separate2MR25.png clipping.
 
 The Ajax first-leg report retains the records' result/sequence and the contemporary sources' explicit impaired-visibility caveat, avoiding an invented complete view of play. The return correctly alternates Cruyff and Hunt, unlike the rejected modern fog blog, and bounds the crowd reference. Petrolul avoids choosing a disputed restart reason for the Yeats incident or settling contemporary disagreement over precise last touches. Young's cup-derby recollection is explicitly attributed. No invented quotations, crowd sentiment or dressing-room episodes found.
+
+
+## Final manuscript and audit checks
+
+All ten finished manuscripts and all ten matching `research/<slug>-notes.md` companions have now been read in full. Changed manuscript passages and source footers were rechecked after the writer's corrections. Exact-date scan across public content and non-research draft frontmatter now returns exactly one retained manuscript for each of the ten dates: no duplicate selected event. Earlier seasons' independent reviews are preserved. Latest main calendar and working branch refreshed before final save; root remains responsible for calendar state and remote checkpoint.
+
+| Selected event | Claims independently checked | Assessment |
+| --- | --- | --- |
+| Shield13 August1966 | Hunt winner, Goodison, ninth minute, parade identities, attributed goal construction/control, preceding shared Shields. | Supported; Ball/parade error and conflicting attendance excluded. |
+| League derby27 August1966 | Ball arrival/debut, two goals, attributed Morrissey and Yeats/Milne action, Smith/Brown, starting results/table. | Supported; first-minute discrepancy avoided. |
+| Petrolul19 October1966 | Neutral Heysel third match, tied prior legs, St John/Thompson, Hunt's early chance, Milne role, Yeats incident, Ajax next. | Supported; conflicting minutes, touches and free-kick restart rationale omitted. |
+| Leeds19 November1966 | Five goals/four scorers, half-time and late sequence, fourth win,13–0 run, table. | Supported; thin action evidence acknowledged, no invented mechanics. |
+| Ajax7 December1966 | Olympic Stadium5–1, four first-half goals, bounded contemporary first-half action, impaired sight, Lawler reply and deficit. | Supported; unsighted Groot mechanism, contested Lawler provider/finish and pitch-entry anecdote excluded. |
+| Ajax14 December1966 | Goalless half-time, alternating Cruyff/Hunt, retained first-goal construction, bar/saves, crowd crush,7–3 exit. | Supported; no casualty cause/count/blame, disputed second-Cruyff provider or false blog order. |
+| Chelsea26 December1966 | Christmas double, Stevenson/Hunt/Tambling, bounded Yates action, goal-average lead and points/games. | Supported after crossbar timing correction;67 versus register57 resolved by original report. |
+| Stoke4 March1967 | Hughes debut/fee/date, Lawler/Hunt/Dobing, table lead with United game in hand, ten appearances and final run. | Supported; no position or formation inferred. |
+| Cup derby11 March1967 | Fifth-round elimination, Ball, Young-attributed move,7pm/screens/crowds, preceding cup route. | Supported after exact105,000 sum correction; television-history overstatement excluded. |
+| Blackpool13 May1967 | Anfield defeat, all first-half goals, Milne final/Wilson sole game, May departure, Hughes origin, fifth51 and final11 arithmetic. | Supported; official wrong away venue rejected; no invented explanation of decline. |
+
+Corrections applied and rechecked: combined cup-derby crowd is exactly105,000; Chelsea's Cooke crossbar is before the breakthrough, with no unsupported first-half placement; source-label spaces restored; Hughes origin gets its already-retrieved source in final-day footer. Audit refinements distinguish five Leeds goals from four scorers, preserve exact McGhee scan URL, and identify the independently retrieved11v11 Petrolul discrepancy with proper source ownership. The contemporaneous compilation transcriptions and separate inspected scans are distinguished from official short text and later/indexed recollection; video viewing is never implied.
+
+Source audits correctly map narrative paragraphs to relevant URLs, give scoped confidence, record material disagreements and mark unverified action omitted. High confidence attaches to corroborated match identities/results and arithmetic; Medium to High to bounded contemporary descriptions and Medium to later recollections. Thin Leeds/Stoke/Blackpool evidence is an explicit practical limit, not permission to invent detail. Plain British prose, names, match chronology and metadata consistency checked. No unresolved substantive factual claim remains in the manuscripts.
+
+
+## Final verdict
+
+**PASS for independent factual review of all ten1966–67 manuscripts and their ten companion audits.** The McGhee scan row was finally narrowed and rechecked: it corroborates result, scorer sequence and fog, while richer first-half mechanics come from Barham/Yates transcriptions. All requested manuscript and audit corrections are resolved. No substantive factual issue remains within the documented confidence limits.
+
+Actual checker model: `gpt-6-astra`; workerId: `/root/astra_decade_checker`. This is a factual-review verdict, not Denny approval. Nothing is published, approved, scheduled or released to the next season by this note. Root retains sole authority for the shared calendar and remote checkpoint.

@@ -122,7 +122,9 @@
       "score": "Liverpool 2–2 Manchester City",
       "slug": "liverpool-manchester-city-2021-salah-solo-goal",
       "reason": "Outstanding individual Salah goal in drawn meeting with ultimate title rivals.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/445586-manchester-city-premier-league-match-report"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/445586-manchester-city-premier-league-match-report",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review.md"
     },
     {
       "date": "2021-10-24",
@@ -132,7 +134,9 @@
       "score": "Manchester United 0–5 Liverpool",
       "slug": "manchester-united-liverpool-2021-five-at-old-trafford",
       "reason": "Salah hat-trick and record-scale away rivalry victory.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/447077-match-report-manchester-united-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/447077-match-report-manchester-united-premier-league",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review.md"
     },
     {
       "date": "2021-12-01",
@@ -142,7 +146,9 @@
       "score": "Everton 1–4 Liverpool",
       "slug": "everton-liverpool-2021-four-at-goodison",
       "reason": "Largest away derby winning margin since 1982.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/449166-match-report-reds-put-four-past-everton-in-merseyside-derby-victory"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/449166-match-report-reds-put-four-past-everton-in-merseyside-derby-victory",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review.md"
     },
     {
       "date": "2021-12-07",
@@ -152,7 +158,9 @@
       "score": "AC Milan 1–2 Liverpool",
       "slug": "ac-milan-liverpool-2021-perfect-group",
       "reason": "Six wins from six in Champions League group stage, first English club to achieve it.",
-      "primarySource": "https://www.skysports.com/football/ac-milan-vs-liverpool/457397"
+      "primarySource": "https://www.skysports.com/football/ac-milan-vs-liverpool/457397",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review.md"
     },
     {
       "date": "2021-12-22",
@@ -162,7 +170,9 @@
       "score": "Liverpool 3–3 Leicester City (5–4 penalties)",
       "slug": "liverpool-leicester-2021-cup-comeback",
       "reason": "Two-goal deficit overturned with late Minamino equaliser on trophy-winning route.",
-      "primarySource": "https://www.skysports.com/football/liverpool-vs-leicester/report/460051"
+      "primarySource": "https://www.skysports.com/football/liverpool-vs-leicester/report/460051",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review.md"
     },
     {
       "date": "2022-01-20",
@@ -172,7 +182,9 @@
       "score": "Arsenal 0–2 Liverpool",
       "slug": "arsenal-liverpool-2022-jota-semi-final-double",
       "reason": "Jota double settles semi-final and earns Wembley place.",
-      "primarySource": "https://www.liverpoolfc.com/news/diogo-jotas-double-over-arsenal-sends-liverpool-carabao-cup-final"
+      "primarySource": "https://www.liverpoolfc.com/news/diogo-jotas-double-over-arsenal-sends-liverpool-carabao-cup-final",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review.md"
     },
     {
       "date": "2022-02-27",
@@ -182,7 +194,9 @@
       "score": "Chelsea 0–0 Liverpool (Liverpool win11–10penalties)",
       "slug": "chelsea-liverpool-2022-league-cup-shootout",
       "reason": "Record ninth League Cup won after 21 successful penalties and Kepa miss.",
-      "primarySource": "https://www.liverpoolfc.com/news/reds-beat-chelsea-penalties-win-carabao-cup"
+      "primarySource": "https://www.liverpoolfc.com/news/reds-beat-chelsea-penalties-win-carabao-cup",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review.md"
     },
     {
       "date": "2022-03-16",
@@ -192,7 +206,9 @@
       "score": "Arsenal 0–2 Liverpool",
       "slug": "arsenal-liverpool-2022-one-point-behind",
       "reason": "Ninth consecutive league win reduces title deficit to one point.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/452232-report-jota-and-firmino-strike-as-liverpool-narrow-the-gap-with-victory-at-arsenal"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/452232-report-jota-and-firmino-strike-as-liverpool-narrow-the-gap-with-victory-at-arsenal",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review.md"
     },
     {
       "date": "2022-04-10",
@@ -202,7 +218,9 @@
       "score": "Manchester City 2–2 Liverpool",
       "slug": "manchester-city-liverpool-2022-title-rivals-level",
       "reason": "Two recoveries preserve one-point title-race gap in direct confrontation.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-play-out-pulsating-2-2-away-draw-manchester-city"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-play-out-pulsating-2-2-away-draw-manchester-city",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review-second.md"
     },
     {
       "date": "2022-04-16",
@@ -212,7 +230,9 @@
       "score": "Manchester City 2–3 Liverpool",
       "slug": "manchester-city-liverpool-2022-wembley-semi-final",
       "reason": "Three-goal first half earns FA Cup final and keeps four-trophy challenge alive.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-reach-fa-cup-final-3-2-win-over-man-city-wembley"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-reach-fa-cup-final-3-2-win-over-man-city-wembley",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review-second.md"
     },
     {
       "date": "2022-05-03",
@@ -222,7 +242,9 @@
       "score": "Villarreal 2–3 Liverpool",
       "slug": "villarreal-liverpool-2022-second-half-recovery",
       "reason": "Two-goal lead lost on aggregate then three-goal second-half comeback reaches European final.",
-      "primarySource": "https://www.liverpoolfc.com/news/reds-mount-fightback-beat-villarreal-and-reach-ucl-final"
+      "primarySource": "https://www.liverpoolfc.com/news/reds-mount-fightback-beat-villarreal-and-reach-ucl-final",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review-second.md"
     },
     {
       "date": "2022-05-07",
@@ -232,7 +254,9 @@
       "score": "Liverpool 1–1 Tottenham Hotspur",
       "slug": "liverpool-tottenham-2022-title-race-setback",
       "reason": "Dropped home points give City renewed margin late in title race.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-held-draw-tottenham-hotspur-anfield"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-held-draw-tottenham-hotspur-anfield",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review-second.md"
     },
     {
       "date": "2022-05-14",
@@ -242,7 +266,9 @@
       "score": "Chelsea 0–0 Liverpool (Liverpool win6–5penalties)",
       "slug": "chelsea-liverpool-2022-fa-cup-double",
       "reason": "Tsimikas winning penalty completes domestic cup double.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/453698-match-report-liverpool-beat-chelsea-on-pens-to-win-eighth-fa-cup"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/453698-match-report-liverpool-beat-chelsea-on-pens-to-win-eighth-fa-cup",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review-second.md"
     },
     {
       "date": "2022-05-22",
@@ -252,7 +278,9 @@
       "score": "Liverpool 3–1 Wolverhampton Wanderers",
       "slug": "liverpool-wolves-2022-title-by-one-point",
       "reason": "Final-day victory leaves Liverpool on 92 points, one short of City.",
-      "primarySource": "https://www.liverpoolfc.com/news/reds-finish-second-despite-comeback-win-over-wolves?amp=1"
+      "primarySource": "https://www.liverpoolfc.com/news/reds-finish-second-despite-comeback-win-over-wolves?amp=1",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review-second.md"
     },
     {
       "date": "2022-05-28",
@@ -262,7 +290,9 @@
       "score": "Liverpool 0–1 Real Madrid",
       "slug": "liverpool-real-madrid-2022-paris-final",
       "reason": "European final defeat ends season with two cups; match and crowd-safety chronology require care.",
-      "primarySource": "https://www.skysports.com/football/liverpool-vs-real-madrid/report/463262"
+      "primarySource": "https://www.skysports.com/football/liverpool-vs-real-madrid/report/463262",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2021-22/research/independent-review-second.md"
     }
   ],
   "reusedPaths": [],

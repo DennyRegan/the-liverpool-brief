@@ -43,7 +43,9 @@
       "competitionId": "european-cup",
       "score": "Liverpool 3–2 Paris Saint-Germain",
       "slug": "liverpool-paris-saint-germain-2018-firmino-late-winner",
-      "reason": "Winning start to successful European campaign after conceding two-goal lead."
+      "reason": "Winning start to successful European campaign after conceding two-goal lead.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review.md"
     },
     {
       "date": "2018-09-29",
@@ -52,7 +54,9 @@
       "competitionId": "premier-league",
       "score": "Chelsea 1–1 Liverpool",
       "slug": "chelsea-liverpool-2018-sturridge-late-equaliser",
-      "reason": "Sturridge long-range late equaliser preserves unbeaten league start against early rival."
+      "reason": "Sturridge long-range late equaliser preserves unbeaten league start against early rival.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review.md"
     },
     {
       "date": "2018-12-02",
@@ -61,7 +65,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 1–0 Everton",
       "slug": "liverpool-everton-2018-origi-stoppage-time-winner",
-      "reason": "Origi extraordinary late derby winner marks important return to prominence."
+      "reason": "Origi extraordinary late derby winner marks important return to prominence.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review.md"
     },
     {
       "date": "2018-12-11",
@@ -70,7 +76,9 @@
       "competitionId": "european-cup",
       "score": "Liverpool 1–0 Napoli",
       "slug": "liverpool-napoli-2018-salah-alisson-progress",
-      "reason": "Must-win group conclusion; Salah goal and Alisson late save preserve qualification."
+      "reason": "Must-win group conclusion; Salah goal and Alisson late save preserve qualification.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review.md"
     },
     {
       "date": "2018-12-16",
@@ -79,7 +87,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 3–1 Manchester United",
       "slug": "liverpool-manchester-united-2018-shaqiri-double",
-      "reason": "Shaqiri substitute double keeps Liverpool top; Mourinho final United match."
+      "reason": "Shaqiri substitute double keeps Liverpool top; Mourinho final United match.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review.md"
     },
     {
       "date": "2018-12-29",
@@ -88,7 +98,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 5–1 Arsenal",
       "slug": "liverpool-arsenal-2018-firmino-hat-trick",
-      "reason": "Firmino hat-trick in five-goal title-challenge statement."
+      "reason": "Firmino hat-trick in five-goal title-challenge statement.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review.md"
     },
     {
       "date": "2019-01-03",
@@ -97,7 +109,9 @@
       "competitionId": "premier-league",
       "score": "Manchester City 2–1 Liverpool",
       "slug": "manchester-city-liverpool-2019-only-league-defeat",
-      "reason": "Only league defeat of 97-point season; direct-rival match has lasting title consequence."
+      "reason": "Only league defeat of 97-point season; direct-rival match has lasting title consequence.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review.md"
     },
     {
       "date": "2019-03-03",
@@ -106,7 +120,9 @@
       "competitionId": "premier-league",
       "score": "Everton 0–0 Liverpool",
       "slug": "everton-liverpool-2019-title-race-lead-lost",
-      "reason": "Draw leaves Liverpool second after repeated dropped points; decisive change in control of race."
+      "reason": "Draw leaves Liverpool second after repeated dropped points; decisive change in control of race.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review.md"
     },
     {
       "date": "2019-03-13",
@@ -115,7 +131,9 @@
       "competitionId": "european-cup",
       "score": "Bayern Munich 1–3 Liverpool",
       "slug": "bayern-munich-liverpool-2019-mane-european-win",
-      "reason": "Away knockout win over Bayern after goalless first leg."
+      "reason": "Away knockout win over Bayern after goalless first leg.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review.md"
     },
     {
       "date": "2019-03-31",
@@ -124,7 +142,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 2–1 Tottenham Hotspur",
       "slug": "liverpool-tottenham-2019-late-own-goal",
-      "reason": "Late winner after Tottenham equaliser keeps championship challenge alive."
+      "reason": "Late winner after Tottenham equaliser keeps championship challenge alive.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review-second.md"
     },
     {
       "date": "2019-04-05",
@@ -133,7 +153,9 @@
       "competitionId": "premier-league",
       "score": "Southampton 1–3 Liverpool",
       "slug": "southampton-liverpool-2019-salah-fifty",
-      "reason": "Late away recovery and Salah 50th Premier League Liverpool goal."
+      "reason": "Late away recovery and Salah 50th Premier League Liverpool goal.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review-second.md"
     },
     {
       "date": "2019-04-14",
@@ -142,7 +164,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 2–0 Chelsea",
       "slug": "liverpool-chelsea-2019-salah-title-challenge",
-      "reason": "Mané and Salah goals win major late title-race test."
+      "reason": "Mané and Salah goals win major late title-race test.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review-second.md"
     },
     {
       "date": "2019-04-17",
@@ -151,7 +175,9 @@
       "competitionId": "european-cup",
       "score": "Porto 1–4 Liverpool",
       "slug": "porto-liverpool-2019-semi-final-place",
-      "reason": "Away quarter-final victory completes 6–1 aggregate passage; first-leg context incorporated."
+      "reason": "Away quarter-final victory completes 6–1 aggregate passage; first-leg context incorporated.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review-second.md"
     },
     {
       "date": "2019-05-04",
@@ -160,7 +186,9 @@
       "competitionId": "premier-league",
       "score": "Newcastle United 2–3 Liverpool",
       "slug": "newcastle-liverpool-2019-origi-keeps-title-race-alive",
-      "reason": "Late Origi winner after Salah injury keeps title race going to final day."
+      "reason": "Late Origi winner after Salah injury keeps title race going to final day.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review-second.md"
     },
     {
       "date": "2019-05-07",
@@ -169,7 +197,9 @@
       "competitionId": "european-cup",
       "score": "Liverpool 4–0 Barcelona",
       "slug": "liverpool-barcelona-2019-four-goal-comeback",
-      "reason": "Three-goal first-leg deficit overturned to reach second successive final; away match context incorporated."
+      "reason": "Three-goal first-leg deficit overturned to reach second successive final; away match context incorporated.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review-second.md"
     },
     {
       "date": "2019-05-12",
@@ -178,7 +208,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 2–0 Wolverhampton Wanderers",
       "slug": "liverpool-wolves-2019-ninety-seven-points",
-      "reason": "Final-day victory completes 97-point season without title; essential domestic conclusion."
+      "reason": "Final-day victory completes 97-point season without title; essential domestic conclusion.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review-second.md"
     },
     {
       "date": "2019-06-01",
@@ -187,7 +219,9 @@
       "competitionId": "european-cup",
       "score": "Tottenham Hotspur 0–2 Liverpool",
       "slug": "tottenham-liverpool-2019-sixth-european-cup",
-      "reason": "Madrid final secures sixth European Cup and first Klopp Liverpool trophy."
+      "reason": "Madrid final secures sixth European Cup and first Klopp Liverpool trophy.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2018-19/research/independent-review-second.md"
     }
   ],
   "reusedPaths": [],
@@ -203,7 +237,7 @@
     "Stable-date duplicate screen completed against local public/draft inventory and current main calendar. Refresh accessible branch inventory immediately before claiming each match.",
     "Detailed goals, timings, actions and records in selection reasons are research leads unless explicitly supported by retrieved source scope; confirm independently in match-level evidence before manuscript.",
     "Use canonical european-cup and uefa-cup IDs for their modern names; do not create separate competition identities.",
-    "Individual date-based evidence notes now scope actually retrieved match reporting; precise final statistical audit remains before manuscript completion. These notes are research, not completed articles or claims."
+    "All 17 individual notes now include retrieved independent statistical audits. Use the latest RESOLVED and REMAINING sections in each note; known source conflicts and bounded omissions persist. No article has been drafted or marked complete."
   ],
   "individualEvidenceNotes": [
     "2018-09-18-sources.md",

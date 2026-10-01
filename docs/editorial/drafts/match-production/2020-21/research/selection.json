@@ -98,7 +98,9 @@
       "score": "Liverpool 4–3 Leeds United",
       "slug": "liverpool-leeds-2020-salah-opening-hat-trick",
       "reason": "Salah hat-trick in seven-goal opening match of title defence.",
-      "primarySource": "https://www.liverpoolfc.com/amp/news/first-team/408335-liverpool-leeds-match-report-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/amp/news/first-team/408335-liverpool-leeds-match-report-premier-league",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2020-21/research/independent-review.md"
     },
     {
       "date": "2020-10-04",
@@ -108,7 +110,9 @@
       "score": "Aston Villa 7–2 Liverpool",
       "slug": "aston-villa-liverpool-2020-seven-goal-defeat",
       "reason": "Exceptional defeat of reigning champions, Watkins hat-trick.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/411170-match-report-aston-villa-liverpool-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/411170-match-report-aston-villa-liverpool-premier-league",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2020-21/research/independent-review.md"
     },
     {
       "date": "2020-10-17",
@@ -118,7 +122,9 @@
       "score": "Everton 2–2 Liverpool",
       "slug": "everton-liverpool-2020-derby-cost",
       "reason": "Van Dijk injury and Salah 100 th Liverpool goal in significant drawn derby.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/412351-merseyside-derby-match-report-everton"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/412351-merseyside-derby-match-report-everton",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2020-21/research/independent-review.md"
     },
     {
       "date": "2020-11-03",
@@ -128,7 +134,9 @@
       "score": "Atalanta 0–5 Liverpool",
       "slug": "atalanta-liverpool-2020-jota-hat-trick",
       "reason": "Jota hat-trick and exceptional away European performance.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/414699-match-report-atalanta-champions-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/414699-match-report-atalanta-champions-league",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2020-21/research/independent-review.md"
     },
     {
       "date": "2020-12-19",
@@ -138,7 +146,9 @@
       "score": "Crystal Palace 0–7 Liverpool",
       "slug": "crystal-palace-liverpool-2020-seven-away",
       "reason": "Exceptional seven-goal away victory at high point of title defence.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/420827-match-report-crystal-palace-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/420827-match-report-crystal-palace-premier-league",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2020-21/research/independent-review.md"
     },
     {
       "date": "2021-01-21",
@@ -148,7 +158,9 @@
       "score": "Liverpool 0–1 Burnley",
       "slug": "liverpool-burnley-2021-anfield-run-ends",
       "reason": "Club-record 68-match home league unbeaten run ends.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/423279-liverpool-burnley-match-report"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/423279-liverpool-burnley-match-report",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2020-21/research/independent-review-second.md"
     },
     {
       "date": "2021-02-20",
@@ -158,7 +170,9 @@
       "score": "Liverpool 0–2 Everton",
       "slug": "liverpool-everton-2021-anfield-derby-defeat",
       "reason": "First Everton win at Anfield since 1999 during home collapse.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/426535-merseyside-derby-everton-match-report"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/426535-merseyside-derby-everton-match-report",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2020-21/research/independent-review-second.md"
     },
     {
       "date": "2021-05-13",
@@ -168,7 +182,9 @@
       "score": "Manchester United 2–4 Liverpool",
       "slug": "manchester-united-liverpool-2021-top-four-revival",
       "reason": "Rescheduled rivalry fixture and major step in late qualification recovery.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/433974-manchester-united-premier-league-match-report"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/433974-manchester-united-premier-league-match-report",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2020-21/research/independent-review-second.md"
     },
     {
       "date": "2021-05-16",
@@ -178,7 +194,9 @@
       "score": "West Bromwich Albion 1–2 Liverpool",
       "slug": "west-brom-liverpool-2021-alisson-header",
       "reason": "Goalkeeper winning header preserves Champions League hopes.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/434274-alisson-becker-west-brom-premier-league-match-report"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/434274-alisson-becker-west-brom-premier-league-match-report",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2020-21/research/independent-review-second.md"
     },
     {
       "date": "2021-05-23",
@@ -188,7 +206,9 @@
       "score": "Liverpool 2–0 Crystal Palace",
       "slug": "liverpool-crystal-palace-2021-third-place",
       "reason": "Final-day win completes recovery to third and Champions League qualification.",
-      "primarySource": "https://www.liverpoolfc.com/news/first-team/435107-match-report-crystal-palace-premier-league"
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/435107-match-report-crystal-palace-premier-league",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2020-21/research/independent-review-second.md"
     }
   ],
   "reusedPaths": [],

@@ -21,10 +21,10 @@ URL: https://www.skysports.com/football/a-villa-vs-liverpool/report/408082
 
 Confidence: High. Scope is limited to the following claims.
 
-- Trezeguet put Villa ahead in the21st minute; Firmino had an equaliser ruled offside after VAR review.
-- Robertson headed Liverpool level in the87th minute; Mane headed the winner in the94th.
-- City also recovered to win2–1 against Southampton; Liverpool therefore retained a six-point lead.
-- The victory extended Liverpool’s league unbeaten run to28matches.
+- Trezeguet put Villa ahead in the 21st minute; Firmino had an equaliser ruled offside after VAR review.
+- Robertson headed Liverpool level in the 87th minute; Mane headed the winner in the 94th.
+- City also recovered to win 2–1 against Southampton; Liverpool therefore retained a six-point lead.
+- The victory extended Liverpool’s league unbeaten run to 28 matches.
 
 ### Source 2: LFChistory
 

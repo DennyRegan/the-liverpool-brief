@@ -49,7 +49,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 1–0 Stoke City",
       "slug": "liverpool-stoke-2013-mignolet-debut-save",
-      "reason": "Opening-day win with Mignolet penalty save on debut; establishes the campaign before the title challenge."
+      "reason": "Opening-day win with Mignolet penalty save on debut; establishes the campaign before the title challenge.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review.md"
     },
     {
       "date": "2013-09-01",
@@ -58,7 +60,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 1–0 Manchester United",
       "slug": "liverpool-manchester-united-2013-sturridge-shankly-centenary",
-      "reason": "Sturridge winner against reigning champions puts Liverpool top; Shankly centenary context."
+      "reason": "Sturridge winner against reigning champions puts Liverpool top; Shankly centenary context.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review.md"
     },
     {
       "date": "2013-11-23",
@@ -67,7 +71,9 @@
       "competitionId": "premier-league",
       "score": "Everton 3–3 Liverpool",
       "slug": "everton-liverpool-2013-sturridge-six-goal-derby",
-      "reason": "Six-goal derby with repeated changes of lead and late Sturridge equaliser."
+      "reason": "Six-goal derby with repeated changes of lead and late Sturridge equaliser.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review.md"
     },
     {
       "date": "2013-12-04",
@@ -76,7 +82,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 5–1 Norwich City",
       "slug": "liverpool-norwich-2013-suarez-four-goals",
-      "reason": "Suárez four-goal individual performance and third hat-trick against the same club."
+      "reason": "Suárez four-goal individual performance and third hat-trick against the same club.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review.md"
     },
     {
       "date": "2013-12-15",
@@ -85,7 +93,9 @@
       "competitionId": "premier-league",
       "score": "Tottenham Hotspur 0–5 Liverpool",
       "slug": "tottenham-liverpool-2013-five-at-white-hart-lane",
-      "reason": "Exceptional away performance in the emergence of the title-challenging attack."
+      "reason": "Exceptional away performance in the emergence of the title-challenging attack.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review.md"
     },
     {
       "date": "2014-01-28",
@@ -94,7 +104,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 4–0 Everton",
       "slug": "liverpool-everton-2014-four-goal-derby",
-      "reason": "Comprehensive derby victory during the development of the title challenge."
+      "reason": "Comprehensive derby victory during the development of the title challenge.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review.md"
     },
     {
       "date": "2014-02-08",
@@ -103,7 +115,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 5–1 Arsenal",
       "slug": "liverpool-arsenal-2014-four-in-twenty-minutes",
-      "reason": "Four early goals against the leaders begins eleven consecutive league victories."
+      "reason": "Four early goals against the leaders begins eleven consecutive league victories.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review.md"
     },
     {
       "date": "2014-03-16",
@@ -112,7 +126,9 @@
       "competitionId": "premier-league",
       "score": "Manchester United 0–3 Liverpool",
       "slug": "manchester-united-liverpool-2014-gerrard-penalties",
-      "reason": "Three-goal Old Trafford victory and Gerrard penalty sequence during the title run."
+      "reason": "Three-goal Old Trafford victory and Gerrard penalty sequence during the title run.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review-second.md"
     },
     {
       "date": "2014-04-13",
@@ -121,7 +137,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 3–2 Manchester City",
       "slug": "liverpool-manchester-city-2014-coutinho-title-race",
-      "reason": "Direct title-rival meeting decided after City recover a two-goal deficit."
+      "reason": "Direct title-rival meeting decided after City recover a two-goal deficit.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review-second.md"
     },
     {
       "date": "2014-04-20",
@@ -130,7 +148,9 @@
       "competitionId": "premier-league",
       "score": "Norwich City 2–3 Liverpool",
       "slug": "norwich-liverpool-2014-eleven-wins-champions-league",
-      "reason": "Eleventh successive league win confirms Champions League return and extends the lead."
+      "reason": "Eleventh successive league win confirms Champions League return and extends the lead.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review-second.md"
     },
     {
       "date": "2014-04-27",
@@ -139,7 +159,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 0–2 Chelsea",
       "slug": "liverpool-chelsea-2014-title-race-turns",
-      "reason": "Defeat ends winning sequence and changes control of the championship contest."
+      "reason": "Defeat ends winning sequence and changes control of the championship contest.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review-second.md"
     },
     {
       "date": "2014-05-05",
@@ -148,7 +170,9 @@
       "competitionId": "premier-league",
       "score": "Crystal Palace 3–3 Liverpool",
       "slug": "crystal-palace-liverpool-2014-three-goal-lead-lost",
-      "reason": "Three-goal lead lost in the penultimate fixture; decisive title-race setback."
+      "reason": "Three-goal lead lost in the penultimate fixture; decisive title-race setback.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review-second.md"
     },
     {
       "date": "2014-05-11",
@@ -157,7 +181,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 2–1 Newcastle United",
       "slug": "liverpool-newcastle-2014-title-challenge-finale",
-      "reason": "Final-day recovery completes 84-point runners-up season as City secure the title."
+      "reason": "Final-day recovery completes 84-point runners-up season as City secure the title.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2013-14/research/independent-review-second.md"
     }
   ],
   "reusedPaths": [],

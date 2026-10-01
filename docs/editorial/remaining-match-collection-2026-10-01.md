@@ -56,16 +56,17 @@ Base includes the inactive publisher branch at `486b109` and newest migration ch
 
 ## Production checkpoints
 
-The table above records the starting audit, not live production status. The existing calendar batches `remaining-1990-91` through `remaining-2024-25` hold live progress and exact next actions. Earlier finished programmes are reused. Future selection manifests and source notes are research, not finished reports.
+The table above records the starting audit, not live production status. The existing calendar batches `remaining-1990-91` through `remaining-2024-25` hold live progress and next actions. Earlier finished programmes are reused. Future selection manifests and source notes are research, not finished reports.
 
 | Newly completed season | New reports | Existing reports reused | Factual review |
 | --- | ---: | ---: | --- |
-| 1992–93 | 11 | 0 | Independent Astra review complete; corrections reread |
-| 2007–08 | 13 | 1 | Independent Astra review complete; corrections reread |
-| 2008–09 | 12 | 1 | Independent Astra review complete; corrections reread |
+| 1992-93 | 11 | 0 | Independent Astra factual checks complete; corrections reread |
+| 2007-08 | 13 | 1 | Independent Astra factual checks complete; corrections reread |
+| 2008-09 | 12 | 1 | Independent Astra factual checks complete; corrections reread |
+| 2009-10 | 8 | 1 | Independent Astra factual checks complete; corrections reread |
 
-The 1992–93 newly written collection fills the missing programme without claiming that the old recovery batch was located. Thirty-six new reports are complete. The next writing season is 2009–10, beginning with Sunderland 1–0 Liverpool on 17 October 2009. Its eight existing selections have real claims divided among three Astra writers; the existing History calendar retains each actual worker identity. All selected future matches through 2024–25 are registered as unfinished, with their retrieved season-selection evidence retained. No future research is counted as complete stock.
+The 1992–93 newly written collection fills the missing programme without claiming that the old recovery batch was located. **44 new reports are complete.** The next unfinished season is 2010-11, beginning with 2010-09-22: Liverpool 2–2 Northampton Town; Northampton won 4–2 on penalties. Its exact claims, draft paths, evidence and next action remain in the existing calendar. All selected future matches through 2024–25 are registered as unfinished until their manuscripts and factual audits are complete. No future research is counted as complete stock.
 
-Two narrow validation changes support the growing inventory: delayed July 2020 league fixtures remain in 2019–20; a batch can reference an existing anniversary match row without duplicating it. A synthetic Git integration test now allows the full calendar to exceed Node's default output buffer. Publisher policy, enablement and scheduling are unchanged.
+Two narrow validation changes support the growing inventory: delayed July 2020 league fixtures remain in 2019–20; a batch can reference an existing anniversary match row without duplicating it. A synthetic Git integration test allows the full calendar to exceed Node's default output buffer. Publisher policy, enablement and scheduling are unchanged.
 
-At this checkpoint, calendar/entity/history validation and all 200 tests pass. Lint has no errors and one pre-existing unused-variable warning. The preceding production build and 392 HTTP route checks passed; the final production run will repeat the build and unpublished-route checks against its final saved state.
+Calendar, draft schema, canonical identities and duplicate matches are checked for each completed season. The latest full test run passed all 200 tests; lint had no errors and one pre-existing unused-variable warning. The preceding production build and 422 HTTP route checks passed. The final saved state requires the final full suite, build and unpublished-route check before this production run ends.

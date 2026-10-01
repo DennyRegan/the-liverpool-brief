@@ -21,10 +21,10 @@ URL: https://www.liverpoolfc.com/news/first-team/390146-match-report-liverpool-a
 
 Confidence: High. Scope is limited to the following claims.
 
-- Liverpool entered the second leg trailing0–1. Wijnaldum headed Oxlade-Chamberlain’s cross in the43rd minute to level the aggregate score.
+- Liverpool entered the second leg trailing 0–1. Wijnaldum headed Oxlade-Chamberlain’s cross in the 43rd minute to level the aggregate score.
 - Firmino scored early in extra time, but Llorente scored twice before the extra-time interval; Morata added a late third for Atletico.
-- Atletico advanced4–2on aggregate after winning3–2on the night.
-- Oblak made saves from Oxlade-Chamberlain and Firmino; Robertson headed against the bar in the67th minute. Henderson and Robertson returned to the starting side.
+- Atletico advanced 4–2 on aggregate after winning 3–2 on the night.
+- Oblak made saves from Oxlade-Chamberlain and Firmino; Robertson headed against the bar in the 67th minute. Henderson and Robertson returned to the starting side.
 
 ### Source 2: LFChistory
 
@@ -36,7 +36,7 @@ Confidence: High. Scope is limited to the following claims.
 
 ## Conflicts and limitations
 
-- The source calls Atletico advantage unassailable before time expired; do not copy that literal mathematical claim. The final aggregate was4–2.
+- The source calls Atletico advantage unassailable before time expired; do not copy that literal mathematical claim. The final aggregate was 4–2.
 - Any discussion of COVID transmission or public-health consequences requires separate evidence and is outside these match-action notes.
 - Full line-ups, substitutions, exact goal times and any further records must be checked against the retrieved tables and an independent source before manuscript use. Omit details not supported by those checks.
 - No match footage has been viewed; no quotation, crowd description, tactical motive or injury diagnosis is authorised by these notes unless explicitly supported above.

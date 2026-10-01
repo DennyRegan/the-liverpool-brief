@@ -21,8 +21,8 @@ URL: https://www.liverpoolfc.com/news/first-team/380036-match-report-leicester-c
 
 Confidence: High. Scope is limited to the following claims.
 
-- Liverpool defeated second-placed Leicester4–0 to go13points clear.
-- Firmino headed the opener in the31st minute. A seven-minute second-half sequence brought a Milner penalty,Firmino’s second and Alexander-Arnold’s goal.
+- Liverpool defeated second-placed Leicester 4–0 to go 13 points clear.
+- Firmino headed the opener in the 31st minute. A seven-minute second-half sequence brought a Milner penalty, Firmino’s second and Alexander-Arnold’s goal.
 - Wijnaldum replaced injured Oxlade-Chamberlain in the sole change from the Club World Cup final.
 - The match was the first-versus-second league meeting immediately after Liverpool’s world title.
 

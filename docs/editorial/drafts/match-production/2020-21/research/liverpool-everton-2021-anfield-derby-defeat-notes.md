@@ -22,9 +22,9 @@ URL: https://www.liverpoolfc.com/news/first-team/426535-merseyside-derby-everton
 Confidence: High. Scope is limited to the following claims.
 
 - Richarlison finished James Rodriguez’s through pass after three minutes. Sigurdsson converted a late penalty after Calvert-Lewin was adjudged fouled by Alexander-Arnold.
-- Henderson went off injured in the29th minute and Phillips replaced him.
-- Pickford kept out Henderson,Alexander-Arnold and Salah; Alisson denied a Coleman header.
-- Everton recorded their first Anfield win since1999. Liverpool had retained the side which beat Leipzig earlier that week.
+- Henderson went off injured in the 29th minute and Phillips replaced him.
+- Pickford kept out Henderson, Alexander-Arnold and Salah; Alisson denied a Coleman header.
+- Everton recorded their first Anfield win since 1999. Liverpool had retained the side which beat Leipzig earlier that week.
 
 ### Source 2: LFChistory
 
@@ -36,7 +36,7 @@ Confidence: High. Scope is limited to the following claims.
 
 ## Conflicts and limitations
 
-- Use since1999, not an exact22-year interval. Report penalty decision without speculative referee motive.
+- Use since 1999, not an exact 22-year interval. Report penalty decision without speculative referee motive.
 - Full line-ups, substitutions, exact goal times and any further records must be checked against the retrieved tables and an independent source before manuscript use. Omit details not supported by those checks.
 - No match footage has been viewed; no quotation, crowd description, tactical motive or injury diagnosis is authorised by these notes unless explicitly supported above.
 - These are concise paraphrased research claims, not article prose. Final drafting should use connected original prose and retain source attribution in editorial notes.

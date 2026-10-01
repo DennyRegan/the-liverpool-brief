@@ -21,10 +21,10 @@ URL: https://www.liverpoolfc.com/news/first-team/403507-match-report-liverpool-n
 
 Confidence: High. Scope is limited to the following claims.
 
-- Gayle scored after26seconds following Shelvey’s quickly taken free-kick. Van Dijk headed Oxlade-Chamberlain’s cross to equalise before half-time.
+- Gayle scored after 26 seconds following Shelvey’s quickly taken free-kick. Van Dijk headed Oxlade-Chamberlain’s cross to equalise before half-time.
 - Origi put Liverpool ahead from Robertson’s pass; Mane came off the bench and curled in the third late on. Salah also struck a post after entering.
-- Liverpool finished with32league victories and99points, a club top-flight points record.
-- Klopp made five changes, including Williams,Milner,Oxlade-Chamberlain,Minamino and Origi.
+- Liverpool finished with 32 league victories and 99 points, a club top-flight points record.
+- Klopp made five changes, including Williams, Milner, Oxlade-Chamberlain, Minamino and Origi.
 
 ### Source 2: LFChistory
 
@@ -36,7 +36,7 @@ Confidence: High. Scope is limited to the following claims.
 
 ## Conflicts and limitations
 
-- Keep July2020 historical date within2019–20, reflecting the pandemic-delayed season.
+- Keep July 2020 historical date within 2019–20, reflecting the pandemic-delayed season.
 - Full line-ups, substitutions, exact goal times and any further records must be checked against the retrieved tables and an independent source before manuscript use. Omit details not supported by those checks.
 - No match footage has been viewed; no quotation, crowd description, tactical motive or injury diagnosis is authorised by these notes unless explicitly supported above.
 - These are concise paraphrased research claims, not article prose. Final drafting should use connected original prose and retain source attribution in editorial notes.

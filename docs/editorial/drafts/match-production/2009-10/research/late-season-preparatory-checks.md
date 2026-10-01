@@ -3,7 +3,7 @@
 - Configured and actual model: `gpt-6-astra`.
 - Actual worker: `/root/astra_independent_review`.
 - Retrieved: 2026-10-01.
-- Status: research only, awaiting coordinator's remote calendar claims and chronological activation. **No manuscript drafted by this worker.**
+- Status: research preparation complete; coordinator activated both manuscripts after remote checkpoint `db90911469e11760889b18bd9efe31239cdd1f1a`. Both reports and canonical notes are now saved; independent factual review by `/root/astra_history_production` is complete with no substantive correction required. This file remains research provenance.
 - Scope: `torres-benfica-semi-final-2010` (2010-04-08) and `forlan-ends-liverpool-european-run-2010` (2010-04-29).
 - Existing season research, both individual evidence files and selection were read. This supplements them; it is not another editorial status system. Calendar and Git remain coordinator-owned.
 
@@ -53,7 +53,7 @@ High confidence is limited to the supported factual scope. Subjective commentary
 
 1. Benfica opener27/28; Torres first58/59. B2 conflicts internally between header and body; B3 has27/58. Use before-half-hour and second-half sequence, unless exact minute is necessary and explicitly adjudicated.
 2. Guardian live extract attributes the final Benfica assist to Gerrard; UEFA and LFChistory say Mascherano. Narrow conflicting extract actually retrieved at https://www.theguardian.com/football/2010/apr/08/europa-league-liverpool-benfica-live ; no quotations or extended reliance. Prefer corroborated Mascherano.
-3. Atlético Benayoun extra-time goal94/95 in contemporary accounts. Use early in extra time. Forlán102 is consistently supported.
+3. Atlético Benayoun extra-time goal94/95 in contemporary accounts. Use early in extra time. Forlán102 is supported by contemporary UEFA/Sky, while LFChistory lists103; the manuscript follows the corroborated contemporary102.
 4. Sky early chance description omits UEFA's Kuyt flick in the buildup. Omit disputed ball origin and retain Benayoun/De Gea action only.
 5. Benítez official Liverpool timeline search extract was located, but opening https://members.liverpoolfc.com/history/timeline/1996-present/benitez-leaves-liverpool redirected to homepage. Do not cite it as a retrieved historical body; A4 supplies full accessible confirmation.
 6. A guessed Sky report route ending214905 failed, as did https://myliverpoolfc.org/match290410.htm . Neither is evidence. Successful A2 supplies full contemporary narrative.
@@ -61,4 +61,4 @@ High confidence is limited to the supported factual scope. Subjective commentary
 
 ## Production handoff
 
-Evidence is sufficient for full factual reports once remotely claimed. Preserve existing manuscripts and all previous research. Recheck stable match identity against current inventory immediately before drafting. Use current canonical entity IDs, factual match metadata, no public date, no approval and no schedule. The lead history worker will independently review both manuscripts; this preparatory research is not a completed article or independent final review.
+Both reports were written after remote claims and chronological activation. Preserve existing manuscripts and all previous research. Recheck stable match identity against current inventory immediately before drafting. Use current canonical entity IDs, factual match metadata, no public date, no approval and no schedule. The lead history worker will independently review both manuscripts; this preparatory research is not a completed article or independent final review.

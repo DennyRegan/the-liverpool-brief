@@ -21,10 +21,10 @@ URL: https://www.liverpoolfc.com/news/first-team/402841-match-report-liverpool-c
 
 Confidence: High. Scope is limited to the following claims.
 
-- Liverpool won5–3in their final home match before receiving the Premier League trophy.
-- Keita,Alexander-Arnold and Wijnaldum built a three-goal lead; Giroud replied before the break. Firmino headed the fourth.
-- Abraham and Pulisic reduced the gap to4–3; Oxlade-Chamberlain completed a late counter-attack from Robertson’s cross.
-- This was Liverpool’s31st league victory of the campaign, a club record at that point.
+- Liverpool won 5–3 in their final home match before receiving the Premier League trophy.
+- Keita, Alexander-Arnold and Wijnaldum built a three-goal lead; Giroud replied before the break. Firmino headed the fourth.
+- Abraham and Pulisic reduced the gap to 4–3; Oxlade-Chamberlain completed a late counter-attack from Robertson’s cross.
+- This was Liverpool’s 31st league victory of the campaign, a club record at that point.
 
 ### Source 2: LFChistory
 

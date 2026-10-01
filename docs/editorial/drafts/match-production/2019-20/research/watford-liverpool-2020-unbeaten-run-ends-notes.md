@@ -21,9 +21,9 @@ URL: https://www.liverpoolfc.com/news/first-team/388739-match-report-liverpool-w
 
 Confidence: High. Scope is limited to the following claims.
 
-- Liverpool lost a league match for the first time that season; Sarr scored twice before Deeney completed a3–0 Watford win.
-- All three goals came within18second-half minutes. Lallana struck a post after coming on.
-- The44-match unbeaten Premier League run ended; Liverpool still stood22points clear.
+- Liverpool lost a league match for the first time that season; Sarr scored twice before Deeney completed a 3–0 Watford win.
+- All three goals came within 18 second-half minutes. Lallana struck a post after coming on.
+- The 44-match unbeaten Premier League run ended; Liverpool still stood 22 points clear.
 - Lovren and Oxlade-Chamberlain came into the side, with Gomez and Keita unavailable.
 
 ### Source 2: LFChistory
@@ -36,7 +36,7 @@ Confidence: High. Scope is limited to the following claims.
 
 ## Conflicts and limitations
 
-- Do not imply44matches occurred entirely in2019–20; it was a run across seasons.
+- Do not imply 44 matches occurred entirely in 2019–20; it was a run across seasons.
 - Full line-ups, substitutions, exact goal times and any further records must be checked against the retrieved tables and an independent source before manuscript use. Omit details not supported by those checks.
 - No match footage has been viewed; no quotation, crowd description, tactical motive or injury diagnosis is authorised by these notes unless explicitly supported above.
 - These are concise paraphrased research claims, not article prose. Final drafting should use connected original prose and retain source attribution in editorial notes.

@@ -79,7 +79,9 @@
       "score": "Liverpool 1–2 Manchester United",
       "slug": "anfield-hillsborough-tribute-united-2012",
       "reason": "First Anfield match after Hillsborough Independent Panel report; tributes, Gerrard goal and ten-man defeat.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/124598-late-penalty-defeats-reds"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/124598-late-penalty-defeats-reds",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2012-13/research/independent-review.md"
     },
     {
       "date": "2012-09-29",
@@ -89,7 +91,9 @@
       "score": "Norwich City 2–5 Liverpool",
       "slug": "suarez-norwich-rodgers-first-league-win-2012",
       "reason": "Second successive Carrow Road hat-trick and first league win of Rodgers era.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/124785-suarez-treble-sinks-canaries"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/124785-suarez-treble-sinks-canaries",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2012-13/research/independent-review.md"
     },
     {
       "date": "2013-01-27",
@@ -99,7 +103,9 @@
       "score": "Oldham Athletic 3–2 Liverpool",
       "slug": "oldham-fa-cup-defeat-2013",
       "reason": "League One opponents eliminate Liverpool in fourth round.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/129265-cup-woe-for-reds-at-oldham"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/129265-cup-woe-for-reds-at-oldham",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2012-13/research/independent-review.md"
     },
     {
       "date": "2013-02-21",
@@ -109,7 +115,9 @@
       "score": "Liverpool 3–1 Zenit Saint Petersburg",
       "slug": "suarez-zenit-comeback-falls-short-2013",
       "reason": "Two Suárez free-kicks drive recovery which falls short on away goals.",
-      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/0206-0e9eabb23ec2-d222a63f7e63-1000--zenit-escape-despite-liverpool-loss/"
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/0206-0e9eabb23ec2-d222a63f7e63-1000--zenit-escape-despite-liverpool-loss/",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2012-13/research/independent-review.md"
     },
     {
       "date": "2013-04-21",
@@ -119,7 +127,9 @@
       "score": "Liverpool 2–2 Chelsea",
       "slug": "suarez-chelsea-equaliser-ban-2013",
       "reason": "Late equaliser is inseparable from Ivanović biting incident and subsequent ten-match ban.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/132677-rodgers-on-suarez-and-chelsea"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/132677-rodgers-on-suarez-and-chelsea",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2012-13/research/independent-review-second.md"
     },
     {
       "date": "2013-04-27",
@@ -129,7 +139,9 @@
       "score": "Newcastle United 0–6 Liverpool",
       "slug": "six-at-newcastle-without-suarez-2013",
       "reason": "Joint-best Premier League away win at the time, first match of Suárez suspension, new attack prominent.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/132943-newcastle-0-6-lfc-storified"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/132943-newcastle-0-6-lfc-storified",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2012-13/research/independent-review-second.md"
     },
     {
       "date": "2013-05-19",
@@ -139,7 +151,9 @@
       "score": "Liverpool 1–0 Queens Park Rangers",
       "slug": "carragher-final-match-qpr-2013",
       "reason": "Carragher’s 737th and final appearance, Coutinho goal decides season finale.",
-      "sourceUrl": "https://www.uefa.com/news-media/news/0209-0f887668b22d-4b2c869238fd-1000--colossal-carragher-pens-final-liverpool-chapter/"
+      "sourceUrl": "https://www.uefa.com/news-media/news/0209-0f887668b22d-4b2c869238fd-1000--colossal-carragher-pens-final-liverpool-chapter/",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2012-13/research/independent-review-second.md"
     }
   ],
   "reused": [],

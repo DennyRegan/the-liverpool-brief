@@ -21,11 +21,11 @@ URL: https://www.liverpoolfc.com/news/first-team/371094-liverpool-arsenal-match-
 
 Confidence: High. Scope is limited to the following claims.
 
-- Liverpool advanced from the League Cup fourth round after5–5 at Anfield and a shootout victory.
-- Mustafi own goal put Liverpool ahead; Torreira and two Martinelli goals reversed the lead. Milner penalty made it3–2 at half-time.
+- Liverpool advanced from the League Cup fourth round after 5–5 at Anfield and a shootout victory.
+- Mustafi own goal put Liverpool ahead; Torreira and two Martinelli goals reversed the lead. Milner penalty made it 3–2 at half-time.
 - Maitland-Niles punished a short Milner back-pass; Oxlade-Chamberlain and Origi brought Liverpool level. Willock restored Arsenal’s advantage before Origi equalised in stoppage time.
 - Kelleher saved Ceballos penalty and Jones converted the deciding Liverpool kick.
-- Klopp changed all11 starters; Neco Williams debuted and Van den Berg made his first start.
+- Klopp changed all 11 starters; Neco Williams debuted and Van den Berg made his first start.
 
 ### Source 2: LFChistory
 
@@ -37,7 +37,7 @@ Confidence: High. Scope is limited to the following claims.
 
 ## Conflicts and limitations
 
-- Confirm shootout5–4 and individual goal timings against the event record before full prose. No extra time was played.
+- Confirm shootout 5–4 and individual goal timings against the event record before full prose. No extra time was played.
 - Full line-ups, substitutions, exact goal times and any further records must be checked against the retrieved tables and an independent source before manuscript use. Omit details not supported by those checks.
 - No match footage has been viewed; no quotation, crowd description, tactical motive or injury diagnosis is authorised by these notes unless explicitly supported above.
 - These are concise paraphrased research claims, not article prose. Final drafting should use connected original prose and retain source attribution in editorial notes.

@@ -37,7 +37,9 @@
       "competitionId": "premier-league",
       "score": "Arsenal 3–4 Liverpool",
       "slug": "arsenal-liverpool-2016-mane-debut-seven-goal-opener",
-      "reason": "Seven-goal season opener, Mané scoring debut and Coutinho brace."
+      "reason": "Seven-goal season opener, Mané scoring debut and Coutinho brace.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2016-17/research/independent-review.md"
     },
     {
       "date": "2016-09-10",
@@ -46,7 +48,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 4–1 Leicester City",
       "slug": "liverpool-leicester-2016-main-stand-opening",
-      "reason": "Expanded Main Stand first competitive match and victory over champions."
+      "reason": "Expanded Main Stand first competitive match and victory over champions.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2016-17/research/independent-review.md"
     },
     {
       "date": "2016-11-06",
@@ -55,7 +59,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 6–1 Watford",
       "slug": "liverpool-watford-2016-six-goals-top-of-table",
-      "reason": "Six-goal win takes Klopp Liverpool top of the league."
+      "reason": "Six-goal win takes Klopp Liverpool top of the league.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2016-17/research/independent-review.md"
     },
     {
       "date": "2016-11-29",
@@ -64,7 +70,9 @@
       "competitionId": "league-cup",
       "score": "Liverpool 2–0 Leeds United",
       "slug": "liverpool-leeds-2016-woodburn-youngest-scorer",
-      "reason": "Woodburn becomes youngest Liverpool scorer in quarter-final victory."
+      "reason": "Woodburn becomes youngest Liverpool scorer in quarter-final victory.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2016-17/research/independent-review.md"
     },
     {
       "date": "2016-12-04",
@@ -73,7 +81,9 @@
       "competitionId": "premier-league",
       "score": "Bournemouth 4–3 Liverpool",
       "slug": "bournemouth-liverpool-2016-two-goal-lead-lost",
-      "reason": "Major defensive collapse after 3–1 lead, illustrating inconsistent title challenge."
+      "reason": "Major defensive collapse after 3–1 lead, illustrating inconsistent title challenge.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2016-17/research/independent-review.md"
     },
     {
       "date": "2016-12-19",
@@ -82,7 +92,9 @@
       "competitionId": "premier-league",
       "score": "Everton 0–1 Liverpool",
       "slug": "everton-liverpool-2016-mane-stoppage-time-derby",
-      "reason": "Stoppage-time derby winner at Goodison Park."
+      "reason": "Stoppage-time derby winner at Goodison Park.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2016-17/research/independent-review-second.md"
     },
     {
       "date": "2017-01-25",
@@ -91,7 +103,9 @@
       "competitionId": "league-cup",
       "score": "Liverpool 0–1 Southampton",
       "slug": "liverpool-southampton-2017-league-cup-semi-final",
-      "reason": "Semi-final elimination during January downturn; FA Cup exit belongs in verified immediate consequences."
+      "reason": "Semi-final elimination during January downturn; FA Cup exit belongs in verified immediate consequences.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2016-17/research/independent-review-second.md"
     },
     {
       "date": "2017-02-11",
@@ -100,7 +114,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 2–0 Tottenham Hotspur",
       "slug": "liverpool-tottenham-2017-mane-ends-winless-run",
-      "reason": "Mané brace ends league winless sequence and restores top-four challenge."
+      "reason": "Mané brace ends league winless sequence and restores top-four challenge.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2016-17/research/independent-review-second.md"
     },
     {
       "date": "2017-05-01",
@@ -109,7 +125,9 @@
       "competitionId": "premier-league",
       "score": "Watford 0–1 Liverpool",
       "slug": "watford-liverpool-2017-can-overhead-kick",
-      "reason": "Can overhead kick wins important top-four contest; individual landmark."
+      "reason": "Can overhead kick wins important top-four contest; individual landmark.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2016-17/research/independent-review-second.md"
     },
     {
       "date": "2017-05-21",
@@ -118,7 +136,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 3–0 Middlesbrough",
       "slug": "liverpool-middlesbrough-2017-champions-league-return",
-      "reason": "Final-day win secures fourth and Champions League play-off place."
+      "reason": "Final-day win secures fourth and Champions League play-off place.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2016-17/research/independent-review-second.md"
     }
   ],
   "reusedPaths": [

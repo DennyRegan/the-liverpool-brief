@@ -21,10 +21,10 @@ URL: https://www.liverpoolfc.com/news/first-team/423279-liverpool-burnley-match-
 
 Confidence: High. Scope is limited to the following claims.
 
-- Barnes’s83rd-minute penalty decided the match after Alisson was judged to have fouled him.
-- The defeat ended Liverpool’s68-match league unbeaten run at Anfield, their first home league loss since April2017.
-- Origi hit the crossbar when through on goal before half-time. Pope saved efforts from Origi,Oxlade-Chamberlain,Alexander-Arnold and Salah.
-- Matip returned; Salah and Firmino began on the bench and were introduced in the57th minute.
+- Barnes’s 83rd-minute penalty decided the match after Alisson was judged to have fouled him.
+- The defeat ended Liverpool’s 68-match league unbeaten run at Anfield, their first home league loss since April 2017.
+- Origi hit the crossbar when through on goal before half-time. Pope saved efforts from Origi, Oxlade-Chamberlain, Alexander-Arnold and Salah.
+- Matip returned; Salah and Firmino began on the bench and were introduced in the 57th minute.
 
 ### Source 2: LFChistory
 

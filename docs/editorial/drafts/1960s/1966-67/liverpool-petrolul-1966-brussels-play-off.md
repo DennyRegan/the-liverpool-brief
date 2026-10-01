@@ -33,4 +33,4 @@ The score remained 2–0. After losing their first-leg advantage in Romania, Liv
 - [LFChistory: play-off record](https://www.lfchistory.net/games/364)
 - [Contemporary Guardian, Times and Daily Post reports, preserved by Liverpool in Europe](https://www.lfcineurope.com/6667-1RPM.html)
 - [RSSSF: complete European Cup route](https://www.rsssf.org/ec/ec196667.html)
-- [LFChistory: Anderlecht away in1964](https://www.lfchistory.net/games/260)
+- [LFChistory: Anderlecht away in 1964](https://www.lfchistory.net/games/260)

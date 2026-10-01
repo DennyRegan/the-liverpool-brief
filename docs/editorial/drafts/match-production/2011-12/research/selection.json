@@ -79,7 +79,9 @@
       "score": "Chelsea 0–2 Liverpool",
       "slug": "bellamy-kelly-chelsea-cup-win-2011",
       "reason": "Away quarter-final win with two Bellamy assists and Kelly’s first Liverpool goal.",
-      "sourceUrl": "https://www.skysports.com/football/chelsea-vs-liverpool/report/251226"
+      "sourceUrl": "https://www.skysports.com/football/chelsea-vs-liverpool/report/251226",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2011-12/research/independent-review.md"
     },
     {
       "date": "2012-01-25",
@@ -89,7 +91,9 @@
       "score": "Liverpool 2–2 Manchester City",
       "slug": "bellamy-sends-liverpool-wembley-2012",
       "reason": "Bellamy equaliser seals 3–2 aggregate semi-final win and first Wembley visit since 1996.",
-      "sourceUrl": "https://www.uefa.com/news-media/news/01f9-0e7b92b8f0cd-fb17930a87a2-1000--liverpool-edge-into-league-cup-final/"
+      "sourceUrl": "https://www.uefa.com/news-media/news/01f9-0e7b92b8f0cd-fb17930a87a2-1000--liverpool-edge-into-league-cup-final/",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2011-12/research/independent-review.md"
     },
     {
       "date": "2012-01-28",
@@ -99,7 +103,9 @@
       "score": "Liverpool 2–1 Manchester United",
       "slug": "kuyt-late-united-fa-cup-winner-2012",
       "reason": "Late substitute goal wins major fourth-round tie.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/114894-late-kuyt-strike-seals-cup-win"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/114894-late-kuyt-strike-seals-cup-win",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2011-12/research/independent-review.md"
     },
     {
       "date": "2012-02-26",
@@ -109,7 +115,9 @@
       "score": "Liverpool 2–2 Cardiff City; Liverpool won 3–2 on penalties",
       "slug": "liverpool-cardiff-league-cup-final-2012",
       "reason": "First major trophy since 2006 after extra time and penalties.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/116353-carling-cup-glory-for-reds"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/116353-carling-cup-glory-for-reds",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2011-12/research/independent-review.md"
     },
     {
       "date": "2012-03-13",
@@ -119,7 +127,9 @@
       "score": "Liverpool 3–0 Everton",
       "slug": "gerrard-derby-hat-trick-2012",
       "reason": "Captain’s hat-trick in his 400th Premier League appearance.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/116841-stevie-treble-wins-the-derby"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/116841-stevie-treble-wins-the-derby",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2011-12/research/independent-review.md"
     },
     {
       "date": "2012-03-21",
@@ -129,7 +139,9 @@
       "score": "Queens Park Rangers 3–2 Liverpool",
       "slug": "qpr-three-late-goals-2012",
       "reason": "Two-goal lead lost late; a defining setback in poor league campaign.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/117175-late-goals-leave-reds-frustrated"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/117175-late-goals-leave-reds-frustrated",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2011-12/research/independent-review-second.md"
     },
     {
       "date": "2012-04-14",
@@ -139,7 +151,9 @@
       "score": "Liverpool 2–1 Everton",
       "slug": "carroll-wembley-derby-winner-2012",
       "reason": "Comeback semi-final win sends Liverpool to second domestic final.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/announcements/392886-watch-again-2012-liverpool-v-everton-fa-cup-semi-final-in-full"
+      "sourceUrl": "https://www.liverpoolfc.com/news/announcements/392886-watch-again-2012-liverpool-v-everton-fa-cup-semi-final-in-full",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2011-12/research/independent-review-second.md"
     },
     {
       "date": "2012-04-28",
@@ -149,7 +163,9 @@
       "score": "Norwich City 0–3 Liverpool",
       "slug": "suarez-first-hat-trick-norwich-2012",
       "reason": "Suárez’s first club hat-trick completed with exceptional long-range lob.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/118801-super-suarez-sinks-canaries"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/118801-super-suarez-sinks-canaries",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2011-12/research/independent-review-second.md"
     },
     {
       "date": "2012-05-05",
@@ -159,7 +175,9 @@
       "score": "Chelsea 2–1 Liverpool",
       "slug": "carroll-rally-fa-cup-final-2012",
       "reason": "Final defeat ends chance of domestic cup double despite Carroll-led recovery.",
-      "sourceUrl": "https://www.uefa.com/news/01fd-0e7e11b4220e-e9939ea4380d-1000--chelsea-beat-liverpool-to-lift-seventh-fa-cup/"
+      "sourceUrl": "https://www.uefa.com/news/01fd-0e7e11b4220e-e9939ea4380d-1000--chelsea-beat-liverpool-to-lift-seventh-fa-cup/",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2011-12/research/independent-review-second.md"
     }
   ],
   "reused": [],

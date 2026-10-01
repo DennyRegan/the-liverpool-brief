@@ -28,3 +28,9 @@ The complete competitive fixture ledger and league table were retrieved and insp
 
 - Liverpool FC: Retrieved 18 October 2020 announcement: knee ligament damage from the Everton incident required surgery; no return timescale announced. Diagnosis must be dated to the next day, not match time. https://www.liverpoolfc.com/news/first-team/412585-virgil-van-dijk-knee-injury-surgery
 - Premier League: Retrieved 16 May 2021 record: first Liverpool goalkeeper competitive goal, first headed goalkeeper goal in Premier League and first winning goalkeeper goal in Premier League. https://www.premierleague.com/en/news/2145933/alisson-joins-goalscoring-goalkeepers-with-liverpool-winner
+
+## Individual-match research checkpoint — 1 October 2026
+
+All 10 selected matches now have a dedicated `<selected slug>-notes.md` file beside this document, with 22 scoped source records in total. Each note records actually retrieved URLs, providers, supported claims, confidence, conflicts and remaining limitations. The selection manifest supplies the stable identity and primary source for each note.
+
+This is preparatory research, not a finished manuscript collection. No article has been drafted, approved, published or scheduled by this worker. The authoritative calendar status has not been altered. Before writing, the coordinator must activate the season, complete the repeated remote-claim and duplicate-identity checks, and verify any additional details required by the prose. Full line-ups and substitutions have not been transcribed or certified; unsupported observations, medical diagnoses and quotations must be omitted.

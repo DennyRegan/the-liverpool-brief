@@ -21,10 +21,10 @@ URL: https://www.liverpoolfc.com/news/first-team/376318-merseyside-derby-match-r
 
 Confidence: High. Scope is limited to the following claims.
 
-- Origi scored twice; Shaqiri,Mane and Wijnaldum were also on target. Keane and Richarlison scored Everton’s goals.
-- Six goals came before half-time. Wijnaldum completed the5–2scoreline in the90th minute.
-- Liverpool reached14wins from15league matches and remained eight points clear. Their32-match league unbeaten run was a club record at the time.
-- Adrian replaced suspended Alisson; Lallana,Milner,Origi and Shaqiri were other changes. Mane supplied both the opening Origi goal and Shaqiri goal.
+- Origi scored twice; Shaqiri, Mane and Wijnaldum were also on target. Keane and Richarlison scored Everton’s goals.
+- Six goals came before half-time. Wijnaldum completed the 5–2 scoreline in the 90th minute.
+- Liverpool reached 14 wins from 15 league matches and remained eight points clear. Their 32-match league unbeaten run was a club record at the time.
+- Adrian replaced suspended Alisson; Lallana, Milner, Origi and Shaqiri were other changes. Mane supplied both the opening Origi goal and Shaqiri goal.
 
 ### Source 2: LFChistory
 

@@ -21,7 +21,7 @@ URL: https://www.liverpoolfc.com/news/first-team/414699-match-report-atalanta-ch
 
 Confidence: High. Scope is limited to the following claims.
 
-- Jota scored in the16th,33rd and54th minutes. Alexander-Arnold and Gomez supplied his first two goals; Mane passed for the third.
+- Jota scored in the 16th,33rd and 54th minutes. Alexander-Arnold and Gomez supplied his first two goals; Mane passed for the third.
 - Salah scored after a counter-attack from an Atalanta corner, then supplied Mane. Liverpool scored three times within nine minutes of the restart.
 - Liverpool had nine points from three group matches and a five-point lead in Group D.
 - Rhys Williams and Jota started; Alisson saved from Muriel and Zapata, who also hit the post.

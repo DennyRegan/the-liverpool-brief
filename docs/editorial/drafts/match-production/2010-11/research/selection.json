@@ -79,7 +79,9 @@
       "score": "Liverpool 2–2 Northampton Town; Northampton won 4–2 on penalties",
       "slug": "northampton-anfield-shootout-upset-2010",
       "reason": "League Two opposition eliminate Liverpool at Anfield.",
-      "sourceUrl": "https://www.skysports.com/football/liverpool-vs-northampton-town/report/227792"
+      "sourceUrl": "https://www.skysports.com/football/liverpool-vs-northampton-town/report/227792",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2010-11/research/independent-review.md"
     },
     {
       "date": "2010-10-17",
@@ -89,7 +91,9 @@
       "score": "Everton 2–0 Liverpool",
       "slug": "goodison-defeat-new-ownership-2010",
       "reason": "First game following ownership takeover ends in derby defeat and leaves Liverpool nineteenth.",
-      "sourceUrl": "https://www.uefa.com/news-media/news/01ea-0e75c9233f47-5a9ac1ba78a5-1000--everton-compound-liverpool-s-woes/"
+      "sourceUrl": "https://www.uefa.com/news-media/news/01ea-0e75c9233f47-5a9ac1ba78a5-1000--everton-compound-liverpool-s-woes/",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2010-11/research/independent-review.md"
     },
     {
       "date": "2010-11-04",
@@ -99,7 +103,9 @@
       "score": "Liverpool 3–1 Napoli",
       "slug": "gerrard-napoli-substitute-hat-trick-2010",
       "reason": "Half-time substitute scores three late goals to transform European match.",
-      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01eb-0e76295115ae-cd30c5b271c5-1000--gerrard-stuns-napoli-with-late-treble/"
+      "sourceUrl": "https://www.uefa.com/uefaeuropaleague/news/01eb-0e76295115ae-cd30c5b271c5-1000--gerrard-stuns-napoli-with-late-treble/",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2010-11/research/independent-review.md"
     },
     {
       "date": "2011-01-05",
@@ -109,7 +115,9 @@
       "score": "Blackburn Rovers 3–1 Liverpool",
       "slug": "blackburn-hodgson-last-match-2011",
       "reason": "Final match of Hodgson tenure; managerial turning point.",
-      "sourceUrl": "https://www.skysports.com/football/blackburn-rovers-vs-liverpool/report/215379"
+      "sourceUrl": "https://www.skysports.com/football/blackburn-rovers-vs-liverpool/report/215379",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2010-11/research/independent-review.md"
     },
     {
       "date": "2011-01-09",
@@ -119,7 +127,9 @@
       "score": "Manchester United 1–0 Liverpool",
       "slug": "dalglish-return-old-trafford-2011",
       "reason": "Dalglish’s first match after returning ends in FA Cup defeat; early penalty and Gerrard dismissal.",
-      "sourceUrl": "https://www.uefa.com/news-media/news/01ed-0f8614c99f55-e50ad7cf8ee3-1000--united-edge-out-ten-man-liverpool/"
+      "sourceUrl": "https://www.uefa.com/news-media/news/01ed-0f8614c99f55-e50ad7cf8ee3-1000--united-edge-out-ten-man-liverpool/",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2010-11/research/independent-review.md"
     },
     {
       "date": "2011-02-02",
@@ -129,7 +139,9 @@
       "score": "Liverpool 2–0 Stoke City",
       "slug": "suarez-scoring-debut-stoke-2011",
       "reason": "Suárez scores on debut after Torres departure, a significant transition in attack.",
-      "sourceUrl": "https://www.skysports.com/football/liverpool-vs-stoke-city/215446"
+      "sourceUrl": "https://www.skysports.com/football/liverpool-vs-stoke-city/215446",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2010-11/research/independent-review-second.md"
     },
     {
       "date": "2011-02-06",
@@ -139,7 +151,9 @@
       "score": "Chelsea 0–1 Liverpool",
       "slug": "meireles-chelsea-torres-debut-2011",
       "reason": "Victory on Torres’s Chelsea debut; fourth successive league win under Dalglish.",
-      "sourceUrl": "https://www.uefa.com/news-media/news/01ee-0e77001396b2-fa878d2f3633-1000--chelsea-undone-by-revitalised-liverpool/"
+      "sourceUrl": "https://www.uefa.com/news-media/news/01ee-0e77001396b2-fa878d2f3633-1000--chelsea-undone-by-revitalised-liverpool/",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2010-11/research/independent-review-second.md"
     },
     {
       "date": "2011-03-06",
@@ -149,7 +163,9 @@
       "score": "Liverpool 3–1 Manchester United",
       "slug": "kuyt-hat-trick-united-2011",
       "reason": "Kuyt hat-trick against league leaders; Suárez central to opening goal.",
-      "sourceUrl": "https://www.uefa.com/news-media/news/01ef-0e775cde3ae8-bce66171b96d-1000--leaders-united-caught-out-by-kuyt-treble/"
+      "sourceUrl": "https://www.uefa.com/news-media/news/01ef-0e775cde3ae8-bce66171b96d-1000--leaders-united-caught-out-by-kuyt-treble/",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2010-11/research/independent-review-second.md"
     },
     {
       "date": "2011-05-09",
@@ -159,7 +175,9 @@
       "score": "Fulham 2–5 Liverpool",
       "slug": "maxi-fulham-five-goals-2011",
       "reason": "Maxi hat-trick and fifth place mark height of spring recovery.",
-      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/95919-maxi-hits-treble-in-reds-rout"
+      "sourceUrl": "https://www.liverpoolfc.com/news/first-team/95919-maxi-hits-treble-in-reds-rout",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2010-11/research/independent-review-second.md"
     }
   ],
   "reused": [],

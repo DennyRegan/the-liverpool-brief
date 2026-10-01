@@ -40,12 +40,12 @@ URL: https://www.uefa.com/uefasupercup/news/025c-0f45d9ead669-2f30e3f2eef3-1000-
 
 Confidence: High. Scope is limited to the following claims.
 
-- Retrieved official record gives Mane48,95; Giroud36; Jorginho101penalty. Confirms Liverpool shootout victory.
+- Retrieved official record gives Mane 48,95; Giroud 36; Jorginho 101 penalty. Confirms Liverpool shootout victory.
 
 ## Conflicts and limitations
 
-- LFC introduction incorrectly describes Mane second goal as eight minutes into extra time. UEFA and LFChistory give95 minutes; use95, not98.
-- Shootout score is separate from the2–2 match score.
+- LFC introduction incorrectly describes Mane second goal as eight minutes into extra time. UEFA and LFChistory give 95 minutes; use 95, not 98.
+- Shootout score is separate from the 2–2 match score.
 - Full line-ups, substitutions, exact goal times and any further records must be checked against the retrieved tables and an independent source before manuscript use. Omit details not supported by those checks.
 - No match footage has been viewed; no quotation, crowd description, tactical motive or injury diagnosis is authorised by these notes unless explicitly supported above.
 - These are concise paraphrased research claims, not article prose. Final drafting should use connected original prose and retain source attribution in editorial notes.

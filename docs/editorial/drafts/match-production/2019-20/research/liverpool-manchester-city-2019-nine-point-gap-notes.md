@@ -21,8 +21,8 @@ URL: https://www.liverpoolfc.com/news/first-team/372789-match-report-liverpool-m
 
 Confidence: High. Scope is limited to the following claims.
 
-- Fabinho struck from outside the penalty area after Rodri’s clearance; Salah headed Robertson’s delivery for a two-goal lead inside13minutes.
-- Mane headed Henderson’s cross after the interval. Bernardo Silva reduced the deficit in the78th minute.
+- Fabinho struck from outside the penalty area after Rodri’s clearance; Salah headed Robertson’s delivery for a two-goal lead inside 13 minutes.
+- Mane headed Henderson’s cross after the interval. Bernardo Silva reduced the deficit in the 78th minute.
 - Liverpool finished eight points ahead at the top and nine ahead of Manchester City.
 - Alisson stopped Aguero; an Angelino effort touched Robertson and hit the post.
 

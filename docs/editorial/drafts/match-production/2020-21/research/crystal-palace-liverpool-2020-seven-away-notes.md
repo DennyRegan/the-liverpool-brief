@@ -21,10 +21,10 @@ URL: https://www.liverpoolfc.com/news/first-team/420827-match-report-crystal-pal
 
 Confidence: High. Scope is limited to the following claims.
 
-- Minamino scored his first Premier League goal after125seconds; Mane and Firmino made it3–0before half-time.
+- Minamino scored his first Premier League goal after 125 seconds; Mane and Firmino made it 3–0 before half-time.
 - Henderson scored early in the second half. Firmino added a second and substitute Salah scored twice, once with a header and once from outside the box.
 - Liverpool went six points clear immediately after this match.
-- Matip,Keita and Minamino started, with Salah on the bench. Oxlade-Chamberlain made his first appearance of the season.
+- Matip, Keita and Minamino started, with Salah on the bench. Oxlade-Chamberlain made his first appearance of the season.
 
 ### Source 2: LFChistory
 

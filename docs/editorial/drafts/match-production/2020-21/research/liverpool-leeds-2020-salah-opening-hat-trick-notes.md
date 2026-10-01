@@ -21,10 +21,10 @@ URL: https://www.liverpoolfc.com/amp/news/first-team/408335-liverpool-leeds-matc
 
 Confidence: High. Scope is limited to the following claims.
 
-- Salah scored three goals, including two penalties, while Van Dijk headed the other Liverpool goal in a4–3opening-day win.
-- Leeds equalised three times through Harrison,Bamford and Klich. Liverpool led3–2at half-time.
+- Salah scored three goals, including two penalties, while Van Dijk headed the other Liverpool goal in a 4–3 opening-day win.
+- Leeds equalised three times through Harrison, Bamford and Klich. Liverpool led 3–2 at half-time.
 - Koch’s handball brought the first penalty. Rodrigo fouled substitute Fabinho for the late deciding penalty.
-- Liverpool extended their home league unbeaten run to60matches.
+- Liverpool extended their home league unbeaten run to 60 matches.
 
 ### Source 2: LFChistory
 

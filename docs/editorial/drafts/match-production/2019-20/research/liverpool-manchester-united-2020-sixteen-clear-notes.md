@@ -21,9 +21,9 @@ URL: https://www.liverpoolfc.com/news/first-team/383351-liverpool-manchester-uni
 
 Confidence: High. Scope is limited to the following claims.
 
-- Van Dijk headed Alexander-Arnold’s corner in the14th minute. Salah secured the result in stoppage time after Alisson’s long pass.
+- Van Dijk headed Alexander-Arnold’s corner in the 14th minute. Salah secured the result in stoppage time after Alisson’s long pass.
 - Firmino had a goal ruled out by VAR; De Gea pushed Henderson’s effort onto a post.
-- Liverpool moved16points clear. United had been the only side to deny Liverpool a league win in the preceding21matches that season.
+- Liverpool moved 16 points clear. United had been the only side to deny Liverpool a league win in the preceding 21 matches that season.
 - The Liverpool starting line-up was unchanged from the win at Tottenham; Fabinho and Matip returned to the bench.
 
 ### Source 2: LFChistory

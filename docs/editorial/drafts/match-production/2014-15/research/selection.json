@@ -37,7 +37,9 @@
       "competitionId": "european-cup",
       "score": "Liverpool 2–1 Ludogorets Razgrad",
       "slug": "liverpool-ludogorets-2014-champions-league-return",
-      "reason": "Champions League return after five years, won through a late Gerrard penalty."
+      "reason": "Champions League return after five years, won through a late Gerrard penalty.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2014-15/research/independent-review.md"
     },
     {
       "date": "2014-09-23",
@@ -46,7 +48,9 @@
       "competitionId": "league-cup",
       "score": "Liverpool 2–2 Middlesbrough (Liverpool won 14–13 on penalties)",
       "slug": "liverpool-middlesbrough-2014-thirty-penalty-shootout",
-      "reason": "Thirty-kick shoot-out and Rossiter debut goal make a unique cup tie."
+      "reason": "Thirty-kick shoot-out and Rossiter debut goal make a unique cup tie.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2014-15/research/independent-review.md"
     },
     {
       "date": "2014-12-09",
@@ -55,7 +59,9 @@
       "competitionId": "european-cup",
       "score": "Liverpool 1–1 Basel",
       "slug": "liverpool-basel-2014-champions-league-exit",
-      "reason": "Home draw eliminates Liverpool at the group stage despite Gerrard free-kick."
+      "reason": "Home draw eliminates Liverpool at the group stage despite Gerrard free-kick.",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2014-15/research/independent-review.md"
     },
     {
       "date": "2015-01-27",
@@ -64,7 +70,9 @@
       "competitionId": "league-cup",
       "score": "Chelsea 1–0 Liverpool (after extra time)",
       "slug": "chelsea-liverpool-2015-league-cup-semi-final",
-      "reason": "Extra-time defeat ends a closely contested semi-final, first of two domestic last-four exits."
+      "reason": "Extra-time defeat ends a closely contested semi-final, first of two domestic last-four exits.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2014-15/research/independent-review.md"
     },
     {
       "date": "2015-02-26",
@@ -73,7 +81,9 @@
       "competitionId": "uefa-cup",
       "score": "Beşiktaş 1–0 Liverpool (Beşiktaş won 5–4 on penalties)",
       "slug": "besiktas-liverpool-2015-shootout-european-exit",
-      "reason": "European elimination on penalties in the return to the Atatürk Stadium."
+      "reason": "European elimination on penalties in the return to the Atatürk Stadium.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2014-15/research/independent-review.md"
     },
     {
       "date": "2015-03-01",
@@ -82,7 +92,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 2–1 Manchester City",
       "slug": "liverpool-manchester-city-2015-coutinho-winner",
-      "reason": "Victory against defending champions represents the strongest phase of the recovery towards the top four."
+      "reason": "Victory against defending champions represents the strongest phase of the recovery towards the top four.",
+      "workerId": "/root/astra_2008_2013",
+      "reviewFile": "docs/editorial/drafts/match-production/2014-15/research/independent-review-second.md"
     },
     {
       "date": "2015-03-22",
@@ -91,7 +103,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 1–2 Manchester United",
       "slug": "liverpool-manchester-united-2015-gerrard-red-card",
-      "reason": "Gerrard dismissal and defeat against direct Champions League qualification rivals."
+      "reason": "Gerrard dismissal and defeat against direct Champions League qualification rivals.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2014-15/research/independent-review-second.md"
     },
     {
       "date": "2015-04-19",
@@ -100,7 +114,9 @@
       "competitionId": "fa-cup",
       "score": "Aston Villa 2–1 Liverpool",
       "slug": "aston-villa-liverpool-2015-fa-cup-semi-final",
-      "reason": "FA Cup semi-final loss ends remaining trophy possibility in Gerrard final season."
+      "reason": "FA Cup semi-final loss ends remaining trophy possibility in Gerrard final season.",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2014-15/research/independent-review-second.md"
     },
     {
       "date": "2015-05-16",
@@ -109,7 +125,9 @@
       "competitionId": "premier-league",
       "score": "Liverpool 1–3 Crystal Palace",
       "slug": "liverpool-crystal-palace-2015-gerrard-anfield-farewell",
-      "reason": "Gerrard final Anfield appearance, preserved as a match rather than a career biography."
+      "reason": "Gerrard final Anfield appearance, preserved as a match rather than a career biography.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2014-15/research/independent-review-second.md"
     },
     {
       "date": "2015-05-24",
@@ -118,7 +136,9 @@
       "competitionId": "premier-league",
       "score": "Stoke City 6–1 Liverpool",
       "slug": "stoke-liverpool-2015-gerrard-final-match",
-      "reason": "Major defeat on Gerrard final Liverpool appearance and the season concluding fixture."
+      "reason": "Major defeat on Gerrard final Liverpool appearance and the season concluding fixture.",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2014-15/research/independent-review-second.md"
     }
   ],
   "reusedPaths": [],

@@ -1,6 +1,6 @@
 # Season research: 1966–67
 
-Researcher: `/root/astra_decade_writer`. Actual configured model: `gpt-6-astra`. Fresh retrieval: 1 October 2026. This evidence and selection record is not a production-status authority. Manuscripts await the parent’s remote calendar claims.
+Researcher: `/root/astra_decade_writer`. Actual configured model: `gpt-6-astra`. Fresh retrieval: 1 October 2026. This evidence and selection record is not a production-status authority. Selection research preceded the parent’s remote calendar claims at `9bfb52d073f23d3e7badbd77b6de070476da9c8a`; manuscripts were written only after that release.
 
 ## Whole-season evidence
 
@@ -24,7 +24,7 @@ The FA Cup route was Watford away 0–0 and home 3–1, Aston Villa home 1–0, 
 
 ## Selection and exclusions
 
-Ten matches are proposed, for the individual reasons in selections.json. The number follows their distinct stories, not a quota. They cover the opening trophy, early derby reversal, European survival and elimination, league recovery and first place, a significant debut, the FA Cup exit and the spring decline’s endpoint.
+Ten matches were selected, for the individual reasons in selections.json. The number follows their distinct stories, not a quota. They cover the opening trophy, early derby reversal, European survival and elimination, league recovery and first place, a significant debut, the FA Cup exit and the spring decline’s endpoint.
 
 The Petrolul first two legs are essential context within the Brussels report, rather than automatic separate reports. The opening Leicester win and Manchester City defeat provide the early sequence; the Ball derby offers more distinct match and rivalry development. The November Forest and Burnley wins are represented within the Leeds recovery sequence. The Christmas Eve Chelsea match is reconstructed as context for the Boxing Day return to the top. Ross’s January substitute debut and Ogston’s solitary appearance were considered; a debut alone does not require a separate article without enough distinct match consequence. The Watford replay and Villa cup win belong in the complete route. The March Manchester United and Arsenal draws show missed opportunities but do not displace the clearer Stoke/cup-exit/final-day sequence. The Blackpool finale is selected for the season ending and Milne/Wilson transition, not merely because Wilson debuted.
 
@@ -46,4 +46,8 @@ Important limitations already found: 11v11’s Leeds attendance differs from LFC
 | https://www.lfchistory.net/season-archive/transfers/8 | LFChistory | Incoming and outgoing players; exact fees and dates require corroboration where used. | High for specified records. |
 | https://www.rsssf.org/ec/ec196667.html | RSSSF | All European ties and aggregate outcomes, including neutral Petrolul play-off. | High for specified records. |
 
-All ten individual match records have been freshly retrieved and read. Exact URLs and additional official or independent sources appear in selections.json. Detailed contemporary match-action retrieval continues before prose. New identities required after registry search: Ajax, Petrolul Ploiești, Olympic Stadium Amsterdam, Johan Cruyff and Alan Ball. Existing heysel-stadium is reused.
+All ten individual match records have been freshly retrieved and read. Exact URLs and additional official or independent sources appear in selections.json. Further contemporary match-action retrieval was completed before the relevant prose and is documented in the ten per-match audits. Root added the following required identities after registry search: Ajax, Petrolul Ploiești, Olympic Stadium Amsterdam, Johan Cruyff and Alan Ball. Existing heysel-stadium is reused.
+
+## Match-action retrieval and audit handoff
+
+All ten selected manuscripts now have separate scoped source/claim audits. The contemporary Petrolul and Ajax report compilations were retrieved as HTML through the independent checker after direct web opens failed; the writer personally read the extracted originals. The Chelsea Horace Yates clipping and Ajax crowd report were visually inspected. The Alex Young cup-derby recollection was read through freshly retrieved indexed PDF text, not claimed as visually inspected footage or pages. Contradictory goal providers, minutes, venue labels and retrospective anecdotes are resolved or omitted as recorded in the individual notes. Manuscript source lists identify actual used URLs. No article is approved or published by this evidence handoff.

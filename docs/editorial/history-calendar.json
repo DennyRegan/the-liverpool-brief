@@ -9911,7 +9911,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T21:18:54.184861Z",
+  "updatedAt": "2026-10-01T21:31:32.440736Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -19323,15 +19323,11 @@
       "event": "Sunderland 1–0 Liverpool",
       "historicalEventDate": "2009-10-17",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_2008_2013; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "473ea06c-a775-4c9a-a5bd-832746731c52",
-        "claimedAt": "2026-10-01T21:18:54.184861Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2009-10/beach-ball-sunderland-defeat-2009.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19346,28 +19342,38 @@
           "location": "docs/editorial/drafts/match-production/2009-10/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/beach-ball-sunderland-defeat-2009-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2009-10",
         "season": "2009-10",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Sunderland 1–0 Liverpool",
         "opposition": "Sunderland",
         "score": "1–0",
         "editorialReason": "A unique decisive outside interference incident in a damaging fourth league defeat.",
         "sourceFiles": [
+          "docs/editorial/drafts/match-production/2009-10/research/season-research.md",
           "docs/editorial/drafts/match-production/2009-10/research/selection.json",
-          "docs/editorial/drafts/match-production/2009-10/research/season-research.md"
+          "docs/editorial/drafts/match-production/2009-10/research/beach-ball-sunderland-defeat-2009-notes.md",
+          "docs/editorial/drafts/match-production/2009-10/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_2008_2013",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -19375,15 +19381,11 @@
       "event": "Liverpool 2–0 Manchester United",
       "historicalEventDate": "2009-10-25",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_2008_2013; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "3003a29b-bfd2-43dc-adf1-055d9272e08e",
-        "claimedAt": "2026-10-01T21:18:54.184861Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2009-10/torres-ngog-united-response-2009.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19398,28 +19400,38 @@
           "location": "docs/editorial/drafts/match-production/2009-10/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/torres-ngog-united-response-2009-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2009-10",
         "season": "2009-10",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–0 Manchester United",
         "opposition": "Manchester United",
         "score": "2–0",
         "editorialReason": "Ends four successive defeats; a third consecutive league win over United.",
         "sourceFiles": [
+          "docs/editorial/drafts/match-production/2009-10/research/season-research.md",
           "docs/editorial/drafts/match-production/2009-10/research/selection.json",
-          "docs/editorial/drafts/match-production/2009-10/research/season-research.md"
+          "docs/editorial/drafts/match-production/2009-10/research/torres-ngog-united-response-2009-notes.md",
+          "docs/editorial/drafts/match-production/2009-10/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_2008_2013",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -19427,15 +19439,11 @@
       "event": "Lyon 1–1 Liverpool",
       "historicalEventDate": "2009-11-04",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_2008_2013; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "886745ef-b030-48af-ad94-12889dcdec06",
-        "claimedAt": "2026-10-01T21:18:54.184861Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2009-10/lyon-late-equaliser-2009.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19450,28 +19458,38 @@
           "location": "docs/editorial/drafts/match-production/2009-10/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/lyon-late-equaliser-2009-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2009-10",
         "season": "2009-10",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Lyon 1–1 Liverpool",
         "opposition": "Lyon",
         "score": "1–1",
         "editorialReason": "Late concession leaves Liverpool on brink of Champions League group elimination; Babel goal denied victory.",
         "sourceFiles": [
+          "docs/editorial/drafts/match-production/2009-10/research/season-research.md",
           "docs/editorial/drafts/match-production/2009-10/research/selection.json",
-          "docs/editorial/drafts/match-production/2009-10/research/season-research.md"
+          "docs/editorial/drafts/match-production/2009-10/research/lyon-late-equaliser-2009-notes.md",
+          "docs/editorial/drafts/match-production/2009-10/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_2008_2013",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -19479,15 +19497,11 @@
       "event": "Liverpool 1–2 Reading after extra time",
       "historicalEventDate": "2010-01-13",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_2007_08; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "a0f984d7-e3c1-4e74-866e-1e7cf1ab9fcb",
-        "claimedAt": "2026-10-01T21:18:54.184861Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2009-10/reading-anfield-fa-cup-upset-2010.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19502,28 +19516,38 @@
           "location": "docs/editorial/drafts/match-production/2009-10/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/reading-anfield-fa-cup-upset-2010-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2009-10",
         "season": "2009-10",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–2 Reading after extra time",
         "opposition": "Reading",
         "score": "1–2",
         "editorialReason": "Third-round replay loss to Championship opposition after late penalty and extra-time winner.",
         "sourceFiles": [
+          "docs/editorial/drafts/match-production/2009-10/research/season-research.md",
           "docs/editorial/drafts/match-production/2009-10/research/selection.json",
-          "docs/editorial/drafts/match-production/2009-10/research/season-research.md"
+          "docs/editorial/drafts/match-production/2009-10/research/reading-anfield-fa-cup-upset-2010-notes.md",
+          "docs/editorial/drafts/match-production/2009-10/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_2007_08",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -19531,15 +19555,11 @@
       "event": "Liverpool 1–0 Everton",
       "historicalEventDate": "2010-02-06",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_2007_08; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "aef0cadf-e068-4fa1-9ba9-9c9f9c3c5f48",
-        "claimedAt": "2026-10-01T21:18:54.184861Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2009-10/kuyt-ten-man-derby-2010.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19554,28 +19574,38 @@
           "location": "docs/editorial/drafts/match-production/2009-10/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/kuyt-ten-man-derby-2010-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2009-10",
         "season": "2009-10",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–0 Everton",
         "opposition": "Everton",
         "score": "1–0",
         "editorialReason": "Ten-man Liverpool win derby through Kuyt after Kyrgiakos dismissal.",
         "sourceFiles": [
+          "docs/editorial/drafts/match-production/2009-10/research/season-research.md",
           "docs/editorial/drafts/match-production/2009-10/research/selection.json",
-          "docs/editorial/drafts/match-production/2009-10/research/season-research.md"
+          "docs/editorial/drafts/match-production/2009-10/research/kuyt-ten-man-derby-2010-notes.md",
+          "docs/editorial/drafts/match-production/2009-10/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_2007_08",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -19583,15 +19613,11 @@
       "event": "Liverpool 3–0 Lille",
       "historicalEventDate": "2010-03-18",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_2007_08; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "4f05c138-9c91-4d46-b22e-8aadd869475e",
-        "claimedAt": "2026-10-01T21:18:54.184861Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2009-10/torres-lille-european-recovery-2010.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19606,28 +19632,38 @@
           "location": "docs/editorial/drafts/match-production/2009-10/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/torres-lille-european-recovery-2010-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2009-10",
         "season": "2009-10",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–0 Lille",
         "opposition": "Lille",
         "score": "3–0",
         "editorialReason": "Overturns one-goal first-leg deficit to reach Europa League quarter-final.",
         "sourceFiles": [
+          "docs/editorial/drafts/match-production/2009-10/research/season-research.md",
           "docs/editorial/drafts/match-production/2009-10/research/selection.json",
-          "docs/editorial/drafts/match-production/2009-10/research/season-research.md"
+          "docs/editorial/drafts/match-production/2009-10/research/torres-lille-european-recovery-2010-notes.md",
+          "docs/editorial/drafts/match-production/2009-10/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_2007_08",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -19635,15 +19671,11 @@
       "event": "Liverpool 4–1 Benfica",
       "historicalEventDate": "2010-04-08",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_independent_review; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "69851ef2-850b-4f27-a957-0c078e382adc",
-        "claimedAt": "2026-10-01T21:18:54.184861Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2009-10/torres-benfica-semi-final-2010.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19658,28 +19690,38 @@
           "location": "docs/editorial/drafts/match-production/2009-10/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/torres-benfica-semi-final-2010-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2009-10",
         "season": "2009-10",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 4–1 Benfica",
         "opposition": "Benfica",
         "score": "4–1",
         "editorialReason": "Another first-leg deficit overturned; Torres double takes Liverpool to semi-final.",
         "sourceFiles": [
+          "docs/editorial/drafts/match-production/2009-10/research/season-research.md",
           "docs/editorial/drafts/match-production/2009-10/research/selection.json",
-          "docs/editorial/drafts/match-production/2009-10/research/season-research.md"
+          "docs/editorial/drafts/match-production/2009-10/research/torres-benfica-semi-final-2010-notes.md",
+          "docs/editorial/drafts/match-production/2009-10/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_independent_review",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -19687,15 +19729,11 @@
       "event": "Liverpool 2–1 Atlético Madrid after extra time",
       "historicalEventDate": "2010-04-29",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "gpt-6-astra /root/astra_independent_review; remaining-match-production-2026-10-01",
-      "claim": {
-        "token": "2b76446e-208e-4986-9509-c75c0f59e75e",
-        "claimedAt": "2026-10-01T21:18:54.184861Z",
-        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2009-10/forlan-ends-liverpool-european-run-2010.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19710,28 +19748,38 @@
           "location": "docs/editorial/drafts/match-production/2009-10/research/selection.json",
           "confidence": "high",
           "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/forlan-ends-liverpool-european-run-2010-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved source register, confidence scopes, conflicts/omissions and finished factual verification by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2009-10/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Astra factual review; exact evidence and limitations retained in this note."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2009-10",
         "season": "2009-10",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–1 Atlético Madrid after extra time",
         "opposition": "Atlético Madrid",
         "score": "2–1",
         "editorialReason": "Extra-time away goal ends final European campaign of Benítez’s Liverpool tenure.",
         "sourceFiles": [
+          "docs/editorial/drafts/match-production/2009-10/research/season-research.md",
           "docs/editorial/drafts/match-production/2009-10/research/selection.json",
-          "docs/editorial/drafts/match-production/2009-10/research/season-research.md"
+          "docs/editorial/drafts/match-production/2009-10/research/forlan-ends-liverpool-european-run-2010-notes.md",
+          "docs/editorial/drafts/match-production/2009-10/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_independent_review",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -19739,9 +19787,13 @@
       "event": "Liverpool 2–2 Northampton Town; Northampton won 4–2 on penalties",
       "historicalEventDate": "2010-09-22",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_2008_2013; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "9d3b967d-5d5e-4be8-aaae-ef22f52649bc",
+        "claimedAt": "2026-10-01T21:31:32.440736Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
@@ -19749,6 +19801,11 @@
       "approval": null,
       "notes": "League Two opposition eliminate Liverpool at Anfield.",
       "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
         {
           "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
           "confidence": "high",
@@ -19782,9 +19839,13 @@
       "event": "Everton 2–0 Liverpool",
       "historicalEventDate": "2010-10-17",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_2008_2013; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "2ed119c4-b4e7-461c-a2f1-ef1ac84bde40",
+        "claimedAt": "2026-10-01T21:31:32.440736Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
@@ -19792,6 +19853,11 @@
       "approval": null,
       "notes": "First game following ownership takeover ends in derby defeat and leaves Liverpool nineteenth.",
       "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
         {
           "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
           "confidence": "high",
@@ -19825,9 +19891,13 @@
       "event": "Liverpool 3–1 Napoli",
       "historicalEventDate": "2010-11-04",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_2008_2013; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "9c09081a-c571-4f8b-911d-a81b335dd34d",
+        "claimedAt": "2026-10-01T21:31:32.440736Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
@@ -19835,6 +19905,11 @@
       "approval": null,
       "notes": "Half-time substitute scores three late goals to transform European match.",
       "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
         {
           "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
           "confidence": "high",
@@ -19868,9 +19943,13 @@
       "event": "Blackburn Rovers 3–1 Liverpool",
       "historicalEventDate": "2011-01-05",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_2007_08; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "1c824d76-8f0b-457b-a48e-31c9076fce1c",
+        "claimedAt": "2026-10-01T21:31:32.440736Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
@@ -19878,6 +19957,11 @@
       "approval": null,
       "notes": "Final match of Hodgson tenure; managerial turning point.",
       "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
         {
           "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
           "confidence": "high",
@@ -19900,7 +19984,7 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md"
         ],
         "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "workerId": "/root/astra_2007_08",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -19911,9 +19995,13 @@
       "event": "Manchester United 1–0 Liverpool",
       "historicalEventDate": "2011-01-09",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_2007_08; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "0112ac8e-a90c-46b2-9675-679579ac5f7a",
+        "claimedAt": "2026-10-01T21:31:32.440736Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
@@ -19921,6 +20009,11 @@
       "approval": null,
       "notes": "Dalglish’s first match after returning ends in FA Cup defeat; early penalty and Gerrard dismissal.",
       "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
         {
           "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
           "confidence": "high",
@@ -19943,7 +20036,7 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md"
         ],
         "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "workerId": "/root/astra_2007_08",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -19954,9 +20047,13 @@
       "event": "Liverpool 2–0 Stoke City",
       "historicalEventDate": "2011-02-02",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_2007_08; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "8121a3cd-e7c1-4d93-9d6c-4c27e8ac4ecf",
+        "claimedAt": "2026-10-01T21:31:32.440736Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
@@ -19964,6 +20061,11 @@
       "approval": null,
       "notes": "Suárez scores on debut after Torres departure, a significant transition in attack.",
       "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
         {
           "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
           "confidence": "high",
@@ -19986,7 +20088,7 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md"
         ],
         "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "workerId": "/root/astra_2007_08",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -19997,9 +20099,13 @@
       "event": "Chelsea 0–1 Liverpool",
       "historicalEventDate": "2011-02-06",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_independent_review; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "40c6ca01-a15a-48d9-b02f-516223e525b1",
+        "claimedAt": "2026-10-01T21:31:32.440736Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
@@ -20007,6 +20113,11 @@
       "approval": null,
       "notes": "Victory on Torres’s Chelsea debut; fourth successive league win under Dalglish.",
       "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
         {
           "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
           "confidence": "high",
@@ -20029,7 +20140,7 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md"
         ],
         "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "workerId": "/root/astra_independent_review",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -20040,9 +20151,13 @@
       "event": "Liverpool 3–1 Manchester United",
       "historicalEventDate": "2011-03-06",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_independent_review; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "76b0d92f-d706-4725-b2fa-bac5f5a9abcb",
+        "claimedAt": "2026-10-01T21:31:32.440736Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
@@ -20050,6 +20165,11 @@
       "approval": null,
       "notes": "Kuyt hat-trick against league leaders; Suárez central to opening goal.",
       "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
         {
           "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
           "confidence": "high",
@@ -20072,7 +20192,7 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md"
         ],
         "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "workerId": "/root/astra_independent_review",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -20083,9 +20203,13 @@
       "event": "Fulham 2–5 Liverpool",
       "historicalEventDate": "2011-05-09",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_independent_review; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "1f7efcc1-02c1-4861-8278-43a415f358fa",
+        "claimedAt": "2026-10-01T21:31:32.440736Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
@@ -20093,6 +20217,11 @@
       "approval": null,
       "notes": "Maxi hat-trick and fifth place mark height of spring recovery.",
       "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+        },
         {
           "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
           "confidence": "high",
@@ -20115,7 +20244,7 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md"
         ],
         "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "workerId": "/root/astra_independent_review",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -27393,13 +27522,9 @@
       "event": "Everton 0–1 Liverpool: Hunt settles the all-Merseyside Charity Shield",
       "historicalEventDate": "1966-08-13",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1966-08-13",
-        "claimedAt": "2026-10-01T21:04:35.478378Z",
-        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1966-charity-shield.md",
       "originalDraftId": null,
@@ -27408,23 +27533,30 @@
       "notes": "The league champions and FA Cup holders meet after England’s World Cup victory; Hunt supplies the only goal and Liverpool’s sole trophy of this campaign.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1966-charity-shield-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1966-67",
         "season": "1966-67",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Everton 0–1 Liverpool",
         "opposition": "Everton",
         "score": "0–1",
         "editorialReason": "The league champions and FA Cup holders meet after England’s World Cup victory; Hunt supplies the only goal and Liverpool’s sole trophy of this campaign.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1966-charity-shield-notes.md",
+          "docs/editorial/drafts/1960s/1966-67/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -27436,13 +27568,9 @@
       "event": "Everton 3–1 Liverpool: Ball’s double overturns Liverpool’s Goodison advantage",
       "historicalEventDate": "1966-08-27",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1966-08-27",
-        "claimedAt": "2026-10-01T21:04:35.478378Z",
-        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1966-ball-double.md",
       "originalDraftId": null,
@@ -27451,23 +27579,30 @@
       "notes": "Two weeks after the Shield, the league derby reverses the result and leaves the champions with two defeats in their first three league games; Ball’s arrival changes the immediate rivalry.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1966-ball-double-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1966-67",
         "season": "1966-67",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Everton 3–1 Liverpool",
         "opposition": "Everton",
         "score": "3–1",
         "editorialReason": "Two weeks after the Shield, the league derby reverses the result and leaves the champions with two defeats in their first three league games; Ball’s arrival changes the immediate rivalry.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1966-ball-double-notes.md",
+          "docs/editorial/drafts/1960s/1966-67/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -27479,13 +27614,9 @@
       "event": "Liverpool 2–0 Petrolul Ploiești: Liverpool settle the Petrolul tie in Brussels",
       "historicalEventDate": "1966-10-19",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1966-10-19",
-        "claimedAt": "2026-10-01T21:04:35.478378Z",
-        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-petrolul-1966-brussels-play-off.md",
       "originalDraftId": null,
@@ -27494,23 +27625,30 @@
       "notes": "A neutral third match is needed after the first two legs finish 3–3 on aggregate; first-half goals settle an unexpectedly extended opening European tie.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-petrolul-1966-brussels-play-off-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1966-67",
         "season": "1966-67",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–0 Petrolul Ploiești",
         "opposition": "Petrolul Ploiești",
         "score": "2–0",
         "editorialReason": "A neutral third match is needed after the first two legs finish 3–3 on aggregate; first-half goals settle an unexpectedly extended opening European tie.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "docs/editorial/drafts/1960s/1966-67/research/liverpool-petrolul-1966-brussels-play-off-notes.md",
+          "docs/editorial/drafts/1960s/1966-67/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -27522,13 +27660,9 @@
       "event": "Liverpool 5–0 Leeds United: Liverpool’s second-half rush overwhelms Leeds",
       "historicalEventDate": "1966-11-19",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1966-11-19",
-        "claimedAt": "2026-10-01T21:04:35.478378Z",
-        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-leeds-1966-five-goals.md",
       "originalDraftId": null,
@@ -27537,23 +27671,30 @@
       "notes": "The fourth consecutive league win completes a 13–0 November sequence and brings Liverpool within one point of the leaders; a major recovery from their uneven start.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-leeds-1966-five-goals-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1966-67",
         "season": "1966-67",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 5–0 Leeds United",
         "opposition": "Leeds United",
         "score": "5–0",
         "editorialReason": "The fourth consecutive league win completes a 13–0 November sequence and brings Liverpool within one point of the leaders; a major recovery from their uneven start.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "docs/editorial/drafts/1960s/1966-67/research/liverpool-leeds-1966-five-goals-notes.md",
+          "docs/editorial/drafts/1960s/1966-67/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -27565,13 +27706,9 @@
       "event": "Ajax 5–1 Liverpool: Ajax leave Liverpool four goals adrift in Amsterdam",
       "historicalEventDate": "1966-12-07",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1966-12-07",
-        "claimedAt": "2026-10-01T21:04:35.478378Z",
-        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1966-67/ajax-liverpool-1966-fog-defeat.md",
       "originalDraftId": null,
@@ -27580,23 +27717,30 @@
       "notes": "The season’s defining European reverse demands its own reconstruction, with a four-goal first half and a young Cruyff among the scorers; fog is verified but is not a substitute for Ajax’s performance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1966-67/research/ajax-liverpool-1966-fog-defeat-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1966-67",
         "season": "1966-67",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Ajax 5–1 Liverpool",
         "opposition": "Ajax",
         "score": "5–1",
         "editorialReason": "The season’s defining European reverse demands its own reconstruction, with a four-goal first half and a young Cruyff among the scorers; fog is verified but is not a substitute for Ajax’s performance.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "docs/editorial/drafts/1960s/1966-67/research/ajax-liverpool-1966-fog-defeat-notes.md",
+          "docs/editorial/drafts/1960s/1966-67/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -27608,13 +27752,9 @@
       "event": "Liverpool 2–2 Ajax: Cruyff and Hunt trade goals as Ajax end Liverpool’s European Cup",
       "historicalEventDate": "1966-12-14",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1966-12-14",
-        "claimedAt": "2026-10-01T21:04:35.478378Z",
-        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-ajax-1966-european-cup-exit.md",
       "originalDraftId": null,
@@ -27623,23 +27763,30 @@
       "notes": "The return independently demonstrates Ajax’s quality at Anfield and closes Liverpool’s European campaign; the alternating two-goal contributions are distinct from the fog game.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-ajax-1966-european-cup-exit-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1966-67",
         "season": "1966-67",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–2 Ajax",
         "opposition": "Ajax",
         "score": "2–2",
         "editorialReason": "The return independently demonstrates Ajax’s quality at Anfield and closes Liverpool’s European campaign; the alternating two-goal contributions are distinct from the fog game.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "docs/editorial/drafts/1960s/1966-67/research/liverpool-ajax-1966-european-cup-exit-notes.md",
+          "docs/editorial/drafts/1960s/1966-67/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -27651,13 +27798,9 @@
       "event": "Liverpool 2–1 Chelsea: Liverpool complete the Christmas double and go top",
       "historicalEventDate": "1966-12-26",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1966-12-26",
-        "claimedAt": "2026-10-01T21:04:35.478378Z",
-        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-chelsea-1966-boxing-day-lead.md",
       "originalDraftId": null,
@@ -27666,23 +27809,30 @@
       "notes": "A second 2–1 win over Chelsea in three days puts Liverpool first on goal average, showing the domestic challenge remained viable after European elimination.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-chelsea-1966-boxing-day-lead-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1966-67",
         "season": "1966-67",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–1 Chelsea",
         "opposition": "Chelsea",
         "score": "2–1",
         "editorialReason": "A second 2–1 win over Chelsea in three days puts Liverpool first on goal average, showing the domestic challenge remained viable after European elimination.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "docs/editorial/drafts/1960s/1966-67/research/liverpool-chelsea-1966-boxing-day-lead-notes.md",
+          "docs/editorial/drafts/1960s/1966-67/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -27694,13 +27844,9 @@
       "event": "Liverpool 2–1 Stoke City: Hughes begins as Liverpool return to the top",
       "historicalEventDate": "1967-03-04",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1967-03-04",
-        "claimedAt": "2026-10-01T21:04:35.478378Z",
-        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-stoke-1967-hughes-debut.md",
       "originalDraftId": null,
@@ -27709,23 +27855,30 @@
       "notes": "An important new player makes his debut while Lawler and Hunt secure what proves Liverpool’s last return to first place this season.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-stoke-1967-hughes-debut-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1966-67",
         "season": "1966-67",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–1 Stoke City",
         "opposition": "Stoke City",
         "score": "2–1",
         "editorialReason": "An important new player makes his debut while Lawler and Hunt secure what proves Liverpool’s last return to first place this season.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "docs/editorial/drafts/1960s/1966-67/research/liverpool-stoke-1967-hughes-debut-notes.md",
+          "docs/editorial/drafts/1960s/1966-67/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -27737,13 +27890,9 @@
       "event": "Everton 1–0 Liverpool: Ball ends Liverpool’s cup run before two Merseyside crowds",
       "historicalEventDate": "1967-03-11",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1967-03-11",
-        "claimedAt": "2026-10-01T21:04:35.478378Z",
-        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1967-fa-cup-screens.md",
       "originalDraftId": null,
@@ -27752,23 +27901,30 @@
       "notes": "The fifth-round defeat ends the cup campaign and is watched at both Goodison and on screens at Anfield; match consequence and broadcasting arrangement both matter.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1967-fa-cup-screens-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1966-67",
         "season": "1966-67",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Everton 1–0 Liverpool",
         "opposition": "Everton",
         "score": "1–0",
         "editorialReason": "The fifth-round defeat ends the cup campaign and is watched at both Goodison and on screens at Anfield; match consequence and broadcasting arrangement both matter.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1967-fa-cup-screens-notes.md",
+          "docs/editorial/drafts/1960s/1966-67/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -27780,13 +27936,9 @@
       "event": "Liverpool 1–3 Blackpool: Blackpool end Liverpool’s fading title defence with three",
       "historicalEventDate": "1967-05-13",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
-      "claim": {
-        "token": "1960s-production-1967-05-13",
-        "claimedAt": "2026-10-01T21:04:35.478378Z",
-        "baseCommit": "c4adbc3851250d8a148f0881efbcc541d00c0088"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1966-67/liverpool-blackpool-1967-season-finale.md",
       "originalDraftId": null,
@@ -27795,23 +27947,30 @@
       "notes": "The relegated bottom club wins at Anfield to close Liverpool’s slide to fifth; Milne’s last appearance and Wilson’s only appearance give the final fixture additional squad significance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-blackpool-1967-season-finale-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved match sources, confidence scopes, omissions and finished claim-by-claim factual audit by the recorded Astra worker."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1966-67/research/independent-review.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source factual review; specific source limitations and confidence scopes remain in the notes. No publication approval."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1966-67",
         "season": "1966-67",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–3 Blackpool",
         "opposition": "Blackpool",
         "score": "1–3",
         "editorialReason": "The relegated bottom club wins at Anfield to close Liverpool’s slide to fifth; Milne’s last appearance and Wilson’s only appearance give the final fixture additional squad significance.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1966-67/research/season-research.md"
+          "docs/editorial/drafts/1960s/1966-67/research/season-research.md",
+          "docs/editorial/drafts/1960s/1966-67/research/liverpool-blackpool-1967-season-finale-notes.md",
+          "docs/editorial/drafts/1960s/1966-67/research/independent-review.md"
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
@@ -27973,7 +28132,7 @@
     {
       "id": "1960s-1966-67",
       "season": "1966-67",
-      "stage": "drafting",
+      "stage": "checkpointed",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
@@ -27991,13 +28150,13 @@
         "match-1967-05-13-liverpool-blackpool-1967-season-finale"
       ],
       "reusedPaths": [],
-      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete retrieved-source match reports and their factual audits."
+      "notes": "10 finished new match reports; retrieved-source claim audits and independent Astra review completed. Awaiting Denny review; no approval/publication/schedule.",
+      "nextStage": null
     },
     {
       "id": "1960s-1967-68",
       "season": "1967-68",
-      "stage": "not_started",
+      "stage": "season_research",
       "owner": "Archive editor / 1960s production 2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_decade_writer",
@@ -28463,7 +28622,7 @@
     {
       "id": "remaining-2009-10",
       "season": "2009-10",
-      "stage": "match_research",
+      "stage": "checkpointed",
       "owner": "gpt-6-astra /root/astra_2008_2013; remaining-match-production-2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_2008_2013",
@@ -28481,13 +28640,13 @@
       "reusedPaths": [
         "content/archive/liverpool/torres-babel-six-goals-hull-2009.md"
       ],
-      "notes": "Finite unpublished production through 2024–25. Source-led selections, no quota; existing finished reports are reused.",
-      "nextStage": "Write and fact-check selected matches, validate, and push the season checkpoint."
+      "notes": "8 new complete reports; finished existing coverage reused. Unpublished, no approval or schedule. Finished source notes checked before technical validation and remote checkpoint.",
+      "nextStage": null
     },
     {
       "id": "remaining-2010-11",
       "season": "2010-11",
-      "stage": "season_research",
+      "stage": "match_research",
       "owner": "gpt-6-astra /root/astra_2008_2013; remaining-match-production-2026-10-01",
       "model": "gpt-6-astra",
       "workerId": "/root/astra_2008_2013",
@@ -28505,7 +28664,7 @@
       ],
       "reusedPaths": [],
       "notes": "Finite unpublished production through 2024–25. Source-led selections, no quota; existing finished reports are reused.",
-      "nextStage": "Claim and write 2010-09-22 / northampton-anfield-shootout-upset-2010, then the remaining selected matches in historical order."
+      "nextStage": "Write and fact-check selected matches, validate, and push the season checkpoint."
     },
     {
       "id": "remaining-2011-12",

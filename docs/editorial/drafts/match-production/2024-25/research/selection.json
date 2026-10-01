@@ -140,7 +140,9 @@
       "score": "Ipswich Town 0–2 Liverpool",
       "slug": "ipswich-liverpool-2024-slot-first-competitive-match",
       "reason": "Slot competitive debut and Salah opening-weekend scoring record begin title season.",
-      "primarySource": "https://lfcbeta.liverpoolfc.com/news/jota-and-salah-strike-give-liverpool-opening-day-victory-ipswich"
+      "primarySource": "https://lfcbeta.liverpoolfc.com/news/jota-and-salah-strike-give-liverpool-opening-day-victory-ipswich",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
     },
     {
       "date": "2024-09-01",
@@ -150,7 +152,9 @@
       "score": "Manchester United 0–3 Liverpool",
       "slug": "manchester-united-liverpool-2024-slot-old-trafford-win",
       "reason": "Decisive early rivalry victory and third successive clean-sheet league win under Slot.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-continue-perfect-start-dominant-3-0-win-old-trafford"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-continue-perfect-start-dominant-3-0-win-old-trafford",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
     },
     {
       "date": "2024-10-27",
@@ -160,7 +164,9 @@
       "score": "Arsenal 2–2 Liverpool",
       "slug": "arsenal-liverpool-2024-salah-late-equaliser",
       "reason": "Twice recovering against eventual runners-up preserves early title-race position.",
-      "primarySource": "https://www.liverpoolfc.com/news/mohamed-salah-scores-late-equaliser-liverpools-2-2-draw-arsenal"
+      "primarySource": "https://www.liverpoolfc.com/news/mohamed-salah-scores-late-equaliser-liverpools-2-2-draw-arsenal",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
     },
     {
       "date": "2024-11-27",
@@ -170,7 +176,9 @@
       "score": "Liverpool 2–0 Real Madrid",
       "slug": "liverpool-real-madrid-2024-anfield-win",
       "reason": "Significant European victory over holders with Kelleher penalty save during flawless league-phase start.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beat-real-madrid-anfield-continue-winning-streak-champions-league"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beat-real-madrid-anfield-continue-winning-streak-champions-league",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
     },
     {
       "date": "2024-12-01",
@@ -180,7 +188,9 @@
       "score": "Liverpool 2–0 Manchester City",
       "slug": "liverpool-manchester-city-2024-nine-points-clear",
       "reason": "Win over champions establishes nine-point league lead and 11-point margin over City.",
-      "primarySource": "https://lfcbeta.liverpoolfc.com/news/liverpool-beat-manchester-city-2-0-go-nine-points-clear-top-premier-league"
+      "primarySource": "https://lfcbeta.liverpoolfc.com/news/liverpool-beat-manchester-city-2-0-go-nine-points-clear-top-premier-league",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
     },
     {
       "date": "2024-12-22",
@@ -190,7 +200,9 @@
       "score": "Tottenham Hotspur 3–6 Liverpool",
       "slug": "tottenham-liverpool-2024-six-goals-at-christmas",
       "reason": "Exceptional nine-goal match confirms Christmas leadership and Salah attacking contribution.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-spend-christmas-four-points-clear-top-after-scoring-six-win-over-tottenham/"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-spend-christmas-four-points-clear-top-after-scoring-six-win-over-tottenham/",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
     },
     {
       "date": "2025-01-18",
@@ -200,7 +212,9 @@
       "score": "Brentford 0–2 Liverpool",
       "slug": "brentford-liverpool-2025-nunez-stoppage-time-double",
       "reason": "Nunez stoppage-time double turns threatened third consecutive league draw into vital win.",
-      "primarySource": "https://www.liverpoolfc.com/news/darwin-nunez-scores-two-late-goals-give-liverpool-dramatic-win-brentford?amp=1"
+      "primarySource": "https://www.liverpoolfc.com/news/darwin-nunez-scores-two-late-goals-give-liverpool-dramatic-win-brentford?amp=1",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
     },
     {
       "date": "2025-02-09",
@@ -210,7 +224,9 @@
       "score": "Plymouth Argyle 1–0 Liverpool",
       "slug": "plymouth-liverpool-2025-fa-cup-upset",
       "reason": "Fourth-round elimination by struggling Championship opposition interrupts four-competition campaign.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beaten-plymouth-argyle-fa-cup-fourth-round?amp=1"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beaten-plymouth-argyle-fa-cup-fourth-round?amp=1",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
     },
     {
       "date": "2025-02-12",
@@ -220,7 +236,9 @@
       "score": "Everton 2–2 Liverpool",
       "slug": "everton-liverpool-2025-final-goodison-derby",
       "reason": "Final senior men’s Merseyside derby at Goodison ends with 98 th-minute equaliser.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-and-everton-play-out-merseyside-derby-draw-goodison-park"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-and-everton-play-out-merseyside-derby-draw-goodison-park",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
     },
     {
       "date": "2025-02-23",
@@ -230,7 +248,9 @@
       "score": "Manchester City 0–2 Liverpool",
       "slug": "manchester-city-liverpool-2025-eleven-points-clear",
       "reason": "Away win over reigning champions opens 11-point lead with Arsenal having a game in hand.",
-      "primarySource": "https://www.liverpoolfc.com/news/man-city-0-2-liverpool-salah-and-szoboszlai-goals-send-reds-11-points-clear/"
+      "primarySource": "https://www.liverpoolfc.com/news/man-city-0-2-liverpool-salah-and-szoboszlai-goals-send-reds-11-points-clear/",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
     },
     {
       "date": "2025-03-05",
@@ -240,7 +260,9 @@
       "score": "Paris Saint-Germain 0–1 Liverpool",
       "slug": "paris-saint-germain-liverpool-2025-alisson-elliott-win",
       "reason": "Exceptional Alisson goalkeeping and Elliott immediate late impact win last-16 first leg.",
-      "primarySource": "https://www.liverpoolfc.com/news/late-harvey-elliott-winner-sees-liverpool-beat-psg-away-ucl-last-16-first-leg"
+      "primarySource": "https://www.liverpoolfc.com/news/late-harvey-elliott-winner-sees-liverpool-beat-psg-away-ucl-last-16-first-leg",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
     },
     {
       "date": "2025-03-11",
@@ -250,7 +272,9 @@
       "score": "Liverpool 0–1 Paris Saint-Germain after extra time; PSG win 4–1 on penalties",
       "slug": "liverpool-paris-saint-germain-2025-shootout-exit",
       "reason": "Champions League elimination on penalties after winning league phase and away first leg.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-knocked-out-champions-league-psg-penalties?amp=1"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-knocked-out-champions-league-psg-penalties?amp=1",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
     },
     {
       "date": "2025-03-16",
@@ -260,7 +284,9 @@
       "score": "Liverpool 1–2 Newcastle United",
       "slug": "liverpool-newcastle-2025-league-cup-final-defeat",
       "reason": "Final defeat leaves Premier League as remaining route to silverware.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beaten-wembley-newcastle-carabao-cup-final"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beaten-wembley-newcastle-carabao-cup-final",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
     },
     {
       "date": "2025-04-27",
@@ -270,7 +296,9 @@
       "score": "Liverpool 5–1 Tottenham Hotspur",
       "slug": "liverpool-tottenham-2025-twentieth-title",
       "reason": "Five-goal recovery clinches twentieth English title in Slot first season with four matches remaining.",
-      "primarySource": "https://www.liverpoolfc.com/news/liverpool-seal-premier-league-title-anfield-5-1-win-over-tottenham/?amp=1"
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-seal-premier-league-title-anfield-5-1-win-over-tottenham/?amp=1",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
     },
     {
       "date": "2025-05-25",
@@ -280,7 +308,9 @@
       "score": "Liverpool 1–1 Crystal Palace",
       "slug": "liverpool-crystal-palace-2025-title-trophy-day",
       "reason": "Trophy presentation, ten-man recovery and Salah record-equalling goal close defined collection endpoint.",
-      "primarySource": "https://www.liverpoolfc.com/news/champions-liverpool-draw-crystal-palace-premier-league-final-day"
+      "primarySource": "https://www.liverpoolfc.com/news/champions-liverpool-draw-crystal-palace-premier-league-final-day",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
     }
   ],
   "reusedPaths": [],

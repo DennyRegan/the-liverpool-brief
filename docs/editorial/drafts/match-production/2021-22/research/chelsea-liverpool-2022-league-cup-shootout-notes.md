@@ -1,4 +1,4 @@
-# Chelsea 0–0 Liverpool (Liverpool win11–10penalties) — 2022-02-27
+# Chelsea 0–0 Liverpool (Liverpool win 11–10 penalties) — 2022-02-27
 
 Researcher: `gpt-6-astra`; worker `/root/astra_2019_2025`. Retrieved: 1 October 2026.
 

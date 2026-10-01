@@ -36,7 +36,7 @@ Confidence: High. Scope is limited to the following claims.
 
 ## Conflicts and limitations
 
-- Goalkeeper error in the Liverpool report: its second-half prose repeatedly names José Sá, although Wolves changed goalkeeper at half-time. Do not identify the goalkeeper faced in second-half actions until the team record is checked.
+- Goalkeeper error in the Liverpool report: its second-half prose repeatedly names José Sá, although Wolves changed goalkeeper at half-time. The retrieved LFChistory timeline confirms John Ruddy replaced Sá at 46 minutes; use Ruddy for second-half actions.
 - Full line-ups, substitutions, exact goal times and any further records must be checked against the retrieved tables and an independent source before manuscript use. Omit details not supported by those checks.
 - No match footage has been viewed; no quotation, crowd description, tactical motive or injury diagnosis is authorised by these notes unless explicitly supported above.
 - These are concise paraphrased research claims, not article prose. Final drafting should use connected original prose and retain source attribution in editorial notes.

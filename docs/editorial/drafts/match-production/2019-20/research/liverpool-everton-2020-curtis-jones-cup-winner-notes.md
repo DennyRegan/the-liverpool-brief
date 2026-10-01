@@ -21,9 +21,9 @@ URL: https://www.liverpoolfc.com/news/first-team/381309-match-report-liverpool-e
 
 Confidence: High. Scope is limited to the following claims.
 
-- Jones scored the only goal in the71st minute, curling Origi’s pass in via the crossbar from outside the box.
+- Jones scored the only goal in the 71st minute, curling Origi’s pass in via the crossbar from outside the box.
 - Klopp made nine starting changes, retaining only Gomez and Milner from the preceding Sheffield United match.
-- Minamino made his Liverpool debut. Milner went off injured inside10minutes and debutant Larouci replaced him.
+- Minamino made his Liverpool debut. Milner went off injured inside 10 minutes and debutant Larouci replaced him.
 - Adrian stopped an early Calvert-Lewin effort; Liverpool advanced into the FA Cup fourth round.
 
 ### Source 2: LFChistory

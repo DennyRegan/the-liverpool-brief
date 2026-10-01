@@ -18,7 +18,7 @@ playerIds: ["alan-ball", "gordon-milne", "tommy-lawrence"]
 
 Alan Ball’s goal just before half-time ended Liverpool’s FA Cup run at Goodison Park on 11 March 1967. Everton’s 1–0 win was watched by a second crowd across Stanley Park, where large screens at Anfield relayed the tie live.
 
-The unusual arrangement reflected demand for the meeting of the league champions and FA Cup holders. Kick-off was at seven on Saturday evening. There were 64,851 spectators at Goodison and a further 40,149 at Anfield: two grounds following one match, with more than 105,000 people between them.
+The unusual arrangement reflected demand for the meeting of the league champions and FA Cup holders. Kick-off was at seven on Saturday evening. There were 64,851 spectators at Goodison and a further 40,149 at Anfield: two grounds following one match, with 105,000 people between them.
 
 Liverpool had reached the fifth round by overcoming Watford after a replay and then beating Aston Villa. A week before the derby they had returned to the top of the league, but their cup progress now depended on finding a way past the neighbours who had already beaten them at Goodison in August.
 

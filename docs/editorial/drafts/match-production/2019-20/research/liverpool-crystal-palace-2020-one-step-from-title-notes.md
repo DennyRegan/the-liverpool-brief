@@ -21,7 +21,7 @@ URL: https://www.liverpoolfc.com/amp/news/first-team/399680-match-report-crystal
 
 Confidence: High. Scope is limited to the following claims.
 
-- Alexander-Arnold opened the scoring with a23rd-minute free-kick; Salah finished Fabinho’s pass before half-time.
+- Alexander-Arnold opened the scoring with a 23rd-minute free-kick; Salah finished Fabinho’s pass before half-time.
 - Fabinho then scored from distance and Salah released Mane for the fourth. Henderson also hit the post.
 - Liverpool needed two points from seven remaining fixtures, or City to fail to beat Chelsea the following evening. This match itself did not clinch the title.
 - Salah and Robertson returned among four changes; Zaha left the pitch early.
@@ -40,11 +40,11 @@ URL: https://www.liverpoolfc.com/news/first-team/399866-liverpool-football-club-
 
 Confidence: High. Scope is limited to the following claims.
 
-- Previously retrieved club title announcement confirms championship followed City’s defeat at Chelsea on25June2020.
+- Previously retrieved club title announcement confirms championship followed City’s defeat at Chelsea on 25 June 2020.
 
 ## Conflicts and limitations
 
-- Title was confirmed25June, distinct from this24June match and22July trophy presentation.
+- Title was confirmed 25 June, distinct from this 24 June match and 22 July trophy presentation.
 - Full line-ups, substitutions, exact goal times and any further records must be checked against the retrieved tables and an independent source before manuscript use. Omit details not supported by those checks.
 - No match footage has been viewed; no quotation, crowd description, tactical motive or injury diagnosis is authorised by these notes unless explicitly supported above.
 - These are concise paraphrased research claims, not article prose. Final drafting should use connected original prose and retain source attribution in editorial notes.

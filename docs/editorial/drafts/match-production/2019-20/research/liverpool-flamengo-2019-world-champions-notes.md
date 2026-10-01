@@ -21,10 +21,10 @@ URL: https://www.liverpoolfc.com/news/first-team/379492-liverpool-flamengo-club-
 
 Confidence: High. Scope is limited to the following claims.
 
-- Firmino’s99th-minute finish won Liverpool’s first FIFA Club World Cup after a goalless90minutes.
+- Firmino’s 99th-minute finish won Liverpool’s first FIFA Club World Cup after a goalless 90 minutes.
 - Mane supplied the decisive pass in Doha. Firmino had hit the post early in the second half.
 - A Liverpool penalty awarded in second-half stoppage time was overturned after VAR review.
-- Van Dijk returned after illness, with Alexander-Arnold,Firmino and Mane also restored.
+- Van Dijk returned after illness, with Alexander-Arnold, Firmino and Mane also restored.
 
 ### Source 2: LFChistory
 
