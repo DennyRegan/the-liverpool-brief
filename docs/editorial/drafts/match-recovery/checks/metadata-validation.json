@@ -1,0 +1,754 @@
+{
+  "checkedAt": "2026-09-29T20:10:57.057Z",
+  "schemaSource": "DennyRegan/the-liverpool-brief main 19e574009339fde92bb6863fd5e6f65789ffe9a1",
+  "publicationDate": "Unset in saved articles. A fixed test date is injected only in memory to validate the remaining publication schema.",
+  "articleCount": 62,
+  "passed": 62,
+  "errors": [],
+  "articles": [
+    {
+      "file": "articles/1997-98/celtic-liverpool-1997-mcmanaman-equaliser.md",
+      "slug": "celtic-liverpool-1997-mcmanaman-equaliser",
+      "date": "1997-09-16",
+      "season": "1997-98",
+      "title": "McManaman runs Liverpool out of trouble at Celtic Park",
+      "words": 403,
+      "eraIds": [
+        "roy-evans"
+      ],
+      "sourceCount": 5
+    },
+    {
+      "file": "articles/1997-98/liverpool-arsenal-1998-ince-double.md",
+      "slug": "liverpool-arsenal-1998-ince-double",
+      "date": "1998-05-06",
+      "season": "1997-98",
+      "title": "Ince's double secures third place against the new champions",
+      "words": 413,
+      "eraIds": [
+        "roy-evans"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/1997-98/manchester-united-liverpool-1998-ten-men-hold-on.md",
+      "slug": "manchester-united-liverpool-1998-ten-men-hold-on",
+      "date": "1998-04-10",
+      "season": "1997-98",
+      "title": "Liverpool hold United after Owen's goal and dismissal",
+      "words": 415,
+      "eraIds": [
+        "roy-evans"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/1997-98/sheffield-wednesday-liverpool-1998-owen-hat-trick.md",
+      "slug": "sheffield-wednesday-liverpool-1998-owen-hat-trick",
+      "date": "1998-02-14",
+      "season": "1997-98",
+      "title": "Owen's first league hat-trick rescues Liverpool at Hillsborough",
+      "words": 403,
+      "eraIds": [
+        "roy-evans"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/1998-99/liverpool-everton-1999-fowler-double-gerrard-clears.md",
+      "slug": "liverpool-everton-1999-fowler-double-gerrard-clears",
+      "date": "1999-04-03",
+      "season": "1998-99",
+      "title": "Fowler turns the derby and Gerrard protects Liverpool's lead",
+      "words": 435,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 6
+    },
+    {
+      "file": "articles/1998-99/liverpool-manchester-united-1999-ince-equaliser.md",
+      "slug": "liverpool-manchester-united-1999-ince-equaliser",
+      "date": "1999-05-05",
+      "season": "1998-99",
+      "title": "Ince completes Liverpool's late recovery against United",
+      "words": 412,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/1998-99/liverpool-tottenham-1998-evans-final-match.md",
+      "slug": "liverpool-tottenham-1998-evans-final-match",
+      "date": "1998-11-10",
+      "season": "1998-99",
+      "title": "Tottenham defeat brings Evans's final Liverpool match",
+      "words": 417,
+      "eraIds": [
+        "evans-houllier-1998"
+      ],
+      "sourceCount": 6
+    },
+    {
+      "file": "articles/1998-99/manchester-united-liverpool-1999-late-fa-cup-defeat.md",
+      "slug": "manchester-united-liverpool-1999-late-fa-cup-defeat",
+      "date": "1999-01-24",
+      "season": "1998-99",
+      "title": "Liverpool's long lead disappears in the closing minutes",
+      "words": 405,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/1998-99/newcastle-liverpool-1998-owen-first-half-hat-trick.md",
+      "slug": "newcastle-liverpool-1998-owen-first-half-hat-trick",
+      "date": "1998-08-30",
+      "season": "1998-99",
+      "title": "Owen's first-half hat-trick overwhelms Newcastle",
+      "words": 417,
+      "eraIds": [
+        "evans-houllier-1998"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/1999-00/arsenal-liverpool-2000-camara-highbury.md",
+      "slug": "arsenal-liverpool-2000-camara-highbury",
+      "date": "2000-02-13",
+      "season": "1999-00",
+      "title": "Arsenal 0 Liverpool 1: Camara takes Liverpool into third",
+      "words": 272,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/1999-00/bradford-liverpool-2000-final-day-defeat.md",
+      "slug": "bradford-liverpool-2000-final-day-defeat",
+      "date": "2000-05-14",
+      "season": "1999-00",
+      "title": "Bradford 1 Liverpool 0: the final chance goes missing",
+      "words": 307,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/1999-00/liverpool-everton-1999-three-red-cards.md",
+      "slug": "liverpool-everton-1999-three-red-cards",
+      "date": "1999-09-27",
+      "season": "1999-00",
+      "title": "Liverpool 0 Everton 1: a derby lost before the red cards",
+      "words": 294,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 2
+    },
+    {
+      "file": "articles/1999-00/liverpool-sheffield-wednesday-1999-gerrard-first-goal.md",
+      "slug": "liverpool-sheffield-wednesday-1999-gerrard-first-goal",
+      "date": "1999-12-05",
+      "season": "1999-00",
+      "title": "Liverpool 4 Sheffield Wednesday 1: Gerrard opens his account",
+      "words": 291,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/1999-00/liverpool-west-ham-1999-camara-winner.md",
+      "slug": "liverpool-west-ham-1999-camara-winner",
+      "date": "1999-10-27",
+      "season": "1999-00",
+      "title": "Liverpool 1 West Ham 0: Titi Camara's goal through grief",
+      "words": 281,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2000-01/charlton-liverpool-2001-champions-league-place.md",
+      "slug": "charlton-liverpool-2001-champions-league-place",
+      "date": "2001-05-19",
+      "season": "2000-01",
+      "title": "Charlton 0 Liverpool 4: Fowler finishes the season's final job",
+      "words": 313,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2000-01/everton-liverpool-2001-mcallister-derby-winner.md",
+      "slug": "everton-liverpool-2001-mcallister-derby-winner",
+      "date": "2001-04-16",
+      "season": "2000-01",
+      "title": "Everton 2 Liverpool 3: McAllister decides it from distance",
+      "words": 297,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2000-01/liverpool-alaves-2001-uefa-cup-treble.md",
+      "slug": "liverpool-alaves-2001-uefa-cup-treble",
+      "date": "2001-05-16",
+      "season": "2000-01",
+      "title": "Liverpool 5 Alavés 4: the treble ends with a golden own goal",
+      "words": 420,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2000-01/liverpool-arsenal-2001-owen-fa-cup-final.md",
+      "slug": "liverpool-arsenal-2001-owen-fa-cup-final",
+      "date": "2001-05-12",
+      "season": "2000-01",
+      "title": "Liverpool 2 Arsenal 1: Owen turns the FA Cup final",
+      "words": 407,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2000-01/liverpool-barcelona-2001-mcallister-semi-final.md",
+      "slug": "liverpool-barcelona-2001-mcallister-semi-final",
+      "date": "2001-04-19",
+      "season": "2000-01",
+      "title": "Liverpool 1 Barcelona 0: McAllister sends Liverpool to Dortmund",
+      "words": 312,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2000-01/liverpool-birmingham-2001-league-cup-final.md",
+      "slug": "liverpool-birmingham-2001-league-cup-final",
+      "date": "2001-02-25",
+      "season": "2000-01",
+      "title": "Liverpool 1 Birmingham 1: Westerveld wins the first cup",
+      "words": 389,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2000-01/liverpool-crystal-palace-2001-five-goal-semi-final.md",
+      "slug": "liverpool-crystal-palace-2001-five-goal-semi-final",
+      "date": "2001-01-24",
+      "season": "2000-01",
+      "title": "Liverpool 5 Crystal Palace 0: six minutes turn the semi-final",
+      "words": 293,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2000-01/manchester-united-liverpool-2000-murphy-free-kick.md",
+      "slug": "manchester-united-liverpool-2000-murphy-free-kick",
+      "date": "2000-12-17",
+      "season": "2000-01",
+      "title": "Manchester United 0 Liverpool 1: Murphy breaks the Old Trafford run",
+      "words": 281,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2000-01/roma-liverpool-2001-owen-double.md",
+      "slug": "roma-liverpool-2001-owen-double",
+      "date": "2001-02-15",
+      "season": "2000-01",
+      "title": "Roma 0 Liverpool 2: Owen takes his chances in Rome",
+      "words": 300,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2001-02/leverkusen-liverpool-2002-quarter-final-exit.md",
+      "slug": "leverkusen-liverpool-2002-quarter-final-exit",
+      "date": "2002-04-09",
+      "season": "2001-02",
+      "title": "Lúcio ends Liverpool's European run after Litmanen's reprieve",
+      "words": 305,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2001-02/liverpool-bayern-2001-super-cup.md",
+      "slug": "liverpool-bayern-2001-super-cup",
+      "date": "2001-08-24",
+      "season": "2001-02",
+      "title": "Liverpool hold off Bayern to win the Super Cup",
+      "words": 289,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2001-02/liverpool-ipswich-2002-second-place.md",
+      "slug": "liverpool-ipswich-2002-second-place",
+      "date": "2002-05-11",
+      "season": "2001-02",
+      "title": "Riise's double sets Liverpool on course for second place",
+      "words": 317,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2001-02/liverpool-manchester-united-2001-riise-owen.md",
+      "slug": "liverpool-manchester-united-2001-riise-owen",
+      "date": "2001-11-04",
+      "season": "2001-02",
+      "title": "Riise's free-kick and Owen's double beat United",
+      "words": 288,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2001-02/liverpool-roma-2002-houllier-return.md",
+      "slug": "liverpool-roma-2002-houllier-return",
+      "date": "2002-03-19",
+      "season": "2001-02",
+      "title": "Heskey sends Liverpool through on Houllier's return",
+      "words": 312,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 5
+    },
+    {
+      "file": "articles/2001-02/manchester-united-liverpool-2002-murphy-winner.md",
+      "slug": "manchester-united-liverpool-2002-murphy-winner",
+      "date": "2002-01-22",
+      "season": "2001-02",
+      "title": "Murphy wins at Old Trafford again",
+      "words": 285,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2002-03/basel-liverpool-2002-comeback-elimination.md",
+      "slug": "basel-liverpool-2002-comeback-elimination",
+      "date": "2002-11-12",
+      "season": "2002-03",
+      "title": "Liverpool recover three goals but go out in Basel",
+      "words": 271,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2002-03/chelsea-liverpool-2003-champions-league-place.md",
+      "slug": "chelsea-liverpool-2003-champions-league-place",
+      "date": "2003-05-11",
+      "season": "2002-03",
+      "title": "Liverpool lose the final-day contest for fourth place",
+      "words": 321,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2002-03/liverpool-celtic-2003-anfield-exit.md",
+      "slug": "liverpool-celtic-2003-anfield-exit",
+      "date": "2003-03-20",
+      "season": "2002-03",
+      "title": "Thompson and Hartson end Liverpool's UEFA Cup run",
+      "words": 327,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2002-03/liverpool-manchester-united-2003-league-cup-final.md",
+      "slug": "liverpool-manchester-united-2003-league-cup-final",
+      "date": "2003-03-02",
+      "season": "2002-03",
+      "title": "Dudek stands firm as Liverpool win their seventh League Cup",
+      "words": 323,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2002-03/liverpool-sheffield-united-2003-extra-time-final.md",
+      "slug": "liverpool-sheffield-united-2003-extra-time-final",
+      "date": "2003-01-21",
+      "season": "2002-03",
+      "title": "Owen gives Liverpool breathing room on the way to Cardiff",
+      "words": 318,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2002-03/manchester-city-liverpool-2002-owen-hat-trick.md",
+      "slug": "manchester-city-liverpool-2002-owen-hat-trick",
+      "date": "2002-09-28",
+      "season": "2002-03",
+      "title": "Owen answers with three at Maine Road",
+      "words": 334,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2003-04/arsenal-liverpool-2004-henry-hat-trick.md",
+      "slug": "arsenal-liverpool-2004-henry-hat-trick",
+      "date": "2004-04-09",
+      "season": "2003-04",
+      "title": "Arsenal 4–2 Liverpool: Henry overturns the half-time lead",
+      "words": 318,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 2
+    },
+    {
+      "file": "articles/2003-04/chelsea-liverpool-2004-cheyrou.md",
+      "slug": "chelsea-liverpool-2004-cheyrou",
+      "date": "2004-01-07",
+      "season": "2003-04",
+      "title": "Chelsea 0–1 Liverpool: Cheyrou settles a demanding night",
+      "words": 315,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2003-04/everton-liverpool-2003-owen-kewell.md",
+      "slug": "everton-liverpool-2003-owen-kewell",
+      "date": "2003-08-30",
+      "season": "2003-04",
+      "title": "Everton 0–3 Liverpool: Owen and Kewell lift the pressure",
+      "words": 323,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2003-04/manchester-united-liverpool-2004-murphy-penalty.md",
+      "slug": "manchester-united-liverpool-2004-murphy-penalty",
+      "date": "2004-04-24",
+      "season": "2003-04",
+      "title": "Manchester United 0–1 Liverpool: Murphy delivers at Old Trafford again",
+      "words": 325,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2003-04/marseille-liverpool-2004-uefa-cup-exit.md",
+      "slug": "marseille-liverpool-2004-uefa-cup-exit",
+      "date": "2004-03-25",
+      "season": "2003-04",
+      "title": "Marseille 2–1 Liverpool: a lead lost and a European campaign ended",
+      "words": 317,
+      "eraIds": [
+        "gerard-houllier"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2004-05/burnley-liverpool-2005-fa-cup-exit.md",
+      "slug": "burnley-liverpool-2005-fa-cup-exit",
+      "date": "2005-01-18",
+      "season": "2004-05",
+      "title": "Burnley 1–0 Liverpool: Traoré's own goal settles the cup tie",
+      "words": 314,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2004-05/chelsea-liverpool-2005-league-cup-final.md",
+      "slug": "chelsea-liverpool-2005-league-cup-final",
+      "date": "2005-02-27",
+      "season": "2004-05",
+      "title": "Chelsea 3–2 Liverpool: an early lead ends in extra-time defeat",
+      "words": 347,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2004-05/istanbul-2005-champions-league-final.md",
+      "slug": "istanbul-2005-champions-league-final",
+      "date": "2005-05-25",
+      "season": "2004-05",
+      "title": "Liverpool 3–3 AC Milan: the final Istanbul still talks about",
+      "words": 539,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 5
+    },
+    {
+      "file": "articles/2004-05/juventus-liverpool-2005-second-leg.md",
+      "slug": "juventus-liverpool-2005-second-leg",
+      "date": "2005-04-13",
+      "season": "2004-05",
+      "title": "Juventus 0–0 Liverpool: the lead survives in Turin",
+      "words": 334,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2004-05/liverpool-arsenal-2004-mellor-winner.md",
+      "slug": "liverpool-arsenal-2004-mellor-winner",
+      "date": "2004-11-28",
+      "season": "2004-05",
+      "title": "Liverpool 2–1 Arsenal: Mellor's late strike wins it",
+      "words": 305,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2004-05/liverpool-chelsea-2005-champions-league-semi-final.md",
+      "slug": "liverpool-chelsea-2005-champions-league-semi-final",
+      "date": "2005-05-03",
+      "season": "2004-05",
+      "title": "Liverpool 1–0 Chelsea: García's goal and a place in Istanbul",
+      "words": 370,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 5
+    },
+    {
+      "file": "articles/2004-05/liverpool-juventus-2005-first-leg.md",
+      "slug": "liverpool-juventus-2005-first-leg",
+      "date": "2005-04-05",
+      "season": "2004-05",
+      "title": "Liverpool 2–1 Juventus: Hyypiä and García establish the advantage",
+      "words": 332,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2004-05/liverpool-olympiacos-2004-gerrard.md",
+      "slug": "liverpool-olympiacos-2004-gerrard",
+      "date": "2004-12-08",
+      "season": "2004-05",
+      "title": "Liverpool 3–1 Olympiacos: Gerrard completes the escape",
+      "words": 328,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2005-06/chelsea-liverpool-2006-riise-garcia-semi-final.md",
+      "slug": "chelsea-liverpool-2006-riise-garcia-semi-final",
+      "date": "2006-04-22",
+      "season": "2005-06",
+      "title": "Riise and García take Liverpool past Chelsea",
+      "words": 308,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2005-06/liverpool-benfica-2006-european-defence-ends.md",
+      "slug": "liverpool-benfica-2006-european-defence-ends",
+      "date": "2006-03-08",
+      "season": "2005-06",
+      "title": "Benfica end Liverpool’s defence of the European Cup",
+      "words": 272,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md",
+      "slug": "liverpool-cska-moscow-2005-cisse-super-cup",
+      "date": "2005-08-26",
+      "season": "2005-06",
+      "title": "Cissé turns the Super Cup in Liverpool’s favour",
+      "words": 283,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2005-06/liverpool-manchester-united-2006-crouch-cup-header.md",
+      "slug": "liverpool-manchester-united-2006-crouch-cup-header",
+      "date": "2006-02-18",
+      "season": "2005-06",
+      "title": "Crouch’s header ends Liverpool’s long FA Cup wait against United",
+      "words": 289,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 5
+    },
+    {
+      "file": "articles/2005-06/liverpool-west-ham-2006-gerrard-fa-cup-final.md",
+      "slug": "liverpool-west-ham-2006-gerrard-fa-cup-final",
+      "date": "2006-05-13",
+      "season": "2005-06",
+      "title": "Gerrard’s equaliser gives Reina the chance to win the Cup",
+      "words": 517,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 5
+    },
+    {
+      "file": "articles/2005-06/luton-liverpool-2006-sinama-pongolle-alonso-comeback.md",
+      "slug": "luton-liverpool-2006-sinama-pongolle-alonso-comeback",
+      "date": "2006-01-07",
+      "season": "2005-06",
+      "title": "Sinama-Pongolle and Alonso rescue Liverpool at Luton",
+      "words": 283,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md",
+      "slug": "sao-paulo-liverpool-2005-world-final-defeat",
+      "date": "2005-12-18",
+      "season": "2005-06",
+      "title": "São Paulo hold Liverpool off in Yokohama",
+      "words": 300,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2006-07/barcelona-liverpool-2007-bellamy-riise-camp-nou.md",
+      "slug": "barcelona-liverpool-2007-bellamy-riise-camp-nou",
+      "date": "2007-02-21",
+      "season": "2006-07",
+      "title": "Bellamy and Riise turn the tie at Camp Nou",
+      "words": 322,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2006-07/everton-liverpool-2006-johnson-derby-defeat.md",
+      "slug": "everton-liverpool-2006-johnson-derby-defeat",
+      "date": "2006-09-09",
+      "season": "2006-07",
+      "title": "Everton punish Liverpool in the Goodison derby",
+      "words": 310,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2006-07/liverpool-arsenal-2007-baptista-four-cup-exit.md",
+      "slug": "liverpool-arsenal-2007-baptista-four-cup-exit",
+      "date": "2007-01-09",
+      "season": "2006-07",
+      "title": "Baptista scores four as Arsenal hit Liverpool for six",
+      "words": 295,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md",
+      "slug": "liverpool-arsenal-2007-crouch-perfect-hat-trick",
+      "date": "2007-03-31",
+      "season": "2006-07",
+      "title": "Crouch’s perfect hat-trick lifts Liverpool above Arsenal",
+      "words": 292,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 4
+    },
+    {
+      "file": "articles/2006-07/liverpool-chelsea-2007-agger-reina-shoot-out.md",
+      "slug": "liverpool-chelsea-2007-agger-reina-shoot-out",
+      "date": "2007-05-01",
+      "season": "2006-07",
+      "title": "Agger levels the tie and Reina sends Liverpool to Athens",
+      "words": 382,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 3
+    },
+    {
+      "file": "articles/2006-07/milan-liverpool-2007-inzaghi-athens-final.md",
+      "slug": "milan-liverpool-2007-inzaghi-athens-final",
+      "date": "2007-05-23",
+      "season": "2006-07",
+      "title": "Inzaghi takes the final away from Liverpool in Athens",
+      "words": 519,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 5
+    },
+    {
+      "file": "articles/2006-07/psv-liverpool-2007-three-away-goals.md",
+      "slug": "psv-liverpool-2007-three-away-goals",
+      "date": "2007-04-03",
+      "season": "2006-07",
+      "title": "Three away goals put Liverpool in control at PSV",
+      "words": 297,
+      "eraIds": [
+        "rafael-benitez"
+      ],
+      "sourceCount": 4
+    }
+  ]
+}

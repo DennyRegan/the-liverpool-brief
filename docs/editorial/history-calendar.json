@@ -57,7 +57,28 @@
       "publishedDestination": "/archive/liverpool-monaco-champions-league-2004",
       "researchStatus": "not_rechecked",
       "selection": "selected",
-      "status": "published"
+      "status": "published",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": false,
+        "matchLabel": "Cissé and Baroš give Liverpool a winning start against Monaco",
+        "opposition": "AS Monaco",
+        "score": null,
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-monaco-champions-league-2004.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-monaco-champions-league-2004.md",
+          "libraryFileId": "libfile_60a9983506608191850116ca96a22279",
+          "modifiedAt": "2026-09-14T17:29:42.999829Z",
+          "sha256": "4e52eec30be3e326d225b8bc025121609a512bf9155083aa245c6d545f51699f"
+        },
+        "sourceBodySha256": "b354f1ad621e6a415e1ee3daca6e1bf5bcdc8330daedfc10288a47b8c8fbf608",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-monaco-champions-league-2004.md.txt",
+        "articleBodySha256": "b354f1ad621e6a415e1ee3daca6e1bf5bcdc8330daedfc10288a47b8c8fbf608",
+        "duplicateResolution": "Existing published canonical report retained; recovered original preserved as provenance.",
+        "blockers": []
+      }
     },
     {
       "approval": {
@@ -640,7 +661,7 @@
     {
       "approval": null,
       "claim": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2002-03/manchester-city-liverpool-2002-owen-hat-trick.md",
       "event": "Manchester City 0–3 Liverpool — Owen hat-trick",
       "eventPath": null,
       "evidence": [
@@ -658,13 +679,37 @@
       "featuredWeek": "2026-09-28",
       "historicalEventDate": "2002-09-28",
       "id": "2002-09-28-proposed-match",
-      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2002-09-28-proposed-match.",
+      "notes": "Imported from 14 September conversation proposal; not approved or independently fact-checked in this setup. Research before claiming it is verified. Core event/date verified by explicitly configured Astra on 14 September 2026; selection remains provisional. This is not a full article fact-check, writing claim or approval. Source scope, conflicts and exclusions: docs/editorial/drafts/calendar-research-2026-09-28-to-2026-10-11-notes.md#2002-09-28-proposed-match. Finished existing package recovered. Selection and featured week preserved; approval remains null.",
       "originalDraftId": null,
-      "owner": null,
+      "owner": "match-report-recovery-2026-10-01",
       "publishedDestination": null,
       "researchStatus": "verified",
       "selection": "provisional",
-      "status": "planned"
+      "status": "ready_for_review",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Manchester City 0–3 Liverpool",
+        "opposition": "Manchester City",
+        "score": "0–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2002-03/manchester-city-liverpool-2002-owen-hat-trick.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "manchester-city-liverpool-2002-owen-hat-trick.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "8fc0a9a9c3fca9c1f36b3f1ae9483a7a062489e4e933fb6a3775df3e3215dac3",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2002-03/manchester-city-liverpool-2002-owen-hat-trick.md"
+        },
+        "sourceBodySha256": "be02413ae0031a02ef1bb4ca052f696d2d0b036773d30178432a1aaec3275fa5",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2002-03/manchester-city-liverpool-2002-owen-hat-trick.md.txt",
+        "articleBodySha256": "be02413ae0031a02ef1bb4ca052f696d2d0b036773d30178432a1aaec3275fa5",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
     },
     {
       "approval": {
@@ -9831,7 +9876,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T16:35:09.156Z",
+  "updatedAt": "2026-10-01T16:36:22.276Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -11891,6 +11936,2912 @@
         "blockers": []
       },
       "event": "Michael Owen scores on debut as Liverpool lose at Wimbledon"
+    },
+    {
+      "id": "match-1997-09-16-celtic-liverpool-1997-mcmanaman-equaliser",
+      "event": "McManaman runs Liverpool out of trouble at Celtic Park",
+      "historicalEventDate": "1997-09-16",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1997-98/celtic-liverpool-1997-mcmanaman-equaliser.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1997-98/celtic-liverpool-1997-mcmanaman-equaliser.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Celtic 2–2 Liverpool",
+        "opposition": "Celtic",
+        "score": "2–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1997-99.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1997-99.md",
+          "docs/editorial/drafts/match-recovery/originals/1997-98/celtic-liverpool-1997-mcmanaman-equaliser.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "celtic-liverpool-1997-mcmanaman-equaliser.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "60c0164dba01a4a9f55db2d135df2f38b89cea5efe6ee08fc894fd49b024d0c1",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1997-98/celtic-liverpool-1997-mcmanaman-equaliser.md"
+        },
+        "sourceBodySha256": "5982a2eb84fe114eb61de72b2eaeb1481219d1a3234ffba04abbb8ff51644a77",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1997-98/celtic-liverpool-1997-mcmanaman-equaliser.md.txt",
+        "articleBodySha256": "5982a2eb84fe114eb61de72b2eaeb1481219d1a3234ffba04abbb8ff51644a77",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Celtic; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-1998-05-06-liverpool-arsenal-1998-ince-double",
+      "event": "Ince's double secures third place against the new champions",
+      "historicalEventDate": "1998-05-06",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1997-98/liverpool-arsenal-1998-ince-double.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1997-98/liverpool-arsenal-1998-ince-double.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–0 Arsenal",
+        "opposition": "Arsenal",
+        "score": "4–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1997-99.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1997-99.md",
+          "docs/editorial/drafts/match-recovery/originals/1997-98/liverpool-arsenal-1998-ince-double.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-arsenal-1998-ince-double.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "7878b540425c1ec73a9ad501db348f377ed986f9acdb4313f7a7680f6a22b3db",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1997-98/liverpool-arsenal-1998-ince-double.md"
+        },
+        "sourceBodySha256": "cd0cfb1c5126583525e93aa9097de9bbf2246ece541d84acdff8f9f39dc74f3a",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1997-98/liverpool-arsenal-1998-ince-double.md.txt",
+        "articleBodySha256": "cd0cfb1c5126583525e93aa9097de9bbf2246ece541d84acdff8f9f39dc74f3a",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1998-04-10-manchester-united-liverpool-1998-ten-men-hold-on",
+      "event": "Liverpool hold United after Owen's goal and dismissal",
+      "historicalEventDate": "1998-04-10",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1997-98/manchester-united-liverpool-1998-ten-men-hold-on.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1997-98/manchester-united-liverpool-1998-ten-men-hold-on.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Manchester United 1–1 Liverpool",
+        "opposition": "Manchester United",
+        "score": "1–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1997-99.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1997-99.md",
+          "docs/editorial/drafts/match-recovery/originals/1997-98/manchester-united-liverpool-1998-ten-men-hold-on.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "manchester-united-liverpool-1998-ten-men-hold-on.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "f420b2ab944c7d776af6529c38c200ef4a554fac677b6078a0d9a16ac3d137a8",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1997-98/manchester-united-liverpool-1998-ten-men-hold-on.md"
+        },
+        "sourceBodySha256": "992a29f25f5bbc865e8f12dc6b2932ed6dab7e5ae2ac6664f2143dba7b574b4b",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1997-98/manchester-united-liverpool-1998-ten-men-hold-on.md.txt",
+        "articleBodySha256": "992a29f25f5bbc865e8f12dc6b2932ed6dab7e5ae2ac6664f2143dba7b574b4b",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1998-02-14-sheffield-wednesday-liverpool-1998-owen-hat-trick",
+      "event": "Owen's first league hat-trick rescues Liverpool at Hillsborough",
+      "historicalEventDate": "1998-02-14",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1997-98/sheffield-wednesday-liverpool-1998-owen-hat-trick.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1997-98/sheffield-wednesday-liverpool-1998-owen-hat-trick.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Sheffield Wednesday 3–3 Liverpool",
+        "opposition": "Sheffield Wednesday",
+        "score": "3–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1997-99.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1997-99.md",
+          "docs/editorial/drafts/match-recovery/originals/1997-98/sheffield-wednesday-liverpool-1998-owen-hat-trick.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "sheffield-wednesday-liverpool-1998-owen-hat-trick.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "95dd88883edf00ced353e641d6ecde98dbfaabd19d24ab92195ea750d158edc5",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1997-98/sheffield-wednesday-liverpool-1998-owen-hat-trick.md"
+        },
+        "sourceBodySha256": "c58330b1300d6cc029701101f4453f76110f4f2510e03f356e06f768eb02685d",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1997-98/sheffield-wednesday-liverpool-1998-owen-hat-trick.md.txt",
+        "articleBodySha256": "c58330b1300d6cc029701101f4453f76110f4f2510e03f356e06f768eb02685d",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Sheffield Wednesday; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-1999-04-03-liverpool-everton-1999-fowler-double-gerrard-clears",
+      "event": "Fowler turns the derby and Gerrard protects Liverpool's lead",
+      "historicalEventDate": "1999-04-03",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1998-99/liverpool-everton-1999-fowler-double-gerrard-clears.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1998-99/liverpool-everton-1999-fowler-double-gerrard-clears.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–2 Everton",
+        "opposition": "Everton",
+        "score": "3–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1997-99.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1997-99.md",
+          "docs/editorial/drafts/match-recovery/originals/1998-99/liverpool-everton-1999-fowler-double-gerrard-clears.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-everton-1999-fowler-double-gerrard-clears.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "2ddec5cee6f7502b6e243c6c3d4414a4178392901203f434b1754f0f124973ef",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1998-99/liverpool-everton-1999-fowler-double-gerrard-clears.md"
+        },
+        "sourceBodySha256": "0373a813c2a85b3b9f80f9454284689822de30586ca8f3d089001d7e54775bdf",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1998-99/liverpool-everton-1999-fowler-double-gerrard-clears.md.txt",
+        "articleBodySha256": "0373a813c2a85b3b9f80f9454284689822de30586ca8f3d089001d7e54775bdf",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1999-05-05-liverpool-manchester-united-1999-ince-equaliser",
+      "event": "Ince completes Liverpool's late recovery against United",
+      "historicalEventDate": "1999-05-05",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1998-99/liverpool-manchester-united-1999-ince-equaliser.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1998-99/liverpool-manchester-united-1999-ince-equaliser.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–2 Manchester United",
+        "opposition": "Manchester United",
+        "score": "2–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1997-99.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1997-99.md",
+          "docs/editorial/drafts/match-recovery/originals/1998-99/liverpool-manchester-united-1999-ince-equaliser.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-manchester-united-1999-ince-equaliser.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "41d49ce457f9dc67312622208071753855bda82a49d006b9b04488ea6f7f1aaa",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1998-99/liverpool-manchester-united-1999-ince-equaliser.md"
+        },
+        "sourceBodySha256": "c114958b4333dcaea24d845b978f577d90b73275f39147d4a97ba514423f794c",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1998-99/liverpool-manchester-united-1999-ince-equaliser.md.txt",
+        "articleBodySha256": "c114958b4333dcaea24d845b978f577d90b73275f39147d4a97ba514423f794c",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1998-11-10-liverpool-tottenham-1998-evans-final-match",
+      "event": "Tottenham defeat brings Evans's final Liverpool match",
+      "historicalEventDate": "1998-11-10",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1998-99/liverpool-tottenham-1998-evans-final-match.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1998-99/liverpool-tottenham-1998-evans-final-match.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–3 Tottenham",
+        "opposition": "Tottenham Hotspur",
+        "score": "1–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1997-99.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1997-99.md",
+          "docs/editorial/drafts/match-recovery/originals/1998-99/liverpool-tottenham-1998-evans-final-match.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-tottenham-1998-evans-final-match.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "a2b661ed86106f3fb1afafceebd172e429ab90c96224684ee9c821cdc4204476",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1998-99/liverpool-tottenham-1998-evans-final-match.md"
+        },
+        "sourceBodySha256": "76e711c7d78c2c69688653ca5bc4653cf6d517aa8dec4ecdfc3637d4e217079e",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1998-99/liverpool-tottenham-1998-evans-final-match.md.txt",
+        "articleBodySha256": "76e711c7d78c2c69688653ca5bc4653cf6d517aa8dec4ecdfc3637d4e217079e",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1999-01-24-manchester-united-liverpool-1999-late-fa-cup-defeat",
+      "event": "Liverpool's long lead disappears in the closing minutes",
+      "historicalEventDate": "1999-01-24",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1998-99/manchester-united-liverpool-1999-late-fa-cup-defeat.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1998-99/manchester-united-liverpool-1999-late-fa-cup-defeat.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Manchester United 2–1 Liverpool",
+        "opposition": "Manchester United",
+        "score": "2–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1997-99.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1997-99.md",
+          "docs/editorial/drafts/match-recovery/originals/1998-99/manchester-united-liverpool-1999-late-fa-cup-defeat.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "manchester-united-liverpool-1999-late-fa-cup-defeat.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "e9cfc8a7ae6ad5968b95c745e2ee3ef693b927bd3adf53f8fe9a275ad3b16e66",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1998-99/manchester-united-liverpool-1999-late-fa-cup-defeat.md"
+        },
+        "sourceBodySha256": "83f3bdb681264af9b22ca7c438d80848836acf56939c9648909a2b823ad39506",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1998-99/manchester-united-liverpool-1999-late-fa-cup-defeat.md.txt",
+        "articleBodySha256": "83f3bdb681264af9b22ca7c438d80848836acf56939c9648909a2b823ad39506",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1998-08-30-newcastle-liverpool-1998-owen-first-half-hat-trick",
+      "event": "Owen's first-half hat-trick overwhelms Newcastle",
+      "historicalEventDate": "1998-08-30",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1998-99/newcastle-liverpool-1998-owen-first-half-hat-trick.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1998-99/newcastle-liverpool-1998-owen-first-half-hat-trick.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Newcastle 1–4 Liverpool",
+        "opposition": "Newcastle United",
+        "score": "1–4",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1997-99.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1997-99.md",
+          "docs/editorial/drafts/match-recovery/originals/1998-99/newcastle-liverpool-1998-owen-first-half-hat-trick.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "newcastle-liverpool-1998-owen-first-half-hat-trick.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "189ada9b4a0577f92e3de39b469a97efc3d0e61e18ca2d4155aed6c18a2b45e5",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1998-99/newcastle-liverpool-1998-owen-first-half-hat-trick.md"
+        },
+        "sourceBodySha256": "5fdb1add1b4bc1acc7513e06c33977c1b8310f73001a41ce2cafc8ee37970c98",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1998-99/newcastle-liverpool-1998-owen-first-half-hat-trick.md.txt",
+        "articleBodySha256": "5fdb1add1b4bc1acc7513e06c33977c1b8310f73001a41ce2cafc8ee37970c98",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2000-02-13-arsenal-liverpool-2000-camara-highbury",
+      "event": "Arsenal 0 Liverpool 1: Camara takes Liverpool into third",
+      "historicalEventDate": "2000-02-13",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1999-00/arsenal-liverpool-2000-camara-highbury.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1999-00/arsenal-liverpool-2000-camara-highbury.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Arsenal 0–1 Liverpool",
+        "opposition": "Arsenal",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/1999-00/arsenal-liverpool-2000-camara-highbury.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "arsenal-liverpool-2000-camara-highbury.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "ffbd21489f72dcba8ba61ad06fe34a6e885e899356dbc4ea99a495fc11b15c60",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1999-00/arsenal-liverpool-2000-camara-highbury.md"
+        },
+        "sourceBodySha256": "8d5542ae611e0d0b22b8c03ed0df5705922e0d7a81ea85cd7932e765db1918a2",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1999-00/arsenal-liverpool-2000-camara-highbury.md.txt",
+        "articleBodySha256": "8d5542ae611e0d0b22b8c03ed0df5705922e0d7a81ea85cd7932e765db1918a2",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2000-05-14-bradford-liverpool-2000-final-day-defeat",
+      "event": "Bradford 1 Liverpool 0: the final chance goes missing",
+      "historicalEventDate": "2000-05-14",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1999-00/bradford-liverpool-2000-final-day-defeat.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1999-00/bradford-liverpool-2000-final-day-defeat.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Bradford 1–0 Liverpool",
+        "opposition": "Bradford",
+        "score": "1–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/1999-00/bradford-liverpool-2000-final-day-defeat.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "bradford-liverpool-2000-final-day-defeat.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "4b71fbf806c130887b9e9dea7aa83c4cfffb6694eef2ddf3bacd3f86ae6f9937",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1999-00/bradford-liverpool-2000-final-day-defeat.md"
+        },
+        "sourceBodySha256": "cbbd8907e47876134777b60aea7b491a917e1dfef6fb7120d4b04e0fbbd87244",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1999-00/bradford-liverpool-2000-final-day-defeat.md.txt",
+        "articleBodySha256": "cbbd8907e47876134777b60aea7b491a917e1dfef6fb7120d4b04e0fbbd87244",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Bradford; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-1999-09-27-liverpool-everton-1999-three-red-cards",
+      "event": "Liverpool 0 Everton 1: a derby lost before the red cards",
+      "historicalEventDate": "1999-09-27",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1999-00/liverpool-everton-1999-three-red-cards.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1999-00/liverpool-everton-1999-three-red-cards.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–1 Everton",
+        "opposition": "Everton",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/1999-00/liverpool-everton-1999-three-red-cards.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-everton-1999-three-red-cards.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "893a29ee67cf336f2d343631bdc5450806c42cfdd084ec493e694f6d5ddb99f4",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1999-00/liverpool-everton-1999-three-red-cards.md"
+        },
+        "sourceBodySha256": "830aff4b8eb4f8e2002de133e13e36c8c5ec9d8aefacfb4656834bd6208179da",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1999-00/liverpool-everton-1999-three-red-cards.md.txt",
+        "articleBodySha256": "830aff4b8eb4f8e2002de133e13e36c8c5ec9d8aefacfb4656834bd6208179da",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1999-12-05-liverpool-sheffield-wednesday-1999-gerrard-first-goal",
+      "event": "Liverpool 4 Sheffield Wednesday 1: Gerrard opens his account",
+      "historicalEventDate": "1999-12-05",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1999-00/liverpool-sheffield-wednesday-1999-gerrard-first-goal.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1999-00/liverpool-sheffield-wednesday-1999-gerrard-first-goal.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–1 Sheffield Wednesday",
+        "opposition": "Sheffield Wednesday",
+        "score": "4–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/1999-00/liverpool-sheffield-wednesday-1999-gerrard-first-goal.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-sheffield-wednesday-1999-gerrard-first-goal.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "eccf96200b830a736c3b40ee0a883deabaa6cc071d841cb48c1cdbb3b27a8cd5",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1999-00/liverpool-sheffield-wednesday-1999-gerrard-first-goal.md"
+        },
+        "sourceBodySha256": "8ee3ad2d215a3c7539c08906f22ebc32214333c20807517b828a2ad1eb3c8594",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1999-00/liverpool-sheffield-wednesday-1999-gerrard-first-goal.md.txt",
+        "articleBodySha256": "8ee3ad2d215a3c7539c08906f22ebc32214333c20807517b828a2ad1eb3c8594",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Sheffield Wednesday; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-1999-10-27-liverpool-west-ham-1999-camara-winner",
+      "event": "Liverpool 1 West Ham 0: Titi Camara's goal through grief",
+      "historicalEventDate": "1999-10-27",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/1999-00/liverpool-west-ham-1999-camara-winner.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/1999-00/liverpool-west-ham-1999-camara-winner.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–0 West Ham",
+        "opposition": "West Ham United",
+        "score": "1–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/1999-00/liverpool-west-ham-1999-camara-winner.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-west-ham-1999-camara-winner.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "32d7100e04ad5517473cca1dde7a024944d42bbb95dad15d1adba66a185205a1",
+          "archiveMember": "liverpool-matches-1997-2007/articles/1999-00/liverpool-west-ham-1999-camara-winner.md"
+        },
+        "sourceBodySha256": "45d1cae6e4c22ea9e110483b41708e33f23747dbfb4e11f638f9bc6fa3f07faf",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/1999-00/liverpool-west-ham-1999-camara-winner.md.txt",
+        "articleBodySha256": "45d1cae6e4c22ea9e110483b41708e33f23747dbfb4e11f638f9bc6fa3f07faf",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2001-05-19-charlton-liverpool-2001-champions-league-place",
+      "event": "Charlton 0 Liverpool 4: Fowler finishes the season's final job",
+      "historicalEventDate": "2001-05-19",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2000-01/charlton-liverpool-2001-champions-league-place.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2000-01/charlton-liverpool-2001-champions-league-place.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Charlton 0–4 Liverpool",
+        "opposition": "Charlton",
+        "score": "0–4",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/2000-01/charlton-liverpool-2001-champions-league-place.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "charlton-liverpool-2001-champions-league-place.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "b6a13f2fd215a65a4f018039d39777d95b386532a1a646497520113f4e690b57",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2000-01/charlton-liverpool-2001-champions-league-place.md"
+        },
+        "sourceBodySha256": "2f4190918a1dd62a79d381a38e4f7ce5a45f73b5c5c2c23dfcf02a7971495c55",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/charlton-liverpool-2001-champions-league-place.md.txt",
+        "articleBodySha256": "2f4190918a1dd62a79d381a38e4f7ce5a45f73b5c5c2c23dfcf02a7971495c55",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Charlton; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-2001-04-16-everton-liverpool-2001-mcallister-derby-winner",
+      "event": "Everton 2 Liverpool 3: McAllister decides it from distance",
+      "historicalEventDate": "2001-04-16",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2000-01/everton-liverpool-2001-mcallister-derby-winner.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2000-01/everton-liverpool-2001-mcallister-derby-winner.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Everton 2–3 Liverpool",
+        "opposition": "Everton",
+        "score": "2–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/2000-01/everton-liverpool-2001-mcallister-derby-winner.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "everton-liverpool-2001-mcallister-derby-winner.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "5ad6f151400bc03089af92b3194a98d92046899fca2d68b1e10fe39dcb3c8dac",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2000-01/everton-liverpool-2001-mcallister-derby-winner.md"
+        },
+        "sourceBodySha256": "3e6977c891257031cfdcd4ed3d94dc0fce1f73bb5104e34c9c4a23b47d1c8561",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/everton-liverpool-2001-mcallister-derby-winner.md.txt",
+        "articleBodySha256": "3e6977c891257031cfdcd4ed3d94dc0fce1f73bb5104e34c9c4a23b47d1c8561",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2001-05-16-liverpool-alaves-2001-uefa-cup-treble",
+      "event": "Liverpool 5 Alavés 4: the treble ends with a golden own goal",
+      "historicalEventDate": "2001-05-16",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2000-01/liverpool-alaves-2001-uefa-cup-treble.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-alaves-2001-uefa-cup-treble.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–4 Alavés",
+        "opposition": "Alavés",
+        "score": "5–4",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-alaves-2001-uefa-cup-treble.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-alaves-2001-uefa-cup-treble.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "eee3238fc3ed4001fd5d1f5cb7d833865a31a5ae3e07c3c0a6ea6c7831b36527",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2000-01/liverpool-alaves-2001-uefa-cup-treble.md"
+        },
+        "sourceBodySha256": "2239b99bfae5eb97bcf7e9d3f7e5cbbf8ee265806f8310eca36d73229ea052f2",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-alaves-2001-uefa-cup-treble.md.txt",
+        "articleBodySha256": "2239b99bfae5eb97bcf7e9d3f7e5cbbf8ee265806f8310eca36d73229ea052f2",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Alavés; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-2001-05-12-liverpool-arsenal-2001-owen-fa-cup-final",
+      "event": "Liverpool 2 Arsenal 1: Owen turns the FA Cup final",
+      "historicalEventDate": "2001-05-12",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2000-01/liverpool-arsenal-2001-owen-fa-cup-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-arsenal-2001-owen-fa-cup-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Arsenal",
+        "opposition": "Arsenal",
+        "score": "2–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-arsenal-2001-owen-fa-cup-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-arsenal-2001-owen-fa-cup-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "9f4c3de873fb62c16156e8bb2758b18b21cd77f107b3c174df312a1188a5bd1b",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2000-01/liverpool-arsenal-2001-owen-fa-cup-final.md"
+        },
+        "sourceBodySha256": "842170d1d67a7a5c6119617c634f89cfbc5ae2b8bd321b534ba5d1c449fb6ccd",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-arsenal-2001-owen-fa-cup-final.md.txt",
+        "articleBodySha256": "842170d1d67a7a5c6119617c634f89cfbc5ae2b8bd321b534ba5d1c449fb6ccd",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2001-04-19-liverpool-barcelona-2001-mcallister-semi-final",
+      "event": "Liverpool 1 Barcelona 0: McAllister sends Liverpool to Dortmund",
+      "historicalEventDate": "2001-04-19",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2000-01/liverpool-barcelona-2001-mcallister-semi-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-barcelona-2001-mcallister-semi-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–0 Barcelona",
+        "opposition": "Barcelona",
+        "score": "1–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-barcelona-2001-mcallister-semi-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-barcelona-2001-mcallister-semi-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "9873f5e4e946d03756d705a7a5bb94a17ee031ae0a10fd0dec5bf7e1ba7e6100",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2000-01/liverpool-barcelona-2001-mcallister-semi-final.md"
+        },
+        "sourceBodySha256": "6d0f93996d900ee15cceacf68a3f04f4ba8460cbc6a486fdbcf4fdc3382d7fb2",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-barcelona-2001-mcallister-semi-final.md.txt",
+        "articleBodySha256": "6d0f93996d900ee15cceacf68a3f04f4ba8460cbc6a486fdbcf4fdc3382d7fb2",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2001-02-25-liverpool-birmingham-2001-league-cup-final",
+      "event": "Liverpool 1 Birmingham 1: Westerveld wins the first cup",
+      "historicalEventDate": "2001-02-25",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2000-01/liverpool-birmingham-2001-league-cup-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-birmingham-2001-league-cup-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–1 Birmingham",
+        "opposition": "Birmingham City",
+        "score": "1–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-birmingham-2001-league-cup-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-birmingham-2001-league-cup-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "958931381a2f7c2a53f27671c451c9a1ff5af9f5ba4b88db1aa6b5ca13f1d930",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2000-01/liverpool-birmingham-2001-league-cup-final.md"
+        },
+        "sourceBodySha256": "34e2015eb4b2330faf9c8a13afa421f50f1c0f15c5c25e7c9189453a36b6a34c",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-birmingham-2001-league-cup-final.md.txt",
+        "articleBodySha256": "34e2015eb4b2330faf9c8a13afa421f50f1c0f15c5c25e7c9189453a36b6a34c",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2001-01-24-liverpool-crystal-palace-2001-five-goal-semi-final",
+      "event": "Liverpool 5 Crystal Palace 0: six minutes turn the semi-final",
+      "historicalEventDate": "2001-01-24",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2000-01/liverpool-crystal-palace-2001-five-goal-semi-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-crystal-palace-2001-five-goal-semi-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–0 Crystal Palace",
+        "opposition": "Crystal Palace",
+        "score": "5–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-crystal-palace-2001-five-goal-semi-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-crystal-palace-2001-five-goal-semi-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "010b84ef130b39a9573fead900f33dd36ade21f76288740ae638a5ab263bc5c4",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2000-01/liverpool-crystal-palace-2001-five-goal-semi-final.md"
+        },
+        "sourceBodySha256": "830504c1874ad34e5de8e3011645dde41d89a3e37d3bc775322f1e4e24793f99",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/liverpool-crystal-palace-2001-five-goal-semi-final.md.txt",
+        "articleBodySha256": "830504c1874ad34e5de8e3011645dde41d89a3e37d3bc775322f1e4e24793f99",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2000-12-17-manchester-united-liverpool-2000-murphy-free-kick",
+      "event": "Manchester United 0 Liverpool 1: Murphy breaks the Old Trafford run",
+      "historicalEventDate": "2000-12-17",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2000-01/manchester-united-liverpool-2000-murphy-free-kick.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2000-01/manchester-united-liverpool-2000-murphy-free-kick.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Manchester United 0–1 Liverpool",
+        "opposition": "Manchester United",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/2000-01/manchester-united-liverpool-2000-murphy-free-kick.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "manchester-united-liverpool-2000-murphy-free-kick.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "4c069cdd535cab5ca0739674021e5ad6d6df31b4928535e9749e72777be4979b",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2000-01/manchester-united-liverpool-2000-murphy-free-kick.md"
+        },
+        "sourceBodySha256": "b25cb41af4e150d13490ea63f281b58e93e5689200a13a26bdf5be0dfb55ee66",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/manchester-united-liverpool-2000-murphy-free-kick.md.txt",
+        "articleBodySha256": "b25cb41af4e150d13490ea63f281b58e93e5689200a13a26bdf5be0dfb55ee66",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2001-02-15-roma-liverpool-2001-owen-double",
+      "event": "Roma 0 Liverpool 2: Owen takes his chances in Rome",
+      "historicalEventDate": "2001-02-15",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2000-01/roma-liverpool-2001-owen-double.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2000-01/roma-liverpool-2001-owen-double.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Roma 0–2 Liverpool",
+        "opposition": "Roma",
+        "score": "0–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/1999-2001.md",
+          "docs/editorial/drafts/match-recovery/originals/2000-01/roma-liverpool-2001-owen-double.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "roma-liverpool-2001-owen-double.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "7612131288b514aea7a67b7d567212b4354cc1a1d415707d04c02a48c389f5fd",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2000-01/roma-liverpool-2001-owen-double.md"
+        },
+        "sourceBodySha256": "8b0876cb17189eaaf545c130f24e5c12f830bafc74d695c2a233cc09cab18308",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2000-01/roma-liverpool-2001-owen-double.md.txt",
+        "articleBodySha256": "8b0876cb17189eaaf545c130f24e5c12f830bafc74d695c2a233cc09cab18308",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2002-04-09-leverkusen-liverpool-2002-quarter-final-exit",
+      "event": "Lúcio ends Liverpool's European run after Litmanen's reprieve",
+      "historicalEventDate": "2002-04-09",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2001-02/leverkusen-liverpool-2002-quarter-final-exit.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2001-02/leverkusen-liverpool-2002-quarter-final-exit.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Bayer Leverkusen 4–2 Liverpool",
+        "opposition": "Bayer Leverkusen",
+        "score": "4–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2001-02/leverkusen-liverpool-2002-quarter-final-exit.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "leverkusen-liverpool-2002-quarter-final-exit.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "40d8cb7bcb511d39056f5925501d68297c52fb1342371aade544c2e11c58a160",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2001-02/leverkusen-liverpool-2002-quarter-final-exit.md"
+        },
+        "sourceBodySha256": "113f4b52c0afceb4691f5d6d8f69fbcd13097f22dafb840d086c8b729921d11a",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2001-02/leverkusen-liverpool-2002-quarter-final-exit.md.txt",
+        "articleBodySha256": "113f4b52c0afceb4691f5d6d8f69fbcd13097f22dafb840d086c8b729921d11a",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2001-08-24-liverpool-bayern-2001-super-cup",
+      "event": "Liverpool hold off Bayern to win the Super Cup",
+      "historicalEventDate": "2001-08-24",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2001-02/liverpool-bayern-2001-super-cup.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-bayern-2001-super-cup.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–2 Bayern Munich",
+        "opposition": "Bayern Munich",
+        "score": "3–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-bayern-2001-super-cup.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-bayern-2001-super-cup.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "1a464cb18fe74135d4663aa3975281ce15afa45357004a81ddf5b935e90a0b92",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2001-02/liverpool-bayern-2001-super-cup.md"
+        },
+        "sourceBodySha256": "9947dde3b9d08a2f7c008857b0637d4a81eb8570e043ca76d2cd8b924220c74e",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-bayern-2001-super-cup.md.txt",
+        "articleBodySha256": "9947dde3b9d08a2f7c008857b0637d4a81eb8570e043ca76d2cd8b924220c74e",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2002-05-11-liverpool-ipswich-2002-second-place",
+      "event": "Riise's double sets Liverpool on course for second place",
+      "historicalEventDate": "2002-05-11",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2001-02/liverpool-ipswich-2002-second-place.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-ipswich-2002-second-place.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 5–0 Ipswich Town",
+        "opposition": "Ipswich Town",
+        "score": "5–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-ipswich-2002-second-place.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-ipswich-2002-second-place.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "1848e6fc0d899648140d774c9435e98cb2e0b2f72d26f0d351ec09bb5ea7f06e",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2001-02/liverpool-ipswich-2002-second-place.md"
+        },
+        "sourceBodySha256": "95f2031ddd4983ba3ef8b5b27da1107e0d6eb2a2b06f84a3ca10ee836922979f",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-ipswich-2002-second-place.md.txt",
+        "articleBodySha256": "95f2031ddd4983ba3ef8b5b27da1107e0d6eb2a2b06f84a3ca10ee836922979f",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2001-11-04-liverpool-manchester-united-2001-riise-owen",
+      "event": "Riise's free-kick and Owen's double beat United",
+      "historicalEventDate": "2001-11-04",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2001-02/liverpool-manchester-united-2001-riise-owen.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-manchester-united-2001-riise-owen.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–1 Manchester United",
+        "opposition": "Manchester United",
+        "score": "3–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-manchester-united-2001-riise-owen.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-manchester-united-2001-riise-owen.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "2e888ab74ed851514c86668d8739bbdbcf3634867b2434832ef3e6d6f243ca0c",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2001-02/liverpool-manchester-united-2001-riise-owen.md"
+        },
+        "sourceBodySha256": "a88df9fd14c4b7f1aa81eaed8585e7b846640072d2b35f66bd458249a921ee56",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-manchester-united-2001-riise-owen.md.txt",
+        "articleBodySha256": "a88df9fd14c4b7f1aa81eaed8585e7b846640072d2b35f66bd458249a921ee56",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2002-03-19-liverpool-roma-2002-houllier-return",
+      "event": "Heskey sends Liverpool through on Houllier's return",
+      "historicalEventDate": "2002-03-19",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2001-02/liverpool-roma-2002-houllier-return.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-roma-2002-houllier-return.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–0 Roma",
+        "opposition": "Roma",
+        "score": "2–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-roma-2002-houllier-return.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-roma-2002-houllier-return.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "3f44fa2a18da6e8c2978bcb4f4f80ba0282bea81aed3c59777b45f13f0a1cfbb",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2001-02/liverpool-roma-2002-houllier-return.md"
+        },
+        "sourceBodySha256": "6bbdfc05b9e340c30cdfad9d6742e8f492542cb896829cd99bf0b0cbffba49c2",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2001-02/liverpool-roma-2002-houllier-return.md.txt",
+        "articleBodySha256": "6bbdfc05b9e340c30cdfad9d6742e8f492542cb896829cd99bf0b0cbffba49c2",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2002-01-22-manchester-united-liverpool-2002-murphy-winner",
+      "event": "Murphy wins at Old Trafford again",
+      "historicalEventDate": "2002-01-22",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2001-02/manchester-united-liverpool-2002-murphy-winner.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2001-02/manchester-united-liverpool-2002-murphy-winner.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Manchester United 0–1 Liverpool",
+        "opposition": "Manchester United",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2001-02/manchester-united-liverpool-2002-murphy-winner.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "manchester-united-liverpool-2002-murphy-winner.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "7965aca71ff59828e24a59e9ebb9fadb26f8cfd154dc56fbe21bfba951af085a",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2001-02/manchester-united-liverpool-2002-murphy-winner.md"
+        },
+        "sourceBodySha256": "0a0dd15b45ad2bb2e81c95722f8a3ea5004eddc8601c56ef2ceec735c5117f2d",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2001-02/manchester-united-liverpool-2002-murphy-winner.md.txt",
+        "articleBodySha256": "0a0dd15b45ad2bb2e81c95722f8a3ea5004eddc8601c56ef2ceec735c5117f2d",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2002-11-12-basel-liverpool-2002-comeback-elimination",
+      "event": "Liverpool recover three goals but go out in Basel",
+      "historicalEventDate": "2002-11-12",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2002-03/basel-liverpool-2002-comeback-elimination.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2002-03/basel-liverpool-2002-comeback-elimination.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Basel 3–3 Liverpool",
+        "opposition": "Basel",
+        "score": "3–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2002-03/basel-liverpool-2002-comeback-elimination.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "basel-liverpool-2002-comeback-elimination.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "c951b76a01686f20e6df416a4994ef91bb1292b5b3ae4a92db41beedeee5c3a6",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2002-03/basel-liverpool-2002-comeback-elimination.md"
+        },
+        "sourceBodySha256": "62687d3cf057222939c98e482818c5184494e06c9b1424678fb2b7b6bc2897c9",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2002-03/basel-liverpool-2002-comeback-elimination.md.txt",
+        "articleBodySha256": "62687d3cf057222939c98e482818c5184494e06c9b1424678fb2b7b6bc2897c9",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Basel; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-2003-05-11-chelsea-liverpool-2003-champions-league-place",
+      "event": "Liverpool lose the final-day contest for fourth place",
+      "historicalEventDate": "2003-05-11",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2002-03/chelsea-liverpool-2003-champions-league-place.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2002-03/chelsea-liverpool-2003-champions-league-place.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Chelsea 2–1 Liverpool",
+        "opposition": "Chelsea",
+        "score": "2–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2002-03/chelsea-liverpool-2003-champions-league-place.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "chelsea-liverpool-2003-champions-league-place.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "5be98af07e9d54ea763ad46982a11db6b78a87f98cfdb6bb76c6486b9292c9f4",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2002-03/chelsea-liverpool-2003-champions-league-place.md"
+        },
+        "sourceBodySha256": "6c731f159761079dd37b4625440b44af25b4e48af213f6092ab5bd4a55395c27",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2002-03/chelsea-liverpool-2003-champions-league-place.md.txt",
+        "articleBodySha256": "6c731f159761079dd37b4625440b44af25b4e48af213f6092ab5bd4a55395c27",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2003-03-20-liverpool-celtic-2003-anfield-exit",
+      "event": "Thompson and Hartson end Liverpool's UEFA Cup run",
+      "historicalEventDate": "2003-03-20",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2002-03/liverpool-celtic-2003-anfield-exit.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2002-03/liverpool-celtic-2003-anfield-exit.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–2 Celtic",
+        "opposition": "Celtic",
+        "score": "0–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2002-03/liverpool-celtic-2003-anfield-exit.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-celtic-2003-anfield-exit.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "e65536c12bd57d655e69469571ad36362c3d8a27a4a5b1e0fa5af6fa23451730",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2002-03/liverpool-celtic-2003-anfield-exit.md"
+        },
+        "sourceBodySha256": "d85f8f5376fb1e2ba7ca2943f017f6838fb62eb81994b5137faedd8843069b11",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2002-03/liverpool-celtic-2003-anfield-exit.md.txt",
+        "articleBodySha256": "d85f8f5376fb1e2ba7ca2943f017f6838fb62eb81994b5137faedd8843069b11",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Celtic; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-2003-03-02-liverpool-manchester-united-2003-league-cup-final",
+      "event": "Dudek stands firm as Liverpool win their seventh League Cup",
+      "historicalEventDate": "2003-03-02",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2002-03/liverpool-manchester-united-2003-league-cup-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2002-03/liverpool-manchester-united-2003-league-cup-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–0 Manchester United",
+        "opposition": "Manchester United",
+        "score": "2–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2002-03/liverpool-manchester-united-2003-league-cup-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-manchester-united-2003-league-cup-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "9918a27eee9de8efbf6dbdc87582fa5b782a71255788b4ad5cd5bfa1e8a6f76c",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2002-03/liverpool-manchester-united-2003-league-cup-final.md"
+        },
+        "sourceBodySha256": "2b826ae4a8caed39c3b3cda3239385983d3f1513ea10cb1ca32959a0d61d9258",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2002-03/liverpool-manchester-united-2003-league-cup-final.md.txt",
+        "articleBodySha256": "2b826ae4a8caed39c3b3cda3239385983d3f1513ea10cb1ca32959a0d61d9258",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2003-01-21-liverpool-sheffield-united-2003-extra-time-final",
+      "event": "Owen gives Liverpool breathing room on the way to Cardiff",
+      "historicalEventDate": "2003-01-21",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2002-03/liverpool-sheffield-united-2003-extra-time-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2002-03/liverpool-sheffield-united-2003-extra-time-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–0 Sheffield United",
+        "opposition": "Sheffield United",
+        "score": "2–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2001-2003.md",
+          "docs/editorial/drafts/match-recovery/originals/2002-03/liverpool-sheffield-united-2003-extra-time-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-sheffield-united-2003-extra-time-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "f09b44c2ba91beb00e033798e0336ce7a0fa4d85cdb8e4bad7b2e8d2dc6be854",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2002-03/liverpool-sheffield-united-2003-extra-time-final.md"
+        },
+        "sourceBodySha256": "6afbeacc6950191958e333a011f889c49c9dd2a571e1cb5af7515fa6a3705a16",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2002-03/liverpool-sheffield-united-2003-extra-time-final.md.txt",
+        "articleBodySha256": "6afbeacc6950191958e333a011f889c49c9dd2a571e1cb5af7515fa6a3705a16",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2004-04-09-arsenal-liverpool-2004-henry-hat-trick",
+      "event": "Arsenal 4–2 Liverpool: Henry overturns the half-time lead",
+      "historicalEventDate": "2004-04-09",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2003-04/arsenal-liverpool-2004-henry-hat-trick.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2003-04/arsenal-liverpool-2004-henry-hat-trick.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Arsenal 4–2 Liverpool",
+        "opposition": "Arsenal",
+        "score": "4–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2003-04/arsenal-liverpool-2004-henry-hat-trick.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "arsenal-liverpool-2004-henry-hat-trick.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "d4294c4ffd813e782b0ccb79abc856b2fb70f76a2a2ab5ceb033a93fe7e09d87",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2003-04/arsenal-liverpool-2004-henry-hat-trick.md"
+        },
+        "sourceBodySha256": "c33f3ea30926006abe0beff36c7bdfaccb58cfdf87a2af32bc3f423a4519e15c",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2003-04/arsenal-liverpool-2004-henry-hat-trick.md.txt",
+        "articleBodySha256": "c33f3ea30926006abe0beff36c7bdfaccb58cfdf87a2af32bc3f423a4519e15c",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2004-01-07-chelsea-liverpool-2004-cheyrou",
+      "event": "Chelsea 0–1 Liverpool: Cheyrou settles a demanding night",
+      "historicalEventDate": "2004-01-07",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2003-04/chelsea-liverpool-2004-cheyrou.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2003-04/chelsea-liverpool-2004-cheyrou.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Chelsea 0–1 Liverpool",
+        "opposition": "Chelsea",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2003-04/chelsea-liverpool-2004-cheyrou.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "chelsea-liverpool-2004-cheyrou.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "d1224bfd2ea7a9a762c1fd2cd843b3bcc816769e6fbb3d9dfdb3dd7a2ece1a7e",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2003-04/chelsea-liverpool-2004-cheyrou.md"
+        },
+        "sourceBodySha256": "efc91e4ffde261f69fd12c87a86b71499b1db97a760fe8cda7c34dd066e07c7a",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2003-04/chelsea-liverpool-2004-cheyrou.md.txt",
+        "articleBodySha256": "efc91e4ffde261f69fd12c87a86b71499b1db97a760fe8cda7c34dd066e07c7a",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2003-08-30-everton-liverpool-2003-owen-kewell",
+      "event": "Everton 0–3 Liverpool: Owen and Kewell lift the pressure",
+      "historicalEventDate": "2003-08-30",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2003-04/everton-liverpool-2003-owen-kewell.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2003-04/everton-liverpool-2003-owen-kewell.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Everton 0–3 Liverpool",
+        "opposition": "Everton",
+        "score": "0–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2003-04/everton-liverpool-2003-owen-kewell.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "everton-liverpool-2003-owen-kewell.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "6bc1a3a20e9107085161c282770b691698d91c4b7d378544f795582f99636678",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2003-04/everton-liverpool-2003-owen-kewell.md"
+        },
+        "sourceBodySha256": "2bcfb3cd0f03f2c5128a43304d8f59fb07ebe09e40cbb1576ca321f1ac95d4e1",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2003-04/everton-liverpool-2003-owen-kewell.md.txt",
+        "articleBodySha256": "2bcfb3cd0f03f2c5128a43304d8f59fb07ebe09e40cbb1576ca321f1ac95d4e1",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2004-04-24-manchester-united-liverpool-2004-murphy-penalty",
+      "event": "Manchester United 0–1 Liverpool: Murphy delivers at Old Trafford again",
+      "historicalEventDate": "2004-04-24",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2003-04/manchester-united-liverpool-2004-murphy-penalty.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2003-04/manchester-united-liverpool-2004-murphy-penalty.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Manchester United 0–1 Liverpool",
+        "opposition": "Manchester United",
+        "score": "0–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2003-04/manchester-united-liverpool-2004-murphy-penalty.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "manchester-united-liverpool-2004-murphy-penalty.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "7e95afde9e934fe8787565f7d75499e65a70b839c52999b4658cfb10eb6f1add",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2003-04/manchester-united-liverpool-2004-murphy-penalty.md"
+        },
+        "sourceBodySha256": "0a53e37021f394386619557e86d1554ef9801a19461323f655c1cd84260037de",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2003-04/manchester-united-liverpool-2004-murphy-penalty.md.txt",
+        "articleBodySha256": "0a53e37021f394386619557e86d1554ef9801a19461323f655c1cd84260037de",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2004-03-25-marseille-liverpool-2004-uefa-cup-exit",
+      "event": "Marseille 2–1 Liverpool: a lead lost and a European campaign ended",
+      "historicalEventDate": "2004-03-25",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2003-04/marseille-liverpool-2004-uefa-cup-exit.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2003-04/marseille-liverpool-2004-uefa-cup-exit.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Marseille 2–1 Liverpool",
+        "opposition": "Marseille",
+        "score": "2–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2003-04/marseille-liverpool-2004-uefa-cup-exit.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "marseille-liverpool-2004-uefa-cup-exit.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "31ed4c5673cfa4f696d11aea0f529677e8dcd10e2ea7b7e015729a773d100fec",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2003-04/marseille-liverpool-2004-uefa-cup-exit.md"
+        },
+        "sourceBodySha256": "bc61656966942677fbf9f5601525737bcbf16ff455a558f70d6f09a4a41b4c91",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2003-04/marseille-liverpool-2004-uefa-cup-exit.md.txt",
+        "articleBodySha256": "bc61656966942677fbf9f5601525737bcbf16ff455a558f70d6f09a4a41b4c91",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Marseille; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-2005-01-18-burnley-liverpool-2005-fa-cup-exit",
+      "event": "Burnley 1–0 Liverpool: Traoré's own goal settles the cup tie",
+      "historicalEventDate": "2005-01-18",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2004-05/burnley-liverpool-2005-fa-cup-exit.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2004-05/burnley-liverpool-2005-fa-cup-exit.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Burnley 1–0 Liverpool",
+        "opposition": "Burnley",
+        "score": "1–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2004-05/burnley-liverpool-2005-fa-cup-exit.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "burnley-liverpool-2005-fa-cup-exit.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "540d9a2643e85ccbba16864dd7ddf64c490b415216037357e200ed5c730f39d4",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2004-05/burnley-liverpool-2005-fa-cup-exit.md"
+        },
+        "sourceBodySha256": "9cf5080a3ccb77070010311182da742621d55d8bc0dbb2af739bc7afd0a4ec51",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2004-05/burnley-liverpool-2005-fa-cup-exit.md.txt",
+        "articleBodySha256": "9cf5080a3ccb77070010311182da742621d55d8bc0dbb2af739bc7afd0a4ec51",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for Burnley; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-2005-02-27-chelsea-liverpool-2005-league-cup-final",
+      "event": "Chelsea 3–2 Liverpool: an early lead ends in extra-time defeat",
+      "historicalEventDate": "2005-02-27",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2004-05/chelsea-liverpool-2005-league-cup-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2004-05/chelsea-liverpool-2005-league-cup-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Chelsea 3–2 Liverpool",
+        "opposition": "Chelsea",
+        "score": "3–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2004-05/chelsea-liverpool-2005-league-cup-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "chelsea-liverpool-2005-league-cup-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "e31e64ebce7e19cbd618e6b126267c37ef9adb12cf91067d973d86aa6ba78b4e",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2004-05/chelsea-liverpool-2005-league-cup-final.md"
+        },
+        "sourceBodySha256": "67550c16af7e8e1951c6d245e017c4d7ad1fbb057e445f0efc0624c19a5c9790",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2004-05/chelsea-liverpool-2005-league-cup-final.md.txt",
+        "articleBodySha256": "67550c16af7e8e1951c6d245e017c4d7ad1fbb057e445f0efc0624c19a5c9790",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2005-05-25-istanbul-2005-champions-league-final",
+      "event": "Liverpool 3–3 AC Milan: the final Istanbul still talks about",
+      "historicalEventDate": "2005-05-25",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2004-05/istanbul-2005-champions-league-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2004-05/istanbul-2005-champions-league-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–3 Milan",
+        "opposition": "AC Milan",
+        "score": "3–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2004-05/istanbul-2005-champions-league-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "istanbul-2005-champions-league-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "3b761360abd09a826c84c5017deedbb79480325610d7db7c5dcd3b1a392d3de0",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2004-05/istanbul-2005-champions-league-final.md"
+        },
+        "sourceBodySha256": "da791dcd3b04cd3a96ab0e6d30aeb82c9d4fb2d33b7159a3be7a5005b592783b",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2004-05/istanbul-2005-champions-league-final.md.txt",
+        "articleBodySha256": "da791dcd3b04cd3a96ab0e6d30aeb82c9d4fb2d33b7159a3be7a5005b592783b",
+        "duplicateResolution": "Recovered completed package revision retained under the existing pipeline slug; earlier pipeline output preserved unchanged.",
+        "blockers": [],
+        "pipelinePredecessor": "pipeline/output/match/istanbul-2005-champions-league-final/04-final.md"
+      }
+    },
+    {
+      "id": "match-2005-04-13-juventus-liverpool-2005-second-leg",
+      "event": "Juventus 0–0 Liverpool: the lead survives in Turin",
+      "historicalEventDate": "2005-04-13",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2004-05/juventus-liverpool-2005-second-leg.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2004-05/juventus-liverpool-2005-second-leg.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Juventus 0–0 Liverpool",
+        "opposition": "Juventus",
+        "score": "0–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2004-05/juventus-liverpool-2005-second-leg.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "juventus-liverpool-2005-second-leg.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "4e238396242505c2a8ac2b6d404aa5e7d31d63d4d984e5c477e693a8674e6ecb",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2004-05/juventus-liverpool-2005-second-leg.md"
+        },
+        "sourceBodySha256": "c7e926ce0915590d7fea1595295f31b9ac3abafa2e0c28e867e406d50dd57708",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2004-05/juventus-liverpool-2005-second-leg.md.txt",
+        "articleBodySha256": "c7e926ce0915590d7fea1595295f31b9ac3abafa2e0c28e867e406d50dd57708",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2004-11-28-liverpool-arsenal-2004-mellor-winner",
+      "event": "Liverpool 2–1 Arsenal: Mellor's late strike wins it",
+      "historicalEventDate": "2004-11-28",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2004-05/liverpool-arsenal-2004-mellor-winner.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-arsenal-2004-mellor-winner.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Arsenal",
+        "opposition": "Arsenal",
+        "score": "2–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-arsenal-2004-mellor-winner.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-arsenal-2004-mellor-winner.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "62e8cba07f3b5d0f5074df67777d300ea4a9ec0e5568820f582481ced095a692",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2004-05/liverpool-arsenal-2004-mellor-winner.md"
+        },
+        "sourceBodySha256": "5ec43bbcc4cda11b2d241603b97c1798eb6c93cacd3a07bd4001e2035f33bdd8",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-arsenal-2004-mellor-winner.md.txt",
+        "articleBodySha256": "5ec43bbcc4cda11b2d241603b97c1798eb6c93cacd3a07bd4001e2035f33bdd8",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2005-05-03-liverpool-chelsea-2005-champions-league-semi-final",
+      "event": "Liverpool 1–0 Chelsea: García's goal and a place in Istanbul",
+      "historicalEventDate": "2005-05-03",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2004-05/liverpool-chelsea-2005-champions-league-semi-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-chelsea-2005-champions-league-semi-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–0 Chelsea",
+        "opposition": "Chelsea",
+        "score": "1–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-chelsea-2005-champions-league-semi-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-chelsea-2005-champions-league-semi-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "0c869930df710dd27cf0b67f63d683e88de10941186f75a96d126364ddfaea96",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2004-05/liverpool-chelsea-2005-champions-league-semi-final.md"
+        },
+        "sourceBodySha256": "77b18f5906127f611673ebc200da778d807fa3fc71e00dfc3927e5d780cc638e",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-chelsea-2005-champions-league-semi-final.md.txt",
+        "articleBodySha256": "77b18f5906127f611673ebc200da778d807fa3fc71e00dfc3927e5d780cc638e",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2005-04-05-liverpool-juventus-2005-first-leg",
+      "event": "Liverpool 2–1 Juventus: Hyypiä and García establish the advantage",
+      "historicalEventDate": "2005-04-05",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2004-05/liverpool-juventus-2005-first-leg.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-juventus-2005-first-leg.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Juventus",
+        "opposition": "Juventus",
+        "score": "2–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-juventus-2005-first-leg.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-juventus-2005-first-leg.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "afc1cc7c52b38e8abf212f8960b1bfa7eb91ea51979271169be4bcc0c209dc83",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2004-05/liverpool-juventus-2005-first-leg.md"
+        },
+        "sourceBodySha256": "3d26bda2cc8e306924e4f3cc167e9aa29c88b81f981b478cd14a3d77f733b966",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-juventus-2005-first-leg.md.txt",
+        "articleBodySha256": "3d26bda2cc8e306924e4f3cc167e9aa29c88b81f981b478cd14a3d77f733b966",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2004-12-08-liverpool-olympiacos-2004-gerrard",
+      "event": "Liverpool 3–1 Olympiacos: Gerrard completes the escape",
+      "historicalEventDate": "2004-12-08",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2004-05/liverpool-olympiacos-2004-gerrard.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-olympiacos-2004-gerrard.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–1 Olympiacos",
+        "opposition": "Olympiacos",
+        "score": "3–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2003-2005.md",
+          "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-olympiacos-2004-gerrard.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-olympiacos-2004-gerrard.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "ef55fd8c0a9cb20c0ee8b70c04a0271eaccaba37d9d0011f87737cbdb7c4ca9b",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2004-05/liverpool-olympiacos-2004-gerrard.md"
+        },
+        "sourceBodySha256": "9f64904d230de6657128ae195d2a44dfdafb576e69f9171fa3cdba9231a58c6a",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2004-05/liverpool-olympiacos-2004-gerrard.md.txt",
+        "articleBodySha256": "9f64904d230de6657128ae195d2a44dfdafb576e69f9171fa3cdba9231a58c6a",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2006-04-22-chelsea-liverpool-2006-riise-garcia-semi-final",
+      "event": "Riise and García take Liverpool past Chelsea",
+      "historicalEventDate": "2006-04-22",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2005-06/chelsea-liverpool-2006-riise-garcia-semi-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2005-06/chelsea-liverpool-2006-riise-garcia-semi-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Chelsea 1–2 Liverpool",
+        "opposition": "Chelsea",
+        "score": "1–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2005-06/chelsea-liverpool-2006-riise-garcia-semi-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "chelsea-liverpool-2006-riise-garcia-semi-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "987defdeba7a1ca01ee67445ab771125e4da006bad80c48f75a140ea3f882bcd",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2005-06/chelsea-liverpool-2006-riise-garcia-semi-final.md"
+        },
+        "sourceBodySha256": "a8bb0f6ad4db3df38f3ae4d5d5e42f6f3fd8eb69acb04d624fa61d2ca7f1caaf",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2005-06/chelsea-liverpool-2006-riise-garcia-semi-final.md.txt",
+        "articleBodySha256": "a8bb0f6ad4db3df38f3ae4d5d5e42f6f3fd8eb69acb04d624fa61d2ca7f1caaf",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2006-03-08-liverpool-benfica-2006-european-defence-ends",
+      "event": "Benfica end Liverpool’s defence of the European Cup",
+      "historicalEventDate": "2006-03-08",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2005-06/liverpool-benfica-2006-european-defence-ends.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-benfica-2006-european-defence-ends.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–2 Benfica",
+        "opposition": "Benfica",
+        "score": "0–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-benfica-2006-european-defence-ends.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-benfica-2006-european-defence-ends.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "5821cba8b2b2f4d2272653ac0fe75b726d199be30ce67553be1a79fd99959ea1",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2005-06/liverpool-benfica-2006-european-defence-ends.md"
+        },
+        "sourceBodySha256": "24adab436a4ca90ebbc6ceb533547f42f4a8393becdcef608bfdd65a24754f45",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-benfica-2006-european-defence-ends.md.txt",
+        "articleBodySha256": "24adab436a4ca90ebbc6ceb533547f42f4a8393becdcef608bfdd65a24754f45",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2005-08-26-liverpool-cska-moscow-2005-cisse-super-cup",
+      "event": "Cissé turns the Super Cup in Liverpool’s favour",
+      "historicalEventDate": "2005-08-26",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–1 CSKA Moscow",
+        "opposition": "CSKA Moscow",
+        "score": "3–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-cska-moscow-2005-cisse-super-cup.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "9dafb594abced3558f60d6ea20a97c839210fd7fd54d5b1663f2f03d4dc6c910",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md"
+        },
+        "sourceBodySha256": "95ea73c0d300d91beb6c2f835d28e19cba70e0a02117e5137f1b62e38e667a93",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md.txt",
+        "articleBodySha256": "95ea73c0d300d91beb6c2f835d28e19cba70e0a02117e5137f1b62e38e667a93",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for CSKA Moscow; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-2006-02-18-liverpool-manchester-united-2006-crouch-cup-header",
+      "event": "Crouch’s header ends Liverpool’s long FA Cup wait against United",
+      "historicalEventDate": "2006-02-18",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2005-06/liverpool-manchester-united-2006-crouch-cup-header.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-manchester-united-2006-crouch-cup-header.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–0 Manchester United",
+        "opposition": "Manchester United",
+        "score": "1–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-manchester-united-2006-crouch-cup-header.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-manchester-united-2006-crouch-cup-header.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "0479a347a87d5a159cd9456bced08f6c9902e3a719c29bf4b8bf1a0031976173",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2005-06/liverpool-manchester-united-2006-crouch-cup-header.md"
+        },
+        "sourceBodySha256": "504e6caadecf364e28750237bb7d4819302a817dddc562bad8e0948132528d9c",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-manchester-united-2006-crouch-cup-header.md.txt",
+        "articleBodySha256": "504e6caadecf364e28750237bb7d4819302a817dddc562bad8e0948132528d9c",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2006-05-13-liverpool-west-ham-2006-gerrard-fa-cup-final",
+      "event": "Gerrard’s equaliser gives Reina the chance to win the Cup",
+      "historicalEventDate": "2006-05-13",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2005-06/liverpool-west-ham-2006-gerrard-fa-cup-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-west-ham-2006-gerrard-fa-cup-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–3 West Ham United",
+        "opposition": "West Ham United",
+        "score": "3–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-west-ham-2006-gerrard-fa-cup-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-west-ham-2006-gerrard-fa-cup-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "8a9b39d9909af67c6ed5b5e0f0ace70938bfcfb0b4e42c53e9beffa4037d8b95",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2005-06/liverpool-west-ham-2006-gerrard-fa-cup-final.md"
+        },
+        "sourceBodySha256": "48ccea73286536dfabd643066246cc8c6f104bbe6261b37ba098796ce384cd9e",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2005-06/liverpool-west-ham-2006-gerrard-fa-cup-final.md.txt",
+        "articleBodySha256": "48ccea73286536dfabd643066246cc8c6f104bbe6261b37ba098796ce384cd9e",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2006-01-07-luton-liverpool-2006-sinama-pongolle-alonso-comeback",
+      "event": "Sinama-Pongolle and Alonso rescue Liverpool at Luton",
+      "historicalEventDate": "2006-01-07",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2005-06/luton-liverpool-2006-sinama-pongolle-alonso-comeback.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2005-06/luton-liverpool-2006-sinama-pongolle-alonso-comeback.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Luton Town 3–5 Liverpool",
+        "opposition": "Luton Town",
+        "score": "3–5",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2005-06/luton-liverpool-2006-sinama-pongolle-alonso-comeback.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "luton-liverpool-2006-sinama-pongolle-alonso-comeback.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "18e285016629406fab69b4db74af9fcc0f8edb15a5a27594b070f0dc3240b35e",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2005-06/luton-liverpool-2006-sinama-pongolle-alonso-comeback.md"
+        },
+        "sourceBodySha256": "86c66fde12e1bca03076c0a301abca2993045f3e2b835469bb7107f4f6f5f413",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2005-06/luton-liverpool-2006-sinama-pongolle-alonso-comeback.md.txt",
+        "articleBodySha256": "86c66fde12e1bca03076c0a301abca2993045f3e2b835469bb7107f4f6f5f413",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2005-12-18-sao-paulo-liverpool-2005-world-final-defeat",
+      "event": "São Paulo hold Liverpool off in Yokohama",
+      "historicalEventDate": "2005-12-18",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "São Paulo 1–0 Liverpool",
+        "opposition": "São Paulo",
+        "score": "1–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "sao-paulo-liverpool-2005-world-final-defeat.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "46ef02ef7da85d3bff795924098becf1f13e887b0a1eee01877a78892caf9acd",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md"
+        },
+        "sourceBodySha256": "88633913a81a837bb601f405f379be078ebc99410a5ff36146cf9100be31b31c",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md.txt",
+        "articleBodySha256": "88633913a81a837bb601f405f379be078ebc99410a5ff36146cf9100be31b31c",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for São Paulo; identity retained as a label, no ID invented."
+        ]
+      }
+    },
+    {
+      "id": "match-2007-02-21-barcelona-liverpool-2007-bellamy-riise-camp-nou",
+      "event": "Bellamy and Riise turn the tie at Camp Nou",
+      "historicalEventDate": "2007-02-21",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2006-07/barcelona-liverpool-2007-bellamy-riise-camp-nou.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2006-07/barcelona-liverpool-2007-bellamy-riise-camp-nou.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Barcelona 1–2 Liverpool",
+        "opposition": "Barcelona",
+        "score": "1–2",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2006-07/barcelona-liverpool-2007-bellamy-riise-camp-nou.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "barcelona-liverpool-2007-bellamy-riise-camp-nou.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "0eebebd5a7f97c6cd371436bef2caa31e941205c9983ba4bb7dda123f6c46056",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2006-07/barcelona-liverpool-2007-bellamy-riise-camp-nou.md"
+        },
+        "sourceBodySha256": "3a875f4f3e718cb7d7e86e7b0a9872283b68843acbf190e0d79b8a85de51b55e",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2006-07/barcelona-liverpool-2007-bellamy-riise-camp-nou.md.txt",
+        "articleBodySha256": "3a875f4f3e718cb7d7e86e7b0a9872283b68843acbf190e0d79b8a85de51b55e",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2006-09-09-everton-liverpool-2006-johnson-derby-defeat",
+      "event": "Everton punish Liverpool in the Goodison derby",
+      "historicalEventDate": "2006-09-09",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2006-07/everton-liverpool-2006-johnson-derby-defeat.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2006-07/everton-liverpool-2006-johnson-derby-defeat.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Everton 3–0 Liverpool",
+        "opposition": "Everton",
+        "score": "3–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2006-07/everton-liverpool-2006-johnson-derby-defeat.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "everton-liverpool-2006-johnson-derby-defeat.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "cc8775d53ac01a56db06e8a2564ddd233a806249b55d2ed0d1716b5b5bcba464",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2006-07/everton-liverpool-2006-johnson-derby-defeat.md"
+        },
+        "sourceBodySha256": "d3a5fa299d97fc4a47c0949bd6155971040a7d64e8ce57be097f2246f87269d0",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2006-07/everton-liverpool-2006-johnson-derby-defeat.md.txt",
+        "articleBodySha256": "d3a5fa299d97fc4a47c0949bd6155971040a7d64e8ce57be097f2246f87269d0",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2007-01-09-liverpool-arsenal-2007-baptista-four-cup-exit",
+      "event": "Baptista scores four as Arsenal hit Liverpool for six",
+      "historicalEventDate": "2007-01-09",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-baptista-four-cup-exit.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2006-07/liverpool-arsenal-2007-baptista-four-cup-exit.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–6 Arsenal",
+        "opposition": "Arsenal",
+        "score": "3–6",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2006-07/liverpool-arsenal-2007-baptista-four-cup-exit.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-arsenal-2007-baptista-four-cup-exit.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "4fb31f5160861caf7781d86848465f4dee59670c094b1c539b3beeb0cd178cad",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2006-07/liverpool-arsenal-2007-baptista-four-cup-exit.md"
+        },
+        "sourceBodySha256": "7328b8a8c0a95428cc5de486ff6ea8ee48be5433fa357856299f9896f7591610",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2006-07/liverpool-arsenal-2007-baptista-four-cup-exit.md.txt",
+        "articleBodySha256": "7328b8a8c0a95428cc5de486ff6ea8ee48be5433fa357856299f9896f7591610",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2007-03-31-liverpool-arsenal-2007-crouch-perfect-hat-trick",
+      "event": "Crouch’s perfect hat-trick lifts Liverpool above Arsenal",
+      "historicalEventDate": "2007-03-31",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–1 Arsenal",
+        "opposition": "Arsenal",
+        "score": "4–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-arsenal-2007-crouch-perfect-hat-trick.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "b0627df1f4587d2015abc4ff7852ebf266afb10c2461b99b8033438f23e158d1",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md"
+        },
+        "sourceBodySha256": "ea0c1f9675593bf804a61485dc997fe283053f691eda32e02041296efc97456c",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md.txt",
+        "articleBodySha256": "ea0c1f9675593bf804a61485dc997fe283053f691eda32e02041296efc97456c",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2007-05-01-liverpool-chelsea-2007-agger-reina-shoot-out",
+      "event": "Agger levels the tie and Reina sends Liverpool to Athens",
+      "historicalEventDate": "2007-05-01",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2006-07/liverpool-chelsea-2007-agger-reina-shoot-out.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2006-07/liverpool-chelsea-2007-agger-reina-shoot-out.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–0 Chelsea",
+        "opposition": "Chelsea",
+        "score": "1–0",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2006-07/liverpool-chelsea-2007-agger-reina-shoot-out.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "liverpool-chelsea-2007-agger-reina-shoot-out.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "35d7ad844be25b3cde8b11f9645b4d00bf4c04b32295a3670fb61c6dffa2bba6",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2006-07/liverpool-chelsea-2007-agger-reina-shoot-out.md"
+        },
+        "sourceBodySha256": "4a1e10c14fb86329eaa547f99e9a9254e159397dcc69cf109d24006ece21b409",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2006-07/liverpool-chelsea-2007-agger-reina-shoot-out.md.txt",
+        "articleBodySha256": "4a1e10c14fb86329eaa547f99e9a9254e159397dcc69cf109d24006ece21b409",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2007-05-23-milan-liverpool-2007-inzaghi-athens-final",
+      "event": "Inzaghi takes the final away from Liverpool in Athens",
+      "historicalEventDate": "2007-05-23",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2006-07/milan-liverpool-2007-inzaghi-athens-final.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2006-07/milan-liverpool-2007-inzaghi-athens-final.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "Milan 2–1 Liverpool",
+        "opposition": "AC Milan",
+        "score": "2–1",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2006-07/milan-liverpool-2007-inzaghi-athens-final.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "milan-liverpool-2007-inzaghi-athens-final.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "caac23fb39ae57a99ac1e025016d405e2e6e13dbe425737a8ec5361c892a7f1f",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2006-07/milan-liverpool-2007-inzaghi-athens-final.md"
+        },
+        "sourceBodySha256": "aebc0bd8d78a463daa8d93cee63018fe4c405e78acc8c11d3dfa74f00b70a4a7",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2006-07/milan-liverpool-2007-inzaghi-athens-final.md.txt",
+        "articleBodySha256": "aebc0bd8d78a463daa8d93cee63018fe4c405e78acc8c11d3dfa74f00b70a4a7",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2007-04-03-psv-liverpool-2007-three-away-goals",
+      "event": "Three away goals put Liverpool in control at PSV",
+      "historicalEventDate": "2007-04-03",
+      "selection": "alternative",
+      "status": "ready_for_review",
+      "owner": "match-report-recovery-2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/match-recovery/2006-07/psv-liverpool-2007-three-away-goals.md",
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered existing completed manuscript; migration is not publication approval. No anniversary week or schedule assigned.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-recovery/originals/2006-07/psv-liverpool-2007-three-away-goals.md.txt",
+          "confidence": "high",
+          "scope": "Recovered file identity and unchanged manuscript provenance; not a new historical fact-check."
+        }
+      ],
+      "researchStatus": "not_rechecked",
+      "matchRecovery": {
+        "completed": true,
+        "reviewRequired": true,
+        "matchLabel": "PSV 0–3 Liverpool",
+        "opposition": "PSV",
+        "score": "0–3",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-recovery/research/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/editor-notes/2005-2007.md",
+          "docs/editorial/drafts/match-recovery/originals/2006-07/psv-liverpool-2007-three-away-goals.md.txt"
+        ],
+        "sourceManuscript": {
+          "name": "psv-liverpool-2007-three-away-goals.md",
+          "libraryFileId": "libfile_da873f772d2881919cd0effdf41282d4",
+          "modifiedAt": "2026-09-29T20:13:22.378162Z",
+          "sha256": "4f0a407cb4ec4e04034b38fabb3221010c9928326e8730a1dd9e6e0e843f2af6",
+          "archiveMember": "liverpool-matches-1997-2007/articles/2006-07/psv-liverpool-2007-three-away-goals.md"
+        },
+        "sourceBodySha256": "3e2fb3da40f875970aed5f3456828ad6815ce1bb288058d3a3da0ef17ff3e58f",
+        "preservedSourcePath": "docs/editorial/drafts/match-recovery/originals/2006-07/psv-liverpool-2007-three-away-goals.md.txt",
+        "articleBodySha256": "3e2fb3da40f875970aed5f3456828ad6815ce1bb288058d3a3da0ef17ff3e58f",
+        "duplicateResolution": "New completed Work manuscript migrated with prose unchanged.",
+        "blockers": [
+          "Canonical opposition entity not available for PSV; identity retained as a label, no ID invented."
+        ]
+      }
+    }
+  ],
+  "matchRecoveryGaps": [
+    {
+      "id": "1992-93-batch-not-located",
+      "season": "1992-93",
+      "status": "NOT LOCATED",
+      "articlePath": null,
+      "notes": "Prior 1993-94 handover explicitly states earlier-season completion could not be established. No finished 1992-93 batch retrieved from project folder, global filename searches, accessible scratch work or current repository branches/history. No named selections invented and no replacement research performed.",
+      "evidence": [
+        "docs/editorial/drafts/match-recovery/evidence/Liverpool-1993-94-editor-notes.md"
+      ]
     }
   ]
 }
