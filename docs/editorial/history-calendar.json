@@ -8184,7 +8184,25 @@
           "scope": "Statement-level audit of final biography. Confidence labels and model provenance remain editorial-only."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "migration": {
+        "personId": "fernando-torres",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/fernando-torres-factual-audit.md",
+          "docs/editorial/drafts/fernando-torres-metadata.md",
+          "docs/editorial/drafts/fernando-torres-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Fernando-Torres-biography.md",
+          "libraryFileId": "libfile_95a5c874f9688191813d439a6bf70913",
+          "modifiedAt": "2026-09-25T19:57:28.617248Z",
+          "sha256": "f7a17d190d1a5090f1a7770d0092bd36a1d6c323128582dcd0f68608a87dae34"
+        },
+        "duplicateResolution": "Repository draft and recovered manuscript agree; repository retained.",
+        "blockers": []
+      }
     },
     {
       "id": "steven-gerrard-career-biography",
@@ -8247,7 +8265,26 @@
           "scope": "Configured gpt-6-astra /root/milner_biography retrieved-source assessment, paragraph audit, conflicts and proposed metadata."
         }
       ],
-      "researchStatus": "verified"
+      "researchStatus": "verified",
+      "migration": {
+        "personId": "james-milner",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/james-milner-research-record.md",
+          "docs/editorial/drafts/biographies/james-milner-recovered-version.md"
+        ],
+        "sourceManuscript": {
+          "name": "James-Milner-biography.md",
+          "libraryFileId": "libfile_c864090adbdc8191b15afb594f9da391",
+          "modifiedAt": "2026-09-27T10:44:49.296893Z",
+          "sha256": "9491d97c79e21d07ad8d45e5dcb6d749f30a0de10f8fcf69257b950caffa7653"
+        },
+        "duplicateResolution": "Repository draft retained; differing recovered manuscript preserved for authority review.",
+        "blockers": [
+          "Confirm authoritative version against preserved recovered manuscript."
+        ]
+      }
     },
     {
       "id": "1995-08-19-liverpool-sheffield-wednesday",
@@ -8889,5 +8926,319 @@
   "timezone": "Europe/London",
   "updatedAt": "2026-09-30T11:47:09.391Z",
   "version": 1,
-  "workflow": "docs/editorial/README.md"
+  "workflow": "docs/editorial/README.md",
+  "biographies": [
+    {
+      "id": "alan-kennedy-career-biography",
+      "personId": "alan-kennedy",
+      "event": "Alan Kennedy",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/alan-kennedy.md",
+      "originalDraftId": "libfile_b2e4ab04a74081919f48a11ccbac0e10",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Alan-Kennedy-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "alan-kennedy",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Alan-Kennedy-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Alan-Kennedy-biography.md",
+          "libraryFileId": "libfile_b2e4ab04a74081919f48a11ccbac0e10",
+          "modifiedAt": "2026-09-27T11:55:44.189215Z",
+          "sha256": "52b7351a12fac8feb01ad3646090970577265f149f3aed6a8f33cd9d6f8d194b"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "bob-paisley-career-biography",
+      "personId": "bob-paisley",
+      "event": "Bob Paisley: Liverpool’s greatest manager",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/bob-paisley.md",
+      "originalDraftId": "libfile_758ab45ab07081919ea32fbe01c3084b",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Bob-Paisley-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "bob-paisley",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Bob-Paisley-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Bob-Paisley-biography.md",
+          "libraryFileId": "libfile_758ab45ab07081919ea32fbe01c3084b",
+          "modifiedAt": "2026-09-27T11:57:15.355539Z",
+          "sha256": "217d3dc5e647686e0c33c033a0f9da7ba881327c0a93298add12b55995b1a1d5"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "david-fairclough-career-biography",
+      "personId": "david-fairclough",
+      "event": "David Fairclough",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/david-fairclough.md",
+      "originalDraftId": "libfile_da2faf7380a481918b221f5f63059977",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/David-Fairclough-Research-and-Audit.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "david-fairclough",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/David-Fairclough-Research-and-Audit.md"
+        ],
+        "sourceManuscript": {
+          "name": "David-Fairclough-Biography.md",
+          "libraryFileId": "libfile_da2faf7380a481918b221f5f63059977",
+          "modifiedAt": "2026-09-25T19:52:15.099812Z",
+          "sha256": "9e59622a77e3f7e2d799d13c0b9da5d862e669e1624cdf44388d4f2ea3bb8ddc"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "gerard-houllier-career-biography",
+      "personId": "gerard-houllier",
+      "event": "Gérard Houllier: rebuilding Liverpool",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/gerard-houllier.md",
+      "originalDraftId": "libfile_a704f65985c08191be98904e0598f1ff",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Gerard-Houllier-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "gerard-houllier",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Gerard-Houllier-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Gerard-Houllier-biography.md",
+          "libraryFileId": "libfile_a704f65985c08191be98904e0598f1ff",
+          "modifiedAt": "2026-09-25T10:57:28.331340Z",
+          "sha256": "9479bb5c752879139efb53e0e17726eb1b45a266dd7c158d107c5e97b57c4cd1"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "ian-callaghan-career-biography",
+      "personId": "ian-callaghan",
+      "event": "Ian Callaghan: Liverpool’s constant through an age of change",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/ian-callaghan.md",
+      "originalDraftId": "libfile_af6ff9d90ebc8191b3c0e24ebb050e5e",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Ian-Callaghan-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "ian-callaghan",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Ian-Callaghan-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Ian-Callaghan-biography.md",
+          "libraryFileId": "libfile_af6ff9d90ebc8191b3c0e24ebb050e5e",
+          "modifiedAt": "2026-09-25T11:19:34.222930Z",
+          "sha256": "2a05c8fbfca69a7e70f3d85166a51ceb5a72c4600916f68e9685fb0813d306c8"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "ian-rush-career-biography",
+      "personId": "ian-rush",
+      "event": "Ian Rush: Liverpool’s record goalscorer",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/ian-rush.md",
+      "originalDraftId": "libfile_e5262d7cd0948191bc7206a79b69d691",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Ian-Rush-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "ian-rush",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Ian-Rush-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Ian-Rush-biography.md",
+          "libraryFileId": "libfile_e5262d7cd0948191bc7206a79b69d691",
+          "modifiedAt": "2026-09-25T11:31:55.685275Z",
+          "sha256": "7d294e5064886c0ba8129ae5765f6f4df1d197838622e6a023785dc27fcb46ca"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "jimmy-case-career-biography",
+      "personId": "jimmy-case",
+      "event": "Jimmy Case",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/jimmy-case.md",
+      "originalDraftId": "libfile_21a5e92c10e4819180e2e658ff56a0ab",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Jimmy-Case-Research-Record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "jimmy-case",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Jimmy-Case-Research-Record.md"
+        ],
+        "sourceManuscript": {
+          "name": "Jimmy-Case-Biography.md",
+          "libraryFileId": "libfile_21a5e92c10e4819180e2e658ff56a0ab",
+          "modifiedAt": "2026-09-25T19:53:19.387888Z",
+          "sha256": "b5c5f8759ce9234b30e4c614ce9cc3b18124ec0ad533c1717a0325667e039f72"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    },
+    {
+      "id": "john-aldridge-career-biography",
+      "personId": "john-aldridge",
+      "event": "John Aldridge: 63 goals in two and a half years",
+      "selection": "selected",
+      "status": "ready_for_review",
+      "owner": "Recovered existing Work project manuscript; migration 2026-10-01",
+      "claim": null,
+      "eventPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/john-aldridge.md",
+      "originalDraftId": "libfile_48a7f50863288191aacc6a99cc55216b",
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/John-Aldridge-research-record.md",
+          "confidence": "high",
+          "scope": "Retrieved existing work and identity validation only; original evidence claims retained, not newly fact-checked."
+        }
+      ],
+      "migration": {
+        "personId": "john-aldridge",
+        "completed": true,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/John-Aldridge-research-record.md"
+        ],
+        "sourceManuscript": {
+          "name": "John-Aldridge-biography.md",
+          "libraryFileId": "libfile_48a7f50863288191aacc6a99cc55216b",
+          "modifiedAt": "2026-09-25T11:16:59.006439Z",
+          "sha256": "c50708702a17a3fd0e461030e85ba1969841341326ee12cb37acb6b4557dbca0"
+        },
+        "duplicateResolution": "No existing full career biography found.",
+        "blockers": []
+      }
+    }
+  ]
 }

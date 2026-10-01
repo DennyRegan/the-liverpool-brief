@@ -24,13 +24,24 @@ const entrySchema = z.object({
   notes: text,
   evidence: z.array(z.object({ location: text, confidence: z.enum(['high', 'medium', 'low', 'unverified']), scope: text }).strict()).min(1),
   researchStatus: z.enum(['not_rechecked', 'needs_research', 'verified']),
+  migration: z.object({
+    personId: text, completed: z.boolean(), reviewRequired: z.boolean(),
+    sourceFiles: z.array(text), sourceManuscript: z.object({
+      name: text, libraryFileId: text, modifiedAt: text, sha256: text,
+    }).strict().optional(), duplicateResolution: text, blockers: z.array(text),
+  }).strict().optional(),
 }).strict();
+
+// Career inventory shares this file and workflow, without an invented anniversary or schedule.
+const biographySchema = entrySchema.omit({ historicalEventDate: true, featuredWeek: true })
+  .extend({ personId: text });
 
 export function validateCalendar(calendar, root = process.cwd()) {
   assert.equal(calendar.version, 1);
   assert.equal(calendar.timezone, 'Europe/London');
   assert.equal(calendar.canonicalLocation, `https://github.com/DennyRegan/the-liverpool-brief/blob/main/${calendarPath}`);
   const entries = z.array(entrySchema).min(1).parse(calendar.entries);
+  const biographies = z.array(biographySchema).parse(calendar.biographies ?? []);
   const ids = new Set(), dates = new Set(), drafts = new Set();
   const articles = new Map(getArchiveFeatures(root).map(a => [`/archive/${a.slug}`, a]));
   const entities = new Map(getHistoryEntities(root).map(entity => [entity.id, entity.kind]));
@@ -40,14 +51,25 @@ export function validateCalendar(calendar, root = process.cwd()) {
     assert.ok(relative.startsWith(prefix) && !relative.split('/').includes('..'), `Unsafe path: ${relative}`);
     return matter(fs.readFileSync(path.join(root, relative), 'utf8')).data;
   };
-  for (const e of entries) {
+  for (const e of [...entries, ...biographies]) {
     assert.ok(!ids.has(e.id), `Duplicate row ${e.id}`); ids.add(e.id);
+    if (e.personId) assert.equal(entities.get(e.personId), 'person', `${e.id}: unknown biography person`);
+    if (e.migration) {
+      assert.equal(entities.get(e.migration.personId), 'person', `${e.id}: unknown migration person`);
+      for (const file of e.migration.sourceFiles) {
+        assert.ok(file.startsWith('docs/editorial/drafts/') && !file.split('/').includes('..'), `${e.id}: unsafe source path`);
+        assert.ok(fs.existsSync(path.join(root, file)), `${e.id}: missing source file ${file}`);
+      }
+      if (e.status === 'approved') assert.equal(e.migration.blockers.length, 0, `${e.id}: unresolved approval blockers`);
+    }
+    if (e.historicalEventDate) {
     const identity = `${e.featuredWeek}:${e.historicalEventDate}:${e.event}`;
     assert.ok(!dates.has(identity), `Duplicate event ${identity}`); dates.add(identity);
     const monday = new Date(`${e.featuredWeek}T12:00:00Z`);
     assert.equal(monday.getUTCDay(), 1, `${e.id}: featuredWeek must be Monday`);
     const weekDates = Array.from({ length: 7 }, (_, i) => new Date(+monday + i * 86400000).toISOString().slice(5, 10));
     assert.ok(weekDates.includes(e.historicalEventDate.slice(5)), `${e.id}: anniversary outside featured week`);
+    }
     if (e.eventPath) {
       const event = events.get(e.eventPath);
       assert.ok(event, `${e.id}: missing event file`);
@@ -56,12 +78,18 @@ export function validateCalendar(calendar, root = process.cwd()) {
     if (e.draftPath) {
       assert.ok(!drafts.has(e.draftPath), `Draft reused by duplicate row: ${e.draftPath}`); drafts.add(e.draftPath);
       const draft = readFile(e.draftPath, 'docs/editorial/drafts/');
+      if (e.personId || e.migration) assert.ok(!Object.hasOwn(draft, 'date'), `${e.id}: migrated draft must not have a publication date`);
       // Drafts share Archive metadata, but do not acquire a publication date or enter its loader.
       ArchiveFeatureSchema.omit({ date: true, body: true }).parse(draft);
       for (const [field, kind] of Object.entries({ playerIds: 'person', managerIds: 'person', oppositionIds: 'opposition', competitionIds: 'competition', locationIds: 'location', themeIds: 'theme' })) {
         for (const id of draft[field] ?? []) assert.equal(entities.get(id), kind, `${e.id}: draft ${field} must use canonical ${kind} ID ${id}`);
       }
       getArticleEraIds(draft, eras);
+      if (e.personId) {
+        assert.equal(draft.slug, path.basename(e.draftPath, '.md'), `${e.id}: filename/slug mismatch`);
+        assert.ok([...(draft.playerIds ?? []), ...(draft.managerIds ?? [])].includes(e.personId), `${e.id}: principal subject missing`);
+        assert.ok(!articles.has(`/archive/${draft.slug}`), `${e.id}: unpublished biography duplicates public slug`);
+      }
       // A career biography can use eras without treating its calendar anchor as a single event.
       if (draft.historicalEventDate) assert.equal(draft.historicalEventDate, e.historicalEventDate, `${e.id}: draft date mismatch`);
       else assert.ok(draft.category === 'person' && draft.historyEras?.length && !e.eventPath, `${e.id}: event draft requires historicalEventDate`);
@@ -76,10 +104,10 @@ export function validateCalendar(calendar, root = process.cwd()) {
     if (e.publishedDestination) {
       const article = articles.get(e.publishedDestination);
       assert.ok(article, `${e.id}: published destination missing from canonical collection`);
-      assert.equal(article.historicalEventDate, e.historicalEventDate, `${e.id}: published date mismatch`);
+      if (e.historicalEventDate) assert.equal(article.historicalEventDate, e.historicalEventDate, `${e.id}: published date mismatch`);
     }
   }
-  return entries;
+  return [...entries, ...biographies];
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {

@@ -10,7 +10,7 @@ const load = () => JSON.parse(fs.readFileSync(calendarPath, 'utf8'));
 test('repository calendar validates without imposing a fixed writing or approval count', () => {
   const rows = validateCalendar(load());
   assert.ok(rows.length > 0);
-  assert.ok(rows.every(e => e.featuredWeek && e.historicalEventDate));
+  assert.ok(rows.every(e => e.personId || (e.featuredWeek && e.historicalEventDate)));
 });
 test('review drafts are kept outside published article collection', () => {
   for (const row of validateCalendar(load()).filter(e => e.draftPath)) {
@@ -50,6 +50,6 @@ test('unpublished draft relationship metadata receives the existing Archive stru
       assert.throws(() => validateCalendar(calendar, root), JSON.stringify(changes));
     }
     fs.writeFileSync(file, matter.stringify(original.content, original.data));
-    assert.equal(validateCalendar(calendar, root).length, calendar.entries.length);
+    assert.equal(validateCalendar(calendar, root).length, calendar.entries.length + (calendar.biographies?.length ?? 0));
   } finally { fs.rmSync(root, { recursive: true, force: true }); }
 });
