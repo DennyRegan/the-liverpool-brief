@@ -2748,5 +2748,20 @@
     "id": "helenio-herrera",
     "label": "Helenio Herrera",
     "kind": "person"
+  },
+  {
+    "id": "apollon-limassol",
+    "label": "Apollon Limassol",
+    "kind": "opposition"
+  },
+  {
+    "id": "chesterfield",
+    "label": "Chesterfield",
+    "kind": "opposition"
+  },
+  {
+    "id": "spartak-moscow",
+    "label": "Spartak Moscow",
+    "kind": "opposition"
   }
 ]

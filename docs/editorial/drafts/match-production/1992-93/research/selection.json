@@ -1,0 +1,34 @@
+{
+  "season": "1992-93",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_history_production",
+  "purpose": "Supporting season selection evidence; history-calendar.json remains authoritative. No article drafted by this selection record.",
+  "sources": [
+    {"url": "https://www.lfchistory.net/season-archive/games/33", "provider": "LFChistory", "confidence": "High", "scope": "Full competitive fixture ledger, dates, venues, scores, competition stages and league-position progression; retrieved 2026-10-01."},
+    {"url": "https://www.lfchistory.net/season-archive/league-table/33", "provider": "LFChistory", "confidence": "High", "scope": "Final league table: sixth, 59 points, 42 fixtures; retrieved 2026-10-01."},
+    {"url": "https://www.liverweb.org.uk/season_season-199293.html", "provider": "Liverweb", "confidence": "Medium", "scope": "Independent season results/scorers ledger; retrieved 2026-10-01. Individual match research must resolve timing differences."},
+    {"url": "https://www.liverpoolfc.com/news/day-ian-rush-becomes-liverpools-record-goalscorer", "provider": "Liverpool FC", "confidence": "High", "scope": "Official retrospective identifies 18 October 1992 as Rush's club record date; retrieved search extract, full retrieval pending article research."},
+    {"url": "https://www.liverpoolfc.com/info/mark-walters", "provider": "Liverpool FC", "confidence": "High", "scope": "Official career record identifies Coventry hat-trick and importance of 1992-93; retrieved search extract, full retrieval pending article research."}
+  ],
+  "selected": [
+    {"date":"1992-08-08","opposition":"Leeds United","oppositionId":"leeds-united","competitionId":"charity-shield","score":"Liverpool 3–4 Leeds United","slug":"liverpool-leeds-1992-cantona-charity-shield","reason":"Seven-goal Shield final and Cantona hat-trick; a significant defeat in the season's only final."},
+    {"date":"1992-08-16","opposition":"Nottingham Forest","oppositionId":"nottingham-forest","competitionId":"premier-league","score":"Nottingham Forest 1–0 Liverpool","slug":"nottingham-forest-liverpool-1992-premier-league-begins","reason":"Liverpool's first Premier League fixture, establishing the new competition's starting point."},
+    {"date":"1992-09-16","opposition":"Apollon Limassol","oppositionId":null,"competitionId":"european-cup-winners-cup","score":"Liverpool 6–1 Apollon Limassol","slug":"liverpool-apollon-1992-rush-four-european-record","reason":"Rush's four goals and club European scoring record."},
+    {"date":"1992-09-19","opposition":"Aston Villa","oppositionId":"aston-villa","competitionId":"premier-league","score":"Aston Villa 4–2 Liverpool","slug":"aston-villa-liverpool-1992-saunders-double","reason":"Newly transferred Saunders immediately scores twice against Liverpool; revealing early Souness-era defeat."},
+    {"date":"1992-09-22","opposition":"Chesterfield","oppositionId":null,"competitionId":"league-cup","score":"Liverpool 4–4 Chesterfield","slug":"liverpool-chesterfield-1992-four-goal-recovery","reason":"Liverpool recover a three-goal deficit against fourth-tier opposition; exceptional cup tie."},
+    {"date":"1992-10-18","opposition":"Manchester United","oppositionId":"manchester-united","competitionId":"premier-league","score":"Manchester United 2–2 Liverpool","slug":"manchester-united-liverpool-1992-rush-record","reason":"Rush becomes Liverpool's all-time leading scorer; two-goal lead lost at Old Trafford."},
+    {"date":"1992-11-04","opposition":"Spartak Moscow","oppositionId":null,"competitionId":"european-cup-winners-cup","score":"Liverpool 0–2 Spartak Moscow","slug":"liverpool-spartak-moscow-1992-european-exit","reason":"Decisive European elimination; covers away-leg context without duplicating the tie."},
+    {"date":"1993-01-13","opposition":"Bolton Wanderers","oppositionId":"bolton-wanderers","competitionId":"fa-cup","score":"Liverpool 0–2 Bolton Wanderers","slug":"liverpool-bolton-1993-fa-cup-holders-beaten","reason":"FA Cup holders eliminated at Anfield by lower-division opposition."},
+    {"date":"1993-03-20","opposition":"Everton","oppositionId":"everton","competitionId":"premier-league","score":"Liverpool 1–0 Everton","slug":"liverpool-everton-1993-rosenthal-late-winner","reason":"Last-minute derby winner during Liverpool's recovery from the bottom half."},
+    {"date":"1993-04-17","opposition":"Coventry City","oppositionId":"coventry-city","competitionId":"premier-league","score":"Liverpool 4–0 Coventry City","slug":"liverpool-coventry-1993-walters-hat-trick","reason":"Liverpool's first Premier League hat-trick, Walters' exceptional individual performance."},
+    {"date":"1993-05-08","opposition":"Tottenham Hotspur","oppositionId":"tottenham-hotspur","competitionId":"premier-league","score":"Liverpool 6–2 Tottenham Hotspur","slug":"liverpool-tottenham-1993-six-goal-finale","reason":"Six-goal final-day victory secures sixth after a much worse winter position; distinct season conclusion."}
+  ],
+  "omissions": [
+    "Sheffield United home: first Premier League win can be included as consequence in opening fixture article; routine standalone win not essential.",
+    "Norwich 4–1, Palace 5–0 and Blackburn 2–1: attractive league wins, but no uniquely necessary season milestone beyond selected performances.",
+    "Coventry away 1–5: serious defeat, but selected early defeats and cup eliminations already explain deterioration; mention only as verified context for April return.",
+    "Spartak away and Bolton away: important tie context to be verified within decisive return-leg reports.",
+    "No friendly, testimonial or routine league result selected simply to increase count."
+  ],
+  "limitations": ["No 1992-93 finished batch located by current migration and branch audit. Root must complete duplicate checks and remote claims before article drafting.", "Proposed missing opposition identities require canonical resolution: Apollon Limassol, Chesterfield, Spartak Moscow.", "Selection reasons involving detailed match development must be confirmed in full match research before manuscript writing."]
+}

@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T19:48:57.538993Z",
+  "updatedAt": "2026-10-01T20:27:16.359451Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -16736,6 +16736,512 @@
         "workerId": "/root/astra_decade_writer",
         "blockers": []
       }
+    },
+    {
+      "id": "match-1992-08-08-liverpool-leeds-1992-cantona-charity-shield",
+      "event": "Liverpool 3–4 Leeds United: Seven-goal Shield final and Cantona hat-trick; a significant defeat in the season's only final.",
+      "historicalEventDate": "1992-08-08",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "10e8c10b-7ec3-4f26-b141-8eec3fb9bd45",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Seven-goal Shield final and Cantona hat-trick; a significant defeat in the season's only final.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–4 Leeds United",
+        "opposition": "Leeds United",
+        "score": "3–4",
+        "editorialReason": "Seven-goal Shield final and Cantona hat-trick; a significant defeat in the season's only final.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
+    },
+    {
+      "id": "match-1992-08-16-nottingham-forest-liverpool-1992-premier-league-begins",
+      "event": "Nottingham Forest 1–0 Liverpool: Liverpool's first Premier League fixture, establishing the new competition's starting point.",
+      "historicalEventDate": "1992-08-16",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "48ec6a9e-08d7-4093-9157-ea02d4b033e5",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Liverpool's first Premier League fixture, establishing the new competition's starting point.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Nottingham Forest 1–0 Liverpool",
+        "opposition": "Nottingham Forest",
+        "score": "1–0",
+        "editorialReason": "Liverpool's first Premier League fixture, establishing the new competition's starting point.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
+    },
+    {
+      "id": "match-1992-09-16-liverpool-apollon-1992-rush-four-european-record",
+      "event": "Liverpool 6–1 Apollon Limassol: Rush's four goals and club European scoring record.",
+      "historicalEventDate": "1992-09-16",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "05bf6044-46b0-43fb-a299-d295ca4020a1",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Rush's four goals and club European scoring record.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 6–1 Apollon Limassol",
+        "opposition": "Apollon Limassol",
+        "score": "6–1",
+        "editorialReason": "Rush's four goals and club European scoring record.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
+    },
+    {
+      "id": "match-1992-09-19-aston-villa-liverpool-1992-saunders-double",
+      "event": "Aston Villa 4–2 Liverpool: Newly transferred Saunders immediately scores twice against Liverpool; revealing early Souness-era defeat.",
+      "historicalEventDate": "1992-09-19",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "20e4f3fe-66a8-44d0-aeaa-f1ab3195ed5e",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly transferred Saunders immediately scores twice against Liverpool; revealing early Souness-era defeat.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Aston Villa 4–2 Liverpool",
+        "opposition": "Aston Villa",
+        "score": "4–2",
+        "editorialReason": "Newly transferred Saunders immediately scores twice against Liverpool; revealing early Souness-era defeat.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
+    },
+    {
+      "id": "match-1992-09-22-liverpool-chesterfield-1992-four-goal-recovery",
+      "event": "Liverpool 4–4 Chesterfield: Liverpool recover a three-goal deficit against fourth-tier opposition; exceptional cup tie.",
+      "historicalEventDate": "1992-09-22",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "f23f7d92-f046-4cee-92ca-bbd6842cf933",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Liverpool recover a three-goal deficit against fourth-tier opposition; exceptional cup tie.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–4 Chesterfield",
+        "opposition": "Chesterfield",
+        "score": "4–4",
+        "editorialReason": "Liverpool recover a three-goal deficit against fourth-tier opposition; exceptional cup tie.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
+    },
+    {
+      "id": "match-1992-10-18-manchester-united-liverpool-1992-rush-record",
+      "event": "Manchester United 2–2 Liverpool: Rush becomes Liverpool's all-time leading scorer; two-goal lead lost at Old Trafford.",
+      "historicalEventDate": "1992-10-18",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "25e4fce5-53b8-4520-9516-7a6a7b9bcb9e",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Rush becomes Liverpool's all-time leading scorer; two-goal lead lost at Old Trafford.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Manchester United 2–2 Liverpool",
+        "opposition": "Manchester United",
+        "score": "2–2",
+        "editorialReason": "Rush becomes Liverpool's all-time leading scorer; two-goal lead lost at Old Trafford.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
+    },
+    {
+      "id": "match-1992-11-04-liverpool-spartak-moscow-1992-european-exit",
+      "event": "Liverpool 0–2 Spartak Moscow: Decisive European elimination; covers away-leg context without duplicating the tie.",
+      "historicalEventDate": "1992-11-04",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "7299ca8d-7dfd-4998-b85d-163801fe02ea",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Decisive European elimination; covers away-leg context without duplicating the tie.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–2 Spartak Moscow",
+        "opposition": "Spartak Moscow",
+        "score": "0–2",
+        "editorialReason": "Decisive European elimination; covers away-leg context without duplicating the tie.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
+    },
+    {
+      "id": "match-1993-01-13-liverpool-bolton-1993-fa-cup-holders-beaten",
+      "event": "Liverpool 0–2 Bolton Wanderers: FA Cup holders eliminated at Anfield by lower-division opposition.",
+      "historicalEventDate": "1993-01-13",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "c4ea47b9-9f63-4e73-ba8f-45ee1bd1715e",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "FA Cup holders eliminated at Anfield by lower-division opposition.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–2 Bolton Wanderers",
+        "opposition": "Bolton Wanderers",
+        "score": "0–2",
+        "editorialReason": "FA Cup holders eliminated at Anfield by lower-division opposition.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
+    },
+    {
+      "id": "match-1993-03-20-liverpool-everton-1993-rosenthal-late-winner",
+      "event": "Liverpool 1–0 Everton: Last-minute derby winner during Liverpool's recovery from the bottom half.",
+      "historicalEventDate": "1993-03-20",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "2662957e-d4b2-4dcc-9b9a-0f6dc7eb18da",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Last-minute derby winner during Liverpool's recovery from the bottom half.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–0 Everton",
+        "opposition": "Everton",
+        "score": "1–0",
+        "editorialReason": "Last-minute derby winner during Liverpool's recovery from the bottom half.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
+    },
+    {
+      "id": "match-1993-04-17-liverpool-coventry-1993-walters-hat-trick",
+      "event": "Liverpool 4–0 Coventry City: Liverpool's first Premier League hat-trick, Walters' exceptional individual performance.",
+      "historicalEventDate": "1993-04-17",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "ae7aabd4-46b0-41ca-8b15-e137a4aede1b",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Liverpool's first Premier League hat-trick, Walters' exceptional individual performance.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–0 Coventry City",
+        "opposition": "Coventry City",
+        "score": "4–0",
+        "editorialReason": "Liverpool's first Premier League hat-trick, Walters' exceptional individual performance.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
+    },
+    {
+      "id": "match-1993-05-08-liverpool-tottenham-1993-six-goal-finale",
+      "event": "Liverpool 6–2 Tottenham Hotspur: Six-goal final-day victory secures sixth after a much worse winter position; distinct season conclusion.",
+      "historicalEventDate": "1993-05-08",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "claim": {
+        "token": "a359a57e-276f-459a-ab2d-c44a2d6a569d",
+        "claimedAt": "2026-10-01T20:27:16.359451Z",
+        "baseCommit": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Six-goal final-day victory secures sixth after a much worse winter position; distinct season conclusion.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+          "confidence": "high",
+          "scope": "Retrieved whole-season selection evidence; match sources and finished factual checks pending in recorded Astra worker."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "publicationClass": "automatic-history-match",
+      "matchProduction": {
+        "batchId": "remaining-1992-93",
+        "season": "1992-93",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 6–2 Tottenham Hotspur",
+        "opposition": "Tottenham Hotspur",
+        "score": "6–2",
+        "editorialReason": "Six-goal final-day victory secures sixth after a much worse winter position; distinct season conclusion.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/1992-93/research/selection.json"
+        ],
+        "model": "gpt-6-astra",
+        "workerId": "/root/astra_history_production",
+        "blockers": [
+          "Match manuscript and finished factual audit pending."
+        ]
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -16927,6 +17433,31 @@
       "reusedPaths": [],
       "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
       "nextStage": "Complete whole-season research and register the selected unwritten matches."
+    },
+    {
+      "id": "remaining-1992-93",
+      "season": "1992-93",
+      "stage": "match_research",
+      "owner": "gpt-6-astra /root/astra_history_production; remaining-match-production-2026-10-01",
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_history_production",
+      "sourceNote": "docs/editorial/drafts/match-production/1992-93/research/selection.json",
+      "selectedRowIds": [
+        "match-1992-08-08-liverpool-leeds-1992-cantona-charity-shield",
+        "match-1992-08-16-nottingham-forest-liverpool-1992-premier-league-begins",
+        "match-1992-09-16-liverpool-apollon-1992-rush-four-european-record",
+        "match-1992-09-19-aston-villa-liverpool-1992-saunders-double",
+        "match-1992-09-22-liverpool-chesterfield-1992-four-goal-recovery",
+        "match-1992-10-18-manchester-united-liverpool-1992-rush-record",
+        "match-1992-11-04-liverpool-spartak-moscow-1992-european-exit",
+        "match-1993-01-13-liverpool-bolton-1993-fa-cup-holders-beaten",
+        "match-1993-03-20-liverpool-everton-1993-rosenthal-late-winner",
+        "match-1993-04-17-liverpool-coventry-1993-walters-hat-trick",
+        "match-1993-05-08-liverpool-tottenham-1993-six-goal-finale"
+      ],
+      "reusedPaths": [],
+      "notes": "First genuine located programme gap, confirmed across all accessible repository branches. Earlier 1992-93 provenance remains NOT LOCATED. Newly commissioned production through 2024-25; no publication or approval.",
+      "nextStage": "Complete and fact-check all eleven researched selections, then validate and push season checkpoint."
     }
   ],
   "automaticHistory": {
