@@ -1,0 +1,52 @@
+---
+title: Liverpool come one goal short against Paris Saint-Germain
+slug: liverpool-paris-saint-germain-1997-04-24
+historicalEventDate: '1997-04-24'
+season: 1996-97
+historicalPeriod: '1997-04-24 · European Cup Winners’ Cup, semi-final, second leg · Anfield'
+decade: 1990s
+excerpt: >-
+  Mark Wright’s header left Liverpool needing one more goal to take the
+  semi-final into extra time. There were 11 minutes left, and Paris
+  Saint-Germain’s three-goal advantage had almost disappeared.
+category: match
+articleType: match
+managerIds:
+  - roy-evans
+competitionIds:
+  - european-cup-winners-cup
+locationIds:
+  - anfield
+oppositionIds: [paris-saint-germain]
+---
+# Liverpool come one goal short against Paris Saint-Germain
+
+**Liverpool 2–0 Paris Saint-Germain | 24 April 1997**  
+European Cup Winners’ Cup, semi-final, second leg · Anfield · Season 1996-97
+
+Mark Wright’s header left Liverpool needing one more goal to take the semi-final into extra time. There were 11 minutes left, and Paris Saint-Germain’s three-goal advantage had almost disappeared.
+
+Liverpool had made the task difficult in France. Goals from Leonardo, Benoît Cauet and Jérôme Leroy gave the holders a 3–0 first-leg win. To reach the final, Roy Evans’s side needed a performance very different from the one they had produced in Paris.
+
+Evans changed his selection accordingly. John Barnes was left out and Wright took the captaincy. Robbie Fowler, Stan Collymore, Patrik Berger and Steve McManaman all started as Liverpool committed more players to the attack.
+
+The early breakthrough arrived in the 11th minute. Collymore supplied Fowler, whose volley reduced the deficit and gave Liverpool most of the match to find two more.
+
+The second goal took much longer.
+
+Liverpool continued to attack without making the next breakthrough until Wright met Stig Inge Bjørnebye’s delivery in the 79th minute. His header made it 2–0 on the night and 3–2 to PSG on aggregate.
+
+Now a third Liverpool goal would force extra time, provided they kept the French side out. The match became an increasingly urgent search for the one chance that would extend the tie.
+
+Even David James joined the attack at the end. He came forward for a Mark Kennedy corner and headed over. PSG survived and progressed to the final.
+
+Liverpool had won the second leg and come close to repairing the damage of the first. Evans’s attacking selection had given them a credible chance, and Fowler’s early goal had made the recovery possible.
+
+They had left themselves too much to retrieve. The Cup Winners’ Cup campaign ended with victory at Anfield and elimination by a single goal.
+
+## Sources
+
+- **High confidence** — [LFChistory.net, match record](https://www.lfchistory.net/games/2117). Selection, captaincy, timing and aggregate score.
+- **High confidence** — [Press Association: “Britpack are back Evans tells Europe”, archived by LFChistory.net](https://www.lfchistory.net/articles/448). Contemporary account of Evans’s selection, the goals and James’s late header.
+- **High confidence** — [Chris Shaw, Liverpool FC: “Liverpool and Paris Saint-Germain – a brief history”](https://www.liverpoolfc.com/news/liverpool-and-paris-saint-germain-brief-history?amp=1). Independent club account of both legs and the first-leg scorers.
+

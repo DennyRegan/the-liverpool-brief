@@ -1,0 +1,39 @@
+---
+title: "Fowler scores twice to beat Manchester United"
+slug: "1995-12-17-liverpool-manchester-united"
+historicalEventDate: "1995-12-17"
+historicalPeriod: "17 December 1995"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Robbie Fowler scored just before half-time and again near the end as Liverpool beat Manchester United."
+playerIds: ["robbie-fowler", "stan-collymore", "steve-mcmanaman"]
+managerIds: ["roy-evans"]
+competitionIds: ["premier-league"]
+oppositionIds: ["manchester-united"]
+locationIds: ["anfield"]
+---
+
+Robbie Fowler scored just before half-time and again near the end as Liverpool beat Manchester United. Peter Schmeichel kept the visitors in contention with a succession of saves from Stan Collymore.
+
+Liverpool controlled midfield and repeatedly found space on the left. Michael Thomas, John Barnes and Steve McManaman helped keep the visitors on the defensive, while Collymore made the runs that gave Schmeichel most of his work.
+
+The goalkeeper stopped Collymore repeatedly in the first half. Liverpool were still level as the interval approached, despite their chances, until Lee Sharpe fouled Barnes outside the penalty area. Fowler curled the resulting free-kick beyond Schmeichel to give Liverpool the lead.
+
+Collymore remained a threat after the restart. He turned away from Steve Bruce and struck the frame of the goal, then found Schmeichel blocking his route again when another chance arrived.
+
+United eventually threatened an equaliser. David James saved an Eric Cantona volley, an intervention that mattered while Liverpool's advantage remained a single goal.
+
+Fowler settled the match in the closing minutes. McManaman carried the ball forward and found him; Fowler deceived David Beckham before lifting his finish past Schmeichel.
+
+Liverpool finished the day fifth, four points behind United, who remained seven behind leaders Newcastle. The win followed October's 2–2 draw at Old Trafford, where Fowler had also scored twice. He had supplied all four Liverpool goals in the season's two league meetings.
+
+## Sources
+
+- [LFChistory — match record and contemporary league table](https://www.lfchistory.net/games/2041).
+- [Press Association — contemporary match report, preserved by LFChistory](https://www.lfchistory.net/articles/775).
+- [The Independent — Guy Hodgson's contemporary report](https://www.the-independent.com/sport/football-double-trouble-from-fowler-1526276.html).
+- [11v11 — independent match record](https://www.11v11.com/matches/liverpool-v-manchester-united-17-december-1995-22350/).
+- [LFChistory — October's meeting at Old Trafford](https://www.lfchistory.net/games/2026).

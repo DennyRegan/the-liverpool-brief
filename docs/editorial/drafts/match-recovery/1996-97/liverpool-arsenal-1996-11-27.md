@@ -1,0 +1,51 @@
+---
+title: Fowler and Berger see off Arsenal in a six-goal cup tie
+slug: liverpool-arsenal-1996-11-27
+historicalEventDate: '1996-11-27'
+season: 1996-97
+historicalPeriod: '1996-11-27 · League Cup, fourth round · Anfield'
+decade: 1990s
+excerpt: >-
+  Arsenal scored two penalties and still left Anfield beaten by two goals.
+  Liverpool recovered from an early mistake, took control either side of
+  half-time and answered the visitors’ last challenge through Patrik Berger.
+category: match
+articleType: match
+managerIds:
+  - roy-evans
+competitionIds:
+  - league-cup
+oppositionIds:
+  - arsenal
+locationIds:
+  - anfield
+---
+# Fowler and Berger see off Arsenal in a six-goal cup tie
+
+**Liverpool 4–2 Arsenal | 27 November 1996**  
+League Cup, fourth round · Anfield · Season 1996-97
+
+Arsenal scored two penalties and still left Anfield beaten by two goals. Liverpool recovered from an early mistake, took control either side of half-time and answered the visitors’ last challenge through Patrik Berger.
+
+The opening was uncomfortable. Neil Ruddock lost possession to John Hartson, who was brought down by David James. Ian Wright converted the penalty to put Arsenal ahead.
+
+Steve McManaman supplied Liverpool’s response, heading in Stig Inge Bjørnebye’s cross. Robbie Fowler then scored from the spot after referee Alan Wilkie judged that Lee Dixon had handled. Arsenal disputed the decision, but Liverpool reached half-time 2–1 ahead.
+
+Their third goal was created in open play and gave a better measure of the football that was separating the teams. Jason McAteer exchanged passes with McManaman on the right and delivered a low cross for Fowler to finish at the far post.
+
+McAteer and McManaman’s combination had opened Arsenal up. Fowler’s movement completed it.
+
+Arsenal were reduced to ten men when Steve Bould received a second booking for a challenge on McManaman. Even then, the tie was not finished. Mark Wright fouled Hartson, and Ian Wright converted his second penalty to make it 3–2.
+
+Liverpool allowed the uncertainty to last only four minutes. McManaman again released McAteer, who found Berger outside the area. The Czech midfielder drove his shot into the bottom corner.
+
+It was Liverpool’s fourth goal against a defence containing Dixon, Bould, Tony Adams, Martin Keown and Nigel Winterburn. Fowler had scored twice, but the width and combinations around him had been equally important.
+
+Liverpool advanced to the quarter-finals. Arsenal’s penalties had kept them involved; Liverpool’s attacking play had decided the match.
+
+## Sources
+
+- **High confidence** — [LFChistory.net, match record](https://www.lfchistory.net/games/2089). Teams, score, penalties, dismissal and sequence.
+- **High confidence** — [Ken Gaunt, Press Association: “Wenger gives Liverpool his approval”, archived by LFChistory.net](https://www.lfchistory.net/articles/447). Contemporary descriptions of the incidents and attacking combinations.
+- **High confidence** — [Liverpool FC: “Missing Men: Arsenal 1996”](https://www.liverpoolfc.com/news/features/370315-missing-men-arsenal-1996?ref_src=Telegram). Independent retrospective confirming Fowler’s double and the scoring progression.
+

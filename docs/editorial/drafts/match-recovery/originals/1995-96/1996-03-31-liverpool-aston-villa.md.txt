@@ -1,0 +1,36 @@
+---
+title: "Fowler finishes Villa's challenge as Liverpool reach Wembley"
+slug: "1996-03-31-liverpool-aston-villa"
+historicalEventDate: "1996-03-31"
+historicalPeriod: "31 March 1996"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Robbie Fowler scored twice as Liverpool beat Aston Villa 3–0 at Old Trafford on 31 March 1996 to reach the FA Cup final."
+playerIds: ["robbie-fowler", "david-james", "jamie-redknapp", "jason-mcateer"]
+managerIds: ["roy-evans"]
+competitionIds: ["fa-cup"]
+oppositionIds: ["aston-villa"]
+locationIds: ["old-trafford"]
+---
+
+Robbie Fowler scored twice as Liverpool beat Aston Villa 3–0 at Old Trafford on 31 March 1996 to reach the FA Cup final. Jason McAteer added the third in stoppage time, completing a result whose margin concealed how long Villa had kept the tie alive.
+
+Liverpool led from the 16th minute but did not score again until the 86th. Between those goals, David James made crucial saves to preserve an advantage that remained vulnerable almost to the end.
+
+Jamie Redknapp supplied the first opening, sending in a free-kick which Fowler met with a low header beyond Mark Bosnich. Villa defender Gareth Southgate, already struggling with a knee injury, was replaced by Steve Staunton soon afterwards.
+
+Villa continued to threaten. James stopped Dwight Yorke from close range in the first half, then made another important intervention against Ugo Ehiogu after the interval. Mark Draper helped sustain Villa's pressure, while Liverpool looked for a second goal of their own. John Barnes came close when his shot struck the post.
+
+Fowler finally established breathing space with four minutes left. After another Redknapp free-kick was headed out, he controlled the ball on his chest and volleyed left-footed into the net off the post. The finish changed a precarious lead into a commanding one. Steve McManaman then crossed for McAteer to score from close range in added time.
+
+Roy Evans' side would face Manchester United at Wembley.
+
+## Sources
+
+- [LFChistory: match record](https://lfchistory.net/games/2060)
+- [“Fowler's golden touch fired Reds to Wembley”, archived contemporary report, LFChistory](https://lfchistory.net/articles/800)
+- [11v11: Liverpool v Aston Villa, 31 March 1996](https://www.11v11.com/matches/liverpool-v-aston-villa-31-march-1996-217208/)
+- [Liverpool FC: “March 31 in LFC history”](https://www.liverpoolfc.com/news/first-team/213783-march-31-in-lfc-history-crouch-hat-trick-gerrard-stuns-united)

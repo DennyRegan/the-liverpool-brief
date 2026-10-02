@@ -1,0 +1,61 @@
+---
+# Draft: publication date and editorialMode are set only after approval.
+title: "Manchester United 0–3 Liverpool: two quick goals and a debut for Phil Thompson"
+historicalEventDate: "1972-04-03"
+historicalPeriod: "3 April 1972 · First Division · Old Trafford"
+decade: "1970s"
+excerpt: "Liverpool scored twice in two minutes at Old Trafford on Easter Monday 1972. By the end of the afternoon they had a third goal, another clean sheet and a new first-team player."
+slug: "manchester-united-liverpool-1972-thompson-debut"
+category: "match"
+articleType: "match"
+season: "1971-72"
+playerIds: ["chris-lawler", "john-toshack", "emlyn-hughes", "phil-thompson"]
+managerIds: ["bill-shankly"]
+oppositionIds: ["manchester-united"]
+competitionIds: ["first-division"]
+locationIds: ["old-trafford"]
+sources: ["https://www.lfchistory.net/games/673", "https://www.mufcinfo.com/manupag/match_data/match_sql.php?my_match_date=1972-04-03", "https://www.11v11.com/matches/manchester-united-v-liverpool-03-april-1972-81561/", "https://www.liverpoolfc.com/info/phil-thompson"]
+---
+
+# Manchester United 0–3 Liverpool: two quick goals and a debut for Phil Thompson
+
+Liverpool scored twice in two minutes at Old Trafford on Easter Monday 1972. By the end of the afternoon they had a third goal, another clean sheet and a new first-team player.
+
+The 3–0 victory over Manchester United on 3 April was still goalless at half-time. Chris Lawler broke the deadlock on the hour, John Toshack quickly doubled the lead, and Emlyn Hughes completed the scoring late in the game.
+
+For Bill Shankly’s side, the result left them second in the First Division, a point behind Derby County. Both had played thirty-seven matches, with five still to come.
+
+United’s starting side included George Best, Bobby Charlton and Denis Law. Liverpool kept them out, then established a commanding advantage after the interval. Steve Heighway was credited with the assist for Lawler’s opening goal; Brian Hall supplied Toshack’s second.
+
+With nine minutes remaining, Shankly replaced Toshack with Phil Thompson. The eighteen-year-old was making his senior debut for the club. Liverpool were already 2–0 ahead; Hughes added the third three minutes after the change.
+
+Thompson’s appearance gives the match a significance beyond the result and the league table. The young player from Kirkby would become a central part of Liverpool’s defence, but he had begun his development as a midfielder. The club’s own account credits that grounding with helping him become comfortable carrying the ball out from the back.
+
+He would make twenty appearances in the following season, sharing in Liverpool’s league championship and UEFA Cup success. In 1981 he would lift the European Cup as captain.
+
+Those achievements lay well ahead when he came off the bench at Old Trafford. On this afternoon his task was to join a team seeing out an important away win in a close title race.
+
+Liverpool left with two league points. Thompson left with his first senior appearance, earned in a match against Manchester United and completed without a goal conceded.
+
+## Sources
+
+- [LFChistory — match record](https://www.lfchistory.net/games/673)
+- [MUFCinfo — Manchester United match record](https://www.mufcinfo.com/manupag/match_data/match_sql.php?my_match_date=1972-04-03)
+- [11v11 — match and debut record](https://www.11v11.com/matches/manchester-united-v-liverpool-03-april-1972-81561/)
+- [Liverpool FC — Phil Thompson profile](https://www.liverpoolfc.com/info/phil-thompson)
+
+---
+
+## Editor notes — not for publication
+
+Status: awaiting approval; not published. Longlist 012.
+
+Date independently checked as Monday 3 April 1972, not 2 April as one syndicated page incorrectly states. Attendance is omitted: LFChistory rounds to 54,000, while United’s archive and 11v11 give 53,826. Lawler 60, Toshack 62, Hughes 84 agree across the specialist club archives. Phil Thompson is the debutant, distinct from Peter Thompson. Existing Phil Thompson career article does not duplicate this match piece. Season 1971–72; league champion status in the next season is explicitly future context.
+
+Source confidence: LFChistory — match record: high for identity, assists, substitution and table; MUFCinfo — Manchester United match record: high for independent result and scoring times; 11v11 — match and debut record: high for date and debut; Liverpool FC — Phil Thompson profile: high for development and later career.
+
+Publication: add the actual publication date as date, set editorialMode to factual after approval, remove this editor section and the duplicate H1, and retain all historical metadata. The draft is deliberately outside the site content collection.
+
+Anniversary: historicalEventDate selects this article in This Week Further reading during the matching Monday–Sunday week after publication. For a daily event card use archiveSlug: manchester-united-liverpool-1972-thompson-debut. Date match does not itself create a daily event card.
+
+Registry additions needed before publication: manchester-united, old-trafford. Check labels against the latest registry before adding.

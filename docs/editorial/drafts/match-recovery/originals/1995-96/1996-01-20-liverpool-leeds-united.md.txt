@@ -1,0 +1,34 @@
+---
+title: "Ruddock and Fowler double up as Liverpool put five past Leeds"
+slug: "1996-01-20-liverpool-leeds-united"
+historicalEventDate: "1996-01-20"
+historicalPeriod: "20 January 1996"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Liverpool turned a one-goal interval lead into a 5–0 victory over Leeds United at Anfield on 20 January 1996, with Neil Ruddock and Robbie Fowler scoring twice apiece."
+playerIds: ["neil-ruddock", "robbie-fowler", "stan-collymore"]
+managerIds: ["roy-evans"]
+competitionIds: ["premier-league"]
+oppositionIds: ["leeds-united"]
+locationIds: ["anfield"]
+---
+
+Liverpool turned a one-goal interval lead into a 5–0 victory over Leeds United at Anfield on 20 January 1996, with Neil Ruddock and Robbie Fowler scoring twice apiece. Stan Collymore added the other as Roy Evans' side moved into second place in the Premier League.
+
+Leeds initially offered more resistance than the final margin suggests. Ruddock broke through in the 27th minute, heading in after a short corner, but David James still had work to do before half-time. He denied Gary Speed and Gary McAllister as Leeds sought an equaliser. Liverpool's advantage remained a single goal at the break.
+
+Rob Jones' run into the penalty area changed the scale of the contest after the hour. Gary Kelly brought him down and was sent off; Fowler converted the penalty to make it 2–0. With Leeds reduced to ten men, Liverpool soon scored again. Collymore delivered from the right and Fowler finished at the far post.
+
+Liverpool then scored twice at the close. Collymore struck first, before Ruddock completed an unusual double for a central defender with a left-foot volley following a corner. The opening scorer had also provided the final touch to the afternoon.
+
+The win took Liverpool to 42 points from 23 games, ahead of Manchester United on goal difference. Newcastle United remained 12 points clear with the same number played. Liverpool had scored 21 goals in their last five home matches.
+
+## Sources
+
+- [LFChistory: match record](https://lfchistory.net/games/2047)
+- [Press Association: “Robbie's message to Tel”, archived by LFChistory](https://lfchistory.net/articles/789)
+- [11v11: Liverpool v Leeds United, 20 January 1996](https://www.11v11.com/matches/liverpool-v-leeds-united-20-january-1996-22400/)
+- [Simon O'Hagan, The Independent: “Fowler tells it straight”](https://www.the-independent.com/sport/fowler-tells-it-straight-1325087.html)

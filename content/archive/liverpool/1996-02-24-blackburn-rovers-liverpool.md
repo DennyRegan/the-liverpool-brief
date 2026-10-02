@@ -13,6 +13,7 @@ excerpt: "An unusual opening goal, a Collymore free-kick and Michael Thomas's fi
 playerIds: ["stan-collymore", "michael-thomas", "robbie-fowler"]
 managerIds: ["roy-evans"]
 competitionIds: ["premier-league"]
+oppositionIds: [blackburn-rovers]
 ---
 
 Stan Collymore scored twice as Liverpool won 3-2 at Blackburn Rovers on 24 February 1996. Michael Thomas added the goal that ultimately separated the sides, with the visitors surviving a late Blackburn response to leave Ewood Park with three points.

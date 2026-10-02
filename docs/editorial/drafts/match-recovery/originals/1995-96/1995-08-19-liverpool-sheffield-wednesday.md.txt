@@ -1,0 +1,35 @@
+---
+title: "Collymore wins on his Liverpool debut"
+slug: "1995-08-19-liverpool-sheffield-wednesday"
+historicalEventDate: "1995-08-19"
+historicalPeriod: "19 August 1995"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Stan Collymore marked his Liverpool debut with the only goal against Sheffield Wednesday."
+playerIds: ["stan-collymore", "jamie-redknapp"]
+managerIds: ["roy-evans"]
+competitionIds: ["premier-league"]
+locationIds: ["anfield"]
+---
+
+Stan Collymore marked his Liverpool debut with the only goal against Sheffield Wednesday. The £8.5 million signing from Nottingham Forest scored it from outside the penalty area, turning a difficult opening afternoon into a winning start.
+
+Roy Evans paired him with Ian Rush. Robbie Fowler began the new league season on the bench, while Wednesday's new manager, David Pleat, set out a five-man defence.
+
+Liverpool had possession but struggled to get behind it. Rush headed narrowly wide from Collymore's cross, and Julian Watts cleared another of the Liverpool captain's efforts off the line. Jamie Redknapp offered their clearest threat from distance, striking the crossbar with one effort and repeatedly testing Kevin Pressman. Wednesday had opportunities of their own: Chris Waddle's passing troubled Liverpool, and David James saved from Dan Petrescu.
+
+Pressman continued to resist after half-time, keeping out Redknapp and Steve Harkness. Then Collymore found the space Liverpool had been seeking. In the 61st minute, he worked the ball on to his left foot and curled a shot beyond the goalkeeper from around 25 yards.
+
+Wednesday had contained Liverpool's forwards for an hour. Collymore scored without needing to be put through on goal.
+
+Pressman subsequently denied Steve McManaman, and Collymore went close again. Fowler replaced Rush before Michael Thomas came on for the match-winner. Liverpool finished with a clean sheet and three points.
+
+## Sources
+
+- [LFChistory — match record](https://www.lfchistory.net/games/2016).
+- [Press Association — contemporary match report, preserved by LFChistory](https://www.lfchistory.net/articles/750).
+- [11v11 — independent match record](https://www.11v11.com/matches/liverpool-v-sheffield-wednesday-19-august-1995-22176/).
+- [Liverpool FC — Stan Collymore profile](https://www.liverpoolfc.com/info/stan-collymore).

@@ -1,0 +1,1128 @@
+{
+  "checkedAt": "2026-10-01T16:44:52.319Z",
+  "recovered": 122,
+  "publishedBeforeMigration": 32,
+  "unpublished": 90,
+  "checks": [
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-everton-comeback-1970",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-bayern-1971-alun-evans",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/tottenham-liverpool-1971-heighway-clemence",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-arsenal-1971-toshack-smith",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-arsenal-1971-fa-cup-final",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-everton-1971-brian-hall",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/leeds-liverpool-1971-early-winner",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-arsenal-1971-ian-ross",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-derby-1971-jack-whitham",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/derby-liverpool-1972-mcgovern-title-race",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-manchester-city-1972-opening-day",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-everton-1972-four-goal-derby",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-newcastle-1972-five-goals",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/manchester-united-liverpool-1972-thompson-debut",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/leeds-liverpool-1972-phil-boersma",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-sheffield-united-1972-five-goals",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/swindon-liverpool-1993-mcmanaman",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-manchester-united-1994-comeback",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-southampton-1993-fowler-hat-trick",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/tottenham-liverpool-1993-three-three",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/barcelona-liverpool-1976-toshack-advantage",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/saunders-four-kuusysi-european-return-1991",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-stromsgodset-record-win-1974",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/fowler-five-fulham-1993",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-everton-1994-fowler-rush",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-norwich-1994-standing-kop",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-bristol-city-1994-souness-final-match",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-01-11-liverpool-arsenal",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1994-08-20-crystal-palace-liverpool",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1994-11-30-blackburn-rovers-liverpool",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-03-08-crystal-palace-liverpool",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1994-08-28-liverpool-arsenal",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-03-11-liverpool-tottenham-hotspur",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-04-02-liverpool-bolton-wanderers",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-03-19-liverpool-manchester-united",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-05-14-liverpool-blackburn-rovers",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-09-23-liverpool-bolton-wanderers",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-08-19-liverpool-sheffield-wednesday",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-10-01-manchester-united-liverpool",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-10-28-liverpool-manchester-city",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/middlesbrough-liverpool-1996-08-17",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-12-23-liverpool-arsenal",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1996-02-24-blackburn-rovers-liverpool",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1996-03-31-liverpool-aston-villa",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1995-12-17-liverpool-manchester-united",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1996-01-20-liverpool-leeds-united",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/1996-05-11-liverpool-manchester-united",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-4-3-newcastle-1996",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-arsenal-1996-11-27",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-middlesbrough-1996-12-14",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/chelsea-liverpool-1997-01-26",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-newcastle-1997-03-10",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-chelsea-1996-09-21",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-sion-1996-10-31",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/arsenal-liverpool-1997-03-24",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-brann-1997-03-20",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-manchester-united-1997-04-19",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/sheffield-wednesday-liverpool-1998-owen-hat-trick",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/wimbledon-liverpool-1997-05-06",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-paris-saint-germain-1997-04-24",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/celtic-liverpool-1997-mcmanaman-equaliser",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-arsenal-1998-ince-double",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/manchester-united-liverpool-1998-ten-men-hold-on",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/newcastle-liverpool-1998-owen-first-half-hat-trick",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-tottenham-1998-evans-final-match",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-everton-1999-fowler-double-gerrard-clears",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/manchester-united-liverpool-1999-late-fa-cup-defeat",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-everton-1999-three-red-cards",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-west-ham-1999-camara-winner",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-manchester-united-1999-ince-equaliser",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/arsenal-liverpool-2000-camara-highbury",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-sheffield-wednesday-1999-gerrard-first-goal",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-crystal-palace-2001-five-goal-semi-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/roma-liverpool-2001-owen-double",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-birmingham-2001-league-cup-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/bradford-liverpool-2000-final-day-defeat",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/everton-liverpool-2001-mcallister-derby-winner",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/manchester-united-liverpool-2000-murphy-free-kick",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-barcelona-2001-mcallister-semi-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-arsenal-2001-owen-fa-cup-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/charlton-liverpool-2001-champions-league-place",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-bayern-2001-super-cup",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-alaves-2001-uefa-cup-treble",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/manchester-united-liverpool-2002-murphy-winner",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-manchester-united-2001-riise-owen",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-ipswich-2002-second-place",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-roma-2002-houllier-return",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/leverkusen-liverpool-2002-quarter-final-exit",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/basel-liverpool-2002-comeback-elimination",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/manchester-city-liverpool-2002-owen-hat-trick",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-sheffield-united-2003-extra-time-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-manchester-united-2003-league-cup-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-celtic-2003-anfield-exit",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/chelsea-liverpool-2003-champions-league-place",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/everton-liverpool-2003-owen-kewell",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/chelsea-liverpool-2004-cheyrou",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/marseille-liverpool-2004-uefa-cup-exit",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/manchester-united-liverpool-2004-murphy-penalty",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-arsenal-2004-mellor-winner",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-olympiacos-2004-gerrard",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/arsenal-liverpool-2004-henry-hat-trick",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/burnley-liverpool-2005-fa-cup-exit",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/chelsea-liverpool-2005-league-cup-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-monaco-champions-league-2004",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-juventus-2005-first-leg",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/sao-paulo-liverpool-2005-world-final-defeat",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/istanbul-2005-champions-league-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-cska-moscow-2005-cisse-super-cup",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-chelsea-2005-champions-league-semi-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/juventus-liverpool-2005-second-leg",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/luton-liverpool-2006-sinama-pongolle-alonso-comeback",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-manchester-united-2006-crouch-cup-header",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/everton-liverpool-2006-johnson-derby-defeat",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-arsenal-2007-crouch-perfect-hat-trick",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-benfica-2006-european-defence-ends",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/barcelona-liverpool-2007-bellamy-riise-camp-nou",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-west-ham-2006-gerrard-fa-cup-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-arsenal-2007-baptista-four-cup-exit",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/chelsea-liverpool-2006-riise-garcia-semi-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/psv-liverpool-2007-three-away-goals",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/milan-liverpool-2007-inzaghi-athens-final",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1993-94/tottenham-liverpool-1993-three-three.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1993-94/liverpool-manchester-united-1994-comeback.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1993-94/liverpool-southampton-1993-fowler-hat-trick.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1993-94/swindon-liverpool-1993-mcmanaman.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1993-94/liverpool-bristol-city-1994-souness-final-match.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1993-94/liverpool-everton-1994-fowler-rush.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/archive/liverpool-chelsea-2007-agger-reina-shoot-out",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1993-94/liverpool-norwich-1994-standing-kop.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/1994-08-20-crystal-palace-liverpool.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/1994-08-28-liverpool-arsenal.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/1995-03-08-crystal-palace-liverpool.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/1995-03-11-liverpool-tottenham-hotspur.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/1995-01-11-liverpool-arsenal.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/1994-11-30-blackburn-rovers-liverpool.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/1995-03-19-liverpool-manchester-united.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/1995-04-02-liverpool-bolton-wanderers.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/middlesbrough-liverpool-1996-08-17.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/1995-05-14-liverpool-blackburn-rovers.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/liverpool-chelsea-1996-09-21.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/liverpool-sion-1996-10-31.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/liverpool-arsenal-1996-11-27.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/liverpool-middlesbrough-1996-12-14.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/chelsea-liverpool-1997-01-26.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/liverpool-newcastle-1997-03-10.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/arsenal-liverpool-1997-03-24.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/liverpool-brann-1997-03-20.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/liverpool-manchester-united-1997-04-19.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/liverpool-paris-saint-germain-1997-04-24.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1997-98/celtic-liverpool-1997-mcmanaman-equaliser.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1996-97/wimbledon-liverpool-1997-05-06.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1997-98/sheffield-wednesday-liverpool-1998-owen-hat-trick.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1997-98/liverpool-arsenal-1998-ince-double.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1998-99/newcastle-liverpool-1998-owen-first-half-hat-trick.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1998-99/manchester-united-liverpool-1999-late-fa-cup-defeat.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1998-99/liverpool-tottenham-1998-evans-final-match.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1998-99/liverpool-everton-1999-fowler-double-gerrard-clears.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1998-99/liverpool-manchester-united-1999-ince-equaliser.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1999-00/liverpool-everton-1999-three-red-cards.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1997-98/manchester-united-liverpool-1998-ten-men-hold-on.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1999-00/liverpool-west-ham-1999-camara-winner.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1999-00/liverpool-sheffield-wednesday-1999-gerrard-first-goal.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1999-00/arsenal-liverpool-2000-camara-highbury.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/1999-00/bradford-liverpool-2000-final-day-defeat.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2000-01/liverpool-crystal-palace-2001-five-goal-semi-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2000-01/roma-liverpool-2001-owen-double.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2000-01/manchester-united-liverpool-2000-murphy-free-kick.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2000-01/liverpool-birmingham-2001-league-cup-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2000-01/everton-liverpool-2001-mcallister-derby-winner.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2000-01/liverpool-barcelona-2001-mcallister-semi-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2000-01/liverpool-arsenal-2001-owen-fa-cup-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2000-01/liverpool-alaves-2001-uefa-cup-treble.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2001-02/liverpool-bayern-2001-super-cup.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2000-01/charlton-liverpool-2001-champions-league-place.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2001-02/liverpool-manchester-united-2001-riise-owen.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2001-02/manchester-united-liverpool-2002-murphy-winner.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2001-02/leverkusen-liverpool-2002-quarter-final-exit.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2001-02/liverpool-ipswich-2002-second-place.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2002-03/manchester-city-liverpool-2002-owen-hat-trick.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2002-03/basel-liverpool-2002-comeback-elimination.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2002-03/liverpool-sheffield-united-2003-extra-time-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2001-02/liverpool-roma-2002-houllier-return.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2002-03/liverpool-manchester-united-2003-league-cup-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2002-03/liverpool-celtic-2003-anfield-exit.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2003-04/marseille-liverpool-2004-uefa-cup-exit.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2003-04/chelsea-liverpool-2004-cheyrou.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2003-04/arsenal-liverpool-2004-henry-hat-trick.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2003-04/manchester-united-liverpool-2004-murphy-penalty.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2003-04/everton-liverpool-2003-owen-kewell.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2004-05/liverpool-arsenal-2004-mellor-winner.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2004-05/liverpool-olympiacos-2004-gerrard.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2002-03/chelsea-liverpool-2003-champions-league-place.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2004-05/burnley-liverpool-2005-fa-cup-exit.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2004-05/liverpool-juventus-2005-first-leg.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2004-05/chelsea-liverpool-2005-league-cup-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2004-05/liverpool-chelsea-2005-champions-league-semi-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2004-05/istanbul-2005-champions-league-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2004-05/juventus-liverpool-2005-second-leg.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2005-06/luton-liverpool-2006-sinama-pongolle-alonso-comeback.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2005-06/liverpool-benfica-2006-european-defence-ends.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2005-06/chelsea-liverpool-2006-riise-garcia-semi-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2005-06/liverpool-manchester-united-2006-crouch-cup-header.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2005-06/liverpool-west-ham-2006-gerrard-fa-cup-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2006-07/everton-liverpool-2006-johnson-derby-defeat.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-baptista-four-cup-exit.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2006-07/barcelona-liverpool-2007-bellamy-riise-camp-nou.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2006-07/psv-liverpool-2007-three-away-goals.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2006-07/liverpool-chelsea-2007-agger-reina-shoot-out.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2006-07/milan-liverpool-2007-inzaghi-athens-final.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/history/players",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/history/seasons",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/history/matches",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/docs/editorial/history-calendar.json",
+      "status": 404,
+      "expected": 404
+    },
+    {
+      "url": "http://127.0.0.1:3154/sitemap.xml",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "http://127.0.0.1:3154/robots.txt",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "https://theliverpoolbrief.com/",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "https://theliverpoolbrief.com/history/matches",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "https://theliverpoolbrief.com/archive/liverpool-everton-comeback-1970",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "https://theliverpoolbrief.com/archive/1995-08-19-liverpool-sheffield-wednesday",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "url": "https://theliverpoolbrief.com/archive/liverpool-monaco-champions-league-2004",
+      "status": 200,
+      "expected": 200
+    }
+  ]
+}

@@ -12,6 +12,7 @@ excerpt: "Ian Rush scored his 16th and final Liverpool hat-trick in a 3-1 League
 playerIds: ["ian-rush", "david-james"]
 managerIds: ["roy-evans", "kenny-dalglish"]
 competitionIds: ["league-cup"]
+oppositionIds: [blackburn-rovers]
 ---
 
 Ian Rush marked his 600th Liverpool appearance by scoring all three goals in a 3-1 League Cup win at Blackburn Rovers. His 16th hat-trick for the club, on 30 November 1994, would also be his last.

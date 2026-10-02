@@ -14,6 +14,7 @@ playerIds: ["robbie-fowler", "stan-collymore", "steve-mcmanaman"]
 managerIds: ["roy-evans"]
 competitionIds: ["premier-league"]
 locationIds: ["anfield"]
+oppositionIds: [bolton-wanderers]
 ---
 
 Robbie Fowler scored four times against Bolton Wanderers at Anfield on 23 September 1995. Liverpool led 4–0 through his goals before two late replies briefly reduced the margin. Steve Harkness then completed a 5–2 win.

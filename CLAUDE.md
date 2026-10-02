@@ -20,3 +20,7 @@ Node 22.18+ or 24 supports the built-in TypeScript test runner without new depen
 
 ## Working agreement
 Explain important architecture choices. Keep the draft redesign reviewable before production release. About copy is provisional for Denny’s review.
+
+## Narrow automatic History publication authority — 1 October 2026
+
+Denny authorises completed, technically ready historical career biographies and factual historical match reports explicitly opted into the automatic queue to publish without individual manuscript approval after final activation. This exception supersedes older per-article approval language only for that queue; all other editorial boundaries remain. The shared calendar stays authoritative. Read [automatic History publishing](docs/editorial/automatic-history-publishing.md) before operating it; implementation remains disabled pending Denny’s final review and activation approval.

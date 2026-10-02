@@ -1,0 +1,34 @@
+---
+title: "Collymore's double helps Liverpool survive a Blackburn fightback"
+slug: "1996-02-24-blackburn-rovers-liverpool"
+historicalEventDate: "1996-02-24"
+historicalPeriod: "24 February 1996"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Stan Collymore scored twice as Liverpool won 3–2 at Blackburn Rovers on 24 February 1996, but a match which began with an extraordinary piece of good fortune ended with the visitors defending a narrow lead."
+playerIds: ["stan-collymore", "michael-thomas"]
+managerIds: ["roy-evans"]
+competitionIds: ["premier-league"]
+---
+
+Stan Collymore scored twice as Liverpool won 3–2 at Blackburn Rovers on 24 February 1996, but a match which began with an extraordinary piece of good fortune ended with the visitors defending a narrow lead. Michael Thomas supplied the decisive third goal at Ewood Park, where the reigning champions had previously lost only once in that league season.
+
+Collymore's opener owed much to the pitch. His shot appeared comfortable for Tim Flowers until it bounced sharply off the uneven goalmouth and over the goalkeeper into the net. Collymore had already turned away from the effort. The striker's second, in the 21st minute, required no such assistance: he curled a free-kick around Blackburn's wall and beyond Flowers.
+
+Blackburn responded quickly. Stuart Ripley's cross found Jason Wilcox, whose header reduced the deficit to 2–1. Liverpool retained that advantage at half-time, but had been given an early warning that two goals would not settle the afternoon.
+
+With 20 minutes remaining, Robbie Fowler's pass released Thomas to restore the two-goal lead. It proved essential. Tim Sherwood scored in the 83rd minute, leaving Liverpool to withstand another Blackburn push before the points were secure.
+
+The finish also brought controversy. Blackburn appealed for a penalty after an apparent handball by John Barnes, but no spot-kick followed. Roy Evans' assessment afterwards was guarded: his side's carelessness had made the closing minutes harder than they needed to be. The result was valuable without being a performance of uninterrupted control.
+
+Liverpool stayed third, with 52 points from 27 matches, two behind Manchester United and nine behind Newcastle. All three had played the same number of games. There was still ground to recover, but winning at Ewood Park kept that pursuit alive.
+
+## Sources
+
+- [LFChistory: match record](https://lfchistory.net/games/2052)
+- [Press Association: “Dramatic win at Ewood”, archived by LFChistory](https://lfchistory.net/articles/793)
+- [11v11: Blackburn Rovers v Liverpool, 24 February 1996](https://www.11v11.com/matches/blackburn-rovers-v-liverpool-24-february-1996-22435/)
+- [Simon O'Hagan, The Independent: “Rovers crash in red mist”](https://www.the-independent.com/sport/rovers-crash-in-red-mist-1321054.html)

@@ -1,0 +1,36 @@
+---
+title: "Liverpool put six past Manchester City"
+slug: "1995-10-28-liverpool-manchester-city"
+historicalEventDate: "1995-10-28"
+historicalPeriod: "28 October 1995"
+decade: "1990s"
+season: "1995-96"
+category: "match"
+articleType: "match"
+editorialMode: "factual"
+excerpt: "Manchester City conceded six at Anfield, three days after losing 4–0 there in the League Cup."
+playerIds: ["ian-rush", "robbie-fowler", "jamie-redknapp", "neil-ruddock"]
+managerIds: ["roy-evans"]
+competitionIds: ["premier-league"]
+oppositionIds: ["manchester-city"]
+locationIds: ["anfield"]
+---
+
+Manchester City conceded six at Anfield, three days after losing 4–0 there in the League Cup. Liverpool were two ahead inside five minutes, then scored four more in the second half.
+
+Ian Rush opened the scoring when Eike Immel blocked Jason McAteer's shot. Jamie Redknapp then doubled the lead with a deflected free-kick. City were bottom of the table, and the early goals left them chasing a game Liverpool could now control.
+
+City had chances to reduce the deficit, but Nicky Summerbee and Niall Quinn both shot over. The score remained 2–0 at half-time. Immediately after the restart, Liverpool scored again through a move begun in their own half. Mark Wright advanced from defence, combined with Steve McManaman and delivered the ball to Robbie Fowler. Fowler beat two defenders before finding the corner.
+
+Neil Ruddock, who had replaced the injured John Barnes, headed in Redknapp's corner. Fowler turned on McAteer's delivery to make it five, then Rush added his second after Immel saved from Redknapp.
+
+All six goals had arrived by the 64th minute. Rush and Fowler had two apiece; Redknapp and Ruddock completed a scoresheet drawn from across the team.
+
+Immel's saves prevented further damage. Liverpool had followed one heavy win over City with another, this time for league points, and remained third behind Newcastle and Manchester United. After 11 matches they had scored 24 goals and conceded eight.
+
+## Sources
+
+- [LFChistory — match record and contemporary league table](https://www.lfchistory.net/games/2032).
+- [Press Association — contemporary match report, preserved by LFChistory](https://www.lfchistory.net/articles/762).
+- [The Independent — Stephen Brenkley's contemporary report](https://www.the-independent.com/sport/clueless-city-are-hit-for-six-1580049.html).
+- [11v11 — independent match record](https://www.11v11.com/matches/liverpool-v-manchester-city-28-october-1995-22276/).

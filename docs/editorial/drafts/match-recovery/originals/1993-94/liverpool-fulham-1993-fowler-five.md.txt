@@ -1,0 +1,44 @@
+---
+# Draft: publication date and editorialMode are set only after approval.
+title: "Liverpool 5–0 Fulham: Fowler scores all five against Fulham"
+historicalEventDate: "1993-10-05"
+historicalPeriod: "05 October 1993 · League Cup second round, second leg · Anfield"
+decade: "1990s"
+excerpt: "Robbie Fowler was playing his fourth senior match for Liverpool. By the end of it, he had scored five goals."
+slug: "liverpool-fulham-1993-fowler-five"
+category: "match"
+articleType: "match"
+season: "1993-94"
+sources:
+  - "https://www.lfchistory.net/games/1921"
+  - "https://www.lfchistory.net/articles/928"
+  - "https://www.liverpoolfc.com/news/first-team/146369-20-years-on-fowler-s-five-v-fulham"
+  - "https://www.liverpoolfc.com/news/day-robbie-fowler-achieves-rare-lfc-goal-feat"
+  - "https://www.liverpoolfc.com/news/first-team/141887-column-my-first-footballing-love"
+---
+
+# Liverpool 5–0 Fulham: Fowler scores all five against Fulham
+
+Robbie Fowler was playing his fourth senior match for Liverpool. By the end of it, he had scored five goals.
+
+The 18-year-old supplied every goal in a 5–0 victory over Fulham, completing an 8–1 aggregate win. Only 12,541 spectators were at Anfield to see him join the small group of Liverpool players who had scored five in one match.
+
+Fowler had already scored on his debut in the first leg at Craven Cottage. His home debut had followed against Arsenal three days before the return, in a goalless draw. This time, Liverpool’s new striker had two goals inside 21 minutes.
+
+The first arrived after 13 minutes and the second eight minutes later. Fulham reached half-time two goals behind on the night, but the interval offered little respite. Two minutes after the restart, Fowler completed his hat-trick from Rob Jones’s delivery.
+
+He added a fourth in the 55th minute and a fifth after 70. The five goals included three left-footed finishes, a header and a right-footed strike. Fowler had scored with either foot and in the air, completing his five with 20 minutes still to play.
+
+The tie itself was settled overwhelmingly. Liverpool moved into the third round, having scored eight times across the two matches. Six of those goals belonged to a teenager who had not played senior football before the first leg.
+
+Graeme Souness’s response combined admiration with a wish to protect him. The manager recognised how much attention the performance would attract and said Liverpool would try to keep Fowler’s life unchanged.
+
+Fowler had become the fifth player to score five in a game for the club. The previous one was Ian Rush, the senior striker alongside him that evening.
+
+## Sources
+
+- [LFChistory: match record, Liverpool 5–0 Fulham](https://www.lfchistory.net/games/1921).
+- [British Soccer Week: “Young star blasts five past Fulham”, reproduced by LFChistory](https://www.lfchistory.net/articles/928).
+- [Liverpool FC: “20 years on: Fowler’s five v Fulham”, 4 October 2013](https://www.liverpoolfc.com/news/first-team/146369-20-years-on-fowler-s-five-v-fulham).
+- [Liverpool FC: “On this day: Robbie Fowler achieves rare LFC goal feat”, 5 October 2022](https://www.liverpoolfc.com/news/day-robbie-fowler-achieves-rare-lfc-goal-feat).
+- [Liverpool FC: “My first footballing love”, retrospective column](https://www.liverpoolfc.com/news/first-team/141887-column-my-first-footballing-love).

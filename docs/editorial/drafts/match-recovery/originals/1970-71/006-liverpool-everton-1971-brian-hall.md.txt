@@ -1,0 +1,60 @@
+---
+# Draft: publication date and editorialMode are set only after approval.
+title: "Liverpool 2–1 Everton: Brian Hall’s first goal sends Liverpool to Wembley"
+historicalEventDate: "1971-03-27"
+historicalPeriod: "27 March 1971 · FA Cup semi-final · Old Trafford"
+decade: "1970s"
+excerpt: "Brian Hall’s first Liverpool goal was the winner in an FA Cup semi-final against Everton. For a player who had originally come to the city to study mathematics, Old Trafford provided an extraordinary place to make his mark."
+slug: "liverpool-everton-1971-brian-hall"
+category: "match"
+articleType: "match"
+season: "1970-71"
+playerIds: ["brian-hall", "alun-evans"]
+managerIds: ["bill-shankly"]
+oppositionIds: ["everton"]
+competitionIds: ["fa-cup"]
+locationIds: ["old-trafford"]
+sources: ["https://www.lfchistory.net/games/613", "https://www.liverpoolfc.com/info/brian-hall", "https://www.liverpoolfc.com/news/which-grounds-have-merseyside-derbies-been-played"]
+---
+
+# Liverpool 2–1 Everton: Brian Hall’s first goal sends Liverpool to Wembley
+
+Brian Hall’s first Liverpool goal was the winner in an FA Cup semi-final against Everton. For a player who had originally come to the city to study mathematics, Old Trafford provided an extraordinary place to make his mark.
+
+Liverpool won 2–1 on 27 March 1971, recovering from a first-half deficit to reach Wembley for the first time since 1965. Hall supplied the decisive goal after Alun Evans had brought Bill Shankly’s side level.
+
+Alan Ball had put Everton ahead early in the match. Liverpool went in at half-time behind, with their neighbours forty-five minutes from the final. The task was now to find a way back into a derby being played on neutral ground.
+
+Everton lost Brian Labone to a second-half substitution, Sandy Brown coming on in his place. Then, in the fifty-ninth minute, Evans equalised, with Steve Heighway credited with the assist. Liverpool had recovered the deficit and still had half an hour to find another goal.
+
+Hall scored it with seventeen minutes left. There was no Everton reply. A crowd of 62,144 had watched Liverpool overturn the lead and claim the place at Wembley.
+
+Hall’s route into that side had been unusual. He had gone to university in Liverpool and graduated with a science degree. His early first-team involvement was limited to substitute appearances before he established himself in Shankly’s developing team.
+
+The manager valued his industry and intelligence. When Hall successfully covered for the injured Ian Callaghan on the right, Shankly accommodated both players after Callaghan returned by moving the older man into a central role.
+
+At Old Trafford both were in the starting eleven. Hall’s contribution was no longer simply about earning and keeping a place: he had settled one of the most consequential fixtures of Liverpool’s season.
+
+The final would end in defeat against Arsenal. Hall would have to wait until 1974 for his FA Cup winner’s medal. But his first goal retained a distinction of its own: it had beaten Everton and taken Liverpool back to Wembley.
+
+## Sources
+
+- [LFChistory — semi-final match record](https://www.lfchistory.net/games/613)
+- [Liverpool FC — Brian Hall profile](https://www.liverpoolfc.com/info/brian-hall)
+- [Liverpool FC — neutral derby venues](https://www.liverpoolfc.com/news/which-grounds-have-merseyside-derbies-been-played)
+
+---
+
+## Editor notes — not for publication
+
+Status: awaiting approval; not published. Longlist 006.
+
+The club confirms this was Hall’s first goal and Liverpool’s first final since 1965. Hall’s goal is placed at 73 minutes in the specialist match record; some retrospective sources give 75. The copy follows the match record and does not invent the strike’s mechanics. Ball’s precise minute is omitted because records differ by one minute. Labone’s substitution is reported without making an unsupported causal claim about the goals. Old Trafford is the neutral venue; Liverpool are the first-listed side, not hosts at Anfield.
+
+Source confidence: LFChistory — semi-final match record: high for identity, teams, substitutions and scoring sequence; Liverpool FC — Brian Hall profile: high for first goal, university background and career context; Liverpool FC — neutral derby venues: high for venue, comeback and scorers.
+
+Publication: add the actual publication date as date, set editorialMode to factual after approval, remove this editor section and the duplicate H1, and retain all historical metadata. The draft is deliberately outside the site content collection.
+
+Anniversary: historicalEventDate selects this article in This Week Further reading during the matching Monday–Sunday week after publication. For a daily event card use archiveSlug: liverpool-everton-1971-brian-hall. Date match does not itself create a daily event card.
+
+Registry additions needed before publication: old-trafford. Check labels against the latest registry before adding.

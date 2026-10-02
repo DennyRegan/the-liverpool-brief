@@ -13,6 +13,7 @@ playerIds: ["john-barnes", "jamie-redknapp", "mark-kennedy"]
 managerIds: ["roy-evans", "kenny-dalglish"]
 competitionIds: ["premier-league"]
 locationIds: ["anfield"]
+oppositionIds: [blackburn-rovers]
 ---
 
 Jamie Redknapp won the match for Liverpool, and Kenny Dalglish still won the championship. Anfield's final afternoon of the 1994-95 season ended with a 2-1 home victory over Blackburn Rovers and a title celebration for the beaten visitors.
