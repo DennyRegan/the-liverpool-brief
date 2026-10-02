@@ -15978,7 +15978,7 @@
   ],
   "automaticHistory": {
     "version": 1,
-    "enabled": false,
+    "enabled": true,
     "pausedQueues": [],
     "policy": "denny-automatic-history-2026-10-01",
     "runs": []
