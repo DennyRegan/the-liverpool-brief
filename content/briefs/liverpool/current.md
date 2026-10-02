@@ -1,10 +1,27 @@
 ---
 {
-  "lastUpdated": "2026-10-01T18:01:01.000Z",
+  "lastUpdated": "2026-10-02T17:13:00.000Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
+    {
+      "headline": "Manchester City appeal guilty verdict",
+      "category": "Premier League",
+      "summary": "Manchester City lodged an appeal against the independent commission's findings on 1 October. The club says the ruling contains material errors of law, principle and fact and maintains its innocence. The Premier League says the appeal hearing will be private and confidential; its outcome is pending.",
+      "sources": [
+        {
+          "name": "Premier League — confidence: high",
+          "platform": "Official statement, 2 October 2026",
+          "url": "https://www.premierleague.com/en/news/4729207/premier-league-statement-manchester-city-fc-appeal-decision-of-independent-commission-02-october-2026"
+        },
+        {
+          "name": "Manchester City — confidence: high",
+          "platform": "Official club statement, 2 October 2026",
+          "url": "https://www.mancity.com/news/club/manchester-city-lodge-appeal-63926534"
+        }
+      ]
+    },
     {
       "headline": "Ngumoha becomes England's third-youngest competitive debutant",
       "category": "Internationals",
