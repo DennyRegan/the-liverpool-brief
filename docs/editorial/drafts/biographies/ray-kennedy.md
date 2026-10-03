@@ -27,7 +27,7 @@ Born in Seaton Delaval on 28 July 1951, Kennedy had been rejected by Port Vale b
 
 It was also the day Bill Shankly’s retirement was announced. Kennedy was his final signing, but Paisley would manage his entire competitive Liverpool career.
 
-There was an encouraging start. Kennedy scored on his debut in a 3–0 victory at Chelsea on 31 August 1974, opening the scoring before supplying the pass for Phil Boersma’s second goal. Yet his first season did not establish him as a permanent fixture in attack. He finished with ten goals in all competitions, and the partnership of Kevin Keegan and John Toshack remained an obstacle.
+There was an encouraging start. Kennedy scored on his debut in a 3–0 victory at Chelsea on 31 August 1974, opening the scoring before supplying the pass for Phil Boersma’s second goal, Liverpool’s third. Yet his first season did not establish him as a permanent fixture in attack. He finished with ten goals in all competitions, and the partnership of Kevin Keegan and John Toshack remained an obstacle.
 
 The solution came during the following campaign. In November 1975, with Peter Cormack injured, Paisley used Kennedy on the left of midfield. The adjustment was more significant than a change of starting position. It allowed him to arrive in scoring areas from deeper positions and use his passing to bring others into the game.
 
@@ -49,7 +49,11 @@ With seven minutes remaining, David Johnson found Kennedy, whose right-footed fi
 
 The League Cup had also been won that spring. Yet Kennedy’s place was coming under pressure from Ronnie Whelan, and in January 1982 he joined former Liverpool teammate John Toshack at Swansea City. His fifteen league appearances earlier that season qualified him for a fifth Liverpool championship medal. He left with 393 competitive appearances and 72 goals; the league portion was 275 appearances and 51 goals.
 
-England recognition had been more limited. He won seventeen caps and scored three times between 1976 and 1980. After Swansea, his career included spells with Hartlepool United and Pezoporikos in Cyprus. His later life was profoundly affected by Parkinson’s disease, and Arsenal and Liverpool met in a testimonial for him in 1991. He died on 30 November 2021, aged seventy.
+England recognition had been more limited. He won seventeen caps and scored three times between 1976 and 1980. After Swansea, his career included spells with Hartlepool United and Pezoporikos in Cyprus. His later life was profoundly affected by Parkinson’s disease. Arsenal and Liverpool met at Highbury in a testimonial for him in 1991, bringing together the two clubs whose successes he had helped shape.
+
+The connection also survived through friendships. When Retro Reds interviewed Kennedy at his home on 24 March 2008, Jimmy Case telephoned during their conversation to ask how it was going. Kennedy still followed Liverpool and spoke approvingly of Fernando Torres. Asked for a message to the Liverpool and Arsenal supporters, he replied: “thank you for remembering me”. It was an acknowledgement of continuing interest in the player, not simply his illness.
+
+Kennedy died on 30 November 2021, aged seventy. Before Liverpool’s next home match, against Aston Villa on 11 December, Anfield marked his contribution with applause and a Kop mosaic.
 
 Asked in a 2008 interview to choose his favourite Liverpool match, Kennedy selected the 1977 European Cup final. His recollection centred on the team’s performance and the satisfaction of winning. That emphasis suited his own contribution. Liverpool could depend on his passing, his goals and his availability across season after season. In the matches against Saint-Étienne and Bayern, those qualities helped decide whether the team would progress at all.
 
@@ -57,7 +61,7 @@ Asked in a 2008 interview to choose his favourite Liverpool match, Kennedy selec
 
 - [Liverpool FC — Ray Kennedy](https://www.liverpoolfc.com/info/ray-kennedy)
 - [LFCHistory — Ray Kennedy: profile and career statistics](https://www.lfchistory.net/players/344)
-- [These Football Times — The triumph and tragedy of Ray Kennedy](https://thesefootballtimes.co/2016/07/21/the-triumph-and-tragedy-of-ray-kennedy/)
+- [Swansea City — Swansea City top-flight Jacks: Ray Kennedy](https://www.swanseacity.com/news/swansea-city-top-flight-jacks-ray-kennedy), 28 September 2015
 - [LFCHistory — Chelsea 0–3 Liverpool, 31 August 1974](https://www.lfchistory.net/games/811)
 - [Liverpool FC — Liverpool’s Greatest: Ray Kennedy](https://www.liverpoolfc.com/news/liverpools-greatest-no36-ray-kennedy?amp=1)
 - [Liverpool FC — Liverpool regain control in the 1976 UEFA Cup final](https://www.liverpoolfc.com/news/first-team/219548-no-4-liverpool-regain-control-in-1976-uefa-cup-final)
@@ -65,5 +69,6 @@ Asked in a 2008 interview to choose his favourite Liverpool match, Kennedy selec
 - [Liverpool FC — Five memorable wins against French teams](https://www.liverpoolfc.com/news/comebacks-and-first-step-glory-five-memorable-wins-v-french-teams)
 - [Liverpool FC — Kop 10 wins over German teams](https://www.liverpoolfc.com/news/features/337742-liverpool-fc-v-german-teams-history)
 - [Liverpool FC — ‘Barney Rubble’ sinks Real Madrid in Paris](https://www.liverpoolfc.com/news/barney-rubble-sinks-real-madrid-paris?amp=1)
-- [The Irish Times — Former Liverpool and Arsenal player Ray Kennedy dies, aged 70](https://www.irishtimes.com/sport/soccer/english-soccer/former-liverpool-and-arsenal-player-ray-kennedy-dies-aged-70-1.4743154)
+- [Liverpool FC — Liverpool FC mourns passing of Ray Kennedy](https://www.liverpoolfc.com/news/announcements/449099-liverpool-fc-mourns-passing-of-ray-kennedy), 30 November 2021
 - [LFCHistory / Retro Reds — Interview with Ray Kennedy, 24 March 2008](https://www.lfchistory.net/articles/2443)
+- [Liverpool FC — Anfield remembers the legendary Ray Kennedy](https://www.liverpoolfc.com/news/anfield-remembers-legendary-ray-kennedy), 11 December 2021

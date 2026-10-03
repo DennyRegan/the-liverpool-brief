@@ -10015,20 +10015,16 @@
       "personId": "gerard-houllier",
       "event": "Gérard Houllier: rebuilding Liverpool",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_depth_houllier_rush",
-      "claim": {
-        "token": "depth-review-2026-10-03-gerard-houllier",
-        "claimedAt": "2026-10-03T07:45:18Z",
-        "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/biographies/gerard-houllier.md",
       "originalDraftId": "libfile_a704f65985c08191be98904e0598f1ff",
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision in progress using gpt-6.1-sol; original recovery provenance preserved. No approval, publication or schedule.",
+      "researchStatus": "verified",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision complete using gpt-6.1-sol; fresh retrieved research, separate post-draft factual audit and independent targeted factual review completed. Original recovery provenance preserved. No approval, publication or schedule.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Gerard-Houllier-research-record.md",
@@ -10039,6 +10035,21 @@
           "location": "docs/editorial/biography-depth-improvements-2026-10-03.md",
           "confidence": "high",
           "scope": "Denny-authorised selective depth revision scope, based on full manuscript coverage review; not yet a factual recheck."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/gerard-houllier-depth-research-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh actually retrieved revision research and factual conflicts."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/gerard-houllier-depth-audit-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass over retained and revised manuscript claims; actual Sol 6.1 provenance."
+        },
+        {
+          "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
         }
       ],
       "migration": {
@@ -10597,20 +10608,16 @@
       "personId": "ray-kennedy",
       "event": "Ray Kennedy: the forward who became essential to Paisley’s Liverpool",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_depth_kennedy_fowler",
-      "claim": {
-        "token": "depth-review-2026-10-03-ray-kennedy",
-        "claimedAt": "2026-10-03T07:45:18Z",
-        "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/biographies/ray-kennedy.md",
       "originalDraftId": "libfile_7d596f7888dc8191bf189f1fce49db3d",
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision in progress using gpt-6.1-sol; original recovery provenance preserved. No approval, publication or schedule.",
+      "researchStatus": "verified",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision complete using gpt-6.1-sol; fresh retrieved research, separate post-draft factual audit and independent targeted factual review completed. Original recovery provenance preserved. No approval, publication or schedule.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Ray-Kennedy-research-record.md",
@@ -10621,6 +10628,21 @@
           "location": "docs/editorial/biography-depth-improvements-2026-10-03.md",
           "confidence": "high",
           "scope": "Denny-authorised selective depth revision scope, based on full manuscript coverage review; not yet a factual recheck."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/ray-kennedy-depth-research-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh actually retrieved revision research and factual conflicts."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/ray-kennedy-depth-audit-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass over retained and revised manuscript claims; actual Sol 6.1 provenance."
+        },
+        {
+          "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
         }
       ],
       "migration": {
@@ -10695,20 +10717,16 @@
       "personId": "roberto-firmino",
       "event": "Roberto Firmino: the forward who made Liverpool work",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_depth_firmino_mcmanaman",
-      "claim": {
-        "token": "depth-review-2026-10-03-roberto-firmino",
-        "claimedAt": "2026-10-03T07:45:18Z",
-        "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/biographies/roberto-firmino.md",
       "originalDraftId": "libfile_11680bf82ee881918f34d2716e3a252c",
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision in progress using gpt-6.1-sol; original recovery provenance preserved. No approval, publication or schedule.",
+      "researchStatus": "verified",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision complete using gpt-6.1-sol; fresh retrieved research, separate post-draft factual audit and independent targeted factual review completed. Original recovery provenance preserved. No approval, publication or schedule.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Roberto-Firmino-factual-audit-and-metadata.md",
@@ -10719,6 +10737,21 @@
           "location": "docs/editorial/biography-depth-improvements-2026-10-03.md",
           "confidence": "high",
           "scope": "Denny-authorised selective depth revision scope, based on full manuscript coverage review; not yet a factual recheck."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/roberto-firmino-depth-research-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh actually retrieved revision research and factual conflicts."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/roberto-firmino-depth-audit-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass over retained and revised manuscript claims; actual Sol 6.1 provenance."
+        },
+        {
+          "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
         }
       ],
       "migration": {
@@ -10914,20 +10947,16 @@
       "personId": "steve-heighway",
       "event": "Steve Heighway: from the wing to the academy",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_depth_heighway_lee",
-      "claim": {
-        "token": "depth-review-2026-10-03-steve-heighway",
-        "claimedAt": "2026-10-03T07:45:18Z",
-        "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/biographies/steve-heighway.md",
       "originalDraftId": "libfile_ef32ece9d7a08191b9b01e83969f19c9",
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision in progress using gpt-6.1-sol; original recovery provenance preserved. No approval, publication or schedule.",
+      "researchStatus": "verified",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision complete using gpt-6.1-sol; fresh retrieved research, separate post-draft factual audit and independent targeted factual review completed. Original recovery provenance preserved. No approval, publication or schedule.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Steve-Heighway-research-record.md",
@@ -10938,6 +10967,21 @@
           "location": "docs/editorial/biography-depth-improvements-2026-10-03.md",
           "confidence": "high",
           "scope": "Denny-authorised selective depth revision scope, based on full manuscript coverage review; not yet a factual recheck."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/steve-heighway-depth-research-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh actually retrieved revision research and factual conflicts."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/steve-heighway-depth-audit-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass over retained and revised manuscript claims; actual Sol 6.1 provenance."
+        },
+        {
+          "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
         }
       ],
       "migration": {

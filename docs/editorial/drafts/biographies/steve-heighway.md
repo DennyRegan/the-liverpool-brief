@@ -50,9 +50,19 @@ He left Liverpool in 1981 with 76 goals from his 475 competitive matches; the le
 
 In 1989, Kenny Dalglish brought him back to Liverpool as youth development officer. Across 18 years leading the club’s youth development work, Heighway helped prepare Robbie Fowler, Jamie Carragher, Michael Owen and Steven Gerrard for senior football.
 
-Liverpool’s first FA Youth Cup success came in 1996, with Owen and Carragher in the team that beat West Ham United. Further victories followed in 2006 and 2007. The latter triumph came at the end of a less harmonious period. As he left in 2007, Heighway publicly criticised Rafael Benítez’s handling of the move from academy to reserve football, arguing that his influence over the best young players was being removed too early. It was his account of a disagreement over how those players should be developed.
+The job grew from a small youth department at Melwood into responsibility for the purpose-built Kirkby academy, opened in 1999. It involved organising a development programme as well as coaching. Heighway argued that the new base allowed better planning, rather than youth sessions being interrupted whenever the reserves needed players. Under-18 coach John Owens and reserve manager Gary Ablett liaised over those calls, illustrating that the route towards senior football depended on several coaches, not the academy director alone.
 
-He returned to the academy in 2015, initially part-time and then as a full-time consultant. Liverpool announced his retirement from coaching in December 2022, shortly after his 75th birthday.
+His approach joined high expectations to personal engagement. Describing it in 2016, he used the sequence “engage, confront, challenge and inspire”: talk to a youngster, address what needed improving, then give him the belief to improve it. Discipline and respect had to begin early, but toughness without the ability to inspire was insufficient. In his earlier defence of the academy, he also resisted the overplaying of boys across school, Sunday-league and club football, and the disruption to schooling and family life that speculative recruitment could cause.
+
+Preparing boys for the next stage could mean exposing them to it before they were ready to play there. Hughie McAuley recalled Heighway bringing promising younger players, including Gerrard, into the experience of tournaments and cup finals alongside older boys. The purpose was to make representing Liverpool on those occasions less unfamiliar when their own opportunity arrived. McAuley and Dave Shannon shared the longer work of developing that generation.
+
+Liverpool’s first FA Youth Cup success came in 1996, with Owen and Carragher in the team that beat West Ham United. Further victories followed in 2006 and 2007. After the latter final against Manchester United, Heighway described leaving the players to decide their penalty takers between themselves. Their successful shoot-out was, in his account, a demonstration of the group’s maturity rather than simply another trophy for its coach.
+
+Cup success did not settle the harder question of first-team progression. Heighway distinguished the exceptional talent immediately recognisable in Gerrard from players such as Carragher who grew through senior opportunities. He maintained that the academy could prepare a player but could not establish his ultimate level without those chances. Benítez was himself calling for more competitive reserve football for 18-to-21-year-olds. Their concerns overlapped, even though their preferred arrangements did not.
+
+Heighway left in 2007, saying after the Youth Cup final that it was his decision and that Liverpool had not asked him to go. Looking back in 2016, he described a disagreement over youth development, believing that Benítez’s recruitment of teenagers for Melwood reduced the Kirkby players’ opportunities. He also said he had needed a break from running the academy. Those were his explanations of the departure, not proof that one man alone accounted for the difficulties of producing first-team players.
+
+He returned to the academy in 2015, initially part-time and then as a full-time consultant. This was a different responsibility: under Alex Inglethorpe, he concentrated particularly on the 15- and 16-year-olds, offering individual and group work without managing a team or the academy. He could also advise parents and coaches. Barry Lewtas later described how exchanging ideas with Heighway helped his own development as U16s coach. Liverpool announced Heighway’s retirement from coaching in December 2022, shortly after his 75th birthday.
 
 Heighway’s Liverpool record has two distinct measures: the goals and chances he created for Shankly and Paisley, and the players he later helped prepare for the first team. His place in the club’s history rests on substantial work in both.
 
@@ -63,10 +73,15 @@ Heighway’s Liverpool record has two distinct measures: the goals and chances h
 - [Liverpool FC — Steve Heighway’s goal against Everton, 21 November 1970](https://www.liverpoolfc.com/news/first-team/216947-no-9-steve-heighway-saturday-november-21-1970)
 - [LFChistory — Liverpool 3–2 Everton, 21 November 1970](https://lfchistory.net/games/588)
 - [LFChistory — Liverpool 1–2 Arsenal, 8 May 1971](https://www.lfchistory.net/games/626)
-- [Liverpool FC — LFC’s top FA Cup moments](https://www.liverpoolfc.com/news/first-team/119002-lfc-s-top-fa-cup-moments-100-1)
 - [Liverpool FC — Liverpool’s Wembley masterclass before Shankly farewell](https://www.liverpoolfc.com/news/liverpools-wembley-masterclass-shankly-farewell)
 - [UEFA — Phil Neal recalls Liverpool’s first European Cup](https://www.uefa.com/uefachampionsleague/news/01d9-0e7236247719-6a5bb4786213-1000--neal-remembers-1977-victory-over-borussia/)
 - [Liverpool FC — 36 years on: season that set standards](https://www.liverpoolfc.com/news/first-team/131032-years-on-season-that-set-standards)
 - [Liverpool FC — FA Youth Cup honours](https://www.liverpoolfc.com/info/youth-cup)
-- [Irish Independent — Heighway lets rip at Benitez for ‘interfering’](https://www.independent.ie/sport/soccer/heighway-lets-rip-at-benitez-for-interfering/26290062.html)
+- [Liverpool Echo, archived by LFChistory — Liverpool’s Academy Director Steve Heighway talks](https://www.lfchistory.net/articles/1761)
+- [Liverpool FC — McAuley: I knew he was a leader](https://www.liverpoolfc.com/news/first-team/125858-mcauley-i-knew-he-was-a-leader)
+- [Liverpool Daily Post, archived by LFChistory — Departing Heighway hails ‘best ever’ side after FA Youth Cup win](https://www.lfchistory.net/articles/1984)
+- [The Guardian — Benítez calls for reserve teams in lower leagues](https://www.theguardian.com/football/2007/mar/21/newsstory.sport2)
+- [Liverpool FC Media Watch — Shankly would approve of Liverpool under Klopp says Heighway](https://www.liverpoolfc.com/news/media-watch/243372-shankly-would-approve-of-liverpool-under-klopp-says-heighway)
+- [Liverpool FC — Heighway makes full-time Academy return](https://www.liverpoolfc.com/news/academy/196819-heighway-makes-full-time-academy-return)
+- [Liverpool FC — Academy column: Training sessions with Heighway and Gerrard](https://www.liverpoolfc.com/news/academy/254104-academy-column-training-sessions-with-heighway-and-gerrard)
 - [Liverpool FC — Steve Heighway retires from LFC coaching role](https://www.liverpoolfc.com/news/steve-heighway-retires-lfc-coaching-role)

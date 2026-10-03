@@ -24,3 +24,9 @@ Each revised canonical draft has one final Sources section with actually retriev
 Original uppercase recovered records and migration/source manuscript provenance remain intact. On completion the same calendar row receives revision research/audit evidence and an explicit dated Sol 6.1 revision note; no fake new production or recovered-original claim, duplicate subject, new publication date or schema is created. Inventory stays sixty completed unpublished biographies.
 
 Checkpoint completed revision packages in sensible batches, reconcile current remote refs, then validate schemas, identities, duplicate slugs, publication boundaries, tests, lint, production build and private HTTP routes. No force-push or main write.
+
+## First completed checkpoint
+
+Houllier (961 → 1,410 narrative words), Heighway (911 → 1,328), Kennedy (925 → 1,031) and Firmino (981 → 1,299) have fresh research registers, separate post-draft factual audits and an independent targeted retrieval review. Sources sit at the bottom of each manuscript. The current calendar marks these same four rows technically ready/unpublished, with no claim, approval or destination. Four other commissioned revisions remain in progress. `biography-depth-first-checkpoint-2026-10-03.json` records executed schema, identity/metadata, queue, evidence and preservation assertions; full application tests/build/HTTP checks follow the complete batch.
+
+Fresh remote fetch before this checkpoint found main unchanged at `02715879866e47b3f5342108e1666f499de9f6a6` and this dedicated branch at selection checkpoint `530d3db6eb5b4cb93434fa9aafa6a6bf462e15ef`. No concurrent match, migration, publisher, public application or original recovery evidence files were changed. Original calendar recovery provenance is byte-for-byte equivalent as parsed data. The completed unpublished inventory remains sixty; these are amendments, not new biographies.

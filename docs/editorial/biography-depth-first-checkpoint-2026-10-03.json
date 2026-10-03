@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-10-03T07:55:19.667Z",
+  "confidence": "High for executed technical assertions; historical claim confidence is recorded per source.",
+  "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84",
+  "reviewedOriginals": 30,
+  "revisedComplete": 4,
+  "originalsNotRewritten": 22,
+  "recentBiographiesUnchanged": 30,
+  "totalCompletedUnpublished": 60,
+  "publisherStateUnchanged": true,
+  "publicApplicationSchemaTestsUnchanged": true,
+  "matchWorkUnchanged": true,
+  "oldMigrationEvidencePreserved": true,
+  "results": [
+    {
+      "personId": "gerard-houllier",
+      "path": "docs/editorial/drafts/biographies/gerard-houllier.md",
+      "beforeWords": 961,
+      "afterWords": 1410,
+      "sourceLinks": 20,
+      "research": "docs/editorial/drafts/biographies/gerard-houllier-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/gerard-houllier-depth-audit-2026-10-03.md",
+      "metadataPreserved": true,
+      "recoveryProvenancePreserved": true,
+      "technicallyReady": true,
+      "unpublished": true
+    },
+    {
+      "personId": "steve-heighway",
+      "path": "docs/editorial/drafts/biographies/steve-heighway.md",
+      "beforeWords": 911,
+      "afterWords": 1328,
+      "sourceLinks": 17,
+      "research": "docs/editorial/drafts/biographies/steve-heighway-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/steve-heighway-depth-audit-2026-10-03.md",
+      "metadataPreserved": true,
+      "recoveryProvenancePreserved": true,
+      "technicallyReady": true,
+      "unpublished": true
+    },
+    {
+      "personId": "ray-kennedy",
+      "path": "docs/editorial/drafts/biographies/ray-kennedy.md",
+      "beforeWords": 925,
+      "afterWords": 1031,
+      "sourceLinks": 13,
+      "research": "docs/editorial/drafts/biographies/ray-kennedy-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/ray-kennedy-depth-audit-2026-10-03.md",
+      "metadataPreserved": true,
+      "recoveryProvenancePreserved": true,
+      "technicallyReady": true,
+      "unpublished": true
+    },
+    {
+      "personId": "roberto-firmino",
+      "path": "docs/editorial/drafts/biographies/roberto-firmino.md",
+      "beforeWords": 981,
+      "afterWords": 1299,
+      "sourceLinks": 26,
+      "research": "docs/editorial/drafts/biographies/roberto-firmino-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/roberto-firmino-depth-audit-2026-10-03.md",
+      "metadataPreserved": true,
+      "recoveryProvenancePreserved": true,
+      "technicallyReady": true,
+      "unpublished": true
+    }
+  ]
+}

@@ -30,6 +30,12 @@ His opening weeks in England were unsettled, but Klopp’s arrival that autumn b
 
 The role demanded more than occupying the opposition’s centre-backs. Firmino played as a false nine: a centre-forward who regularly drops into midfield to help construct attacks. His movement could pull a defender out of position and open a route towards goal for someone else. An early limitation was that the arrangement worked more naturally against opponents who left space behind them. Against a defence sitting deep, Liverpool still needed runners and penetration around him.
 
+That central role had to be learned. In January 2016, after Firmino scored twice against Arsenal, Klopp explained that they were working on when he should enter the penalty area, drop back to combine or push the defensive line towards its own goal. The crowded fixture list left little training time between those tests. Two years later, Firmino said that playing as a striker had been new to him, but that he had grown increasingly comfortable there.
+
+His first European campaign also showed that he could create alongside a more conventional striker. With Daniel Sturridge leading the line against Villarreal in May 2016, Firmino contributed to all three goals in the 3–0 semi-final victory at Anfield. His cross helped force the opening own goal, his deflected effort reached Sturridge for the second, and his work at the byline began the finish completed by Adam Lallana. Liverpool reached the Europa League final with more than one way to arrange their attack.
+
+In 2016–17, the regular combination was Firmino with Coutinho and the newly arrived Mané. After their 6–1 win over Watford in November, Jordan Henderson praised the trio’s defensive work and their ability to win possession high up the pitch as well as their attacking quality. By December, Klopp was describing Firmino as both a connecting player and the team’s first defender. He started 34 league matches as Liverpool qualified for the Champions League: the coordinated attacking work was taking shape before Salah arrived.
+
 Salah’s arrival in 2017 brought together the partnership that best exploited those qualities. Salah and Mané could attack towards goal while Firmino offered a passing option between midfield and defence. Without the ball, he also helped Liverpool win possession back. In February 2018, Premier League analyst Adrian Clarke noted that he was the squad’s third-most successful tackler. The creative work and the defensive work belonged to the same job.
 
 That season also showed the danger of describing him only through what he did for others. Firmino scored 27 goals in all competitions in 2017–18, his best Liverpool return. Ten came in the Champions League proper, with another in qualifying. Against Roma in the first leg of the semi-final, he supplied both of Salah’s goals and scored twice himself in a 5–2 win. His contribution was measurable as well as tactical.
@@ -46,7 +52,9 @@ His later seasons brought injuries and a changing place in the attack. A serious
 
 There were still significant goals in his final season. Two against Bournemouth in August 2022 took him to 100 for the club. After his intention to leave became known the following March, he scored the seventh in Liverpool’s 7–0 win over Manchester United. His last Anfield appearance, against Aston Villa on 20 May, brought an 89th-minute equaliser from Salah’s cross.
 
-Eight days later he scored again in the 4–4 draw at Southampton, his final Liverpool match. He left when his contract expired and joined Al-Ahli, then moved to Al Sadd in July 2025. At the research cut-off for this biography, 27 September 2026, he remained an active player with the Qatari club.
+Supporters had a particular way of recognising that contribution. His ‘Si Señor’ song accompanied the goals, but also performances built around creating for others: during the 3–1 win over Newcastle in September 2019, Anfield repeatedly sang it as Firmino supplied two assists. The song returned throughout his final months. After the Villa match, his teammates formed a guard of honour and supporters remained to salute him and the other departing players. The farewell acknowledged eight seasons of work, not simply one last finish.
+
+Eight days later he scored again in the 4–4 draw at Southampton, his final Liverpool match. He left when his contract expired and joined Al-Ahli, then moved to Al Sadd in July 2025. By August 2026 he was still playing for the Qatari club.
 
 Firmino’s Liverpool career amounted to more than an unusual interpretation of centre-forward play. The movement had a purpose, the pressing helped recover possession and the passing served an attack capable of winning the biggest honours. He also supplied 111 goals of his own. Liverpool’s success required all of those things, often from the same player in the same passage of play.
 
@@ -55,6 +63,11 @@ Firmino’s Liverpool career amounted to more than an unusual interpretation of 
 - [LFChistory — Roberto Firmino](https://lfchistory.net/players/1288)
 - [Liverpool FC — In profile: The rise of Roberto Firmino](https://www.liverpoolfc.com/news/first-team/187534-in-profile-the-rise-of-roberto-firmino)
 - [Liverpool FC — Remember When: ‘Brilhante’ Bobby’s first Liverpool goal](https://www.liverpoolfc.com/news/remember-when-brilhante-bobbys-first-liverpool-goal)
+- [Liverpool FC — Firmino is in a good moment and he can do better](https://www.liverpoolfc.com/news/first-team/203255-firmino-is-in-a-good-moment-and-he-can-do-better)
+- [Liverpool FC — Roberto Firmino: Liverpool’s No.9](https://www.liverpoolfc.com/news/first-team/287540-roberto-firmino-liverpool-s-no-9)
+- [Liverpool FC — Anfield inspires Liverpool to Europa League final](https://www.liverpoolfc.com/news/first-team/219828-match-report-anfield-inspires-liverpool-to-europa-league-final)
+- [Liverpool FC — Henderson: Firmino, Coutinho and Mane can be unstoppable](https://www.liverpoolfc.com/news/first-team/242482-henderson-firmino-coutinho-and-mane-can-be-unstoppable)
+- [Liverpool FC — Klopp: I couldn’t wait to work with Firmino](https://www.liverpoolfc.com/news/first-team/246182-klopp-i-couldn-t-wait-to-work-with-firmino)
 - [Michael Cox, FourFourTwo — How Firmino’s excellent false nine display almost led Liverpool to victory](https://www.fourfourtwo.com/features/michael-cox-how-firminos-excellent-false-nine-display-almost-led-liverpool-victory)
 - [Adrian Clarke, Premier League — Firmino and Kane deadly in different ways](https://www.premierleague.com/en/news/612965)
 - [Liverpool FC — Thank you, Bobby: Roberto Firmino’s Liverpool story](https://www.liverpoolfc.com/news/thank-you-bobby-roberto-firminos-liverpool-story)
@@ -68,7 +81,8 @@ Firmino’s Liverpool career amounted to more than an unusual interpretation of 
 - [Liverpool FC — Liverpool 5–3 Chelsea: Five talking points](https://www.liverpoolfc.com/news/first-team/402838-talking-points-liverpool-chelsea-premier-league)
 - [Liverpool FC — Fitness updates on Firmino, Jones, Gomez, Keita, Milner, Fabinho and Thiago](https://www.liverpoolfc.com/news/first-team/448216-fitness-latest-klopp-on-firmino-jones-gomez-fabinho-and-thiago)
 - [Liverpool FC — Firmino scores late equaliser as Liverpool draw with Aston Villa](https://www.liverpoolfc.com/news/first-team/460537-firmino-scores-late-equaliser-as-liverpool-draw-with-aston-villa)
+- [Liverpool FC — Jürgen Klopp: I was close to singing the Firmino song](https://www.liverpoolfc.com/news/first-team/364701-jurgen-klopp-roberto-firmino-song-liverpool-newcastle)
+- [Liverpool FC — Special tributes as Anfield bids farewell to Firmino, Keita, Milner and Oxlade-Chamberlain](https://www.liverpoolfc.com/news/special-tributes-anfield-bids-farewell-firmino-keita-milner-and-oxlade-chamberlain)
 - [Liverpool FC — Roberto Firmino scores on Reds farewell as Liverpool play out Southampton draw](https://www.liverpoolfc.com/news/roberto-firmino-scores-reds-farewell-liverpool-play-out-southampton-draw)
 - [Al Sadd — Al-Sadd sign Brazilian forward Roberto Firmino until 2027](https://al-saddclub.com/al-sadd-sign-brazilian-forward-roberto-firmino-until-2027/)
 - [Liverpool FC — ‘I’ll be there’: Roberto Firmino reveals Liverpool FC Legends wish](https://www.liverpoolfc.com/news/ill-be-there-roberto-firmino-reveals-liverpool-fc-legends-wish?amp=1)
-

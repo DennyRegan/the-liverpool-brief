@@ -97,7 +97,7 @@
       "id": "jordan-henderson-career-biography",
       "personId": "jordan-henderson",
       "path": "docs/editorial/drafts/biographies/jordan-henderson.md",
-      "proseWords": 973,
+      "proseWords": 968,
       "sha256": "f6492735c398a7cfb5dab7600bc9982b7d5331bf425c4bd382a3169dac3902ce",
       "status": "ready_for_review",
       "approval": null,
@@ -107,7 +107,7 @@
       "id": "kenny-dalglish-career-biography",
       "personId": "kenny-dalglish",
       "path": "docs/editorial/drafts/biographies/kenny-dalglish.md",
-      "proseWords": 2300,
+      "proseWords": 2294,
       "sha256": "66afc2ba20354dad099ed127320c269bd57c92a7b5c4265b0234ec43b04817b5",
       "status": "ready_for_review",
       "approval": null,
@@ -137,7 +137,7 @@
       "id": "mohamed-salah-career-biography",
       "personId": "mohamed-salah",
       "path": "docs/editorial/drafts/biographies/mohamed-salah.md",
-      "proseWords": 1519,
+      "proseWords": 1514,
       "sha256": "dd14c9a0ad4498c6aa7fe6babb9fbf2e1df3a0d2616104beb7872d93c270f3a5",
       "status": "ready_for_review",
       "approval": null,
@@ -227,7 +227,7 @@
       "id": "sadio-mane-career-biography",
       "personId": "sadio-mane",
       "path": "docs/editorial/drafts/biographies/sadio-mane.md",
-      "proseWords": 981,
+      "proseWords": 976,
       "sha256": "a92ba26041b0c367ed5867548fbaad529d64dab277b59c39c86796bc7f60ba73",
       "status": "ready_for_review",
       "approval": null,
@@ -297,11 +297,12 @@
       "id": "james-milner-career-biography",
       "personId": "james-milner",
       "path": "docs/editorial/drafts/james-milner.md",
-      "proseWords": 1051,
+      "proseWords": 932,
       "sha256": "0ec8d0fa5eaf6ebc860ab71d72f4c4c49c9ec881ec1a258488febd6f1bf281fe",
       "status": "ready_for_review",
       "approval": null,
       "publishedDestination": null
     }
-  ]
+  ],
+  "wordCountMethod": "Whitespace narrative count; excludes metadata, headings, all final source-heading variants including bold Sources, and standalone research-date notes."
 }
