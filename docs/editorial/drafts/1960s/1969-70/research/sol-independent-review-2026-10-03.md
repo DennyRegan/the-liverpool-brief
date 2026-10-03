@@ -4,7 +4,7 @@ Reviewer: `/root/sol_factual_review`. Actual configured model: `gpt-6.1-sol`. In
 
 ## Review state
 
-PENDING — whole-season sources and all thirteen selected match cores independently retrieved; all thirteen fresh Sol pre-writing notes and the resumption ledger have been read. The first six completed bodies and their final audits have been read; Chelsea corrections have been rechecked and seven completed bodies are still awaited.
+PENDING — whole-season sources and all thirteen selected match cores independently retrieved; all thirteen fresh Sol pre-writing notes and the resumption ledger have been read. The first nine completed bodies and final audits have been read; Chelsea corrections have been rechecked, three reports require the corrections recorded below, and four completed bodies are still awaited.
 
 ## Independently retrieved sources
 
@@ -83,6 +83,9 @@ All thirteen fresh `<slug>-sol-resumption-notes.md` files and `sol-research-resu
 - High for cup register facts — [RSSSF League Cup route](https://www.rsssf.org/tablese/engleagcuphistfull.html): Liverpool’s Watford second-round win and City third-round defeat; City’s eventual final win over West Bromwich Albion.
 - High for recorded replacement and double; Medium for attributed memory — [LFChistory Alun Evans interview](https://www.lfchistory.net/articles/4306): December assault and recovery, injured Thompson replacement after 21 minutes, Leicester double and reported Callaghan near-post pass. No unsupported mental state or causal career claim accepted; no linked footage viewed.
 
+- High for retained appearance sequence — [11v11 Clemence appearance record](https://www.11v11.com/players/ray-clemence-36453/): 1968 Swansea, both September 1969 Dundalk legs, 24 January Wrexham, 31 January first league and 28 February second league. Does not establish Lawrence’s appearances merely by Clemence’s absence. Conflicting career total is omitted.
+- High for retained career totals — [Official Roger Hunt profile](https://www.liverpoolfc.com/info/roger-hunt): 492 appearances and 285 goals; final competitive appearance in the December 1969 United game. Disputed older 1967 milestone wording outside scope.
+
 ## Manuscript review progress
 
 First completed batch: every sentence, frontmatter, footer and completed companion audit was actually read. The source presentation was compared with the published Leicester 1974 and West Ham 1977 reports: one terminal titled Markdown list, source-array URL order matching exactly, readable provider/scope labels and no internal material after the list. Every footer URL occurs in that report’s own completed audit. Historical dates and relationship values correspond to the selected events; no publication date. All three pass these source-format checks.
@@ -104,6 +107,14 @@ Current reviewed full-file hashes (to be refreshed at final thirteen-report verd
 | manchester-city-liverpool-1969-league-cup-exit.md | `bbf8112b26d76f4ec42cea0b1d9ec8df8d75771b5848f0fd195d7d0de52fb240` |
 | west-bromwich-liverpool-1969-lloyd-debut.md | `20d6c8cbc057b1cf1980d5f0fe3f4d30cc52c06f278dca13b446520a42e0ab76` |
 
+
+Third completed batch bodies and all their final sentence audits read in full. Corrections requested:
+
+- United: Ian Ross was replaced by Hunt, not Peter Ross; amend body paragraph 4 and audit S9.
+- Forest: Paul Richardson scored, not Jimmy Richardson; amend opening and audit S2. Add actual Lawrence Leicester/Watford appearance evidence to final source list and sentence audit rather than inferring his presence from Clemence’s absence.
+- Goodison: body facts pass, but add the freshly retrieved whole-season fixture ledger to final source evidence/footer for the closing March return-derby result; the final table only supports champions, not that result.
+
+No final PASS is claimed for these three until fixes are reread.
 
 ## Verdict
 

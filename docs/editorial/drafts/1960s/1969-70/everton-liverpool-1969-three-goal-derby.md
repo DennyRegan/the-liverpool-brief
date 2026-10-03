@@ -14,14 +14,14 @@ oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["goodison-park"]
 playerIds: ["emlyn-hughes", "bobby-graham", "sandy-brown"]
-sources: ["https://www.lfchistory.net/games/539", "https://www.evertonencyclopedia.com/players/399/alexander-sandy-brown/", "https://www.liverpoolfc.com/news/rest-peace-bobby-graham", "https://www.rsssf.org/engpaul/FLA/1969-70.html"]
+sources: ["https://www.lfchistory.net/games/539", "https://www.evertonencyclopedia.com/players/399/alexander-sandy-brown/", "https://www.liverpoolfc.com/news/rest-peace-bobby-graham", "https://www.rsssf.org/engpaul/FLA/1969-70.html", "https://www.lfchistory.net/season-archive/games/11"]
 ---
 
 Liverpool beat Everton 3–0 at Goodison Park on 6 December 1969, scoring all three goals after a goalless first half. Emlyn Hughes opened the scoring, Sandy Brown’s own goal increased the lead and Bobby Graham completed the victory.
 
 Hughes scored after 47 minutes, putting Liverpool ahead soon after the interval. Brown’s own goal followed after 54. The later Everton Encyclopedia account describes Brown heading the ball into his own net; it became the middle goal of a derby in which Everton failed to score.
 
-Graham added the third after 74 minutes. With that goal, Liverpool secured the final 3–0 margin against the side leading the First Division. The contrast between the two halves was complete: the teams had reached the break level, but Liverpool scored three without reply in the second period.
+Graham added the third after 74 minutes, completing the 3–0 victory over the First Division leaders.
 
 Everton nevertheless remained top of the table with 35 points from 22 matches. Liverpool were third on 30 points after 23 games. The derby victory narrowed the gap in points, while Liverpool had already played one match more.
 
@@ -35,3 +35,4 @@ The victory did not settle the clubs’ season-long contest. Everton eventually 
 - [Everton Encyclopedia: Sandy Brown](https://www.evertonencyclopedia.com/players/399/alexander-sandy-brown/)
 - [Liverpool FC: Bobby Graham obituary](https://www.liverpoolfc.com/news/rest-peace-bobby-graham)
 - [RSSSF: 1969–70 Football League tables](https://www.rsssf.org/engpaul/FLA/1969-70.html)
+- [LFChistory: 1969–70 season results](https://www.lfchistory.net/season-archive/games/11)

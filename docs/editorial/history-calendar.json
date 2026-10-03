@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T06:26:29.976171Z",
+  "updatedAt": "2026-10-03T06:28:42.190224Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -19350,7 +19350,7 @@
         "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1969-70/leicester-liverpool-1970-fa-cup-replay.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19395,7 +19395,7 @@
         "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1969-70/watford-liverpool-1970-fa-cup-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19440,7 +19440,7 @@
         "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1969-70/liverpool-derby-1970-changed-side.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19485,7 +19485,7 @@
         "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1969-70/liverpool-everton-1970-title-march.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,

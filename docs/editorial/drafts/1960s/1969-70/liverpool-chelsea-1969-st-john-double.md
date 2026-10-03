@@ -27,7 +27,7 @@ The win also began a run of four successive league victories. Liverpool next bea
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/511)
+- [LFChistory: Liverpool v Chelsea, August 1969](https://www.lfchistory.net/games/511)
 - [LFChistory: 1969–70 season results](https://www.lfchistory.net/season-archive/games/11)
 - [RSSSF: 1968–69 Football League tables](https://www.rsssf.org/engpaul/FLA/1968-69.html)
 - [Chelsea FC: the 1969 opening match](https://www.chelseafc.com/en/news/article/kicking-things-off-chelseas-earliest-league-starts)

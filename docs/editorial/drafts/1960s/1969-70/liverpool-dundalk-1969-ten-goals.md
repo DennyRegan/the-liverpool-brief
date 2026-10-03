@@ -31,7 +31,7 @@ A 4–0 victory in the return leg completed a 14–0 aggregate success. The firs
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/522)
+- [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522)
 - [RSSSF: 1969–70 European competitions](https://www.rsssf.org/ec/ec196970.html)
 - [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout)
 - [LFChistory: 1969–70 season results](https://www.lfchistory.net/season-archive/games/11)

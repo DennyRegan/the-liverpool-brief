@@ -23,7 +23,7 @@ Liverpool had beaten Everton 3–0 at Goodison Park the previous Saturday. A wee
 
 United took control of the score in the second half. Ian Ure put them ahead after an hour and Willie Morgan added another four minutes later. Bobby Charlton’s goal after 84 minutes completed the 4–1 result, with Liverpool unable to answer any of the three second-half goals.
 
-Hunt entered the match after 71 minutes, replacing Peter Ross with Liverpool already trailing 3–1. His appearance took his Liverpool total to 492. The substitution became a final entry in a career that had produced 285 goals for the club.
+Hunt entered the match after 71 minutes, replacing Ian Ross with Liverpool already trailing 3–1. His appearance took his Liverpool total to 492. The substitution became a final entry in a career that had produced 285 goals for the club.
 
 Three days later Hunt left for Bolton Wanderers for a £32,000 fee. His departure followed the Anfield match that closed his playing record at Liverpool.
 

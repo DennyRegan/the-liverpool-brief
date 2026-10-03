@@ -115,3 +115,5 @@ Actual model gpt-6.1-sol; worker /root/sol_1967_68.
 
 - https://www.lfchistory.net/players/394 — retrieved successfully: High for Steve Peplow’s final appearance on 26 November 1969 and three competitive appearances. Supporter confusion and quoted reactions excluded.
 - https://www.11v11.com/matches/liverpool-v-derby-county-28-february-1970-80598/ — renewed retrieval again failed with cache miss; no successful personal access claimed, no planned footer citation. Reviewer’s independent retrieval remains their own evidence.
+
+- https://www.lfchistory.net/games/548 — freshly retrieved successfully: High for Anfield 7 February 1970 FA Cup fifth-round 0–0 and Lawrence starting goalkeeper; supports Forest report’s subsequent Leicester chronology together with previously retrieved /games/549 and /games/551.

@@ -31,7 +31,7 @@ Liverpool’s League Cup run consisted of a 2–1 second-round win at Watford fo
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/524)
+- [LFChistory: Manchester City v Liverpool, September 1969](https://www.lfchistory.net/games/524)
 - [LFChistory: 1969–70 season results](https://www.lfchistory.net/season-archive/games/11)
 - [Liverpool FC: League Cup meetings with Manchester City](https://www.liverpoolfc.com/news/liverpool-and-manchester-citys-league-cup-history)
 - [RSSSF: League Cup results, 1969–70](https://www.rsssf.org/tablese/engleagcuphistfull.html)
