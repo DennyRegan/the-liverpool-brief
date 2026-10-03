@@ -1,0 +1,333 @@
+{
+  "season": "2014-15",
+  "model": "gpt-6.1-sol",
+  "workerId": "/root/sol_1967_68",
+  "researchedAt": "2026-10-03",
+  "status": "fresh_research_and_selection_complete_awaiting_remote_main_claims",
+  "priorPreparation": {
+    "path": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
+    "model": "gpt-6-astra",
+    "workerId": "/root/astra_2013_2019",
+    "retrievedAt": "2026-10-01",
+    "preserved": true,
+    "note": "Original manifest contains several proposed hand-off worker identities; they remain unchanged in the original file. This continuation uses the actual configured Sol worker."
+  },
+  "wholeSeasonSources": [
+    "https://www.lfchistory.net/season-archive/games/124",
+    "https://www.lfchistory.net/season-archive/league-table/124",
+    "https://www.11v11.com/teams/liverpool/tab/matches/season/2015/"
+  ],
+  "selectionChanges": {
+    "retained": 10,
+    "added": [
+      {
+        "date": "2014-10-19",
+        "slug": "qpr-liverpool-2014-four-late-goals",
+        "reason": "Four goals from the87thminute onwards, two home own goals and a later scorer-credit revision form a distinct supported dramatic away match."
+      },
+      {
+        "date": "2015-02-04",
+        "slug": "bolton-liverpool-2015-late-cup-comeback",
+        "reason": "Two late goals reverse a replay deficit against ten men on Gerrard's700thappearance; this is a distinct successful cup comeback before the semi-final exit."
+      },
+      {
+        "date": "2015-02-10",
+        "slug": "liverpool-tottenham-2015-balotelli-first-league-goal",
+        "reason": "Spurs twice equalised before substitute Balotelli's first PremierLeague Liverpool goal; a significant spring recovery match with supported action rather than a score-only addition."
+      }
+    ],
+    "removed": [],
+    "rootAcceptedAdditions": true,
+    "noQuota": true
+  },
+  "duplicateAudit": {
+    "checkedAt": "2026-10-03",
+    "remoteMain": "689d5d9d106a98b5849a970c9492e4e35f3d20a7",
+    "method": "Exact historicalEventDate scan of every frontmatter-bearing local and origin/main public/draft Markdown file; origin/main calendar checked for exact selected dates; no manuscripts and no existing date rows. Preparation notes were distinguished from manuscripts.",
+    "existingDateMatches": []
+  },
+  "matches": [
+    {
+      "date": "2014-09-16",
+      "slug": "liverpool-ludogorets-2014-champions-league-return",
+      "home": "Liverpool",
+      "away": "Ludogorets Razgrad",
+      "score": "2–1",
+      "opposition": "Ludogorets Razgrad",
+      "oppositionId": "ludogorets-razgrad",
+      "competitionId": "european-cup",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Gerrard settles Liverpool’s Champions League return",
+      "editorialReason": "Champions League return after five years, won through a late Gerrard penalty.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5471",
+        "https://www.liverpoolfc.com/news/first-team/170862-stevie-settles-late-drama-in-lfc-favour",
+        "https://www.uefa.com/uefachampionsleague/news/025a-0ea758aea7ec-910601793aa1-1000--gerrard-ensures-liverpool-edge-ludogorets/",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/liverpool-ludogorets-2014-champions-league-return-notes.md"
+    },
+    {
+      "date": "2014-09-23",
+      "slug": "liverpool-middlesbrough-2014-thirty-penalty-shootout",
+      "home": "Liverpool",
+      "away": "Middlesbrough",
+      "score": "2–2",
+      "opposition": "Middlesbrough",
+      "oppositionId": "middlesbrough",
+      "competitionId": "league-cup",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Liverpool survive a thirty-kick penalty shoot-out",
+      "editorialReason": "Thirty-kick shoot-out and Rossiter debut goal make a unique cup tie.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5462",
+        "https://www.liverpoolfc.com/news/first-team/171231-reds-through-after-true-penalty-drama",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/liverpool-middlesbrough-2014-thirty-penalty-shootout-notes.md"
+    },
+    {
+      "date": "2014-10-19",
+      "slug": "qpr-liverpool-2014-four-late-goals",
+      "home": "Queens Park Rangers",
+      "away": "Liverpool",
+      "score": "2–3",
+      "opposition": "Queens Park Rangers",
+      "oppositionId": "queens-park-rangers",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "loftus-road",
+      "title": "Four late goals give Liverpool a remarkable win at QPR",
+      "editorialReason": "Four goals from the87thminute onwards, two home own goals and a later scorer-credit revision form a distinct supported dramatic away match.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5431",
+        "https://www.liverpoolfc.com/news/first-team/172731-reds-defeat-qpr-in-grandstand-finish",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/qpr-liverpool-2014-four-late-goals-notes.md"
+    },
+    {
+      "date": "2014-12-09",
+      "slug": "liverpool-basel-2014-champions-league-exit",
+      "home": "Liverpool",
+      "away": "Basel",
+      "score": "1–1",
+      "opposition": "Basel",
+      "oppositionId": "basel",
+      "competitionId": "european-cup",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Gerrard’s late free-kick cannot keep Liverpool in Europe’s top competition",
+      "editorialReason": "Home draw eliminates Liverpool at the group stage despite Gerrard free-kick.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5470",
+        "https://www.liverpoolfc.com/news/first-team/175987-draw-sends-reds-out-of-champions-league",
+        "https://www.uefa.com/uefachampionsleague/news/021c-0e8e96a99862-0bea8199800a-1000--determined-basel-hold-off-liverpool/",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/liverpool-basel-2014-champions-league-exit-notes.md"
+    },
+    {
+      "date": "2015-01-27",
+      "slug": "chelsea-liverpool-2015-league-cup-semi-final",
+      "home": "Chelsea",
+      "away": "Liverpool",
+      "score": "1–0",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "league-cup",
+      "managerId": "brendan-rodgers",
+      "locationId": "stamford-bridge",
+      "title": "Ivanović’s extra-time header ends Liverpool’s League Cup run",
+      "editorialReason": "Extra-time defeat ends a closely contested semi-final, first of two domestic last-four exits.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5481",
+        "https://www.liverpoolfc.com/news/first-team/178913-reds-edged-out-of-cup-after-extra-time",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/chelsea-liverpool-2015-league-cup-semi-final-notes.md"
+    },
+    {
+      "date": "2015-02-04",
+      "slug": "bolton-liverpool-2015-late-cup-comeback",
+      "home": "Bolton Wanderers",
+      "away": "Liverpool",
+      "score": "1–2",
+      "opposition": "Bolton Wanderers",
+      "oppositionId": "bolton-wanderers",
+      "competitionId": "fa-cup",
+      "managerId": "brendan-rodgers",
+      "locationId": "macron-stadium",
+      "title": "Coutinho caps Liverpool’s late FA Cup escape at Bolton",
+      "editorialReason": "Two late goals reverse a replay deficit against ten men on Gerrard's700thappearance; this is a distinct successful cup comeback before the semi-final exit.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5482",
+        "https://www.liverpoolfc.com/news/first-team/179442-phil-s-late-stunner-sends-reds-through",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/bolton-liverpool-2015-late-cup-comeback-notes.md"
+    },
+    {
+      "date": "2015-02-10",
+      "slug": "liverpool-tottenham-2015-balotelli-first-league-goal",
+      "home": "Liverpool",
+      "away": "Tottenham Hotspur",
+      "score": "3–2",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Balotelli’s first league goal for Liverpool settles Spurs thriller",
+      "editorialReason": "Spurs twice equalised before substitute Balotelli's first PremierLeague Liverpool goal; a significant spring recovery match with supported action rather than a score-only addition.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5448",
+        "https://www.liverpoolfc.com/news/first-team/179829-balotelli-fires-late-to-seal-tottenham-win",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/liverpool-tottenham-2015-balotelli-first-league-goal-notes.md"
+    },
+    {
+      "date": "2015-02-26",
+      "slug": "besiktas-liverpool-2015-shootout-european-exit",
+      "home": "Beşiktaş",
+      "away": "Liverpool",
+      "score": "1–0",
+      "opposition": "Beşiktaş",
+      "oppositionId": "besiktas",
+      "competitionId": "uefa-cup",
+      "managerId": "brendan-rodgers",
+      "locationId": "ataturk-olympic-stadium",
+      "title": "Liverpool’s European campaign ends on penalties in Istanbul",
+      "editorialReason": "European elimination on penalties in the return to the Atatürk Stadium.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5478",
+        "https://www.liverpoolfc.com/news/first-team/180752-reds-europa-hopes-ended-in-istanbul",
+        "https://www.uefa.com/uefaeuropaleague/news/021e-0e8f813ce723-da6860d6bdb5-1000/",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/besiktas-liverpool-2015-shootout-european-exit-notes.md"
+    },
+    {
+      "date": "2015-03-01",
+      "slug": "liverpool-manchester-city-2015-coutinho-winner",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "score": "2–1",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Coutinho’s winner lifts Liverpool against Manchester City",
+      "editorialReason": "Victory against defending champions represents the strongest phase of the recovery towards the top four.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5450",
+        "https://www.liverpoolfc.com/news/first-team/180914-coutinho-brilliance-sees-off-city-again",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/liverpool-manchester-city-2015-coutinho-winner-notes.md"
+    },
+    {
+      "date": "2015-03-22",
+      "slug": "liverpool-manchester-united-2015-gerrard-red-card",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "score": "1–2",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Gerrard’s early dismissal interrupts Liverpool’s recovery",
+      "editorialReason": "Gerrard dismissal and defeat against direct Champions League qualification rivals.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5453",
+        "https://www.liverpoolfc.com/news/first-team/182160-10-man-reds-suffer-united-defeat",
+        "https://www.thefa.com/news/2015/mar/22/liverpool-1-2-manchester-united-sunday-england-roundup-220315",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/liverpool-manchester-united-2015-gerrard-red-card-notes.md"
+    },
+    {
+      "date": "2015-04-19",
+      "slug": "aston-villa-liverpool-2015-fa-cup-semi-final",
+      "home": "Aston Villa",
+      "away": "Liverpool",
+      "score": "2–1",
+      "opposition": "Aston Villa",
+      "oppositionId": "aston-villa",
+      "competitionId": "fa-cup",
+      "managerId": "brendan-rodgers",
+      "locationId": "wembley",
+      "title": "Villa’s comeback ends Liverpool’s FA Cup hopes",
+      "editorialReason": "FA Cup semi-final loss ends remaining trophy possibility in Gerrard final season.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5489",
+        "https://www.liverpoolfc.com/news/first-team/183776-villa-edge-semi-to-end-liverpool-dreams",
+        "https://www.thefa.com/news/2015/Apr/19/aston-villa-v-liverpool-fa-cup-semi-final-report",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/aston-villa-liverpool-2015-fa-cup-semi-final-notes.md"
+    },
+    {
+      "date": "2015-05-16",
+      "slug": "liverpool-crystal-palace-2015-gerrard-anfield-farewell",
+      "home": "Liverpool",
+      "away": "Crystal Palace",
+      "score": "1–3",
+      "opposition": "Crystal Palace",
+      "oppositionId": "crystal-palace",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Palace spoil Gerrard’s final Anfield appearance",
+      "editorialReason": "Gerrard final Anfield appearance, preserved as a match rather than a career biography.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5460",
+        "https://www.liverpoolfc.com/news/first-team/185348-defeat-for-reds-as-stevie-bids-farewell",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/liverpool-crystal-palace-2015-gerrard-anfield-farewell-notes.md"
+    },
+    {
+      "date": "2015-05-24",
+      "slug": "stoke-liverpool-2015-gerrard-final-match",
+      "home": "Stoke City",
+      "away": "Liverpool",
+      "score": "6–1",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "britannia-stadium",
+      "title": "Gerrard scores on a six-goal final-day defeat",
+      "editorialReason": "Major defeat on Gerrard final Liverpool appearance and the season concluding fixture.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5461",
+        "https://www.liverpoolfc.com/news/first-team/185728-stoke-stun-liverpool-in-stevie-farewell",
+        "https://www.lfchistory.net/season-archive/league-table/124",
+        "https://www.lfchistory.net/season-archive/games/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/stoke-liverpool-2015-gerrard-final-match-notes.md"
+    }
+  ],
+  "reused": [],
+  "deliberateOmissions": [
+    "Tottenham3–0 away: considered as a recovery result, but the home3–2 has five goals, repeated equalisers and Balotelli’s first league goal; no duplicate result-only report.",
+    "Real Madrid’s two group wins: retained within the wider Champions League group context for the decisive Basel elimination, without separate coverage of every group defeat.",
+    "Wimbledon Gerrard brace and Blackburn quarter-final replay winner: both considered from the complete FA Cup route; the newly selected Bolton comeback and Wembley elimination provide distinct cup narratives. Later evidence can justify reconsideration.",
+    "Manchester United3–0 at Old Trafford and Southampton2–0 away: considered in the complete recovery sequence; Anfield City win and United defeat cover the spring rise and setback with stronger separate events.",
+    "Other league wins/draws and earlier League Cup rounds: checked in the whole58-fixture register, with no minimum number of selections or match-result filler."
+  ],
+  "limitations": [
+    "No2014–15 manuscript bodies or claims have been written by this worker. Root must confirm remote main claims before any body.",
+    "Original Astra files and all earlier completed reviewed seasons remain unchanged. Fresh notes identify actual Sol retrieval and URL-specific scope.",
+    "QPR revised goal credit, dismissal elapsed time, cup timing/leg and legacy header errors are bounded in per-match notes.",
+    "Sentence-level manuscript self-audits and final independent review are pending until actual bodies exist. Source confidence is private and not intended for article prose.",
+    "The FA United summary is exposed search text with a failed page-open, explicitly Medium scope. The FA Bolton page-open twice failed but exposed search narrative was retrieved; it remains supplementary and is not a proposed footer source."
+  ]
+}
+

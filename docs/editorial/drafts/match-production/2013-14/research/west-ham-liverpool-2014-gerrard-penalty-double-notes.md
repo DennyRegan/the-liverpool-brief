@@ -2,7 +2,7 @@
 
 Historical date: 2014-04-06. Season: 2013–14. Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026.
 
-New Sol addition accepted by root after the 3 October best-games commission without a quota. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. There was no original selected individual note for this addition. Root owns the calendar, remote claim, independent review checkpoint and Git operations. No 2013–14 body has been drafted; this record awaits the remotely confirmed claim release.
+New Sol addition accepted by root after the 3 October best-games commission without a quota. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. There was no original selected individual note for this addition. Root owns the calendar, remote claim, independent review checkpoint and Git operations. Root confirmed the claim on GitHub main at d621c5cab596cc4ae64ac96bceff88368b1d218b and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -34,3 +34,18 @@ No invented quotation, motive, atmosphere, tactical instruction or action from u
 ## Editorial handling before release
 
 The intended article will use registered opposition, competition, manager and principal-player identities, British English and factual match classification. It will have the exact historical date and 2013–14 season, with no publication date. Its frontmatter Sources URL array will match the ordered linked bullets in one terminal `## Sources`section. Only actually retrieved URLs that support the body will be cited there; research-only limited surfaces may remain in these notes. Each final paragraph will receive a full-sentence claim audit after drafting, followed by independent factual review and hashes. This is a completed prewriting record, not a final-body PASS or publication approval.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: The official account and independent record support 2–1, exact date, return to top and Gerrard’s two penalties. The full ledger confirms nine consecutive league wins.
+- Paragraph 2: The full official narrative supports Gerrard’s pass, Suárez’s run and Tomkins handball. LFChistory gives first penalty 44.
+- Paragraph 3: The club and independent full TEAMtalk account support the dropped corner under Carroll’s challenge, Demel finish and consultation with the equaliser allowed. No new decision on whether the challenge legally constituted a foul is made.
+- Paragraph 4: The primary narrative supplies Lucas replacing Coutinho and his pass to Flanagan. TEAMtalk expressly records Adrián’s ball contact before collision; the award is reported without deciding correctness.
+- Paragraph 5: The converted second penalty and woodwork chances are supported by the two full contemporary accounts. The keeper challenge’s 70/71 clock difference is avoided; no order between the woodwork chances is invented.
+- Paragraph 6: The contemporary match table gives Liverpool 74/33, Chelsea 72/33, City 70/31. The full ledger places City next; the games-in-hand context prevents treating the points gap as equal-fixture advantage.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2013–14 season, factual match classification, Rodgers and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

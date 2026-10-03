@@ -1,8 +1,8 @@
-# 2013–14 independent Sol review baseline
+# 2013–14 independent Sol factual review
 
 - Actual configured reviewer: `gpt-6.1-sol`, worker `/root/sol_factual_review`.
 - Fresh retrieval date: 3 October 2026.
-- Scope: independently retrieved season baseline while earlier-season bodies are reviewed. Original Astra preparation is preserved. Selection acceptance and manuscript verification remain pending; this is no finished-body approval.
+- Final scope: all nineteen accepted Sol manuscripts, their complete titles/excerpts/bodies and completed own audits have actually been reviewed and corrections rechecked. Original Astra preparation is preserved. Earlier pending-state passages below document the review history; the final verdict and canonical hash table govern the current files.
 
 ## Retrieved source scopes
 
@@ -88,6 +88,108 @@ Relevant identities, dates, grounds, teams, notes and available goal/substitutio
 
 Actual relevant identities, starting sides, available notes, timelines and exposed match tables read, High within record scope: https://www.lfchistory.net/games/5388 (Newcastle19October2–2; Gerrard100th Premier League goal, third after later results); https://www.lfchistory.net/games/5401 (Stoke12January3–5; Sturridge66 introduction,5/32/39/45/51/71/85/87 goals); https://www.lfchistory.net/games/5406 (Fulham12February2–3; Teixeira debut,90+1 winner, final fourth53from26); https://www.lfchistory.net/games/5423 (Arsenal16February fifth-round2–1; penalty59); https://www.lfchistory.net/games/5411 (Cardiff22March3–6; Suárez sixth club treble/equalled Fowler28 Premier League season goals, second65from30); https://www.lfchistory.net/games/5413 (WestHam6April1–2; two penalties44/71, top74from33/City70from31). Record prose opinions and unused comparative claims are not adopted.
 
+## Additional milestone corroboration
+
+Actual relevant full text retrieved and read, High within these limited scopes: https://www.liverpoolfc.com/news/first-team/159661-how-reds-smashed-pl-record-at-cardiff (Suárez sixth Liverpool treble;82league goals after30, previous club Premier League season mark77); https://www.liverpoolfc.com/news/first-team/147384-i-d-swap-my-100-for-two-more-points (Gerrard100th Premier League goal, first-half penalty and temporary top position, before later results); https://www.liverpoolfc.com/news/first-team/151405-how-flanagan-marked-sensational-strike (first Liverpool goal, volley from Suárez cross off underside of bar). Unquoted feelings, personal recreation, speculation and unrelated fixtures omitted.
+
+## First four completed manuscripts independently reviewed
+
+All complete titles, excerpts, bodies and completed own paragraph audits have actually been read. The current corrected files pass independent factual review within the retrieved evidence, British prose, exact date/entity checks and source-format checks. Descriptive labels accurately identify the cited records/reports; each URL appears in its own actually retrieved note. The single terminal Sources list and same-order metadata array match the published site's format already inspected. These individual approvals do not clear the unfinished nineteen-report season.
+
+The United preceding-champion clause initially lacked its own cited coverage. The writer retrieved and cited https://www.lfchistory.net/season-archive/league-table/122; the complete table has now independently been read and establishes United's championship. Correction rechecked in the actual final body and audit. Stoke's repetitive ending was tightened; newly included disallowed goal, woodwork and first-half Walters save were independently rechecked against the full official reaction, with the residual score-spacing correction confirmed before hashing.
+
+Two additional official pages were actually independently retrieved and their relevant full text read, High within these scopes: https://www.liverpoolfc.com/news/first-team/143981-free-video-kop-s-shankly-tribute establishes the pre-match centenary mosaic (no video watched); https://www.liverpoolfc.com/news/announcements/363222-bill-shankly-birthday-tribute establishes birth on 2 September 1913, distinct from the 1 September fixture. Newcastle century/temporary top/final third and Goodison all six goals/late substitution timing were rechecked against the already retrieved narratives and cores. No invented action, quoted speech or selection motive found.
+
+Reviewed full-file SHA-256 values:
+
+| File | SHA-256 |
+|---|---|
+| liverpool-stoke-2013-mignolet-debut-save.md | afe0d0790bd2a72aa394b1f2e8d1a89162947b180d08cf6a7b04af776c432e22 |
+| liverpool-manchester-united-2013-sturridge-shankly-centenary.md | 653225ae94663b023acd9b95990d133de873743189b2d91a03f9bee9ad42bb9d |
+| newcastle-liverpool-2013-gerrard-century.md | afe460781f5f7c65e965b6b976954795c9a54eca195c674f5c75151717e23d1a |
+| everton-liverpool-2013-sturridge-six-goal-derby.md | 19eb7bbc2a51944bfe6f5e9998496b8608b348ccff0539c07bc8e0f270905575 |
+
+## Second completed batch read
+
+The complete Norwich4December, Tottenham15December, Stoke12January and Everton28January bodies, titles/excerpts and final own paragraph audits have actually been read. Source arrays/order/one terminal linked list, accurate labels, exact dates and all supplied canonical entity IDs mechanically pass. Published-source format and own-note retrieved-URL coverage match. Norwich's three-treble milestone is explicitly Liverpool-scoped; Tottenham captaincy is Premier League-specific, and Flanagan's first senior Liverpool goal is independently supported. Everton's goal/penalty chronology, Rodgers first derby win and contemporary fourth46/23 versus Everton sixth42/23 are supported.
+
+Stoke's seven-week ankle-absence wording has now been independently checked in the actually retrieved PDF opening second report119–120 and BBC714–718 (last appearance23November). Echo520 uses a rounded six weeks; this discrepancy was sent to the writer with a proposed late-November wording. The PDF's relevant new passages were read, not all six pages or footage. Stoke's concluding five-goals-required claim was flagged because four exceeds the three conceded; its correction and final hash remain pending.
+
+These three unchanged completed files independently pass factual/material-claim coverage, date/entities, British prose, single source footer/metadata/own-note parity and published-format comparison; full-file hashes:
+
+| File | SHA-256 |
+|---|---|
+| liverpool-norwich-2013-suarez-four-goals.md | 37948cf5b76a13e80f6a0ddb2cb8fb53266b5ddec26ec99553eeb9067377dd03 |
+| tottenham-liverpool-2013-five-at-white-hart-lane.md | 52c64b5487c69a7c6883df4cf9b937e0a08e5c7803ce2b905345b826c4370272 |
+| liverpool-everton-2014-four-goal-derby.md | 08d38d72165ab65d02f5fe80b187d0cbaf7b7e31abe6efde0964eca0845cf6e1 |
+
+## Stoke correction completed and third batch read
+
+Stoke12January's actual corrected body and amended own audit have been reread: the fifth goal restored a two-goal margin, and the rounded injury duration has been removed while the supported ankle absence remains. Exact source order/footer/own-note coverage and metadata remain unchanged and pass. The individually cleared full-file SHA-256 is `e4a46953404ece7eb699d7edfc2a4bec34ccad77af51d3e7666bfac0271a4e83` for `stoke-liverpool-2014-sturridge-return-eight-goals.md`.
+
+Arsenal8February, Fulham12February, ArsenalFA16February and United16March complete bodies/title/excerpts and final own paragraph audits have now actually been read. Each match's material action chronology and table/competition assertions match the retrieved narratives and cores. League-only eleven-win/six-win scopes and game-in-hand qualification are retained. Arsenal8February's closing phrase that Arteta's goal did not change the size of the result was flagged (margin fell5–0to5–1); correction pending, along with two punctuation-spacing corrections in the ArsenalFA and United reports. Final hashes for that batch remain pending corrected bytes.
+
+One additional primary source was actually independently retrieved and its full relevant text read, High: https://www.liverpoolfc.com/news/first-team/155500-rodgers-we-have-raised-expectations explicitly supports Rodgers's attributed second-penalty complaint, the Oxlade-Chamberlain/Suárez incident and league-only remaining programme. No provider judgement of referee correctness is adopted and no quotation copied.
+
+## Third-batch corrections rechecked and fourth batch completed
+
+All eight final current reports (Arsenal8February, Fulham12February, ArsenalFA16February, United16March, Cardiff22March, WestHam6April, City13April and Norwich20April) now individually pass after the corrected complete bodies and amended audits were read. The inaccurate Arsenal margin sentence was removed, with its final audit renumbered; both spacing fixes are present. No pending first-sixteen body correction remains.
+
+All eight exact dates/slugs, supplied canonical entity IDs, no publication date, metadata URL order, single terminal Sources list, descriptive labels and own-note actual-source coverage pass. Their source layout matches the published reports inspected. Material facts match independently retrieved narratives/records with league-only runs, historical scoring record scopes, temporary table points/games played, City games in hand and secured Champions League qualification distinguished from title certainty. No invented quotation, motive or unwatched action found.
+
+For WestHam, this reviewer's TEAMtalk open failed with cache miss and the Sky287615 open failed beyond its short indexed lead. These failed surfaces are not claimed as freshly read full reports; the writer's separately recorded successful TEAMtalk retrieval remains its own evidence. Additional independent corroboration actually retrieved and read: https://www.lfchistory.net/images/newspapers/riley/20140406vWestHam.pdf opening report and next report through their action sections. High for Adrián touching ball before subsequent contact, Demel after dropped corner/Carroll challenge, officials consulting/goal standing, and all goals/woodwork. Provider refereeing verdicts excluded; wrong preceding-season rank in opening report omitted. Not all six pages read.
+
+Reviewed final full-file SHA-256 values:
+
+| File | SHA-256 |
+|---|---|
+| liverpool-arsenal-2014-four-in-twenty-minutes.md | c0a485a421f636703642a940996c87c0e2bd92ccd43e74b337f41f0f3a8f981e |
+| fulham-liverpool-2014-gerrard-late-penalty.md | 02cc70219d6ea8025c3d50a7c61ea676bf5bcb72c8c4fa7ac5c10e439f7c18cc |
+| arsenal-liverpool-2014-fa-cup-exit.md | 160c385ad5577b9e6a668b2d6cf9340be3602804fac1c5e9735da2c4034d876b |
+| manchester-united-liverpool-2014-gerrard-penalties.md | e7688087fcdb2378e3252da5a41d6c0f4296fe945b8e646ccdeb225f2dee2f19 |
+| cardiff-liverpool-2014-suarez-treble-nine-goals.md | a823d96d23ac3d6283de98617f236accf165733d7d20bc36853ac8e15c717375 |
+| west-ham-liverpool-2014-gerrard-penalty-double.md | 5a0e10d8caae8373bbbb8897f78962e88d270cee440e292265ec7f16afb3e6a2 |
+| liverpool-manchester-city-2014-coutinho-title-race.md | 10907854c08877171248d29673d3900ac51145cea1a6888f22da6042f75f2196 |
+| norwich-liverpool-2014-eleven-wins-champions-league.md | 8582cb4b57c443c9f89e59d5c462a4a29c63f052df481745761942faa5ebfc89 |
+
+## Final three completed manuscripts reviewed
+
+The complete Chelsea27April, Palace5May and Newcastle11May manuscripts and their completed own paragraph audits have actually been read. All material claims are independently covered by the retrieved sources and limited scopes above. Chelsea's first calendar-year league defeat, eleven preceding league wins, both added-time goals, second-half saves and substitute chronology are corroborated. Its contemporary80/36,78/36,77/35 table arithmetic retains City's game in hand and better goal difference without claiming that evening settled the title.
+
+Palace's six goal sequences and79/81/88 recovery, Allen18, Suárez55, pre-match equal points/extra game and post-match81/37 versus City80/36 are supported by the full opposing-club and UEFA reports plus current cores. Its current Delaney own-goal credit explicitly follows the independently read LFChistory and11v11 amendment; contemporary Sturridge credit, the PL shell and the input-amendment date are not silently treated as current official credit or a committee decision date. No title-elimination or invented goal-difference instruction is asserted.
+
+Newcastle's20/63/65 goal sequence, Gerrard deliveries and final84points/26wins/6draws/6defeats/101–50 against City's86 are supported. The independently read contemporary PDF resolves Ameobi as two dissent cautions despite the club's straight-red wording and supports Dummett's later Suárez challenge/dismissal. Daniel Agger is correctly named despite the core's stray David typo. Later appeal evidence is not imported into the match-day account.
+
+## Final whole-season source and format checks
+
+All nineteen final files independently pass factual review after actual complete-body and own-audit reads. No unsupported quotation, inferred motive, unwatched action or fictional detail was found. British prose, exact historical dates/slugs/season, factual match classification and registered supplied manager/player/opposition/competition/location identities pass. There is no publication date. Every final article has exactly one terminal Sources section containing descriptive, accurate linked bullets, with no internal commentary or article text following it. Each ordered URL exactly matches its frontmatter sources array and appears in its own actually retrieved source register. The layout matches the published Liverpool–Leicester1974semi-final replay and Liverpool–WestHam1977title reports actually inspected. These checks apply separately to every row below.
+
+The final mechanical pass covered all nineteen files with zero date/entity/source-order/footer/own-note/audit errors; all sixteen earlier reviewed hashes remain unchanged. All requested corrections have been rechecked in saved final bytes. Retrieval failures, partial extracts, source errors and newspaper sections actually read remain accurately scoped above; PASS does not claim reading unexposed text, every PDF article or any video. This review approves these manuscript versions for root's completion checks and does not perform publication or scheduling.
+
+## Canonical final full-file SHA-256 values
+
+| File | SHA-256 |
+|---|---|
+| liverpool-stoke-2013-mignolet-debut-save.md | afe0d0790bd2a72aa394b1f2e8d1a89162947b180d08cf6a7b04af776c432e22 |
+| liverpool-manchester-united-2013-sturridge-shankly-centenary.md | 653225ae94663b023acd9b95990d133de873743189b2d91a03f9bee9ad42bb9d |
+| newcastle-liverpool-2013-gerrard-century.md | afe460781f5f7c65e965b6b976954795c9a54eca195c674f5c75151717e23d1a |
+| everton-liverpool-2013-sturridge-six-goal-derby.md | 19eb7bbc2a51944bfe6f5e9998496b8608b348ccff0539c07bc8e0f270905575 |
+| liverpool-norwich-2013-suarez-four-goals.md | 37948cf5b76a13e80f6a0ddb2cb8fb53266b5ddec26ec99553eeb9067377dd03 |
+| tottenham-liverpool-2013-five-at-white-hart-lane.md | 52c64b5487c69a7c6883df4cf9b937e0a08e5c7803ce2b905345b826c4370272 |
+| stoke-liverpool-2014-sturridge-return-eight-goals.md | e4a46953404ece7eb699d7edfc2a4bec34ccad77af51d3e7666bfac0271a4e83 |
+| liverpool-everton-2014-four-goal-derby.md | 08d38d72165ab65d02f5fe80b187d0cbaf7b7e31abe6efde0964eca0845cf6e1 |
+| liverpool-arsenal-2014-four-in-twenty-minutes.md | c0a485a421f636703642a940996c87c0e2bd92ccd43e74b337f41f0f3a8f981e |
+| fulham-liverpool-2014-gerrard-late-penalty.md | 02cc70219d6ea8025c3d50a7c61ea676bf5bcb72c8c4fa7ac5c10e439f7c18cc |
+| arsenal-liverpool-2014-fa-cup-exit.md | 160c385ad5577b9e6a668b2d6cf9340be3602804fac1c5e9735da2c4034d876b |
+| manchester-united-liverpool-2014-gerrard-penalties.md | e7688087fcdb2378e3252da5a41d6c0f4296fe945b8e646ccdeb225f2dee2f19 |
+| cardiff-liverpool-2014-suarez-treble-nine-goals.md | a823d96d23ac3d6283de98617f236accf165733d7d20bc36853ac8e15c717375 |
+| west-ham-liverpool-2014-gerrard-penalty-double.md | 5a0e10d8caae8373bbbb8897f78962e88d270cee440e292265ec7f16afb3e6a2 |
+| liverpool-manchester-city-2014-coutinho-title-race.md | 10907854c08877171248d29673d3900ac51145cea1a6888f22da6042f75f2196 |
+| norwich-liverpool-2014-eleven-wins-champions-league.md | 8582cb4b57c443c9f89e59d5c462a4a29c63f052df481745761942faa5ebfc89 |
+| liverpool-chelsea-2014-title-race-turns.md | 39215f006c5fa5b9962261dc3f9cf914090e24fb6e01b8abf72e08fdacbecc30 |
+| crystal-palace-liverpool-2014-three-goal-lead-lost.md | 29cf10c5ca3b716e20318e1aa411ff5853d580ad90350a5c90170e2f2a129082 |
+| liverpool-newcastle-2014-title-challenge-finale.md | e4440ba7e85785e331f4b1210d4b3e4e4fed471c53b6966208ec36c7777411d6 |
+
 ## Verdict
 
-PENDING
+PASS

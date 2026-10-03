@@ -2,7 +2,7 @@
 
 Historical date: 2014-03-16. Season: 2013–14. Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026.
 
-Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2007_08. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. Prior individual preparation is preserved in `2014-03-16-sources.md`. Root owns the calendar, remote claim, independent review checkpoint and Git operations. No 2013–14 body has been drafted; this record awaits the remotely confirmed claim release.
+Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2007_08. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. Prior individual preparation is preserved in `2014-03-16-sources.md`. Root owns the calendar, remote claim, independent review checkpoint and Git operations. Root confirmed the claim on GitHub main at d621c5cab596cc4ae64ac96bceff88368b1d218b and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -35,3 +35,18 @@ No invented quotation, motive, atmosphere, tactical instruction or action from u
 ## Editorial handling before release
 
 The intended article will use registered opposition, competition, manager and principal-player identities, British English and factual match classification. It will have the exact historical date and 2013–14 season, with no publication date. Its frontmatter Sources URL array will match the ordered linked bullets in one terminal `## Sources`section. Only actually retrieved URLs that support the body will be cited there; research-only limited surfaces may remain in these notes. Each final paragraph will receive a full-sentence claim audit after drafting, followed by independent factual review and hashes. This is a completed prewriting record, not a final-body PASS or publication approval.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: The full relevant club retrospective, FA account and independent timeline agree on 3–0, two converted penalties, a missed third against the post, Vidić dismissal and Suárez’s third. LFChistory supplies exact date and venue.
+- Paragraph 2: LFChistory and the FA account record Gerrard 34 and 1–0 half-time. The first awarded penalty’s offender is unnamed because the fresh FA narrative does not identify him.
+- Paragraph 3: The full FA account explicitly supplies Jones fouling Allen and Gerrard 46. No intent is attributed to the defender.
+- Paragraph 4: The FA body supports the third award involving Sturridge, Vidić’s second yellow and the post. Its erroneous caption about a third penalty celebration is ignored; the challenge is not independently ruled lawful or unlawful.
+- Paragraph 5: The full FA account says Sturridge mishit a shot and Suárez scored 84. The wording avoids inventing a deliberate assist pass.
+- Paragraph 6: The season ledger records both United league wins and the six-win league run. LFChistory’s contemporary table gives second 62/29, Chelsea 66/30. The game-in-hand qualification is retained.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2013–14 season, factual match classification, Rodgers and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

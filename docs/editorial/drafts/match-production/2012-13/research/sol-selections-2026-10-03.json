@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "workerId": "/root/sol_1967_68",
   "researchedAt": "2026-10-03",
-  "status": "nine_manuscripts_and_self_audits_complete_pending_independent_review",
+  "status": "nine_manuscripts_complete_independent_factual_review_pass",
   "priorPreparation": {
     "path": "docs/editorial/drafts/match-production/2012-13/research/selection.json",
     "model": "gpt-6-astra",
@@ -247,7 +247,7 @@
   ],
   "limitations": [
     "All nine manuscripts were saved after remote main claims were confirmed at a66ea9b677823a16390c2815b9eaca50f65b35a4; current main was reconciled before each save.",
-    "All nine final sentence self-audits are complete; final independent body review is pending.",
+    "All nine final sentence self-audits and independent final body reviews are complete (PASS); manuscript bytes are frozen for root checkpoint.",
     "Source timings/attribution conflicts recorded in each fresh canonical companion note; no false-success inference from embedded Storify."
   ]
 }
