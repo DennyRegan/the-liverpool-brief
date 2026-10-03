@@ -1,6 +1,6 @@
 # Elisha Scott — factual audit
 
-Separate writer factual pass performed **after** the complete manuscript was composed on3October2026. Actual model:gpt-6.1-sol; worker:`/root/fourth_scott_hodgson`. This is the writer’s paragraph-by-paragraph check, not the independently assigned review. Object:`elisha-scott.md`. Outcome: passed after tightening two passages and retrieving an additional official Riley cross-check. No calendar, publication, schedule, Git or application changes.
+Separate writer factual pass performed **after** the complete manuscript was composed on 3 October 2026. Actual model: gpt-6.1-sol; worker: `/root/fourth_scott_hodgson`. This is the writer’s paragraph-by-paragraph check, not the independently assigned review. Object: `elisha-scott.md`. Outcome: passed after tightening two passages and retrieving an additional official Riley cross-check. No calendar, publication, schedule, Git or application changes.
 
 ## Paragraph-by-paragraph check
 
@@ -45,4 +45,4 @@ Paragraph numbering excludes title, frontmatter and Sources.
 
 ## Technical checks
 
-JSON frontmatter parsed; canonical filename/slug/player ID`elisha-scott`; category`person`, articleType`player`, editorialMode`factual`, historicalPeriod`1912–1934`, decade`1920s`. No applicable registered pre-Shankly era: `historyEras` omitted. No invented anniversary, publication field or date slot. One final Sources section and no inline URLs, links or numbered citations before it. Reader prose contains no model, confidence or research-method asides. British English retained. Narrative25paragraphs, approximately1,770words including title, excluding frontmatter and Sources;20linked source entries. All three files remain unpublished editorial stock.
+JSON frontmatter parsed; canonical filename/slug/player ID `elisha-scott`; category `person`, articleType `player`, editorialMode `factual`, historicalPeriod `1912–1934`, decade `1920s`. No applicable registered pre-Shankly era: `historyEras` omitted. No invented anniversary, publication field or date slot. One final Sources section and no inline URLs, links or numbered citations before it. Reader prose contains no model, confidence or research-method asides. British English retained. Final narrative scope: **25 paragraphs / 1,765 whitespace-counted words**, or **1,774 including title**, excluding frontmatter and Sources; **20 linked source entries** after the farewell match addition. All 20 bottom-source URLs are registered in the research record. All three files remain unpublished editorial stock.

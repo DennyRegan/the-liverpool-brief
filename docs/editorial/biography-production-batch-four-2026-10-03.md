@@ -33,4 +33,25 @@ Watson, Lawrence, Scott, Wijnaldum and Alexander-Arnold have complete Sol 6.1 ma
 
 A small compatibility correction in the calendar validator permits canonical career inventory without an era tag when the career predates the registered managerial eras. It does not invent an event date, loosen canonical identity/evidence checks or allow an undated match/event. A regression covers both early undated career stock and rejection of a dated event with its date removed. Public article content, application, automatic publisher settings, matches and earlier biographies remain unchanged.
 
+## Second completed checkpoint
+
+First-five commit: `281a3c620cbbf30d8b3dcb66464df2b24316222f`; selection commit: `6724670e98560f245924cc3e7b328d6d9c6c5c13`. Fabinho, Robertson, Stubbins, Raisbeck and Hodgson now also have complete manuscripts, retrieved-source registers, separate full writer audits and independent targeted PASS records. All ten are technically ready unpublished stock with null approval and published destination. The independent report states each subject's successful checks, failed retrievals and precise review limits; the final collective source assessment checks shared pages and restricted allowances.
+
+| Subject | Narrative words, excluding headings and Sources | Bottom source links |
+| --- | ---: | ---: |
+| Fabinho | 1,950 | 31 |
+| Albert Stubbins | 1,814 | 23 |
+| Trent Alexander-Arnold | 1,660 | 28 |
+| Andy Robertson | 1,702 | 29 |
+| Georginio Wijnaldum | 1,786 | 23 |
+| Tom Watson | 1,806 | 22 |
+| Alex Raisbeck | 1,717 | 24 |
+| Elisha Scott | 1,765 | 20 |
+| Gordon Hodgson | 1,553 | 23 |
+| Tommy Lawrence | 1,665 | 19 |
+
+No separate legendary-length designation or common quota was applied. Watson's managerial work, Scott's long interrupted service and Alexander-Arnold's changing roles receive multiple phases; each finished length follows its documented story. All are substantial career biographies, rather than short profiles. Non-essential disputed early dates, fees, tour goals, folklore and private motives are omitted or explicitly attributed, with conflicts preserved in the research registers. In particular, newly corroborated Stubbins records supersede the stale fee/second-season figures, and Hodgson's tour paragraph establishes neither disputed scoring version. No unresolved central factual blocker remains.
+
+During final reconciliation main advanced to `3561b8f14acb751c220d799a7fc632f86ab635af` with modern match recovery and continuation claims. Its biographies and publisher settings are unchanged. Its 220 new match rows, 25 new match batches, one existing entry amendment, 19 entities, evidence files, documentation and seasonal-date validation changes will be incorporated before final tests/build and the authorised main merge.
+
 Checkpoint selection, then sensible completed batches before all ten are finished. Fetch current remote state at checkpoints and before merging, retaining concurrent match, migration, Brief and publisher work. Validate canonical identities, schema, duplicate subjects/slugs, bottom Sources, evidence discovery, no public-route leakage, full tests, lint and production build. After the complete authorised batch passes checks, merge it into main as Denny explicitly instructed. No force-push, manual publication, scheduling, publication approval or publisher dispatch.

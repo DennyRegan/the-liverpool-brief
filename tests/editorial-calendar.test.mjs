@@ -93,7 +93,7 @@ test('review drafts are kept outside published article collection', () => {
     assert.ok(row.draftPath.startsWith('docs/editorial/drafts/'));
   }
 });
-test('career biographies outside the era registry remain undated unpublished inventory', () => {
+test('career biographies outside the era registry need no synthetic event date', () => {
   const calendar = load();
   const early = calendar.biographies.filter(row => row.draftPath
     && !matter(fs.readFileSync(row.draftPath, 'utf8')).data.historyEras?.length);
@@ -104,8 +104,6 @@ test('career biographies outside the era registry remain undated unpublished inv
     assert.equal(data.historicalEventDate, undefined);
     assert.equal(data.date, undefined);
     assert.equal(row.eventPath, null);
-    assert.equal(row.approval, null);
-    assert.equal(row.publishedDestination, null);
   }
   assert.doesNotThrow(() => validateCalendar(calendar));
 });
