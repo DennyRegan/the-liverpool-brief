@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T06:11:47.503868Z",
+  "updatedAt": "2026-10-03T06:14:57.211125Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -18931,6 +18931,578 @@
         "blockers": []
       },
       "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1969-08-09-liverpool-chelsea-1969-st-john-double",
+      "event": "Liverpool 4–1 Chelsea: St John scores twice as Liverpool begin with four",
+      "historicalEventDate": "1969-08-09",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "b556bf57-6ddf-4600-a169-32f5e56aed4a",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Four-goal opening and rapid response to Chelsea equaliser start a four-win sequence after runners-up season. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–1 Chelsea",
+        "opposition": "Chelsea",
+        "score": "4–1",
+        "editorialReason": "Four-goal opening and rapid response to Chelsea equaliser start a four-win sequence after runners-up season.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-09-16-liverpool-dundalk-1969-ten-goals",
+      "event": "Liverpool 10–0 Dundalk: Liverpool reach ten on Lindsay’s scoring debut",
+      "historicalEventDate": "1969-09-16",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "02ecd6af-e5af-42f5-a354-33eb0623add2",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Largest win of season, Lindsay competitive debut and future manager Houllier’s first Kop visit, backed by official recollection. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 10–0 Dundalk",
+        "opposition": "Dundalk",
+        "score": "10–0",
+        "editorialReason": "Largest win of season, Lindsay competitive debut and future manager Houllier’s first Kop visit, backed by official recollection.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-09-24-manchester-city-liverpool-1969-league-cup-exit",
+      "event": "Manchester City 3–2 Liverpool: City reverse their league defeats to end Liverpool’s League Cup",
+      "historicalEventDate": "1969-09-24",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "1413cbcf-a322-406e-976c-527bae59c80d",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Early domestic cup exit against opponent already beaten twice in league. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Manchester City 3–2 Liverpool",
+        "opposition": "Manchester City",
+        "score": "3–2",
+        "editorialReason": "Early domestic cup exit against opponent already beaten twice in league.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-09-27-west-bromwich-liverpool-1969-lloyd-debut",
+      "event": "West Bromwich Albion 2–2 Liverpool: Hunt rescues a point as Lloyd begins at The Hawthorns",
+      "historicalEventDate": "1969-09-27",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "67f669a4-abfb-4544-afd9-420e8339fe31",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Competitive debut of significant rebuild recruit alongside late Hunt contribution; old and incoming players coexist. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "West Bromwich Albion 2–2 Liverpool",
+        "opposition": "West Bromwich Albion",
+        "score": "2–2",
+        "editorialReason": "Competitive debut of significant rebuild recruit alongside late Hunt contribution; old and incoming players coexist.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-11-01-derby-liverpool-1969-four-goal-defeat",
+      "event": "Derby County 4–0 Liverpool: Derby put four past Liverpool at the Baseball Ground",
+      "historicalEventDate": "1969-11-01",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "514a98f4-7425-4918-ba9f-f34fbc752273",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Heaviest away league defeat of campaign exposes loss of early momentum against promoted side. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Derby County 4–0 Liverpool",
+        "opposition": "Derby County",
+        "score": "4–0",
+        "editorialReason": "Heaviest away league defeat of campaign exposes loss of early momentum against promoted side.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-11-26-liverpool-vitoria-setubal-1969-away-goals-exit",
+      "event": "Liverpool 3–2 Vitória Setúbal: Liverpool’s three goals cannot undo Setúbal’s away advantage",
+      "historicalEventDate": "1969-11-26",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "95b2efe7-9938-4daf-b5c1-bef2761ed595",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "European second-round exit under away-goals rule after 3–3 aggregate; distinct from previous season coin toss. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–2 Vitória Setúbal",
+        "opposition": "Vitória Setúbal",
+        "score": "3–2",
+        "editorialReason": "European second-round exit under away-goals rule after 3–3 aggregate; distinct from previous season coin toss.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-12-06-everton-liverpool-1969-three-goal-derby",
+      "event": "Everton 0–3 Liverpool: Liverpool take three past Everton at Goodison",
+      "historicalEventDate": "1969-12-06",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "fece811c-a9da-40e4-a86c-51126b257399",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Major derby win against eventual champions, with famous Sandy Brown own goal and Graham among scorers. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Everton 0–3 Liverpool",
+        "opposition": "Everton",
+        "score": "0–3",
+        "editorialReason": "Major derby win against eventual champions, with famous Sandy Brown own goal and Graham among scorers.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-12-13-liverpool-manchester-united-1969-four-goal-reverse",
+      "event": "Liverpool 1–4 Manchester United: United turn Liverpool’s derby week into an Anfield defeat",
+      "historicalEventDate": "1969-12-13",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "f5edc9c7-87d9-4abf-bbde-bea82f63cc51",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Heaviest home league defeat immediately after Goodison win; Hunt’s final appearance shortly before departure. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–4 Manchester United",
+        "opposition": "Manchester United",
+        "score": "1–4",
+        "editorialReason": "Heaviest home league defeat immediately after Goodison win; Hunt’s final appearance shortly before departure.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1970-01-31-nottingham-forest-liverpool-1970-clemence-league-debut",
+      "event": "Nottingham Forest 1–0 Liverpool: Clemence’s league debut ends in defeat at Forest",
+      "historicalEventDate": "1970-01-31",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "2462e089-9185-48f6-bf5f-4d7806c5a0ac",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "First league appearance of future No.1 predates Watford defeat and later permanent promotion; important corrective to simplistic transition chronology. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Nottingham Forest 1–0 Liverpool",
+        "opposition": "Nottingham Forest",
+        "score": "1–0",
+        "editorialReason": "First league appearance of future No.1 predates Watford defeat and later permanent promotion; important corrective to simplistic transition chronology.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1970-02-11-leicester-liverpool-1970-fa-cup-replay",
+      "event": "Leicester City 0–2 Liverpool: Evans comes off the bench to take Liverpool through at Leicester",
+      "historicalEventDate": "1970-02-11",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "20d8399b-c6ae-477f-b2f3-6f86a8861819",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Substitute scores twice in meaningful cup replay victory against prior season eliminators after home 0–0, before defining Watford defeat. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Leicester City 0–2 Liverpool",
+        "opposition": "Leicester City",
+        "score": "0–2",
+        "editorialReason": "Substitute scores twice in meaningful cup replay victory against prior season eliminators after home 0–0, before defining Watford defeat.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1970-02-21-watford-liverpool-1970-fa-cup-exit",
+      "event": "Watford 1–0 Liverpool: Watford end Liverpool’s FA Cup at Vicarage Road",
+      "historicalEventDate": "1970-02-21",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "1b200ca9-29f3-400a-ab6d-97c48147efb6",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Final cup exit to Second Division side, central event in final season of old first team, without simplistic causal rebuilding claim. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Watford 1–0 Liverpool",
+        "opposition": "Watford",
+        "score": "1–0",
+        "editorialReason": "Final cup exit to Second Division side, central event in final season of old first team, without simplistic causal rebuilding claim.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1970-02-28-liverpool-derby-1970-changed-side",
+      "event": "Liverpool 0–2 Derby County: Liverpool’s changed side cannot halt Derby at Anfield",
+      "historicalEventDate": "1970-02-28",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "1da1d0db-7e23-4e2c-b605-224b1e6921d4",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Clemence returns in goal after cup exit as Liverpool alter side and fall to ninth; distinct from his January league debut, not claimed as a debut. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–2 Derby County",
+        "opposition": "Derby County",
+        "score": "0–2",
+        "editorialReason": "Clemence returns in goal after cup exit as Liverpool alter side and fall to ninth; distinct from his January league debut, not claimed as a debut.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1970-03-21-liverpool-everton-1970-title-march",
+      "event": "Liverpool 0–2 Everton: Everton reverse the derby result and move towards the title",
+      "historicalEventDate": "1970-03-21",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "1d8ef55a-b0b2-4c8b-9fdf-a0e226eee2dd",
+        "claimedAt": "2026-10-03T06:14:57.211125Z",
+        "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Anfield derby loss reverses Goodison win, locates Liverpool’s rebuilding season against neighbours’ championship. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1969-70",
+        "season": "1969-70",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–2 Everton",
+        "opposition": "Everton",
+        "score": "0–2",
+        "editorialReason": "Anfield derby loss reverses Goodison win, locates Liverpool’s rebuilding season against neighbours’ championship.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -19162,15 +19734,29 @@
     {
       "id": "1960s-1969-70",
       "season": "1969-70",
-      "stage": "not_started",
-      "owner": "Archive editor / 1960s production 2026-10-01",
-      "model": "gpt-6-astra",
-      "workerId": "/root/astra_decade_writer",
-      "sourceNote": null,
-      "selectedRowIds": [],
+      "stage": "drafting",
+      "owner": "Archive editor / Sol continuation 2026-10-03",
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/sol_1967_68",
+      "sourceNote": "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
+      "selectedRowIds": [
+        "match-1969-08-09-liverpool-chelsea-1969-st-john-double",
+        "match-1969-09-16-liverpool-dundalk-1969-ten-goals",
+        "match-1969-09-24-manchester-city-liverpool-1969-league-cup-exit",
+        "match-1969-09-27-west-bromwich-liverpool-1969-lloyd-debut",
+        "match-1969-11-01-derby-liverpool-1969-four-goal-defeat",
+        "match-1969-11-26-liverpool-vitoria-setubal-1969-away-goals-exit",
+        "match-1969-12-06-everton-liverpool-1969-three-goal-derby",
+        "match-1969-12-13-liverpool-manchester-united-1969-four-goal-reverse",
+        "match-1970-01-31-nottingham-forest-liverpool-1970-clemence-league-debut",
+        "match-1970-02-11-leicester-liverpool-1970-fa-cup-replay",
+        "match-1970-02-21-watford-liverpool-1970-fa-cup-exit",
+        "match-1970-02-28-liverpool-derby-1970-changed-side",
+        "match-1970-03-21-liverpool-everton-1970-title-march"
+      ],
       "reusedPaths": [],
       "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
-      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+      "nextStage": "Complete manuscripts and factual audits, independent review, validation and remote season checkpoint."
     }
   ],
   "automaticHistory": {

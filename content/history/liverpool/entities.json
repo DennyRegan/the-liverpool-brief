@@ -2863,5 +2863,20 @@
     "id": "gordon-hodgson",
     "label": "Gordon Hodgson",
     "kind": "person"
+  },
+  {
+    "id": "dundalk",
+    "label": "Dundalk",
+    "kind": "opposition"
+  },
+  {
+    "id": "vitoria-setubal",
+    "label": "Vitória Setúbal",
+    "kind": "opposition"
+  },
+  {
+    "id": "sandy-brown",
+    "label": "Sandy Brown",
+    "kind": "person"
   }
 ]
