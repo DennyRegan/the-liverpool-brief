@@ -36,7 +36,7 @@ The central result and bounded goal sequence have two independently retrieved ac
 Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
 
 - Paragraph 1: Sky confirms date, 0–2, quarter-final and two Bellamy assists; Kelly’s freshly retrieved LFChistory profile confirms his first senior goal. The ledger places the two Stamford Bridge wins nine days apart.
-- Paragraph 2: The complete ledger supplies the prior league score, Johnson’s winner is in the refreshed contemporary Chelsea sources, and the three earlier League Cup opponents/rounds are recorded. No unseen route action is introduced.
+- Paragraph 2: The complete ledger supplies the prior league score and the three earlier League Cup opponents/rounds. The earlier winner’s identity is omitted because the prior league report is not a cited source in this manuscript. No unseen route action is introduced.
 - Paragraph 3: Sky’s retrieved opening narrative supports Alex handball, Turnbull saving Carroll penalty and 0–0 at half-time. This is described as an awarded penalty without a referee judgment.
 - Paragraph 4: The club Bellamy text explicitly supports the run/cross for Maxi and left-wing free-kick for Kelly’s header. Sky independently corroborates both scorers and provider; no footage is claimed to have been watched.
 - Paragraph 5: Kelly’s profile identifies the first senior Liverpool goal on this date. The goal was second in a 0–2 win, so its effect on the margin follows from the scoring sequence, without speculation about his feelings.

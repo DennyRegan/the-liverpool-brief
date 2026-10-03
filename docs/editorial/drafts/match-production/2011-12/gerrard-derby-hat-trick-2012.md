@@ -13,7 +13,7 @@ managerIds: ["kenny-dalglish"]
 oppositionIds: ["everton"]
 competitionIds: ["premier-league"]
 playerIds: ["steven-gerrard", "luis-suarez", "martin-kelly"]
-sources: ["https://www.liverpoolfc.com/news/first-team/116841-stevie-treble-wins-the-derby", "https://www.uefa.com/news-media/news/01fb-0f87fac4134f-9a857d2f03c8-1000--gerrard-treble-halts-liverpool-slide-against-everton/", "https://www.skysports.com/football/liverpool-vs-everton/257457", "https://www.lfchistory.net/season-archive/games/121"]
+sources: ["https://www.liverpoolfc.com/news/first-team/116841-stevie-treble-wins-the-derby", "https://www.uefa.com/news-media/news/01fb-0f87fac4134f-9a857d2f03c8-1000--gerrard-treble-halts-liverpool-slide-against-everton/", "https://www.skysports.com/football/liverpool-vs-everton/257457", "https://www.lfchistory.net/season-archive/games/121", "https://www.lfchistory.net/games/3258"]
 locationIds: ["anfield"]
 ---
 
@@ -27,7 +27,7 @@ Luis Suárez helped create the second early in the next half. His work inside Ev
 
 In added time, Suárez supplied Gerrard for his third. The captain completed the hat-trick and a 3–0 scoreline, giving the evening an individual milestone as well as a clear derby result.
 
-It was the first league hat-trick in this fixture since Ian Rush scored four at Goodison Park in November 1982, and the first at Anfield since Fred Howe’s treble in September 1935. Those records belonged to the league derby; Gerrard’s 400th appearance also referred specifically to the Premier League, rather than his total Liverpool career.
+It was the first league hat-trick in this fixture since Ian Rush scored four at Goodison Park in November 1982, and the first at Anfield since Fred Howe’s four-goal haul in September 1935.
 
 Liverpool had completed a league double over Everton after the October win at Goodison. Gerrard’s treble ended the losing sequence with a result that also protected their position above their neighbours.
 
@@ -37,3 +37,4 @@ Liverpool had completed a league double over Everton after the October win at Go
 - [UEFA: Gerrard treble halts Liverpool slide against Everton](https://www.uefa.com/news-media/news/01fb-0f87fac4134f-9a857d2f03c8-1000--gerrard-treble-halts-liverpool-slide-against-everton/)
 - [Sky Sports: Liverpool 3–0 Everton and derby milestones](https://www.skysports.com/football/liverpool-vs-everton/257457)
 - [LFChistory: 2011–12 season results](https://www.lfchistory.net/season-archive/games/121)
+- [LFChistory: Liverpool–Everton match record, 7 September 1935](https://www.lfchistory.net/games/3258)

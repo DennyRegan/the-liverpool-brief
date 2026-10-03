@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T10:54:42.244643Z",
+  "updatedAt": "2026-10-03T11:04:07.498399Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -23158,13 +23158,9 @@
       "event": "Liverpool 2–2 Northampton Town; Northampton won 4–2 on penalties",
       "historicalEventDate": "2010-09-22",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "9070e3dc-986a-4915-b1a1-da94ea5e1ed0",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/northampton-anfield-shootout-upset-2010.md",
       "originalDraftId": null,
@@ -23173,22 +23169,22 @@
       "notes": "League Two opposition eliminate Liverpool at Anfield. Original session confirmed stopped after usage-limit failure on 1 October; Denny requested Sol6.1 resumption on 3 October. Previous claim retained in dated handoff evidence; new remote claims precede manuscripts. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/northampton-anfield-shootout-upset-2010-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
         },
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–2 Northampton Town; Northampton won 4–2 on penalties",
         "opposition": "Northampton Town",
@@ -23199,13 +23195,12 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/northampton-anfield-shootout-upset-2010-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/northampton-anfield-shootout-upset-2010-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23213,13 +23208,9 @@
       "event": "Everton 2–0 Liverpool",
       "historicalEventDate": "2010-10-17",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "db3783cc-fd6d-40e5-b0d4-cdbd480f5c9e",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/goodison-defeat-new-ownership-2010.md",
       "originalDraftId": null,
@@ -23228,22 +23219,22 @@
       "notes": "First game following ownership takeover ends in derby defeat and leaves Liverpool nineteenth. Original session confirmed stopped after usage-limit failure on 1 October; Denny requested Sol6.1 resumption on 3 October. Previous claim retained in dated handoff evidence; new remote claims precede manuscripts. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/goodison-defeat-new-ownership-2010-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
         },
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Everton 2–0 Liverpool",
         "opposition": "Everton",
@@ -23254,13 +23245,12 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/goodison-defeat-new-ownership-2010-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/goodison-defeat-new-ownership-2010-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23268,13 +23258,9 @@
       "event": "Liverpool 3–1 Napoli",
       "historicalEventDate": "2010-11-04",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "81c2d4c0-15fd-440a-a2b1-05220fdfe806",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/gerrard-napoli-substitute-hat-trick-2010.md",
       "originalDraftId": null,
@@ -23283,22 +23269,22 @@
       "notes": "Half-time substitute scores three late goals to transform European match. Original session confirmed stopped after usage-limit failure on 1 October; Denny requested Sol6.1 resumption on 3 October. Previous claim retained in dated handoff evidence; new remote claims precede manuscripts. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/gerrard-napoli-substitute-hat-trick-2010-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
         },
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–1 Napoli",
         "opposition": "Napoli",
@@ -23309,13 +23295,12 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/gerrard-napoli-substitute-hat-trick-2010-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/gerrard-napoli-substitute-hat-trick-2010-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23323,13 +23308,9 @@
       "event": "Blackburn Rovers 3–1 Liverpool",
       "historicalEventDate": "2011-01-05",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "834c0bc2-2c6e-4815-89e9-c1d38557c910",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/blackburn-hodgson-last-match-2011.md",
       "originalDraftId": null,
@@ -23338,22 +23319,22 @@
       "notes": "Final match of Hodgson tenure; managerial turning point. Original session confirmed stopped after usage-limit failure on 1 October; Denny requested Sol6.1 resumption on 3 October. Previous claim retained in dated handoff evidence; new remote claims precede manuscripts. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/blackburn-hodgson-last-match-2011-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
         },
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Blackburn Rovers 3–1 Liverpool",
         "opposition": "Blackburn Rovers",
@@ -23364,13 +23345,12 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/blackburn-hodgson-last-match-2011-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/blackburn-hodgson-last-match-2011-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23378,13 +23358,9 @@
       "event": "Manchester United 1–0 Liverpool",
       "historicalEventDate": "2011-01-09",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "479793e5-d636-4256-82c9-b57e9135912d",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/dalglish-return-old-trafford-2011.md",
       "originalDraftId": null,
@@ -23393,22 +23369,22 @@
       "notes": "Dalglish’s first match after returning ends in FA Cup defeat; early penalty and Gerrard dismissal. Original session confirmed stopped after usage-limit failure on 1 October; Denny requested Sol6.1 resumption on 3 October. Previous claim retained in dated handoff evidence; new remote claims precede manuscripts. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/dalglish-return-old-trafford-2011-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
         },
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Manchester United 1–0 Liverpool",
         "opposition": "Manchester United",
@@ -23419,13 +23395,12 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/dalglish-return-old-trafford-2011-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/dalglish-return-old-trafford-2011-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23433,13 +23408,9 @@
       "event": "Liverpool 2–0 Stoke City",
       "historicalEventDate": "2011-02-02",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "4e623fa0-221a-4068-9aeb-edfb1e25a79c",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/suarez-scoring-debut-stoke-2011.md",
       "originalDraftId": null,
@@ -23448,22 +23419,22 @@
       "notes": "Suárez scores on debut after Torres departure, a significant transition in attack. Original session confirmed stopped after usage-limit failure on 1 October; Denny requested Sol6.1 resumption on 3 October. Previous claim retained in dated handoff evidence; new remote claims precede manuscripts. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/suarez-scoring-debut-stoke-2011-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
         },
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–0 Stoke City",
         "opposition": "Stoke City",
@@ -23474,13 +23445,12 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/suarez-scoring-debut-stoke-2011-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/suarez-scoring-debut-stoke-2011-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23488,13 +23458,9 @@
       "event": "Chelsea 0–1 Liverpool",
       "historicalEventDate": "2011-02-06",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "42ab9e18-f3d2-4f65-8e48-04a66ff6e8d6",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/meireles-chelsea-torres-debut-2011.md",
       "originalDraftId": null,
@@ -23503,22 +23469,22 @@
       "notes": "Victory on Torres’s Chelsea debut; fourth successive league win under Dalglish. Original session confirmed stopped after usage-limit failure on 1 October; Denny requested Sol6.1 resumption on 3 October. Previous claim retained in dated handoff evidence; new remote claims precede manuscripts. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/meireles-chelsea-torres-debut-2011-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
         },
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Chelsea 0–1 Liverpool",
         "opposition": "Chelsea",
@@ -23529,13 +23495,12 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/meireles-chelsea-torres-debut-2011-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/meireles-chelsea-torres-debut-2011-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23543,13 +23508,9 @@
       "event": "Liverpool 3–1 Manchester United",
       "historicalEventDate": "2011-03-06",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "2942d441-ce93-4fd0-bef4-8c52baf0c727",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/kuyt-hat-trick-united-2011.md",
       "originalDraftId": null,
@@ -23558,22 +23519,22 @@
       "notes": "Kuyt hat-trick against league leaders; Suárez central to opening goal. Original session confirmed stopped after usage-limit failure on 1 October; Denny requested Sol6.1 resumption on 3 October. Previous claim retained in dated handoff evidence; new remote claims precede manuscripts. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/kuyt-hat-trick-united-2011-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
         },
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–1 Manchester United",
         "opposition": "Manchester United",
@@ -23584,13 +23545,12 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/kuyt-hat-trick-united-2011-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/kuyt-hat-trick-united-2011-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23598,13 +23558,9 @@
       "event": "Fulham 2–5 Liverpool",
       "historicalEventDate": "2011-05-09",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "9101f9d6-6595-42ed-9988-275c01be3cdc",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/maxi-fulham-five-goals-2011.md",
       "originalDraftId": null,
@@ -23613,22 +23569,22 @@
       "notes": "Maxi hat-trick and fifth place mark height of spring recovery. Original session confirmed stopped after usage-limit failure on 1 October; Denny requested Sol6.1 resumption on 3 October. Previous claim retained in dated handoff evidence; new remote claims precede manuscripts. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/maxi-fulham-five-goals-2011-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
         },
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Fulham 2–5 Liverpool",
         "opposition": "Fulham",
@@ -23639,13 +23595,12 @@
           "docs/editorial/drafts/match-production/2010-11/research/season-research.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/maxi-fulham-five-goals-2011-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/maxi-fulham-five-goals-2011-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23653,13 +23608,9 @@
       "event": "Chelsea 0–2 Liverpool",
       "historicalEventDate": "2011-11-29",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "3a2be4e9-d7b6-4532-90c0-cbc9a575a08d",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/bellamy-kelly-chelsea-cup-win-2011.md",
       "originalDraftId": null,
@@ -23668,17 +23619,22 @@
       "notes": "Away quarter-final win with two Bellamy assists and Kelly’s first Liverpool goal. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/bellamy-kelly-chelsea-cup-win-2011-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Chelsea 0–2 Liverpool",
         "opposition": "Chelsea",
@@ -23689,13 +23645,12 @@
           "docs/editorial/drafts/match-production/2011-12/research/season-research.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/bellamy-kelly-chelsea-cup-win-2011-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/bellamy-kelly-chelsea-cup-win-2011-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23703,13 +23658,9 @@
       "event": "Liverpool 2–2 Manchester City",
       "historicalEventDate": "2012-01-25",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "634018a0-28a8-429d-a095-00658e266551",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/bellamy-sends-liverpool-wembley-2012.md",
       "originalDraftId": null,
@@ -23718,17 +23669,22 @@
       "notes": "Bellamy equaliser seals 3–2 aggregate semi-final win and first Wembley visit since 1996. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/bellamy-sends-liverpool-wembley-2012-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–2 Manchester City",
         "opposition": "Manchester City",
@@ -23739,13 +23695,12 @@
           "docs/editorial/drafts/match-production/2011-12/research/season-research.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/bellamy-sends-liverpool-wembley-2012-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/bellamy-sends-liverpool-wembley-2012-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23753,13 +23708,9 @@
       "event": "Liverpool 2–1 Manchester United",
       "historicalEventDate": "2012-01-28",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "3040aa23-c406-4a0d-81f1-9842d9e3ce26",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/kuyt-late-united-fa-cup-winner-2012.md",
       "originalDraftId": null,
@@ -23768,17 +23719,22 @@
       "notes": "Late substitute goal wins major fourth-round tie. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/kuyt-late-united-fa-cup-winner-2012-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–1 Manchester United",
         "opposition": "Manchester United",
@@ -23789,13 +23745,12 @@
           "docs/editorial/drafts/match-production/2011-12/research/season-research.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/kuyt-late-united-fa-cup-winner-2012-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/kuyt-late-united-fa-cup-winner-2012-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23803,13 +23758,9 @@
       "event": "Liverpool 2–2 Cardiff City; Liverpool won 3–2 on penalties",
       "historicalEventDate": "2012-02-26",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "6d9d1a2f-24ea-454c-8115-bb50fc100a72",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/liverpool-cardiff-league-cup-final-2012.md",
       "originalDraftId": null,
@@ -23818,17 +23769,22 @@
       "notes": "First major trophy since 2006 after extra time and penalties. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/liverpool-cardiff-league-cup-final-2012-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–2 Cardiff City; Liverpool won 3–2 on penalties",
         "opposition": "Cardiff City",
@@ -23839,13 +23795,12 @@
           "docs/editorial/drafts/match-production/2011-12/research/season-research.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/liverpool-cardiff-league-cup-final-2012-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/liverpool-cardiff-league-cup-final-2012-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23853,13 +23808,9 @@
       "event": "Liverpool 3–0 Everton",
       "historicalEventDate": "2012-03-13",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "aa95c5c1-06cd-4e9e-83ec-c449712dc7b7",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/gerrard-derby-hat-trick-2012.md",
       "originalDraftId": null,
@@ -23868,17 +23819,22 @@
       "notes": "Captain’s hat-trick in his 400th Premier League appearance. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/gerrard-derby-hat-trick-2012-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–0 Everton",
         "opposition": "Everton",
@@ -23889,13 +23845,12 @@
           "docs/editorial/drafts/match-production/2011-12/research/season-research.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/gerrard-derby-hat-trick-2012-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/gerrard-derby-hat-trick-2012-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23903,13 +23858,9 @@
       "event": "Queens Park Rangers 3–2 Liverpool",
       "historicalEventDate": "2012-03-21",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "f49bd51b-b873-463b-8848-8a1825b98f38",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/qpr-three-late-goals-2012.md",
       "originalDraftId": null,
@@ -23918,17 +23869,22 @@
       "notes": "Two-goal lead lost late; a defining setback in poor league campaign. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/qpr-three-late-goals-2012-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Queens Park Rangers 3–2 Liverpool",
         "opposition": "Queens Park Rangers",
@@ -23939,13 +23895,12 @@
           "docs/editorial/drafts/match-production/2011-12/research/season-research.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/qpr-three-late-goals-2012-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/qpr-three-late-goals-2012-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -23953,32 +23908,33 @@
       "event": "Liverpool 2–1 Everton",
       "historicalEventDate": "2012-04-14",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "84f25426-7116-45eb-be57-2abc98115efa",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/carroll-wembley-derby-winner-2012.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "Comeback semi-final win sends Liverpool to second domestic final. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/carroll-wembley-derby-winner-2012-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–1 Everton",
         "opposition": "Everton",
@@ -23989,13 +23945,12 @@
           "docs/editorial/drafts/match-production/2011-12/research/season-research.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/carroll-wembley-derby-winner-2012-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/carroll-wembley-derby-winner-2012-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24003,32 +23958,33 @@
       "event": "Norwich City 0–3 Liverpool",
       "historicalEventDate": "2012-04-28",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "b69f4655-4d47-456c-a09f-046d66efd4e8",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/suarez-first-hat-trick-norwich-2012.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "Suárez’s first club hat-trick completed with exceptional long-range lob. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/suarez-first-hat-trick-norwich-2012-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Norwich City 0–3 Liverpool",
         "opposition": "Norwich City",
@@ -24039,13 +23995,12 @@
           "docs/editorial/drafts/match-production/2011-12/research/season-research.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/suarez-first-hat-trick-norwich-2012-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/suarez-first-hat-trick-norwich-2012-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24053,32 +24008,33 @@
       "event": "Chelsea 2–1 Liverpool",
       "historicalEventDate": "2012-05-05",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "8786f5a3-d8ac-48bb-8f11-2daf32302d85",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/carroll-rally-fa-cup-final-2012.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "Final defeat ends chance of domestic cup double despite Carroll-led recovery. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/carroll-rally-fa-cup-final-2012-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Chelsea 2–1 Liverpool",
         "opposition": "Chelsea",
@@ -24089,13 +24045,12 @@
           "docs/editorial/drafts/match-production/2011-12/research/season-research.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/carroll-rally-fa-cup-final-2012-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/carroll-rally-fa-cup-final-2012-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -30983,13 +30938,9 @@
       "event": "Liverpool 2–0 Chelsea: Torres scores twice against the champions",
       "historicalEventDate": "2010-11-07",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "a5de5cc6-910a-442e-a754-c3aa37758ddb",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/torres-chelsea-double-2010.md",
       "originalDraftId": null,
@@ -30998,16 +30949,21 @@
       "notes": "The leading defending champions are beaten by Torres’s first-half double, completing three successive league wins: the clearest league high point under Hodgson. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/torres-chelsea-double-2010-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–0 Chelsea",
         "opposition": "Chelsea",
@@ -31016,25 +30972,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/torres-chelsea-double-2010-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/torres-chelsea-double-2010-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2011-04-11-carroll-first-goals-city-2011",
       "event": "Liverpool 3–0 Manchester City: Carroll’s first goals help beat Manchester City",
       "historicalEventDate": "2011-04-11",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "b555854a-e4c3-4013-bbe5-34d1c352f2ff",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/carroll-first-goals-city-2011.md",
       "originalDraftId": null,
@@ -31043,16 +30997,21 @@
       "notes": "Carroll’s first Liverpool goals and Flanagan’s senior debut make this three-goal first half a distinct milestone in Dalglish’s rebuilding. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/carroll-first-goals-city-2011-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–0 Manchester City",
         "opposition": "Manchester City",
@@ -31061,25 +31020,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/carroll-first-goals-city-2011-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/carroll-first-goals-city-2011-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2011-04-17-kuyt-arsenal-late-penalty-2011",
       "event": "Arsenal 1–1 Liverpool: Kuyt’s late penalty answers Arsenal",
       "historicalEventDate": "2011-04-17",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "f7a1cf83-99cb-43ba-b2a6-0644fff24748",
-        "claimedAt": "2026-10-03T10:34:20.930988Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2010-11/kuyt-arsenal-late-penalty-2011.md",
       "originalDraftId": null,
@@ -31088,16 +31045,21 @@
       "notes": "Two penalties in added time produce an exceptional ending, with Liverpool using young full-backs after injuries. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2010-11/research/kuyt-arsenal-late-penalty-2011-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2010-11",
         "season": "2010-11",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Arsenal 1–1 Liverpool",
         "opposition": "Arsenal",
@@ -31106,25 +31068,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2010-11/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2010-11/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2010-11/research/kuyt-arsenal-late-penalty-2011-notes.md"
+          "docs/editorial/drafts/match-production/2010-11/research/kuyt-arsenal-late-penalty-2011-notes.md",
+          "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2011-08-20-suarez-arsenal-away-win-2011",
       "event": "Arsenal 0–2 Liverpool: Liverpool finally win at Arsenal",
       "historicalEventDate": "2011-08-20",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "cf5fac12-37ee-4514-aab9-3deb9589ade2",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/suarez-arsenal-away-win-2011.md",
       "originalDraftId": null,
@@ -31133,16 +31093,21 @@
       "notes": "First league win of the campaign and first away victory at Arsenal since 2000; substitutes help settle the game. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/suarez-arsenal-away-win-2011-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Arsenal 0–2 Liverpool",
         "opposition": "Arsenal",
@@ -31151,25 +31116,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/suarez-arsenal-away-win-2011-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/suarez-arsenal-away-win-2011-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2011-09-18-nine-man-liverpool-spurs-defeat-2011",
       "event": "Tottenham Hotspur 4–0 Liverpool: Nine-man Liverpool beaten heavily at Tottenham",
       "historicalEventDate": "2011-09-18",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "ac30a066-c246-471b-8878-13312e0df79e",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/nine-man-liverpool-spurs-defeat-2011.md",
       "originalDraftId": null,
@@ -31178,16 +31141,21 @@
       "notes": "Major early league setback: Adam and Skrtel dismissed, Agger injured, four goals conceded. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/nine-man-liverpool-spurs-defeat-2011-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Tottenham Hotspur 4–0 Liverpool",
         "opposition": "Tottenham Hotspur",
@@ -31196,25 +31164,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/nine-man-liverpool-spurs-defeat-2011-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/nine-man-liverpool-spurs-defeat-2011-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2011-10-01-carroll-suarez-goodison-derby-2011",
       "event": "Everton 0–2 Liverpool: Carroll and Suárez settle the Goodison derby",
       "historicalEventDate": "2011-10-01",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "638b5fa8-754c-4cd3-8cc5-5aff3a19ec09",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/carroll-suarez-goodison-derby-2011.md",
       "originalDraftId": null,
@@ -31223,16 +31189,21 @@
       "notes": "Meaningful away derby victory after Kuyt penalty save and controversial Rodwell dismissal later rescinded. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/carroll-suarez-goodison-derby-2011-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Everton 0–2 Liverpool",
         "opposition": "Everton",
@@ -31241,25 +31212,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/carroll-suarez-goodison-derby-2011-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/carroll-suarez-goodison-derby-2011-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2011-11-20-johnson-late-chelsea-winner-2011",
       "event": "Chelsea 1–2 Liverpool: Johnson returns to Chelsea with a late winner",
       "historicalEventDate": "2011-11-20",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "2f3eb82a-f890-407f-b301-8ab2e53e488c",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/johnson-late-chelsea-winner-2011.md",
       "originalDraftId": null,
@@ -31268,16 +31237,21 @@
       "notes": "Distinct late league winner by former Chelsea player; follows Maxi opener and Sturridge equaliser, preceding cup return nine days later. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/johnson-late-chelsea-winner-2011-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Chelsea 1–2 Liverpool",
         "opposition": "Chelsea",
@@ -31286,25 +31260,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/johnson-late-chelsea-winner-2011-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/johnson-late-chelsea-winner-2011-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2012-02-19-liverpool-brighton-six-fa-cup-2012",
       "event": "Liverpool 6–1 Brighton & Hove Albion: Liverpool hit six to reach the FA Cup quarter-finals",
       "historicalEventDate": "2012-02-19",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "8f7a1124-6be9-470b-b03e-05757fcfc1bf",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/liverpool-brighton-six-fa-cup-2012.md",
       "originalDraftId": null,
@@ -31313,16 +31285,21 @@
       "notes": "Unusual own-goal sequence and biggest win of campaign, reaching quarter-finals one week before League Cup final; fourth-goal attribution must be bounded. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/liverpool-brighton-six-fa-cup-2012-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 6–1 Brighton & Hove Albion",
         "opposition": "Brighton & Hove Albion",
@@ -31331,25 +31308,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/liverpool-brighton-six-fa-cup-2012-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/liverpool-brighton-six-fa-cup-2012-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2012-04-10-carroll-blackburn-jones-penalty-save-2012",
       "event": "Blackburn Rovers 2–3 Liverpool: Carroll wins a night of goalkeeper drama at Blackburn",
       "historicalEventDate": "2012-04-10",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "ab311fed-242c-42f8-9e53-5118707b959f",
-        "claimedAt": "2026-10-03T10:35:51.855889Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2011-12/carroll-blackburn-jones-penalty-save-2012.md",
       "originalDraftId": null,
@@ -31358,16 +31333,21 @@
       "notes": "Doni dismissal, Jones immediate penalty save, two-goal lead lost and injury-time Carroll winner; direct consequence for Wembley goalkeeper four days later. Denny commissioned Sol6.1 research and writing on3October2026, merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2011-12/research/carroll-blackburn-jones-penalty-save-2012-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2011-12",
         "season": "2011-12",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Blackburn Rovers 2–3 Liverpool",
         "opposition": "Blackburn Rovers",
@@ -31376,12 +31356,14 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2011-12/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2011-12/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2011-12/research/carroll-blackburn-jones-penalty-save-2012-notes.md"
+          "docs/editorial/drafts/match-production/2011-12/research/carroll-blackburn-jones-penalty-save-2012-notes.md",
+          "docs/editorial/drafts/match-production/2011-12/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     }
   ],
   "matchRecoveryGaps": [
@@ -31870,7 +31852,7 @@
     {
       "id": "remaining-2010-11",
       "season": "2010-11",
-      "stage": "drafting",
+      "stage": "checkpointed",
       "owner": "Archive editor / modern Sol continuation 2026-10-03",
       "model": "gpt-6.1-sol",
       "workerId": "/root/sol_1967_68",
@@ -31890,13 +31872,13 @@
         "match-2011-05-09-maxi-fulham-five-goals-2011"
       ],
       "reusedPaths": [],
-      "notes": "Finite unpublished production through 2024–25. Source-led selections, no quota; existing finished reports are reused.",
-      "nextStage": "Complete manuscripts, sentence audits, independent review and remote season checkpoint."
+      "notes": "12 complete reports by actual configured Sol6.1; independent reviewed file hashes verified. Unpublished stock opted into existing automatic History publisher; no manual approval, publication or schedule.",
+      "nextStage": null
     },
     {
       "id": "remaining-2011-12",
       "season": "2011-12",
-      "stage": "drafting",
+      "stage": "checkpointed",
       "owner": "Archive editor / modern Sol continuation 2026-10-03",
       "model": "gpt-6.1-sol",
       "workerId": "/root/sol_1968_69",
@@ -31919,8 +31901,8 @@
         "match-2012-05-05-carroll-rally-fa-cup-final-2012"
       ],
       "reusedPaths": [],
-      "notes": "Finite unpublished production through 2024–25. Source-led selections, no quota; existing finished reports are reused.",
-      "nextStage": "Complete manuscripts, sentence audits, independent review and remote season checkpoint."
+      "notes": "15 complete reports by actual configured Sol6.1; independent reviewed file hashes verified. Unpublished stock opted into existing automatic History publisher; no manual approval, publication or schedule.",
+      "nextStage": null
     },
     {
       "id": "remaining-2012-13",

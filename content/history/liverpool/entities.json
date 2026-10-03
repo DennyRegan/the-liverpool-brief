@@ -2978,5 +2978,20 @@
     "id": "emirates-stadium",
     "label": "Emirates Stadium",
     "kind": "location"
+  },
+  {
+    "id": "young-boys",
+    "label": "Young Boys",
+    "kind": "opposition"
+  },
+  {
+    "id": "stade-de-suisse",
+    "label": "Stade de Suisse",
+    "kind": "location"
+  },
+  {
+    "id": "boundary-park",
+    "label": "Boundary Park",
+    "kind": "location"
   }
 ]

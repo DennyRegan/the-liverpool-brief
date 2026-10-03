@@ -1,6 +1,6 @@
 # 2010–11: fresh Sol resumption research
 
-Configured model: `gpt-6.1-sol`. Actual worker: `/root/sol_1967_68`. Retrieval and drafting date: 3 October 2026. No manuscript was drafted before confirmed remote main claims. Current state: all twelve manuscripts and factual self-audits complete; independent review pending.
+Configured model: `gpt-6.1-sol`. Actual worker: `/root/sol_1967_68`. Retrieval and drafting date: 3 October 2026. No manuscript was drafted before confirmed remote main claims. Current state: all twelve manuscripts and factual self-audits complete; independent final review PASS.
 
 ## Preserved preparation
 
@@ -66,6 +66,8 @@ All twelve exact historical dates returned no completed public or retained draft
 - Current Sky Northampton, Blackburn and Stoke extractions are partial. Their unseen goal mechanisms are not fresh evidence; full match cores and appropriately scoped official/UEFA sources provide retained facts.
 
 ## Factual review state
+
+Final independent review confirmed 3 October 2026 by actual configured `gpt-6.1-sol` reviewer `/root/sol_factual_review`: all twelve complete bodies and audits independently read and PASS. The dated independent review file contains final full-file SHA-256 identities. No manuscript bytes changed after this confirmation; root owns the calendar/Git checkpoint.
 
 During drafting, freshly retrieved complete opposing-club City report: https://www.mancity.com/news/first-team/match-report/2011/april/liverpool-v-city, High confidence for observed match events, subjective language omitted. It corroborates Flanagan debut and the three goals and supplies the independently documented Hart/Suárez/post chance. Exact URL recorded in City own note and final source plan.
 

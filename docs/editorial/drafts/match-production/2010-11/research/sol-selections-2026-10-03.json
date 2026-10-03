@@ -298,14 +298,14 @@
     "duplicates": []
   },
   "limitations": [
-    "Finished manuscripts and factual self-audits complete; independent review and root calendar/Git checkpoint pending.",
+    "Finished manuscripts, factual self-audits and independent final review PASS; root calendar/Git checkpoint follows. Manuscript bytes held unchanged for recorded hashes.",
     "emirates-stadium was added by root before the main claim checkpoint, based on freshly retrieved LFChistory /games/5252.",
     "Unselected Utrecht home fixture date differs between whole-season registers; no report uses that disputed date."
   ],
   "currentState": {
     "manuscriptsComplete": 12,
     "factualSelfAudits": "PASS",
-    "independentReview": "PENDING",
+    "independentReview": "PASS",
     "manuscriptPaths": [
       "docs/editorial/drafts/match-production/2010-11/northampton-anfield-shootout-upset-2010.md",
       "docs/editorial/drafts/match-production/2010-11/goodison-defeat-new-ownership-2010.md",
@@ -319,6 +319,7 @@
       "docs/editorial/drafts/match-production/2010-11/carroll-first-goals-city-2011.md",
       "docs/editorial/drafts/match-production/2010-11/kuyt-arsenal-late-penalty-2011.md",
       "docs/editorial/drafts/match-production/2010-11/maxi-fulham-five-goals-2011.md"
-    ]
+    ],
+    "independentReviewFile": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
   }
 }

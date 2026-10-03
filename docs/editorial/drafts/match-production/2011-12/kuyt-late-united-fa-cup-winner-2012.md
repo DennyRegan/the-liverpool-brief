@@ -19,7 +19,7 @@ locationIds: ["anfield"]
 
 Dirk Kuyt’s late finish gave Liverpool a 2–1 victory over Manchester United in the FA Cup fourth round on 28 January 2012. The substitute decided an Anfield tie that had been level since Park Ji-sung answered Daniel Agger’s opening header.
 
-The win came three days after Liverpool had reached the League Cup final by eliminating Manchester City. Luis Suárez remained absent while serving an eight-match suspension. The FA Regulatory Commission had found that he used insulting words referring to Patrice Evra’s colour in the October league meeting; the sanction covered first-team competitive matches, not league games alone.
+The win came three days after Liverpool had reached the League Cup final by eliminating Manchester City. Luis Suárez remained absent while serving an eight-match suspension. The FA Regulatory Commission had found that he used insulting words referring to Patrice Evra’s colour in the October league meeting; the sanction covered first-team competitive matches.
 
 United threatened when Antonio Valencia struck the post in the first half, but Liverpool took the lead through a set-piece. Agger headed in Steven Gerrard’s corner, putting the hosts ahead before United replied through Park. Rafael supplied the ball for the midfielder to finish, and the sides went into half-time level.
 

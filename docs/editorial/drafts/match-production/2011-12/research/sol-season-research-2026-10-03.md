@@ -1,6 +1,6 @@
 # 2011–12 — refreshed Sol research and selection
 
-Researcher and intended writer: gpt-6.1-sol. Worker: /root/sol_1968_69. Fresh retrieval date: 3 October 2026. This record supplements the original Astra preparation; it does not replace its authorship, selection or omission record. No article body has been drafted. Root must confirm remote claims and the preceding season checkpoint before release.
+Researcher and intended writer: gpt-6.1-sol. Worker: /root/sol_1968_69. Fresh retrieval date: 3 October 2026. This record supplements the original Astra preparation; it does not replace its authorship, selection or omission record. Root confirmed all fifteen claims on GitHub main at 3561b8f14acb751c220d799a7fc632f86ab635af and released drafting on 3 October 2026. All fifteen manuscripts and own factual audits are saved. Independent final review passed on 3 October 2026, with full reviewed-file hashes in sol-independent-review-2026-10-03.md. Root owns the remote season checkpoint.
 
 ## Whole-season assessment
 
@@ -31,7 +31,7 @@ The fresh machine-readable manifest is sol-selections-2026-10-03.json. Each sele
 
 ## Duplicate and claim check
 
-Current origin/main and its history calendar were read before selection. All fifteen exact dates were searched in local public content and non-research manuscripts and across every fetched origin branch's public content and drafts. No completed report for a selected date was found. The original preparation is research, not an existing finished article. Root owns the claims, registry and all Git writes. Article drafting remains held.
+Current origin/main and its history calendar were read before selection. All fifteen exact dates were searched in local public content and non-research manuscripts and across every fetched origin branch's public content and drafts. No completed report for a selected date was found. The original preparation is research, not an existing finished article. Root owns the claims, registry and all Git writes. Drafting followed root’s confirmed main claim checkpoint; root retains ownership of the authoritative calendar and Git operations.
 
 ## Deliberate omissions and source limits
 

@@ -19,7 +19,7 @@ locationIds: ["stamford-bridge"]
 
 Liverpool won at Stamford Bridge for the second time in nine days on 29 November 2011, this time securing a League Cup semi-final place. Craig Bellamy created the goals for Maxi Rodríguez and Martin Kelly in a 2–0 quarter-final victory, with Kelly scoring for Liverpool’s senior side for the first time.
 
-The earlier visit had ended in a 2–1 Premier League win through Glen Johnson’s late goal. This return belonged to the cup campaign, which Liverpool had begun by eliminating Exeter City, Brighton & Hove Albion and Stoke City. Chelsea were the next obstacle on the route towards Wembley.
+The earlier visit had ended in a 2–1 Premier League win. This return belonged to the cup campaign, which Liverpool had begun by eliminating Exeter City, Brighton & Hove Albion and Stoke City. Chelsea were the next obstacle on the route towards Wembley.
 
 Liverpool had an opportunity to take the lead before half-time when Alex’s handball brought a penalty. Ross Turnbull saved Andy Carroll’s effort, and neither side had scored by the interval. The missed chance meant the tie still required a breakthrough rather than a defence of an existing lead.
 
