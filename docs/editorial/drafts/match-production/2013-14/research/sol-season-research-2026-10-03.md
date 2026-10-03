@@ -1,0 +1,36 @@
+# 2013–14 — fresh Sol season research
+
+Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Retrieval date: 3 October 2026. Original Astra `season-research.md`, `selection.json` and date-based notes remain unchanged and attributable. This supplement records fresh research; the shared calendar remains authoritative. No manuscript is drafted or approved here.
+
+## Whole-season assessment
+
+Liverpool finished second with 84 points, two behind Manchester City, after scoring 101 league goals and conceding 50. The final table gives 26 wins, six draws and six defeats. The complete competitive ledger contains 43 fixtures: 38 league games, two League Cup ties and three FA Cup ties. There was no European campaign. The domestic cup exits came at Manchester United in September and Arsenal in February.
+
+Three opening league wins were followed by uneven autumn results. Liverpool led at Christmas, then lost successive away games to Manchester City and Chelsea. No further league defeat occurred before Chelsea's Anfield win in April. The eleven successive league victories from Arsenal on 8 February through Norwich on 20 April took a top-four challenge into the championship contest. Chelsea ended that winning sequence; Palace recovered a three-goal deficit; City won their remaining fixtures to finish first. Neither the Palace draw nor an individual player's error should be presented as the single cause of the final outcome.
+
+The original thirteen selected games cover the opening goalkeeper milestone, both Manchester United league wins, both derbies, Suárez's Norwich four-goal performance, Tottenham away and the final title-race sequence. Fresh assessment proposes five further distinct stories: Stoke's eight-goal game and Sturridge's return; twice recovering at Fulham before Gerrard's stoppage-time penalty; the Arsenal FA Cup exit; Cardiff's nine-goal match with two deficits overcome; and the West Ham penalty double immediately before City. These proposed additions arise from the 3 October best-games commission without a quota, while the earlier Astra omission decisions remain preserved preparation. Root has been notified before claims. Final selection and detailed match notes remain in preparation.
+
+## Sources actually retrieved
+
+- https://www.lfchistory.net/season-archive/games/123 — High confidence for the complete competitive ledger, exact dates, opposition, scores, grounds and cup rounds. Read from the Stoke opener through Newcastle on the final day, including cup fixtures. Chronology does not prove unseen action or tactical intent.
+- https://www.lfchistory.net/season-archive/league-table/123 — High confidence for the complete final table. Supports second place, 84 points, 101–50 goals, Manchester City's 86 points and the home/away figures from which the league record is calculated.
+- https://www.liverpoolfc.com/news/first-team/163620-br-from-carnlough-to-champions-league — High confidence for the freshly retrieved May 2014 retrospective's 2013–14 passages: opening Sturridge sequence, both derbies, Norwich four, Tottenham five, Christmas lead, consecutive away defeats, eleven wins and final setbacks. Its celebratory or subjective language is not adopted as neutral fact. Earlier biographical sections are outside these reports.
+- https://www.premierleague.com/en/news/59027 — High confidence for the freshly retrieved competition review, including Suárez's 31 league goals, Gerrard's 13 assists, the winning sequence and final championship outcome. Contemporary records are dated to that season rather than presented as current records.
+
+## Newly retrieved addition leads
+
+- https://www.liverpoolfc.com/news/first-team/153056-sas-resume-act-to-seal-stoke-goalfest — High confidence for retrieved lead and scoring summary: 5–3 away win, Suárez double, Shawcross own goal, Crouch and Adam equalising before half-time, Gerrard penalty, Walters reply and returning Sturridge's late goal. The report's phrase about a maiden win requires the away venue and Premier League qualifier; Liverpool had previously beaten Stoke at Anfield.
+- https://www.liverpoolfc.com/news/first-team/155220-gerrard-spot-kick-sinks-fulham-at-last — High confidence for retrieved scoring summary and match identity: Touré own goal and Richardson gave Fulham separate leads; Sturridge and Coutinho equalised; Gerrard's late penalty followed Riether's challenge on Sturridge. Fuller individual action and independent corroboration remain to retrieve.
+- https://www.liverpoolfc.com/news/first-team/155482-arsenal-edge-reds-in-hard-fought-tie — High confidence for the full freshly retrieved club report: Oxlade-Chamberlain opener, Podolski goal, Gerrard penalty and Liverpool's fifth-round exit. Its assertions of deservedness or refereeing error are opinions, not a neutral verdict.
+- https://www.liverpoolfc.com/news/first-team/159613-suarez-hits-treble-in-six-goal-cardiff-rout — High confidence for retrieved lead and summary: 6–3 away win, two first-half deficits, Suárez treble, Skrtel double and Sturridge goal. Full later narrative still needs targeted retrieval before reconstructing action.
+- https://www.liverpoolfc.com/news/first-team/160643-gerrard-double-sends-reds-back-to-summit — High confidence for the complete retrieved account: ninth consecutive league win, Gerrard's two penalties, Demel's disputed equaliser, Lucas supplying Flanagan before the winning penalty, and Liverpool returning top. The report's clock description of the second penalty differs from other accounts; omit unnecessary precision until corroborated.
+- https://www.teamtalk.com/news/liverpool-return-to-summit — High confidence for the full contemporary independent West Ham report: both penalty awards, Demel equaliser and consultation between officials, Carroll header against the bar, and late Liverpool chances. Refereeing decisions can be described as awarded and disputed without newly adjudicating them.
+- https://www.skysports.com/football/arsenal-vs-liverpool/report/308080 — Freshly retrieved indexed text gives the FA Cup result, fifth-round identity and scorers. Medium confidence for this currently limited text scope; do not represent it as a full narrative retrieval.
+
+## Duplication and drafting gate
+
+All eighteen proposed exact dates were screened against current local public content and non-research manuscripts and public content/drafts in all 67 fetched origin refs. No completed exact-date article was found. The latest available origin/main calendar was read, including the enabled automatic History policy. Root owns remote reconciliation, claims, canonical additions and Git operations. No 2013–14 body may be drafted until its own claims are remotely confirmed on main. The released 2011–12 writing will take priority.
+
+## Outstanding work
+
+Refresh every original individual core source, retrieve supplementary independent action evidence where needed, finish canonical Sol companion notes and the fresh selection manifest, and report any required identities before claim. Bound the Palace scorer attribution to the current official record, check title arithmetic at each date, and keep Shankly's centenary observance distinct from his 2 September birth date. No final factual PASS is asserted by this research note.

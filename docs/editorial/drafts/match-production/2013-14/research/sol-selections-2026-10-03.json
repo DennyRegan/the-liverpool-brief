@@ -1,0 +1,451 @@
+{
+  "season": "2013-14",
+  "model": "gpt-6.1-sol",
+  "workerId": "/root/sol_1968_69",
+  "retrievedOn": "2026-10-03",
+  "preservedPriorManifest": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+  "draftingStatus": "Fresh research and selection only; no body drafted. Await root confirmation of all own claims on GitHub main. Previous2011–12remote checkpoint:e67a0a9c0b335dce860a66bd9e283d77ea5b4dba.",
+  "matches": [
+    {
+      "date": "2013-08-17",
+      "slug": "liverpool-stoke-2013-mignolet-debut-save",
+      "home": "Liverpool",
+      "away": "Stoke City",
+      "score": "1–0",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "premier-league",
+      "title": "Mignolet’s debut penalty save preserves Liverpool’s opening win",
+      "editorialReason": "Opening-day goalkeeper milestone and first winning league opener since 2008 establish the campaign.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/142805-one-victory-down-37-more-to-go",
+        "https://www.lfchistory.net/games/5380",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/liverpool-stoke-2013-mignolet-debut-save-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2013_2019."
+    },
+    {
+      "date": "2013-09-01",
+      "slug": "liverpool-manchester-united-2013-sturridge-shankly-centenary",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "score": "1–0",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "title": "Sturridge’s birthday winner keeps Liverpool perfect",
+      "editorialReason": "Third consecutive 1–0 league victory, against the champions, during the Shankly centenary observance.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/143991-birthday-boy-daniel-downs-united",
+        "https://www.lfchistory.net/games/5383",
+        "https://www.liverpoolfc.com/news/first-team/143981-free-video-kop-s-shankly-tribute",
+        "https://www.liverpoolfc.com/news/announcements/363222-bill-shankly-birthday-tribute",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/liverpool-manchester-united-2013-sturridge-shankly-centenary-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2013_2019."
+    },
+    {
+      "date": "2013-10-19",
+      "slug": "newcastle-liverpool-2013-gerrard-century",
+      "home": "Newcastle United",
+      "away": "Liverpool",
+      "score": "2–2",
+      "opposition": "Newcastle United",
+      "oppositionId": "newcastle-united",
+      "competitionId": "premier-league",
+      "title": "Gerrard reaches a Premier League century as Liverpool twice recover",
+      "editorialReason": "Gerrard’s 100 th Premier League goal accompanies two equalising responses against ten-man Newcastle.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/147371-stevie-and-sturridge-earn-reds-a-point",
+        "https://www.lfchistory.net/games/5388",
+        "https://www.liverpoolfc.com/news/first-team/147384-i-d-swap-my-100-for-two-more-points",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/newcastle-liverpool-2013-gerrard-century-notes.md",
+      "origin": "New Sol addition accepted by root after the 3 October best-games commission without a quota."
+    },
+    {
+      "date": "2013-11-23",
+      "slug": "everton-liverpool-2013-sturridge-six-goal-derby",
+      "home": "Everton",
+      "away": "Liverpool",
+      "score": "3–3",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "title": "Sturridge’s late header rescues a point in the six-goal derby",
+      "editorialReason": "Two Liverpool leads followed by Lukaku’s double and a late substitute equaliser make a distinct derby report.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/149722-sturridge-late-show-shares-derby-points",
+        "https://www.lfchistory.net/games/5392",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/everton-liverpool-2013-sturridge-six-goal-derby-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2013_2019."
+    },
+    {
+      "date": "2013-12-04",
+      "slug": "liverpool-norwich-2013-suarez-four-goals",
+      "home": "Liverpool",
+      "away": "Norwich City",
+      "score": "5–1",
+      "opposition": "Norwich City",
+      "oppositionId": "norwich-city",
+      "competitionId": "premier-league",
+      "title": "Suárez scores four as Liverpool beat Norwich",
+      "editorialReason": "Exceptional four-goal performance and third league hat-trick against the same opposition.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/150488-suarez-makes-history-with-norwich-haul",
+        "https://www.lfchistory.net/games/5394",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/liverpool-norwich-2013-suarez-four-goals-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2013_2019."
+    },
+    {
+      "date": "2013-12-15",
+      "slug": "tottenham-liverpool-2013-five-at-white-hart-lane",
+      "home": "Tottenham Hotspur",
+      "away": "Liverpool",
+      "score": "0–5",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "title": "Suárez leads Liverpool’s five-goal victory at Tottenham",
+      "editorialReason": "A major away performance, Suárez’s first Premier League captaincy and Flanagan’s first senior Liverpool goal.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/151279-five-star-liverpool-run-riot-at-the-lane",
+        "https://www.lfchistory.net/games/5396",
+        "https://www.liverpoolfc.com/news/first-team/151405-how-flanagan-marked-sensational-strike",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/tottenham-liverpool-2013-five-at-white-hart-lane-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2008_2013."
+    },
+    {
+      "date": "2014-01-12",
+      "slug": "stoke-liverpool-2014-sturridge-return-eight-goals",
+      "home": "Stoke City",
+      "away": "Liverpool",
+      "score": "3–5",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "premier-league",
+      "title": "Sturridge returns with an assist and goal in Stoke’s eight-goal game",
+      "editorialReason": "First Premier League away win at Stoke and a productive return from injury in an eight-goal contest.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/153056-sas-resume-act-to-seal-stoke-goalfest",
+        "https://www.lfchistory.net/games/5401",
+        "https://www.lfchistory.net/images/newspapers/riley/20140112vStoke.pdf",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/stoke-liverpool-2014-sturridge-return-eight-goals-notes.md",
+      "origin": "New Sol addition accepted by root after the 3 October best-games commission without a quota."
+    },
+    {
+      "date": "2014-01-28",
+      "slug": "liverpool-everton-2014-four-goal-derby",
+      "home": "Liverpool",
+      "away": "Everton",
+      "score": "4–0",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "title": "Sturridge’s double helps Liverpool win the Anfield derby by four",
+      "editorialReason": "First Rodgers derby victory and a substantial result in the top-four contest.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/154159-stunning-reds-sweep-four-past-everton",
+        "https://www.lfchistory.net/games/5403",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/liverpool-everton-2014-four-goal-derby-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2008_2013."
+    },
+    {
+      "date": "2014-02-08",
+      "slug": "liverpool-arsenal-2014-four-in-twenty-minutes",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "score": "5–1",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "title": "Liverpool score four in twenty minutes against Arsenal",
+      "editorialReason": "A four-goal opening against the league leaders begins eleven successive league wins.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/154907-relentless-reds-tear-apart-the-gunners",
+        "https://www.lfchistory.net/games/5405",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/liverpool-arsenal-2014-four-in-twenty-minutes-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2008_2013."
+    },
+    {
+      "date": "2014-02-12",
+      "slug": "fulham-liverpool-2014-gerrard-late-penalty",
+      "home": "Fulham",
+      "away": "Liverpool",
+      "score": "2–3",
+      "opposition": "Fulham",
+      "oppositionId": "fulham",
+      "competitionId": "premier-league",
+      "title": "Gerrard’s late penalty completes Liverpool’s second recovery at Fulham",
+      "editorialReason": "Two deficits overcome before a stoppage-time winner immediately after the Arsenal league victory.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/155220-gerrard-spot-kick-sinks-fulham-at-last",
+        "https://www.lfchistory.net/games/5406",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/fulham-liverpool-2014-gerrard-late-penalty-notes.md",
+      "origin": "New Sol addition accepted by root after the 3 October best-games commission without a quota."
+    },
+    {
+      "date": "2014-02-16",
+      "slug": "arsenal-liverpool-2014-fa-cup-exit",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "score": "2–1",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "fa-cup",
+      "title": "Arsenal end Liverpool’s FA Cup campaign",
+      "editorialReason": "Fifth-round defeat eight days after the reverse league result is the decisive domestic cup exit.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/155482-arsenal-edge-reds-in-hard-fought-tie",
+        "https://www.lfchistory.net/games/5423",
+        "https://www.liverpoolfc.com/news/first-team/155500-rodgers-we-have-raised-expectations",
+        "https://www.skysports.com/football/arsenal-vs-liverpool/report/308080",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/arsenal-liverpool-2014-fa-cup-exit-notes.md",
+      "origin": "New Sol addition accepted by root after the 3 October best-games commission without a quota."
+    },
+    {
+      "date": "2014-03-16",
+      "slug": "manchester-united-liverpool-2014-gerrard-penalties",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "score": "0–3",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "title": "Gerrard’s two penalties lead Liverpool to victory at Old Trafford",
+      "editorialReason": "A double over Manchester United, three awarded penalties and another major away win in the league run.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/293440-10-man-utd-0-3-liverpool-mar-16-2014",
+        "https://www.lfchistory.net/games/5410",
+        "https://www.thefa.com/news/2014/mar/16/steven-gerrard-scores-two-penalties-as-liverpool-defeat-manchester-united-160314",
+        "https://www.skysports.com/football/man-utd-vs-liverpool/287580",
+        "https://www.skysports.com/football/news/11669/9217286/premier-league-steven-gerrard-scores-two-penalties-as-liverpool-beat-man-utd-3-0",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/manchester-united-liverpool-2014-gerrard-penalties-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2007_08."
+    },
+    {
+      "date": "2014-03-22",
+      "slug": "cardiff-liverpool-2014-suarez-treble-nine-goals",
+      "home": "Cardiff City",
+      "away": "Liverpool",
+      "score": "3–6",
+      "opposition": "Cardiff City",
+      "oppositionId": "cardiff-city",
+      "competitionId": "premier-league",
+      "title": "Suárez’s treble settles Liverpool’s nine-goal game at Cardiff",
+      "editorialReason": "Two first-half deficits overcome, Skrtel’s double and Suárez’s sixth Liverpool hat-trick mark a distinct high-scoring away result.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/159613-suarez-hits-treble-in-six-goal-cardiff-rout",
+        "https://www.lfchistory.net/games/5411",
+        "https://www.liverpoolfc.com/news/first-team/159661-how-reds-smashed-pl-record-at-cardiff",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/cardiff-liverpool-2014-suarez-treble-nine-goals-notes.md",
+      "origin": "New Sol addition accepted by root after the 3 October best-games commission without a quota."
+    },
+    {
+      "date": "2014-04-06",
+      "slug": "west-ham-liverpool-2014-gerrard-penalty-double",
+      "home": "West Ham United",
+      "away": "Liverpool",
+      "score": "1–2",
+      "opposition": "West Ham United",
+      "oppositionId": "west-ham-united",
+      "competitionId": "premier-league",
+      "title": "Gerrard’s penalty double sends Liverpool back to the top",
+      "editorialReason": "Ninth consecutive league win and two disputed goal sequences before the direct City meeting.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/160643-gerrard-double-sends-reds-back-to-summit",
+        "https://www.lfchistory.net/games/5413",
+        "https://www.teamtalk.com/news/liverpool-return-to-summit",
+        "https://www.liverpoolfc.com/news/first-team/160654-boss-hails-stevie-sakho-and-skrtel",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/west-ham-liverpool-2014-gerrard-penalty-double-notes.md",
+      "origin": "New Sol addition accepted by root after the 3 October best-games commission without a quota."
+    },
+    {
+      "date": "2014-04-13",
+      "slug": "liverpool-manchester-city-2014-coutinho-title-race",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "score": "3–2",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "title": "Coutinho restores Liverpool’s lead to beat Manchester City",
+      "editorialReason": "A direct title-rival contest won after City erase Liverpool’s two-goal half-time advantage.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/161117-coutinho-settles-city-classic-for-reds",
+        "https://www.lfchistory.net/games/5414",
+        "https://www.uefa.com/news-media/news/0214-0f8a4e320c27-cd0b273a8b30-1000--liverpool-edge-thrilling-city-contest/",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/liverpool-manchester-city-2014-coutinho-title-race-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2007_08."
+    },
+    {
+      "date": "2014-04-20",
+      "slug": "norwich-liverpool-2014-eleven-wins-champions-league",
+      "home": "Norwich City",
+      "away": "Liverpool",
+      "score": "2–3",
+      "opposition": "Norwich City",
+      "oppositionId": "norwich-city",
+      "competitionId": "premier-league",
+      "title": "Sterling’s double takes Liverpool to eleven straight league wins",
+      "editorialReason": "Champions League return secured, Suárez reaches 30 league goals and the winning run reaches eleven.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/161549-reds-edge-by-norwich-to-move-five-clear",
+        "https://www.lfchistory.net/games/5415",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/norwich-liverpool-2014-eleven-wins-champions-league-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2007_08."
+    },
+    {
+      "date": "2014-04-27",
+      "slug": "liverpool-chelsea-2014-title-race-turns",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "score": "0–2",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "title": "Chelsea end Liverpool’s winning run at Anfield",
+      "editorialReason": "First league defeat of 2014 ends eleven straight league wins and changes control of the title race.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/162010-reds-run-halted-as-chelsea-snatch-win",
+        "https://www.lfchistory.net/games/5416",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/liverpool-chelsea-2014-title-race-turns-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_independent_review."
+    },
+    {
+      "date": "2014-05-05",
+      "slug": "crystal-palace-liverpool-2014-three-goal-lead-lost",
+      "home": "Crystal Palace",
+      "away": "Liverpool",
+      "score": "3–3",
+      "opposition": "Crystal Palace",
+      "oppositionId": "crystal-palace",
+      "competitionId": "premier-league",
+      "title": "Palace recover Liverpool’s three-goal lead in the closing minutes",
+      "editorialReason": "A late three-goal comeback damages the title challenge in Liverpool’s penultimate league fixture.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5417",
+        "https://www.cpfc.co.uk/news/match-reports/report-crystal-palace-3-3-liverpool/",
+        "https://www.uefa.com/news-media/news/0215-0f8fe9f816d4-19db44adedeb-1000--palace-prompt-liverpool-meltdown/",
+        "https://www.11v11.com/matches/crystal-palace-v-liverpool-05-may-2014-308439/",
+        "https://www.premierleague.com/en/news/3812575",
+        "https://www.skysports.com/football/crystal-palace-vs-liverpool/report/287649",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/crystal-palace-liverpool-2014-three-goal-lead-lost-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_independent_review."
+    },
+    {
+      "date": "2014-05-11",
+      "slug": "liverpool-newcastle-2014-title-challenge-finale",
+      "home": "Liverpool",
+      "away": "Newcastle United",
+      "score": "2–1",
+      "opposition": "Newcastle United",
+      "oppositionId": "newcastle-united",
+      "competitionId": "premier-league",
+      "title": "Liverpool recover against Newcastle to finish on 84 points",
+      "editorialReason": "Final-day recovery concludes the runners-up season as Manchester City win the championship.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/162732-reds-fight-back-to-seal-second-spot",
+        "https://www.lfchistory.net/games/5418",
+        "https://www.lfchistory.net/images/newspapers/riley/20140511vNewcastle.pdf",
+        "https://www.lfchistory.net/season-archive/games/123",
+        "https://www.lfchistory.net/season-archive/league-table/123"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2013-14/research/liverpool-newcastle-2014-title-challenge-finale-notes.md",
+      "origin": "Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_independent_review."
+    }
+  ],
+  "duplicateCheck": {
+    "checkedOn": "2026-10-03",
+    "originMain": "a66ea9b677823a16390c2815b9eaca50f65b35a4",
+    "fetchedOriginRefsRead": 67,
+    "exactDateCount": 19,
+    "remoteDuplicateHits": [],
+    "localDuplicateHits": []
+  },
+  "selectionChanges": [
+    {
+      "date": "2013-10-19",
+      "reason": "Gerrard’s100th Premier League goal accompanies two equalising responses against ten-man Newcastle."
+    },
+    {
+      "date": "2014-01-12",
+      "reason": "First Premier League away win at Stoke and a productive return from injury in an eight-goal contest."
+    },
+    {
+      "date": "2014-02-12",
+      "reason": "Two deficits overcome before a stoppage-time winner immediately after the Arsenal league victory."
+    },
+    {
+      "date": "2014-02-16",
+      "reason": "Fifth-round defeat eight days after the reverse league result is the decisive domestic cup exit."
+    },
+    {
+      "date": "2014-03-22",
+      "reason": "Two first-half deficits overcome, Skrtel’s double and Suárez’s sixth Liverpool hat-trick mark a distinct high-scoring away result."
+    },
+    {
+      "date": "2014-04-06",
+      "reason": "Ninth consecutive league win and two disputed goal sequences before the direct City meeting."
+    }
+  ],
+  "omissions": [
+    "Original Astra reasons remain preserved as the earlier preparation. The 3 October no-quota reassessment now selects Fulham, West Ham, Cardiff, Stoke away, the Arsenal FA Cup exit and Newcastle away because each has its own substantive result, comeback or milestone.",
+    "West Brom 4–1 includes another Suárez hat-trick; Norwich’s four-goal milestone and Cardiff’s two-deficit nine-goal contest provide stronger separate stories. The West Brom result remains available as chronology rather than a further selected report.",
+    "Christmas away defeats at Manchester City and Chelsea are retained as verified turning-point context for the return title-rival fixtures, rather than selected simply because of the opponent. The pair explains the Christmas lead giving way to fourth place.",
+    "Notts County’s extra-time League Cup win and the Manchester United third-round exit, plus Oldham and Bournemouth FA Cup wins, were assessed in the full 43-game ledger. The Arsenal fifth-round defeat supplies the decisive domestic-cup endpoint; the other ties lack a stronger distinct season milestone than the 19 selected games.",
+    "The 3–2 home Swansea game, the 4–0 home Tottenham win and routine high-scoring home fixtures remain part of the eleven league wins; selected Fulham, West Ham, Cardiff, Arsenal, City and Norwich retain the varied contest and its outcome without selecting every victory."
+  ],
+  "requiredCanonicalAdditions": []
+}

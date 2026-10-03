@@ -1048,6 +1048,13 @@
       "retrievedBy": "/root/sol_1967_68",
       "scope": "Venue of selected Oldham–Liverpool match on 27 January 2013",
       "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "carrow-road",
+      "source": "https://www.lfchistory.net/games/5331",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Venue of selected Norwich–Liverpool match on 29 September 2012",
+      "model": "gpt-6.1-sol"
     }
   ]
 }
