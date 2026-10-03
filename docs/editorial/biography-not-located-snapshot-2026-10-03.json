@@ -54,7 +54,7 @@
       "notes": "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/biographies/Terry-McDermott-recovered-research-record.md",
+          "location": "docs/editorial/drafts/biographies/Terry-McDermott-research-record.md",
           "confidence": "high",
           "scope": "Recovery inventory only. No manuscript recreated."
         }
@@ -64,7 +64,7 @@
         "completed": false,
         "reviewRequired": true,
         "sourceFiles": [
-          "docs/editorial/drafts/biographies/Terry-McDermott-recovered-research-record.md"
+          "docs/editorial/drafts/biographies/Terry-McDermott-research-record.md"
         ],
         "duplicateResolution": "No full career article found in main, drafts or remote branch filename inventories.",
         "blockers": [
