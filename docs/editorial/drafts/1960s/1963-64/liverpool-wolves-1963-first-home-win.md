@@ -31,8 +31,8 @@ The result supplied Liverpool’s first home points of the season. It did not re
 
 ## Sources
 
-- [LFChistory](https://www.lfchistory.net/games/194)
-- [LFChistory](https://www.lfchistory.net/season-archive/games/5)
-- [RSSSF](https://www.rsssf.org/engpaul/FLA/1963-64.html)
+- [LFChistory: match record](https://www.lfchistory.net/games/194)
+- [LFChistory: 1963–64 season results](https://www.lfchistory.net/season-archive/games/5)
+- [RSSSF: 1963–64 final league tables](https://www.rsssf.org/engpaul/FLA/1963-64.html)
 - [Wolves Heroes: Finlayson’s final appearance](https://www.wolvesheroes.com/keepers-painful-farewell/)
 - [11v11: match record](https://www.11v11.com/matches/liverpool-v-wolverhampton-wanderers-16-september-1963-77550/)

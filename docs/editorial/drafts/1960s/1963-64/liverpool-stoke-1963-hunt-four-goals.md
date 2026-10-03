@@ -31,9 +31,9 @@ Liverpool finished the day third, with 32 points from 23 matches. They remained 
 
 ## Sources
 
-- [LFChistory](https://www.lfchistory.net/games/209)
-- [LFChistory](https://www.lfchistory.net/season-archive/games/5)
-- [RSSSF](https://www.rsssf.org/engpaul/FLA/1963-64.html)
-- [The Times archive](https://www.thetimes.co.uk/article/boxing-day-1963-football-66-goals-the-times-archive-5gc53ffjb)
+- [LFChistory: match record](https://www.lfchistory.net/games/209)
+- [LFChistory: 1963–64 season results](https://www.lfchistory.net/season-archive/games/5)
+- [RSSSF: 1963–64 final league tables](https://www.rsssf.org/engpaul/FLA/1963-64.html)
+- [The Times: Boxing Day 1963 contemporary report](https://www.thetimes.co.uk/article/boxing-day-1963-football-66-goals-the-times-archive-5gc53ffjb)
 - [11v11: match record](https://www.11v11.com/matches/liverpool-v-stoke-city-26-december-1963-77730/)
 - [LFChistory: season scorers](https://www.lfchistory.net/season-archive/goalscorers/5)

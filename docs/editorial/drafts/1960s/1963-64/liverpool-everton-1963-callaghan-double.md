@@ -31,8 +31,8 @@ Liverpool had lost 3–0 at Sheffield United the previous weekend. This victory 
 
 ## Sources
 
-- [LFChistory](https://www.lfchistory.net/games/196)
-- [LFChistory](https://www.lfchistory.net/season-archive/games/5)
-- [RSSSF](https://www.rsssf.org/engpaul/FLA/1963-64.html)
+- [LFChistory: match record](https://www.lfchistory.net/games/196)
+- [LFChistory: 1963–64 season results](https://www.lfchistory.net/season-archive/games/5)
+- [RSSSF: 1963–64 final league tables](https://www.rsssf.org/engpaul/FLA/1963-64.html)
 - [Liverpool Echo and Daily Post, transcribed by Blue Correspondent](https://www.bluecorrespondent.co.uk/1963-64/september1963.html)
 - [11v11: match record](https://www.11v11.com/matches/liverpool-v-everton-28-september-1963-77571/)

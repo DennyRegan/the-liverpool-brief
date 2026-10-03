@@ -31,9 +31,9 @@ Two further wins completed the decisive run. Liverpool won 3–0 at Burnley, the
 
 ## Sources
 
-- [LFChistory](https://www.lfchistory.net/games/228)
-- [LFChistory](https://www.lfchistory.net/season-archive/games/5)
-- [RSSSF](https://www.rsssf.org/engpaul/FLA/1963-64.html)
+- [LFChistory: match record](https://www.lfchistory.net/games/228)
+- [LFChistory: 1963–64 season results](https://www.lfchistory.net/season-archive/games/5)
+- [RSSSF: 1963–64 final league tables](https://www.rsssf.org/engpaul/FLA/1963-64.html)
 - [11v11: season results](https://www.11v11.com/teams/liverpool/tab/matches/season/1964/)
 - [LFChistory: season scorers](https://www.lfchistory.net/season-archive/goalscorers/5)
 - [LFChistory: season appearances](https://www.lfchistory.net/season-archive/appearances/5)

@@ -31,8 +31,8 @@ The sequence would reach seven successive league victories and finish with the t
 
 ## Sources
 
-- [LFChistory](https://www.lfchistory.net/games/225)
-- [LFChistory](https://www.lfchistory.net/season-archive/games/5)
-- [RSSSF](https://www.rsssf.org/engpaul/FLA/1963-64.html)
+- [LFChistory: match record](https://www.lfchistory.net/games/225)
+- [LFChistory: 1963–64 season results](https://www.lfchistory.net/season-archive/games/5)
+- [RSSSF: 1963–64 final league tables](https://www.rsssf.org/engpaul/FLA/1963-64.html)
 - [11v11: match record](https://www.11v11.com/matches/tottenham-hotspur-v-liverpool-27-march-1964-77857/)
 - [LFChistory: previous Easter defeat](https://www.lfchistory.net/games/177)

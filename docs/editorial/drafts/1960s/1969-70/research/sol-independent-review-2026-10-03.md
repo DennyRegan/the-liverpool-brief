@@ -4,7 +4,7 @@ Reviewer: `/root/sol_factual_review`. Actual configured model: `gpt-6.1-sol`. In
 
 ## Review state
 
-PENDING — whole-season sources and all thirteen selected match cores independently retrieved; all thirteen fresh Sol pre-writing notes and the resumption ledger have been read. The first three completed bodies and their final audits have been read; Chelsea corrections are pending and ten completed bodies are still awaited.
+PENDING — whole-season sources and all thirteen selected match cores independently retrieved; all thirteen fresh Sol pre-writing notes and the resumption ledger have been read. The first six completed bodies and their final audits have been read; Chelsea corrections have been rechecked and seven completed bodies are still awaited.
 
 ## Independently retrieved sources
 
@@ -87,11 +87,23 @@ All thirteen fresh `<slug>-sol-resumption-notes.md` files and `sol-research-resu
 
 First completed batch: every sentence, frontmatter, footer and completed companion audit was actually read. The source presentation was compared with the published Leicester 1974 and West Ham 1977 reports: one terminal titled Markdown list, source-array URL order matching exactly, readable provider/scope labels and no internal material after the list. Every footer URL occurs in that report’s own completed audit. Historical dates and relationship values correspond to the selected events; no publication date. All three pass these source-format checks.
 
-- Chelsea: PENDING correction. Paragraph 5 incorrectly gives the Tottenham away win as 2–1 instead of 2–0 and locates the Burnley 3–3 at Burnley instead of Anfield. Both corrections requested together with audit S12/S13; independently checked in both season registers. Rest of the body passes.
+- Chelsea: factual PASS after rereading the corrected complete body and completed audit. The Tottenham away result is now 2–0 and the Burnley 3–3 is correctly at Anfield; redundant recap removed. Eleven-goal total remains correct.
 - Dundalk: factual PASS. Seven scorers, three doubles, goals, gastritis absence, Lindsay forward role, attributed Houllier/Bergues recollection and aggregate route checked. Full-file SHA-256: `26a7f3205aefd0d723ac0ae4408d80090e05026624ae9153a8f2b287a73ae353`.
 - City: factual PASS. Debut/substitution sequence, attributed clearance and pressure, earlier league results and eventual cup winners checked; contested Doyle minute and attendance omitted. Full-file SHA-256: `bbf8112b26d76f4ec42cea0b1d9ec8df8d75771b5848f0fd195d7d0de52fb240`.
 
-These are progress findings only; final hashes will be refreshed for the complete thirteen-file set after all corrections.
+Second completed batch and corrected Chelsea body/audit also read in full. West Brom: debut fee/date, Smith captain, Yeats absent, twice cancelled deficits and late Hunt equaliser checked; precise uncorroborated injury-time clock omitted. Derby: goal sequence, promoted champions, reconstructed table and final season order checked. Setúbal: half-time changes, 3–3 aggregate/away goals, Hunt last goal and Peplow’s third/final appearance checked without retrospective confusion claims. All six pass source format and companion-note coverage; remaining seven are pending.
+
+Current reviewed full-file hashes (to be refreshed at final thirteen-report verdict):
+
+| Manuscript | SHA-256 |
+| --- | --- |
+| derby-liverpool-1969-four-goal-defeat.md | `3c19a25fd2d56e040fc49ecf20b4fed6fb7b07a717565f642d02caec624bb65a` |
+| liverpool-chelsea-1969-st-john-double.md | `3df2e90149c226775427444042b763e3e2f85651d52652e28d4c49e5bc048968` |
+| liverpool-dundalk-1969-ten-goals.md | `26a7f3205aefd0d723ac0ae4408d80090e05026624ae9153a8f2b287a73ae353` |
+| liverpool-vitoria-setubal-1969-away-goals-exit.md | `04ea4e67860878dded68635169be0602c5caba33aac5a3810c9eaa8005634058` |
+| manchester-city-liverpool-1969-league-cup-exit.md | `bbf8112b26d76f4ec42cea0b1d9ec8df8d75771b5848f0fd195d7d0de52fb240` |
+| west-bromwich-liverpool-1969-lloyd-debut.md | `20d6c8cbc057b1cf1980d5f0fe3f4d30cc52c06f278dca13b446520a42e0ab76` |
+
 
 ## Verdict
 

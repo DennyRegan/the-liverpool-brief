@@ -31,10 +31,10 @@ Thompson had begun a season in which he would play every league and FA Cup match
 
 ## Sources
 
-- [LFChistory](https://www.lfchistory.net/games/187)
-- [LFChistory](https://www.lfchistory.net/season-archive/games/5)
-- [RSSSF](https://www.rsssf.org/engpaul/FLA/1963-64.html)
+- [LFChistory: match record](https://www.lfchistory.net/games/187)
+- [LFChistory: 1963–64 season results](https://www.lfchistory.net/season-archive/games/5)
+- [RSSSF: 1963–64 final league tables](https://www.rsssf.org/engpaul/FLA/1963-64.html)
 - [Liverpool Echo / Horace Yates via LFChistory](https://www.lfchistory.net/articles/2959)
-- [Liverpool FC](https://www.liverpoolfc.com/info/peter-thompson)
+- [Liverpool FC: Peter Thompson career profile](https://www.liverpoolfc.com/info/peter-thompson)
 - [11v11: match record](https://www.11v11.com/matches/blackburn-rovers-v-liverpool-24-august-1963-77474/)
 - [LFChistory: transfers](https://www.lfchistory.net/season-archive/transfers/5)
