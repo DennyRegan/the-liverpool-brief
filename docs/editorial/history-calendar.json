@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T11:21:57.988808Z",
+  "updatedAt": "2026-10-03T12:43:14.651279Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -24066,7 +24066,7 @@
         "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2012-13/anfield-hillsborough-tribute-united-2012.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24116,7 +24116,7 @@
         "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2012-13/suarez-norwich-rodgers-first-league-win-2012.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24166,7 +24166,7 @@
         "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2012-13/oldham-fa-cup-defeat-2013.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24216,7 +24216,7 @@
         "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2012-13/suarez-zenit-comeback-falls-short-2013.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24266,7 +24266,7 @@
         "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2012-13/suarez-chelsea-equaliser-ban-2013.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24316,7 +24316,7 @@
         "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2012-13/six-at-newcastle-without-suarez-2013.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31518,7 +31518,7 @@
         "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2012-13/shelvey-young-boys-eight-goals-2012.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31563,7 +31563,7 @@
         "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2012-13/gerrard-tottenham-comeback-2013.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
