@@ -1,6 +1,6 @@
 # Tottenham Hotspur 0–0 Liverpool: fresh Sol research notes
 
-Historical event: 2015-10-17. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: prewriting research complete, manuscript and final claim audit pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
+Historical event: 2015-10-17. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: finished manuscript and factual self-audit complete; independent review pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
 
 ## Selection and metadata checked
 
@@ -33,5 +33,14 @@ At main `07c42fe993b59037812634863c36368b43c9303a`, this exact date was freshly 
 
 ## Final manuscript audit
 
-Pending a finished body after root's remote claim release. Independent final-body review and final-file hashing are also pending. This note is not a permission to publish, schedule or dispatch the existing publisher.
+Root confirmed the unique claim on GitHub main at `0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470` and released drafting on 3 October 2026. Actual researcher and writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Original preparation remains attributable and unchanged.
 
+- Paragraph 1: The official Liverpool report explicitly calls this Klopp’s opening match and the season ledger corroborates it; the record and Tottenham written account confirm the 0–0 result.
+- Paragraph 2: The Liverpool account supplies the three absent strikers, Origi’s start and the tenth-minute Milner/Can corner sequence. Tottenham independently confirms the header against the bar.
+- Paragraph 3: The Liverpool action text supports Lallana’s saved shot, Njié’s first-time attempt from Kane’s pass, Kane’s saved shot and Sakho’s block of Alli. No atmosphere or tactical intentions are inferred.
+- Paragraph 4: The complete Liverpool report records Walker’s held shot, Origi’s narrow-angle effort and the later Eriksen/Kane opportunity stopped by Sakho and Mignolet. The opponent’s written account corroborates the important saves.
+- Paragraph 5: The club records Can narrowly wide late on. The 0–0 result supports the point and clean sheet without relying on unresolved temporary league rankings.
+
+The title and excerpt restate the audited central result or landmark. Metadata uses the exact historical date, 2015–16 season, factual match classification, registered manager and principal-player/opposition/competition IDs. There is no publication date. Every terminal Sources URL appears in this report’s actually retrieved register, and the metadata array matches that ordered footer exactly. The single Sources section ends the article. No quotation, imagined intent, action from unwatched footage, unsupported atmosphere or fresh adjudication of a disputed decision is asserted.
+
+Self-audit: PASS for the saved body, subject to independent factual review and final-file hashing. This is not authority to publish or schedule.

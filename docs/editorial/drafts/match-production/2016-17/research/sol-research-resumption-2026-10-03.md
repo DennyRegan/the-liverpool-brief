@@ -31,3 +31,9 @@ Canonical checks: all required principal existing IDs checked; root added `bet36
 
 Research self-check: PASS within recorded scopes; full manuscript audits and independent final hashes remain PENDING. Root’s remote main release must precede bodies.
 
+
+## Manuscript completion update — 3 October 2026
+
+All twelve new manuscripts are now saved with complete sentence-level factual self-audits by actual configured `gpt-6.1-sol`, worker `/root/sol_1967_68`. Root released drafting only after confirming the twelve unique writing claims on remote main `df190b6e4a2432ae4b9b249700035de1c185fcab`; each save refreshed own-claim, exact-date duplicate and registered identity checks. This dated update supersedes earlier pre-writing pending status while preserving the preparation record.
+
+All twelve reports pass final frontmatter/footer URL-order parity, exactly one terminal Sources section, own-note evidence coverage and no publication-date checks. The existing published Henderson Chelsea report retains SHA-256 `93e3883ba6617f1ea4d85a864e2b9527f1a0a66dad29e13f1e64f595a4db957d`. The independent reviewer requested clarification of Southampton's aggregate deficit; body and S7 audit now specify an aggregate equaliser. Independent final body review and final hashes remain PENDING; no claim of final independent approval is made here. Root owns final calendar completion and GitHub merge.

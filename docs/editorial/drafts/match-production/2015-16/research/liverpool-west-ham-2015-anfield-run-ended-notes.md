@@ -1,6 +1,6 @@
 # Liverpool 0–3 West Ham United: fresh Sol research notes
 
-Historical event: 2015-08-29. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: prewriting research complete, manuscript and final claim audit pending. This is a fresh substantive addition accepted by root under the user's 3 October no-quota commission; no older preparation is relabelled as Sol work.
+Historical event: 2015-08-29. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: finished manuscript and factual self-audit complete; independent review pending. This is a fresh substantive addition accepted by root under the user's 3 October no-quota commission; no older preparation is relabelled as Sol work.
 
 ## Selection and metadata checked
 
@@ -32,5 +32,14 @@ At main `07c42fe993b59037812634863c36368b43c9303a`, this exact date was freshly 
 
 ## Final manuscript audit
 
-Pending a finished body after root's remote claim release. Independent final-body review and final-file hashing are also pending. This note is not a permission to publish, schedule or dispatch the existing publisher.
+Root confirmed the unique claim on GitHub main at `0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470` and released drafting on 3 October 2026. Actual researcher and writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Original preparation remains attributable and unchanged.
 
+- Paragraph 1: The individual record and club report verify the exact date, 0–3 score, three scorers and first league defeat; the season ledger corroborates the opening sequence.
+- Paragraph 2: The ledger establishes two wins and a draw with three clean sheets. The full club account supplies Lanzini’s third-minute goal from Cresswell and Firmino’s shot against the outside of the post.
+- Paragraph 3: The individual record gives Noble’s goal at 29; the club describes Lanzini dispossessing Lovren and the cross reaching Noble for the placed finish.
+- Paragraph 4: The club account confirms Moreno’s half-time introduction, Coutinho’s second booking against Payet and Ings’s debut, including Milner’s wide attempt. The disputed clock is left broad.
+- Paragraph 5: The club and record corroborate both dismissals and Sakho’s added-time goal. The official report explicitly dates West Ham’s previous Anfield win to September 1963. No judgement on Noble’s later appeal is added.
+
+The title and excerpt restate the audited central result or landmark. Metadata uses the exact historical date, 2015–16 season, factual match classification, registered manager and principal-player/opposition/competition IDs. There is no publication date. Every terminal Sources URL appears in this report’s actually retrieved register, and the metadata array matches that ordered footer exactly. The single Sources section ends the article. No quotation, imagined intent, action from unwatched footage, unsupported atmosphere or fresh adjudication of a disputed decision is asserted.
+
+Self-audit: PASS for the saved body, subject to independent factual review and final-file hashing. This is not authority to publish or schedule.

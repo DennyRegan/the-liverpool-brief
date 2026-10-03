@@ -1,6 +1,6 @@
 # 2016-11-06: Liverpool 6–1 Watford — fresh Sol source note
 
-Status: PRE-WRITING RESEARCH COMPLETE. No manuscript body or factual completion PASS yet; remote main claim and independent precheck are still required.
+Status: MANUSCRIPT COMPLETE. Sentence-level factual self-audit PASS; independent final body review PENDING.
 
 Fresh research on 3 October 2026 by actual configured model `gpt-6.1-sol`, worker `/root/sol_1967_68`. This supplements the preserved original Astra preparation dated 1 October; it does not overwrite or falsely adopt that retrieval provenance.
 
@@ -32,3 +32,30 @@ The original date-based source note remains preserved where one exists. Suppleme
 
 PASS for date/result/opposition/competition identity, meaningful selection and available bounded action evidence. This is a research pass only. Current manuscript sentence-by-sentence audit: PENDING; independent final body review: PENDING. Before saving a body refresh the exact-date screen and verify root-confirmed own actual remote claim. Use exactly one terminal `## Sources` section and a frontmatter `sources` array with identical URL order; no private confidence or audit text in the report.
 
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2016-17/liverpool-watford-2016-six-goals-top-of-table.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated audit supersedes all earlier pre-writing pending state while preserving preparation provenance. Independent final manuscript review is PENDING. Root confirmed twelve actual main claims before drafting; current main was fetched and the writing claim, worker/token, duplicate dates and canonical IDs were checked immediately before saving.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5563
+- 2: https://www.liverpoolfc.com/news/first-team/242238-reds-go-top-of-premier-league-with-win-over-watford
+- 3: https://www.lfchistory.net/season-archive/games/126
+
+Every S row covers a complete body sentence in reading order and all its material claims.
+
+| Sentence | Complete sentence | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Liverpool moved to the top of the Premier League with a 6–1 win over Watford at Anfield on 6 November 2016. | source 1, source 2 | High — PASS: Date/result/venue and top spot verified. |
+| S2 | Sadio Mané scored twice as Jürgen Klopp’s side extended their unbeaten league run to nine matches. | source 1, source 2 | High — PASS: Brace and league-only nine run explicitly confirmed. |
+| S3 | Mané opened the scoring with a header from a short-corner routine involving Philippe Coutinho and James Milner. | source 1, source 2 | High — PASS: 27-minute near-post header/action supported. |
+| S4 | Coutinho quickly added a second with a shot from outside the area, and Emre Can headed in Adam Lallana’s cross before half-time. | source 1, source 2 | High — PASS: 30/43-minute goals/actions and sequence confirmed. |
+| S5 | Lallana supplied Liverpool’s fourth after the interval, breaking into the left channel and crossing for Roberto Firmino to finish from close range. | source 1, source 2 | High — PASS: 57-minute fourth and action supported. |
+| S6 | Firmino then turned provider for Mané’s second, leaving Liverpool five goals ahead by the hour. | source 1, source 2 | High — PASS: 60-minute fifth/assist confirmed. |
+| S7 | Loris Karius made saves from Étienne Capoue and Miguel Britos, but Daryl Janmaat denied Liverpool a clean sheet with a curling finish after exchanging passes with Nordin Amrabat. | source 2 | High — PASS: Exposed second-half stops/consolation mechanism verified. |
+| S8 | Substitute Daniel Sturridge twice struck the crossbar before Georginio Wijnaldum completed the scoring from a rebound in added time. | source 1, source 2 | High — PASS: Crossbars and90+1 final goal verified. |
+| S9 | It was Wijnaldum’s first competitive Liverpool goal. | source 1 | High — PASS: Core first-goal milestone confirmed. |
+| S10 | Liverpool entered the international break with 26 points from eleven league games, one ahead of Chelsea. | source 1, source 2 | High — PASS: Dated match table and primary one-point lead. |
+| S11 | The victory established the autumn high point of a campaign that would ultimately bring a fourth-place finish. | source 3 | High — PASS: Bounded editorial connection from top spot to final position, not causal title turning-point claim. |
+
+Title, excerpt, event date, result and canonical metadata checked against these retrieved scopes. Single terminal Sources list and exact metadata URL order checked; every URL is recorded above with actual retrieval/limitations. Original Astra preparation is unchanged. No publication date, manual release, invented action, tactics, motives or quotes. Recorded source conflicts remain broadly bounded or omitted.

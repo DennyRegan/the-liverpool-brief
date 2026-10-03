@@ -1,6 +1,6 @@
 # Liverpool 4–0 Everton: fresh Sol research notes
 
-Historical event: 2016-04-20. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: prewriting research complete, manuscript and final claim audit pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
+Historical event: 2016-04-20. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: finished manuscript and factual self-audit complete; independent review pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
 
 ## Selection and metadata checked
 
@@ -32,5 +32,14 @@ At main `07c42fe993b59037812634863c36368b43c9303a`, this exact date was freshly 
 
 ## Final manuscript audit
 
-Pending a finished body after root's remote claim release. Independent final-body review and final-file hashing are also pending. This note is not a permission to publish, schedule or dispatch the existing publisher.
+Root confirmed the unique claim on GitHub main at `0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470` and released drafting on 3 October 2026. Actual researcher and writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Original preparation remains attributable and unchanged.
 
+- Paragraph 1: The core, club and season ledger establish the exact date, 4–0 score and all four scorers. The October away derby was under Rodgers, supporting the carefully qualified first home Klopp derby.
+- Paragraph 2: The complete club first-half text supports Lallana’s save and wide header, Mirallas’s attempts, Sakho’s Lukaku intervention and the Stones/Robles denial of Firmino. No fresh refereeing judgement is made.
+- Paragraph 3: The core gives Origi at 43 and Sakho before the interval; the official account supplies both Milner crosses and the corner recycled before the second. The half-time score is 2–0.
+- Paragraph 4: The individual record and club account verify Funes Mori’s dismissal, Origi’s injury and Sturridge’s introduction. The official report explicitly calls Sturridge’s goal his 50th, describing Lucas’s interception/diagonal and low finish; broad timing avoids 60/61 notation.
+- Paragraph 5: The core credits Coutinho at 76 and the club supplies Allen’s pass. The unresolved Sturridge nick is not asserted. The retrieved ledger verifies the preceding Stoke/Dortmund/Bournemouth victories and all-competition qualifier.
+
+The title and excerpt restate the audited central result or landmark. Metadata uses the exact historical date, 2015–16 season, factual match classification, registered manager and principal-player/opposition/competition IDs. There is no publication date. Every terminal Sources URL appears in this report’s actually retrieved register, and the metadata array matches that ordered footer exactly. The single Sources section ends the article. No quotation, imagined intent, action from unwatched footage, unsupported atmosphere or fresh adjudication of a disputed decision is asserted.
+
+Self-audit: PASS for the saved body, subject to independent factual review and final-file hashing. This is not authority to publish or schedule.

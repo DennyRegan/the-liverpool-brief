@@ -1,6 +1,6 @@
 # Manchester United 1–1 Liverpool: fresh Sol research notes
 
-Historical event: 2016-03-17. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: prewriting research complete, manuscript and final claim audit pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
+Historical event: 2016-03-17. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: finished manuscript and factual self-audit complete; independent review pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
 
 ## Selection and metadata checked
 
@@ -33,5 +33,14 @@ At main `07c42fe993b59037812634863c36368b43c9303a`, this exact date was freshly 
 
 ## Final manuscript audit
 
-Pending a finished body after root's remote claim release. Independent final-body review and final-file hashing are also pending. This note is not a permission to publish, schedule or dispatch the existing publisher.
+Root confirmed the unique claim on GitHub main at `0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470` and released drafting on 3 October 2026. Actual researcher and writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Original preparation remains attributable and unchanged.
 
+- Paragraph 1: The core, full club account and UEFA report establish the exact date, 1–1 result, 3–1 aggregate and quarter-final progression. The draw is not misreported as a match victory.
+- Paragraph 2: The club supports the Lingard/Mignolet save, Coutinho/De Gea save and Martial’s awarded penalty after Clyne’s challenge; the core gives 32 minutes. The Lingard clock discrepancy is avoided.
+- Paragraph 3: The complete club account supplies the Sturridge crossbar, Henderson miss, Rojo chance and Coutinho beating Varela/chipping De Gea in first-half added time. The conflicting initial ball supplier is omitted.
+- Paragraph 4: The first-leg 2–0 and 1–1 away-goal situation support United needing three additional goals under the applicable rule, corroborated by UEFA. The club supports Fellaini’s saved header and both substitutions.
+- Paragraph 5: The full official ending gives both later Coutinho saves from Can’s backheel and the edge of the area. The recorded score and no further goals support the final aggregate outcome without invented crowd reaction.
+
+The title and excerpt restate the audited central result or landmark. Metadata uses the exact historical date, 2015–16 season, factual match classification, registered manager and principal-player/opposition/competition IDs. There is no publication date. Every terminal Sources URL appears in this report’s actually retrieved register, and the metadata array matches that ordered footer exactly. The single Sources section ends the article. No quotation, imagined intent, action from unwatched footage, unsupported atmosphere or fresh adjudication of a disputed decision is asserted.
+
+Self-audit: PASS for the saved body, subject to independent factual review and final-file hashing. This is not authority to publish or schedule.

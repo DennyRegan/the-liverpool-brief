@@ -1,6 +1,6 @@
 # Liverpool 4–3 Borussia Dortmund: fresh Sol research notes
 
-Historical event: 2016-04-14. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: prewriting research complete, manuscript and final claim audit pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
+Historical event: 2016-04-14. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: finished manuscript and factual self-audit complete; independent review pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
 
 ## Selection and metadata checked
 
@@ -33,5 +33,14 @@ At main `07c42fe993b59037812634863c36368b43c9303a`, this exact date was freshly 
 
 ## Final manuscript audit
 
-Pending a finished body after root's remote claim release. Independent final-body review and final-file hashing are also pending. This note is not a permission to publish, schedule or dispatch the existing publisher.
+Root confirmed the unique claim on GitHub main at `0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470` and released drafting on 3 October 2026. Actual researcher and writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Original preparation remains attributable and unchanged.
 
+- Paragraph 1: The exact date, 4–3 second-leg score and 5–4 aggregate are verified by the core, club and UEFA retrospective. The recorded sequence shows two separate two-goal deficits.
+- Paragraph 2: The ledger and UEFA support the first-leg draw; the club supplies Mkhitaryan’s rebound after Aubameyang’s saved shot and Reus’s pass for Aubameyang. The fifth/ninth-minute goals are in the core. Liverpool needing three follows the recorded aggregate and away-goal situation.
+- Paragraph 3: The core and full club account verify Origi’s early second-half goal from Can and Reus at 57 from Hummels. With Dortmund then leading 4–2 on aggregate and three away goals, Liverpool required three further goals to progress.
+- Paragraph 4: The club supports both substitutions, Coutinho’s Milner exchange/finish and Sakho’s header from Coutinho’s corner. At 4–4 aggregate Dortmund’s three away goals exceeded Liverpool’s one, corroborated by UEFA’s narrative.
+- Paragraph 5: The core gives Lovren at 90+1; the club and UEFA support Milner’s late cross and Lovren’s header. The final aggregate establishes semi-final progression without invented atmosphere or quotations.
+
+The title and excerpt restate the audited central result or landmark. Metadata uses the exact historical date, 2015–16 season, factual match classification, registered manager and principal-player/opposition/competition IDs. There is no publication date. Every terminal Sources URL appears in this report’s actually retrieved register, and the metadata array matches that ordered footer exactly. The single Sources section ends the article. No quotation, imagined intent, action from unwatched footage, unsupported atmosphere or fresh adjudication of a disputed decision is asserted.
+
+Self-audit: PASS for the saved body, subject to independent factual review and final-file hashing. This is not authority to publish or schedule.

@@ -1,6 +1,6 @@
 # 2015–16 independent Sol source baseline
 
-Actual configured reviewer: `gpt-6.1-sol`, worker `/root/sol_factual_review`; actual retrieval date3October2026. Original Astra season preparation was read and preserved. This is fresh season-level research only; no final bodies or self-audits have been read and no manuscript approval is implied. Root retains calendar/claims/Git authority.
+Actual configured reviewer: `gpt-6.1-sol`, worker `/root/sol_factual_review`; actual retrieval date3October2026. Original Astra season preparation was read and preserved. All24 completed current manuscripts and own audits have now actually been read, corrections rechecked and final full-file hashes recorded. Earlier chronological pending statements below describe preparation stages; the final verdict governs the current files. Root retains calendar/claims/Git authority.
 
 ## Actually retrieved source scopes
 
@@ -86,6 +86,152 @@ The final Sol whole-season ledger and all twenty-four canonical source-scope/pre
 
 The new notes correctly bound the two different Klopp first-win milestones, temporary table snapshots, Norwich Henderson supplier, United pre-penalty passer and Old Trafford delivery, Villarreal opening touch, Everton fourth-goal nick, Sevilla supplier/clock, Southampton typo, Palace awarded penalty and the failed RTÉ page excluded from footer. Optional unregistered incidental players/grounds are not invented tags. No video is claimed viewed. Further independent retrieval of the eleven additions and supplementary reaction/opponent URLs will be completed before final actual body approval; this preparation finding does not claim that those upcoming manuscripts or every new source have passed a final truth audit. No 2015–16 body exists yet. Final source layout, dates/entities, complete claim audits and full-file hashes remain pending.
 
+## First fresh-added cores and narratives independently retrieved
+
+Actual independent access and complete relevant reads on 3 October 2026, High within recorded scope; preparation only.
+
+- https://www.lfchistory.net/games/5510 — Britannia9August0–1,0–0half-time, Coutinho86/Gomezassist, Can63/Firmino78 introductions. Explicit Clyne/Milner/Firmino/Benteke/Gomez competitive debuts; first four start, Firmino substitutes. Temporary fifth3/1 table not an end-of-round assurance. Earlier full club action is separately recorded above.
+- https://www.lfchistory.net/games/5508 — Anfield29August0–3,0–2half-time; Lanzini3/Noble29/Sakho90rounded,Coutinho53red/Noble78red, Ings61 competitive debut. Temporary sixth7/4 and WestHam seventh6/4 table read; ambiguous snapshot is bounded. No appeal result inferred.
+- https://www.liverpoolfc.com/news/first-team/192900-reds-beaten-by-hammers-at-anfield — Full relevant club narrative independently read: first Anfield WestHam win sinceSeptember1963,270previous clean-sheet minutes, Cresswell/Lanzini opener, Firmino post, Lovren/Lanzini/Noble second, Coutinho’s second booking for Payet challenge, Ings debut and Noble dismissal after challenge on Ings, Sakho added-time third. Exact Coutinho52 versus core53 stays broad; no later appeal verdict.
+- https://www.lfchistory.net/games/5517 — OldTrafford12September3–1,0–0half-time; Blind49/Herrera70penalty/Benteke83/Martial86, Origi73 first appearance. Complete sides/substitutions and temporary ninth7/5 versus United second10/5 table read.
+- https://www.liverpoolfc.com/news/first-team/193701-reds-suffer-disappointment-at-old-trafford — Full relevant narrative independently read: second successive league defeat, Ings first start, Mata free-kick/Blind opener, Gomez/Herrera awarded penalty, DeGea Ings/Ibe saves, Benteke overhead after Ibe cross, Martial late third. Core83 versus club six minutes left is bounded. Martial’s debut not inferred from this shorter source.
+- https://www.lfchistory.net/games/5535 — Anfield28OctoberLeagueCupfourthround1–0,1–0half-time,Clyne17 first goal, Randall debut; Touré captain/injury replacement33, Brannagan65/Firmino86 withdrawals. Earlier independently read full club action supplies rebound/clearance rather than inferred mechanics. Klopp first competitive victory separately established by whole-season chronology.
+
+Seven additional selected cores, further new narratives and relevant supplements remain to retrieve independently before final body approval. No upcoming manuscript verdict or file hash is asserted.
+
+## Remaining added cores independently retrieved
+
+On 3 October 2026 all seven remaining added cores and their complete exposed relevant identity, sides, notes and timeline were independently retrieved and actually read. High within record scope; every one of the twenty-four selected cores is now covered. No body approval is implied.
+
+- https://www.lfchistory.net/games/5496 — Leicester, Anfield26December,1–0/0–0half-time; Benteke63/Firmino assist, Origi38 injury substitution, late Lucas/Allen substitutions. Liverpool eighth27from18, Leicester leaders38from18/second defeat. Leicester goals-for/difference cells appear corrupt and are excluded.
+- https://www.lfchistory.net/games/5490 — Arsenal, Anfield13January,3–3/2–2half-time; Firmino9/19, Ramsey14, Giroud25/55, Allen90/Benteke assist; Benteke65, Allen81, Caulker87 competitive debut. Ninth31from21 versus leaders43from21; clock9 versus club ten elapsed stays bounded.
+- https://www.lfchistory.net/games/5544 — WestHam, UptonPark9February fourth-round replay,2–1home after extra time/1–0half-time; Antonio45, Coutinho48 direct free kick, Ogbonna120. Lucas captain, Sturridge/Origi59 and Milner101 substitutes. No shootout occurred.
+- https://www.lfchistory.net/games/5525 — VillaPark14February,0–6/0–2half-time; Sturridge15, Milner24 free kick, Can58, Origi62, Clyne65, Touré71 first Liverpool goal. Origi61/Stewart66/Benteke73 substitutes. Six different scorers; eighth38from26 versus bottom Villa16from26.
+- https://www.lfchistory.net/games/5497 — City, Anfield2March,3–0/2–0half-time; Lallana34, Milner41, Firmino57; full substitutions/assist register read. Liverpool eighth41from27, City fourth47from27, three days after drawn Wembley match/shootout loss.
+- https://www.lfchistory.net/games/5518 — Palace, SelhurstPark6March,1–2/0–0half-time; Ledley48, Milner61 red, Firmino72, Benteke90+6 penalty; Coutinho61/Benteke79/Touré88. Liverpool seventh44from28 at snapshot, not an end-season claim.
+- https://www.lfchistory.net/games/5520 — Southampton, StMary’s20March,3–2/0–2half-time; Coutinho17/Sturridge22, Mané49 penalty saved, Mané64/Pellè83/Mané86; Flanagan captain, Škrtel halftime/Benteke70/Ojo87. Ninth44from29 against seventh47from31. Full action separately covered above.
+
+## Remaining added contemporary club action retrieved
+
+The complete relevant contemporary prose for each source below was independently retrieved and actually read on 3 October 2026. High within descriptive action scope; reported emotions, intent, tactical causation and unseen video are excluded.
+
+- https://www.liverpoolfc.com/news/first-team/201440-benteke-secures-reds-win-over-league-leaders-leicester — Benteke first-time Firmino delivery, Origi injury withdrawal before interval, Mahrez/Mignolet and Dyer/Mignolet saves, late Benteke attempt blocked by Morgan with Schmeichel forward. Leicester second league defeat; first Liverpool December league win. Injury clock differs rounded core and remains broad.
+- https://www.liverpoolfc.com/news/first-team/203016-allen-strikes-late-to-secure-point-in-six-goal-arsenal-thriller — Can effort parried/Firmino opener, Campbell/Ramsey, Milner/Firmino long shot, Ramsey corner/Giroud, Firmino first-half crossbar, Giroud turn after interval, Benteke knockdown/Allen late equaliser; Caulker introduced late and used forward. Complete final paragraphs read; no exact new injury diagnosis.
+- https://www.liverpoolfc.com/news/first-team/206735-report-reds-suffer-late-fa-cup-exit-at-west-ham — Antonio volley before break, Coutinho low awarded Benteke free kick, O’Brien/Coutinho/Payet woodwork, Benteke extra-time chances saved or wide, Sturridge late wide, Payet/Ogbonna final extra-time header. Eight minutes added at90; no invented Klopp interval instruction.
+- https://www.liverpoolfc.com/news/first-team/207200-report-reds-run-riot-at-villa-park-with-emphatic-win — Coutinho/Sturridge header, untouched Milner free kick, Firmino/Can edge-box goal, Coutinho/Origi37seconds after introduction, Clyne loose ball scramble, Touré first goal corner header. First Sturridge league start under Klopp; nine changes versus WestHam. Broad opening clock avoids club16/core15 distinction.
+- https://www.liverpoolfc.com/news/first-team/209705-report-reds-bounce-back-with-emphatic-man-city-victory — Lallana low left-foot goal, Lallana backheel/Firmino pass/Milner left-foot second, Lallana/Firmino third; Flanagan tackle, Milner goal-line block, Hart save and Touré intervention. Five starting changes from Wembley. Reporter fatigue causation is excluded.
+- https://www.liverpoolfc.com/news/first-team/210313-report-late-benteke-penalty-sees-10-man-reds-beat-palace — Adebayor crossbar, Ledley after corner scramble, Milner second yellow following Zaha challenge, McCarthy miskick/Firmino, Moreno post, awarded Delaney/Benteke penalty. No referee-correctness or contact certainty inferred. Third successive league win chronology separately matches season ledger.
+
+Supplementary reaction/opponent-source checks and final actual manuscript/audit/hash review remain pending. The parent confirms all twenty-four claims merged at main0bc0598 and writer release; this research note does not change claims or publication state.
+
+## Supplementary sources independently retrieved
+
+Fresh independent retrieval and complete relevant written accounts actually read on 3 October 2026; High within each bounded scope, no video observation or quotations adopted.
+
+- https://www.liverpoolfc.com/news/first-team/191030-rodgers-i-m-glad-i-kept-philippe-on — Rodgers explicitly described considering replacing Coutinho with Ings before the Stoke winner. Four starters plus substitute Firmino competitive debuts and eleven weeks since6–1 are corroborated; manager thoughts require attribution, not invented intent.
+- https://www.liverpoolfc.com/news/first-team/196916-klopp-really-satisfied-by-lfc-s-cup-progress — Bournemouth first senior starts for Brannagan/Randall/Teixeira, Clyne rebound, first victory and progress to Southampton quarter-final. Quoted training/system/emotion claims excluded from unattributed narrative.
+- https://www.tottenhamhotspur.com/news/1043089/spurs-0-0-liverpool-match-gallery — Actual written opponent summary read, not gallery/video claimed observed: Origi crossbar; Mignolet saves Njie/Kane, Sakho subsequent Alli block; later Kane save. Written sides/referee/attendance covered. Ibe87 versus core86 stays broad.
+- https://www.mancity.com/news/first-team/match-report/2015/november/city-v-liverpool-21-november-pl — Complete opponent narrative independently read: early own-goal lead, Firmino/Coutinho, Coutinho/Firmino third, Agüero reply, Hart second-half saves and Škrtel fourth. The opening sentence appears to lose text between cross and Hart; Mangala identity must come from core/LFC. Referee-foul interpretation excluded. City clock82 versus core81 stays broad; contemporary record-Etihad claim is provider/time scoped.
+- https://www.thefa.com/news/2015/dec/02/daniel-sturridge-jordan-ibe-score-liverpool-southampton — Complete relevant FA match prose read on a second open after navigation-heavy truncation: Bertrand/Mané early header, Allen/Sturridge low finish, Can/Sturridge volley, Moreno/Origi first, Ibe and Origi later long-range/header goals, Stoke semi-final draw. Precise Ibe72 versus core73 stays broad; injury-duration claims need careful own-note scope.
+- https://www.uefa.com/news-media/news/022a-0e9381bcca08-20b936d2e65f-1000--caballero-stars-as-manchester-city-lift-league-cup/ — Complete contemporary account:1–1afterextra time, Caballero saves Lucas/Coutinho/Lallana, Fernandinho miss, Navas/Agüero/Touré scores; Fernandinho opener, Lallana post/Coutinho equaliser. Fourth City LeagueCup title as of2016, not a current count.
+- https://www.liverpoolfc.com/news/first-team/210987-report-brilliant-reds-earn-two-goal-lead-in-united-tie — Full first-leg narrative: Depay/Clyne penalty with Firmino pass (versus UEFA Coutinho), Sturridge spot kick, DeGea saves Coutinho/Sturridge/Lallana; Henderson delivery/Lallana/Firmino second. Second-half Coutinho half-volley save is separate from first-half close-range save. No pre-penalty supplier silently chosen.
+- https://www.liverpoolfc.com/news/first-team/212082-report-coutinho-stunner-helps-reds-see-off-united-at-old-trafford — Full return narrative: Martial/Clyne awarded penalty, Sturridge free-kick bar, Coutinho beat Varela/chipped DeGea beforeinterval. Club Milner delivery differs core Canassist; omit disputed supplier. United required three further goals after1–1 due Liverpool awaygoal/3–1aggregate; Mignolet/DeGea later saves read.
+
+All twenty-four cores, principal narratives and final-manifest supplementary written sources now have actual independent relevant retrieval coverage (season ledgers and final statistics were recorded earlier). Final verdict remains pending until every saved manuscript, completed companion audit and current full-file hash has been reviewed. No body existed at this completion point.
+
+## First completed manuscripts actually reviewed
+
+The complete title, excerpt, metadata, body, terminal Sources list and finished own companion audit were actually read for the four initially saved reports on 3 October 2026. The current three files below pass independent factual review; the Stoke opener remains pending an ending correction. Whole-season verdict remains PENDING.
+
+- WestHam29August: independently re-read full official action confirms all three goals, Firmino post, halftime Moreno, Coutinho second booking against Payet, Ings debut/Milner attempt, Noble dismissal and first Anfield victory sinceSeptember1963. Individual core and ledger corroborate exact date, identity, seven opening points/three clean sheets and first defeat. No appeal verdict or disputed exact red clock adopted.
+- United12September: independently re-read complete official account confirms Ings first start/Coutinho suspended, goalless half, Mata/Blind goal, Ings volley/DeGea save, Blind interventions, Gomez/Herrera awarded penalty, Ibe/Benteke overhead and Martial reply. Core/ledger verify83clock and second successive league defeat. No unsupported debut, motives or medical claims.
+- Tottenham17October: independently re-read complete official narrative and earlier opponent written account confirm Origi start/absent three strikers, Milner/Can/header crossbar, Lallana save, Kane/Njié save, Kane/Alli/Sakho block, Walker/Origi chances, late Eriksen/Kane interventions and Can wide. Date/first competitive Klopp match/clean sheet and draw verified by core/ledger. No temporary table rank, imagined pressing instruction or gallery/video observation.
+
+For each of these three, British prose and the published archive format pass: one terminal descriptive linked-bullet Sources section; exact ordered frontmatter parity and own-note URL retrieval coverage; exact manifest historical date, slug/season, canonical person/opposition/competition kinds, no publication date. No material unsupported fact or source conflict adopted.
+
+| Actually reviewed current manuscript | Full-file SHA-256 | Scope verdict |
+| --- | --- | --- |
+| liverpool-west-ham-2015-anfield-run-ended.md | `3271aaae46fe687f375ee0dc5ba38d1f5ba67ccb255ed6f48f33bb5234380a7d` | PASS for current complete file |
+| manchester-united-liverpool-2015-benteke-overhead-goal.md | `d33af3a1e2e6cc6ff36a3b444bab724d675c7834e16e555f18e90ff6a1470647` | PASS for current complete file |
+| tottenham-liverpool-2015-klopp-first-match.md | `3a34335c85ae325b0b6d7881850e4de636d3d9ad9a11f7bab1eb34f937f17858` | PASS for current complete file |
+
+Stoke correction status: factual body core/action and source layout checked, but repetitive ending was replaced at reviewer request; the new ending introduces an unsupported attributed positional plan ('another attacker alongside Benteke'). Requested removing that phrase and updating own P5 audit. This current file is not yet hashed or passed. Reaction191030 independently retrieved supports considered Ings-for-Coutinho substitution only; full reread follows saved fix.
+
+## Corrected first batch and subsequent completed manuscripts
+
+The corrected Stoke body and completed P5 audit have now both been actually re-read; the unsupported positional clause is absent from both. The complete next four manuscripts and finished own paragraph audits have also actually been read and checked against the independent core, primary narrative and supplementary retrievals recorded above. Stoke’s five debuts and attributed substitution consideration; Bournemouth’s four preceding draws/first competitive win; Chelsea’s first league win/reigning champions; City’s first Firmino goal and goal sequence; Southampton’s first Origi goals/hat-trick and Sturridge return all pass. Each current file passes British prose, published archive format, one terminal descriptive linked-bullet Sources section, exact frontmatter/footer URL order, actual own-note URL coverage, exact historical date/slug/season and canonical entity kinds; no publication date or invented action/motives. Full-season verdict remains PENDING.
+
+| Actually reviewed current manuscript | Full-file SHA-256 | Scope verdict |
+| --- | --- | --- |
+| stoke-liverpool-2015-coutinho-opening-winner.md | `52ff57b605592ae36fecb475a7f67eba825df00819e5483710c8d4fe96ae0cb3` | PASS for current complete file |
+| liverpool-bournemouth-2015-klopp-first-win.md | `cc16a2048e220bf8e241f677ed46fb78762b63f571f99ee8006409b5034b3db0` | PASS for current complete file |
+| chelsea-liverpool-2015-klopp-first-league-win.md | `aea4f929b33b72e9b9517894e9b2f80f51b80167b6b15630720e4e649941c539` | PASS for current complete file |
+| manchester-city-liverpool-2015-four-at-the-etihad.md | `aca227c8218e930c6fe5c8737891d72b82201cbcbc05ddde7260f4725a211d4e` | PASS for current complete file |
+| southampton-liverpool-2015-origi-hat-trick.md | `9cec3b03113dbefb6934eb819d2c3394742ef4e360055c000894bbe317b2eb74` | PASS for current complete file |
+
+## Subsequent completed batch independently reviewed
+
+Complete manuscripts, titles/excerpts and final own audits actually read. The full relevant official narratives were independently reread, including the Stoke final extra-time/shoot-out paragraphs. Leicester late counter/save sequence and later title qualification, Arsenal all six goals/Caulker forward role, Norwich all nine goals/broad disputed timings and omitted Henderson supplier, and Stoke match/aggregate/shoot-out distinction/order all pass against the recorded individual cores and ledgers. Each file passes published-format comparison, British prose, descriptive source labels, one terminal linked-bullet footer, exact ordered source metadata parity, own-note actual retrieval coverage, historical date/slug/season and canonical entity kinds; no publication date. Full-season verdict remains PENDING.
+
+| Actually reviewed current manuscript | Full-file SHA-256 | Scope verdict |
+| --- | --- | --- |
+| liverpool-leicester-2015-benteke-boxing-day-winner.md | `de02ac662b88826c893f6c57bc88ae2a26ae4502c9ee5b7709095b4fce22bc83` | PASS for current complete file |
+| liverpool-arsenal-2016-allen-late-equaliser.md | `173abc27b53c0557826bd1990284b373b19f967c8702ef5f85664639630dab5d` | PASS for current complete file |
+| norwich-liverpool-2016-lallana-nine-goal-winner.md | `1a19a6bd474e8b2704f845f4560c73d1b635e703569982543a4853ce9f87c188` | PASS for current complete file |
+| liverpool-stoke-2016-penalties-wembley.md | `879cc6e8aebea7d5722fdc377f92b8419105e3798095861be187cdfd66c69431` | PASS for current complete file |
+
+## Final completed review and correction rechecks
+
+All24 full titles/excerpts, metadata, manuscript bodies and finished own audits were actually read. The corrected Stoke body/P5 excludes an unsupported positional plan; the Wembley final explicitly qualifies Klopp’s first final as Liverpool manager; Palace excludes McCarthy’s unscoped slip while retaining the directly supported miskick. All corrected complete bodies and final own audits were actually re-read after save. The February28-to-March2 gap is three days in leap-year2016, correcting the reviewer’s earlier baseline wording.
+
+The remaining reports pass against actual independently retrieved primary/core/ledger scope already recorded:
+
+- WestHam replay: Coutinho return/team/captain, three first-half woodworks, equalising awarded free-kick, extra-time chances and final Ogbonna header; no imagined interval instruction.
+- Villa: six distinct scorers, Sturridge first league start under Klopp, Toure first goal, every chance and ordered second-half goals; opening15/16 discrepancy remains bounded.
+- City final: match1–1 versus City3–1shoot-out, all eight kicks with Fernandinho post distinct from Caballero saves; keeper saves/collision/extra-time chronology verified.
+- City league return: all three goals/intervening chances, three-day gap and Premier League double from ledger/statistics; no inferred fatigue cause.
+- Palace: first-half saves/woodwork, Ledley/Milner/Firmino/substitute sequence, miskick/late chances and awarded penalty, without contact adjudication.
+- United first European meeting: competition/first leg, all saves/penalty/73-minute second, return seven days later; conflicting initial supplier omitted.
+- OldTrafford return: draw1–1/aggregate3–1, first-half chip and United needing three more, all substitutions/later saves; no disputed initial supplier or match-victory claim.
+- Southampton: captain/suspension and first-half chances, Skrtel halftime/awarded penalty/saved Mané kick, Benteke chance and83/86reversal; no typo adopted or sole-cause claim.
+- Dortmund: all seven goals, two separate two-goal deficits, substitutions and exact aggregate/away-goal arithmetic; retrospective UEFA source accurately labelled, no invented quotations.
+- Everton: all chances/headers/crosses, red/injury/substitution,50thSturridgegoal and Coutinho credit; fourth successive victory qualified all competitions.
+- Villarreal: opener credited Bruno with disputed Sturridge touch omitted; documented Can/Clyne/Areola/Firmino sequence, saves, secondgoal/red/third and contemporary Sevilla final opposition/location.
+- Sevilla: complete goal/chance ordering, outside-left-foot opener/disallowed header, early second-half equaliser, two Coke finishes, third successive competition title as of2016; final eighth and two final losses explicitly later context.
+
+All material factual action, dates, scoring, identities, selection/disciplinary/substitution statements, milestones and later chronology have retrieved scoped support. Britain prose and every descriptive source label were checked. Each report matches the existing published archive format previously compared: single bottom linked-bullet Sources list, no text following it, no duplicate visible list, and sources metadata with exactly the same URLs/order. Every source is actually accessed/scoped in its own writer note; failed sources are not presented as successful evidence. Exact manifest dates/slugs/seasons and canonical entity kinds pass, without publication dates. Source conflicts remain bounded or omitted; no unwatched-footage narrative, invented motive, quote or disputed-decision verdict.
+
+## Final current full-file SHA-256 gate
+
+All 24 selected current complete files pass. 88 ordered source links pass footer/metadata/own-note coverage. These hashes cover full files including frontmatter and footer; subsequent changes require re-review.
+
+| Current complete manuscript | Full-file SHA-256 | Verdict |
+| --- | --- | --- |
+| stoke-liverpool-2015-coutinho-opening-winner.md | `52ff57b605592ae36fecb475a7f67eba825df00819e5483710c8d4fe96ae0cb3` | PASS |
+| liverpool-west-ham-2015-anfield-run-ended.md | `3271aaae46fe687f375ee0dc5ba38d1f5ba67ccb255ed6f48f33bb5234380a7d` | PASS |
+| manchester-united-liverpool-2015-benteke-overhead-goal.md | `d33af3a1e2e6cc6ff36a3b444bab724d675c7834e16e555f18e90ff6a1470647` | PASS |
+| tottenham-liverpool-2015-klopp-first-match.md | `3a34335c85ae325b0b6d7881850e4de636d3d9ad9a11f7bab1eb34f937f17858` | PASS |
+| liverpool-bournemouth-2015-klopp-first-win.md | `cc16a2048e220bf8e241f677ed46fb78762b63f571f99ee8006409b5034b3db0` | PASS |
+| chelsea-liverpool-2015-klopp-first-league-win.md | `aea4f929b33b72e9b9517894e9b2f80f51b80167b6b15630720e4e649941c539` | PASS |
+| manchester-city-liverpool-2015-four-at-the-etihad.md | `aca227c8218e930c6fe5c8737891d72b82201cbcbc05ddde7260f4725a211d4e` | PASS |
+| southampton-liverpool-2015-origi-hat-trick.md | `9cec3b03113dbefb6934eb819d2c3394742ef4e360055c000894bbe317b2eb74` | PASS |
+| liverpool-leicester-2015-benteke-boxing-day-winner.md | `de02ac662b88826c893f6c57bc88ae2a26ae4502c9ee5b7709095b4fce22bc83` | PASS |
+| liverpool-arsenal-2016-allen-late-equaliser.md | `173abc27b53c0557826bd1990284b373b19f967c8702ef5f85664639630dab5d` | PASS |
+| norwich-liverpool-2016-lallana-nine-goal-winner.md | `1a19a6bd474e8b2704f845f4560c73d1b635e703569982543a4853ce9f87c188` | PASS |
+| liverpool-stoke-2016-penalties-wembley.md | `879cc6e8aebea7d5722fdc377f92b8419105e3798095861be187cdfd66c69431` | PASS |
+| west-ham-liverpool-2016-extra-time-fa-cup-exit.md | `6b4269e63c2504c9affc75b412d203ac0133cf87e00bd29af323329e4b6104e4` | PASS |
+| aston-villa-liverpool-2016-six-different-scorers.md | `5bef95d7cb964f873a809f08fc22784423788fadd95be433090590447c362c02` | PASS |
+| liverpool-manchester-city-2016-league-cup-final.md | `a3ea9f691bbd4d888eb6b40987ffa54d9324e2adf0032dfaa296e2ee65a74462` | PASS |
+| liverpool-manchester-city-2016-three-after-wembley.md | `fcc96a326ab163b4d5e30bf114b377fae6b8a7daf176cefccca6a1940c04d1b7` | PASS |
+| crystal-palace-liverpool-2016-ten-man-benteke-winner.md | `a659f951b06ef06109b4a0c40b762c6d00d4b13c61501a38b3ef262c76c34566` | PASS |
+| liverpool-manchester-united-2016-first-european-meeting.md | `a66adcfab03141aa776653bee921f01358747cc684164ab5055611758f3a2b4a` | PASS |
+| manchester-united-liverpool-2016-coutinho-european-progress.md | `31de113ad3c7b2f1f74ebe935183615302a1dca3c82312952ecfad1509dad6df` | PASS |
+| southampton-liverpool-2016-two-goal-lead-lost.md | `352362ba081b9fd7fc891a86ddfcb1fd884f36a4dc89d235cb04619e12350b63` | PASS |
+| liverpool-dortmund-2016-lovren-comeback.md | `7fd5703d35fc7c0a7a1b463819422cc4021ee913ee9f09f2175fe6dbc295f341` | PASS |
+| liverpool-everton-2016-four-goal-derby.md | `d401f331463fa03c3caf87b351a32b05b66af097fecb938853517335c34c3b17` | PASS |
+| liverpool-villarreal-2016-europa-league-final-reached.md | `9e708e67f4c9ad09906169a2b53a90486e16a44ac654456399e743b4008de0ef` | PASS |
+| liverpool-sevilla-2016-europa-league-final.md | `520f656d9344940f60a21327ed47990d8419c23c6dbc2bda660718bc9dfc9258` | PASS |
+
 ## Verdict
 
-PENDING
+PASS
