@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T05:41:27.531082Z",
+  "updatedAt": "2026-10-03T05:47:06.720146Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -17798,7 +17798,7 @@
         "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-newcastle-1967-hateley-hat-trick.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17822,7 +17822,8 @@
         "editorialReason": "The record signing scores his first three Liverpool goals, Hughes opens his account and an unbeaten opening week ends with six at Anfield.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-newcastle-1967-hateley-hat-trick-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -17842,7 +17843,7 @@
         "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-everton-1967-hunt-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17866,7 +17867,8 @@
         "editorialReason": "A late derby winner preserves first place after the previous week’s Southampton defeat; Hateley and Hunt are central to the attacking partnership.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-everton-1967-hunt-winner-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -17886,7 +17888,7 @@
         "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/bolton-liverpool-1967-league-cup-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17910,7 +17912,8 @@
         "editorialReason": "The renewed League Cup campaign ends at its first tie after a replay, despite Smith’s equaliser and Callaghan’s late reply; it records a distinct cup exit.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/bolton-liverpool-1967-league-cup-exit-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -18468,7 +18471,7 @@
       ],
       "reusedPaths": [],
       "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection. Resumed after verified stopped prior session; original Astra research preserved; new research/writing by configured Sol 6.1.",
-      "nextStage": "Complete retrieved-source match reports and their factual audits."
+      "nextStage": "Complete manuscripts and factual audits, independent review, validation and remote season checkpoint."
     },
     {
       "id": "1960s-1968-69",
