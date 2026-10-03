@@ -14,6 +14,7 @@ oppositionIds: ["chelsea"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["willie-stevenson", "roger-hunt", "ian-callaghan", "ron-yeats", "bobby-tambling"]
+sources: ["https://www.lfchistory.net/games/376","https://www.bounder.friardale.co.uk/Match%20Reports/1966/19661226.jpg","https://www.lfchistory.net/games/375","https://www.lfchistory.net/season-archive/games/8"]
 ---
 
 Willie Stevenson’s long-range strike broke the deadlock as Liverpool beat Chelsea 2–1 at Anfield on Boxing Day 1966 and went top of the First Division. Roger Hunt added a second before Bobby Tambling’s late penalty, completing a second victory over Chelsea in three days.

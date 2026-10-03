@@ -14,6 +14,7 @@ oppositionIds: ["sunderland"]
 competitionIds: ["second-division"]
 locationIds: ["roker-park"]
 playerIds: ["ian-st-john", "roger-hunt", "jimmy-melia"]
+sources: ["https://www.lfchistory.net/games/95","https://www.11v11.com/matches/sunderland-v-liverpool-30-august-1961-110635/","https://www.lfchistory.net/season-archive/goalscorers/3","https://www.lfchistory.net/season-archive/games/3","https://www.rsssf.org/engpaul/FLA/1961-62.html"]
 ---
 
 Ian St John scored his first Liverpool league goals at Roker Park on 30 August 1961, sharing four with Roger Hunt in a 4–1 victory over Sunderland. Brian Clough’s reply before half-time briefly narrowed the gap, but Liverpool won their fourth successive match of the new season.

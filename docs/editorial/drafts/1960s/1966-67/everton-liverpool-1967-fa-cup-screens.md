@@ -14,6 +14,7 @@ oppositionIds: ["everton"]
 competitionIds: ["fa-cup"]
 locationIds: ["goodison-park"]
 playerIds: ["alan-ball", "gordon-milne", "tommy-lawrence"]
+sources: ["https://www.lfchistory.net/games/389","https://www.liverpoolfc.com/news/announcements/288508-from-eastenders-to-the-grand-national-10-unusual-lfc-kick-off-times","https://efcheritagesociety.com/wp-content/uploads/2024/12/Blueblood-An-Everton-Fanzine-Volume-6-Issue-38-Page-1.pdf","https://www.lfchistory.net/season-archive/games/8","https://www.lfchistory.net/games/352"]
 ---
 
 Alan Ball’s goal just before half-time ended Liverpool’s FA Cup run at Goodison Park on 11 March 1967. Everton’s 1–0 win was watched by a second crowd across Stanley Park, where large screens at Anfield relayed the tie live.

@@ -14,6 +14,7 @@ oppositionIds: ["blackburn-rovers"]
 competitionIds: ["first-division"]
 locationIds: ["ewood-park"]
 playerIds: ["peter-thompson", "ronnie-moran", "ian-callaghan"]
+sources: ["https://www.lfchistory.net/games/187","https://www.lfchistory.net/season-archive/games/5","https://www.rsssf.org/engpaul/FLA/1963-64.html","https://www.lfchistory.net/articles/2959","https://www.liverpoolfc.com/info/peter-thompson","https://www.11v11.com/matches/blackburn-rovers-v-liverpool-24-august-1963-77474/","https://www.lfchistory.net/season-archive/transfers/5"]
 ---
 
 Peter Thompson’s Liverpool debut ended in a comeback victory at Ewood Park on 24 August 1963. Blackburn led at half-time, but Ronnie Moran followed up his saved penalty to equalise and Ian Callaghan scored the winner in a 2–1 opening-day success.

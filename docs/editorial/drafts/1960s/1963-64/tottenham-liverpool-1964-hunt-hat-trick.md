@@ -14,6 +14,7 @@ oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["first-division"]
 locationIds: ["white-hart-lane"]
 playerIds: ["roger-hunt"]
+sources: ["https://www.lfchistory.net/games/225","https://www.lfchistory.net/season-archive/games/5","https://www.rsssf.org/engpaul/FLA/1963-64.html","https://www.11v11.com/matches/tottenham-hotspur-v-liverpool-27-march-1964-77857/","https://www.lfchistory.net/games/177"]
 ---
 
 Roger Hunt scored all three Liverpool goals in a 3–1 victory at Tottenham Hotspur on Good Friday, 27 March 1964. His hat-trick gave Liverpool the first of three Easter wins that would strengthen their position in the championship race.

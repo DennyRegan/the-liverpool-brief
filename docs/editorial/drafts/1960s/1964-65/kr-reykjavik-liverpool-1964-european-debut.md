@@ -14,6 +14,7 @@ oppositionIds: ["kr-reykjavik"]
 competitionIds: ["european-cup"]
 locationIds: ["laugardalsvollur"]
 playerIds: ["gordon-wallace", "roger-hunt", "phil-chisnall", "ronnie-moran", "ian-callaghan"]
+sources: ["https://www.lfchistory.net/games/236","https://www.lfchistory.net/articles/470","https://www.liverpoolfc.com/news/first-team/169001-50-years-since-reds-made-european-bow","https://www.rsssf.org/ec/ec196465.html"]
 ---
 
 Gordon Wallace needed only three minutes to score Liverpool’s first European goal. By the end of their visit to KR Reykjavík on 17 August 1964, he and Roger Hunt had scored twice apiece and Phil Chisnall had added his first for the club in a 5–0 victory.

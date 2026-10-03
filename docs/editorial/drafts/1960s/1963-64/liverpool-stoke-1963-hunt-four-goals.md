@@ -14,6 +14,7 @@ oppositionIds: ["stoke-city"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "peter-thompson", "alf-arrowsmith"]
+sources: ["https://www.lfchistory.net/games/209","https://www.lfchistory.net/season-archive/games/5","https://www.rsssf.org/engpaul/FLA/1963-64.html","https://www.thetimes.co.uk/article/boxing-day-1963-football-66-goals-the-times-archive-5gc53ffjb","https://www.11v11.com/matches/liverpool-v-stoke-city-26-december-1963-77730/","https://www.lfchistory.net/season-archive/goalscorers/5"]
 ---
 
 Roger Hunt scored four second-half goals as Liverpool beat Stoke City 6–1 at Anfield on Boxing Day, 1963. A match level at the interval changed rapidly after the restart, with three Liverpool goals in the opening eight minutes of the half.

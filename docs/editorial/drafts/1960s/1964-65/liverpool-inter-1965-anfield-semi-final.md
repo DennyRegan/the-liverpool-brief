@@ -14,6 +14,7 @@ oppositionIds: ["inter-milan"]
 competitionIds: ["european-cup"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "ian-callaghan", "ian-st-john", "ronnie-moran", "geoff-strong", "gerry-byrne", "gordon-milne", "sandro-mazzola"]
+sources: ["https://www.lfchistory.net/games/293","https://www.lfchistory.net/articles/3179","https://www.liverpoolfc.com/news/first-team/220667-no-8-a-famous-european-night-v-inter-milan-in-1965","https://www.lfchistory.net/articles/599","https://www.rsssf.org/ec/ec196465.html"]
 ---
 
 Three days after winning the FA Cup, Liverpool beat the champions of Europe. Goals from Roger Hunt, Ian Callaghan and Ian St John secured a 3–1 victory over Inter at Anfield on 4 May 1965 and a two-goal lead in the European Cup semi-final.

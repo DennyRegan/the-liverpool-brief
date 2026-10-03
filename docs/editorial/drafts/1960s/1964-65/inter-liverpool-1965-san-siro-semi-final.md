@@ -14,6 +14,7 @@ oppositionIds: ["inter-milan"]
 competitionIds: ["european-cup"]
 locationIds: ["san-siro"]
 playerIds: ["tommy-lawrence", "peter-thompson", "mario-corso", "joaquin-peiro", "giacinto-facchetti"]
+sources: ["https://www.lfchistory.net/games/294","https://www.inter.it/en/news/2020-05-12-inter-3-0-liverpool-semi-final-european-cup","https://www.inter.it/en/news/2020-03-18-history-joaquim-peiro-grande-inter-goal-liverpool","https://www.lfchistory.net/articles/3315","https://www.rsssf.org/ec/ec196465.html","https://www.rsssf.org/engpaul/FLA/1964-65.html"]
 ---
 
 Liverpool’s first European campaign ended at San Siro on 12 May 1965. Inter overturned the 3–1 defeat they had suffered at Anfield, winning the return 3–0 and the semi-final 4–3 on aggregate. Two goals in the opening ten minutes erased Liverpool’s advantage; Giacinto Facchetti’s second-half strike completed the reversal.

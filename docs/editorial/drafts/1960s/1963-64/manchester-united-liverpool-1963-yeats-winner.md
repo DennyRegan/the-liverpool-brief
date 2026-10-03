@@ -14,6 +14,7 @@ oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["old-trafford"]
 playerIds: ["ron-yeats", "ian-callaghan"]
+sources: ["https://www.lfchistory.net/games/204","https://www.lfchistory.net/season-archive/games/5","https://www.rsssf.org/engpaul/FLA/1963-64.html","https://www.liverpoolfc.com/news/first-team/161391-the-story-of-bill-shankly-s-first-title","https://www.11v11.com/matches/manchester-united-v-liverpool-23-november-1963-77678/","https://www.lfchistory.net/season-archive/goalscorers/5","https://oldtrafford.dk/historie/harry-gregg/"]
 ---
 
 Ron Yeats’s first Liverpool goal earned a 1–0 victory at Old Trafford on 23 November 1963 and put Bill Shankly’s side top of the First Division. The captain’s late header settled a match changed by a serious injury to Manchester United goalkeeper Harry Gregg.

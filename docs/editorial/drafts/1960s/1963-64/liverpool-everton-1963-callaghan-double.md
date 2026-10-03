@@ -14,6 +14,7 @@ oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["ian-callaghan", "jimmy-melia"]
+sources: ["https://www.lfchistory.net/games/196","https://www.lfchistory.net/season-archive/games/5","https://www.rsssf.org/engpaul/FLA/1963-64.html","https://www.bluecorrespondent.co.uk/1963-64/september1963.html","https://www.11v11.com/matches/liverpool-v-everton-28-september-1963-77571/"]
 ---
 
 Ian Callaghan scored on either side of half-time as Liverpool beat reigning champions Everton 2–1 at Anfield on 28 September 1963. Two very different finishes gave Liverpool a lead they had to defend through a late Everton revival.

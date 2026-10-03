@@ -14,6 +14,7 @@ oppositionIds: ["chelsea"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "gerry-byrne", "ian-callaghan", "ron-yeats", "geoff-strong"]
+sources: ["https://www.lfchistory.net/games/346","https://www.lfchistory.net/articles/2173","https://www.liverpoolfc.com/news/first-team/220675-no-3-sir-roger-at-the-double-as-chelsea-win-secures-title","https://www.rsssf.org/engpaul/FLA/1965-66.html","https://www.lfchistory.net/season-archive/appearances/7"]
 ---
 
 Roger Hunt scored both goals as Liverpool beat Chelsea 2–1 at Anfield on 30 April 1966 and regained the First Division championship. Chelsea’s equaliser delayed the celebration, but Hunt’s second settled the match and put the title beyond Liverpool’s remaining challengers.

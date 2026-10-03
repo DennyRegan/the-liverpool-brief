@@ -14,6 +14,7 @@ oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["tommy-smith", "roger-hunt", "willie-stevenson", "ian-st-john", "alf-arrowsmith"]
+sources: ["https://www.lfchistory.net/games/305","https://www.bluecorrespondent.co.uk/1965-66/september1965.html","https://www.11v11.com/matches/liverpool-v-everton-25-september-1965-78496/","https://www.lfchistory.net/games/245"]
 ---
 
 A year after Everton had won 4–0 at Anfield, Liverpool answered with five. The 5–0 victory on 25 September 1965 came through sustained pressure, a narrow half-time lead and four more goals after the interval.

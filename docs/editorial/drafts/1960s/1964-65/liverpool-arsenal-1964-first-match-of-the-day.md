@@ -14,6 +14,7 @@ oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["gordon-wallace", "roger-hunt", "ian-callaghan", "geoff-strong", "jim-furnell"]
+sources: ["https://www.lfchistory.net/games/237","https://www.11v11.com/matches/liverpool-v-arsenal-22-august-1964-77937/","https://www.liverpoolfc.com/news/60-years-when-match-day-began-beatleville","https://www.lfchistory.net/articles/3705","https://www.lfchistory.net/season-archive/transfers/6"]
 ---
 
 Gordon Wallace scored twice as Liverpool opened their league title defence with a 3–2 win over Arsenal at Anfield on 22 August 1964. His late winner rescued an afternoon in which a two-goal advantage had disappeared within minutes.

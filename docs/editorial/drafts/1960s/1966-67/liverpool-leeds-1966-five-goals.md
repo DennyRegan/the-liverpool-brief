@@ -14,6 +14,7 @@ oppositionIds: ["leeds-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["chris-lawler", "peter-thompson", "geoff-strong", "ian-st-john"]
+sources: ["https://www.lfchistory.net/games/369","https://www.11v11.com/matches/liverpool-v-leeds-united-19-november-1966-79037/","https://www.lfchistory.net/season-archive/games/8"]
 ---
 
 Liverpool turned a narrow half-time lead into a 5–0 victory over Leeds United at Anfield on 19 November 1966. Geoff Strong scored twice in the closing quarter-hour as the champions completed a fourth successive league win and moved within a point of leaders Chelsea.

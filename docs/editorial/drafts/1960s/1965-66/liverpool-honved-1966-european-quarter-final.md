@@ -14,6 +14,7 @@ oppositionIds: ["honved"]
 competitionIds: ["european-cup-winners-cup"]
 locationIds: ["anfield"]
 playerIds: ["chris-lawler", "ian-st-john", "peter-thompson", "ron-yeats"]
+sources: ["https://www.lfchistory.net/games/335","https://lfcineurope.com/album/6566-3NA11.png","https://www.lfchistory.net/games/334","https://www.lfchistory.net/season-archive/goalscorers/7","https://www.rsssf.org/ec/ec196566.html"]
 ---
 
 Chris Lawler’s fourth goal of Liverpool’s European campaign helped take them into the Cup Winners’ Cup semi-finals. He opened the scoring against Honvéd at Anfield on 8 March 1966, and Ian St John added the second just after half-time to complete a 2–0 aggregate win.

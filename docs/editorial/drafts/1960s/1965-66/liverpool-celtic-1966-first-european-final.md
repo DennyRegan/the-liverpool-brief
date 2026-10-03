@@ -14,6 +14,7 @@ oppositionIds: ["celtic"]
 competitionIds: ["european-cup-winners-cup"]
 locationIds: ["anfield"]
 playerIds: ["tommy-smith", "geoff-strong", "ian-callaghan", "roger-hunt"]
+sources: ["https://www.lfchistory.net/games/344","https://www.lfchistory.net/games/342","https://www.liverpoolfc.com/info/geoff-strong","https://www.thecelticwiki.com/1966-04-19-liverpool-2-0-celtic-ecwc/","https://www.celticfc.com/news/2021/october/21/european-hat-tricks-for-the-hoops/","https://www.rsssf.org/ec/ec196566.html"]
 ---
 
 Geoff Strong was limping when he rose to meet Ian Callaghan’s cross. His header beat Ronnie Simpson and gave Liverpool the goal that took them into their first European final, completing a 2–0 win over Celtic at Anfield on 19 April 1966.

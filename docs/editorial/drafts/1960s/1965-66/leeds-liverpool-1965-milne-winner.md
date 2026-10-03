@@ -14,6 +14,7 @@ oppositionIds: ["leeds-united"]
 competitionIds: ["first-division"]
 locationIds: ["elland-road"]
 playerIds: ["gordon-milne", "roger-hunt", "tommy-lawrence"]
+sources: ["https://www.lfchistory.net/games/324","https://www.lfchistory.net/games/323","https://www.footballdatabase.eu/en/match/overview/133481-leeds_united-liverpool","https://www.lfchistory.net/season-archive/games/7"]
 ---
 
 There was only a day to wait for Liverpool’s response. Beaten 1–0 by Leeds United at Anfield on 27 December 1965, they won by the same score at Elland Road on the 28th, Gordon Milne scoring early in the second half.

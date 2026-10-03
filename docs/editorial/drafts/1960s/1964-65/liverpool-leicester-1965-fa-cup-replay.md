@@ -14,6 +14,7 @@ oppositionIds: ["leicester-city"]
 competitionIds: ["fa-cup"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "ron-yeats", "chris-lawler", "gordon-banks"]
+sources: ["https://www.lfchistory.net/games/276","https://www.lfchistory.net/season-archive/games/6","https://www.liverpoolfc.com/news/first-team/184444-ee-aye-addio-the-road-to-wembley-1965","https://www.liverpoolfc.com/news/how-beatles-and-bill-shanklys-reds-made-liverpool-centre-universe"]
 ---
 
 Roger Hunt finally beat Gordon Banks, and Liverpool finally removed Leicester City from their FA Cup path. His goal at Anfield on 10 March 1965 settled a quarter-final replay 1–0 and put Bill Shankly’s side into the last four.

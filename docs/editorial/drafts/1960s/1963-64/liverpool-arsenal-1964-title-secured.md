@@ -14,6 +14,7 @@ oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["peter-thompson", "tommy-lawrence", "alf-arrowsmith", "roger-hunt", "ian-st-john"]
+sources: ["https://www.lfchistory.net/games/230","https://www.lfchistory.net/season-archive/games/5","https://www.rsssf.org/engpaul/FLA/1963-64.html","https://www.lfchistory.net/articles/2187","https://www.liverpoolfc.com/news/features/402698-a-history-of-liverpool-s-league-title-wins","https://playupliverpool.com/1964/04/18/liverpool-v-arsenal-5-0-league-match-april-18-1964/","https://www.11v11.com/matches/liverpool-v-arsenal-18-april-1964-77917/","https://www.liverpoolfc.com/news/first-team/161391-the-story-of-bill-shankly-s-first-title"]
 ---
 
 Liverpool became league champions for the first time in seventeen years by beating Arsenal 5–0 at Anfield on 18 April 1964. Peter Thompson scored twice, Tommy Lawrence saved a penalty when the lead was still only one goal, and Bill Shankly’s first championship was secured with three matches remaining.

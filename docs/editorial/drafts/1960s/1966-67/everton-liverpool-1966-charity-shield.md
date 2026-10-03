@@ -14,6 +14,7 @@ oppositionIds: ["everton"]
 competitionIds: ["charity-shield"]
 locationIds: ["goodison-park"]
 playerIds: ["roger-hunt", "peter-thompson", "ian-callaghan"]
+sources: ["https://www.lfchistory.net/games/349","https://www.liverpoolfc.com/news/scouse-double-why-1966-remembered-more-world-cup-liverpool?amp=1","https://www.thisisanfield.com/2022/07/2-historic-liverpool-curtain-raisers-remembered-for-more-than-the-football/","https://www.lfchistory.net/games/235","https://www.lfchistory.net/games/296"]
 ---
 
 Roger Hunt scored the only goal as Liverpool won the Charity Shield at Goodison Park on 13 August 1966. Two weeks after helping England win the World Cup, he decided another meeting of champions, this time between Liverpool’s league winners and Everton’s FA Cup holders.

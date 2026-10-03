@@ -14,6 +14,7 @@ oppositionIds: ["west-ham-united"]
 competitionIds: ["first-division"]
 locationIds: ["upton-park"]
 playerIds: ["roger-hunt", "gordon-milne", "ian-callaghan", "ian-st-john"]
+sources: ["https://www.lfchistory.net/games/301","https://www.11v11.com/matches/west-ham-united-v-liverpool-06-september-1965-78450/","https://www.lfchistory.net/season-archive/games/7","https://www.rsssf.org/ec/ec196566.html"]
 ---
 
 Liverpool were four goals ahead by half-time at Upton Park on 6 September 1965. Roger Hunt then completed his hat-trick early in the second half, turning a commanding evening into a 5–1 victory over West Ham United.

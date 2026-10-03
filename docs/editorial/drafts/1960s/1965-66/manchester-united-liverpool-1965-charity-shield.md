@@ -14,6 +14,7 @@ oppositionIds: ["manchester-united"]
 competitionIds: ["charity-shield"]
 locationIds: ["old-trafford"]
 playerIds: ["ron-yeats", "willie-stevenson", "chris-lawler"]
+sources: ["https://www.lfchistory.net/games/296","https://playupliverpool.com/1965/08/14/manchester-united-v-liverpool-2-2-charity-shield-august-14-1965/comment-page-1/","https://www.footballsite.co.uk/Statistics/CommunityShield/1965-66CharityShield.htm","https://www.lfchistory.net/games/235"]
 ---
 
 Ron Yeats brought Liverpool level with four minutes left at Old Trafford, securing a share of the Charity Shield after Manchester United had twice taken the lead. The 2–2 draw on 14 August 1965 joined the league champions and FA Cup holders as joint holders of the season’s opening trophy.

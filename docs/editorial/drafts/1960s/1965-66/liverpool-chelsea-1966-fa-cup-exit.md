@@ -14,6 +14,7 @@ oppositionIds: ["chelsea"]
 competitionIds: ["fa-cup"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "ian-st-john", "bobby-tambling", "peter-osgood"]
+sources: ["https://www.lfchistory.net/games/328","https://www.chelseafc.com/en/news/article/-one-of-the-greatest-games-","https://www.bounder.friardale.co.uk/Results/1965.htm","https://www.lfchistory.net/season-archive/games/7"]
 ---
 
 Liverpool’s defence of the FA Cup lasted one match. Chelsea recovered from Roger Hunt’s early goal to win 2–1 at Anfield on 22 January 1966, Bobby Tambling heading the decisive goal midway through the second half.

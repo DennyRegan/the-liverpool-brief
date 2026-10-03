@@ -14,6 +14,7 @@ oppositionIds: ["west-bromwich-albion"]
 competitionIds: ["first-division"]
 locationIds: ["the-hawthorns"]
 playerIds: ["tommy-lawrence", "gordon-wallace", "jimmy-melia", "tommy-leishman"]
+sources: ["https://www.lfchistory.net/games/152","https://www.11v11.com/matches/west-bromwich-albion-v-liverpool-27-october-1962-77172/","https://www.albiontillwedie.co.uk/seasonarchive/results/1962-63.html","https://www.liverpoolfc.com/info/tommy-lawrence","https://www.lfchistory.net/season-archive/appearances/4","https://www.lfchistory.net/season-archive/transfers/4","https://www.lfchistory.net/season-archive/games/4","https://www.rsssf.org/engpaul/FLA/1962-63.html"]
 ---
 
 Tommy Lawrence began his Liverpool first-team career with a 1–0 defeat at West Bromwich Albion on 27 October 1962. Derek Kevan scored the only goal, and Jimmy Melia’s missed penalty denied Liverpool an early opportunity to equalise.

@@ -14,6 +14,7 @@ oppositionIds: ["preston-north-end"]
 competitionIds: ["fa-cup"]
 locationIds: ["old-trafford"]
 playerIds: ["peter-thompson", "bert-slater", "ron-yeats"]
+sources: ["https://www.lfchistory.net/games/125","https://www.lfchistory.net/articles/2695","https://www.liverpoolfc.com/info/peter-thompson","https://www.lfchistory.net/games/123","https://www.lfchistory.net/articles/2305","https://www.lfchistory.net/season-archive/games/3","https://www.rsssf.org/engpaul/FLA/1961-62.html"]
 ---
 
 Peter Thompson finally separated Liverpool and Preston North End at Old Trafford on 26 February 1962. His second-half goal won the FA Cup fifth-round second replay 1–0, ending a three-match contest in which Liverpool never scored.

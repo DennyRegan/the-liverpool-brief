@@ -14,6 +14,7 @@ oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["goodison-park"]
 playerIds: ["alan-ball", "tommy-smith", "ron-yeats", "gordon-milne"]
+sources: ["https://www.lfchistory.net/games/352","https://www.evertonencyclopedia.com/players/329/alan-ball/","https://www.lfchistory.net/season-archive/games/8"]
 ---
 
 Liverpool returned to Goodison Park a fortnight after winning the Charity Shield and left with a 3–1 league defeat. Alan Ball scored twice inside the opening twenty minutes on 27 August 1966, giving Everton a lead that Tommy Smith’s reply could not overturn.

@@ -14,6 +14,7 @@ oppositionIds: ["ajax"]
 competitionIds: ["european-cup"]
 locationIds: ["anfield"]
 playerIds: ["johan-cruyff", "roger-hunt", "peter-thompson", "ian-st-john"]
+sources: ["https://www.lfchistory.net/games/374","https://www.lfcineurope.com/6667-2RPM.html","https://www.lfcineurope.com/album/6667-2MR25.png","https://www.ajax.nl/artikelen/highlights-liverpool-ajax-1966-gelijkspel-op-anfield","https://www.rsssf.org/ec/ec196667.html"]
 ---
 
 Roger Hunt twice brought Liverpool level on the night, but Ajax’s four-goal advantage from Amsterdam was never reduced. The 2–2 draw at Anfield on 14 December 1966 sent the Dutch champions into the European Cup quarter-finals, 7–3 ahead on aggregate.

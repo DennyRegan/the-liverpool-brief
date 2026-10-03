@@ -14,6 +14,7 @@ oppositionIds: ["blackburn-rovers"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["kevin-lewis", "ian-st-john", "ronnie-moran"]
+sources: ["https://www.lfchistory.net/games/161","https://www.11v11.com/matches/liverpool-v-blackburn-rovers-22-december-1962-77253/","https://www.chelseafc.com/en/news/article/the-original-winter-break--when-the-big-freeze-of--63-stopped-pl","https://www.11v11.com/teams/liverpool/tab/matches/season/1963/","https://www.lfchistory.net/season-archive/games/4","https://www.rsssf.org/engpaul/FLA/1962-63.html"]
 ---
 
 Liverpool went into Christmas with seven successive league victories after beating Blackburn Rovers 3–1 at Anfield on 22 December 1962. Kevin Lewis’s first-half goal was answered by Fred Pickering, but Ian St John and Ronnie Moran scored after the interval to complete another win.

@@ -14,6 +14,7 @@ oppositionIds: ["juventus"]
 competitionIds: ["european-cup-winners-cup"]
 locationIds: ["anfield"]
 playerIds: ["chris-lawler", "geoff-strong", "willie-stevenson", "ian-callaghan", "tommy-lawrence"]
+sources: ["https://www.lfchistory.net/games/309","https://lfcineurope.com/album/6566-1MR1.jpg","https://www.uefa.com/uefachampionsleague/news/025a-0eaa168f27bd-2707fa543d7d-1000--liverpool-hope-for-triumphant-return/","https://www.lfchistory.net/games/306","https://www.rsssf.org/ec/ec196566.html"]
 ---
 
 Two goals in five first-half minutes overturned Juventus’s lead at Anfield on 13 October 1965. Chris Lawler and Geoff Strong scored in Liverpool’s 2–0 win, sending Bill Shankly’s side through the opening tie of the European Cup Winners’ Cup, 2–1 on aggregate.

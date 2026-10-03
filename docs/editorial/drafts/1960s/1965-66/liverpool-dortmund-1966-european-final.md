@@ -14,6 +14,7 @@ oppositionIds: ["borussia-dortmund"]
 competitionIds: ["european-cup-winners-cup"]
 locationIds: ["hampden-park"]
 playerIds: ["roger-hunt", "peter-thompson", "tommy-lawrence", "ron-yeats", "ian-st-john", "reinhard-libuda", "sigfried-held"]
+sources: ["https://www.lfchistory.net/games/347","https://www.lfchistory.net/articles/2869","https://www.bvb.de/de/de/der-bvb/die-bvb-historie/historische-momente/bvb-europapokal-1966.html","https://datencenter.dfb.de/en/data-center/uefa-cup-winners-cup/1965-1966/final/borussia-dortmund-liverpool-fc-1929832","https://www.rsssf.org/ec/ec196566.html","https://www.lfchistory.net/season-archive/games/7"]
 ---
 
 Liverpool’s first European final ended with a desperate attempt to clear and a 2–1 defeat. Early in the second period of extra time at Hampden Park on 5 May 1966, Reinhard Libuda sent the ball towards the exposed goal; it struck the woodwork and went in off Ron Yeats as the captain tried to keep it out.

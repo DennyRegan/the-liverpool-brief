@@ -14,6 +14,7 @@ oppositionIds: ["chelsea"]
 competitionIds: ["fa-cup"]
 locationIds: ["villa-park"]
 playerIds: ["peter-thompson", "willie-stevenson", "gordon-milne", "ian-st-john"]
+sources: ["https://www.lfchistory.net/games/281","https://www.lfchistory.net/games/280","https://www.liverpoolfc.com/news/first-team/118934-chelsea-memories-fa-cup-1965","https://www.liverpoolfc.com/news/first-team/184444-ee-aye-addio-the-road-to-wembley-1965","https://www.liverpoolfc.com/info/peter-thompson","https://www.lfchistory.net/articles/603"]
 ---
 
 Liverpool returned from 120 minutes against Cologne and, three days later, beat Chelsea 2–0 to reach the FA Cup final. Peter Thompson and Willie Stevenson scored in the second half at Villa Park on 27 March 1965, taking the club back to Wembley for the first time since 1950.

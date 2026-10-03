@@ -14,6 +14,7 @@ oppositionIds: ["fc-cologne"]
 competitionIds: ["european-cup"]
 locationIds: ["de-kuip"]
 playerIds: ["ian-st-john", "roger-hunt", "ron-yeats", "ian-callaghan"]
+sources: ["https://www.lfchistory.net/games/280","https://www.liverpoolfc.com/news/three-games-and-two-coin-tosses-liverpools-epic-cologne-clash-60-years-ago","https://fc.de/aktuelles/news/bei-einem-koelsch-haben-wir-uns-wieder-vertragen","https://www.rsssf.org/ec/ec196465.html","https://www.lfchistory.net/season-archive/games/6"]
 ---
 
 Liverpool reached the European Cup semi-finals after a 2–2 draw with Cologne in Rotterdam on 24 March 1965, but the result on the field did not decide who advanced. After three matches and five hours of football, a toss settled a tie that neither side had been able to win.

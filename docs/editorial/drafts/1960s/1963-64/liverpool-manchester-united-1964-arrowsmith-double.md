@@ -14,6 +14,7 @@ oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["alf-arrowsmith", "ian-callaghan"]
+sources: ["https://www.lfchistory.net/games/228","https://www.lfchistory.net/season-archive/games/5","https://www.rsssf.org/engpaul/FLA/1963-64.html","https://www.11v11.com/teams/liverpool/tab/matches/season/1964/","https://www.lfchistory.net/season-archive/goalscorers/5","https://www.lfchistory.net/season-archive/appearances/5"]
 ---
 
 Alf Arrowsmith scored twice as Liverpool beat Manchester United 3–0 at Anfield on 4 April 1964. Ian Callaghan’s early opener and Arrowsmith’s goals on either side of half-time gave Liverpool a fifth consecutive league victory and strengthened their lead in the championship race.

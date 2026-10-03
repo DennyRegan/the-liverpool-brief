@@ -14,6 +14,7 @@ oppositionIds: ["bristol-rovers"]
 competitionIds: ["second-division"]
 locationIds: ["eastville-stadium"]
 playerIds: ["kevin-lewis"]
+sources: ["https://www.lfchistory.net/games/86","https://www.11v11.com/matches/bristol-rovers-v-liverpool-04-april-1961-110537/","https://www.lfchistory.net/season-archive/games/2","https://www.liverpoolfc.com/info/kevin-lewis","https://www.rsssf.org/engpaul/FLA/1960-61.html"]
 ---
 
 Kevin Lewis scored a hat-trick at Eastville on 4 April 1961 and still finished on the losing side. Liverpool twice recovered from behind against Bristol Rovers, only to concede two late goals and lose 4–3. A demanding Easter sequence ended with another setback in the promotion race.

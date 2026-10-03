@@ -14,6 +14,7 @@ oppositionIds: ["stoke-city"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["emlyn-hughes", "chris-lawler", "roger-hunt"]
+sources: ["https://www.lfchistory.net/games/388","https://soccerschools.liverpoolfc.com/history/past-players/emlyn-hughes","https://www.liverpoolfc.com/news/liverpools-greatest-no17-emlyn-hughes","https://www.lfchistory.net/season-archive/appearances/8","https://www.lfchistory.net/season-archive/games/8"]
 ---
 
 Emlyn Hughes began his Liverpool career in a winning side on 4 March 1967. Chris Lawler and Roger Hunt scored in a 2–1 victory over Stoke City at Anfield, returning Bill Shankly’s team to first place in the league.

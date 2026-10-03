@@ -14,6 +14,7 @@ oppositionIds: ["swansea-city"]
 competitionIds: ["fa-cup"]
 locationIds: ["anfield"]
 playerIds: ["peter-thompson", "ronnie-moran", "noel-dwyer"]
+sources: ["https://www.lfchistory.net/games/220","https://www.lfchistory.net/season-archive/games/5","https://www.rsssf.org/engpaul/FLA/1963-64.html","https://www.swanseacity.com/news/classic-swans-fa-cup-encounters","https://www.11v11.com/matches/liverpool-v-swansea-town-29-february-1964-212068/"]
 ---
 
 Swansea Town ended Liverpool’s FA Cup campaign with a 2–1 victory at Anfield on 29 February 1964. Two goals shortly before half-time gave the Second Division visitors an advantage which Peter Thompson’s reply and a late Liverpool penalty could not erase.

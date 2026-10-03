@@ -14,6 +14,7 @@ oppositionIds: ["west-ham-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["geoff-strong", "chris-lawler", "willie-stevenson"]
+sources: ["https://www.lfchistory.net/games/303","https://www.11v11.com/matches/liverpool-v-west-ham-united-15-september-1965-78474/","https://www.westhamtillidie.com/posts/q-a-with-alan-dickie","https://www.bluecorrespondent.co.uk/1965-66/september1965.html","https://www.lfchistory.net/games/235","https://www.thisisanfield.com/2020/03/the-night-that-left-anfield-shaking-as-supersub-delivered-for-liverpool/"]
 ---
 
 Liverpool’s first Football League substitution helped save a point. Geoff Strong replaced Chris Lawler at half-time against West Ham on 15 September 1965 and scored the equaliser in a 1–1 draw at Anfield.

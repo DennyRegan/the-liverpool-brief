@@ -14,6 +14,7 @@ oppositionIds: ["ajax"]
 competitionIds: ["european-cup"]
 locationIds: ["olympic-stadium-amsterdam"]
 playerIds: ["johan-cruyff", "chris-lawler", "tommy-lawrence", "tommy-smith"]
+sources: ["https://www.lfchistory.net/games/372","https://www.lfcineurope.com/6667-2BRPM.html","https://www.ajax.nl/artikelen/on-this-day-ajax-domineert-in-befaamde-mistwedstrijd","https://www.rsssf.org/ec/ec196667.html","https://www.lfchistory.net/season-archive/games/6","https://www.lfchistory.net/season-archive/games/7"]
 ---
 
 Ajax scored four goals before half-time as Liverpool lost 5–1 in Amsterdam on 7 December 1966. Chris Lawler’s late reply reduced the damage, but the first leg of the European Cup second round left Bill Shankly’s side needing to recover a four-goal deficit at Anfield.

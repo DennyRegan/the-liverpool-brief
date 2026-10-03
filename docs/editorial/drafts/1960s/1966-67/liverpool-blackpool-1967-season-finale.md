@@ -14,6 +14,7 @@ oppositionIds: ["blackpool"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["peter-thompson", "gordon-milne", "dave-wilson", "emlyn-hughes"]
+sources: ["https://www.lfchistory.net/games/400","https://www.liverpoolfc.com/info/dave-wilson","https://www.liverpoolfc.com/info/gordon-milne","https://www.lfchistory.net/season-archive/games/8","https://www.rsssf.org/engpaul/FLA/1966-67.html","https://www.liverpoolfc.com/news/liverpools-greatest-no17-emlyn-hughes"]
 ---
 
 Liverpool’s league season ended with a 3–1 defeat by bottom-placed Blackpool at Anfield on 13 May 1967. All four goals came before half-time, and a late substitution marked both Gordon Milne’s final Liverpool appearance and Dave Wilson’s only one.

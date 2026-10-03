@@ -14,6 +14,7 @@ oppositionIds: ["blackburn-rovers"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["willie-stevenson", "ian-st-john", "roger-hunt", "tommy-smith"]
+sources: ["https://www.lfchistory.net/games/315","https://www.lfchistory.net/season-archive/games/7","https://www.rsssf.org/engpaul/FLA/1965-66.html"]
 ---
 
 Liverpool went top of the First Division with a 5–2 win over Blackburn Rovers at Anfield on 17 November 1965. It was their fourth successive league victory, and the lead they took that night would remain theirs for the rest of the season.

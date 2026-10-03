@@ -14,6 +14,7 @@ oppositionIds: ["leeds-united"]
 competitionIds: ["fa-cup"]
 locationIds: ["wembley"]
 playerIds: ["ian-st-john", "roger-hunt", "gerry-byrne", "ian-callaghan", "willie-stevenson", "geoff-strong", "billy-bremner"]
+sources: ["https://www.lfchistory.net/games/292","https://www.liverpoolfc.com/news/day-liverpool-ended-73-year-curse","https://www.liverpoolfc.com/news/first-team/184523-the-1965-heroics-of-gerry-byrne","https://www.lfchistory.net/articles/3443","https://www.lfchistory.net/articles/603","https://www.rsssf.org/engpaul/FLA/1964-65.html"]
 ---
 
 Ian St John’s diving header won Liverpool the FA Cup for the first time on 1 May 1965. After ninety goalless minutes at Wembley, Roger Hunt had put them ahead and Billy Bremner had brought Leeds United level. St John’s winner in the second period of extra time settled the final 2–1 and ended a wait that had lasted through the club’s first seventy-three years.

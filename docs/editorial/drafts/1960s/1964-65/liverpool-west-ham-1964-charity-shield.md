@@ -14,6 +14,7 @@ oppositionIds: ["west-ham-united"]
 competitionIds: ["charity-shield"]
 locationIds: ["anfield"]
 playerIds: ["gordon-wallace", "gerry-byrne", "alf-arrowsmith", "phil-chisnall"]
+sources: ["https://www.lfchistory.net/games/235","https://www.liverpoolfc.com/info/charity-community-shield","https://www.footballsite.co.uk/Statistics/CommunityShield/1964-65CharityShield.htm","https://www.lfchistory.net/articles/470","https://www.liverpoolfc.com/info/gordon-wallace/"]
 ---
 
 Liverpool began the new season with a share of the Charity Shield after West Ham United twice came from behind to draw 2–2 at Anfield on 15 August 1964. Gordon Wallace and Gerry Byrne supplied the champions’ goals; Geoff Hurst’s late reply prevented an outright victory.

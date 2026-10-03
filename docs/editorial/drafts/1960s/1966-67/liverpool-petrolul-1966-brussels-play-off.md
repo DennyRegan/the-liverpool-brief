@@ -14,6 +14,7 @@ oppositionIds: ["petrolul-ploiesti"]
 competitionIds: ["european-cup"]
 locationIds: ["heysel-stadium"]
 playerIds: ["ian-st-john", "peter-thompson", "roger-hunt", "gordon-milne", "ron-yeats"]
+sources: ["https://www.lfchistory.net/games/364","https://www.lfcineurope.com/6667-1RPM.html","https://www.rsssf.org/ec/ec196667.html","https://www.lfchistory.net/games/260"]
 ---
 
 Liverpool settled their European Cup tie with Petrolul Ploiești at the third attempt, winning 2–0 at the Heysel Stadium in Brussels on 19 October 1966. Ian St John and Peter Thompson scored before half-time to send the English champions through to meet Ajax.
