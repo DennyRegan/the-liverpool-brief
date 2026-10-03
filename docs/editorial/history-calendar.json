@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T14:18:08.301676Z",
+  "updatedAt": "2026-10-03T14:28:17.029757Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -25566,7 +25566,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/tottenham-liverpool-2015-klopp-first-match.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25616,7 +25616,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/chelsea-liverpool-2015-klopp-first-league-win.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25666,7 +25666,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/manchester-city-liverpool-2015-four-at-the-etihad.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25716,7 +25716,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/southampton-liverpool-2015-origi-hat-trick.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25766,7 +25766,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/norwich-liverpool-2016-lallana-nine-goal-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25816,7 +25816,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-stoke-2016-penalties-wembley.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26216,7 +26216,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/arsenal-liverpool-2016-mane-debut-seven-goal-opener.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26266,7 +26266,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-leicester-2016-main-stand-opening.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26316,7 +26316,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-watford-2016-six-goals-top-of-table.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26366,7 +26366,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-leeds-2016-woodburn-youngest-scorer.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26416,7 +26416,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/bournemouth-liverpool-2016-two-goal-lead-lost.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26466,7 +26466,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/everton-liverpool-2016-mane-stoppage-time-derby.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32277,7 +32277,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/stoke-liverpool-2015-coutinho-opening-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32322,7 +32322,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-west-ham-2015-anfield-run-ended.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32367,7 +32367,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/manchester-united-liverpool-2015-benteke-overhead-goal.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32412,7 +32412,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-bournemouth-2015-klopp-first-win.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32457,7 +32457,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-leicester-2015-benteke-boxing-day-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32502,7 +32502,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-arsenal-2016-allen-late-equaliser.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,

@@ -21,6 +21,17 @@ All twelve dates/slugs are unique; every listed URL occurs in its own canonical 
 
 The notes bound Leicester conflicting attendance and formal/first-match opening dates, Bournemouth venue alias and2–0/3–1lead, Southampton rounded/added-time winner, Wolves substitution-clock/offside impression, Stoke sponsor alias/clock and attributed fitness account, Watford no award inference, league-only Spurs winless run and Middlesbrough play-off qualification. The independently read full season chronology supports the stated selection and league calculations. New individual cores/action URLs and primary qualification evidence still require actual independent retrieval before final body review; reading writer notes is not presented as independent web proof. No final manuscript, source-footer layout or full-file hashes approved.
 
+## First individual evidence independently retrieved
+
+Actual independent access and complete relevant match records/narratives read on 3 October 2026, High within recorded scope. No manuscript approval, unseen video or quoted provider rhetoric adopted.
+
+- https://www.lfchistory.net/games/5553 — Arsenal, Emirates14August,3–4/1–1interval. Walcott30penalty saved/31goal; Coutinho45+1/56, Lallana49, Mané63, Oxlade-Chamberlain64, Chambers75. Klavan/Wijnaldum/Mané competitive debuts, Mané first Liverpool goal; full XI/substitution/assist register read.
+- https://www.liverpoolfc.com/news/first-team/231729-match-report-reds-beat-arsenal-in-seven-goal-thriller — Complete contemporary action: Mignolet/Walcott awarded Moreno penalty; Walcott opener, Coutinho won/converted free kick; Wijnaldum/Lallana, Clyne/Coutinho, Mané beat two/left-foot fourth; Oxlade-Chamberlain dribble and Chambers free-kick header late replies. Last-season runners-up scope is explicit. Exact free-kick distance, subjective Klopp emotions and clockfive-minutes versus49/56 omitted or bounded.
+- https://www.lfchistory.net/games/5556 — Leicester, Anfield10September,4–1/2–1interval; Firmino13/89, Mané31,Vardy38,Lallana56, full assists/substitutions. Attendance conflict internally53,075versus51,232; no exact crowd adopted. Temporaryfifth7from4 against Leicesterfifteenth4from4.
+- https://www.liverpoolfc.com/news/first-team/235091-report-main-stand-opens-with-emphatic-victory-over-leicester — Complete contemporary first/second-half prose: expandedMainStand/defendingchampions, Milner/Firmino, Sturridgebackheel/Mané, Lucaspass/Vardy, Wijnaldum/Lallana, Mané/Firminolate. Schmeichel Sturridge save, Huthbar, Mignolet Vardy saves, Henderson over, SchmeichelMané save read. Rounded54,000adds attendance conflict. Formal opening date not established by this match account; first competitive home match independently follows previousfourawaycompetitive fixtures in ledger.
+
+Parent confirms twelve main claims remotely atdf190b6e4a2432ae4b9b249700035de1c185fcab; writer released. This review does not alter claim/publication state. Remaining ten individual cores/narratives and supplementary qualification/reaction sources still require independent retrieval before final body review.
+
 ## Verdict
 
 PENDING

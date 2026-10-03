@@ -1,6 +1,6 @@
 # Southampton 1–6 Liverpool: fresh Sol research notes
 
-Historical event: 2015-12-02. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: prewriting research complete, manuscript and final claim audit pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
+Historical event: 2015-12-02. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: finished manuscript and factual self-audit complete; independent review pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
 
 ## Selection and metadata checked
 
@@ -33,5 +33,14 @@ At main `07c42fe993b59037812634863c36368b43c9303a`, this exact date was freshly 
 
 ## Final manuscript audit
 
-Pending a finished body after root's remote claim release. Independent final-body review and final-file hashing are also pending. This note is not a permission to publish, schedule or dispatch the existing publisher.
+Root confirmed the unique claim on GitHub main at `0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470` and released drafting on 3 October 2026. Actual researcher and writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Original preparation remains attributable and unchanged.
 
+- Paragraph 1: The individual core and both official accounts confirm the 1–6 quarter-final result and Origi’s first Liverpool goals/hat-trick, Sturridge brace and Ibe goal. The exact date is checked against the ledger.
+- Paragraph 2: The club and FA reports support Mane’s opening-minute header from Bertrand, the first Sturridge finish following Allen’s pass and the second from Can’s outside-foot ball. No exact seconds or rounded disputed clock is needed.
+- Paragraph 3: The club account supplies Lallana’s corner, Moreno’s shot and Origi’s touch for the third; the current core credits Origi and records Liverpool’s 3–1 half-time lead.
+- Paragraph 4: The club and FA narratives corroborate Origi’s finish from Ibe and Ibe’s chest control/volley following Moreno’s delivery. The ordering and 5–1 score are supported without choosing the differing 72/73 Ibe clock.
+- Paragraph 5: The club text supports Smith’s cross and Origi’s header. It dates Sturridge’s previous start to the 4 October derby, corroborated by the ledger. The recorded score and cup round establish semi-final progression without later-season hindsight.
+
+The title and excerpt restate the audited central result or landmark. Metadata uses the exact historical date, 2015–16 season, factual match classification, registered manager and principal-player/opposition/competition IDs. There is no publication date. Every terminal Sources URL appears in this report’s actually retrieved register, and the metadata array matches that ordered footer exactly. The single Sources section ends the article. No quotation, imagined intent, action from unwatched footage, unsupported atmosphere or fresh adjudication of a disputed decision is asserted.
+
+Self-audit: PASS for the saved body, subject to independent factual review and final-file hashing. This is not authority to publish or schedule.
