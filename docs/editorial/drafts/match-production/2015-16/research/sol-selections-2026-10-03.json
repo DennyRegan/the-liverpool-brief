@@ -1,0 +1,671 @@
+{
+  "season": "2015-16",
+  "model": "gpt-6.1-sol",
+  "workerId": "/root/sol_1968_69",
+  "researchDate": "2026-10-03",
+  "mainSnapshot": "07c42fe993b59037812634863c36368b43c9303a",
+  "stage": "fresh season and individual research complete; root remote claims and body release pending",
+  "purpose": "Fresh supporting selection under the user's best-games commission without a quota; calendar remains authoritative. Preserve the original Astra selection and research.",
+  "matches": [
+    {
+      "date": "2015-08-09",
+      "slug": "stoke-liverpool-2015-coutinho-opening-winner",
+      "home": "Stoke City",
+      "away": "Liverpool",
+      "score": "0–1",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "premier-league",
+      "title": "Coutinho's late strike wins Liverpool's Stoke opener",
+      "editorialReason": "A late opening-day winner at the venue of the previous season's 6–1 defeat and five competitive debuts establish Rodgers's final partial campaign.",
+      "managerId": "brendan-rodgers",
+      "playerIds": [
+        "philippe-coutinho",
+        "joe-gomez",
+        "christian-benteke",
+        "nathaniel-clyne",
+        "james-milner",
+        "roberto-firmino"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5510",
+        "https://www.liverpoolfc.com/news/first-team/191024-coutinho-special-earns-three-points-at-stoke",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.lfchistory.net/season-archive/games/124",
+        "https://www.liverpoolfc.com/news/first-team/191030-rodgers-i-m-glad-i-kept-philippe-on"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/stoke-liverpool-2015-coutinho-opening-winner-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2015-08-29",
+      "slug": "liverpool-west-ham-2015-anfield-run-ended",
+      "home": "Liverpool",
+      "away": "West Ham United",
+      "score": "0–3",
+      "opposition": "West Ham United",
+      "oppositionId": "west-ham-united",
+      "competitionId": "premier-league",
+      "title": "West Ham end their Anfield wait with a 3–0 win",
+      "editorialReason": "Liverpool's unbeaten and unbreached opening ends with West Ham's first Anfield win since 1963, two dismissals and Ings's debut.",
+      "managerId": "brendan-rodgers",
+      "playerIds": [
+        "philippe-coutinho",
+        "danny-ings",
+        "dejan-lovren",
+        "roberto-firmino"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5508",
+        "https://www.liverpoolfc.com/news/first-team/192900-reds-beaten-by-hammers-at-anfield",
+        "https://www.lfchistory.net/season-archive/games/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-west-ham-2015-anfield-run-ended-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2015-09-12",
+      "slug": "manchester-united-liverpool-2015-benteke-overhead-goal",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "score": "3–1",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "title": "Benteke's overhead goal cannot prevent defeat at United",
+      "editorialReason": "An exceptional Liverpool goal accompanies a second successive league setback against a rival, extending the Rodgers-era opening story beyond selected wins.",
+      "managerId": "brendan-rodgers",
+      "playerIds": [
+        "christian-benteke",
+        "danny-ings",
+        "joe-gomez",
+        "divock-origi"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5517",
+        "https://www.liverpoolfc.com/news/first-team/193701-reds-suffer-disappointment-at-old-trafford",
+        "https://www.lfchistory.net/season-archive/games/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/manchester-united-liverpool-2015-benteke-overhead-goal-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2015-10-17",
+      "slug": "tottenham-liverpool-2015-klopp-first-match",
+      "home": "Tottenham Hotspur",
+      "away": "Liverpool",
+      "score": "0–0",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "title": "Klopp begins at Liverpool with a goalless draw at Tottenham",
+      "editorialReason": "The new manager's first competitive match supplies a clear transition milestone, distinct from the separately covered appointment.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "divock-origi",
+        "simon-mignolet",
+        "mamadou-sakho"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5527",
+        "https://www.liverpoolfc.com/news/first-team/196108-report-klopp-s-reds-take-a-point-from-tottenham",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.tottenhamhotspur.com/news/1043089/spurs-0-0-liverpool-match-gallery"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/tottenham-liverpool-2015-klopp-first-match-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2015-10-28",
+      "slug": "liverpool-bournemouth-2015-klopp-first-win",
+      "home": "Liverpool",
+      "away": "Bournemouth",
+      "score": "1–0",
+      "opposition": "Bournemouth",
+      "oppositionId": "bournemouth",
+      "competitionId": "league-cup",
+      "title": "Clyne scores as Klopp claims his first Liverpool win",
+      "editorialReason": "Klopp's first competitive victory is a League Cup progression and Clyne's first club goal, with Randall's debut and two other first senior starts.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "nathaniel-clyne",
+        "adam-bogdan",
+        "roberto-firmino"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5535",
+        "https://www.liverpoolfc.com/news/first-team/196900-reds-reach-last-eight-with-bournemouth-win",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.liverpoolfc.com/news/first-team/196916-klopp-really-satisfied-by-lfc-s-cup-progress"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-bournemouth-2015-klopp-first-win-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2015-10-31",
+      "slug": "chelsea-liverpool-2015-klopp-first-league-win",
+      "home": "Chelsea",
+      "away": "Liverpool",
+      "score": "1–3",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "title": "Coutinho's double brings Klopp his first league win",
+      "editorialReason": "A first Premier League win under Klopp comes at the reigning champions after conceding early, separate from the earlier cup milestone.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "philippe-coutinho",
+        "christian-benteke",
+        "simon-mignolet"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5522",
+        "https://www.liverpoolfc.com/news/first-team/197136-klopp-secures-first-league-win-as-reds-triumph-at-the-bridge",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.lfchistory.net/season-archive/league-table/124"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/chelsea-liverpool-2015-klopp-first-league-win-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2015-11-21",
+      "slug": "manchester-city-liverpool-2015-four-at-the-etihad",
+      "home": "Manchester City",
+      "away": "Liverpool",
+      "score": "1–4",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "title": "Liverpool score four at Manchester City",
+      "editorialReason": "Three first-half Liverpool goals and Firmino's first club strike create an early landmark away result under Klopp.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "roberto-firmino",
+        "philippe-coutinho",
+        "emre-can",
+        "martin-skrtel"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5513",
+        "https://www.liverpoolfc.com/news/first-team/198440-report-reds-hit-city-for-four-at-the-etihad",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.mancity.com/news/first-team/match-report/2015/november/city-v-liverpool-21-november-pl"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/manchester-city-liverpool-2015-four-at-the-etihad-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2015-12-02",
+      "slug": "southampton-liverpool-2015-origi-hat-trick",
+      "home": "Southampton",
+      "away": "Liverpool",
+      "score": "1–6",
+      "opposition": "Southampton",
+      "oppositionId": "southampton",
+      "competitionId": "league-cup",
+      "title": "Origi's hat-trick leads Liverpool's six-goal cup win",
+      "editorialReason": "A League Cup quarter-final recovery from conceding in the opening minute combines Sturridge's return with Origi's first goals and hat-trick.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "divock-origi",
+        "daniel-sturridge",
+        "jordon-ibe",
+        "alberto-moreno",
+        "emre-can"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5536",
+        "https://www.liverpoolfc.com/news/first-team/199486-origi-fires-hat-trick-as-reds-hit-saints-for-six",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.thefa.com/news/2015/dec/02/daniel-sturridge-jordan-ibe-score-liverpool-southampton"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/southampton-liverpool-2015-origi-hat-trick-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2015-12-26",
+      "slug": "liverpool-leicester-2015-benteke-boxing-day-winner",
+      "home": "Liverpool",
+      "away": "Leicester City",
+      "score": "1–0",
+      "opposition": "Leicester City",
+      "oppositionId": "leicester-city",
+      "competitionId": "premier-league",
+      "title": "Benteke settles Liverpool's Boxing Day meeting with Leicester",
+      "editorialReason": "A victory over the league leaders and eventual champions ends four matches without a Liverpool win and supplies a distinct league context.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "christian-benteke",
+        "roberto-firmino",
+        "divock-origi",
+        "simon-mignolet"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5496",
+        "https://www.liverpoolfc.com/news/first-team/201440-benteke-secures-reds-win-over-league-leaders-leicester",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.lfchistory.net/season-archive/league-table/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-leicester-2015-benteke-boxing-day-winner-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2016-01-13",
+      "slug": "liverpool-arsenal-2016-allen-late-equaliser",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "score": "3–3",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "title": "Allen's late equaliser earns Liverpool a point against Arsenal",
+      "editorialReason": "Four early goals, Firmino's double and two substitutes combining for the final equaliser make a separate six-goal contest.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "roberto-firmino",
+        "joe-allen",
+        "christian-benteke",
+        "steven-caulker"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5490",
+        "https://www.liverpoolfc.com/news/first-team/203016-allen-strikes-late-to-secure-point-in-six-goal-arsenal-thriller",
+        "https://www.lfchistory.net/season-archive/games/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-arsenal-2016-allen-late-equaliser-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2016-01-23",
+      "slug": "norwich-liverpool-2016-lallana-nine-goal-winner",
+      "home": "Norwich City",
+      "away": "Liverpool",
+      "score": "4–5",
+      "opposition": "Norwich City",
+      "oppositionId": "norwich-city",
+      "competitionId": "premier-league",
+      "title": "Lallana wins Liverpool's nine-goal match at Norwich",
+      "editorialReason": "Liverpool recover from 3–1 down, concede a late equaliser and win through a substitute in added time.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "adam-lallana",
+        "roberto-firmino",
+        "james-milner",
+        "jordan-henderson"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5511",
+        "https://www.liverpoolfc.com/news/first-team/204249-lallana-decides-nine-goal-stunner-at-carrow-road",
+        "https://www.lfchistory.net/season-archive/games/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/norwich-liverpool-2016-lallana-nine-goal-winner-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2016-01-26",
+      "slug": "liverpool-stoke-2016-penalties-wembley",
+      "home": "Liverpool",
+      "away": "Stoke City",
+      "score": "0–1",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "league-cup",
+      "title": "Allen's penalty sends Liverpool to Wembley",
+      "editorialReason": "The second-leg defeat leaves the tie level before Mignolet's shoot-out saves and Allen's decisive kick secure Klopp's first final.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "joe-allen",
+        "simon-mignolet",
+        "emre-can",
+        "jon-flanagan"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5538",
+        "https://www.liverpoolfc.com/news/first-team/204678-reds-reach-wembley-final-with-shootout-win-over-stoke",
+        "https://www.lfchistory.net/season-archive/games/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-stoke-2016-penalties-wembley-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2016-02-09",
+      "slug": "west-ham-liverpool-2016-extra-time-fa-cup-exit",
+      "home": "West Ham United",
+      "away": "Liverpool",
+      "score": "2–1",
+      "opposition": "West Ham United",
+      "oppositionId": "west-ham-united",
+      "competitionId": "fa-cup",
+      "title": "Ogbonna's late header ends Liverpool's FA Cup run",
+      "editorialReason": "A fourth-round replay remains level until extra-time added time, supplying the campaign's otherwise omitted decisive FA Cup exit.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "philippe-coutinho",
+        "christian-benteke",
+        "daniel-sturridge",
+        "lucas-leiva"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5544",
+        "https://www.liverpoolfc.com/news/first-team/206735-report-reds-suffer-late-fa-cup-exit-at-west-ham",
+        "https://www.lfchistory.net/season-archive/games/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/west-ham-liverpool-2016-extra-time-fa-cup-exit-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2016-02-14",
+      "slug": "aston-villa-liverpool-2016-six-different-scorers",
+      "home": "Aston Villa",
+      "away": "Liverpool",
+      "score": "0–6",
+      "opposition": "Aston Villa",
+      "oppositionId": "aston-villa",
+      "competitionId": "premier-league",
+      "title": "Six different scorers give Liverpool a 6–0 win at Villa",
+      "editorialReason": "An exceptional six-goal league away result includes Sturridge's first league start under Klopp and Toure's first Liverpool goal.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "daniel-sturridge",
+        "philippe-coutinho",
+        "james-milner",
+        "emre-can",
+        "divock-origi",
+        "nathaniel-clyne",
+        "kolo-toure"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5525",
+        "https://www.liverpoolfc.com/news/first-team/207200-report-reds-run-riot-at-villa-park-with-emphatic-win",
+        "https://www.lfchistory.net/season-archive/games/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/aston-villa-liverpool-2016-six-different-scorers-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2016-02-28",
+      "slug": "liverpool-manchester-city-2016-league-cup-final",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "score": "1–1",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "league-cup",
+      "title": "Manchester City beat Liverpool on penalties at Wembley",
+      "editorialReason": "Klopp's first Liverpool final ends in a shoot-out defeat after Coutinho's late equaliser and extra-time goalkeeper saves.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "philippe-coutinho",
+        "simon-mignolet",
+        "adam-lallana",
+        "divock-origi",
+        "emre-can"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5545",
+        "https://www.liverpoolfc.com/news/first-team/209333-report-penalty-heartbreak-for-reds-in-capital-one-cup-final",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.uefa.com/news-media/news/022a-0e9381bcca08-20b936d2e65f-1000--caballero-stars-as-manchester-city-lift-league-cup/"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-city-2016-league-cup-final-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2016-03-02",
+      "slug": "liverpool-manchester-city-2016-three-after-wembley",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "score": "3–0",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "title": "Liverpool beat City 3–0 three days after Wembley",
+      "editorialReason": "The direct rematch brings a substantial league response to the final defeat and completes Liverpool's league double.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "adam-lallana",
+        "james-milner",
+        "roberto-firmino",
+        "jon-flanagan"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5497",
+        "https://www.liverpoolfc.com/news/first-team/209705-report-reds-bounce-back-with-emphatic-man-city-victory",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.liverpoolfc.com/news/first-team/223590-in-numbers-facts-and-figures-from-the-2015-16-campaign"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-city-2016-three-after-wembley-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2016-03-06",
+      "slug": "crystal-palace-liverpool-2016-ten-man-benteke-winner",
+      "home": "Crystal Palace",
+      "away": "Liverpool",
+      "score": "1–2",
+      "opposition": "Crystal Palace",
+      "oppositionId": "crystal-palace",
+      "competitionId": "premier-league",
+      "title": "Benteke's late penalty wins it for ten-man Liverpool",
+      "editorialReason": "Liverpool recover from a deficit and Milner's second yellow before a substitute wins and converts a late awarded penalty.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "christian-benteke",
+        "roberto-firmino",
+        "james-milner",
+        "alberto-moreno"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5518",
+        "https://www.liverpoolfc.com/news/first-team/210313-report-late-benteke-penalty-sees-10-man-reds-beat-palace",
+        "https://www.lfchistory.net/season-archive/games/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/crystal-palace-liverpool-2016-ten-man-benteke-winner-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2016-03-10",
+      "slug": "liverpool-manchester-united-2016-first-european-meeting",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "score": "2–0",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "uefa-cup",
+      "title": "Liverpool take a two-goal lead in their first European United meeting",
+      "editorialReason": "The rivals' first European fixture supplies a milestone and a substantial first-leg advantage, distinct from league encounters.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "daniel-sturridge",
+        "roberto-firmino",
+        "nathaniel-clyne",
+        "adam-lallana"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5546",
+        "https://www.liverpoolfc.com/news/first-team/210987-report-brilliant-reds-earn-two-goal-lead-in-united-tie",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.uefa.com/uefaeuropaleague/news/022b-0e93a0358313-49e9f9fd2885-1000--sturridge-firmino-make-it-advantage-liverpool/"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-united-2016-first-european-meeting-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2016-03-17",
+      "slug": "manchester-united-liverpool-2016-coutinho-european-progress",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "score": "1–1",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "uefa-cup",
+      "title": "Coutinho's away goal sends Liverpool past United",
+      "editorialReason": "The return leg supplies its own solo-goal story and secures a 3–1 aggregate victory in the rivals' first European tie.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "philippe-coutinho",
+        "daniel-sturridge",
+        "nathaniel-clyne",
+        "simon-mignolet"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5547",
+        "https://www.liverpoolfc.com/news/first-team/212082-report-coutinho-stunner-helps-reds-see-off-united-at-old-trafford",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.uefa.com/uefaeuropaleague/news/022b-0e93bb847f0b-a15bad53d9e0-1000--coutinho-deflates-united-as-liverpool-march-on/"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/manchester-united-liverpool-2016-coutinho-european-progress-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2016-03-20",
+      "slug": "southampton-liverpool-2016-two-goal-lead-lost",
+      "home": "Southampton",
+      "away": "Liverpool",
+      "score": "3–2",
+      "opposition": "Southampton",
+      "oppositionId": "southampton",
+      "competitionId": "premier-league",
+      "title": "Southampton overturn Liverpool's two-goal lead",
+      "editorialReason": "A defeat despite an early two-goal advantage and a penalty save shows the league's uneven course amid European progress.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "philippe-coutinho",
+        "daniel-sturridge",
+        "simon-mignolet",
+        "jon-flanagan",
+        "martin-skrtel"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5520",
+        "https://www.liverpoolfc.com/news/first-team/212511-report-reds-undone-by-second-half-comeback-at-st-mary-s",
+        "https://www.lfchistory.net/season-archive/games/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/southampton-liverpool-2016-two-goal-lead-lost-notes.md",
+      "originalPreparation": "fresh Sol addition accepted by root on 3 October"
+    },
+    {
+      "date": "2016-04-14",
+      "slug": "liverpool-dortmund-2016-lovren-comeback",
+      "home": "Liverpool",
+      "away": "Borussia Dortmund",
+      "score": "4–3",
+      "opposition": "Borussia Dortmund",
+      "oppositionId": "borussia-dortmund",
+      "competitionId": "uefa-cup",
+      "title": "Lovren's late header completes Liverpool's Dortmund comeback",
+      "editorialReason": "After two early concessions and a later 3–1 deficit, three unanswered goals produce a 5–4 aggregate win.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "dejan-lovren",
+        "james-milner",
+        "divock-origi",
+        "philippe-coutinho",
+        "mamadou-sakho"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5549",
+        "https://www.liverpoolfc.com/news/first-team/216369-report-reds-produce-historic-comeback-to-down-dortmund",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.uefa.com/news/025b-0f051d8427fe-b6ccf4aceb27-1000--full-story-liverpool-4-3-dortmund/"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-dortmund-2016-lovren-comeback-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2016-04-20",
+      "slug": "liverpool-everton-2016-four-goal-derby",
+      "home": "Liverpool",
+      "away": "Everton",
+      "score": "4–0",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "title": "Liverpool score four in Klopp's first home derby",
+      "editorialReason": "Milner's two first-half assists, Funes Mori's dismissal and Origi's injury precede Sturridge's fiftieth Liverpool goal.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "divock-origi",
+        "mamadou-sakho",
+        "daniel-sturridge",
+        "philippe-coutinho",
+        "james-milner"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5495",
+        "https://www.liverpoolfc.com/news/first-team/217524-report-ruthless-reds-rule-the-merseyside-derby-at-anfield",
+        "https://www.lfchistory.net/season-archive/games/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-everton-2016-four-goal-derby-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2016-05-05",
+      "slug": "liverpool-villarreal-2016-europa-league-final-reached",
+      "home": "Liverpool",
+      "away": "Villarreal",
+      "score": "3–0",
+      "opposition": "Villarreal",
+      "oppositionId": "villarreal",
+      "competitionId": "uefa-cup",
+      "title": "Liverpool overturn Villarreal to reach the Europa League final",
+      "editorialReason": "The Anfield return reverses a 1–0 away-leg deficit and takes Liverpool into their second final of Klopp's first partial season.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "roberto-firmino",
+        "daniel-sturridge",
+        "adam-lallana",
+        "emre-can"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5550",
+        "https://www.liverpoolfc.com/news/first-team/219828-match-report-anfield-inspires-liverpool-to-europa-league-final",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.uefa.com/uefaeuropaleague/news/022d-0e9443f041bc-a28b2a7b2a6c-1000--liverpool-ease-through-to-europa-league-final/"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-villarreal-2016-europa-league-final-reached-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    },
+    {
+      "date": "2016-05-18",
+      "slug": "liverpool-sevilla-2016-europa-league-final",
+      "home": "Liverpool",
+      "away": "Sevilla",
+      "score": "1–3",
+      "opposition": "Sevilla",
+      "oppositionId": "sevilla",
+      "competitionId": "uefa-cup",
+      "title": "Sevilla overturn Liverpool's lead in the Europa League final",
+      "editorialReason": "A half-time lead gives way to three second-half goals, ending a fifteen-match European campaign and the season without a trophy.",
+      "managerId": "jurgen-klopp",
+      "playerIds": [
+        "daniel-sturridge",
+        "simon-mignolet",
+        "kolo-toure"
+      ],
+      "sources": [
+        "https://www.lfchistory.net/games/5552",
+        "https://www.liverpoolfc.com/news/first-team/222461-match-report-heartbreak-for-reds-in-europa-league-final",
+        "https://www.lfchistory.net/season-archive/games/125",
+        "https://www.uefa.com/uefaeuropaleague/news/0250-0c51138a700a-9c0eb3116927-1000--sevilla-make-it-three-in-row-at-liverpool-s-expense/",
+        "https://www.lfchistory.net/season-archive/league-table/125"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2015-16/research/liverpool-sevilla-2016-europa-league-final-notes.md",
+      "originalPreparation": "retained Astra preparation; independently refreshed by Sol"
+    }
+  ],
+  "reusedPaths": [],
+  "selectionChanges": "All thirteen original candidates retained after fresh retrieval; eleven distinct additions accepted by root on 3 October. Twenty-four is the resulting selection, not a target.",
+  "requiredCanonicalAdditions": [],
+  "duplicateCheck": {
+    "dates": 24,
+    "accessibleOriginRefs": 69,
+    "completedExactDateHits": 0
+  },
+  "limitations": [
+    "No manuscripts, publication dates, calendar mutations or Git operations by this worker.",
+    "Full final-body self-audits and independent hashes follow remote claim release.",
+    "Registered principal identities suffice; youth-player references do not create unregistered relationship tags."
+  ]
+}
+

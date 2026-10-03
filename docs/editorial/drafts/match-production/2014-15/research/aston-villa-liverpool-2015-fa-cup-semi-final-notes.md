@@ -4,7 +4,7 @@
 
 - Fresh research and source re-retrieval: 3 October 2026, actual configured model `gpt-6.1-sol`, worker `/root/sol_1967_68`.
 - Prior preparation: `2015-04-19-sources.md`, `season-research.md` and `selection.json` retain original 1 October Astra provenance. They were read as preparation and preserved; this note does not claim their retrieval as Sol work.
-- Current status: pre-writing factual scope checked; no body exists and no manuscript factual PASS is asserted. Sentence-by-sentence self-audit and independent final body review remain pending.
+- Current status: MANUSCRIPT COMPLETE; sentence-level factual self-audit PASS; independent final body review PENDING.
 
 ## Confirmed match identity and selection
 
@@ -42,3 +42,30 @@ The FA and club reports differ in their descriptions of opening control and the 
 2. https://www.liverpoolfc.com/news/first-team/183776-villa-edge-semi-to-end-liverpool-dreams
 3. https://www.thefa.com/news/2015/Apr/19/aston-villa-v-liverpool-fa-cup-semi-final-report
 4. https://www.lfchistory.net/season-archive/games/124
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2014-15/aston-villa-liverpool-2015-fa-cup-semi-final.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated audit supersedes all earlier pre-writing pending state while preserving preparation provenance. Independent final manuscript review is PENDING. Root confirmed thirteen main claims at07c42fe993b59037812634863c36368b43c9303a; current main was fetched and the writing claim, worker/token, duplicate dates and canonical IDs were checked immediately before saving.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5489
+- 2: https://www.liverpoolfc.com/news/first-team/183776-villa-edge-semi-to-end-liverpool-dreams
+- 3: https://www.thefa.com/news/2015/Apr/19/aston-villa-v-liverpool-fa-cup-semi-final-report
+- 4: https://www.lfchistory.net/season-archive/games/124
+
+Every S row covers a complete body sentence in reading order and all its material claims.
+
+| Sentence | Complete sentence | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Aston Villa beat Liverpool 2–1 in the FA Cup semi-final at Wembley on 19 April 2015, recovering after Philippe Coutinho gave Brendan Rodgers’ side the lead. | source 1, source 2, source 3 | High — PASS: Neutralvenue/date/stage/result/come-from-behind. |
+| S2 | Christian Benteke equalised before half-time and Fabian Delph scored the winner early in the second half. | source 1, source 2, source 3 | High — PASS: 36equaliser54winner. |
+| S3 | Coutinho struck on the half-hour after Raheem Sterling supplied him inside the area, with his shot deflecting off Jores Okore and past Shay Given. | source 1, source 2, source 3 | High — PASS: Core/clubSterlingassist;FAandclubdeflection. Avoiddifferingopeningbuild-up. |
+| S4 | The lead lasted six minutes: Delph combined with Jack Grealish, broke into the left channel and picked out Benteke for the equaliser. | source 1, source 2, source 3 | High — PASS: 30–36arithmetic/BentekecrossDelph/Grealishcombination. |
+| S5 | Mario Balotelli replaced Lazar Marković at the interval, but Villa took the lead nine minutes after the restart. | source 1, source 2 | High — PASS: 46sub and54winner. |
+| S6 | Grealish found Delph’s run and the Villa captain moved past Dejan Lovren before finishing beyond Simon Mignolet. | source 2, source 3 | High — PASS: ClubGrealishsetupDelphsidestepLovren;FAsharedgoalmechanism. |
+| S7 | Steven Gerrard came close to levelling late on when his header from a corner was cleared off the line by Kieran Richardson. | source 2, source 3 | High — PASS: ClublatecornerheaderRichardsonclear;FAlineclear. |
+| S8 | Liverpool could not find another goal and Villa advanced to the final against Arsenal. | source 1, source 2, source 3 | High — PASS: 2–1resultandFAnextfinalopposition. |
+| S9 | Liverpool had reached Wembley through victories over Wimbledon and Crystal Palace, together with replay wins against Bolton and Blackburn. | source 4 | High — PASS: WholeFACuproutes complete. |
+| S10 | The Villa defeat was their second domestic semi-final exit of the season, following January’s League Cup loss to Chelsea. | source 4 | High — PASS: Bothcupsemischronology withoutunderevidencedtitleeliminationclaim. |
+
+Title, excerpt, event date, result and canonical metadata checked against these retrieved scopes. Single terminal Sources list and exact metadata URL order checked; every URL is recorded above with actual retrieval/limitations. Original Astra preparation is unchanged. No publication date, manual release, invented action, tactics, motives or quotes. Recorded source conflicts remain broadly bounded or omitted.

@@ -58,3 +58,9 @@ Supplementary venue check on3 October: https://www.lfchistory.net/games/5040 (LF
 All thirteen `<slug>-notes.md` files in this research directory identify the actual Sol researcher, source URL/provider, confidence, scope, conflicting timings/credits, duplicate result and current pre-writing status. Each planned footer URL occurs in its own note. Original dated Astra files remain preserved.
 
 Eventual reports must use exact same footer URL order in frontmatter `sources`, one terminal `## Sources` with descriptive linked bullets and no private commentary after it. No publication date is added. Final sentence-by-sentence self-audits and independent complete-body hashes follow remotely confirmed claims and actual drafting.
+
+## Dated manuscript completion update — 3 October2026
+
+All thirteen complete manuscripts and their sentence-by-sentence self-audits are now saved after root confirmed remote main claims at07c42fe993b59037812634863c36368b43c9303a. This dated completion supersedes the preceding preparation-only status. Current main was fetched and each writing claim/worker/token, date duplicate screen and canonical metadata were checked immediately before saving. Original preparation remains unchanged.
+
+Self-audits and source parity pass for all thirteen reports and45 footer URLs, with one terminal Sources list, exact frontmatter URL order and actual own-note source scope. Independent review has passed the first ten current reports; final three and complete final hashes remain PENDING. Middlesbrough’s shoot-out wording was clarified in the body and matching audit to distinguish Liverpool’s fifth kick from Sterling’s personal attempt. No manual publication or scheduling occurred.

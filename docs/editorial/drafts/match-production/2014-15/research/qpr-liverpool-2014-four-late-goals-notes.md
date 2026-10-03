@@ -4,7 +4,7 @@
 
 - Fresh research and source re-retrieval: 3 October 2026, actual configured model `gpt-6.1-sol`, worker `/root/sol_1967_68`.
 - This is a fresh Sol addition to the original ten-match selection, accepted by root after whole-season assessment. It does not replace or relabel prior Astra preparation.
-- Current status: pre-writing factual scope checked; no body exists and no manuscript factual PASS is asserted. Sentence-by-sentence self-audit and independent final body review remain pending.
+- Current status: MANUSCRIPT COMPLETE; sentence-level factual self-audit PASS; independent final body review PENDING.
 
 ## Confirmed match identity and selection
 
@@ -40,3 +40,29 @@ The current core explicitly records the later dubious-goals-panel award of QPR�
 1. https://www.lfchistory.net/games/5431
 2. https://www.liverpoolfc.com/news/first-team/172731-reds-defeat-qpr-in-grandstand-finish
 3. https://www.lfchistory.net/season-archive/games/124
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2014-15/qpr-liverpool-2014-four-late-goals.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated audit supersedes all earlier pre-writing pending state while preserving preparation provenance. Independent final manuscript review is PENDING. Root confirmed thirteen main claims at07c42fe993b59037812634863c36368b43c9303a; current main was fetched and the writing claim, worker/token, duplicate dates and canonical IDs were checked immediately before saving.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5431
+- 2: https://www.liverpoolfc.com/news/first-team/172731-reds-defeat-qpr-in-grandstand-finish
+- 3: https://www.lfchistory.net/season-archive/games/124
+
+Every S row covers a complete body sentence in reading order and all its material claims.
+
+| Sentence | Complete sentence | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Liverpool beat Queens Park Rangers 3–2 at Loftus Road on 19 October 2014 after a finish that produced four goals from the 87th minute onwards. | source 1, source 2 | High — PASS: 87Vargas90Coutinho90+1OG90+5OG. |
+| S2 | Two QPR own goals, the second from Steven Caulker deep into added time, supplied the first and last Liverpool goals. | source 1, source 2 | High — PASS: Dunne67andCaulker90+5. |
+| S3 | The first half had brought QPR two attempts against the crossbar from Leroy Fer, with Bobby Zamora providing the deliveries. | source 2 | High — PASS: TwoFerwoodwork/assists narrative. |
+| S4 | After the interval, Mario Balotelli sent a rebound over after Alex McCarthy saved from Adam Lallana. | source 2 | High — PASS: 61-minute saved Lallana effort and Balotelli rebound; subjective best-opening judgement omitted. |
+| S5 | Richard Dunne put Liverpool ahead in the 67th minute when he turned Glen Johnson’s low cross into his own net following a quickly taken free-kick. | source 1, source 2 | High — PASS: Dunnegoal67quickSterlingFK/Johnsoncross. |
+| S6 | Eduardo Vargas equalised from close range after Charlie Austin headed a cross back across goal. | source 1, source 2 | High — PASS: Vargas87goal mechanism. |
+| S7 | Substitute Philippe Coutinho restored Liverpool’s lead with a deflected shot as the game reached its final minute. | source 1, source 2 | High — PASS: 90minute afterGerrardpass; no exactlasttouch. |
+| S8 | QPR responded through a Vargas header from a corner, although that second equaliser was later credited as a Steven Gerrard own goal. | source 1, source 2 | High — PASS: Vargasheader contemporary/currentpanelawardboundedno finaltouchassertion. |
+| S9 | One final Liverpool counter-attack settled the match: Coutinho released Raheem Sterling, whose square pass hit Caulker and went over the line. | source 1, source 2 | High — PASS: Ownwinninggoal90+5counter/fullclubchain. |
+| S10 | Liverpool had taken their second successive league victory, following the home win over West Bromwich Albion. | source 2, source 3 | High — PASS: Bothclubopeningsecondstraightandfixturechrono. |
+
+Title, excerpt, event date, result and canonical metadata checked against these retrieved scopes. Single terminal Sources list and exact metadata URL order checked; every URL is recorded above with actual retrieval/limitations. Original Astra preparation is unchanged. No publication date, manual release, invented action, tactics, motives or quotes. Recorded source conflicts remain broadly bounded or omitted.

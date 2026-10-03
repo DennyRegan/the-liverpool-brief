@@ -4,7 +4,7 @@
 
 - Fresh research and source re-retrieval: 3 October 2026, actual configured model `gpt-6.1-sol`, worker `/root/sol_1967_68`.
 - Prior preparation: `2014-12-09-sources.md`, `season-research.md` and `selection.json` retain original 1 October Astra provenance. They were read as preparation and preserved; this note does not claim their retrieval as Sol work.
-- Current status: pre-writing factual scope checked; no body exists and no manuscript factual PASS is asserted. Sentence-by-sentence self-audit and independent final body review remain pending.
+- Current status: MANUSCRIPT COMPLETE; sentence-level factual self-audit PASS; independent final body review PENDING.
 
 ## Confirmed match identity and selection
 
@@ -42,3 +42,30 @@ Marković’s raised arm and dismissal can be described without ruling on intent
 2. https://www.liverpoolfc.com/news/first-team/175987-draw-sends-reds-out-of-champions-league
 3. https://www.uefa.com/uefachampionsleague/news/021c-0e8e96a99862-0bea8199800a-1000--determined-basel-hold-off-liverpool/
 4. https://www.lfchistory.net/season-archive/games/124
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2014-15/liverpool-basel-2014-champions-league-exit.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated audit supersedes all earlier pre-writing pending state while preserving preparation provenance. Independent final manuscript review is PENDING. Root confirmed thirteen main claims at07c42fe993b59037812634863c36368b43c9303a; current main was fetched and the writing claim, worker/token, duplicate dates and canonical IDs were checked immediately before saving.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5470
+- 2: https://www.liverpoolfc.com/news/first-team/175987-draw-sends-reds-out-of-champions-league
+- 3: https://www.uefa.com/uefachampionsleague/news/021c-0e8e96a99862-0bea8199800a-1000--determined-basel-hold-off-liverpool/
+- 4: https://www.lfchistory.net/season-archive/games/124
+
+Every S row covers a complete body sentence in reading order and all its material claims.
+
+| Sentence | Complete sentence | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Liverpool’s Champions League return ended at the group stage with a 1–1 draw against Basel at Anfield on 9 December 2014. | source 1, source 2, source 3 | High — PASS: Result/date and group elimination explicit. |
+| S2 | They needed a victory to overtake the Swiss side, who instead took the point required for second place in Group B. | source 2, source 3 | High — PASS: Qualification condition and Basel second explicit. |
+| S3 | Fabian Frei put Basel ahead in the 25th minute, combining with Luca Zuffi before driving his shot across Simon Mignolet. | source 1, source 2, source 3 | High — PASS: Goal25 and one-two/shot supported. |
+| S4 | Liverpool reached half-time a goal behind and introduced Lazar Marković in place of Rickie Lambert. | source 1, source 2 | High — PASS: Core interval score and substitution. |
+| S5 | The substitute’s appearance lasted only until the hour, when he was sent off after raising an arm towards Behrang Safari. | source 1, source 2, source 3 | High — PASS: Red60 and raised arm; no intent/fairness ruling. |
+| S6 | Liverpool were left to find two goals with ten men. | source 1, source 2, source 3 | High — PASS: From0–1 to required win is two-goal arithmetic. |
+| S7 | Gerrard brought them level in the 81st minute with a free-kick that went in off the post. | source 1, source 2, source 3 | High — PASS: 81 free-kick/off-post explicit in club. |
+| S8 | A deflected Jordan Henderson header subsequently drew a save from Tomáš Vaclík, but Liverpool could not force the winner. | source 2 | High — PASS: Late header/save from complete club; not partial UEFA. |
+| S9 | The campaign had begun with victory over Ludogorets in September, yet Liverpool won none of their remaining five group matches. | source 3, source 4 | High — PASS: UEFA one win from six and season chronology. |
+| S10 | Gerrard’s equaliser supplied a late response to Basel without changing the outcome of that campaign. | source 1, source 2, source 3 | High — PASS: Draw and unchanged elimination condition. |
+
+Title, excerpt, event date, result and canonical metadata checked against these retrieved scopes. Single terminal Sources list and exact metadata URL order checked; every URL is recorded above with actual retrieval/limitations. Original Astra preparation is unchanged. No publication date, manual release, invented action, tactics, motives or quotes. Recorded source conflicts remain broadly bounded or omitted.
