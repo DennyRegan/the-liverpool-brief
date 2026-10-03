@@ -3,7 +3,6 @@ import { getV3View } from "@/lib/content/history-v3-view";
 import {
   continueFrom,
   type ContinueContext,
-  type Journey,
   type TimelineSection,
 } from "@/lib/content/history-v3";
 import { seasonLabel } from "@/lib/content/seasons";
@@ -11,7 +10,7 @@ import { formatListDate } from "@/lib/format";
 
 export function ContinueFromHere({ context }: { context: ContinueContext }) {
   const data = getV3View();
-  const links = continueFrom(context, data.context, data.journeys);
+  const links = continueFrom(context, data.context);
   if (!links.length) return null;
   return (
     <nav className="v3-continue" aria-label="Continue from here">
@@ -26,30 +25,6 @@ export function ContinueFromHere({ context }: { context: ContinueContext }) {
         ))}
       </ul>
     </nav>
-  );
-}
-export function JourneyCards({
-  journeys,
-  headingLevel = 2,
-}: {
-  journeys: Journey[];
-  headingLevel?: 2 | 3;
-}) {
-  const Heading = headingLevel === 2 ? "h2" : "h3";
-  return (
-    <ul className="v3-journey-cards" role="list">
-      {journeys.map((j) => (
-        <li key={j.id}>
-          <p className="eyebrow">Guided journey · {j.steps.length} stops</p>
-          <Heading>
-            <Link href={`/history/journeys/${j.id}`}>
-              {j.title} <span aria-hidden="true">→</span>
-            </Link>
-          </Heading>
-          <p>{j.introduction}</p>
-        </li>
-      ))}
-    </ul>
   );
 }
 export function TimelineSections({
