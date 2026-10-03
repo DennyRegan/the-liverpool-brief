@@ -22,7 +22,7 @@ Palace had chances during a goalless first half. Simon Mignolet stopped Yannick 
 
 Ledley put Palace ahead early in the second half, striking from the edge of the area after a corner and a blocked Damien Delaney shot. Milner was then dismissed for a second booking following his challenge on Wilfried Zaha, leaving Liverpool a goal and a player down.
 
-Firmino equalised in the 72nd minute after Alex McCarthy slipped and miskicked a clearance into his path. Benteke entered for Origi and tested McCarthy with a volley, while Alberto Moreno’s long-range shot came back off the foot of the post.
+Firmino equalised in the 72nd minute after Alex McCarthy miskicked a clearance into his path. Benteke entered for Origi and tested McCarthy with a volley, while Alberto Moreno’s long-range shot came back off the foot of the post.
 
 With the game deep into added time, Liverpool were awarded a penalty after Benteke went down under Delaney’s challenge in the area. Benteke took the kick himself and converted, completing the recovery at Selhurst Park.
 

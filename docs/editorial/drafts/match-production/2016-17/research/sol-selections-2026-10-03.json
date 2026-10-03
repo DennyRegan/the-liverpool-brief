@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "workerId": "/root/sol_1967_68",
   "retrievedAt": "2026-10-03",
-  "status": "fresh_research_complete_awaiting_independent_precheck_and_remote_main_claims",
+  "status": "twelve_new_manuscripts_complete_self_audits_pass_independent_final_review_pending",
   "purpose": "Fresh supporting selection and source evidence, not authoritative calendar or permission to draft. Root must confirm actual remote main claims before manuscript bodies.",
   "preservedPreparation": {
     "selection": "selection.json",
@@ -293,5 +293,7 @@
     "All final Sources URLs must be recorded in own note with actual provider confidence/scope. Metadata/footer order must match exactly.",
     "All current cited selected core/club action URLs were actually reopened and read by this Sol worker. Earlier un-retrieved supplemental leads are not credited as fresh retrieval.",
     "No attendance figure for Leicester; historical venue aliases and minute conflicts bounded in notes. No fresh award claim for Can overhead kick."
-  ]
+  ],
+  "manuscriptClaimMain": "df190b6e4a2432ae4b9b249700035de1c185fcab",
+  "completionNote": "All twelve new bodies and sentence-level self-audits saved 3 October 2026; Sources parity and unchanged published Chelsea reuse checked. Independent final review remains pending."
 }

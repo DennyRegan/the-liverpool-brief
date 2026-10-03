@@ -52,7 +52,7 @@ Every S row covers a complete body sentence in reading order and all its materia
 | S4 | Loris Karius denied Dušan Tadić after Nathan Redmond’s run and pass, while Steven Davis sent another chance over the bar. | source 2 | High — PASS: Both firsthalf incidents chronological andsupported. |
 | S5 | The interval arrived with the score still goalless. | source 1, source 2 | High — PASS: 0–0HT. |
 | S6 | Emre Can came close after the restart when Fraser Forster parried his shot towards the goal before recovering to flick the ball off the line. | source 2 | High — PASS: 53-minute recoverysave described no falsegoal. |
-| S7 | Daniel Sturridge twice sent close-range efforts over, as Liverpool’s pressure failed to bring an equaliser. | source 2 | High — PASS: Scissorkick thenstretchedvolley bothover recorded. |
+| S7 | Daniel Sturridge twice sent close-range efforts over, as Liverpool’s pressure failed to bring an aggregate equaliser. | source 1, source 2 | High — PASS: Scissor kick then stretched volley both over; Liverpool were behind on aggregate while the second leg remained goalless. |
 | S8 | Long then finished Southampton’s counter-attack from a Liverpool corner in added time to settle the tie. | source 2 | High — PASS: Official closing action supportscountercorner; no exactclock invented. |
 | S9 | It was the second of three successive home defeats, following Swansea City in the league and preceding Wolves in the FA Cup three days later. | source 3 | High — PASS: 21/25/28January consecutiveAnfield losses. |
 | S10 | Liverpool won only one of their nine competitive matches that January, the FA Cup replay at Plymouth Argyle. | source 3 | High — PASS: NineJanuaryregister rows,sole18Janwin. |

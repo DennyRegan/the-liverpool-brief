@@ -1,6 +1,6 @@
 # 2015–16 independent Sol source baseline
 
-Actual configured reviewer: `gpt-6.1-sol`, worker `/root/sol_factual_review`; actual retrieval date3October2026. Original Astra season preparation was read and preserved. This is fresh season-level research only; no final bodies or self-audits have been read and no manuscript approval is implied. Root retains calendar/claims/Git authority.
+Actual configured reviewer: `gpt-6.1-sol`, worker `/root/sol_factual_review`; actual retrieval date3October2026. Original Astra season preparation was read and preserved. All24 completed current manuscripts and own audits have now actually been read, corrections rechecked and final full-file hashes recorded. Earlier chronological pending statements below describe preparation stages; the final verdict governs the current files. Root retains calendar/claims/Git authority.
 
 ## Actually retrieved source scopes
 
@@ -107,7 +107,7 @@ On 3 October 2026 all seven remaining added cores and their complete exposed rel
 - https://www.lfchistory.net/games/5490 — Arsenal, Anfield13January,3–3/2–2half-time; Firmino9/19, Ramsey14, Giroud25/55, Allen90/Benteke assist; Benteke65, Allen81, Caulker87 competitive debut. Ninth31from21 versus leaders43from21; clock9 versus club ten elapsed stays bounded.
 - https://www.lfchistory.net/games/5544 — WestHam, UptonPark9February fourth-round replay,2–1home after extra time/1–0half-time; Antonio45, Coutinho48 direct free kick, Ogbonna120. Lucas captain, Sturridge/Origi59 and Milner101 substitutes. No shootout occurred.
 - https://www.lfchistory.net/games/5525 — VillaPark14February,0–6/0–2half-time; Sturridge15, Milner24 free kick, Can58, Origi62, Clyne65, Touré71 first Liverpool goal. Origi61/Stewart66/Benteke73 substitutes. Six different scorers; eighth38from26 versus bottom Villa16from26.
-- https://www.lfchistory.net/games/5497 — City, Anfield2March,3–0/2–0half-time; Lallana34, Milner41, Firmino57; full substitutions/assist register read. Liverpool eighth41from27, City fourth47from27, four days after drawn Wembley match/shootout loss.
+- https://www.lfchistory.net/games/5497 — City, Anfield2March,3–0/2–0half-time; Lallana34, Milner41, Firmino57; full substitutions/assist register read. Liverpool eighth41from27, City fourth47from27, three days after drawn Wembley match/shootout loss.
 - https://www.lfchistory.net/games/5518 — Palace, SelhurstPark6March,1–2/0–0half-time; Ledley48, Milner61 red, Firmino72, Benteke90+6 penalty; Coutinho61/Benteke79/Touré88. Liverpool seventh44from28 at snapshot, not an end-season claim.
 - https://www.lfchistory.net/games/5520 — Southampton, StMary’s20March,3–2/0–2half-time; Coutinho17/Sturridge22, Mané49 penalty saved, Mané64/Pellè83/Mané86; Flanagan captain, Škrtel halftime/Benteke70/Ojo87. Ninth44from29 against seventh47from31. Full action separately covered above.
 
@@ -180,6 +180,58 @@ Complete manuscripts, titles/excerpts and final own audits actually read. The fu
 | norwich-liverpool-2016-lallana-nine-goal-winner.md | `1a19a6bd474e8b2704f845f4560c73d1b635e703569982543a4853ce9f87c188` | PASS for current complete file |
 | liverpool-stoke-2016-penalties-wembley.md | `879cc6e8aebea7d5722fdc377f92b8419105e3798095861be187cdfd66c69431` | PASS for current complete file |
 
+## Final completed review and correction rechecks
+
+All24 full titles/excerpts, metadata, manuscript bodies and finished own audits were actually read. The corrected Stoke body/P5 excludes an unsupported positional plan; the Wembley final explicitly qualifies Klopp’s first final as Liverpool manager; Palace excludes McCarthy’s unscoped slip while retaining the directly supported miskick. All corrected complete bodies and final own audits were actually re-read after save. The February28-to-March2 gap is three days in leap-year2016, correcting the reviewer’s earlier baseline wording.
+
+The remaining reports pass against actual independently retrieved primary/core/ledger scope already recorded:
+
+- WestHam replay: Coutinho return/team/captain, three first-half woodworks, equalising awarded free-kick, extra-time chances and final Ogbonna header; no imagined interval instruction.
+- Villa: six distinct scorers, Sturridge first league start under Klopp, Toure first goal, every chance and ordered second-half goals; opening15/16 discrepancy remains bounded.
+- City final: match1–1 versus City3–1shoot-out, all eight kicks with Fernandinho post distinct from Caballero saves; keeper saves/collision/extra-time chronology verified.
+- City league return: all three goals/intervening chances, three-day gap and Premier League double from ledger/statistics; no inferred fatigue cause.
+- Palace: first-half saves/woodwork, Ledley/Milner/Firmino/substitute sequence, miskick/late chances and awarded penalty, without contact adjudication.
+- United first European meeting: competition/first leg, all saves/penalty/73-minute second, return seven days later; conflicting initial supplier omitted.
+- OldTrafford return: draw1–1/aggregate3–1, first-half chip and United needing three more, all substitutions/later saves; no disputed initial supplier or match-victory claim.
+- Southampton: captain/suspension and first-half chances, Skrtel halftime/awarded penalty/saved Mané kick, Benteke chance and83/86reversal; no typo adopted or sole-cause claim.
+- Dortmund: all seven goals, two separate two-goal deficits, substitutions and exact aggregate/away-goal arithmetic; retrospective UEFA source accurately labelled, no invented quotations.
+- Everton: all chances/headers/crosses, red/injury/substitution,50thSturridgegoal and Coutinho credit; fourth successive victory qualified all competitions.
+- Villarreal: opener credited Bruno with disputed Sturridge touch omitted; documented Can/Clyne/Areola/Firmino sequence, saves, secondgoal/red/third and contemporary Sevilla final opposition/location.
+- Sevilla: complete goal/chance ordering, outside-left-foot opener/disallowed header, early second-half equaliser, two Coke finishes, third successive competition title as of2016; final eighth and two final losses explicitly later context.
+
+All material factual action, dates, scoring, identities, selection/disciplinary/substitution statements, milestones and later chronology have retrieved scoped support. Britain prose and every descriptive source label were checked. Each report matches the existing published archive format previously compared: single bottom linked-bullet Sources list, no text following it, no duplicate visible list, and sources metadata with exactly the same URLs/order. Every source is actually accessed/scoped in its own writer note; failed sources are not presented as successful evidence. Exact manifest dates/slugs/seasons and canonical entity kinds pass, without publication dates. Source conflicts remain bounded or omitted; no unwatched-footage narrative, invented motive, quote or disputed-decision verdict.
+
+## Final current full-file SHA-256 gate
+
+All 24 selected current complete files pass. 88 ordered source links pass footer/metadata/own-note coverage. These hashes cover full files including frontmatter and footer; subsequent changes require re-review.
+
+| Current complete manuscript | Full-file SHA-256 | Verdict |
+| --- | --- | --- |
+| stoke-liverpool-2015-coutinho-opening-winner.md | `52ff57b605592ae36fecb475a7f67eba825df00819e5483710c8d4fe96ae0cb3` | PASS |
+| liverpool-west-ham-2015-anfield-run-ended.md | `3271aaae46fe687f375ee0dc5ba38d1f5ba67ccb255ed6f48f33bb5234380a7d` | PASS |
+| manchester-united-liverpool-2015-benteke-overhead-goal.md | `d33af3a1e2e6cc6ff36a3b444bab724d675c7834e16e555f18e90ff6a1470647` | PASS |
+| tottenham-liverpool-2015-klopp-first-match.md | `3a34335c85ae325b0b6d7881850e4de636d3d9ad9a11f7bab1eb34f937f17858` | PASS |
+| liverpool-bournemouth-2015-klopp-first-win.md | `cc16a2048e220bf8e241f677ed46fb78762b63f571f99ee8006409b5034b3db0` | PASS |
+| chelsea-liverpool-2015-klopp-first-league-win.md | `aea4f929b33b72e9b9517894e9b2f80f51b80167b6b15630720e4e649941c539` | PASS |
+| manchester-city-liverpool-2015-four-at-the-etihad.md | `aca227c8218e930c6fe5c8737891d72b82201cbcbc05ddde7260f4725a211d4e` | PASS |
+| southampton-liverpool-2015-origi-hat-trick.md | `9cec3b03113dbefb6934eb819d2c3394742ef4e360055c000894bbe317b2eb74` | PASS |
+| liverpool-leicester-2015-benteke-boxing-day-winner.md | `de02ac662b88826c893f6c57bc88ae2a26ae4502c9ee5b7709095b4fce22bc83` | PASS |
+| liverpool-arsenal-2016-allen-late-equaliser.md | `173abc27b53c0557826bd1990284b373b19f967c8702ef5f85664639630dab5d` | PASS |
+| norwich-liverpool-2016-lallana-nine-goal-winner.md | `1a19a6bd474e8b2704f845f4560c73d1b635e703569982543a4853ce9f87c188` | PASS |
+| liverpool-stoke-2016-penalties-wembley.md | `879cc6e8aebea7d5722fdc377f92b8419105e3798095861be187cdfd66c69431` | PASS |
+| west-ham-liverpool-2016-extra-time-fa-cup-exit.md | `6b4269e63c2504c9affc75b412d203ac0133cf87e00bd29af323329e4b6104e4` | PASS |
+| aston-villa-liverpool-2016-six-different-scorers.md | `5bef95d7cb964f873a809f08fc22784423788fadd95be433090590447c362c02` | PASS |
+| liverpool-manchester-city-2016-league-cup-final.md | `a3ea9f691bbd4d888eb6b40987ffa54d9324e2adf0032dfaa296e2ee65a74462` | PASS |
+| liverpool-manchester-city-2016-three-after-wembley.md | `fcc96a326ab163b4d5e30bf114b377fae6b8a7daf176cefccca6a1940c04d1b7` | PASS |
+| crystal-palace-liverpool-2016-ten-man-benteke-winner.md | `a659f951b06ef06109b4a0c40b762c6d00d4b13c61501a38b3ef262c76c34566` | PASS |
+| liverpool-manchester-united-2016-first-european-meeting.md | `a66adcfab03141aa776653bee921f01358747cc684164ab5055611758f3a2b4a` | PASS |
+| manchester-united-liverpool-2016-coutinho-european-progress.md | `31de113ad3c7b2f1f74ebe935183615302a1dca3c82312952ecfad1509dad6df` | PASS |
+| southampton-liverpool-2016-two-goal-lead-lost.md | `352362ba081b9fd7fc891a86ddfcb1fd884f36a4dc89d235cb04619e12350b63` | PASS |
+| liverpool-dortmund-2016-lovren-comeback.md | `7fd5703d35fc7c0a7a1b463819422cc4021ee913ee9f09f2175fe6dbc295f341` | PASS |
+| liverpool-everton-2016-four-goal-derby.md | `d401f331463fa03c3caf87b351a32b05b66af097fecb938853517335c34c3b17` | PASS |
+| liverpool-villarreal-2016-europa-league-final-reached.md | `9e708e67f4c9ad09906169a2b53a90486e16a44ac654456399e743b4008de0ef` | PASS |
+| liverpool-sevilla-2016-europa-league-final.md | `520f656d9344940f60a21327ed47990d8419c23c6dbc2bda660718bc9dfc9258` | PASS |
+
 ## Verdict
 
-PENDING
+PASS

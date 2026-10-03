@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T14:35:27.830293Z",
+  "updatedAt": "2026-10-03T14:43:04.131977Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -25558,13 +25558,9 @@
       "event": "Tottenham Hotspur 0–0 Liverpool",
       "historicalEventDate": "2015-10-17",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "9b4ee43a-1634-4336-bd56-69c37ac1fed9",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/tottenham-liverpool-2015-klopp-first-match.md",
       "originalDraftId": null,
@@ -25573,17 +25569,22 @@
       "notes": "Klopp first competitive Liverpool match; manager transition already has separate factual coverage. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/tottenham-liverpool-2015-klopp-first-match-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Tottenham Hotspur 0–0 Liverpool",
         "opposition": "Tottenham Hotspur",
@@ -25594,13 +25595,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/tottenham-liverpool-2015-klopp-first-match-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/tottenham-liverpool-2015-klopp-first-match-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -25608,13 +25608,9 @@
       "event": "Chelsea 1–3 Liverpool",
       "historicalEventDate": "2015-10-31",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "7f8306e9-8d96-43e9-8238-9a95c3abda35",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/chelsea-liverpool-2015-klopp-first-league-win.md",
       "originalDraftId": null,
@@ -25623,17 +25619,22 @@
       "notes": "Klopp first league win, away at the champions after Liverpool concede first. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/chelsea-liverpool-2015-klopp-first-league-win-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Chelsea 1–3 Liverpool",
         "opposition": "Chelsea",
@@ -25644,13 +25645,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/chelsea-liverpool-2015-klopp-first-league-win-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/chelsea-liverpool-2015-klopp-first-league-win-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -25658,13 +25658,9 @@
       "event": "Manchester City 1–4 Liverpool",
       "historicalEventDate": "2015-11-21",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "1f3e67c1-a6f3-4098-9d07-25d94207f0e7",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/manchester-city-liverpool-2015-four-at-the-etihad.md",
       "originalDraftId": null,
@@ -25673,17 +25669,22 @@
       "notes": "Early landmark away victory in Klopp opening months. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/manchester-city-liverpool-2015-four-at-the-etihad-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Manchester City 1–4 Liverpool",
         "opposition": "Manchester City",
@@ -25694,13 +25695,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/manchester-city-liverpool-2015-four-at-the-etihad-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/manchester-city-liverpool-2015-four-at-the-etihad-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -25708,13 +25708,9 @@
       "event": "Southampton 1–6 Liverpool",
       "historicalEventDate": "2015-12-02",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "4447cbcf-d567-46f5-90b0-ba4622fa00ac",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/southampton-liverpool-2015-origi-hat-trick.md",
       "originalDraftId": null,
@@ -25723,17 +25719,22 @@
       "notes": "Six-goal away quarter-final win with Origi hat-trick. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/southampton-liverpool-2015-origi-hat-trick-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Southampton 1–6 Liverpool",
         "opposition": "Southampton",
@@ -25744,13 +25745,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/southampton-liverpool-2015-origi-hat-trick-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/southampton-liverpool-2015-origi-hat-trick-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -25758,13 +25758,9 @@
       "event": "Norwich City 4–5 Liverpool",
       "historicalEventDate": "2016-01-23",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "725bfb34-8832-4e91-85d2-64ab975bbd4d",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/norwich-liverpool-2016-lallana-nine-goal-winner.md",
       "originalDraftId": null,
@@ -25773,17 +25769,22 @@
       "notes": "Nine-goal match, recovery from 3–1 down and stoppage-time winner after Norwich equalise. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/norwich-liverpool-2016-lallana-nine-goal-winner-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Norwich City 4–5 Liverpool",
         "opposition": "Norwich City",
@@ -25794,13 +25795,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/norwich-liverpool-2016-lallana-nine-goal-winner-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/norwich-liverpool-2016-lallana-nine-goal-winner-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -25808,13 +25808,9 @@
       "event": "Liverpool 0–1 Stoke City (Liverpool won 6–5 on penalties)",
       "historicalEventDate": "2016-01-26",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "48f6a2a7-185c-4a6e-994b-0f608d11fb01",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-stoke-2016-penalties-wembley.md",
       "originalDraftId": null,
@@ -25823,17 +25819,22 @@
       "notes": "Shoot-out sends Liverpool into Klopp first final; incorporate away leg context. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-stoke-2016-penalties-wembley-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 0–1 Stoke City (Liverpool won 6–5 on penalties)",
         "opposition": "Stoke City",
@@ -25844,13 +25845,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-stoke-2016-penalties-wembley-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-stoke-2016-penalties-wembley-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -25858,13 +25858,9 @@
       "event": "Liverpool 1–1 Manchester City (Manchester City won 3–1 on penalties)",
       "historicalEventDate": "2016-02-28",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "687bbaf1-1b76-4bce-8fcb-0e0249bf1e23",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-manchester-city-2016-league-cup-final.md",
       "originalDraftId": null,
@@ -25873,17 +25869,22 @@
       "notes": "First final under Klopp ends in a penalty shoot-out defeat. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-city-2016-league-cup-final-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–1 Manchester City (Manchester City won 3–1 on penalties)",
         "opposition": "Manchester City",
@@ -25894,13 +25895,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-city-2016-league-cup-final-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-city-2016-league-cup-final-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -25908,13 +25908,9 @@
       "event": "Liverpool 2–0 Manchester United",
       "historicalEventDate": "2016-03-10",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "261e4e47-c633-4ce8-bd7a-75ed4d6cf676",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-manchester-united-2016-first-european-meeting.md",
       "originalDraftId": null,
@@ -25923,17 +25919,22 @@
       "notes": "First European fixture between the clubs and decisive two-goal lead. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-united-2016-first-european-meeting-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–0 Manchester United",
         "opposition": "Manchester United",
@@ -25944,13 +25945,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-united-2016-first-european-meeting-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-united-2016-first-european-meeting-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -25958,13 +25958,9 @@
       "event": "Manchester United 1–1 Liverpool",
       "historicalEventDate": "2016-03-17",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "5ad32f1a-d359-46ec-86f6-90ce67195c58",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/manchester-united-liverpool-2016-coutinho-european-progress.md",
       "originalDraftId": null,
@@ -25973,17 +25969,22 @@
       "notes": "Coutinho equaliser secures progression from the first European tie between the rivals. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/manchester-united-liverpool-2016-coutinho-european-progress-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Manchester United 1–1 Liverpool",
         "opposition": "Manchester United",
@@ -25994,13 +25995,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/manchester-united-liverpool-2016-coutinho-european-progress-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/manchester-united-liverpool-2016-coutinho-european-progress-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26008,13 +26008,9 @@
       "event": "Liverpool 4–3 Borussia Dortmund",
       "historicalEventDate": "2016-04-14",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "87b30efd-0a34-49be-a656-c508889dd5e7",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-dortmund-2016-lovren-comeback.md",
       "originalDraftId": null,
@@ -26023,17 +26019,22 @@
       "notes": "Three goals needed after Dortmund lead 3–1; Lovren added-time winner completes comeback. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-dortmund-2016-lovren-comeback-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 4–3 Borussia Dortmund",
         "opposition": "Borussia Dortmund",
@@ -26044,13 +26045,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-dortmund-2016-lovren-comeback-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-dortmund-2016-lovren-comeback-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26058,13 +26058,9 @@
       "event": "Liverpool 4–0 Everton",
       "historicalEventDate": "2016-04-20",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "2817d067-57d9-498f-a3dc-9cbb2c3cd7f1",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-everton-2016-four-goal-derby.md",
       "originalDraftId": null,
@@ -26073,17 +26069,22 @@
       "notes": "Four-goal derby victory with Funes Mori dismissal and Origi injury; exact incident language requires match sources. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-everton-2016-four-goal-derby-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 4–0 Everton",
         "opposition": "Everton",
@@ -26094,13 +26095,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-everton-2016-four-goal-derby-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-everton-2016-four-goal-derby-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26108,13 +26108,9 @@
       "event": "Liverpool 3–0 Villarreal",
       "historicalEventDate": "2016-05-05",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "0f13e4c3-d1ca-4e18-824e-04faa965d5ed",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-villarreal-2016-europa-league-final-reached.md",
       "originalDraftId": null,
@@ -26123,17 +26119,22 @@
       "notes": "Reverses away-leg defeat to reach European final. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-villarreal-2016-europa-league-final-reached-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–0 Villarreal",
         "opposition": "Villarreal",
@@ -26144,13 +26145,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-villarreal-2016-europa-league-final-reached-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-villarreal-2016-europa-league-final-reached-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26158,13 +26158,9 @@
       "event": "Liverpool 1–3 Sevilla",
       "historicalEventDate": "2016-05-18",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "fb030877-e0c7-42c7-878f-8c4665d5b14d",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-sevilla-2016-europa-league-final.md",
       "originalDraftId": null,
@@ -26173,17 +26169,22 @@
       "notes": "Final defeat after a half-time lead ends the first Klopp season. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-sevilla-2016-europa-league-final-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–3 Sevilla",
         "opposition": "Sevilla",
@@ -26194,13 +26195,12 @@
           "docs/editorial/drafts/match-production/2015-16/research/season-research.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-sevilla-2016-europa-league-final-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-sevilla-2016-europa-league-final-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26208,13 +26208,9 @@
       "event": "Arsenal 3–4 Liverpool",
       "historicalEventDate": "2016-08-14",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "0bc73ca8-ab98-409d-9412-e774ad9cc3da",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/arsenal-liverpool-2016-mane-debut-seven-goal-opener.md",
       "originalDraftId": null,
@@ -26223,17 +26219,22 @@
       "notes": "Seven-goal season opener, Mané scoring debut and Coutinho brace. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/arsenal-liverpool-2016-mane-debut-seven-goal-opener-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Arsenal 3–4 Liverpool",
         "opposition": "Arsenal",
@@ -26244,13 +26245,12 @@
           "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/arsenal-liverpool-2016-mane-debut-seven-goal-opener-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/arsenal-liverpool-2016-mane-debut-seven-goal-opener-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26258,13 +26258,9 @@
       "event": "Liverpool 4–1 Leicester City",
       "historicalEventDate": "2016-09-10",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "0e08a648-8cea-4744-aef8-98c13ad4dfb4",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-leicester-2016-main-stand-opening.md",
       "originalDraftId": null,
@@ -26273,17 +26269,22 @@
       "notes": "Expanded Main Stand first competitive match and victory over champions. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/liverpool-leicester-2016-main-stand-opening-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 4–1 Leicester City",
         "opposition": "Leicester City",
@@ -26294,13 +26295,12 @@
           "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/liverpool-leicester-2016-main-stand-opening-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-leicester-2016-main-stand-opening-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26308,13 +26308,9 @@
       "event": "Liverpool 6–1 Watford",
       "historicalEventDate": "2016-11-06",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "33fbc808-7536-454d-bcff-01388d699d9e",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-watford-2016-six-goals-top-of-table.md",
       "originalDraftId": null,
@@ -26323,17 +26319,22 @@
       "notes": "Six-goal win takes Klopp Liverpool top of the league. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/liverpool-watford-2016-six-goals-top-of-table-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 6–1 Watford",
         "opposition": "Watford",
@@ -26344,13 +26345,12 @@
           "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/liverpool-watford-2016-six-goals-top-of-table-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-watford-2016-six-goals-top-of-table-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26358,13 +26358,9 @@
       "event": "Liverpool 2–0 Leeds United",
       "historicalEventDate": "2016-11-29",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "748d112b-f14c-41dd-84f7-f767cbd58ec5",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-leeds-2016-woodburn-youngest-scorer.md",
       "originalDraftId": null,
@@ -26373,17 +26369,22 @@
       "notes": "Woodburn becomes youngest Liverpool scorer in quarter-final victory. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/liverpool-leeds-2016-woodburn-youngest-scorer-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–0 Leeds United",
         "opposition": "Leeds United",
@@ -26394,13 +26395,12 @@
           "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/liverpool-leeds-2016-woodburn-youngest-scorer-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-leeds-2016-woodburn-youngest-scorer-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26408,13 +26408,9 @@
       "event": "Bournemouth 4–3 Liverpool",
       "historicalEventDate": "2016-12-04",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "22b50e60-cd91-4639-8df2-50076477757d",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/bournemouth-liverpool-2016-two-goal-lead-lost.md",
       "originalDraftId": null,
@@ -26423,17 +26419,22 @@
       "notes": "Major defensive collapse after 3–1 lead, illustrating inconsistent title challenge. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/bournemouth-liverpool-2016-two-goal-lead-lost-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Bournemouth 4–3 Liverpool",
         "opposition": "Bournemouth",
@@ -26444,13 +26445,12 @@
           "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/bournemouth-liverpool-2016-two-goal-lead-lost-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/bournemouth-liverpool-2016-two-goal-lead-lost-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26458,13 +26458,9 @@
       "event": "Everton 0–1 Liverpool",
       "historicalEventDate": "2016-12-19",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "6a2472e0-1e66-4228-849b-5594f9899305",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/everton-liverpool-2016-mane-stoppage-time-derby.md",
       "originalDraftId": null,
@@ -26473,17 +26469,22 @@
       "notes": "Stoppage-time derby winner at Goodison Park. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/everton-liverpool-2016-mane-stoppage-time-derby-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Everton 0–1 Liverpool",
         "opposition": "Everton",
@@ -26494,13 +26495,12 @@
           "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/everton-liverpool-2016-mane-stoppage-time-derby-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/everton-liverpool-2016-mane-stoppage-time-derby-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26508,13 +26508,9 @@
       "event": "Liverpool 0–1 Southampton",
       "historicalEventDate": "2017-01-25",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "5cb88c28-b731-45e9-bd85-a837c0cc27ef",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-southampton-2017-league-cup-semi-final.md",
       "originalDraftId": null,
@@ -26523,17 +26519,22 @@
       "notes": "Semi-final elimination during January downturn; FA Cup exit belongs in verified immediate consequences. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/liverpool-southampton-2017-league-cup-semi-final-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 0–1 Southampton",
         "opposition": "Southampton",
@@ -26544,13 +26545,12 @@
           "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/liverpool-southampton-2017-league-cup-semi-final-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-southampton-2017-league-cup-semi-final-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26558,13 +26558,9 @@
       "event": "Liverpool 2–0 Tottenham Hotspur",
       "historicalEventDate": "2017-02-11",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "13850044-8749-45f9-8472-05f884dd9f46",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-tottenham-2017-mane-ends-winless-run.md",
       "originalDraftId": null,
@@ -26573,17 +26569,22 @@
       "notes": "Mané brace ends league winless sequence and restores top-four challenge. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/liverpool-tottenham-2017-mane-ends-winless-run-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–0 Tottenham Hotspur",
         "opposition": "Tottenham Hotspur",
@@ -26594,13 +26595,12 @@
           "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/liverpool-tottenham-2017-mane-ends-winless-run-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-tottenham-2017-mane-ends-winless-run-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26608,13 +26608,9 @@
       "event": "Watford 0–1 Liverpool",
       "historicalEventDate": "2017-05-01",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "c374f257-6023-4016-9c93-59e0790c0adc",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/watford-liverpool-2017-can-overhead-kick.md",
       "originalDraftId": null,
@@ -26623,17 +26619,22 @@
       "notes": "Can overhead kick wins important top-four contest; individual landmark. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/watford-liverpool-2017-can-overhead-kick-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Watford 0–1 Liverpool",
         "opposition": "Watford",
@@ -26644,13 +26645,12 @@
           "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/watford-liverpool-2017-can-overhead-kick-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/watford-liverpool-2017-can-overhead-kick-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -26658,13 +26658,9 @@
       "event": "Liverpool 3–0 Middlesbrough",
       "historicalEventDate": "2017-05-21",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "3740c3a3-ebbf-4c61-9bb5-6acd122251da",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-middlesbrough-2017-champions-league-return.md",
       "originalDraftId": null,
@@ -26673,17 +26669,22 @@
       "notes": "Final-day win secures fourth and Champions League play-off place. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/liverpool-middlesbrough-2017-champions-league-return-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–0 Middlesbrough",
         "opposition": "Middlesbrough",
@@ -26694,13 +26695,12 @@
           "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/liverpool-middlesbrough-2017-champions-league-return-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-middlesbrough-2017-champions-league-return-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -32269,13 +32269,9 @@
       "event": "Stoke City 0–1 Liverpool: Coutinho's late strike wins Liverpool's Stoke opener",
       "historicalEventDate": "2015-08-09",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "ec03f9a4-6a0b-4aee-b14e-d76d7185fdac",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/stoke-liverpool-2015-coutinho-opening-winner.md",
       "originalDraftId": null,
@@ -32284,16 +32280,21 @@
       "notes": "A late opening-day winner at the venue of the previous season's 6–1 defeat and five competitive debuts establish Rodgers's final partial campaign. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/stoke-liverpool-2015-coutinho-opening-winner-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Stoke City 0–1 Liverpool",
         "opposition": "Stoke City",
@@ -32302,25 +32303,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/stoke-liverpool-2015-coutinho-opening-winner-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/stoke-liverpool-2015-coutinho-opening-winner-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2015-08-29-liverpool-west-ham-2015-anfield-run-ended",
       "event": "Liverpool 0–3 West Ham United: West Ham end their Anfield wait with a 3–0 win",
       "historicalEventDate": "2015-08-29",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "cbda277c-3616-409e-b257-3477df6832da",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-west-ham-2015-anfield-run-ended.md",
       "originalDraftId": null,
@@ -32329,16 +32328,21 @@
       "notes": "Liverpool's unbeaten and unbreached opening ends with West Ham's first Anfield win since 1963, two dismissals and Ings's debut. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-west-ham-2015-anfield-run-ended-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 0–3 West Ham United",
         "opposition": "West Ham United",
@@ -32347,25 +32351,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-west-ham-2015-anfield-run-ended-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-west-ham-2015-anfield-run-ended-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2015-09-12-manchester-united-liverpool-2015-benteke-overhead-goal",
       "event": "Manchester United 3–1 Liverpool: Benteke's overhead goal cannot prevent defeat at United",
       "historicalEventDate": "2015-09-12",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "21678480-a236-409b-9096-48356a8befdd",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/manchester-united-liverpool-2015-benteke-overhead-goal.md",
       "originalDraftId": null,
@@ -32374,16 +32376,21 @@
       "notes": "An exceptional Liverpool goal accompanies a second successive league setback against a rival, extending the Rodgers-era opening story beyond selected wins. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/manchester-united-liverpool-2015-benteke-overhead-goal-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Manchester United 3–1 Liverpool",
         "opposition": "Manchester United",
@@ -32392,25 +32399,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/manchester-united-liverpool-2015-benteke-overhead-goal-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/manchester-united-liverpool-2015-benteke-overhead-goal-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2015-10-28-liverpool-bournemouth-2015-klopp-first-win",
       "event": "Liverpool 1–0 Bournemouth: Clyne scores as Klopp claims his first Liverpool win",
       "historicalEventDate": "2015-10-28",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "e4f66def-7503-43b4-bb69-d7c088372884",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-bournemouth-2015-klopp-first-win.md",
       "originalDraftId": null,
@@ -32419,16 +32424,21 @@
       "notes": "Klopp's first competitive victory is a League Cup progression and Clyne's first club goal, with Randall's debut and two other first senior starts. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-bournemouth-2015-klopp-first-win-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–0 Bournemouth",
         "opposition": "Bournemouth",
@@ -32437,25 +32447,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-bournemouth-2015-klopp-first-win-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-bournemouth-2015-klopp-first-win-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2015-12-26-liverpool-leicester-2015-benteke-boxing-day-winner",
       "event": "Liverpool 1–0 Leicester City: Benteke settles Liverpool's Boxing Day meeting with Leicester",
       "historicalEventDate": "2015-12-26",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "c9fdb978-1659-4e6a-9608-7f5eb64baa45",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-leicester-2015-benteke-boxing-day-winner.md",
       "originalDraftId": null,
@@ -32464,16 +32472,21 @@
       "notes": "A victory over the league leaders and eventual champions ends four matches without a Liverpool win and supplies a distinct league context. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-leicester-2015-benteke-boxing-day-winner-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–0 Leicester City",
         "opposition": "Leicester City",
@@ -32482,25 +32495,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-leicester-2015-benteke-boxing-day-winner-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-leicester-2015-benteke-boxing-day-winner-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2016-01-13-liverpool-arsenal-2016-allen-late-equaliser",
       "event": "Liverpool 3–3 Arsenal: Allen's late equaliser earns Liverpool a point against Arsenal",
       "historicalEventDate": "2016-01-13",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "bc8eb8d8-1b77-4ad2-ba23-01ccd8fe47a7",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-arsenal-2016-allen-late-equaliser.md",
       "originalDraftId": null,
@@ -32509,16 +32520,21 @@
       "notes": "Four early goals, Firmino's double and two substitutes combining for the final equaliser make a separate six-goal contest. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-arsenal-2016-allen-late-equaliser-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–3 Arsenal",
         "opposition": "Arsenal",
@@ -32527,25 +32543,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-arsenal-2016-allen-late-equaliser-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-arsenal-2016-allen-late-equaliser-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2016-02-09-west-ham-liverpool-2016-extra-time-fa-cup-exit",
       "event": "West Ham United 2–1 Liverpool: Ogbonna's late header ends Liverpool's FA Cup run",
       "historicalEventDate": "2016-02-09",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "5ca196ed-7b5e-44eb-ab22-2fe22996485d",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/west-ham-liverpool-2016-extra-time-fa-cup-exit.md",
       "originalDraftId": null,
@@ -32554,16 +32568,21 @@
       "notes": "A fourth-round replay remains level until extra-time added time, supplying the campaign's otherwise omitted decisive FA Cup exit. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/west-ham-liverpool-2016-extra-time-fa-cup-exit-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "West Ham United 2–1 Liverpool",
         "opposition": "West Ham United",
@@ -32572,25 +32591,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/west-ham-liverpool-2016-extra-time-fa-cup-exit-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/west-ham-liverpool-2016-extra-time-fa-cup-exit-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2016-02-14-aston-villa-liverpool-2016-six-different-scorers",
       "event": "Aston Villa 0–6 Liverpool: Six different scorers give Liverpool a 6–0 win at Villa",
       "historicalEventDate": "2016-02-14",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "563894d4-7157-4e4f-a922-039d95b9262f",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/aston-villa-liverpool-2016-six-different-scorers.md",
       "originalDraftId": null,
@@ -32599,16 +32616,21 @@
       "notes": "An exceptional six-goal league away result includes Sturridge's first league start under Klopp and Toure's first Liverpool goal. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/aston-villa-liverpool-2016-six-different-scorers-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Aston Villa 0–6 Liverpool",
         "opposition": "Aston Villa",
@@ -32617,25 +32639,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/aston-villa-liverpool-2016-six-different-scorers-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/aston-villa-liverpool-2016-six-different-scorers-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2016-03-02-liverpool-manchester-city-2016-three-after-wembley",
       "event": "Liverpool 3–0 Manchester City: Liverpool beat City 3–0 three days after Wembley",
       "historicalEventDate": "2016-03-02",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "4055b3f3-506f-4d6f-9ef5-8a2e6e0a7d68",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-manchester-city-2016-three-after-wembley.md",
       "originalDraftId": null,
@@ -32644,16 +32664,21 @@
       "notes": "The direct rematch brings a substantial league response to the final defeat and completes Liverpool's league double. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-city-2016-three-after-wembley-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–0 Manchester City",
         "opposition": "Manchester City",
@@ -32662,25 +32687,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-city-2016-three-after-wembley-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/liverpool-manchester-city-2016-three-after-wembley-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2016-03-06-crystal-palace-liverpool-2016-ten-man-benteke-winner",
       "event": "Crystal Palace 1–2 Liverpool: Benteke's late penalty wins it for ten-man Liverpool",
       "historicalEventDate": "2016-03-06",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "bbf45cf0-983e-4132-b386-616bd9398fb4",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/crystal-palace-liverpool-2016-ten-man-benteke-winner.md",
       "originalDraftId": null,
@@ -32689,16 +32712,21 @@
       "notes": "Liverpool recover from a deficit and Milner's second yellow before a substitute wins and converts a late awarded penalty. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/crystal-palace-liverpool-2016-ten-man-benteke-winner-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Crystal Palace 1–2 Liverpool",
         "opposition": "Crystal Palace",
@@ -32707,25 +32735,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/crystal-palace-liverpool-2016-ten-man-benteke-winner-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/crystal-palace-liverpool-2016-ten-man-benteke-winner-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2016-03-20-southampton-liverpool-2016-two-goal-lead-lost",
       "event": "Southampton 3–2 Liverpool: Southampton overturn Liverpool's two-goal lead",
       "historicalEventDate": "2016-03-20",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "6f35511c-33d7-4575-a391-e79d569f9ad6",
-        "claimedAt": "2026-10-03T13:40:44.458105Z",
-        "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2015-16/southampton-liverpool-2016-two-goal-lead-lost.md",
       "originalDraftId": null,
@@ -32734,16 +32760,21 @@
       "notes": "A defeat despite an early two-goal advantage and a penalty save shows the league's uneven course amid European progress. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2015-16/research/southampton-liverpool-2016-two-goal-lead-lost-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2015-16",
         "season": "2015-16",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Southampton 3–2 Liverpool",
         "opposition": "Southampton",
@@ -32752,25 +32783,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2015-16/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2015-16/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2015-16/research/southampton-liverpool-2016-two-goal-lead-lost-notes.md"
+          "docs/editorial/drafts/match-production/2015-16/research/southampton-liverpool-2016-two-goal-lead-lost-notes.md",
+          "docs/editorial/drafts/match-production/2015-16/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2017-01-28-liverpool-wolves-2017-fa-cup-upset",
       "event": "Liverpool 1–2 Wolverhampton Wanderers: Wolves knock Liverpool out of the FA Cup at Anfield",
       "historicalEventDate": "2017-01-28",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "a2459368-8b02-49c4-b7e7-8a0a3071708a",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-wolves-2017-fa-cup-upset.md",
       "originalDraftId": null,
@@ -32779,16 +32808,21 @@
       "notes": "Distinct Championship FA Cup upset: first-minute goal, nine Liverpool changes and second domestic cup exit in four days. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/liverpool-wolves-2017-fa-cup-upset-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–2 Wolverhampton Wanderers",
         "opposition": "Wolverhampton Wanderers",
@@ -32797,25 +32831,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/liverpool-wolves-2017-fa-cup-upset-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-wolves-2017-fa-cup-upset-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2017-04-08-stoke-liverpool-2017-brazilian-substitute-comeback",
       "event": "Stoke City 1–2 Liverpool: Coutinho and Firmino come off the bench to beat Stoke",
       "historicalEventDate": "2017-04-08",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "bddff479-d1e4-49fe-86ee-618b9881d034",
-        "claimedAt": "2026-10-03T14:18:08.301676Z",
-        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2016-17/stoke-liverpool-2017-brazilian-substitute-comeback.md",
       "originalDraftId": null,
@@ -32824,16 +32856,21 @@
       "notes": "Distinct spring qualification comeback: both half-time substitutes score, and Mignolet makes two important saves. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2016-17/research/stoke-liverpool-2017-brazilian-substitute-comeback-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2016-17",
         "season": "2016-17",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Stoke City 1–2 Liverpool",
         "opposition": "Stoke City",
@@ -32842,12 +32879,14 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
           "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2016-17/research/stoke-liverpool-2017-brazilian-substitute-comeback-notes.md"
+          "docs/editorial/drafts/match-production/2016-17/research/stoke-liverpool-2017-brazilian-substitute-comeback-notes.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     }
   ],
   "matchRecoveryGaps": [
@@ -33474,7 +33513,7 @@
     {
       "id": "remaining-2015-16",
       "season": "2015-16",
-      "stage": "drafting",
+      "stage": "checkpointed",
       "owner": "Archive editor / modern Sol continuation 2026-10-03",
       "model": "gpt-6.1-sol",
       "workerId": "/root/sol_1968_69",
@@ -33506,13 +33545,13 @@
         "match-2016-05-18-liverpool-sevilla-2016-europa-league-final"
       ],
       "reusedPaths": [],
-      "notes": "Finite unpublished production through 2024–25. Source-led selections, no quota; existing finished reports are reused.",
-      "nextStage": "Complete manuscripts, sentence audits, independent review and remote season checkpoint."
+      "notes": "24 complete reports by actual configured Sol6.1; independent reviewed file hashes verified. Unpublished stock opted into existing automatic History publisher; no manual approval, publication or schedule.",
+      "nextStage": null
     },
     {
       "id": "remaining-2016-17",
       "season": "2016-17",
-      "stage": "drafting",
+      "stage": "checkpointed",
       "owner": "Archive editor / modern Sol continuation 2026-10-03",
       "model": "gpt-6.1-sol",
       "workerId": "/root/sol_1967_68",
@@ -33534,8 +33573,8 @@
       "reusedPaths": [
         "content/archive/liverpool/henderson-chelsea-winner-2016.md"
       ],
-      "notes": "Finite unpublished production through 2024–25. Source-led selections, no quota; existing finished reports are reused.",
-      "nextStage": "Complete manuscripts, sentence audits, independent review and remote season checkpoint."
+      "notes": "12 complete reports by actual configured Sol6.1; independent reviewed file hashes verified. Unpublished stock opted into existing automatic History publisher; no manual approval, publication or schedule.",
+      "nextStage": null
     },
     {
       "id": "remaining-2017-18",

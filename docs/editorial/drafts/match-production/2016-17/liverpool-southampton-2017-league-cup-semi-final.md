@@ -21,7 +21,7 @@ Liverpool’s League Cup campaign ended with a 1–0 defeat by Southampton at An
 
 Liverpool needed to overturn that first-leg deficit, but Southampton created important opportunities before half-time. Loris Karius denied Dušan Tadić after Nathan Redmond’s run and pass, while Steven Davis sent another chance over the bar. The interval arrived with the score still goalless.
 
-Emre Can came close after the restart when Fraser Forster parried his shot towards the goal before recovering to flick the ball off the line. Daniel Sturridge twice sent close-range efforts over, as Liverpool’s pressure failed to bring an equaliser. Long then finished Southampton’s counter-attack from a Liverpool corner in added time to settle the tie.
+Emre Can came close after the restart when Fraser Forster parried his shot towards the goal before recovering to flick the ball off the line. Daniel Sturridge twice sent close-range efforts over, as Liverpool’s pressure failed to bring an aggregate equaliser. Long then finished Southampton’s counter-attack from a Liverpool corner in added time to settle the tie.
 
 It was the second of three successive home defeats, following Swansea City in the league and preceding Wolves in the FA Cup three days later.
 
