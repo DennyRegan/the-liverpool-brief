@@ -23,9 +23,7 @@ Bill Shankly’s side had finished runners-up to Leeds United the previous seaso
 
 Chelsea briefly drew level when Ian Hutchinson scored after 48 minutes. St John answered a minute later, putting Liverpool back in front after only a minute on level terms. Geoff Strong extended the lead after an hour, and St John’s second goal, after 83 minutes, completed the scoring.
 
-The sequence made this a decisive opening result: three Liverpool goals followed Chelsea’s equaliser, with none conceded in reply. Lawler, Strong and St John supplied all four goals, giving Liverpool an immediate victory after a season in which they had fallen short of the championship.
-
-The win also began a run of four successive league victories. Liverpool next beat Manchester City 3–2 at Anfield, Tottenham Hotspur 2–1 away and City again, this time 2–0 at Maine Road. Those four wins produced eleven Liverpool goals; the first dropped point came in a 3–3 draw at Burnley.
+The win also began a run of four successive league victories. Liverpool next beat Manchester City 3–2 at Anfield, Tottenham Hotspur 2–0 away and City again, this time 2–0 at Maine Road. Those four wins produced eleven Liverpool goals; the first dropped point came in a 3–3 draw against Burnley at Anfield.
 
 ## Sources
 

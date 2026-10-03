@@ -4,7 +4,7 @@ Reviewer: `/root/sol_factual_review`. Actual configured model: `gpt-6.1-sol`. In
 
 ## Review state
 
-PENDING — whole-season sources and all thirteen selected match cores independently retrieved; all thirteen fresh Sol pre-writing notes and the resumption ledger have been read; no completed manuscript body or final companion audit has yet been reviewed.
+PENDING — whole-season sources and all thirteen selected match cores independently retrieved; all thirteen fresh Sol pre-writing notes and the resumption ledger have been read. The first three completed bodies and their final audits have been read; Chelsea corrections are pending and ten completed bodies are still awaited.
 
 ## Independently retrieved sources
 
@@ -82,6 +82,16 @@ All thirteen fresh `<slug>-sol-resumption-notes.md` files and `sol-research-resu
 
 - High for cup register facts — [RSSSF League Cup route](https://www.rsssf.org/tablese/engleagcuphistfull.html): Liverpool’s Watford second-round win and City third-round defeat; City’s eventual final win over West Bromwich Albion.
 - High for recorded replacement and double; Medium for attributed memory — [LFChistory Alun Evans interview](https://www.lfchistory.net/articles/4306): December assault and recovery, injured Thompson replacement after 21 minutes, Leicester double and reported Callaghan near-post pass. No unsupported mental state or causal career claim accepted; no linked footage viewed.
+
+## Manuscript review progress
+
+First completed batch: every sentence, frontmatter, footer and completed companion audit was actually read. The source presentation was compared with the published Leicester 1974 and West Ham 1977 reports: one terminal titled Markdown list, source-array URL order matching exactly, readable provider/scope labels and no internal material after the list. Every footer URL occurs in that report’s own completed audit. Historical dates and relationship values correspond to the selected events; no publication date. All three pass these source-format checks.
+
+- Chelsea: PENDING correction. Paragraph 5 incorrectly gives the Tottenham away win as 2–1 instead of 2–0 and locates the Burnley 3–3 at Burnley instead of Anfield. Both corrections requested together with audit S12/S13; independently checked in both season registers. Rest of the body passes.
+- Dundalk: factual PASS. Seven scorers, three doubles, goals, gastritis absence, Lindsay forward role, attributed Houllier/Bergues recollection and aggregate route checked. Full-file SHA-256: `26a7f3205aefd0d723ac0ae4408d80090e05026624ae9153a8f2b287a73ae353`.
+- City: factual PASS. Debut/substitution sequence, attributed clearance and pressure, earlier league results and eventual cup winners checked; contested Doyle minute and attendance omitted. Full-file SHA-256: `bbf8112b26d76f4ec42cea0b1d9ec8df8d75771b5848f0fd195d7d0de52fb240`.
+
+These are progress findings only; final hashes will be refreshed for the complete thirteen-file set after all corrections.
 
 ## Verdict
 

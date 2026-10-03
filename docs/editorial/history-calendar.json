@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T06:23:16.980834Z",
+  "updatedAt": "2026-10-03T06:25:05.253144Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -19080,7 +19080,7 @@
         "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1969-70/west-bromwich-liverpool-1969-lloyd-debut.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19125,7 +19125,7 @@
         "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1969-70/derby-liverpool-1969-four-goal-defeat.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19170,7 +19170,7 @@
         "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1969-70/liverpool-vitoria-setubal-1969-away-goals-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,

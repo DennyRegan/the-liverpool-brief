@@ -108,3 +108,10 @@ Needed new identities sent to root, which owns the registry: opposition `dundalk
 
 No manuscript body or final manuscript PASS is asserted yet. Future source lists will follow published reports: one terminal titled Markdown-link list, exact URL/order parity with the frontmatter array and matching retrieved evidence notes. No editorial/confidence text after Sources.
 
+
+## Drafting-stage retrieval supplement — 3 October 2026
+
+Actual model gpt-6.1-sol; worker /root/sol_1967_68.
+
+- https://www.lfchistory.net/players/394 — retrieved successfully: High for Steve Peplow’s final appearance on 26 November 1969 and three competitive appearances. Supporter confusion and quoted reactions excluded.
+- https://www.11v11.com/matches/liverpool-v-derby-county-28-february-1970-80598/ — renewed retrieval again failed with cache miss; no successful personal access claimed, no planned footer citation. Reviewer’s independent retrieval remains their own evidence.
