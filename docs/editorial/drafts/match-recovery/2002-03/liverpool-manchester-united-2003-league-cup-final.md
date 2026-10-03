@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2432","https://www.lfchistory.net/articles/1978","https://www.liverpoolfc.com/news/first-team/208611-a-history-of-lfc-s-league-cup-finals-2003-and-2005"]
 title: "Dudek stands firm as Liverpool win their seventh League Cup"
 slug: "liverpool-manchester-united-2003-league-cup-final"
 # date: assigned only at approved publication

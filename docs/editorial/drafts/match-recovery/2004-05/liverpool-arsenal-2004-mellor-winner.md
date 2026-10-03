@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4879","https://www.uefa.com/news-media/news/01a3-0e6b5da07999-8201bd1beedf-1000--arsenal-stunned-by-mellor-magic/","https://www.liverpoolfc.com/news/features/373782-classic-match-liverpool-arsenal-2004"]
 title: "Liverpool 2–1 Arsenal: Mellor's late strike wins it"
 # date: assigned only at approved publication
 historicalEventDate: "2004-11-28"

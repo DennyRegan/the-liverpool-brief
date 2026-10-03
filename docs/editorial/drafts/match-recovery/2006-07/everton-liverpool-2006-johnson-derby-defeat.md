@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4996","https://www.the-independent.com/sport/football/premier-league/everton-3-liverpool-0-johnson-lifts-quality-of-mersey-6231598.html","https://www.anfield-online.co.uk/fixtures/2007/prem/evertonaway.htm"]
 title: "Everton punish Liverpool in the Goodison derby"
 slug: "everton-liverpool-2006-johnson-derby-defeat"
 excerpt: "Tim Cahill’s opener and two Andy Johnson goals gave Everton a 3–0 victory."

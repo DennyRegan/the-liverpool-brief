@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2314","https://www.lfchistory.net/articles/1654","https://www.liverpoolfc.com/news/features/349360-missing-men-barcelona-2001"]
 title: "Liverpool 1 Barcelona 0: McAllister sends Liverpool to Dortmund"
 slug: "liverpool-barcelona-2001-mcallister-semi-final"
 excerpt: "A penalty before half-time and a second clean sheet against Barcelona carried Liverpool into their first European final for sixteen years."

@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.uefa.com/uefaeuropaleague/news/019b-0e6c10d74469-ab80c6acd509-1000--comeback-leaves-liverpool-reeling/","https://www.lfchistory.net/games/2497","https://www.lfchistory.net/articles/1793","https://www.lfchistory.net/season-archive/games/46"]
 title: "Marseille 2–1 Liverpool: a lead lost and a European campaign ended"
 # date: assigned only at approved publication
 historicalEventDate: "2004-03-25"

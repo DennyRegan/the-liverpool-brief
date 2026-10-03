@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4925","https://www.uefa.com/uefachampionsleague/news/01a8-0ea7aa7d47bd-a526d0492e9d-1000--liverpool-topple-turin-giants/","https://www.uefa.com/uefachampionsleague/news/01a8-0ea72a658089-8f4962a1b703-1000--red-army-holds-firm/","https://www.uefa.com/uefachampionsleague/news/01a8-0ea7ab9b8dc5-823c2cdea715-1000--liverpool-answer-gerrard-s-call/"]
 title: "Juventus 0–0 Liverpool: the lead survives in Turin"
 # date: assigned only at approved publication
 historicalEventDate: "2005-04-13"

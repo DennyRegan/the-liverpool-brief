@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/5024","https://www.anfield-online.co.uk/fixtures/2007/prem/arsenal-4-1-home.html","https://www.liverpoolfc.com/news/first-team/120657-most-exciting-pl-games-19","https://www.liverpoolfc.com/news/features/391682-goal-of-the-day-crouch-completes-perfect-hat-trick-against-gunners"]
 title: "Crouch’s perfect hat-trick lifts Liverpool above Arsenal"
 slug: "liverpool-arsenal-2007-crouch-perfect-hat-trick"
 excerpt: "A right-footed finish, a header and a left-footed third shaped Liverpool’s 4–1 Anfield victory."

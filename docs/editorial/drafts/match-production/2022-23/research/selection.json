@@ -1,0 +1,230 @@
+{
+  "season": "2022-23",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2019_2025",
+  "purpose": "Supporting broad selection evidence only; history-calendar.json remains authoritative. No manuscript drafted.",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/132",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Retrieved complete competitive ledger: dates, scores, venues, competitions and league-position sequence."
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/132",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Retrieved final league standings and points, separated from interim matchday positions."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/nunez-and-salah-strike-late-reds-claim-community-shield?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2022-07-30: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.skysports.com/football/liverpool-vs-bournemouth/464670",
+      "provider": "Sky Sports",
+      "confidence": "High",
+      "scope": "2022-08-27: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/reds-defeated-champions-league-opener-napoli?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2022-09-07: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.skysports.com/football/news/11095/12718579/rangers-1-7-liverpool-mohamed-salah-nets-fastest-ever-champions-league-hat-trick-as-reds-eliminate-hosts",
+      "provider": "Sky Sports",
+      "confidence": "High",
+      "scope": "2022-10-12: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/stunning-salah-goal-sees-reds-beat-man-city-anfield",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2022-10-16: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-eliminated-fa-cup-following-defeat-brighton",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2023-01-29: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/first-team/458586-match-report-reds-beaten-by-real-madrid-at-anfield",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2023-02-21: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-beat-manchester-united-7-0-anfield",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2023-03-05: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/diogo-jota-strikes-dramatic-winner-liverpool-beat-spurs-4-3-anfield",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2023-04-30: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/firmino-scores-late-equaliser-liverpool-draw-aston-villa",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2023-05-20: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.guinnessworldrecords.com/world-records/101475-fastest-champions-league-hat-trick",
+      "provider": "Guinness World Records",
+      "confidence": "High",
+      "scope": "Retrieved exact record: Salah scored his Ibrox hat-trick in six minutes 12 seconds on 12 October 2022."
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/0257-0e99f0d0d91b-eb0f4ba7a8f7-1000/",
+      "provider": "UEFA",
+      "confidence": "High",
+      "scope": "Retrieved current retrospective explicitly times Salah treble at six minutes 12 seconds; its table rounds to seven minutes. Use exact prose timing and exclude post-2024–25 material."
+    }
+  ],
+  "selected": [
+    {
+      "date": "2022-07-30",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "charity-shield",
+      "score": "Liverpool 3–1 Manchester City",
+      "slug": "liverpool-manchester-city-2022-community-shield",
+      "reason": "Community Shield win and Nunez scoring competitive debut.",
+      "primarySource": "https://www.liverpoolfc.com/news/nunez-and-salah-strike-late-reds-claim-community-shield?amp=1",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2022-23/research/independent-review.md"
+    },
+    {
+      "date": "2022-08-27",
+      "opposition": "Bournemouth",
+      "oppositionId": "bournemouth",
+      "competitionId": "premier-league",
+      "score": "Liverpool 9–0 Bournemouth",
+      "slug": "liverpool-bournemouth-2022-nine-goal-record",
+      "reason": "Joint-record Premier League winning margin after a difficult opening.",
+      "primarySource": "https://www.skysports.com/football/liverpool-vs-bournemouth/464670",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2022-23/research/independent-review.md"
+    },
+    {
+      "date": "2022-09-07",
+      "opposition": "Napoli",
+      "oppositionId": "napoli",
+      "competitionId": "european-cup",
+      "score": "Napoli 4–1 Liverpool",
+      "slug": "napoli-liverpool-2022-european-opening-defeat",
+      "reason": "Severe opening European defeat highlights the troubled campaign.",
+      "primarySource": "https://www.liverpoolfc.com/news/reds-defeated-champions-league-opener-napoli?amp=1",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2022-23/research/independent-review.md"
+    },
+    {
+      "date": "2022-10-12",
+      "opposition": "Rangers",
+      "oppositionId": "rangers",
+      "competitionId": "european-cup",
+      "score": "Rangers 1–7 Liverpool",
+      "slug": "rangers-liverpool-2022-salah-hat-trick",
+      "reason": "Complete existing selected commission: Salah record-speed Champions League hat-trick.",
+      "primarySource": "https://www.skysports.com/football/news/11095/12718579/rangers-1-7-liverpool-mohamed-salah-nets-fastest-ever-champions-league-hat-trick-as-reds-eliminate-hosts",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2022-23/research/independent-review.md"
+    },
+    {
+      "date": "2022-10-16",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 1–0 Manchester City",
+      "slug": "liverpool-manchester-city-2022-salah-winner",
+      "reason": "Salah winner from Alisson pass defeats champions amid inconsistent season.",
+      "primarySource": "https://www.liverpoolfc.com/news/stunning-salah-goal-sees-reds-beat-man-city-anfield",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2022-23/research/independent-review.md"
+    },
+    {
+      "date": "2023-01-29",
+      "opposition": "Brighton & Hove Albion",
+      "oppositionId": "brighton-hove-albion",
+      "competitionId": "fa-cup",
+      "score": "Brighton & Hove Albion 2–1 Liverpool",
+      "slug": "brighton-liverpool-2023-fa-cup-holders-exit",
+      "reason": "Holders eliminated by stoppage-time Mitoma goal after second defeat at Brighton that month.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-eliminated-fa-cup-following-defeat-brighton",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2022-23/research/independent-review-second.md"
+    },
+    {
+      "date": "2023-02-21",
+      "opposition": "Real Madrid",
+      "oppositionId": "real-madrid",
+      "competitionId": "european-cup",
+      "score": "Liverpool 2–5 Real Madrid",
+      "slug": "liverpool-real-madrid-2023-five-at-anfield",
+      "reason": "Two-goal lead becomes heavy home European defeat in last-16 first leg.",
+      "primarySource": "https://www.liverpoolfc.com/news/first-team/458586-match-report-reds-beaten-by-real-madrid-at-anfield",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2022-23/research/independent-review-second.md"
+    },
+    {
+      "date": "2023-03-05",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "score": "Liverpool 7–0 Manchester United",
+      "slug": "liverpool-manchester-united-2023-seven-goal-record",
+      "reason": "Record rivalry victory and Salah becomes Liverpool Premier League record scorer.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beat-manchester-united-7-0-anfield",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2022-23/research/independent-review-second.md"
+    },
+    {
+      "date": "2023-04-30",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–3 Tottenham Hotspur",
+      "slug": "liverpool-tottenham-2023-jota-stoppage-time-winner",
+      "reason": "Three-goal lead lost before Jota late winner during final recovery.",
+      "primarySource": "https://www.liverpoolfc.com/news/diogo-jota-strikes-dramatic-winner-liverpool-beat-spurs-4-3-anfield",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2022-23/research/independent-review-second.md"
+    },
+    {
+      "date": "2023-05-20",
+      "opposition": "Aston Villa",
+      "oppositionId": "aston-villa",
+      "competitionId": "premier-league",
+      "score": "Liverpool 1–1 Aston Villa",
+      "slug": "liverpool-aston-villa-2023-firmino-anfield-farewell",
+      "reason": "Firmino scores on final Anfield appearance as winning run ends and top-four hopes diminish.",
+      "primarySource": "https://www.liverpoolfc.com/news/firmino-scores-late-equaliser-liverpool-draw-aston-villa",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2022-23/research/independent-review-second.md"
+    }
+  ],
+  "reusedPaths": [],
+  "omissions": [
+    "The 4–4 Southampton finale is omitted: a high score alone is insufficient, with farewell and qualification context already covered at Villa.",
+    "January league defeat at Brighton is context for the subsequent FA Cup elimination rather than a second Brighton article.",
+    "Arsenal 2–2 and Leeds 6–1 can establish the start of the late improvement; most of the seven-match winning run does not require separate reports.",
+    "Madrid second leg, routine European group victories and League Cup exit are campaign context rather than a report for every round."
+  ],
+  "limitations": [
+    "Reuse the existing calendar row 2022-10-12-rangers-liverpool-salah-hat-trick; it is selected/unwritten, not a finished report. Preserve any existing canonical slug when claimed.",
+    "Napoli and Rangers are missing canonical opposition identities in the initial registry; coordinator must resolve through existing entity system.",
+    "Napoli venue should use contemporary Stadio Diego Armando Maradona, as official report does; historical database retains older San Paolo naming.",
+    "Salah exact hat-trick interval is six minutes 12 seconds, corroborated by retrieved UEFA and Guinness records. UEFA summary table rounds this to seven minutes; its prose gives the exact timing.",
+    "Villa draw did not by itself mathematically end all top-four possibilities; distinguish the later confirmation.",
+    "Full line-ups, exact times, detailed action and contextual claims need independent cross-checks during manuscript production. No footage reviewed.",
+    "No manuscript may begin until the coordinator confirms remote claims and chronological previous-season checkpoint."
+  ]
+}

@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.uefa.com/uefachampionsleague/news/01a9-0ea7b3b80a98-7d3bd7a4260b-1000--garcia-leads-liverpool-to-turkey/","https://www.lfchistory.net/games/4927","https://www.lfchistory.net/articles/745","https://www.uefa.com/uefachampionsleague/news/01a8-0ea72a658089-8f4962a1b703-1000--red-army-holds-firm/","https://www.uefa.com/uefachampionsleague/news/01a9-0e6cc3a9938f-a41103827432-1000--chelsea-fall-under-weight-of-history/"]
 title: "Liverpool 1–0 Chelsea: García's goal and a place in Istanbul"
 # date: assigned only at approved publication
 historicalEventDate: "2005-05-03"

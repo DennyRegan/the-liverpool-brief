@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/5042","https://www.uefa.com/uefachampionsleague/news/01be-0e6e2c719dd8-25a0eb2ceed3-1000--liverpool-stun-holders-barca/","https://www.anfield-online.co.uk/fixtures/2007/uefa/barcelona-away.html","https://www.uefa.com/uefachampionsleague/news/01bf-0e6e334a9a42-e2f5f677eb95-1000--liverpool-end-barca-challenge/"]
 title: "Bellamy and Riise turn the tie at Camp Nou"
 slug: "barcelona-liverpool-2007-bellamy-riise-camp-nou"
 excerpt: "Liverpool recovered from Deco’s header to beat the European champions 2–1 away."

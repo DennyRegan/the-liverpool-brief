@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2321","https://www.uefa.com/uefaeuropaleague/news/0254-0d7b1e978a65-a92fb6106c91-1000--2000-01-liverpool-prevail-in-nine-goal-thriller/","https://www.lfchistory.net/articles/2001","https://www.liverpoolfc.com/news/features/433523-treble-memories-the-bizarre-night-liverpool-weren-t-sure-they-had-won"]
 title: "Liverpool 5 Alavés 4: the treble ends with a golden own goal"
 slug: "liverpool-alaves-2001-uefa-cup-treble"
 excerpt: "Liverpool repeatedly lost control of the UEFA Cup final before Delfí Geli's own goal in extra time completed their three-cup season."

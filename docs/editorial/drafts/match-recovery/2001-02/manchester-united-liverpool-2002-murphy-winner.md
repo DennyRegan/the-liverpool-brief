@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2360","https://www.lfchistory.net/articles/1139","https://www.liverpoolfc.com/news/first-team/293436-8-man-utd-0-1-liverpool-jan-22-2002"]
 title: "Murphy wins at Old Trafford again"
 slug: "manchester-united-liverpool-2002-murphy-winner"
 # date: assigned only at approved publication

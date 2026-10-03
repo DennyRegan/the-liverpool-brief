@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2436","https://www.uefa.com/uefaeuropaleague/news/018f-0e6a5e581d23-5c35338ccd3f-1000--celtic-end-liverpool-s-hopes/","https://www.irishtimes.com/news/hartson-sets-up-celtic-for-semi-final-date-1.467670"]
 title: "Thompson and Hartson end Liverpool's UEFA Cup run"
 slug: "liverpool-celtic-2003-anfield-exit"
 # date: assigned only at approved publication

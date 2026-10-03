@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2449","https://www.anfield-online.co.uk/fixtures/2004/premiership/evertonaway.html","https://www.liverpoolfc.com/news/first-team/120390-most-exciting-pl-games-63","https://www.lfchistory.net/season-archive/games/46"]
 title: "Everton 0–3 Liverpool: Owen and Kewell lift the pressure"
 # date: assigned only at approved publication
 historicalEventDate: "2003-08-30"

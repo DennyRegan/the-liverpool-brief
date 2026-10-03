@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/5044","https://www.uefa.com/uefachampionsleague/news/025a-0eaa480f777b-3d71a5485ccf-1000--classy-liverpool-punish-psv/","https://www.anfield-online.co.uk/fixtures/2007/uefa/psv-eindhoven-quarter-final-1st-leg.html","https://www.uefa.com/uefachampionsleague/news/01c0-0ea8a82af3dd-e2f4adb1f3a5-1000--liverpool-confirm-aurelio-absence/"]
 title: "Three away goals put Liverpool in control at PSV"
 slug: "psv-liverpool-2007-three-away-goals"
 excerpt: "Gerrard, Riise and Crouch gave Liverpool a commanding Champions League quarter-final lead."

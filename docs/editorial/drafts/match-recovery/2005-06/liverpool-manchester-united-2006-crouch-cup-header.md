@@ -1,4 +1,5 @@
 ---
+sources: ["https://lfchistory.net/games/4985","https://www.theguardian.com/football/2006/feb/19/match.liverpool","https://www.liverpoolfc.com/news/story-gerrard-final","https://lfchistory.net/articles/1051","https://www.uefa.com/news-media/news/01b2-0f848596e9e3-cb12af14bd56-1000--smith-suffers-serious-leg-injury/"]
 title: "Crouch’s header ends Liverpool’s long FA Cup wait against United"
 slug: "liverpool-manchester-united-2006-crouch-cup-header"
 excerpt: "A first-half goal at Anfield secured Liverpool’s first FA Cup victory over Manchester United since 1921."

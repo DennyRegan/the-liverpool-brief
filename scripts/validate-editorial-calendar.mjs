@@ -14,6 +14,12 @@ import { getHistory, getArticleEraIds } from '../lib/content/history.ts';
 import { publicationClassSchema, isPublicStatus, validateAutomaticHistory } from './automatic-history-state.mjs';
 
 export const calendarPath = 'docs/editorial/history-calendar.json';
+// Liverpool's 2019–20 competitive season ended on 26 July after the COVID pause.
+export function seasonForLiverpoolMatchDate(date) {
+  const year = date >= '2020-07-01' && date <= '2020-07-26' ? 2019
+    : Number(date.slice(0, 4)) - (Number(date.slice(5, 7)) < 7 ? 1 : 0);
+  return `${year}-${String((year + 1) % 100).padStart(2, '0')}`;
+}
 const text = z.string().min(1);
 // Denny authorised Sol 6.1 research/writing on 3 October 2026; retain Astra provenance.
 const productionModel = z.enum(['gpt-6-astra', 'gpt-6.1-sol']);
@@ -155,8 +161,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
         assert.ok(file.startsWith('docs/editorial/drafts/') && !file.split('/').includes('..'), `${e.id}: unsafe source path`);
         assert.ok(fs.existsSync(path.join(root, file)), `${e.id}: missing source ${file}`);
       }
-      const year = Number(e.historicalEventDate.slice(0, 4)) - (Number(e.historicalEventDate.slice(5, 7)) < 7 ? 1 : 0);
-      assert.equal(m.season, `${year}-${String((year + 1) % 100).padStart(2, '0')}`, `${e.id}: match outside production season`);
+      assert.equal(m.season, seasonForLiverpoolMatchDate(e.historicalEventDate), `${e.id}: match outside production season`);
       if (['ready_for_review', 'approved', 'publication_pending', 'published'].includes(e.status)) assert.equal(m.completed, true, `${e.id}: finished status requires completed research`);
       if (!isPublicStatus(e.status)) {
         assert.equal(e.publishedDestination, null, `${e.id}: unpublished production has a destination`);
@@ -194,8 +199,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
       const article = matter(fs.readFileSync(path.join(root, articlePath), 'utf8'));
       assert.equal(article.data.articleType, 'match', `${e.id}: recovered content must be a match report`);
       assert.equal(article.data.historicalEventDate, e.historicalEventDate, `${e.id}: match date mismatch`);
-      const year = Number(e.historicalEventDate.slice(0, 4)) - (Number(e.historicalEventDate.slice(5, 7)) < 7 ? 1 : 0);
-      assert.equal(article.data.season, `${year}-${String((year + 1) % 100).padStart(2, '0')}`, `${e.id}: match outside principal season`);
+      assert.equal(article.data.season, seasonForLiverpoolMatchDate(e.historicalEventDate), `${e.id}: match outside principal season`);
       if (!isPublicStatus(e.status)) {
         assert.ok(!Object.hasOwn(article.data, 'date'), `${e.id}: recovered draft has publication date`);
         assert.ok(!articles.has(`/archive/${article.data.slug}`), `${e.id}: recovered unpublished slug is public`);
@@ -252,7 +256,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
     for (const file of b.reusedPaths) assert.ok(fs.existsSync(path.join(root, file)), `${b.id}: missing reused article`);
     assert.equal(new Set(b.selectedRowIds).size, b.selectedRowIds.length, `${b.id}: duplicate selected row`);
     for (const id of b.selectedRowIds) {
-      const row = matches.find(r => r.id === id);
+      const row = [...entries, ...matches].find(r => r.id === id);
       assert.ok(row?.matchProduction?.batchId === b.id, `${b.id}: selection belongs to another batch`);
       if (b.stage === 'checkpointed') {
         assert.ok(['ready_for_review', 'approved', 'publication_pending', 'published'].includes(row.status), `${b.id}: unfinished checkpoint`);

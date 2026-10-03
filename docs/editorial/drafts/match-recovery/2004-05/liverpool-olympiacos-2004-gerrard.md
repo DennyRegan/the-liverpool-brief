@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.uefa.com/uefachampionsleague/news/025a-0eaa7b44489a-c0736ab84019-1000/","https://www.uefa.com/uefachampionsleague/news/01a4-0e6b5b78a8f9-7dd91c139190-1000--benitez-hails-fans-and-gerrard/","https://www.lfchistory.net/games/4917","https://www.uefa.com/uefachampionsleague/news/01a1-0e6c488482fa-47842e115c06-1000--stoltidis-sends-olympiacos-to-summit/"]
 title: "Liverpool 3–1 Olympiacos: Gerrard completes the escape"
 # date: assigned only at approved publication
 historicalEventDate: "2004-12-08"

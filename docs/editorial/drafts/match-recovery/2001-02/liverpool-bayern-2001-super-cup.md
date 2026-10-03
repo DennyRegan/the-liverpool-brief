@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2327","https://www.uefa.com/uefasupercup/history/2001/","https://www.liverpoolfc.com/history/honours/uefa-super-cup"]
 title: "Liverpool hold off Bayern to win the Super Cup"
 slug: "liverpool-bayern-2001-super-cup"
 # date: assigned only at approved publication

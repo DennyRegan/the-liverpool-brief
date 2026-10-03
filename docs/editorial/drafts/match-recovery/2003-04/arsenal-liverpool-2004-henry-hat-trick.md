@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2477","https://www.lfchistory.net/articles/1711"]
 title: "Arsenal 4–2 Liverpool: Henry overturns the half-time lead"
 # date: assigned only at approved publication
 historicalEventDate: "2004-04-09"

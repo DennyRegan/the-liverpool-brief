@@ -1,0 +1,279 @@
+{
+  "season": "2023-24",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2019_2025",
+  "purpose": "Supporting broad selection evidence only; history-calendar.json remains authoritative. No manuscript drafted.",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/133",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Retrieved complete competitive ledger: dates, scores, venues, competitions and league-position sequence."
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/133",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Retrieved final league standings and points, separated from interim matchday positions."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/darwin-nunezs-late-double-sees-10-man-liverpool-beat-newcastle-st-james-park?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2023-08-27: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/nine-man-liverpool-beaten-tottenham-hotspur-premier-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2023-09-30: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/trent-alexander-arnolds-late-strike-gives-liverpool-dramatic-4-3-win-over-fulham?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2023-12-03: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-reach-fa-cup-fourth-round-after-victory-arsenal?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-01-07: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-power-4-1-premier-league-victory-over-chelsea?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-01-31: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/virgil-van-dijk-scores-extra-time-give-liverpool-victory-over-chelsea-carabao-cup-final",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-02-25: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/darwin-nunez-scores-99th-minute-winner-away-nottingham-forest",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-03-02: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/alexis-mac-allister-scores-penalty-liverpool-draw-1-1-man-city-anfield",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-03-10: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-exit-fa-cup-after-dramatic-4-3-defeat-old-trafford?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-03-17: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-beaten-atalanta-europa-league-quarter-final-first-leg-anfield",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-04-11: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/match-report-liverpool-beaten-244th-merseyside-derby",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-04-24: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-beat-wolves-end-jurgen-klopp-era-win-anfield",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-05-19: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.premierleague.com/en/news/3709629",
+      "provider": "Premier League / PGMOL",
+      "confidence": "High",
+      "scope": "Retrieved official acknowledgement that Diaz offside ruling was wrong and VAR failed to intervene."
+    },
+    {
+      "url": "https://www.premierleague.com/en/news/3718057",
+      "provider": "Premier League / PGMOL",
+      "confidence": "High",
+      "scope": "Retrieved subsequent official review explanation of miscommunication and procedural changes; no motives inferred."
+    },
+    {
+      "url": "https://www.premierleague.com/en/news/3917114",
+      "provider": "Premier League",
+      "confidence": "High",
+      "scope": "Retrieved Forest report establishes 98:35 winner, first away league win there since October 1984 and timing-record qualification from 2006–07."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-eliminated-europa-league-despite-second-leg-win-over-atalanta",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Retrieved second-leg report establishes 3–1 aggregate elimination despite 1–0 win on 18 April."
+    }
+  ],
+  "selected": [
+    {
+      "date": "2023-08-27",
+      "opposition": "Newcastle United",
+      "oppositionId": "newcastle-united",
+      "competitionId": "premier-league",
+      "score": "Newcastle United 1–2 Liverpool",
+      "slug": "newcastle-liverpool-2023-nunez-ten-man-comeback",
+      "reason": "Substitute Nunez late double turns defeat into victory after Van Dijk dismissal.",
+      "primarySource": "https://www.liverpoolfc.com/news/darwin-nunezs-late-double-sees-10-man-liverpool-beat-newcastle-st-james-park?amp=1",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review.md"
+    },
+    {
+      "date": "2023-09-30",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "score": "Tottenham Hotspur 2–1 Liverpool",
+      "slug": "tottenham-liverpool-2023-nine-men-var-error",
+      "reason": "Nine-man defeat includes officially acknowledged Diaz offside error and stoppage-time own goal.",
+      "primarySource": "https://www.liverpoolfc.com/news/nine-man-liverpool-beaten-tottenham-hotspur-premier-league",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review.md"
+    },
+    {
+      "date": "2023-12-03",
+      "opposition": "Fulham",
+      "oppositionId": "fulham",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–3 Fulham",
+      "slug": "liverpool-fulham-2023-two-late-goals",
+      "reason": "Endo and Alexander-Arnold transform late deficit into seven-goal victory.",
+      "primarySource": "https://www.liverpoolfc.com/news/trent-alexander-arnolds-late-strike-gives-liverpool-dramatic-4-3-win-over-fulham?amp=1",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review.md"
+    },
+    {
+      "date": "2024-01-07",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "fa-cup",
+      "score": "Arsenal 0–2 Liverpool",
+      "slug": "arsenal-liverpool-2024-fa-cup-away-win",
+      "reason": "Significant away victory over title rivals in FA Cup third round despite absent senior players.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-reach-fa-cup-fourth-round-after-victory-arsenal?amp=1",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review.md"
+    },
+    {
+      "date": "2024-01-31",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–1 Chelsea",
+      "slug": "liverpool-chelsea-2024-bradley-breakthrough",
+      "reason": "Bradley first goal and two assists in first league match after Klopp departure announcement.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-power-4-1-premier-league-victory-over-chelsea?amp=1",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review.md"
+    },
+    {
+      "date": "2024-02-25",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "league-cup",
+      "score": "Chelsea 0–1 Liverpool after extra time",
+      "slug": "chelsea-liverpool-2024-van-dijk-wembley-winner",
+      "reason": "Tenth League Cup secured by captain late in extra time with academy substitutes contributing.",
+      "primarySource": "https://www.liverpoolfc.com/news/virgil-van-dijk-scores-extra-time-give-liverpool-victory-over-chelsea-carabao-cup-final",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review.md"
+    },
+    {
+      "date": "2024-03-02",
+      "opposition": "Nottingham Forest",
+      "oppositionId": "nottingham-forest",
+      "competitionId": "premier-league",
+      "score": "Nottingham Forest 0–1 Liverpool",
+      "slug": "nottingham-forest-liverpool-2024-ninety-ninth-minute-winner",
+      "reason": "Exceptionally late title-race winner and first away league win at Forest since 1984.",
+      "primarySource": "https://www.liverpoolfc.com/news/darwin-nunez-scores-99th-minute-winner-away-nottingham-forest",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review-second.md"
+    },
+    {
+      "date": "2024-03-10",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 1–1 Manchester City",
+      "slug": "liverpool-manchester-city-2024-final-klopp-guardiola-league-meeting",
+      "reason": "Title-race draw in final Premier League meeting between Klopp and Guardiola.",
+      "primarySource": "https://www.liverpoolfc.com/news/alexis-mac-allister-scores-penalty-liverpool-draw-1-1-man-city-anfield",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review-second.md"
+    },
+    {
+      "date": "2024-03-17",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "fa-cup",
+      "score": "Manchester United 4–3 Liverpool after extra time",
+      "slug": "manchester-united-liverpool-2024-extra-time-cup-exit",
+      "reason": "Lead lost in normal and extra time as seven-goal quarter-final ends four-trophy hopes.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-exit-fa-cup-after-dramatic-4-3-defeat-old-trafford?amp=1",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review-second.md"
+    },
+    {
+      "date": "2024-04-11",
+      "opposition": "Atalanta",
+      "oppositionId": "atalanta",
+      "competitionId": "uefa-cup",
+      "score": "Liverpool 0–3 Atalanta",
+      "slug": "liverpool-atalanta-2024-anfield-european-defeat",
+      "reason": "Heavy quarter-final first-leg defeat in Klopp final European home match.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beaten-atalanta-europa-league-quarter-final-first-leg-anfield",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review-second.md"
+    },
+    {
+      "date": "2024-04-24",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Everton 2–0 Liverpool",
+      "slug": "everton-liverpool-2024-title-challenge-blow",
+      "reason": "First Goodison league defeat since 2010 and major late title-race setback.",
+      "primarySource": "https://www.liverpoolfc.com/news/match-report-liverpool-beaten-244th-merseyside-derby",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review-second.md"
+    },
+    {
+      "date": "2024-05-19",
+      "opposition": "Wolverhampton Wanderers",
+      "oppositionId": "wolverhampton-wanderers",
+      "competitionId": "premier-league",
+      "score": "Liverpool 2–0 Wolverhampton Wanderers",
+      "slug": "liverpool-wolves-2024-klopp-final-match",
+      "reason": "Klopp final match ends with win after third place already secured.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beat-wolves-end-jurgen-klopp-era-win-anfield",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2023-24/research/independent-review-second.md"
+    }
+  ],
+  "reusedPaths": [],
+  "omissions": [
+    "Crystal Palace home defeat belongs as verified context for April title-race decline in the Everton report rather than another overlapping standalone defeat.",
+    "Southampton FA Cup youth victory and Fulham League Cup semi-final are contextual support for the Wembley team, not required separate reports.",
+    "Ordinary league wins and Europa League group/Sparta ties are omitted; no attempt is made to reproduce every fixture.",
+    "Atalanta second-leg win is covered as the aftermath of the damaging Anfield first leg."
+  ],
+  "limitations": [
+    "Atalanta requires canonical opposition resolution by the coordinator.",
+    "PGMOL acknowledged the Diaz offside error; do not imply the sendings-off or ultimate result were reversed, and do not speculate about motives.",
+    "Fulham opener was an own goal by Bernd Leno following Alexander-Arnold free-kick; do not credit Alexander-Arnold with two goals.",
+    "Forest latest-winner record is explicitly limited to available Premier League timing records from 2006–07 onwards. The Premier League page title-race table now displays final standings; use dated narrative for matchday position.",
+    "Everton defeat badly damaged the title challenge but did not mathematically eliminate Liverpool that evening.",
+    "Chelsea final substitution times differ by one minute between club providers; use event-minute convention consistently or omit exact substitution times.",
+    "Full line-ups, exact times, detailed action and contextual claims need independent cross-checks during manuscript production. No footage reviewed.",
+    "No manuscript may begin until the coordinator confirms remote claims and chronological previous-season checkpoint."
+  ]
+}

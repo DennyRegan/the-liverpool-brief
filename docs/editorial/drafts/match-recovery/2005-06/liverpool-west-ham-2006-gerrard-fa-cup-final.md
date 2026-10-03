@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4990","https://www.thefa.com/news/2020/apr/05/liverpool-west-ham-classic-fa-cup-final-report-030420","https://www.uefa.com/news-media/news/01b5-0f8488e8fc90-675d6abd574b-1000--liverpool-prevail-in-cup-classic/","https://www.liverpoolfc.com/news/story-gerrard-final","https://www.liverpoolfc.com/news/first-team/185107-on-this-day-the-gerrard-cup-final"]
 title: "Gerrard’s equaliser gives Reina the chance to win the Cup"
 slug: "liverpool-west-ham-2006-gerrard-fa-cup-final"
 excerpt: "Liverpool recovered from 2–0 and 3–2 down before three penalty saves secured the 2006 FA Cup."

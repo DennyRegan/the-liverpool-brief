@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4924","https://www.uefa.com/uefachampionsleague/news/025a-0eaa166a815c-3a86a0969fd6-1000--golden-garcia-illuminates-anfield/","https://www.uefa.com/uefachampionsleague/news/0253-0d7b89fe7b7f-c91716d11bdf-1000--2004-05-liverpool-belief-defies-milan/"]
 title: "Liverpool 2–1 Juventus: Hyypiä and García establish the advantage"
 # date: assigned only at approved publication
 historicalEventDate: "2005-04-05"

@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.uefa.com/uefachampionsleague/news/0250-0c50f2820ac1-0d73022c807f-1000--liverpool-triumph-in-turkey/","https://www.lfchistory.net/games/4928","https://www.liverpoolfc.com/news/features/351604-liverpool-2005-champions-league-final-istanbul","https://www.the-independent.com/sport/football/european/vintage-liverpool-produce-epic-response-and-triumph-in-turkey-492104.html","https://www.uefa.com/uefachampionsleague/news/0253-0d7b89fe7b7f-c91716d11bdf-1000--2004-05-liverpool-belief-defies-milan/"]
 title: "Liverpool 3–3 AC Milan: the final Istanbul still talks about"
 # date: assigned only at approved publication
 historicalEventDate: "2005-05-25"

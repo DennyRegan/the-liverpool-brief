@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2381","https://www.lfchistory.net/articles/1156","https://www.uefa.com/news-media/news/0185-0e6a42c5e6fc-94d9d98cb396-1000--england-round-up-liverpool-sink-ipswich/","https://www.liverpoolfc.com/news/first-team/301350-8-liverpool-5-0-ipswich-may-11-2002"]
 title: "Riise's double sets Liverpool on course for second place"
 slug: "liverpool-ipswich-2002-second-place"
 # date: assigned only at approved publication

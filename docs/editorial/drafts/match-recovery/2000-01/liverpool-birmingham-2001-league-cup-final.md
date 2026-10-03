@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2302","https://www.lfchistory.net/articles/2209","https://www.liverpoolfc.com/news/first-team/115933-league-cup-final-memories-2001","https://www.liverpoolfc.com/news/features/432945-treble-memories-the-day-in-cardiff-that-inspired-liverpool-s-trophy-haul"]
 title: "Liverpool 1 Birmingham 1: Westerveld wins the first cup"
 slug: "liverpool-birmingham-2001-league-cup-final"
 excerpt: "Liverpool's six-year wait for a trophy ended in a penalty shootout after Birmingham had rescued the League Cup final in stoppage time."

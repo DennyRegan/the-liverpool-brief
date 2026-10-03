@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2376","https://www.uefa.com/uefachampionsleague/news/0184-0e6a3e76680c-16b1f4ba39cd-1000--leverkusen-joy-as-liverpool-fall/","https://www.lfchistory.net/articles/3261"]
 title: "Lúcio ends Liverpool's European run after Litmanen's reprieve"
 slug: "leverkusen-liverpool-2002-quarter-final-exit"
 # date: assigned only at approved publication

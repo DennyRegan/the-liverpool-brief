@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2444","https://www.lfchistory.net/articles/1674","https://www.uefa.com/news-media/news/0191-0f844ca5200d-78c09a2849a8-1000--england-round-up-chelsea-book-champions-league-berth/","https://www.chelseafc.com/en/news/article/remember-when----liverpool--may-2003"]
 title: "Liverpool lose the final-day contest for fourth place"
 slug: "chelsea-liverpool-2003-champions-league-place"
 # date: assigned only at approved publication

@@ -1,0 +1,337 @@
+{
+  "season": "2011-12",
+  "model": "gpt-6.1-sol",
+  "workerId": "/root/sol_1968_69",
+  "retrievedOn": "2026-10-03",
+  "preservedPriorManifest": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
+  "draftingStatus": "Held until root confirms remote claims and releases after 2010–11 checkpoint.",
+  "matches": [
+    {
+      "date": "2011-08-20",
+      "slug": "suarez-arsenal-away-win-2011",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "score": "0–2",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "title": "Liverpool finally win at Arsenal",
+      "editorialReason": "First league win of the campaign and first away victory at Arsenal since 2000; substitutes help settle the game.",
+      "sourcesURLs": [
+        "https://www.uefa.com/news-media/news/01f4-0ea2990dde06-8121dc12dca7-1000--arsenal-unravelled-by-liverpool-chelsea-rally/",
+        "https://www.skysports.com/football/arsenal-vs-liverpool/report/237887",
+        "https://www.liverpoolfc.com/news/first-team/109963-arsenal-0-2-lfc-the-press-view",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/suarez-arsenal-away-win-2011-notes.md",
+      "origin": "New Sol selection following whole-season reassessment."
+    },
+    {
+      "date": "2011-09-18",
+      "slug": "nine-man-liverpool-spurs-defeat-2011",
+      "home": "Tottenham Hotspur",
+      "away": "Liverpool",
+      "score": "4–0",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "title": "Nine-man Liverpool beaten heavily at Tottenham",
+      "editorialReason": "Major early league setback: Adam and Skrtel dismissed, Agger injured, four goals conceded.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/111205-nine-man-reds-sunk-at-spurs",
+        "https://www.skysports.com/football/tottenham-hotspur-vs-liverpool/245405",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/nine-man-liverpool-spurs-defeat-2011-notes.md",
+      "origin": "New Sol selection following whole-season reassessment."
+    },
+    {
+      "date": "2011-10-01",
+      "slug": "carroll-suarez-goodison-derby-2011",
+      "home": "Everton",
+      "away": "Liverpool",
+      "score": "0–2",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "title": "Carroll and Suárez settle the Goodison derby",
+      "editorialReason": "Meaningful away derby victory after Kuyt penalty save and controversial Rodwell dismissal later rescinded.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/111524-carroll-off-mark-in-derby-win",
+        "https://www.skysports.com/football/everton-vs-liverpool/237940",
+        "https://www.skysports.com/football/news/20876/7223255/rodwell-wins-red-card-appeal",
+        "https://www.lfchistory.net/games/5280",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/carroll-suarez-goodison-derby-2011-notes.md",
+      "origin": "New Sol selection following whole-season reassessment."
+    },
+    {
+      "date": "2011-11-20",
+      "slug": "johnson-late-chelsea-winner-2011",
+      "home": "Chelsea",
+      "away": "Liverpool",
+      "score": "1–2",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "title": "Johnson returns to Chelsea with a late winner",
+      "editorialReason": "Distinct late league winner by former Chelsea player; follows Maxi opener and Sturridge equaliser, preceding cup return nine days later.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/112748-maxi-and-glen-seal-chelsea-win",
+        "https://www.skysports.com/football/chelsea-vs-liverpool/245420",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/johnson-late-chelsea-winner-2011-notes.md",
+      "origin": "New Sol selection following whole-season reassessment."
+    },
+    {
+      "date": "2011-11-29",
+      "slug": "bellamy-kelly-chelsea-cup-win-2011",
+      "home": "Chelsea",
+      "away": "Liverpool",
+      "score": "0–2",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "league-cup",
+      "title": "Chelsea 0–2 Liverpool",
+      "editorialReason": "Away quarter-final win with two Bellamy assists and Kelly’s first Liverpool goal.",
+      "sourcesURLs": [
+        "https://www.skysports.com/football/chelsea-vs-liverpool/report/251226",
+        "https://www.liverpoolfc.com/news/first-team/113091-lfcctv-bellamy-v-chelsea",
+        "https://www.lfchistory.net/players/1203",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/bellamy-kelly-chelsea-cup-win-2011-notes.md",
+      "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
+    },
+    {
+      "date": "2012-01-25",
+      "slug": "bellamy-sends-liverpool-wembley-2012",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "score": "2–2",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "league-cup",
+      "title": "Liverpool 2–2 Manchester City",
+      "editorialReason": "Bellamy equaliser seals 3–2 aggregate semi-final win and first Wembley visit since 1996.",
+      "sourcesURLs": [
+        "https://www.uefa.com/news-media/news/01f9-0e7b92b8f0cd-fb17930a87a2-1000--liverpool-edge-into-league-cup-final/",
+        "https://www.skysports.com/football/liverpool-vs-man-city/253443",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/bellamy-sends-liverpool-wembley-2012-notes.md",
+      "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
+    },
+    {
+      "date": "2012-01-28",
+      "slug": "kuyt-late-united-fa-cup-winner-2012",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "score": "2–1",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "fa-cup",
+      "title": "Liverpool 2–1 Manchester United",
+      "editorialReason": "Late substitute goal wins major fourth-round tie.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/114894-late-kuyt-strike-seals-cup-win",
+        "https://www.uefa.com/news-media/news/01f9-0e7cc9670f76-57dce27e759a-1000--liverpool-oust-united-chelsea-triumph/",
+        "https://www.pacma.org.uk/ligali/pdf/FA_v_Suarez_Written_Reasons_of_Regulatory_Commission.pdf",
+        "https://www.skysports.com/football/news/11669/7389270/suarez-handed-eight-match-ban",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/kuyt-late-united-fa-cup-winner-2012-notes.md",
+      "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
+    },
+    {
+      "date": "2012-02-19",
+      "slug": "liverpool-brighton-six-fa-cup-2012",
+      "home": "Liverpool",
+      "away": "Brighton & Hove Albion",
+      "score": "6–1",
+      "opposition": "Brighton & Hove Albion",
+      "oppositionId": "brighton-hove-albion",
+      "competitionId": "fa-cup",
+      "title": "Liverpool hit six to reach the FA Cup quarter-finals",
+      "editorialReason": "Unusual own-goal sequence and biggest win of campaign, reaching quarter-finals one week before League Cup final; fourth-goal attribution must be bounded.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/116088-three-ogs-as-reds-hit-six",
+        "https://www.uefa.com/news-media/news/0254-0d7dbe45b403-5a8882a5ef14-1000--liverpool-hit-six-but-spurs-suffer-stalemate/",
+        "https://www.lfchistory.net/games/5321",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/liverpool-brighton-six-fa-cup-2012-notes.md",
+      "origin": "New Sol selection following whole-season reassessment."
+    },
+    {
+      "date": "2012-02-26",
+      "slug": "liverpool-cardiff-league-cup-final-2012",
+      "home": "Liverpool",
+      "away": "Cardiff City",
+      "score": "2–2",
+      "opposition": "Cardiff City",
+      "oppositionId": "cardiff-city",
+      "competitionId": "league-cup",
+      "title": "Liverpool 2–2 Cardiff City",
+      "editorialReason": "First major trophy since 2006 after extra time and penalties.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/116353-carling-cup-glory-for-reds",
+        "https://www.uefa.com/news-media/news/01fa-0e7c25cf0384-d61fa0883c7d-1000--liverpool-lift-league-cup-after-penalty-shoot-out/",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/liverpool-cardiff-league-cup-final-2012-notes.md",
+      "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
+    },
+    {
+      "date": "2012-03-13",
+      "slug": "gerrard-derby-hat-trick-2012",
+      "home": "Liverpool",
+      "away": "Everton",
+      "score": "3–0",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "title": "Liverpool 3–0 Everton",
+      "editorialReason": "Captain’s hat-trick in his 400th Premier League appearance.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/116841-stevie-treble-wins-the-derby",
+        "https://www.uefa.com/news-media/news/01fb-0f87fac4134f-9a857d2f03c8-1000--gerrard-treble-halts-liverpool-slide-against-everton/",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121",
+        "https://www.skysports.com/football/liverpool-vs-everton/257457"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/gerrard-derby-hat-trick-2012-notes.md",
+      "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
+    },
+    {
+      "date": "2012-03-21",
+      "slug": "qpr-three-late-goals-2012",
+      "home": "Queens Park Rangers",
+      "away": "Liverpool",
+      "score": "3–2",
+      "opposition": "Queens Park Rangers",
+      "oppositionId": "queens-park-rangers",
+      "competitionId": "premier-league",
+      "title": "Queens Park Rangers 3–2 Liverpool",
+      "editorialReason": "Two-goal lead lost late; a defining setback in poor league campaign.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/117175-late-goals-leave-reds-frustrated",
+        "https://www.the-independent.com/sport/football/premier-league/jamie-mackie-completes-stunning-qpr-comeback-against-liverpool-7580768.html",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/qpr-three-late-goals-2012-notes.md",
+      "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
+    },
+    {
+      "date": "2012-04-10",
+      "slug": "carroll-blackburn-jones-penalty-save-2012",
+      "home": "Blackburn Rovers",
+      "away": "Liverpool",
+      "score": "2–3",
+      "opposition": "Blackburn Rovers",
+      "oppositionId": "blackburn-rovers",
+      "competitionId": "premier-league",
+      "title": "Carroll wins a night of goalkeeper drama at Blackburn",
+      "editorialReason": "Doni dismissal, Jones immediate penalty save, two-goal lead lost and injury-time Carroll winner; direct consequence for Wembley goalkeeper four days later.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/118080-carroll-wins-it-as-doni-sees-red",
+        "https://www.skysports.com/football/blackburn-vs-liverpool/257255",
+        "https://www.lfchistory.net/games/5306",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/carroll-blackburn-jones-penalty-save-2012-notes.md",
+      "origin": "New Sol selection following whole-season reassessment."
+    },
+    {
+      "date": "2012-04-14",
+      "slug": "carroll-wembley-derby-winner-2012",
+      "home": "Liverpool",
+      "away": "Everton",
+      "score": "2–1",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "fa-cup",
+      "title": "Liverpool 2–1 Everton",
+      "editorialReason": "Comeback semi-final win sends Liverpool to second domestic final.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/announcements/392886-watch-again-2012-liverpool-v-everton-fa-cup-semi-final-in-full",
+        "https://www.skysports.com/football/liverpool-vs-everton/report/258338",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/carroll-wembley-derby-winner-2012-notes.md",
+      "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
+    },
+    {
+      "date": "2012-04-28",
+      "slug": "suarez-first-hat-trick-norwich-2012",
+      "home": "Norwich City",
+      "away": "Liverpool",
+      "score": "0–3",
+      "opposition": "Norwich City",
+      "oppositionId": "norwich-city",
+      "competitionId": "premier-league",
+      "title": "Norwich City 0–3 Liverpool",
+      "editorialReason": "Suárez’s first club hat-trick completed with exceptional long-range lob.",
+      "sourcesURLs": [
+        "https://www.liverpoolfc.com/news/first-team/118801-super-suarez-sinks-canaries",
+        "https://www.skysports.com/football/norwich-city-vs-liverpool/238230",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121",
+        "https://www.liverpoolfc.com/info/luis-suarez"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/suarez-first-hat-trick-norwich-2012-notes.md",
+      "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
+    },
+    {
+      "date": "2012-05-05",
+      "slug": "carroll-rally-fa-cup-final-2012",
+      "home": "Chelsea",
+      "away": "Liverpool",
+      "score": "2–1",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "fa-cup",
+      "title": "Chelsea 2–1 Liverpool",
+      "editorialReason": "Final defeat ends chance of domestic cup double despite Carroll-led recovery.",
+      "sourcesURLs": [
+        "https://www.uefa.com/news/01fd-0e7e11b4220e-e9939ea4380d-1000--chelsea-beat-liverpool-to-lift-seventh-fa-cup/",
+        "https://www.liverpoolfc.com/news/first-team/119099-final-heartbreak-for-reds",
+        "https://www.skysports.com/football/chelsea-vs-liverpool/report/258812",
+        "https://www.lfchistory.net/season-archive/games/121",
+        "https://www.lfchistory.net/season-archive/league-table/121"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/carroll-rally-fa-cup-final-2012-notes.md",
+      "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
+    }
+  ],
+  "reused": [],
+  "canonicalAdditionsNeeded": [],
+  "duplicateAudit": "All fifteen exact dates checked against current local public content and non-research manuscripts and all fetched origin branches; no completed report found. Current origin/main calendar read; no 2011–12 claims present before this selection.",
+  "deliberateOmissions": [
+    "Manchester City semi-final first leg: its 1–0 result and Gerrard penalty will be documented within the second-leg report; the decider supplies the distinct complete tie story.",
+    "Early League Cup rounds Exeter, Brighton and Stoke and FA Cup Oldham/Stoke: necessary route context, but selected quarter-final, decider, final and major FA Cup ties carry the strongest individual stories.",
+    "Liverpool 4–1 Chelsea on 8 May: strong final home result three days after FA Cup final, but limited league stakes; the final and November league/cup victories are selected.",
+    "Opening Sunderland draw, Bolton win, Newcastle home win, Wolves wins and other league victories do not supply a comparably strong distinct turning point or landmark.",
+    "Bolton, Wigan, Newcastle, West Bromwich Albion, Fulham and final Swansea setbacks: the selected Tottenham defeat and QPR collapse represent different substantial problems without making every defeat a separate report."
+  ],
+  "unresolvedFacts": [
+    "Brighton fourth goal: current club report footnote and LFChistory award it to Gerrard; contemporary independent reports list a second Bridcutt own goal. Explain source-specific attribution rather than present three own goals or a record as settled.",
+    "Norwich third-goal distances differ; describe a long-range lob, not an exact yardage.",
+    "FA Cup final Carroll header: no goal awarded; do not resolve contested line-crossing from text alone."
+  ],
+  "prewritingStatus": "All fifteen fresh Sol companion source notes saved with bounded source scopes, independent corroboration and conflicts; bodies still held."
+}

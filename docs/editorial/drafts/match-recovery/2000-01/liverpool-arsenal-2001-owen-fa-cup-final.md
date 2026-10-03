@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2320","https://www.liverpoolfc.com/news/first-team/119033-fa-cup-final-memories-2001","https://www.liverpoolfc.com/news/first-team/185092-on-this-day-owen-wins-the-fa-cup","https://www.lfchistory.net/articles/655"]
 title: "Liverpool 2 Arsenal 1: Owen turns the FA Cup final"
 slug: "liverpool-arsenal-2001-owen-fa-cup-final"
 excerpt: "Two Michael Owen goals in the closing minutes overturned Arsenal's lead and gave Liverpool their second trophy of the season."

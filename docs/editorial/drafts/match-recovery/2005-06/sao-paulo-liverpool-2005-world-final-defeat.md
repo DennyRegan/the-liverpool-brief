@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4982","https://www.lfchistory.net/articles/991","https://www.saopaulofc.net/campeao-do-mundo-de-2005/","https://www.uefa.com/news-media/news/01b0-0f847d60a198-5d052a5f19cc-1000--liverpool-fall-at-final-hurdle/"]
 title: "São Paulo hold Liverpool off in Yokohama"
 slug: "sao-paulo-liverpool-2005-world-final-defeat"
 excerpt: "Mineiro’s goal and Rogério Ceni’s resistance denied Liverpool the world title."

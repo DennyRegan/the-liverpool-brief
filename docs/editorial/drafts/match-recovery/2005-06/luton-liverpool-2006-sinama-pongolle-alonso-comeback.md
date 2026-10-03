@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4983","https://www.irishtimes.com/sport/soccer/super-sub-sinama-inspires-comeback-1.1186291","https://www.thefa.com/news/2016/jan/04/third-round-classic-goals-xabi-alonso-040116","https://www.liverpoolfc.com/news/story-gerrard-final"]
 title: "Sinama-Pongolle and Alonso rescue Liverpool at Luton"
 slug: "luton-liverpool-2006-sinama-pongolle-alonso-comeback"
 excerpt: "Liverpool recovered from 3–1 down at Kenilworth Road before Alonso finished the tie from his own half."

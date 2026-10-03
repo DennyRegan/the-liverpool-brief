@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2465","https://www.anfield-online.co.uk/fixtures/2004/premiership/chelseaaway.html","https://www.liverpoolfc.com/news/first-team/235348-no-7-bruno-on-the-mark-as-reds-sink-chelsea"]
 title: "Chelsea 0–1 Liverpool: Cheyrou settles a demanding night"
 # date: assigned only at approved publication
 historicalEventDate: "2004-01-07"

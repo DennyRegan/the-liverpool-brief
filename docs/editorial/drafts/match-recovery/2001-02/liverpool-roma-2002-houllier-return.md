@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2372","https://www.uefa.com/uefachampionsleague/news/025a-0eab05b4d63b-f1d6f404b334-1000--liverpool-win-edges-roma-out/","https://www.uefa.com/uefachampionsleague/news/025a-0eab08f98de4-1166fcc27417-1000--houllier-fillip-the-perfect-tonic/","https://www.lfchistory.net/articles/2303","https://www.uefa.com/uefachampionsleague/news/025a-0eab093d42bb-1dcf58e6c194-1000--liverpool-missing-owen/"]
 title: "Heskey sends Liverpool through on Houllier's return"
 slug: "liverpool-roma-2002-houllier-return"
 # date: assigned only at approved publication

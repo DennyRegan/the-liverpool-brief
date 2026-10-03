@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/5038","https://www.anfield-online.co.uk/fixtures/2007/carlingcup/arsenalqf.htm","https://www.irishtimes.com/sport/soccer/baptista-and-co-hit-liverpool-for-six-1.1230927"]
 title: "Baptista scores four as Arsenal hit Liverpool for six"
 slug: "liverpool-arsenal-2007-baptista-four-cup-exit"
 excerpt: "A 6–3 League Cup defeat completed two domestic cup exits against Arsenal in four days."
