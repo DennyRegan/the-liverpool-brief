@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T13:42:40.683505Z",
+  "updatedAt": "2026-10-03T14:18:08.301676Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -26208,15 +26208,19 @@
       "event": "Arsenal 3–4 Liverpool",
       "historicalEventDate": "2016-08-14",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "0bc73ca8-ab98-409d-9412-e774ad9cc3da",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Seven-goal season opener, Mané scoring debut and Coutinho brace.",
+      "notes": "Seven-goal season opener, Mané scoring debut and Coutinho brace. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
@@ -26237,10 +26241,13 @@
         "editorialReason": "Seven-goal season opener, Mané scoring debut and Coutinho brace.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/selection.json",
-          "docs/editorial/drafts/match-production/2016-17/research/season-research.md"
+          "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/arsenal-liverpool-2016-mane-debut-seven-goal-opener-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -26251,15 +26258,19 @@
       "event": "Liverpool 4–1 Leicester City",
       "historicalEventDate": "2016-09-10",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "0e08a648-8cea-4744-aef8-98c13ad4dfb4",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Expanded Main Stand first competitive match and victory over champions.",
+      "notes": "Expanded Main Stand first competitive match and victory over champions. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
@@ -26280,10 +26291,13 @@
         "editorialReason": "Expanded Main Stand first competitive match and victory over champions.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/selection.json",
-          "docs/editorial/drafts/match-production/2016-17/research/season-research.md"
+          "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-leicester-2016-main-stand-opening-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -26294,15 +26308,19 @@
       "event": "Liverpool 6–1 Watford",
       "historicalEventDate": "2016-11-06",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "33fbc808-7536-454d-bcff-01388d699d9e",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Six-goal win takes Klopp Liverpool top of the league.",
+      "notes": "Six-goal win takes Klopp Liverpool top of the league. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
@@ -26323,10 +26341,13 @@
         "editorialReason": "Six-goal win takes Klopp Liverpool top of the league.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/selection.json",
-          "docs/editorial/drafts/match-production/2016-17/research/season-research.md"
+          "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-watford-2016-six-goals-top-of-table-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -26337,15 +26358,19 @@
       "event": "Liverpool 2–0 Leeds United",
       "historicalEventDate": "2016-11-29",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "748d112b-f14c-41dd-84f7-f767cbd58ec5",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Woodburn becomes youngest Liverpool scorer in quarter-final victory.",
+      "notes": "Woodburn becomes youngest Liverpool scorer in quarter-final victory. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
@@ -26366,10 +26391,13 @@
         "editorialReason": "Woodburn becomes youngest Liverpool scorer in quarter-final victory.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/selection.json",
-          "docs/editorial/drafts/match-production/2016-17/research/season-research.md"
+          "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-leeds-2016-woodburn-youngest-scorer-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -26380,15 +26408,19 @@
       "event": "Bournemouth 4–3 Liverpool",
       "historicalEventDate": "2016-12-04",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "22b50e60-cd91-4639-8df2-50076477757d",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Major defensive collapse after 3–1 lead, illustrating inconsistent title challenge.",
+      "notes": "Major defensive collapse after 3–1 lead, illustrating inconsistent title challenge. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
@@ -26409,10 +26441,13 @@
         "editorialReason": "Major defensive collapse after 3–1 lead, illustrating inconsistent title challenge.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/selection.json",
-          "docs/editorial/drafts/match-production/2016-17/research/season-research.md"
+          "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/bournemouth-liverpool-2016-two-goal-lead-lost-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -26423,15 +26458,19 @@
       "event": "Everton 0–1 Liverpool",
       "historicalEventDate": "2016-12-19",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "6a2472e0-1e66-4228-849b-5594f9899305",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Stoppage-time derby winner at Goodison Park.",
+      "notes": "Stoppage-time derby winner at Goodison Park. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
@@ -26452,10 +26491,13 @@
         "editorialReason": "Stoppage-time derby winner at Goodison Park.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/selection.json",
-          "docs/editorial/drafts/match-production/2016-17/research/season-research.md"
+          "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/everton-liverpool-2016-mane-stoppage-time-derby-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -26466,15 +26508,19 @@
       "event": "Liverpool 0–1 Southampton",
       "historicalEventDate": "2017-01-25",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "5cb88c28-b731-45e9-bd85-a837c0cc27ef",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Semi-final elimination during January downturn; FA Cup exit belongs in verified immediate consequences.",
+      "notes": "Semi-final elimination during January downturn; FA Cup exit belongs in verified immediate consequences. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
@@ -26495,10 +26541,13 @@
         "editorialReason": "Semi-final elimination during January downturn; FA Cup exit belongs in verified immediate consequences.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/selection.json",
-          "docs/editorial/drafts/match-production/2016-17/research/season-research.md"
+          "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-southampton-2017-league-cup-semi-final-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -26509,15 +26558,19 @@
       "event": "Liverpool 2–0 Tottenham Hotspur",
       "historicalEventDate": "2017-02-11",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "13850044-8749-45f9-8472-05f884dd9f46",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Mané brace ends league winless sequence and restores top-four challenge.",
+      "notes": "Mané brace ends league winless sequence and restores top-four challenge. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
@@ -26538,10 +26591,13 @@
         "editorialReason": "Mané brace ends league winless sequence and restores top-four challenge.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/selection.json",
-          "docs/editorial/drafts/match-production/2016-17/research/season-research.md"
+          "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-tottenham-2017-mane-ends-winless-run-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -26552,15 +26608,19 @@
       "event": "Watford 0–1 Liverpool",
       "historicalEventDate": "2017-05-01",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "c374f257-6023-4016-9c93-59e0790c0adc",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Can overhead kick wins important top-four contest; individual landmark.",
+      "notes": "Can overhead kick wins important top-four contest; individual landmark. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
@@ -26581,10 +26641,13 @@
         "editorialReason": "Can overhead kick wins important top-four contest; individual landmark.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/selection.json",
-          "docs/editorial/drafts/match-production/2016-17/research/season-research.md"
+          "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/watford-liverpool-2017-can-overhead-kick-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -26595,15 +26658,19 @@
       "event": "Liverpool 3–0 Middlesbrough",
       "historicalEventDate": "2017-05-21",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "3740c3a3-ebbf-4c61-9bb5-6acd122251da",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Final-day win secures fourth and Champions League play-off place.",
+      "notes": "Final-day win secures fourth and Champions League play-off place. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2016-17/research/selection.json",
@@ -26624,10 +26691,13 @@
         "editorialReason": "Final-day win secures fourth and Champions League play-off place.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2016-17/research/selection.json",
-          "docs/editorial/drafts/match-production/2016-17/research/season-research.md"
+          "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-middlesbrough-2017-champions-league-return-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -32688,6 +32758,96 @@
         "workerId": "/root/sol_1968_69",
         "blockers": []
       }
+    },
+    {
+      "id": "match-2017-01-28-liverpool-wolves-2017-fa-cup-upset",
+      "event": "Liverpool 1–2 Wolverhampton Wanderers: Wolves knock Liverpool out of the FA Cup at Anfield",
+      "historicalEventDate": "2017-01-28",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "a2459368-8b02-49c4-b7e7-8a0a3071708a",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Distinct Championship FA Cup upset: first-minute goal, nine Liverpool changes and second domestic cup exit in four days. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "remaining-2016-17",
+        "season": "2016-17",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–2 Wolverhampton Wanderers",
+        "opposition": "Wolverhampton Wanderers",
+        "score": "1–2",
+        "editorialReason": "Distinct Championship FA Cup upset: first-minute goal, nine Liverpool changes and second domestic cup exit in four days.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/liverpool-wolves-2017-fa-cup-upset-notes.md"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2017-04-08-stoke-liverpool-2017-brazilian-substitute-comeback",
+      "event": "Stoke City 1–2 Liverpool: Coutinho and Firmino come off the bench to beat Stoke",
+      "historicalEventDate": "2017-04-08",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "bddff479-d1e4-49fe-86ee-618b9881d034",
+        "claimedAt": "2026-10-03T14:18:08.301676Z",
+        "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Distinct spring qualification comeback: both half-time substitutes score, and Mignolet makes two important saves. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "remaining-2016-17",
+        "season": "2016-17",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Stoke City 1–2 Liverpool",
+        "opposition": "Stoke City",
+        "score": "1–2",
+        "editorialReason": "Distinct spring qualification comeback: both half-time substitutes score, and Mignolet makes two important saves.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2016-17/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2016-17/research/stoke-liverpool-2017-brazilian-substitute-comeback-notes.md"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -33352,11 +33512,11 @@
     {
       "id": "remaining-2016-17",
       "season": "2016-17",
-      "stage": "season_research",
-      "owner": "gpt-6-astra /root/astra_2013_2019; remaining-match-production-2026-10-01",
-      "model": "gpt-6-astra",
-      "workerId": "/root/astra_2013_2019",
-      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/season-research.md",
+      "stage": "drafting",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03",
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/sol_1967_68",
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/sol-research-resumption-2026-10-03.md",
       "selectedRowIds": [
         "match-2016-08-14-arsenal-liverpool-2016-mane-debut-seven-goal-opener",
         "match-2016-09-10-liverpool-leicester-2016-main-stand-opening",
@@ -33365,7 +33525,9 @@
         "match-2016-12-04-bournemouth-liverpool-2016-two-goal-lead-lost",
         "match-2016-12-19-everton-liverpool-2016-mane-stoppage-time-derby",
         "match-2017-01-25-liverpool-southampton-2017-league-cup-semi-final",
+        "match-2017-01-28-liverpool-wolves-2017-fa-cup-upset",
         "match-2017-02-11-liverpool-tottenham-2017-mane-ends-winless-run",
+        "match-2017-04-08-stoke-liverpool-2017-brazilian-substitute-comeback",
         "match-2017-05-01-watford-liverpool-2017-can-overhead-kick",
         "match-2017-05-21-liverpool-middlesbrough-2017-champions-league-return"
       ],
@@ -33373,7 +33535,7 @@
         "content/archive/liverpool/henderson-chelsea-winner-2016.md"
       ],
       "notes": "Finite unpublished production through 2024–25. Source-led selections, no quota; existing finished reports are reused.",
-      "nextStage": "Claim and write 2016-08-14 / arsenal-liverpool-2016-mane-debut-seven-goal-opener, then the remaining selected matches in historical order."
+      "nextStage": "Complete manuscripts, sentence audits, independent review and remote season checkpoint."
     },
     {
       "id": "remaining-2017-18",
