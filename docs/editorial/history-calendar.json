@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T06:11:31Z",
+  "updatedAt": "2026-10-03T06:37:37Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -11952,6 +11952,376 @@
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_reina_toshack",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "bruce-grobbelaar-career-biography",
+      "personId": "bruce-grobbelaar",
+      "event": "Bruce Grobbelaar career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_grobbelaar_lawler",
+      "claim": {
+        "token": "third-ten-2026-10-03-bruce-grobbelaar",
+        "claimedAt": "2026-10-03T06:37:37Z",
+        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository inventory inspection and selection rationale before research."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Long-serving goalkeeper across six league titles, Rome 1984 and the first double, whose career needs a careful full account.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_grobbelaar_lawler",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "steve-nicol-career-biography",
+      "personId": "steve-nicol",
+      "event": "Steve Nicol career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_nicol_byrne",
+      "claim": {
+        "token": "third-ten-2026-10-03-steve-nicol",
+        "claimedAt": "2026-10-03T06:37:37Z",
+        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository inventory inspection and selection rationale before research."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Versatile cornerstone of four championship teams and the 1989 Footballer of the Year, bridging several Liverpool eras.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_nicol_byrne",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "roy-evans-career-biography",
+      "personId": "roy-evans",
+      "event": "Roy Evans career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_evans_thompson",
+      "claim": {
+        "token": "third-ten-2026-10-03-roy-evans",
+        "claimedAt": "2026-10-03T06:37:37Z",
+        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository inventory inspection and selection rationale before research."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Boot Room coach and manager whose decades at Liverpool connect the dynasty to the rebuilding of the 1990s.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_evans_thompson",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "luis-suarez-career-biography",
+      "personId": "luis-suarez",
+      "event": "Luis Suárez career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_suarez_hamann",
+      "claim": {
+        "token": "third-ten-2026-10-03-luis-suarez",
+        "claimedAt": "2026-10-03T06:37:37Z",
+        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository inventory inspection and selection rationale before research."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Transformative forward and central figure in the 2013–14 title challenge, requiring both football and disciplinary context.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_suarez_hamann",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "dirk-kuyt-career-biography",
+      "personId": "dirk-kuyt",
+      "event": "Dirk Kuyt career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_kuyt_mcallister",
+      "claim": {
+        "token": "third-ten-2026-10-03-dirk-kuyt",
+        "claimedAt": "2026-10-03T06:37:37Z",
+        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository inventory inspection and selection rationale before research."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Durable forward whose tactical reinvention, major European contributions and decisive goals define a strong Liverpool story.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_kuyt_mcallister",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "chris-lawler-career-biography",
+      "personId": "chris-lawler",
+      "event": "Chris Lawler career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_grobbelaar_lawler",
+      "claim": {
+        "token": "third-ten-2026-10-03-chris-lawler",
+        "claimedAt": "2026-10-03T06:37:37Z",
+        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository inventory inspection and selection rationale before research."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Prolific defender and long-serving foundation of Shankly’s championship and European-winning sides.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_grobbelaar_lawler",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "gerry-byrne-career-biography",
+      "personId": "gerry-byrne",
+      "event": "Gerry Byrne career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_nicol_byrne",
+      "claim": {
+        "token": "third-ten-2026-10-03-gerry-byrne",
+        "claimedAt": "2026-10-03T06:37:37Z",
+        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository inventory inspection and selection rationale before research."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Home-grown defender central to Liverpool’s return to the summit and the first FA Cup triumph.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_nicol_byrne",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "peter-thompson-career-biography",
+      "personId": "peter-thompson",
+      "event": "Peter Thompson career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_evans_thompson",
+      "claim": {
+        "token": "third-ten-2026-10-03-peter-thompson",
+        "claimedAt": "2026-10-03T06:37:37Z",
+        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository inventory inspection and selection rationale before research."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Influential winger integral to Shankly’s first great team and its renewal, deserving broader treatment than famous forwards alone.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_evans_thompson",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "dietmar-hamann-career-biography",
+      "personId": "dietmar-hamann",
+      "event": "Dietmar Hamann career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_suarez_hamann",
+      "claim": {
+        "token": "third-ten-2026-10-03-dietmar-hamann",
+        "claimedAt": "2026-10-03T06:37:37Z",
+        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository inventory inspection and selection rationale before research."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Midfield organiser linking the 2001 treble to Istanbul, with important tactical and career context beyond one final.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_suarez_hamann",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "gary-mcallister-career-biography",
+      "personId": "gary-mcallister",
+      "event": "Gary McAllister career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_kuyt_mcallister",
+      "claim": {
+        "token": "third-ten-2026-10-03-gary-mcallister",
+        "claimedAt": "2026-10-03T06:37:37Z",
+        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository inventory inspection and selection rationale before research."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Late-career signing whose influence and decisive contributions shaped the extraordinary 2000–01 season.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_kuyt_mcallister",
         "blockers": []
       },
       "publicationClass": "automatic-history-biography"

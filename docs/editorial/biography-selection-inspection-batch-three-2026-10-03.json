@@ -1,0 +1,51 @@
+{
+  "HEAD": {
+    "sha": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003",
+    "relatedFiles": [
+      "content/archive/liverpool/steve-nicol-hat-trick-newcastle-1987.md"
+    ]
+  },
+  "origin/main": {
+    "sha": "03391d3a9a8461688828e0e33551d5ecd82fd036",
+    "relatedFiles": [
+      "content/archive/liverpool/steve-nicol-hat-trick-newcastle-1987.md"
+    ]
+  },
+  "origin/editorial/biography-migration-2026-10-01": {
+    "sha": "2f2df2131c94ed091f0163faeba0ac85e72b31b7",
+    "relatedFiles": [
+      "content/archive/liverpool/steve-nicol-hat-trick-newcastle-1987.md"
+    ]
+  },
+  "origin/editorial/match-report-migration-2026-10-01": {
+    "sha": "4816d6b83e9fe5d8b63c1199a61d7f49ca44501c",
+    "relatedFiles": [
+      "content/archive/liverpool/steve-nicol-hat-trick-newcastle-1987.md"
+    ]
+  },
+  "origin/feature/automatic-weekly-history": {
+    "sha": "c7ab0713be426d42c8e8020a3c95f1ca5662f800",
+    "relatedFiles": [
+      "content/archive/liverpool/steve-nicol-hat-trick-newcastle-1987.md"
+    ]
+  },
+  "inspectedAt": "2026-10-03T06:37:37Z",
+  "existingCompletedUnpublished": 50,
+  "publishedCareerSubjects": [
+    "phil-thompson"
+  ],
+  "selected": {
+    "bruce-grobbelaar": "Long-serving goalkeeper across six league titles, Rome 1984 and the first double, whose career needs a careful full account.",
+    "steve-nicol": "Versatile cornerstone of four championship teams and the 1989 Footballer of the Year, bridging several Liverpool eras.",
+    "roy-evans": "Boot Room coach and manager whose decades at Liverpool connect the dynasty to the rebuilding of the 1990s.",
+    "luis-suarez": "Transformative forward and central figure in the 2013–14 title challenge, requiring both football and disciplinary context.",
+    "dirk-kuyt": "Durable forward whose tactical reinvention, major European contributions and decisive goals define a strong Liverpool story.",
+    "chris-lawler": "Prolific defender and long-serving foundation of Shankly’s championship and European-winning sides.",
+    "gerry-byrne": "Home-grown defender central to Liverpool’s return to the summit and the first FA Cup triumph.",
+    "peter-thompson": "Influential winger integral to Shankly’s first great team and its renewal, deserving broader treatment than famous forwards alone.",
+    "dietmar-hamann": "Midfield organiser linking the 2001 treble to Istanbul, with important tactical and career context beyond one final.",
+    "gary-mcallister": "Late-career signing whose influence and decisive contributions shaped the extraordinary 2000–01 season."
+  },
+  "canonicalIdentitiesVerified": true,
+  "focusedNicolArticleIsNotCareerBiography": true
+}
