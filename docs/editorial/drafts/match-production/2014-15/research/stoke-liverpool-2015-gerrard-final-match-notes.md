@@ -4,7 +4,7 @@
 
 - Fresh research and source re-retrieval: 3 October 2026, actual configured model `gpt-6.1-sol`, worker `/root/sol_1967_68`.
 - Prior preparation: `2015-05-24-sources.md`, `season-research.md` and `selection.json` retain original 1 October Astra provenance. They were read as preparation and preserved; this note does not claim their retrieval as Sol work.
-- Current status: pre-writing factual scope checked; no body exists and no manuscript factual PASS is asserted. Sentence-by-sentence self-audit and independent final body review remain pending.
+- Current status: MANUSCRIPT COMPLETE; sentence-level factual self-audit PASS; independent final body review PENDING.
 
 ## Confirmed match identity and selection
 
@@ -42,3 +42,31 @@ The club’s legacy header says 23 May, but the core, both full-season registers
 2. https://www.liverpoolfc.com/news/first-team/185728-stoke-stun-liverpool-in-stevie-farewell
 3. https://www.lfchistory.net/season-archive/league-table/124
 4. https://www.lfchistory.net/season-archive/games/124
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2014-15/stoke-liverpool-2015-gerrard-final-match.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated audit supersedes all earlier pre-writing pending state while preserving preparation provenance. Independent final manuscript review is PENDING. Root confirmed thirteen main claims at07c42fe993b59037812634863c36368b43c9303a; current main was fetched and the writing claim, worker/token, duplicate dates and canonical IDs were checked immediately before saving.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5461
+- 2: https://www.liverpoolfc.com/news/first-team/185728-stoke-stun-liverpool-in-stevie-farewell
+- 3: https://www.lfchistory.net/season-archive/league-table/124
+- 4: https://www.lfchistory.net/season-archive/games/124
+
+Every S row covers a complete body sentence in reading order and all its material claims.
+
+| Sentence | Complete sentence | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Steven Gerrard scored on his 710th and final Liverpool appearance, but his farewell match ended in a 6–1 defeat at Stoke City on 24 May 2015. | source 1, source 2 | High — PASS: Finalappearance710/resultdate24May correctinglegacyheader. |
+| S2 | Stoke led 5–0 by half-time at the Britannia Stadium. | source 1, source 2 | High — PASS: HistoricvenueandHT5–0. |
+| S3 | Mame Diouf opened the scoring in the 22nd minute after Simon Mignolet pushed out Charlie Adam’s shot. | source 1, source 2 | High — PASS: ClubcorrectDioufname/rebound22. |
+| S4 | Diouf added a second four minutes later with a drive from outside the area. | source 1, source 2 | High — PASS: 26goal23?core26 exactly4later/outsidearea. |
+| S5 | Jonathan Walters made it three after Emre Can’s short header back to Mignolet, scoring from the rebound when the goalkeeper saved his first attempt. | source 1, source 2 | High — PASS: 30headererrorandfirstsavedattemptthenreboundheadedgoal. |
+| S6 | Adam intercepted a Mamadou Sakho pass and struck Stoke’s fourth before Steven N’Zonzi curled in the fifth just before the interval. | source 1, source 2 | High — PASS: 41Adam/Sakhopasssteal45Nzonzioutsidearea; broadhalfphase. |
+| S7 | Liverpool replaced Alberto Moreno and Can with Jordon Ibe and Kolo Touré for the second half. | source 1, source 2 | High — PASS: Core46twosubs/club. |
+| S8 | Substitute Rickie Lambert supplied a flick-on for Gerrard, who finished past Asmir Begović in the 70th minute. | source 1, source 2 | High — PASS: 69Lambertenter/70goalassistantfinish. |
+| S9 | Peter Crouch then headed Stoke’s sixth in the 86th minute, completing the score against his former club. | source 1, source 2 | High — PASS: 86CrouchheaderformerLFCexplicitclub/core. |
+| S10 | Liverpool finished sixth with 62 points, eight behind Manchester United in the final Champions League qualification place. | source 3 | High — PASS: Fullfinaltable62/70/6th4th arithmetic. |
+| S11 | The season had brought two domestic semi-final exits, and its final fixture added a heavy defeat to Gerrard’s departure. | source 1, source 2, source 4 | High — PASS: FA/LCsemifinalsfixturechronology andactualfinaldate; noMayRodgersdismissal/entryroundclaim. |
+
+Title, excerpt, event date, result and canonical metadata checked against these retrieved scopes. Single terminal Sources list and exact metadata URL order checked; every URL is recorded above with actual retrieval/limitations. Original Astra preparation is unchanged. No publication date, manual release, invented action, tactics, motives or quotes. Recorded source conflicts remain broadly bounded or omitted.

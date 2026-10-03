@@ -62,7 +62,7 @@ Every S row covers a complete body sentence in reading order and all its materia
 | S6 | Adam Reach headed in Grant Leadbitter’s free-kick to equalise in the second half. | source 1, source 2 | High — PASS: 62headedFKgoal. |
 | S7 | The tie went to extra time, when substitute Suso restored Liverpool’s lead with his first goal for the club. | source 1, source 2 | High — PASS: Suso109goal/firstgoal. |
 | S8 | Patrick Bamford then converted a penalty after Kolo Touré’s challenge, sending the teams to a shoot-out. | source 1, source 2 | High — PASS: Penaltyendextra timeandchallenge; no false90minute. |
-| S9 | Simon Mignolet saved Bamford’s opening Middlesbrough kick, but Raheem Sterling’s fifth attempt was also saved and the shoot-out went to sudden death. | source 1, source 2 | High — PASS: FullcoresequenceBamfordsavedSterlingsavedVossenscored4–4. |
+| S9 | Simon Mignolet saved Bamford’s opening Middlesbrough kick, but Raheem Sterling’s attempt, Liverpool’s fifth kick, was also saved and the shoot-out went to sudden death. | source 1, source 2 | High — PASS: FullcoresequenceBamfordsavedSterlingsavedVossenscored4–4. |
 | S10 | Every player still on the field, including both goalkeepers, took a penalty before the order began again. | source 1, source 2 | High — PASS: Complete11eachsequenceincludeskeepers. |
 | S11 | Suso scored his second kick, Liverpool’s fifteenth, before Albert Adomah sent Middlesbrough’s final attempt wide. | source 1, source 2 | High — PASS: Fifteenthturn/Susosecond/Adomahwide. |
 | S12 | Liverpool’s League Cup run continued through Swansea City and Bournemouth before ending against Chelsea in the semi-final. | source 3 | High — PASS: Whole5fixturecupchronology. |

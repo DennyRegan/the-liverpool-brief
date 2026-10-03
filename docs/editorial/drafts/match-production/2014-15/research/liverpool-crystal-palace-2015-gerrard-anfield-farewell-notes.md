@@ -4,7 +4,7 @@
 
 - Fresh research and source re-retrieval: 3 October 2026, actual configured model `gpt-6.1-sol`, worker `/root/sol_1967_68`.
 - Prior preparation: `2015-05-16-sources.md`, `season-research.md` and `selection.json` retain original 1 October Astra provenance. They were read as preparation and preserved; this note does not claim their retrieval as Sol work.
-- Current status: pre-writing factual scope checked; no body exists and no manuscript factual PASS is asserted. Sentence-by-sentence self-audit and independent final body review remain pending.
+- Current status: MANUSCRIPT COMPLETE; sentence-level factual self-audit PASS; independent final body review PENDING.
 
 ## Confirmed match identity and selection
 
@@ -40,3 +40,29 @@ The club places Zaha’s introduction around58 minutes, the core at59with the go
 1. https://www.lfchistory.net/games/5460
 2. https://www.liverpoolfc.com/news/first-team/185348-defeat-for-reds-as-stevie-bids-farewell
 3. https://www.lfchistory.net/season-archive/games/124
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2014-15/liverpool-crystal-palace-2015-gerrard-anfield-farewell.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated audit supersedes all earlier pre-writing pending state while preserving preparation provenance. Independent final manuscript review is PENDING. Root confirmed thirteen main claims at07c42fe993b59037812634863c36368b43c9303a; current main was fetched and the writing claim, worker/token, duplicate dates and canonical IDs were checked immediately before saving.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5460
+- 2: https://www.liverpoolfc.com/news/first-team/185348-defeat-for-reds-as-stevie-bids-farewell
+- 3: https://www.lfchistory.net/season-archive/games/124
+
+Every S row covers a complete body sentence in reading order and all its material claims.
+
+| Sentence | Complete sentence | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Steven Gerrard’s final Anfield appearance ended in a 3–1 Liverpool defeat to Crystal Palace on 16 May 2015. | source 1, source 2 | High — PASS: Exactdate/result/finalhome. |
+| S2 | Before kick-off, both teams formed a guard of honour for the captain and his daughters, while supporters displayed a mosaic in the stands. | source 2 | High — PASS: Actualpre-matchguard/mosaicnotplannedonly. |
+| S3 | It was his 709th Liverpool appearance, with one more fixture remaining at Stoke City. | source 2, source 3 | High — PASS: Club709andnextfinalfixture24May. |
+| S4 | Adam Lallana put Liverpool ahead in the 26th minute after Martin Kelly’s misplaced pass left Scott Dann under pressure. | source 1, source 2 | High — PASS: 26goal andpressafterKellypass. |
+| S5 | Lallana held off Dann, ran through and finished past Wayne Hennessey. | source 2 | High — PASS: Fullclubgoalmechanism. |
+| S6 | Jason Puncheon equalised before half-time with a free-kick from the edge of the area. | source 1, source 2 | High — PASS: 43FKcornerarea/HT1–1. |
+| S7 | Palace then took the lead around the hour when substitute Wilfried Zaha scored with his first touch, turning in Yannick Bolasie’s low cross. | source 1, source 2 | High — PASS: 58/59/60timingboundedfirsttouchBolasiecross. |
+| S8 | Bolasie later hit the crossbar as Liverpool sought a response. | source 2 | High — PASS: FullclubBolasiebar afterdoublesub. |
+| S9 | In stoppage time, Simon Mignolet saved Glenn Murray’s penalty, but Murray scored from the rebound to complete the 3–1 result. | source 2 | High — PASS: SavedpenTHENrebound; avoids inconsistentcoretimestampandpenconvertederror. |
+| S10 | Liverpool remained fifth after the match, but the subsequent defeat at Stoke left them sixth in the final league standings. | source 1, source 3 | High — PASS: CorePalaceposttable5th andseasonlastrow6thStoke6–1. |
+
+Title, excerpt, event date, result and canonical metadata checked against these retrieved scopes. Single terminal Sources list and exact metadata URL order checked; every URL is recorded above with actual retrieval/limitations. Original Astra preparation is unchanged. No publication date, manual release, invented action, tactics, motives or quotes. Recorded source conflicts remain broadly bounded or omitted.

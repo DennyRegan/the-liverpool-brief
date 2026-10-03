@@ -23,7 +23,7 @@ Seventeen-year-old Jordan Rossiter gave Liverpool the lead ten minutes into his 
 
 Adam Reach headed in Grant Leadbitter’s free-kick to equalise in the second half. The tie went to extra time, when substitute Suso restored Liverpool’s lead with his first goal for the club. Patrick Bamford then converted a penalty after Kolo Touré’s challenge, sending the teams to a shoot-out.
 
-Simon Mignolet saved Bamford’s opening Middlesbrough kick, but Raheem Sterling’s fifth attempt was also saved and the shoot-out went to sudden death. Every player still on the field, including both goalkeepers, took a penalty before the order began again.
+Simon Mignolet saved Bamford’s opening Middlesbrough kick, but Raheem Sterling’s attempt, Liverpool’s fifth kick, was also saved and the shoot-out went to sudden death. Every player still on the field, including both goalkeepers, took a penalty before the order began again.
 
 Suso scored his second kick, Liverpool’s fifteenth, before Albert Adomah sent Middlesbrough’s final attempt wide. Liverpool’s League Cup run continued through Swansea City and Bournemouth before ending against Chelsea in the semi-final.
 
