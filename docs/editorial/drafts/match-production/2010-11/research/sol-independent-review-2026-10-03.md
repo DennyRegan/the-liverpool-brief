@@ -3,7 +3,7 @@
 - Actual configured reviewer model: `gpt-6.1-sol`.
 - Reviewer worker: `/root/sol_factual_review`.
 - Retrieval date: 3 October 2026.
-- Current stage: independently retrieved baseline evidence; finished manuscripts not yet reviewed. No manuscript PASS, approval or publication authorisation.
+- Current stage: all twelve final manuscripts and completed audits reviewed and verified. Final factual verdict appears below; it does not authorise publication.
 - Original Astra preparation and review records remain preserved. This file records this reviewer’s fresh work separately.
 
 ## Independently retrieved baseline sources
@@ -40,10 +40,85 @@ The old Liverpool soccerschools takeover timeline appeared in a search extract b
 - **Liverpool FC — High:** https://www.liverpoolfc.com/news/first-team/120662-most-exciting-pl-games-12 — first Carroll goals, Flanagan debut, Kuyt goal and Meireles cross for third. No footage viewed; unrelated historic death-count text not used.
 - **UEFA — High:** https://www.uefa.com/news-media/news/01f0-0e77e7147141-eed57e24bee4-1000--arsenal-denied-by-last-gasp-kuyt/ — complete relevant Arsenal report; Spearing/Fàbregas penalty, Eboué/Lucas penalty, Van Persie/Kuyt conversions, Carragher/Carroll substituted and draw. Exact late clock convention not settled by this short report; use stoppage-time sequence or separate detailed evidence.
 
-## Manuscript review state
+## Supplementary archive retrieval
 
-Root accepted twelve reports: the nine retained selections plus Chelsea at home on 7 November, Manchester City at home on 11 April and Arsenal away on 17 April. All finished bodies/companion audits remain pending. No final file hashes or completed-manuscript verdict yet. Source-format/site comparison, exact URL parity, own-note coverage and canonical date/entity checks will be repeated on final saved files.
+- https://www.lfchistory.net/games/5268 — High for Northampton date/round/result, four debutants, Jovanović first goal, Kyrgiakos captain and complete penalty sequence. No unseen video evidence claimed.
+- https://www.lfchistory.net/games/5252 — High for Arsenal date/venue/starting players, Robinson/Kyrgiakos/Shelvey substitutions, 90+8 and 90+12 penalty conversions and sixth-place table. This permits bounded recorded clock labels, not latest-ever claims.
+- https://www.liverpoolfc.com/news/first-team/96040-the-reds-under-king-kenny-in-2011 — High within retrieved spring result chronology, City three-goal win and fifth-place gap, Arsenal penalties and academy full-backs, Fulham treble/Carragher appearance milestone. Before end of season; extra-time phrase for Arsenal is erroneous. City paragraph does not itself establish Flanagan debut or Carroll first goals; writer alerted to narrow its source scope.
+- https://www.liverpoolfc.com/info/roy-hodgson — High within retrieved 2010–11 chronology: league form, European run, home Chelsea win and Blackburn last game before mutual-consent departure. Subjective assessments and causal speculation excluded.
+
+- https://www.uefa.com/uefaeuropaleague/news/0254-0d7ce6f095e9-7e65c100e86a-1000--dalglish-in-for-hodgson-at-liverpool/ — successfully opened on 3 October 2026. High within 8 January 2011 managerial transition: Hodgson departure, Dalglish appointed for rest of season and first fixture at Manchester United. This distinct verified URL is independent of the failed guessed URL above; unrelated career/honours summary not cleared.
+
+- https://www.lfchistory.net/images/newspapers/riley/20110202vstoke.pdf — contemporary reports hosted by LFChistory, independently opened and read on 3 October 2026. High for common goal sequence: Gerrard free-kick, loose ball involving Kyrgiakos, Meireles finish; Kuyt through-ball, Suárez rounding Begović, Wilkinson failed clearance. Accounts differ on exact intermediate contacts and shape; no inferred motives, quotations or disputed clearance credit adopted. The final official credit remains Suárez.
+- https://www.lfchistory.net/images/newspapers/riley/20110105vblackburn.pdf — contemporary reports hosted by LFChistory, independently opened and targeted passages read on 3 October 2026. High for Diouf/Olsson opener, Pedersen/Benjani turn and shot, Hoilett supply for second Benjani goal, Gerrard late reply and missed penalty. Fouled-player identity conflicts between Gerrard and Torres; omit that identity. Goal build-up and exact clocks also vary; use bounded common sequence only. Archive prose, crowd quotations and judgements not copied.
+
+## Additional independently retrieved sources for completed batches
+
+- https://www.lfchistory.net/games/5228 — High within full Goodison core, half-time/result/scorers and post-match table: nineteenth, six points, one win from eight.
+- https://www.lfchistory.net/games/5264 — High within full Napoli core: date, group fixture, half-time substitution, 75/88/89 goal timeline. Equaliser minute differs from UEFA's 76; manuscript correctly uses final quarter-hour.
+- https://www.lfchistory.net/games/5231 — High within Chelsea-home core, Torres double, ninth place and league-leading opposition.
+- https://www.lfchistory.net/games/5242 — High within Blackburn core and full displayed table: twelfth, 25 points from twenty matches and nine defeats.
+- https://www.lfchistory.net/games/5271 — High within United cup core: date/round, Giggs second-minute penalty and Gerrard32 dismissal.
+- https://www.lfchistory.net/games/5249 — High within United-home core: Kuyt treble, Carroll substitute debut and sixth-place table. Late consolation precise clock not adopted.
+- https://www.skysports.com/football/chelsea-vs-liverpool/report/229836 — High within actually exposed Chelsea-away first-half chances, Carragher block and Maxi bar. Current extraction stops before full second-half winner, supplied separately by UEFA.
+- https://www.skysports.com/football/liverpool-vs-chelsea/221158 — Complete relevant contemporary Chelsea-home body read: Kuyt diagonal, Torres control/finish, Meireles dispossession of Cole and curled second, Reina/Malouda save, Anelka bar, Cech/Kuyt save and ninth place. Opinions omitted.
+
+## Batch review history (superseded by completed verification below)
+
+All twelve fresh prewriting notes read; rewritten URL-specific scopes checked as revised. The ownership, appointment, City milestone and Chelsea-away Sky attribution requests are resolved in the current registers. Exact completed-file source parity and own-note coverage will be repeated at season completion.
+
+Completed bodies and finished own audits actually read: Northampton, Goodison, Napoli, Chelsea home, Blackburn and United cup. Their material body assertions were checked sentence by sentence against the independently retrieved sources above and the baseline. Dates, venues, results, goals, substitutions, disciplinary decisions, contemporary table and surrounding fixture sequences are consistent. No fabricated play, quotation, motive or medical cause found. Northampton excerpt requested clearer one-lead/one-recovery wording; the changed excerpt must be rechecked before its final hash.
+
+Goodison uses independently verified takeover chronology, not UEFA for ownership. Napoli uses a bounded equaliser clock. Blackburn omits disputed fouled-player identity and differing late goal clocks. United cup reports the penalty decision without adjudicating contact.
+
+The six completed reports have one terminal linked Sources list, accurate descriptive labels, exact metadata URL order and own-note URL coverage. Their report structure matches the existing published Leicester1974/WestHam1977 reports already read; confidence/internal review prose stays in notes. Canonical IDs and final full-file hashes remain to be repeated across all twelve completed reports.
+
+Stoke, Chelsea away and United home bodies plus completed own audits now also actually read, bringing reviewed bodies to nine. Their goal sequences, substitutions/debut, January transfers, winning/clean-sheet runs and table/games-in-hand assertions agree with independent evidence. United remains sixth; no disputed late consolation clock. Northampton corrected excerpt reread and accepted.
+
+Additional independent retrieval: https://www.lfchistory.net/games/5245 and https://www.lfchistory.net/games/5246 — complete relevant cores, substitute/debut/timeline and displayed table; High within those scopes. https://www.liverpoolfc.com/news/first-team/286771-7-luis-suarez — relevant official debut paragraph read: substitute63, goal sixteen minutes later; High only within that passage, unrelated later career not cleared.
+
+Three further accepted reports remain pending: City home, Arsenal away and Fulham. No entire-season PASS or final file hashes yet.
+
+## Completed season verification
+
+All twelve accepted manuscripts and all twelve finished own audits have now actually been read in full. Every material assertion in titles, excerpts and bodies was checked against this reviewer's independently retrieved sources. Northampton corrected excerpt was reread; no outstanding factual correction remains. Failed/redirected sources and truncated portions are excluded as recorded above; source confidence covers only exposed factual evidence. No long source passages, quotations or invented match action are retained.
+
+Final additional retrieval: https://www.lfchistory.net/games/5251 — full relevant City core and table read, High for Flanagan debut, Carroll first goals,13/34/35 timeline, sixth place and five-point/games-in-hand gap. https://www.lfchistory.net/games/5255 — full relevant Fulham core/timeline/table read, High for Carragher666/second rank, Maxi second treble in three league fixtures, Kuyt fifth successive league scoring match, opening32seconds and subsequent goal clocks. The independently read club Fulham account supplies creation/finishes.
+
+| Final report | Completed factual and site-format check |
+| --- | --- |
+| Northampton | PASS — result, four debuts, all-eleven changes, goal/shootout sequence and cup chronology; corrected excerpt. |
+| Goodison | PASS — match actions/table, separately supported takeover date and surrounding fixtures. |
+| Napoli | PASS — substitute treble, three mechanisms, bounded equaliser clock and Group K table. |
+| Chelsea home | PASS — defending leaders, Torres double/chances and preceding/following league sequence. |
+| Blackburn | PASS — scorers/actions, omitted conflicting fouled-player identity, table and independently supported managerial transition. |
+| United FA Cup | PASS — penalty decision/goal distinguished, red card/chances and managerial chronology. |
+| Stoke | PASS — substitute debut, retained scoring credit, bounded archive action and clean-sheet sequence. |
+| Chelsea away | PASS — first-half chances independently retrieved, winner/substitutions/table and games in hand. |
+| United home | PASS — Kuyt three mechanisms, Carroll debut, sixth without erroneous movement claim and European exit sequence. |
+| City home | PASS — two Carroll milestones/Flanagan debut, all goal/chance chronology and table. |
+| Arsenal away | PASS — all substitutions, bounded head injury, added-time penalty decisions/clocks and next result. |
+| Fulham | PASS — seven goals/actions, individual milestones, immediate and final table context. |
+
+Each of these twelve final files passes comparison with the existing published Leicester1974 and WestHam1977 report structure: factual match metadata, British prose, one terminal descriptive linked-bullet Sources list, no duplicate footer or internal text after Sources, exact frontmatter/footer URL order, all URLs in its own actual retrieval notes. Canonical entity IDs and kinds checked against entities.json; exact historical dates checked against the twelve-row fresh manifest and retrieved cores. No publication-date metadata. Full-file SHA-256 values below refer to the completed files read and verified, including final metadata/footer changes.
+
+## Reviewed full-file SHA-256
+
+| File | SHA-256 |
+| --- | --- |
+| blackburn-hodgson-last-match-2011.md | `2f5580b00a6f075f0c921d3d8ce5cb1a31ab5e8db48961ea0d961b17ca0befdd` |
+| carroll-first-goals-city-2011.md | `c4a9f8178775468a1d96b2e8666ea51cbdd329c8ff451d88edff0eca12681fea` |
+| dalglish-return-old-trafford-2011.md | `073b805ae9a1b2ea310aaafaf9b30b83d329fd2aa2579a713a21014468d7736b` |
+| gerrard-napoli-substitute-hat-trick-2010.md | `422b6eb88555974bf98a7c151614a8b35605caea0687625a75d0870b74a3b894` |
+| goodison-defeat-new-ownership-2010.md | `e7a81a38b795469c9075cc2005699d101ce850e370928bfdbc0dca508a6529fa` |
+| kuyt-arsenal-late-penalty-2011.md | `f8fd656e7ac5dc86fcae7ef7f89707d9737a97e6bf1ed50fa99507774ad82185` |
+| kuyt-hat-trick-united-2011.md | `03c426777faf44f46535e7622a2e31fbae4746459e34dddd47465c25c529f576` |
+| maxi-fulham-five-goals-2011.md | `b157305523ca6eb576440572f3c7cddaa88d8dc7c81a633ead640fa74ac45e81` |
+| meireles-chelsea-torres-debut-2011.md | `0c73f2ae48315f4ef7758d7b6f2ccb74fd7c518c31578b3e1b0811b3e2d88d5a` |
+| northampton-anfield-shootout-upset-2010.md | `de6df8e0f20e3a60874eac744a2df92d7f09a284aeadd7a88cb45daf0b82d185` |
+| suarez-scoring-debut-stoke-2011.md | `f963dcb3dcc174f921b90642cfe5f40e0446abd83e5bbc6b4bdab94777ba19d7` |
+| torres-chelsea-double-2010.md | `c7742d35ad0834a180c0a1f801b799f8dbff77d938ebd7a4517084c774e91de3` |
 
 ## Verdict
 
-PENDING
+PASS

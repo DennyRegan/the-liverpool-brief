@@ -1027,6 +1027,27 @@
       "retrievedBy": "/root/sol_1967_68",
       "scope": "Venue of selected Arsenal-Liverpool game17April2011",
       "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "young-boys",
+      "source": "https://www.lfchistory.net/games/5372",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Opponent in selected 2012–13 Europa League match",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "stade-de-suisse",
+      "source": "https://www.lfchistory.net/games/5372",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Venue of selected Young Boys–Liverpool match on 20 September 2012",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "boundary-park",
+      "source": "https://www.lfchistory.net/games/5379",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Venue of selected Oldham–Liverpool match on 27 January 2013",
+      "model": "gpt-6.1-sol"
     }
   ]
 }

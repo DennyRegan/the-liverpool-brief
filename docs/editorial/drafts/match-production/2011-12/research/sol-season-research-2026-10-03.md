@@ -1,6 +1,6 @@
 # 2011–12 — refreshed Sol research and selection
 
-Researcher and intended writer: gpt-6.1-sol. Worker: /root/sol_1968_69. Fresh retrieval date: 3 October 2026. This record supplements the original Astra preparation; it does not replace its authorship, selection or omission record. No article body has been drafted. Root must confirm remote claims and the preceding season checkpoint before release.
+Researcher and intended writer: gpt-6.1-sol. Worker: /root/sol_1968_69. Fresh retrieval date: 3 October 2026. This record supplements the original Astra preparation; it does not replace its authorship, selection or omission record. Root confirmed all fifteen claims on GitHub main at 3561b8f14acb751c220d799a7fc632f86ab635af and released drafting on 3 October 2026. All fifteen manuscripts and own factual audits are saved. Independent final review passed on 3 October 2026, with full reviewed-file hashes in sol-independent-review-2026-10-03.md. Root owns the remote season checkpoint.
 
 ## Whole-season assessment
 
@@ -25,13 +25,13 @@ Henderson, Adam, Doni, Downing, Enrique, Coates and the returning Bellamy were s
 
 ## Selection changes under the 3 October best-games commission
 
-The original nine prepared selections are retained. Today's fresh assessment adds six substantive games: Arsenal away on 20 August; Tottenham away on 18 September; Everton away on 1 October; Chelsea away in the league on 20 November; Brighton in the FA Cup on 19 February; and Blackburn away on 10 April. These are distinct early successes, a severe early defeat, a derby, an individual late winner, an unusual cup scoreline and a comeback with immediate goalkeeper consequences. The earlier Astra reasons for excluding several of these remain explicitly preparatory choices in the unchanged original selection.json. They are superseded for this commission by the user's request for all best games without a quota. Fifteen is the result of assessment, not a target.
+The original nine prepared selections are retained. Today's fresh assessment adds six substantive games: Arsenal away on 20 August; Tottenham away on 18 September; Everton away on 1 October; Chelsea away in the league on 20 November; Brighton in the FA Cup on 19 February; and Blackburn away on 10 April. These are distinct early successes, a severe early defeat, a derby, an individual late winner, an unusual cup scoreline and a late recovery with immediate goalkeeper consequences. The earlier Astra reasons for excluding several of these remain explicitly preparatory choices in the unchanged original selection.json. They are superseded for this commission by the user's request for all best games without a quota. Fifteen is the result of assessment, not a target.
 
 The fresh machine-readable manifest is sol-selections-2026-10-03.json. Each selected match has its own newly retrieved core URL and canonical <slug>-notes.md companion record. All nine earlier core URLs were actually opened again through the web tool on 3 October. Additional independent sources and exact claim scopes are recorded in those separate Sol notes. Current canonical identities already cover every proposed opposition and the intended principal Liverpool players; no registry addition is requested.
 
 ## Duplicate and claim check
 
-Current origin/main and its history calendar were read before selection. All fifteen exact dates were searched in local public content and non-research manuscripts and across every fetched origin branch's public content and drafts. No completed report for a selected date was found. The original preparation is research, not an existing finished article. Root owns the claims, registry and all Git writes. Article drafting remains held.
+Current origin/main and its history calendar were read before selection. All fifteen exact dates were searched in local public content and non-research manuscripts and across every fetched origin branch's public content and drafts. No completed report for a selected date was found. The original preparation is research, not an existing finished article. Root owns the claims, registry and all Git writes. Drafting followed root’s confirmed main claim checkpoint; root retains ownership of the authoritative calendar and Git operations.
 
 ## Deliberate omissions and source limits
 

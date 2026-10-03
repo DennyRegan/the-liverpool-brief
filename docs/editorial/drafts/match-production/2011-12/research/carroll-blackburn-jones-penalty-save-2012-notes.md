@@ -2,7 +2,7 @@
 
 Historical date: 2012-04-10. Season: 2011–12. Researcher and intended writer: gpt-6.1-sol. Worker: /root/sol_1968_69. Fresh retrieval date: 3 October 2026.
 
-The earlier Astra preparation remains in its original file and retains its recorded authorship. This is a separate Sol source retrieval and assessment. Manuscript drafting is held until root confirms the remote claim and releases this season.
+The earlier Astra preparation remains in its original file and retains its recorded authorship. This is a separate Sol source retrieval and assessment. Root confirmed the claim on GitHub main at 3561b8f14acb751c220d799a7fc632f86ab635af and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -30,3 +30,18 @@ Club report calls referee AndyTaylor; independent report/11 v 11 record AnthonyT
 ## Editorial handling before release
 
 The central result and bounded goal sequence have two independently retrieved accounts or an official contemporary account corroborated by the competitive record. The intended report will use British English, no invented quotations, atmosphere, tactical intentions or undocumented actions. Source wording will be paraphrased within reuse allowances. Each published-source URL will appear once in the terminal Sources list and in identical frontmatter order. A claim-by-claim final audit will be added after the authorised manuscript is written; this is a completed prewriting record, not a final-body PASS.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: Club, Sky and LFChistory record establish date, result, Carroll added-time winner, Maxi double, Doni dismissal, Jones saved penalty and Yakubu double.
+- Paragraph 2: The fully retrieved club narrative and expanded Sky account supply Skrtel/Bellamy first-goal creation, Shelvey save/Maxi rebound second, and Flanagan’s back-pass. No exact tackle motive is inferred.
+- Paragraph 3: Club and Sky establish Doni foul on Hoilett, red card, Jones substitution and immediate save, followed by Yakubu header from Dunn free-kick before the interval.
+- Paragraph 4: Both full narratives support Jones conceding the second penalty and Yakubu converting. The chronology shows Liverpool never trailed; the report explicitly avoids an inaccurate comeback-from-behind claim.
+- Paragraph 5: Both full accounts supply Coates delivery, Agger headed supply and Carroll winning header in added time. Exact minute is unnecessary; no unsupported winning-goal assist is inferred.
+- Paragraph 6: The club expressly states Reina already suspended and Doni also unavailable for Wembley; the complete ledger dates the Everton semi-final four days later. Jones’s forthcoming requirement follows from that contemporary goalkeeper consequence, without borrowing an unsourced separate suspension account.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2011–12 season, factual match classification, Dalglish and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

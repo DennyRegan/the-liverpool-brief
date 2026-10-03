@@ -2,7 +2,7 @@
 
 Historical date: 2012-02-19. Season: 2011–12. Researcher and intended writer: gpt-6.1-sol. Worker: /root/sol_1968_69. Fresh retrieval date: 3 October 2026.
 
-The earlier Astra preparation remains in its original file and retains its recorded authorship. This is a separate Sol source retrieval and assessment. Manuscript drafting is held until root confirms the remote claim and releases this season.
+The earlier Astra preparation remains in its original file and retains its recorded authorship. This is a separate Sol source retrieval and assessment. Root confirmed the claim on GitHub main at 3561b8f14acb751c220d799a7fc632f86ab635af and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -30,3 +30,18 @@ Sky detailed page repeatedly failed direct retrieval; its search headline about 
 ## Editorial handling before release
 
 The central result and bounded goal sequence have two independently retrieved accounts or an official contemporary account corroborated by the competitive record. The intended report will use British English, no invented quotations, atmosphere, tactical intentions or undocumented actions. Source wording will be paraphrased within reuse allowances. Each published-source URL will appear once in the terminal Sources list and in identical frontmatter order. A claim-by-claim final audit will be added after the authorised manuscript is written; this is a completed prewriting record, not a final-body PASS.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: The club, UEFA and LFChistory independently confirm the date, 6–1 fifth-round result and 2–1 half-time lead. The ledger places the League Cup final seven days later.
+- Paragraph 2: The freshly retrieved club text and LFChistory support Skrtel header from Gerrard corner and LuaLua free-kick equaliser. No exact free-kick distance is invented.
+- Paragraph 3: The club and LFChistory support the first Bridcutt own goal and Carroll finish from Downing. Wider score description follows from the goal sequence.
+- Paragraph 4: The club’s actually retrieved footnote explicitly reawards its second initially listed own goal to Gerrard. Freshly retrieved LFChistory games/5321 independently records the fourth goal as Gerrard’s. UEFA reflects the contemporary three-own-goals description. The manuscript states both phases without declaring a settled three-own-goals record or inventing the date/process of reassignment.
+- Paragraph 5: The full club final passages support Brezovan’s penalty save and Carroll’s headed supply for Suárez’s header. The complete season ledger contains no larger winning margin or higher Liverpool score, supporting the campaign-specific largest win claim.
+- Paragraph 6: The full ledger gives Stoke as quarter-final opposition and Cardiff as League Cup final opponent. The paragraph distinguishes two concurrent cup routes without asserting that the final was Liverpool’s next competitive fixture unless the ledger supports it.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2011–12 season, factual match classification, Dalglish and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

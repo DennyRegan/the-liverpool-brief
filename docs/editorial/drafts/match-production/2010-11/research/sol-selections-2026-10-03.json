@@ -4,7 +4,7 @@
   "workerId": "/root/sol_1967_68",
   "researchedAt": "2026-10-03",
   "priorSelectionFile": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
-  "provenance": "Fresh Sol whole-season and match retrieval; preserves original Astra preparation and nine slugs. Manuscript drafting waits for root-confirmed remote main claims.",
+  "provenance": "Fresh Sol whole-season/match retrieval and drafting after root confirmed all twelve claims on remote main 3561b8f14acb751c220d799a7fc632f86ab635af. Original Astra preparation remains preserved and attributable.",
   "selectionChanges": {
     "retained": 9,
     "added": [
@@ -195,7 +195,8 @@
       "sourcesURLs": [
         "https://www.lfchistory.net/games/5246",
         "https://www.uefa.com/news-media/news/01ee-0e77001396b2-fa878d2f3633-1000--chelsea-undone-by-revitalised-liverpool/",
-        "https://www.lfchistory.net/season-archive/games/120"
+        "https://www.lfchistory.net/season-archive/games/120",
+        "https://www.skysports.com/football/chelsea-vs-liverpool/report/229836"
       ],
       "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/meireles-chelsea-torres-debut-2011-notes.md"
     },
@@ -236,7 +237,8 @@
         "https://www.lfchistory.net/games/5251",
         "https://www.uefa.com/news-media/news/01f0-0f8628442e0f-038339eb5ea2-1000--carroll-breaks-duck-in-liverpool-stroll/",
         "https://www.lfchistory.net/season-archive/games/120",
-        "https://www.liverpoolfc.com/news/first-team/96040-the-reds-under-king-kenny-in-2011"
+        "https://www.liverpoolfc.com/news/first-team/96040-the-reds-under-king-kenny-in-2011",
+        "https://www.mancity.com/news/first-team/match-report/2011/april/liverpool-v-city"
       ],
       "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/carroll-first-goals-city-2011-notes.md"
     },
@@ -296,8 +298,28 @@
     "duplicates": []
   },
   "limitations": [
-    "No manuscript body written; final factual audits and independent review pending.",
-    "emirates-stadium location identity requested from root; LFChistory /games/5252 is freshly retrieved venue evidence.",
-    "Unselected Utrecht home fixture date differs between whole-season registers; do not use the disputed date without further resolution."
-  ]
+    "Finished manuscripts, factual self-audits and independent final review PASS; root calendar/Git checkpoint follows. Manuscript bytes held unchanged for recorded hashes.",
+    "emirates-stadium was added by root before the main claim checkpoint, based on freshly retrieved LFChistory /games/5252.",
+    "Unselected Utrecht home fixture date differs between whole-season registers; no report uses that disputed date."
+  ],
+  "currentState": {
+    "manuscriptsComplete": 12,
+    "factualSelfAudits": "PASS",
+    "independentReview": "PASS",
+    "manuscriptPaths": [
+      "docs/editorial/drafts/match-production/2010-11/northampton-anfield-shootout-upset-2010.md",
+      "docs/editorial/drafts/match-production/2010-11/goodison-defeat-new-ownership-2010.md",
+      "docs/editorial/drafts/match-production/2010-11/gerrard-napoli-substitute-hat-trick-2010.md",
+      "docs/editorial/drafts/match-production/2010-11/torres-chelsea-double-2010.md",
+      "docs/editorial/drafts/match-production/2010-11/blackburn-hodgson-last-match-2011.md",
+      "docs/editorial/drafts/match-production/2010-11/dalglish-return-old-trafford-2011.md",
+      "docs/editorial/drafts/match-production/2010-11/suarez-scoring-debut-stoke-2011.md",
+      "docs/editorial/drafts/match-production/2010-11/meireles-chelsea-torres-debut-2011.md",
+      "docs/editorial/drafts/match-production/2010-11/kuyt-hat-trick-united-2011.md",
+      "docs/editorial/drafts/match-production/2010-11/carroll-first-goals-city-2011.md",
+      "docs/editorial/drafts/match-production/2010-11/kuyt-arsenal-late-penalty-2011.md",
+      "docs/editorial/drafts/match-production/2010-11/maxi-fulham-five-goals-2011.md"
+    ],
+    "independentReviewFile": "docs/editorial/drafts/match-production/2010-11/research/sol-independent-review-2026-10-03.md"
+  }
 }

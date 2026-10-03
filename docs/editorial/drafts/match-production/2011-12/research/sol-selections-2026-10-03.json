@@ -4,7 +4,7 @@
   "workerId": "/root/sol_1968_69",
   "retrievedOn": "2026-10-03",
   "preservedPriorManifest": "docs/editorial/drafts/match-production/2011-12/research/selection.json",
-  "draftingStatus": "Held until root confirms remote claims and releases after 2010–11 checkpoint.",
+  "draftingStatus": "All fifteen manuscripts independently reviewed PASS on 3 October 2026; root owns validation and remote season checkpoint.",
   "matches": [
     {
       "date": "2011-08-20",
@@ -120,7 +120,7 @@
       "oppositionId": "manchester-city",
       "competitionId": "league-cup",
       "title": "Liverpool 2–2 Manchester City",
-      "editorialReason": "Bellamy equaliser seals 3–2 aggregate semi-final win and first Wembley visit since 1996.",
+      "editorialReason": "Bellamy equaliser seals a 3–2 aggregate semi-final win and a place in the Wembley final.",
       "sourcesURLs": [
         "https://www.uefa.com/news-media/news/01f9-0e7b92b8f0cd-fb17930a87a2-1000--liverpool-edge-into-league-cup-final/",
         "https://www.skysports.com/football/liverpool-vs-man-city/253443",
@@ -209,7 +209,8 @@
         "https://www.uefa.com/news-media/news/01fb-0f87fac4134f-9a857d2f03c8-1000--gerrard-treble-halts-liverpool-slide-against-everton/",
         "https://www.lfchistory.net/season-archive/games/121",
         "https://www.lfchistory.net/season-archive/league-table/121",
-        "https://www.skysports.com/football/liverpool-vs-everton/257457"
+        "https://www.skysports.com/football/liverpool-vs-everton/257457",
+        "https://www.lfchistory.net/games/3258"
       ],
       "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/gerrard-derby-hat-trick-2012-notes.md",
       "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
@@ -270,7 +271,8 @@
         "https://www.liverpoolfc.com/news/announcements/392886-watch-again-2012-liverpool-v-everton-fa-cup-semi-final-in-full",
         "https://www.skysports.com/football/liverpool-vs-everton/report/258338",
         "https://www.lfchistory.net/season-archive/games/121",
-        "https://www.lfchistory.net/season-archive/league-table/121"
+        "https://www.lfchistory.net/season-archive/league-table/121",
+        "https://www.liverpoolfc.com/news/first-team/118080-carroll-wins-it-as-doni-sees-red"
       ],
       "sourceNote": "docs/editorial/drafts/match-production/2011-12/research/carroll-wembley-derby-winner-2012-notes.md",
       "origin": "Retained prepared selection; sources freshly retrieved by Sol on 3 October 2026."
@@ -333,5 +335,5 @@
     "Norwich third-goal distances differ; describe a long-range lob, not an exact yardage.",
     "FA Cup final Carroll header: no goal awarded; do not resolve contested line-crossing from text alone."
   ],
-  "prewritingStatus": "All fifteen fresh Sol companion source notes saved with bounded source scopes, independent corroboration and conflicts; bodies still held."
+  "prewritingStatus": "Fresh source notes now include completed own factual audits for all fifteen saved manuscripts; original Astra preparation preserved."
 }

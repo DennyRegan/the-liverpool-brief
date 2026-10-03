@@ -2,7 +2,7 @@
 
 Historical date: 2012-01-28. Season: 2011–12. Researcher and intended writer: gpt-6.1-sol. Worker: /root/sol_1968_69. Fresh retrieval date: 3 October 2026.
 
-The earlier Astra preparation remains in its original file and retains its recorded authorship. This is a separate Sol source retrieval and assessment. Manuscript drafting is held until root confirms the remote claim and releases this season.
+The earlier Astra preparation remains in its original file and retains its recorded authorship. This is a separate Sol source retrieval and assessment. Root confirmed the claim on GitHub main at 3561b8f14acb751c220d799a7fc632f86ab635af and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -31,3 +31,18 @@ UEFA says three minutes remaining, club says 88; use late on rather than unneces
 ## Editorial handling before release
 
 The central result and bounded goal sequence have two independently retrieved accounts or an official contemporary account corroborated by the competitive record. The intended report will use British English, no invented quotations, atmosphere, tactical intentions or undocumented actions. Source wording will be paraphrased within reuse allowances. Each published-source URL will appear once in the terminal Sources list and in identical frontmatter order. A claim-by-claim final audit will be added after the authorised manuscript is written; this is a completed prewriting record, not a final-body PASS.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: The full club report and UEFA independently confirm the fourth-round date/result, Kuyt as substitute winner and earlier Agger/Park goals.
+- Paragraph 2: The ledger fixes the three-day gap from the City semi-final. Contemporary match evidence establishes Suárez’s absence; the freshly read FA written-reasons conclusion and sanction and Sky’s reproduced FA statement support the finding and eight first-team competitive matches. No insulting words are quoted, no non-appeal chronology or crowd motive is inferred.
+- Paragraph 3: The club account explicitly puts Valencia’s post effort at 18 minutes before Agger’s 21-minute goal, and supplies Gerrard corner/Agger header, Rafael supply/Park finish and half-time 1–1. The paragraph now correctly identifies the post effort as first-half action after independent review identified the misplaced implication. UEFA corroborates scorers and sequence.
+- Paragraph 4: The club full narrative supports Kuyt’s substitute role and the continued level score after the interval. Valencia’s earlier post effort has been moved into paragraph 3. Need for a winning goal follows from the level score, without a claim about tactical instructions.
+- Paragraph 5: The club and UEFA support Carroll flick-on and Kuyt finish past De Gea near the end. Conflicting minute formulations are omitted; the final result establishes no equaliser followed.
+- Paragraph 6: The ledger gives two wins/tie successes between 25 and 28 January and Brighton next in the FA Cup. The disciplinary finding remains brief attributed context in paragraph 2; no sporting vindication is implied.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2011–12 season, factual match classification, Dalglish and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

@@ -2,7 +2,7 @@
 
 Historical date: 2011-08-20. Season: 2011–12. Researcher and intended writer: gpt-6.1-sol. Worker: /root/sol_1968_69. Fresh retrieval date: 3 October 2026.
 
-The earlier Astra preparation remains in its original file and retains its recorded authorship. This is a separate Sol source retrieval and assessment. Manuscript drafting is held until root confirms the remote claim and releases this season.
+The earlier Astra preparation remains in its original file and retains its recorded authorship. This is a separate Sol source retrieval and assessment. Root confirmed the claim on GitHub main at 3561b8f14acb751c220d799a7fc632f86ab635af and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -30,3 +30,18 @@ Do not use the roundup predictions about a Champions League place as hindsight f
 ## Editorial handling before release
 
 The central result and bounded goal sequence have two independently retrieved accounts or an official contemporary account corroborated by the competitive record. The intended report will use British English, no invented quotations, atmosphere, tactical intentions or undocumented actions. Source wording will be paraphrased within reuse allowances. Each published-source URL will appear once in the terminal Sources list and in identical frontmatter order. A claim-by-claim final audit will be added after the authorised manuscript is written; this is a completed prewriting record, not a final-body PASS.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: UEFA and Sky establish the date, venue, 0–2 score, own goal and late Suárez goal. The complete ledger establishes this as the first league win.
+- Paragraph 2: The ledger records the Sunderland draw; the freshly retrieved club press review explicitly dates the preceding away Arsenal win to February 2000. The venue comparison is in those contemporary accounts.
+- Paragraph 3: Sky’s retrieved narrative supports Szczęsny’s first-half save from Carroll and explicitly puts Kelly’s post effort at 55 minutes in the second half. The paragraph now separates them chronologically after independent review identified the misplaced implication. No line-up or pressure statistic is inferred.
+- Paragraph 4: UEFA confirms Frimpong’s dismissal and Ramsey own goal; Sky supports the second caution, Liverpool substitutes and Miquel clearance striking Ramsey. The fouled player is deliberately unnamed because accounts conflict.
+- Paragraph 5: Sky supports Meireles’s square pass and the unguarded finish; UEFA confirms the added-time goal. No offside ruling is attempted.
+- Paragraph 6: Four points follows directly from the ledger’s draw and win under the three-point system; the eleven-year interval is bounded by the retrieved February 2000 predecessor and August 2011 result.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2011–12 season, factual match classification, Dalglish and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.
