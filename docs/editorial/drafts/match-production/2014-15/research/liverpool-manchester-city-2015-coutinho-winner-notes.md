@@ -4,7 +4,7 @@
 
 - Fresh research and source re-retrieval: 3 October 2026, actual configured model `gpt-6.1-sol`, worker `/root/sol_1967_68`.
 - Prior preparation: `2015-03-01-sources.md`, `season-research.md` and `selection.json` retain original 1 October Astra provenance. They were read as preparation and preserved; this note does not claim their retrieval as Sol work.
-- Current status: pre-writing factual scope checked; no body exists and no manuscript factual PASS is asserted. Sentence-by-sentence self-audit and independent final body review remain pending.
+- Current status: MANUSCRIPT COMPLETE; sentence-level factual self-audit PASS; independent final body review PENDING.
 
 ## Confirmed match identity and selection
 
@@ -40,3 +40,29 @@ The unbeaten statistic refers to league games; Liverpool had been eliminated in 
 1. https://www.lfchistory.net/games/5450
 2. https://www.liverpoolfc.com/news/first-team/180914-coutinho-brilliance-sees-off-city-again
 3. https://www.lfchistory.net/season-archive/games/124
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2014-15/liverpool-manchester-city-2015-coutinho-winner.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated audit supersedes all earlier pre-writing pending state while preserving preparation provenance. Independent final manuscript review is PENDING. Root confirmed thirteen main claims at07c42fe993b59037812634863c36368b43c9303a; current main was fetched and the writing claim, worker/token, duplicate dates and canonical IDs were checked immediately before saving.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5450
+- 2: https://www.liverpoolfc.com/news/first-team/180914-coutinho-brilliance-sees-off-city-again
+- 3: https://www.lfchistory.net/season-archive/games/124
+
+Every S row covers a complete body sentence in reading order and all its material claims.
+
+| Sentence | Complete sentence | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Liverpool beat Manchester City 2–1 at Anfield on 1 March 2015, three days after their Europa League elimination in Istanbul. | source 1, source 2, source 3 | High — PASS: Date/result and preceding26Feb Europeanexit/three-day chronology. |
+| S2 | Jordan Henderson and Philippe Coutinho scored from outside the area as Liverpool extended their unbeaten league run to eleven matches. | source 1, source 2 | High — PASS: Longrangestrikes/eleventhclubexplicit. |
+| S3 | Henderson opened the scoring in the 11th minute after Coutinho won possession from Vincent Kompany and Raheem Sterling laid the ball into his path. | source 1, source 2 | High — PASS: Goal11/fullretrievedballwinningpasschain. |
+| S4 | The captain curled his shot beyond Joe Hart to give Liverpool the lead. | source 1, source 2 | High — PASS: Hendocorecaptainandclubcurlfinish. |
+| S5 | Sergio Agüero struck the post before helping City equalise. | source 2 | High — PASS: Clubpostprecededequaliser. |
+| S6 | His pass found Edin Džeko, who finished first time in the 25th minute to leave the sides level at the interval. | source 1, source 2 | High — PASS: Dzeko25assistedAguero/HT1–1. |
+| S7 | Coutinho restored Liverpool’s lead with fifteen minutes remaining, curling a shot around Samir Nasri and into the far corner. | source 1, source 2 | High — PASS: 75goal/cluboutsideboxcurler aroundNasri. |
+| S8 | The 2–1 win took Liverpool to fifth on 48 points, two behind Manchester United in fourth. | source 1 | High — PASS: Actualpost-matchtable48/50positions. |
+| S9 | Further victories against Burnley and Swansea City followed before United’s visit ended the unbeaten league sequence later in March. | source 3 | High — PASS: Seasonnexttwowins and22Mardefeat. |
+| S10 | The City result had kept Liverpool in contention during that recovery, even though they would eventually finish sixth. | source 1, source 3 | High — PASS: Fifth2behindfourthcontextthenfinal6thfixturetab, no securedqualificationclaim. |
+
+Title, excerpt, event date, result and canonical metadata checked against these retrieved scopes. Single terminal Sources list and exact metadata URL order checked; every URL is recorded above with actual retrieval/limitations. Original Astra preparation is unchanged. No publication date, manual release, invented action, tactics, motives or quotes. Recorded source conflicts remain broadly bounded or omitted.

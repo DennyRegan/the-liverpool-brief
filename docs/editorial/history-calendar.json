@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T13:17:10.628620Z",
+  "updatedAt": "2026-10-03T13:35:33.256208Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -25066,7 +25066,7 @@
         "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2014-15/liverpool-ludogorets-2014-champions-league-return.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25116,7 +25116,7 @@
         "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2014-15/liverpool-middlesbrough-2014-thirty-penalty-shootout.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25166,7 +25166,7 @@
         "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2014-15/liverpool-basel-2014-champions-league-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25216,7 +25216,7 @@
         "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2014-15/chelsea-liverpool-2015-league-cup-semi-final.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25266,7 +25266,7 @@
         "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2014-15/besiktas-liverpool-2015-shootout-european-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25316,7 +25316,7 @@
         "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2014-15/liverpool-manchester-city-2015-coutinho-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31972,7 +31972,7 @@
         "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2014-15/qpr-liverpool-2014-four-late-goals.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32017,7 +32017,7 @@
         "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2014-15/bolton-liverpool-2015-late-cup-comeback.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32062,7 +32062,7 @@
         "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2014-15/liverpool-tottenham-2015-balotelli-first-league-goal.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,

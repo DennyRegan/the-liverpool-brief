@@ -4,7 +4,7 @@
 
 - Fresh research and source re-retrieval: 3 October 2026, actual configured model `gpt-6.1-sol`, worker `/root/sol_1967_68`.
 - Prior preparation: `2014-09-23-sources.md`, `season-research.md` and `selection.json` retain original 1 October Astra provenance. They were read as preparation and preserved; this note does not claim their retrieval as Sol work.
-- Current status: pre-writing factual scope checked; no body exists and no manuscript factual PASS is asserted. Sentence-by-sentence self-audit and independent final body review remain pending.
+- Current status: MANUSCRIPT COMPLETE; sentence-level factual self-audit PASS; independent final body review PENDING.
 
 ## Confirmed match identity and selection
 
@@ -40,3 +40,31 @@ The match was2–2 after extra time and the shoot-out14–13, from 30 kicks. The
 1. https://www.lfchistory.net/games/5462
 2. https://www.liverpoolfc.com/news/first-team/171231-reds-through-after-true-penalty-drama
 3. https://www.lfchistory.net/season-archive/games/124
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2014-15/liverpool-middlesbrough-2014-thirty-penalty-shootout.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated audit supersedes all earlier pre-writing pending state while preserving preparation provenance. Independent final manuscript review is PENDING. Root confirmed thirteen main claims at07c42fe993b59037812634863c36368b43c9303a; current main was fetched and the writing claim, worker/token, duplicate dates and canonical IDs were checked immediately before saving.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5462
+- 2: https://www.liverpoolfc.com/news/first-team/171231-reds-through-after-true-penalty-drama
+- 3: https://www.lfchistory.net/season-archive/games/124
+
+Every S row covers a complete body sentence in reading order and all its material claims.
+
+| Sentence | Complete sentence | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Liverpool advanced from the League Cup third round after a 2–2 draw with Middlesbrough at Anfield on 23 September 2014 ended in a 14–13 shoot-out win. | source 1, source 2 | High — PASS: Match2–2aet,separate14–13shootout. |
+| S2 | The thirty kicks set a new club and League Cup record for the number taken in a shoot-out. | source 1 | High — PASS: Core explicitly identifies records at date; no current/allEnglish recordclaim. |
+| S3 | Seventeen-year-old Jordan Rossiter gave Liverpool the lead ten minutes into his senior debut. | source 1, source 2 | High — PASS: Age17club/coredebut/10minutegoal. |
+| S4 | After Jamal Blackman blocked Rickie Lambert’s attempt, Rossiter struck the loose ball into the net from outside the area. | source 2 | High — PASS: Fullclubfirstgoalsequence. |
+| S5 | Lambert was making his first Liverpool start and captained the side. | source 1, source 2 | High — PASS: Startingcaptaincore/clubfirststart. |
+| S6 | Adam Reach headed in Grant Leadbitter’s free-kick to equalise in the second half. | source 1, source 2 | High — PASS: 62headedFKgoal. |
+| S7 | The tie went to extra time, when substitute Suso restored Liverpool’s lead with his first goal for the club. | source 1, source 2 | High — PASS: Suso109goal/firstgoal. |
+| S8 | Patrick Bamford then converted a penalty after Kolo Touré’s challenge, sending the teams to a shoot-out. | source 1, source 2 | High — PASS: Penaltyendextra timeandchallenge; no false90minute. |
+| S9 | Simon Mignolet saved Bamford’s opening Middlesbrough kick, but Raheem Sterling’s fifth attempt was also saved and the shoot-out went to sudden death. | source 1, source 2 | High — PASS: FullcoresequenceBamfordsavedSterlingsavedVossenscored4–4. |
+| S10 | Every player still on the field, including both goalkeepers, took a penalty before the order began again. | source 1, source 2 | High — PASS: Complete11eachsequenceincludeskeepers. |
+| S11 | Suso scored his second kick, Liverpool’s fifteenth, before Albert Adomah sent Middlesbrough’s final attempt wide. | source 1, source 2 | High — PASS: Fifteenthturn/Susosecond/Adomahwide. |
+| S12 | Liverpool’s League Cup run continued through Swansea City and Bournemouth before ending against Chelsea in the semi-final. | source 3 | High — PASS: Whole5fixturecupchronology. |
+
+Title, excerpt, event date, result and canonical metadata checked against these retrieved scopes. Single terminal Sources list and exact metadata URL order checked; every URL is recorded above with actual retrieval/limitations. Original Astra preparation is unchanged. No publication date, manual release, invented action, tactics, motives or quotes. Recorded source conflicts remain broadly bounded or omitted.

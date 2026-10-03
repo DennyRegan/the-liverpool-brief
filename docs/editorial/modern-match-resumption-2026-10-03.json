@@ -1076,6 +1076,14 @@
       "retrievedBy": "/root/sol_1967_68",
       "scope": "Historical venue label of Stoke–Liverpool on 24 May 2015; club match narrative corroborates, legacy article header date is erroneous",
       "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "jordan-rossiter",
+      "source": "https://www.lfchistory.net/games/5462",
+      "additionalSource": "https://www.liverpoolfc.com/news/first-team/171231-reds-through-after-true-penalty-drama",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Principal debutant and first goalscorer against Middlesbrough, 23 September 2014; worker freshly retrieved match record and club report",
+      "model": "gpt-6.1-sol"
     }
   ]
 }

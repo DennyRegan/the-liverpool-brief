@@ -3013,5 +3013,10 @@
     "id": "britannia-stadium",
     "label": "Britannia Stadium",
     "kind": "location"
+  },
+  {
+    "id": "jordan-rossiter",
+    "label": "Jordan Rossiter",
+    "kind": "person"
   }
 ]

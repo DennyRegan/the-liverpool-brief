@@ -4,7 +4,7 @@
 
 - Fresh research and source re-retrieval: 3 October 2026, actual configured model `gpt-6.1-sol`, worker `/root/sol_1967_68`.
 - Prior preparation: `2015-01-27-sources.md`, `season-research.md` and `selection.json` retain original 1 October Astra provenance. They were read as preparation and preserved; this note does not claim their retrieval as Sol work.
-- Current status: pre-writing factual scope checked; no body exists and no manuscript factual PASS is asserted. Sentence-by-sentence self-audit and independent final body review remain pending.
+- Current status: MANUSCRIPT COMPLETE; sentence-level factual self-audit PASS; independent final body review PENDING.
 
 ## Confirmed match identity and selection
 
@@ -40,3 +40,29 @@ Chelsea won 2–1 on aggregate after extra time. The club report establishes tha
 1. https://www.lfchistory.net/games/5481
 2. https://www.liverpoolfc.com/news/first-team/178913-reds-edged-out-of-cup-after-extra-time
 3. https://www.lfchistory.net/season-archive/games/124
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2014-15/chelsea-liverpool-2015-league-cup-semi-final.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated audit supersedes all earlier pre-writing pending state while preserving preparation provenance. Independent final manuscript review is PENDING. Root confirmed thirteen main claims at07c42fe993b59037812634863c36368b43c9303a; current main was fetched and the writing claim, worker/token, duplicate dates and canonical IDs were checked immediately before saving.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5481
+- 2: https://www.liverpoolfc.com/news/first-team/178913-reds-edged-out-of-cup-after-extra-time
+- 3: https://www.lfchistory.net/season-archive/games/124
+
+Every S row covers a complete body sentence in reading order and all its material claims.
+
+| Sentence | Complete sentence | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Liverpool’s League Cup run ended at Stamford Bridge on 27 January 2015, when Chelsea won the semi-final second leg 1–0 after extra time. | source 1, source 2 | High — PASS: Date/venue/stage/aet result. |
+| S2 | Branislav Ivanović’s header settled a tie Chelsea won 2–1 on aggregate. | source 1, source 2, source 3 | High — PASS: 94 goal and first leg1–1 aggregate arithmetic. |
+| S3 | The first leg at Anfield had ended 1–1, and the return remained goalless through ninety minutes. | source 1, source 2, source 3 | High — PASS: Both leg scores and normal-time0–0. |
+| S4 | Away goals counted only after extra time under the League Cup rules, so Chelsea’s first-leg goal had not yet decided the tie. | source 2 | High — PASS: Explicit club rule explanation; not a UEFA rule. |
+| S5 | Thibaut Courtois had kept out Alberto Moreno and Philippe Coutinho as Liverpool created openings in the first half. | source 2 | High — PASS: Retrieved saves and first-half phase. |
+| S6 | Simon Mignolet also denied Diego Costa, and neither side could find the goal that would settle the contest in normal time. | source 2 | High — PASS: Second-half Costa save and90-minute score. |
+| S7 | Four minutes into extra time, Ivanović met Willian’s free-kick with a header to put Chelsea ahead. | source 1, source 2 | High — PASS: 94-minute header/Willian delivery. |
+| S8 | Jordan Henderson then had an opportunity to reply when he reached Raheem Sterling’s cross, but his header went wide. | source 2 | High — PASS: Missed Henderson header after winner. |
+| S9 | Liverpool had reached the last four by overcoming Middlesbrough, Swansea City and Bournemouth. | source 3 | High — PASS: Cup route fixture register. |
+| S10 | Their second semi-final appearance of the season would come in the FA Cup against Aston Villa, but this defeat ended their first chance of reaching a domestic final. | source 3 | High — PASS: League Cup Jan then FA Apr route; no tactical/psychological implication. |
+
+Title, excerpt, event date, result and canonical metadata checked against these retrieved scopes. Single terminal Sources list and exact metadata URL order checked; every URL is recorded above with actual retrieval/limitations. Original Astra preparation is unchanged. No publication date, manual release, invented action, tactics, motives or quotes. Recorded source conflicts remain broadly bounded or omitted.

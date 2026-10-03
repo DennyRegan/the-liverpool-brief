@@ -75,7 +75,29 @@ Relevant complete match prose independently retrieved and read on 3 October; Hig
 - https://www.liverpoolfc.com/news/first-team/185348-defeat-for-reds-as-stevie-bids-farewell — Full narrative: Gerrard last home appearance709, guard/mosaic, Lallana after Kelly wayward pass, Puncheon free-kick, Zaha first-touch Bolasie centre around hour and Murray saved-penalty rebound. This is not Gerrard's last competitive Liverpool appearance; timing conflict explicitly bounded.
 - https://www.liverpoolfc.com/news/first-team/185728-stoke-stun-liverpool-in-stevie-farewell — Full narrative: final710thappearance, Adam shot/Diouf rebound then second, Can header/Walters saved-first-then-header, Adam interceptedSakho-to-Lucas pass, N'Zonzi, Lambert/Gerrard and Crouch sixth. Header23May conflicts with Sunday24Maycore; the core date governs. Final EuropaLeague entry-stage wording needs separate post-final qualification evidence if used; sixth place is independently established.
 
-No completed 2014–15 manuscript has been approved. Actual body/audit reads and final format/entity/hash checks remain pending.
+First two completed manuscripts reviewed below; eleven actual manuscript/audit reads and final whole-season checks remain pending.
+
+## First completed batch independently reviewed
+
+On 3 October 2026 the complete titles, excerpts, bodies and companion completed sentence audits for the Ludogorets and QPR reports were actually read. No substantive correction is required. Ludogorets action and contextual group record agree with the independently read core, organiser narrative and season ledger; https://www.liverpoolfc.com/news/first-team/170862-stevie-settles-late-drama-in-lfc-favour was additionally independently retrieved and read in full, High, verifying Borjan’s earlier Lallana save, Bezjak’s post and the final scoring chain. QPR carefully distinguishes Vargas’s header from the later Gerrard own-goal award and asserts no disputed final touch. Both complete narratives use supported action and British prose without invented quotes, motives or unseen media.
+
+Both files match the previously inspected published match-report source layout: one terminal descriptive linked-bullet Sources list, exact frontmatter/footer URL order, every URL in its own completed audit, no trailing article/editorial text. Slug, historical date, season, all entity kinds and absence of a publication date passed. Full-file hashes below are provisional gates for these actual reviewed bytes; whole-season verdict remains pending.
+
+| Manuscript | Full-file SHA-256 | Review |
+| --- | --- | --- |
+| liverpool-ludogorets-2014-champions-league-return.md | b2a8315e6bb8862ea975ed5f94d11d623af87f1a4884b7bffb4c0366eba88e32 | PASS — complete body/audit read; factual scope, date/entity and source format checked |
+| qpr-liverpool-2014-four-late-goals.md | 0944fca552f6ec80fe4880ca692e829969e9876b486bc89751503dbad9e896c7 | PASS — complete body/audit read; factual scope, date/entity and source format checked |
+
+## Basel and Chelsea completed batch independently reviewed
+
+Complete titles, excerpts, bodies and completed own sentence audits actually read on 3 October 2026. Basel qualification arithmetic, Marković’s bounded arm/dismissal wording, full-club Henderson header/save and all six group results pass. UEFA extraction remains partial; no later mechanism is assigned to unseen UEFA prose. Chelsea first-leg/return/aggregate chronology, after-extra-time away-goals rule, goalkeeper saves, Ivanović/Willian winner and subsequent Sterling/Henderson header agree with the independently retrieved full club narrative and core. Cup-route and later FA semi-final context derive from the full season register. No substantive correction needed.
+
+Both files passed canonical entity/date/slug/season, no-publication-date, one terminal Sources list, descriptive labels, metadata/footer exact URL order, completed own-note URL coverage and previously inspected published-format comparison. Supported prose has no fabricated action, dialogue, intent or disciplinary aftermath. Whole-season final approval is pending the remaining nine files.
+
+| Manuscript | Full-file SHA-256 | Review |
+| --- | --- | --- |
+| liverpool-basel-2014-champions-league-exit.md | bfecbeb117b0deca6aa5a90da91fc12be3d48b0d4cbc53dfc2e059c491b637b3 | PASS — complete body/audit read; factual scope, date/entity and source format checked |
+| chelsea-liverpool-2015-league-cup-semi-final.md | 8a7b6069fe3536838c58e1c49daa1c75d857ffe68958f668cec408d54f6b4e5d | PASS — complete body/audit read; factual scope, date/entity and source format checked |
 
 ## Verdict
 
