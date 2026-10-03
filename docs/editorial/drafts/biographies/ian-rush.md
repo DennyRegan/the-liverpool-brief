@@ -49,9 +49,15 @@ His return was uneven. John Aldridge had established himself in Liverpool’s at
 
 Rush replaced Aldridge and scored twice in extra time. After Stuart McCall cancelled out his first, he headed John Barnes’s cross past Neville Southall to win the match 3–2. Three years after the double, Liverpool had again won an FA Cup final through two Rush goals.
 
-He finished 1989–90 with 26 goals in all competitions as Liverpool won his fifth league championship. In 1992, he scored the second goal in the 2–0 FA Cup final victory over Sunderland. Across Liverpool’s three successful finals of 1986, 1989 and 1992, Rush had contributed five goals.
+He finished 1989–90 with 26 goals in all competitions as Liverpool won his fifth league championship. With Aldridge gone, Rush again had the regular centre-forward's place, and he repeated that 26-goal total in 1990–91. The transition to Souness's Liverpool was less straightforward. Injuries restricted him to 18 league appearances in 1991–92, although he recovered in time to score the second goal in the 2–0 FA Cup final victory over Sunderland. Across Liverpool’s three successful finals of 1986, 1989 and 1992, Rush had contributed five goals.
 
-That October, he overtook Roger Hunt as Liverpool’s record goalscorer. Souness made him captain in 1993, and he helped Fowler establish himself alongside him. Rush lifted the League Cup as captain in 1995, but Stan Collymore’s arrival and his subsequent partnership with Fowler reduced Rush’s role during his final season.
+That October, he overtook Roger Hunt as Liverpool’s record goalscorer. His standing did not guarantee uninterrupted selection: recalled in March 1993, he scored the winner against Queens Park Rangers. Souness was still searching for an effective combination around him, recruiting Nigel Clough that summer as a prospective partner. Fowler's emergence supplied a different answer. Souness made Rush captain in 1993, giving an experienced goalscorer a leading place in a changing side.
+
+Fowler later explained what he learned from training alongside Rush: the timing of runs and how each striker could create space for the other. He remembered a senior player willing to help him, not merely protect his own position. This was continuity expressed through practical attacking work. Rush's value to the young forward came from showing him how a partnership operated, as well as from the example of his scoring record.
+
+Evans continued to use Rush as a regular striker, not just a captain lending his name to a younger team. He played 50 competitive matches and scored 19 goals in 1994–95. At Blackburn in November, his hat-trick took Liverpool into the League Cup quarter-finals on his 600th appearance; Fowler supplied the pass for the opening goal. Rush then lifted the trophy at Wembley in April 1995. His partnership with Fowler was helping Liverpool win again even as the younger man's scoring grew more prominent.
+
+Stan Collymore's arrival changed the balance the following season. Rush initially remained in Evans's attack, but after an operation in November he could not displace Fowler or Collymore. By February 1996 he had announced that he would leave on a free transfer. He wanted to move before the transfer deadline but agreed to remain until the season's end, available if Liverpool needed him. The reduced role was therefore not simply a manager's verdict on a goalscorer: Rush also had to decide how long he could accept waiting behind an established partnership.
 
 His last Liverpool goal came at Manchester City in May 1996. After leaving for Leeds, he also played for Newcastle, Sheffield United on loan, Wrexham and Sydney Olympic. For Wales, he scored 28 goals in 73 appearances; Gareth Bale eventually passed that national record in 2018.
 
@@ -66,9 +72,17 @@ Liverpool received two substantial careers from Rush: 207 goals before his seaso
 - [Liverpool FC — Rush’s first goal](https://www.liverpoolfc.com/news/first-team/171580-free-video-10-of-ian-rush-s-finest-goals)
 - [Liverpool FC — Rush Scored Four](https://www.liverpoolfc.com/news/rush-scored-four-watch-lfctvs-new-documentary)
 - [UEFA — Ambassador: Ian Rush](https://www.uefa.com/uefachampionsleague/news/0230-0e94c11a43cb-36600d97e322-1000--ambassador-ian-rush/)
-- [Sporting Heroes — Ian Rush’s Liverpool career](https://www.sporting-heroes.net/football/liverpool-fc/ian-rush-7167/biography-of-his-football-career-at-anfield_a12171/)
 - [Liverpool FC — FA Cup final memories: 1986](https://www.liverpoolfc.com/news/first-team/118758-fa-cup-final-memories-1986)
 - [LFCHistory — Liverpool 3–1 Everton, 10 May 1986](https://www.lfchistory.net/games/1532)
 - [Liverpool FC — Ian Rush and nine more players who returned](https://www.liverpoolfc.com/news/features/312208-ian-rush-liverpool-fc-return-feature)
 - [Liverpool FC — Beating Everton at Wembley in 1989](https://www.liverpoolfc.com/news/first-team/278499-no-1-beating-everton-at-wembley-in-1989)
 - [Football Association of Wales — Ian Rush appointed advisor and ambassador](https://faw.cymru/news/ian-rush-appointed-by-faw-to-advisor-and-ambassador-role/)
+- [Liverpool FC — Heysel: A Day Never Forgotten](https://www.liverpoolfc.com/heysel)
+- [Liverpool FC — Fowler: It felt like a different era](https://www.liverpoolfc.com/news/first-team/146132-fowler-it-felt-like-a-different-era)
+- [Liverpool FC — Liverpool 2–0 Sheffield Wednesday, 1993](https://www.liverpoolfc.com/news/first-team/230885-no-7-liverpool-2-0-sheffield-wednesday-1993)
+- [The Independent — Rush dispels fear of the drop, 11 March 1993](https://www.independent.co.uk/sport/football-rush-dispels-fear-of-the-drop-1497055.html)
+- [LFCHistory — Blackburn Rovers 1–3 Liverpool, 30 November 1994](https://lfchistory.net/games/1978)
+- [LFCHistory — Contemporary report: Red Rush rocks Rovers](https://lfchistory.net/articles/1403)
+- [The Irish Times — Rush to leave Liverpool, 28 February 1996](https://www.irishtimes.com/sport/rush-to-leave-liverpool-1.32335)
+- [LFCHistory — Liverpool's 1990–91 season statistics](https://www.lfchistory.net/season-archive/statistics/32)
+- [Liverpool FC — A history of LFC's League Cup finals: 1995 and 2001](https://www.liverpoolfc.com/news/first-team/208478-a-history-of-lfc-s-league-cup-finals-1995-and-2001)

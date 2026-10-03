@@ -10050,6 +10050,11 @@
           "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
           "confidence": "high",
           "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
+        },
+        {
+          "location": "docs/editorial/biography-depth-revision-hashes-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Exact authorised revision body and metadata hashes alongside unchanged original recovery hashes; technical guard, not publication approval."
         }
       ],
       "migration": {
@@ -10115,20 +10120,16 @@
       "personId": "ian-rush",
       "event": "Ian Rush: Liverpool’s record goalscorer",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_depth_houllier_rush",
-      "claim": {
-        "token": "depth-review-2026-10-03-ian-rush",
-        "claimedAt": "2026-10-03T07:45:18Z",
-        "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/biographies/ian-rush.md",
       "originalDraftId": "libfile_e5262d7cd0948191bc7206a79b69d691",
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision in progress using gpt-6.1-sol; original recovery provenance preserved. No approval, publication or schedule.",
+      "researchStatus": "verified",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision complete using gpt-6.1-sol; fresh retrieved research, separate post-draft factual audit and independent targeted factual review completed. Original recovery provenance preserved. No approval, publication or schedule.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Ian-Rush-research-record.md",
@@ -10139,6 +10140,26 @@
           "location": "docs/editorial/biography-depth-improvements-2026-10-03.md",
           "confidence": "high",
           "scope": "Denny-authorised selective depth revision scope, based on full manuscript coverage review; not yet a factual recheck."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/ian-rush-depth-research-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh actually retrieved revision research and factual conflicts."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/ian-rush-depth-audit-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass over retained and revised manuscript claims; actual Sol 6.1 provenance."
+        },
+        {
+          "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
+        },
+        {
+          "location": "docs/editorial/biography-depth-revision-hashes-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Exact authorised revision body and metadata hashes alongside unchanged original recovery hashes; technical guard, not publication approval."
         }
       ],
       "migration": {
@@ -10643,6 +10664,11 @@
           "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
           "confidence": "high",
           "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
+        },
+        {
+          "location": "docs/editorial/biography-depth-revision-hashes-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Exact authorised revision body and metadata hashes alongside unchanged original recovery hashes; technical guard, not publication approval."
         }
       ],
       "migration": {
@@ -10668,20 +10694,16 @@
       "personId": "robbie-fowler",
       "event": "Robbie Fowler: Liverpool’s instinctive goalscorer",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_depth_kennedy_fowler",
-      "claim": {
-        "token": "depth-review-2026-10-03-robbie-fowler",
-        "claimedAt": "2026-10-03T07:45:18Z",
-        "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/biographies/robbie-fowler.md",
       "originalDraftId": "libfile_b8729f15e27c8191a30fbfa11a78fc1a",
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision in progress using gpt-6.1-sol; original recovery provenance preserved. No approval, publication or schedule.",
+      "researchStatus": "verified",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision complete using gpt-6.1-sol; fresh retrieved research, separate post-draft factual audit and independent targeted factual review completed. Original recovery provenance preserved. No approval, publication or schedule.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Robbie-Fowler-research-record.md",
@@ -10692,6 +10714,26 @@
           "location": "docs/editorial/biography-depth-improvements-2026-10-03.md",
           "confidence": "high",
           "scope": "Denny-authorised selective depth revision scope, based on full manuscript coverage review; not yet a factual recheck."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/robbie-fowler-depth-research-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh actually retrieved revision research and factual conflicts."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/robbie-fowler-depth-audit-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass over retained and revised manuscript claims; actual Sol 6.1 provenance."
+        },
+        {
+          "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
+        },
+        {
+          "location": "docs/editorial/biography-depth-revision-hashes-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Exact authorised revision body and metadata hashes alongside unchanged original recovery hashes; technical guard, not publication approval."
         }
       ],
       "migration": {
@@ -10752,6 +10794,11 @@
           "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
           "confidence": "high",
           "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
+        },
+        {
+          "location": "docs/editorial/biography-depth-revision-hashes-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Exact authorised revision body and metadata hashes alongside unchanged original recovery hashes; technical guard, not publication approval."
         }
       ],
       "migration": {
@@ -10898,20 +10945,16 @@
       "personId": "sammy-lee",
       "event": "Sammy Lee: Liverpool’s ever-present",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_depth_heighway_lee",
-      "claim": {
-        "token": "depth-review-2026-10-03-sammy-lee",
-        "claimedAt": "2026-10-03T07:45:18Z",
-        "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/biographies/sammy-lee.md",
       "originalDraftId": "libfile_fa9c316a69148191bebf9d56b618581a",
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision in progress using gpt-6.1-sol; original recovery provenance preserved. No approval, publication or schedule.",
+      "researchStatus": "verified",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision complete using gpt-6.1-sol; fresh retrieved research, separate post-draft factual audit and independent targeted factual review completed. Original recovery provenance preserved. No approval, publication or schedule.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Sammy-Lee-research-record.md",
@@ -10922,6 +10965,26 @@
           "location": "docs/editorial/biography-depth-improvements-2026-10-03.md",
           "confidence": "high",
           "scope": "Denny-authorised selective depth revision scope, based on full manuscript coverage review; not yet a factual recheck."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/sammy-lee-depth-research-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh actually retrieved revision research and factual conflicts."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/sammy-lee-depth-audit-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass over retained and revised manuscript claims; actual Sol 6.1 provenance."
+        },
+        {
+          "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
+        },
+        {
+          "location": "docs/editorial/biography-depth-revision-hashes-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Exact authorised revision body and metadata hashes alongside unchanged original recovery hashes; technical guard, not publication approval."
         }
       ],
       "migration": {
@@ -10982,6 +11045,11 @@
           "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
           "confidence": "high",
           "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
+        },
+        {
+          "location": "docs/editorial/biography-depth-revision-hashes-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Exact authorised revision body and metadata hashes alongside unchanged original recovery hashes; technical guard, not publication approval."
         }
       ],
       "migration": {
@@ -11047,20 +11115,16 @@
       "personId": "steve-mcmanaman",
       "event": "Steve McManaman",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_depth_firmino_mcmanaman",
-      "claim": {
-        "token": "depth-review-2026-10-03-steve-mcmanaman",
-        "claimedAt": "2026-10-03T07:45:18Z",
-        "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/biographies/steve-mcmanaman.md",
       "originalDraftId": "libfile_67155aadbd2c819180a0c3e441cebb11",
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision in progress using gpt-6.1-sol; original recovery provenance preserved. No approval, publication or schedule.",
+      "researchStatus": "verified",
+      "notes": "Completed manuscript recovered without rewriting. Migration is not a factual recheck or publication approval. AI-written reference biography; destination and public authorship treatment must be confirmed before publication. 3 October 2026: selective depth revision complete using gpt-6.1-sol; fresh retrieved research, separate post-draft factual audit and independent targeted factual review completed. Original recovery provenance preserved. No approval, publication or schedule.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Steve-McManaman-research-record.md",
@@ -11071,6 +11135,26 @@
           "location": "docs/editorial/biography-depth-improvements-2026-10-03.md",
           "confidence": "high",
           "scope": "Denny-authorised selective depth revision scope, based on full manuscript coverage review; not yet a factual recheck."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/steve-mcmanaman-depth-research-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh actually retrieved revision research and factual conflicts."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/steve-mcmanaman-depth-audit-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass over retained and revised manuscript claims; actual Sol 6.1 provenance."
+        },
+        {
+          "location": "docs/editorial/biography-depth-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent baseline comparison and targeted retrieval of added claims; not an exhaustive second audit of every original claim."
+        },
+        {
+          "location": "docs/editorial/biography-depth-revision-hashes-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Exact authorised revision body and metadata hashes alongside unchanged original recovery hashes; technical guard, not publication approval."
         }
       ],
       "migration": {

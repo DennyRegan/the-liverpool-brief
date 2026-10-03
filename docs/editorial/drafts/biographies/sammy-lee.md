@@ -50,9 +50,13 @@ After a season at QPR, Lee joined Osasuna in Spain. A loan spell at Southampton 
 
 His next Liverpool career began on the coaching staff under Graeme Souness. Initially working with the reserves, he remained through Roy Evans’s tenure and became a first-team coach under Gérard Houllier. He was part of the staff when Liverpool won the League Cup, FA Cup and UEFA Cup in 2001: another treble, this time with Lee helping prepare the players.
 
+Those roles placed him at successive stages of a young player’s development. Tom Culshaw recalled Lee making him captain of the reserves, where he trained alongside established first-team players at Melwood. Gerrard later included Lee with Houllier and Phil Thompson among the senior staff who helped shape him after his youth coaches handed him on. It was a shared process, connecting the youth set-up, reserves and senior side.
+
 He combined Liverpool duties with a part-time England coaching role before joining the national set-up full-time in 2004. At Bolton he subsequently assisted Sam Allardyce, then succeeded him as manager in April 2007. The appointment lasted only until October, a brief and unsuccessful spell in charge.
 
-Rafael Benítez brought him back to Liverpool as assistant manager in May 2008. Explaining the appointment, Benítez emphasised Lee’s experience and standing as a coach alongside his knowledge of the club. Lee remained through the managerial changes to Roy Hodgson and Kenny Dalglish, leaving by mutual consent in June 2011.
+Rafael Benítez brought him back to Liverpool as assistant manager in May 2008. Explaining the appointment, Benítez emphasised Lee’s experience and standing as a coach alongside his knowledge of the club. During Benítez’s absence in December 2008, Lee oversaw preparations for Arsenal, explaining that the staff were implementing their already agreed plan.
+
+His contribution also included keeping the coaching operation connected through managerial changes. John Achterberg recalled Lee calling him up from the younger teams to cover first-team goalkeeping work at the start of Hodgson’s 2010 pre-season. Under Dalglish the following year, Rodolfo Borrell described Lee and Steve Clarke regularly visiting the academy to watch matches and training. Borrell credited their involvement with helping the different parts of Liverpool work together. Lee left by mutual consent in June 2011, having served under all three managers in that final spell.
 
 Across those different jobs, Lee’s Liverpool record rests on substantial work: a regular midfield place in three successive championship teams, starts in two European Cup final victories, and coaching responsibilities under several managers. The 67 starts of 1983–84 remain its outstanding detail. Through an entire season that ended with three trophies, Fagan never selected a starting eleven without him.
 
@@ -71,5 +75,10 @@ Across those different jobs, Lee’s Liverpool record rests on substantial work:
 - [Bolton Wanderers — From Player to Manager: Sammy Lee](https://www.bwfc.co.uk/news/2020/may/from-player-to-manager-sammy-lee)
 - [LFCHistory — Lee returns as assistant manager](https://www.lfchistory.net/articles/2252)
 - [Liverpool FC — The inside story of Liverpool’s 2001 cup treble](https://www.liverpoolfc.com/news/features/395716-quite-astonishing-the-inside-story-of-liverpool-s-2001-cup-treble)
+- [Liverpool FC — Behind the Badge: ‘My own LFC journey inspires me to be a coach’](https://www.liverpoolfc.com/news/behind-the-badge/289911-tom-culshaw-steven-gerrard-liverpool-u18s)
+- [Liverpool FC — Former players on Gérard Houllier](https://www.liverpoolfc.com/news/announcements/420049-former-players-pay-tribute-to-gerard-houllier)
 - [Sky Sports — Benítez on Lee’s appointment](https://www.skysports.com/football/news/3574223/benitez-delight-at-lee-arrival)
+- [The Guardian — ‘Business as usual’ as Benítez recovers](https://www.theguardian.com/football/2008/dec/16/liverpool-rafael-benitez-kidney-operation)
+- [Liverpool FC — John Achterberg’s decade with the first team](https://www.liverpoolfc.com/news/first-team/436419-every-day-is-enjoyable-john-achterberg-s-decade-with-lfc-first-team)
+- [Liverpool FC — ‘I was simply overwhelmed’](https://www.liverpoolfc.com/news/first-team/96524-i-was-simply-overwhelmed)
 - [Liverpool FC — Sammy Lee leaves Liverpool, 29 June 2011](https://www.liverpoolfc.com/news/first-team/98335-sammy-lee-leaves-liverpool-1)

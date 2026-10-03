@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "date": "2026-10-03",
+  "model": "gpt-6.1-sol",
+  "authorizationRecord": "docs/editorial/biography-depth-improvements-2026-10-03.md",
+  "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84",
+  "purpose": "Explicit authorised, researched and audited editorial amendments. Original migration hashes remain original recovery provenance; exact revised body hashes guard against unrecorded rewrites. This is evidence, not an inventory, approval or publication record.",
+  "rows": [
+    {
+      "id": "gerard-houllier-career-biography",
+      "personId": "gerard-houllier",
+      "path": "docs/editorial/drafts/biographies/gerard-houllier.md",
+      "originalRecoveredSha256": "9479bb5c752879139efb53e0e17726eb1b45a266dd7c158d107c5e97b57c4cd1",
+      "revisedBodySha256": "de7feac8f9f388681c19c52b4161a588a87e5c771bbf84106dbbfa1adfeffdcc",
+      "metadataSha256": "2b5a185ee654327508383d973c519cbc374b3ccb7e7bffc3342f1dadf00a3211",
+      "research": "docs/editorial/drafts/biographies/gerard-houllier-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/gerard-houllier-depth-audit-2026-10-03.md"
+    },
+    {
+      "id": "ian-rush-career-biography",
+      "personId": "ian-rush",
+      "path": "docs/editorial/drafts/biographies/ian-rush.md",
+      "originalRecoveredSha256": "7d294e5064886c0ba8129ae5765f6f4df1d197838622e6a023785dc27fcb46ca",
+      "revisedBodySha256": "d4ce198327b1e07f40699dee67804a5e4ed849eab03f4c2573a321fd7d0fe853",
+      "metadataSha256": "2e724462beaf0444eb047a3329d7d089d9c2380de3b2b20d6162ab8fb921dba6",
+      "research": "docs/editorial/drafts/biographies/ian-rush-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/ian-rush-depth-audit-2026-10-03.md"
+    },
+    {
+      "id": "steve-heighway-career-biography",
+      "personId": "steve-heighway",
+      "path": "docs/editorial/drafts/biographies/steve-heighway.md",
+      "originalRecoveredSha256": "5cc56e7be754d76f1c784807bbd13d8f5af2539c44514b8ec35e696e416ca6af",
+      "revisedBodySha256": "9a597750ca4c03c9740f2832218ca67c119c97c98594df99bf95c5b604f4d0f6",
+      "metadataSha256": "c86a12e8af068bc63d955707ca8c906b4db8c9b90fd651ac937a3cbf293e3ec9",
+      "research": "docs/editorial/drafts/biographies/steve-heighway-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/steve-heighway-depth-audit-2026-10-03.md"
+    },
+    {
+      "id": "sammy-lee-career-biography",
+      "personId": "sammy-lee",
+      "path": "docs/editorial/drafts/biographies/sammy-lee.md",
+      "originalRecoveredSha256": "fb979814b4429315c5efb9276a7903d1ba93f4634c3f96582bdb718ce84e079c",
+      "revisedBodySha256": "ff6fd447146227a36e29aa476b1cf5889aec9061875a6b605dcbe6df217eb1ee",
+      "metadataSha256": "5392892ad5c2cd1d010ffc4053f53b8888d8c92e0cc197ef6117593dbeaad560",
+      "research": "docs/editorial/drafts/biographies/sammy-lee-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/sammy-lee-depth-audit-2026-10-03.md"
+    },
+    {
+      "id": "ray-kennedy-career-biography",
+      "personId": "ray-kennedy",
+      "path": "docs/editorial/drafts/biographies/ray-kennedy.md",
+      "originalRecoveredSha256": "24ed930454530aace3150d606d72e1d7dbdd5b1d0c23dabdd06aea2eb7e8135d",
+      "revisedBodySha256": "06fc2af43289316e90463571f259f63bd663b040e73026da5e08a289d15ff639",
+      "metadataSha256": "9f91fbee079f9fe3d18af1bae3993c7c2ba480cb11f597cc1feb6088f5c707af",
+      "research": "docs/editorial/drafts/biographies/ray-kennedy-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/ray-kennedy-depth-audit-2026-10-03.md"
+    },
+    {
+      "id": "robbie-fowler-career-biography",
+      "personId": "robbie-fowler",
+      "path": "docs/editorial/drafts/biographies/robbie-fowler.md",
+      "originalRecoveredSha256": "4362121ba6cacfb8e206be31f76b379ad8fc2c513255ff578b9bd8d1e79dd6f6",
+      "revisedBodySha256": "04de8b08e79f1b20fef41c2c392c6ad109a74ce29e4ccd9a88b30d9f3d0da306",
+      "metadataSha256": "d50c6f349f72b59ed5bd8031fb51b61ab8971da105cd1dc5a6f4f1cc54397613",
+      "research": "docs/editorial/drafts/biographies/robbie-fowler-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/robbie-fowler-depth-audit-2026-10-03.md"
+    },
+    {
+      "id": "roberto-firmino-career-biography",
+      "personId": "roberto-firmino",
+      "path": "docs/editorial/drafts/biographies/roberto-firmino.md",
+      "originalRecoveredSha256": "059301c849569e8438ad755ae9b7357e5faa01b14241563899d8800172890fcb",
+      "revisedBodySha256": "740ed817d78b839d9b505dbb7ddfef209d7b52878fc6384056e419bae46e321d",
+      "metadataSha256": "0bf652df59c321bb63293a796f3f2389cecd3071e3be366d6fc92d3279793a9e",
+      "research": "docs/editorial/drafts/biographies/roberto-firmino-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/roberto-firmino-depth-audit-2026-10-03.md"
+    },
+    {
+      "id": "steve-mcmanaman-career-biography",
+      "personId": "steve-mcmanaman",
+      "path": "docs/editorial/drafts/biographies/steve-mcmanaman.md",
+      "originalRecoveredSha256": "2766b10613d311b576f4424b0a70fb359bb274565b066a0fdee71f8241a9d912",
+      "revisedBodySha256": "89142c30207f6dc5f593f56c520848f7470c366037b63db21c55ca2029da768a",
+      "metadataSha256": "ae03e4d7f8d15215e11a70fc9a64295e1afc31c02da80f70a5092879c2f3d00e",
+      "research": "docs/editorial/drafts/biographies/steve-mcmanaman-depth-research-2026-10-03.md",
+      "audit": "docs/editorial/drafts/biographies/steve-mcmanaman-depth-audit-2026-10-03.md"
+    }
+  ]
+}

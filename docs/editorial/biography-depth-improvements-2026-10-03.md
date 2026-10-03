@@ -30,3 +30,34 @@ Checkpoint completed revision packages in sensible batches, reconcile current re
 Houllier (961 → 1,410 narrative words), Heighway (911 → 1,328), Kennedy (925 → 1,031) and Firmino (981 → 1,299) have fresh research registers, separate post-draft factual audits and an independent targeted retrieval review. Sources sit at the bottom of each manuscript. The current calendar marks these same four rows technically ready/unpublished, with no claim, approval or destination. Four other commissioned revisions remain in progress. `biography-depth-first-checkpoint-2026-10-03.json` records executed schema, identity/metadata, queue, evidence and preservation assertions; full application tests/build/HTTP checks follow the complete batch.
 
 Fresh remote fetch before this checkpoint found main unchanged at `02715879866e47b3f5342108e1666f499de9f6a6` and this dedicated branch at selection checkpoint `530d3db6eb5b4cb93434fa9aafa6a6bf462e15ef`. No concurrent match, migration, publisher, public application or original recovery evidence files were changed. Original calendar recovery provenance is byte-for-byte equivalent as parsed data. The completed unpublished inventory remains sixty; these are amendments, not new biographies.
+
+## Completed selective review
+
+All thirty originals were reviewed in full by actual Sol 6.1 coverage reviewers. Eight targeted revisions were independently researched before writing, then subjected to a separate writer factual pass over retained and added claims and an independent targeted retrieval review of meaningful additions. The independent pass is not represented as a second exhaustive check of every retained claim. No further subjects were commissioned merely to raise word counts.
+
+| Biography | Before narrative words | After narrative words | Meaningful added coverage |
+| --- | ---: | ---: | --- |
+| Gérard Houllier | 961 | 1,410 | Rebuilding, tactical trade-offs, leadership rationale and limits of the title challenge |
+| Ian Rush | 920 | 1,225 | Later selection, Fowler partnership, Evans-era contribution and departure choice |
+| Steve Heighway | 911 | 1,328 | Academy responsibilities, development methods, shared work and balanced departure context |
+| Sammy Lee | 885 | 1,042 | Documented coaching preparation, development and academy connections |
+| Ray Kennedy | 925 | 1,031 | Dignified later Liverpool relationships and dated Anfield remembrance |
+| Robbie Fowler | 976 | 1,247 | Evans-era supply/partnerships/title context and attributed 2001 departure accounts |
+| Roberto Firmino | 981 | 1,299 | Early role learning, 2016–17 attacking development and documented supporter connection |
+| Steve McManaman | 851 | 1,037 | 1997–99 public contract/departure context and continued final-season contribution |
+
+Counts exclude front matter, headings and Sources. Twenty-two other original manuscripts and all thirty recently produced biographies remain unchanged. No blanket doubling or new extended/legendary replacement was undertaken. Each revised article has exactly one final bottom Sources section. The canonical paths remain `docs/editorial/drafts/biographies/<person-id>.md`, with fresh `<person-id>-depth-research-2026-10-03.md` and `<person-id>-depth-audit-2026-10-03.md` beside them. The authoritative calendar retains all original migration hashes and provenance, adding revision evidence only. This report and the hash/validation snapshots are evidence, not alternative inventories.
+
+Limitations are explicit in the research registers: public contract discussions do not establish private offers or motives; reported fees remain reported; retrospective coaching testimony is attributed and does not imply sole credit; source-level numerical/date mistakes are recorded and not copied. Kennedy's unconfirmed 2009 appeal was not added. Lee's inherited ground-end memory remains expressly attributed, with its archive discrepancy recorded. No unresolved factual blocker remains for the bounded revisions; excluded claims were not guessed.
+
+## Final technical and publication boundary checks
+
+- Calendar/history/content schemas, canonical identities and duplicate subject/slug checks pass. All eight same rows are technically ready/unpublished; claim, approval and published destination are null. Total completed unpublished biographies remains **60**.
+- Full test suite: **202 passed, 0 failed**. The first run exposed the old assumption that recovered canonical prose could never be amended. A narrowly scoped test now verifies exact revised body/metadata hashes alongside unchanged original recovery hashes and discoverable research/audit records, with negative mutation cases. No original hash was rewritten to disguise an amendment. All other tests, application code, schemas and publisher code remain unchanged.
+- Lint: exit 0, no errors; one pre-existing unused `getPublishedExperience` warning in `tests/interactive-history-rendering.test.mjs`.
+- Production build: exit 0; TypeScript passed and 470 static pages generated. The initial attempt encountered `ENOTEMPTY` in generated `.next` cache. After confirming no running build, the old generated cache was moved to a scratch backup and a fresh build succeeded. Pre-existing Forshaw era-association and Node module-type notices remain; they are unrelated to these revisions.
+- Local production HTTP checks: **559 passed** (526 existing queue/public/sitemap boundaries plus 33 evidence/entity checks). All unpublished article/draft/evidence routes return 404, the sitemap excludes unpublished slugs and canonical entity hubs expose neither the manuscript nor its article link. Existing public pages remain accessible. This is local production verification, not deployment.
+
+Selection/review checkpoint: `530d3db6eb5b4cb93434fa9aafa6a6bf462e15ef`. First four completed package checkpoint: `1ed3a81a6659843df0665451b7786383e5296fc7`. The final package/validation checkpoint is this report's commit on the same dedicated branch. Fresh fetch before saving found current main and concurrent migration/publisher refs unchanged; no main merge or ref update is authorised by this job.
+
+Nothing was published, deployed, scheduled or approved on Denny's behalf. The previously configured automatic publisher state was preserved exactly; no publisher run was invoked. All changes are unpublished editorial inventory amendments on `editorial/biography-depth-review-2026-10-03`.

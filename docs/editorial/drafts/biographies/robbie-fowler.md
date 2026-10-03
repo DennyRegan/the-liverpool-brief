@@ -33,7 +33,11 @@ Arsenal discovered that in August 1994. At Anfield, Fowler scored three times in
 
 Under Roy Evans, Fowler became central to Liverpool’s attack. He won the PFA Young Player of the Year award in both 1995 and 1996. His first senior trophy came in the 1995 League Cup final, when Steve McManaman scored both goals in a 2–1 victory over Bolton Wanderers. Liverpool’s young attacking talent had produced silverware, although that success proved difficult to repeat.
 
+Evans’s 3–5–2 gave that talent a framework. Stig Inge Bjørnebye supplied crosses from the left, while McManaman’s dribbling created openings for teammates. Fowler had learned from Ian Rush how to time runs and make space for a partner. Stan Collymore’s arrival in 1995 brought a new combination: the pair scored 42 league goals between them in 1995–96, Fowler contributing 28. His finishing was the most conspicuous part of an attack built on movement and supply as well as individual ability.
+
 The two 4–3 wins over Newcastle captured both the excitement and the vulnerability of Evans’s team. Fowler scored twice in the April 1996 match, which Stan Collymore settled with the final goal. In March 1997, Liverpool surrendered a three-goal lead before Fowler headed in the winner from Stig Inge Bjørnebye’s cross. He had scored twice again. These were outstanding attacking performances, but the second match also showed how much work Liverpool could leave their forwards to do.
+
+Those games belonged to genuine championship challenges, not merely entertaining seasons outside the race. Liverpool finished third in 1995–96, also losing the FA Cup final to Manchester United. The following season’s challenge lasted into the spring before a fourth-place finish. Fowler’s goals gave Evans’s side a route towards the title, but neither campaign produced the sustained results needed to win it.
 
 The affection for Fowler extended beyond his finishing. Supporters called him “God”, and his public support for the sacked Liverpool dockers connected him to a cause within the city. After scoring against Brann in 1997, he displayed a T-shirt supporting the dockers. UEFA fined him for the gesture.
 
@@ -49,7 +53,11 @@ Four days after that final, he came off the bench against Alavés in Dortmund an
 
 There was still an essential league match to play. At Charlton on 19 May, Fowler scored twice in a 4–0 win that secured third place and entry to Champions League qualifying. His season helped Liverpool collect three cups and take an important step back into Europe’s leading competition.
 
-He left for Leeds United in November 2001 for a reported £11 million, with 171 Liverpool goals behind him. Manchester City followed in January 2003. Then, on 27 January 2006, Rafael Benítez brought him back to Anfield on a free transfer.
+The departure that autumn followed a changed place in the team, not a season without useful contributions. On 27 November 2001, Phil Thompson, overseeing the side while Houllier recovered from heart surgery, publicly said Liverpool wanted Fowler to stay and that contract discussions were continuing. The clubs agreed a transfer that evening. Fowler joined Leeds United for a reported £11 million, with the precise fee undisclosed and 171 Liverpool goals behind him.
+
+Speaking at Leeds, Fowler explained that regular football offered a better chance of making England’s World Cup squad. He criticised rotation for undermining his confidence; Houllier had emphasised physical fitness as the obstacle to regular selection. Fowler also said no new contract had been put before him, despite the public talk of one. These were differing accounts of a difficult exit, rather than evidence that either the player or the club had simply stopped valuing the other.
+
+Manchester City followed in January 2003. Then, on 27 January 2006, Rafael Benítez brought him back to Anfield on a free transfer.
 
 Fowler was 30 and no longer the forward who had scored more than 30 goals a season. He still contributed five goals before the end of 2005–06 and earned another year. Seven more followed in his final Liverpool campaign. His last competitive appearance came against Charlton at Anfield on 13 May 2007, completing a second spell of 39 appearances and 12 goals.
 
@@ -75,3 +83,11 @@ Fowler’s early scoring figures set expectations that injury prevented him from
 - [Liverpool FC — Charlton 0–4 Liverpool, May 19, 2001](https://www.liverpoolfc.com/news/first-team/301348-7-charlton-0-4-liverpool-may-19-2001), 12 May 2018.
 - [Liverpool FC — On this day: Robbie Fowler returns home](https://www.liverpoolfc.com/news/features/335394-robbie-fowler-liverpool-return-2006-feature), 27 January 2019.
 - [UEFA — Fowler makes Anfield homecoming](https://www.uefa.com/uefachampionsleague/news/01b1-0e6d5d9f4387-69001d62cdb5-1000--fowler-makes-anfield-homecoming/), 27 January 2006.
+- [Liverpool FC — Roy Evans](https://www.liverpoolfc.com/info/roy-evans-0/).
+- [Liverpool FC — Mersey XIs: Jason McAteer’s 1990s](https://www.liverpoolfc.com/news/first-team/118313-mersey-xis-jason-mcateer-s-1990s).
+- [Liverpool FC — Fowler: It felt like a different era](https://www.liverpoolfc.com/news/first-team/146132-fowler-it-felt-like-a-different-era), 1 October 2013.
+- [Liverpool FC — Stats: SAS close in on Fowler record](https://www.liverpoolfc.com/news/first-team/154799-stats-sas-close-in-on-fowler-record), 6 February 2014.
+- [UEFA — Fowler on his way to Leeds](https://www.uefa.com/uefaeuropaleague/news/025a-0eab145157a5-04214158a7f3-1000--fowler-on-his-way-to-leeds/), 28 November 2001.
+- [Reuters / The Irish Times — Thompson diffuses Fowler speculation](https://www.irishtimes.com/news/thompson-diffuses-fowler-speculation-1.405272), 27 November 2001.
+- [The Independent — England place is next target for Fowler](https://www.the-independent.com/sport/football/premier-league/england-place-is-next-target-for-fowler-9240324.html), 30 November 2001, 19:00 EST.
+- [LFCHistory — And God said, ‘that is the most agonizing wait of all’](https://www.lfchistory.net/articles/4725).

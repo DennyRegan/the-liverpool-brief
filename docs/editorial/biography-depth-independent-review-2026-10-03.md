@@ -13,13 +13,32 @@ Only this report is created/edited by this reviewer. No manuscripts, calendars, 
 | Package | Independent status | Correction / qualification |
 | --- | --- | --- |
 | Gérard Houllier | Pass | Rebuilding and limits supported; health and causes restrained |
-| Ian Rush | Awaiting ready package | Not yet assessed |
+| Ian Rush | Pass | Later contribution, partnership work and departure choice supported |
 | Steve Heighway | Pass | Coaching work specific; shared credit and departure attribution retained |
-| Sammy Lee | Awaiting ready package | Not yet assessed |
+| Sammy Lee | Pass | Concrete coaching responsibilities and shared pathway supported |
 | Ray Kennedy | Pass | Primary interview supports friendship, not comprehensive institutional support |
-| Robbie Fowler | Awaiting ready package | Not yet assessed |
+| Robbie Fowler | Pass | Team context and differently attributed departure accounts supported |
 | Roberto Firmino | Pass | Early role development and documented fan connection supported |
-| Steve McManaman | Awaiting ready package | Not yet assessed |
+| Steve McManaman | Pass | Departure context attributed; final Liverpool season not erased |
+
+## Ian Rush
+
+**Comparison and editorial judgement:** The revision fills the compressed second Liverpool career with regular selection and injury limits, the search for partners, Fowler's practical learning account, a representative Evans-era contribution and Rush's own public departure choice. The original Dalglish partnership, pressing, finals and opening/closing argument are preserved rather than replaced. The Blackburn example establishes ongoing work rather than adding another final retelling. Captaincy is not inflated into invented duties, and the November operation has no invented anatomical site or cause. Metadata is unchanged and sources form one final list. Author's reported narrative count is 920 → 1,225 (+305).
+
+**Targeted independent result:** Pass. The substantive retrieved testimony, contemporary reports and numerical tables support the principal new claims. The final interpretation of reduced opportunity and Rush's choice is editorial framing, not a claim to know private negotiations. No manuscript blocker found; author and parent notified. An optional source-register provenance clarification was sent to the author: the archived Blackburn report credits British Soccer Week, although its original publication date is not separately displayed.
+
+| Retrieved URL | Provider / title | Publication or event date | Added claim tested | Confidence / conflicts / limits |
+| --- | --- | --- | --- | --- |
+| https://www.lfchistory.net/players/404 | LFCHistory — Ian Rush: profile and statistical tables | Undated; retrieved 3 October 2026 | Regular place after Aldridge; 18 league games in 1991–92; 50 competitive games and 19 goals in 1994–95; initial 1995–96 role | High numerical tables, medium retrospective selection account. Narrative has unrelated signing-age error; no such new error introduced. |
+| https://www.lfchistory.net/season-archive/statistics/32 | LFCHistory — Statistics, 1990–1991 | Undated database; retrieved 3 October 2026 | Repeated 26-goal season | High explicit total, corroborated player table. Does not imply unchanged team circumstances. |
+| https://www.independent.co.uk/sport/football-rush-dispels-fear-of-the-drop-1497055.html | The Independent / Derek Hodgson — Football: Rush dispels fear of the drop | 11 March 1993; retrieved 3 October 2026 | Recall and QPR winner | High contemporary account. 25-word source allowance; the short selected claim is not expanded into a duplicate match narrative. |
+| https://www.liverpoolfc.com/news/first-team/230885-no-7-liverpool-2-0-sheffield-wednesday-1993 | Liverpool FC / Steve Hunter — No.7: Liverpool 2–0 Sheffield Wednesday (1993) | 12 August 2016; retrieved 3 October 2026 | Clough recruited as prospective foil; Fowler's emergence altered opportunities | High chronology, medium retrospective statement of recruitment rationale. No claim Clough never played thereafter. |
+| https://www.liverpoolfc.com/news/first-team/146132-fowler-it-felt-like-a-different-era | Liverpool FC / Steve Hunter, reproducing Fowler's column — Fowler: It felt like a different era | 1 October 2013; retrieved 3 October 2026 | Learning when/how to run, reciprocal space-making, willing mentor | High attribution to primary testimony, medium retrospective impact appraisal. No invented formal mentoring programme. |
+| https://lfchistory.net/games/1978 | LFCHistory — Blackburn Rovers 1–3 Liverpool, League Cup fourth round | Match 30 November 1994; undated page; retrieved 3 October 2026 | Rush hat-trick, Fowler opening assist, Evans and captaincy, quarter-final qualification | High structured match record. Second-goal minute conflicts with reproduced report; manuscript uses neither minute. |
+| https://lfchistory.net/articles/1403 | British Soccer Week, reproduced by LFCHistory — Red Rush rocks Rovers | Contemporary report linked to 30 November 1994 match; original publication date not separately displayed; retrieved 3 October 2026 | 600th appearance and hat-trick contribution | High for corroborated occasion/result, medium reproduction provenance. Copyright credit identifies British Soccer Week; no video viewed or match commentary invented. |
+| https://www.irishtimes.com/sport/rush-to-leave-liverpool-1.32335 | The Irish Times — Rush to leave Liverpool | 28 February 1996; retrieved 3 October 2026 | Free summer departure announcement, operation in November, pair ahead of him, earlier move requested but agreed to stay available | High contemporary attributed statement. Its then-current goal total is not mistaken for his final tally, and honour-count convention is not imported. Operation site unspecified in source and manuscript. |
+
+The targeted pass does not re-retrieve every retained final or early-career claim. It confirms the meaningful later-career additions and their chronological integration; the author has separately mapped the retained trophy-lifting statement. No equal-length target is applied.
 
 ## Ray Kennedy
 
@@ -87,3 +106,74 @@ The claims about Lewtas and the retained retirement sentence are supported in th
 | https://www.liverpoolfc.com/news/ill-be-there-roberto-firmino-reveals-liverpool-fc-legends-wish?amp=1 | Liverpool FC / Chris Shaw — I'll be there: Roberto Firmino reveals Liverpool FC Legends wish | 28 August 2026; retrieved 3 October 2026 | Still playing at Al Sadd at that date | High for bounded dated statement, not a new assertion about present October status. No scheduled Legends return inferred. |
 
 The 34 league starts and final-month song recurrence have specific source mappings in the author register but were not independently re-retrieved in this targeted pass. The pass concerns meaningful new coverage, not blanket certification of every inherited statistic.
+
+## Robbie Fowler
+
+**Comparison and editorial judgement:** The revision adds the attacking framework around his scoring peak and proportionate title-race context, then explains the first departure through contemporaneous public statements. Strong debut, finishing, Newcastle, conduct, injury, treble and return passages remain. The 2001 goals are not allowed to disappear behind the subsequent sale. It does not assume contract discussion equals a formal contract offer, and the fee is explicitly reported rather than definitive. The final sentence about the different exit accounts is a cautious editorial rejection of simplistic inference, not a claim to know private affection. Metadata and one final Sources list survive. Author's reported count is 976 → 1,247 (+271).
+
+**Targeted independent result:** Pass. Newly opened official records, published player/teammate accounts and contemporary reports support the selected additions. No forced single-cause title-failure or transfer story found. No blocking correction; author and parent notified.
+
+| Retrieved URL | Provider / title | Publication date | Added claim tested | Confidence / conflicts / limits |
+| --- | --- | --- | --- | --- |
+| https://www.liverpoolfc.com/info/roy-evans-0/ | Liverpool FC — Roy Evans | Undated; retrieved 3 October 2026 | 3–5–2, Collymore arrival, third/fourth finishes and title challenges, 1996 final defeat | High club chronology. Retrospective title-jitters characterisation not adopted as a proven cause. |
+| https://www.liverpoolfc.com/news/first-team/118313-mersey-xis-jason-mcateer-s-1990s | Liverpool FC / Steve Hunter — Mersey XIs: Jason McAteer's 1990s | 12 April 2012; retrieved 3 October 2026 | Bjørnebye delivery and McManaman dribbling/chance creation | High for attributable football account; medium for retrospective appraisal. Does not provide an exhaustive tactical model. |
+| https://www.liverpoolfc.com/news/first-team/146132-fowler-it-felt-like-a-different-era | Liverpool FC / Steve Hunter, reproducing Fowler's column — Fowler: It felt like a different era | 1 October 2013; retrieved 3 October 2026 | Learning timed runs and reciprocal space-making from Rush | High first-person provenance; retrospective learning appraisal, not independent proof of every training interaction. |
+| https://www.liverpoolfc.com/news/first-team/154799-stats-sas-close-in-on-fowler-record | Liverpool FC / Ged Rea — Stats: SAS close in on Fowler record | 6 February 2014; retrieved 3 October 2026 | 42 shared league goals in 1995–96, 28 Fowler and 14 Collymore | High explicit statistic. League total is not confused with Fowler's all-competition output. |
+| https://www.uefa.com/uefaeuropaleague/news/025a-0eab145157a5-04214158a7f3-1000--fowler-on-his-way-to-leeds/ | UEFA — Fowler on his way to Leeds | 28 November 2001, later updated 2012; retrieved 3 October 2026 | Tuesday-night club agreement, undisclosed fee, changed selection, 171 first-spell goals | High contemporary content. Club agreement distinguished from personal terms/medical and completion. |
+| https://www.irishtimes.com/news/thompson-diffuses-fowler-speculation-1.405272 | Reuters / The Irish Times — Thompson diffuses Fowler speculation | 27 November 2001; retrieved 3 October 2026 | Thompson's public wish to retain Fowler and continuing contract discussions, caretaker context | High for reported statement, not proof an offer document existed. |
+| https://www.the-independent.com/sport/football/premier-league/england-place-is-next-target-for-fowler-9240324.html | The Independent / Tim Rich — England place is next target for Fowler | 30 November 2001, displayed EST; retrieved 3 October 2026 | Fowler's regular-football/England rationale, rotation/confidence and no-document account; reported Houllier fitness position; reported £11m/undisclosed fee | High for attributed player remarks, medium for reporter's summary of manager view. Differences retained, not resolved through invented private negotiations. |
+
+The source record's statement that discussions were taking place and the player's statement that no document was offered are not necessarily logically incompatible. The revised article respects that distinction. No new direct quotation or exact undisclosed fee is inserted.
+
+## Sammy Lee
+
+**Comparison and editorial judgement:** Local coaching additions replace a mere sequence of jobs with specific responsibilities and relationships. They cover reserve captaincy, shared passage into the senior staff, agreed-plan implementation, emergency coaching cover and academy connection under different managers. Those are appropriate observable tasks; neither graduate ownership nor unique drill design is asserted. Playing prose, opening, conclusion and metadata are unchanged; one final Sources list remains. Author's final reported count is 885 → 1,042 (+157), following a small polish from the initial draft.
+
+**Targeted independent result:** Pass. All five central new sources were opened to their substantive accounts. Temporary goalkeeping cover is not misrepresented as Lee choosing the eventual permanent appointment. No blocking correction found; author and parent notified.
+
+| Retrieved URL | Provider / title | Publication date | Added claim tested | Confidence / conflicts / limits |
+| --- | --- | --- | --- | --- |
+| https://www.liverpoolfc.com/news/behind-the-badge/289911-tom-culshaw-steven-gerrard-liverpool-u18s | Liverpool FC / David Lynch — Behind the Badge: My own LFC journey inspires me to be a coach | 7 February 2018; retrieved 3 October 2026 | Culshaw's reserve captaincy under Lee and Melwood work beside senior players | High for first-person account; no full coaching programme inferred. |
+| https://www.liverpoolfc.com/news/announcements/420049-former-players-pay-tribute-to-gerard-houllier | Liverpool FC — He put LFC back on the map in Europe: former players on Gerard Houllier | 14 December 2020; retrieved 3 October 2026 | Gerrard names Lee with Houllier/Thompson after youth staff | High for attributed testimony; general shared influence is not proof of a particular technical intervention. |
+| https://www.theguardian.com/football/2008/dec/16/liverpool-rafael-benitez-kidney-operation | The Guardian — Business as usual at Liverpool as Benítez recovers | 16 December 2008; retrieved 3 October 2026 | Lee implemented an agreed Arsenal preparation plan | High reported statement; 25-word retrieval allowance; no medical detail or tactical authorship inferred. |
+| https://www.liverpoolfc.com/news/first-team/436419-every-day-is-enjoyable-john-achterberg-s-decade-with-lfc-first-team | Liverpool FC / Glenn Price — Every day is enjoyable: John Achterberg's decade with LFC first team | 18 June 2021; retrieved 3 October 2026 | Lee requested temporary 2010 pre-season goalkeeping cover | High for Achterberg's attributed recollection. Source says Hodgson later chose permanent retention; revised manuscript does not transfer that credit to Lee. |
+| https://www.liverpoolfc.com/news/first-team/96524-i-was-simply-overwhelmed | Liverpool FC / Steve Hunter interviewing Rodolfo Borrell — I was simply overwhelmed | 29 May 2011; retrieved 3 October 2026 | Lee/Clarke watching academy games and training; Borrell's unity appraisal | High contemporary first-person evidence. Contribution shared with Clarke and Dalglish; no exclusive tactical credit. |
+
+The author's sidecar notes a retained Dinamo recollection/end-of-ground discrepancy. This targeted added-claims review does not independently certify that remembered ground end or change the old playing prose. The relevant manuscript sentence attributes the memory to Lee, and no new unqualified ground-end claim was inserted.
+
+## Steve McManaman
+
+**Comparison and editorial judgement:** Two local paragraphs supply the missing Liverpool-side departure context: a failed proposed Barcelona transaction, conflicting public explanations, continued contract talks and the managerial transition. The January 1999 announcement is followed by his actual final-season participation, not treated as the end of Liverpool service. Finals, ball-carrying explanation, Celtic scene and short Madrid postscript remain unchanged. The proposed £12 million is not called a completed fee; demands and reasonableness are participant positions, not the writer's ruling. There is no invented private reaction to Evans's departure or causal assertion that Houllier forced him out. Metadata and one final Sources list remain. Author's reported count is 851 → 1,037 (+186).
+
+**Targeted independent result:** Pass. Contemporary substantive articles, participant statements and official manager chronology support the selected context. Independently read numerical tables confirm final-season totals, and the profile records a last appearance in May 1999. No manuscript blocker found; author and parent notified.
+
+| Retrieved URL | Provider / title | Publication date | Added claim tested | Confidence / conflicts / limits |
+| --- | --- | --- | --- | --- |
+| https://www.irishtimes.com/sport/mcmanaman-too-costly-for-barcelona-1.97143 | The Irish Times — McManaman too costly for Barcelona | 15 August 1997; retrieved 3 October 2026 | Proposed £12m transaction; Gaspart and Fuller's contrasting public positions | High for attributed statements, medium surrounding report. Anonymous wage figures and one-sided crowd/private-motive speculation are not adopted. No sole proved cause of collapse established. |
+| https://www.independent.co.uk/sport/football-barcelona-decide-against-mcmanaman-1245766.html | The Independent / Derrick Whyte and Alan Nixon — Football: Barcelona decide against McManaman | 16 August 1997; retrieved 3 October 2026 | Liverpool permitted talks after unsuccessful negotiations, wanted retention | High reported club statement. 25-word allowance; no additional anonymous financial or recruitment speculation derived here. |
+| https://www.irishtimes.com/sport/unlikely-marriage-proves-barren-1.186076 | The Irish Times / Ian Ross — Unlikely marriage proves barren | 24 August 1998; retrieved 3 October 2026 | McManaman's advanced-talks/hope statement; reported club confidence | High for attributed statement, medium reporter's club-confidence account. Optimism is not an eventual agreement. Reporter's managerial blame prediction not adopted. |
+| https://www.liverpoolfc.com/info/roy-evans-0/ | Liverpool FC — Roy Evans: past manager | Undated; retrieved 3 October 2026 | Joint management then Evans's November 1998 departure | High official chronology. Retrospective judgements about dignity/results are not inserted as private player motives. |
+| https://www.liverpoolfc.com/info/gerard-houllier | Liverpool FC — Gerard Houllier: past manager | Undated; retrieved 3 October 2026 | Summer 1998 joint appointment and subsequent sole management | High official chronology. Supports transition, not a cause for McManaman's choice. |
+| https://www.irishtimes.com/sport/mcmanaman-confirms-summer-move-to-real-1.1258823 | The Irish Times — McManaman confirms summer move to Real | 30 January 1999; retrieved 3 October 2026 | Summer free move and player's publicly stated European ambition | High participant statement. Unnecessary package amounts omitted; future plan distinguished from completed departure. |
+| https://lfchistory.net/players/371 | LFCHistory — Steve McManaman: profile and appearance tables | Undated; retrieved 3 October 2026 | 31 competitive appearances, 28 league in 1998–99; last appearance 16 May 1999 | High table/milestone records. Totals are whole-season, not falsely all post-January. Retained first-full-season prose/table discrepancy acknowledged by author; correct original eleven retained. |
+
+The August 1998 discussion appears after the sentence sketching the full managerial transition, but its date is explicit: it is not represented as taking place after November. The new narrative distinguishes discussion from outcome and proposal from completed transfer. The old article's broader supporter wording is narrowed to some supporters; this targeted pass does not independently re-audit every reaction or earlier match.
+
+## Final independent outcome and mechanical checks
+
+All eight packages pass this targeted independent added-claims review. This is an editorial judgement within the commissioned scope, not publication approval or an exhaustive historical certification. No manuscript-blocking correction remains. The small Rush archive-provenance clarification was communicated separately and does not alter any narrative claim. The differentiated additions fill the selected gaps; none is assessed against an equal word target.
+
+Read-only validation against the baseline commit independently confirms exact front-matter byte preservation, one final Sources heading, and no body URL for all eight. Manual comparison found no new writer-method aside, invented speech, source-marker intrusion or loss of the selected strong existing passages. A broad text flag for the word “confidence” in Fowler refers to his playing confidence, not a research label.
+
+| Canonical ID | Baseline prose words | Revised prose words | Change | Metadata identical | Final Sources lists |
+| --- | ---: | ---: | ---: | --- | ---: |
+| gerard-houllier | 961 | 1,410 | +449 | Yes | 1 |
+| ian-rush | 920 | 1,225 | +305 | Yes | 1 |
+| steve-heighway | 911 | 1,328 | +417 | Yes | 1 |
+| sammy-lee | 885 | 1,042 | +157 | Yes | 1 |
+| ray-kennedy | 925 | 1,031 | +106 | Yes | 1 |
+| robbie-fowler | 976 | 1,247 | +271 | Yes | 1 |
+| roberto-firmino | 981 | 1,299 | +318 | Yes | 1 |
+| steve-mcmanaman | 851 | 1,037 | +186 | Yes | 1 |
+
+Counts are whitespace-delimited narrative words, excluding metadata, heading lines and the final Sources section; the old Firmino research-cut-off note is excluded. They match the authors' reported figures. Retrieval limits and unrepeated claims are recorded by package above. The reviewer changed only this report and made no calendar, Git, public, publication, approval or scheduling change.

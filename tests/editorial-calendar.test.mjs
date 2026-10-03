@@ -14,12 +14,62 @@ test('repository calendar validates without imposing a fixed writing or approval
   assert.ok(rows.every(e => e.personId || ((e.matchRecovery || e.matchProduction) && e.historicalEventDate) || (e.featuredWeek && e.historicalEventDate)));
 });
 
-test('recovered manuscripts retain their exact bytes below added metadata', () => {
-  for (const row of load().biographies ?? []) {
+const revisionPath = 'docs/editorial/biography-depth-revision-hashes-2026-10-03.json';
+const sha256 = value => createHash('sha256').update(value).digest('hex');
+function auditedRevisions(record, calendar) {
+  assert.equal(record.version, 1);
+  assert.equal(record.model, 'gpt-6.1-sol');
+  assert.equal(record.authorizationRecord, 'docs/editorial/biography-depth-improvements-2026-10-03.md');
+  assert.ok(fs.readFileSync(record.authorizationRecord, 'utf8').includes('Denny authorised changes'));
+  assert.equal(record.rows.length, 8);
+  const revisions = new Map();
+  for (const revision of record.rows) {
+    assert.ok(!revisions.has(revision.id), 'Duplicate revision identity');
+    const row = calendar.biographies.find(e => e.id === revision.id);
+    assert.ok(row?.migration?.sourceManuscript, 'Revision must reference recovered inventory');
+    assert.equal(revision.personId, row.personId);
+    assert.equal(revision.path, row.draftPath);
+    assert.equal(revision.originalRecoveredSha256, row.migration.sourceManuscript.sha256, 'Original recovery hash must not be replaced');
+    const manuscript = matter(fs.readFileSync(row.draftPath, 'utf8'));
+    assert.equal(sha256(manuscript.content.slice(1)), revision.revisedBodySha256, 'Unrecorded revised body change');
+    assert.equal(sha256(JSON.stringify(manuscript.data)), revision.metadataSha256, 'Unrecorded revised metadata change');
+    for (const kind of ['research', 'audit']) {
+      assert.equal(revision[kind], `docs/editorial/drafts/biographies/${row.personId}-depth-${kind}-2026-10-03.md`);
+      assert.ok(row.evidence.some(e => e.location === revision[kind]), 'Revision evidence must be discoverable from inventory');
+      assert.ok(fs.readFileSync(revision[kind], 'utf8').includes('gpt-6.1-sol'));
+    }
+    revisions.set(revision.id, revision);
+  }
+  return revisions;
+}
+
+test('recovered manuscripts retain exact bytes except explicitly recorded audited amendments', () => {
+  const calendar = load();
+  const revisions = auditedRevisions(JSON.parse(fs.readFileSync(revisionPath, 'utf8')), calendar);
+  for (const row of calendar.biographies ?? []) {
     if (!row.migration?.sourceManuscript || !row.draftPath) continue;
     const body = matter(fs.readFileSync(row.draftPath, 'utf8')).content;
-    assert.equal(createHash('sha256').update(body.slice(1)).digest('hex'), row.migration.sourceManuscript.sha256, row.id);
+    const expected = revisions.get(row.id)?.revisedBodySha256 ?? row.migration.sourceManuscript.sha256;
+    assert.equal(sha256(body.slice(1)), expected, row.id);
   }
+});
+
+test('audited amendment records reject altered provenance, body, metadata and missing evidence', () => {
+  const original = JSON.parse(fs.readFileSync(revisionPath, 'utf8'));
+  for (const mutate of [
+    r => { r.rows[0].originalRecoveredSha256 = '0'.repeat(64); },
+    r => { r.rows[0].revisedBodySha256 = '0'.repeat(64); },
+    r => { r.rows[0].metadataSha256 = '0'.repeat(64); },
+    r => { r.rows[0].audit = r.rows[0].research; },
+    r => { r.rows[1] = r.rows[0]; },
+  ]) {
+    const record = structuredClone(original); mutate(record);
+    assert.throws(() => auditedRevisions(record, load()));
+  }
+  const calendar = load();
+  const row = calendar.biographies.find(e => e.id === original.rows[0].id);
+  row.evidence = row.evidence.filter(e => e.location !== original.rows[0].audit);
+  assert.throws(() => auditedRevisions(original, calendar));
 });
 
 test('career inventory needs neither an anniversary nor a schedule and rejects inferred approval', () => {

@@ -1,0 +1,3153 @@
+{
+  "version": 1,
+  "base": "http://127.0.0.1:3103",
+  "unpublishedArticles": 257,
+  "checks": 526,
+  "passed": true,
+  "results": [
+    {
+      "route": "/",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "route": "/archive/1994-08-20-crystal-palace-liverpool",
+      "expected": 404,
+      "id": "match-1994-08-20",
+      "actual": 404
+    },
+    {
+      "route": "/archive/1994-08-28-liverpool-arsenal",
+      "expected": 404,
+      "id": "match-1994-08-28",
+      "actual": 404
+    },
+    {
+      "route": "/archive/1994-11-30-blackburn-rovers-liverpool",
+      "expected": 404,
+      "id": "match-1994-11-30",
+      "actual": 404
+    },
+    {
+      "route": "/archive/1995-01-11-liverpool-arsenal",
+      "expected": 404,
+      "id": "match-1995-01-11",
+      "actual": 404
+    },
+    {
+      "route": "/archive/1995-03-08-crystal-palace-liverpool",
+      "expected": 404,
+      "id": "match-1995-03-08",
+      "actual": 404
+    },
+    {
+      "route": "/archive/1995-03-11-liverpool-tottenham-hotspur",
+      "expected": 404,
+      "id": "match-1995-03-11",
+      "actual": 404
+    },
+    {
+      "route": "/archive/1995-03-19-liverpool-manchester-united",
+      "expected": 404,
+      "id": "match-1995-03-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/1995-04-02-liverpool-bolton-wanderers",
+      "expected": 404,
+      "id": "match-1995-04-02",
+      "actual": 404
+    },
+    {
+      "route": "/archive/1995-05-14-liverpool-blackburn-rovers",
+      "expected": 404,
+      "id": "match-1995-05-14",
+      "actual": 404
+    },
+    {
+      "route": "/archive/1995-08-19-liverpool-sheffield-wednesday",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "route": "/archive/1995-09-23-liverpool-bolton-wanderers",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "route": "/archive/1996-02-24-blackburn-rovers-liverpool",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "route": "/archive/ajax-liverpool-1966-fog-defeat",
+      "expected": 404,
+      "id": "match-1966-12-07",
+      "actual": 404
+    },
+    {
+      "route": "/archive/alan-hansen",
+      "expected": 404,
+      "id": "alan-hansen-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/alan-kennedy",
+      "expected": 404,
+      "id": "alan-kennedy-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/arsenal-liverpool-1963-fa-cup-fifth-round",
+      "expected": 404,
+      "id": "match-1963-03-16",
+      "actual": 404
+    },
+    {
+      "route": "/archive/arsenal-liverpool-1968-league-cup-exit",
+      "expected": 404,
+      "id": "match-1968-10-15",
+      "actual": 404
+    },
+    {
+      "route": "/archive/arsenal-liverpool-1997-03-24",
+      "expected": 404,
+      "id": "match-1997-03-24",
+      "actual": 404
+    },
+    {
+      "route": "/archive/arsenal-liverpool-2000-camara-highbury",
+      "expected": 404,
+      "id": "match-2000-02-13",
+      "actual": 404
+    },
+    {
+      "route": "/archive/arsenal-liverpool-2004-henry-hat-trick",
+      "expected": 404,
+      "id": "match-2004-04-09",
+      "actual": 404
+    },
+    {
+      "route": "/archive/barcelona-liverpool-2007-bellamy-riise-camp-nou",
+      "expected": 404,
+      "id": "match-2007-02-21",
+      "actual": 404
+    },
+    {
+      "route": "/archive/basel-liverpool-2002-comeback-elimination",
+      "expected": 404,
+      "id": "match-2002-11-12",
+      "actual": 404
+    },
+    {
+      "route": "/archive/bill-shankly",
+      "expected": 404,
+      "id": "bill-shankly-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/billy-liddell",
+      "expected": 404,
+      "id": "billy-liddell-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/blackburn-liverpool-1963-thompson-debut",
+      "expected": 404,
+      "id": "match-1963-08-24",
+      "actual": 404
+    },
+    {
+      "route": "/archive/bob-paisley",
+      "expected": 404,
+      "id": "bob-paisley-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/bolton-liverpool-1967-league-cup-exit",
+      "expected": 404,
+      "id": "match-1967-09-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/bradford-liverpool-2000-final-day-defeat",
+      "expected": 404,
+      "id": "match-2000-05-14",
+      "actual": 404
+    },
+    {
+      "route": "/archive/bristol-rovers-liverpool-1961-lewis-hat-trick",
+      "expected": 404,
+      "id": "match-1961-04-04",
+      "actual": 404
+    },
+    {
+      "route": "/archive/bristol-rovers-liverpool-1961-yeats-st-john-debuts",
+      "expected": 404,
+      "id": "match-1961-08-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/bruce-grobbelaar",
+      "expected": 404,
+      "id": "bruce-grobbelaar-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/burnley-liverpool-1964-hunt-hat-trick",
+      "expected": 404,
+      "id": "match-1964-12-05",
+      "actual": 404
+    },
+    {
+      "route": "/archive/burnley-liverpool-1968-go-top",
+      "expected": 404,
+      "id": "match-1968-10-05",
+      "actual": 404
+    },
+    {
+      "route": "/archive/burnley-liverpool-2005-fa-cup-exit",
+      "expected": 404,
+      "id": "match-2005-01-18",
+      "actual": 404
+    },
+    {
+      "route": "/archive/celtic-liverpool-1997-mcmanaman-equaliser",
+      "expected": 404,
+      "id": "match-1997-09-16",
+      "actual": 404
+    },
+    {
+      "route": "/archive/charlton-liverpool-2001-champions-league-place",
+      "expected": 404,
+      "id": "match-2001-05-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/chelsea-liverpool-1997-01-26",
+      "expected": 404,
+      "id": "match-1997-01-26",
+      "actual": 404
+    },
+    {
+      "route": "/archive/chelsea-liverpool-2003-champions-league-place",
+      "expected": 404,
+      "id": "match-2003-05-11",
+      "actual": 404
+    },
+    {
+      "route": "/archive/chelsea-liverpool-2004-cheyrou",
+      "expected": 404,
+      "id": "match-2004-01-07",
+      "actual": 404
+    },
+    {
+      "route": "/archive/chelsea-liverpool-2005-league-cup-final",
+      "expected": 404,
+      "id": "match-2005-02-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/chelsea-liverpool-2006-riise-garcia-semi-final",
+      "expected": 404,
+      "id": "match-2006-04-22",
+      "actual": 404
+    },
+    {
+      "route": "/archive/chris-lawler",
+      "expected": 404,
+      "id": "chris-lawler-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/david-fairclough",
+      "expected": 404,
+      "id": "david-fairclough-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/derby-liverpool-1969-four-goal-defeat",
+      "expected": 404,
+      "id": "match-1969-11-01",
+      "actual": 404
+    },
+    {
+      "route": "/archive/dietmar-hamann",
+      "expected": 404,
+      "id": "dietmar-hamann-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/dirk-kuyt",
+      "expected": 404,
+      "id": "dirk-kuyt-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/emlyn-hughes",
+      "expected": 404,
+      "id": "emlyn-hughes-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/everton-liverpool-1962-league-derby-return",
+      "expected": 404,
+      "id": "match-1962-09-22",
+      "actual": 404
+    },
+    {
+      "route": "/archive/everton-liverpool-1966-ball-double",
+      "expected": 404,
+      "id": "match-1966-08-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/everton-liverpool-1966-charity-shield",
+      "expected": 404,
+      "id": "match-1966-08-13",
+      "actual": 404
+    },
+    {
+      "route": "/archive/everton-liverpool-1967-fa-cup-screens",
+      "expected": 404,
+      "id": "match-1967-03-11",
+      "actual": 404
+    },
+    {
+      "route": "/archive/everton-liverpool-1969-three-goal-derby",
+      "expected": 404,
+      "id": "match-1969-12-06",
+      "actual": 404
+    },
+    {
+      "route": "/archive/everton-liverpool-2001-mcallister-derby-winner",
+      "expected": 404,
+      "id": "match-2001-04-16",
+      "actual": 404
+    },
+    {
+      "route": "/archive/everton-liverpool-2003-owen-kewell",
+      "expected": 404,
+      "id": "match-2003-08-30",
+      "actual": 404
+    },
+    {
+      "route": "/archive/everton-liverpool-2006-johnson-derby-defeat",
+      "expected": 404,
+      "id": "match-2006-09-09",
+      "actual": 404
+    },
+    {
+      "route": "/archive/fernando-torres",
+      "expected": 404,
+      "id": "fernando-torres-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/gary-mcallister",
+      "expected": 404,
+      "id": "gary-mcallister-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/gerard-houllier",
+      "expected": 404,
+      "id": "gerard-houllier-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/gerry-byrne",
+      "expected": 404,
+      "id": "gerry-byrne-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/graeme-souness",
+      "expected": 404,
+      "id": "graeme-souness-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/ian-callaghan",
+      "expected": 404,
+      "id": "ian-callaghan-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/ian-rush",
+      "expected": 404,
+      "id": "ian-rush-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/ian-st-john",
+      "expected": 404,
+      "id": "ian-st-john-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/inter-liverpool-1965-san-siro-semi-final",
+      "expected": 404,
+      "id": "match-1965-05-12",
+      "actual": 404
+    },
+    {
+      "route": "/archive/istanbul-2005-champions-league-final",
+      "expected": 404,
+      "id": "match-2005-05-25",
+      "actual": 404
+    },
+    {
+      "route": "/archive/james-milner",
+      "expected": 404,
+      "id": "james-milner-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/jamie-carragher",
+      "expected": 404,
+      "id": "jamie-carragher-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/jan-molby",
+      "expected": 404,
+      "id": "jan-molby-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/jimmy-case",
+      "expected": 404,
+      "id": "jimmy-case-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/joe-fagan",
+      "expected": 404,
+      "id": "joe-fagan-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/john-aldridge",
+      "expected": 404,
+      "id": "john-aldridge-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/john-barnes",
+      "expected": 404,
+      "id": "john-barnes-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/john-toshack",
+      "expected": 404,
+      "id": "john-toshack-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/jordan-henderson",
+      "expected": 404,
+      "id": "jordan-henderson-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/jurgen-klopp",
+      "expected": 404,
+      "id": "jurgen-klopp-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/juventus-liverpool-2005-second-leg",
+      "expected": 404,
+      "id": "match-2005-04-13",
+      "actual": 404
+    },
+    {
+      "route": "/archive/kenny-dalglish",
+      "expected": 404,
+      "id": "kenny-dalglish-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/kevin-keegan",
+      "expected": 404,
+      "id": "kevin-keegan-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/kr-reykjavik-liverpool-1964-european-debut",
+      "expected": 404,
+      "id": "match-1964-08-17",
+      "actual": 404
+    },
+    {
+      "route": "/archive/leeds-liverpool-1965-milne-winner",
+      "expected": 404,
+      "id": "match-1965-12-28",
+      "actual": 404
+    },
+    {
+      "route": "/archive/leicester-liverpool-1963-fa-cup-semi-final",
+      "expected": 404,
+      "id": "match-1963-04-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/leicester-liverpool-1970-fa-cup-replay",
+      "expected": 404,
+      "id": "match-1970-02-11",
+      "actual": 404
+    },
+    {
+      "route": "/archive/leverkusen-liverpool-2002-quarter-final-exit",
+      "expected": 404,
+      "id": "match-2002-04-09",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-ajax-1966-european-cup-exit",
+      "expected": 404,
+      "id": "match-1966-12-14",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-alaves-2001-uefa-cup-treble",
+      "expected": 404,
+      "id": "match-2001-05-16",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-anderlecht-1964-red-shorts",
+      "expected": 404,
+      "id": "match-1964-11-25",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-arsenal-1964-first-match-of-the-day",
+      "expected": 404,
+      "id": "match-1964-08-22",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-arsenal-1964-title-secured",
+      "expected": 404,
+      "id": "match-1964-04-18",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-arsenal-1996-11-27",
+      "expected": 404,
+      "id": "match-1996-11-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-arsenal-1998-ince-double",
+      "expected": 404,
+      "id": "match-1998-05-06",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-arsenal-2001-owen-fa-cup-final",
+      "expected": 404,
+      "id": "match-2001-05-12",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-arsenal-2004-mellor-winner",
+      "expected": 404,
+      "id": "match-2004-11-28",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-arsenal-2007-baptista-four-cup-exit",
+      "expected": 404,
+      "id": "match-2007-01-09",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-arsenal-2007-crouch-perfect-hat-trick",
+      "expected": 404,
+      "id": "match-2007-03-31",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-athletic-bilbao-1968-coin-toss",
+      "expected": 404,
+      "id": "match-1968-10-02",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-auxerre-1991-anfield-comeback",
+      "expected": 404,
+      "id": "match-1991-11-06",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-barcelona-2001-mcallister-semi-final",
+      "expected": 404,
+      "id": "match-2001-04-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-bayern-2001-super-cup",
+      "expected": 404,
+      "id": "match-2001-08-24",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-benfica-2006-european-defence-ends",
+      "expected": 404,
+      "id": "match-2006-03-08",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-birmingham-2001-league-cup-final",
+      "expected": 404,
+      "id": "match-2001-02-25",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-blackburn-1962-seven-straight-wins",
+      "expected": 404,
+      "id": "match-1962-12-22",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-blackburn-1965-league-lead",
+      "expected": 404,
+      "id": "match-1965-11-17",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-blackpool-1962-first-division-return",
+      "expected": 404,
+      "id": "match-1962-08-18",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-blackpool-1967-season-finale",
+      "expected": 404,
+      "id": "match-1967-05-13",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-brann-1997-03-20",
+      "expected": 404,
+      "id": "match-1997-03-20",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-bristol-city-1994-souness-final-match",
+      "expected": 404,
+      "id": "match-1994-01-25",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-celtic-1966-first-european-final",
+      "expected": 404,
+      "id": "match-1966-04-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-celtic-2003-anfield-exit",
+      "expected": 404,
+      "id": "match-2003-03-20",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-chelsea-1962-fa-cup-four-goal-first-half",
+      "expected": 404,
+      "id": "match-1962-01-06",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-chelsea-1965-fa-cup-semi-final",
+      "expected": 404,
+      "id": "match-1965-03-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-chelsea-1966-boxing-day-lead",
+      "expected": 404,
+      "id": "match-1966-12-26",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-chelsea-1966-fa-cup-exit",
+      "expected": 404,
+      "id": "match-1966-01-22",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-chelsea-1966-title-clincher",
+      "expected": 404,
+      "id": "match-1966-04-30",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-chelsea-1969-st-john-double",
+      "expected": 404,
+      "id": "match-1969-08-09",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-chelsea-1996-09-21",
+      "expected": 404,
+      "id": "match-1996-09-21",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-chelsea-2005-champions-league-semi-final",
+      "expected": 404,
+      "id": "match-2005-05-03",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-chelsea-2007-agger-reina-shoot-out",
+      "expected": 404,
+      "id": "match-2007-05-01",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-cologne-1965-rotterdam-toss",
+      "expected": 404,
+      "id": "match-1965-03-24",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-crystal-palace-2001-five-goal-semi-final",
+      "expected": 404,
+      "id": "match-2001-01-24",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-cska-moscow-2005-cisse-super-cup",
+      "expected": 404,
+      "id": "match-2005-08-26",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-derby-1970-changed-side",
+      "expected": 404,
+      "id": "match-1970-02-28",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-dortmund-1966-european-final",
+      "expected": 404,
+      "id": "match-1966-05-05",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-dundalk-1969-ten-goals",
+      "expected": 404,
+      "id": "match-1969-09-16",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-everton-1963-callaghan-double",
+      "expected": 404,
+      "id": "match-1963-09-28",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-everton-1964-four-goal-defeat",
+      "expected": 404,
+      "id": "match-1964-09-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-everton-1965-five-goal-derby",
+      "expected": 404,
+      "id": "match-1965-09-25",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-everton-1967-hunt-winner",
+      "expected": 404,
+      "id": "match-1967-09-23",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-everton-1968-smith-equaliser",
+      "expected": 404,
+      "id": "match-1968-10-08",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-everton-1970-title-march",
+      "expected": 404,
+      "id": "match-1970-03-21",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-everton-1991-burrows-derby",
+      "expected": 404,
+      "id": "match-1991-08-31",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-everton-1994-fowler-rush",
+      "expected": 404,
+      "id": "match-1994-03-13",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-everton-1999-fowler-double-gerrard-clears",
+      "expected": 404,
+      "id": "match-1999-04-03",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-everton-1999-three-red-cards",
+      "expected": 404,
+      "id": "match-1999-09-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-ferencvaros-1968-fairs-cup-exit",
+      "expected": 404,
+      "id": "match-1968-01-09",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-genoa-1992-european-exit",
+      "expected": 404,
+      "id": "match-1992-03-18",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-honved-1966-european-quarter-final",
+      "expected": 404,
+      "id": "match-1966-03-08",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-inter-1965-anfield-semi-final",
+      "expected": 404,
+      "id": "match-1965-05-04",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-ipswich-1992-extra-time-replay",
+      "expected": 404,
+      "id": "match-1992-02-26",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-ipswich-2002-second-place",
+      "expected": 404,
+      "id": "match-2002-05-11",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-juventus-1965-anfield-comeback",
+      "expected": 404,
+      "id": "match-1965-10-13",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-juventus-2005-first-leg",
+      "expected": 404,
+      "id": "match-2005-04-05",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-leeds-1965-first-fa-cup",
+      "expected": 404,
+      "id": "match-1965-05-01",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-leeds-1966-five-goals",
+      "expected": 404,
+      "id": "match-1966-11-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-leeds-1969-title-decided",
+      "expected": 404,
+      "id": "match-1969-04-28",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-leicester-1965-fa-cup-replay",
+      "expected": 404,
+      "id": "match-1965-03-10",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-leicester-1968-evans-debut",
+      "expected": 404,
+      "id": "match-1968-09-21",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-leicester-1969-fa-cup-replay-exit",
+      "expected": 404,
+      "id": "match-1969-03-03",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-luton-1960-first-league-cup-match",
+      "expected": 404,
+      "id": "match-1960-10-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-city-1968-opening-comeback",
+      "expected": 404,
+      "id": "match-1968-08-10",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-united-1964-arrowsmith-double",
+      "expected": 404,
+      "id": "match-1964-04-04",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-united-1967-best-double",
+      "expected": 404,
+      "id": "match-1967-11-11",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-united-1969-four-goal-reverse",
+      "expected": 404,
+      "id": "match-1969-12-13",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-united-1992-title-ended",
+      "expected": 404,
+      "id": "match-1992-04-26",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-united-1994-comeback",
+      "expected": 404,
+      "id": "match-1994-01-04",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-united-1997-04-19",
+      "expected": 404,
+      "id": "match-1997-04-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-united-1999-ince-equaliser",
+      "expected": 404,
+      "id": "match-1999-05-05",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-united-2001-riise-owen",
+      "expected": 404,
+      "id": "match-2001-11-04",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-united-2003-league-cup-final",
+      "expected": 404,
+      "id": "match-2003-03-02",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-manchester-united-2006-crouch-cup-header",
+      "expected": 404,
+      "id": "match-2006-02-18",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-middlesbrough-1996-12-14",
+      "expected": 404,
+      "id": "match-1996-12-14",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-newcastle-1967-hateley-hat-trick",
+      "expected": 404,
+      "id": "match-1967-08-26",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-newcastle-1997-03-10",
+      "expected": 404,
+      "id": "match-1997-03-10",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-norwich-1962-nine-goal-anfield-win",
+      "expected": 404,
+      "id": "match-1962-01-13",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-norwich-1994-standing-kop",
+      "expected": 404,
+      "id": "match-1994-04-30",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-nottingham-forest-1968-six-goals",
+      "expected": 404,
+      "id": "match-1968-05-11",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-nottingham-forest-1969-lead-lost",
+      "expected": 404,
+      "id": "match-1969-02-15",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-olympiacos-2004-gerrard",
+      "expected": 404,
+      "id": "match-2004-12-08",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-paris-saint-germain-1997-04-24",
+      "expected": 404,
+      "id": "match-1997-04-24",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-petrolul-1966-brussels-play-off",
+      "expected": 404,
+      "id": "match-1966-10-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-portsmouth-1992-penalty-replay",
+      "expected": 404,
+      "id": "match-1992-04-13",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-portsmouth-1992-whelan-rescue",
+      "expected": 404,
+      "id": "match-1992-04-05",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-preston-1962-fa-cup-second-replay-exit",
+      "expected": 404,
+      "id": "match-1962-02-26",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-roma-2002-houllier-return",
+      "expected": 404,
+      "id": "match-2002-03-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-sheffield-united-1960-harrower-hat-trick",
+      "expected": 404,
+      "id": "match-1960-11-26",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-sheffield-united-2003-extra-time-final",
+      "expected": 404,
+      "id": "match-2003-01-21",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-sheffield-wednesday-1969-hunt-league-record",
+      "expected": 404,
+      "id": "match-1969-02-01",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-sheffield-wednesday-1999-gerrard-first-goal",
+      "expected": 404,
+      "id": "match-1999-12-05",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-sion-1996-10-31",
+      "expected": 404,
+      "id": "match-1996-10-31",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-southampton-1960-liddell-final-appearance",
+      "expected": 404,
+      "id": "match-1960-08-31",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-southampton-1962-promotion-secured",
+      "expected": 404,
+      "id": "match-1962-04-21",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-southampton-1993-fowler-hat-trick",
+      "expected": 404,
+      "id": "match-1993-10-30",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-stoke-1963-hunt-four-goals",
+      "expected": 404,
+      "id": "match-1963-12-26",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-stoke-1967-hughes-debut",
+      "expected": 404,
+      "id": "match-1967-03-04",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-sunderland-1961-fa-cup-exit",
+      "expected": 404,
+      "id": "match-1961-01-28",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-sunderland-1992-fa-cup-final",
+      "expected": 404,
+      "id": "match-1992-05-09",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-swansea-1964-fa-cup-quarter-final",
+      "expected": 404,
+      "id": "match-1964-02-29",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-swansea-1968-clemence-debut",
+      "expected": 404,
+      "id": "match-1968-09-25",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-tottenham-1963-five-goal-comeback",
+      "expected": 404,
+      "id": "match-1963-04-12",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-tottenham-1968-fa-cup-replay",
+      "expected": 404,
+      "id": "match-1968-03-12",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-tottenham-1998-evans-final-match",
+      "expected": 404,
+      "id": "match-1998-11-10",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-tsv-munich-1967-eight-goals",
+      "expected": 404,
+      "id": "match-1967-11-07",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-vitoria-setubal-1969-away-goals-exit",
+      "expected": 404,
+      "id": "match-1969-11-26",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-walsall-1968-hateley-four",
+      "expected": 404,
+      "id": "match-1968-02-19",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-west-brom-1968-second-replay",
+      "expected": 404,
+      "id": "match-1968-04-18",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-west-ham-1964-charity-shield",
+      "expected": 404,
+      "id": "match-1964-08-15",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-west-ham-1965-strong-substitute",
+      "expected": 404,
+      "id": "match-1965-09-15",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-west-ham-1999-camara-winner",
+      "expected": 404,
+      "id": "match-1999-10-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-west-ham-2006-gerrard-fa-cup-final",
+      "expected": 404,
+      "id": "match-2006-05-13",
+      "actual": 404
+    },
+    {
+      "route": "/archive/liverpool-wolves-1963-first-home-win",
+      "expected": 404,
+      "id": "match-1963-09-16",
+      "actual": 404
+    },
+    {
+      "route": "/archive/luis-suarez",
+      "expected": 404,
+      "id": "luis-suarez-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/luton-liverpool-2006-sinama-pongolle-alonso-comeback",
+      "expected": 404,
+      "id": "match-2006-01-07",
+      "actual": 404
+    },
+    {
+      "route": "/archive/manchester-city-liverpool-1969-league-cup-exit",
+      "expected": 404,
+      "id": "match-1969-09-24",
+      "actual": 404
+    },
+    {
+      "route": "/archive/manchester-city-liverpool-2002-owen-hat-trick",
+      "expected": 404,
+      "id": "match-2002-09-28",
+      "actual": 404
+    },
+    {
+      "route": "/archive/manchester-united-liverpool-1963-yeats-winner",
+      "expected": 404,
+      "id": "match-1963-11-23",
+      "actual": 404
+    },
+    {
+      "route": "/archive/manchester-united-liverpool-1965-charity-shield",
+      "expected": 404,
+      "id": "match-1965-08-14",
+      "actual": 404
+    },
+    {
+      "route": "/archive/manchester-united-liverpool-1968-comeback",
+      "expected": 404,
+      "id": "match-1968-04-06",
+      "actual": 404
+    },
+    {
+      "route": "/archive/manchester-united-liverpool-1998-ten-men-hold-on",
+      "expected": 404,
+      "id": "match-1998-04-10",
+      "actual": 404
+    },
+    {
+      "route": "/archive/manchester-united-liverpool-1999-late-fa-cup-defeat",
+      "expected": 404,
+      "id": "match-1999-01-24",
+      "actual": 404
+    },
+    {
+      "route": "/archive/manchester-united-liverpool-2000-murphy-free-kick",
+      "expected": 404,
+      "id": "match-2000-12-17",
+      "actual": 404
+    },
+    {
+      "route": "/archive/manchester-united-liverpool-2002-murphy-winner",
+      "expected": 404,
+      "id": "match-2002-01-22",
+      "actual": 404
+    },
+    {
+      "route": "/archive/manchester-united-liverpool-2004-murphy-penalty",
+      "expected": 404,
+      "id": "match-2004-04-24",
+      "actual": 404
+    },
+    {
+      "route": "/archive/mark-lawrenson",
+      "expected": 404,
+      "id": "mark-lawrenson-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/marseille-liverpool-2004-uefa-cup-exit",
+      "expected": 404,
+      "id": "match-2004-03-25",
+      "actual": 404
+    },
+    {
+      "route": "/archive/michael-owen",
+      "expected": 404,
+      "id": "michael-owen-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/middlesbrough-liverpool-1996-08-17",
+      "expected": 404,
+      "id": "match-1996-08-17",
+      "actual": 404
+    },
+    {
+      "route": "/archive/milan-liverpool-2007-inzaghi-athens-final",
+      "expected": 404,
+      "id": "match-2007-05-23",
+      "actual": 404
+    },
+    {
+      "route": "/archive/mohamed-salah",
+      "expected": 404,
+      "id": "mohamed-salah-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/newcastle-liverpool-1998-owen-first-half-hat-trick",
+      "expected": 404,
+      "id": "match-1998-08-30",
+      "actual": 404
+    },
+    {
+      "route": "/archive/nottingham-forest-liverpool-1970-clemence-league-debut",
+      "expected": 404,
+      "id": "match-1970-01-31",
+      "actual": 404
+    },
+    {
+      "route": "/archive/pepe-reina",
+      "expected": 404,
+      "id": "pepe-reina-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/peter-beardsley",
+      "expected": 404,
+      "id": "peter-beardsley-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/peter-thompson",
+      "expected": 404,
+      "id": "peter-thompson-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/phil-neal",
+      "expected": 404,
+      "id": "phil-neal-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/psv-liverpool-2007-three-away-goals",
+      "expected": 404,
+      "id": "match-2007-04-03",
+      "actual": 404
+    },
+    {
+      "route": "/archive/rafael-benitez",
+      "expected": 404,
+      "id": "rafael-benitez-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/ray-clemence",
+      "expected": 404,
+      "id": "ray-clemence-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/ray-kennedy",
+      "expected": 404,
+      "id": "ray-kennedy-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/robbie-fowler",
+      "expected": 404,
+      "id": "robbie-fowler-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/roberto-firmino",
+      "expected": 404,
+      "id": "roberto-firmino-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/roger-hunt",
+      "expected": 404,
+      "id": "roger-hunt-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/roma-liverpool-2001-owen-double",
+      "expected": 404,
+      "id": "match-2001-02-15",
+      "actual": 404
+    },
+    {
+      "route": "/archive/ron-yeats",
+      "expected": 404,
+      "id": "ron-yeats-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/ronnie-moran",
+      "expected": 404,
+      "id": "ronnie-moran-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/ronnie-whelan",
+      "expected": 404,
+      "id": "ronnie-whelan-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/roy-evans",
+      "expected": 404,
+      "id": "roy-evans-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/sadio-mane",
+      "expected": 404,
+      "id": "sadio-mane-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/sami-hyypia",
+      "expected": 404,
+      "id": "sami-hyypia-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/sammy-lee",
+      "expected": 404,
+      "id": "sammy-lee-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/sao-paulo-liverpool-2005-world-final-defeat",
+      "expected": 404,
+      "id": "match-2005-12-18",
+      "actual": 404
+    },
+    {
+      "route": "/archive/sheffield-wednesday-liverpool-1998-owen-hat-trick",
+      "expected": 404,
+      "id": "match-1998-02-14",
+      "actual": 404
+    },
+    {
+      "route": "/archive/steve-heighway",
+      "expected": 404,
+      "id": "steve-heighway-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/steve-mcmahon",
+      "expected": 404,
+      "id": "steve-mcmahon-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/steve-mcmanaman",
+      "expected": 404,
+      "id": "steve-mcmanaman-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/steve-nicol",
+      "expected": 404,
+      "id": "steve-nicol-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/steven-gerrard",
+      "expected": 404,
+      "id": "steven-gerrard-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/sunderland-liverpool-1961-st-john-first-goals",
+      "expected": 404,
+      "id": "match-1961-08-30",
+      "actual": 404
+    },
+    {
+      "route": "/archive/swindon-liverpool-1993-mcmanaman",
+      "expected": 404,
+      "id": "match-1993-08-22",
+      "actual": 404
+    },
+    {
+      "route": "/archive/terry-mcdermott",
+      "expected": 404,
+      "id": "terry-mcdermott-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/tommy-smith",
+      "expected": 404,
+      "id": "tommy-smith-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/archive/torres-goodison-derby-double-2008",
+      "expected": 404,
+      "id": "match-2008-09-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/tottenham-liverpool-1963-greaves-four-goals",
+      "expected": 404,
+      "id": "match-1963-04-15",
+      "actual": 404
+    },
+    {
+      "route": "/archive/tottenham-liverpool-1964-hunt-hat-trick",
+      "expected": 404,
+      "id": "match-1964-03-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/tottenham-liverpool-1993-three-three",
+      "expected": 404,
+      "id": "match-1993-12-18",
+      "actual": 404
+    },
+    {
+      "route": "/archive/watford-liverpool-1970-fa-cup-exit",
+      "expected": 404,
+      "id": "match-1970-02-21",
+      "actual": 404
+    },
+    {
+      "route": "/archive/west-brom-liverpool-1962-lawrence-debut",
+      "expected": 404,
+      "id": "match-1962-10-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/west-bromwich-liverpool-1969-lloyd-debut",
+      "expected": 404,
+      "id": "match-1969-09-27",
+      "actual": 404
+    },
+    {
+      "route": "/archive/west-ham-liverpool-1965-hunt-hat-trick",
+      "expected": 404,
+      "id": "match-1965-09-06",
+      "actual": 404
+    },
+    {
+      "route": "/archive/wimbledon-liverpool-1997-05-06",
+      "expected": 404,
+      "id": "match-1997-05-06",
+      "actual": 404
+    },
+    {
+      "route": "/archive/wolves-liverpool-1968-evans-return",
+      "expected": 404,
+      "id": "match-1968-09-28",
+      "actual": 404
+    },
+    {
+      "route": "/archive/xabi-alonso",
+      "expected": 404,
+      "id": "xabi-alonso-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/articles",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1960-61/bristol-rovers-liverpool-1961-lewis-hat-trick.md",
+      "expected": 404,
+      "id": "match-1961-04-04",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1960-61/liverpool-luton-1960-first-league-cup-match.md",
+      "expected": 404,
+      "id": "match-1960-10-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1960-61/liverpool-sheffield-united-1960-harrower-hat-trick.md",
+      "expected": 404,
+      "id": "match-1960-11-26",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1960-61/liverpool-southampton-1960-liddell-final-appearance.md",
+      "expected": 404,
+      "id": "match-1960-08-31",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1960-61/liverpool-sunderland-1961-fa-cup-exit.md",
+      "expected": 404,
+      "id": "match-1961-01-28",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1961-62/bristol-rovers-liverpool-1961-yeats-st-john-debuts.md",
+      "expected": 404,
+      "id": "match-1961-08-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1961-62/liverpool-chelsea-1962-fa-cup-four-goal-first-half.md",
+      "expected": 404,
+      "id": "match-1962-01-06",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1961-62/liverpool-norwich-1962-nine-goal-anfield-win.md",
+      "expected": 404,
+      "id": "match-1962-01-13",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1961-62/liverpool-preston-1962-fa-cup-second-replay-exit.md",
+      "expected": 404,
+      "id": "match-1962-02-26",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1961-62/liverpool-southampton-1962-promotion-secured.md",
+      "expected": 404,
+      "id": "match-1962-04-21",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1961-62/sunderland-liverpool-1961-st-john-first-goals.md",
+      "expected": 404,
+      "id": "match-1961-08-30",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1962-63/arsenal-liverpool-1963-fa-cup-fifth-round.md",
+      "expected": 404,
+      "id": "match-1963-03-16",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1962-63/everton-liverpool-1962-league-derby-return.md",
+      "expected": 404,
+      "id": "match-1962-09-22",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1962-63/leicester-liverpool-1963-fa-cup-semi-final.md",
+      "expected": 404,
+      "id": "match-1963-04-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1962-63/liverpool-blackburn-1962-seven-straight-wins.md",
+      "expected": 404,
+      "id": "match-1962-12-22",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1962-63/liverpool-blackpool-1962-first-division-return.md",
+      "expected": 404,
+      "id": "match-1962-08-18",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1962-63/liverpool-tottenham-1963-five-goal-comeback.md",
+      "expected": 404,
+      "id": "match-1963-04-12",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1962-63/tottenham-liverpool-1963-greaves-four-goals.md",
+      "expected": 404,
+      "id": "match-1963-04-15",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1962-63/west-brom-liverpool-1962-lawrence-debut.md",
+      "expected": 404,
+      "id": "match-1962-10-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1963-64/blackburn-liverpool-1963-thompson-debut.md",
+      "expected": 404,
+      "id": "match-1963-08-24",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1963-64/liverpool-arsenal-1964-title-secured.md",
+      "expected": 404,
+      "id": "match-1964-04-18",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1963-64/liverpool-everton-1963-callaghan-double.md",
+      "expected": 404,
+      "id": "match-1963-09-28",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1963-64/liverpool-manchester-united-1964-arrowsmith-double.md",
+      "expected": 404,
+      "id": "match-1964-04-04",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1963-64/liverpool-stoke-1963-hunt-four-goals.md",
+      "expected": 404,
+      "id": "match-1963-12-26",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1963-64/liverpool-swansea-1964-fa-cup-quarter-final.md",
+      "expected": 404,
+      "id": "match-1964-02-29",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1963-64/liverpool-wolves-1963-first-home-win.md",
+      "expected": 404,
+      "id": "match-1963-09-16",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1963-64/manchester-united-liverpool-1963-yeats-winner.md",
+      "expected": 404,
+      "id": "match-1963-11-23",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1963-64/tottenham-liverpool-1964-hunt-hat-trick.md",
+      "expected": 404,
+      "id": "match-1964-03-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/burnley-liverpool-1964-hunt-hat-trick.md",
+      "expected": 404,
+      "id": "match-1964-12-05",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/inter-liverpool-1965-san-siro-semi-final.md",
+      "expected": 404,
+      "id": "match-1965-05-12",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/kr-reykjavik-liverpool-1964-european-debut.md",
+      "expected": 404,
+      "id": "match-1964-08-17",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/liverpool-anderlecht-1964-red-shorts.md",
+      "expected": 404,
+      "id": "match-1964-11-25",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/liverpool-arsenal-1964-first-match-of-the-day.md",
+      "expected": 404,
+      "id": "match-1964-08-22",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/liverpool-chelsea-1965-fa-cup-semi-final.md",
+      "expected": 404,
+      "id": "match-1965-03-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/liverpool-cologne-1965-rotterdam-toss.md",
+      "expected": 404,
+      "id": "match-1965-03-24",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/liverpool-everton-1964-four-goal-defeat.md",
+      "expected": 404,
+      "id": "match-1964-09-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/liverpool-inter-1965-anfield-semi-final.md",
+      "expected": 404,
+      "id": "match-1965-05-04",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/liverpool-leeds-1965-first-fa-cup.md",
+      "expected": 404,
+      "id": "match-1965-05-01",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/liverpool-leicester-1965-fa-cup-replay.md",
+      "expected": 404,
+      "id": "match-1965-03-10",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1964-65/liverpool-west-ham-1964-charity-shield.md",
+      "expected": 404,
+      "id": "match-1964-08-15",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/leeds-liverpool-1965-milne-winner.md",
+      "expected": 404,
+      "id": "match-1965-12-28",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/liverpool-blackburn-1965-league-lead.md",
+      "expected": 404,
+      "id": "match-1965-11-17",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/liverpool-celtic-1966-first-european-final.md",
+      "expected": 404,
+      "id": "match-1966-04-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/liverpool-chelsea-1966-fa-cup-exit.md",
+      "expected": 404,
+      "id": "match-1966-01-22",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/liverpool-chelsea-1966-title-clincher.md",
+      "expected": 404,
+      "id": "match-1966-04-30",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/liverpool-dortmund-1966-european-final.md",
+      "expected": 404,
+      "id": "match-1966-05-05",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/liverpool-everton-1965-five-goal-derby.md",
+      "expected": 404,
+      "id": "match-1965-09-25",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/liverpool-honved-1966-european-quarter-final.md",
+      "expected": 404,
+      "id": "match-1966-03-08",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/liverpool-juventus-1965-anfield-comeback.md",
+      "expected": 404,
+      "id": "match-1965-10-13",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/liverpool-west-ham-1965-strong-substitute.md",
+      "expected": 404,
+      "id": "match-1965-09-15",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/manchester-united-liverpool-1965-charity-shield.md",
+      "expected": 404,
+      "id": "match-1965-08-14",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1965-66/west-ham-liverpool-1965-hunt-hat-trick.md",
+      "expected": 404,
+      "id": "match-1965-09-06",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1966-67/ajax-liverpool-1966-fog-defeat.md",
+      "expected": 404,
+      "id": "match-1966-12-07",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1966-67/everton-liverpool-1966-ball-double.md",
+      "expected": 404,
+      "id": "match-1966-08-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1966-67/everton-liverpool-1966-charity-shield.md",
+      "expected": 404,
+      "id": "match-1966-08-13",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1966-67/everton-liverpool-1967-fa-cup-screens.md",
+      "expected": 404,
+      "id": "match-1967-03-11",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1966-67/liverpool-ajax-1966-european-cup-exit.md",
+      "expected": 404,
+      "id": "match-1966-12-14",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1966-67/liverpool-blackpool-1967-season-finale.md",
+      "expected": 404,
+      "id": "match-1967-05-13",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1966-67/liverpool-chelsea-1966-boxing-day-lead.md",
+      "expected": 404,
+      "id": "match-1966-12-26",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1966-67/liverpool-leeds-1966-five-goals.md",
+      "expected": 404,
+      "id": "match-1966-11-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1966-67/liverpool-petrolul-1966-brussels-play-off.md",
+      "expected": 404,
+      "id": "match-1966-10-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1966-67/liverpool-stoke-1967-hughes-debut.md",
+      "expected": 404,
+      "id": "match-1967-03-04",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/bolton-liverpool-1967-league-cup-exit.md",
+      "expected": 404,
+      "id": "match-1967-09-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/liverpool-everton-1967-hunt-winner.md",
+      "expected": 404,
+      "id": "match-1967-09-23",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/liverpool-ferencvaros-1968-fairs-cup-exit.md",
+      "expected": 404,
+      "id": "match-1968-01-09",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/liverpool-manchester-united-1967-best-double.md",
+      "expected": 404,
+      "id": "match-1967-11-11",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/liverpool-newcastle-1967-hateley-hat-trick.md",
+      "expected": 404,
+      "id": "match-1967-08-26",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/liverpool-nottingham-forest-1968-six-goals.md",
+      "expected": 404,
+      "id": "match-1968-05-11",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/liverpool-tottenham-1968-fa-cup-replay.md",
+      "expected": 404,
+      "id": "match-1968-03-12",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/liverpool-tsv-munich-1967-eight-goals.md",
+      "expected": 404,
+      "id": "match-1967-11-07",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/liverpool-walsall-1968-hateley-four.md",
+      "expected": 404,
+      "id": "match-1968-02-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/liverpool-west-brom-1968-second-replay.md",
+      "expected": 404,
+      "id": "match-1968-04-18",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1967-68/manchester-united-liverpool-1968-comeback.md",
+      "expected": 404,
+      "id": "match-1968-04-06",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/arsenal-liverpool-1968-league-cup-exit.md",
+      "expected": 404,
+      "id": "match-1968-10-15",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/burnley-liverpool-1968-go-top.md",
+      "expected": 404,
+      "id": "match-1968-10-05",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/liverpool-athletic-bilbao-1968-coin-toss.md",
+      "expected": 404,
+      "id": "match-1968-10-02",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/liverpool-everton-1968-smith-equaliser.md",
+      "expected": 404,
+      "id": "match-1968-10-08",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/liverpool-leeds-1969-title-decided.md",
+      "expected": 404,
+      "id": "match-1969-04-28",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1968-evans-debut.md",
+      "expected": 404,
+      "id": "match-1968-09-21",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1969-fa-cup-replay-exit.md",
+      "expected": 404,
+      "id": "match-1969-03-03",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/liverpool-manchester-city-1968-opening-comeback.md",
+      "expected": 404,
+      "id": "match-1968-08-10",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/liverpool-nottingham-forest-1969-lead-lost.md",
+      "expected": 404,
+      "id": "match-1969-02-15",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/liverpool-sheffield-wednesday-1969-hunt-league-record.md",
+      "expected": 404,
+      "id": "match-1969-02-01",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/liverpool-swansea-1968-clemence-debut.md",
+      "expected": 404,
+      "id": "match-1968-09-25",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1968-69/wolves-liverpool-1968-evans-return.md",
+      "expected": 404,
+      "id": "match-1968-09-28",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/derby-liverpool-1969-four-goal-defeat.md",
+      "expected": 404,
+      "id": "match-1969-11-01",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/everton-liverpool-1969-three-goal-derby.md",
+      "expected": 404,
+      "id": "match-1969-12-06",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/leicester-liverpool-1970-fa-cup-replay.md",
+      "expected": 404,
+      "id": "match-1970-02-11",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/liverpool-chelsea-1969-st-john-double.md",
+      "expected": 404,
+      "id": "match-1969-08-09",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/liverpool-derby-1970-changed-side.md",
+      "expected": 404,
+      "id": "match-1970-02-28",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/liverpool-dundalk-1969-ten-goals.md",
+      "expected": 404,
+      "id": "match-1969-09-16",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/liverpool-everton-1970-title-march.md",
+      "expected": 404,
+      "id": "match-1970-03-21",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/liverpool-manchester-united-1969-four-goal-reverse.md",
+      "expected": 404,
+      "id": "match-1969-12-13",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/liverpool-vitoria-setubal-1969-away-goals-exit.md",
+      "expected": 404,
+      "id": "match-1969-11-26",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/manchester-city-liverpool-1969-league-cup-exit.md",
+      "expected": 404,
+      "id": "match-1969-09-24",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/nottingham-forest-liverpool-1970-clemence-league-debut.md",
+      "expected": 404,
+      "id": "match-1970-01-31",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/watford-liverpool-1970-fa-cup-exit.md",
+      "expected": 404,
+      "id": "match-1970-02-21",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1960s/1969-70/west-bromwich-liverpool-1969-lloyd-debut.md",
+      "expected": 404,
+      "id": "match-1969-09-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1994-08-20-crystal-palace-liverpool.md",
+      "expected": 404,
+      "id": "match-1994-08-20",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1994-08-28-liverpool-arsenal.md",
+      "expected": 404,
+      "id": "match-1994-08-28",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1994-11-30-blackburn-rovers-liverpool.md",
+      "expected": 404,
+      "id": "match-1994-11-30",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1995-01-11-liverpool-arsenal.md",
+      "expected": 404,
+      "id": "match-1995-01-11",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1995-03-08-crystal-palace-liverpool.md",
+      "expected": 404,
+      "id": "match-1995-03-08",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1995-03-11-liverpool-tottenham-hotspur.md",
+      "expected": 404,
+      "id": "match-1995-03-11",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1995-03-19-liverpool-manchester-united.md",
+      "expected": 404,
+      "id": "match-1995-03-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1995-04-02-liverpool-bolton-wanderers.md",
+      "expected": 404,
+      "id": "match-1995-04-02",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/1995-05-14-liverpool-blackburn-rovers.md",
+      "expected": 404,
+      "id": "match-1995-05-14",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/alan-hansen.md",
+      "expected": 404,
+      "id": "alan-hansen-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/alan-kennedy.md",
+      "expected": 404,
+      "id": "alan-kennedy-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/bill-shankly.md",
+      "expected": 404,
+      "id": "bill-shankly-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/billy-liddell.md",
+      "expected": 404,
+      "id": "billy-liddell-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/bob-paisley.md",
+      "expected": 404,
+      "id": "bob-paisley-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/bruce-grobbelaar.md",
+      "expected": 404,
+      "id": "bruce-grobbelaar-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/chris-lawler.md",
+      "expected": 404,
+      "id": "chris-lawler-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/david-fairclough.md",
+      "expected": 404,
+      "id": "david-fairclough-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/dietmar-hamann.md",
+      "expected": 404,
+      "id": "dietmar-hamann-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/dirk-kuyt.md",
+      "expected": 404,
+      "id": "dirk-kuyt-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/emlyn-hughes.md",
+      "expected": 404,
+      "id": "emlyn-hughes-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/gary-mcallister.md",
+      "expected": 404,
+      "id": "gary-mcallister-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/gerard-houllier.md",
+      "expected": 404,
+      "id": "gerard-houllier-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/gerry-byrne.md",
+      "expected": 404,
+      "id": "gerry-byrne-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/graeme-souness.md",
+      "expected": 404,
+      "id": "graeme-souness-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ian-callaghan.md",
+      "expected": 404,
+      "id": "ian-callaghan-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ian-rush.md",
+      "expected": 404,
+      "id": "ian-rush-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ian-st-john.md",
+      "expected": 404,
+      "id": "ian-st-john-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jamie-carragher.md",
+      "expected": 404,
+      "id": "jamie-carragher-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jan-molby.md",
+      "expected": 404,
+      "id": "jan-molby-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jimmy-case.md",
+      "expected": 404,
+      "id": "jimmy-case-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/joe-fagan.md",
+      "expected": 404,
+      "id": "joe-fagan-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/john-aldridge.md",
+      "expected": 404,
+      "id": "john-aldridge-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/john-barnes.md",
+      "expected": 404,
+      "id": "john-barnes-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/john-toshack.md",
+      "expected": 404,
+      "id": "john-toshack-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jordan-henderson.md",
+      "expected": 404,
+      "id": "jordan-henderson-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jurgen-klopp.md",
+      "expected": 404,
+      "id": "jurgen-klopp-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/kenny-dalglish.md",
+      "expected": 404,
+      "id": "kenny-dalglish-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/kevin-keegan.md",
+      "expected": 404,
+      "id": "kevin-keegan-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/luis-suarez.md",
+      "expected": 404,
+      "id": "luis-suarez-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/mark-lawrenson.md",
+      "expected": 404,
+      "id": "mark-lawrenson-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/michael-owen.md",
+      "expected": 404,
+      "id": "michael-owen-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/mohamed-salah.md",
+      "expected": 404,
+      "id": "mohamed-salah-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/pepe-reina.md",
+      "expected": 404,
+      "id": "pepe-reina-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/peter-beardsley.md",
+      "expected": 404,
+      "id": "peter-beardsley-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/peter-thompson.md",
+      "expected": 404,
+      "id": "peter-thompson-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/phil-neal.md",
+      "expected": 404,
+      "id": "phil-neal-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/rafael-benitez.md",
+      "expected": 404,
+      "id": "rafael-benitez-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ray-clemence.md",
+      "expected": 404,
+      "id": "ray-clemence-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ray-kennedy.md",
+      "expected": 404,
+      "id": "ray-kennedy-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/robbie-fowler.md",
+      "expected": 404,
+      "id": "robbie-fowler-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/roberto-firmino.md",
+      "expected": 404,
+      "id": "roberto-firmino-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/roger-hunt.md",
+      "expected": 404,
+      "id": "roger-hunt-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ron-yeats.md",
+      "expected": 404,
+      "id": "ron-yeats-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ronnie-moran.md",
+      "expected": 404,
+      "id": "ronnie-moran-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ronnie-whelan.md",
+      "expected": 404,
+      "id": "ronnie-whelan-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/roy-evans.md",
+      "expected": 404,
+      "id": "roy-evans-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/sadio-mane.md",
+      "expected": 404,
+      "id": "sadio-mane-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/sami-hyypia.md",
+      "expected": 404,
+      "id": "sami-hyypia-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/sammy-lee.md",
+      "expected": 404,
+      "id": "sammy-lee-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/steve-heighway.md",
+      "expected": 404,
+      "id": "steve-heighway-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/steve-mcmahon.md",
+      "expected": 404,
+      "id": "steve-mcmahon-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/steve-mcmanaman.md",
+      "expected": 404,
+      "id": "steve-mcmanaman-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/steve-nicol.md",
+      "expected": 404,
+      "id": "steve-nicol-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/terry-mcdermott.md",
+      "expected": 404,
+      "id": "terry-mcdermott-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/tommy-smith.md",
+      "expected": 404,
+      "id": "tommy-smith-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/xabi-alonso.md",
+      "expected": 404,
+      "id": "xabi-alonso-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/fernando-torres.md",
+      "expected": 404,
+      "id": "fernando-torres-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/james-milner.md",
+      "expected": 404,
+      "id": "james-milner-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/liverpool-auxerre-1991-anfield-comeback.md",
+      "expected": 404,
+      "id": "match-1991-11-06",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/liverpool-everton-1991-burrows-derby.md",
+      "expected": 404,
+      "id": "match-1991-08-31",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/liverpool-genoa-1992-european-exit.md",
+      "expected": 404,
+      "id": "match-1992-03-18",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/liverpool-ipswich-1992-extra-time-replay.md",
+      "expected": 404,
+      "id": "match-1992-02-26",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/liverpool-manchester-united-1992-title-ended.md",
+      "expected": 404,
+      "id": "match-1992-04-26",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/liverpool-portsmouth-1992-penalty-replay.md",
+      "expected": 404,
+      "id": "match-1992-04-13",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/liverpool-portsmouth-1992-whelan-rescue.md",
+      "expected": 404,
+      "id": "match-1992-04-05",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/liverpool-sunderland-1992-fa-cup-final.md",
+      "expected": 404,
+      "id": "match-1992-05-09",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1993-94/liverpool-bristol-city-1994-souness-final-match.md",
+      "expected": 404,
+      "id": "match-1994-01-25",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1993-94/liverpool-everton-1994-fowler-rush.md",
+      "expected": 404,
+      "id": "match-1994-03-13",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1993-94/liverpool-manchester-united-1994-comeback.md",
+      "expected": 404,
+      "id": "match-1994-01-04",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1993-94/liverpool-norwich-1994-standing-kop.md",
+      "expected": 404,
+      "id": "match-1994-04-30",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1993-94/liverpool-southampton-1993-fowler-hat-trick.md",
+      "expected": 404,
+      "id": "match-1993-10-30",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1993-94/swindon-liverpool-1993-mcmanaman.md",
+      "expected": 404,
+      "id": "match-1993-08-22",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1993-94/tottenham-liverpool-1993-three-three.md",
+      "expected": 404,
+      "id": "match-1993-12-18",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/arsenal-liverpool-1997-03-24.md",
+      "expected": 404,
+      "id": "match-1997-03-24",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/chelsea-liverpool-1997-01-26.md",
+      "expected": 404,
+      "id": "match-1997-01-26",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/liverpool-arsenal-1996-11-27.md",
+      "expected": 404,
+      "id": "match-1996-11-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/liverpool-brann-1997-03-20.md",
+      "expected": 404,
+      "id": "match-1997-03-20",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/liverpool-chelsea-1996-09-21.md",
+      "expected": 404,
+      "id": "match-1996-09-21",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/liverpool-manchester-united-1997-04-19.md",
+      "expected": 404,
+      "id": "match-1997-04-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/liverpool-middlesbrough-1996-12-14.md",
+      "expected": 404,
+      "id": "match-1996-12-14",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/liverpool-newcastle-1997-03-10.md",
+      "expected": 404,
+      "id": "match-1997-03-10",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/liverpool-paris-saint-germain-1997-04-24.md",
+      "expected": 404,
+      "id": "match-1997-04-24",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/liverpool-sion-1996-10-31.md",
+      "expected": 404,
+      "id": "match-1996-10-31",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/middlesbrough-liverpool-1996-08-17.md",
+      "expected": 404,
+      "id": "match-1996-08-17",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1996-97/wimbledon-liverpool-1997-05-06.md",
+      "expected": 404,
+      "id": "match-1997-05-06",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1997-98/celtic-liverpool-1997-mcmanaman-equaliser.md",
+      "expected": 404,
+      "id": "match-1997-09-16",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1997-98/liverpool-arsenal-1998-ince-double.md",
+      "expected": 404,
+      "id": "match-1998-05-06",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1997-98/manchester-united-liverpool-1998-ten-men-hold-on.md",
+      "expected": 404,
+      "id": "match-1998-04-10",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1997-98/sheffield-wednesday-liverpool-1998-owen-hat-trick.md",
+      "expected": 404,
+      "id": "match-1998-02-14",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1998-99/liverpool-everton-1999-fowler-double-gerrard-clears.md",
+      "expected": 404,
+      "id": "match-1999-04-03",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1998-99/liverpool-manchester-united-1999-ince-equaliser.md",
+      "expected": 404,
+      "id": "match-1999-05-05",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1998-99/liverpool-tottenham-1998-evans-final-match.md",
+      "expected": 404,
+      "id": "match-1998-11-10",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1998-99/manchester-united-liverpool-1999-late-fa-cup-defeat.md",
+      "expected": 404,
+      "id": "match-1999-01-24",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1998-99/newcastle-liverpool-1998-owen-first-half-hat-trick.md",
+      "expected": 404,
+      "id": "match-1998-08-30",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1999-00/arsenal-liverpool-2000-camara-highbury.md",
+      "expected": 404,
+      "id": "match-2000-02-13",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1999-00/bradford-liverpool-2000-final-day-defeat.md",
+      "expected": 404,
+      "id": "match-2000-05-14",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1999-00/liverpool-everton-1999-three-red-cards.md",
+      "expected": 404,
+      "id": "match-1999-09-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1999-00/liverpool-sheffield-wednesday-1999-gerrard-first-goal.md",
+      "expected": 404,
+      "id": "match-1999-12-05",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/1999-00/liverpool-west-ham-1999-camara-winner.md",
+      "expected": 404,
+      "id": "match-1999-10-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2000-01/charlton-liverpool-2001-champions-league-place.md",
+      "expected": 404,
+      "id": "match-2001-05-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2000-01/everton-liverpool-2001-mcallister-derby-winner.md",
+      "expected": 404,
+      "id": "match-2001-04-16",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2000-01/liverpool-alaves-2001-uefa-cup-treble.md",
+      "expected": 404,
+      "id": "match-2001-05-16",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2000-01/liverpool-arsenal-2001-owen-fa-cup-final.md",
+      "expected": 404,
+      "id": "match-2001-05-12",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2000-01/liverpool-barcelona-2001-mcallister-semi-final.md",
+      "expected": 404,
+      "id": "match-2001-04-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2000-01/liverpool-birmingham-2001-league-cup-final.md",
+      "expected": 404,
+      "id": "match-2001-02-25",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2000-01/liverpool-crystal-palace-2001-five-goal-semi-final.md",
+      "expected": 404,
+      "id": "match-2001-01-24",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2000-01/manchester-united-liverpool-2000-murphy-free-kick.md",
+      "expected": 404,
+      "id": "match-2000-12-17",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2000-01/roma-liverpool-2001-owen-double.md",
+      "expected": 404,
+      "id": "match-2001-02-15",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2001-02/leverkusen-liverpool-2002-quarter-final-exit.md",
+      "expected": 404,
+      "id": "match-2002-04-09",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2001-02/liverpool-bayern-2001-super-cup.md",
+      "expected": 404,
+      "id": "match-2001-08-24",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2001-02/liverpool-ipswich-2002-second-place.md",
+      "expected": 404,
+      "id": "match-2002-05-11",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2001-02/liverpool-manchester-united-2001-riise-owen.md",
+      "expected": 404,
+      "id": "match-2001-11-04",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2001-02/liverpool-roma-2002-houllier-return.md",
+      "expected": 404,
+      "id": "match-2002-03-19",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2001-02/manchester-united-liverpool-2002-murphy-winner.md",
+      "expected": 404,
+      "id": "match-2002-01-22",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2002-03/basel-liverpool-2002-comeback-elimination.md",
+      "expected": 404,
+      "id": "match-2002-11-12",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2002-03/chelsea-liverpool-2003-champions-league-place.md",
+      "expected": 404,
+      "id": "match-2003-05-11",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2002-03/liverpool-celtic-2003-anfield-exit.md",
+      "expected": 404,
+      "id": "match-2003-03-20",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2002-03/liverpool-manchester-united-2003-league-cup-final.md",
+      "expected": 404,
+      "id": "match-2003-03-02",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2002-03/liverpool-sheffield-united-2003-extra-time-final.md",
+      "expected": 404,
+      "id": "match-2003-01-21",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2002-03/manchester-city-liverpool-2002-owen-hat-trick.md",
+      "expected": 404,
+      "id": "match-2002-09-28",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2003-04/arsenal-liverpool-2004-henry-hat-trick.md",
+      "expected": 404,
+      "id": "match-2004-04-09",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2003-04/chelsea-liverpool-2004-cheyrou.md",
+      "expected": 404,
+      "id": "match-2004-01-07",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2003-04/everton-liverpool-2003-owen-kewell.md",
+      "expected": 404,
+      "id": "match-2003-08-30",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2003-04/manchester-united-liverpool-2004-murphy-penalty.md",
+      "expected": 404,
+      "id": "match-2004-04-24",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2003-04/marseille-liverpool-2004-uefa-cup-exit.md",
+      "expected": 404,
+      "id": "match-2004-03-25",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2004-05/burnley-liverpool-2005-fa-cup-exit.md",
+      "expected": 404,
+      "id": "match-2005-01-18",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2004-05/chelsea-liverpool-2005-league-cup-final.md",
+      "expected": 404,
+      "id": "match-2005-02-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2004-05/istanbul-2005-champions-league-final.md",
+      "expected": 404,
+      "id": "match-2005-05-25",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2004-05/juventus-liverpool-2005-second-leg.md",
+      "expected": 404,
+      "id": "match-2005-04-13",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2004-05/liverpool-arsenal-2004-mellor-winner.md",
+      "expected": 404,
+      "id": "match-2004-11-28",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2004-05/liverpool-chelsea-2005-champions-league-semi-final.md",
+      "expected": 404,
+      "id": "match-2005-05-03",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2004-05/liverpool-juventus-2005-first-leg.md",
+      "expected": 404,
+      "id": "match-2005-04-05",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2004-05/liverpool-olympiacos-2004-gerrard.md",
+      "expected": 404,
+      "id": "match-2004-12-08",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2005-06/chelsea-liverpool-2006-riise-garcia-semi-final.md",
+      "expected": 404,
+      "id": "match-2006-04-22",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2005-06/liverpool-benfica-2006-european-defence-ends.md",
+      "expected": 404,
+      "id": "match-2006-03-08",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md",
+      "expected": 404,
+      "id": "match-2005-08-26",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2005-06/liverpool-manchester-united-2006-crouch-cup-header.md",
+      "expected": 404,
+      "id": "match-2006-02-18",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2005-06/liverpool-west-ham-2006-gerrard-fa-cup-final.md",
+      "expected": 404,
+      "id": "match-2006-05-13",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2005-06/luton-liverpool-2006-sinama-pongolle-alonso-comeback.md",
+      "expected": 404,
+      "id": "match-2006-01-07",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md",
+      "expected": 404,
+      "id": "match-2005-12-18",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2006-07/barcelona-liverpool-2007-bellamy-riise-camp-nou.md",
+      "expected": 404,
+      "id": "match-2007-02-21",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2006-07/everton-liverpool-2006-johnson-derby-defeat.md",
+      "expected": 404,
+      "id": "match-2006-09-09",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-baptista-four-cup-exit.md",
+      "expected": 404,
+      "id": "match-2007-01-09",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md",
+      "expected": 404,
+      "id": "match-2007-03-31",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2006-07/liverpool-chelsea-2007-agger-reina-shoot-out.md",
+      "expected": 404,
+      "id": "match-2007-05-01",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2006-07/milan-liverpool-2007-inzaghi-athens-final.md",
+      "expected": 404,
+      "id": "match-2007-05-23",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/match-recovery/2006-07/psv-liverpool-2007-three-away-goals.md",
+      "expected": 404,
+      "id": "match-2007-04-03",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/steven-gerrard.md",
+      "expected": 404,
+      "id": "steven-gerrard-career-biography",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/torres-goodison-derby-double-2008.md",
+      "expected": 404,
+      "id": "match-2008-09-27",
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/history-calendar.json",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/review-queue-preparation-2026-10-01.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/history",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "route": "/history/opposition",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "route": "/robots.txt",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "route": "/scripts/editorial-review-queue.mjs",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/sitemap.xml",
+      "expected": 200,
+      "actual": 200
+    }
+  ]
+}

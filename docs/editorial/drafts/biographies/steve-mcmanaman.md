@@ -46,7 +46,11 @@ Alongside Robbie Fowler, he became one of the principal attacking players in Eva
 
 His individual contribution continued. At Celtic Park on 16 September 1997, Liverpool were trailing 2–1 late in a UEFA Cup tie when he carried the ball from his own half and finished left-footed from the edge of the penalty area. The equaliser secured a 2–2 draw. Contemporary reporting also recorded his earlier hesitation when presented with a good scoring opportunity: the same match contained both the spectacular finish and the less decisive moment. He ended 1997–98 with twelve goals in all competitions, his highest Liverpool total for a season.
 
-His departure followed in 1999. In January, McManaman confirmed that he would join Real Madrid when his contract expired that summer. Liverpool would receive no transfer fee. In his statement at the time, he explained that the move offered the chance to test himself in another leading European league. The free transfer frustrated supporters, but his stated ambition was clear.
+The ending had been developing for some time. In August 1997, a proposed £12 million move to Barcelona failed to materialise. Liverpool permitted talks after months of unsuccessful contract negotiations, while saying they wanted him to stay. The collapse brought competing public explanations about personal terms: Barcelona vice-president Gaspart said the demands were too high, while McManaman’s adviser Simon Fuller argued that they were reasonable for European football and a player commanding that transfer fee. The failure of that deal left McManaman at Anfield, but did not settle his longer-term future.
+
+His last season began with another change around him. Gérard Houllier joined Evans as joint-manager in summer 1998, before Evans departed in November and Houllier took sole charge. Contract talks were still continuing: in August, McManaman said they were advanced and expressed hope that agreement would follow soon. Liverpool were also reported to be confident of securing him.
+
+His departure followed in 1999. In January, McManaman confirmed that he would join Real Madrid when his contract expired that summer. Liverpool would receive no transfer fee. In his statement at the time, he explained that the move offered the chance to test himself in another leading European league. The free transfer frustrated some supporters, but his stated ambition was clear. He continued playing for Liverpool until the season’s end, making 31 competitive appearances in 1998–99, including 28 in the league. His final campaign belonged to a team in transition, rather than ending with the Madrid announcement.
 
 Madrid brought the honours that had been scarce at Liverpool. During four seasons in Spain, he won two Champions Leagues and two league titles, scoring with a volley against Valencia in the 2000 European final. He returned to England with Manchester City in 2003, making 44 appearances over two seasons.
 
@@ -59,7 +63,7 @@ McManaman’s Liverpool career ended with two major trophies and no championship
 - [LFCHistory — Liverpool 2–0 Sheffield United, 15 December 1990](https://lfchistory.net/games/1761)
 - [LFCHistory — Manchester City 2–1 Liverpool, 21 August 1991](https://lfchistory.net/games/1792)
 - [Liverpool FC — Thomas secures FA Cup joy for the Reds in 1992](https://www.liverpoolfc.com/news/first-team/278507-no-7-thomas-secures-fa-cup-joy-for-the-reds-in-1992)
-- [LFCHistory — Liverpool 2–0 Sunderland, 9 May 1992](https://lfchistory.net/games/1854)
+- [LFCHistory — Liverpool 2–0 Sunderland, 9 May 1992](https://www.lfchistory.net/games/1854)
 - [LFCHistory — McManaman’s goals in 1993–94](https://lfchistory.net/players/371/goals-per-season/35)
 - [Liverpool FC — Macca double lands League Cup](https://members.liverpoolfc.com/history/timeline/1970-1995/macca-double-lands-league-cup)
 - [Liverpool FC — Liverpool’s Greatest: Steve McManaman](https://www.liverpoolfc.com/news/liverpools-greatest-no38-steve-mcmanaman)
@@ -67,5 +71,10 @@ McManaman’s Liverpool career ended with two major trophies and no championship
 - [The Irish Times — McManaman spares the blushes with late goal](https://www.irishtimes.com/sport/mcmanaman-spares-the-blushes-with-late-goal-1.107192)
 - [LFCHistory — Celtic 2–2 Liverpool, 16 September 1997](https://lfchistory.net/games/2126)
 - [The Irish Times — McManaman confirms summer move to Real](https://www.irishtimes.com/sport/mcmanaman-confirms-summer-move-to-real-1.1258823)
+- [The Irish Times — McManaman too costly for Barcelona](https://www.irishtimes.com/sport/mcmanaman-too-costly-for-barcelona-1.97143)
+- [The Independent — Barcelona decide against McManaman](https://www.independent.co.uk/sport/football-barcelona-decide-against-mcmanaman-1245766.html)
+- [The Irish Times — Unlikely marriage proves barren](https://www.irishtimes.com/sport/unlikely-marriage-proves-barren-1.186076)
+- [Liverpool FC — Roy Evans: manager](https://www.liverpoolfc.com/info/roy-evans-0/)
+- [Liverpool FC — Gérard Houllier](https://www.liverpoolfc.com/info/gerard-houllier)
 - [Real Madrid — Steven McManaman: history and honours](https://www.realmadrid.com/en-US/the-club/history/football-legends/steven-mcmanaman)
 - [Manchester City — City v Real Madrid: played for both](https://www.mancity.com/news/first-team/first-team-news/2016/april/champions-league-played-for-both)

@@ -1,0 +1,197 @@
+{
+  "verifiedAt": "2026-10-03T08:03:41.449Z",
+  "base": "http://127.0.0.1:3103",
+  "checks": 33,
+  "passed": true,
+  "results": [
+    {
+      "route": "/docs/editorial/drafts/biographies/gerard-houllier-depth-research-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/gerard-houllier-depth-audit-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ian-rush-depth-research-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ian-rush-depth-audit-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/steve-heighway-depth-research-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/steve-heighway-depth-audit-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/sammy-lee-depth-research-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/sammy-lee-depth-audit-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ray-kennedy-depth-research-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/ray-kennedy-depth-audit-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/robbie-fowler-depth-research-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/robbie-fowler-depth-audit-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/roberto-firmino-depth-research-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/roberto-firmino-depth-audit-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/steve-mcmanaman-depth-research-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/steve-mcmanaman-depth-audit-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/biography-depth-independent-review-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/biography-depth-improvements-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/biography-depth-baseline-2026-10-03.json",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/biography-depth-review-a-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/biography-depth-review-b-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/biography-depth-review-c-2026-10-03.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/biography-depth-validation-2026-10-03.json",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/biography-depth-first-checkpoint-2026-10-03.json",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/biography-depth-revision-hashes-2026-10-03.json",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/history/people/gerard-houllier",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "manuscriptExposed": false
+    },
+    {
+      "route": "/history/people/ian-rush",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "manuscriptExposed": false
+    },
+    {
+      "route": "/history/people/steve-heighway",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "manuscriptExposed": false
+    },
+    {
+      "route": "/history/people/sammy-lee",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "manuscriptExposed": false
+    },
+    {
+      "route": "/history/people/ray-kennedy",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "manuscriptExposed": false
+    },
+    {
+      "route": "/history/people/robbie-fowler",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "manuscriptExposed": false
+    },
+    {
+      "route": "/history/people/roberto-firmino",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "manuscriptExposed": false
+    },
+    {
+      "route": "/history/people/steve-mcmanaman",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "manuscriptExposed": false
+    }
+  ]
+}
