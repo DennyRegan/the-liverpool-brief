@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T05:59:06.881746Z",
+  "updatedAt": "2026-10-03T06:03:51.053106Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -15820,7 +15820,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Peter Thompson’s arrival is tested in a comeback win: Moran follows up his saved penalty and Callaghan wins the opening match. A substantive debut story with contemporary evidence, not a milestone alone.",
+      "notes": "Peter Thompson’s arrival is tested in a comeback win: Moran follows up his saved penalty and Callaghan wins the opening match. A substantive debut story with contemporary evidence, not a milestone alone. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1963-64/research/blackburn-liverpool-1963-thompson-debut-notes.md",
@@ -15851,7 +15851,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1963-09-16-liverpool-wolves-1963-first-home-win",
@@ -15866,7 +15867,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "First home win after three home defeats; Arrowsmith and Thompson open their Liverpool scoring accounts and five players score. Establishes the difficult beginning before the title challenge.",
+      "notes": "First home win after three home defeats; Arrowsmith and Thompson open their Liverpool scoring accounts and five players score. Establishes the difficult beginning before the title challenge. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-wolves-1963-first-home-win-notes.md",
@@ -15897,7 +15898,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1963-09-28-liverpool-everton-1963-callaghan-double",
@@ -15912,7 +15914,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A winger’s two goals beat reigning champions and begin a five-match league winning run after the Sheffield United setback. Distinct derby and recovery story.",
+      "notes": "A winger’s two goals beat reigning champions and begin a five-match league winning run after the Sheffield United setback. Distinct derby and recovery story. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-everton-1963-callaghan-double-notes.md",
@@ -15943,7 +15945,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1963-11-23-manchester-united-liverpool-1963-yeats-winner",
@@ -15958,7 +15961,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Yeats’s first Liverpool goal decides an away victory that puts Liverpool top for the first time this season; turning point in championship credibility.",
+      "notes": "Yeats’s first Liverpool goal decides an away victory that puts Liverpool top for the first time this season; turning point in championship credibility. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1963-64/research/manchester-united-liverpool-1963-yeats-winner-notes.md",
@@ -15989,7 +15992,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1963-12-26-liverpool-stoke-1963-hunt-four-goals",
@@ -16004,7 +16008,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Four second-half Hunt goals transform a level Boxing Day game; contemporary Times archive gives a supported tactical focus and illuminates leading scorer’s contribution.",
+      "notes": "Four second-half Hunt goals transform a level Boxing Day game; contemporary Times archive gives a supported tactical focus and illuminates leading scorer’s contribution. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-stoke-1963-hunt-four-goals-notes.md",
@@ -16035,7 +16039,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1964-02-29-liverpool-swansea-1964-fa-cup-quarter-final",
@@ -16050,7 +16055,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Second Division opposition win at Anfield: two quick first-half goals, Thompson reply and missed Moran penalty end hopes of a double. Essential setback amid championship story.",
+      "notes": "Second Division opposition win at Anfield: two quick first-half goals, Thompson reply and missed Moran penalty end hopes of a double. Essential setback amid championship story. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-swansea-1964-fa-cup-quarter-final-notes.md",
@@ -16081,7 +16086,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1964-03-27-tottenham-liverpool-1964-hunt-hat-trick",
@@ -16096,7 +16102,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Away hat-trick at major title rivals begins the three-win Easter period and reverses the previous season’s severe White Hart Lane defeat; meaningful run-in contest.",
+      "notes": "Away hat-trick at major title rivals begins the three-win Easter period and reverses the previous season’s severe White Hart Lane defeat; meaningful run-in contest. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1963-64/research/tottenham-liverpool-1964-hunt-hat-trick-notes.md",
@@ -16127,7 +16133,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1964-04-04-liverpool-manchester-united-1964-arrowsmith-double",
@@ -16142,7 +16149,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Victory over eventual runners-up makes five consecutive wins and opens a five-point margin over United, showing Arrowsmith’s emergence in the decisive run.",
+      "notes": "Victory over eventual runners-up makes five consecutive wins and opens a five-point margin over United, showing Arrowsmith’s emergence in the decisive run. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-manchester-united-1964-arrowsmith-double-notes.md",
@@ -16173,7 +16180,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1964-04-18-liverpool-arsenal-1964-title-secured",
@@ -16188,7 +16196,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Championship clincher with three games left, five goals and penalty incidents at both ends; culmination of promotion-to-title transformation.",
+      "notes": "Championship clincher with three games left, five goals and penalty incidents at both ends; culmination of promotion-to-title transformation. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1963-64/research/liverpool-arsenal-1964-title-secured-notes.md",
@@ -16219,7 +16227,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1964-08-15-liverpool-west-ham-1964-charity-shield",
@@ -16234,7 +16243,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The champions begin with a shared trophy, twice surrendering the lead; Arrowsmith’s injury brings Chisnall into Liverpool’s recorded first substitution.",
+      "notes": "The champions begin with a shared trophy, twice surrendering the lead; Arrowsmith’s injury brings Chisnall into Liverpool’s recorded first substitution. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/liverpool-west-ham-1964-charity-shield-notes.md",
@@ -16265,7 +16274,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1964-08-17-kr-reykjavik-liverpool-1964-european-debut",
@@ -16280,7 +16290,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The first European match is a distinct away-debut story, including Wallace’s first goal and Chisnall’s first Liverpool goal. The already completed home return will be reused, not rewritten.",
+      "notes": "The first European match is a distinct away-debut story, including Wallace’s first goal and Chisnall’s first Liverpool goal. The already completed home return will be reused, not rewritten. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/kr-reykjavik-liverpool-1964-european-debut-notes.md",
@@ -16311,7 +16321,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1964-08-22-liverpool-arsenal-1964-first-match-of-the-day",
@@ -16326,7 +16337,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A late winner after a two-goal lead disappears makes a substantial opening league report, alongside the independently verifiable first BBC Match of the Day broadcast.",
+      "notes": "A late winner after a two-goal lead disappears makes a substantial opening league report, alongside the independently verifiable first BBC Match of the Day broadcast. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/liverpool-arsenal-1964-first-match-of-the-day-notes.md",
@@ -16357,7 +16368,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1964-09-19-liverpool-everton-1964-four-goal-defeat",
@@ -16372,7 +16384,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The derby exposes the poor league start and leaves Liverpool twenty-first; the season’s cup triumph must not obscure the failed title defence.",
+      "notes": "The derby exposes the poor league start and leaves Liverpool twenty-first; the season’s cup triumph must not obscure the failed title defence. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/liverpool-everton-1964-four-goal-defeat-notes.md",
@@ -16403,7 +16415,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1964-11-25-liverpool-anderlecht-1964-red-shorts",
@@ -16418,7 +16431,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A convincing European step against the Belgian champions accompanies an important kit change, precisely distinguished from the later introduction of red socks.",
+      "notes": "A convincing European step against the Belgian champions accompanies an important kit change, precisely distinguished from the later introduction of red socks. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/liverpool-anderlecht-1964-red-shorts-notes.md",
@@ -16449,7 +16462,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1964-12-05-burnley-liverpool-1964-hunt-hat-trick",
@@ -16464,7 +16478,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The first away league win comes through four late goals, with Strong and Lawler also scoring their first Liverpool goals: a substantive league recovery and changing-team story.",
+      "notes": "The first away league win comes through four late goals, with Strong and Lawler also scoring their first Liverpool goals: a substantive league recovery and changing-team story. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/burnley-liverpool-1964-hunt-hat-trick-notes.md",
@@ -16495,7 +16509,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-03-10-liverpool-leicester-1965-fa-cup-replay",
@@ -16510,7 +16525,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A narrow replay victory removes the side who ended the 1963 cup run and had beaten Liverpool twice in this league season, completing the quarter-final stage of the first successful FA Cup campaign.",
+      "notes": "A narrow replay victory removes the side who ended the 1963 cup run and had beaten Liverpool twice in this league season, completing the quarter-final stage of the first successful FA Cup campaign. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/liverpool-leicester-1965-fa-cup-replay-notes.md",
@@ -16541,7 +16556,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-03-24-liverpool-cologne-1965-rotterdam-toss",
@@ -16556,7 +16572,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The exceptional third match of a goalless two-leg tie brings a lost two-goal lead, extra time and a toss to decide advancement. The first two legs are essential context rather than separate duplicate-shaped reports.",
+      "notes": "The exceptional third match of a goalless two-leg tie brings a lost two-goal lead, extra time and a toss to decide advancement. The first two legs are essential context rather than separate duplicate-shaped reports. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/liverpool-cologne-1965-rotterdam-toss-notes.md",
@@ -16587,7 +16603,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-03-27-liverpool-chelsea-1965-fa-cup-semi-final",
@@ -16602,7 +16619,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Only three days after Rotterdam, Liverpool win a domestic semi-final through two second-half goals and reach their first FA Cup final since 1950.",
+      "notes": "Only three days after Rotterdam, Liverpool win a domestic semi-final through two second-half goals and reach their first FA Cup final since 1950. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/liverpool-chelsea-1965-fa-cup-semi-final-notes.md",
@@ -16633,7 +16650,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-05-01-liverpool-leeds-1965-first-fa-cup",
@@ -16648,7 +16666,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The defining first FA Cup triumph after 73 years needs a full match reconstruction, including Byrne’s injury, the goalless ninety minutes and all three extra-time goals.",
+      "notes": "The defining first FA Cup triumph after 73 years needs a full match reconstruction, including Byrne’s injury, the goalless ninety minutes and all three extra-time goals. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/liverpool-leeds-1965-first-fa-cup-notes.md",
@@ -16679,7 +16697,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-05-04-liverpool-inter-1965-anfield-semi-final",
@@ -16694,7 +16713,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The European champions visit immediately after the first FA Cup victory; Liverpool build a two-goal first-leg advantage in a major European match deserving its own account.",
+      "notes": "The European champions visit immediately after the first FA Cup victory; Liverpool build a two-goal first-leg advantage in a major European match deserving its own account. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/liverpool-inter-1965-anfield-semi-final-notes.md",
@@ -16725,7 +16744,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-05-12-inter-liverpool-1965-san-siro-semi-final",
@@ -16740,7 +16760,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The season ends with reversal of the Anfield advantage. Reconstruct verified goals and disputed incidents with clearly scoped sources, without asserting referee motives or corruption.",
+      "notes": "The season ends with reversal of the Anfield advantage. Reconstruct verified goals and disputed incidents with clearly scoped sources, without asserting referee motives or corruption. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1964-65/research/inter-liverpool-1965-san-siro-semi-final-notes.md",
@@ -16771,7 +16791,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-08-14-manchester-united-liverpool-1965-charity-shield",
@@ -16786,7 +16807,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The FA Cup holders twice recover against the league champions, with their captain scoring the late second equaliser; a distinct opening trophy story.",
+      "notes": "The FA Cup holders twice recover against the league champions, with their captain scoring the late second equaliser; a distinct opening trophy story. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/manchester-united-liverpool-1965-charity-shield-notes.md",
@@ -16817,7 +16838,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-09-06-west-ham-liverpool-1965-hunt-hat-trick",
@@ -16832,7 +16854,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A forceful early away performance and Hunt treble against the Cup Winners’ Cup holders show the attacking development before the eventual title lead.",
+      "notes": "A forceful early away performance and Hunt treble against the Cup Winners’ Cup holders show the attacking development before the eventual title lead. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/west-ham-liverpool-1965-hunt-hat-trick-notes.md",
@@ -16863,7 +16885,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-09-15-liverpool-west-ham-1965-strong-substitute",
@@ -16878,7 +16901,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Liverpool’s first Football League substitute scores the equaliser, a specific selection and rules milestone with an immediate match consequence.",
+      "notes": "Liverpool’s first Football League substitute scores the equaliser, a specific selection and rules milestone with an immediate match consequence. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/liverpool-west-ham-1965-strong-substitute-notes.md",
@@ -16909,7 +16932,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-09-25-liverpool-everton-1965-five-goal-derby",
@@ -16924,7 +16948,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The emphatic derby reverses the previous season’s 0–4 at the same ground; contemporary reporting supplies meaningful development beyond the score.",
+      "notes": "The emphatic derby reverses the previous season’s 0–4 at the same ground; contemporary reporting supplies meaningful development beyond the score. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/liverpool-everton-1965-five-goal-derby-notes.md",
@@ -16955,7 +16979,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-10-13-liverpool-juventus-1965-anfield-comeback",
@@ -16970,7 +16995,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The opening European tie is rescued at Anfield after the Turin defeat; two goals from players outside the regular attacking pair establish the route to the final.",
+      "notes": "The opening European tie is rescued at Anfield after the Turin defeat; two goals from players outside the regular attacking pair establish the route to the final. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/liverpool-juventus-1965-anfield-comeback-notes.md",
@@ -17001,7 +17026,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-11-17-liverpool-blackburn-1965-league-lead",
@@ -17016,7 +17042,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "This rearranged match ends the fourth successive league win and begins the uninterrupted spell at the head of the table; Blackburn’s attempted recovery gives the match its own movement.",
+      "notes": "This rearranged match ends the fourth successive league win and begins the uninterrupted spell at the head of the table; Blackburn’s attempted recovery gives the match its own movement. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/liverpool-blackburn-1965-league-lead-notes.md",
@@ -17047,7 +17073,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1965-12-28-leeds-liverpool-1965-milne-winner",
@@ -17062,7 +17089,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A win at a title rival follows defeat by the same opponent at Anfield the previous day; the paired fixtures make this a specific test in the title race.",
+      "notes": "A win at a title rival follows defeat by the same opponent at Anfield the previous day; the paired fixtures make this a specific test in the title race. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/leeds-liverpool-1965-milne-winner-notes.md",
@@ -17093,7 +17120,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-01-22-liverpool-chelsea-1966-fa-cup-exit",
@@ -17108,7 +17136,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The holders lose their only tie despite Hunt’s early goal; an essential failure in a season ultimately remembered for the championship and European final.",
+      "notes": "The holders lose their only tie despite Hunt’s early goal; an essential failure in a season ultimately remembered for the championship and European final. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/liverpool-chelsea-1966-fa-cup-exit-notes.md",
@@ -17139,7 +17167,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-03-08-liverpool-honved-1966-european-quarter-final",
@@ -17154,7 +17183,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A goalless away leg becomes a home quarter-final win and a second successive European semi-final; Lawler’s fourth European goal makes his contribution material.",
+      "notes": "A goalless away leg becomes a home quarter-final win and a second successive European semi-final; Lawler’s fourth European goal makes his contribution material. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/liverpool-honved-1966-european-quarter-final-notes.md",
@@ -17185,7 +17214,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-04-19-liverpool-celtic-1966-first-european-final",
@@ -17200,7 +17230,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The semi-final deficit is overturned after a goalless first half, with Strong’s injury and winner central to a well-sourced first-final milestone.",
+      "notes": "The semi-final deficit is overturned after a goalless first half, with Strong’s injury and winner central to a well-sourced first-final milestone. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/liverpool-celtic-1966-first-european-final-notes.md",
@@ -17231,7 +17261,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-04-30-liverpool-chelsea-1966-title-clincher",
@@ -17246,7 +17277,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The decisive title match: Hunt restores the lead after Chelsea equalise, securing Shankly’s second First Division championship with one league game left.",
+      "notes": "The decisive title match: Hunt restores the lead after Chelsea equalise, securing Shankly’s second First Division championship with one league game left. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/liverpool-chelsea-1966-title-clincher-notes.md",
@@ -17277,7 +17308,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-05-05-liverpool-dortmund-1966-european-final",
@@ -17292,7 +17324,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The first European final merits full treatment of the second-half exchange and extra-time winner, alongside careful handling of the disputed scorer attribution.",
+      "notes": "The first European final merits full treatment of the second-half exchange and extra-time winner, alongside careful handling of the disputed scorer attribution. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1965-66/research/liverpool-dortmund-1966-european-final-notes.md",
@@ -17323,7 +17355,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-08-13-everton-liverpool-1966-charity-shield",
@@ -17338,7 +17371,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The league champions and FA Cup holders meet after England’s World Cup victory; Hunt supplies the only goal and Liverpool’s sole trophy of this campaign.",
+      "notes": "The league champions and FA Cup holders meet after England’s World Cup victory; Hunt supplies the only goal and Liverpool’s sole trophy of this campaign. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1966-charity-shield-notes.md",
@@ -17369,7 +17402,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-08-27-everton-liverpool-1966-ball-double",
@@ -17384,7 +17418,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Two weeks after the Shield, the league derby reverses the result and leaves the champions with two defeats in their first three league games; Ball’s arrival changes the immediate rivalry.",
+      "notes": "Two weeks after the Shield, the league derby reverses the result and leaves the champions with two defeats in their first three league games; Ball’s arrival changes the immediate rivalry. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1966-ball-double-notes.md",
@@ -17415,7 +17449,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-10-19-liverpool-petrolul-1966-brussels-play-off",
@@ -17430,7 +17465,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A neutral third match is needed after the first two legs finish 3–3 on aggregate; first-half goals settle an unexpectedly extended opening European tie.",
+      "notes": "A neutral third match is needed after the first two legs finish 3–3 on aggregate; first-half goals settle an unexpectedly extended opening European tie. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-petrolul-1966-brussels-play-off-notes.md",
@@ -17461,7 +17496,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-11-19-liverpool-leeds-1966-five-goals",
@@ -17476,7 +17512,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The fourth consecutive league win completes a 13–0 November sequence and brings Liverpool within one point of the leaders; a major recovery from their uneven start.",
+      "notes": "The fourth consecutive league win completes a 13–0 November sequence and brings Liverpool within one point of the leaders; a major recovery from their uneven start. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-leeds-1966-five-goals-notes.md",
@@ -17507,7 +17543,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-12-07-ajax-liverpool-1966-fog-defeat",
@@ -17522,7 +17559,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The season’s defining European reverse demands its own reconstruction, with a four-goal first half and a young Cruyff among the scorers; fog is verified but is not a substitute for Ajax’s performance.",
+      "notes": "The season’s defining European reverse demands its own reconstruction, with a four-goal first half and a young Cruyff among the scorers; fog is verified but is not a substitute for Ajax’s performance. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1966-67/research/ajax-liverpool-1966-fog-defeat-notes.md",
@@ -17553,7 +17590,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-12-14-liverpool-ajax-1966-european-cup-exit",
@@ -17568,7 +17606,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The return independently demonstrates Ajax’s quality at Anfield and closes Liverpool’s European campaign; the alternating two-goal contributions are distinct from the fog game.",
+      "notes": "The return independently demonstrates Ajax’s quality at Anfield and closes Liverpool’s European campaign; the alternating two-goal contributions are distinct from the fog game. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-ajax-1966-european-cup-exit-notes.md",
@@ -17599,7 +17637,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1966-12-26-liverpool-chelsea-1966-boxing-day-lead",
@@ -17614,7 +17653,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A second 2–1 win over Chelsea in three days puts Liverpool first on goal average, showing the domestic challenge remained viable after European elimination.",
+      "notes": "A second 2–1 win over Chelsea in three days puts Liverpool first on goal average, showing the domestic challenge remained viable after European elimination. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-chelsea-1966-boxing-day-lead-notes.md",
@@ -17645,7 +17684,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1967-03-04-liverpool-stoke-1967-hughes-debut",
@@ -17660,7 +17700,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "An important new player makes his debut while Lawler and Hunt secure what proves Liverpool’s last return to first place this season.",
+      "notes": "An important new player makes his debut while Lawler and Hunt secure what proves Liverpool’s last return to first place this season. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-stoke-1967-hughes-debut-notes.md",
@@ -17691,7 +17731,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1967-03-11-everton-liverpool-1967-fa-cup-screens",
@@ -17706,7 +17747,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The fifth-round defeat ends the cup campaign and is watched at both Goodison and on screens at Anfield; match consequence and broadcasting arrangement both matter.",
+      "notes": "The fifth-round defeat ends the cup campaign and is watched at both Goodison and on screens at Anfield; match consequence and broadcasting arrangement both matter. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1966-67/research/everton-liverpool-1967-fa-cup-screens-notes.md",
@@ -17737,7 +17778,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1967-05-13-liverpool-blackpool-1967-season-finale",
@@ -17752,7 +17794,7 @@
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The relegated bottom club wins at Anfield to close Liverpool’s slide to fifth; Milne’s last appearance and Wilson’s only appearance give the final fixture additional squad significance.",
+      "notes": "The relegated bottom club wins at Anfield to close Liverpool’s slide to fifth; Milne’s last appearance and Wilson’s only appearance give the final fixture additional squad significance. Completed stock opted into the existing automatic History match queue under Denny’s 3 October 2026 request; no manual publication or assigned release date.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1966-67/research/liverpool-blackpool-1967-season-finale-notes.md",
@@ -17783,7 +17825,8 @@
         "model": "gpt-6-astra",
         "workerId": "/root/astra_decade_writer",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1967-08-26-liverpool-newcastle-1967-hateley-hat-trick",
@@ -18326,7 +18369,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-manchester-city-1968-opening-comeback.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18350,7 +18393,8 @@
         "editorialReason": "Opening victory over defending champions establishes the league campaign and records a comeback.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/liverpool-manchester-city-1968-opening-comeback-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18370,7 +18414,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1968-evans-debut.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18394,7 +18438,8 @@
         "editorialReason": "£100,000 teenage recruit scores on debut in a remarkable four-goal opening.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/liverpool-leicester-1968-evans-debut-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18414,7 +18459,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-swansea-1968-clemence-debut.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18438,7 +18483,8 @@
         "editorialReason": "Competitive debut of future goalkeeper; meaningful milestone in a limited current-season role.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/liverpool-swansea-1968-clemence-debut-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18458,7 +18504,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/wolves-liverpool-1968-evans-return.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18482,7 +18528,8 @@
         "editorialReason": "New recruit returns to former club, Liverpool’s largest win of campaign and rise to second.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/wolves-liverpool-1968-evans-return-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18526,7 +18573,8 @@
         "editorialReason": "European exit despite comeback and aggregate equality; rules and decisive coin toss need accurate reconstruction.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/liverpool-athletic-bilbao-1968-coin-toss-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18570,7 +18618,8 @@
         "editorialReason": "Five consecutive league wins with 18 unanswered goals culminate in first place after European exit.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/burnley-liverpool-1968-go-top-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18614,7 +18663,8 @@
         "editorialReason": "Meaningful derby interrupts five-match winning run while maintaining first place; both derby results covered in context.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/liverpool-everton-1968-smith-equaliser-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18658,7 +18708,8 @@
         "editorialReason": "Domestic cup exit shortly after European defeat narrows competitive campaign.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/arsenal-liverpool-1968-league-cup-exit-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18702,7 +18753,8 @@
         "editorialReason": "234th league goal surpasses Hodgson while securing two title-challenge points; distinct from overall record.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/liverpool-sheffield-wednesday-1969-hunt-league-record-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18746,7 +18798,8 @@
         "editorialReason": "Only home league defeat of season ends extended leadership; significant setback rather than victory-only selection.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/liverpool-nottingham-forest-1969-lead-lost-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18790,7 +18843,8 @@
         "editorialReason": "Final cup exit leaves league only; away goalless draw and Shilton’s documented role can be contextualised.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/liverpool-leicester-1969-fa-cup-replay-exit-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
@@ -18834,7 +18888,8 @@
         "editorialReason": "Defining title outcome at Anfield, with runners-up campaign and sporting response in sourced context.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json",
+          "docs/editorial/drafts/1960s/1968-69/research/liverpool-leeds-1969-title-decided-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
