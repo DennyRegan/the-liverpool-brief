@@ -34,6 +34,18 @@
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-manchester-city-10-august-1968-79783/",
+          "provider": "11v11 independent register",
+          "claims": "Date/result, Graham and Thompson Liverpool goals; opposition scorers absent from this page.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1967-68.html",
+          "provider": "RSSSF prior league register",
+          "claims": "City reigning champions; Liverpool third.",
+          "confidence": "High"
         }
       ]
     },
@@ -66,6 +78,24 @@
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-leicester-city-21-september-1968-79883/",
+          "provider": "11v11 independent register",
+          "claims": "Identity/result and four scorer identities.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/alun-evans",
+          "provider": "Liverpool FC official profile",
+          "claims": "Transfer fee, September signing and debut goal.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/1358",
+          "provider": "Steve Horton retrospective",
+          "claims": "Yeats following corner, Hunt foul for penalty, Hunt pass to Evans, St John pass to Callaghan and disallowed second Evans goal, bounded narrative only.",
+          "confidence": "Medium"
         }
       ]
     },
@@ -97,6 +127,30 @@
           "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-swansea-town-25-september-1968-28989/",
+          "provider": "11v11 independent register",
+          "claims": "Cup identity/result/scorers.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/846",
+          "provider": "Clemence first-person interview",
+          "claims": "Recalls rain and gale, poor kicking and debut after wait; recollection must be attributed.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://members.liverpoolfc.com/history/past-players/ray-clemence",
+          "provider": "Liverpool FC archived career profile",
+          "claims": "Signed1967, exact competitive debut25September1968.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/appearances/10",
+          "provider": "LFChistory appearance table",
+          "claims": "One competitive Clemence appearance this season; Lawrence42league.",
           "confidence": "High"
         }
       ]
@@ -130,6 +184,24 @@
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/wolverhampton-wanderers-v-liverpool-28-september-1968-79900/",
+          "provider": "11v11 independent register",
+          "claims": "Result and scorer doubles.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/alun-evans",
+          "provider": "Liverpool FC official profile",
+          "claims": "Wolves arrival and two on return to Molineux.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/4306",
+          "provider": "Evans first-person interview",
+          "claims": "Recalls Liverpool supporters thanking Wolves for him; attributed memory only.",
+          "confidence": "Medium"
         }
       ]
     },
@@ -162,6 +234,18 @@
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196869det.html",
+          "provider": "RSSSF European register",
+          "claims": "Both legs, goals, aggregate, extra time and coin toss outcome.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.athletic-club.eus/en/news/2021/08/10/iribars-memories-at-anfield/",
+          "provider": "Athletic official Iribar retrospective",
+          "claims": "Attributed keeper recollection of difficult night; corroborates outcome, but not reliable wholesale.",
+          "confidence": "Medium"
         }
       ]
     },
@@ -226,6 +310,18 @@
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-everton-08-october-1968-79913/",
+          "provider": "11v11 independent register",
+          "claims": "Identity/result/both scorers, no goal type.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/Stats/DirectFreekicksList",
+          "provider": "LFChistory direct free kick list",
+          "claims": "Smith equaliser75 specifically direct free kick.",
+          "confidence": "High"
         }
       ]
     },
@@ -257,6 +353,18 @@
           "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/arsenal-v-liverpool-15-october-1968-28994/",
+          "provider": "11v11 independent register",
+          "claims": "Identity/result, Simpson/Radford/Lawler scoring; full indexed retrieval, direct re-open failed.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+          "provider": "RSSSF League Cup register",
+          "claims": "Rounds and Arsenal subsequent final loss to Swindon.",
           "confidence": "High"
         }
       ]
@@ -290,6 +398,12 @@
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/day-roger-hunt-scores-set-liverpool-fc-record",
+          "provider": "Official club milestone account",
+          "claims": "Exact date/opposition and234league milestone, Hodgson233.",
+          "confidence": "High"
         }
       ]
     },
@@ -321,6 +435,18 @@
           "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://thecityground.com/game.php?game_id=19690215",
+          "provider": "Forest independent specialist",
+          "claims": "Result, Lyons brace and half-time score; full indexed retrieval, direct open failed.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-nottingham-forest-15-february-1969-80090/",
+          "provider": "11v11 independent register",
+          "claims": "Identity/result only: opposition lineup/scorers absent.",
           "confidence": "High"
         }
       ]
@@ -354,6 +480,24 @@
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-leicester-city-03-march-1969-212862/",
+          "provider": "11v11 independent register",
+          "claims": "Replay identity/result and scorer.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lcfc.com/media-article/Anfield-Joy-Cup-Replays-and-Penalty-Saves:-Memorable-Liverpool-Encounters-Recalled",
+          "provider": "Leicester City official detailed history",
+          "claims": "Header, cross and penalty save corroborated sequence; Medium for other retrospective saves.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://fchd.info/cups/facup1968-69.htm",
+          "provider": "FA Cup independent register",
+          "claims": "Liverpool cup route and Leicester subsequent final.",
+          "confidence": "High"
         }
       ]
     },
@@ -386,6 +530,18 @@
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.leedsunited.com/en/news/jon-howe-five-great-anfield-results",
+          "provider": "Leeds United official JonHowe account",
+          "claims": "Title/gameidentity; Medium few chances and Charlton/Hunter defensive performance.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3440",
+          "provider": "MightyLeeds retrospective with reproduced contemporary newspaper passages",
+          "claims": "Bounded chances and Kop response; original newspapers not independently examined; avoid wholesale reliance.",
+          "confidence": "Medium"
         }
       ]
     }

@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T05:58:45.432972Z",
+  "updatedAt": "2026-10-03T05:59:06.881746Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -18312,6 +18312,534 @@
         "blockers": []
       },
       "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-1968-08-10-liverpool-manchester-city-1968-opening-comeback",
+      "event": "Liverpool 2–1 Manchester City: Thompson completes Liverpool’s opening comeback against the champions",
+      "historicalEventDate": "1968-08-10",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "562a80c9-0612-4e35-b877-35e1942d5105",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Opening victory over defending champions establishes the league campaign and records a comeback. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Manchester City",
+        "opposition": "Manchester City",
+        "score": "2–1",
+        "editorialReason": "Opening victory over defending champions establishes the league campaign and records a comeback.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-09-21-liverpool-leicester-1968-evans-debut",
+      "event": "Liverpool 4–0 Leicester City: Evans scores as Liverpool settle Leicester in twelve minutes",
+      "historicalEventDate": "1968-09-21",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "a7d5a2e6-3159-48ea-b7ef-a9e3a8baa15e",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "£100,000 teenage recruit scores on debut in a remarkable four-goal opening. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 4–0 Leicester City",
+        "opposition": "Leicester City",
+        "score": "4–0",
+        "editorialReason": "£100,000 teenage recruit scores on debut in a remarkable four-goal opening.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-09-25-liverpool-swansea-1968-clemence-debut",
+      "event": "Liverpool 2–0 Swansea Town: Clemence begins with a clean sheet against Swansea",
+      "historicalEventDate": "1968-09-25",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "c8ca4001-be5b-4071-892c-78e70af11ac2",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Competitive debut of future goalkeeper; meaningful milestone in a limited current-season role. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–0 Swansea Town",
+        "opposition": "Swansea Town",
+        "score": "2–0",
+        "editorialReason": "Competitive debut of future goalkeeper; meaningful milestone in a limited current-season role.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-09-28-wolves-liverpool-1968-evans-return",
+      "event": "Wolverhampton Wanderers 0–6 Liverpool: Evans scores twice on Liverpool’s six-goal return to Molineux",
+      "historicalEventDate": "1968-09-28",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "a7c2d395-0499-4aa5-a398-98dbe4b40c03",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "New recruit returns to former club, Liverpool’s largest win of campaign and rise to second. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Wolverhampton Wanderers 0–6 Liverpool",
+        "opposition": "Wolverhampton Wanderers",
+        "score": "0–6",
+        "editorialReason": "New recruit returns to former club, Liverpool’s largest win of campaign and rise to second.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-10-02-liverpool-athletic-bilbao-1968-coin-toss",
+      "event": "Liverpool 2–1 Athletic Bilbao: Liverpool win the match but lose the toss against Athletic",
+      "historicalEventDate": "1968-10-02",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "054af5db-dff0-42b8-a64d-c8751d6685ec",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "European exit despite comeback and aggregate equality; rules and decisive coin toss need accurate reconstruction. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 2–1 Athletic Bilbao",
+        "opposition": "Athletic Bilbao",
+        "score": "2–1",
+        "editorialReason": "European exit despite comeback and aggregate equality; rules and decisive coin toss need accurate reconstruction.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-10-05-burnley-liverpool-1968-go-top",
+      "event": "Burnley 0–4 Liverpool: Liverpool put four past Burnley and take the league lead",
+      "historicalEventDate": "1968-10-05",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "b11d7a52-0aab-431c-bcd5-de7d0fb3ad5c",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Five consecutive league wins with 18 unanswered goals culminate in first place after European exit. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Burnley 0–4 Liverpool",
+        "opposition": "Burnley",
+        "score": "0–4",
+        "editorialReason": "Five consecutive league wins with 18 unanswered goals culminate in first place after European exit.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-10-08-liverpool-everton-1968-smith-equaliser",
+      "event": "Liverpool 1–1 Everton: Smith’s equaliser keeps Liverpool level in the Anfield derby",
+      "historicalEventDate": "1968-10-08",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "4dd1bfc4-2f00-4ad5-bbab-91a3557ac0fd",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Meaningful derby interrupts five-match winning run while maintaining first place; both derby results covered in context. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–1 Everton",
+        "opposition": "Everton",
+        "score": "1–1",
+        "editorialReason": "Meaningful derby interrupts five-match winning run while maintaining first place; both derby results covered in context.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1968-10-15-arsenal-liverpool-1968-league-cup-exit",
+      "event": "Arsenal 2–1 Liverpool: Arsenal end Liverpool’s League Cup run at Highbury",
+      "historicalEventDate": "1968-10-15",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "3c354bb3-3467-47f7-82dd-eb8182c2ffa2",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Domestic cup exit shortly after European defeat narrows competitive campaign. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Arsenal 2–1 Liverpool",
+        "opposition": "Arsenal",
+        "score": "2–1",
+        "editorialReason": "Domestic cup exit shortly after European defeat narrows competitive campaign.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-02-01-liverpool-sheffield-wednesday-1969-hunt-league-record",
+      "event": "Liverpool 1–0 Sheffield Wednesday: Hunt’s record goal keeps Liverpool at the top",
+      "historicalEventDate": "1969-02-01",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "f5644671-3aa8-4534-a6c6-b3ba5cdb65d6",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "234th league goal surpasses Hodgson while securing two title-challenge points; distinct from overall record. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 1–0 Sheffield Wednesday",
+        "opposition": "Sheffield Wednesday",
+        "score": "1–0",
+        "editorialReason": "234th league goal surpasses Hodgson while securing two title-challenge points; distinct from overall record.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-02-15-liverpool-nottingham-forest-1969-lead-lost",
+      "event": "Liverpool 0–2 Nottingham Forest: Lyons scores twice as Forest take Liverpool off the top",
+      "historicalEventDate": "1969-02-15",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "fa4c319a-f9b6-4ae7-9616-47551807dc6f",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Only home league defeat of season ends extended leadership; significant setback rather than victory-only selection. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–2 Nottingham Forest",
+        "opposition": "Nottingham Forest",
+        "score": "0–2",
+        "editorialReason": "Only home league defeat of season ends extended leadership; significant setback rather than victory-only selection.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-03-03-liverpool-leicester-1969-fa-cup-replay-exit",
+      "event": "Liverpool 0–1 Leicester City: Leicester end Liverpool’s FA Cup in an Anfield replay",
+      "historicalEventDate": "1969-03-03",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "d52d2607-38fd-4579-9ff9-566f5d752535",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Final cup exit leaves league only; away goalless draw and Shilton’s documented role can be contextualised. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–1 Leicester City",
+        "opposition": "Leicester City",
+        "score": "0–1",
+        "editorialReason": "Final cup exit leaves league only; away goalless draw and Shilton’s documented role can be contextualised.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-1969-04-28-liverpool-leeds-1969-title-decided",
+      "event": "Liverpool 0–0 Leeds United: Leeds take the point that ends Liverpool’s title challenge",
+      "historicalEventDate": "1969-04-28",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1968_69",
+      "claim": {
+        "token": "b234973a-0853-45b8-a8c9-6104745245ef",
+        "claimedAt": "2026-10-03T05:59:06.881746Z",
+        "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Defining title outcome at Anfield, with runners-up campaign and sporting response in sourced context. Denny commissioned continued Sol 6.1 research and writing on 3 October 2026; GitHub storage only, existing automatic publisher handles later releases.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "confidence": "high",
+          "scope": "Retrieved whole-season context and selected match evidence; factual writing/audit still in progress."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "1960s-1968-69",
+        "season": "1968-69",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 0–0 Leeds United",
+        "opposition": "Leeds United",
+        "score": "0–0",
+        "editorialReason": "Defining title outcome at Anfield, with runners-up campaign and sporting response in sourced context.",
+        "sourceFiles": [
+          "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
+          "docs/editorial/drafts/1960s/1968-69/research/selections.json"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -18517,15 +19045,28 @@
     {
       "id": "1960s-1968-69",
       "season": "1968-69",
-      "stage": "match_research",
+      "stage": "drafting",
       "owner": "Archive editor / Sol continuation 2026-10-03",
       "model": "gpt-6.1-sol",
       "workerId": "/root/sol_1968_69",
       "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
-      "selectedRowIds": [],
+      "selectedRowIds": [
+        "match-1968-08-10-liverpool-manchester-city-1968-opening-comeback",
+        "match-1968-09-21-liverpool-leicester-1968-evans-debut",
+        "match-1968-09-25-liverpool-swansea-1968-clemence-debut",
+        "match-1968-09-28-wolves-liverpool-1968-evans-return",
+        "match-1968-10-02-liverpool-athletic-bilbao-1968-coin-toss",
+        "match-1968-10-05-burnley-liverpool-1968-go-top",
+        "match-1968-10-08-liverpool-everton-1968-smith-equaliser",
+        "match-1968-10-15-arsenal-liverpool-1968-league-cup-exit",
+        "match-1969-02-01-liverpool-sheffield-wednesday-1969-hunt-league-record",
+        "match-1969-02-15-liverpool-nottingham-forest-1969-lead-lost",
+        "match-1969-03-03-liverpool-leicester-1969-fa-cup-replay-exit",
+        "match-1969-04-28-liverpool-leeds-1969-title-decided"
+      ],
       "reusedPaths": [],
       "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection. Whole-season research and selection prepared by Sol 6.1; manuscript drafting waits for prior season checkpoint.",
-      "nextStage": "Complete whole-season research and register the selected unwritten matches."
+      "nextStage": "Complete manuscripts and factual audits, independent review, validation and remote season checkpoint."
     },
     {
       "id": "1960s-1969-70",
