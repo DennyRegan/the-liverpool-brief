@@ -5,7 +5,8 @@ import os from 'node:os';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { filterCandidates, discoverCandidates, selectRandom, selectForSlot, scheduledSlot,
-  londonParts, readCalendar, saveCalendar, dryRun, promoteSelection, completeSelection, verifyProduction } from '../scripts/automatic-history-publisher.mjs';
+  londonParts, readCalendar, saveCalendar, dryRun, promoteSelection, completeSelection, verifyProduction,
+  publicationBlock, sensitiveSubject, approvedByDenny } from '../scripts/automatic-history-publisher.mjs';
 import { allRows, publicationClasses } from '../scripts/automatic-history-state.mjs';
 import { validateCalendar, calendarPath } from '../scripts/validate-editorial-calendar.mjs';
 import { restoreAutomaticStock } from './fixtures/automatic-editorial.mjs';
@@ -130,17 +131,81 @@ test('empty slots persist safely and cannot refill or select on a rerun', () => 
   assert.equal(selectForSlot(c, 'matches', run.slot, [{ id: 'unexpected' }], process.cwd(), friday, () => { throw Error('reroll'); }), run);
 });
 
-test('historical matches without explicit factual flag gain it without prose edits', () => {
+test('a draft with no editorial label is never published; only editorialMode "factual" is accepted', () => {
+  assert.equal(publicationBlock({ editorialMode: 'factual', title: 'A match' }, {}), null);
+  assert.match(publicationBlock({ title: 'A match' }, {}), /No editorial label/);
+  assert.match(publicationBlock({ editorialMode: '', title: 'A match' }, {}), /No editorial label/);
+  assert.match(publicationBlock({ editorialMode: 'draft', title: 'A match' }, {}), /No editorial label/);
+  assert.match(publicationBlock({ editorialMode: 'opinion', title: 'A match' }, {}), /Opinion/);
   const f = fixture();
   try {
-    const c = readCalendar(f.root), pool = discoverCandidates('matches', f.root);
-    const index = pool.findIndex(e => !matter(fs.readFileSync(path.join(f.root, e.canonicalDraftPath), 'utf8')).data.editorialMode);
-    assert.ok(index >= 0);
-    const run = selectForSlot(c, 'matches', 'matches:2026-10-09', pool, f.root, friday, () => index);
-    saveCalendar(f.root, c);
-    const p = promoteSelection(f.root, c, run, friday);
-    assert.equal(matter(p.publicText).data.editorialMode, 'factual');
-    assert.equal(matter(p.publicText).content, matter(fs.readFileSync(path.join(f.root, run.draftPath), 'utf8')).content);
+    const [first] = discoverCandidates('biographies', f.root);
+    const draft = path.join(f.root, first.canonicalDraftPath);
+    const { data, content } = matter(fs.readFileSync(draft, 'utf8'));
+    assert.equal(data.editorialMode, 'factual');
+    delete data.editorialMode;
+    fs.writeFileSync(draft, matter.stringify(content, data));
+    assert.ok(!discoverCandidates('biographies', f.root).some(e => e.slug === first.slug), 'Unlabelled draft stayed in the pool');
+    // Even a selection recorded earlier cannot promote an unlabelled draft.
+    const calendar = readCalendar(f.root);
+    const run = selectForSlot(calendar, 'biographies', 'biographies:2026-10-06', [first], f.root, tuesday, () => 0);
+    assert.throws(() => promoteSelection(f.root, calendar, run, tuesday), /No editorial label/);
+    assert.ok(!fs.existsSync(path.join(f.root, `content/archive/liverpool/${first.slug}.md`)));
+  } finally { f.cleanup(); }
+});
+
+test('sensitive subjects are detected from the headline fields and not from venues, places or passing mentions', () => {
+  for (const data of [
+    { title: 'Heysel 1985: the European Cup final' },
+    { slug: 'anfield-hillsborough-tribute-united-2012', title: 'Liverpool 1–2 Manchester United' },
+    { title: 'Hillsborough tributes precede a ten-man Anfield defeat' },
+    { excerpt: 'The first game after the Hillsborough disaster.' },
+    { title: 'Munich air disaster and the 1958 season' },
+    { excerpt: 'Ninety-seven supporters died in 1989.' },
+    { historicalPeriod: 'The Taylor Report era' },
+    { title: 'A tragedy at the ground' },
+  ]) assert.ok(sensitiveSubject(data), `Should be sensitive: ${JSON.stringify(data)}`);
+  for (const data of [
+    { title: 'Owen’s first league hat-trick rescues Liverpool at Hillsborough', slug: 'sheffield-wednesday-liverpool-1998-owen-hat-trick' },
+    { slug: 'leicester-liverpool-1963-fa-cup-semi-final', excerpt: 'The semi-final was played at Hillsborough.' },
+    { slug: 'liverpool-tsv-munich-1967-eight-goals' },
+    { slug: 'bradford-liverpool-2000-final-day-defeat', title: 'Bradford City 1–0 Liverpool' },
+    { title: 'Fowler’s four goals against Middlesbrough' },
+  ]) assert.equal(sensitiveSubject(data), null, `Should not be sensitive: ${JSON.stringify(data)}`);
+  assert.equal(sensitiveSubject(), null);
+});
+
+test('a sensitive piece publishes only when the calendar row carries Denny’s recorded approval by name', () => {
+  const approval = { by: 'Denny', recordedAt: '2026-10-04T09:00:00.000Z', evidence: 'Approved by name in this test.' };
+  const sensitive = { editorialMode: 'factual', title: 'Heysel 1985' };
+  assert.ok(approvedByDenny({ approval }));
+  for (const bad of [null, undefined, {}, { by: 'Someone else', recordedAt: approval.recordedAt, evidence: 'x' },
+    { by: 'Denny', evidence: 'x' }, { by: 'Denny', recordedAt: approval.recordedAt }]) assert.ok(!approvedByDenny({ approval: bad }));
+  assert.match(publicationBlock(sensitive, { approval: null }), /Sensitive subject.*approval by name/);
+  assert.match(publicationBlock(sensitive, {}), /Sensitive subject/);
+  assert.match(publicationBlock(sensitive, { approval: { by: 'Someone else', recordedAt: approval.recordedAt, evidence: 'x' } }), /Sensitive subject/);
+  assert.equal(publicationBlock(sensitive, { approval }), null);
+  assert.equal(publicationBlock({ editorialMode: 'factual', title: 'An ordinary match' }, { approval: null }), null);
+
+  const f = fixture();
+  try {
+    const [first] = discoverCandidates('biographies', f.root);
+    const draft = path.join(f.root, first.canonicalDraftPath);
+    const { data, content } = matter(fs.readFileSync(draft, 'utf8'));
+    fs.writeFileSync(draft, matter.stringify(content, { ...data, title: `${data.title} and Heysel` }));
+    assert.ok(!discoverCandidates('biographies', f.root).some(e => e.slug === first.slug), 'Sensitive draft stayed in the pool without approval');
+    const calendar = readCalendar(f.root);
+    const run = selectForSlot(calendar, 'biographies', 'biographies:2026-10-06', [first], f.root, tuesday, () => 0);
+    assert.throws(() => promoteSelection(f.root, calendar, run, tuesday), /Sensitive subject/);
+    assert.ok(!fs.existsSync(path.join(f.root, `content/archive/liverpool/${first.slug}.md`)));
+
+    // Recording Denny's approval on the shared calendar row (the existing approval record) lets it through.
+    const approved = readCalendar(f.root);
+    Object.assign(allRows(approved).find(r => r.id === (first.calendarRowId ?? first.id)), { status: 'approved', approval });
+    saveCalendar(f.root, approved);
+    assert.ok(discoverCandidates('biographies', f.root).some(e => e.slug === first.slug), 'Approved sensitive draft should be eligible');
+    const approvedRun = selectForSlot(approved, 'biographies', 'biographies:2026-10-13', [first], f.root, tuesday, () => 0);
+    assert.doesNotThrow(() => promoteSelection(f.root, approved, approvedRun, tuesday));
   } finally { f.cleanup(); }
 });
 

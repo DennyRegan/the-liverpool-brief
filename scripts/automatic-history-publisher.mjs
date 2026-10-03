@@ -32,6 +32,35 @@ const monday = date => {
   return d.toISOString().slice(0, 10);
 };
 
+// Subjects that never publish automatically unless Denny has approved the piece by name.
+// Only the piece's own headline fields are read (title, slug, excerpt, period, calendar id and event), so a biography
+// that merely mentions a disaster, or a match played at the Hillsborough ground, is not caught.
+const tragedyWord = 'disasters?|tragedy|tragedies|tragic|atrocity|atrocities|tributes?|memorials?|inquests?|justice|families|victims?|remembrance|vigil|anniversary|anniversaries|1989';
+const sensitivePatterns = [
+  ['Heysel', /\bheysel\b/],
+  ['Hillsborough disaster', new RegExp(`\\bhillsborough\\b[^.\\n]{0,60}\\b(${tragedyWord}|ninety|96|97)\\b|\\b(${tragedyWord})\\b[^.\\n]{0,60}\\bhillsborough\\b`)],
+  ['Munich air disaster', /\bmunich air (disaster|crash)\b|\bair crash\b/],
+  ['Bradford fire or Ibrox disaster', /\bbradford (city )?(fire|disaster)\b|\bibrox (disaster|tragedy)\b/],
+  ['Taylor Report', /\btaylor report\b/],
+  ['loss of life', /\b(ninety[ -]six|ninety[ -]seven|thirty[ -]nine|96|97|39)\s+(liverpool\s+)?(fans|supporters|people|lives|victims|dead)\b|\bthe 96\b/],
+  ['disaster or tragedy', /\b(disasters?|tragedy|tragedies|tragic|atrocity|atrocities)\b/],
+];
+export function sensitiveSubject(data = {}, row = {}) {
+  const text = [data.title, data.slug, data.excerpt, data.historicalPeriod, row.id, row.event]
+    .filter(value => typeof value === 'string').join(' . ').toLowerCase().replace(/[-_]+/g, ' ');
+  return sensitivePatterns.find(([, pattern]) => pattern.test(text))?.[0] ?? null;
+}
+// "By name" means the shared calendar row carries Denny's recorded approval (the existing approval record).
+export const approvedByDenny = row => row?.approval?.by === 'Denny' && Boolean(row.approval.recordedAt) && Boolean(row.approval.evidence);
+// Returns why a draft must not publish automatically, or null when it may.
+export function publicationBlock(data, row) {
+  if (data.editorialMode === 'opinion') return 'Opinion is outside the automatic queue';
+  if (data.editorialMode !== 'factual') return 'No editorial label: only drafts marked editorialMode "factual" can publish automatically';
+  const topic = sensitiveSubject(data, row);
+  if (topic && !approvedByDenny(row)) return `Sensitive subject (${topic}) needs Denny's approval by name in the calendar`;
+  return null;
+}
+
 // Explicit class, completed technical queue and canonical row must all agree.
 export function filterCandidates(queue, entries, rows, runs = []) {
   assert.ok(queues.includes(queue), 'Unknown queue');
@@ -49,9 +78,10 @@ export function filterCandidates(queue, entries, rows, runs = []) {
 export function discoverCandidates(queue, root = process.cwd()) {
   const calendar = readCalendar(root);
   const rows = validateCalendar(calendar, root);
+  const byId = new Map(rows.map(r => [r.id, r]));
   return filterCandidates(queue, getEditorialReviewQueue(queue, root).entries, rows, calendar.automaticHistory?.runs).filter(e => {
     const { data } = matter(fs.readFileSync(path.join(root, e.canonicalDraftPath), 'utf8'));
-    return data.editorialMode !== 'opinion' && (queue === 'biographies'
+    return publicationBlock(data, byId.get(e.calendarRowId ?? e.id)) === null && (queue === 'biographies'
       ? data.category === 'person' && ['player', 'manager'].includes(data.articleType)
       : data.category === 'match' && data.articleType === 'match' && Boolean(data.historicalEventDate && data.season));
   });
@@ -92,7 +122,7 @@ export function planPublication(root, calendar, run, now = new Date()) {
   assert.ok(source.startsWith('---\n') || source.startsWith('---\r\n'), 'Expected existing YAML frontmatter');
   const { data, content } = matter(source);
   assert.equal(data.slug, run.slug);
-  assert.notEqual(data.editorialMode, 'opinion', 'Opinion is outside the automatic queue');
+  assert.equal(publicationBlock(data, row), null, publicationBlock(data, row) ?? '');
   assert.ok(!Object.hasOwn(data, 'date'), 'Draft already has a publication date');
   if (run.queue === 'biographies') assert.ok(data.category === 'person' && ['player', 'manager'].includes(data.articleType), 'Not a career biography');
   else assert.ok(data.category === 'match' && data.articleType === 'match' && data.historicalEventDate && data.season, 'Not a historical match');

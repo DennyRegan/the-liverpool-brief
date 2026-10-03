@@ -29,8 +29,19 @@ a genuine canonical manuscript, valid Archive metadata/relationships, no claim,
 no blockers, no duplicate public coverage and no previous automatic selection.
 Biographies must have a career identity and player/manager article type; matches
 must have match type, historical date and principal season. Opinion metadata is
-refused. At promotion, absent `editorialMode` becomes `factual` under this narrow
-authority; individual `approval` is never invented or cleared.
+refused. A draft must already say `editorialMode: factual`; a draft with no editorial
+label is never published automatically (changed 3 October 2026 — it used to be
+stamped `factual` at promotion). Individual `approval` is never invented or cleared.
+
+**Sensitive subjects need Denny's approval by name.** A piece whose own headline
+fields (title, slug, excerpt, historical period, calendar row id or event) are about
+Heysel, the Hillsborough disaster or its tributes, the Munich air disaster, the
+Bradford fire, Ibrox, the Taylor Report, loss of life, or a "disaster"/"tragedy" is
+skipped unless its calendar row records Denny's approval (`status: approved` and
+`approval: { by: "Denny", recordedAt, evidence }`). Passing mentions inside the
+body, a match played at the Hillsborough ground, or TSV Munich are not caught.
+The check runs when the pool is built and again at promotion
+(`publicationBlock` in `scripts/automatic-history-publisher.mjs`).
 
 Opinion, Analysis, current news/coverage, unfinished drafts, research notes,
 blocked/NOT LOCATED records, season references and This Week entries are excluded.
@@ -93,6 +104,9 @@ London week consumes that queue's release for that week, preventing a second
 catch-up publication. Empty slots are saved and stay empty on rerun.
 
 ## Operating commands
+
+Step-by-step guides for taking a piece offline, checking a release morning and
+running a safe dry run are in [publisher operations](publisher-operations.md).
 
 Inspect eligible inventory without changing it:
 
