@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T13:13:51.829853Z",
+  "updatedAt": "2026-10-03T13:17:10.628620Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -24408,13 +24408,9 @@
       "event": "Liverpool 1–0 Stoke City",
       "historicalEventDate": "2013-08-17",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "1ba03cf5-1b73-44d2-a34f-37ca9236fdc2",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-stoke-2013-mignolet-debut-save.md",
       "originalDraftId": null,
@@ -24423,17 +24419,22 @@
       "notes": "Opening-day win with Mignolet penalty save on debut; establishes the campaign before the title challenge. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/liverpool-stoke-2013-mignolet-debut-save-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–0 Stoke City",
         "opposition": "Stoke City",
@@ -24444,13 +24445,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/liverpool-stoke-2013-mignolet-debut-save-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/liverpool-stoke-2013-mignolet-debut-save-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24458,13 +24458,9 @@
       "event": "Liverpool 1–0 Manchester United",
       "historicalEventDate": "2013-09-01",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "30db942c-103b-4d46-865c-0c24ac0c9600",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-manchester-united-2013-sturridge-shankly-centenary.md",
       "originalDraftId": null,
@@ -24473,17 +24469,22 @@
       "notes": "Sturridge winner against reigning champions puts Liverpool top; Shankly centenary context. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/liverpool-manchester-united-2013-sturridge-shankly-centenary-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–0 Manchester United",
         "opposition": "Manchester United",
@@ -24494,13 +24495,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/liverpool-manchester-united-2013-sturridge-shankly-centenary-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/liverpool-manchester-united-2013-sturridge-shankly-centenary-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24508,13 +24508,9 @@
       "event": "Everton 3–3 Liverpool",
       "historicalEventDate": "2013-11-23",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "8477ecbc-ff07-4735-a84d-1a0a01da9ad4",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/everton-liverpool-2013-sturridge-six-goal-derby.md",
       "originalDraftId": null,
@@ -24523,17 +24519,22 @@
       "notes": "Six-goal derby with repeated changes of lead and late Sturridge equaliser. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/everton-liverpool-2013-sturridge-six-goal-derby-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Everton 3–3 Liverpool",
         "opposition": "Everton",
@@ -24544,13 +24545,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/everton-liverpool-2013-sturridge-six-goal-derby-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/everton-liverpool-2013-sturridge-six-goal-derby-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24558,13 +24558,9 @@
       "event": "Liverpool 5–1 Norwich City",
       "historicalEventDate": "2013-12-04",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "2c67764e-c30b-47e7-a261-0f62ab03121d",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-norwich-2013-suarez-four-goals.md",
       "originalDraftId": null,
@@ -24573,17 +24569,22 @@
       "notes": "Suárez four-goal individual performance and third hat-trick against the same club. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/liverpool-norwich-2013-suarez-four-goals-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 5–1 Norwich City",
         "opposition": "Norwich City",
@@ -24594,13 +24595,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/liverpool-norwich-2013-suarez-four-goals-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/liverpool-norwich-2013-suarez-four-goals-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24608,13 +24608,9 @@
       "event": "Tottenham Hotspur 0–5 Liverpool",
       "historicalEventDate": "2013-12-15",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "66e8ae11-4162-49f0-acf6-bef30a733265",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/tottenham-liverpool-2013-five-at-white-hart-lane.md",
       "originalDraftId": null,
@@ -24623,17 +24619,22 @@
       "notes": "Exceptional away performance in the emergence of the title-challenging attack. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/tottenham-liverpool-2013-five-at-white-hart-lane-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Tottenham Hotspur 0–5 Liverpool",
         "opposition": "Tottenham Hotspur",
@@ -24644,13 +24645,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/tottenham-liverpool-2013-five-at-white-hart-lane-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/tottenham-liverpool-2013-five-at-white-hart-lane-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24658,13 +24658,9 @@
       "event": "Liverpool 4–0 Everton",
       "historicalEventDate": "2014-01-28",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "b0775e56-be25-4bc8-89b5-f85878d4ecc1",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-everton-2014-four-goal-derby.md",
       "originalDraftId": null,
@@ -24673,17 +24669,22 @@
       "notes": "Comprehensive derby victory during the development of the title challenge. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/liverpool-everton-2014-four-goal-derby-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 4–0 Everton",
         "opposition": "Everton",
@@ -24694,13 +24695,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/liverpool-everton-2014-four-goal-derby-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/liverpool-everton-2014-four-goal-derby-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24708,13 +24708,9 @@
       "event": "Liverpool 5–1 Arsenal",
       "historicalEventDate": "2014-02-08",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "e98efb46-bdeb-42a2-a479-3b5dc38b81dd",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-arsenal-2014-four-in-twenty-minutes.md",
       "originalDraftId": null,
@@ -24723,17 +24719,22 @@
       "notes": "Four early goals against the leaders begins eleven consecutive league victories. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/liverpool-arsenal-2014-four-in-twenty-minutes-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 5–1 Arsenal",
         "opposition": "Arsenal",
@@ -24744,13 +24745,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/liverpool-arsenal-2014-four-in-twenty-minutes-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/liverpool-arsenal-2014-four-in-twenty-minutes-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24758,13 +24758,9 @@
       "event": "Manchester United 0–3 Liverpool",
       "historicalEventDate": "2014-03-16",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "3e7f5d57-3ca2-45fd-960a-08dd93b2f230",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/manchester-united-liverpool-2014-gerrard-penalties.md",
       "originalDraftId": null,
@@ -24773,17 +24769,22 @@
       "notes": "Three-goal Old Trafford victory and Gerrard penalty sequence during the title run. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/manchester-united-liverpool-2014-gerrard-penalties-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Manchester United 0–3 Liverpool",
         "opposition": "Manchester United",
@@ -24794,13 +24795,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/manchester-united-liverpool-2014-gerrard-penalties-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/manchester-united-liverpool-2014-gerrard-penalties-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24808,13 +24808,9 @@
       "event": "Liverpool 3–2 Manchester City",
       "historicalEventDate": "2014-04-13",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "204a7f16-881b-4f82-94e2-321f3adbc13a",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-manchester-city-2014-coutinho-title-race.md",
       "originalDraftId": null,
@@ -24823,17 +24819,22 @@
       "notes": "Direct title-rival meeting decided after City recover a two-goal deficit. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/liverpool-manchester-city-2014-coutinho-title-race-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 3–2 Manchester City",
         "opposition": "Manchester City",
@@ -24844,13 +24845,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/liverpool-manchester-city-2014-coutinho-title-race-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/liverpool-manchester-city-2014-coutinho-title-race-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24858,13 +24858,9 @@
       "event": "Norwich City 2–3 Liverpool",
       "historicalEventDate": "2014-04-20",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "846d8719-a288-488f-9bc4-349eddc51af7",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/norwich-liverpool-2014-eleven-wins-champions-league.md",
       "originalDraftId": null,
@@ -24873,17 +24869,22 @@
       "notes": "Eleventh successive league win confirms Champions League return and extends the lead. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/norwich-liverpool-2014-eleven-wins-champions-league-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Norwich City 2–3 Liverpool",
         "opposition": "Norwich City",
@@ -24894,13 +24895,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/norwich-liverpool-2014-eleven-wins-champions-league-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/norwich-liverpool-2014-eleven-wins-champions-league-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24908,13 +24908,9 @@
       "event": "Liverpool 0–2 Chelsea",
       "historicalEventDate": "2014-04-27",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "8584cebf-1885-4b70-afa2-58f0ad151855",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-chelsea-2014-title-race-turns.md",
       "originalDraftId": null,
@@ -24923,17 +24919,22 @@
       "notes": "Defeat ends winning sequence and changes control of the championship contest. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/liverpool-chelsea-2014-title-race-turns-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 0–2 Chelsea",
         "opposition": "Chelsea",
@@ -24944,13 +24945,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/liverpool-chelsea-2014-title-race-turns-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/liverpool-chelsea-2014-title-race-turns-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -24958,13 +24958,9 @@
       "event": "Crystal Palace 3–3 Liverpool",
       "historicalEventDate": "2014-05-05",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "3a50cebb-9197-4f3d-b294-c0f64a59696b",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/crystal-palace-liverpool-2014-three-goal-lead-lost.md",
       "originalDraftId": null,
@@ -24973,17 +24969,22 @@
       "notes": "Three-goal lead lost in the penultimate fixture; decisive title-race setback. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/crystal-palace-liverpool-2014-three-goal-lead-lost-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Crystal Palace 3–3 Liverpool",
         "opposition": "Crystal Palace",
@@ -24994,13 +24995,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/crystal-palace-liverpool-2014-three-goal-lead-lost-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/crystal-palace-liverpool-2014-three-goal-lead-lost-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -25008,13 +25008,9 @@
       "event": "Liverpool 2–1 Newcastle United",
       "historicalEventDate": "2014-05-11",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "8458bb94-a710-4f06-bd6c-3bdd385d3901",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-newcastle-2014-title-challenge-finale.md",
       "originalDraftId": null,
@@ -25023,17 +25019,22 @@
       "notes": "Final-day recovery completes 84-point runners-up season as City secure the title. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/selection.json",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/liverpool-newcastle-2014-title-challenge-finale-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season selection evidence; finished manuscript and factual audit pending."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "publicationClass": "automatic-history-match",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–1 Newcastle United",
         "opposition": "Newcastle United",
@@ -25044,13 +25045,12 @@
           "docs/editorial/drafts/match-production/2013-14/research/season-research.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/liverpool-newcastle-2014-title-challenge-finale-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/liverpool-newcastle-2014-title-challenge-finale-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
-        "blockers": [
-          "Finished manuscript and factual audit pending."
-        ]
+        "blockers": []
       }
     },
     {
@@ -31676,13 +31676,9 @@
       "event": "Newcastle United 2–2 Liverpool: Gerrard reaches a Premier League century as Liverpool twice recover",
       "historicalEventDate": "2013-10-19",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "d3114f24-1102-435e-b22c-f01f199e2af9",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/newcastle-liverpool-2013-gerrard-century.md",
       "originalDraftId": null,
@@ -31691,16 +31687,21 @@
       "notes": "Gerrard’s 100 th Premier League goal accompanies two equalising responses against ten-man Newcastle. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/newcastle-liverpool-2013-gerrard-century-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Newcastle United 2–2 Liverpool",
         "opposition": "Newcastle United",
@@ -31709,25 +31710,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/newcastle-liverpool-2013-gerrard-century-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/newcastle-liverpool-2013-gerrard-century-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2014-01-12-stoke-liverpool-2014-sturridge-return-eight-goals",
       "event": "Stoke City 3–5 Liverpool: Sturridge returns with an assist and goal in Stoke’s eight-goal game",
       "historicalEventDate": "2014-01-12",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "b09cb017-898c-424d-a682-b2c6e081b29a",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/stoke-liverpool-2014-sturridge-return-eight-goals.md",
       "originalDraftId": null,
@@ -31736,16 +31735,21 @@
       "notes": "First Premier League away win at Stoke and a productive return from injury in an eight-goal contest. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/stoke-liverpool-2014-sturridge-return-eight-goals-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Stoke City 3–5 Liverpool",
         "opposition": "Stoke City",
@@ -31754,25 +31758,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/stoke-liverpool-2014-sturridge-return-eight-goals-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/stoke-liverpool-2014-sturridge-return-eight-goals-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2014-02-12-fulham-liverpool-2014-gerrard-late-penalty",
       "event": "Fulham 2–3 Liverpool: Gerrard’s late penalty completes Liverpool’s second recovery at Fulham",
       "historicalEventDate": "2014-02-12",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "f863a13c-993e-44e9-9961-d4a2e23abb6f",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/fulham-liverpool-2014-gerrard-late-penalty.md",
       "originalDraftId": null,
@@ -31781,16 +31783,21 @@
       "notes": "Two deficits overcome before a stoppage-time winner immediately after the Arsenal league victory. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/fulham-liverpool-2014-gerrard-late-penalty-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Fulham 2–3 Liverpool",
         "opposition": "Fulham",
@@ -31799,25 +31806,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/fulham-liverpool-2014-gerrard-late-penalty-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/fulham-liverpool-2014-gerrard-late-penalty-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2014-02-16-arsenal-liverpool-2014-fa-cup-exit",
       "event": "Arsenal 2–1 Liverpool: Arsenal end Liverpool’s FA Cup campaign",
       "historicalEventDate": "2014-02-16",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "92da98ae-3178-4e38-829c-b77ac7c6ec63",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/arsenal-liverpool-2014-fa-cup-exit.md",
       "originalDraftId": null,
@@ -31826,16 +31831,21 @@
       "notes": "Fifth-round defeat eight days after the reverse league result is the decisive domestic cup exit. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/arsenal-liverpool-2014-fa-cup-exit-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Arsenal 2–1 Liverpool",
         "opposition": "Arsenal",
@@ -31844,25 +31854,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/arsenal-liverpool-2014-fa-cup-exit-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/arsenal-liverpool-2014-fa-cup-exit-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2014-03-22-cardiff-liverpool-2014-suarez-treble-nine-goals",
       "event": "Cardiff City 3–6 Liverpool: Suárez’s treble settles Liverpool’s nine-goal game at Cardiff",
       "historicalEventDate": "2014-03-22",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "1d3e310a-a8b8-4c6d-bed1-998a5b76382c",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/cardiff-liverpool-2014-suarez-treble-nine-goals.md",
       "originalDraftId": null,
@@ -31871,16 +31879,21 @@
       "notes": "Two first-half deficits overcome, Skrtel’s double and Suárez’s sixth Liverpool hat-trick mark a distinct high-scoring away result. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/cardiff-liverpool-2014-suarez-treble-nine-goals-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Cardiff City 3–6 Liverpool",
         "opposition": "Cardiff City",
@@ -31889,25 +31902,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/cardiff-liverpool-2014-suarez-treble-nine-goals-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/cardiff-liverpool-2014-suarez-treble-nine-goals-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2014-04-06-west-ham-liverpool-2014-gerrard-penalty-double",
       "event": "West Ham United 1–2 Liverpool: Gerrard’s penalty double sends Liverpool back to the top",
       "historicalEventDate": "2014-04-06",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1968_69",
-      "claim": {
-        "token": "11309128-2015-4ad6-81d1-be3125cc85b6",
-        "claimedAt": "2026-10-03T11:21:57.988808Z",
-        "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/match-production/2013-14/west-ham-liverpool-2014-gerrard-penalty-double.md",
       "originalDraftId": null,
@@ -31916,16 +31927,21 @@
       "notes": "Ninth consecutive league win and two disputed goal sequences before the direct City meeting. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
+          "location": "docs/editorial/drafts/match-production/2013-14/research/west-ham-liverpool-2014-gerrard-penalty-double-notes.md",
           "confidence": "high",
-          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+          "scope": "Completed actual Sol6.1 retrieved-source sentence audit; scope, conflicts and limitations retained."
+        },
+        {
+          "location": "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent configured Sol6.1 review PASS; corrections reread and final complete manuscript hash verified."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "remaining-2013-14",
         "season": "2013-14",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "West Ham United 1–2 Liverpool",
         "opposition": "West Ham United",
@@ -31934,12 +31950,14 @@
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2013-14/research/sol-season-research-2026-10-03.md",
           "docs/editorial/drafts/match-production/2013-14/research/sol-selections-2026-10-03.json",
-          "docs/editorial/drafts/match-production/2013-14/research/west-ham-liverpool-2014-gerrard-penalty-double-notes.md"
+          "docs/editorial/drafts/match-production/2013-14/research/west-ham-liverpool-2014-gerrard-penalty-double-notes.md",
+          "docs/editorial/drafts/match-production/2013-14/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-2014-10-19-qpr-liverpool-2014-four-late-goals",
@@ -32641,7 +32659,7 @@
     {
       "id": "remaining-2013-14",
       "season": "2013-14",
-      "stage": "drafting",
+      "stage": "checkpointed",
       "owner": "Archive editor / modern Sol continuation 2026-10-03",
       "model": "gpt-6.1-sol",
       "workerId": "/root/sol_1968_69",
@@ -32668,8 +32686,8 @@
         "match-2014-05-11-liverpool-newcastle-2014-title-challenge-finale"
       ],
       "reusedPaths": [],
-      "notes": "Finite unpublished production through 2024–25. Source-led selections, no quota; existing finished reports are reused.",
-      "nextStage": "Complete manuscripts, sentence audits, independent review and remote season checkpoint."
+      "notes": "19 complete reports by actual configured Sol6.1; independent reviewed file hashes verified. Unpublished stock opted into existing automatic History publisher; no manual approval, publication or schedule.",
+      "nextStage": null
     },
     {
       "id": "remaining-2014-15",
