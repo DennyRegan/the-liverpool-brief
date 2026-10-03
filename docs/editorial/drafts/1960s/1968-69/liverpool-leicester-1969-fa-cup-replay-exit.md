@@ -29,8 +29,8 @@ Liverpool were now out of all three cup competitions. Their Fairs Cup campaign h
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/499)
-- [11v11 independent register: match record](https://www.11v11.com/matches/liverpool-v-leicester-city-03-march-1969-212862/)
-- [Leicester City official detailed history: historical evidence](https://www.lcfc.com/media-article/Anfield-Joy-Cup-Replays-and-Penalty-Saves:-Memorable-Liverpool-Encounters-Recalled)
-- [FA Cup independent register: historical evidence](https://fchd.info/cups/facup1968-69.htm)
-- [LFChistory: match record](https://www.lfchistory.net/season-archive/games/10)
+- [LFChistory: match record and competition details](https://www.lfchistory.net/games/499)
+- [11v11: independent match record](https://www.11v11.com/matches/liverpool-v-leicester-city-03-march-1969-212862/)
+- [Leicester City: Anfield joy, cup replays and penalty saves](https://www.lcfc.com/media-article/Anfield-Joy-Cup-Replays-and-Penalty-Saves:-Memorable-Liverpool-Encounters-Recalled)
+- [FCHD: 1968–69 FA Cup results](https://fchd.info/cups/facup1968-69.htm)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)

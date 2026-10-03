@@ -14,7 +14,7 @@ oppositionIds: ["manchester-city"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["bobby-graham", "peter-thompson", "roger-hunt", "emlyn-hughes"]
-sources: ["https://www.lfchistory.net/games/460", "https://www.11v11.com/matches/liverpool-v-manchester-city-10-august-1968-79783/", "https://www.rsssf.org/engpaul/FLA/1967-68.html"]
+sources: ["https://www.lfchistory.net/games/460", "https://www.11v11.com/matches/liverpool-v-manchester-city-10-august-1968-79783/", "https://www.rsssf.org/engpaul/FLA/1967-68.html", "https://www.lfchistory.net/season-archive/games/10"]
 ---
 
 Peter Thompson scored the winner as Liverpool came from behind to beat reigning champions Manchester City 2–1 at Anfield on 10 August 1968. Bobby Graham’s first-half equaliser kept the opening match level until Thompson settled it with seventeen minutes remaining.
@@ -29,6 +29,7 @@ The result did not immediately become a sustained run. Liverpool lost their next
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/460)
-- [11v11 independent register: match record](https://www.11v11.com/matches/liverpool-v-manchester-city-10-august-1968-79783/)
-- [RSSSF prior league register: historical evidence](https://www.rsssf.org/engpaul/FLA/1967-68.html)
+- [LFChistory: match record and table](https://www.lfchistory.net/games/460)
+- [11v11: independent match record](https://www.11v11.com/matches/liverpool-v-manchester-city-10-august-1968-79783/)
+- [RSSSF: 1967–68 Football League tables](https://www.rsssf.org/engpaul/FLA/1967-68.html)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)

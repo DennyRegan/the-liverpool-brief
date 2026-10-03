@@ -29,7 +29,7 @@ For Liverpool, this was a second competition lost in less than a fortnight. Athl
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/478)
-- [11v11 independent register: match record](https://www.11v11.com/matches/arsenal-v-liverpool-15-october-1968-28994/)
-- [RSSSF League Cup register: historical evidence](https://www.rsssf.org/tablese/engleagcuphistfull.html)
-- [LFChistory: match record](https://www.lfchistory.net/season-archive/games/10)
+- [LFChistory: match record and competition details](https://www.lfchistory.net/games/478)
+- [11v11: independent match record](https://www.11v11.com/matches/arsenal-v-liverpool-15-october-1968-28994/)
+- [RSSSF: League Cup results and rounds](https://www.rsssf.org/tablese/engleagcuphistfull.html)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)

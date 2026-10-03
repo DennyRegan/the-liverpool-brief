@@ -14,7 +14,7 @@ oppositionIds: ["leicester-city"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["alun-evans", "ron-yeats", "tommy-smith", "ian-callaghan", "roger-hunt", "ian-st-john"]
-sources: ["https://www.lfchistory.net/games/471", "https://www.11v11.com/matches/liverpool-v-leicester-city-21-september-1968-79883/", "https://www.liverpoolfc.com/info/alun-evans", "https://www.lfchistory.net/articles/1358"]
+sources: ["https://www.lfchistory.net/games/471", "https://www.11v11.com/matches/liverpool-v-leicester-city-21-september-1968-79883/", "https://www.liverpoolfc.com/info/alun-evans", "https://www.lfchistory.net/articles/1358", "https://www.lfchistory.net/season-archive/games/10"]
 ---
 
 Alun Evans marked his Liverpool debut with a goal in a 4–0 victory over Leicester City at Anfield on 21 September 1968. All four goals arrived in the first twelve minutes, giving the teenager an immediate part in Liverpool’s improving league run.
@@ -29,7 +29,8 @@ The debut was followed a week later by another striking result. Liverpool won 6�
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/471)
-- [11v11 independent register: match record](https://www.11v11.com/matches/liverpool-v-leicester-city-21-september-1968-79883/)
-- [Liverpool FC official profile: historical evidence](https://www.liverpoolfc.com/info/alun-evans)
-- [Steve Horton retrospective: historical evidence](https://www.lfchistory.net/articles/1358)
+- [LFChistory: match record and table](https://www.lfchistory.net/games/471)
+- [11v11: independent match record](https://www.11v11.com/matches/liverpool-v-leicester-city-21-september-1968-79883/)
+- [Liverpool FC: Alun Evans profile](https://www.liverpoolfc.com/info/alun-evans)
+- [LFChistory: Alun Evans’s remarkable Liverpool debut](https://www.lfchistory.net/articles/1358)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)

@@ -29,8 +29,8 @@ Evans later recalled Liverpool supporters thanking Wolves for selling him, a mem
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/473)
-- [LFChistory: match record](https://www.lfchistory.net/season-archive/games/10)
-- [11v11 independent register: match record](https://www.11v11.com/matches/wolverhampton-wanderers-v-liverpool-28-september-1968-79900/)
-- [Liverpool FC official profile: historical evidence](https://www.liverpoolfc.com/info/alun-evans)
-- [Evans first-person interview: historical evidence](https://www.lfchistory.net/articles/4306)
+- [LFChistory: match record and table](https://www.lfchistory.net/games/473)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)
+- [11v11: independent match record](https://www.11v11.com/matches/wolverhampton-wanderers-v-liverpool-28-september-1968-79900/)
+- [Liverpool FC: Alun Evans profile](https://www.liverpoolfc.com/info/alun-evans)
+- [LFChistory: Alun Evans interview](https://www.lfchistory.net/articles/4306)

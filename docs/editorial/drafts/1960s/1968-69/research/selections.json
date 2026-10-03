@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "workerId": "/root/sol_1968_69",
   "retrievedOn": "2026-10-03",
-  "purpose": "Research handoff only. Canonical calendar is sole status authority. Awaiting coordinator confirmation of authoritative remote claims before drafting.",
+  "purpose": "Finished manuscripts and supporting source/audit evidence. Canonical shared calendar is sole status authority. Drafted only after coordinator confirmed remote claims21b4b6c and prior season checkpointf8b977a. No publication or scheduling.",
   "matches": [
     {
       "date": "1968-08-10",
@@ -47,7 +47,14 @@
           "claims": "City reigning champions; Liverpool third.",
           "confidence": "High"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/460",
+        "https://www.11v11.com/matches/liverpool-v-manchester-city-10-august-1968-79783/",
+        "https://www.rsssf.org/engpaul/FLA/1967-68.html",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-manchester-city-1968-opening-comeback.md"
     },
     {
       "date": "1968-09-21",
@@ -97,7 +104,15 @@
           "claims": "Yeats following corner, Hunt foul for penalty, Hunt pass to Evans, St John pass to Callaghan and disallowed second Evans goal, bounded narrative only.",
           "confidence": "Medium"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/471",
+        "https://www.11v11.com/matches/liverpool-v-leicester-city-21-september-1968-79883/",
+        "https://www.liverpoolfc.com/info/alun-evans",
+        "https://www.lfchistory.net/articles/1358",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1968-evans-debut.md"
     },
     {
       "date": "1968-09-25",
@@ -153,7 +168,16 @@
           "claims": "One competitive Clemence appearance this season; Lawrence42league.",
           "confidence": "High"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/472",
+        "https://www.11v11.com/matches/liverpool-v-swansea-town-25-september-1968-28989/",
+        "https://www.lfchistory.net/articles/846",
+        "https://members.liverpoolfc.com/history/past-players/ray-clemence",
+        "https://www.lfchistory.net/season-archive/appearances/10",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-swansea-1968-clemence-debut.md"
     },
     {
       "date": "1968-09-28",
@@ -203,7 +227,15 @@
           "claims": "Recalls Liverpool supporters thanking Wolves for him; attributed memory only.",
           "confidence": "Medium"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/473",
+        "https://www.lfchistory.net/season-archive/games/10",
+        "https://www.11v11.com/matches/wolverhampton-wanderers-v-liverpool-28-september-1968-79900/",
+        "https://www.liverpoolfc.com/info/alun-evans",
+        "https://www.lfchistory.net/articles/4306"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/wolves-liverpool-1968-evans-return.md"
     },
     {
       "date": "1968-10-02",
@@ -247,7 +279,14 @@
           "claims": "Attributed keeper recollection of difficult night; corroborates outcome, but not reliable wholesale.",
           "confidence": "Medium"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/474",
+        "https://www.rsssf.org/ec/ec196869det.html",
+        "https://www.athletic-club.eus/en/news/2021/08/10/iribars-memories-at-anfield/",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-athletic-bilbao-1968-coin-toss.md"
     },
     {
       "date": "1968-10-05",
@@ -285,7 +324,13 @@
           "confidence": "High",
           "claims": "Independent complete season results corroborate Burnley win and five-match league sequence; individual Burnley page failed retrieval."
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/475",
+        "https://www.lfchistory.net/season-archive/games/10",
+        "https://www.11v11.com/teams/liverpool/tab/matches/season/1969/"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/burnley-liverpool-1968-go-top.md"
     },
     {
       "date": "1968-10-08",
@@ -329,7 +374,15 @@
           "claims": "Smith equaliser75 specifically direct free kick.",
           "confidence": "High"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/476",
+        "https://www.11v11.com/matches/liverpool-v-everton-08-october-1968-79913/",
+        "https://www.lfchistory.net/Stats/DirectFreekicksList",
+        "https://www.lfchistory.net/season-archive/games/10",
+        "https://www.rsssf.org/engpaul/FLA/1968-69.html"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-everton-1968-smith-equaliser.md"
     },
     {
       "date": "1968-10-15",
@@ -373,7 +426,14 @@
           "claims": "Rounds and Arsenal subsequent final loss to Swindon.",
           "confidence": "High"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/478",
+        "https://www.11v11.com/matches/arsenal-v-liverpool-15-october-1968-28994/",
+        "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/arsenal-liverpool-1968-league-cup-exit.md"
     },
     {
       "date": "1969-02-01",
@@ -410,8 +470,21 @@
           "provider": "Official club milestone account",
           "claims": "Exact date/opposition and234league milestone, Hodgson233.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3453",
+          "provider": "LFChistory correction article",
+          "claims": "High: prior Chelsea milestone tally and retrospective correction to234againstWednesday; no claim that linked footage was viewed by worker.",
+          "confidence": "High"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/495",
+        "https://www.liverpoolfc.com/news/day-roger-hunt-scores-set-liverpool-fc-record",
+        "https://www.lfchistory.net/season-archive/games/10",
+        "https://www.lfchistory.net/articles/3453"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-sheffield-wednesday-1969-hunt-league-record.md"
     },
     {
       "date": "1969-02-15",
@@ -455,7 +528,15 @@
           "claims": "Identity/result only: opposition lineup/scorers absent.",
           "confidence": "High"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/496",
+        "https://thecityground.com/game.php?game_id=19690215",
+        "https://www.11v11.com/matches/liverpool-v-nottingham-forest-15-february-1969-80090/",
+        "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-nottingham-forest-1969-lead-lost.md"
     },
     {
       "date": "1969-03-03",
@@ -505,7 +586,15 @@
           "claims": "Liverpool cup route and Leicester subsequent final.",
           "confidence": "High"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/499",
+        "https://www.11v11.com/matches/liverpool-v-leicester-city-03-march-1969-212862/",
+        "https://www.lcfc.com/media-article/Anfield-Joy-Cup-Replays-and-Penalty-Saves:-Memorable-Liverpool-Encounters-Recalled",
+        "https://fchd.info/cups/facup1968-69.htm",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1969-fa-cup-replay-exit.md"
     },
     {
       "date": "1969-04-28",
@@ -549,7 +638,15 @@
           "claims": "Bounded chances and Kop response; original newspapers not independently examined; avoid wholesale reliance.",
           "confidence": "Medium"
         }
-      ]
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/508",
+        "https://www.leedsunited.com/en/news/jon-howe-five-great-anfield-results",
+        "https://www.lfchistory.net/articles/3440",
+        "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-leeds-1969-title-decided.md"
     }
   ]
 }

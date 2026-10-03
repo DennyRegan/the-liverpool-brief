@@ -14,7 +14,7 @@ oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["tommy-smith", "alan-ball"]
-sources: ["https://www.lfchistory.net/games/476", "https://www.11v11.com/matches/liverpool-v-everton-08-october-1968-79913/", "https://www.lfchistory.net/Stats/DirectFreekicksList", "https://www.lfchistory.net/season-archive/games/10"]
+sources: ["https://www.lfchistory.net/games/476", "https://www.11v11.com/matches/liverpool-v-everton-08-october-1968-79913/", "https://www.lfchistory.net/Stats/DirectFreekicksList", "https://www.lfchistory.net/season-archive/games/10", "https://www.rsssf.org/engpaul/FLA/1968-69.html"]
 ---
 
 Tommy Smith’s direct free kick earned Liverpool a 1–1 draw with Everton at Anfield on 8 October 1968. Alan Ball had put Everton ahead ten minutes earlier, ending Liverpool’s sequence of league clean sheets before Smith recovered a point.
@@ -29,7 +29,8 @@ The season’s earlier derby, at Goodison Park on 27 August, had finished 0–0.
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/476)
-- [11v11 independent register: match record](https://www.11v11.com/matches/liverpool-v-everton-08-october-1968-79913/)
-- [LFChistory direct free kick list: historical evidence](https://www.lfchistory.net/Stats/DirectFreekicksList)
-- [LFChistory: match record](https://www.lfchistory.net/season-archive/games/10)
+- [LFChistory: match record and table](https://www.lfchistory.net/games/476)
+- [11v11: independent match record](https://www.11v11.com/matches/liverpool-v-everton-08-october-1968-79913/)
+- [LFChistory: direct free-kick goals](https://www.lfchistory.net/Stats/DirectFreekicksList)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)
+- [RSSSF: 1968–69 Football League tables](https://www.rsssf.org/engpaul/FLA/1968-69.html)

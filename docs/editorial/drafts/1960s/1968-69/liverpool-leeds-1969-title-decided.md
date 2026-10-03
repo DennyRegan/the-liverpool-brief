@@ -29,8 +29,8 @@ Liverpool’s season continued with defeat at Manchester City and a draw at Newc
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/508)
-- [Leeds United official JonHowe account: historical evidence](https://www.leedsunited.com/en/news/jon-howe-five-great-anfield-results)
-- [MightyLeeds retrospective with reproduced contemporary newspaper passages: historical evidence](https://www.lfchistory.net/articles/3440)
-- [RSSSF: historical evidence](https://www.rsssf.org/engpaul/FLA/1968-69.html)
-- [LFChistory: match record](https://www.lfchistory.net/season-archive/games/10)
+- [LFChistory: match record and table](https://www.lfchistory.net/games/508)
+- [Leeds United: Jon Howe’s five great Anfield results](https://www.leedsunited.com/en/news/jon-howe-five-great-anfield-results)
+- [LFChistory: Mighty Leeds account of the title at Anfield](https://www.lfchistory.net/articles/3440)
+- [RSSSF: 1968–69 Football League tables](https://www.rsssf.org/engpaul/FLA/1968-69.html)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)

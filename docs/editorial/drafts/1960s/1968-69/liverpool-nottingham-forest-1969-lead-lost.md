@@ -29,8 +29,8 @@ Liverpool did not lose another league match before the April meeting with Leeds,
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/496)
-- [Forest independent specialist: historical evidence](https://thecityground.com/game.php?game_id=19690215)
-- [11v11 independent register: match record](https://www.11v11.com/matches/liverpool-v-nottingham-forest-15-february-1969-80090/)
-- [RSSSF: historical evidence](https://www.rsssf.org/engpaul/FLA/1968-69.html)
-- [LFChistory: match record](https://www.lfchistory.net/season-archive/games/10)
+- [LFChistory: match record and table](https://www.lfchistory.net/games/496)
+- [The City Ground: Forest’s Anfield victory](https://thecityground.com/game.php?game_id=19690215)
+- [11v11: independent match record](https://www.11v11.com/matches/liverpool-v-nottingham-forest-15-february-1969-80090/)
+- [RSSSF: 1968–69 Football League tables](https://www.rsssf.org/engpaul/FLA/1968-69.html)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)

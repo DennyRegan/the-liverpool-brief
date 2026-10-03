@@ -29,7 +29,7 @@ The tie was decided by a coin toss, which Athletic won. The result removed Liver
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/474)
-- [RSSSF European register: historical evidence](https://www.rsssf.org/ec/ec196869det.html)
-- [Athletic official Iribar retrospective: historical evidence](https://www.athletic-club.eus/en/news/2021/08/10/iribars-memories-at-anfield/)
-- [LFChistory: match record](https://www.lfchistory.net/season-archive/games/10)
+- [LFChistory: match record and competition details](https://www.lfchistory.net/games/474)
+- [RSSSF: 1968–69 European results](https://www.rsssf.org/ec/ec196869det.html)
+- [Athletic Club: Iribar’s memories of Anfield](https://www.athletic-club.eus/en/news/2021/08/10/iribars-memories-at-anfield/)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)

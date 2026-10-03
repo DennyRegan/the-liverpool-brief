@@ -29,6 +29,6 @@ Three days earlier they had beaten Athletic Bilbao at Anfield but left the Fairs
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/475)
-- [LFChistory: match record](https://www.lfchistory.net/season-archive/games/10)
-- [11v11: match record](https://www.11v11.com/teams/liverpool/tab/matches/season/1969/)
+- [LFChistory: match record and table](https://www.lfchistory.net/games/475)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)
+- [11v11: Liverpool’s 1968–69 results](https://www.11v11.com/teams/liverpool/tab/matches/season/1969/)

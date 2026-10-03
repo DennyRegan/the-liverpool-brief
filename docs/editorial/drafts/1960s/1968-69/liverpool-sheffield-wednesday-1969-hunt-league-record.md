@@ -14,7 +14,7 @@ oppositionIds: ["sheffield-wednesday"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "gordon-hodgson", "peter-thompson"]
-sources: ["https://www.lfchistory.net/games/495", "https://www.liverpoolfc.com/news/day-roger-hunt-scores-set-liverpool-fc-record", "https://www.lfchistory.net/season-archive/games/10"]
+sources: ["https://www.lfchistory.net/games/495", "https://www.liverpoolfc.com/news/day-roger-hunt-scores-set-liverpool-fc-record", "https://www.lfchistory.net/season-archive/games/10", "https://www.lfchistory.net/articles/3453"]
 ---
 
 Roger Hunt scored the only goal as Liverpool beat Sheffield Wednesday 1–0 at Anfield on 1 February 1969. It was his 234th league goal for the club, taking him beyond Gordon Hodgson’s total of 233, and it kept Liverpool at the top of the First Division.
@@ -29,6 +29,7 @@ Liverpool stood on 45 points from 29 games. Leeds had 44 from 28 and Everton 42 
 
 ## Sources
 
-- [LFChistory: match record](https://www.lfchistory.net/games/495)
-- [Official club milestone account: historical evidence](https://www.liverpoolfc.com/news/day-roger-hunt-scores-set-liverpool-fc-record)
-- [LFChistory: match record](https://www.lfchistory.net/season-archive/games/10)
+- [LFChistory: match record and table](https://www.lfchistory.net/games/495)
+- [Liverpool FC: Roger Hunt’s record goals](https://www.liverpoolfc.com/news/day-roger-hunt-scores-set-liverpool-fc-record)
+- [LFChistory: 1968–69 season results](https://www.lfchistory.net/season-archive/games/10)
+- [LFChistory: Sir Roger loses a goal but gains a record](https://www.lfchistory.net/articles/3453)
