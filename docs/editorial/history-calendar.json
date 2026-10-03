@@ -12615,6 +12615,376 @@
         "blockers": []
       },
       "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "fabinho-career-biography",
+      "personId": "fabinho",
+      "event": "Fabinho — commissioned career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/fourth_gini_fabinho",
+      "claim": {
+        "token": "fourth-ten-2026-10-03-fabinho",
+        "claimedAt": "2026-10-03T10:14:02Z",
+        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "needs_research",
+      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        }
+      ],
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Defensive midfield and trophy-winning Klopp teams.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/fourth_gini_fabinho",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "albert-stubbins-career-biography",
+      "personId": "albert-stubbins",
+      "event": "Albert Stubbins — commissioned career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/fourth_lawrence_stubbins",
+      "claim": {
+        "token": "fourth-ten-2026-10-03-albert-stubbins",
+        "claimedAt": "2026-10-03T10:14:02Z",
+        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "needs_research",
+      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        }
+      ],
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Transformative 1947 championship goalscorer and post-war Liverpool story.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/fourth_lawrence_stubbins",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "trent-alexander-arnold-career-biography",
+      "personId": "trent-alexander-arnold",
+      "event": "Trent Alexander-Arnold — commissioned career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/fourth_trent_robertson",
+      "claim": {
+        "token": "fourth-ten-2026-10-03-trent-alexander-arnold",
+        "claimedAt": "2026-10-03T10:14:02Z",
+        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "needs_research",
+      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        }
+      ],
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Academy development, creative full-back role and completed Liverpool career.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/fourth_trent_robertson",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "andy-robertson-career-biography",
+      "personId": "andy-robertson",
+      "event": "Andy Robertson — commissioned career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/fourth_trent_robertson",
+      "claim": {
+        "token": "fourth-ten-2026-10-03-andy-robertson",
+        "claimedAt": "2026-10-03T10:14:02Z",
+        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "needs_research",
+      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        }
+      ],
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Recruitment, full-back partnership and sustained contribution to winning Liverpool teams.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/fourth_trent_robertson",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "georginio-wijnaldum-career-biography",
+      "personId": "georginio-wijnaldum",
+      "event": "Georginio Wijnaldum — commissioned career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/fourth_gini_fabinho",
+      "claim": {
+        "token": "fourth-ten-2026-10-03-georginio-wijnaldum",
+        "claimedAt": "2026-10-03T10:14:02Z",
+        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "needs_research",
+      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        }
+      ],
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Midfield development, title campaign and defining European contributions.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/fourth_gini_fabinho",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "tom-watson-career-biography",
+      "personId": "tom-watson",
+      "event": "Tom Watson — commissioned career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/fourth_tom_alex",
+      "claim": {
+        "token": "fourth-ten-2026-10-03-tom-watson",
+        "claimedAt": "2026-10-03T10:14:02Z",
+        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "needs_research",
+      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        }
+      ],
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Manager of the first two championships and formative long-term Liverpool development.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/fourth_tom_alex",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "alex-raisbeck-career-biography",
+      "personId": "alex-raisbeck",
+      "event": "Alex Raisbeck — commissioned career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/fourth_tom_alex",
+      "claim": {
+        "token": "fourth-ten-2026-10-03-alex-raisbeck",
+        "claimedAt": "2026-10-03T10:14:02Z",
+        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "needs_research",
+      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        }
+      ],
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Early captaincy, championships, relegation/recovery and long service.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/fourth_tom_alex",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "elisha-scott-career-biography",
+      "personId": "elisha-scott",
+      "event": "Elisha Scott — commissioned career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/fourth_scott_hodgson",
+      "claim": {
+        "token": "fourth-ten-2026-10-03-elisha-scott",
+        "claimedAt": "2026-10-03T10:14:02Z",
+        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "needs_research",
+      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        }
+      ],
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Long-serving goalkeeper, interwar championships and supporter relationship.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/fourth_scott_hodgson",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "gordon-hodgson-career-biography",
+      "personId": "gordon-hodgson",
+      "event": "Gordon Hodgson — commissioned career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/fourth_scott_hodgson",
+      "claim": {
+        "token": "fourth-ten-2026-10-03-gordon-hodgson",
+        "claimedAt": "2026-10-03T10:14:02Z",
+        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "needs_research",
+      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        }
+      ],
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Sustained major goalscoring contribution in less successful Liverpool teams.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/fourth_scott_hodgson",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
+    },
+    {
+      "id": "tommy-lawrence-career-biography",
+      "personId": "tommy-lawrence",
+      "event": "Tommy Lawrence — commissioned career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/fourth_lawrence_stubbins",
+      "claim": {
+        "token": "fourth-ten-2026-10-03-tommy-lawrence",
+        "claimedAt": "2026-10-03T10:14:02Z",
+        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "needs_research",
+      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        }
+      ],
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Shankly goalkeeper, tactical role, major 1960s achievements and transition.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/fourth_lawrence_stubbins",
+        "blockers": []
+      },
+      "publicationClass": "automatic-history-biography"
     }
   ],
   "matches": [

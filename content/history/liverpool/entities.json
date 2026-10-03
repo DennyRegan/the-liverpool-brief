@@ -2883,5 +2883,25 @@
     "id": "filbert-street",
     "label": "Filbert Street",
     "kind": "location"
+  },
+  {
+    "id": "tom-watson",
+    "label": "Tom Watson",
+    "kind": "person"
+  },
+  {
+    "id": "alex-raisbeck",
+    "label": "Alex Raisbeck",
+    "kind": "person"
+  },
+  {
+    "id": "elisha-scott",
+    "label": "Elisha Scott",
+    "kind": "person"
+  },
+  {
+    "id": "albert-stubbins",
+    "label": "Albert Stubbins",
+    "kind": "person"
   }
 ]
