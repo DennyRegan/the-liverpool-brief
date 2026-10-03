@@ -5,6 +5,14 @@ import { getArchiveFeatures } from '../lib/content/archive.ts';
 // Check an already-running local production build. No deployment or publication.
 const base = new URL(process.argv[2] ?? 'http://127.0.0.1:3100');
 assert.ok(['127.0.0.1', 'localhost', '[::1]'].includes(base.hostname), 'Use a local production server');
+for (let attempt = 0; attempt < 30; attempt++) {
+  try {
+    const ready = await fetch(base, { signal: AbortSignal.timeout(2000) });
+    if (ready.status === 200) break;
+  } catch { /* Local server may still be starting. */ }
+  if (attempt === 29) throw new Error('Local production server did not become ready');
+  await new Promise(resolve => setTimeout(resolve, 1000));
+}
 const queues = ['biographies', 'matches'].map(kind => getEditorialReviewQueue(kind));
 const entries = queues.flatMap(q => q.entries).filter(e => e.unpublished && e.canonicalDraftPath);
 const publicSlugs = new Set(getArchiveFeatures().map(a => a.slug));

@@ -1,0 +1,38 @@
+name: History publisher review (no publication)
+on:
+  push:
+    branches: [feature/automatic-weekly-history]
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'docs/editorial/**'
+      - '.github/workflows/history-*.yml'
+      - 'package.json'
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run validate:calendar && npm test && npm run lint && npm run build
+      - name: Both dry runs must leave the checkout unchanged
+        run: |
+          node scripts/automatic-history-publisher.mjs dry-run biographies
+          node scripts/automatic-history-publisher.mjs dry-run matches
+          test -z "$(git status --porcelain)"
+      - name: Public routes work; unpublished manuscripts remain inaccessible
+        run: |
+          npm start -- --hostname 127.0.0.1 --port 3100 > /tmp/history-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          node scripts/check-editorial-review-routes.mjs http://127.0.0.1:3100

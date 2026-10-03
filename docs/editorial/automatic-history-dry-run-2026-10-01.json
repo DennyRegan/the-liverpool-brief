@@ -1,0 +1,98 @@
+{
+  "generatedAt": "2026-10-01T19:51:02.017Z",
+  "commit": "d8b9818d176e338eaac333cfc4ba482802e0e2bf",
+  "trackedFilesSha256": "c53aa7f2ef77b9a486037164f8f4367e4f4368402262372cae1b7d6ed4cdcbeb",
+  "unchanged": true,
+  "results": [
+    {
+      "queue": "biographies",
+      "dryRun": true,
+      "eligibleCount": 30,
+      "selected": {
+        "title": "Ronnie Whelan: From Wembley goalscorer to Liverpool’s midfield organiser",
+        "rowId": "ronnie-whelan-career-biography",
+        "slug": "ronnie-whelan",
+        "draftPath": "docs/editorial/drafts/biographies/ronnie-whelan.md",
+        "destination": "/archive/ronnie-whelan",
+        "changes": [
+          "content/archive/liverpool/ronnie-whelan.md",
+          "docs/editorial/history-calendar.json"
+        ],
+        "publicationDate": "2026-10-01",
+        "publishedAt": "2026-10-01T19:51:01.428Z",
+        "statusTransition": "ready_for_review → publication_pending → published after live verification",
+        "manuscriptSha256": "b885439fe9778749936859d1401e76369cc0fffea58d810b94f760acc2ced400",
+        "prosePreserved": true
+      },
+      "writes": 0,
+      "published": false
+    },
+    {
+      "queue": "matches",
+      "dryRun": true,
+      "eligibleCount": 118,
+      "selected": {
+        "title": "Crouch’s perfect hat-trick lifts Liverpool above Arsenal",
+        "rowId": "match-2007-03-31-liverpool-arsenal-2007-crouch-perfect-hat-trick",
+        "slug": "liverpool-arsenal-2007-crouch-perfect-hat-trick",
+        "draftPath": "docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md",
+        "destination": "/archive/liverpool-arsenal-2007-crouch-perfect-hat-trick",
+        "changes": [
+          "content/archive/liverpool/liverpool-arsenal-2007-crouch-perfect-hat-trick.md",
+          "docs/editorial/history-calendar.json"
+        ],
+        "publicationDate": "2026-10-01",
+        "publishedAt": "2026-10-01T19:51:01.662Z",
+        "statusTransition": "ready_for_review → publication_pending → published after live verification",
+        "manuscriptSha256": "b0627df1f4587d2015abc4ff7852ebf266afb10c2461b99b8033438f23e158d1",
+        "prosePreserved": true
+      },
+      "writes": 0,
+      "published": false
+    }
+  ],
+  "validation": {
+    "calendarRows": 389,
+    "unitTests": 12,
+    "fullTests": 199,
+    "lintErrors": 0,
+    "preExistingLintWarnings": 1,
+    "productionBuild": "passed",
+    "staticPages": 470,
+    "httpChecks": 308,
+    "unpublishedArticlesHidden": 148,
+    "editorialFieldsPreserved": true,
+    "publicProseAndPathsPreserved": true,
+    "thisWeekFilesUnchanged": true
+  },
+  "liveReadChecks": {
+    "generatedAt": "2026-10-01T19:53:33.856Z",
+    "results": [
+      {
+        "url": "https://theliverpoolbrief.com/",
+        "status": 200
+      },
+      {
+        "url": "https://theliverpoolbrief.com/this-week",
+        "status": 200
+      },
+      {
+        "url": "https://theliverpoolbrief.com/sitemap.xml",
+        "status": 200
+      },
+      {
+        "url": "https://theliverpoolbrief.com/archive/ronnie-whelan",
+        "status": 404
+      },
+      {
+        "url": "https://theliverpoolbrief.com/archive/liverpool-arsenal-2007-crouch-perfect-hat-trick",
+        "status": 404
+      }
+    ],
+    "main": {
+      "status": 200,
+      "protected": false,
+      "sha": "1a76b3020d856f62227a5b928f64c44f0b956ee0"
+    }
+  }
+}

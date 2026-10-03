@@ -6,6 +6,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import { getEditorialReviewQueue, nextApprovedUnpublished, orderingKey } from '../scripts/editorial-review-queue.mjs';
 import { getMatchReportInventory } from '../scripts/match-report-inventory.mjs';
+import { restoreAutomaticStock } from './fixtures/automatic-editorial.mjs';
 import { getHistoryEntities } from '../lib/content/entities.ts';
 
 test('queues derive titles and paths without changing authoritative status or approval', () => {
@@ -96,6 +97,7 @@ test('missing opposition metadata blocks a recovered report even if the old bloc
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'review-queue-'));
   try {
     for (const dir of ['content', 'docs/editorial', 'pipeline/output/match']) fs.cpSync(dir, path.join(root, dir), { recursive: true });
+    restoreAutomaticStock(root);
     const q = getEditorialReviewQueue('matches', root);
     const calendarFile = path.join(root, 'docs/editorial/history-calendar.json');
     const calendar = JSON.parse(fs.readFileSync(calendarFile, 'utf8'));
