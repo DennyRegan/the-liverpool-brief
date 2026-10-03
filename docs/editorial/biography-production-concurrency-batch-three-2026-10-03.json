@@ -26,5 +26,25 @@
       "calendar: latest incoming matches, own newer biography collection",
       "test Git buffer: incoming explanatory comment and existing 32 MiB limit"
     ]
+  },
+  "finalFetch": {
+    "at": "2026-10-03T07:02:50.121888+00:00",
+    "refs": {
+      "origin/main": "02715879866e47b3f5342108e1666f499de9f6a6",
+      "origin/editorial/next-ten-biographies-batch-three-2026-10-03": "b148d52d763d0afa4d68ed7858f8efbdc767d2a8",
+      "origin/editorial/match-report-migration-2026-10-01": "a3bf6b52835690fd12c7402e3a104c8520daea02",
+      "origin/editorial/biography-migration-2026-10-01": "2f2df2131c94ed091f0163faeba0ac85e72b31b7",
+      "origin/feature/automatic-weekly-history": "c7ab0713be426d42c8e8020a3c95f1ca5662f800"
+    },
+    "mainIsAncestor": true,
+    "noCompetingSelectedBiography": true,
+    "onlyOwnRefWritten": true
+  },
+  "preSaveFetch": {
+    "at": "2026-10-03T07:06:15.535746+00:00",
+    "main": "02715879866e47b3f5342108e1666f499de9f6a6",
+    "ownBranch": "b148d52d763d0afa4d68ed7858f8efbdc767d2a8",
+    "validatedMainUnchanged": true,
+    "ownBranchUnchanged": true
   }
 }

@@ -49,6 +49,6 @@ Audit completed after drafting on 3 October 2026 by /root/sol_suarez_hamann; act
 - No appearance total includes friendlies or shoot-out conversions. The 31 final-season goals were all league goals; cup appearances explain the 37 all-competition appearances.
 - The FA 2011 original URL redirects to 404; its signed original written reasons were read from a preserved 115-page copy. The original FIFA release was unavailable; the primary CAS ruling verifies the offence, sanction and modification.
 - Barcelona departure fee and assist-total conflicts are logged in the research record and omitted from prose. No certainty is invented to reconcile them.
-- Biography has approximately 2,943 body words, excluding frontmatter and Sources, with a single final Sources section and no inline links or numeric source markers.
+- Biography has approximately 2,970 body words, excluding frontmatter and Sources, with a single final Sources section and no inline links or numeric source markers.
 - Metadata parses as JSON; slug equals filename and player ID; both historyEras match the registry. There is no date or scheduling slot.
 - Scope check: only this biography, its research record and its factual audit were created. Audit was undertaken after the biography and research evidence existed.

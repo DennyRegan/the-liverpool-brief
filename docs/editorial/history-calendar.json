@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T06:53:04Z",
+  "updatedAt": "2026-10-03T07:03:34Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -12191,32 +12191,41 @@
       "personId": "chris-lawler",
       "event": "Chris Lawler career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_grobbelaar_lawler",
-      "claim": {
-        "token": "third-ten-2026-10-03-chris-lawler",
-        "claimedAt": "2026-10-03T06:37:37Z",
-        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/chris-lawler.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository inventory inspection and selection rationale before research."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/chris-lawler-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/chris-lawler-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Prolific defender and long-serving foundation of Shankly’s championship and European-winning sides.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/chris-lawler-research-record.md",
+          "docs/editorial/drafts/biographies/chris-lawler-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_grobbelaar_lawler",
         "blockers": []
@@ -12228,32 +12237,41 @@
       "personId": "gerry-byrne",
       "event": "Gerry Byrne career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_nicol_byrne",
-      "claim": {
-        "token": "third-ten-2026-10-03-gerry-byrne",
-        "claimedAt": "2026-10-03T06:37:37Z",
-        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/gerry-byrne.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository inventory inspection and selection rationale before research."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/gerry-byrne-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/gerry-byrne-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Home-grown defender central to Liverpool’s return to the summit and the first FA Cup triumph.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/gerry-byrne-research-record.md",
+          "docs/editorial/drafts/biographies/gerry-byrne-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_nicol_byrne",
         "blockers": []
@@ -12265,32 +12283,41 @@
       "personId": "peter-thompson",
       "event": "Peter Thompson career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_evans_thompson",
-      "claim": {
-        "token": "third-ten-2026-10-03-peter-thompson",
-        "claimedAt": "2026-10-03T06:37:37Z",
-        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/peter-thompson.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository inventory inspection and selection rationale before research."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/peter-thompson-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/peter-thompson-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Influential winger integral to Shankly’s first great team and its renewal, deserving broader treatment than famous forwards alone.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/peter-thompson-research-record.md",
+          "docs/editorial/drafts/biographies/peter-thompson-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_evans_thompson",
         "blockers": []
@@ -12302,32 +12329,41 @@
       "personId": "dietmar-hamann",
       "event": "Dietmar Hamann career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_suarez_hamann",
-      "claim": {
-        "token": "third-ten-2026-10-03-dietmar-hamann",
-        "claimedAt": "2026-10-03T06:37:37Z",
-        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/dietmar-hamann.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository inventory inspection and selection rationale before research."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/dietmar-hamann-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/dietmar-hamann-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Midfield organiser linking the 2001 treble to Istanbul, with important tactical and career context beyond one final.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/dietmar-hamann-research-record.md",
+          "docs/editorial/drafts/biographies/dietmar-hamann-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_suarez_hamann",
         "blockers": []
@@ -12339,32 +12375,41 @@
       "personId": "gary-mcallister",
       "event": "Gary McAllister career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_kuyt_mcallister",
-      "claim": {
-        "token": "third-ten-2026-10-03-gary-mcallister",
-        "claimedAt": "2026-10-03T06:37:37Z",
-        "baseCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/gary-mcallister.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval.",
+      "notes": "Newly commissioned third-batch biography. No completed manuscript in inspected current inventory. Unpublished production; no schedule or approval. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-batch-three-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository inventory inspection and selection rationale before research."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/gary-mcallister-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/gary-mcallister-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Late-career signing whose influence and decisive contributions shaped the extraordinary 2000–01 season.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/gary-mcallister-research-record.md",
+          "docs/editorial/drafts/biographies/gary-mcallister-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_kuyt_mcallister",
         "blockers": []

@@ -1,0 +1,193 @@
+{
+  "verifiedAt": "2026-10-03T07:05:12.115Z",
+  "base": "http://127.0.0.1:3102",
+  "checks": 31,
+  "passed": true,
+  "results": [
+    {
+      "route": "/docs/editorial/drafts/biographies/bruce-grobbelaar-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/bruce-grobbelaar-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/steve-nicol-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/steve-nicol-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/roy-evans-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/roy-evans-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/luis-suarez-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/luis-suarez-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/dirk-kuyt-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/dirk-kuyt-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/chris-lawler-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/chris-lawler-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/gerry-byrne-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/gerry-byrne-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/peter-thompson-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/peter-thompson-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/dietmar-hamann-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/dietmar-hamann-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/gary-mcallister-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/gary-mcallister-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/third-ten-independent-review.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/history/people/bruce-grobbelaar",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/steve-nicol",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/roy-evans",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/luis-suarez",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/dirk-kuyt",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/chris-lawler",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/gerry-byrne",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/peter-thompson",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/dietmar-hamann",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/gary-mcallister",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    }
+  ]
+}

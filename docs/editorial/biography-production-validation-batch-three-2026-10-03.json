@@ -1,0 +1,190 @@
+{
+  "verifiedAt": "2026-10-03T07:03:38.532Z",
+  "confidence": "High for executed technical checks; historical confidence is claim-specific in research records",
+  "newCompleted": 10,
+  "totalCompletedUnpublished": 60,
+  "notLocated": 0,
+  "publisherEnabled": true,
+  "automaticRuns": 0,
+  "publisherStateUnchanged": true,
+  "protectedFilesUnchanged": true,
+  "protectedBaselineCommit": "b148d52d763d0afa4d68ed7858f8efbdc767d2a8",
+  "existingBiographyBaselineCommit": "92cd8d107d651f9271740dfb858c3b0dd683cf35",
+  "existingCompletedBiographiesUnchanged": true,
+  "oldNotLocatedRecordsPreserved": true,
+  "bottomOnlySources": true,
+  "results": [
+    {
+      "subject": "bruce-grobbelaar",
+      "title": "Bruce Grobbelaar: the goalkeeper behind Liverpool’s great decade",
+      "wordCount": 2635,
+      "sourceLinks": 25,
+      "manuscript": "docs/editorial/drafts/biographies/bruce-grobbelaar.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/bruce-grobbelaar-research-record.md",
+        "docs/editorial/drafts/biographies/bruce-grobbelaar-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "steve-nicol",
+      "title": "Steve Nicol: the complete footballer Liverpool could keep moving",
+      "wordCount": 2604,
+      "sourceLinks": 32,
+      "manuscript": "docs/editorial/drafts/biographies/steve-nicol.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/steve-nicol-research-record.md",
+        "docs/editorial/drafts/biographies/steve-nicol-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "roy-evans",
+      "title": "Roy Evans: the Liverpool apprenticeship and the unfinished return to the top",
+      "wordCount": 3009,
+      "sourceLinks": 39,
+      "manuscript": "docs/editorial/drafts/biographies/roy-evans.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/roy-evans-research-record.md",
+        "docs/editorial/drafts/biographies/roy-evans-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "luis-suarez",
+      "title": "Luis Suárez: brilliance, responsibility and Liverpool’s near miss",
+      "wordCount": 2889,
+      "sourceLinks": 41,
+      "manuscript": "docs/editorial/drafts/biographies/luis-suarez.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/luis-suarez-research-record.md",
+        "docs/editorial/drafts/biographies/luis-suarez-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "dirk-kuyt",
+      "title": "Dirk Kuyt: the forward Liverpool could count on",
+      "wordCount": 2276,
+      "sourceLinks": 29,
+      "manuscript": "docs/editorial/drafts/biographies/dirk-kuyt.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/dirk-kuyt-research-record.md",
+        "docs/editorial/drafts/biographies/dirk-kuyt-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "chris-lawler",
+      "title": "Chris Lawler: the quiet full-back who kept finding the goal",
+      "wordCount": 2067,
+      "sourceLinks": 21,
+      "manuscript": "docs/editorial/drafts/biographies/chris-lawler.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/chris-lawler-research-record.md",
+        "docs/editorial/drafts/biographies/chris-lawler-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "gerry-byrne",
+      "title": "Gerry Byrne: the full-back who grew with Shankly's Liverpool",
+      "wordCount": 1847,
+      "sourceLinks": 22,
+      "manuscript": "docs/editorial/drafts/biographies/gerry-byrne.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/gerry-byrne-research-record.md",
+        "docs/editorial/drafts/biographies/gerry-byrne-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "peter-thompson",
+      "title": "Peter Thompson: the winger who gave Shankly's Liverpool another way through",
+      "wordCount": 1895,
+      "sourceLinks": 19,
+      "manuscript": "docs/editorial/drafts/biographies/peter-thompson.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/peter-thompson-research-record.md",
+        "docs/editorial/drafts/biographies/peter-thompson-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "dietmar-hamann",
+      "title": "Dietmar Hamann: the composure behind Liverpool’s cup years",
+      "wordCount": 2045,
+      "sourceLinks": 28,
+      "manuscript": "docs/editorial/drafts/biographies/dietmar-hamann.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/dietmar-hamann-research-record.md",
+        "docs/editorial/drafts/biographies/dietmar-hamann-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "gary-mcallister",
+      "title": "Gary McAllister: the experience that helped Liverpool win again",
+      "wordCount": 2123,
+      "sourceLinks": 28,
+      "manuscript": "docs/editorial/drafts/biographies/gary-mcallister.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/gary-mcallister-research-record.md",
+        "docs/editorial/drafts/biographies/gary-mcallister-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    }
+  ],
+  "executedChecks": {
+    "calendar": "passed: 495 entries",
+    "history": "passed: 577 entities / 16 eras",
+    "tests": {
+      "passed": 201,
+      "failed": 0,
+      "skipped": 0
+    },
+    "lint": {
+      "errors": 0,
+      "existingWarnings": 1
+    },
+    "build": {
+      "passed": true,
+      "staticPages": 470
+    },
+    "http": {
+      "passed": true,
+      "checks": 557
+    },
+    "independentReview": "all 30 files read; selected claims independently retrieved, not exhaustive"
+  }
+}
