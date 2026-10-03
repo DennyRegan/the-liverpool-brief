@@ -19,6 +19,8 @@ export const dynamic = "force-dynamic";
 export default function Home() {
   const brief = getBrief();
   const story = brief.stories[0];
+  // Headlines only for the rest of today's Brief; the lead story keeps its summary.
+  const otherStories = brief.stories.slice(1);
   const { lead, more } = selectHomeWriting(getWriting());
   const archive = getArchiveFeatures();
   const factual = archive.filter(article => article.editorialMode === "factual");
@@ -85,7 +87,7 @@ export default function Home() {
 
       <section className="home-brief" aria-labelledby="home-brief-heading">
         <div className="home-brief-label"><h2 id="home-brief-heading" className="eyebrow">The Brief</h2><p>Last updated<br /><time dateTime={brief.lastUpdated}>{formatLastUpdated(brief.lastUpdated)}</time></p></div>
-        <div>{story ? <article><h3><Link href="/brief">{story.headline}</Link></h3><p className="home-summary">{getExcerpt(story.summary, 220)}</p></article> : <p className="home-summary">The next briefing will appear here when it is published.</p>}<Link className="read-link" href="/brief">Read the Brief →</Link></div>
+        <div>{story ? <article><h3><Link href="/brief">{story.headline}</Link></h3><p className="home-summary">{getExcerpt(story.summary, 220)}</p></article> : <p className="home-summary">The next briefing will appear here when it is published.</p>}{otherStories.length > 0 && <div className="home-brief-also"><p className="home-aside-label">Also in today’s Brief</p><ul>{otherStories.map(item => <li key={item.headline}><Link href="/brief">{item.headline}</Link></li>)}</ul></div>}<Link className="read-link" href="/brief">Read the Brief →</Link></div>
       </section>
 
       {history.length > 0 && <section className="home-section" aria-labelledby="home-history-heading">
