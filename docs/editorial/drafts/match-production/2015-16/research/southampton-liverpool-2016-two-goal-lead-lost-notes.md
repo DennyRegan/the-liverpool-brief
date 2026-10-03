@@ -1,6 +1,6 @@
 # Southampton 3–2 Liverpool: fresh Sol research notes
 
-Historical event: 2016-03-20. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: prewriting research complete, manuscript and final claim audit pending. This is a fresh substantive addition accepted by root under the user's 3 October no-quota commission; no older preparation is relabelled as Sol work.
+Historical event: 2016-03-20. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: finished manuscript and factual self-audit complete; independent review pending. This is a fresh substantive addition accepted by root under the user's 3 October no-quota commission; no older preparation is relabelled as Sol work.
 
 ## Selection and metadata checked
 
@@ -32,5 +32,14 @@ At main `07c42fe993b59037812634863c36368b43c9303a`, this exact date was freshly 
 
 ## Final manuscript audit
 
-Pending a finished body after root's remote claim release. Independent final-body review and final-file hashing are also pending. This note is not a permission to publish, schedule or dispatch the existing publisher.
+Root confirmed the unique claim on GitHub main at `0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470` and released drafting on 3 October 2026. Actual researcher and writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Original preparation remains attributable and unchanged.
 
+- Paragraph 1: The core and full club account verify the exact date, 3–2 score, Liverpool’s 0–2 half-time lead and all five scorers in order.
+- Paragraph 2: The club team news explicitly supports Flanagan’s captaincy, Milner’s suspension and Henderson on the bench. The core gives Coutinho at 17 and Sturridge at 22; the club supplies the curl and Origi’s pass.
+- Paragraph 3: The full club text records Forster denying Allen and Allen’s later disallowed goal with Sakho in an offside position. The decision is reported without adopting the source’s independent “correctly” adjudication.
+- Paragraph 4: The club and timeline support the half-time Skrtel/Lovren change, awarded Pelle penalty and Mignolet’s Mane save, Mane’s 64-minute goal and Benteke’s miss from Lallana. The source’s “Sane” typo is not imported, and the substitution is not declared the sole cause.
+- Paragraph 5: The freshly retrieved complete ending supplies Pelle’s 83-minute curler and Mane’s subsequent run/low winner. The core corroborates the 86-minute winning goal and final score, supporting the lost advantage and no points.
+
+The title and excerpt restate the audited central result or landmark. Metadata uses the exact historical date, 2015–16 season, factual match classification, registered manager and principal-player/opposition/competition IDs. There is no publication date. Every terminal Sources URL appears in this report’s actually retrieved register, and the metadata array matches that ordered footer exactly. The single Sources section ends the article. No quotation, imagined intent, action from unwatched footage, unsupported atmosphere or fresh adjudication of a disputed decision is asserted.
+
+Self-audit: PASS for the saved body, subject to independent factual review and final-file hashing. This is not authority to publish or schedule.

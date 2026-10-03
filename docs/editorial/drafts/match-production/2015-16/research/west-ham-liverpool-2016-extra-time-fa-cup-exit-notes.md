@@ -1,6 +1,6 @@
 # West Ham United 2–1 Liverpool: fresh Sol research notes
 
-Historical event: 2016-02-09. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: prewriting research complete, manuscript and final claim audit pending. This is a fresh substantive addition accepted by root under the user's 3 October no-quota commission; no older preparation is relabelled as Sol work.
+Historical event: 2016-02-09. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: finished manuscript and factual self-audit complete; independent review pending. This is a fresh substantive addition accepted by root under the user's 3 October no-quota commission; no older preparation is relabelled as Sol work.
 
 ## Selection and metadata checked
 
@@ -32,5 +32,14 @@ At main `07c42fe993b59037812634863c36368b43c9303a`, this exact date was freshly 
 
 ## Final manuscript audit
 
-Pending a finished body after root's remote claim release. Independent final-body review and final-file hashing are also pending. This note is not a permission to publish, schedule or dispatch the existing publisher.
+Root confirmed the unique claim on GitHub main at `0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470` and released drafting on 3 October 2026. Actual researcher and writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Original preparation remains attributable and unchanged.
 
+- Paragraph 1: The core and full club account verify the exact date, fourth-round replay, 2–1 extra-time result and three scorers. The club ending explicitly places the winner before a prospective shoot-out.
+- Paragraph 2: The season ledger verifies the first match’s 0–0 result. The club team news supplies Coutinho’s previous start, Lucas’s captaincy and the five named players. Incidental names are not given invented registry tags.
+- Paragraph 3: The complete club action verifies O’Brien’s deflected woodwork, Coutinho’s post, Payet’s free-kick hitting the woodwork and Antonio’s back-post volley before the interval. No unproven Mignolet fingertip is asserted.
+- Paragraph 4: The club supports the early second-half Coutinho free-kick following Benteke’s foul, both substitutions and the three extra-time Liverpool chances. It does not need an unsupported description of a jumping wall.
+- Paragraph 5: The club ending and core timeline support Payet’s delivery and Ogbonna’s late extra-time header. The phase avoids divergent 120/121 notation and clearly reports elimination from the replay.
+
+The title and excerpt restate the audited central result or landmark. Metadata uses the exact historical date, 2015–16 season, factual match classification, registered manager and principal-player/opposition/competition IDs. There is no publication date. Every terminal Sources URL appears in this report’s actually retrieved register, and the metadata array matches that ordered footer exactly. The single Sources section ends the article. No quotation, imagined intent, action from unwatched footage, unsupported atmosphere or fresh adjudication of a disputed decision is asserted.
+
+Self-audit: PASS for the saved body, subject to independent factual review and final-file hashing. This is not authority to publish or schedule.

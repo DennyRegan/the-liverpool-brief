@@ -157,6 +157,29 @@ For each of these three, British prose and the published archive format pass: on
 
 Stoke correction status: factual body core/action and source layout checked, but repetitive ending was replaced at reviewer request; the new ending introduces an unsupported attributed positional plan ('another attacker alongside Benteke'). Requested removing that phrase and updating own P5 audit. This current file is not yet hashed or passed. Reaction191030 independently retrieved supports considered Ings-for-Coutinho substitution only; full reread follows saved fix.
 
+## Corrected first batch and subsequent completed manuscripts
+
+The corrected Stoke body and completed P5 audit have now both been actually re-read; the unsupported positional clause is absent from both. The complete next four manuscripts and finished own paragraph audits have also actually been read and checked against the independent core, primary narrative and supplementary retrievals recorded above. Stoke’s five debuts and attributed substitution consideration; Bournemouth’s four preceding draws/first competitive win; Chelsea’s first league win/reigning champions; City’s first Firmino goal and goal sequence; Southampton’s first Origi goals/hat-trick and Sturridge return all pass. Each current file passes British prose, published archive format, one terminal descriptive linked-bullet Sources section, exact frontmatter/footer URL order, actual own-note URL coverage, exact historical date/slug/season and canonical entity kinds; no publication date or invented action/motives. Full-season verdict remains PENDING.
+
+| Actually reviewed current manuscript | Full-file SHA-256 | Scope verdict |
+| --- | --- | --- |
+| stoke-liverpool-2015-coutinho-opening-winner.md | `52ff57b605592ae36fecb475a7f67eba825df00819e5483710c8d4fe96ae0cb3` | PASS for current complete file |
+| liverpool-bournemouth-2015-klopp-first-win.md | `cc16a2048e220bf8e241f677ed46fb78762b63f571f99ee8006409b5034b3db0` | PASS for current complete file |
+| chelsea-liverpool-2015-klopp-first-league-win.md | `aea4f929b33b72e9b9517894e9b2f80f51b80167b6b15630720e4e649941c539` | PASS for current complete file |
+| manchester-city-liverpool-2015-four-at-the-etihad.md | `aca227c8218e930c6fe5c8737891d72b82201cbcbc05ddde7260f4725a211d4e` | PASS for current complete file |
+| southampton-liverpool-2015-origi-hat-trick.md | `9cec3b03113dbefb6934eb819d2c3394742ef4e360055c000894bbe317b2eb74` | PASS for current complete file |
+
+## Subsequent completed batch independently reviewed
+
+Complete manuscripts, titles/excerpts and final own audits actually read. The full relevant official narratives were independently reread, including the Stoke final extra-time/shoot-out paragraphs. Leicester late counter/save sequence and later title qualification, Arsenal all six goals/Caulker forward role, Norwich all nine goals/broad disputed timings and omitted Henderson supplier, and Stoke match/aggregate/shoot-out distinction/order all pass against the recorded individual cores and ledgers. Each file passes published-format comparison, British prose, descriptive source labels, one terminal linked-bullet footer, exact ordered source metadata parity, own-note actual retrieval coverage, historical date/slug/season and canonical entity kinds; no publication date. Full-season verdict remains PENDING.
+
+| Actually reviewed current manuscript | Full-file SHA-256 | Scope verdict |
+| --- | --- | --- |
+| liverpool-leicester-2015-benteke-boxing-day-winner.md | `de02ac662b88826c893f6c57bc88ae2a26ae4502c9ee5b7709095b4fce22bc83` | PASS for current complete file |
+| liverpool-arsenal-2016-allen-late-equaliser.md | `173abc27b53c0557826bd1990284b373b19f967c8702ef5f85664639630dab5d` | PASS for current complete file |
+| norwich-liverpool-2016-lallana-nine-goal-winner.md | `1a19a6bd474e8b2704f845f4560c73d1b635e703569982543a4853ce9f87c188` | PASS for current complete file |
+| liverpool-stoke-2016-penalties-wembley.md | `879cc6e8aebea7d5722fdc377f92b8419105e3798095861be187cdfd66c69431` | PASS for current complete file |
+
 ## Verdict
 
 PENDING

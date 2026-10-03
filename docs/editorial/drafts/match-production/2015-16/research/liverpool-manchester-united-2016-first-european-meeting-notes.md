@@ -1,6 +1,6 @@
 # Liverpool 2–0 Manchester United: fresh Sol research notes
 
-Historical event: 2016-03-10. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: prewriting research complete, manuscript and final claim audit pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
+Historical event: 2016-03-10. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: finished manuscript and factual self-audit complete; independent review pending. The original date-based Astra note and its recorded authorship remain preserved; this is a separate fresh retrieval, not reassigned earlier research.
 
 ## Selection and metadata checked
 
@@ -33,5 +33,14 @@ At main `07c42fe993b59037812634863c36368b43c9303a`, this exact date was freshly 
 
 ## Final manuscript audit
 
-Pending a finished body after root's remote claim release. Independent final-body review and final-file hashing are also pending. This note is not a permission to publish, schedule or dispatch the existing publisher.
+Root confirmed the unique claim on GitHub main at `0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470` and released drafting on 3 October 2026. Actual researcher and writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Original preparation remains attributable and unchanged.
 
+- Paragraph 1: The core and complete UEFA report establish the exact date, round, 2–0 score and first European meeting. The club report supports De Gea’s series of saves.
+- Paragraph 2: The club, UEFA and core agree on the Sturridge penalty at 20 after Depay’s challenge on Clyne. The saved touch and subsequent close Coutinho effort are supplied by the club; the disputed earlier pass supplier is omitted.
+- Paragraph 3: The complete club account supports the Firmino diagonal/Sturridge save and Firmino delivery/Lallana near-post save, with the recorded 1–0 half-time score.
+- Paragraph 4: The core supports Carrick’s half-time introduction and the club places Coutinho’s saved half-volley and Henderson’s wide shot after the interval. No managerial motive is imported.
+- Paragraph 5: The club supplies Henderson’s delivery and Lallana’s pass, UEFA corroborates Carrick’s failed clearance and the core places Firmino’s goal at 73. The full ledger gives the return fixture seven days later; no away result is anticipated as contemporaneous.
+
+The title and excerpt restate the audited central result or landmark. Metadata uses the exact historical date, 2015–16 season, factual match classification, registered manager and principal-player/opposition/competition IDs. There is no publication date. Every terminal Sources URL appears in this report’s actually retrieved register, and the metadata array matches that ordered footer exactly. The single Sources section ends the article. No quotation, imagined intent, action from unwatched footage, unsupported atmosphere or fresh adjudication of a disputed decision is asserted.
+
+Self-audit: PASS for the saved body, subject to independent factual review and final-file hashing. This is not authority to publish or schedule.

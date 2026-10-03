@@ -1,6 +1,6 @@
 # Liverpool 3–0 Manchester City: fresh Sol research notes
 
-Historical event: 2016-03-02. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: prewriting research complete, manuscript and final claim audit pending. This is a fresh substantive addition accepted by root under the user's 3 October no-quota commission; no older preparation is relabelled as Sol work.
+Historical event: 2016-03-02. Season: 2015–16. Actual model: `gpt-6.1-sol`. Actual research and intended writing worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026. Stage: finished manuscript and factual self-audit complete; independent review pending. This is a fresh substantive addition accepted by root under the user's 3 October no-quota commission; no older preparation is relabelled as Sol work.
 
 ## Selection and metadata checked
 
@@ -33,5 +33,14 @@ At main `07c42fe993b59037812634863c36368b43c9303a`, this exact date was freshly 
 
 ## Final manuscript audit
 
-Pending a finished body after root's remote claim release. Independent final-body review and final-file hashing are also pending. This note is not a permission to publish, schedule or dispatch the existing publisher.
+Root confirmed the unique claim on GitHub main at `0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470` and released drafting on 3 October 2026. Actual researcher and writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Original preparation remains attributable and unchanged.
 
+- Paragraph 1: The individual core and ledger verify the exact date and 3–0 result three days after the final. The ledger and separately retrieved season statistical review explicitly support the Premier League double.
+- Paragraph 2: The club and core give Lallana’s opener at 34 and Milner’s goal at 41; the complete official account describes the backheel/Firmino pass and left-footed finish.
+- Paragraph 3: The full official account supports Flanagan’s intervention and Milner’s goal-line block of Aguero before half-time. The two-goal lead is recorded; no penalty adjudication is supplied.
+- Paragraph 4: The core gives Firmino at 57; the club describes Origi’s heavy touch, Lallana retrieving possession and the Firmino finish. No unsupported pressing intention is inferred.
+- Paragraph 5: The official account records Hart’s Milner save and Toure’s Aguero intervention. The full ledger verifies the earlier 1–4 away win and both league results, contrasted only through the factual cup-final outcome.
+
+The title and excerpt restate the audited central result or landmark. Metadata uses the exact historical date, 2015–16 season, factual match classification, registered manager and principal-player/opposition/competition IDs. There is no publication date. Every terminal Sources URL appears in this report’s actually retrieved register, and the metadata array matches that ordered footer exactly. The single Sources section ends the article. No quotation, imagined intent, action from unwatched footage, unsupported atmosphere or fresh adjudication of a disputed decision is asserted.
+
+Self-audit: PASS for the saved body, subject to independent factual review and final-file hashing. This is not authority to publish or schedule.

@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T14:28:17.029757Z",
+  "updatedAt": "2026-10-03T14:35:27.830293Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -25866,7 +25866,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-manchester-city-2016-league-cup-final.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25916,7 +25916,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-manchester-united-2016-first-european-meeting.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25966,7 +25966,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/manchester-united-liverpool-2016-coutinho-european-progress.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26016,7 +26016,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-dortmund-2016-lovren-comeback.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26066,7 +26066,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-everton-2016-four-goal-derby.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26116,7 +26116,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-villarreal-2016-europa-league-final-reached.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26166,7 +26166,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-sevilla-2016-europa-league-final.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26516,7 +26516,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-southampton-2017-league-cup-semi-final.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26566,7 +26566,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-tottenham-2017-mane-ends-winless-run.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26616,7 +26616,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/watford-liverpool-2017-can-overhead-kick.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -26666,7 +26666,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-middlesbrough-2017-champions-league-return.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32547,7 +32547,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/west-ham-liverpool-2016-extra-time-fa-cup-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32592,7 +32592,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/aston-villa-liverpool-2016-six-different-scorers.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32637,7 +32637,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/liverpool-manchester-city-2016-three-after-wembley.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32682,7 +32682,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/crystal-palace-liverpool-2016-ten-man-benteke-winner.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32727,7 +32727,7 @@
         "baseCommit": "c0e3c217e27f7014733a08debe3d3a16d141f672"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2015-16/southampton-liverpool-2016-two-goal-lead-lost.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32772,7 +32772,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/liverpool-wolves-2017-fa-cup-upset.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -32817,7 +32817,7 @@
         "baseCommit": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2016-17/stoke-liverpool-2017-brazilian-substitute-comeback.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,

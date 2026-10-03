@@ -1,6 +1,6 @@
 # 2017-01-25: Liverpool 0–1 Southampton — fresh Sol source note
 
-Status: PRE-WRITING RESEARCH COMPLETE. No manuscript body or factual completion PASS yet; remote main claim and independent precheck are still required.
+Status: MANUSCRIPT COMPLETE. Sentence-level factual self-audit PASS; independent final body review PENDING.
 
 Fresh research on 3 October 2026 by actual configured model `gpt-6.1-sol`, worker `/root/sol_1967_68`. This supplements the preserved original Astra preparation dated 1 October; it does not overwrite or falsely adopt that retrieval provenance.
 
@@ -32,3 +32,30 @@ The original date-based source note remains preserved where one exists. Suppleme
 
 PASS for date/result/opposition/competition identity, meaningful selection and available bounded action evidence. This is a research pass only. Current manuscript sentence-by-sentence audit: PENDING; independent final body review: PENDING. Before saving a body refresh the exact-date screen and verify root-confirmed own actual remote claim. Use exactly one terminal `## Sources` section and a frontmatter `sources` array with identical URL order; no private confidence or audit text in the report.
 
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2016-17/liverpool-southampton-2017-league-cup-semi-final.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated audit supersedes all earlier pre-writing pending state while preserving preparation provenance. Independent final manuscript review is PENDING. Root confirmed twelve actual main claims before drafting; current main was fetched and the writing claim, worker/token, duplicate dates and canonical IDs were checked immediately before saving.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5596
+- 2: https://www.liverpoolfc.com/news/first-team/251888-report-liverpool-exit-efl-cup-after-southampton-defeat-at-anfield
+- 3: https://www.lfchistory.net/season-archive/games/126
+
+Every S row covers a complete body sentence in reading order and all its material claims.
+
+| Sentence | Complete sentence | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Liverpool’s League Cup campaign ended with a 1–0 defeat by Southampton at Anfield on 25 January 2017. | source 1, source 2 | High — PASS: Date,ground,secondlegresult verified. |
+| S2 | Shane Long’s stoppage-time goal completed a 2–0 aggregate victory for the visitors, who had also won the first leg 1–0. | source 1, source 2 | High — PASS: Bothresults andaggregate; broad added time avoidscore90rounding. |
+| S3 | Liverpool needed to overturn that first-leg deficit, but Southampton created important opportunities before half-time. | source 1, source 2 | High — PASS: Deficit and narrativefirsthalf threat verified. |
+| S4 | Loris Karius denied Dušan Tadić after Nathan Redmond’s run and pass, while Steven Davis sent another chance over the bar. | source 2 | High — PASS: Both firsthalf incidents chronological andsupported. |
+| S5 | The interval arrived with the score still goalless. | source 1, source 2 | High — PASS: 0–0HT. |
+| S6 | Emre Can came close after the restart when Fraser Forster parried his shot towards the goal before recovering to flick the ball off the line. | source 2 | High — PASS: 53-minute recoverysave described no falsegoal. |
+| S7 | Daniel Sturridge twice sent close-range efforts over, as Liverpool’s pressure failed to bring an equaliser. | source 2 | High — PASS: Scissorkick thenstretchedvolley bothover recorded. |
+| S8 | Long then finished Southampton’s counter-attack from a Liverpool corner in added time to settle the tie. | source 2 | High — PASS: Official closing action supportscountercorner; no exactclock invented. |
+| S9 | It was the second of three successive home defeats, following Swansea City in the league and preceding Wolves in the FA Cup three days later. | source 3 | High — PASS: 21/25/28January consecutiveAnfield losses. |
+| S10 | Liverpool won only one of their nine competitive matches that January, the FA Cup replay at Plymouth Argyle. | source 3 | High — PASS: NineJanuaryregister rows,sole18Janwin. |
+| S11 | The League Cup final place had gone, and the subsequent Wolves defeat ended their remaining domestic cup run. | source 1, source 3 | High — PASS: Bothcupeliminations context verified. |
+
+Title, excerpt, event date, result and canonical metadata checked against these retrieved scopes. Single terminal Sources list and exact metadata URL order checked; every URL is recorded above with actual retrieval/limitations. Original Astra preparation is unchanged. No publication date, manual release, invented action, tactics, motives or quotes. Recorded source conflicts remain broadly bounded or omitted.
