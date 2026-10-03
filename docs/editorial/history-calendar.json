@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T10:35:51.855889Z",
+  "updatedAt": "2026-10-03T10:48:24.542007Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -23166,7 +23166,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2010-11/northampton-anfield-shootout-upset-2010.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -23221,7 +23221,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2010-11/goodison-defeat-new-ownership-2010.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -23276,7 +23276,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2010-11/gerrard-napoli-substitute-hat-trick-2010.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31126,7 +31126,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/suarez-arsenal-away-win-2011.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31171,7 +31171,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/nine-man-liverpool-spurs-defeat-2011.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31216,7 +31216,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/carroll-suarez-goodison-derby-2011.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31261,7 +31261,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/johnson-late-chelsea-winner-2011.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,

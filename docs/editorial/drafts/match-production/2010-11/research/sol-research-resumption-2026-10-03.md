@@ -67,6 +67,8 @@ All twelve exact historical dates returned no completed public or retained draft
 
 ## Factual review state
 
+Pre-writing reviewer scope correction, 3 October: every per-URL note row now records only that URL’s actual claims. Added the already freshly retrieved Chelsea-away Sky URL https://www.skysports.com/football/chelsea-vs-liverpool/report/229836 to its own note/manifest for first-half bar/block details, keeping its incomplete second-half extraction explicit. The City club-review paragraph is limited to goals and spring/table chronology; first goals and debut derive from the core, not that retrospective paragraph. Ownership and appointment evidence are separately assigned to their actual URLs.
+
 Supplementary retrieval after the initial saved pre-writing notes: the full contemporary newspaper compilations at https://www.lfchistory.net/images/newspapers/riley/20110202vstoke.pdf and https://www.lfchistory.net/images/newspapers/riley/20110105vblackburn.pdf were actually read. They supply bounded agreed goal sequences missing from current Sky extracts; their clocks, tactical labels and penalty-foul identity conflicts are not silently resolved. Both exact URLs are now in the corresponding manifest entries and per-match notes. Confidence: High for corroborated action, Medium for conflicting incidental details. The Stadiumtours Liverpool media-watch Stoke URL redirected to the current bookings system; only its search-index text was exposed, so it is not a final article source.
 
 Fresh pre-writing assessment complete. Manuscripts, sentence audits and independent review of finished prose are pending. No publication date, approval or schedule assigned.

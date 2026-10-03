@@ -16,18 +16,18 @@ Exact-date public-content/draft/frontmatter searches and searches across fetched
 
 ## Freshly retrieved source ledger
 
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/games/5255
-  - Scope: Match identity, date, venue, teams, line-up, result and timeline. Core/club report: Maxi 32 seconds, 7 and 70, Kuyt 16, Suárez 75; Dembélé 57 and Sidwell 86.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **Liverpool FC — High confidence — retrieved 3 October 2026:** https://www.liverpoolfc.com/news/first-team/95919-maxi-hits-treble-in-reds-rout
-  - Scope: Core/club report: Maxi 32 seconds, 7 and 70, Kuyt 16, Suárez 75; Dembélé 57 and Sidwell 86. Carragher’s 666th appearance moves him second on club list; Kuyt scores in five consecutive league games. Liverpool fifth with 58, Tottenham 56 with game in hand.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
-  - Scope: Complete 2010–11 competitive results and chronology; context for sequences and post-match positions, not detailed action.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/league-table/120
-  - Scope: Final league table: sixth with 58 points, four behind Tottenham. This differs from fifth immediately after Fulham.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/games/5255
+  - Scope: Craven Cottage, Premier League, 9 May 2011; five Liverpool goals, three Maxi, plus Kuyt and Suárez; Dembélé/Sidwell replies. Carragher 666 appearances and second on list; Kuyt five consecutive scoring league games; Maxi second treble in three league games; Liverpool fifth.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **Liverpool FC — High confidence — actually retrieved 3 October 2026:** https://www.liverpoolfc.com/news/first-team/95919-maxi-hits-treble-in-reds-rout
+  - Scope: Complete contemporary account: Maxi goals at 32 seconds, 7 and 70, Kuyt 16, Suárez 75; Dembélé 57 and Sidwell 86. Three-goal opening, goal creation, Carragher milestone and fifth place with Tottenham game in hand. Second Maxi treble in two weeks.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
+  - Scope: Complete 2010–11 competitive results, dates, opponents and sequence. Supplies preceding/subsequent match context; does not establish detailed match action.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/league-table/120
+  - Scope: Final table: Liverpool sixth with 58 points, four behind fifth-placed Tottenham. Does not describe immediate post-Fulham standings.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
 
 ## Conflicts, source limits and prose boundaries
 

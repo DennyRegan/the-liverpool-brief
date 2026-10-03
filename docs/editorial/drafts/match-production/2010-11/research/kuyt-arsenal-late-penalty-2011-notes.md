@@ -16,18 +16,18 @@ Exact-date public-content/draft/frontmatter searches and searches across fetched
 
 ## Freshly retrieved source ledger
 
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/games/5252
-  - Scope: Match identity, date, venue, teams, line-up, result and timeline. Core: Van Persie penalty 90+8 and Kuyt penalty 90+12; Robinson for injured Aurélio 22, Kyrgiakos for Carragher 62, Shelvey for Carroll 71.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **UEFA — High confidence — retrieved 3 October 2026:** https://www.uefa.com/news-media/news/01f0-0e77e7147141-eed57e24bee4-1000--arsenal-denied-by-last-gasp-kuyt/
-  - Scope: Core: Van Persie penalty 90+8 and Kuyt penalty 90+12; Robinson for injured Aurélio 22, Kyrgiakos for Carragher 62, Shelvey for Carroll 71. UEFA: Spearing challenge on Fàbregas, then Eboué challenge on Lucas; prolonged added time following Carragher head injury.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
-  - Scope: Complete 2010–11 competitive results and chronology; context for sequences and post-match positions, not detailed action.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **Liverpool FC — High confidence — retrieved 3 October 2026:** https://www.liverpoolfc.com/news/first-team/96040-the-reds-under-king-kenny-in-2011
-  - Scope: Official 12 May 2011 review confirms debut/first-goal/rebuilding milestones and spring chronology. It is not a final season table; its loose extra-time wording is not adopted.
-  - Limitation: Retrospective, published before the season finished; any loose timing terminology is corrected against the match record.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/games/5252
+  - Scope: Emirates Stadium, Premier League, 17 April 2011; Van Persie 90+8 penalty, Kuyt 90+12 penalty; Aurélio replaced by Robinson 22, Carragher by Kyrgiakos 62 and Carroll by Shelvey 71; Flanagan starts.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **UEFA — High confidence — actually retrieved 3 October 2026:** https://www.uefa.com/news-media/news/01f0-0e77e7147141-eed57e24bee4-1000--arsenal-denied-by-last-gasp-kuyt/
+  - Scope: Spearing challenge on Fàbregas leads to Van Persie penalty; Eboué challenge on Lucas leads to Kuyt penalty and draw. Prolonged added time after Carragher head injury; Carroll also leaves injured. Describes award at 90+10 rather than establishing goal at that exact minute.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
+  - Scope: Complete 2010–11 competitive results, dates, opponents and sequence. Supplies preceding/subsequent match context; does not establish detailed match action.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **Liverpool FC — High confidence — actually retrieved 3 October 2026:** https://www.liverpoolfc.com/news/first-team/96040-the-reds-under-king-kenny-in-2011
+  - Scope: Official 12 May 2011 review: January managerial return, selected spring results and league recovery chronology. For the City report its actual paragraph provides Kuyt/Carroll goals and table gap, not first-goal or City-debut evidence; for Arsenal it identifies Flanagan/Robinson as young full-backs. Loose extra-time wording corrected to added time.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
 
 ## Conflicts, source limits and prose boundaries
 

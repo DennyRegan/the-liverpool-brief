@@ -6,7 +6,7 @@ The earlier Astra preparation remains in its original file and retains its recor
 
 ## Selection and duplicate check
 
-Bellamy equaliser seals 3–2 aggregate semi-final win and first Wembley visit since 1996.
+Bellamy equaliser seals a 3–2 aggregate semi-final win and a place in the Wembley final.
 
 The exact date was checked in current local public content and non-research manuscripts and all fetched origin branches on 3 October 2026. No completed report was found. The latest main calendar was read before selection.
 
@@ -24,7 +24,7 @@ Liverpool drew 2–2 and advanced 3–2 on aggregate to meet Cardiff. City led t
 
 ## Conflicts, failed pages and omissions
 
-Describe the awarded handball penalty without reproducing Sky’s judgment that it was harsh. At 1–2 Liverpool were not already eliminated by away goals: do not claim this. Do not claim new Wembley appearance since 1996 without a source that establishes the old/new stadium distinction; safest wording is a return to Wembley and first final since 2006 with separate evidence.
+Describe the awarded handball penalty without reproducing Sky’s judgment that it was harsh. At 1–2 Liverpool were not already eliminated by away goals: do not claim this. The old Wembley/new Wembley distinction is not established by the retrieved core accounts. The report will describe the secured Wembley final place without an unsupported stadium milestone or an uncorroborated previous-final date.
 
 ## Editorial handling before release
 

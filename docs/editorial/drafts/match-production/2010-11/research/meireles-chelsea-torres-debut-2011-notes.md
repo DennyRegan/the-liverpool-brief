@@ -16,15 +16,18 @@ Exact-date public-content/draft/frontmatter searches and searches across fetched
 
 ## Freshly retrieved source ledger
 
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/games/5246
-  - Scope: Match identity, date, venue, teams, line-up, result and timeline. Core/UEFA: Meireles 69 from Gerrard delivery; Torres substituted before the goal; fourth consecutive league win moves Liverpool sixth.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **UEFA — High confidence — retrieved 3 October 2026:** https://www.uefa.com/news-media/news/01ee-0e77001396b2-fa878d2f3633-1000--chelsea-undone-by-revitalised-liverpool/
-  - Scope: Core/UEFA: Meireles 69 from Gerrard delivery; Torres substituted before the goal; fourth consecutive league win moves Liverpool sixth. Sky retrieved first-half details include Carragher blocking Torres and Maxi hitting bar.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
-  - Scope: Complete 2010–11 competitive results and chronology; context for sequences and post-match positions, not detailed action.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/games/5246
+  - Scope: Stamford Bridge, Premier League, 6 February 2011; Meireles 69, Torres replaced by Kalou 66; Suárez unused; Liverpool sixth with 38 points.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **UEFA — High confidence — actually retrieved 3 October 2026:** https://www.uefa.com/news-media/news/01ee-0e77001396b2-fa878d2f3633-1000--chelsea-undone-by-revitalised-liverpool/
+  - Scope: Torres Chelsea debut, substituted before winner; Meireles scores after Gerrard delivery is not cleared by Čech/Ivanović. Fourth successive league win takes Liverpool sixth; Meireles’s fourth goal in five league games.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
+  - Scope: Complete 2010–11 competitive results, dates, opponents and sequence. Supplies preceding/subsequent match context; does not establish detailed match action.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **Sky Sports — High confidence — actually retrieved 3 October 2026:** https://www.skysports.com/football/chelsea-vs-liverpool/report/229836
+  - Scope: Retrieved first-half action: Carragher blocks Torres’s shot and Maxi strikes bar from Gerrard delivery. Earlier Čech/Ivanović collision follows a Kelly cross, separate from later winning goal. Current text truncates before complete second-half winner.
+  - Limitation: Current extraction partially truncates; only exposed text/panel is evidence.
 
 ## Conflicts, source limits and prose boundaries
 

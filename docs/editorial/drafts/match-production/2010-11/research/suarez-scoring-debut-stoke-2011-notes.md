@@ -16,25 +16,24 @@ Exact-date public-content/draft/frontmatter searches and searches across fetched
 
 ## Freshly retrieved source ledger
 
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/games/5245
-  - Scope: Match identity, date, venue, teams, line-up, result and timeline. Core: Meireles 47, Suárez replaces Aurélio 63 and scores 79; half-time 0–0.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **Sky Sports — High confidence — retrieved 3 October 2026:** https://www.skysports.com/football/liverpool-vs-stoke-city/215446
-  - Scope: Core: Meireles 47, Suárez replaces Aurélio 63 and scores 79; half-time 0–0. Official Suárez retrospective confirms debut scoring credit. Sky supports result, substitute debut and Carroll unavailable through injury.
-  - Limitation: Partial current text extraction; only visible result panel and retrieved prose support claims, with missing action omitted.
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
-  - Scope: Complete 2010–11 competitive results and chronology; context for sequences and post-match positions, not detailed action.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **Liverpool FC — High confidence — retrieved 3 October 2026:** https://www.liverpoolfc.com/news/first-team/286771-7-luis-suarez
-  - Scope: Official retained retrospective credits Suárez’s debut goal and substitution, resolving contemporary provisional own-goal doubt.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **Liverpool FC — High confidence — retrieved 3 October 2026:** https://www.liverpoolfc.com/news/first-team/96040-the-reds-under-king-kenny-in-2011
-  - Scope: Official 12 May 2011 review confirms debut/first-goal/rebuilding milestones and spring chronology. It is not a final season table; its loose extra-time wording is not adopted.
-  - Limitation: Retrospective, published before the season finished; any loose timing terminology is corrected against the match record.
-
-- **LFChistory newspaper archive — High confidence for the agreed action sequence, Medium for individual conflicting details — retrieved 3 October 2026:** https://www.lfchistory.net/images/newspapers/riley/20110202vstoke.pdf
-  - Scope: Contemporary newspaper compilation, full PDF text freshly read: Gerrard free-kick eventually reaches Meireles via Kyrgiakos; Kuyt releases Suárez, who rounds Begović before Wilkinson’s attempted clearance fails. Retained club/core scoring credit remains Suárez. Bound descriptions to this shared sequence, avoiding conflicting formation labels and newspaper opinion.
-  - Limitation: Archived multi-outlet compilation, not a new LFChistory eyewitness report. Contemporary judgements, speculative dismissal causation and inconsistent incidental details excluded.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/games/5245
+  - Scope: Anfield, Premier League, 2 February 2011; Meireles 47, Suárez substitutes for Aurélio 63 and scores 79, Kuyt assist. Suárez debut and first goal; half-time 0–0, full-time 2–0.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **Sky Sports — High confidence — actually retrieved 3 October 2026:** https://www.skysports.com/football/liverpool-vs-stoke-city/215446
+  - Scope: Displayed result, Suárez substitute debut, Meireles opener and Carroll unavailable through injury after January transfers. Current text ends before complete goal mechanisms. Contemporary provisional own-goal suggestion does not supersede retained club/core Suárez scoring credit.
+  - Limitation: Current extraction partially truncates; only exposed text/panel is evidence.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
+  - Scope: Complete 2010–11 competitive results, dates, opponents and sequence. Supplies preceding/subsequent match context; does not establish detailed match action.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **Liverpool FC — High confidence — actually retrieved 3 October 2026:** https://www.liverpoolfc.com/news/first-team/286771-7-luis-suarez
+  - Scope: Official retained retrospective credits Suárez with scoring on his 2 February debut, introduced for Aurélio at 63 and scoring sixteen minutes later.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **Liverpool FC — High confidence — actually retrieved 3 October 2026:** https://www.liverpoolfc.com/news/first-team/96040-the-reds-under-king-kenny-in-2011
+  - Scope: Official 12 May 2011 review: January managerial return, selected spring results and league recovery chronology. For the City report its actual paragraph provides Kuyt/Carroll goals and table gap, not first-goal or City-debut evidence; for Arsenal it identifies Flanagan/Robinson as young full-backs. Loose extra-time wording corrected to added time.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **LFChistory contemporary newspaper archive — High confidence for corroborated shared action; Medium for conflicting incidental details — actually retrieved 3 October 2026:** https://www.lfchistory.net/images/newspapers/riley/20110202vstoke.pdf
+  - Scope: Archived contemporary newspaper compilation, actual PDF text read: Gerrard free-kick eventually reaches Meireles via Kyrgiakos; Kuyt releases Suárez, who rounds Begović, then Wilkinson fails to keep ball out. Shared action across reports used; differing formations and opinion excluded.
+  - Limitation: Compiled contemporary reports; conflict/opinion bounds stated above.
 
 ## Conflicts, source limits and prose boundaries
 

@@ -16,25 +16,24 @@ Exact-date public-content/draft/frontmatter searches and searches across fetched
 
 ## Freshly retrieved source ledger
 
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/games/5242
-  - Scope: Match identity, date, venue, teams, line-up, result and timeline. Core: Olsson 32, Benjani 38 and 57, Gerrard 81 and missed penalty 86; twelfth with 25 points from twenty games.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **Sky Sports — High confidence — retrieved 3 October 2026:** https://www.skysports.com/football/blackburn-rovers-vs-liverpool/report/215379
-  - Scope: Core: Olsson 32, Benjani 38 and 57, Gerrard 81 and missed penalty 86; twelfth with 25 points from twenty games. Sky retrieved score panel and opening narrative support result. UEFA 8 January reports Hodgson departure and Dalglish appointment.
-  - Limitation: Partial current text extraction; only visible result panel and retrieved prose support claims, with missing action omitted.
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
-  - Scope: Complete 2010–11 competitive results and chronology; context for sequences and post-match positions, not detailed action.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **UEFA — High confidence — retrieved 3 October 2026:** https://www.uefa.com/uefaeuropaleague/news/0254-0d7ce6f095e9-7e65c100e86a-1000--dalglish-in-for-hodgson-at-liverpool/
-  - Scope: Contemporaneous 8 January 2011 departure/appointment announcement, establishing last Hodgson match and first Dalglish return match.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **Liverpool FC — High confidence — retrieved 3 October 2026:** https://www.liverpoolfc.com/info/roy-hodgson
-  - Scope: Official Hodgson managerial chronology and retrospective last-match identity; factual dates/results, without evaluative claims.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-
-- **LFChistory newspaper archive — High confidence for the agreed action sequence, Medium for individual conflicting details — retrieved 3 October 2026:** https://www.lfchistory.net/images/newspapers/riley/20110105vblackburn.pdf
-  - Scope: Contemporary newspaper compilation, full PDF text freshly read: Mame Biram Diouf pass for Olsson; Pedersen delivery, Benjani control/turn/finish; Hoilett cutback for Benjani’s second; Gerrard drives home loose ball and misses penalty. Reports dispute whether Salgado fouled Gerrard or Torres, so omit fouled-player identity; clocks and low/high volley descriptions vary, so omit those specifics. No newspaper forecast treated as proof of a decided dismissal.
-  - Limitation: Archived multi-outlet compilation, not a new LFChistory eyewitness report. Contemporary judgements, speculative dismissal causation and inconsistent incidental details excluded.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/games/5242
+  - Scope: Ewood Park, Premier League, 5 January 2011; Olsson 32, Benjani 38/57, Gerrard 81 and missed penalty 86. Liverpool twelfth, 25 points from twenty matches.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **Sky Sports — High confidence — actually retrieved 3 October 2026:** https://www.skysports.com/football/blackburn-rovers-vs-liverpool/report/215379
+  - Scope: Result panel and retrieved narrative describe Olsson opener from Diouf supply, Benjani’s turn from Pedersen delivery and second from Hoilett cutback. Fourth successive away league defeat. Current text truncates during late Gerrard goal; final Hodgson-match label requires the separate managerial chronology.
+  - Limitation: Current extraction partially truncates; only exposed text/panel is evidence.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
+  - Scope: Complete 2010–11 competitive results, dates, opponents and sequence. Supplies preceding/subsequent match context; does not establish detailed match action.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **UEFA — High confidence — actually retrieved 3 October 2026:** https://www.uefa.com/uefaeuropaleague/news/0254-0d7ce6f095e9-7e65c100e86a-1000--dalglish-in-for-hodgson-at-liverpool/
+  - Scope: Contemporaneous 8 January 2011 announcement: Hodgson leaves by mutual agreement; Dalglish appointed until season end, to take first match at United the following day.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **Liverpool FC — High confidence — actually retrieved 3 October 2026:** https://www.liverpoolfc.com/info/roy-hodgson
+  - Scope: Official Hodgson managerial profile: tenure sequence, Northampton cup exit, Chelsea home high point and final Blackburn match. Retrospective dates/results rather than match-action eyewitness evidence.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **LFChistory contemporary newspaper archive — High confidence for corroborated shared action; Medium for conflicting incidental details — actually retrieved 3 October 2026:** https://www.lfchistory.net/images/newspapers/riley/20110105vblackburn.pdf
+  - Scope: Archived contemporary newspaper compilation, actual PDF text read: agreed Olsson/Benjani goal creation and late Gerrard goal/missed penalty. Salgado’s fouled-player identity differs across reports, so omit it. Clocks and precise volley trajectory vary, so omit those details.
+  - Limitation: Compiled contemporary reports; conflict/opinion bounds stated above.
 
 ## Conflicts, source limits and prose boundaries
 

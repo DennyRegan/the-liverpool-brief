@@ -30,11 +30,24 @@ All sources below were actually retrieved through the web tool by this reviewer.
 | https://www.uefa.com/news/01fd-0e7e11b4220e-e9939ea4380d-1000--chelsea-beat-liverpool-to-lift-seventh-fa-cup/ — UEFA | High: Chelsea 2–1 final; Ramires, Drogba, Carroll mechanisms; late Carroll header saved against crossbar, no goal awarded. Does not settle disputed line crossing. |
 | https://www.pacma.org.uk/ligali/pdf/FA_v_Suarez_Written_Reasons_of_Regulatory_Commission.pdf — FA Regulatory Commission written reasons, hosted copy | High within actually read conclusion and sanction passages: charge proved, eight-match suspension, £40,000 fine, future-conduct warning; temporary stay pending appeal decision. Attribute findings to the commission. Not an FA-hosted page; no claim to read all 115 pages. |
 
+## Supplementary independent retrieval
+
+- https://www.liverpoolfc.com/news/first-team/113091-lfcctv-bellamy-v-chelsea — High for contemporary retrieved text: Bellamy run and cross for Maxi, left-wing free-kick for Kelly. Footage not viewed; imagined emotions and posthumous reactions not adopted.
+- https://www.lfchistory.net/players/1203 — High within Martin Kelly milestones: first senior Liverpool goal 29 November 2011, League Cup header at Chelsea. Unrelated career sections not cleared.
+- https://www.lfchistory.net/images/newspapers/riley/20111129vChelsea.pdf — contemporary reports hosted by LFChistory, relevant match passages read. High for common Henderson/Bellamy/Maxi and Bellamy free-kick/Kelly sequence, penalty decision/save, first senior Kelly goal. Referee judgements, precise four/five-minute interval and inconsistent Dalglish unbeaten totals not adopted.
+- https://www.uefa.com/news-media/news/01fc-0f8fda7dfab1-59ff890eabdb-1000--tevez-hat-trick-inspires-city-to-emphatic-win/ — High for short Wembley derby summary: Jelavić half-time lead, Suárez equaliser, Carroll late header and 2–1 semi-final result.
+- https://www.skysports.com/football/liverpool-vs-everton/report/258338 — High within retrieved summary and first-half passages: Carragher clearance hits Cahill, Jelavić finish; Distin short back-pass, Suárez equaliser; Carroll winning header at 87. Later narrative truncates; unsupported intervening details excluded.
+- https://www.skysports.com/football/news/20876/7223255/rodwell-wins-red-card-appeal — High for complete contemporary 4 October article, including final paragraph reporting FA confirmation that the wrongful-dismissal claim was upheld and three-match suspension withdrawn. No assertion to have read complete appeals record.
+
+## Prewriting note review
+
+All fifteen fresh Sol prewriting notes were read on 3 October 2026. Their bounded common sequences and deliberate omissions are consistent with the independently retrieved sources above. This is a preparation review only: final sentences, source layout, exact URL parity and hashes must be checked after completed manuscripts are saved. Prior final-preparation count of subsequent league fixtures is correctly superseded: only Chelsea and Swansea followed the FA Cup final; Fulham preceded it.
+
 ## Remaining checks and limits
 
 Fifteen finished bodies and completed companion sentence audits remain pending. There are no reviewed manuscript hashes yet. Before PASS: read all final files; independently check every material factual claim; recheck corrections; compare published report format; validate one bottom linked Sources section with descriptive accurate labels, exact frontmatter/footer URL order and retrieved own-note coverage; resolve canonical dates/entities and absence of publication dates. No source record or format approval authorises publication.
 
-The Brighton conflict is bounded above. The Chelsea quarter-final needs supplementary support for any details outside the retrieved Sky scope. The Wembley derby needs further source support for any detailed Jelavić opener. Rodwell rescission and any Suárez ban start/non-appeal chronology need their own retrieved evidence if included.
+The Brighton conflict is bounded above. Supplementary Chelsea quarter-final and Wembley derby texts now support the goal mechanisms stated in the register. Rodwell's successful appeal is retrieved; any expanded Suárez ban start/non-appeal chronology still needs its own evidence if included.
 
 ## Verdict
 

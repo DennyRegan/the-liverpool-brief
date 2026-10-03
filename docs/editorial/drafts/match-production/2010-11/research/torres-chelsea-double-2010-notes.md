@@ -16,18 +16,18 @@ Exact-date public-content/draft/frontmatter searches and searches across fetched
 
 ## Freshly retrieved source ledger
 
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/games/5231
-  - Scope: Match identity, date, venue, teams, line-up, result and timeline. Core/UEFA: Torres 11 and 44, 2–0 at half-time and full-time; Chelsea league leaders, Liverpool ninth.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **UEFA — High confidence — retrieved 3 October 2026:** https://www.uefa.com/news-media/news/01eb-0f8605843d04-837ccc3bf933-1000--liverpool-rise-as-torres-torments-chelsea/
-  - Scope: Core/UEFA: Torres 11 and 44, 2–0 at half-time and full-time; Chelsea league leaders, Liverpool ninth. Sky full text: Kuyt diagonal pass for first, Meireles possession win before Torres curls second; Reina saves from Malouda and Anelka hits bar.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
-  - Scope: Complete 2010–11 competitive results and chronology; context for sequences and post-match positions, not detailed action.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **Sky Sports — High confidence — retrieved 3 October 2026:** https://www.skysports.com/football/liverpool-vs-chelsea/221158
-  - Scope: Supplementary contemporary match narrative: Torres’s two goal moves, goalkeeper saves and late chances; evaluative descriptions excluded.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/games/5231
+  - Scope: Anfield, Premier League, 7 November 2010; Torres goals 11 and 44, half-time/full-time 2–0. Chelsea first, Liverpool ninth.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **UEFA — High confidence — actually retrieved 3 October 2026:** https://www.uefa.com/news-media/news/01eb-0f8605843d04-837ccc3bf933-1000--liverpool-rise-as-torres-torments-chelsea/
+  - Scope: Torres double against league-leading defending champions; Kuyt supply for opening goal and curled second just before half-time. Third successive league win and return to top half.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
+  - Scope: Complete 2010–11 competitive results, dates, opponents and sequence. Supplies preceding/subsequent match context; does not establish detailed match action.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **Sky Sports — High confidence — actually retrieved 3 October 2026:** https://www.skysports.com/football/liverpool-vs-chelsea/221158
+  - Scope: Complete Chelsea-home contemporary text: Kuyt diagonal pass for first Torres goal, Meireles possession win before second, Reina save from Malouda and Anelka bar. No psychological interpretation adopted.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
 
 ## Conflicts, source limits and prose boundaries
 

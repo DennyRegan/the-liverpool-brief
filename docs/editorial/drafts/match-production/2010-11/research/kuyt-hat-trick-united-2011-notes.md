@@ -16,15 +16,15 @@ Exact-date public-content/draft/frontmatter searches and searches across fetched
 
 ## Freshly retrieved source ledger
 
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/games/5249
-  - Scope: Match identity, date, venue, teams, line-up, result and timeline. Core: Kuyt 34, 39 and 65; Carroll replaces Meireles at 74; Liverpool sixth.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **UEFA — High confidence — retrieved 3 October 2026:** https://www.uefa.com/news-media/news/01ef-0e775cde3ae8-bce66171b96d-1000--leaders-united-caught-out-by-kuyt-treble/
-  - Scope: Core: Kuyt 34, 39 and 65; Carroll replaces Meireles at 74; Liverpool sixth. UEFA: Suárez dribble for first, Nani misdirected header for second and rebound from Suárez free-kick for third.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
-  - Scope: Complete 2010–11 competitive results and chronology; context for sequences and post-match positions, not detailed action.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/games/5249
+  - Scope: Anfield, Premier League, 6 March 2011; Kuyt 34/39/65, Carroll debut as substitute 74, United league leaders, Liverpool sixth. Hernández goal clock listed 89.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **UEFA — High confidence — actually retrieved 3 October 2026:** https://www.uefa.com/news-media/news/01ef-0e775cde3ae8-bce66171b96d-1000--leaders-united-caught-out-by-kuyt-treble/
+  - Scope: Kuyt hat-trick: Suárez dribble sets up first, Nani misdirected header supplies second, rebound from Suárez free-kick supplies third. Hernández late consolation. League leaders lose, Liverpool sixth; wording suggesting position movement is checked against core chronology.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
+  - Scope: Complete 2010–11 competitive results, dates, opponents and sequence. Supplies preceding/subsequent match context; does not establish detailed match action.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
 
 ## Conflicts, source limits and prose boundaries
 

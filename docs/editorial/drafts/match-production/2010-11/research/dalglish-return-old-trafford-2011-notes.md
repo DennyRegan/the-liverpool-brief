@@ -16,18 +16,18 @@ Exact-date public-content/draft/frontmatter searches and searches across fetched
 
 ## Freshly retrieved source ledger
 
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/games/5271
-  - Scope: Match identity, date, venue, teams, line-up, result and timeline. Core/UEFA: Giggs second-minute penalty, Gerrard sent off at 32 after Carrick challenge; Evans hits post and Kuszczak saves Aurélio free-kick.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **UEFA — High confidence — retrieved 3 October 2026:** https://www.uefa.com/news-media/news/01ed-0f8614c99f55-e50ad7cf8ee3-1000--united-edge-out-ten-man-liverpool/
-  - Scope: Core/UEFA: Giggs second-minute penalty, Gerrard sent off at 32 after Carrick challenge; Evans hits post and Kuszczak saves Aurélio free-kick. UEFA appointment report: Dalglish appointed 8 January, first game next day.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **LFChistory — High confidence — retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
-  - Scope: Complete 2010–11 competitive results and chronology; context for sequences and post-match positions, not detailed action.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
-- **UEFA — High confidence — retrieved 3 October 2026:** https://www.uefa.com/uefaeuropaleague/news/0254-0d7ce6f095e9-7e65c100e86a-1000--dalglish-in-for-hodgson-at-liverpool/
-  - Scope: Contemporaneous 8 January 2011 departure/appointment announcement, establishing last Hodgson match and first Dalglish return match.
-  - Limitation: Scope is bounded to the identified record; no unsupported colour, motives or tactics inferred.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/games/5271
+  - Scope: Old Trafford, FA Cup third round, 9 January 2011; Giggs 2 penalty, Gerrard red card 32, full-time 1–0; manager Dalglish.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **UEFA — High confidence — actually retrieved 3 October 2026:** https://www.uefa.com/news-media/news/01ed-0f8614c99f55-e50ad7cf8ee3-1000--united-edge-out-ten-man-liverpool/
+  - Scope: Dalglish first game on return; Giggs converts early penalty following Agger/Berbatov decision; Gerrard dismissed after Carrick challenge at 32. Evans hits post, Aurélio free-kick saved by Kuszczak. The precise previous-day appointment date comes from the separate appointment URL.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **LFChistory — High confidence — actually retrieved 3 October 2026:** https://www.lfchistory.net/season-archive/games/120
+  - Scope: Complete 2010–11 competitive results, dates, opponents and sequence. Supplies preceding/subsequent match context; does not establish detailed match action.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
+- **UEFA — High confidence — actually retrieved 3 October 2026:** https://www.uefa.com/uefaeuropaleague/news/0254-0d7ce6f095e9-7e65c100e86a-1000--dalglish-in-for-hodgson-at-liverpool/
+  - Scope: Contemporaneous 8 January 2011 announcement: Hodgson leaves by mutual agreement; Dalglish appointed until season end, to take first match at United the following day.
+  - Limitation: Only the identified factual scope is cleared; no invented colour, quotes or motives.
 
 ## Conflicts, source limits and prose boundaries
 
