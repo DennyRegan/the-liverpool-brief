@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T05:47:06.720146Z",
+  "updatedAt": "2026-10-03T05:51:41.842773Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -17933,7 +17933,7 @@
         "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-tsv-munich-1967-eight-goals.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -17957,7 +17957,8 @@
         "editorialReason": "A then-record European winning margin is built through six different scorers and a rapid second-half burst; this exceptional tie deserves full contemporary reconstruction.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-tsv-munich-1967-eight-goals-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -17977,7 +17978,7 @@
         "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-manchester-united-1967-best-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18001,7 +18002,8 @@
         "editorialReason": "Four days after the European eight, Liverpool lose first place to United; Hunt’s late goal is his 242 nd under the corrected historical register, a milestone with an explicit attribution conflict.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-manchester-united-1967-best-double-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -18021,7 +18023,7 @@
         "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-ferencvaros-1968-fairs-cup-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18045,7 +18047,8 @@
         "editorialReason": "A second 1–0 defeat ends the European campaign after the huge Munich win; the home leg closes a distinct competition story.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-ferencvaros-1968-fairs-cup-exit-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -18065,7 +18068,7 @@
         "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-walsall-1968-hateley-four.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18109,7 +18112,7 @@
         "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-tottenham-1968-fa-cup-replay.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18153,7 +18156,7 @@
         "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/manchester-united-liverpool-1968-comeback.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,

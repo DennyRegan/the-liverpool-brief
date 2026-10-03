@@ -4,7 +4,7 @@ Reviewer: `/root/sol_factual_review`. Actual configured model: `gpt-6.1-sol`. Re
 
 ## Review state
 
-PENDING — independent source retrieval has started. No completed manuscript or companion audit has yet been approved by this reviewer. All selected complete bodies and notes must be read, corrections rechecked and file identities recorded before PASS.
+PENDING — independent source retrieval has started. Three completed manuscripts and their companion audits have passed independent reading; eight remain to be reviewed. All selected complete bodies and notes must be read, corrections rechecked and file identities recorded before PASS.
 
 ## Independently retrieved source scopes
 
@@ -35,3 +35,13 @@ PENDING — independent source retrieval has started. No completed manuscript or
 - Old Trafford: Best 3, Yeats 9, Hunt 17; 1–2 half-time and final. Attendance conflict known from earlier evidence should be omitted.
 - West Brom second replay: neutral Maine Road, not Anfield. Nine FA Cup games across four ties.
 - Ferencváros: ledger 19th-minute goal, 46,892 crowd. Earlier Puskás evidence records 20 and 54,000. Minute and crowd are safely omitted pending source-specific treatment.
+
+## First manuscript tranche reviewed
+
+Read complete bodies and companion factual audits for Newcastle, Everton and Bolton on 3 October. Dates, grounds, score progression, goals, context, British prose, source grouping and no-publication-date metadata checked. No invented tactics, motives or action found. The Newcastle ambiguous wording was corrected to “The six-goal win against Newcastle” and rechecked. These report verdicts do not imply the whole-season PASS or publication approval.
+
+| Manuscript | Verdict | SHA-256 at review |
+| --- | --- | --- |
+| `liverpool-newcastle-1967-hateley-hat-trick.md` | PASS | `821c395d23da2de88b0d23ad5679c2afe7bfd3ee85f16d17d6e10a5e66e6b8fd` |
+| `liverpool-everton-1967-hunt-winner.md` | PASS | `c5eb3f6e73f6c4fbf84409ce71c179be9f0f508906476aeb76bab0e8bec99a67` |
+| `bolton-liverpool-1967-league-cup-exit.md` | PASS | `b3055a893e451c1b2260bdfac463ce6d9862e8dc31d0ecf41da858f671c9a1a7` |
