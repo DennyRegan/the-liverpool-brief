@@ -10980,34 +10980,40 @@
       "personId": "alan-hansen",
       "event": "Alan Hansen: Liverpool career biography",
       "selection": "selected",
-      "status": "blocked",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_hansen_mcdermott",
+      "claim": {
+        "token": "biography-2026-10-03-alan-hansen",
+        "claimedAt": "2026-10-03T05:35:00Z",
+        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "not_rechecked",
-      "notes": "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved.",
+      "researchStatus": "needs_research",
+      "notes": "NEW PRODUCTION: newly researched manuscript; missing original was not recovered. Prior NOT LOCATED record preserved verbatim in docs/editorial/biography-not-located-snapshot-2026-10-03.json.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Alan-Hansen-research-record.md",
           "confidence": "high",
           "scope": "Recovery inventory only. No manuscript recreated."
+        },
+        {
+          "location": "docs/editorial/biography-production-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
         }
       ],
-      "migration": {
-        "personId": "alan-hansen",
+      "biographyProduction": {
         "completed": false,
         "reviewRequired": true,
-        "sourceFiles": [
-          "docs/editorial/drafts/biographies/Alan-Hansen-research-record.md"
-        ],
-        "duplicateResolution": "No full career article found in main, drafts or remote branch filename inventories.",
-        "blockers": [
-          "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved."
-        ]
+        "editorialReason": "Ball-playing defender and captain across eight league titles and three European Cups.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_hansen_mcdermott",
+        "blockers": []
       }
     },
     {
@@ -11015,34 +11021,40 @@
       "personId": "terry-mcdermott",
       "event": "Terry McDermott: Liverpool career biography",
       "selection": "selected",
-      "status": "blocked",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_hansen_mcdermott",
+      "claim": {
+        "token": "biography-2026-10-03-terry-mcdermott",
+        "claimedAt": "2026-10-03T05:35:00Z",
+        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "not_rechecked",
-      "notes": "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved.",
+      "researchStatus": "needs_research",
+      "notes": "NEW PRODUCTION: newly researched manuscript; missing original was not recovered. Prior NOT LOCATED record preserved verbatim in docs/editorial/biography-not-located-snapshot-2026-10-03.json.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Terry-McDermott-research-record.md",
           "confidence": "high",
           "scope": "Recovery inventory only. No manuscript recreated."
+        },
+        {
+          "location": "docs/editorial/biography-production-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
         }
       ],
-      "migration": {
-        "personId": "terry-mcdermott",
+      "biographyProduction": {
         "completed": false,
         "reviewRequired": true,
-        "sourceFiles": [
-          "docs/editorial/drafts/biographies/Terry-McDermott-research-record.md"
-        ],
-        "duplicateResolution": "No full career article found in main, drafts or remote branch filename inventories.",
-        "blockers": [
-          "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved."
-        ]
+        "editorialReason": "Midfield scorer and major contributor to Liverpool’s first European supremacy.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_hansen_mcdermott",
+        "blockers": []
       }
     },
     {
@@ -11050,32 +11062,40 @@
       "personId": "sami-hyypia",
       "event": "Sami Hyypiä: Liverpool career biography",
       "selection": "selected",
-      "status": "blocked",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_carragher_hyypia",
+      "claim": {
+        "token": "biography-2026-10-03-sami-hyypia",
+        "claimedAt": "2026-10-03T05:35:00Z",
+        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "not_rechecked",
-      "notes": "NOT LOCATED: no completed manuscript or research file found; retrieved prior task context reports failed research/writing attempts.",
+      "researchStatus": "needs_research",
+      "notes": "NEW PRODUCTION: newly researched manuscript; missing original was not recovered. Prior NOT LOCATED record preserved verbatim in docs/editorial/biography-not-located-snapshot-2026-10-03.json.",
       "evidence": [
         {
           "location": "Liverpool Brief Biography Writer: Write Sami Hyypia Biography, 25 September 2026",
           "confidence": "unverified",
           "scope": "Recovery inventory only. No manuscript recreated."
+        },
+        {
+          "location": "docs/editorial/biography-production-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
         }
       ],
-      "migration": {
-        "personId": "sami-hyypia",
+      "biographyProduction": {
         "completed": false,
         "reviewRequired": true,
+        "editorialReason": "Transformative defender, captain and foundation of the 2001 and 2005 teams.",
         "sourceFiles": [],
-        "duplicateResolution": "No full career article found in main, drafts or remote branch filename inventories.",
-        "blockers": [
-          "NOT LOCATED: no completed manuscript or research file found; retrieved prior task context reports failed research/writing attempts."
-        ]
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_carragher_hyypia",
+        "blockers": []
       }
     },
     {
@@ -11566,6 +11586,258 @@
         ],
         "model": "gpt-6-astra",
         "workerId": "/root/smith_souness",
+        "blockers": []
+      }
+    },
+    {
+      "id": "rafael-benitez-career-biography",
+      "personId": "rafael-benitez",
+      "event": "Rafael Benítez career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_benitez_alonso",
+      "claim": {
+        "token": "biography-2026-10-03-rafael-benitez",
+        "claimedAt": "2026-10-03T05:35:00Z",
+        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned researched biography.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Manager of Istanbul and the 2006 FA Cup winners, whose six-year rebuild reshaped Liverpool.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_benitez_alonso",
+        "blockers": []
+      }
+    },
+    {
+      "id": "jamie-carragher-career-biography",
+      "personId": "jamie-carragher",
+      "event": "Jamie Carragher career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_carragher_hyypia",
+      "claim": {
+        "token": "biography-2026-10-03-jamie-carragher",
+        "claimedAt": "2026-10-03T05:35:00Z",
+        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned researched biography.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "One-club defender, long-serving vice-captain and Liverpool’s second-highest appearance maker.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_carragher_hyypia",
+        "blockers": []
+      }
+    },
+    {
+      "id": "jan-molby-career-biography",
+      "personId": "jan-molby",
+      "event": "Jan Mølby career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_molby_owen",
+      "claim": {
+        "token": "biography-2026-10-03-jan-molby",
+        "claimedAt": "2026-10-03T05:35:00Z",
+        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned researched biography.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Distinctive midfield organiser whose Liverpool story spans the double and difficult later years.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_molby_owen",
+        "blockers": []
+      }
+    },
+    {
+      "id": "michael-owen-career-biography",
+      "personId": "michael-owen",
+      "event": "Michael Owen career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_molby_owen",
+      "claim": {
+        "token": "biography-2026-10-03-michael-owen",
+        "claimedAt": "2026-10-03T05:35:00Z",
+        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned researched biography.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Home-grown goalscorer, 2001 cup-final match winner and Ballon d’Or recipient.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_molby_owen",
+        "blockers": []
+      }
+    },
+    {
+      "id": "xabi-alonso-career-biography",
+      "personId": "xabi-alonso",
+      "event": "Xabi Alonso career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_benitez_alonso",
+      "claim": {
+        "token": "biography-2026-10-03-xabi-alonso",
+        "claimedAt": "2026-10-03T05:35:00Z",
+        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned researched biography.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Midfield architect central to Istanbul and the 2008–09 title challenge.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_benitez_alonso",
+        "blockers": []
+      }
+    },
+    {
+      "id": "pepe-reina-career-biography",
+      "personId": "pepe-reina",
+      "event": "Pepe Reina career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_reina_toshack",
+      "claim": {
+        "token": "biography-2026-10-03-pepe-reina",
+        "claimedAt": "2026-10-03T05:35:00Z",
+        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned researched biography.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Outstanding goalkeeper and durable contributor under Benítez and his successors.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_reina_toshack",
+        "blockers": []
+      }
+    },
+    {
+      "id": "john-toshack-career-biography",
+      "personId": "john-toshack",
+      "event": "John Toshack career biography",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Sol 6.1 /root/sol_reina_toshack",
+      "claim": {
+        "token": "biography-2026-10-03-john-toshack",
+        "claimedAt": "2026-10-03T05:35:00Z",
+        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Newly commissioned researched biography.",
+      "evidence": [
+        {
+          "location": "docs/editorial/biography-production-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "biographyProduction": {
+        "completed": false,
+        "reviewRequired": true,
+        "editorialReason": "Transformative Shankly signing and Keegan’s strike partner in the early 1970s.",
+        "sourceFiles": [],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_reina_toshack",
         "blockers": []
       }
     }
@@ -17391,7 +17663,7 @@
   ],
   "automaticHistory": {
     "version": 1,
-    "enabled": false,
+    "enabled": true,
     "pausedQueues": [],
     "policy": "denny-automatic-history-2026-10-01",
     "runs": []

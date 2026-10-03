@@ -35,7 +35,7 @@ const matchProductionSchema = z.object({
 }).strict();
 const biographyProductionSchema = z.object({
   completed: z.boolean(), reviewRequired: z.boolean(), editorialReason: text,
-  sourceFiles: z.array(text), model: z.literal('gpt-6-astra'), workerId: text,
+  sourceFiles: z.array(text), model: z.enum(['gpt-6-astra', 'gpt-6.1-sol']), workerId: text,
   blockers: z.array(text),
 }).strict();
 const entrySchema = z.object({

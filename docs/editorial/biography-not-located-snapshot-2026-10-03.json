@@ -1,0 +1,109 @@
+{
+  "recordType": "Historical recovery snapshot; not current status authority",
+  "capturedFrom": "4bc4b97a72fb3620fa3375a5834096277b0a020b",
+  "rows": [
+    {
+      "id": "alan-hansen-career-biography",
+      "personId": "alan-hansen",
+      "event": "Alan Hansen: Liverpool career biography",
+      "selection": "selected",
+      "status": "blocked",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Alan-Hansen-research-record.md",
+          "confidence": "high",
+          "scope": "Recovery inventory only. No manuscript recreated."
+        }
+      ],
+      "migration": {
+        "personId": "alan-hansen",
+        "completed": false,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Alan-Hansen-research-record.md"
+        ],
+        "duplicateResolution": "No full career article found in main, drafts or remote branch filename inventories.",
+        "blockers": [
+          "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved."
+        ]
+      }
+    },
+    {
+      "id": "terry-mcdermott-career-biography",
+      "personId": "terry-mcdermott",
+      "event": "Terry McDermott: Liverpool career biography",
+      "selection": "selected",
+      "status": "blocked",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/biographies/Terry-McDermott-research-record.md",
+          "confidence": "high",
+          "scope": "Recovery inventory only. No manuscript recreated."
+        }
+      ],
+      "migration": {
+        "personId": "terry-mcdermott",
+        "completed": false,
+        "reviewRequired": true,
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/Terry-McDermott-research-record.md"
+        ],
+        "duplicateResolution": "No full career article found in main, drafts or remote branch filename inventories.",
+        "blockers": [
+          "NOT LOCATED: research record recovered, but the actual finished chat manuscript could not be retrieved."
+        ]
+      }
+    },
+    {
+      "id": "sami-hyypia-career-biography",
+      "personId": "sami-hyypia",
+      "event": "Sami Hyypi\u00e4: Liverpool career biography",
+      "selection": "selected",
+      "status": "blocked",
+      "owner": null,
+      "claim": null,
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "researchStatus": "not_rechecked",
+      "notes": "NOT LOCATED: no completed manuscript or research file found; retrieved prior task context reports failed research/writing attempts.",
+      "evidence": [
+        {
+          "location": "Liverpool Brief Biography Writer: Write Sami Hyypia Biography, 25 September 2026",
+          "confidence": "unverified",
+          "scope": "Recovery inventory only. No manuscript recreated."
+        }
+      ],
+      "migration": {
+        "personId": "sami-hyypia",
+        "completed": false,
+        "reviewRequired": true,
+        "sourceFiles": [],
+        "duplicateResolution": "No full career article found in main, drafts or remote branch filename inventories.",
+        "blockers": [
+          "NOT LOCATED: no completed manuscript or research file found; retrieved prior task context reports failed research/writing attempts."
+        ]
+      }
+    }
+  ]
+}
