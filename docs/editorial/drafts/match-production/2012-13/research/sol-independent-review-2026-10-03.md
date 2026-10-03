@@ -1,8 +1,8 @@
-# 2012–13 independent Sol review baseline
+# 2012–13 independent Sol final factual review
 
 - Actual configured reviewer: `gpt-6.1-sol`, worker `/root/sol_factual_review`.
 - Fresh retrieval date: 3 October 2026.
-- Scope: independently retrieved season baseline while earlier-season bodies are reviewed. Original Astra preparation is preserved. The nine fresh selections are accepted; manuscript verification remains pending; this is no finished-body approval.
+- Scope: independently retrieved season baseline while earlier-season bodies are reviewed. Original Astra preparation is preserved. All nine accepted final manuscripts and completed companion sentence audits have now been read and independently checked, with final full-file hashes below. This factual review is not a manual publication action.
 
 ## Retrieved source scopes
 
@@ -49,11 +49,17 @@ Independently retrieved and read relevant identity, line-up, notes and goal/subs
 
 Three initially attempted unmatched URL tails (Norwich124785, Oldham129265 and Zenit0206) returned tool errors; they are not used as evidence. Exact sourced article URLs above were subsequently retrieved successfully. No substantive source failure is concealed by that successful correction.
 
-## Completed body review — first six reports
+## Additional actual Newcastle source retrieval
 
-The complete title, excerpt, body and completed sentence-level companion audits were read for the following six final files. All material assertions pass against the independent retrieval scopes above, supplemented by the actual UEFA Oldham retrieval below. High confidence applies only to the bounded facts used.
+- https://www.liverpoolfc.com/news/first-team/132964-borini-that-was-for-you-lads — Full relevant club interview read, High: return from dislocated shoulder and first Premier League Liverpool goal during6–0 win; subjective motivations/feelings are excluded.
+- https://www.liverpoolfc.com/news/first-team/132943-newcastle-0-6-lfc-storified — Actual exposed contemporary introduction only read, Medium for exact limited scope:6–0 joint-best Premier League away win at time; no embedded Storify action content was available.
+- https://www.liverpoolfc.com/news/five-best-premier-league-wins-liverpool-newcastle — Actual relevant2013 section in25August2025 retrospective read, High: Downing/Agger header, Coutinho/Sturridge/Henderson combination, Sturridge double, Borini late substitute goal and Henderson free-kick. No unrelated matches or retrospective tactical judgments used.
 
-- Young Boys: result, Group A opener after qualifying, three senior starting debutants, all seven scorer identities/events, corner providers, Henderson lay-off and Shelvey substitute double checked. Conflicted Nuzzolo and first Shelvey clocks are deliberately avoided.
+## Completed body review — all nine reports
+
+The complete title, excerpt, body and completed sentence-level companion audits were read for the following nine final files. All material assertions pass against the independent retrieval scopes above, supplemented by the actual UEFA Oldham retrieval below. High confidence applies only to the bounded facts used.
+
+- Young Boys: result, Group A opener after qualifying, three senior starting debutants, all eight goal events, corner providers, Henderson lay-off and Shelvey substitute double checked. Conflicted Nuzzolo and first Shelvey clocks are deliberately avoided.
 - Manchester United: first Anfield game following 12 September Panel release, summary findings, historical Truth/Justice/96 display, Shelvey red, all goal actions and awarded penalty, five-game winless/two-draw arithmetic and Norwich six days later checked. The report does not import later inquest findings or declare the justice campaign complete.
 - Oldham: League One position and preceding seven defeats in eight, Dickov, first Suárez captaincy, three home goals, Jones spill, later substitutions/Allen79/Gerrard bar, Everton next round and two-tie Liverpool campaign checked. No unsupported complete Croft touch chain or weather/youth cause.
 - Zenit: exact second-leg/aggregate/away-goal arithmetic, first leg, Carragher back-pass/Hulk19, four goals needed, first free-kick foul/mechanism, Allen saved-header rebound/Enrique-Henderson exchange, second free-kick broad phase, later chances and 150th/final European appearance checked.
@@ -61,7 +67,12 @@ The complete title, excerpt, body and completed sentence-level companion audits 
 - Norwich: first Rodgers league win after five games, prior April Carrow Road treble, all five goal-producing sequences, Wisdom Premier League debut/Suso start, half-time and final deficit arithmetic checked. Gerrard-shot/Barnett-deflection description does not silently choose disputed scorer credit; club repeat-treble text supports prior five-month chronology.
 - Tottenham: all five goal actions and82-minute awarded penalty, Carragher500th league appearance/Callaghan comparison, Jones for injured Reina, twelve completed Spurs unbeaten league games and Liverpool’s third consecutive league win checked against both contemporary club reports and season ledger. League qualifier correctly excludes intervening Zenit fixture.
 
-For every report: date/season/slug and all entity IDs/kinds were checked against the canonical registry and fixture cores; British factual prose and no invented quote/motive/tactics. Exactly one terminal Sources section, descriptive source labels, matching frontmatter/footer URL order, all URLs present in its own actually-retrieved scope notes, no publication date or trailing internal text. The format matches the previously inspected published Leicester1974 and WestHam1977 reports. These are individual completed checks; whole-season approval remains pending.
+- Chelsea: all goals/half-time substitution/post, Benítez return and former Chelsea Sturridge context,65th-minute bite/Ivanović arm/unseen by officials, late equaliser and24April immediate ten-match sanction with accepted violent conduct/three-plus-seven split checked. Primary FA written reasons support explicit biting rather than the match report’s euphemism; announcement and signed reasons dates remain distinct.
+- Newcastle: first game after immediate ban, all six goal actions/scorers, half-time, Borini substitute for Gerrard/shoulder return/first club Premier League goal, Debuchy second yellow and untouched Henderson free-kick checked. Contemporary club introduction directly supports joint-biggest Premier League away margin at that date; missing embedded Storify text supplies no action.
+
+- QPR:737th/final Carragher appearance and captaincy, Coutinho only goal23/Ibe17debut/left-sided assist/low finish, earlier Downing corner/header/Harriman clearance without awarded goal, both Rémy opportunities, post just after hour/first-time shot, late Coates substitution, seventh61/Everton63 and final eight league gamesW4D4 checked. Irish Independent’s complete exposed match narrative was reopened and read; no line-crossing judgment or unseen footage inferred. The full54-row season ledger was freshly reread for closing-run arithmetic.
+
+For every report: date/season/slug and all entity IDs/kinds were checked against the canonical registry and fixture cores; British factual prose and no invented quote/motive/tactics. Exactly one terminal Sources section, descriptive source labels, matching frontmatter/footer URL order, all URLs present in its own actually-retrieved scope notes, no publication date or trailing internal text. The format matches the previously inspected published Leicester1974 and WestHam1977 reports. All nine selected reports pass the completed factual and published-format check. No requested report remains unreviewed; the historical source conflicts remain explicitly bounded in the prose and notes.
 
 - https://www.uefa.com/news-media/news/0205-0f8fdfa48bf5-a6a193919e64-1000--oldham-on-a-high-after-liverpool-scalp/ — Actual full relevant contemporary article retrieved and read, High: Oldham one point above League One relegation, seven previous defeats in eight league games, Dickov, Smith double/Wabara header3–2 and Everton fifth-round tie. Opinions and attributed emotional assessments are excluded.
 
@@ -69,15 +80,20 @@ For every report: date/season/slug and all entity IDs/kinds were checked against
 | --- | --- | --- |
 | shelvey-young-boys-eight-goals-2012.md | `c2b89f0e9a7d2ddd7bd42c1ed95172a28c28ba2dd97d204a362e8a975c59e6f1` | PASS |
 | anfield-hillsborough-tribute-united-2012.md | `1dbd5fce902f698c90d14cc48ffb638c76b06c5fdc3e132aca363dd505cdd196` | PASS |
+| suarez-norwich-rodgers-first-league-win-2012.md | `6bd434b42f3cd25296faef1f0d371119a47604f367af71ebd79c4318d18b013b` | PASS |
 | oldham-fa-cup-defeat-2013.md | `502d6afefd18b2f3c378c0174d2756033986c5d34f474b7d0f4b68c0a12574fc` | PASS |
 | suarez-zenit-comeback-falls-short-2013.md | `e99f2c32b55c56ecf2228357e98ee04f1c70bf61b5f8adad96fe6ebf134876ce` | PASS |
-| suarez-norwich-rodgers-first-league-win-2012.md | `6bd434b42f3cd25296faef1f0d371119a47604f367af71ebd79c4318d18b013b` | PASS |
 | gerrard-tottenham-comeback-2013.md | `aa77fc259b6dab18d3e37308ecbe98cdd7c9458f749d7bc99ad1d09884ea6430` | PASS |
+| suarez-chelsea-equaliser-ban-2013.md | `65ea338eef363612166c8d427ce1eb7eb648682de1f266ccc1ac4fed70b6a202` | PASS |
+| six-at-newcastle-without-suarez-2013.md | `cb7c9bcc92c806fac06f8cfc4bd2a17fa7fe2c71e7fcdd49f29cfd277418c0b2` | PASS |
+| carragher-final-match-qpr-2013.md | `5be4131cdb0869186936aefde1b1cd87b71785eab23a8fa4d56cdac4f84b0b30` | PASS |
 
-## Review state
+## Final review state
 
-Nine accepted selections. Six complete bodies and their own audits have been reviewed; three remaining final manuscripts/audits require review. All final hashes will be refreshed at the whole-season check.
+All nine complete manuscripts, title/excerpt metadata and completed sentence-level author audits were actually read. All material factual claims have independent retrieved evidence within the scopes recorded above. Every source label describes its actual provider/page scope; source URL order, own-note coverage, terminal footer format and canonical dates/entities pass for every file. British factual prose contains no invented quotations, action, motive or tactical instruction. The final hashes were checked after all changes, and previously reviewed eight files match their recorded reviewed bytes.
+
+No calendar, Git, queue, publication date or publication action was performed by this reviewer. Root retains those responsibilities. Original Astra preparation and its provenance remain unchanged.
 
 ## Verdict
 
-PENDING
+PASS
