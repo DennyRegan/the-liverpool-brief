@@ -14,6 +14,7 @@ oppositionIds: ["tsv-1860-munich"]
 competitionIds: ["inter-cities-fairs-cup"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "ian-callaghan", "ian-st-john", "tony-hateley", "tommy-smith", "peter-thompson"]
+sources: ["https://www.lfchistory.net/games/420", "https://www.lfchistory.net/articles/3541", "https://www.liverpoolfc.com/news/features/371686-liverpool-s-10-biggest-european-victories", "https://www.rsssf.org/ec/ec196768.html"]
 ---
 
 Liverpool recorded their biggest European victory to that point when they beat TSV 1860 Munich 8–0 at Anfield on 7 November 1967. Roger Hunt and Ian Callaghan scored twice each, with four other players contributing to a Fairs Cup first leg that left the German side facing an eight-goal deficit.

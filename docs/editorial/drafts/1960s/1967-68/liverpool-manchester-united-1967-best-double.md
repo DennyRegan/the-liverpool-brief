@@ -14,6 +14,7 @@ oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["george-best", "roger-hunt"]
+sources: ["https://www.lfchistory.net/games/421", "https://www.lfchistory.net/players/326", "https://www.lfchistory.net/articles/3453", "https://www.lfchistory.net/season-archive/games/9"]
 ---
 
 George Best scored twice as Manchester United beat Liverpool 2–1 at Anfield on 11 November 1967 and moved above them at the top of the First Division. Roger Hunt’s late goal reduced the deficit but could not retrieve a point for Bill Shankly’s side.

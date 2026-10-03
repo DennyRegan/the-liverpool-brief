@@ -14,6 +14,7 @@ oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["fa-cup"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "tommy-smith"]
+sources: ["https://www.lfchistory.net/games/444", "https://www.11v11.com/matches/liverpool-v-tottenham-hotspur-12-march-1968-212701/", "https://www.lfchistory.net/games/443", "https://www.tottenhamhotspur.com/news/1048516/the-class-of-67-50-years-on", "https://fchd.info/cups/facup1967-68.htm"]
 ---
 
 Liverpool reached the FA Cup quarter-finals by beating holders Tottenham Hotspur 2–1 at Anfield on 12 March 1968. Roger Hunt gave them the lead, Tommy Smith scored a retaken penalty and a late goal from substitute Cliff Jones left Spurs one short of an equaliser.

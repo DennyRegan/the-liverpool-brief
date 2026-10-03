@@ -14,6 +14,7 @@ oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "tony-hateley"]
+sources: ["https://www.lfchistory.net/games/411", "https://www.11v11.com/matches/liverpool-v-everton-23-september-1967-79411/", "https://www.lfchistory.net/games/403", "https://www.lfchistory.net/season-archive/games/9"]
 ---
 
 Roger Hunt scored the only goal of the Merseyside derby at Anfield on 23 September 1967, giving Liverpool a 1–0 win over Everton. His breakthrough in the 78th minute kept Bill Shankly’s side at the head of the First Division table after nine matches.

@@ -14,6 +14,7 @@ oppositionIds: ["walsall"]
 competitionIds: ["fa-cup"]
 locationIds: ["anfield"]
 playerIds: ["tony-hateley", "geoff-strong"]
+sources: ["https://www.lfchistory.net/games/440", "https://www.11v11.com/matches/liverpool-v-walsall-19-february-1968-212686/", "https://www.lfchistory.net/games/439", "https://www.liverpoolfc.com/info/tony-hateley", "https://fchd.info/cups/facup1967-68.htm"]
 ---
 
 Tony Hateley scored four times as Liverpool beat Walsall 5–2 in their FA Cup fourth-round replay at Anfield on 19 February 1968. Geoff Strong supplied the other Liverpool goal, and two late replies from Tommy Watson came after the home side had established a five-goal lead.

@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T05:51:41.842773Z",
+  "updatedAt": "2026-10-03T05:58:45.432972Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -17790,13 +17790,9 @@
       "event": "Liverpool 6–0 Newcastle United: Hateley opens his Liverpool account with three",
       "historicalEventDate": "1967-08-26",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "b8084fcb-879c-4e2a-949b-e1450e7d0538",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-newcastle-1967-hateley-hat-trick.md",
       "originalDraftId": null,
@@ -17805,16 +17801,21 @@
       "notes": "The record signing scores his first three Liverpool goals, Hughes opens his account and an unbeaten opening week ends with six at Anfield. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/liverpool-newcastle-1967-hateley-hat-trick-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 6–0 Newcastle United",
         "opposition": "Newcastle United",
@@ -17823,25 +17824,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
           "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
-          "docs/editorial/drafts/1960s/1967-68/research/liverpool-newcastle-1967-hateley-hat-trick-notes.md"
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-newcastle-1967-hateley-hat-trick-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1967-09-23-liverpool-everton-1967-hunt-winner",
       "event": "Liverpool 1–0 Everton: Hunt’s late winner keeps Liverpool above their neighbours",
       "historicalEventDate": "1967-09-23",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "0cfbeabf-6cf6-4935-92be-9d46904f4246",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-everton-1967-hunt-winner.md",
       "originalDraftId": null,
@@ -17850,16 +17849,21 @@
       "notes": "A late derby winner preserves first place after the previous week’s Southampton defeat; Hateley and Hunt are central to the attacking partnership. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/liverpool-everton-1967-hunt-winner-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–0 Everton",
         "opposition": "Everton",
@@ -17868,25 +17872,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
           "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
-          "docs/editorial/drafts/1960s/1967-68/research/liverpool-everton-1967-hunt-winner-notes.md"
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-everton-1967-hunt-winner-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1967-09-27-bolton-liverpool-1967-league-cup-exit",
       "event": "Bolton Wanderers 3–2 Liverpool: Bolton end Liverpool’s League Cup return",
       "historicalEventDate": "1967-09-27",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "1afe2d6a-74a4-4990-907c-5aa022c3db47",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1967-68/bolton-liverpool-1967-league-cup-exit.md",
       "originalDraftId": null,
@@ -17895,16 +17897,21 @@
       "notes": "The renewed League Cup campaign ends at its first tie after a replay, despite Smith’s equaliser and Callaghan’s late reply; it records a distinct cup exit. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/bolton-liverpool-1967-league-cup-exit-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Bolton Wanderers 3–2 Liverpool",
         "opposition": "Bolton Wanderers",
@@ -17913,25 +17920,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
           "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
-          "docs/editorial/drafts/1960s/1967-68/research/bolton-liverpool-1967-league-cup-exit-notes.md"
+          "docs/editorial/drafts/1960s/1967-68/research/bolton-liverpool-1967-league-cup-exit-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1967-11-07-liverpool-tsv-munich-1967-eight-goals",
       "event": "Liverpool 8–0 TSV 1860 Munich: Eight goals overwhelm Munich at Anfield",
       "historicalEventDate": "1967-11-07",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "9bc192f5-3b4c-4844-a62b-29a69099390f",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-tsv-munich-1967-eight-goals.md",
       "originalDraftId": null,
@@ -17940,16 +17945,21 @@
       "notes": "A then-record European winning margin is built through six different scorers and a rapid second-half burst; this exceptional tie deserves full contemporary reconstruction. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/liverpool-tsv-munich-1967-eight-goals-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 8–0 TSV 1860 Munich",
         "opposition": "TSV 1860 Munich",
@@ -17958,25 +17968,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
           "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
-          "docs/editorial/drafts/1960s/1967-68/research/liverpool-tsv-munich-1967-eight-goals-notes.md"
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-tsv-munich-1967-eight-goals-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1967-11-11-liverpool-manchester-united-1967-best-double",
       "event": "Liverpool 1–2 Manchester United: Best’s double takes the lead from Liverpool",
       "historicalEventDate": "1967-11-11",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "2cfa280b-f576-43be-9db4-45d1f77f7c23",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-manchester-united-1967-best-double.md",
       "originalDraftId": null,
@@ -17985,16 +17993,21 @@
       "notes": "Four days after the European eight, Liverpool lose first place to United; Hunt’s late goal is his 242 nd under the corrected historical register, a milestone with an explicit attribution conflict. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/liverpool-manchester-united-1967-best-double-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–2 Manchester United",
         "opposition": "Manchester United",
@@ -18003,25 +18016,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
           "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
-          "docs/editorial/drafts/1960s/1967-68/research/liverpool-manchester-united-1967-best-double-notes.md"
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-manchester-united-1967-best-double-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1968-01-09-liverpool-ferencvaros-1968-fairs-cup-exit",
       "event": "Liverpool 0–1 Ferencváros: Ferencváros complete Liverpool’s European elimination",
       "historicalEventDate": "1968-01-09",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "133be191-7d0b-4a5c-aae1-1ba28f935267",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-ferencvaros-1968-fairs-cup-exit.md",
       "originalDraftId": null,
@@ -18030,16 +18041,21 @@
       "notes": "A second 1–0 defeat ends the European campaign after the huge Munich win; the home leg closes a distinct competition story. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/liverpool-ferencvaros-1968-fairs-cup-exit-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 0–1 Ferencváros",
         "opposition": "Ferencváros",
@@ -18048,25 +18064,23 @@
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
           "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
-          "docs/editorial/drafts/1960s/1967-68/research/liverpool-ferencvaros-1968-fairs-cup-exit-notes.md"
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-ferencvaros-1968-fairs-cup-exit-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1968-02-19-liverpool-walsall-1968-hateley-four",
       "event": "Liverpool 5–2 Walsall: Hateley scores four as Liverpool settle the Walsall replay",
       "historicalEventDate": "1968-02-19",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "399d951f-a099-45b5-9465-554020f42c27",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-walsall-1968-hateley-four.md",
       "originalDraftId": null,
@@ -18075,16 +18089,21 @@
       "notes": "The four-goal individual performance is a substantial scoring milestone within a replay-heavy cup run, distinct from the later Spurs and West Brom ties. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/liverpool-walsall-1968-hateley-four-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 5–2 Walsall",
         "opposition": "Walsall",
@@ -18092,25 +18111,24 @@
         "editorialReason": "The four-goal individual performance is a substantial scoring milestone within a replay-heavy cup run, distinct from the later Spurs and West Brom ties.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-walsall-1968-hateley-four-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1968-03-12-liverpool-tottenham-1968-fa-cup-replay",
       "event": "Liverpool 2–1 Tottenham Hotspur: Liverpool remove the cup holders in a third successive replay",
       "historicalEventDate": "1968-03-12",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "1aea8ddc-4351-4feb-9dc1-c9b3419b3276",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-tottenham-1968-fa-cup-replay.md",
       "originalDraftId": null,
@@ -18119,16 +18137,21 @@
       "notes": "Hunt and Smith take Liverpool through against the holders, after Bournemouth and Walsall also required replays; late Spurs resistance gives the tie its own development. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/liverpool-tottenham-1968-fa-cup-replay-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 2–1 Tottenham Hotspur",
         "opposition": "Tottenham Hotspur",
@@ -18136,25 +18159,24 @@
         "editorialReason": "Hunt and Smith take Liverpool through against the holders, after Bournemouth and Walsall also required replays; late Spurs resistance gives the tie its own development.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-tottenham-1968-fa-cup-replay-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1968-04-06-manchester-united-liverpool-1968-comeback",
       "event": "Manchester United 1–2 Liverpool: Liverpool answer Best and win at Old Trafford",
       "historicalEventDate": "1968-04-06",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "35fe6121-934c-4e2a-9844-dad458df3d27",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
       "draftPath": "docs/editorial/drafts/1960s/1967-68/manchester-united-liverpool-1968-comeback.md",
       "originalDraftId": null,
@@ -18163,16 +18185,21 @@
       "notes": "An early deficit becomes an away win over title rivals, leaving Liverpool two points off the lead with games in hand during the season’s decisive stage. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/manchester-united-liverpool-1968-comeback-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Manchester United 1–2 Liverpool",
         "opposition": "Manchester United",
@@ -18180,43 +18207,47 @@
         "editorialReason": "An early deficit becomes an away win over title rivals, leaving Liverpool two points off the lead with games in hand during the season’s decisive stage.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/manchester-united-liverpool-1968-comeback-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1968-04-18-liverpool-west-brom-1968-second-replay",
       "event": "Liverpool 1–2 West Bromwich Albion: West Brom end the long cup tie at Maine Road",
       "historicalEventDate": "1968-04-18",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "27e89972-1e25-409b-883b-22160f8f2963",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-west-brom-1968-second-replay.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "The neutral second replay closes a nine-match FA Cup campaign without a semi-final place; Astle, Hateley and Clark supply a clear three-goal development. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/liverpool-west-brom-1968-second-replay-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 1–2 West Bromwich Albion",
         "opposition": "West Bromwich Albion",
@@ -18224,43 +18255,47 @@
         "editorialReason": "The neutral second replay closes a nine-match FA Cup campaign without a semi-final place; Astle, Hateley and Clark supply a clear three-goal development.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-west-brom-1968-second-replay-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     },
     {
       "id": "match-1968-05-11-liverpool-nottingham-forest-1968-six-goals",
       "event": "Liverpool 6–1 Nottingham Forest: Hateley’s hat-trick takes Liverpool into third",
       "historicalEventDate": "1968-05-11",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
-      "claim": {
-        "token": "7807c358-f38c-4362-baa1-20485a5e8f4f",
-        "claimedAt": "2026-10-03T05:41:27.531082Z",
-        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1967-68/liverpool-nottingham-forest-1968-six-goals.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
       "notes": "A first-half deficit becomes six goals in the final home match, Hateley completes another hat-trick and Liverpool secure at least third while retaining a chance of second before the last away fixture. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "location": "docs/editorial/drafts/1960s/1967-68/research/liverpool-nottingham-forest-1968-six-goals-notes.md",
           "confidence": "high",
-          "scope": "Retrieved whole-season research and editorial selection; match-level claim audit accompanies finished draft."
+          "scope": "Retrieved source ledger, explicit confidence limitations and completed claim-by-claim factual audit by configured Sol 6.1."
+        },
+        {
+          "location": "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Independent retrieved-source manuscript review by configured Sol 6.1; corrections rechecked. No manual publication or schedule."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "matchProduction": {
         "batchId": "1960s-1967-68",
         "season": "1967-68",
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "matchLabel": "Liverpool 6–1 Nottingham Forest",
         "opposition": "Nottingham Forest",
@@ -18268,12 +18303,15 @@
         "editorialReason": "A first-half deficit becomes six goals in the final home match, Hateley completes another hat-trick and Liverpool secure at least third while retaining a chance of second before the last away fixture.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
-          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json",
+          "docs/editorial/drafts/1960s/1967-68/research/liverpool-nottingham-forest-1968-six-goals-notes.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-independent-review-2026-10-03.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-match"
     }
   ],
   "matchRecoveryGaps": [
@@ -18454,7 +18492,7 @@
     {
       "id": "1960s-1967-68",
       "season": "1967-68",
-      "stage": "drafting",
+      "stage": "checkpointed",
       "owner": "Archive editor / Sol continuation 2026-10-03",
       "model": "gpt-6.1-sol",
       "workerId": "/root/sol_1967_68",
@@ -18473,8 +18511,8 @@
         "match-1968-05-11-liverpool-nottingham-forest-1968-six-goals"
       ],
       "reusedPaths": [],
-      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection. Resumed after verified stopped prior session; original Astra research preserved; new research/writing by configured Sol 6.1.",
-      "nextStage": "Complete manuscripts and factual audits, independent review, validation and remote season checkpoint."
+      "notes": "11 finished new match reports by configured Sol 6.1; source-level factual audits and independent Sol review completed. Stored as unpublished automatic-History inventory; no manual approval, publication or schedule.",
+      "nextStage": null
     },
     {
       "id": "1960s-1968-69",

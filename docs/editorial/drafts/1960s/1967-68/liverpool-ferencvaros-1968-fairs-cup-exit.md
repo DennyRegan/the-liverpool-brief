@@ -14,6 +14,7 @@ oppositionIds: ["ferencvaros"]
 competitionIds: ["inter-cities-fairs-cup"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "geoff-strong"]
+sources: ["https://www.lfchistory.net/games/433", "https://www.lfchistory.net/games/425", "https://puskasakademia.hu/news/az-elso-siker-az-anfield-roadon", "https://www.rsssf.org/ec/ec196768.html"]
 ---
 
 Ferencváros ended Liverpool’s Fairs Cup campaign with a 1–0 victory at Anfield on 9 January 1968. László Branikovits scored the only goal, completing a 2–0 aggregate win for the Hungarian side after their identical first-leg result in Budapest.

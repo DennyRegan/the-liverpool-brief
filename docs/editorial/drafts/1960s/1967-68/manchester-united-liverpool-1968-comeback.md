@@ -14,6 +14,7 @@ oppositionIds: ["manchester-united"]
 competitionIds: ["first-division"]
 locationIds: ["old-trafford"]
 playerIds: ["ron-yeats", "roger-hunt", "george-best"]
+sources: ["https://www.lfchistory.net/games/448", "https://www.11v11.com/matches/manchester-united-v-liverpool-06-april-1968-79688/", "https://www.lfchistory.net/games/421", "https://www.lfchistory.net/season-archive/games/9"]
 ---
 
 Liverpool recovered from an early George Best goal to beat Manchester United 2–1 at Old Trafford on 6 April 1968. Ron Yeats equalised and Roger Hunt scored the winner, with all three goals arriving in the opening seventeen minutes.

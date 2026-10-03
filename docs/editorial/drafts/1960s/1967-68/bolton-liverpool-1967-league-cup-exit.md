@@ -14,6 +14,7 @@ oppositionIds: ["bolton-wanderers"]
 competitionIds: ["league-cup"]
 locationIds: ["burnden-park"]
 playerIds: ["tommy-smith", "ian-callaghan"]
+sources: ["https://www.lfchistory.net/games/412", "https://www.11v11.com/matches/bolton-wanderers-v-liverpool-27-september-1967-28856/", "https://www.lfchistory.net/games/408", "https://www.lfchistory.net/season-archive/games/9"]
 ---
 
 Liverpool’s League Cup campaign ended at Burnden Park on 27 September 1967 when Bolton Wanderers won their second-round replay 3–2. Tommy Smith had brought Liverpool level before half-time, but two Bolton goals in the second half left Ian Callaghan’s late reply insufficient.

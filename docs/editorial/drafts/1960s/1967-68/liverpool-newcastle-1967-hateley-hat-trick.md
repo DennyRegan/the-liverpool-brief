@@ -14,6 +14,7 @@ oppositionIds: ["newcastle-united"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["tony-hateley", "roger-hunt", "emlyn-hughes"]
+sources: ["https://www.lfchistory.net/games/403", "https://www.11v11.com/matches/liverpool-v-newcastle-united-26-august-1967-79344/", "https://www.liverpoolfc.com/news/first-team/154514-st-john-s-moving-tribute-to-hateley", "https://www.lfchistory.net/games/402", "https://www.lfchistory.net/players/324", "https://www.lfchistory.net/season-archive/games/9"]
 ---
 
 Tony Hateley scored his first three Liverpool goals in a 6–0 victory over Newcastle United at Anfield on 26 August 1967. In his third league appearance since arriving from Chelsea, the club’s record signing shared five goals with Roger Hunt, while Emlyn Hughes scored his first for Liverpool.
