@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2322","https://www.lfchistory.net/articles/1651","https://www.lfchistory.net/season-archive/games/42","https://www.lfchistory.net/games/2259"]
 title: "Charlton 0 Liverpool 4: Fowler finishes the season's final job"
 slug: "charlton-liverpool-2001-champions-league-place"
 excerpt: "Four second-half goals secured third place and a Champions League qualifying berth three days after Liverpool completed their cup treble."

@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4987","https://www.uefa.com/uefachampionsleague/news/01b3-0e6d6fd0076d-6cb9ee4bc1bc-1000/","https://www.anfield-online.co.uk/fixtures/2006/uefa/benficahome.htm"]
 title: "Benfica end Liverpool’s defence of the European Cup"
 slug: "liverpool-benfica-2006-european-defence-ends"
 excerpt: "Missed chances at Anfield preceded goals from Simão and Fabrizio Miccoli as Liverpool went out 3–0 on aggregate."

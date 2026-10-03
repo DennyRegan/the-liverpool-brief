@@ -2883,5 +2883,100 @@
     "id": "filbert-street",
     "label": "Filbert Street",
     "kind": "location"
+  },
+  {
+    "id": "spartak-moscow",
+    "label": "Spartak Moscow",
+    "kind": "opposition"
+  },
+  {
+    "id": "besiktas",
+    "label": "Beşiktaş",
+    "kind": "opposition"
+  },
+  {
+    "id": "havant-waterlooville",
+    "label": "Havant & Waterlooville",
+    "kind": "opposition"
+  },
+  {
+    "id": "barnsley",
+    "label": "Barnsley",
+    "kind": "opposition"
+  },
+  {
+    "id": "lyon",
+    "label": "Lyon",
+    "kind": "opposition"
+  },
+  {
+    "id": "lille",
+    "label": "Lille",
+    "kind": "opposition"
+  },
+  {
+    "id": "northampton-town",
+    "label": "Northampton Town",
+    "kind": "opposition"
+  },
+  {
+    "id": "napoli",
+    "label": "Napoli",
+    "kind": "opposition"
+  },
+  {
+    "id": "cardiff-city",
+    "label": "Cardiff City",
+    "kind": "opposition"
+  },
+  {
+    "id": "oldham-athletic",
+    "label": "Oldham Athletic",
+    "kind": "opposition"
+  },
+  {
+    "id": "zenit-saint-petersburg",
+    "label": "Zenit Saint Petersburg",
+    "kind": "opposition"
+  },
+  {
+    "id": "ludogorets-razgrad",
+    "label": "Ludogorets Razgrad",
+    "kind": "opposition"
+  },
+  {
+    "id": "sevilla",
+    "label": "Sevilla",
+    "kind": "opposition"
+  },
+  {
+    "id": "hoffenheim",
+    "label": "Hoffenheim",
+    "kind": "opposition"
+  },
+  {
+    "id": "maribor",
+    "label": "Maribor",
+    "kind": "opposition"
+  },
+  {
+    "id": "atalanta",
+    "label": "Atalanta",
+    "kind": "opposition"
+  },
+  {
+    "id": "rangers",
+    "label": "Rangers",
+    "kind": "opposition"
+  },
+  {
+    "id": "plymouth-argyle",
+    "label": "Plymouth Argyle",
+    "kind": "opposition"
+  },
+  {
+    "id": "emirates-stadium",
+    "label": "Emirates Stadium",
+    "kind": "location"
   }
 ]

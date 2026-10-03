@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2392","https://www.lfchistory.net/articles/1475","https://www.uefa.com/news-media/news/025e-0f9076ca78ea-325dc77bec66-1000--england-round-up-owen-ends-goal-drought-in-style/"]
 title: "Owen answers with three at Maine Road"
 slug: "manchester-city-liverpool-2002-owen-hat-trick"
 # date: assigned only at approved publication

@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2313","https://www.lfchistory.net/articles/1642","https://www.liverpoolfc.com/info/gary-mcallister","https://www.lfchistory.net/season-archive/games/42"]
 title: "Everton 2 Liverpool 3: McAllister decides it from distance"
 slug: "everton-liverpool-2001-mcallister-derby-winner"
 excerpt: "With Liverpool down to ten men and two leads already lost, Gary McAllister won the derby with a stoppage-time free-kick."

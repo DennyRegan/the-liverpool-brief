@@ -1,0 +1,162 @@
+{
+  "season": "2007-08",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2007_08",
+  "purpose": "Supporting season selection evidence; thirteen selected manuscripts and claim audits completed. history-calendar.json remains authoritative for completion and eligibility.",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/117",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Full competitive fixture ledger, chronology, competitions and results; retrieved 2026-10-01."
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/117",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Fourth place, 76 points, eleven-point deficit to champions; retrieved 2026-10-01."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/info/fernando-torres",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "Official first-season 33 competitive goals and 24 league goals; retrieved 2026-10-01."
+    }
+  ],
+  "selected": [
+    {
+      "date": "2007-08-19",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "score": "Liverpool 1–1 Chelsea",
+      "slug": "liverpool-chelsea-2007-torres-first-goal",
+      "reason": "Torres scores his first Liverpool goal; Chelsea equalise through a penalty subsequently acknowledged as a refereeing error."
+    },
+    {
+      "date": "2007-10-20",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Everton 1–2 Liverpool",
+      "slug": "everton-liverpool-2007-kuyt-two-penalties",
+      "reason": "Major derby comeback decided by two penalties and two Everton dismissals; Gerrard replaced by Lucas before the decisive handball."
+    },
+    {
+      "date": "2007-11-06",
+      "opposition": "Beşiktaş",
+      "oppositionId": "besiktas",
+      "competitionId": "european-cup",
+      "score": "Liverpool 8–0 Beşiktaş",
+      "slug": "liverpool-besiktas-2007-eight-goal-record",
+      "reason": "Champions League record winning margin at the time; begins recovery from one point in three group games."
+    },
+    {
+      "date": "2007-12-11",
+      "opposition": "Marseille",
+      "oppositionId": "marseille",
+      "competitionId": "european-cup",
+      "score": "Marseille 0–4 Liverpool",
+      "slug": "marseille-liverpool-2007-group-recovery-complete",
+      "reason": "Decisive qualification victory after troubled group start; complete group story includes Porto win as context."
+    },
+    {
+      "date": "2008-01-26",
+      "opposition": "Havant & Waterlooville",
+      "oppositionId": "havant-waterlooville",
+      "competitionId": "fa-cup",
+      "score": "Liverpool 5–2 Havant & Waterlooville",
+      "slug": "liverpool-havant-waterlooville-2008-benayoun-hat-trick",
+      "reason": "Sixth-tier visitors lead twice at Anfield before Benayoun hat-trick; exceptional cup encounter."
+    },
+    {
+      "date": "2008-02-16",
+      "opposition": "Barnsley",
+      "oppositionId": "barnsley",
+      "competitionId": "fa-cup",
+      "score": "Liverpool 1–2 Barnsley",
+      "slug": "liverpool-barnsley-2008-howard-cup-exit",
+      "reason": "Championship opposition eliminates Liverpool at Anfield through late Howard winner and Steele goalkeeping."
+    },
+    {
+      "date": "2008-02-19",
+      "opposition": "Inter Milan",
+      "oppositionId": "inter-milan",
+      "competitionId": "european-cup",
+      "score": "Liverpool 2–0 Inter Milan",
+      "slug": "liverpool-inter-2008-late-goals",
+      "reason": "Two late goals transform last-16 tie against Italian champions immediately after Barnsley defeat."
+    },
+    {
+      "date": "2008-02-23",
+      "opposition": "Middlesbrough",
+      "oppositionId": "middlesbrough",
+      "competitionId": "premier-league",
+      "score": "Liverpool 3–2 Middlesbrough",
+      "slug": "liverpool-middlesbrough-2008-torres-first-league-hat-trick",
+      "reason": "Torres first Premier League hat-trick turns early deficit into win and brings season total above twenty."
+    },
+    {
+      "date": "2008-03-05",
+      "opposition": "West Ham United",
+      "oppositionId": "west-ham-united",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–0 West Ham United",
+      "slug": "liverpool-west-ham-2008-torres-repeat-hat-trick",
+      "reason": "Second successive home league hat-trick by Torres and fourth-place recovery; historical comparison subject to verification."
+    },
+    {
+      "date": "2008-03-11",
+      "opposition": "Inter Milan",
+      "oppositionId": "inter-milan",
+      "competitionId": "european-cup",
+      "score": "Inter Milan 0–1 Liverpool",
+      "slug": "inter-liverpool-2008-torres-san-siro",
+      "reason": "Torres settles return leg; Liverpool win both meetings with Italian champions; Carragher European appearance milestone."
+    },
+    {
+      "date": "2008-04-08",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "european-cup",
+      "score": "Liverpool 4–2 Arsenal",
+      "slug": "liverpool-arsenal-2008-babel-quarter-final",
+      "reason": "Six-goal quarter-final with three late goals and two changes of qualification advantage."
+    },
+    {
+      "date": "2008-04-30",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "european-cup",
+      "score": "Chelsea 3–2 Liverpool",
+      "slug": "chelsea-liverpool-2008-extra-time-exit",
+      "reason": "Extra-time semi-final defeat ends European campaign; first-leg Riise own goal explained as tie context."
+    },
+    {
+      "date": "2008-05-11",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "score": "Tottenham Hotspur 0–2 Liverpool",
+      "slug": "tottenham-liverpool-2008-torres-debut-season-record",
+      "reason": "Torres reaches twenty-four league goals and sets then-record for overseas Premier League debut season; concluding season landmark."
+    }
+  ],
+  "reusedPaths": [
+    "content/archive/liverpool/torres-first-hat-trick-reading-2007.md"
+  ],
+  "omissions": [
+    "Reading League Cup match 25 September already published and reused without rewriting.",
+    "Arsenal away quarter-final and Chelsea home semi-final covered within decisive return-leg reports; no duplication for its own sake.",
+    "Porto home 4–1 contextualised in Marseille qualification article; earlier Marseille and Beşiktaş defeats contextualised in group-recovery reports.",
+    "Derby 6–0 and early league lead, March Everton 1–0, Reading home twentieth league goal, routine wins and League Cup Chelsea quarter-final exit considered; selected league milestones and decisive European/cup results provide stronger distinct stories.",
+    "No friendly or testimonial selected; 27 September 2008 Goodison Torres article belongs to next season."
+  ],
+  "limitations": [
+    "Root coordinator must confirm prior-season checkpoint, fresh remote duplicate checks and visible calendar claims before drafting.",
+    "Missing opposition identities at initial audit: Beşiktaş, Havant & Waterlooville and Barnsley; unresolved IDs remain null pending canonical addition.",
+    "Goal-time differences between LFChistory and contemporary sources require sequence wording or independent adjudication; never silently choose a convenient number.",
+    "Havant second goal variously attributed to Alfie Potter or Martin Škrtel own goal. Investigate before final copy; describe deflection if unresolved.",
+    "RTÉ full-page retrieval blocked; those search extracts are discovery only and not substantive manuscript sources. No footage watched."
+  ]
+}

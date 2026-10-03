@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.uefa.com/news-media/news/01a5-0f84643e62ab-67bce57e07e2-1000--liverpool-lose-out-at-burnley/","https://www.lfchistory.net/games/4920","https://www.lfchistory.net/season-archive/games/104"]
 title: "Burnley 1–0 Liverpool: Traoré's own goal settles the cup tie"
 # date: assigned only at approved publication
 historicalEventDate: "2005-01-18"

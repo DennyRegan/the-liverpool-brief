@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2286","https://www.lfchistory.net/articles/1625","https://www.manutd.com/en/mutv/videos/detail/man-utd-0-liverpool-1-extended-highlights-premier-league-2000-01"]
 title: "Manchester United 0 Liverpool 1: Murphy breaks the Old Trafford run"
 slug: "manchester-united-liverpool-2000-murphy-free-kick"
 excerpt: "Danny Murphy's free-kick and a disciplined Liverpool performance ended Manchester United's long unbeaten home league sequence."

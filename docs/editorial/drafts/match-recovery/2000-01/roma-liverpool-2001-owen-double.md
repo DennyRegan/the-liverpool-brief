@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2299","https://www.lfchistory.net/articles/2863","https://www.uefa.com/uefachampionsleague/news/0244-0e98b72dc833-06447a245d6d-1000--roma-in-need-of-another-miracle-for-liverpool-return/"]
 title: "Roma 0 Liverpool 2: Owen takes his chances in Rome"
 slug: "roma-liverpool-2001-owen-double"
 excerpt: "Two second-half goals from Michael Owen rewarded a disciplined Liverpool display in the UEFA Cup fourth round."

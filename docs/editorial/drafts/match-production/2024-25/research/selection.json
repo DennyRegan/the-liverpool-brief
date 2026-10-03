@@ -1,0 +1,335 @@
+{
+  "season": "2024-25",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2019_2025",
+  "purpose": "Supporting broad selection evidence only; history-calendar.json remains authoritative. No manuscript drafted.",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/134",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Retrieved complete competitive ledger: dates, scores, venues, competitions and league-position sequence."
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/134",
+      "provider": "LFChistory",
+      "confidence": "High",
+      "scope": "Retrieved final league standings and points, separated from interim matchday positions."
+    },
+    {
+      "url": "https://lfcbeta.liverpoolfc.com/news/jota-and-salah-strike-give-liverpool-opening-day-victory-ipswich",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-08-17: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-continue-perfect-start-dominant-3-0-win-old-trafford",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-09-01: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/mohamed-salah-scores-late-equaliser-liverpools-2-2-draw-arsenal",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-10-27: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-beat-real-madrid-anfield-continue-winning-streak-champions-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-11-27: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://lfcbeta.liverpoolfc.com/news/liverpool-beat-manchester-city-2-0-go-nine-points-clear-top-premier-league",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-12-01: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-spend-christmas-four-points-clear-top-after-scoring-six-win-over-tottenham/",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2024-12-22: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/darwin-nunez-scores-two-late-goals-give-liverpool-dramatic-win-brentford?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2025-01-18: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-beaten-plymouth-argyle-fa-cup-fourth-round?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2025-02-09: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-and-everton-play-out-merseyside-derby-draw-goodison-park",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2025-02-12: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/man-city-0-2-liverpool-salah-and-szoboszlai-goals-send-reds-11-points-clear/",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2025-02-23: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/late-harvey-elliott-winner-sees-liverpool-beat-psg-away-ucl-last-16-first-leg",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2025-03-05: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-knocked-out-champions-league-psg-penalties?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2025-03-11: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-beaten-wembley-newcastle-carabao-cup-final",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2025-03-16: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/liverpool-seal-premier-league-title-anfield-5-1-win-over-tottenham/?amp=1",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2025-04-27: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.liverpoolfc.com/news/champions-liverpool-draw-crystal-palace-premier-league-final-day",
+      "provider": "Liverpool FC",
+      "confidence": "High",
+      "scope": "2025-05-25: retrieved contemporary record/report establishes significance and result; detailed action and claim-level fact-check remain manuscript-stage work."
+    },
+    {
+      "url": "https://www.premierleague.com/en/news/4287630",
+      "provider": "Premier League",
+      "confidence": "High",
+      "scope": "Retrieved official confirmation of second Premier League title, twentieth English title, Slot first season and four games remaining; published 28 April, event was 27 April."
+    },
+    {
+      "url": "https://www.premierleague.com/en/news/4294546",
+      "provider": "Premier League",
+      "confidence": "High",
+      "scope": "Retrieved clinching-match report: required one point before kick-off; 5–1 win; unassailable 15-point margin. Embedded table now shows final standings and must not be mistaken for that day."
+    },
+    {
+      "url": "https://www.premierleague.com/en/news/4314803",
+      "provider": "Premier League",
+      "confidence": "High",
+      "scope": "Retrieved 25 May official awards record: Salah 29 goals, 18 assists, 47 combined; Golden Boot/Playmaker/Player of Season distinction and comparison with 42-match seasons."
+    },
+    {
+      "url": "https://www.newcastleunited.com/en/news/liverpool-1-newcastle-united-2",
+      "provider": "Newcastle United",
+      "confidence": "High",
+      "scope": "Retrieved opponent final report confirms Burn/Isak goals, Chiesa consolation and first Newcastle League Cup. Domestic-trophy wait must be distinguished from European success in 1969."
+    }
+  ],
+  "selected": [
+    {
+      "date": "2024-08-17",
+      "opposition": "Ipswich Town",
+      "oppositionId": "ipswich-town",
+      "competitionId": "premier-league",
+      "score": "Ipswich Town 0–2 Liverpool",
+      "slug": "ipswich-liverpool-2024-slot-first-competitive-match",
+      "reason": "Slot competitive debut and Salah opening-weekend scoring record begin title season.",
+      "primarySource": "https://lfcbeta.liverpoolfc.com/news/jota-and-salah-strike-give-liverpool-opening-day-victory-ipswich",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
+    },
+    {
+      "date": "2024-09-01",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "score": "Manchester United 0–3 Liverpool",
+      "slug": "manchester-united-liverpool-2024-slot-old-trafford-win",
+      "reason": "Decisive early rivalry victory and third successive clean-sheet league win under Slot.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-continue-perfect-start-dominant-3-0-win-old-trafford",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
+    },
+    {
+      "date": "2024-10-27",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "score": "Arsenal 2–2 Liverpool",
+      "slug": "arsenal-liverpool-2024-salah-late-equaliser",
+      "reason": "Twice recovering against eventual runners-up preserves early title-race position.",
+      "primarySource": "https://www.liverpoolfc.com/news/mohamed-salah-scores-late-equaliser-liverpools-2-2-draw-arsenal",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
+    },
+    {
+      "date": "2024-11-27",
+      "opposition": "Real Madrid",
+      "oppositionId": "real-madrid",
+      "competitionId": "european-cup",
+      "score": "Liverpool 2–0 Real Madrid",
+      "slug": "liverpool-real-madrid-2024-anfield-win",
+      "reason": "Significant European victory over holders with Kelleher penalty save during flawless league-phase start.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beat-real-madrid-anfield-continue-winning-streak-champions-league",
+      "workerId": "/root/astra_2019_2025",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
+    },
+    {
+      "date": "2024-12-01",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Liverpool 2–0 Manchester City",
+      "slug": "liverpool-manchester-city-2024-nine-points-clear",
+      "reason": "Win over champions establishes nine-point league lead and 11-point margin over City.",
+      "primarySource": "https://lfcbeta.liverpoolfc.com/news/liverpool-beat-manchester-city-2-0-go-nine-points-clear-top-premier-league",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
+    },
+    {
+      "date": "2024-12-22",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "score": "Tottenham Hotspur 3–6 Liverpool",
+      "slug": "tottenham-liverpool-2024-six-goals-at-christmas",
+      "reason": "Exceptional nine-goal match confirms Christmas leadership and Salah attacking contribution.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-spend-christmas-four-points-clear-top-after-scoring-six-win-over-tottenham/",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
+    },
+    {
+      "date": "2025-01-18",
+      "opposition": "Brentford",
+      "oppositionId": "brentford",
+      "competitionId": "premier-league",
+      "score": "Brentford 0–2 Liverpool",
+      "slug": "brentford-liverpool-2025-nunez-stoppage-time-double",
+      "reason": "Nunez stoppage-time double turns threatened third consecutive league draw into vital win.",
+      "primarySource": "https://www.liverpoolfc.com/news/darwin-nunez-scores-two-late-goals-give-liverpool-dramatic-win-brentford?amp=1",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
+    },
+    {
+      "date": "2025-02-09",
+      "opposition": "Plymouth Argyle",
+      "oppositionId": "plymouth-argyle",
+      "competitionId": "fa-cup",
+      "score": "Plymouth Argyle 1–0 Liverpool",
+      "slug": "plymouth-liverpool-2025-fa-cup-upset",
+      "reason": "Fourth-round elimination by struggling Championship opposition interrupts four-competition campaign.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beaten-plymouth-argyle-fa-cup-fourth-round?amp=1",
+      "workerId": "/root/astra_2013_2019",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review.md"
+    },
+    {
+      "date": "2025-02-12",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "score": "Everton 2–2 Liverpool",
+      "slug": "everton-liverpool-2025-final-goodison-derby",
+      "reason": "Final senior men’s Merseyside derby at Goodison ends with 98 th-minute equaliser.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-and-everton-play-out-merseyside-derby-draw-goodison-park",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
+    },
+    {
+      "date": "2025-02-23",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Manchester City 0–2 Liverpool",
+      "slug": "manchester-city-liverpool-2025-eleven-points-clear",
+      "reason": "Away win over reigning champions opens 11-point lead with Arsenal having a game in hand.",
+      "primarySource": "https://www.liverpoolfc.com/news/man-city-0-2-liverpool-salah-and-szoboszlai-goals-send-reds-11-points-clear/",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
+    },
+    {
+      "date": "2025-03-05",
+      "opposition": "Paris Saint-Germain",
+      "oppositionId": "paris-saint-germain",
+      "competitionId": "european-cup",
+      "score": "Paris Saint-Germain 0–1 Liverpool",
+      "slug": "paris-saint-germain-liverpool-2025-alisson-elliott-win",
+      "reason": "Exceptional Alisson goalkeeping and Elliott immediate late impact win last-16 first leg.",
+      "primarySource": "https://www.liverpoolfc.com/news/late-harvey-elliott-winner-sees-liverpool-beat-psg-away-ucl-last-16-first-leg",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
+    },
+    {
+      "date": "2025-03-11",
+      "opposition": "Paris Saint-Germain",
+      "oppositionId": "paris-saint-germain",
+      "competitionId": "european-cup",
+      "score": "Liverpool 0–1 Paris Saint-Germain after extra time; PSG win 4–1 on penalties",
+      "slug": "liverpool-paris-saint-germain-2025-shootout-exit",
+      "reason": "Champions League elimination on penalties after winning league phase and away first leg.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-knocked-out-champions-league-psg-penalties?amp=1",
+      "workerId": "/root/astra_2007_08",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
+    },
+    {
+      "date": "2025-03-16",
+      "opposition": "Newcastle United",
+      "oppositionId": "newcastle-united",
+      "competitionId": "league-cup",
+      "score": "Liverpool 1–2 Newcastle United",
+      "slug": "liverpool-newcastle-2025-league-cup-final-defeat",
+      "reason": "Final defeat leaves Premier League as remaining route to silverware.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-beaten-wembley-newcastle-carabao-cup-final",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
+    },
+    {
+      "date": "2025-04-27",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "score": "Liverpool 5–1 Tottenham Hotspur",
+      "slug": "liverpool-tottenham-2025-twentieth-title",
+      "reason": "Five-goal recovery clinches twentieth English title in Slot first season with four matches remaining.",
+      "primarySource": "https://www.liverpoolfc.com/news/liverpool-seal-premier-league-title-anfield-5-1-win-over-tottenham/?amp=1",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
+    },
+    {
+      "date": "2025-05-25",
+      "opposition": "Crystal Palace",
+      "oppositionId": "crystal-palace",
+      "competitionId": "premier-league",
+      "score": "Liverpool 1–1 Crystal Palace",
+      "slug": "liverpool-crystal-palace-2025-title-trophy-day",
+      "reason": "Trophy presentation, ten-man recovery and Salah record-equalling goal close defined collection endpoint.",
+      "primarySource": "https://www.liverpoolfc.com/news/champions-liverpool-draw-crystal-palace-premier-league-final-day",
+      "workerId": "/root/astra_independent_review",
+      "reviewFile": "docs/editorial/drafts/match-production/2024-25/research/independent-review-second.md"
+    }
+  ],
+  "reusedPaths": [],
+  "omissions": [
+    "Most league fixtures are omitted. The Forest defeat, Southampton comeback, Newcastle/Fulham draws and late-season results can supply dated campaign context without one article per weekend.",
+    "Leverkusen win and other league-phase victories are context for finishing top of the Champions League standings; Madrid and both PSG legs preserve the distinct European story.",
+    "Tottenham League Cup semi-final comeback is evidence for the route to Wembley, covered within the final report rather than a separate commission.",
+    "Arsenal home draw after clinching and defeats to Chelsea/Brighton are included in final-season context where necessary, not treated as a new title race."
+  ],
+  "limitations": [
+    "Distinguish 27 April title clinch at 82 points from 25 May trophy presentation and final 84 points.",
+    "The 1 December advantage was nine points over Arsenal/Chelsea and 11 over Manchester City; February 23 was 11 over Arsenal with unequal games played.",
+    "Salah final totals are 29 league goals and 18 assists: 47 combined, equalling the overall Premier League record and exceeding previous 38-match-season totals. Do not describe 47 as an outright all-era record.",
+    "Goodison must be described as the final men’s senior derby there, avoiding unsupported assertions about future women’s fixtures or closure of the stadium.",
+    "Disciplinary incidents after Goodison final whistle require the official FA decision if included, not speculation from match reaction.",
+    "EFL final page retrieved only title/navigation; it is not relied upon for action, goals or detailed milestone claims. Opponent Newcastle report retrieved as corroboration.",
+    "Both PSG legs merit reports for different reasons: extraordinary goalkeeper performance and late winner in Paris, then the defining shootout elimination at Anfield.",
+    "The user-defined endpoint is 2024–25; do not import later careers, transfers, deaths or subsequent season results into these match reports without necessity and evidence.",
+    "Full line-ups, exact times, detailed action and contextual claims need independent cross-checks during manuscript production. No footage reviewed.",
+    "No manuscript may begin until the coordinator confirms remote claims and chronological previous-season checkpoint."
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "season": "2008-09",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_2008_2013",
+  "sources": [
+    {
+      "url": "https://www.lfchistory.net/season-archive/games/118",
+      "provider": "LFChistory",
+      "claims": "Complete competitive ledger: exact dates, venues, competition rounds, scores; selection and chronology.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.lfchistory.net/season-archive/league-table/118",
+      "provider": "LFChistory",
+      "claims": "Final league table.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01d1-0e6fd467406e-965a8b0ddaa1-1000--liverpool-fight-back-to-down-united/",
+      "provider": "UEFA",
+      "claims": "Liverpool 2–1 Manchester United: First league victory over United under Benítez; comeback against defending champions.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.mancity.com/news/first-team/match-report/2008/october/city-v-liverpool-05-oct-2008",
+      "provider": "Manchester City FC",
+      "claims": "Manchester City 2–3 Liverpool: Recovery from two goals down; stoppage-time winner sustains unbeaten start.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01d2-0e70325d4c0a-094526dfd1e9-1000--alonso-and-liverpool-conquer-stamford-bridge/",
+      "provider": "UEFA",
+      "claims": "Chelsea 0–1 Liverpool: Ends Chelsea’s 86-match unbeaten home league run and gives Liverpool outright lead.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01d4-0e70ab6cc532-d957a4f7f3bb-1000--five-star-liverpool-prise-open-three-point-lead/",
+      "provider": "UEFA",
+      "claims": "Newcastle United 1–5 Liverpool: Commanding win closes calendar year with Liverpool top; Gerrard double.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01d6-0f85aada7102-8234e6bc1250-1000--late-torres-double-breaks-chelsea-resistance/",
+      "provider": "UEFA",
+      "claims": "Liverpool 2–0 Chelsea: Late goals complete double over a title rival after damaging January draws.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/01d6-0e70ef4d75bb-8392630d6be8-1000--madrid-caught-by-benayoun-sucker-punch/",
+      "provider": "UEFA",
+      "claims": "Real Madrid 0–1 Liverpool: First leg victory at the Bernabéu through Benayoun header.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01d6-0f85af35adea-31b471cd78a2-1000--liverpool-laid-low-by-middlesbrough-setback/",
+      "provider": "UEFA",
+      "claims": "Middlesbrough 2–0 Liverpool: Second and final league defeat against a side ending a 14-game winless sequence; necessary setback in title story.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/01e8-0e7503447e59-a709bd0f1d00-1000--2008-09-liverpool-fc-4-0-real-madrid-cf-report/",
+      "provider": "UEFA",
+      "claims": "Liverpool 4–0 Real Madrid: Completes 5–0 aggregate round-of-16 win; Gerrard’s 100th European appearance.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01d7-0e7114d985ff-7b9ac4c19b9e-1000--united-put-to-the-sword-as-reds-run-riot/",
+      "provider": "UEFA",
+      "claims": "Manchester United 1–4 Liverpool: Away victory cuts lead to four points and completes league double.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01d8-0e712890a520-32fd8155d76d-1000--benayoun-boosts-liverpool-s-title-ambitions/",
+      "provider": "UEFA",
+      "claims": "Fulham 0–1 Liverpool: Stoppage-time winner sends Liverpool temporarily top in title run-in.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/01ff-0e7e5be36722-f52dfb1d4b65-1000--2008-09-chelsea-fc-4-4-liverpool-fc-report/",
+      "provider": "UEFA",
+      "claims": "Chelsea 4–4 Liverpool: Extraordinary comeback attempts in Champions League quarter-final elimination.",
+      "confidence": "High"
+    },
+    {
+      "url": "https://www.uefa.com/news-media/news/01d8-0f85b7ea705b-c962707f3767-1000--arshavin-hits-four-in-epic-anfield-encounter/",
+      "provider": "UEFA",
+      "claims": "Liverpool 4–4 Arsenal: Four goals by an opponent and damaging dropped points in closing title race.",
+      "confidence": "High"
+    }
+  ],
+  "selected": [
+    {
+      "date": "2008-09-13",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "score": "Liverpool 2–1 Manchester United",
+      "slug": "babel-ends-united-league-run-2008",
+      "reason": "First league victory over United under Benítez; comeback against defending champions.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01d1-0e6fd467406e-965a8b0ddaa1-1000--liverpool-fight-back-to-down-united/"
+    },
+    {
+      "date": "2008-10-05",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "score": "Manchester City 2–3 Liverpool",
+      "slug": "kuyt-completes-city-comeback-2008",
+      "reason": "Recovery from two goals down; stoppage-time winner sustains unbeaten start.",
+      "sourceUrl": "https://www.mancity.com/news/first-team/match-report/2008/october/city-v-liverpool-05-oct-2008"
+    },
+    {
+      "date": "2008-10-26",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "score": "Chelsea 0–1 Liverpool",
+      "slug": "alonso-ends-chelsea-home-run-2008",
+      "reason": "Ends Chelsea’s 86-match unbeaten home league run and gives Liverpool outright lead.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01d2-0e70325d4c0a-094526dfd1e9-1000--alonso-and-liverpool-conquer-stamford-bridge/"
+    },
+    {
+      "date": "2008-12-28",
+      "opposition": "Newcastle United",
+      "oppositionId": "newcastle-united",
+      "competitionId": "premier-league",
+      "score": "Newcastle United 1–5 Liverpool",
+      "slug": "gerrard-five-goals-newcastle-2008",
+      "reason": "Commanding win closes calendar year with Liverpool top; Gerrard double.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01d4-0e70ab6cc532-d957a4f7f3bb-1000--five-star-liverpool-prise-open-three-point-lead/"
+    },
+    {
+      "date": "2009-02-01",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "score": "Liverpool 2–0 Chelsea",
+      "slug": "torres-late-double-chelsea-2009",
+      "reason": "Late goals complete double over a title rival after damaging January draws.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01d6-0f85aada7102-8234e6bc1250-1000--late-torres-double-breaks-chelsea-resistance/"
+    },
+    {
+      "date": "2009-02-25",
+      "opposition": "Real Madrid",
+      "oppositionId": "real-madrid",
+      "competitionId": "european-cup",
+      "score": "Real Madrid 0–1 Liverpool",
+      "slug": "benayoun-bernabeu-winner-2009",
+      "reason": "First leg victory at the Bernabéu through Benayoun header.",
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/news/01d6-0e70ef4d75bb-8392630d6be8-1000--madrid-caught-by-benayoun-sucker-punch/"
+    },
+    {
+      "date": "2009-02-28",
+      "opposition": "Middlesbrough",
+      "oppositionId": "middlesbrough",
+      "competitionId": "premier-league",
+      "score": "Middlesbrough 2–0 Liverpool",
+      "slug": "middlesbrough-title-setback-2009",
+      "reason": "Second and final league defeat against a side ending a 14-game winless sequence; necessary setback in title story.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01d6-0f85af35adea-31b471cd78a2-1000--liverpool-laid-low-by-middlesbrough-setback/"
+    },
+    {
+      "date": "2009-03-10",
+      "opposition": "Real Madrid",
+      "oppositionId": "real-madrid",
+      "competitionId": "european-cup",
+      "score": "Liverpool 4–0 Real Madrid",
+      "slug": "gerrard-torres-real-madrid-four-2009",
+      "reason": "Completes 5–0 aggregate round-of-16 win; Gerrard’s 100th European appearance.",
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/news/01e8-0e7503447e59-a709bd0f1d00-1000--2008-09-liverpool-fc-4-0-real-madrid-cf-report/"
+    },
+    {
+      "date": "2009-03-14",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "score": "Manchester United 1–4 Liverpool",
+      "slug": "four-at-old-trafford-2009",
+      "reason": "Away victory cuts lead to four points and completes league double.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01d7-0e7114d985ff-7b9ac4c19b9e-1000--united-put-to-the-sword-as-reds-run-riot/"
+    },
+    {
+      "date": "2009-04-04",
+      "opposition": "Fulham",
+      "oppositionId": "fulham",
+      "competitionId": "premier-league",
+      "score": "Fulham 0–1 Liverpool",
+      "slug": "benayoun-late-fulham-winner-2009",
+      "reason": "Stoppage-time winner sends Liverpool temporarily top in title run-in.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01d8-0e712890a520-32fd8155d76d-1000--benayoun-boosts-liverpool-s-title-ambitions/"
+    },
+    {
+      "date": "2009-04-14",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "european-cup",
+      "score": "Chelsea 4–4 Liverpool",
+      "slug": "eight-goals-stamford-bridge-2009",
+      "reason": "Extraordinary comeback attempts in Champions League quarter-final elimination.",
+      "sourceUrl": "https://www.uefa.com/uefachampionsleague/news/01ff-0e7e5be36722-f52dfb1d4b65-1000--2008-09-chelsea-fc-4-4-liverpool-fc-report/"
+    },
+    {
+      "date": "2009-04-21",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "score": "Liverpool 4–4 Arsenal",
+      "slug": "arshavin-four-anfield-2009",
+      "reason": "Four goals by an opponent and damaging dropped points in closing title race.",
+      "sourceUrl": "https://www.uefa.com/news-media/news/01d8-0f85b7ea705b-c962707f3767-1000--arshavin-hits-four-in-epic-anfield-encounter/"
+    }
+  ],
+  "reused": [
+    {
+      "date": "2008-09-27",
+      "path": "docs/editorial/drafts/torres-goodison-derby-double-2008.md",
+      "reason": "Completed factual derby report; preserve prose and provenance."
+    }
+  ],
+  "deliberateOmissions": [
+    "Standard Liège qualifying win: significant late qualifier, but group qualification is adequately contextualised within the selected European campaign; no separate article required.",
+    "Chelsea first leg, Everton FA Cup replay, Tottenham first league defeat: discuss relevant consequences within selected reports where verified; do not require a separate report merely for every exit or defeat.",
+    "Aston Villa 5–0 and late league wins: exceptional scorelines, but title momentum is represented by Old Trafford, Fulham and Arsenal."
+  ],
+  "limitations": [
+    "Selection evidence is retrieved; article-specific detailed reconstruction and independent factual cross-checks remain to be completed after remote claims.",
+    "Chelsea away scorer attribution conflict: LFChistory notes later Bosingwa own-goal ruling while Liverpool retain Alonso attribution. Investigate primary league record before prose.",
+    "No article prose drafted before root confirms remote season claims."
+  ],
+  "reusedPaths": [
+    "docs/editorial/drafts/torres-goodison-derby-double-2008.md"
+  ]
+}

@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.liverpoolfc.com/news/first-team/296820-5-everton-0-2-liverpool-september-27-2008","https://www.uefa.com/news-media/news/01d1-0f84e6c320ab-435e55125ec8-1000--arsenal-fall-to-hull-as-rivals-claim-wins/","https://www.skysports.com/football/everton-vs-liverpool/4771","https://www.lfchistory.net/games/5132"]
 title: "Torres’ quick double wins the Goodison derby"
 slug: "torres-goodison-derby-double-2008"
 # Set date to the actual first-publication date only after approval.

@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4989","https://www.the-independent.com/sport/football/premier-league/chelsea-1-liverpool-2-riise-and-shine-for-team-benitez-6103066.html","https://www.thefa.com/news/2020/feb/28/140220-chelsea-liverpool-historical-games"]
 title: "Riise and García take Liverpool past Chelsea"
 slug: "chelsea-liverpool-2006-riise-garcia-semi-final"
 excerpt: "Liverpool established a two-goal lead at Old Trafford and survived Chelsea’s late pressure to reach the FA Cup final."

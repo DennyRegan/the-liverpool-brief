@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4923","https://www.abc.net.au/news/2005-02-28/chelsea-snatch-win-in-cup-thriller/1526638","https://www.uefa.com/news/0254-0d7b399bcdb7-8143be26d77c-1000--cup-triumph-for-chelsea/","https://www.liverpoolfc.com/news/first-team/208611-a-history-of-lfc-s-league-cup-finals-2003-and-2005"]
 title: "Chelsea 3–2 Liverpool: an early lead ends in extra-time defeat"
 # date: assigned only at approved publication
 historicalEventDate: "2005-02-27"

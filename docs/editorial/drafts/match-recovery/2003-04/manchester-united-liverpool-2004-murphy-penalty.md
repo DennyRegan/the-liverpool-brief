@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2480","https://www.lfchistory.net/articles/1714","https://www.premierleague.com/en/news/694317","https://www.lfchistory.net/season-archive/games/46"]
 title: "Manchester United 0–1 Liverpool: Murphy delivers at Old Trafford again"
 # date: assigned only at approved publication
 historicalEventDate: "2004-04-24"

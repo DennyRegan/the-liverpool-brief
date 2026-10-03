@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/5047","https://www.uefa.com/uefachampionsleague/news/01c1-0ea8b419fc5b-52c2536a29d5-1000--penalty-joy-as-liverpool-reach-final/","https://www.anfield-online.co.uk/fixtures/2007/uefa/liverpool-1-0-chelsea-european-cup-semi-final-home-leg.html"]
 title: "Agger levels the tie and Reina sends Liverpool to Athens"
 slug: "liverpool-chelsea-2007-agger-reina-shoot-out"
 excerpt: "Liverpool overturned Chelsea’s first-leg lead before winning the Anfield penalty shoot-out 4–1."

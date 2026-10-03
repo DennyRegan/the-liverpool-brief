@@ -1,0 +1,251 @@
+{
+  "type": "Source metadata parity only; all article bodies and footer URLs unchanged",
+  "reports": 49,
+  "changes": [
+    {
+      "path": "docs/editorial/drafts/match-recovery/2000-01/manchester-united-liverpool-2000-murphy-free-kick.md",
+      "bodySha256": "b25cb41af4e150d13490ea63f281b58e93e5689200a13a26bdf5be0dfb55ee66",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2000-01/liverpool-crystal-palace-2001-five-goal-semi-final.md",
+      "bodySha256": "830504c1874ad34e5de8e3011645dde41d89a3e37d3bc775322f1e4e24793f99",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2000-01/roma-liverpool-2001-owen-double.md",
+      "bodySha256": "8b0876cb17189eaaf545c130f24e5c12f830bafc74d695c2a233cc09cab18308",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2000-01/liverpool-birmingham-2001-league-cup-final.md",
+      "bodySha256": "34e2015eb4b2330faf9c8a13afa421f50f1c0f15c5c25e7c9189453a36b6a34c",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2000-01/everton-liverpool-2001-mcallister-derby-winner.md",
+      "bodySha256": "3e6977c891257031cfdcd4ed3d94dc0fce1f73bb5104e34c9c4a23b47d1c8561",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2000-01/liverpool-barcelona-2001-mcallister-semi-final.md",
+      "bodySha256": "6d0f93996d900ee15cceacf68a3f04f4ba8460cbc6a486fdbcf4fdc3382d7fb2",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2000-01/liverpool-arsenal-2001-owen-fa-cup-final.md",
+      "bodySha256": "842170d1d67a7a5c6119617c634f89cfbc5ae2b8bd321b534ba5d1c449fb6ccd",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2000-01/liverpool-alaves-2001-uefa-cup-treble.md",
+      "bodySha256": "2239b99bfae5eb97bcf7e9d3f7e5cbbf8ee265806f8310eca36d73229ea052f2",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2000-01/charlton-liverpool-2001-champions-league-place.md",
+      "bodySha256": "2f4190918a1dd62a79d381a38e4f7ce5a45f73b5c5c2c23dfcf02a7971495c55",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2001-02/liverpool-bayern-2001-super-cup.md",
+      "bodySha256": "9947dde3b9d08a2f7c008857b0637d4a81eb8570e043ca76d2cd8b924220c74e",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2001-02/liverpool-manchester-united-2001-riise-owen.md",
+      "bodySha256": "a88df9fd14c4b7f1aa81eaed8585e7b846640072d2b35f66bd458249a921ee56",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2001-02/manchester-united-liverpool-2002-murphy-winner.md",
+      "bodySha256": "0a0dd15b45ad2bb2e81c95722f8a3ea5004eddc8601c56ef2ceec735c5117f2d",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2001-02/liverpool-roma-2002-houllier-return.md",
+      "bodySha256": "6bbdfc05b9e340c30cdfad9d6742e8f492542cb896829cd99bf0b0cbffba49c2",
+      "sourceCount": 5
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2001-02/leverkusen-liverpool-2002-quarter-final-exit.md",
+      "bodySha256": "113f4b52c0afceb4691f5d6d8f69fbcd13097f22dafb840d086c8b729921d11a",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2001-02/liverpool-ipswich-2002-second-place.md",
+      "bodySha256": "95f2031ddd4983ba3ef8b5b27da1107e0d6eb2a2b06f84a3ca10ee836922979f",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2002-03/manchester-city-liverpool-2002-owen-hat-trick.md",
+      "bodySha256": "be02413ae0031a02ef1bb4ca052f696d2d0b036773d30178432a1aaec3275fa5",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2002-03/basel-liverpool-2002-comeback-elimination.md",
+      "bodySha256": "62687d3cf057222939c98e482818c5184494e06c9b1424678fb2b7b6bc2897c9",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2002-03/liverpool-sheffield-united-2003-extra-time-final.md",
+      "bodySha256": "6afbeacc6950191958e333a011f889c49c9dd2a571e1cb5af7515fa6a3705a16",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2002-03/liverpool-manchester-united-2003-league-cup-final.md",
+      "bodySha256": "2b826ae4a8caed39c3b3cda3239385983d3f1513ea10cb1ca32959a0d61d9258",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2002-03/liverpool-celtic-2003-anfield-exit.md",
+      "bodySha256": "d85f8f5376fb1e2ba7ca2943f017f6838fb62eb81994b5137faedd8843069b11",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2002-03/chelsea-liverpool-2003-champions-league-place.md",
+      "bodySha256": "6c731f159761079dd37b4625440b44af25b4e48af213f6092ab5bd4a55395c27",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2003-04/everton-liverpool-2003-owen-kewell.md",
+      "bodySha256": "2bcfb3cd0f03f2c5128a43304d8f59fb07ebe09e40cbb1576ca321f1ac95d4e1",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2003-04/chelsea-liverpool-2004-cheyrou.md",
+      "bodySha256": "efc91e4ffde261f69fd12c87a86b71499b1db97a760fe8cda7c34dd066e07c7a",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2003-04/marseille-liverpool-2004-uefa-cup-exit.md",
+      "bodySha256": "bc61656966942677fbf9f5601525737bcbf16ff455a558f70d6f09a4a41b4c91",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2003-04/arsenal-liverpool-2004-henry-hat-trick.md",
+      "bodySha256": "c33f3ea30926006abe0beff36c7bdfaccb58cfdf87a2af32bc3f423a4519e15c",
+      "sourceCount": 2
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2003-04/manchester-united-liverpool-2004-murphy-penalty.md",
+      "bodySha256": "0a53e37021f394386619557e86d1554ef9801a19461323f655c1cd84260037de",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2004-05/liverpool-arsenal-2004-mellor-winner.md",
+      "bodySha256": "5ec43bbcc4cda11b2d241603b97c1798eb6c93cacd3a07bd4001e2035f33bdd8",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2004-05/liverpool-olympiacos-2004-gerrard.md",
+      "bodySha256": "9f64904d230de6657128ae195d2a44dfdafb576e69f9171fa3cdba9231a58c6a",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2004-05/burnley-liverpool-2005-fa-cup-exit.md",
+      "bodySha256": "9cf5080a3ccb77070010311182da742621d55d8bc0dbb2af739bc7afd0a4ec51",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2004-05/chelsea-liverpool-2005-league-cup-final.md",
+      "bodySha256": "67550c16af7e8e1951c6d245e017c4d7ad1fbb057e445f0efc0624c19a5c9790",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2004-05/liverpool-juventus-2005-first-leg.md",
+      "bodySha256": "3d26bda2cc8e306924e4f3cc167e9aa29c88b81f981b478cd14a3d77f733b966",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2004-05/juventus-liverpool-2005-second-leg.md",
+      "bodySha256": "c7e926ce0915590d7fea1595295f31b9ac3abafa2e0c28e867e406d50dd57708",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2004-05/liverpool-chelsea-2005-champions-league-semi-final.md",
+      "bodySha256": "77b18f5906127f611673ebc200da778d807fa3fc71e00dfc3927e5d780cc638e",
+      "sourceCount": 5
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2004-05/istanbul-2005-champions-league-final.md",
+      "bodySha256": "da791dcd3b04cd3a96ab0e6d30aeb82c9d4fb2d33b7159a3be7a5005b592783b",
+      "sourceCount": 5
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2005-06/liverpool-cska-moscow-2005-cisse-super-cup.md",
+      "bodySha256": "95ea73c0d300d91beb6c2f835d28e19cba70e0a02117e5137f1b62e38e667a93",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2005-06/sao-paulo-liverpool-2005-world-final-defeat.md",
+      "bodySha256": "88633913a81a837bb601f405f379be078ebc99410a5ff36146cf9100be31b31c",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2005-06/luton-liverpool-2006-sinama-pongolle-alonso-comeback.md",
+      "bodySha256": "86c66fde12e1bca03076c0a301abca2993045f3e2b835469bb7107f4f6f5f413",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2005-06/liverpool-manchester-united-2006-crouch-cup-header.md",
+      "bodySha256": "504e6caadecf364e28750237bb7d4819302a817dddc562bad8e0948132528d9c",
+      "sourceCount": 5
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2005-06/liverpool-benfica-2006-european-defence-ends.md",
+      "bodySha256": "24adab436a4ca90ebbc6ceb533547f42f4a8393becdcef608bfdd65a24754f45",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2005-06/chelsea-liverpool-2006-riise-garcia-semi-final.md",
+      "bodySha256": "a8bb0f6ad4db3df38f3ae4d5d5e42f6f3fd8eb69acb04d624fa61d2ca7f1caaf",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2005-06/liverpool-west-ham-2006-gerrard-fa-cup-final.md",
+      "bodySha256": "48ccea73286536dfabd643066246cc8c6f104bbe6261b37ba098796ce384cd9e",
+      "sourceCount": 5
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2006-07/everton-liverpool-2006-johnson-derby-defeat.md",
+      "bodySha256": "d3a5fa299d97fc4a47c0949bd6155971040a7d64e8ce57be097f2246f87269d0",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-baptista-four-cup-exit.md",
+      "bodySha256": "7328b8a8c0a95428cc5de486ff6ea8ee48be5433fa357856299f9896f7591610",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2006-07/barcelona-liverpool-2007-bellamy-riise-camp-nou.md",
+      "bodySha256": "3a875f4f3e718cb7d7e86e7b0a9872283b68843acbf190e0d79b8a85de51b55e",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2006-07/liverpool-arsenal-2007-crouch-perfect-hat-trick.md",
+      "bodySha256": "ea0c1f9675593bf804a61485dc997fe283053f691eda32e02041296efc97456c",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2006-07/psv-liverpool-2007-three-away-goals.md",
+      "bodySha256": "3e2fb3da40f875970aed5f3456828ad6815ce1bb288058d3a3da0ef17ff3e58f",
+      "sourceCount": 4
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2006-07/liverpool-chelsea-2007-agger-reina-shoot-out.md",
+      "bodySha256": "4a1e10c14fb86329eaa547f99e9a9254e159397dcc69cf109d24006ece21b409",
+      "sourceCount": 3
+    },
+    {
+      "path": "docs/editorial/drafts/match-recovery/2006-07/milan-liverpool-2007-inzaghi-athens-final.md",
+      "bodySha256": "aebc0bd8d78a463daa8d93cee63018fe4c405e78acc8c11d3dfa74f00b70a4a7",
+      "sourceCount": 5
+    },
+    {
+      "path": "docs/editorial/drafts/torres-goodison-derby-double-2008.md",
+      "bodySha256": "a3c1bd7fa59c25a3ff7b9560af9ee7a35be3d16b7de7a89ebc267eeccb7f8c93",
+      "sourceCount": 4
+    }
+  ]
+}

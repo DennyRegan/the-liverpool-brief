@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2343","https://www.lfchistory.net/articles/1088","https://www.premierleague.com/en/news/4214335"]
 title: "Riise's free-kick and Owen's double beat United"
 slug: "liverpool-manchester-united-2001-riise-owen"
 # date: assigned only at approved publication

@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2423","https://www.uefa.com/news-media/news/018d-0f84467d35d8-df2328201d28-1000--cardiff-looms-large-for-liverpool/","https://iol.co.za/capeargus/sport/2003-01-09-tonge-double-licks-liverpool/"]
 title: "Owen gives Liverpool breathing room on the way to Cardiff"
 slug: "liverpool-sheffield-united-2003-extra-time-final"
 # date: assigned only at approved publication

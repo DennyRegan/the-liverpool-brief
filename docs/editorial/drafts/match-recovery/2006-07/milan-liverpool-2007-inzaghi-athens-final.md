@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/5048","https://www.uefa.com/uefachampionsleague/news/01c1-0e6e500c2c66-db2412e7ba39-1000/","https://www.anfield-online.co.uk/fixtures/2007/uefa/liverpool-1-2-ac-milan-european-cup-final.html","https://www.irishtimes.com/sport/soccer/ac-milan-exact-revenge-on-liverpool-1.1300781","https://www.acmilan.com/en/club/palmares/2006-07-champions-league"]
 title: "Inzaghi takes the final away from Liverpool in Athens"
 slug: "milan-liverpool-2007-inzaghi-athens-final"
 excerpt: "Liverpool’s chances went unconverted before Filippo Inzaghi’s double secured Milan a 2–1 victory."

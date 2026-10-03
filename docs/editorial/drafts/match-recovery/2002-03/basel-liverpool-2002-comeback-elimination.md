@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2402","https://www.uefa.com/uefachampionsleague/news/025a-0eaaec8635e3-3e51343b6814-1000--basel-oust-liverpool-in-thriller/","https://www.uefa.com/uefachampionsleague/news/025a-0eaaec8635e2-05d89120f000-1000--reds-out-as-basel-make-history/"]
 title: "Liverpool recover three goals but go out in Basel"
 slug: "basel-liverpool-2002-comeback-elimination"
 # date: assigned only at approved publication

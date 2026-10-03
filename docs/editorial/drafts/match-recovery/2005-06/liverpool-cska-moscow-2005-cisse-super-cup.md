@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/4973","https://www.uefa.com/uefasupercup/news/0250-0c50f26edfce-94a41c62a90d-1000--cisse-inspires-liverpool-comeback/","https://www.lfchistory.net/articles/824"]
 title: "Cissé turns the Super Cup in Liverpool’s favour"
 slug: "liverpool-cska-moscow-2005-cisse-super-cup"
 excerpt: "Three decisive contributions from substitute Djibril Cissé brought Liverpool a third European Super Cup."

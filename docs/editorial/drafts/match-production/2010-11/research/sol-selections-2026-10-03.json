@@ -1,0 +1,303 @@
+{
+  "season": "2010-11",
+  "model": "gpt-6.1-sol",
+  "workerId": "/root/sol_1967_68",
+  "researchedAt": "2026-10-03",
+  "priorSelectionFile": "docs/editorial/drafts/match-production/2010-11/research/selection.json",
+  "provenance": "Fresh Sol whole-season and match retrieval; preserves original Astra preparation and nine slugs. Manuscript drafting waits for root-confirmed remote main claims.",
+  "selectionChanges": {
+    "retained": 9,
+    "added": [
+      {
+        "date": "2010-11-07",
+        "slug": "torres-chelsea-double-2010",
+        "reason": "The leading defending champions are beaten by Torres’s first-half double, completing three successive league wins: the clearest league high point under Hodgson."
+      },
+      {
+        "date": "2011-04-11",
+        "slug": "carroll-first-goals-city-2011",
+        "reason": "Carroll’s first Liverpool goals and Flanagan’s senior debut make this three-goal first half a distinct milestone in Dalglish’s rebuilding."
+      },
+      {
+        "date": "2011-04-17",
+        "slug": "kuyt-arsenal-late-penalty-2011",
+        "reason": "Two penalties in added time produce an exceptional ending, with Liverpool using young full-backs after injuries."
+      }
+    ],
+    "removed": []
+  },
+  "matches": [
+    {
+      "date": "2010-09-22",
+      "slug": "northampton-anfield-shootout-upset-2010",
+      "home": "Liverpool",
+      "away": "Northampton Town",
+      "score": "2–2",
+      "opposition": "Northampton Town",
+      "oppositionId": "northampton-town",
+      "competitionId": "league-cup",
+      "title": "Northampton win the shootout at Anfield",
+      "editorialReason": "League Two opposition eliminate Liverpool in their first League Cup match: a distinct cup upset rather than another league defeat.",
+      "managerId": "roy-hodgson",
+      "locationId": "anfield",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5268",
+        "https://www.skysports.com/football/liverpool-vs-northampton-town/report/227792",
+        "https://www.lfchistory.net/season-archive/games/120",
+        "https://www.liverpoolfc.com/info/roy-hodgson"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/northampton-anfield-shootout-upset-2010-notes.md",
+      "penaltyWinner": "Northampton Town",
+      "penaltyScore": "2–4"
+    },
+    {
+      "date": "2010-10-17",
+      "slug": "goodison-defeat-new-ownership-2010",
+      "home": "Everton",
+      "away": "Liverpool",
+      "score": "2–0",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "title": "Derby defeat follows Liverpool’s change of ownership",
+      "editorialReason": "The first match after the NESV takeover ends in a derby defeat, leaving Liverpool nineteenth after eight league games.",
+      "managerId": "roy-hodgson",
+      "locationId": "goodison-park",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5228",
+        "https://www.uefa.com/news-media/news/01ea-0e75c9233f47-5a9ac1ba78a5-1000--everton-compound-liverpool-s-woes/",
+        "https://www.lfchistory.net/season-archive/games/120",
+        "https://www.liverpoolfc.com/news/first-team/111647-one-year-10-key-moments"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/goodison-defeat-new-ownership-2010-notes.md"
+    },
+    {
+      "date": "2010-11-04",
+      "slug": "gerrard-napoli-substitute-hat-trick-2010",
+      "home": "Liverpool",
+      "away": "Napoli",
+      "score": "3–1",
+      "opposition": "Napoli",
+      "oppositionId": "napoli",
+      "competitionId": "uefa-cup",
+      "title": "Gerrard’s hat-trick overturns Napoli’s lead",
+      "editorialReason": "A half-time substitute scores three late goals to turn a European group match: a distinct individual performance in Hodgson’s difficult spell.",
+      "managerId": "roy-hodgson",
+      "locationId": "anfield",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5264",
+        "https://www.uefa.com/uefaeuropaleague/news/01eb-0e76295115ae-cd30c5b271c5-1000--gerrard-stuns-napoli-with-late-treble/",
+        "https://www.lfchistory.net/season-archive/games/120"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/gerrard-napoli-substitute-hat-trick-2010-notes.md"
+    },
+    {
+      "date": "2010-11-07",
+      "slug": "torres-chelsea-double-2010",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "score": "2–0",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "title": "Torres scores twice against the champions",
+      "editorialReason": "The leading defending champions are beaten by Torres’s first-half double, completing three successive league wins: the clearest league high point under Hodgson.",
+      "managerId": "roy-hodgson",
+      "locationId": "anfield",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5231",
+        "https://www.uefa.com/news-media/news/01eb-0f8605843d04-837ccc3bf933-1000--liverpool-rise-as-torres-torments-chelsea/",
+        "https://www.lfchistory.net/season-archive/games/120",
+        "https://www.skysports.com/football/liverpool-vs-chelsea/221158"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/torres-chelsea-double-2010-notes.md"
+    },
+    {
+      "date": "2011-01-05",
+      "slug": "blackburn-hodgson-last-match-2011",
+      "home": "Blackburn Rovers",
+      "away": "Liverpool",
+      "score": "3–1",
+      "opposition": "Blackburn Rovers",
+      "oppositionId": "blackburn-rovers",
+      "competitionId": "premier-league",
+      "title": "Blackburn defeat ends Hodgson’s match record",
+      "editorialReason": "Liverpool lose Hodgson’s final match; fresh official appointment reporting establishes the managerial turning point three days later.",
+      "managerId": "roy-hodgson",
+      "locationId": "ewood-park",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5242",
+        "https://www.skysports.com/football/blackburn-rovers-vs-liverpool/report/215379",
+        "https://www.lfchistory.net/season-archive/games/120",
+        "https://www.uefa.com/uefaeuropaleague/news/0254-0d7ce6f095e9-7e65c100e86a-1000--dalglish-in-for-hodgson-at-liverpool/",
+        "https://www.liverpoolfc.com/info/roy-hodgson",
+        "https://www.lfchistory.net/images/newspapers/riley/20110105vblackburn.pdf"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/blackburn-hodgson-last-match-2011-notes.md"
+    },
+    {
+      "date": "2011-01-09",
+      "slug": "dalglish-return-old-trafford-2011",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "score": "1–0",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "fa-cup",
+      "title": "Dalglish returns to a penalty and a dismissal",
+      "editorialReason": "Dalglish’s first match on returning to the dugout ends in an FA Cup defeat, with an early penalty and Gerrard’s red card.",
+      "managerId": "kenny-dalglish",
+      "locationId": "old-trafford",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5271",
+        "https://www.uefa.com/news-media/news/01ed-0f8614c99f55-e50ad7cf8ee3-1000--united-edge-out-ten-man-liverpool/",
+        "https://www.lfchistory.net/season-archive/games/120",
+        "https://www.uefa.com/uefaeuropaleague/news/0254-0d7ce6f095e9-7e65c100e86a-1000--dalglish-in-for-hodgson-at-liverpool/"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/dalglish-return-old-trafford-2011-notes.md"
+    },
+    {
+      "date": "2011-02-02",
+      "slug": "suarez-scoring-debut-stoke-2011",
+      "home": "Liverpool",
+      "away": "Stoke City",
+      "score": "2–0",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "premier-league",
+      "title": "Suárez scores on his Liverpool debut",
+      "editorialReason": "The new striker scores as a substitute on his first Liverpool appearance after the January change in attack.",
+      "managerId": "kenny-dalglish",
+      "locationId": "anfield",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5245",
+        "https://www.skysports.com/football/liverpool-vs-stoke-city/215446",
+        "https://www.lfchistory.net/season-archive/games/120",
+        "https://www.liverpoolfc.com/news/first-team/286771-7-luis-suarez",
+        "https://www.liverpoolfc.com/news/first-team/96040-the-reds-under-king-kenny-in-2011",
+        "https://www.lfchistory.net/images/newspapers/riley/20110202vstoke.pdf"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/suarez-scoring-debut-stoke-2011-notes.md"
+    },
+    {
+      "date": "2011-02-06",
+      "slug": "meireles-chelsea-torres-debut-2011",
+      "home": "Chelsea",
+      "away": "Liverpool",
+      "score": "0–1",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "title": "Meireles wins on Torres’s Chelsea debut",
+      "editorialReason": "Victory at Stamford Bridge on the departed striker’s first Chelsea appearance gives Dalglish four consecutive league wins.",
+      "managerId": "kenny-dalglish",
+      "locationId": "stamford-bridge",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5246",
+        "https://www.uefa.com/news-media/news/01ee-0e77001396b2-fa878d2f3633-1000--chelsea-undone-by-revitalised-liverpool/",
+        "https://www.lfchistory.net/season-archive/games/120"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/meireles-chelsea-torres-debut-2011-notes.md"
+    },
+    {
+      "date": "2011-03-06",
+      "slug": "kuyt-hat-trick-united-2011",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "score": "3–1",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "title": "Kuyt’s hat-trick beats the league leaders",
+      "editorialReason": "Kuyt scores three against United, with Suárez creating the first and third; Carroll makes his competitive debut.",
+      "managerId": "kenny-dalglish",
+      "locationId": "anfield",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5249",
+        "https://www.uefa.com/news-media/news/01ef-0e775cde3ae8-bce66171b96d-1000--leaders-united-caught-out-by-kuyt-treble/",
+        "https://www.lfchistory.net/season-archive/games/120"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/kuyt-hat-trick-united-2011-notes.md"
+    },
+    {
+      "date": "2011-04-11",
+      "slug": "carroll-first-goals-city-2011",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "score": "3–0",
+      "opposition": "Manchester City",
+      "oppositionId": "manchester-city",
+      "competitionId": "premier-league",
+      "title": "Carroll’s first goals help beat Manchester City",
+      "editorialReason": "Carroll’s first Liverpool goals and Flanagan’s senior debut make this three-goal first half a distinct milestone in Dalglish’s rebuilding.",
+      "managerId": "kenny-dalglish",
+      "locationId": "anfield",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5251",
+        "https://www.uefa.com/news-media/news/01f0-0f8628442e0f-038339eb5ea2-1000--carroll-breaks-duck-in-liverpool-stroll/",
+        "https://www.lfchistory.net/season-archive/games/120",
+        "https://www.liverpoolfc.com/news/first-team/96040-the-reds-under-king-kenny-in-2011"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/carroll-first-goals-city-2011-notes.md"
+    },
+    {
+      "date": "2011-04-17",
+      "slug": "kuyt-arsenal-late-penalty-2011",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "score": "1–1",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "title": "Kuyt’s late penalty answers Arsenal",
+      "editorialReason": "Two penalties in added time produce an exceptional ending, with Liverpool using young full-backs after injuries.",
+      "managerId": "kenny-dalglish",
+      "locationId": "emirates-stadium",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5252",
+        "https://www.uefa.com/news-media/news/01f0-0e77e7147141-eed57e24bee4-1000--arsenal-denied-by-last-gasp-kuyt/",
+        "https://www.lfchistory.net/season-archive/games/120",
+        "https://www.liverpoolfc.com/news/first-team/96040-the-reds-under-king-kenny-in-2011"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/kuyt-arsenal-late-penalty-2011-notes.md"
+    },
+    {
+      "date": "2011-05-09",
+      "slug": "maxi-fulham-five-goals-2011",
+      "home": "Fulham",
+      "away": "Liverpool",
+      "score": "2–5",
+      "opposition": "Fulham",
+      "oppositionId": "fulham",
+      "competitionId": "premier-league",
+      "title": "Maxi’s hat-trick leads a five-goal away win",
+      "editorialReason": "Maxi’s second hat-trick in three league appearances, a five-goal away performance and Carragher’s appearance milestone mark the spring recovery’s high point.",
+      "managerId": "kenny-dalglish",
+      "locationId": "craven-cottage",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5255",
+        "https://www.liverpoolfc.com/news/first-team/95919-maxi-hits-treble-in-reds-rout",
+        "https://www.lfchistory.net/season-archive/games/120",
+        "https://www.lfchistory.net/season-archive/league-table/120"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2010-11/research/maxi-fulham-five-goals-2011-notes.md"
+    }
+  ],
+  "deliberateOmissions": [
+    "Manchester United away (2–3, 19 September): the Gerrard comeback and Berbatov hat-trick were considered. The return match has a Liverpool hat-trick and January has Dalglish’s return; the selection retains those distinct United stories rather than expanding every rivalry fixture.",
+    "Blackpool home, Wolves home and other league defeats: Northampton, Goodison and Hodgson’s final match already represent distinct points in the early crisis.",
+    "Dalglish’s first home match against Everton and first league win at Wolves: meaningful transition context, but the FA Cup return and fourth consecutive win at Chelsea provide the strongest separate match stories.",
+    "Birmingham 5–0: Maxi’s first hat-trick is useful context for Fulham, whose away five-goal performance and Carragher milestone make it the stronger standalone selection.",
+    "Braga’s scoreless second leg: the European exit belongs in whole-season context; no standalone report is selected solely to complete competition coverage."
+  ],
+  "duplicateAudit": {
+    "checkedAt": "2026-10-03",
+    "scope": "Exact historicalEventDate frontmatter in public content and retained drafts; exact-date git searches across fetched origin refs. All twelve dates returned no completed match manuscript. Original preparation is not a completed body.",
+    "duplicates": []
+  },
+  "limitations": [
+    "No manuscript body written; final factual audits and independent review pending.",
+    "emirates-stadium location identity requested from root; LFChistory /games/5252 is freshly retrieved venue evidence.",
+    "Unselected Utrecht home fixture date differs between whole-season registers; do not use the disputed date without further resolution."
+  ]
+}

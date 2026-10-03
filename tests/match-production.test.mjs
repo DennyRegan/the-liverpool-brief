@@ -4,8 +4,15 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import matter from 'gray-matter';
-import { validateCalendar, calendarPath } from '../scripts/validate-editorial-calendar.mjs';
+import { validateCalendar, calendarPath, seasonForLiverpoolMatchDate } from '../scripts/validate-editorial-calendar.mjs';
 import { getMatchReportInventory } from '../scripts/match-report-inventory.mjs';
+
+test('July 2020 delayed title-season games retain 2019–20 while the next Community Shield stays in 2020–21', () => {
+  assert.equal(seasonForLiverpoolMatchDate('2020-07-22'), '2019-20');
+  assert.equal(seasonForLiverpoolMatchDate('2020-07-26'), '2019-20');
+  assert.equal(seasonForLiverpoolMatchDate('2020-08-29'), '2020-21');
+  assert.equal(seasonForLiverpoolMatchDate('2021-07-22'), '2021-22');
+});
 
 function fixture() {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'match-production-'));

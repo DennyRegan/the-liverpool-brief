@@ -1,4 +1,5 @@
 ---
+sources: ["https://www.lfchistory.net/games/2294","https://www.lfchistory.net/articles/2542","https://www.liverpoolfc.com/news/features/432945-treble-memories-the-day-in-cardiff-that-inspired-liverpool-s-trophy-haul"]
 title: "Liverpool 5 Crystal Palace 0: six minutes turn the semi-final"
 slug: "liverpool-crystal-palace-2001-five-goal-semi-final"
 excerpt: "Three early goals overturned Liverpool's first-leg deficit and set Gérard Houllier's side on the way to Cardiff."
