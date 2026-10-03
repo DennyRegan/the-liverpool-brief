@@ -21,7 +21,7 @@ Everton beat Liverpool 2–0 at Anfield on 21 March 1970, reversing the result o
 
 Royle was credited with the early opener, leaving Everton 1–0 ahead at half-time. Whittle added the second after 48 minutes. Liverpool sent on Alun Evans for Peter Thompson after 71 minutes but did not score.
 
-The contemporary Liverpool Echo reports, preserved by LFChistory, describe Alan Ball’s influence in midfield and early saves by Ray Clemence. One report records Clemence keeping out a misdirected Ron Yeats header and a header from John Hurst before Everton took the lead.
+The contemporary Liverpool Echo reports, preserved by LFChistory, describe Alan Ball’s influence in midfield and early saves by Ray Clemence. One report records Clemence keeping out a misdirected Ron Yeats header and a header from John Hurst during the first half.
 
 The first goal’s actual contact was disputed afterwards. The reproduced Echo accounts include differing claims from Royle and Yeats, so the official credit to Royle is clearer than any definitive description of the touch that sent the ball in.
 

@@ -14,7 +14,7 @@ oppositionIds: ["watford"]
 competitionIds: ["fa-cup"]
 locationIds: ["vicarage-road"]
 playerIds: ["tommy-lawrence", "roger-hunt", "larry-lloyd", "ray-clemence"]
-sources: ["https://www.lfchistory.net/games/551", "https://www.rsssf.org/engpaul/FLA/1969-70.html", "https://www.lfchistory.net/season-archive/games/11", "https://www.liverpoolfc.com/news/first-team/144273-how-bill-shankly-changed-the-team", "https://www.liverpoolfc.com/news/five-more-stories-shanklys-second-coming-documentary", "https://www.lfchistory.net/season-archive/transfers/11", "https://www.lfchistory.net/players/363", "https://www.11v11.com/players/ray-clemence-36453/"]
+sources: ["https://www.lfchistory.net/games/551", "https://www.rsssf.org/engpaul/FLA/1969-70.html", "https://www.lfchistory.net/season-archive/games/11", "https://www.liverpoolfc.com/news/first-team/144273-how-bill-shankly-changed-the-team", "https://www.liverpoolfc.com/news/five-more-stories-shanklys-second-coming-documentary", "https://www.lfchistory.net/season-archive/transfers/11", "https://www.lfchistory.net/players/363", "https://www.11v11.com/players/ray-clemence-36453/", "https://www.rsssf.org/ec/ec196970.html"]
 ---
 
 Second Division Watford knocked Liverpool out of the FA Cup with a 1–0 quarter-final victory at Vicarage Road on 21 February 1970. Barry Endean scored after 63 minutes, providing the only goal of the match.
@@ -37,3 +37,4 @@ That retrospective significance sits alongside changes that had already begun. R
 - [LFChistory: 1969–70 transfers](https://www.lfchistory.net/season-archive/transfers/11)
 - [LFChistory: Larry Lloyd profile](https://www.lfchistory.net/players/363)
 - [11v11: Ray Clemence appearance record](https://www.11v11.com/players/ray-clemence-36453/)
+- [RSSSF: 1969–70 European competitions](https://www.rsssf.org/ec/ec196970.html)

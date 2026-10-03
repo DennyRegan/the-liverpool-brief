@@ -1,0 +1,1824 @@
+{
+  "type": "Point-in-time verification evidence; the shared calendar remains authoritative",
+  "checkedAt": "2026-10-03T06:35:40.701955+00:00",
+  "reconciledMainCommit": "03391d3a9a8461688828e0e33551d5ecd82fd036",
+  "newlyWrittenBySol": 36,
+  "preservedAstraReports": 62,
+  "unpublished1960sReports": 98,
+  "reusedPublishedReports": 1,
+  "seasons": [
+    {
+      "season": "1960-61",
+      "newReports": 5,
+      "reusedReports": 0,
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "stage": "checkpointed"
+    },
+    {
+      "season": "1961-62",
+      "newReports": 6,
+      "reusedReports": 0,
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "stage": "checkpointed"
+    },
+    {
+      "season": "1962-63",
+      "newReports": 8,
+      "reusedReports": 0,
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "stage": "checkpointed"
+    },
+    {
+      "season": "1963-64",
+      "newReports": 9,
+      "reusedReports": 0,
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "stage": "checkpointed"
+    },
+    {
+      "season": "1964-65",
+      "newReports": 12,
+      "reusedReports": 1,
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "stage": "checkpointed"
+    },
+    {
+      "season": "1965-66",
+      "newReports": 12,
+      "reusedReports": 0,
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "stage": "checkpointed"
+    },
+    {
+      "season": "1966-67",
+      "newReports": 10,
+      "reusedReports": 0,
+      "model": "gpt-6-astra",
+      "workerId": "/root/astra_decade_writer",
+      "stage": "checkpointed"
+    },
+    {
+      "season": "1967-68",
+      "newReports": 11,
+      "reusedReports": 0,
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/sol_1967_68",
+      "stage": "checkpointed"
+    },
+    {
+      "season": "1968-69",
+      "newReports": 12,
+      "reusedReports": 0,
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/sol_1968_69",
+      "stage": "checkpointed"
+    },
+    {
+      "season": "1969-70",
+      "newReports": 13,
+      "reusedReports": 0,
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/sol_1967_68",
+      "stage": "checkpointed"
+    }
+  ],
+  "sourceLayout": {
+    "checkedAt": "2026-10-03T06:32:51.443Z",
+    "comparisonReports": [
+      "content/archive/liverpool/anfield-first-european-match-reykjavik-1964.md",
+      "content/archive/liverpool/steve-nicol-hat-trick-newcastle-1987.md"
+    ],
+    "reportsChecked": 99,
+    "layoutFailures": [],
+    "sourceNoteMismatches": [],
+    "results": [
+      {
+        "season": "1960-61",
+        "path": "docs/editorial/drafts/1960s/1960-61/liverpool-southampton-1960-liddell-final-appearance.md",
+        "title": "Liddell bows out as Southampton spoil Milne’s debut",
+        "historicalEventDate": "1960-08-31",
+        "sha256": "1183b4d554d4aa88a9aa0808a37eec95350668c1715ef3dff2dd32f79ba6b522",
+        "sourceCount": 7,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1960-61",
+        "path": "docs/editorial/drafts/1960s/1960-61/liverpool-luton-1960-first-league-cup-match.md",
+        "title": "Leishman opens Liverpool’s League Cup account before Luton strike late",
+        "historicalEventDate": "1960-10-19",
+        "sha256": "71eaba02edd7048bfc294164e7fe1b3968821909417e8a84f6f16ba256dfb283",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1960-61",
+        "path": "docs/editorial/drafts/1960s/1960-61/liverpool-sheffield-united-1960-harrower-hat-trick.md",
+        "title": "Harrower’s hat-trick brings down the Second Division leaders",
+        "historicalEventDate": "1960-11-26",
+        "sha256": "0b25435d2d16f81d078c9e31be585e1958868a9d4c3017488f02ae7908227271",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1960-61",
+        "path": "docs/editorial/drafts/1960s/1960-61/liverpool-sunderland-1961-fa-cup-exit.md",
+        "title": "Sunderland’s early double ends Liverpool’s FA Cup run",
+        "historicalEventDate": "1961-01-28",
+        "sha256": "36765e6f8fd6046ed0df684bfaca0c3083540f64fecb7c72593bd60ff5dc6e7c",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1960-61",
+        "path": "docs/editorial/drafts/1960s/1960-61/bristol-rovers-liverpool-1961-lewis-hat-trick.md",
+        "title": "Lewis’s hat-trick cannot save Liverpool at Eastville",
+        "historicalEventDate": "1961-04-04",
+        "sha256": "6769baf35b361adaa9bb26ebf048545c45a0564e07831175c2ba7fd82ccdfa22",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1961-62",
+        "path": "docs/editorial/drafts/1960s/1961-62/bristol-rovers-liverpool-1961-yeats-st-john-debuts.md",
+        "title": "Yeats and St John begin with victory at Eastville",
+        "historicalEventDate": "1961-08-19",
+        "sha256": "a100890c05272baa83f0dde2ec1cc4693b3b131c9d2352a0759d3702dd5324ac",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1961-62",
+        "path": "docs/editorial/drafts/1960s/1961-62/sunderland-liverpool-1961-st-john-first-goals.md",
+        "title": "St John opens his account as Liverpool sweep past Sunderland",
+        "historicalEventDate": "1961-08-30",
+        "sha256": "c02fbfb88075f80cd85bf7d3a16acae81dc95ddae94bc670c1ebe2e61fad4535",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1961-62",
+        "path": "docs/editorial/drafts/1960s/1961-62/liverpool-chelsea-1962-fa-cup-four-goal-first-half.md",
+        "title": "Liverpool survive Chelsea’s fightback after a four-goal first half",
+        "historicalEventDate": "1962-01-06",
+        "sha256": "df37b34aa41adf6d85327d961df43ce731124b0977c5114678842ff8fd43112b",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1961-62",
+        "path": "docs/editorial/drafts/1960s/1961-62/liverpool-norwich-1962-nine-goal-anfield-win.md",
+        "title": "Liverpool outscore Norwich as Allcock’s hat-trick goes unrewarded",
+        "historicalEventDate": "1962-01-13",
+        "sha256": "a2c188c1a3d2fb135b979d2283b2cd4aee56ccfa76dfe7b8257aa6c5d8faceb6",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1961-62",
+        "path": "docs/editorial/drafts/1960s/1961-62/liverpool-preston-1962-fa-cup-second-replay-exit.md",
+        "title": "Thompson settles the three-match struggle with Preston",
+        "historicalEventDate": "1962-02-26",
+        "sha256": "e3805f205857cd90b47593bb5b0be68b2fc7c61944a4c402e1f2667ce4a12d66",
+        "sourceCount": 7,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1961-62",
+        "path": "docs/editorial/drafts/1960s/1961-62/liverpool-southampton-1962-promotion-secured.md",
+        "title": "Lewis’s double takes Liverpool back to the First Division",
+        "historicalEventDate": "1962-04-21",
+        "sha256": "4d775df2c56720ca0a4ad6832ba8dfe4ea67258c2832b1ffb5d7aab4fe4ccd75",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1962-63",
+        "path": "docs/editorial/drafts/1960s/1962-63/liverpool-blackpool-1962-first-division-return.md",
+        "title": "Blackpool spoil Liverpool’s return to the First Division",
+        "historicalEventDate": "1962-08-18",
+        "sha256": "79b2ba390d4c116c6de1a14f4da7f001bac6b9ac9a5a343423a105f7e979c16f",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1962-63",
+        "path": "docs/editorial/drafts/1960s/1962-63/everton-liverpool-1962-league-derby-return.md",
+        "title": "Hunt rescues a point as the league derby returns",
+        "historicalEventDate": "1962-09-22",
+        "sha256": "3f2238e0e8a1c3be94aa098d083358d43446f27b1c723144fa4dbb387219e4e2",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1962-63",
+        "path": "docs/editorial/drafts/1960s/1962-63/west-brom-liverpool-1962-lawrence-debut.md",
+        "title": "Lawrence’s debut ends in defeat as Melia’s penalty is saved",
+        "historicalEventDate": "1962-10-27",
+        "sha256": "491b1d71958cb2889c97035f263b2b9039ffa14d0d0a9352310919d92e1d8021",
+        "sourceCount": 8,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1962-63",
+        "path": "docs/editorial/drafts/1960s/1962-63/liverpool-blackburn-1962-seven-straight-wins.md",
+        "title": "Liverpool make it seven straight wins before the winter freeze",
+        "historicalEventDate": "1962-12-22",
+        "sha256": "59e499e6c3f28499646c834cf6b75f2e6e6fa696e922bcd8f8e6e08d1e148bd6",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1962-63",
+        "path": "docs/editorial/drafts/1960s/1962-63/arsenal-liverpool-1963-fa-cup-fifth-round.md",
+        "title": "Melia and Moran carry Liverpool past Arsenal at Highbury",
+        "historicalEventDate": "1963-03-16",
+        "sha256": "a722cdfc6aab67681a31fb7715803a7222d6e1c73630ca6086001e4055812534",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1962-63",
+        "path": "docs/editorial/drafts/1960s/1962-63/liverpool-tottenham-1963-five-goal-comeback.md",
+        "title": "Five second-half goals overturn Tottenham’s Anfield lead",
+        "historicalEventDate": "1963-04-12",
+        "sha256": "a6adfcfad90aff5052cd679a89afa4e64a392164a7dba707f7191608c6b85543",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1962-63",
+        "path": "docs/editorial/drafts/1960s/1962-63/tottenham-liverpool-1963-greaves-four-goals.md",
+        "title": "Greaves scores four as Tottenham turn the tables",
+        "historicalEventDate": "1963-04-15",
+        "sha256": "a6b7244219f60873a7c722b02909e8fe5fddd9e4b3d8da8f31c1facdbedf5a6e",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1962-63",
+        "path": "docs/editorial/drafts/1960s/1962-63/leicester-liverpool-1963-fa-cup-semi-final.md",
+        "title": "Stringfellow and Banks deny Liverpool a place at Wembley",
+        "historicalEventDate": "1963-04-27",
+        "sha256": "21187c820b8d35a7843a5f98d1fb998b9036e87c4bde2ca9720d34f7f9a0d08e",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1963-64",
+        "path": "docs/editorial/drafts/1960s/1963-64/blackburn-liverpool-1963-thompson-debut.md",
+        "title": "Thompson debuts as Liverpool turn defeat into victory at Ewood Park",
+        "historicalEventDate": "1963-08-24",
+        "sha256": "a1b2885944998bc8389196d8eba9a3dfc1d49e55f273e01ed98f174735ad0dfd",
+        "sourceCount": 7,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1963-64",
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-wolves-1963-first-home-win.md",
+        "title": "Six goals end Liverpool’s losing start at Anfield",
+        "historicalEventDate": "1963-09-16",
+        "sha256": "a32c40685d8f4da5efb62edd36e5b31d816bfa47f2518ec3f655d716f358505d",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1963-64",
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-everton-1963-callaghan-double.md",
+        "title": "Callaghan’s double beats the champions in the Anfield derby",
+        "historicalEventDate": "1963-09-28",
+        "sha256": "ae612332e91fce6e8afa02e9004502f98e3f7384c0ff5db707155dad0ff62098",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1963-64",
+        "path": "docs/editorial/drafts/1960s/1963-64/manchester-united-liverpool-1963-yeats-winner.md",
+        "title": "Yeats heads Liverpool to the top at Old Trafford",
+        "historicalEventDate": "1963-11-23",
+        "sha256": "524b5e09562183d2a0b26ad5c3f6428205bdf6b48e13e94678ca721239565520",
+        "sourceCount": 7,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1963-64",
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-stoke-1963-hunt-four-goals.md",
+        "title": "Hunt scores four as Liverpool break away after half-time",
+        "historicalEventDate": "1963-12-26",
+        "sha256": "7a8883afbf152e5373a712cb8ee890c78af5081845b8b57ff0241d240803c534",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1963-64",
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-swansea-1964-fa-cup-quarter-final.md",
+        "title": "Swansea survive Liverpool’s fightback to end the cup run",
+        "historicalEventDate": "1964-02-29",
+        "sha256": "d80adff036d87cc8eefea8fd51dc15020cf41c9bba191c306d31721c6955f9d1",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1963-64",
+        "path": "docs/editorial/drafts/1960s/1963-64/tottenham-liverpool-1964-hunt-hat-trick.md",
+        "title": "Hunt’s hat-trick launches Liverpool’s winning Easter",
+        "historicalEventDate": "1964-03-27",
+        "sha256": "5ea07622f244b8f6837a87e3aa45e9d17370e000d08f38a437017b1c9011ef2f",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1963-64",
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-manchester-united-1964-arrowsmith-double.md",
+        "title": "Arrowsmith strikes twice as Liverpool pull clear of United",
+        "historicalEventDate": "1964-04-04",
+        "sha256": "020722292acecb05f545a5e4905239e41f465741d0d7ef4861fd492463ce06ce",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1963-64",
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-arsenal-1964-title-secured.md",
+        "title": "Five goals against Arsenal secure Shankly’s first league title",
+        "historicalEventDate": "1964-04-18",
+        "sha256": "d6d57ce38706d041512fa06fcadde813e6a20b8a1e6e44985d2478f154ccdc85",
+        "sourceCount": 8,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-west-ham-1964-charity-shield.md",
+        "title": "West Ham share the Shield after Liverpool twice lead",
+        "historicalEventDate": "1964-08-15",
+        "sha256": "da1839ab88e4ff5e7c1ec3d54509eef62c45f656ef4d23e07cb0a3df7e3344e0",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/kr-reykjavik-liverpool-1964-european-debut.md",
+        "title": "Wallace opens Liverpool’s European account in Reykjavík",
+        "historicalEventDate": "1964-08-17",
+        "sha256": "eb9155d3dbad13436aba8725d0bcb7d0c409374cf8d5f70756fdeff99906ab75",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-arsenal-1964-first-match-of-the-day.md",
+        "title": "Wallace wins the first Match of the Day after Arsenal fight back",
+        "historicalEventDate": "1964-08-22",
+        "sha256": "61231b10ba237152290c6b1bbe5415449f123043300ef8823938cc68ad469c1e",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-everton-1964-four-goal-defeat.md",
+        "title": "Everton put four past the champions at Anfield",
+        "historicalEventDate": "1964-09-19",
+        "sha256": "0a2634e8ec5cb37297c6948a51939d1b1426b9d05af8905f413d51bcd82dde67",
+        "sourceCount": 3,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-anderlecht-1964-red-shorts.md",
+        "title": "Liverpool change into red shorts and take control against Anderlecht",
+        "historicalEventDate": "1964-11-25",
+        "sha256": "44a244a0596e85bd821853f9dd8dd64ea36dde0f759feaf9b393a0f52762b07c",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/burnley-liverpool-1964-hunt-hat-trick.md",
+        "title": "Hunt’s hat-trick ends Liverpool’s wait for an away league win",
+        "historicalEventDate": "1964-12-05",
+        "sha256": "25584d2e40fe16341d74244d2ba4e8154a666d03a50ab7a3a536c422260a30f0",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-leicester-1965-fa-cup-replay.md",
+        "title": "Hunt breaks Leicester’s resistance to put Liverpool in the semi-final",
+        "historicalEventDate": "1965-03-10",
+        "sha256": "ead2d3947504ae53dfa98f90a8d3dc5b837259b936c725887b72e52ba90918d9",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-cologne-1965-rotterdam-toss.md",
+        "title": "Liverpool survive Cologne’s comeback and a deciding toss in Rotterdam",
+        "historicalEventDate": "1965-03-24",
+        "sha256": "518a93aba39955c4832a8740d9200bc9e7117be44a04f889456b3d4d6d52f306",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-chelsea-1965-fa-cup-semi-final.md",
+        "title": "Thompson and Stevenson take Liverpool back to Wembley",
+        "historicalEventDate": "1965-03-27",
+        "sha256": "56b6be6f36df0d2e0ab8c1fe263ddea5038300606304ff9e6ac5737463a208a0",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-leeds-1965-first-fa-cup.md",
+        "title": "St John wins Liverpool’s first FA Cup at Wembley",
+        "historicalEventDate": "1965-05-01",
+        "sha256": "35baf3e5a8776b7c36bb87c56126955fc87c4a6efc1bffc0774ecf14a84c6cae",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-inter-1965-anfield-semi-final.md",
+        "title": "Liverpool beat Inter three days after Wembley",
+        "historicalEventDate": "1965-05-04",
+        "sha256": "f2367442515846deea948160f846b805ae0a0dc385acfb61f7161bf9570f7cd3",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1964-65",
+        "path": "docs/editorial/drafts/1960s/1964-65/inter-liverpool-1965-san-siro-semi-final.md",
+        "title": "Inter overturn Liverpool’s lead at San Siro",
+        "historicalEventDate": "1965-05-12",
+        "sha256": "76126a1650a628804899d18e5fb217acdfdc73082127d84439526f8f4bbc3e42",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/manchester-united-liverpool-1965-charity-shield.md",
+        "title": "Yeats rescues a share of the Shield at Old Trafford",
+        "historicalEventDate": "1965-08-14",
+        "sha256": "3f365a718d63fa5aabd512c8c375163dcb65a0ef35e5ae52b5826e7545db90ad",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/west-ham-liverpool-1965-hunt-hat-trick.md",
+        "title": "Hunt’s hat-trick caps Liverpool’s five at Upton Park",
+        "historicalEventDate": "1965-09-06",
+        "sha256": "aa287582f307963adb84a36459053ae186f31476a863937bf8f2cf24a54a0f2a",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-west-ham-1965-strong-substitute.md",
+        "title": "Strong comes off the bench to rescue Liverpool",
+        "historicalEventDate": "1965-09-15",
+        "sha256": "01401259b23e8ca4895a226b9d7a9d7f57b2d29106cfb28babf43725742c8ca9",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-everton-1965-five-goal-derby.md",
+        "title": "Liverpool turn the Anfield derby into a five-goal rout",
+        "historicalEventDate": "1965-09-25",
+        "sha256": "8b52d83948ffa06b093d5c2386c5c1e0a334c23462083d8b5e61af130d8b2dd5",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-juventus-1965-anfield-comeback.md",
+        "title": "Lawler and Strong overturn Juventus’s lead",
+        "historicalEventDate": "1965-10-13",
+        "sha256": "801d52425824241ffa1af372469f9599291a35e8322deb11fd14c28e902ebdcc",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-blackburn-1965-league-lead.md",
+        "title": "Five against Blackburn take Liverpool to the top",
+        "historicalEventDate": "1965-11-17",
+        "sha256": "26153981b262d8ecf358121310250c693515205ec054d157410ae2d3b195f8b7",
+        "sourceCount": 3,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/leeds-liverpool-1965-milne-winner.md",
+        "title": "Milne gives Liverpool an immediate answer at Leeds",
+        "historicalEventDate": "1965-12-28",
+        "sha256": "12b15a2baf0b19f4ec6e904ed41f9e0234924bc5b49c1f6a0cfc5b039a0b0f5d",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-chelsea-1966-fa-cup-exit.md",
+        "title": "Chelsea end Liverpool’s FA Cup defence at the first hurdle",
+        "historicalEventDate": "1966-01-22",
+        "sha256": "e05841016d0ba098871031d37ea5f9933c350af20f2d11038f16369364526241",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-honved-1966-european-quarter-final.md",
+        "title": "Lawler and St John take Liverpool past Honvéd",
+        "historicalEventDate": "1966-03-08",
+        "sha256": "aadbe79cde0555b6d72a43a5c7853040fcda383e757839eda18702063562c185",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-celtic-1966-first-european-final.md",
+        "title": "Strong heads Liverpool into their first European final",
+        "historicalEventDate": "1966-04-19",
+        "sha256": "d51936f5c28491cf1d72cd0203170ad8016c6664fcf212e6672412c40967b91e",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-chelsea-1966-title-clincher.md",
+        "title": "Hunt’s double brings the championship back to Anfield",
+        "historicalEventDate": "1966-04-30",
+        "sha256": "6ba9289dc2ca3e76dd42c3afdb4951c9be685cfa262116407315efcc750a2101",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1965-66",
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-dortmund-1966-european-final.md",
+        "title": "Liverpool’s first European final ends in extra-time defeat",
+        "historicalEventDate": "1966-05-05",
+        "sha256": "bd4b9de4d4745b425bc3c175181d30c11a287b1797cd5a52f5689239970e5b12",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1966-67",
+        "path": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1966-charity-shield.md",
+        "title": "Hunt settles the all-Merseyside Charity Shield",
+        "historicalEventDate": "1966-08-13",
+        "sha256": "beb6c38457b1ecb3e551ca9184de6e10cc445bd567417c3c11d87dbd19e61240",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1966-67",
+        "path": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1966-ball-double.md",
+        "title": "Ball’s double overturns Liverpool’s Goodison advantage",
+        "historicalEventDate": "1966-08-27",
+        "sha256": "ae6f063bfbe121b63673f26fc1b21f40b5cf1f52c3511740e37ad8f5ac463d63",
+        "sourceCount": 3,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1966-67",
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-petrolul-1966-brussels-play-off.md",
+        "title": "Liverpool settle the Petrolul tie in Brussels",
+        "historicalEventDate": "1966-10-19",
+        "sha256": "0d741b40666217e6d6bc9aeb185fcc054144370716725f9dcc7fac982d0f0afa",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1966-67",
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-leeds-1966-five-goals.md",
+        "title": "Liverpool’s second-half rush overwhelms Leeds",
+        "historicalEventDate": "1966-11-19",
+        "sha256": "b5287578b898f7195454768fbe6ecfbbd240ef3bd0c46ae164baea963dde3f47",
+        "sourceCount": 3,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1966-67",
+        "path": "docs/editorial/drafts/1960s/1966-67/ajax-liverpool-1966-fog-defeat.md",
+        "title": "Ajax leave Liverpool four goals adrift in Amsterdam",
+        "historicalEventDate": "1966-12-07",
+        "sha256": "0b7911be44d484d3c7894cab1b1e8432fdfe48f1eab4e87234c97c9cc7f0ae28",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1966-67",
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-ajax-1966-european-cup-exit.md",
+        "title": "Cruyff and Hunt trade goals as Ajax end Liverpool’s European Cup",
+        "historicalEventDate": "1966-12-14",
+        "sha256": "f16854dd04b8c06a4184de0bde028cdb0337ef9e81cf8f32b35b887033f6ab88",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1966-67",
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-chelsea-1966-boxing-day-lead.md",
+        "title": "Liverpool complete the Christmas double and go top",
+        "historicalEventDate": "1966-12-26",
+        "sha256": "d2a82ea738d4c3e52d01092a431fe0fd3a73835dd5a4e3cc294e775eee910a79",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1966-67",
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-stoke-1967-hughes-debut.md",
+        "title": "Hughes begins as Liverpool return to the top",
+        "historicalEventDate": "1967-03-04",
+        "sha256": "55760de65319371568526b9cd00246ef86c54ee7787e52fa651ca2bcbb281a60",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1966-67",
+        "path": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1967-fa-cup-screens.md",
+        "title": "Ball ends Liverpool’s cup run before two Merseyside crowds",
+        "historicalEventDate": "1967-03-11",
+        "sha256": "927af7441ed36ca3c63880b2588688369582e64984b4bf2ee7e36126b529c50f",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1966-67",
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-blackpool-1967-season-finale.md",
+        "title": "Blackpool end Liverpool’s fading title defence with three",
+        "historicalEventDate": "1967-05-13",
+        "sha256": "9b7a4665848799c0ffc620e8cb674ec72f84fa61efd309170d754fd4e5c1097b",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-newcastle-1967-hateley-hat-trick.md",
+        "title": "Hateley opens his Liverpool account with three",
+        "historicalEventDate": "1967-08-26",
+        "sha256": "b1b6f8b4beebb3b0376b6529bdcda68f58b023f6983ba86f609667cd8327f01d",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-everton-1967-hunt-winner.md",
+        "title": "Hunt’s late winner keeps Liverpool at the top",
+        "historicalEventDate": "1967-09-23",
+        "sha256": "18dfaab7f16098f137acd226764f1ea18e4564c5d1d9c5c95553cc7428376ee3",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/bolton-liverpool-1967-league-cup-exit.md",
+        "title": "Bolton end Liverpool’s League Cup campaign",
+        "historicalEventDate": "1967-09-27",
+        "sha256": "516d121f47fcaab85ebb8770d9e6e10b9344273b29298b987aa257b92f69b10b",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-tsv-munich-1967-eight-goals.md",
+        "title": "Eight goals overwhelm Munich at Anfield",
+        "historicalEventDate": "1967-11-07",
+        "sha256": "be092ec72a8e94bbbe0a7ebdb9cb9871c033a2e6380d2846fdd3fce831664999",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-manchester-united-1967-best-double.md",
+        "title": "Best’s double takes the lead from Liverpool",
+        "historicalEventDate": "1967-11-11",
+        "sha256": "9f178fcaba8f0be0dcc7fb32deeeb190163ade093a9810b292f9770b86b04f91",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-ferencvaros-1968-fairs-cup-exit.md",
+        "title": "Ferencváros complete Liverpool’s European elimination",
+        "historicalEventDate": "1968-01-09",
+        "sha256": "bff627253708ea75138b9fd336420749accc818a6e51bbffbc2d16401ae7b2e4",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-walsall-1968-hateley-four.md",
+        "title": "Hateley scores four as Liverpool settle the Walsall replay",
+        "historicalEventDate": "1968-02-19",
+        "sha256": "54331a1070db8aa8b3ea95e010a0ee2769ac09d13c8983f75d2e41c1a3aa4b8f",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-tottenham-1968-fa-cup-replay.md",
+        "title": "Liverpool remove the cup holders in another replay",
+        "historicalEventDate": "1968-03-12",
+        "sha256": "f96c5632e6ccd7abcf3de21872db458b7c9fb939451d6134d328d1aeb7baff1e",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/manchester-united-liverpool-1968-comeback.md",
+        "title": "Liverpool answer Best and win at Old Trafford",
+        "historicalEventDate": "1968-04-06",
+        "sha256": "caaeb294224dd84a8c25c3d66f251cc9092ccef0564f0b7386503f370f1532b7",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-west-brom-1968-second-replay.md",
+        "title": "West Brom end the long cup tie at Maine Road",
+        "historicalEventDate": "1968-04-18",
+        "sha256": "8f0a04b4b717106200d3ee53b8c24666841e234808bd72e59ed22d9787236781",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-nottingham-forest-1968-six-goals.md",
+        "title": "Hateley’s hat-trick completes Liverpool’s home season",
+        "historicalEventDate": "1968-05-11",
+        "sha256": "9d3936b54888cc6f066218ca9c1ce37ca717387e4664dd038bb721b45cce742b",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-manchester-city-1968-opening-comeback.md",
+        "title": "Thompson completes Liverpool’s opening comeback against the champions",
+        "historicalEventDate": "1968-08-10",
+        "sha256": "7bc5167e7d94edd9b816604a744b61283dd50892496bf15aaa0e97514adaf15b",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1968-evans-debut.md",
+        "title": "Evans scores as Liverpool settle Leicester in twelve minutes",
+        "historicalEventDate": "1968-09-21",
+        "sha256": "0b9ca5d0648cdadd3f7c3704b461182b267ac80215af33447f7d73c2a6f1e648",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-swansea-1968-clemence-debut.md",
+        "title": "Clemence begins with a clean sheet against Swansea",
+        "historicalEventDate": "1968-09-25",
+        "sha256": "46c01020e1dc613350a5047045f1d423b55f4ab579984b62db023a87eb84abf4",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/wolves-liverpool-1968-evans-return.md",
+        "title": "Evans scores twice on Liverpool’s six-goal return to Molineux",
+        "historicalEventDate": "1968-09-28",
+        "sha256": "2dd79d5dd7ae579cfa9e247e7dfa92c93f81bf3a1c2d9592e9709cc573394f51",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-athletic-bilbao-1968-coin-toss.md",
+        "title": "Liverpool win the match but lose the toss against Athletic",
+        "historicalEventDate": "1968-10-02",
+        "sha256": "a0cbec774b1d2df92098017dda7e8abbb4f07948b67882514dd6cd10814fe10f",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/burnley-liverpool-1968-go-top.md",
+        "title": "Liverpool put four past Burnley and take the league lead",
+        "historicalEventDate": "1968-10-05",
+        "sha256": "e200b2a6377e72bb9e2af1cb0a20dc0ef5efdd97b2201b5180e542fff36938a6",
+        "sourceCount": 3,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-everton-1968-smith-equaliser.md",
+        "title": "Smith’s equaliser keeps Liverpool level in the Anfield derby",
+        "historicalEventDate": "1968-10-08",
+        "sha256": "5cbade4853af7b481ee3b1f5b0b78f72ea6e279a8a6c17c99048a12b4920da9f",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/arsenal-liverpool-1968-league-cup-exit.md",
+        "title": "Arsenal end Liverpool’s League Cup run at Highbury",
+        "historicalEventDate": "1968-10-15",
+        "sha256": "68efd7033d8466e6f3bf4cdaac4f7c24e6b525fdb880005fe75e0fd52457d326",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-sheffield-wednesday-1969-hunt-league-record.md",
+        "title": "Hunt’s record goal keeps Liverpool at the top",
+        "historicalEventDate": "1969-02-01",
+        "sha256": "5ef3963d5ccdfb68b4a4bebf1e63b5da14aabbb5a1c4945098411543544cbf89",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-nottingham-forest-1969-lead-lost.md",
+        "title": "Lyons scores twice as Forest take Liverpool off the top",
+        "historicalEventDate": "1969-02-15",
+        "sha256": "4d21065a523bc588c6597df3b0856c0adeb9f602df3948f87ae52392fd8879f1",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1969-fa-cup-replay-exit.md",
+        "title": "Leicester end Liverpool’s FA Cup in an Anfield replay",
+        "historicalEventDate": "1969-03-03",
+        "sha256": "93c0a058d28a15520960e26fc1461dc9df757372cee595760f19412912db231d",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-leeds-1969-title-decided.md",
+        "title": "Leeds take the point that ends Liverpool’s title challenge",
+        "historicalEventDate": "1969-04-28",
+        "sha256": "324b64960345e37e78b868ab34550faa2298cdeb32ffb14481d1ee0c0165274d",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-chelsea-1969-st-john-double.md",
+        "title": "St John scores twice as Liverpool begin with four",
+        "historicalEventDate": "1969-08-09",
+        "sha256": "39ffef8c4c156caebf7b65c7545005892c1db0d2c7efd677c794df9f4b3f7afb",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-dundalk-1969-ten-goals.md",
+        "title": "Liverpool reach ten on Lindsay’s scoring debut",
+        "historicalEventDate": "1969-09-16",
+        "sha256": "ba89bffb5d69e0bcdc425239daaff44507a7c600b72c96d211d3a2da9fdc9b9d",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/manchester-city-liverpool-1969-league-cup-exit.md",
+        "title": "City reverse their league defeats to end Liverpool’s League Cup",
+        "historicalEventDate": "1969-09-24",
+        "sha256": "bf6a08aefb506bc642b598a73d65c7abd7c1e7462aed4a6b81a902af00fbd4f1",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/west-bromwich-liverpool-1969-lloyd-debut.md",
+        "title": "Hunt rescues a point as Lloyd begins at The Hawthorns",
+        "historicalEventDate": "1969-09-27",
+        "sha256": "20d6c8cbc057b1cf1980d5f0fe3f4d30cc52c06f278dca13b446520a42e0ab76",
+        "sourceCount": 3,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/derby-liverpool-1969-four-goal-defeat.md",
+        "title": "Derby put four past Liverpool at the Baseball Ground",
+        "historicalEventDate": "1969-11-01",
+        "sha256": "3c19a25fd2d56e040fc49ecf20b4fed6fb7b07a717565f642d02caec624bb65a",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-vitoria-setubal-1969-away-goals-exit.md",
+        "title": "Liverpool’s three goals cannot undo Setúbal’s away advantage",
+        "historicalEventDate": "1969-11-26",
+        "sha256": "04ea4e67860878dded68635169be0602c5caba33aac5a3810c9eaa8005634058",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/everton-liverpool-1969-three-goal-derby.md",
+        "title": "Liverpool take three past Everton at Goodison",
+        "historicalEventDate": "1969-12-06",
+        "sha256": "ca8896854951bd3107852e58f14c908f6bf081b82677f7ac70ca3f50d10801f1",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-manchester-united-1969-four-goal-reverse.md",
+        "title": "United turn Liverpool’s derby week into an Anfield defeat",
+        "historicalEventDate": "1969-12-13",
+        "sha256": "fcc0fa9f1904052141861121044b7e0ac71390c701fcd004f52e8d2b20d678f0",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/nottingham-forest-liverpool-1970-clemence-league-debut.md",
+        "title": "Clemence’s league debut ends in defeat at Forest",
+        "historicalEventDate": "1970-01-31",
+        "sha256": "72f931e44a6f1ce6c46ac1e4e9d23407a3c8f8c0f13adb009d8a82b30d501879",
+        "sourceCount": 7,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/leicester-liverpool-1970-fa-cup-replay.md",
+        "title": "Evans comes off the bench to take Liverpool through at Leicester",
+        "historicalEventDate": "1970-02-11",
+        "sha256": "904f5926e3ab8cb80ad9cdd6593b93bfda59792280a6d735a9132eee6024c95d",
+        "sourceCount": 4,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/watford-liverpool-1970-fa-cup-exit.md",
+        "title": "Watford end Liverpool’s FA Cup at Vicarage Road",
+        "historicalEventDate": "1970-02-21",
+        "sha256": "b15b579dc39e05cefbb37a3475eea907608ff3643e4a069a3d3b4fa7f529b02f",
+        "sourceCount": 9,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-derby-1970-changed-side.md",
+        "title": "Liverpool’s changed side cannot halt Derby at Anfield",
+        "historicalEventDate": "1970-02-28",
+        "sha256": "15a3ee3775e3ad28e5cb56877c1ff96b28eb0f7f8e9c4416d6a6d411f81e79d6",
+        "sourceCount": 5,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-everton-1970-title-march.md",
+        "title": "Everton reverse the derby result and move towards the title",
+        "historicalEventDate": "1970-03-21",
+        "sha256": "b50e3553676c110b522e78903669f342251a803435bd8782d02206856a3e00d7",
+        "sourceCount": 6,
+        "layoutPassed": true,
+        "errors": [],
+        "urlsMissingFromOwnNote": []
+      },
+      {
+        "path": "content/archive/liverpool/anfield-first-european-match-reykjavik-1964.md",
+        "reused": true,
+        "title": "Six goals on Anfield’s first European night",
+        "historicalEventDate": "1964-09-14",
+        "sha256": "237f019f3636f6a451c26bb85e77c873e72bebd91bf8c0a7cb89af156f65dab3",
+        "layoutPassed": true,
+        "sourceCount": 3
+      }
+    ]
+  },
+  "independentReviewHashes": {
+    "reportsChecked": 36,
+    "passed": true,
+    "results": [
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-newcastle-1967-hateley-hat-trick.md",
+        "sha256": "b1b6f8b4beebb3b0376b6529bdcda68f58b023f6983ba86f609667cd8327f01d",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-everton-1967-hunt-winner.md",
+        "sha256": "18dfaab7f16098f137acd226764f1ea18e4564c5d1d9c5c95553cc7428376ee3",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/bolton-liverpool-1967-league-cup-exit.md",
+        "sha256": "516d121f47fcaab85ebb8770d9e6e10b9344273b29298b987aa257b92f69b10b",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-tsv-munich-1967-eight-goals.md",
+        "sha256": "be092ec72a8e94bbbe0a7ebdb9cb9871c033a2e6380d2846fdd3fce831664999",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-manchester-united-1967-best-double.md",
+        "sha256": "9f178fcaba8f0be0dcc7fb32deeeb190163ade093a9810b292f9770b86b04f91",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-ferencvaros-1968-fairs-cup-exit.md",
+        "sha256": "bff627253708ea75138b9fd336420749accc818a6e51bbffbc2d16401ae7b2e4",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-walsall-1968-hateley-four.md",
+        "sha256": "54331a1070db8aa8b3ea95e010a0ee2769ac09d13c8983f75d2e41c1a3aa4b8f",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-tottenham-1968-fa-cup-replay.md",
+        "sha256": "f96c5632e6ccd7abcf3de21872db458b7c9fb939451d6134d328d1aeb7baff1e",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/manchester-united-liverpool-1968-comeback.md",
+        "sha256": "caaeb294224dd84a8c25c3d66f251cc9092ccef0564f0b7386503f370f1532b7",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-west-brom-1968-second-replay.md",
+        "sha256": "8f0a04b4b717106200d3ee53b8c24666841e234808bd72e59ed22d9787236781",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1967-68",
+        "path": "docs/editorial/drafts/1960s/1967-68/liverpool-nottingham-forest-1968-six-goals.md",
+        "sha256": "9d3936b54888cc6f066218ca9c1ce37ca717387e4664dd038bb721b45cce742b",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-manchester-city-1968-opening-comeback.md",
+        "sha256": "7bc5167e7d94edd9b816604a744b61283dd50892496bf15aaa0e97514adaf15b",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1968-evans-debut.md",
+        "sha256": "0b9ca5d0648cdadd3f7c3704b461182b267ac80215af33447f7d73c2a6f1e648",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-swansea-1968-clemence-debut.md",
+        "sha256": "46c01020e1dc613350a5047045f1d423b55f4ab579984b62db023a87eb84abf4",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/wolves-liverpool-1968-evans-return.md",
+        "sha256": "2dd79d5dd7ae579cfa9e247e7dfa92c93f81bf3a1c2d9592e9709cc573394f51",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-athletic-bilbao-1968-coin-toss.md",
+        "sha256": "a0cbec774b1d2df92098017dda7e8abbb4f07948b67882514dd6cd10814fe10f",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/burnley-liverpool-1968-go-top.md",
+        "sha256": "e200b2a6377e72bb9e2af1cb0a20dc0ef5efdd97b2201b5180e542fff36938a6",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-everton-1968-smith-equaliser.md",
+        "sha256": "5cbade4853af7b481ee3b1f5b0b78f72ea6e279a8a6c17c99048a12b4920da9f",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/arsenal-liverpool-1968-league-cup-exit.md",
+        "sha256": "68efd7033d8466e6f3bf4cdaac4f7c24e6b525fdb880005fe75e0fd52457d326",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-sheffield-wednesday-1969-hunt-league-record.md",
+        "sha256": "5ef3963d5ccdfb68b4a4bebf1e63b5da14aabbb5a1c4945098411543544cbf89",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-nottingham-forest-1969-lead-lost.md",
+        "sha256": "4d21065a523bc588c6597df3b0856c0adeb9f602df3948f87ae52392fd8879f1",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1969-fa-cup-replay-exit.md",
+        "sha256": "93c0a058d28a15520960e26fc1461dc9df757372cee595760f19412912db231d",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1968-69",
+        "path": "docs/editorial/drafts/1960s/1968-69/liverpool-leeds-1969-title-decided.md",
+        "sha256": "324b64960345e37e78b868ab34550faa2298cdeb32ffb14481d1ee0c0165274d",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-chelsea-1969-st-john-double.md",
+        "sha256": "39ffef8c4c156caebf7b65c7545005892c1db0d2c7efd677c794df9f4b3f7afb",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-dundalk-1969-ten-goals.md",
+        "sha256": "ba89bffb5d69e0bcdc425239daaff44507a7c600b72c96d211d3a2da9fdc9b9d",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/manchester-city-liverpool-1969-league-cup-exit.md",
+        "sha256": "bf6a08aefb506bc642b598a73d65c7abd7c1e7462aed4a6b81a902af00fbd4f1",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/west-bromwich-liverpool-1969-lloyd-debut.md",
+        "sha256": "20d6c8cbc057b1cf1980d5f0fe3f4d30cc52c06f278dca13b446520a42e0ab76",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/derby-liverpool-1969-four-goal-defeat.md",
+        "sha256": "3c19a25fd2d56e040fc49ecf20b4fed6fb7b07a717565f642d02caec624bb65a",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-vitoria-setubal-1969-away-goals-exit.md",
+        "sha256": "04ea4e67860878dded68635169be0602c5caba33aac5a3810c9eaa8005634058",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/everton-liverpool-1969-three-goal-derby.md",
+        "sha256": "ca8896854951bd3107852e58f14c908f6bf081b82677f7ac70ca3f50d10801f1",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-manchester-united-1969-four-goal-reverse.md",
+        "sha256": "fcc0fa9f1904052141861121044b7e0ac71390c701fcd004f52e8d2b20d678f0",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/nottingham-forest-liverpool-1970-clemence-league-debut.md",
+        "sha256": "72f931e44a6f1ce6c46ac1e4e9d23407a3c8f8c0f13adb009d8a82b30d501879",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/leicester-liverpool-1970-fa-cup-replay.md",
+        "sha256": "904f5926e3ab8cb80ad9cdd6593b93bfda59792280a6d735a9132eee6024c95d",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/watford-liverpool-1970-fa-cup-exit.md",
+        "sha256": "b15b579dc39e05cefbb37a3475eea907608ff3643e4a069a3d3b4fa7f529b02f",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-derby-1970-changed-side.md",
+        "sha256": "15a3ee3775e3ad28e5cb56877c1ff96b28eb0f7f8e9c4416d6a6d411f81e79d6",
+        "independentReviewHashMatches": true
+      },
+      {
+        "season": "1969-70",
+        "path": "docs/editorial/drafts/1960s/1969-70/liverpool-everton-1970-title-march.md",
+        "sha256": "b50e3553676c110b522e78903669f342251a803435bd8782d02206856a3e00d7",
+        "independentReviewHashMatches": true
+      }
+    ]
+  },
+  "preservedNarrativeAudit": {
+    "baseline": "d67771b",
+    "checked": 62,
+    "failures": [],
+    "results": [
+      {
+        "path": "docs/editorial/drafts/1960s/1960-61/liverpool-southampton-1960-liddell-final-appearance.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "996bd6e97a76ee9e05b1ee57b8085c47c7d358e5be933acb018a8fbd573d9513"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1960-61/liverpool-luton-1960-first-league-cup-match.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "8d4e5fcf571cc4c3b469c3e120ab244c63e10300cf4f1be7f697dda6b4b3855b"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1960-61/liverpool-sheffield-united-1960-harrower-hat-trick.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "aa3a0a53a60aa56db4d809b6cb476afab2c16bed2402f370766a5faefd4ce3c7"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1960-61/liverpool-sunderland-1961-fa-cup-exit.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "7e6ec4eb2d61c0e6d91609811400f985a61d5c3dba9f6b32768a6f3b4db4a09e"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1960-61/bristol-rovers-liverpool-1961-lewis-hat-trick.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "4f338034d835f78bfef5cdf4f28718ba14b5f62334eb2ba012badff10248b6f9"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1961-62/bristol-rovers-liverpool-1961-yeats-st-john-debuts.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "959b4d65d95471b1d7635e43006b4de5d12aa590091ef4ddc24703e7dbd89428"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1961-62/sunderland-liverpool-1961-st-john-first-goals.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "b8baf594b4b3183c01ff479d1c9096bb538545884f88b395c20a1f97a998dabe"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1961-62/liverpool-chelsea-1962-fa-cup-four-goal-first-half.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "6f7d7a9dcde28f62061257e6a84c2aee77519f432e8d917c4ba8afd48b4a973c"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1961-62/liverpool-norwich-1962-nine-goal-anfield-win.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "de17c1ea0bd747b756ecf5e9bdf994891bef24c72014cf21744c802da24c9b93"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1961-62/liverpool-preston-1962-fa-cup-second-replay-exit.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "283d18f6f5027381ad73357cb507998190ec6a5e04346c3a13f95d834982ded0"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1961-62/liverpool-southampton-1962-promotion-secured.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "3f1f479970107206ba27182596e936b0f941272c7c42a6b7ee49f4c9bb30bad7"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1962-63/liverpool-blackpool-1962-first-division-return.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "1edaad5f2628eeb2dee7e71380886acef2c7bb27f44b9cf50850fc5249c062b3"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1962-63/everton-liverpool-1962-league-derby-return.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "fc5c30f9e6d65fefaa92435cca987ab93446003b4ad77c6c77329ad696f4fa24"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1962-63/west-brom-liverpool-1962-lawrence-debut.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "9df75ce9a454c3c05d8bba8fc21f840f95f91f643d706622fd272a5923d5b7b2"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1962-63/liverpool-blackburn-1962-seven-straight-wins.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "c3a3767e4adfa445b06aa593e041814d717bfc4ed1bb2339034219db5c334d85"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1962-63/arsenal-liverpool-1963-fa-cup-fifth-round.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "b4a68d355b18e5687ec3607ec20f737a23c9b38b40ab57883857efbc43c0f8e5"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1962-63/liverpool-tottenham-1963-five-goal-comeback.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "7facb44d69e880be3a2f30c3d022a8f02b900f214529ce056a8d40840915faea"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1962-63/tottenham-liverpool-1963-greaves-four-goals.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "65fdbc23383e9aeaf687563ecb7ade8e53d9527334ec815deb8098e0e5e9d62c"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1962-63/leicester-liverpool-1963-fa-cup-semi-final.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "74b54de37f43a025dfba02c8bd5eda524f92642f93f6ed45b518bff3fb974e7f"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1963-64/blackburn-liverpool-1963-thompson-debut.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "59067024700a89843e12dbc410f728728988c274556cb819c59c2348f307e9ed"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-wolves-1963-first-home-win.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "21c74bb7590ce4bbd49d83718b01de5513d8b33c77595318ecb0e5ece923c504"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-everton-1963-callaghan-double.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "08c022187c46b770d2d2b1c3d46f7822e5659eadf59a4a815d51d76e3fd40e75"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1963-64/manchester-united-liverpool-1963-yeats-winner.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "3080b27157af2b878ef66e6a39d548fcb789dacb229bf0cf56fd3da8e1d813da"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-stoke-1963-hunt-four-goals.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "a18ddea1d33ff7156b55e0bf00602f5d6ee38aaf68973f725234b52265e7e46f"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-swansea-1964-fa-cup-quarter-final.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "111c440cb21dffa4ca8cd6a6db25247ff46e650b7f10074534650af38088f5c1"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1963-64/tottenham-liverpool-1964-hunt-hat-trick.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "c5539a6fe30dbf1990478768be0b4dc6a460282c4ea811f6260cddd519d143fa"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-manchester-united-1964-arrowsmith-double.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "343dd0bc669dfdc44372b7c9f97e42320e2835a83cda433af66105fca9d4efa7"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1963-64/liverpool-arsenal-1964-title-secured.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "e1d74f41f435bfd909d040c0d79fe4ee70491ead9edc4f051f8157e17bbf6342"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-west-ham-1964-charity-shield.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "d67b973f3b845609d94c844cbd583db471d1c07390ff28b512494ffc949be4bf"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/kr-reykjavik-liverpool-1964-european-debut.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "e524fe5a57d34b6597bf70e02ac3e45952280012dadfd49e6f837899fb78f9d7"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-arsenal-1964-first-match-of-the-day.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "8f9a6545ba5a0c838493d61175206b6f869f053d0cbb82f16c50889d732e7e64"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-everton-1964-four-goal-defeat.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "991304a139139a8c202e8fd116e9c28000b95ab4ee1cf2eadd8eed593ed47f2a"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-anderlecht-1964-red-shorts.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "2143bbf3a85430747814d70b820877d294220f74bcb275ced686a5ec9f072bf7"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/burnley-liverpool-1964-hunt-hat-trick.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "5b69429f2c9779fd05df88a9d108080bb9343014bd798c35de890f1d6b8dca1c"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-leicester-1965-fa-cup-replay.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "5b4f6e9373187ea1d803b7b51d45ebe8529b06827cc71a19e4f27c02db5345f5"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-cologne-1965-rotterdam-toss.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "77af670c07f7f0d9b7ce2175ec8c390d8afdb9c367647ae99e133e51c5400216"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-chelsea-1965-fa-cup-semi-final.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "343c96cb74d48afbde7731036b994e56c3745f196a222084652153bd838e0ef5"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-leeds-1965-first-fa-cup.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "852e4301d3dcb7368f4f5285176b3a6fcc8c606241ed2e870eb239bb769f76ea"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/liverpool-inter-1965-anfield-semi-final.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "4f3162cffb2960bdfe4ace8115897816fb81742743df1268f3c375c60b927f87"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1964-65/inter-liverpool-1965-san-siro-semi-final.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "4068fa1c1136319e26b614862c7aac5faefa6520d76d398106a8124ea1704b37"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/manchester-united-liverpool-1965-charity-shield.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "bc0e239f1ce0611624aae480702c80d603d7ce8018b147cf4cb231debcef088f"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/west-ham-liverpool-1965-hunt-hat-trick.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "1276b22e45e5f65b4d8ccb5eab3b66f8dde6a75ec4b9ee8e9bee7574a05c84b6"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-west-ham-1965-strong-substitute.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "6aa472c6faa73d0d9121b38d2d73aca58ee143b122feaa60740b038931b2d440"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-everton-1965-five-goal-derby.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "cdaea99a3094e95f1acd97518b03bd29c3905c7769beff5fa06b638da675abf4"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-juventus-1965-anfield-comeback.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "70a2a393c249d273c1682a7bde1c001c77c4ed04a48e53604e0803930a75fcc7"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-blackburn-1965-league-lead.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "6191c54b2b89c1e74f0c11c00e096f9a209fe0032ce2361581795b3754511905"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/leeds-liverpool-1965-milne-winner.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "b477d918b2453e99918e1f86a33ed1835daae05bc887e95cd8469245e94db332"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-chelsea-1966-fa-cup-exit.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "3b3fd01331c7c2e76f045bc326f1a6cfa57f10a14edf03eb5b724cde7c20afb4"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-honved-1966-european-quarter-final.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "6a8b92fb975fa865f80426cdb6d121e1166a4425b27093e69331ff01b05a2a11"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-celtic-1966-first-european-final.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "19f1aa55c8d1f172ac0750e917c8003a65a4fc26816e5d9e35fc851fa74b26b8"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-chelsea-1966-title-clincher.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "a8ecf0a881345adb93b825f9c8cdeedfaab71f6c388549a7971420adb1d82a75"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1965-66/liverpool-dortmund-1966-european-final.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "10b5d3b67bcf3678f44bbe6bb75de6fe8231c899f0c8a1e7bc6cfcac001fad13"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1966-charity-shield.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "55c89912278ece94302ececdbd7a0737ff151a336ec4205a6c1c880e8dc341e7"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1966-ball-double.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "982c79163927150a5df891532bc9aaea78ce2d2d13bea1a4bafba55bbeddfdc2"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-petrolul-1966-brussels-play-off.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "c5346333e8b57278b5b1fc530cc95c8e96aa97aa5afd1cd2d10d5fad3fe298e0"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-leeds-1966-five-goals.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "a8429a29ab71726eef1a50998fe031bd2625755ad4bdd805857fd7d885be9ff8"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1966-67/ajax-liverpool-1966-fog-defeat.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "1425f7d03de86f4cc255d2bf5e11b16d37cd4dd2eac3203e649d81533cbae716"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-ajax-1966-european-cup-exit.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "4bf5e1e351fec9ca2282f92a6a53dbcce881895bd863e66602595e0d1fe80095"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-chelsea-1966-boxing-day-lead.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "4151bd756cd64b124446a11918af649a981a0e5897b56cb38535323a79124d33"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-stoke-1967-hughes-debut.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "2b754887db8c74c359a715a5e3176558cda818129b09c8b7283658d591f1f58f"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1966-67/everton-liverpool-1967-fa-cup-screens.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "9af28406cf20c6e52d0eadd9bd78cfc2846634bd748bc53233ee9a32ff99cddf"
+      },
+      {
+        "path": "docs/editorial/drafts/1960s/1966-67/liverpool-blackpool-1967-season-finale.md",
+        "narrativeUnchanged": true,
+        "narrativeSha256": "666ee2f7925ce4b9c47b28ced95b14b615d71dd5e89c95c17b77d74e87e53f7f"
+      }
+    ]
+  },
+  "checks": {
+    "calendar": {
+      "passed": true,
+      "rows": 468
+    },
+    "tests": {
+      "passed": true,
+      "count": 200
+    },
+    "lint": {
+      "passed": true,
+      "errors": 0,
+      "existingWarnings": 1
+    },
+    "productionBuild": {
+      "passed": true
+    },
+    "localRoutes": {
+      "passed": true,
+      "checks": 466,
+      "unpublishedArticles": 227
+    },
+    "publisherDryRuns": {
+      "biographies": {
+        "queue": "biographies",
+        "dryRun": true,
+        "eligibleCount": 30,
+        "selected": {
+          "title": "Gérard Houllier: rebuilding Liverpool",
+          "rowId": "gerard-houllier-career-biography",
+          "slug": "gerard-houllier",
+          "draftPath": "docs/editorial/drafts/biographies/gerard-houllier.md",
+          "destination": "/archive/gerard-houllier",
+          "changes": [
+            "content/archive/liverpool/gerard-houllier.md",
+            "docs/editorial/history-calendar.json"
+          ],
+          "publicationDate": "2026-10-03",
+          "publishedAt": "2026-10-03T06:34:13.465Z",
+          "statusTransition": "ready_for_review → publication_pending → published after live verification",
+          "manuscriptSha256": "d90c3ac5d33dc0230cd9899e3d629dba3b1356b625fba649564ec564250c7a40",
+          "prosePreserved": true
+        },
+        "writes": 0,
+        "published": false
+      },
+      "matches": {
+        "queue": "matches",
+        "dryRun": true,
+        "eligibleCount": 197,
+        "selected": {
+          "title": "Everton 2 Liverpool 3: McAllister decides it from distance",
+          "rowId": "match-2001-04-16-everton-liverpool-2001-mcallister-derby-winner",
+          "slug": "everton-liverpool-2001-mcallister-derby-winner",
+          "draftPath": "docs/editorial/drafts/match-recovery/2000-01/everton-liverpool-2001-mcallister-derby-winner.md",
+          "destination": "/archive/everton-liverpool-2001-mcallister-derby-winner",
+          "changes": [
+            "content/archive/liverpool/everton-liverpool-2001-mcallister-derby-winner.md",
+            "docs/editorial/history-calendar.json"
+          ],
+          "publicationDate": "2026-10-03",
+          "publishedAt": "2026-10-03T06:34:13.855Z",
+          "statusTransition": "ready_for_review → publication_pending → published after live verification",
+          "manuscriptSha256": "5ad6f151400bc03089af92b3194a98d92046899fca2d68b1e10fe39dcb3c8dac",
+          "prosePreserved": true
+        },
+        "writes": 0,
+        "published": false
+      }
+    },
+    "dryRunMutationAudit": {
+      "passed": true,
+      "trackedFilesSha256Before": "8f5f5709750ac52063c97973079eadd9db1941bd820c48c9e4e68e5bd83f4aef",
+      "trackedFilesSha256After": "8f5f5709750ac52063c97973079eadd9db1941bd820c48c9e4e68e5bd83f4aef",
+      "trackedFilesChanged": false
+    }
+  },
+  "preservation": {
+    "existingWeeklyEntriesUnchanged": true,
+    "existingBiographyRowsUnchanged": true,
+    "automaticPublisherConfigurationUnchanged": true,
+    "publicArticleAndAppFilesUnchanged": true
+  },
+  "liveSourceFormatComparisons": [
+    {
+      "url": "https://theliverpoolbrief.com/archive/anfield-first-european-match-reykjavik-1964",
+      "httpStatus": 200,
+      "singleTerminalSourcesSection": true
+    },
+    {
+      "url": "https://theliverpoolbrief.com/archive/steve-nicol-hat-trick-newcastle-1987",
+      "httpStatus": 200,
+      "singleTerminalSourcesSection": true
+    }
+  ]
+}

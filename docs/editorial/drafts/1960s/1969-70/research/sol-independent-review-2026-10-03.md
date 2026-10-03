@@ -4,7 +4,7 @@ Reviewer: `/root/sol_factual_review`. Actual configured model: `gpt-6.1-sol`. In
 
 ## Review state
 
-PENDING — whole-season sources and all thirteen selected match cores independently retrieved; all thirteen fresh Sol pre-writing notes and the resumption ledger have been read. The first nine completed bodies and final audits have been read; Chelsea corrections have been rechecked, three reports require the corrections recorded below, and four completed bodies are still awaited.
+PASS — all thirteen completed manuscript bodies, frontmatter, terminal source lists and completed companion sentence audits have actually been read. Requested corrections and subsequent editorial/source-label revisions have been rechecked; final full-file hashes are recorded below.
 
 ## Independently retrieved sources
 
@@ -86,36 +86,53 @@ All thirteen fresh `<slug>-sol-resumption-notes.md` files and `sol-research-resu
 - High for retained appearance sequence — [11v11 Clemence appearance record](https://www.11v11.com/players/ray-clemence-36453/): 1968 Swansea, both September 1969 Dundalk legs, 24 January Wrexham, 31 January first league and 28 February second league. Does not establish Lawrence’s appearances merely by Clemence’s absence. Conflicting career total is omitted.
 - High for retained career totals — [Official Roger Hunt profile](https://www.liverpoolfc.com/info/roger-hunt): 492 appearances and 285 goals; final competitive appearance in the December 1969 United game. Disputed older 1967 milestone wording outside scope.
 
-## Manuscript review progress
+- High — [Leicester original cup tie](https://www.lfchistory.net/games/548): 7 February Anfield 0–0 and Lawrence starting; direct evidence added for Forest report’s subsequent goalkeeper chronology.
+- High — [Previous season final tables](https://www.rsssf.org/engpaul/FLA/1968-69.html): Liverpool runners-up to Leeds and Derby Second Division champions; freshly rechecked for Chelsea and Derby context.
 
-First completed batch: every sentence, frontmatter, footer and completed companion audit was actually read. The source presentation was compared with the published Leicester 1974 and West Ham 1977 reports: one terminal titled Markdown list, source-array URL order matching exactly, readable provider/scope labels and no internal material after the list. Every footer URL occurs in that report’s own completed audit. Historical dates and relationship values correspond to the selected events; no publication date. All three pass these source-format checks.
+## Completed manuscript review
 
-- Chelsea: factual PASS after rereading the corrected complete body and completed audit. The Tottenham away result is now 2–0 and the Burnley 3–3 is correctly at Anfield; redundant recap removed. Eleven-goal total remains correct.
-- Dundalk: factual PASS. Seven scorers, three doubles, goals, gastritis absence, Lindsay forward role, attributed Houllier/Bergues recollection and aggregate route checked. Full-file SHA-256: `26a7f3205aefd0d723ac0ae4408d80090e05026624ae9153a8f2b287a73ae353`.
-- City: factual PASS. Debut/substitution sequence, attributed clearance and pressure, earlier league results and eventual cup winners checked; contested Doyle minute and attendance omitted. Full-file SHA-256: `bbf8112b26d76f4ec42cea0b1d9ec8df8d75771b5848f0fd195d7d0de52fb240`.
+All thirteen selected events were checked against the complete competitive season and independent competition routes. Every retained material claim was checked against sources actually retrieved by this reviewer, rather than accepting the writer’s PASS labels as evidence. Contemporary accounts here are retrieved transcriptions; original newspaper scans and linked footage were not examined. Later memories are attributed and remain Medium confidence for narrative. No unsupported action, tactics, atmosphere, motives or direct quotes remain in the final manuscripts.
 
-Second completed batch and corrected Chelsea body/audit also read in full. West Brom: debut fee/date, Smith captain, Yeats absent, twice cancelled deficits and late Hunt equaliser checked; precise uncorroborated injury-time clock omitted. Derby: goal sequence, promoted champions, reconstructed table and final season order checked. Setúbal: half-time changes, 3–3 aggregate/away goals, Hunt last goal and Peplow’s third/final appearance checked without retrospective confusion claims. All six pass source format and companion-note coverage; remaining seven are pending.
+Each report was compared with the published `content/archive/liverpool/liverpool-leicester-1974-semi-final-replay.md` and `content/archive/liverpool/liverpool-west-ham-1977-tenth-title.md` source format. All thirteen have exactly one terminal `## Sources` section, readable descriptive provider/scope labels, one titled Markdown list and no text after it. Frontmatter `sources` contains the identical URLs in the identical order; every final source URL has actual retrieval and claim/confidence scope in the report’s own completed companion note. Relationship IDs exist with the correct kinds in `content/history/liverpool/entities.json`. Exact manifest dates/slugs, season, decade, category/article type and factual editorial mode agree; no publication date. British spelling and prose checked.
 
-Current reviewed full-file hashes (to be refreshed at final thirteen-report verdict):
+| Report | Independent factual assessment | Published source format |
+| --- | --- | --- |
+| Chelsea, 9 August | PASS: scorer sequence, runners-up context and opening four wins checked; Spurs 2–0 and Burnley at Anfield corrections rechecked. | PASS |
+| Dundalk, 16 September | PASS: scoring sequence, seven scorers/three doubles, Lindsay forward debut, Lawrence illness, attributed Houllier memory and aggregate checked. | PASS |
+| City cup, 24 September | PASS: goals/debut/substitution, attributed clearance and pressure, prior league meetings and full cup route checked; disputed minute/attendance omitted. | PASS |
+| West Brom, 27 September | PASS: debut fee/date, line-up/captain, two deficits and injury-time equaliser checked; exact late clock omitted. | PASS |
+| Derby away, 1 November | PASS: scoring sequence, promoted champions, maximum away league defeat, reconstructed table and final positions checked. | PASS |
+| Setúbal, 26 November | PASS: half-time changes, goals, aggregate/away goals, Hunt’s last goal and Peplow’s final appearance checked. | PASS |
+| Goodison, 6 December | PASS: goals/table, attributed Brown header and Graham all-competition totals checked; final source coverage for return derby added/rechecked. | PASS |
+| United, 13 December | PASS: sequence/maximum home league defeat, Hunt totals/last appearance/transfer checked; Ian Ross name corrected/rechecked. | PASS |
+| Forest, 31 January | PASS: Paul Richardson name corrected/rechecked; keeper appearance sequence and direct Lawrence Leicester/Watford records checked. | PASS |
+| Leicester replay, 11 February | PASS: first-half substitute, goals, Lawrence, route/division and attributed Evans interview details checked. | PASS |
+| Watford, 21 February | PASS: result/line-up/cup exits, attributed Shankly/Callaghan memories and pre-existing changes checked; explicit European away-goals source added/rechecked. | PASS |
+| Derby home, 28 February | PASS: exact four line-up changes including Ian Ross, second Clemence league game, goals/table and Wall final appearance/42 games checked. | PASS |
+| Anfield derby, 21 March | PASS: credited scorers/substitution, table/totals, Strong endpoint and attributed Echo narrative checked; Hurst save timing corrected to first half and rechecked. | PASS |
+
+Source conflicts remain scoped: first-goal exact times at City/Forest and contact in the March derby are omitted; Clemence profile’s erroneous Lawrence-last-game sentence is rejected. The Watford transition is retrospective significance within an already developing process, rather than a proved sole cause of every personnel change. Source footer labels updated to accurate fixture names and all later tightening read with regenerated audits.
+
+## Reviewed full-file identities
+
+These hashes cover the final complete files after all factual corrections, source additions, source-label updates and editorial tightening were actually reread. Any later content change requires refresh/review before reuse of this verdict.
 
 | Manuscript | SHA-256 |
 | --- | --- |
 | derby-liverpool-1969-four-goal-defeat.md | `3c19a25fd2d56e040fc49ecf20b4fed6fb7b07a717565f642d02caec624bb65a` |
-| liverpool-chelsea-1969-st-john-double.md | `3df2e90149c226775427444042b763e3e2f85651d52652e28d4c49e5bc048968` |
-| liverpool-dundalk-1969-ten-goals.md | `26a7f3205aefd0d723ac0ae4408d80090e05026624ae9153a8f2b287a73ae353` |
+| everton-liverpool-1969-three-goal-derby.md | `ca8896854951bd3107852e58f14c908f6bf081b82677f7ac70ca3f50d10801f1` |
+| leicester-liverpool-1970-fa-cup-replay.md | `904f5926e3ab8cb80ad9cdd6593b93bfda59792280a6d735a9132eee6024c95d` |
+| liverpool-chelsea-1969-st-john-double.md | `39ffef8c4c156caebf7b65c7545005892c1db0d2c7efd677c794df9f4b3f7afb` |
+| liverpool-derby-1970-changed-side.md | `15a3ee3775e3ad28e5cb56877c1ff96b28eb0f7f8e9c4416d6a6d411f81e79d6` |
+| liverpool-dundalk-1969-ten-goals.md | `ba89bffb5d69e0bcdc425239daaff44507a7c600b72c96d211d3a2da9fdc9b9d` |
+| liverpool-everton-1970-title-march.md | `b50e3553676c110b522e78903669f342251a803435bd8782d02206856a3e00d7` |
+| liverpool-manchester-united-1969-four-goal-reverse.md | `fcc0fa9f1904052141861121044b7e0ac71390c701fcd004f52e8d2b20d678f0` |
 | liverpool-vitoria-setubal-1969-away-goals-exit.md | `04ea4e67860878dded68635169be0602c5caba33aac5a3810c9eaa8005634058` |
-| manchester-city-liverpool-1969-league-cup-exit.md | `bbf8112b26d76f4ec42cea0b1d9ec8df8d75771b5848f0fd195d7d0de52fb240` |
+| manchester-city-liverpool-1969-league-cup-exit.md | `bf6a08aefb506bc642b598a73d65c7abd7c1e7462aed4a6b81a902af00fbd4f1` |
+| nottingham-forest-liverpool-1970-clemence-league-debut.md | `72f931e44a6f1ce6c46ac1e4e9d23407a3c8f8c0f13adb009d8a82b30d501879` |
+| watford-liverpool-1970-fa-cup-exit.md | `b15b579dc39e05cefbb37a3475eea907608ff3643e4a069a3d3b4fa7f529b02f` |
 | west-bromwich-liverpool-1969-lloyd-debut.md | `20d6c8cbc057b1cf1980d5f0fe3f4d30cc52c06f278dca13b446520a42e0ab76` |
-
-
-Third completed batch bodies and all their final sentence audits read in full. Corrections requested:
-
-- United: Ian Ross was replaced by Hunt, not Peter Ross; amend body paragraph 4 and audit S9.
-- Forest: Paul Richardson scored, not Jimmy Richardson; amend opening and audit S2. Add actual Lawrence Leicester/Watford appearance evidence to final source list and sentence audit rather than inferring his presence from Clemence’s absence.
-- Goodison: body facts pass, but add the freshly retrieved whole-season fixture ledger to final source evidence/footer for the closing March return-derby result; the final table only supports champions, not that result.
-
-No final PASS is claimed for these three until fixes are reread.
 
 ## Verdict
 
-PENDING — all thirteen completed manuscripts and audits require actual independent reading, source-format checks, fixes rechecked and full-file hashes before PASS.
+PASS — all thirteen selected reports and their completed companion audits independently reviewed, fixes rechecked, material factual scopes supported by actually retrieved sources, published source format and metadata/footer parity checked, and final complete-file SHA-256 identities recorded. This is editorial review evidence only; production status remains solely in the canonical calendar and no publication or scheduling was performed.
