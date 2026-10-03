@@ -6,12 +6,8 @@ Background and rules are in [automatic History publishing](automatic-history-pub
 
 ## 1. Take a published piece offline
 
-**Why it is not just "delete the file".** The calendar remembers every release.
-If the article file disappears but the calendar still says it is published, the
-calendar check fails, the build fails, and the old site (with the piece still on
-it) stays live. The calendar must be changed in the same commit. These steps were
-tried on a throwaway copy of the repository for both a biography and a match
-report, and passed the calendar check, the build checks and the pool check.
+One command (Step C) does the whole removal safely and stops before anything is
+pushed. Steps A and B are optional extras for speed.
 
 ### Step A — stop a second release (about a minute)
 
@@ -29,37 +25,67 @@ report, and passed the calendar check, the build checks and the pool check.
 3. This is only a stopgap. The next push to `main` would put the article back, and
    Vercel may stop auto-publishing new deployments until you re-enable it. Do Step C.
 
-### Step C — remove it properly (one commit to `main`)
+### Step C — remove it properly: one command, then you look, then you push
 
-Do this on your computer, with the latest `main`:
+Do this on your computer, on the latest `main` (`git checkout main && git pull`),
+with dependencies installed (`npm ci`). Find the slug in the commit message
+`History: publish <slug> for <slot>`.
 
-4. Find the slug and the slot (for example `biographies:2026-10-06`). They are in the
-   commit message `History: publish <slug> for <slot>`, and in
-   `automaticHistory.runs` in `docs/editorial/history-calendar.json`.
-5. Delete the public file: `content/archive/liverpool/<slug>.md`. Leave the draft
-   under `docs/editorial/drafts/` alone; it is the evidence copy.
-6. Edit `docs/editorial/history-calendar.json`:
-   - In `automaticHistory.runs`, find the entry with that slug. Change `"state"` to
-     `"empty"` and set `rowId`, `slug`, `draftPath`, `manuscriptSha256`,
-     `publishedAt`, `publicSha256` and `verifiedAt` to `null`. Keep `slot`,
-     `queue` and `selectedAt`. **Do not delete the entry**: an empty slot stops the
-     publisher choosing a different piece that day.
-   - Find the row whose `id` was that run's `rowId`. Set `"publishedDestination"` to
-     `null`, set `"status"` to `"ready_for_review"`, **delete its
-     `"publicationClass"` line** (this is what keeps it out of future draws), and
-     add a note such as "Taken offline <date>: <reason>" to `notes`.
-   - Do not use status `blocked` for match reports: it fails the 1960s season check.
-7. Check before pushing: `npm run validate:calendar`, then `npm test` and
-   `npm run build`. If any fails, fix it before pushing; a failing build leaves the
-   piece live.
-8. Commit ("Take <slug> offline") and push to `main`. Vercel redeploys in a minute or two.
-9. Confirm: `https://theliverpoolbrief.com/archive/<slug>` shows "This page is no
-   longer here" (not the article); the title is gone from `/history`, `/this-week`
-   and the home page. `/sitemap.xml` is cached for up to an hour, so it may
-   still list the address for a while. If Google has it, use Search Console's
-   removal tool.
-10. To bring it back later: restore the file, set the row's `publicationClass` again
-    (and status), and let the next release or a reviewed change handle it.
+```sh
+npm run history:take-offline -- <slug> --reason "why it is coming down"
+```
+
+**What it does, in this order:**
+1. Checks that the calendar really records an automatic release of that slug, and
+   that you have no uncommitted changes in the two files it will touch.
+2. Makes all three edits together:
+   - deletes `content/archive/liverpool/<slug>.md` (the draft under
+     `docs/editorial/drafts/` is left alone);
+   - in `docs/editorial/history-calendar.json`, turns that release's entry in
+     `automaticHistory.runs` into an `empty` slot (the slot stays used, so the
+     publisher cannot pick a different piece that day);
+   - on the matching row, clears `publishedDestination`, sets `status` back to
+     `ready_for_review`, deletes `publicationClass` (this keeps it out of every
+     future draw) and adds "Taken offline <date>: <reason>." to its notes.
+3. Runs the calendar check, the build data check, the full tests, lint and the build.
+   If **any** check fails it puts the calendar and the article back exactly as they
+   were and tells you so. A failing build would leave the piece live, so this
+   matters.
+4. **Stops.** It never commits, pushes or switches branch.
+
+**Useful options.** `--dry-run` shows the three edits without writing anything.
+`--quick` runs only the calendar and build-data checks and skips the tests, lint
+and build (faster in an emergency; run the full set before you push if you can).
+
+**Then look, and push when you are happy.** The command prints these for you:
+
+```sh
+git diff --stat
+git diff -- docs/editorial/history-calendar.json
+git add docs/editorial/history-calendar.json content/archive/liverpool/<slug>.md
+git commit -m "Take <slug> offline"
+git push origin main
+```
+
+To abandon it instead: `git checkout -- docs/editorial/history-calendar.json content/archive/liverpool/<slug>.md`.
+
+**After the push (Vercel redeploys in a minute or two):** open
+`https://theliverpoolbrief.com/archive/<slug>`; it should say "This page is no
+longer here". The title should be gone from `/history`, `/this-week` and the home
+page. `/sitemap.xml` is cached for up to an hour, so it may still list the address
+for a while. If Google has it, use Search Console's removal tool.
+
+**It only handles pieces the automatic publisher released.** For anything else the
+command stops with an explanation. It also refuses to run in GitHub Actions.
+
+**Why not just delete the file?** The calendar remembers every release. If the
+article disappears but the calendar still says it is published, the calendar check
+fails, the build fails, and the old site (with the piece on it) stays live. Do not
+use status `blocked` for match reports either: it fails the 1960s season check.
+Both were tried on a throwaway copy before this command was written.
+
+**To bring a piece back later:** restore the file, put its `publicationClass` back
+and set its status, in a reviewed change.
 
 ## 2. Release morning checklist
 
@@ -108,8 +134,8 @@ git status --porcelain               # must print nothing new
 
 **What to look for in the result:**
 - `"dryRun": true`, `"writes": 0` and `"published": false`.
-- `eligibleCount`: the size of the pool. On 3 October 2026 it was 60 biographies and
-  314 matches. A big drop means something has been excluded (check why).
+- `eligibleCount`: the size of the pool. On 3 October 2026 it was 47 biographies and
+  311 matches. A big drop means something has been excluded (check why).
   A sudden jump means something new was tagged.
 - `selected`: the piece it chose. Read the `title`, the `slug` and the `draftPath`.
   Is it a piece you are happy to see go out, and not a sensitive one? The pick is

@@ -50,14 +50,28 @@ export function sensitiveSubject(data = {}, row = {}) {
     .filter(value => typeof value === 'string').join(' . ').toLowerCase().replace(/[-_]+/g, ' ');
   return sensitivePatterns.find(([, pattern]) => pattern.test(text))?.[0] ?? null;
 }
+// The text is also read for Heysel and the Hillsborough disaster, so a biography or match report that discusses them
+// is held too. Naming a ground is not enough: "the Heysel Stadium in Brussels" in a 1966 tie, or a match played at
+// Hillsborough, passes. Other topics (Munich, the Taylor Report, a general "disaster") are only checked in the headline fields.
+const heyselDiscussed = /disaster|tragedy|tragic|1985|lives|deaths?|died|killed|victims?|\bban(ned)?\b/;
+export function sensitiveText(body = '') {
+  const sentences = String(body).toLowerCase().replace(/[-_]+/g, ' ').split(/(?<=[.!?])\s+|\n+/);
+  for (const sentence of sentences) {
+    if (/\bheysel\b/.test(sentence) && !(/\bheysel stadium\b/.test(sentence) && !heyselDiscussed.test(sentence))) return 'Heysel';
+    if (sensitivePatterns[1][1].test(sentence)) return 'Hillsborough disaster';
+  }
+  return null;
+}
 // "By name" means the shared calendar row carries Denny's recorded approval (the existing approval record).
 export const approvedByDenny = row => row?.approval?.by === 'Denny' && Boolean(row.approval.recordedAt) && Boolean(row.approval.evidence);
 // Returns why a draft must not publish automatically, or null when it may.
-export function publicationBlock(data, row) {
+export function publicationBlock(data, row, body) {
   if (data.editorialMode === 'opinion') return 'Opinion is outside the automatic queue';
   if (data.editorialMode !== 'factual') return 'No editorial label: only drafts marked editorialMode "factual" can publish automatically';
   const topic = sensitiveSubject(data, row);
   if (topic && !approvedByDenny(row)) return `Sensitive subject (${topic}) needs Denny's approval by name in the calendar`;
+  const discussed = sensitiveText(body);
+  if (discussed && !approvedByDenny(row)) return `Sensitive subject (the text discusses ${discussed}) needs Denny's approval by name in the calendar`;
   return null;
 }
 
@@ -80,8 +94,8 @@ export function discoverCandidates(queue, root = process.cwd()) {
   const rows = validateCalendar(calendar, root);
   const byId = new Map(rows.map(r => [r.id, r]));
   return filterCandidates(queue, getEditorialReviewQueue(queue, root).entries, rows, calendar.automaticHistory?.runs).filter(e => {
-    const { data } = matter(fs.readFileSync(path.join(root, e.canonicalDraftPath), 'utf8'));
-    return publicationBlock(data, byId.get(e.calendarRowId ?? e.id)) === null && (queue === 'biographies'
+    const { data, content } = matter(fs.readFileSync(path.join(root, e.canonicalDraftPath), 'utf8'));
+    return publicationBlock(data, byId.get(e.calendarRowId ?? e.id), content) === null && (queue === 'biographies'
       ? data.category === 'person' && ['player', 'manager'].includes(data.articleType)
       : data.category === 'match' && data.articleType === 'match' && Boolean(data.historicalEventDate && data.season));
   });
@@ -122,7 +136,7 @@ export function planPublication(root, calendar, run, now = new Date()) {
   assert.ok(source.startsWith('---\n') || source.startsWith('---\r\n'), 'Expected existing YAML frontmatter');
   const { data, content } = matter(source);
   assert.equal(data.slug, run.slug);
-  assert.equal(publicationBlock(data, row), null, publicationBlock(data, row) ?? '');
+  assert.equal(publicationBlock(data, row, content), null, publicationBlock(data, row, content) ?? '');
   assert.ok(!Object.hasOwn(data, 'date'), 'Draft already has a publication date');
   if (run.queue === 'biographies') assert.ok(data.category === 'person' && ['player', 'manager'].includes(data.articleType), 'Not a career biography');
   else assert.ok(data.category === 'match' && data.articleType === 'match' && data.historicalEventDate && data.season, 'Not a historical match');

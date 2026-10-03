@@ -15,7 +15,8 @@
     "queue:matches": "node scripts/editorial-review-queue.mjs matches",
     "test:publisher": "node --test tests/automatic-history*.test.mjs",
     "history:pool": "node scripts/automatic-history-publisher.mjs pool",
-    "history:dry-run": "node scripts/automatic-history-publisher.mjs dry-run"
+    "history:dry-run": "node scripts/automatic-history-publisher.mjs dry-run",
+    "history:take-offline": "node scripts/take-offline.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

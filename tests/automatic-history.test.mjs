@@ -6,7 +6,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import { filterCandidates, discoverCandidates, selectRandom, selectForSlot, scheduledSlot,
   londonParts, readCalendar, saveCalendar, dryRun, promoteSelection, completeSelection, verifyProduction,
-  publicationBlock, sensitiveSubject, approvedByDenny } from '../scripts/automatic-history-publisher.mjs';
+  publicationBlock, sensitiveSubject, sensitiveText, approvedByDenny } from '../scripts/automatic-history-publisher.mjs';
 import { allRows, publicationClasses } from '../scripts/automatic-history-state.mjs';
 import { validateCalendar, calendarPath } from '../scripts/validate-editorial-calendar.mjs';
 import { restoreAutomaticStock } from './fixtures/automatic-editorial.mjs';
@@ -206,6 +206,54 @@ test('a sensitive piece publishes only when the calendar row carries Denny’s r
     assert.ok(discoverCandidates('biographies', f.root).some(e => e.slug === first.slug), 'Approved sensitive draft should be eligible');
     const approvedRun = selectForSlot(approved, 'biographies', 'biographies:2026-10-13', [first], f.root, tuesday, () => 0);
     assert.doesNotThrow(() => promoteSelection(f.root, approved, approvedRun, tuesday));
+  } finally { f.cleanup(); }
+});
+
+test('text that discusses Heysel or the Hillsborough disaster is held; a ground, a Taylor Report mention or other words are not', () => {
+  for (const text of [
+    'He was in the squad at Heysel, where 39 people lost their lives, and the ban that followed.',
+    'Two years after the 1985 European Cup final at Heysel Stadium, Liverpool returned to Europe.',
+    'The match began with a minute’s silence ahead of the tenth anniversary of the Hillsborough disaster.',
+    'He campaigned after the Hillsborough tragedy and attended the memorial service.',
+    'Ninety-seven supporters died at Hillsborough in 1989.',
+    'First paragraph.\n\nThe Heysel disaster changed everything.',
+  ]) assert.ok(sensitiveText(text), `Should be held: ${text}`);
+  for (const text of [
+    'Liverpool won the play-off 2–0 at the Heysel Stadium in Brussels on 19 October 1966.',
+    'The ground was rebuilt as an all-seater stand following the Taylor Report.',
+    'Owen scored a hat-trick at Hillsborough in February 1998.',
+    'The semi-final against Leicester was played at Hillsborough in 1963.',
+    'A disaster for the defence, a tragedy for the keeper — football slang only.',
+    '',
+  ]) assert.equal(sensitiveText(text), null, `Should not be held: ${text}`);
+  assert.equal(sensitiveText(undefined), null);
+  const approval = { by: 'Denny', recordedAt: '2026-10-04T09:00:00.000Z', evidence: 'Approved by name in this test.' };
+  const clean = { editorialMode: 'factual', title: 'A career biography' };
+  assert.match(publicationBlock(clean, { approval: null }, 'He was at Heysel in 1985.'), /the text discusses Heysel/);
+  assert.match(publicationBlock(clean, { approval: null }, 'Marked by the Hillsborough disaster.'), /the text discusses Hillsborough disaster/);
+  assert.equal(publicationBlock(clean, { approval }, 'He was at Heysel in 1985.'), null);
+  assert.equal(publicationBlock(clean, { approval: null }, 'An ordinary match report.'), null);
+});
+
+test('the pool holds back the pieces that discuss Heysel or Hillsborough, and not the Petrolul 1966 venue-only match', () => {
+  const f = fixture();
+  try {
+    const bios = discoverCandidates('biographies', f.root), matches = discoverCandidates('matches', f.root);
+    for (const e of [...bios, ...matches]) {
+      const { data, content } = matter(fs.readFileSync(path.join(f.root, e.canonicalDraftPath), 'utf8'));
+      assert.equal(sensitiveText(content), null, `${e.slug} discusses a sensitive subject but is eligible`);
+      assert.equal(sensitiveSubject(data, { id: e.id }), null, `${e.slug} is about a sensitive subject but is eligible`);
+    }
+    const held = ['alan-hansen', 'bruce-grobbelaar', 'graeme-souness', 'ian-rush', 'joe-fagan', 'john-aldridge', 'john-barnes', 'kenny-dalglish',
+      'mark-lawrenson', 'phil-neal', 'sami-hyypia', 'steve-mcmahon', 'steve-nicol'];
+    for (const slug of held) assert.ok(!bios.some(e => e.slug === slug), `${slug} should be held`);
+    for (const slug of ['liverpool-juventus-2005-first-leg', 'liverpool-everton-1999-fowler-double-gerrard-clears',
+      'liverpool-manchester-city-2014-coutinho-title-race', 'anfield-hillsborough-tribute-united-2012']) {
+      assert.ok(!matches.some(e => e.slug === slug), `${slug} should be held`);
+    }
+    assert.ok(matches.some(e => e.slug === 'liverpool-petrolul-1966-brussels-play-off'), 'Petrolul 1966 only used Heysel as a venue and must stay eligible');
+    const norwich = matter(fs.readFileSync(path.join(f.root, 'docs/editorial/drafts/match-recovery/1993-94/liverpool-norwich-1994-standing-kop.md'), 'utf8'));
+    assert.equal(sensitiveText(norwich.content), null, 'A passing Taylor Report mention is not a sensitive subject');
   } finally { f.cleanup(); }
 });
 
