@@ -2,7 +2,7 @@
 
 Historical date: 2013-08-17. Season: 2013–14. Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026.
 
-Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2013_2019. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. Prior individual preparation is preserved in `2013-08-17-sources.md`. Root owns the calendar, remote claim, independent review checkpoint and Git operations. No 2013–14 body has been drafted; this record awaits the remotely confirmed claim release.
+Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2013_2019. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. Prior individual preparation is preserved in `2013-08-17-sources.md`. Root owns the calendar, remote claim, independent review checkpoint and Git operations. Root confirmed the claim on GitHub main at d621c5cab596cc4ae64ac96bceff88368b1d218b and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -32,3 +32,17 @@ No invented quotation, motive, atmosphere, tactical instruction or action from u
 ## Editorial handling before release
 
 The intended article will use registered opposition, competition, manager and principal-player identities, British English and factual match classification. It will have the exact historical date and 2013–14 season, with no publication date. Its frontmatter Sources URL array will match the ordered linked bullets in one terminal `## Sources`section. Only actually retrieved URLs that support the body will be cited there; research-only limited surfaces may remain in these notes. Each final paragraph will receive a full-sentence claim audit after drafting, followed by independent factual review and hashes. This is a completed prewriting record, not a final-body PASS or publication approval.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after confirmed main claim `d621c5cab596cc4ae64ac96bceff88368b1d218b`.
+
+- Paragraph 1: LFChistory supplies the exact date, Anfield venue, 1–0 result and saved penalty. The full club reaction supports Mignolet’s debut, double save and Sturridge goal.
+- Paragraph 2: The record gives Sturridge 37 and 1–0 half-time; the official text describes his shot from distance. The goalkeeper is kept unnamed because the action account refers only to the Stoke keeper.
+- Paragraph 3: The freshly reread club reaction explicitly records a disallowed Liverpool goal, two efforts against the woodwork and Mignolet stretching to save Walters in the first half. The woodwork is not assigned to an unverified phase.
+- Paragraph 4: The club account supplies Agger’s handball, the penalty award and Walters taking it. The independent timeline places the save late at 89 minutes.
+- Paragraph 5: The official narrative and Rodgers’s described double save support the parry and follow-up intervention. The same official page explicitly dates the preceding opening-day league win to 2008; the final result corroborates the preserved lead.
+
+The title, excerpt and historical metadata restate supported facts. Sources metadata and the single terminal linked list match exactly; both URLs are in the actual retrieved register. All IDs are registered. No quotation, imagined motive or unsupported match action appears. The repetitive closing recap was tightened during independent review without adding unsupported facts.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

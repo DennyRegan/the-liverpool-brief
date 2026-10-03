@@ -2,7 +2,7 @@
 
 Historical date: 2014-01-12. Season: 2013–14. Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026.
 
-New Sol addition accepted by root after the 3 October best-games commission without a quota. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. There was no original selected individual note for this addition. Root owns the calendar, remote claim, independent review checkpoint and Git operations. No 2013–14 body has been drafted; this record awaits the remotely confirmed claim release.
+New Sol addition accepted by root after the 3 October best-games commission without a quota. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. There was no original selected individual note for this addition. Root owns the calendar, remote claim, independent review checkpoint and Git operations. Root confirmed the claim on GitHub main at d621c5cab596cc4ae64ac96bceff88368b1d218b and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -26,6 +26,8 @@ The season ledger supplies the competition chronology. The individual record and
 
 ## Conflicts, limits and deliberate omissions
 
+The independently flagged PDF duration difference was freshly retrieved: its early report says seven weeks while the Echo passage at520 says six weeks. The body now states an ankle-injury absence without rounded duration.
+
 Some contemporary clippings initially credit Cissokho rather than Shawcross; current club and LFChistory own-goal credit is used. Accounts differ on cross direction and Walters’s exact minute, so omit those. Mark Hughes disputed the penalty; report the award rather than decide whether Sterling dived. The first-win claim requires Premier League away qualifier.
 
 No invented quotation, motive, atmosphere, tactical instruction or action from unwatched footage is cleared by these notes. Failed or limited source surfaces do not supply unseen details. Approximate clock descriptions are not silently treated as exact timestamps. Source prose will be paraphrased within reuse allowances.
@@ -33,3 +35,18 @@ No invented quotation, motive, atmosphere, tactical instruction or action from u
 ## Editorial handling before release
 
 The intended article will use registered opposition, competition, manager and principal-player identities, British English and factual match classification. It will have the exact historical date and 2013–14 season, with no publication date. Its frontmatter Sources URL array will match the ordered linked bullets in one terminal `## Sources`section. Only actually retrieved URLs that support the body will be cited there; research-only limited surfaces may remain in these notes. Each final paragraph will receive a full-sentence claim audit after drafting, followed by independent factual review and hashes. This is a completed prewriting record, not a final-body PASS or publication approval.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: The club report, full relevant contemporary clippings and independent match record establish 5–3, Sturridge’s productive return and the Premier League-away first-win qualifier.
+- Paragraph 2: The club supplies the Cissokho deflection, Shawcross own goal, Suárez defensive mix-up finish, Crouch cross/header and Adam long shot. Current record agrees with Shawcross credit; cross direction is omitted because accounts differ.
+- Paragraph 3: The official account supports the awarded penalty following Sterling/Wilson, without newly ruling on the disputed challenge. LFChistory gives Gerrard 51 and Sturridge replacing Coutinho 66.
+- Paragraph 4: The club supplies Sturridge’s reverse pass and Suárez goal; freshly read contemporary compilation corroborates the ankle absence. No rounded duration is asserted because other clippings differ; no motivation or medical inference is added.
+- Paragraph 5: The official narrative confirms Walters narrowing the gap and Sturridge finishing after a saved effort from the Suárez delivery. The exact Walters minute is avoided because accounts differ.
+- Paragraph 6: The exposed contemporary match table supplies fourth, 42 points and 21 games. The fourth-goal assist and fifth finish follow the recorded sequence; the fifth restored a two-goal margin after Walters’s reply, without suggesting all five were mathematically required.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2013–14 season, factual match classification, Rodgers and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

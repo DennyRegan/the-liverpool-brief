@@ -88,6 +88,41 @@ Relevant identities, dates, grounds, teams, notes and available goal/substitutio
 
 Actual relevant identities, starting sides, available notes, timelines and exposed match tables read, High within record scope: https://www.lfchistory.net/games/5388 (Newcastle19October2–2; Gerrard100th Premier League goal, third after later results); https://www.lfchistory.net/games/5401 (Stoke12January3–5; Sturridge66 introduction,5/32/39/45/51/71/85/87 goals); https://www.lfchistory.net/games/5406 (Fulham12February2–3; Teixeira debut,90+1 winner, final fourth53from26); https://www.lfchistory.net/games/5423 (Arsenal16February fifth-round2–1; penalty59); https://www.lfchistory.net/games/5411 (Cardiff22March3–6; Suárez sixth club treble/equalled Fowler28 Premier League season goals, second65from30); https://www.lfchistory.net/games/5413 (WestHam6April1–2; two penalties44/71, top74from33/City70from31). Record prose opinions and unused comparative claims are not adopted.
 
+## Additional milestone corroboration
+
+Actual relevant full text retrieved and read, High within these limited scopes: https://www.liverpoolfc.com/news/first-team/159661-how-reds-smashed-pl-record-at-cardiff (Suárez sixth Liverpool treble;82league goals after30, previous club Premier League season mark77); https://www.liverpoolfc.com/news/first-team/147384-i-d-swap-my-100-for-two-more-points (Gerrard100th Premier League goal, first-half penalty and temporary top position, before later results); https://www.liverpoolfc.com/news/first-team/151405-how-flanagan-marked-sensational-strike (first Liverpool goal, volley from Suárez cross off underside of bar). Unquoted feelings, personal recreation, speculation and unrelated fixtures omitted.
+
+## First four completed manuscripts independently reviewed
+
+All complete titles, excerpts, bodies and completed own paragraph audits have actually been read. The current corrected files pass independent factual review within the retrieved evidence, British prose, exact date/entity checks and source-format checks. Descriptive labels accurately identify the cited records/reports; each URL appears in its own actually retrieved note. The single terminal Sources list and same-order metadata array match the published site's format already inspected. These individual approvals do not clear the unfinished nineteen-report season.
+
+The United preceding-champion clause initially lacked its own cited coverage. The writer retrieved and cited https://www.lfchistory.net/season-archive/league-table/122; the complete table has now independently been read and establishes United's championship. Correction rechecked in the actual final body and audit. Stoke's repetitive ending was tightened; newly included disallowed goal, woodwork and first-half Walters save were independently rechecked against the full official reaction, with the residual score-spacing correction confirmed before hashing.
+
+Two additional official pages were actually independently retrieved and their relevant full text read, High within these scopes: https://www.liverpoolfc.com/news/first-team/143981-free-video-kop-s-shankly-tribute establishes the pre-match centenary mosaic (no video watched); https://www.liverpoolfc.com/news/announcements/363222-bill-shankly-birthday-tribute establishes birth on 2 September 1913, distinct from the 1 September fixture. Newcastle century/temporary top/final third and Goodison all six goals/late substitution timing were rechecked against the already retrieved narratives and cores. No invented action, quoted speech or selection motive found.
+
+Reviewed full-file SHA-256 values:
+
+| File | SHA-256 |
+|---|---|
+| liverpool-stoke-2013-mignolet-debut-save.md | afe0d0790bd2a72aa394b1f2e8d1a89162947b180d08cf6a7b04af776c432e22 |
+| liverpool-manchester-united-2013-sturridge-shankly-centenary.md | 653225ae94663b023acd9b95990d133de873743189b2d91a03f9bee9ad42bb9d |
+| newcastle-liverpool-2013-gerrard-century.md | afe460781f5f7c65e965b6b976954795c9a54eca195c674f5c75151717e23d1a |
+| everton-liverpool-2013-sturridge-six-goal-derby.md | 19eb7bbc2a51944bfe6f5e9998496b8608b348ccff0539c07bc8e0f270905575 |
+
+## Second completed batch read
+
+The complete Norwich4December, Tottenham15December, Stoke12January and Everton28January bodies, titles/excerpts and final own paragraph audits have actually been read. Source arrays/order/one terminal linked list, accurate labels, exact dates and all supplied canonical entity IDs mechanically pass. Published-source format and own-note retrieved-URL coverage match. Norwich's three-treble milestone is explicitly Liverpool-scoped; Tottenham captaincy is Premier League-specific, and Flanagan's first senior Liverpool goal is independently supported. Everton's goal/penalty chronology, Rodgers first derby win and contemporary fourth46/23 versus Everton sixth42/23 are supported.
+
+Stoke's seven-week ankle-absence wording has now been independently checked in the actually retrieved PDF opening second report119–120 and BBC714–718 (last appearance23November). Echo520 uses a rounded six weeks; this discrepancy was sent to the writer with a proposed late-November wording. The PDF's relevant new passages were read, not all six pages or footage. Stoke's concluding five-goals-required claim was flagged because four exceeds the three conceded; its correction and final hash remain pending.
+
+These three unchanged completed files independently pass factual/material-claim coverage, date/entities, British prose, single source footer/metadata/own-note parity and published-format comparison; full-file hashes:
+
+| File | SHA-256 |
+|---|---|
+| liverpool-norwich-2013-suarez-four-goals.md | 37948cf5b76a13e80f6a0ddb2cb8fb53266b5ddec26ec99553eeb9067377dd03 |
+| tottenham-liverpool-2013-five-at-white-hart-lane.md | 52c64b5487c69a7c6883df4cf9b937e0a08e5c7803ce2b905345b826c4370272 |
+| liverpool-everton-2014-four-goal-derby.md | 08d38d72165ab65d02f5fe80b187d0cbaf7b7e31abe6efde0964eca0845cf6e1 |
+
 ## Verdict
 
 PENDING

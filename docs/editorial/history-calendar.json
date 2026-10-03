@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T12:46:48.105502Z",
+  "updatedAt": "2026-10-03T12:59:21.575869Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -24416,7 +24416,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-stoke-2013-mignolet-debut-save.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24466,7 +24466,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-manchester-united-2013-sturridge-shankly-centenary.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24516,7 +24516,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/everton-liverpool-2013-sturridge-six-goal-derby.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24566,7 +24566,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-norwich-2013-suarez-four-goals.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24616,7 +24616,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/tottenham-liverpool-2013-five-at-white-hart-lane.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24666,7 +24666,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-everton-2014-four-goal-derby.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24716,7 +24716,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-arsenal-2014-four-in-twenty-minutes.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24766,7 +24766,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/manchester-united-liverpool-2014-gerrard-penalties.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31614,7 +31614,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/newcastle-liverpool-2013-gerrard-century.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31659,7 +31659,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/stoke-liverpool-2014-sturridge-return-eight-goals.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31704,7 +31704,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/fulham-liverpool-2014-gerrard-late-penalty.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31749,7 +31749,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/arsenal-liverpool-2014-fa-cup-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,

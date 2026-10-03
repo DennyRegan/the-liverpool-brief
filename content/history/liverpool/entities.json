@@ -2998,5 +2998,20 @@
     "id": "carrow-road",
     "label": "Carrow Road",
     "kind": "location"
+  },
+  {
+    "id": "loftus-road",
+    "label": "Loftus Road",
+    "kind": "location"
+  },
+  {
+    "id": "macron-stadium",
+    "label": "Macron Stadium",
+    "kind": "location"
+  },
+  {
+    "id": "britannia-stadium",
+    "label": "Britannia Stadium",
+    "kind": "location"
   }
 ]

@@ -2,7 +2,7 @@
 
 Historical date: 2014-02-12. Season: 2013–14. Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026.
 
-New Sol addition accepted by root after the 3 October best-games commission without a quota. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. There was no original selected individual note for this addition. Root owns the calendar, remote claim, independent review checkpoint and Git operations. No 2013–14 body has been drafted; this record awaits the remotely confirmed claim release.
+New Sol addition accepted by root after the 3 October best-games commission without a quota. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. There was no original selected individual note for this addition. Root owns the calendar, remote claim, independent review checkpoint and Git operations. Root confirmed the claim on GitHub main at d621c5cab596cc4ae64ac96bceff88368b1d218b and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -32,3 +32,18 @@ No invented quotation, motive, atmosphere, tactical instruction or action from u
 ## Editorial handling before release
 
 The intended article will use registered opposition, competition, manager and principal-player identities, British English and factual match classification. It will have the exact historical date and 2013–14 season, with no publication date. Its frontmatter Sources URL array will match the ordered linked bullets in one terminal `## Sources`section. Only actually retrieved URLs that support the body will be cited there; research-only limited surfaces may remain in these notes. Each final paragraph will receive a full-sentence claim audit after drafting, followed by independent factual review and hashes. This is a completed prewriting record, not a final-body PASS or publication approval.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: The primary narrative and independent record establish exact date, Craven Cottage, 3–2 and two Fulham leads before the late Gerrard penalty.
+- Paragraph 2: The full club account supports Touré’s own goal from Richardson’s cross and Sturridge’s post-and-in finish from Gerrard’s outside-boot pass. The broad opener clock avoids source seven/eight-minute differences; LFChistory records 1–1 half-time.
+- Paragraph 3: The official narrative explicitly puts the Suárez post effort before Richardson’s second-half goal and supports Skrtel’s unsuccessful clearance. The record supplies Richardson 63.
+- Paragraph 4: The club narrative supports Coutinho’s curled finish; the independent timeline gives 72 and 2–2. No unseen deflection is asserted.
+- Paragraph 5: The primary source supplies Riether fouling Sturridge and the converted Gerrard penalty. LFChistory gives 90+1; broad added-time wording is supported.
+- Paragraph 6: The contemporary table supplies fourth 53/26 and Chelsea 57/26. The season ledger puts the Arsenal league win immediately before Fulham and distinguishes the league run from the subsequent cup fixture.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2013–14 season, factual match classification, Rodgers and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

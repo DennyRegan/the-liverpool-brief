@@ -2,7 +2,7 @@
 
 Historical date: 2013-12-15. Season: 2013–14. Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026.
 
-Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2008_2013. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. Prior individual preparation is preserved in `2013-12-15-sources.md`. Root owns the calendar, remote claim, independent review checkpoint and Git operations. No 2013–14 body has been drafted; this record awaits the remotely confirmed claim release.
+Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2008_2013. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. Prior individual preparation is preserved in `2013-12-15-sources.md`. Root owns the calendar, remote claim, independent review checkpoint and Git operations. Root confirmed the claim on GitHub main at d621c5cab596cc4ae64ac96bceff88368b1d218b and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -33,3 +33,18 @@ No invented quotation, motive, atmosphere, tactical instruction or action from u
 ## Editorial handling before release
 
 The intended article will use registered opposition, competition, manager and principal-player identities, British English and factual match classification. It will have the exact historical date and 2013–14 season, with no publication date. Its frontmatter Sources URL array will match the ordered linked bullets in one terminal `## Sources`section. Only actually retrieved URLs that support the body will be cited there; research-only limited surfaces may remain in these notes. Each final paragraph will receive a full-sentence claim audit after drafting, followed by independent factual review and hashes. This is a completed prewriting record, not a final-body PASS or publication approval.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: The full club report establishes 5–0, Suárez’s first Premier League captaincy and all scorers. LFChistory supplies date, venue and second place.
+- Paragraph 2: The official account supports Henderson’s pass, Suárez 18 and Henderson’s rebound goal. The independent timeline gives Henderson 40 and 2–0 half-time.
+- Paragraph 3: The club narrative supports Paulinho’s high challenge and awarded red, and Flanagan volley from Suárez’s cross. The timeline records Paulinho 62; no intention or new correctness ruling is asserted.
+- Paragraph 4: The separately freshly retrieved official Flanagan feature expressly identifies his first-ever Liverpool goal. The third-goal score follows the timeline.
+- Paragraph 5: The club report supports the lob and Suárez supplying Sterling; LFChistory assigns the fourth assist to Luis Alberto. Exact late clocks are omitted because source notation differs.
+- Paragraph 6: The independent contemporary table supplies Liverpool 33/16 and Arsenal 35/16. Captaincy remains Premier League-specific, not first captaincy across all competitions.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2013–14 season, factual match classification, Rodgers and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

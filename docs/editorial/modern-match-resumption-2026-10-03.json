@@ -1055,6 +1055,27 @@
       "retrievedBy": "/root/sol_1967_68",
       "scope": "Venue of selected Norwich–Liverpool match on 29 September 2012",
       "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "loftus-road",
+      "source": "https://www.lfchistory.net/games/5431",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Venue of selected QPR–Liverpool match on 19 October 2014",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "macron-stadium",
+      "source": "https://www.lfchistory.net/games/5482",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Venue of selected Bolton–Liverpool match on 4 February 2015",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "britannia-stadium",
+      "source": "https://www.lfchistory.net/games/5461",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Historical venue label of Stoke–Liverpool on 24 May 2015; club match narrative corroborates, legacy article header date is erroneous",
+      "model": "gpt-6.1-sol"
     }
   ]
 }

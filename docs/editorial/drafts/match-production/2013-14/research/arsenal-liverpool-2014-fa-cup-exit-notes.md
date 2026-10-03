@@ -2,7 +2,7 @@
 
 Historical date: 2014-02-16. Season: 2013–14. Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026.
 
-New Sol addition accepted by root after the 3 October best-games commission without a quota. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. There was no original selected individual note for this addition. Root owns the calendar, remote claim, independent review checkpoint and Git operations. No 2013–14 body has been drafted; this record awaits the remotely confirmed claim release.
+New Sol addition accepted by root after the 3 October best-games commission without a quota. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. There was no original selected individual note for this addition. Root owns the calendar, remote claim, independent review checkpoint and Git operations. Root confirmed the claim on GitHub main at d621c5cab596cc4ae64ac96bceff88368b1d218b and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -34,3 +34,18 @@ No invented quotation, motive, atmosphere, tactical instruction or action from u
 ## Editorial handling before release
 
 The intended article will use registered opposition, competition, manager and principal-player identities, British English and factual match classification. It will have the exact historical date and 2013–14 season, with no publication date. Its frontmatter Sources URL array will match the ordered linked bullets in one terminal `## Sources`section. Only actually retrieved URLs that support the body will be cited there; research-only limited surfaces may remain in these notes. Each final paragraph will receive a full-sentence claim audit after drafting, followed by independent factual review and hashes. This is a completed prewriting record, not a final-body PASS or publication approval.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: The complete official report and match record establish 2–1, fifth round, Emirates and exact date. Oxlade-Chamberlain, Podolski and Gerrard are the independently recorded scorers.
+- Paragraph 2: The season ledger dates the league meeting 8 February and this cup tie 16 February. The official report supports the starting changes and two early Sturridge chances; no unverified save mechanism is added.
+- Paragraph 3: The official narrative supports Oxlade-Chamberlain’s finish after the Arteta delivery and scramble. LFChistory gives 16 and 1–0 half-time.
+- Paragraph 4: The club account supports Oxlade-Chamberlain creating Podolski’s goal, Podolski/Suárez awarded penalty and late Agger miss. The penalty is kept broad because the introduction’s quarter-remaining phrase conflicts with core 59.
+- Paragraph 5: The separately retrieved official Rodgers reaction records his second-penalty complaint after the Oxlade-Chamberlain/Suárez challenge. It is clearly attributed, not newly adjudicated.
+- Paragraph 6: The full ledger contains no European campaign and shows both domestic cup exits, leaving league fixtures only. The comparison is bounded to the two recorded Arsenal results and their different competitions.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2013–14 season, factual match classification, Rodgers and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.
