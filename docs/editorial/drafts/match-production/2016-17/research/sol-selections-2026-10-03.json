@@ -1,0 +1,297 @@
+{
+  "season": "2016-17",
+  "model": "gpt-6.1-sol",
+  "workerId": "/root/sol_1967_68",
+  "retrievedAt": "2026-10-03",
+  "status": "fresh_research_complete_awaiting_independent_precheck_and_remote_main_claims",
+  "purpose": "Fresh supporting selection and source evidence, not authoritative calendar or permission to draft. Root must confirm actual remote main claims before manuscript bodies.",
+  "preservedPreparation": {
+    "selection": "selection.json",
+    "seasonResearch": "season-research.md",
+    "model": "gpt-6-astra",
+    "workerId": "/root/astra_2013_2019",
+    "date": "2026-10-01",
+    "note": "Original files and all ten date-based source notes remain unchanged. Original selection contains later handoff identities; they do not identify this fresh Sol retrieval."
+  },
+  "duplicateAudit": {
+    "main": "0bc0598be1c7e3a2eef74b1c5a9efb8e7881d470",
+    "method": "Exact historicalEventDate in local public/private Markdown frontmatter plus origin/main history-calendar.json matches and entries; manuscript-path review. Prior ten selected dates have planned unclaimed rows and no bodies. Added Wolves/Stoke dates have no rows or bodies. Only Chelsea16Sep has completed coverage, reused.",
+    "reuse": {
+      "path": "content/archive/liverpool/henderson-chelsea-winner-2016.md",
+      "historicalEventDate": "2016-09-16",
+      "sha256": "93e3883ba6617f1ea4d85a864e2b9527f1a0a66dad29e13f1e64f595a4db957d",
+      "matchesMain": true,
+      "preservedDraft": "docs/editorial/drafts/henderson-chelsea-winner-2016.md",
+      "policy": "Do not overwrite or relabel original authorship."
+    }
+  },
+  "matches": [
+    {
+      "date": "2016-08-14",
+      "slug": "arsenal-liverpool-2016-mane-debut-seven-goal-opener",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "score": "3–4",
+      "opposition": "Arsenal",
+      "oppositionId": "arsenal",
+      "competitionId": "premier-league",
+      "locationId": "emirates-stadium",
+      "title": "Mané scores on debut as Liverpool win seven-goal opener",
+      "editorialReason": "Seven-goal season opener, Mané scoring debut and Coutinho brace.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5553",
+        "https://www.liverpoolfc.com/news/first-team/231729-match-report-reds-beat-arsenal-in-seven-goal-thriller",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/arsenal-liverpool-2016-mane-debut-seven-goal-opener-notes.md"
+    },
+    {
+      "date": "2016-09-10",
+      "slug": "liverpool-leicester-2016-main-stand-opening",
+      "home": "Liverpool",
+      "away": "Leicester City",
+      "score": "4–1",
+      "opposition": "Leicester City",
+      "oppositionId": "leicester-city",
+      "competitionId": "premier-league",
+      "locationId": "anfield",
+      "title": "Liverpool beat Leicester to mark the expanded Main Stand",
+      "editorialReason": "Expanded Main Stand first competitive match and victory over champions.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5556",
+        "https://www.liverpoolfc.com/news/first-team/235091-report-main-stand-opens-with-emphatic-victory-over-leicester",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/liverpool-leicester-2016-main-stand-opening-notes.md"
+    },
+    {
+      "date": "2016-11-06",
+      "slug": "liverpool-watford-2016-six-goals-top-of-table",
+      "home": "Liverpool",
+      "away": "Watford",
+      "score": "6–1",
+      "opposition": "Watford",
+      "oppositionId": "watford",
+      "competitionId": "premier-league",
+      "locationId": "anfield",
+      "title": "Six goals against Watford take Liverpool top",
+      "editorialReason": "Six-goal win takes Klopp Liverpool top of the league.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5563",
+        "https://www.liverpoolfc.com/news/first-team/242238-reds-go-top-of-premier-league-with-win-over-watford",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/liverpool-watford-2016-six-goals-top-of-table-notes.md"
+    },
+    {
+      "date": "2016-11-29",
+      "slug": "liverpool-leeds-2016-woodburn-youngest-scorer",
+      "home": "Liverpool",
+      "away": "Leeds United",
+      "score": "2–0",
+      "opposition": "Leeds United",
+      "oppositionId": "leeds-united",
+      "competitionId": "league-cup",
+      "locationId": "anfield",
+      "title": "Woodburn becomes Liverpool’s youngest scorer against Leeds",
+      "editorialReason": "Woodburn becomes youngest Liverpool scorer in quarter-final victory.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5594",
+        "https://www.liverpoolfc.com/news/first-team/245132-report-woodburn-makes-history-as-reds-beat-leeds-in-efl-cup",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/liverpool-leeds-2016-woodburn-youngest-scorer-notes.md"
+    },
+    {
+      "date": "2016-12-04",
+      "slug": "bournemouth-liverpool-2016-two-goal-lead-lost",
+      "home": "Bournemouth",
+      "away": "Liverpool",
+      "score": "4–3",
+      "opposition": "Bournemouth",
+      "oppositionId": "bournemouth",
+      "competitionId": "premier-league",
+      "locationId": "vitality-stadium",
+      "title": "Bournemouth overturn Liverpool’s two-goal lead",
+      "editorialReason": "Major defensive collapse after 3–1 lead, illustrating inconsistent title challenge.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5566",
+        "https://www.liverpoolfc.com/news/first-team/245731-match-report-liverpool-beaten-by-bournemouth-comeback",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/bournemouth-liverpool-2016-two-goal-lead-lost-notes.md"
+    },
+    {
+      "date": "2016-12-19",
+      "slug": "everton-liverpool-2016-mane-stoppage-time-derby",
+      "home": "Everton",
+      "away": "Liverpool",
+      "score": "0–1",
+      "opposition": "Everton",
+      "oppositionId": "everton",
+      "competitionId": "premier-league",
+      "locationId": "goodison-park",
+      "title": "Mané’s late rebound wins the Goodison derby",
+      "editorialReason": "Stoppage-time derby winner at Goodison Park.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5569",
+        "https://www.liverpoolfc.com/news/first-team/247375-match-report-injury-time-mane-winner-gives-reds-derby-victory",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/everton-liverpool-2016-mane-stoppage-time-derby-notes.md"
+    },
+    {
+      "date": "2017-01-25",
+      "slug": "liverpool-southampton-2017-league-cup-semi-final",
+      "home": "Liverpool",
+      "away": "Southampton",
+      "score": "0–1",
+      "opposition": "Southampton",
+      "oppositionId": "southampton",
+      "competitionId": "league-cup",
+      "locationId": "anfield",
+      "title": "Southampton end Liverpool’s League Cup run",
+      "editorialReason": "Semi-final elimination during January downturn; FA Cup exit belongs in verified immediate consequences.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5596",
+        "https://www.liverpoolfc.com/news/first-team/251888-report-liverpool-exit-efl-cup-after-southampton-defeat-at-anfield",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/liverpool-southampton-2017-league-cup-semi-final-notes.md"
+    },
+    {
+      "date": "2017-01-28",
+      "slug": "liverpool-wolves-2017-fa-cup-upset",
+      "home": "Liverpool",
+      "away": "Wolverhampton Wanderers",
+      "score": "1–2",
+      "opposition": "Wolverhampton Wanderers",
+      "oppositionId": "wolverhampton-wanderers",
+      "competitionId": "fa-cup",
+      "locationId": "anfield",
+      "title": "Wolves knock Liverpool out of the FA Cup at Anfield",
+      "editorialReason": "Distinct Championship FA Cup upset: first-minute goal, nine Liverpool changes and second domestic cup exit in four days.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5599",
+        "https://www.liverpoolfc.com/news/first-team/252342-match-report-wolves-knock-reds-out-of-fa-cup",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/liverpool-wolves-2017-fa-cup-upset-notes.md"
+    },
+    {
+      "date": "2017-02-11",
+      "slug": "liverpool-tottenham-2017-mane-ends-winless-run",
+      "home": "Liverpool",
+      "away": "Tottenham Hotspur",
+      "score": "2–0",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "locationId": "anfield",
+      "title": "Mané’s double brings Liverpool a first league win of 2017",
+      "editorialReason": "Mané brace ends league winless sequence and restores top-four challenge.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5577",
+        "https://www.liverpoolfc.com/news/first-team/253895-match-report-mane-double-helps-reds-to-stylish-spurs-win",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/liverpool-tottenham-2017-mane-ends-winless-run-notes.md"
+    },
+    {
+      "date": "2017-04-08",
+      "slug": "stoke-liverpool-2017-brazilian-substitute-comeback",
+      "home": "Stoke City",
+      "away": "Liverpool",
+      "score": "1–2",
+      "opposition": "Stoke City",
+      "oppositionId": "stoke-city",
+      "competitionId": "premier-league",
+      "locationId": "bet365-stadium",
+      "title": "Coutinho and Firmino come off the bench to beat Stoke",
+      "editorialReason": "Distinct spring qualification comeback: both half-time substitutes score, and Mignolet makes two important saves.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5584",
+        "https://www.liverpoolfc.com/news/first-team/259666-match-report-coutinho-and-firmino-inspire-comeback-at-stoke",
+        "https://www.liverpoolfc.com/news/first-team/259690-jurgen-klopp-that-win-feels-absolutely-massive-for-us",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/stoke-liverpool-2017-brazilian-substitute-comeback-notes.md"
+    },
+    {
+      "date": "2017-05-01",
+      "slug": "watford-liverpool-2017-can-overhead-kick",
+      "home": "Watford",
+      "away": "Liverpool",
+      "score": "0–1",
+      "opposition": "Watford",
+      "oppositionId": "watford",
+      "competitionId": "premier-league",
+      "locationId": "vicarage-road",
+      "title": "Can’s overhead kick earns Liverpool victory at Watford",
+      "editorialReason": "Can overhead kick wins important top-four contest; individual landmark.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5587",
+        "https://www.liverpoolfc.com/news/first-team/261950-match-report-emre-can-stunner-secures-crucial-watford-win",
+        "https://www.lfchistory.net/season-archive/games/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/watford-liverpool-2017-can-overhead-kick-notes.md"
+    },
+    {
+      "date": "2017-05-21",
+      "slug": "liverpool-middlesbrough-2017-champions-league-return",
+      "home": "Liverpool",
+      "away": "Middlesbrough",
+      "score": "3–0",
+      "opposition": "Middlesbrough",
+      "oppositionId": "middlesbrough",
+      "competitionId": "premier-league",
+      "locationId": "anfield",
+      "title": "Liverpool beat Middlesbrough to secure Champions League play-off place",
+      "editorialReason": "Final-day win secures fourth and Champions League play-off place.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5590",
+        "https://www.liverpoolfc.com/news/first-team/264042-match-report-reds-see-off-boro-to-seal-top-four-finish",
+        "https://www.liverpoolfc.com/news/first-team/264065-jurgen-klopp-on-boro-win-top-four-finish-and-champions-league-play-off",
+        "https://www.lfchistory.net/season-archive/games/126",
+        "https://www.lfchistory.net/season-archive/league-table/126"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2016-17/research/liverpool-middlesbrough-2017-champions-league-return-notes.md"
+    }
+  ],
+  "reusedPaths": [
+    "content/archive/liverpool/henderson-chelsea-winner-2016.md"
+  ],
+  "selectionChanges": [
+    "Retain all ten originally prepared candidates and their slugs.",
+    "Add Wolves FA Cup fourth-round upset28January and Stoke substitute comeback8April after fresh core and full contemporary action retrieval, accepted by root before claims.",
+    "Retain published Chelsea16September article unchanged. Twelve new reports is the result of significance review, not a target quota."
+  ],
+  "consideredOmissions": [
+    {
+      "date": "2016-12-31",
+      "match": "Liverpool1–0ManchesterCity",
+      "reason": "Significant league win and second-place year-end context; selected autumn summit, Goodison winner and spring qualification narrative cover campaign progression without another top-opponent win."
+    },
+    {
+      "date": "2017-03-04",
+      "match": "Liverpool3–1Arsenal",
+      "reason": "Strong rival win, but opening Emirates report and Spurs recovery cover this category; fixture/result context only, no newly retrieved action account."
+    },
+    {
+      "date": "2017-05-14",
+      "match": "WestHam0–4Liverpool",
+      "reason": "Penultimate win belongs in verified lead-up to final-day qualification; selected Middlesbrough report gives decisive milestone. No separate manuscript needed."
+    },
+    {
+      "date": "2017-01-18",
+      "match": "Plymouth0–1Liverpool",
+      "reason": "Only January competitive win useful to distinguish league winless run; a routine third-round replay does not add a distinct main story."
+    }
+  ],
+  "limitations": [
+    "No bodies drafted or ready status asserted. Claims await root remote confirmation.",
+    "All final Sources URLs must be recorded in own note with actual provider confidence/scope. Metadata/footer order must match exactly.",
+    "All current cited selected core/club action URLs were actually reopened and read by this Sol worker. Earlier un-retrieved supplemental leads are not credited as fresh retrieval.",
+    "No attendance figure for Leicester; historical venue aliases and minute conflicts bounded in notes. No fresh award claim for Can overhead kick."
+  ]
+}

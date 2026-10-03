@@ -1084,6 +1084,30 @@
       "retrievedBy": "/root/sol_1967_68",
       "scope": "Principal debutant and first goalscorer against Middlesbrough, 23 September 2014; worker freshly retrieved match record and club report",
       "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "bet365-stadium",
+      "source": "https://www.liverpoolfc.com/news/first-team/259690-jurgen-klopp-that-win-feels-absolutely-massive-for-us",
+      "additionalSource": "https://www.lfchistory.net/season-archive/games/126",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Historical Stoke venue label on 8 April 2017; individual core retains older Britannia label; actual fresh Sol retrieval",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "vitality-stadium",
+      "source": "https://www.liverpoolfc.com/news/first-team/245731-match-report-liverpool-beaten-by-bournemouth-comeback",
+      "additionalSource": "https://www.lfchistory.net/season-archive/games/126",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Historical Bournemouth venue label on 4 December 2016; core Dean Court is the same venue; actual fresh Sol retrieval",
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "id": "ben-woodburn",
+      "source": "https://www.lfchistory.net/games/5594",
+      "additionalSource": "https://www.liverpoolfc.com/news/first-team/245132-report-woodburn-makes-history-as-reds-beat-leeds-in-efl-cup",
+      "retrievedBy": "/root/sol_1967_68",
+      "scope": "Principal Liverpool scorer against Leeds on 29 November 2016; actual fresh Sol retrieval",
+      "model": "gpt-6.1-sol"
     }
   ]
 }

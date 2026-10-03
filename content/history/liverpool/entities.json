@@ -3018,5 +3018,20 @@
     "id": "jordan-rossiter",
     "label": "Jordan Rossiter",
     "kind": "person"
+  },
+  {
+    "id": "bet365-stadium",
+    "label": "bet365 Stadium",
+    "kind": "location"
+  },
+  {
+    "id": "vitality-stadium",
+    "label": "Vitality Stadium",
+    "kind": "location"
+  },
+  {
+    "id": "ben-woodburn",
+    "label": "Ben Woodburn",
+    "kind": "person"
   }
 ]

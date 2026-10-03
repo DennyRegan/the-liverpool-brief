@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "workerId": "/root/sol_1967_68",
   "researchedAt": "2026-10-03",
-  "status": "thirteen_manuscripts_complete_self_audits_pass_independent_review_pending",
+  "status": "thirteen_manuscripts_complete_independent_factual_review_pass",
   "priorPreparation": {
     "path": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
     "model": "gpt-6-astra",
@@ -326,7 +326,7 @@
     "All thirteen manuscript bodies and sentence-level self-audits were saved after main07c42fe993b59037812634863c36368b43c9303a claims; current main writing claims, IDs and dates reconciled before each save.",
     "Original Astra files and all earlier completed reviewed seasons remain unchanged. Fresh notes identify actual Sol retrieval and URL-specific scope.",
     "QPR revised goal credit, dismissal elapsed time, cup timing/leg and legacy header errors are bounded in per-match notes.",
-    "All thirteen completed self-audits pass. Final independent body review and hashes are pending; source confidence remains private.",
+    "All thirteen completed self-audits and final independent body/source-format reviews pass. Full-file hashes are recorded in sol-independent-review-2026-10-03.md; manuscript bytes frozen for root checkpoint.",
     "The FA United summary is exposed search text with a failed page-open, explicitly Medium scope. The FA Bolton page-open twice failed but exposed search narrative was retrieved; it remains supplementary and is not a proposed footer source."
   ]
 }
