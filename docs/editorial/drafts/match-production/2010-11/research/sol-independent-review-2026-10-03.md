@@ -3,7 +3,7 @@
 - Actual configured reviewer model: `gpt-6.1-sol`.
 - Reviewer worker: `/root/sol_factual_review`.
 - Retrieval date: 3 October 2026.
-- Current stage: independently retrieved baseline evidence; finished manuscripts not yet reviewed. No manuscript PASS, approval or publication authorisation.
+- Current stage: independently retrieved baseline evidence and initial completed manuscript batches reviewed; remaining manuscripts pending. No manuscript PASS, approval or publication authorisation.
 - Original Astra preparation and review records remain preserved. This file records this reviewer’s fresh work separately.
 
 ## Independently retrieved baseline sources
@@ -52,11 +52,28 @@ The old Liverpool soccerschools takeover timeline appeared in a search extract b
 - https://www.lfchistory.net/images/newspapers/riley/20110202vstoke.pdf — contemporary reports hosted by LFChistory, independently opened and read on 3 October 2026. High for common goal sequence: Gerrard free-kick, loose ball involving Kyrgiakos, Meireles finish; Kuyt through-ball, Suárez rounding Begović, Wilkinson failed clearance. Accounts differ on exact intermediate contacts and shape; no inferred motives, quotations or disputed clearance credit adopted. The final official credit remains Suárez.
 - https://www.lfchistory.net/images/newspapers/riley/20110105vblackburn.pdf — contemporary reports hosted by LFChistory, independently opened and targeted passages read on 3 October 2026. High for Diouf/Olsson opener, Pedersen/Benjani turn and shot, Hoilett supply for second Benjani goal, Gerrard late reply and missed penalty. Fouled-player identity conflicts between Gerrard and Torres; omit that identity. Goal build-up and exact clocks also vary; use bounded common sequence only. Archive prose, crowd quotations and judgements not copied.
 
+## Additional independently retrieved sources for completed batches
+
+- https://www.lfchistory.net/games/5228 — High within full Goodison core, half-time/result/scorers and post-match table: nineteenth, six points, one win from eight.
+- https://www.lfchistory.net/games/5264 — High within full Napoli core: date, group fixture, half-time substitution, 75/88/89 goal timeline. Equaliser minute differs from UEFA's 76; manuscript correctly uses final quarter-hour.
+- https://www.lfchistory.net/games/5231 — High within Chelsea-home core, Torres double, ninth place and league-leading opposition.
+- https://www.lfchistory.net/games/5242 — High within Blackburn core and full displayed table: twelfth, 25 points from twenty matches and nine defeats.
+- https://www.lfchistory.net/games/5271 — High within United cup core: date/round, Giggs second-minute penalty and Gerrard32 dismissal.
+- https://www.lfchistory.net/games/5249 — High within United-home core: Kuyt treble, Carroll substitute debut and sixth-place table. Late consolation precise clock not adopted.
+- https://www.skysports.com/football/chelsea-vs-liverpool/report/229836 — High within actually exposed Chelsea-away first-half chances, Carragher block and Maxi bar. Current extraction stops before full second-half winner, supplied separately by UEFA.
+- https://www.skysports.com/football/liverpool-vs-chelsea/221158 — Complete relevant contemporary Chelsea-home body read: Kuyt diagonal, Torres control/finish, Meireles dispossession of Cole and curled second, Reina/Malouda save, Anelka bar, Cech/Kuyt save and ninth place. Opinions omitted.
+
 ## Manuscript review state
 
-All twelve fresh prewriting notes were read on 3 October 2026. Bounded action choices and recorded conflicts are consistent with the retrieved baseline. Requested source-register correction: each provider URL must describe only its own retrieved scope; several rows combine UEFA, core, club and Sky claims. In particular, Chelsea-away first-half Sky details require a separately registered/cited actually retrieved URL or omission; the May club retrospective's City paragraph does not itself establish the Flanagan debut or Carroll first-goal milestones. These attribution corrections will be rechecked with finished audits.
+All twelve fresh prewriting notes read; rewritten URL-specific scopes checked as revised. The ownership, appointment, City milestone and Chelsea-away Sky attribution requests are resolved in the current registers. Exact completed-file source parity and own-note coverage will be repeated at season completion.
 
-Root accepted twelve reports: the nine retained selections plus Chelsea at home on 7 November, Manchester City at home on 11 April and Arsenal away on 17 April. All finished bodies/companion audits remain pending. No final file hashes or completed-manuscript verdict yet. Source-format/site comparison, exact URL parity, own-note coverage and canonical date/entity checks will be repeated on final saved files.
+Completed bodies and finished own audits actually read: Northampton, Goodison, Napoli, Chelsea home, Blackburn and United cup. Their material body assertions were checked sentence by sentence against the independently retrieved sources above and the baseline. Dates, venues, results, goals, substitutions, disciplinary decisions, contemporary table and surrounding fixture sequences are consistent. No fabricated play, quotation, motive or medical cause found. Northampton excerpt requested clearer one-lead/one-recovery wording; the changed excerpt must be rechecked before its final hash.
+
+Goodison uses independently verified takeover chronology, not UEFA for ownership. Napoli uses a bounded equaliser clock. Blackburn omits disputed fouled-player identity and differing late goal clocks. United cup reports the penalty decision without adjudicating contact.
+
+The six completed reports have one terminal linked Sources list, accurate descriptive labels, exact metadata URL order and own-note URL coverage. Their report structure matches the existing published Leicester1974/WestHam1977 reports already read; confidence/internal review prose stays in notes. Canonical IDs and final full-file hashes remain to be repeated across all twelve completed reports.
+
+Six further accepted reports remain pending: Stoke, Chelsea away, United home, City home, Arsenal away and Fulham. No entire-season PASS or final file hashes yet.
 
 ## Verdict
 

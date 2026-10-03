@@ -1,7 +1,7 @@
 ---
 title: "Northampton win the shootout at Anfield"
 slug: "northampton-anfield-shootout-upset-2010"
-excerpt: "Liverpool twice led or recovered at Anfield, but Northampton Town won 4–2 on penalties after a 2–2 League Cup draw."
+excerpt: "Liverpool led early and equalised late in extra time, but Northampton Town won 4–2 on penalties after a 2–2 League Cup draw."
 historicalEventDate: "2010-09-22"
 historicalPeriod: "22 September 2010"
 decade: "2010s"

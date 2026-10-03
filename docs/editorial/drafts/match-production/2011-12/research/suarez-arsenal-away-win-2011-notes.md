@@ -37,7 +37,7 @@ Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 af
 
 - Paragraph 1: UEFA and Sky establish the date, venue, 0–2 score, own goal and late Suárez goal. The complete ledger establishes this as the first league win.
 - Paragraph 2: The ledger records the Sunderland draw; the freshly retrieved club press review explicitly dates the preceding away Arsenal win to February 2000. The venue comparison is in those contemporary accounts.
-- Paragraph 3: Sky’s actually retrieved first-half text supports Szczęsny’s save from Carroll and Kelly hitting the post. No line-up or pressure statistic is inferred.
+- Paragraph 3: Sky’s retrieved narrative supports Szczęsny’s first-half save from Carroll and explicitly puts Kelly’s post effort at 55 minutes in the second half. The paragraph now separates them chronologically after independent review identified the misplaced implication. No line-up or pressure statistic is inferred.
 - Paragraph 4: UEFA confirms Frimpong’s dismissal and Ramsey own goal; Sky supports the second caution, Liverpool substitutes and Miquel clearance striking Ramsey. The fouled player is deliberately unnamed because accounts conflict.
 - Paragraph 5: Sky supports Meireles’s square pass and the unguarded finish; UEFA confirms the added-time goal. No offside ruling is attempted.
 - Paragraph 6: Four points follows directly from the ledger’s draw and win under the three-point system; the eleven-year interval is bounded by the retrieved February 2000 predecessor and August 2011 result.

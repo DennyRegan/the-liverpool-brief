@@ -21,7 +21,7 @@ Liverpool ended their long wait for an away victory over Arsenal on 20 August 20
 
 The opening home draw with Sunderland had left Liverpool seeking a first win. Arsenal supplied a ground at which that had proved particularly difficult: Liverpool’s previous away victory against them had been in February 2000, before the move from Highbury to the Emirates.
 
-Neither side scored before half-time. Wojciech Szczęsny kept out an Andy Carroll header, while Martin Kelly struck the post. Liverpool had opportunities, but the result remained open until a second-half dismissal changed the numbers on the field.
+Neither side scored before half-time, with Wojciech Szczęsny keeping out an Andy Carroll header. After the break, Martin Kelly struck the post. Liverpool had opportunities, but the result remained open until a second-half dismissal changed the numbers on the field.
 
 Emmanuel Frimpong received a second yellow card, leaving Arsenal with ten men. Dalglish introduced Suárez and Raul Meireles, and the breakthrough followed when Ignasi Miquel’s attempted clearance struck Ramsey and went into Arsenal’s net. The decisive touch was an own goal rather than a Liverpool finish.
 

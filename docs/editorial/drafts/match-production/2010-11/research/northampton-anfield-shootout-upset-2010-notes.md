@@ -65,3 +65,5 @@ Each S number identifies one complete prose sentence in reading order, including
 | S13 | Their next domestic cup appearance would come… | source 3 | High — PASS: subsequent cup route |
 
 Title, excerpt, metadata identity/date/result and canonical relationships checked against the same retrieved evidence. One terminal Sources list and exactly matching metadata URLs/order verified; every URL has its own retrieved scope above. No publication date, approval, publication destination, fabricated action, quote or unsupported motive added. The confidence of a conflicting incidental detail is not upgraded: those details remain omitted as recorded above.
+
+Independent-review wording correction, 3 October: excerpt now states one early lead and one late extra-time equaliser, removing the ambiguous former wording. Core source 1 supports the revised excerpt. Body sentences and their completed S1–S13 audit remain unchanged and rechecked PASS.
