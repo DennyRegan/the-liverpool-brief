@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T19:48:57.538993Z",
+  "updatedAt": "2026-10-03T05:41:27.531082Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -17791,18 +17791,18 @@
       "historicalEventDate": "1967-08-26",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1967-08-26",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "b8084fcb-879c-4e2a-949b-e1450e7d0538",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The record signing scores his first three Liverpool goals, Hughes opens his account and an unbeaten opening week ends with six at Anfield.",
+      "notes": "The record signing scores his first three Liverpool goals, Hughes opens his account and an unbeaten opening week ends with six at Anfield. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -17821,10 +17821,11 @@
         "score": "6–0",
         "editorialReason": "The record signing scores his first three Liverpool goals, Hughes opens his account and an unbeaten opening week ends with six at Anfield.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     },
@@ -17834,18 +17835,18 @@
       "historicalEventDate": "1967-09-23",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1967-09-23",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "0cfbeabf-6cf6-4935-92be-9d46904f4246",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A late derby winner preserves first place after the previous week’s Southampton defeat; Hateley and Hunt are central to the attacking partnership.",
+      "notes": "A late derby winner preserves first place after the previous week’s Southampton defeat; Hateley and Hunt are central to the attacking partnership. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -17864,10 +17865,11 @@
         "score": "1–0",
         "editorialReason": "A late derby winner preserves first place after the previous week’s Southampton defeat; Hateley and Hunt are central to the attacking partnership.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     },
@@ -17877,18 +17879,18 @@
       "historicalEventDate": "1967-09-27",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1967-09-27",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "1afe2d6a-74a4-4990-907c-5aa022c3db47",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The renewed League Cup campaign ends at its first tie after a replay, despite Smith’s equaliser and Callaghan’s late reply; it records a distinct cup exit.",
+      "notes": "The renewed League Cup campaign ends at its first tie after a replay, despite Smith’s equaliser and Callaghan’s late reply; it records a distinct cup exit. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -17907,10 +17909,11 @@
         "score": "3–2",
         "editorialReason": "The renewed League Cup campaign ends at its first tie after a replay, despite Smith’s equaliser and Callaghan’s late reply; it records a distinct cup exit.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     },
@@ -17920,18 +17923,18 @@
       "historicalEventDate": "1967-11-07",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1967-11-07",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "9bc192f5-3b4c-4844-a62b-29a69099390f",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A then-record European winning margin is built through six different scorers and a rapid second-half burst; this exceptional tie deserves full contemporary reconstruction.",
+      "notes": "A then-record European winning margin is built through six different scorers and a rapid second-half burst; this exceptional tie deserves full contemporary reconstruction. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -17950,10 +17953,11 @@
         "score": "8–0",
         "editorialReason": "A then-record European winning margin is built through six different scorers and a rapid second-half burst; this exceptional tie deserves full contemporary reconstruction.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     },
@@ -17963,18 +17967,18 @@
       "historicalEventDate": "1967-11-11",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1967-11-11",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "2cfa280b-f576-43be-9db4-45d1f77f7c23",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Four days after the European eight, Liverpool lose first place to United; Hunt’s late goal is his 242 nd under the corrected historical register, a milestone with an explicit attribution conflict.",
+      "notes": "Four days after the European eight, Liverpool lose first place to United; Hunt’s late goal is his 242 nd under the corrected historical register, a milestone with an explicit attribution conflict. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -17993,10 +17997,11 @@
         "score": "1–2",
         "editorialReason": "Four days after the European eight, Liverpool lose first place to United; Hunt’s late goal is his 242 nd under the corrected historical register, a milestone with an explicit attribution conflict.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     },
@@ -18006,18 +18011,18 @@
       "historicalEventDate": "1968-01-09",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1968-01-09",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "133be191-7d0b-4a5c-aae1-1ba28f935267",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A second 1–0 defeat ends the European campaign after the huge Munich win; the home leg closes a distinct competition story.",
+      "notes": "A second 1–0 defeat ends the European campaign after the huge Munich win; the home leg closes a distinct competition story. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -18036,10 +18041,11 @@
         "score": "0–1",
         "editorialReason": "A second 1–0 defeat ends the European campaign after the huge Munich win; the home leg closes a distinct competition story.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     },
@@ -18049,18 +18055,18 @@
       "historicalEventDate": "1968-02-19",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1968-02-19",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "399d951f-a099-45b5-9465-554020f42c27",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The four-goal individual performance is a substantial scoring milestone within a replay-heavy cup run, distinct from the later Spurs and West Brom ties.",
+      "notes": "The four-goal individual performance is a substantial scoring milestone within a replay-heavy cup run, distinct from the later Spurs and West Brom ties. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -18079,10 +18085,11 @@
         "score": "5–2",
         "editorialReason": "The four-goal individual performance is a substantial scoring milestone within a replay-heavy cup run, distinct from the later Spurs and West Brom ties.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     },
@@ -18092,18 +18099,18 @@
       "historicalEventDate": "1968-03-12",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1968-03-12",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "1aea8ddc-4351-4feb-9dc1-c9b3419b3276",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Hunt and Smith take Liverpool through against the holders, after Bournemouth and Walsall also required replays; late Spurs resistance gives the tie its own development.",
+      "notes": "Hunt and Smith take Liverpool through against the holders, after Bournemouth and Walsall also required replays; late Spurs resistance gives the tie its own development. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -18122,10 +18129,11 @@
         "score": "2–1",
         "editorialReason": "Hunt and Smith take Liverpool through against the holders, after Bournemouth and Walsall also required replays; late Spurs resistance gives the tie its own development.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     },
@@ -18135,18 +18143,18 @@
       "historicalEventDate": "1968-04-06",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1968-04-06",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "35fe6121-934c-4e2a-9844-dad458df3d27",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "An early deficit becomes an away win over title rivals, leaving Liverpool two points off the lead with games in hand during the season’s decisive stage.",
+      "notes": "An early deficit becomes an away win over title rivals, leaving Liverpool two points off the lead with games in hand during the season’s decisive stage. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -18165,10 +18173,11 @@
         "score": "1–2",
         "editorialReason": "An early deficit becomes an away win over title rivals, leaving Liverpool two points off the lead with games in hand during the season’s decisive stage.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     },
@@ -18178,18 +18187,18 @@
       "historicalEventDate": "1968-04-18",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1968-04-18",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "27e89972-1e25-409b-883b-22160f8f2963",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "The neutral second replay closes a nine-match FA Cup campaign without a semi-final place; Astle, Hateley and Clark supply a clear three-goal development.",
+      "notes": "The neutral second replay closes a nine-match FA Cup campaign without a semi-final place; Astle, Hateley and Clark supply a clear three-goal development. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -18208,10 +18217,11 @@
         "score": "1–2",
         "editorialReason": "The neutral second replay closes a nine-match FA Cup campaign without a semi-final place; Astle, Hateley and Clark supply a clear three-goal development.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     },
@@ -18221,18 +18231,18 @@
       "historicalEventDate": "1968-05-11",
       "selection": "selected",
       "status": "writing",
-      "owner": "Archive editor / 1960s production 2026-10-01 / /root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03 / /root/sol_1967_68",
       "claim": {
-        "token": "1960s-production-1968-05-11",
-        "claimedAt": "2026-10-01T21:31:31.992061Z",
-        "baseCommit": "93dfb3e5537efb4c2f76170b0f4bf303ec4d0dd6"
+        "token": "7807c358-f38c-4362-baa1-20485a5e8f4f",
+        "claimedAt": "2026-10-03T05:41:27.531082Z",
+        "baseCommit": "438ba423a866a4dd839292a686862cfe25f139b0"
       },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "A first-half deficit becomes six goals in the final home match, Hateley completes another hat-trick and Liverpool secure at least third while retaining a chance of second before the last away fixture.",
+      "notes": "A first-half deficit becomes six goals in the final home match, Hateley completes another hat-trick and Liverpool secure at least third while retaining a chance of second before the last away fixture. Denny requested resumption with Sol 6.1 on 3 October 2026. Prior session 01a0f8d3-6bf0-742d-b2fe-4471bfdf4043 confirmed idle after usage-limit failure; transfer records retained in research/sol-resumption-2026-10-03.json. Prior source ledgers remain Astra provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
@@ -18251,10 +18261,11 @@
         "score": "6–1",
         "editorialReason": "A first-half deficit becomes six goals in the final home match, Hateley completes another hat-trick and Liverpool secure at least third while retaining a chance of second before the last away fixture.",
         "sourceFiles": [
-          "docs/editorial/drafts/1960s/1967-68/research/season-research.md"
+          "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
+          "docs/editorial/drafts/1960s/1967-68/research/sol-resumption-2026-10-03.json"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_decade_writer",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     }
@@ -18438,9 +18449,9 @@
       "id": "1960s-1967-68",
       "season": "1967-68",
       "stage": "drafting",
-      "owner": "Archive editor / 1960s production 2026-10-01",
-      "model": "gpt-6-astra",
-      "workerId": "/root/astra_decade_writer",
+      "owner": "Archive editor / Sol continuation 2026-10-03",
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/sol_1967_68",
       "sourceNote": "docs/editorial/drafts/1960s/1967-68/research/season-research.md",
       "selectedRowIds": [
         "match-1967-08-26-liverpool-newcastle-1967-hateley-hat-trick",
@@ -18456,20 +18467,20 @@
         "match-1968-05-11-liverpool-nottingham-forest-1968-six-goals"
       ],
       "reusedPaths": [],
-      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection. Resumed after verified stopped prior session; original Astra research preserved; new research/writing by configured Sol 6.1.",
       "nextStage": "Complete retrieved-source match reports and their factual audits."
     },
     {
       "id": "1960s-1968-69",
       "season": "1968-69",
-      "stage": "not_started",
-      "owner": "Archive editor / 1960s production 2026-10-01",
-      "model": "gpt-6-astra",
-      "workerId": "/root/astra_decade_writer",
-      "sourceNote": null,
+      "stage": "match_research",
+      "owner": "Archive editor / Sol continuation 2026-10-03",
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/sol_1968_69",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/season-research.md",
       "selectedRowIds": [],
       "reusedPaths": [],
-      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection.",
+      "notes": "Denny commissioned this finite unpublished collection on 1 October 2026. Preserve migration work; no approval, publication or schedule. Whole-season research precedes selection. Whole-season research and selection prepared by Sol 6.1; manuscript drafting waits for prior season checkpoint.",
       "nextStage": "Complete whole-season research and register the selected unwritten matches."
     },
     {

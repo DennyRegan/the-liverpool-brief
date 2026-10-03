@@ -16,6 +16,21 @@ Before any future publication, Denny must approve the specific article and its d
 
 ## Astra ownership — Denny's instruction, 14 September 2026
 
+### Sol 6.1 continuation — Denny's instruction, 3 October 2026
+
+Denny explicitly requested Sol 6.1 for research and writing when resuming the
+incomplete 1960s collection, followed by the 2000s if that decade is complete.
+For this continuation, use an explicitly configured `gpt-6.1-sol` worker and
+record its actual identity. This model choice supersedes the older Astra-only
+requirement for this commissioned work. Preserve the authorship and research
+records of completed Astra reports. Interrupted claims may be transferred only
+as part of Denny's requested resumption after confirming the previous session
+has stopped, retaining that prior provenance in the editorial evidence.
+All source, factual-audit, calendar, metadata and unpublished-storage rules
+remain applicable. Upload to GitHub as unpublished inventory; the existing
+automatic History publisher handles later publication. Do not manually publish
+or schedule these reports.
+
 GPT-6 Astra (`gpt-6-astra`) must explicitly handle historical research, source assessment, fact-checking and factual article writing. A coordinating or publishing agent may maintain the calendar, validate metadata and publish specifically approved articles, but must not substitute another model for this research or writing.
 
 Use a runtime-confirmed Astra session or explicitly delegate the research and writing to an Astra worker with model `gpt-6-astra` where supported. This instruction authorises that delegation. A prompt saying “act as Astra” is not model selection. If Astra execution cannot be selected or verified, stop research/writing and report the model-routing blocker; do not silently fall back. Record the actual configured model and available run/worker identifier in editorial notes, never invent them or put them in public prose. Preserve existing completed drafts without relabelling their authorship. Denny's article approval and all shared-calendar, source and publication rules still apply.
