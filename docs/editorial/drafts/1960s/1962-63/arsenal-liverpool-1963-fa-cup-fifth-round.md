@@ -14,6 +14,7 @@ oppositionIds: ["arsenal"]
 competitionIds: ["fa-cup"]
 locationIds: ["highbury"]
 playerIds: ["jimmy-melia", "ronnie-moran"]
+sources: ["https://www.lfchistory.net/games/170","https://www.11v11.com/matches/arsenal-v-liverpool-16-march-1963-211903/","https://www.lfchistory.net/games/169","https://www.lfchistory.net/season-archive/games/4","https://www.rsssf.org/engpaul/FLA/1962-63.html"]
 ---
 
 Liverpool returned to Highbury on 16 March 1963 and this time left with a victory. Jimmy Melia’s first-half goal and Ronnie Moran’s penalty gave them a 2–1 win over Arsenal in the FA Cup fifth round, despite a late reply from John McLeod.

@@ -1,0 +1,91 @@
+{
+  "verifiedAt": "2026-10-03T06:53:08.247Z",
+  "confidence": "High for executed technical checks; historical confidence is claim-specific in research records",
+  "newCompleted": 5,
+  "totalCompletedUnpublished": 55,
+  "notLocated": 0,
+  "publisherEnabled": true,
+  "automaticRuns": 0,
+  "publisherStateUnchanged": true,
+  "protectedFilesUnchanged": true,
+  "existingCompletedBiographiesUnchanged": true,
+  "oldNotLocatedRecordsPreserved": true,
+  "bottomOnlySources": true,
+  "results": [
+    {
+      "subject": "bruce-grobbelaar",
+      "title": "Bruce Grobbelaar: the goalkeeper behind Liverpool’s great decade",
+      "wordCount": 2635,
+      "sourceLinks": 25,
+      "manuscript": "docs/editorial/drafts/biographies/bruce-grobbelaar.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/bruce-grobbelaar-research-record.md",
+        "docs/editorial/drafts/biographies/bruce-grobbelaar-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "steve-nicol",
+      "title": "Steve Nicol: the complete footballer Liverpool could keep moving",
+      "wordCount": 2604,
+      "sourceLinks": 32,
+      "manuscript": "docs/editorial/drafts/biographies/steve-nicol.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/steve-nicol-research-record.md",
+        "docs/editorial/drafts/biographies/steve-nicol-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "roy-evans",
+      "title": "Roy Evans: the Liverpool apprenticeship and the unfinished return to the top",
+      "wordCount": 3009,
+      "sourceLinks": 39,
+      "manuscript": "docs/editorial/drafts/biographies/roy-evans.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/roy-evans-research-record.md",
+        "docs/editorial/drafts/biographies/roy-evans-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "luis-suarez",
+      "title": "Luis Suárez: brilliance, responsibility and Liverpool’s near miss",
+      "wordCount": 2889,
+      "sourceLinks": 41,
+      "manuscript": "docs/editorial/drafts/biographies/luis-suarez.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/luis-suarez-research-record.md",
+        "docs/editorial/drafts/biographies/luis-suarez-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "dirk-kuyt",
+      "title": "Dirk Kuyt: the forward Liverpool could count on",
+      "wordCount": 2276,
+      "sourceLinks": 29,
+      "manuscript": "docs/editorial/drafts/biographies/dirk-kuyt.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/dirk-kuyt-research-record.md",
+        "docs/editorial/drafts/biographies/dirk-kuyt-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    }
+  ]
+}

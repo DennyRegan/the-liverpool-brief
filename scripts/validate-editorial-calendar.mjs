@@ -15,6 +15,8 @@ import { publicationClassSchema, isPublicStatus, validateAutomaticHistory } from
 
 export const calendarPath = 'docs/editorial/history-calendar.json';
 const text = z.string().min(1);
+// Denny authorised Sol 6.1 research/writing on 3 October 2026; retain Astra provenance.
+const productionModel = z.enum(['gpt-6-astra', 'gpt-6.1-sol']);
 const matchRecoverySchema = z.object({
   completed: z.boolean(), reviewRequired: z.boolean(), matchLabel: text,
   opposition: text, score: z.string().regex(/^\d+–\d+$/).nullable(),
@@ -30,7 +32,7 @@ const matchProductionSchema = z.object({
   batchId: text, season: z.string().regex(/^\d{4}-\d{2}$/),
   completed: z.boolean(), reviewRequired: z.boolean(), matchLabel: text,
   opposition: text, score: z.string().regex(/^\d+–\d+$/), editorialReason: text,
-  sourceFiles: z.array(text).min(1), model: z.literal('gpt-6-astra'),
+  sourceFiles: z.array(text).min(1), model: productionModel,
   workerId: text, blockers: z.array(text),
 }).strict();
 const biographyProductionSchema = z.object({
@@ -80,7 +82,7 @@ export function validateCalendar(calendar, root = process.cwd()) {
   const batches = z.array(z.object({
     id: text, season: z.string().regex(/^\d{4}-\d{2}$/),
     stage: z.enum(['not_started', 'season_research', 'match_research', 'drafting', 'fact_check', 'checkpointed']),
-    owner: text, model: z.literal('gpt-6-astra'), workerId: text,
+    owner: text, model: productionModel, workerId: text,
     sourceNote: text.nullable(), selectedRowIds: z.array(text), reusedPaths: z.array(text),
     notes: text, nextStage: text.nullable(),
   }).strict()).parse(calendar.matchProductionBatches ?? []);

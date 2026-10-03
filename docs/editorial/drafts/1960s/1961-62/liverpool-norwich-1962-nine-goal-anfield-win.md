@@ -14,6 +14,7 @@ oppositionIds: ["norwich-city"]
 competitionIds: ["second-division"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "jimmy-melia", "alan-acourt"]
+sources: ["https://www.lfchistory.net/games/117","https://www.independent.ie/sport/soccer/the-day-liverpool-beat-norwich-5-4-in-1962/34390836.html","https://www.11v11.com/matches/liverpool-v-norwich-city-13-january-1962-110862/","https://www.liverpoolfc.com/news/first-team/124766-did-you-know-norwich-v-lfc","https://www.lfchistory.net/season-archive/games/3","https://www.rsssf.org/engpaul/FLA/1961-62.html"]
 ---
 
 Terry Allcock scored a second-half hat-trick at Anfield on 13 January 1962 and still left with a defeat. Liverpool beat Norwich City 5–4, with two goals each from Roger Hunt and Jimmy Melia, in a match which repeatedly threatened to undo the home side’s lead.

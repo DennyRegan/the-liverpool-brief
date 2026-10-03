@@ -14,6 +14,7 @@ oppositionIds: ["wolverhampton-wanderers"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["alf-arrowsmith", "peter-thompson", "roger-hunt"]
+sources: ["https://www.lfchistory.net/games/194","https://www.lfchistory.net/season-archive/games/5","https://www.rsssf.org/engpaul/FLA/1963-64.html","https://www.wolvesheroes.com/keepers-painful-farewell/","https://www.11v11.com/matches/liverpool-v-wolverhampton-wanderers-16-september-1963-77550/"]
 ---
 
 Liverpool ended a run of three home defeats with a 6–0 victory over Wolverhampton Wanderers at Anfield on 16 September 1963. Alf Arrowsmith scored inside the opening minute, Peter Thompson added his first Liverpool goal, and four more followed after half-time.
@@ -30,8 +31,8 @@ The result supplied Liverpool’s first home points of the season. It did not re
 
 ## Sources
 
-- [LFChistory](https://www.lfchistory.net/games/194)
-- [LFChistory](https://www.lfchistory.net/season-archive/games/5)
-- [RSSSF](https://www.rsssf.org/engpaul/FLA/1963-64.html)
+- [LFChistory: match record](https://www.lfchistory.net/games/194)
+- [LFChistory: 1963–64 season results](https://www.lfchistory.net/season-archive/games/5)
+- [RSSSF: 1963–64 final league tables](https://www.rsssf.org/engpaul/FLA/1963-64.html)
 - [Wolves Heroes: Finlayson’s final appearance](https://www.wolvesheroes.com/keepers-painful-farewell/)
 - [11v11: match record](https://www.11v11.com/matches/liverpool-v-wolverhampton-wanderers-16-september-1963-77550/)

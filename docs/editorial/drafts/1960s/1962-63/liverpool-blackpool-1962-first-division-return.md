@@ -14,6 +14,7 @@ oppositionIds: ["blackpool"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["kevin-lewis"]
+sources: ["https://www.lfchistory.net/games/139","https://www.11v11.com/matches/liverpool-v-blackpool-18-august-1962-77015/","https://www.lfchistory.net/games/133","https://www.rsssf.org/engpaul/FLA/1961-62.html","https://www.lfchistory.net/season-archive/games/4","https://www.rsssf.org/engpaul/FLA/1962-63.html"]
 ---
 
 Liverpool’s first league match back in the First Division ended in a 2–1 defeat by Blackpool at Anfield on 18 August 1962. After a goalless first half, Ray Charnley and Des Horne scored in quick succession late in the game. Kevin Lewis pulled one back, but Liverpool could not recover a point.

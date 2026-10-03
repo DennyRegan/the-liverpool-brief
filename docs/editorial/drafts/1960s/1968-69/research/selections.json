@@ -1,0 +1,652 @@
+{
+  "season": "1968-69",
+  "model": "gpt-6.1-sol",
+  "workerId": "/root/sol_1968_69",
+  "retrievedOn": "2026-10-03",
+  "purpose": "Finished manuscripts and supporting source/audit evidence. Canonical shared calendar is sole status authority. Drafted only after coordinator confirmed remote claims21b4b6c and prior season checkpointf8b977a. No publication or scheduling.",
+  "matches": [
+    {
+      "date": "1968-08-10",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "score": "2–1",
+      "opposition": "Manchester City",
+      "competition": "First Division",
+      "title": "Thompson completes Liverpool’s opening comeback against the champions",
+      "slug": "liverpool-manchester-city-1968-opening-comeback",
+      "editorialReason": "Opening victory over defending champions establishes the league campaign and records a comeback.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/liverpool-manchester-city-1968-opening-comeback-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/460",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-manchester-city-10-august-1968-79783/",
+          "provider": "11v11 independent register",
+          "claims": "Date/result, Graham and Thompson Liverpool goals; opposition scorers absent from this page.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1967-68.html",
+          "provider": "RSSSF prior league register",
+          "claims": "City reigning champions; Liverpool third.",
+          "confidence": "High"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/460",
+        "https://www.11v11.com/matches/liverpool-v-manchester-city-10-august-1968-79783/",
+        "https://www.rsssf.org/engpaul/FLA/1967-68.html",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-manchester-city-1968-opening-comeback.md"
+    },
+    {
+      "date": "1968-09-21",
+      "home": "Liverpool",
+      "away": "Leicester City",
+      "score": "4–0",
+      "opposition": "Leicester City",
+      "competition": "First Division",
+      "title": "Evans scores as Liverpool settle Leicester in twelve minutes",
+      "slug": "liverpool-leicester-1968-evans-debut",
+      "editorialReason": "£100,000 teenage recruit scores on debut in a remarkable four-goal opening.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/liverpool-leicester-1968-evans-debut-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/471",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-leicester-city-21-september-1968-79883/",
+          "provider": "11v11 independent register",
+          "claims": "Identity/result and four scorer identities.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/alun-evans",
+          "provider": "Liverpool FC official profile",
+          "claims": "Transfer fee, September signing and debut goal.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/1358",
+          "provider": "Steve Horton retrospective",
+          "claims": "Yeats following corner, Hunt foul for penalty, Hunt pass to Evans, St John pass to Callaghan and disallowed second Evans goal, bounded narrative only.",
+          "confidence": "Medium"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/471",
+        "https://www.11v11.com/matches/liverpool-v-leicester-city-21-september-1968-79883/",
+        "https://www.liverpoolfc.com/info/alun-evans",
+        "https://www.lfchistory.net/articles/1358",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1968-evans-debut.md"
+    },
+    {
+      "date": "1968-09-25",
+      "home": "Liverpool",
+      "away": "Swansea Town",
+      "score": "2–0",
+      "opposition": "Swansea Town",
+      "competition": "League Cup",
+      "title": "Clemence begins with a clean sheet against Swansea",
+      "slug": "liverpool-swansea-1968-clemence-debut",
+      "editorialReason": "Competitive debut of future goalkeeper; meaningful milestone in a limited current-season role.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/liverpool-swansea-1968-clemence-debut-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/472",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-swansea-town-25-september-1968-28989/",
+          "provider": "11v11 independent register",
+          "claims": "Cup identity/result/scorers.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/846",
+          "provider": "Clemence first-person interview",
+          "claims": "Recalls rain and gale, poor kicking and debut after wait; recollection must be attributed.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://members.liverpoolfc.com/history/past-players/ray-clemence",
+          "provider": "Liverpool FC archived career profile",
+          "claims": "Signed1967, exact competitive debut25September1968.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/appearances/10",
+          "provider": "LFChistory appearance table",
+          "claims": "One competitive Clemence appearance this season; Lawrence42league.",
+          "confidence": "High"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/472",
+        "https://www.11v11.com/matches/liverpool-v-swansea-town-25-september-1968-28989/",
+        "https://www.lfchistory.net/articles/846",
+        "https://members.liverpoolfc.com/history/past-players/ray-clemence",
+        "https://www.lfchistory.net/season-archive/appearances/10",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-swansea-1968-clemence-debut.md"
+    },
+    {
+      "date": "1968-09-28",
+      "home": "Wolverhampton Wanderers",
+      "away": "Liverpool",
+      "score": "0–6",
+      "opposition": "Wolverhampton Wanderers",
+      "competition": "First Division",
+      "title": "Evans scores twice on Liverpool’s six-goal return to Molineux",
+      "slug": "wolves-liverpool-1968-evans-return",
+      "editorialReason": "New recruit returns to former club, Liverpool’s largest win of campaign and rise to second.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/wolves-liverpool-1968-evans-return-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/473",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/wolverhampton-wanderers-v-liverpool-28-september-1968-79900/",
+          "provider": "11v11 independent register",
+          "claims": "Result and scorer doubles.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/alun-evans",
+          "provider": "Liverpool FC official profile",
+          "claims": "Wolves arrival and two on return to Molineux.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/4306",
+          "provider": "Evans first-person interview",
+          "claims": "Recalls Liverpool supporters thanking Wolves for him; attributed memory only.",
+          "confidence": "Medium"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/473",
+        "https://www.lfchistory.net/season-archive/games/10",
+        "https://www.11v11.com/matches/wolverhampton-wanderers-v-liverpool-28-september-1968-79900/",
+        "https://www.liverpoolfc.com/info/alun-evans",
+        "https://www.lfchistory.net/articles/4306"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/wolves-liverpool-1968-evans-return.md"
+    },
+    {
+      "date": "1968-10-02",
+      "home": "Liverpool",
+      "away": "Athletic Bilbao",
+      "score": "2–1",
+      "opposition": "Athletic Bilbao",
+      "competition": "Inter-Cities Fairs Cup",
+      "title": "Liverpool win the match but lose the toss against Athletic",
+      "slug": "liverpool-athletic-bilbao-1968-coin-toss",
+      "editorialReason": "European exit despite comeback and aggregate equality; rules and decisive coin toss need accurate reconstruction.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/liverpool-athletic-bilbao-1968-coin-toss-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/474",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196869det.html",
+          "provider": "RSSSF European register",
+          "claims": "Both legs, goals, aggregate, extra time and coin toss outcome.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.athletic-club.eus/en/news/2021/08/10/iribars-memories-at-anfield/",
+          "provider": "Athletic official Iribar retrospective",
+          "claims": "Attributed keeper recollection of difficult night; corroborates outcome, but not reliable wholesale.",
+          "confidence": "Medium"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/474",
+        "https://www.rsssf.org/ec/ec196869det.html",
+        "https://www.athletic-club.eus/en/news/2021/08/10/iribars-memories-at-anfield/",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-athletic-bilbao-1968-coin-toss.md"
+    },
+    {
+      "date": "1968-10-05",
+      "home": "Burnley",
+      "away": "Liverpool",
+      "score": "0–4",
+      "opposition": "Burnley",
+      "competition": "First Division",
+      "title": "Liverpool put four past Burnley and take the league lead",
+      "slug": "burnley-liverpool-1968-go-top",
+      "editorialReason": "Five consecutive league wins with 18 unanswered goals culminate in first place after European exit.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/burnley-liverpool-1968-go-top-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/475",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/teams/liverpool/tab/matches/season/1969/",
+          "provider": "11v11",
+          "confidence": "High",
+          "claims": "Independent complete season results corroborate Burnley win and five-match league sequence; individual Burnley page failed retrieval."
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/475",
+        "https://www.lfchistory.net/season-archive/games/10",
+        "https://www.11v11.com/teams/liverpool/tab/matches/season/1969/"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/burnley-liverpool-1968-go-top.md"
+    },
+    {
+      "date": "1968-10-08",
+      "home": "Liverpool",
+      "away": "Everton",
+      "score": "1–1",
+      "opposition": "Everton",
+      "competition": "First Division",
+      "title": "Smith’s equaliser keeps Liverpool level in the Anfield derby",
+      "slug": "liverpool-everton-1968-smith-equaliser",
+      "editorialReason": "Meaningful derby interrupts five-match winning run while maintaining first place; both derby results covered in context.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/liverpool-everton-1968-smith-equaliser-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/476",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-everton-08-october-1968-79913/",
+          "provider": "11v11 independent register",
+          "claims": "Identity/result/both scorers, no goal type.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/Stats/DirectFreekicksList",
+          "provider": "LFChistory direct free kick list",
+          "claims": "Smith equaliser75 specifically direct free kick.",
+          "confidence": "High"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/476",
+        "https://www.11v11.com/matches/liverpool-v-everton-08-october-1968-79913/",
+        "https://www.lfchistory.net/Stats/DirectFreekicksList",
+        "https://www.lfchistory.net/season-archive/games/10",
+        "https://www.rsssf.org/engpaul/FLA/1968-69.html"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-everton-1968-smith-equaliser.md"
+    },
+    {
+      "date": "1968-10-15",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "score": "2–1",
+      "opposition": "Arsenal",
+      "competition": "League Cup",
+      "title": "Arsenal end Liverpool’s League Cup run at Highbury",
+      "slug": "arsenal-liverpool-1968-league-cup-exit",
+      "editorialReason": "Domestic cup exit shortly after European defeat narrows competitive campaign.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/arsenal-liverpool-1968-league-cup-exit-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/478",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/arsenal-v-liverpool-15-october-1968-28994/",
+          "provider": "11v11 independent register",
+          "claims": "Identity/result, Simpson/Radford/Lawler scoring; full indexed retrieval, direct re-open failed.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+          "provider": "RSSSF League Cup register",
+          "claims": "Rounds and Arsenal subsequent final loss to Swindon.",
+          "confidence": "High"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/478",
+        "https://www.11v11.com/matches/arsenal-v-liverpool-15-october-1968-28994/",
+        "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/arsenal-liverpool-1968-league-cup-exit.md"
+    },
+    {
+      "date": "1969-02-01",
+      "home": "Liverpool",
+      "away": "Sheffield Wednesday",
+      "score": "1–0",
+      "opposition": "Sheffield Wednesday",
+      "competition": "First Division",
+      "title": "Hunt’s record goal keeps Liverpool at the top",
+      "slug": "liverpool-sheffield-wednesday-1969-hunt-league-record",
+      "editorialReason": "234th league goal surpasses Hodgson while securing two title-challenge points; distinct from overall record.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/liverpool-sheffield-wednesday-1969-hunt-league-record-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/495",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/day-roger-hunt-scores-set-liverpool-fc-record",
+          "provider": "Official club milestone account",
+          "claims": "Exact date/opposition and234league milestone, Hodgson233.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3453",
+          "provider": "LFChistory correction article",
+          "claims": "High: prior Chelsea milestone tally and retrospective correction to234againstWednesday; no claim that linked footage was viewed by worker.",
+          "confidence": "High"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/495",
+        "https://www.liverpoolfc.com/news/day-roger-hunt-scores-set-liverpool-fc-record",
+        "https://www.lfchistory.net/season-archive/games/10",
+        "https://www.lfchistory.net/articles/3453"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-sheffield-wednesday-1969-hunt-league-record.md"
+    },
+    {
+      "date": "1969-02-15",
+      "home": "Liverpool",
+      "away": "Nottingham Forest",
+      "score": "0–2",
+      "opposition": "Nottingham Forest",
+      "competition": "First Division",
+      "title": "Lyons scores twice as Forest take Liverpool off the top",
+      "slug": "liverpool-nottingham-forest-1969-lead-lost",
+      "editorialReason": "Only home league defeat of season ends extended leadership; significant setback rather than victory-only selection.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/liverpool-nottingham-forest-1969-lead-lost-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/496",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://thecityground.com/game.php?game_id=19690215",
+          "provider": "Forest independent specialist",
+          "claims": "Result, Lyons brace and half-time score; full indexed retrieval, direct open failed.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-nottingham-forest-15-february-1969-80090/",
+          "provider": "11v11 independent register",
+          "claims": "Identity/result only: opposition lineup/scorers absent.",
+          "confidence": "High"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/496",
+        "https://thecityground.com/game.php?game_id=19690215",
+        "https://www.11v11.com/matches/liverpool-v-nottingham-forest-15-february-1969-80090/",
+        "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-nottingham-forest-1969-lead-lost.md"
+    },
+    {
+      "date": "1969-03-03",
+      "home": "Liverpool",
+      "away": "Leicester City",
+      "score": "0–1",
+      "opposition": "Leicester City",
+      "competition": "FA Cup",
+      "title": "Leicester end Liverpool’s FA Cup in an Anfield replay",
+      "slug": "liverpool-leicester-1969-fa-cup-replay-exit",
+      "editorialReason": "Final cup exit leaves league only; away goalless draw and Shilton’s documented role can be contextualised.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/liverpool-leicester-1969-fa-cup-replay-exit-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/499",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-leicester-city-03-march-1969-212862/",
+          "provider": "11v11 independent register",
+          "claims": "Replay identity/result and scorer.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lcfc.com/media-article/Anfield-Joy-Cup-Replays-and-Penalty-Saves:-Memorable-Liverpool-Encounters-Recalled",
+          "provider": "Leicester City official detailed history",
+          "claims": "Header, cross and penalty save corroborated sequence; Medium for other retrospective saves.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://fchd.info/cups/facup1968-69.htm",
+          "provider": "FA Cup independent register",
+          "claims": "Liverpool cup route and Leicester subsequent final.",
+          "confidence": "High"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/499",
+        "https://www.11v11.com/matches/liverpool-v-leicester-city-03-march-1969-212862/",
+        "https://www.lcfc.com/media-article/Anfield-Joy-Cup-Replays-and-Penalty-Saves:-Memorable-Liverpool-Encounters-Recalled",
+        "https://fchd.info/cups/facup1968-69.htm",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1969-fa-cup-replay-exit.md"
+    },
+    {
+      "date": "1969-04-28",
+      "home": "Liverpool",
+      "away": "Leeds United",
+      "score": "0–0",
+      "opposition": "Leeds United",
+      "competition": "First Division",
+      "title": "Leeds take the point that ends Liverpool’s title challenge",
+      "slug": "liverpool-leeds-1969-title-decided",
+      "editorialReason": "Defining title outcome at Anfield, with runners-up campaign and sporting response in sourced context.",
+      "sourceNote": "docs/editorial/drafts/1960s/1968-69/research/liverpool-leeds-1969-title-decided-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/508",
+          "provider": "LFChistory",
+          "claims": "Date, venue, result, scorers, chronological scoring record and contemporary table; uncorroborated action excluded.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/10",
+          "provider": "LFChistory",
+          "claims": "Complete 51-game competitive sequence and league movement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table, points and home/away records.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.leedsunited.com/en/news/jon-howe-five-great-anfield-results",
+          "provider": "Leeds United official JonHowe account",
+          "claims": "Title/gameidentity; Medium few chances and Charlton/Hunter defensive performance.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3440",
+          "provider": "MightyLeeds retrospective with reproduced contemporary newspaper passages",
+          "claims": "Bounded chances and Kop response; original newspapers not independently examined; avoid wholesale reliance.",
+          "confidence": "Medium"
+        }
+      ],
+      "manuscriptSources": [
+        "https://www.lfchistory.net/games/508",
+        "https://www.leedsunited.com/en/news/jon-howe-five-great-anfield-results",
+        "https://www.lfchistory.net/articles/3440",
+        "https://www.rsssf.org/engpaul/FLA/1968-69.html",
+        "https://www.lfchistory.net/season-archive/games/10"
+      ],
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-leeds-1969-title-decided.md"
+    }
+  ]
+}

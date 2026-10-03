@@ -14,6 +14,7 @@ playerIds: ["charlie-hurley"]
 oppositionIds: ["sunderland"]
 competitionIds: ["fa-cup"]
 locationIds: ["anfield"]
+sources: ["https://www.lfchistory.net/games/75","https://www.11v11.com/matches/liverpool-v-sunderland-28-january-1961-211575/","https://markwrite.co.uk/wp-content/uploads/2020/04/charlie-hurley-pdf.pdf","https://ryehillfootball.co.uk/sunderland-afc/sunderland-afc-196061-season/","https://www.lfchistory.net/season-archive/games/2","https://www.rsssf.org/engpaul/FLA/1960-61.html"]
 ---
 
 Sunderland settled the scoring early and resisted Liverpool for the rest of the afternoon. Harry Hooper’s third-minute goal and Ian Lawther’s second after 14 minutes carried the visitors to a 2–0 FA Cup fourth-round victory at Anfield on 28 January 1961.

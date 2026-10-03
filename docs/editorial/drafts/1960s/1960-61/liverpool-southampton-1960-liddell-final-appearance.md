@@ -15,6 +15,7 @@ competitionIds: ["second-division"]
 locationIds: ["anfield"]
 playerIds: ["billy-liddell", "gordon-milne"]
 themeIds: ["player-farewells"]
+sources: ["https://www.lfchistory.net/games/48","https://playupliverpool.com/1960/08/31/liverpool-v-southampton-0-1-league-match/","https://www.11v11.com/matches/liverpool-v-southampton-31-august-1960-110171/","https://www.liverpoolfc.com/info/billy-liddell/","https://www.liverpoolfc.com/info/gordon-milne","https://www.liverpoolfc.com/info/bill-shankly","https://www.lfchistory.net/season-archive/games/2"]
 ---
 
 Billy Liddell’s final competitive appearance for Liverpool ended in a 1–0 defeat by Southampton at Anfield on 31 August 1960. On the same evening Gordon Milne made his debut. Two careers crossed in a side still some distance from the team Bill Shankly would build.

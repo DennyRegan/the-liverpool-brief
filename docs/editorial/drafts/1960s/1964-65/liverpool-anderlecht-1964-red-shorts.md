@@ -14,6 +14,7 @@ oppositionIds: ["anderlecht"]
 competitionIds: ["european-cup"]
 locationIds: ["anfield"]
 playerIds: ["ian-st-john", "roger-hunt", "ron-yeats", "willie-stevenson", "tommy-smith"]
+sources: ["https://www.lfchistory.net/games/256","https://www.liverpoolfc.com/news/60-years-liverpool-wear-all-red-strip-first-time","https://www.lfchistory.net/games/260","https://www.rsssf.org/ec/ec196465.html"]
 ---
 
 Liverpool wore red shorts with their red shirts and gave Anderlecht a three-goal deficit to take back to Belgium on 25 November 1964. Ian St John, Roger Hunt and Ron Yeats scored in a 3–0 Anfield victory that put Bill Shankly’s side in command of their European Cup tie.

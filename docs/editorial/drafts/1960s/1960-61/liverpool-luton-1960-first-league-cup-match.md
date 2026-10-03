@@ -14,6 +14,7 @@ oppositionIds: ["luton-town"]
 competitionIds: ["league-cup"]
 locationIds: ["anfield"]
 playerIds: ["tommy-leishman"]
+sources: ["https://www.lfchistory.net/games/58","https://hattersheritage.co.uk/matches/liverpool-vs-luton-town-fc-19-oct-1960","https://www.lfchistory.net/articles/491","https://www.lfchistory.net/games/60","https://www.liverpoolfc.com/news/first-team/208253-liverpool-and-the-league-cup-a-history-in-numbers"]
 ---
 
 Tommy Leishman scored Liverpool’s first League Cup goal, but their first evening in the competition ended with a replay to arrange. Dave Brogan equalised late for Luton Town at Anfield on 19 October 1960, turning a lead Liverpool had held since the first half into a 1–1 draw.

@@ -14,6 +14,7 @@ oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["roger-hunt", "peter-thompson", "ron-yeats", "tommy-lawrence"]
+sources: ["https://www.lfchistory.net/games/245","https://www.bluecorrespondent.co.uk/1964-65/september1964.html","https://www.lfchistory.net/season-archive/games/6"]
 ---
 
 Liverpool’s difficult start to their title defence became a home derby defeat of striking proportions on 19 September 1964. Everton won 4–0 at Anfield, scoring three times before half-time and leaving the champions twenty-first in the First Division.

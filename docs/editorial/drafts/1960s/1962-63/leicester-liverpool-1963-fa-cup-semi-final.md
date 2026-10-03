@@ -14,6 +14,7 @@ oppositionIds: ["leicester-city"]
 competitionIds: ["fa-cup"]
 locationIds: ["hillsborough"]
 playerIds: ["mike-stringfellow", "gordon-banks", "ian-st-john"]
+sources: ["https://www.lfchistory.net/games/180","https://www.lcfc.com/media-article/Foxes-Legends-On-Classic-Liverpool-Cup-Tie","https://www.lfchistory.net/season-archive/games/4","https://www.rsssf.org/engpaul/FLA/1962-63.html"]
 ---
 
 An early Mike Stringfellow goal and a determined Leicester City defence ended Liverpool’s FA Cup run at Hillsborough on 27 April 1963. Gordon Banks helped protect the 1–0 lead, including a late save from Ian St John, as Bill Shankly’s side fell one match short of the final.

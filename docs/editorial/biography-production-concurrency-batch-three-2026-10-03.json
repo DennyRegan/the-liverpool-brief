@@ -1,0 +1,30 @@
+{
+  "initialFetchedAt": "2026-10-03T06:41:05.462154+00:00",
+  "refs": {
+    "origin/main": "03391d3a9a8461688828e0e33551d5ecd82fd036",
+    "origin/editorial/next-ten-biographies-2026-10-01": "4bc4b97a72fb3620fa3375a5834096277b0a020b",
+    "origin/editorial/next-ten-biographies-2026-10-03": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003",
+    "origin/editorial/biography-migration-2026-10-01": "2f2df2131c94ed091f0163faeba0ac85e72b31b7",
+    "origin/editorial/match-report-migration-2026-10-01": "4816d6b83e9fe5d8b63c1199a61d7f49ca44501c",
+    "origin/editorial/matches-through-2024-25-2026-10-01": "dfeb00f3047c2be28c33f763f0f79d136c844fa9",
+    "origin/feature/automatic-weekly-history": "c7ab0713be426d42c8e8020a3c95f1ca5662f800"
+  },
+  "selectionCommit": "92cd8d107d651f9271740dfb858c3b0dd683cf35",
+  "baseProductionCommit": "c4b1ec0d7cfabaff22ab7b04804cd69e7b1b3003",
+  "currentMainIsAncestor": true,
+  "selectedCompletedBiographyInOtherInspectedRefs": false,
+  "policy": "Only the dedicated third biography branch is written; match production and all other refs are preserved. Fresh fetch before checkpoints.",
+  "firstFiveFetch": {
+    "at": "2026-10-03T06:53:04Z",
+    "main": "02715879866e47b3f5342108e1666f499de9f6a6",
+    "matchMigration": "a3bf6b52835690fd12c7402e3a104c8520daea02",
+    "noSelectedCareerBiography": true,
+    "reconciledMain": true,
+    "calendarResolution": "Incoming completed matches/batches and canonical entities retained exactly; new/current biography rows retained from this production branch. Entries and publisher state equal on both branches.",
+    "conflicts": [
+      "README: incoming match guidance plus existing biography section",
+      "calendar: latest incoming matches, own newer biography collection",
+      "test Git buffer: incoming explanatory comment and existing 32 MiB limit"
+    ]
+  }
+}

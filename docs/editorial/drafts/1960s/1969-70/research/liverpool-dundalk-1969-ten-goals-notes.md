@@ -1,0 +1,63 @@
+# 1969-09-16: Liverpool 10–0 Dundalk — research and editorial audit
+
+Actual configured model: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Retrieved 3 October 2026. Pre-writing evidence only; report bodies await authoritative remote claim and previous-season checkpoint.
+
+## Selection
+
+Largest win of season, Lindsay competitive debut and future manager Houllier’s first Kop visit, backed by official recollection.
+
+## Verified claim ledger
+
+Evans scored after 59 seconds, followed by Lawler (10), Smith from a direct free kick (24), Graham (36) and Evans again (38). Liverpool led 5–0 at half-time. Lindsay (56), Smith (67), Thompson (69), Callaghan (76) and Graham (82) completed the ten. Seven players scored, with three doubles. Lindsay made his competitive debut in the forward line. Clemence replaced the ill Lawrence. Houllier and Bergues recalled their first Kop visit; any use will be explicitly retrospective.
+
+## Retrieved source scope
+
+- [LFChistory](https://www.lfchistory.net/games/522) — High: Retrieved core identity/result/round/timeline; individual significant facts still being corroborated before writing.
+- [LFChistory](https://www.lfchistory.net/season-archive/games/11) — High: All 54 competitive dates/results/rounds and league chronology.
+- [RSSSF](https://www.rsssf.org/engpaul/FLA/1969-70.html) — High: Final First/Second Division tables and records.
+- [Liverpool official retrospective](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout) — High: 10–0, five each half, seven scorers, Lindsay scoring debut; Medium for Houllier/Bergues first Kop visit.
+
+## Conflicts and exclusions
+
+The retrospective calls Lindsay a left-back, describing his later career. He made this debut in the forward line. Do not invent Houllier’s feelings or imply future success was apparent that day.
+
+## Manuscript self-audit
+
+Pending body drafting; no completed audit asserted. Each factual sentence will be matched to an accessed source and recorded before handoff. Finished report will use British English factual match metadata, no publication date, and one bottom ## Sources list exactly matching frontmatter sources URL array and order. Exact selected date checked across current content/retained drafts/all fetched origin branches without completed duplicate; repeat before save.
+
+## Completed manuscript audit — 3 October 2026
+
+This dated completion section supersedes the earlier pre-writing pending status. The preparation attribution above is preserved. Drafting and final factual self-audit: actual configured model gpt-6.1-sol; worker /root/sol_1967_68. Fresh retrieval is separately recorded in the Sol resumption ledger and per-match resumption note. The authoritative remote claim was confirmed at 412bdd8 before drafting.
+
+Exact historical date was checked before this save against local public content, retained manuscripts and all fetched origin branches: no other completed manuscript. Selection remains the recorded evidence-led choice.
+
+### Exact final source evidence
+
+- [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522) — Retrieved by this worker on 3 October 2026; confidence High. Scope: Match identity, venue, score, half-time score, line-ups, substitutions and goals; no unsupported goal mechanics.
+- [RSSSF: 1969–70 European competitions](https://www.rsssf.org/ec/ec196970.html) — Retrieved by this worker on 3 October 2026; confidence High. Scope: Dundalk14–0 aggregate; Vitória3–3 aggregate and away-goals qualification.
+- [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout) — Retrieved by this worker on 3 October 2026; confidence High/Medium. Scope: High10–0,fiveeachhalf,seven scorers,Lindsaydebut; Medium clearlyretrospective Houllier/Berguesattendance. Laterleftbacklabel isnot matchrole.
+- [LFChistory: 1969–70 season results](https://www.lfchistory.net/season-archive/games/11) — Retrieved by this worker on 3 October 2026; confidence High. Scope: 54 competitive dates/results; 42 league, six FA Cup, two League Cup and four Fairs Cup fixtures; opening four league wins; all subsequent chronology. No action inferred.
+
+### Sentence-level factual pass
+
+- S1 (paragraph 1): “Liverpool scored five goals in each half to beat Dundalk 10–0 at Anfield on 16 September 1969.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522), [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S2 (paragraph 1): “Seven different players contributed to the Inter-Cities Fairs Cup first-leg victory, while Alec Lindsay made a scoring competitive debut.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522), [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S3 (paragraph 2): “Alun Evans opened the scoring after just 59 seconds.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S4 (paragraph 2): “Chris Lawler added the second after ten minutes, and Tommy Smith scored from a direct free kick after 24.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S5 (paragraph 2): “Bobby Graham’s goal after 36 minutes and Evans’s second two minutes later left Liverpool 5–0 ahead at half-time.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S6 (paragraph 3): “The interval did not interrupt the scoring.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522), [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S7 (paragraph 3): “Lindsay, playing in the forward line, added the sixth after 56 minutes.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522), [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S8 (paragraph 3): “Smith then scored his second, followed by goals from Peter Thompson and Ian Callaghan.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522), [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S9 (paragraph 3): “Graham completed the ten after 82 minutes, joining Evans and Smith in finishing with two goals apiece.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522), [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S10 (paragraph 4): “Ray Clemence was in goal because Tommy Lawrence was suffering from gastritis.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522), [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout), [LFChistory: 1969–70 season results](https://www.lfchistory.net/season-archive/games/11). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S11 (paragraph 4): “The night therefore brought Lindsay’s first competitive appearance alongside another opportunity for the younger goalkeeper.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522), [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout), [LFChistory: 1969–70 season results](https://www.lfchistory.net/season-archive/games/11). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S12 (paragraph 4): “Liverpool kept a clean sheet while recording their largest victory of the season.” — PASS against [LFChistory: Liverpool v Dundalk, September 1969](https://www.lfchistory.net/games/522), [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout), [LFChistory: 1969–70 season results](https://www.lfchistory.net/season-archive/games/11). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S13 (paragraph 5): “The match also acquired a connection with a future manager.” — PASS against [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S14 (paragraph 5): “In Liverpool’s later account, Gérard Houllier recalled attending the Kop for the first time with Patrice Bergues, who would later work with him at the club.” — PASS against [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S15 (paragraph 5): “That recollection places their visit on a night when Liverpool scored ten without conceding.” — PASS against [Liverpool FC: Dundalk rout and Houllier’s first Kop visit](https://www.liverpoolfc.com/news/first-team/235406-on-this-day-at-anfield-houllier-on-the-kop-for-10-goal-rout). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S16 (paragraph 6): “A 4–0 victory in the return leg completed a 14–0 aggregate success.” — PASS against [RSSSF: 1969–70 European competitions](https://www.rsssf.org/ec/ec196970.html). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+- S17 (paragraph 6): “The first-leg margin had already given Liverpool a substantial advantage; the second match confirmed their progress to the next round.” — PASS against [RSSSF: 1969–70 European competitions](https://www.rsssf.org/ec/ec196970.html). Any comparative wording follows the recorded score or chronology; retrospective judgements are explicitly attributed.
+
+### Completion and limits
+
+Factual self-audit: PASS within the scopes above and the preserved conflict notes. No invented quotes, action, tactics, weather or contemporary reactions. Later testimony is bounded as recollection; conflicting peripheral details remain omitted. Source metadata and the single terminal Sources list have identical URLs and order; nothing follows that list in the manuscript. British English, canonical metadata, no publication date. Independent review remains a separate required check, recorded by the reviewer.

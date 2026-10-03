@@ -22,3 +22,17 @@ Extended treatment planned for Grobbelaar, Nicol, Evans and Suárez, subject to 
 ## Storage
 
 `docs/editorial/drafts/biographies/<canonical-id>.md`, adjacent `-research-record.md` and `-factual-audit.md`; canonical registry IDs verified. `history-calendar.json` remains the sole status authority. On completion: ready_for_review, verified research, completed production evidence, null claim/approval/destination, no publication date or slot. Automatic-history class is compatibility only. The existing publisher state is preserved. Dedicated branch: `editorial/next-ten-biographies-batch-three-2026-10-03`.
+
+## First five checkpoint
+
+Grobbelaar, Nicol, Evans, Suárez and Kuyt are complete, researched and separately author-audited. Targeted independent Sol review read all 15 files and sampled critical official/primary facts; it is not exhaustive second verification. All five pass schema, canonical identity, unique subject/slug, research/audit source register, bottom-only Sources, unpublished/null approval and read-only automatic-queue compatibility checks. The derived completed unpublished total at this checkpoint is 55. Full final tests/lint/build and HTTP privacy checks follow when all ten are finished.
+
+| Subject | Prose words | Final source links |
+| --- | ---: | ---: |
+| `bruce-grobbelaar` | 2,635 | 25 |
+| `steve-nicol` | 2,604 | 32 |
+| `roy-evans` | 3,009 | 39 |
+| `luis-suarez` | 2,889 | 41 |
+| `dirk-kuyt` | 2,276 | 29 |
+
+The checkpoint incorporates current main `02715879866e47b3f5342108e1666f499de9f6a6`, which merged the concurrent completed 1960s job. Its 178 match rows, production batches, manuscripts, research, reviews and added canonical entities are retained. Calendar conflicts were reconciled by retaining the incoming complete match collection and this branch’s newer biography collection; the 259 dated entries and publisher state were identical. README keeps incoming match guidance plus the existing biography section. The test buffer keeps the incoming comment and earlier 32 MiB limit. No other remote ref is written. Public application/loaders/workflows and existing biography manuscripts remain unchanged; canonical registry changes are inherited exactly from main.

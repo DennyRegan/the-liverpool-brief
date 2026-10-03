@@ -14,6 +14,7 @@ oppositionIds: ["arsenal"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["peter-thompson", "tommy-lawrence", "alf-arrowsmith", "roger-hunt", "ian-st-john"]
+sources: ["https://www.lfchistory.net/games/230","https://www.lfchistory.net/season-archive/games/5","https://www.rsssf.org/engpaul/FLA/1963-64.html","https://www.lfchistory.net/articles/2187","https://www.liverpoolfc.com/news/features/402698-a-history-of-liverpool-s-league-title-wins","https://playupliverpool.com/1964/04/18/liverpool-v-arsenal-5-0-league-match-april-18-1964/","https://www.11v11.com/matches/liverpool-v-arsenal-18-april-1964-77917/","https://www.liverpoolfc.com/news/first-team/161391-the-story-of-bill-shankly-s-first-title"]
 ---
 
 Liverpool became league champions for the first time in seventeen years by beating Arsenal 5–0 at Anfield on 18 April 1964. Peter Thompson scored twice, Tommy Lawrence saved a penalty when the lead was still only one goal, and Bill Shankly’s first championship was secured with three matches remaining.
@@ -32,11 +33,11 @@ It was Liverpool’s final home game of the season and the seventh consecutive l
 
 ## Sources
 
-- [LFChistory](https://www.lfchistory.net/games/230)
-- [LFChistory](https://www.lfchistory.net/season-archive/games/5)
-- [RSSSF](https://www.rsssf.org/engpaul/FLA/1963-64.html)
+- [LFChistory: match record](https://www.lfchistory.net/games/230)
+- [LFChistory: 1963–64 season results](https://www.lfchistory.net/season-archive/games/5)
+- [RSSSF: 1963–64 final league tables](https://www.rsssf.org/engpaul/FLA/1963-64.html)
 - [Contemporary Liverpool report via LFChistory](https://www.lfchistory.net/articles/2187)
-- [Liverpool FC](https://www.liverpoolfc.com/news/features/402698-a-history-of-liverpool-s-league-title-wins)
+- [Liverpool FC: history of Liverpool’s league title wins](https://www.liverpoolfc.com/news/features/402698-a-history-of-liverpool-s-league-title-wins)
 - [Daily Mirror / Frank McGhee, transcribed by Play Up Liverpool](https://playupliverpool.com/1964/04/18/liverpool-v-arsenal-5-0-league-match-april-18-1964/)
 - [11v11: match record](https://www.11v11.com/matches/liverpool-v-arsenal-18-april-1964-77917/)
 - [Liverpool FC: story of the first Shankly title](https://www.liverpoolfc.com/news/first-team/161391-the-story-of-bill-shankly-s-first-title)

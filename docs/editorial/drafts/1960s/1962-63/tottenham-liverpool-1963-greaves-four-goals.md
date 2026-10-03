@@ -14,6 +14,7 @@ oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["first-division"]
 locationIds: ["white-hart-lane"]
 playerIds: ["jimmy-greaves", "roger-hunt"]
+sources: ["https://www.lfchistory.net/games/177","https://www.tottenhamhotspur.com/news/994816/greavsies-easter-treat-against-liverpool-1963","https://www.11v11.com/matches/tottenham-hotspur-v-liverpool-15-april-1963-77383/","https://www.lfchistory.net/season-archive/games/4","https://www.rsssf.org/engpaul/FLA/1962-63.html"]
 ---
 
 Jimmy Greaves scored four goals as Tottenham Hotspur beat Liverpool 7–2 at White Hart Lane on Easter Monday, 15 April 1963. Only three days earlier Liverpool had defeated the same opponents 5–2 at Anfield; the return brought a much heavier result in Tottenham’s favour.
