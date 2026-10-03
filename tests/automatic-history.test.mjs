@@ -5,7 +5,8 @@ import os from 'node:os';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { filterCandidates, discoverCandidates, selectRandom, selectForSlot, scheduledSlot,
-  londonParts, readCalendar, saveCalendar, dryRun, promoteSelection, completeSelection, verifyProduction } from '../scripts/automatic-history-publisher.mjs';
+  londonParts, readCalendar, saveCalendar, dryRun, promoteSelection, completeSelection, verifyProduction,
+  publicationBlock, sensitiveSubject, sensitiveText, approvedByDenny } from '../scripts/automatic-history-publisher.mjs';
 import { allRows, publicationClasses } from '../scripts/automatic-history-state.mjs';
 import { validateCalendar, calendarPath } from '../scripts/validate-editorial-calendar.mjs';
 import { restoreAutomaticStock } from './fixtures/automatic-editorial.mjs';
@@ -130,17 +131,129 @@ test('empty slots persist safely and cannot refill or select on a rerun', () => 
   assert.equal(selectForSlot(c, 'matches', run.slot, [{ id: 'unexpected' }], process.cwd(), friday, () => { throw Error('reroll'); }), run);
 });
 
-test('historical matches without explicit factual flag gain it without prose edits', () => {
+test('a draft with no editorial label is never published; only editorialMode "factual" is accepted', () => {
+  assert.equal(publicationBlock({ editorialMode: 'factual', title: 'A match' }, {}), null);
+  assert.match(publicationBlock({ title: 'A match' }, {}), /No editorial label/);
+  assert.match(publicationBlock({ editorialMode: '', title: 'A match' }, {}), /No editorial label/);
+  assert.match(publicationBlock({ editorialMode: 'draft', title: 'A match' }, {}), /No editorial label/);
+  assert.match(publicationBlock({ editorialMode: 'opinion', title: 'A match' }, {}), /Opinion/);
   const f = fixture();
   try {
-    const c = readCalendar(f.root), pool = discoverCandidates('matches', f.root);
-    const index = pool.findIndex(e => !matter(fs.readFileSync(path.join(f.root, e.canonicalDraftPath), 'utf8')).data.editorialMode);
-    assert.ok(index >= 0);
-    const run = selectForSlot(c, 'matches', 'matches:2026-10-09', pool, f.root, friday, () => index);
-    saveCalendar(f.root, c);
-    const p = promoteSelection(f.root, c, run, friday);
-    assert.equal(matter(p.publicText).data.editorialMode, 'factual');
-    assert.equal(matter(p.publicText).content, matter(fs.readFileSync(path.join(f.root, run.draftPath), 'utf8')).content);
+    const [first] = discoverCandidates('biographies', f.root);
+    const draft = path.join(f.root, first.canonicalDraftPath);
+    const { data, content } = matter(fs.readFileSync(draft, 'utf8'));
+    assert.equal(data.editorialMode, 'factual');
+    delete data.editorialMode;
+    fs.writeFileSync(draft, matter.stringify(content, data));
+    assert.ok(!discoverCandidates('biographies', f.root).some(e => e.slug === first.slug), 'Unlabelled draft stayed in the pool');
+    // Even a selection recorded earlier cannot promote an unlabelled draft.
+    const calendar = readCalendar(f.root);
+    const run = selectForSlot(calendar, 'biographies', 'biographies:2026-10-06', [first], f.root, tuesday, () => 0);
+    assert.throws(() => promoteSelection(f.root, calendar, run, tuesday), /No editorial label/);
+    assert.ok(!fs.existsSync(path.join(f.root, `content/archive/liverpool/${first.slug}.md`)));
+  } finally { f.cleanup(); }
+});
+
+test('sensitive subjects are detected from the headline fields and not from venues, places or passing mentions', () => {
+  for (const data of [
+    { title: 'Heysel 1985: the European Cup final' },
+    { slug: 'anfield-hillsborough-tribute-united-2012', title: 'Liverpool 1–2 Manchester United' },
+    { title: 'Hillsborough tributes precede a ten-man Anfield defeat' },
+    { excerpt: 'The first game after the Hillsborough disaster.' },
+    { title: 'Munich air disaster and the 1958 season' },
+    { excerpt: 'Ninety-seven supporters died in 1989.' },
+    { historicalPeriod: 'The Taylor Report era' },
+    { title: 'A tragedy at the ground' },
+  ]) assert.ok(sensitiveSubject(data), `Should be sensitive: ${JSON.stringify(data)}`);
+  for (const data of [
+    { title: 'Owen’s first league hat-trick rescues Liverpool at Hillsborough', slug: 'sheffield-wednesday-liverpool-1998-owen-hat-trick' },
+    { slug: 'leicester-liverpool-1963-fa-cup-semi-final', excerpt: 'The semi-final was played at Hillsborough.' },
+    { slug: 'liverpool-tsv-munich-1967-eight-goals' },
+    { slug: 'bradford-liverpool-2000-final-day-defeat', title: 'Bradford City 1–0 Liverpool' },
+    { title: 'Fowler’s four goals against Middlesbrough' },
+  ]) assert.equal(sensitiveSubject(data), null, `Should not be sensitive: ${JSON.stringify(data)}`);
+  assert.equal(sensitiveSubject(), null);
+});
+
+test('a sensitive piece publishes only when the calendar row carries Denny’s recorded approval by name', () => {
+  const approval = { by: 'Denny', recordedAt: '2026-10-04T09:00:00.000Z', evidence: 'Approved by name in this test.' };
+  const sensitive = { editorialMode: 'factual', title: 'Heysel 1985' };
+  assert.ok(approvedByDenny({ approval }));
+  for (const bad of [null, undefined, {}, { by: 'Someone else', recordedAt: approval.recordedAt, evidence: 'x' },
+    { by: 'Denny', evidence: 'x' }, { by: 'Denny', recordedAt: approval.recordedAt }]) assert.ok(!approvedByDenny({ approval: bad }));
+  assert.match(publicationBlock(sensitive, { approval: null }), /Sensitive subject.*approval by name/);
+  assert.match(publicationBlock(sensitive, {}), /Sensitive subject/);
+  assert.match(publicationBlock(sensitive, { approval: { by: 'Someone else', recordedAt: approval.recordedAt, evidence: 'x' } }), /Sensitive subject/);
+  assert.equal(publicationBlock(sensitive, { approval }), null);
+  assert.equal(publicationBlock({ editorialMode: 'factual', title: 'An ordinary match' }, { approval: null }), null);
+
+  const f = fixture();
+  try {
+    const [first] = discoverCandidates('biographies', f.root);
+    const draft = path.join(f.root, first.canonicalDraftPath);
+    const { data, content } = matter(fs.readFileSync(draft, 'utf8'));
+    fs.writeFileSync(draft, matter.stringify(content, { ...data, title: `${data.title} and Heysel` }));
+    assert.ok(!discoverCandidates('biographies', f.root).some(e => e.slug === first.slug), 'Sensitive draft stayed in the pool without approval');
+    const calendar = readCalendar(f.root);
+    const run = selectForSlot(calendar, 'biographies', 'biographies:2026-10-06', [first], f.root, tuesday, () => 0);
+    assert.throws(() => promoteSelection(f.root, calendar, run, tuesday), /Sensitive subject/);
+    assert.ok(!fs.existsSync(path.join(f.root, `content/archive/liverpool/${first.slug}.md`)));
+
+    // Recording Denny's approval on the shared calendar row (the existing approval record) lets it through.
+    const approved = readCalendar(f.root);
+    Object.assign(allRows(approved).find(r => r.id === (first.calendarRowId ?? first.id)), { status: 'approved', approval });
+    saveCalendar(f.root, approved);
+    assert.ok(discoverCandidates('biographies', f.root).some(e => e.slug === first.slug), 'Approved sensitive draft should be eligible');
+    const approvedRun = selectForSlot(approved, 'biographies', 'biographies:2026-10-13', [first], f.root, tuesday, () => 0);
+    assert.doesNotThrow(() => promoteSelection(f.root, approved, approvedRun, tuesday));
+  } finally { f.cleanup(); }
+});
+
+test('text that discusses Heysel or the Hillsborough disaster is held; a ground, a Taylor Report mention or other words are not', () => {
+  for (const text of [
+    'He was in the squad at Heysel, where 39 people lost their lives, and the ban that followed.',
+    'Two years after the 1985 European Cup final at Heysel Stadium, Liverpool returned to Europe.',
+    'The match began with a minute’s silence ahead of the tenth anniversary of the Hillsborough disaster.',
+    'He campaigned after the Hillsborough tragedy and attended the memorial service.',
+    'Ninety-seven supporters died at Hillsborough in 1989.',
+    'First paragraph.\n\nThe Heysel disaster changed everything.',
+  ]) assert.ok(sensitiveText(text), `Should be held: ${text}`);
+  for (const text of [
+    'Liverpool won the play-off 2–0 at the Heysel Stadium in Brussels on 19 October 1966.',
+    'The ground was rebuilt as an all-seater stand following the Taylor Report.',
+    'Owen scored a hat-trick at Hillsborough in February 1998.',
+    'The semi-final against Leicester was played at Hillsborough in 1963.',
+    'A disaster for the defence, a tragedy for the keeper — football slang only.',
+    '',
+  ]) assert.equal(sensitiveText(text), null, `Should not be held: ${text}`);
+  assert.equal(sensitiveText(undefined), null);
+  const approval = { by: 'Denny', recordedAt: '2026-10-04T09:00:00.000Z', evidence: 'Approved by name in this test.' };
+  const clean = { editorialMode: 'factual', title: 'A career biography' };
+  assert.match(publicationBlock(clean, { approval: null }, 'He was at Heysel in 1985.'), /the text discusses Heysel/);
+  assert.match(publicationBlock(clean, { approval: null }, 'Marked by the Hillsborough disaster.'), /the text discusses Hillsborough disaster/);
+  assert.equal(publicationBlock(clean, { approval }, 'He was at Heysel in 1985.'), null);
+  assert.equal(publicationBlock(clean, { approval: null }, 'An ordinary match report.'), null);
+});
+
+test('the pool holds back the pieces that discuss Heysel or Hillsborough, and not the Petrolul 1966 venue-only match', () => {
+  const f = fixture();
+  try {
+    const bios = discoverCandidates('biographies', f.root), matches = discoverCandidates('matches', f.root);
+    for (const e of [...bios, ...matches]) {
+      const { data, content } = matter(fs.readFileSync(path.join(f.root, e.canonicalDraftPath), 'utf8'));
+      assert.equal(sensitiveText(content), null, `${e.slug} discusses a sensitive subject but is eligible`);
+      assert.equal(sensitiveSubject(data, { id: e.id }), null, `${e.slug} is about a sensitive subject but is eligible`);
+    }
+    const held = ['alan-hansen', 'bruce-grobbelaar', 'graeme-souness', 'ian-rush', 'joe-fagan', 'john-aldridge', 'john-barnes', 'kenny-dalglish',
+      'mark-lawrenson', 'phil-neal', 'sami-hyypia', 'steve-mcmahon', 'steve-nicol'];
+    for (const slug of held) assert.ok(!bios.some(e => e.slug === slug), `${slug} should be held`);
+    for (const slug of ['liverpool-juventus-2005-first-leg', 'liverpool-everton-1999-fowler-double-gerrard-clears',
+      'liverpool-manchester-city-2014-coutinho-title-race', 'anfield-hillsborough-tribute-united-2012']) {
+      assert.ok(!matches.some(e => e.slug === slug), `${slug} should be held`);
+    }
+    assert.ok(matches.some(e => e.slug === 'liverpool-petrolul-1966-brussels-play-off'), 'Petrolul 1966 only used Heysel as a venue and must stay eligible');
+    const norwich = matter(fs.readFileSync(path.join(f.root, 'docs/editorial/drafts/match-recovery/1993-94/liverpool-norwich-1994-standing-kop.md'), 'utf8'));
+    assert.equal(sensitiveText(norwich.content), null, 'A passing Taylor Report mention is not a sensitive subject');
   } finally { f.cleanup(); }
 });
 
