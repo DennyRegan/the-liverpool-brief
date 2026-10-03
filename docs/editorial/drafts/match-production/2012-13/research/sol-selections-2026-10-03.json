@@ -1,0 +1,252 @@
+{
+  "season": "2012-13",
+  "model": "gpt-6.1-sol",
+  "workerId": "/root/sol_1967_68",
+  "researchedAt": "2026-10-03",
+  "status": "research_complete_waiting_for_main_claims",
+  "priorPreparation": {
+    "path": "docs/editorial/drafts/match-production/2012-13/research/selection.json",
+    "model": "gpt-6-astra",
+    "workerId": "/root/astra_2008_2013",
+    "retrievedAt": "2026-10-01",
+    "preserved": true
+  },
+  "wholeSeasonSources": [
+    "https://www.lfchistory.net/season-archive/games/122",
+    "https://www.lfchistory.net/season-archive/league-table/122",
+    "https://www.11v11.com/teams/liverpool/tab/matches/season/2013/"
+  ],
+  "selectionChanges": {
+    "retained": 7,
+    "added": [
+      {
+        "date": "2012-09-20",
+        "slug": "shelvey-young-boys-eight-goals-2012",
+        "reason": "Liverpool recovered from 3–2 down in a five-goal away win; three starting debutants and Shelvey's decisive substitute double make a distinct group-stage report."
+      },
+      {
+        "date": "2013-03-10",
+        "slug": "gerrard-tottenham-comeback-2013",
+        "reason": "Recovered from2–1down to beat third-place Spurs and end their12-game unbeaten league run; Carragher's500thleague appearance gives additional historical significance."
+      }
+    ],
+    "removed": [],
+    "rootAcceptedAdditions": true,
+    "noQuota": true
+  },
+  "duplicateAudit": {
+    "checkedAt": "2026-10-03",
+    "remoteMain": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba",
+    "method": "Exact historicalEventDate frontmatter scan of local public content/retained drafts and every origin/main Markdown public/draft file; canonical origin/main calendar read; no existing manuscript for all nine dates.",
+    "existingDateMatches": []
+  },
+  "matches": [
+    {
+      "date": "2012-09-20",
+      "slug": "shelvey-young-boys-eight-goals-2012",
+      "home": "Young Boys",
+      "away": "Liverpool",
+      "score": "3–5",
+      "opposition": "Young Boys",
+      "oppositionId": "young-boys",
+      "competitionId": "uefa-cup",
+      "managerId": "brendan-rodgers",
+      "locationId": "stade-de-suisse",
+      "title": "Shelvey settles an eight-goal European opener",
+      "editorialReason": "Liverpool recovered from 3–2 down in a five-goal away win; three starting debutants and Shelvey's decisive substitute double make a distinct group-stage report.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5372",
+        "https://www.liverpoolfc.com/news/first-team/124512-reds-edge-swiss-thriller",
+        "https://www.uefa.com/uefaeuropaleague/news/0201-0e9d53c05c1d-41005652948e-1000--late-shelvey-double-gives-liverpool-victory/",
+        "https://www.lfchistory.net/season-archive/games/122"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/shelvey-young-boys-eight-goals-2012-notes.md"
+    },
+    {
+      "date": "2012-09-23",
+      "slug": "anfield-hillsborough-tribute-united-2012",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "score": "1–2",
+      "opposition": "Manchester United",
+      "oppositionId": "manchester-united",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Hillsborough tributes precede a ten-man Anfield defeat",
+      "editorialReason": "First Anfield game after the Hillsborough Independent Panel's report; the tributes and subsequent Shelvey dismissal/Gerrard lead/United recovery warrant connected historical coverage.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5330",
+        "https://www.liverpoolfc.com/news/first-team/124598-late-penalty-defeats-reds",
+        "https://www.uefa.com/news-media/news/0201-0e9d5ac8a95d-d41a15f20c25-1000--united-end-anfield-hoodoo-city-held-by-arsenal/",
+        "https://www.liverpoolfc.com/news/first-team/124230-the-panel-s-report-in-full",
+        "https://www.lfchistory.net/season-archive/games/122"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/anfield-hillsborough-tribute-united-2012-notes.md"
+    },
+    {
+      "date": "2012-09-29",
+      "slug": "suarez-norwich-rodgers-first-league-win-2012",
+      "home": "Norwich City",
+      "away": "Liverpool",
+      "score": "2–5",
+      "opposition": "Norwich City",
+      "oppositionId": "norwich-city",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "carrow-road",
+      "title": "Suárez's Norwich hat-trick brings Rodgers his first league win",
+      "editorialReason": "Second consecutive Carrow Road treble and first Premier League win of Rodgers' tenure after five winless league games.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5331",
+        "https://www.liverpoolfc.com/news/first-team/124785-suarez-treble-sinks-canaries",
+        "https://www.lfchistory.net/season-archive/games/122"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/suarez-norwich-rodgers-first-league-win-2012-notes.md"
+    },
+    {
+      "date": "2013-01-27",
+      "slug": "oldham-fa-cup-defeat-2013",
+      "home": "Oldham Athletic",
+      "away": "Liverpool",
+      "score": "3–2",
+      "opposition": "Oldham Athletic",
+      "oppositionId": "oldham-athletic",
+      "competitionId": "fa-cup",
+      "managerId": "brendan-rodgers",
+      "locationId": "boundary-park",
+      "title": "Oldham's three goals end Liverpool's FA Cup run",
+      "editorialReason": "League One side won a fourth-round tie; Liverpool's attempted recovery did not undo an early goal in each half.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5379",
+        "https://www.liverpoolfc.com/news/first-team/129265-cup-woe-for-reds-at-oldham",
+        "https://www.uefa.com/news-media/news/0205-0f8fdfa48bf5-a6a193919e64-1000--oldham-on-a-high-after-liverpool-scalp/",
+        "https://www.lfchistory.net/season-archive/games/122"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/oldham-fa-cup-defeat-2013-notes.md"
+    },
+    {
+      "date": "2013-02-21",
+      "slug": "suarez-zenit-comeback-falls-short-2013",
+      "home": "Liverpool",
+      "away": "Zenit Saint Petersburg",
+      "score": "3–1",
+      "opposition": "Zenit Saint Petersburg",
+      "oppositionId": "zenit-saint-petersburg",
+      "competitionId": "uefa-cup",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Two Suárez free-kicks cannot save Liverpool against Zenit",
+      "editorialReason": "Three-goal response to Hulk's opener still left Liverpool out on away goals; distinct European elimination and Carragher's final European appearance.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5378",
+        "https://www.uefa.com/uefaeuropaleague/news/0206-0e9eabb23ec2-d222a63f7e63-1000--zenit-escape-despite-liverpool-loss/",
+        "https://www.liverpoolfc.com/news/first-team/130230-valiant-reds-fall-on-away-goals",
+        "https://www.lfchistory.net/season-archive/games/122"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/suarez-zenit-comeback-falls-short-2013-notes.md"
+    },
+    {
+      "date": "2013-03-10",
+      "slug": "gerrard-tottenham-comeback-2013",
+      "home": "Liverpool",
+      "away": "Tottenham Hotspur",
+      "score": "3–2",
+      "opposition": "Tottenham Hotspur",
+      "oppositionId": "tottenham-hotspur",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Gerrard's penalty completes Liverpool's Tottenham comeback",
+      "editorialReason": "Recovered from2–1down to beat third-place Spurs and end their12-game unbeaten league run; Carragher's500thleague appearance gives additional historical significance.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5354",
+        "https://www.liverpoolfc.com/news/first-team/130810-gerrard-penalty-sinks-spurs",
+        "https://www.tottenhamhotspur.com/news/1026270/liverpool-3-2-spurs-report-from-anfield",
+        "https://www.lfchistory.net/season-archive/games/122"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/gerrard-tottenham-comeback-2013-notes.md"
+    },
+    {
+      "date": "2013-04-21",
+      "slug": "suarez-chelsea-equaliser-ban-2013",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "score": "2–2",
+      "opposition": "Chelsea",
+      "oppositionId": "chelsea",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Suárez's Chelsea equaliser is followed by a ten-match ban",
+      "editorialReason": "Late equaliser, Sturridge's influential introduction, Benitez's Chelsea return and Suarez biting Ivanovic must be covered together plainly.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5359",
+        "https://www.liverpoolfc.com/news/first-team/132670-luis-steals-headlines-on-rafa-s-return",
+        "https://www.liverpoolfc.com/news/first-team/132847-fa-confirm-luis-suarez-ban",
+        "https://www.thefa.com/News/governance/2013/apr/~/media/164A568A93784FE391CC1FDAB4D7313F.ashx",
+        "https://www.lfchistory.net/season-archive/games/122"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/suarez-chelsea-equaliser-ban-2013-notes.md"
+    },
+    {
+      "date": "2013-04-27",
+      "slug": "six-at-newcastle-without-suarez-2013",
+      "home": "Newcastle United",
+      "away": "Liverpool",
+      "score": "0–6",
+      "opposition": "Newcastle United",
+      "oppositionId": "newcastle-united",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "st-james-park",
+      "title": "Liverpool score six at Newcastle without Suárez",
+      "editorialReason": "First match after Suarez's ban, joint-best PL away margin at the time, Henderson/Sturridge doubles and Borini's first PL Liverpool goal showed developing attack.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5360",
+        "https://www.liverpoolfc.com/news/five-best-premier-league-wins-liverpool-newcastle",
+        "https://www.the-independent.com/sport/football/premier-league/newcastle-united-0-liverpool-6-match-report-daniel-sturridge-fills-gap-to-pile-agony-on-alan-pardew-8591204.html",
+        "https://www.liverpoolfc.com/news/first-team/132964-borini-that-was-for-you-lads",
+        "https://www.liverpoolfc.com/news/first-team/132943-newcastle-0-6-lfc-storified",
+        "https://www.liverpoolfc.com/news/first-team/132847-fa-confirm-luis-suarez-ban",
+        "https://www.lfchistory.net/season-archive/games/122"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/six-at-newcastle-without-suarez-2013-notes.md"
+    },
+    {
+      "date": "2013-05-19",
+      "slug": "carragher-final-match-qpr-2013",
+      "home": "Liverpool",
+      "away": "Queens Park Rangers",
+      "score": "1–0",
+      "opposition": "Queens Park Rangers",
+      "oppositionId": "queens-park-rangers",
+      "competitionId": "premier-league",
+      "managerId": "brendan-rodgers",
+      "locationId": "anfield",
+      "title": "Carragher signs off with a clean sheet and a Coutinho winner",
+      "editorialReason": "737th/final competitive appearance; Coutinho's winner assisted by debutant Ibe and Carragher's post strike make farewell a match story.",
+      "sourcesURLs": [
+        "https://www.lfchistory.net/games/5363",
+        "https://www.uefa.com/news-media/news/0209-0f887668b22d-4b2c869238fd-1000--colossal-carragher-pens-final-liverpool-chapter/",
+        "https://www.liverpoolfc.com/news/first-team/134330-ibe-s-delight-at-anfield-debut",
+        "https://www.lfchistory.net/season-archive/league-table/122",
+        "https://www.lfchistory.net/season-archive/games/122"
+      ],
+      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/carragher-final-match-qpr-2013-notes.md"
+    }
+  ],
+  "reused": [],
+  "deliberateOmissions": [
+    "West Bromwich Albion3–0opener: managerial league debut contributes to Norwich first-win context; no separate debut-only report.",
+    "Udinese qualification1–0 and other European group fixtures: retained eight-goal opener and deciding Zenit leg provide distinct match narratives, without selecting every group result.",
+    "Mansfield2–1: debut/handball incident considered, but Oldham fourth-round elimination provides the principal FA Cup outcome; no every-round coverage.",
+    "Swansea5–0, Wigan4–0 and Fulham3–1 Sturridge treble: all considered against fixture ledger, but Newcastle's6–0 away win gives fullest distinct scoring/attack narrative; Tottenham recovery adds competitive spring context rather than another rout.",
+    "Other derby/City/Arsenal draws: considered in complete ledger, but no additional result-only selections. Selection remains evidence-led; omitted dates can be reconsidered if stronger retrieved story warrants it."
+  ],
+  "limitations": [
+    "No manuscripts drafted; root must confirm all nine claims remotely on main before writing.",
+    "Final sentence audits and independent body review remain required.",
+    "Source timings/attribution conflicts recorded in each fresh canonical companion note; no false-success inference from embedded Storify."
+  ]
+}

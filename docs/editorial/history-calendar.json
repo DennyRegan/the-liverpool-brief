@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T11:04:07.498399Z",
+  "updatedAt": "2026-10-03T11:11:10.304807Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -24058,15 +24058,19 @@
       "event": "Liverpool 1–2 Manchester United",
       "historicalEventDate": "2012-09-23",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "8cb64783-18ca-42e5-bf6a-efc3eb35f010",
+        "claimedAt": "2026-10-03T11:11:10.304807Z",
+        "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "First Anfield match after Hillsborough Independent Panel report; tributes, Gerrard goal and ten-man defeat.",
+      "notes": "First Anfield match after Hillsborough Independent Panel report; tributes, Gerrard goal and ten-man defeat. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2012-13/research/selection.json",
@@ -24087,10 +24091,13 @@
         "editorialReason": "First Anfield match after Hillsborough Independent Panel report; tributes, Gerrard goal and ten-man defeat.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2012-13/research/selection.json",
-          "docs/editorial/drafts/match-production/2012-13/research/season-research.md"
+          "docs/editorial/drafts/match-production/2012-13/research/season-research.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2012-13/research/anfield-hillsborough-tribute-united-2012-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -24101,15 +24108,19 @@
       "event": "Norwich City 2–5 Liverpool",
       "historicalEventDate": "2012-09-29",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "da778e57-7ae6-406e-979a-f35c59b95d17",
+        "claimedAt": "2026-10-03T11:11:10.304807Z",
+        "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Second successive Carrow Road hat-trick and first league win of Rodgers era.",
+      "notes": "Second successive Carrow Road hat-trick and first league win of Rodgers era. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2012-13/research/selection.json",
@@ -24130,10 +24141,13 @@
         "editorialReason": "Second successive Carrow Road hat-trick and first league win of Rodgers era.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2012-13/research/selection.json",
-          "docs/editorial/drafts/match-production/2012-13/research/season-research.md"
+          "docs/editorial/drafts/match-production/2012-13/research/season-research.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2012-13/research/suarez-norwich-rodgers-first-league-win-2012-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -24144,15 +24158,19 @@
       "event": "Oldham Athletic 3–2 Liverpool",
       "historicalEventDate": "2013-01-27",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "a5430dc3-4035-4ce1-91b4-1bea059e5394",
+        "claimedAt": "2026-10-03T11:11:10.304807Z",
+        "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "League One opponents eliminate Liverpool in fourth round.",
+      "notes": "League One opponents eliminate Liverpool in fourth round. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2012-13/research/selection.json",
@@ -24173,10 +24191,13 @@
         "editorialReason": "League One opponents eliminate Liverpool in fourth round.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2012-13/research/selection.json",
-          "docs/editorial/drafts/match-production/2012-13/research/season-research.md"
+          "docs/editorial/drafts/match-production/2012-13/research/season-research.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2012-13/research/oldham-fa-cup-defeat-2013-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -24187,15 +24208,19 @@
       "event": "Liverpool 3–1 Zenit Saint Petersburg",
       "historicalEventDate": "2013-02-21",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "762c8c83-98ac-4e31-909c-f7ecf07335d6",
+        "claimedAt": "2026-10-03T11:11:10.304807Z",
+        "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Two Suárez free-kicks drive recovery which falls short on away goals.",
+      "notes": "Two Suárez free-kicks drive recovery which falls short on away goals. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2012-13/research/selection.json",
@@ -24216,10 +24241,13 @@
         "editorialReason": "Two Suárez free-kicks drive recovery which falls short on away goals.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2012-13/research/selection.json",
-          "docs/editorial/drafts/match-production/2012-13/research/season-research.md"
+          "docs/editorial/drafts/match-production/2012-13/research/season-research.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2012-13/research/suarez-zenit-comeback-falls-short-2013-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -24230,15 +24258,19 @@
       "event": "Liverpool 2–2 Chelsea",
       "historicalEventDate": "2013-04-21",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "9981f3ac-b5e3-45aa-8dca-7103c0d27f93",
+        "claimedAt": "2026-10-03T11:11:10.304807Z",
+        "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Late equaliser is inseparable from Ivanović biting incident and subsequent ten-match ban.",
+      "notes": "Late equaliser is inseparable from Ivanović biting incident and subsequent ten-match ban. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2012-13/research/selection.json",
@@ -24259,10 +24291,13 @@
         "editorialReason": "Late equaliser is inseparable from Ivanović biting incident and subsequent ten-match ban.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2012-13/research/selection.json",
-          "docs/editorial/drafts/match-production/2012-13/research/season-research.md"
+          "docs/editorial/drafts/match-production/2012-13/research/season-research.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2012-13/research/suarez-chelsea-equaliser-ban-2013-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -24273,15 +24308,19 @@
       "event": "Newcastle United 0–6 Liverpool",
       "historicalEventDate": "2013-04-27",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "f299ad16-cd1e-47f6-b3b4-011a8bdaec1d",
+        "claimedAt": "2026-10-03T11:11:10.304807Z",
+        "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Joint-best Premier League away win at the time, first match of Suárez suspension, new attack prominent.",
+      "notes": "Joint-best Premier League away win at the time, first match of Suárez suspension, new attack prominent. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2012-13/research/selection.json",
@@ -24302,10 +24341,13 @@
         "editorialReason": "Joint-best Premier League away win at the time, first match of Suárez suspension, new attack prominent.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2012-13/research/selection.json",
-          "docs/editorial/drafts/match-production/2012-13/research/season-research.md"
+          "docs/editorial/drafts/match-production/2012-13/research/season-research.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2012-13/research/six-at-newcastle-without-suarez-2013-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -24316,15 +24358,19 @@
       "event": "Liverpool 1–0 Queens Park Rangers",
       "historicalEventDate": "2013-05-19",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "4b6554b5-5d0e-43ba-bd8c-0d1c19cccd3d",
+        "claimedAt": "2026-10-03T11:11:10.304807Z",
+        "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Carragher’s 737th and final appearance, Coutinho goal decides season finale.",
+      "notes": "Carragher’s 737th and final appearance, Coutinho goal decides season finale. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2012-13/research/selection.json",
@@ -24345,10 +24391,13 @@
         "editorialReason": "Carragher’s 737th and final appearance, Coutinho goal decides season finale.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2012-13/research/selection.json",
-          "docs/editorial/drafts/match-production/2012-13/research/season-research.md"
+          "docs/editorial/drafts/match-production/2012-13/research/season-research.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2012-13/research/carragher-final-match-qpr-2013-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2008_2013",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -31364,6 +31413,96 @@
         "blockers": []
       },
       "publicationClass": "automatic-history-match"
+    },
+    {
+      "id": "match-2012-09-20-shelvey-young-boys-eight-goals-2012",
+      "event": "Young Boys 3–5 Liverpool: Shelvey settles an eight-goal European opener",
+      "historicalEventDate": "2012-09-20",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "819397fc-2132-4d78-adfa-7dd3f95bac0e",
+        "claimedAt": "2026-10-03T11:11:10.304807Z",
+        "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Liverpool recovered from 3–2 down in a five-goal away win; three starting debutants and Shelvey's decisive substitute double make a distinct group-stage report. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "remaining-2012-13",
+        "season": "2012-13",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Young Boys 3–5 Liverpool",
+        "opposition": "Young Boys",
+        "score": "3–5",
+        "editorialReason": "Liverpool recovered from 3–2 down in a five-goal away win; three starting debutants and Shelvey's decisive substitute double make a distinct group-stage report.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2012-13/research/shelvey-young-boys-eight-goals-2012-notes.md"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2013-03-10-gerrard-tottenham-comeback-2013",
+      "event": "Liverpool 3–2 Tottenham Hotspur: Gerrard's penalty completes Liverpool's Tottenham comeback",
+      "historicalEventDate": "2013-03-10",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "6a0a5f24-cf62-4885-b321-8e248f94b07a",
+        "claimedAt": "2026-10-03T11:11:10.304807Z",
+        "baseCommit": "e67a0a9c0b335dce860a66bd9e283d77ea5b4dba"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Recovered from2–1down to beat third-place Spurs and end their12-game unbeaten league run; Carragher's500thleague appearance gives additional historical significance. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "remaining-2012-13",
+        "season": "2012-13",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–2 Tottenham Hotspur",
+        "opposition": "Tottenham Hotspur",
+        "score": "3–2",
+        "editorialReason": "Recovered from2–1down to beat third-place Spurs and end their12-game unbeaten league run; Carragher's500thleague appearance gives additional historical significance.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2012-13/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2012-13/research/gerrard-tottenham-comeback-2013-notes.md"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
     }
   ],
   "matchRecoveryGaps": [
@@ -31907,23 +32046,25 @@
     {
       "id": "remaining-2012-13",
       "season": "2012-13",
-      "stage": "season_research",
-      "owner": "gpt-6-astra /root/astra_2008_2013; remaining-match-production-2026-10-01",
-      "model": "gpt-6-astra",
-      "workerId": "/root/astra_2008_2013",
-      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/season-research.md",
+      "stage": "drafting",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03",
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/sol_1967_68",
+      "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/sol-research-resumption-2026-10-03.md",
       "selectedRowIds": [
+        "match-2012-09-20-shelvey-young-boys-eight-goals-2012",
         "match-2012-09-23-anfield-hillsborough-tribute-united-2012",
         "match-2012-09-29-suarez-norwich-rodgers-first-league-win-2012",
         "match-2013-01-27-oldham-fa-cup-defeat-2013",
         "match-2013-02-21-suarez-zenit-comeback-falls-short-2013",
+        "match-2013-03-10-gerrard-tottenham-comeback-2013",
         "match-2013-04-21-suarez-chelsea-equaliser-ban-2013",
         "match-2013-04-27-six-at-newcastle-without-suarez-2013",
         "match-2013-05-19-carragher-final-match-qpr-2013"
       ],
       "reusedPaths": [],
       "notes": "Finite unpublished production through 2024–25. Source-led selections, no quota; existing finished reports are reused.",
-      "nextStage": "Claim and write 2012-09-23 / anfield-hillsborough-tribute-united-2012, then the remaining selected matches in historical order."
+      "nextStage": "Complete manuscripts, sentence audits, independent review and remote season checkpoint."
     },
     {
       "id": "remaining-2013-14",
