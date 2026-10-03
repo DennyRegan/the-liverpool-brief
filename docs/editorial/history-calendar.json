@@ -11267,7 +11267,7 @@
       "notes": "NEW PRODUCTION: newly researched manuscript; missing original was not recovered. Prior NOT LOCATED record preserved verbatim in docs/editorial/biography-not-located-snapshot-2026-10-03.json. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
-          "location": "docs/editorial/drafts/biographies/Terry-McDermott-research-record.md",
+          "location": "docs/editorial/drafts/biographies/Terry-McDermott-recovered-research-record.md",
           "confidence": "high",
           "scope": "Recovery inventory only. No manuscript recreated."
         },
