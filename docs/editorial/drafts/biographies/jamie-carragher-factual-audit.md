@@ -42,9 +42,9 @@ Re-read the article against the retrieved official profile, player database, sep
 - Seven canonical first-team managerial eras; unknown era IDs: none.
 - Player ID: `jamie-carragher`.
 - No article publication date, scheduled slot, approval flag or public confidence vocabulary.
-- Thirty-two Sources entries, all full pages / records actually retrieved; no unresolved numbered citation.
+- Thirty-two Sources entries, all full pages / records actually retrieved. The user requested all sources at the bottom; inline markers were removed and one final Sources list retained.
 - No direct quotation in public prose; original narrative synthesis and short source-specific summaries.
-- Final narrative word count: **2,534** (heading words included; frontmatter and Sources excluded, regex word count).
+- Final narrative word count: **2494** (heading words included; frontmatter and Sources excluded, regex word count).
 
 ## Limits
 

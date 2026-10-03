@@ -1,0 +1,216 @@
+{
+  "inspectedAt": "2026-10-03T06:18:04.142048+00:00",
+  "scope": "Latest relevant remote refs; other refs preserved, never force-pushed. Final local five are not yet in the remote checkpoint listed here.",
+  "refs": [
+    {
+      "ref": "origin/main",
+      "sha": "03391d3a9a8461688828e0e33551d5ecd82fd036",
+      "selectedSubjectRows": [
+        {
+          "id": "alan-hansen-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "terry-mcdermott-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "sami-hyypia-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "ref": "origin/editorial/next-ten-biographies-2026-10-01",
+      "sha": "4bc4b97a72fb3620fa3375a5834096277b0a020b",
+      "selectedSubjectRows": [
+        {
+          "id": "alan-hansen-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "terry-mcdermott-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "sami-hyypia-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "ref": "origin/editorial/biography-migration-2026-10-01",
+      "sha": "2f2df2131c94ed091f0163faeba0ac85e72b31b7",
+      "selectedSubjectRows": [
+        {
+          "id": "alan-hansen-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "terry-mcdermott-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "sami-hyypia-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "ref": "origin/feature/automatic-weekly-history",
+      "sha": "c7ab0713be426d42c8e8020a3c95f1ca5662f800",
+      "selectedSubjectRows": [
+        {
+          "id": "alan-hansen-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "terry-mcdermott-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "sami-hyypia-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "ref": "origin/editorial/match-report-migration-2026-10-01",
+      "sha": "412bdd803312290bb13e468e5ed7cf74ab3024ec",
+      "selectedSubjectRows": [
+        {
+          "id": "alan-hansen-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "terry-mcdermott-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "sami-hyypia-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "ref": "origin/editorial/matches-through-2024-25-2026-10-01",
+      "sha": "dfeb00f3047c2be28c33f763f0f79d136c844fa9",
+      "selectedSubjectRows": [
+        {
+          "id": "alan-hansen-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "terry-mcdermott-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "sami-hyypia-career-biography",
+          "status": "blocked",
+          "draftPath": null,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "ref": "origin/editorial/next-ten-biographies-2026-10-03",
+      "sha": "23893ef3f0430264bf2b5e8d2d758679ff7eaac0",
+      "selectedSubjectRows": [
+        {
+          "id": "alan-hansen-career-biography",
+          "status": "ready_for_review",
+          "draftPath": "docs/editorial/drafts/biographies/alan-hansen.md",
+          "completed": true
+        },
+        {
+          "id": "terry-mcdermott-career-biography",
+          "status": "writing",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "sami-hyypia-career-biography",
+          "status": "writing",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "rafael-benitez-career-biography",
+          "status": "ready_for_review",
+          "draftPath": "docs/editorial/drafts/biographies/rafael-benitez.md",
+          "completed": true
+        },
+        {
+          "id": "jamie-carragher-career-biography",
+          "status": "ready_for_review",
+          "draftPath": "docs/editorial/drafts/biographies/jamie-carragher.md",
+          "completed": true
+        },
+        {
+          "id": "jan-molby-career-biography",
+          "status": "ready_for_review",
+          "draftPath": "docs/editorial/drafts/biographies/jan-molby.md",
+          "completed": true
+        },
+        {
+          "id": "michael-owen-career-biography",
+          "status": "writing",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "xabi-alonso-career-biography",
+          "status": "writing",
+          "draftPath": null,
+          "completed": false
+        },
+        {
+          "id": "pepe-reina-career-biography",
+          "status": "ready_for_review",
+          "draftPath": "docs/editorial/drafts/biographies/pepe-reina.md",
+          "completed": true
+        },
+        {
+          "id": "john-toshack-career-biography",
+          "status": "writing",
+          "draftPath": null,
+          "completed": false
+        }
+      ]
+    }
+  ]
+}

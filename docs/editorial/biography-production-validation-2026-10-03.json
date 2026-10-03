@@ -1,0 +1,188 @@
+{
+  "verifiedAt": "2026-10-03T06:18:07.513Z",
+  "confidence": "High for executed technical checks; historical confidence is claim-specific in research records",
+  "newCompleted": 10,
+  "totalCompletedUnpublished": 50,
+  "notLocated": 0,
+  "publisherEnabled": true,
+  "automaticRuns": 0,
+  "publisherStateUnchanged": true,
+  "protectedFilesUnchanged": true,
+  "existingCompletedBiographiesUnchanged": true,
+  "oldNotLocatedRecordsPreserved": true,
+  "bottomOnlySources": true,
+  "results": [
+    {
+      "subject": "alan-hansen",
+      "title": "Alan Hansen: the defender who carried Liverpool forward",
+      "wordCount": 2382,
+      "sourceLinks": 27,
+      "manuscript": "docs/editorial/drafts/biographies/alan-hansen.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/alan-hansen-research-record.md",
+        "docs/editorial/drafts/biographies/alan-hansen-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "terry-mcdermott",
+      "title": "Terry McDermott: the running and the reward",
+      "wordCount": 1916,
+      "sourceLinks": 23,
+      "manuscript": "docs/editorial/drafts/biographies/terry-mcdermott.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/terry-mcdermott-research-record.md",
+        "docs/editorial/drafts/biographies/terry-mcdermott-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "sami-hyypia",
+      "title": "Sami Hyypiä: the composure behind two Liverpool rebuildings",
+      "wordCount": 2167,
+      "sourceLinks": 28,
+      "manuscript": "docs/editorial/drafts/biographies/sami-hyypia.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/sami-hyypia-research-record.md",
+        "docs/editorial/drafts/biographies/sami-hyypia-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "rafael-benitez",
+      "title": "Rafael Benítez: Liverpool's European restoration and the pursuit of the league",
+      "wordCount": 3279,
+      "sourceLinks": 39,
+      "manuscript": "docs/editorial/drafts/biographies/rafael-benitez.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/rafael-benitez-research-record.md",
+        "docs/editorial/drafts/biographies/rafael-benitez-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "jamie-carragher",
+      "title": "Jamie Carragher: learning to hold the line",
+      "wordCount": 2455,
+      "sourceLinks": 32,
+      "manuscript": "docs/editorial/drafts/biographies/jamie-carragher.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/jamie-carragher-research-record.md",
+        "docs/editorial/drafts/biographies/jamie-carragher-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "jan-molby",
+      "title": "Jan Mølby: the passing that shaped Liverpool’s double",
+      "wordCount": 2026,
+      "sourceLinks": 18,
+      "manuscript": "docs/editorial/drafts/biographies/jan-molby.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/jan-molby-research-record.md",
+        "docs/editorial/drafts/biographies/jan-molby-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "michael-owen",
+      "title": "Michael Owen: Liverpool’s rapid rise and decisive goals",
+      "wordCount": 2036,
+      "sourceLinks": 29,
+      "manuscript": "docs/editorial/drafts/biographies/michael-owen.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/michael-owen-research-record.md",
+        "docs/editorial/drafts/biographies/michael-owen-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "xabi-alonso",
+      "title": "Xabi Alonso: the intelligence at the centre of Liverpool's revival",
+      "wordCount": 1969,
+      "sourceLinks": 26,
+      "manuscript": "docs/editorial/drafts/biographies/xabi-alonso.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/xabi-alonso-research-record.md",
+        "docs/editorial/drafts/biographies/xabi-alonso-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "pepe-reina",
+      "title": "Pepe Reina: the goalkeeper who made Liverpool his home",
+      "wordCount": 1885,
+      "sourceLinks": 24,
+      "manuscript": "docs/editorial/drafts/biographies/pepe-reina.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/pepe-reina-research-record.md",
+        "docs/editorial/drafts/biographies/pepe-reina-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "john-toshack",
+      "title": "John Toshack: the intelligence behind Liverpool's famous partnership",
+      "wordCount": 2077,
+      "sourceLinks": 27,
+      "manuscript": "docs/editorial/drafts/biographies/john-toshack.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/john-toshack-research-record.md",
+        "docs/editorial/drafts/biographies/john-toshack-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    }
+  ],
+  "executedChecks": {
+    "calendarAndHistory": "Passed: 427 calendar records, all ten new metadata records and identities",
+    "tests": {
+      "passed": 200,
+      "failed": 0
+    },
+    "lint": {
+      "errors": 0,
+      "warnings": 1,
+      "existingWarning": "tests/interactive-history-rendering.test.mjs: unused getPublishedExperience"
+    },
+    "productionBuild": {
+      "passed": true,
+      "staticPages": 470,
+      "publicInputsUnchanged": true
+    },
+    "http": {
+      "queueChecks": 378,
+      "evidenceAndPersonHubChecks": 31,
+      "totalPassed": 409
+    }
+  }
+}

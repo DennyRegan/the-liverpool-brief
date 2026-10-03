@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T05:47:34Z",
+  "updatedAt": "2026-10-03T06:11:31Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -11036,20 +11036,16 @@
       "personId": "terry-mcdermott",
       "event": "Terry McDermott: Liverpool career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_hansen_mcdermott",
-      "claim": {
-        "token": "biography-2026-10-03-terry-mcdermott",
-        "claimedAt": "2026-10-03T05:35:00Z",
-        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/terry-mcdermott.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "NEW PRODUCTION: newly researched manuscript; missing original was not recovered. Prior NOT LOCATED record preserved verbatim in docs/editorial/biography-not-located-snapshot-2026-10-03.json.",
+      "researchStatus": "verified",
+      "notes": "NEW PRODUCTION: newly researched manuscript; missing original was not recovered. Prior NOT LOCATED record preserved verbatim in docs/editorial/biography-not-located-snapshot-2026-10-03.json. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Terry-McDermott-research-record.md",
@@ -11060,37 +11056,52 @@
           "location": "docs/editorial/biography-production-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/terry-mcdermott-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/terry-mcdermott-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
+        },
+        {
+          "location": "docs/editorial/biography-not-located-snapshot-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Historical missing-original recovery record retained; new manuscript is not a recovered original."
         }
       ],
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Midfield scorer and major contributor to Liverpool’s first European supremacy.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/terry-mcdermott-research-record.md",
+          "docs/editorial/drafts/biographies/terry-mcdermott-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_hansen_mcdermott",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-biography"
     },
     {
       "id": "sami-hyypia-career-biography",
       "personId": "sami-hyypia",
       "event": "Sami Hyypiä: Liverpool career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_carragher_hyypia",
-      "claim": {
-        "token": "biography-2026-10-03-sami-hyypia",
-        "claimedAt": "2026-10-03T05:35:00Z",
-        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/sami-hyypia.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "NEW PRODUCTION: newly researched manuscript; missing original was not recovered. Prior NOT LOCATED record preserved verbatim in docs/editorial/biography-not-located-snapshot-2026-10-03.json.",
+      "researchStatus": "verified",
+      "notes": "NEW PRODUCTION: newly researched manuscript; missing original was not recovered. Prior NOT LOCATED record preserved verbatim in docs/editorial/biography-not-located-snapshot-2026-10-03.json. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "Liverpool Brief Biography Writer: Write Sami Hyypia Biography, 25 September 2026",
@@ -11101,17 +11112,36 @@
           "location": "docs/editorial/biography-production-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/sami-hyypia-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/sami-hyypia-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
+        },
+        {
+          "location": "docs/editorial/biography-not-located-snapshot-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Historical missing-original recovery record retained; new manuscript is not a recovered original."
         }
       ],
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Transformative defender, captain and foundation of the 2001 and 2005 teams.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/sami-hyypia-research-record.md",
+          "docs/editorial/drafts/biographies/sami-hyypia-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_carragher_hyypia",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-biography"
     },
     {
       "id": "phil-thompson-career-biography",
@@ -11747,72 +11777,92 @@
       "personId": "michael-owen",
       "event": "Michael Owen career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_molby_owen",
-      "claim": {
-        "token": "biography-2026-10-03-michael-owen",
-        "claimedAt": "2026-10-03T05:35:00Z",
-        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/michael-owen.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned researched biography.",
+      "notes": "Newly commissioned researched biography. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/michael-owen-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/michael-owen-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Home-grown goalscorer, 2001 cup-final match winner and Ballon d’Or recipient.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/michael-owen-research-record.md",
+          "docs/editorial/drafts/biographies/michael-owen-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_molby_owen",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-biography"
     },
     {
       "id": "xabi-alonso-career-biography",
       "personId": "xabi-alonso",
       "event": "Xabi Alonso career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_benitez_alonso",
-      "claim": {
-        "token": "biography-2026-10-03-xabi-alonso",
-        "claimedAt": "2026-10-03T05:35:00Z",
-        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/xabi-alonso.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned researched biography.",
+      "notes": "Newly commissioned researched biography. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/xabi-alonso-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/xabi-alonso-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Midfield architect central to Istanbul and the 2008–09 title challenge.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/xabi-alonso-research-record.md",
+          "docs/editorial/drafts/biographies/xabi-alonso-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_benitez_alonso",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-biography"
     },
     {
       "id": "pepe-reina-career-biography",
@@ -11865,36 +11915,46 @@
       "personId": "john-toshack",
       "event": "John Toshack career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_reina_toshack",
-      "claim": {
-        "token": "biography-2026-10-03-john-toshack",
-        "claimedAt": "2026-10-03T05:35:00Z",
-        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/john-toshack.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned researched biography.",
+      "notes": "Newly commissioned researched biography. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/john-toshack-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/john-toshack-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Transformative Shankly signing and Keegan’s strike partner in the early 1970s.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/john-toshack-research-record.md",
+          "docs/editorial/drafts/biographies/john-toshack-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_reina_toshack",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-biography"
     }
   ],
   "matches": [

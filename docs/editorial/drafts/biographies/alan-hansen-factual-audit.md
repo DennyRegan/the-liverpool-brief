@@ -22,7 +22,7 @@ Factual pass completed. The audit separately extracted every paragraph containin
 | Last game / retirement | Game 1739 and career milestone agree 28 April 1990; 2–1 QPR clinches league; official ranked feature confirms subsequent first-team absence and retirement spring 1991. Avoided conflating last appearance and retirement. |
 | Totals / honours | LFC official historical profile and specialist record agree 620/14, eight championships, three European Cups, two FA Cups, FOUR League Cups. No blanket major-trophy sum used. |
 | Later career / 2025 | Full club 2014 tribute confirms BBC coverage 1992 and retirement after 2014 World Cup. Actual 25 May 2025 ceremony report confirms presentation to Van Dijk; arrangements report confirms three titles as captain. |
-| Quotes / metadata | Zero direct quotations. JSON frontmatter parses. Era IDs checked against eras.json; canonical player ID checked in entities.json. Unique career-biography slug; no publication date, schedule or approval field. |
+| Quotes / metadata | Zero direct quotations. JSON frontmatter parses. Era IDs checked against eras.json; canonical player ID checked in entities.json. Slug `alan-hansen` follows the repository filename rule after root's mechanical normalisation; no publication date, schedule or approval field. |
 
 ## Corrections and qualifications
 

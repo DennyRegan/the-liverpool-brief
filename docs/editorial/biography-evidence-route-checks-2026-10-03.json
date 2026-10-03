@@ -1,0 +1,193 @@
+{
+  "verifiedAt": "2026-10-03T06:15:10.203Z",
+  "base": "http://127.0.0.1:3102",
+  "checks": 31,
+  "passed": true,
+  "results": [
+    {
+      "route": "/docs/editorial/drafts/biographies/alan-hansen-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/alan-hansen-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/terry-mcdermott-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/terry-mcdermott-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/sami-hyypia-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/sami-hyypia-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/rafael-benitez-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/rafael-benitez-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jamie-carragher-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jamie-carragher-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jan-molby-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/jan-molby-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/michael-owen-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/michael-owen-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/xabi-alonso-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/xabi-alonso-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/pepe-reina-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/pepe-reina-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/john-toshack-research-record.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/john-toshack-factual-audit.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/docs/editorial/drafts/biographies/second-ten-independent-review.md",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "route": "/history/people/alan-hansen",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/terry-mcdermott",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/sami-hyypia",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/rafael-benitez",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/jamie-carragher",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/jan-molby",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/michael-owen",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/xabi-alonso",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/pepe-reina",
+      "expected": 404,
+      "actual": 404,
+      "existingEntityHubOnly": false,
+      "absentHubWithoutPublishedAssociations": true,
+      "newManuscriptExposed": false
+    },
+    {
+      "route": "/history/people/john-toshack",
+      "expected": 200,
+      "actual": 200,
+      "existingEntityHubOnly": true,
+      "absentHubWithoutPublishedAssociations": false,
+      "newManuscriptExposed": false
+    }
+  ]
+}
