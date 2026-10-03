@@ -14,6 +14,7 @@ oppositionIds: ["everton"]
 competitionIds: ["first-division"]
 locationIds: ["goodison-park"]
 playerIds: ["roger-hunt", "kevin-lewis", "johnny-morrissey", "ian-callaghan"]
+sources: ["https://www.lfchistory.net/games/148","https://www.bluecorrespondent.co.uk/1962-63/september1962.html","https://www.liverpoolfc.com/news/first-team/296816-1-everton-2-2-liverpool-september-16-1962","https://www.lfchistory.net/season-archive/transfers/4","https://www.lfchistory.net/season-archive/games/4","https://www.rsssf.org/engpaul/FLA/1962-63.html"]
 ---
 
 Roger Hunt’s late equaliser rescued Liverpool a 2–2 draw at Goodison Park on 22 September 1962, in the clubs’ first league meeting for eleven years. Twice Everton led and twice Liverpool recovered, with Kevin Lewis scoring the first equaliser and helping to create the second.

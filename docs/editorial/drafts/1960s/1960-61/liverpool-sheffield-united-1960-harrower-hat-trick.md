@@ -14,6 +14,7 @@ oppositionIds: ["sheffield-united"]
 competitionIds: ["second-division"]
 locationIds: ["anfield"]
 playerIds: ["jimmy-harrower", "dave-hickson"]
+sources: ["https://www.lfchistory.net/games/66","https://www.11v11.com/teams/liverpool/tab/opposingTeams/opposition/Sheffield%20United/","https://www.liverweb.org.uk/season_season-196061.html","https://www.lfchistory.net/players/313","https://www.rsssf.org/engpaul/FLA/1960-61.html"]
 ---
 
 Jimmy Harrower answered both of Sheffield United’s goals in a 4–2 Liverpool victory at Anfield on 26 November 1960. His hat-trick first helped overturn the leaders’ advantage, then checked their attempt to recover. Liverpool’s autumn improvement had produced a win against the side they were chasing.

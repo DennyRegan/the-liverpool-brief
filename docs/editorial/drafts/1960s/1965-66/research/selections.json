@@ -1,0 +1,483 @@
+{
+  "season": "1965-66",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_decade_writer",
+  "retrievedOn": "2026-10-01",
+  "purpose": "Research handoff only. Canonical calendar is sole status authority.",
+  "matches": [
+    {
+      "date": "1965-08-14",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "score": "2–2",
+      "opposition": "Manchester United",
+      "competition": "Charity Shield",
+      "title": "Yeats rescues a share of the Shield at Old Trafford",
+      "slug": "manchester-united-liverpool-1965-charity-shield",
+      "editorialReason": "The FA Cup holders twice recover against the league champions, with their captain scoring the late second equaliser; a distinct opening trophy story.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/manchester-united-liverpool-1965-charity-shield-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/296",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/7",
+          "provider": "LFChistory",
+          "claims": "Final table and home/away totals.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1965-09-06",
+      "home": "West Ham United",
+      "away": "Liverpool",
+      "score": "1–5",
+      "opposition": "West Ham United",
+      "competition": "First Division",
+      "title": "Hunt’s hat-trick caps Liverpool’s five at Upton Park",
+      "slug": "west-ham-liverpool-1965-hunt-hat-trick",
+      "editorialReason": "A forceful early away performance and Hunt treble against the Cup Winners’ Cup holders show the attacking development before the eventual title lead.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/west-ham-liverpool-1965-hunt-hat-trick-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/301",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/7",
+          "provider": "LFChistory",
+          "claims": "Final table and home/away totals.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1965-09-15",
+      "home": "Liverpool",
+      "away": "West Ham United",
+      "score": "1–1",
+      "opposition": "West Ham United",
+      "competition": "First Division",
+      "title": "Strong comes off the bench to rescue Liverpool",
+      "slug": "liverpool-west-ham-1965-strong-substitute",
+      "editorialReason": "Liverpool’s first Football League substitute scores the equaliser, a specific selection and rules milestone with an immediate match consequence.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/liverpool-west-ham-1965-strong-substitute-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/303",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/7",
+          "provider": "LFChistory",
+          "claims": "Final table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-west-ham-united-15-september-1965-78474/",
+          "provider": "11v11",
+          "claims": "Independently hosted match record confirms identity, scorers and Strong replacing Lawler. Full record retrieved by writer; half-time timing supplied by LFChistory and contemporary Charters preview, not this page.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1965-09-25",
+      "home": "Liverpool",
+      "away": "Everton",
+      "score": "5–0",
+      "opposition": "Everton",
+      "competition": "First Division",
+      "title": "Liverpool turn the Anfield derby into a five-goal rout",
+      "slug": "liverpool-everton-1965-five-goal-derby",
+      "editorialReason": "The emphatic derby reverses the previous season’s 0–4 at the same ground; contemporary reporting supplies meaningful development beyond the score.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/liverpool-everton-1965-five-goal-derby-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/305",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/7",
+          "provider": "LFChistory",
+          "claims": "Final table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.bluecorrespondent.co.uk/1965-66/september1965.html",
+          "provider": "Blue Correspondent newspaper transcriptions",
+          "claims": "Contemporary Liverpool newspaper reports of the derby; indexed passages retrieved, full relevant text to be read before drafting.",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "date": "1965-10-13",
+      "home": "Liverpool",
+      "away": "Juventus",
+      "score": "2–0",
+      "opposition": "Juventus",
+      "competition": "European Cup Winners’ Cup",
+      "title": "Lawler and Strong overturn Juventus’s lead",
+      "slug": "liverpool-juventus-1965-anfield-comeback",
+      "editorialReason": "The opening European tie is rescued at Anfield after the Turin defeat; two goals from players outside the regular attacking pair establish the route to the final.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/liverpool-juventus-1965-anfield-comeback-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/309",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196566.html",
+          "provider": "RSSSF",
+          "claims": "Independent Cup Winners’ Cup ties, aggregates and final result; final winner minute/attribution conflicts with LFChistory.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1965-11-17",
+      "home": "Liverpool",
+      "away": "Blackburn Rovers",
+      "score": "5–2",
+      "opposition": "Blackburn Rovers",
+      "competition": "First Division",
+      "title": "Five against Blackburn take Liverpool to the top",
+      "slug": "liverpool-blackburn-1965-league-lead",
+      "editorialReason": "This rearranged match ends the fourth successive league win and begins the uninterrupted spell at the head of the table; Blackburn’s attempted recovery gives the match its own movement.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/liverpool-blackburn-1965-league-lead-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/315",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/7",
+          "provider": "LFChistory",
+          "claims": "Final table and home/away totals.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1965-12-28",
+      "home": "Leeds United",
+      "away": "Liverpool",
+      "score": "0–1",
+      "opposition": "Leeds United",
+      "competition": "First Division",
+      "title": "Milne gives Liverpool an immediate answer at Leeds",
+      "slug": "leeds-liverpool-1965-milne-winner",
+      "editorialReason": "A win at a title rival follows defeat by the same opponent at Anfield the previous day; the paired fixtures make this a specific test in the title race.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/leeds-liverpool-1965-milne-winner-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/324",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/7",
+          "provider": "LFChistory",
+          "claims": "Final table and home/away totals.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-01-22",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "score": "1–2",
+      "opposition": "Chelsea",
+      "competition": "FA Cup",
+      "title": "Chelsea end Liverpool’s FA Cup defence at the first hurdle",
+      "slug": "liverpool-chelsea-1966-fa-cup-exit",
+      "editorialReason": "The holders lose their only tie despite Hunt’s early goal; an essential failure in a season ultimately remembered for the championship and European final.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/liverpool-chelsea-1966-fa-cup-exit-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/328",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/7",
+          "provider": "LFChistory",
+          "claims": "Final table and home/away totals.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-03-08",
+      "home": "Liverpool",
+      "away": "Honvéd",
+      "score": "2–0",
+      "opposition": "Honvéd",
+      "competition": "European Cup Winners’ Cup",
+      "title": "Lawler and St John take Liverpool past Honvéd",
+      "slug": "liverpool-honved-1966-european-quarter-final",
+      "editorialReason": "A goalless away leg becomes a home quarter-final win and a second successive European semi-final; Lawler’s fourth European goal makes his contribution material.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/liverpool-honved-1966-european-quarter-final-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/335",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196566.html",
+          "provider": "RSSSF",
+          "claims": "Independent Cup Winners’ Cup ties, aggregates and final result; final winner minute/attribution conflicts with LFChistory.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-04-19",
+      "home": "Liverpool",
+      "away": "Celtic",
+      "score": "2–0",
+      "opposition": "Celtic",
+      "competition": "European Cup Winners’ Cup",
+      "title": "Strong heads Liverpool into their first European final",
+      "slug": "liverpool-celtic-1966-first-european-final",
+      "editorialReason": "The semi-final deficit is overturned after a goalless first half, with Strong’s injury and winner central to a well-sourced first-final milestone.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/liverpool-celtic-1966-first-european-final-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/344",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196566.html",
+          "provider": "RSSSF",
+          "claims": "Independent Cup Winners’ Cup ties, aggregates and final result; final winner minute/attribution conflicts with LFChistory.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-04-30",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "score": "2–1",
+      "opposition": "Chelsea",
+      "competition": "First Division",
+      "title": "Hunt’s double brings the championship back to Anfield",
+      "slug": "liverpool-chelsea-1966-title-clincher",
+      "editorialReason": "The decisive title match: Hunt restores the lead after Chelsea equalise, securing Shankly’s second First Division championship with one league game left.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/liverpool-chelsea-1966-title-clincher-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/346",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/league-table/7",
+          "provider": "LFChistory",
+          "claims": "Final table and home/away totals.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/220675-no-3-sir-roger-at-the-double-as-chelsea-win-secures-title",
+          "provider": "Liverpool FC",
+          "claims": "Official retrospective confirms title sealed against Chelsea and Hunt brace.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1966-05-05",
+      "home": "Liverpool",
+      "away": "Borussia Dortmund",
+      "score": "1–2",
+      "opposition": "Borussia Dortmund",
+      "competition": "European Cup Winners’ Cup",
+      "title": "Liverpool’s first European final ends in extra-time defeat",
+      "slug": "liverpool-dortmund-1966-european-final",
+      "editorialReason": "The first European final merits full treatment of the second-half exchange and extra-time winner, alongside careful handling of the disputed scorer attribution.",
+      "sourceNote": "docs/editorial/drafts/1960s/1965-66/research/liverpool-dortmund-1966-european-final-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/347",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring sequence and team records; single-ledger action/assists require scoped audit. Final winner attribution remains disputed where relevant.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/7",
+          "provider": "LFChistory",
+          "claims": "Complete 53-match chronology, league sequence and cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1965-66.html",
+          "provider": "RSSSF",
+          "claims": "Independent final league table: champions on 61 points, six ahead of Leeds and Burnley.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196566.html",
+          "provider": "RSSSF",
+          "claims": "Independent Cup Winners’ Cup ties, aggregates and final result; final winner minute/attribution conflicts with LFChistory.",
+          "confidence": "High"
+        }
+      ]
+    }
+  ]
+}

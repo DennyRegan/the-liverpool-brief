@@ -65,6 +65,20 @@ test('new research enters the existing inventory without recovery identities, ap
   } finally { f.cleanup(); }
 });
 
+test('explicitly authorised Sol 6.1 production retains its actual worker provenance', () => {
+  const f = fixture();
+  try {
+    f.row.matchProduction.model = 'gpt-6.1-sol';
+    f.row.matchProduction.workerId = '/test/sol';
+    const batch = f.c.matchProductionBatches.at(-1);
+    batch.model = 'gpt-6.1-sol';
+    batch.workerId = '/test/sol';
+    assert.doesNotThrow(() => validateCalendar(f.c, f.root));
+    assert.equal(f.row.matchProduction.model, 'gpt-6.1-sol');
+    assert.equal(batch.workerId, '/test/sol');
+  } finally { f.cleanup(); }
+});
+
 test('new-production stock rejects inferred approval, false completion, duplicate dates and publication dates', () => {
   const f = fixture();
   try {

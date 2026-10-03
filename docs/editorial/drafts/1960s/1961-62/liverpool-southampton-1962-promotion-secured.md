@@ -14,6 +14,7 @@ oppositionIds: ["southampton"]
 competitionIds: ["second-division"]
 locationIds: ["anfield"]
 playerIds: ["kevin-lewis", "ian-st-john", "roger-hunt"]
+sources: ["https://www.lfchistory.net/games/133","https://www.lfchistory.net/articles/2910","https://www.liverpoolfc.com/news/first-team/123272-promotion-hero-s-anfield-return","https://www.lfchistory.net/season-archive/games/3","https://www.rsssf.org/engpaul/FLA/1961-62.html"]
 ---
 
 Kevin Lewis scored twice as Liverpool beat Southampton 2–0 at Anfield on 21 April 1962, securing promotion and the Second Division championship with five league matches to spare. Eight seasons outside the top flight were over.

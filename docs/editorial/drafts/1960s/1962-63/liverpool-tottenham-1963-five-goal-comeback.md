@@ -14,6 +14,7 @@ oppositionIds: ["tottenham-hotspur"]
 competitionIds: ["first-division"]
 locationIds: ["anfield"]
 playerIds: ["jimmy-melia", "willie-stevenson", "ian-st-john", "kevin-lewis"]
+sources: ["https://www.lfchistory.net/games/175","https://www.11v11.com/matches/liverpool-v-tottenham-hotspur-12-april-1963-77361/","https://www.tottenhamhotspur.com/news/994816/greavsies-easter-treat-against-liverpool-1963","https://www.lfchistory.net/season-archive/goalscorers/4","https://www.lfchistory.net/season-archive/games/4","https://www.rsssf.org/engpaul/FLA/1962-63.html"]
 ---
 
 Liverpool scored five times without reply in the second half to beat Tottenham Hotspur 5–2 at Anfield on Good Friday, 12 April 1963. Two goals down at the interval, they were level within nine minutes of the restart and eventually turned the match into a convincing victory.

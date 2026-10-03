@@ -1,0 +1,636 @@
+{
+  "season": "1964-65",
+  "model": "gpt-6-astra",
+  "workerId": "/root/astra_decade_writer",
+  "retrievedOn": "2026-10-01",
+  "purpose": "Research handoff only. Canonical calendar is sole status authority.",
+  "reusedMatches": [
+    {
+      "date": "1964-09-14",
+      "slug": "anfield-first-european-match-reykjavik-1964",
+      "publishedPath": "content/archive/liverpool/anfield-first-european-match-reykjavik-1964.md",
+      "draftPath": "docs/editorial/drafts/anfield-first-european-match-reykjavik-1964.md",
+      "editorialReason": "Existing completed report covers the first European match at Anfield, the 6–1 result, Graham debut and A’Court farewell. Read and reuse unchanged; exclude from new claims."
+    }
+  ],
+  "matches": [
+    {
+      "date": "1964-08-15",
+      "home": "Liverpool",
+      "away": "West Ham United",
+      "score": "2–2",
+      "opposition": "West Ham United",
+      "competition": "Charity Shield",
+      "title": "West Ham share the Shield after Liverpool twice lead",
+      "slug": "liverpool-west-ham-1964-charity-shield",
+      "editorialReason": "The champions begin with a shared trophy, twice surrendering the lead; Arrowsmith’s injury brings Chisnall into Liverpool’s recorded first substitution.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/liverpool-west-ham-1964-charity-shield-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/235",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/charity-community-shield",
+          "provider": "Liverpool FC: Charity and Community Shield",
+          "claims": "Official roll of honours identifies the 1964 Shield as shared with West Ham. Retrieved indexed official text.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.footballsite.co.uk/Statistics/CommunityShield/1964-65CharityShield.htm",
+          "provider": "Footballsite: 1964 Charity Shield",
+          "claims": "Independent match identity, champions/cup holders, 2–2, line-ups and Chisnall replacement.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/470",
+          "provider": "LFChistory: European debut and selection context",
+          "claims": "Sigfús Guttormsson retrospective using Icelandic newspaper reports and an attributed Wallace recollection. Supports St John appendicitis, Arrowsmith injury, Moran clearance, later Callaghan contributions and Hunt final shot. Opening two assist identities conflict with the match ledger and are omitted.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/gordon-wallace/",
+          "provider": "Liverpool FC: Gordon Wallace",
+          "claims": "Official career profile corroborates the Shield goal, first European goal and Arsenal brace. The five-goal total is calculated from match235/236/237. The full profile was also retrieved.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1964-08-17",
+      "home": "KR Reykjavík",
+      "away": "Liverpool",
+      "score": "0–5",
+      "opposition": "KR Reykjavík",
+      "competition": "European Cup",
+      "title": "Wallace opens Liverpool’s European account in Reykjavík",
+      "slug": "kr-reykjavik-liverpool-1964-european-debut",
+      "editorialReason": "The first European match is a distinct away-debut story, including Wallace’s first goal and Chisnall’s first Liverpool goal. The already completed home return will be reused, not rewritten.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/kr-reykjavik-liverpool-1964-european-debut-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/236",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/470",
+          "provider": "Sigfús Guttormsson: European debut in Iceland",
+          "claims": "Sigfús Guttormsson retrospective using Icelandic newspaper reports and an attributed Wallace recollection. Supports St John appendicitis, Arrowsmith injury, Moran clearance, later Callaghan contributions and Hunt final shot. Opening two assist identities conflict with the match ledger and are omitted.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/169001-50-years-since-reds-made-european-bow",
+          "provider": "Liverpool FC: fifty years since the European debut",
+          "claims": "Official corroboration of European debut date, opponents, 5–0 score and Hunt’s brace; Wallace’s first-goal milestone is supplied by match236/article470 and his official profile. Retrospective recollections are Medium.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196465.html",
+          "provider": "RSSSF: 1964–65 European competitions",
+          "claims": "Independent results throughout the European Cup, aggregates, Cologne play-off and toss, Inter qualification and subsequent final victory.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1964-08-22",
+      "home": "Liverpool",
+      "away": "Arsenal",
+      "score": "3–2",
+      "opposition": "Arsenal",
+      "competition": "First Division",
+      "title": "Wallace wins the first Match of the Day after Arsenal fight back",
+      "slug": "liverpool-arsenal-1964-first-match-of-the-day",
+      "editorialReason": "A late winner after a two-goal lead disappears makes a substantial opening league report, alongside the independently verifiable first BBC Match of the Day broadcast.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/liverpool-arsenal-1964-first-match-of-the-day-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/237",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/liverpool-v-arsenal-22-august-1964-77937/",
+          "provider": "11v11: independent match record",
+          "claims": "Independent match identity, result, Liverpool and Arsenal scorers, television milestone.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/60-years-when-match-day-began-beatleville",
+          "provider": "Liverpool FC: the first Match of the Day",
+          "claims": "Official historical account of first programme, Wolstenholme introduction, Arsenal recovery and Wallace winner. No claim of footage viewing.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3705",
+          "provider": "LFChistory: Celebrating Match of the Day",
+          "claims": "Historical account of the first programme and Hunt hooking Callaghan’s cross over former Liverpool keeper Furnell. Not a contemporary report; milestone independently corroborated.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/transfers/6",
+          "provider": "LFChistory: transfers",
+          "claims": "Strong arrived from Arsenal in November 1964; no inference of his earlier match involvement from transfer alone.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1964-09-19",
+      "home": "Liverpool",
+      "away": "Everton",
+      "score": "0–4",
+      "opposition": "Everton",
+      "competition": "First Division",
+      "title": "Everton put four past the champions at Anfield",
+      "slug": "liverpool-everton-1964-four-goal-defeat",
+      "editorialReason": "The derby exposes the poor league start and leaves Liverpool twenty-first; the season’s cup triumph must not obscure the failed title defence.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/liverpool-everton-1964-four-goal-defeat-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/245",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.bluecorrespondent.co.uk/1964-65/september1964.html",
+          "provider": "Michael Charters and Horace Yates: contemporary derby reports, transcribed by Blue Correspondent",
+          "claims": "Michael Charters, Football Echo 19 September, and Horace Yates, Daily Post 21 September, transcribed contemporary reports. Supports early Temple finish, Liverpool chances/Rankin saves, Pickering move, Harvey control/finish, Gabriel clearance and Morrissey distance shot. Shared page derivation in manuscript remains below 200 words.",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "date": "1964-11-25",
+      "home": "Liverpool",
+      "away": "Anderlecht",
+      "score": "3–0",
+      "opposition": "Anderlecht",
+      "competition": "European Cup",
+      "title": "Liverpool change into red shorts and take control against Anderlecht",
+      "slug": "liverpool-anderlecht-1964-red-shorts",
+      "editorialReason": "A convincing European step against the Belgian champions accompanies an important kit change, precisely distinguished from the later introduction of red socks.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/liverpool-anderlecht-1964-red-shorts-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/256",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/60-years-liverpool-wear-all-red-strip-first-time",
+          "provider": "Liverpool FC",
+          "claims": "Retrospective precisely distinguishes red shorts on 25 November from red socks on 16 December.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/games/260",
+          "provider": "LFChistory: return match",
+          "claims": "16 December Anderlecht away 1–0, Hunt winner and 4–0 aggregate completion.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196465.html",
+          "provider": "RSSSF: 1964–65 European competitions",
+          "claims": "Independent results throughout the European Cup, aggregates, Cologne play-off and toss, Inter qualification and subsequent final victory.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1964-12-05",
+      "home": "Burnley",
+      "away": "Liverpool",
+      "score": "1–5",
+      "opposition": "Burnley",
+      "competition": "First Division",
+      "title": "Hunt’s hat-trick ends Liverpool’s wait for an away league win",
+      "slug": "burnley-liverpool-1964-hunt-hat-trick",
+      "editorialReason": "The first away league win comes through four late goals, with Strong and Lawler also scoring their first Liverpool goals: a substantive league recovery and changing-team story.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/burnley-liverpool-1964-hunt-hat-trick-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/258",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/matches/burnley-v-liverpool-05-december-1964-78151/",
+          "provider": "11v11: independent match record",
+          "claims": "Independent identity, result, Hunt three, Strong and Lawler, listed Liverpool goal times.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://bounder.friardale.co.uk/Table%20And%20Scores/1964/19641205.htm",
+          "provider": "Friardale: contemporary date’s results",
+          "claims": "Independent day’s results confirm Price, Hunt hat-trick, Strong and Lawler. Minute variants are logged rather than harmonised.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1965-03-10",
+      "home": "Liverpool",
+      "away": "Leicester City",
+      "score": "1–0",
+      "opposition": "Leicester City",
+      "competition": "FA Cup",
+      "title": "Hunt breaks Leicester’s resistance to put Liverpool in the semi-final",
+      "slug": "liverpool-leicester-1965-fa-cup-replay",
+      "editorialReason": "A narrow replay victory removes the side who ended the 1963 cup run and had beaten Liverpool twice in this league season, completing the quarter-final stage of the first successful FA Cup campaign.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/liverpool-leicester-1965-fa-cup-replay-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/276",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/184444-ee-aye-addio-the-road-to-wembley-1965",
+          "provider": "Liverpool FC: the road to Wembley, including Hunt’s recollection",
+          "claims": "2015 official feature with direct retrospective Hunt/Lawrence/Stevenson recollections. Supports Leicester sequence, Hunt’s left-foot volley memory and Stevenson’s recollection of slipping on penalty. Its wrong Cologne location before Chelsea and alleged programme story are not used.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/how-beatles-and-bill-shanklys-reds-made-liverpool-centre-universe",
+          "provider": "Liverpool FC: 1960s history and the winning move",
+          "claims": "David Cottrell official historical feature, 26 May 2024. Narrowly used for Lawler free-kick, Yeats header and Hunt finish. Known unrelated mistakes (Everton FA Cup in 1963; loose all-red claim) exclude blanket reliability.",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "date": "1965-03-24",
+      "home": "Liverpool",
+      "away": "FC Cologne",
+      "score": "2–2",
+      "opposition": "FC Cologne",
+      "competition": "European Cup",
+      "title": "Liverpool survive Cologne’s comeback and a deciding toss in Rotterdam",
+      "slug": "liverpool-cologne-1965-rotterdam-toss",
+      "editorialReason": "The exceptional third match of a goalless two-leg tie brings a lost two-goal lead, extra time and a toss to decide advancement. The first two legs are essential context rather than separate duplicate-shaped reports.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/liverpool-cologne-1965-rotterdam-toss-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/280",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/three-games-and-two-coin-tosses-liverpools-epic-cologne-clash-60-years-ago",
+          "provider": "Liverpool FC: the three-match tie",
+          "claims": "2025 official account: St John close finish from Hunt, Hunt looping header off bar, earlier draws, no extra-time goal, Yeats memory of first toss on edge. High for independently corroborated result/qualification. Explicitly acknowledges disc/coin versions.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://fc.de/aktuelles/news/bei-einem-koelsch-haben-wir-uns-wieder-vertragen",
+          "provider": "FC Cologne: Karl-Heinz Thielen recalls Rotterdam",
+          "claims": "Independent German club feature, 24 March 2025, including Thielen testimony: comeback, his header, wooden red/white disc and repeated toss; Weber fibula injury and later disallowed goal. Injury remains explicitly attributed. Wrong two-year promotion interval is excluded.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196465.html",
+          "provider": "RSSSF: 1964–65 European competitions",
+          "claims": "Independent results throughout the European Cup, aggregates, Cologne play-off and toss, Inter qualification and subsequent final victory.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1965-03-27",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "score": "2–0",
+      "opposition": "Chelsea",
+      "competition": "FA Cup",
+      "title": "Thompson and Stevenson take Liverpool back to Wembley",
+      "slug": "liverpool-chelsea-1965-fa-cup-semi-final",
+      "editorialReason": "Only three days after Rotterdam, Liverpool win a domestic semi-final through two second-half goals and reach their first FA Cup final since 1950.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/liverpool-chelsea-1965-fa-cup-semi-final-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/281",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/games/280",
+          "provider": "LFChistory: Rotterdam line-up",
+          "claims": "Rotterdam neutral match 24 March, 2–2 after extra time, 2–1 at half-time, scorers/order and unchanged eleven comparison with Chelsea. Yeats recollection is Medium and retrospective.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/118934-chelsea-memories-fa-cup-1965",
+          "provider": "Liverpool FC: Chelsea memories",
+          "claims": "Official retrospective of disallowed Mortimore header, Thompson solo effort, Stevenson penalty and fans on pitch. Does not establish the ruling was wrong. General result/date independently corroborated.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/184444-ee-aye-addio-the-road-to-wembley-1965",
+          "provider": "Liverpool FC: the road to Wembley",
+          "claims": "2015 official feature with direct retrospective Hunt/Lawrence/Stevenson recollections. Supports Leicester sequence, Hunt’s left-foot volley memory and Stevenson’s recollection of slipping on penalty. Its wrong Cologne location before Chelsea and alleged programme story are not used.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/info/peter-thompson",
+          "provider": "Liverpool FC: Peter Thompson",
+          "claims": "Official profile confirms Thompson’s 1962 Preston cup winner and 1965 semi-final goal; no transfer-fee or minute extrapolation.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/603",
+          "provider": "LFChistory: first FA Cup win and the other semi-final replay",
+          "claims": "Chris Wood retrospective: other semi-final replay, final’s no-substitution context, relative extra-time goals, Stevenson/Byrne/Hunt move, Charlton/Bremner response and Callaghan/St John winner. Folklore/postscript and medical-risk conjecture omitted.",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "date": "1965-05-01",
+      "home": "Liverpool",
+      "away": "Leeds United",
+      "score": "2–1",
+      "opposition": "Leeds United",
+      "competition": "FA Cup",
+      "title": "St John wins Liverpool’s first FA Cup at Wembley",
+      "slug": "liverpool-leeds-1965-first-fa-cup",
+      "editorialReason": "The defining first FA Cup triumph after 73 years needs a full match reconstruction, including Byrne’s injury, the goalless ninety minutes and all three extra-time goals.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/liverpool-leeds-1965-first-fa-cup-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/292",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/day-liverpool-ended-73-year-curse",
+          "provider": "Liverpool FC",
+          "claims": "Official retrospective: first FA Cup, complete route, Byrne injury and extra-time goal sequence; remembered action scoped separately during audit.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/184523-the-1965-heroics-of-gerry-byrne",
+          "provider": "Liverpool FC: Gerry Byrne and players’ recollections",
+          "claims": "2015 player recollections substantiate Byrne collarbone injury, continued play, and Hunt’s description of cross/header. No exact injury minute, motives for collision or speculative medical consequences used.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3443",
+          "provider": "Mighty Leeds historical account, reproduced by LFChistory",
+          "claims": "Mighty Leeds historical account reproduced by LFChistory: Milne knee injury/Strong replacement, Sprake resistance, rain, named second-half chances and first extra time since 1947. Tactical and psychological generalisations omitted; corroborated goals and result High.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/603",
+          "provider": "Chris Wood: Liverpool’s first FA Cup win",
+          "claims": "Chris Wood retrospective: other semi-final replay, final’s no-substitution context, relative extra-time goals, Stevenson/Byrne/Hunt move, Charlton/Bremner response and Callaghan/St John winner. Folklore/postscript and medical-risk conjecture omitted.",
+          "confidence": "Medium"
+        }
+      ]
+    },
+    {
+      "date": "1965-05-04",
+      "home": "Liverpool",
+      "away": "Inter Milan",
+      "score": "3–1",
+      "opposition": "Inter Milan",
+      "competition": "European Cup",
+      "title": "Liverpool beat Inter three days after Wembley",
+      "slug": "liverpool-inter-1965-anfield-semi-final",
+      "editorialReason": "The European champions visit immediately after the first FA Cup victory; Liverpool build a two-goal first-leg advantage in a major European match deserving its own account.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/liverpool-inter-1965-anfield-semi-final-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/293",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3179",
+          "provider": "The Guardian: contemporary report, reproduced by LFChistory",
+          "claims": "Contemporary Guardian report transcribed by LFChistory: opening goal, Peiró/Mazzola move, free-kick sequence, disallowed Lawler effort, Yeats header against bar and rebound winner. Opinions about offside are not findings. Manuscript paraphrase allocated below 200 words; no quotation.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.liverpoolfc.com/news/first-team/220667-no-8-a-famous-european-night-v-inter-milan-in-1965",
+          "provider": "Liverpool FC: a famous European night",
+          "claims": "Official retrospective independently corroborates cup parade, early Hunt goal, Mazzola equaliser, Callaghan free-kick move and Hunt rebound/St John finish.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/599",
+          "provider": "Chris Wood: Liverpool against Inter",
+          "claims": "Chris Wood retrospective: Byrne/Milne parade, Moran substitution in starting XI, Inter holders, Anfield scoring development and return context. Partisan conclusions about officiating and uncorroborated off-field anecdotes omitted.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196465.html",
+          "provider": "RSSSF: European campaign",
+          "claims": "Independent results throughout the European Cup, aggregates, Cologne play-off and toss, Inter qualification and subsequent final victory.",
+          "confidence": "High"
+        }
+      ]
+    },
+    {
+      "date": "1965-05-12",
+      "home": "Inter Milan",
+      "away": "Liverpool",
+      "score": "3–0",
+      "opposition": "Inter Milan",
+      "competition": "European Cup",
+      "title": "Inter overturn Liverpool’s lead at San Siro",
+      "slug": "inter-liverpool-1965-san-siro-semi-final",
+      "editorialReason": "The season ends with reversal of the Anfield advantage. Reconstruct verified goals and disputed incidents with clearly scoped sources, without asserting referee motives or corruption.",
+      "sourceNote": "docs/editorial/drafts/1960s/1964-65/research/inter-liverpool-1965-san-siro-semi-final-notes.md",
+      "sources": [
+        {
+          "url": "https://www.lfchistory.net/games/294",
+          "provider": "LFChistory",
+          "claims": "Match identity, result, scoring order and team records; detailed single-record action and recollections require scoped audit before use.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.lfchistory.net/season-archive/games/6",
+          "provider": "LFChistory",
+          "claims": "Freshly retrieved full 60-match chronology, league sequence and complete cup routes.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.rsssf.org/engpaul/FLA/1964-65.html",
+          "provider": "RSSSF",
+          "claims": "Independent final Football League tables; Liverpool seventh on 44 points, 67 goals for and 73 against.",
+          "confidence": "High"
+        },
+        {
+          "url": "https://www.inter.it/en/news/2020-05-12-inter-3-0-liverpool-semi-final-european-cup",
+          "provider": "Inter: the 3–0 second-leg victory",
+          "claims": "Inter official retrospective: Corso free-kick, Peiró goal and Facchetti run/right-foot shot; High for independently corroborated date/result, first-leg deficit and subsequent Benfica final. Does not settle legality.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.inter.it/en/news/2020-03-18-history-joaquim-peiro-grande-inter-goal-liverpool",
+          "provider": "Inter: Joaquín Peiró and the second goal",
+          "claims": "Inter official Peiró remembrance: interception while Lawrence bounced the ball, finish and Liverpool protest. Motivational speculation and evaluative hero language omitted.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.lfchistory.net/articles/3315",
+          "provider": "LFChistory: interview with Peter Thompson",
+          "claims": "Direct LFChistory interview with Peter Thompson: he recalls taking the ball on the bounce and explicitly differs from Lawrence’s hands claim, while acknowledging his distant wing position. Other chronological/location slips in interview omitted.",
+          "confidence": "Medium"
+        },
+        {
+          "url": "https://www.rsssf.org/ec/ec196465.html",
+          "provider": "RSSSF: 1964–65 European results",
+          "claims": "Independent results throughout the European Cup, aggregates, Cologne play-off and toss, Inter qualification and subsequent final victory.",
+          "confidence": "High"
+        }
+      ]
+    }
+  ]
+}

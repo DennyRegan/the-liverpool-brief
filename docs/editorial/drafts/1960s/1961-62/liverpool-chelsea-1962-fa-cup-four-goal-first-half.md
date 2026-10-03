@@ -14,6 +14,7 @@ oppositionIds: ["chelsea"]
 competitionIds: ["fa-cup"]
 locationIds: ["anfield"]
 playerIds: ["ian-st-john", "roger-hunt", "alan-acourt"]
+sources: ["https://www.lfchistory.net/games/116","https://www.liverpoolfc.com/news/first-team/232117-no-10-liverpool-4-3-chelsea-1962","https://www.bounder.friardale.co.uk/Results/1961.htm","https://www.lfchistory.net/season-archive/games/3","https://www.rsssf.org/engpaul/FLA/1961-62.html"]
 ---
 
 Liverpool scored four times before half-time against Chelsea at Anfield on 6 January 1962, then had to protect a shrinking lead to reach the FA Cup’s fourth round. A 4–1 interval advantage became a 4–3 victory after Bobby Tambling and Barry Bridges brought the visitors back into the tie.

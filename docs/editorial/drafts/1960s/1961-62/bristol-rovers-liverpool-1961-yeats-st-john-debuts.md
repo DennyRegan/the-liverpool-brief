@@ -14,6 +14,7 @@ oppositionIds: ["bristol-rovers"]
 competitionIds: ["second-division"]
 locationIds: ["eastville-stadium"]
 playerIds: ["ron-yeats", "ian-st-john", "kevin-lewis"]
+sources: ["https://www.lfchistory.net/games/92","https://www.11v11.com/matches/bristol-rovers-v-liverpool-19-august-1961-110593/","https://www.lfchistory.net/games/86","https://www.lfchistory.net/season-archive/games/2","https://www.lfchistory.net/season-archive/games/3","https://www.rsssf.org/engpaul/FLA/1961-62.html"]
 ---
 
 Liverpool began the 1961–62 league season with a 2–0 victory at Bristol Rovers on 19 August. Ron Yeats and Ian St John made their league debuts, but Kevin Lewis supplied the opening goal before a Johnny Hills own goal put the result beyond Rovers.
