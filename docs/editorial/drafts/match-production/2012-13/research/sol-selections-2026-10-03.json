@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "workerId": "/root/sol_1967_68",
   "researchedAt": "2026-10-03",
-  "status": "research_complete_waiting_for_main_claims",
+  "status": "nine_manuscripts_and_self_audits_complete_pending_independent_review",
   "priorPreparation": {
     "path": "docs/editorial/drafts/match-production/2012-13/research/selection.json",
     "model": "gpt-6-astra",
@@ -231,7 +231,8 @@
         "https://www.uefa.com/news-media/news/0209-0f887668b22d-4b2c869238fd-1000--colossal-carragher-pens-final-liverpool-chapter/",
         "https://www.liverpoolfc.com/news/first-team/134330-ibe-s-delight-at-anfield-debut",
         "https://www.lfchistory.net/season-archive/league-table/122",
-        "https://www.lfchistory.net/season-archive/games/122"
+        "https://www.lfchistory.net/season-archive/games/122",
+        "https://www.independent.ie/sport/soccer/carragher-bows-out-as-reds-defeat-qpr/29278810.html"
       ],
       "sourceNote": "docs/editorial/drafts/match-production/2012-13/research/carragher-final-match-qpr-2013-notes.md"
     }
@@ -245,8 +246,8 @@
     "Other derby/City/Arsenal draws: considered in complete ledger, but no additional result-only selections. Selection remains evidence-led; omitted dates can be reconsidered if stronger retrieved story warrants it."
   ],
   "limitations": [
-    "No manuscripts drafted; root must confirm all nine claims remotely on main before writing.",
-    "Final sentence audits and independent body review remain required.",
+    "All nine manuscripts were saved after remote main claims were confirmed at a66ea9b677823a16390c2815b9eaca50f65b35a4; current main was reconciled before each save.",
+    "All nine final sentence self-audits are complete; final independent body review is pending.",
     "Source timings/attribution conflicts recorded in each fresh canonical companion note; no false-success inference from embedded Storify."
   ]
 }

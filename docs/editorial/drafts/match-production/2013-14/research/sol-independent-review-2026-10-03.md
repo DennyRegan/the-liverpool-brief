@@ -56,7 +56,7 @@ All following sources were actually retrieved and their full relevant match narr
 - https://www.liverpoolfc.com/news/first-team/160643-gerrard-double-sends-reds-back-to-summit — Full2–1 narrative: ninth consecutive league win, Tomkins handball/Gerrard first penalty, disputed Carroll/Mignolet spill/Demel, Lucas/Flanagan/Adrián second awarded penalty; Suárez two woodwork efforts, Carroll header woodwork. Refereeing choices described as awards/protests, not newly settled errors. Second penalty broad phase avoids clock conflict.
 - https://www.liverpoolfc.com/news/first-team/147371-stevie-and-sturridge-earn-reds-a-point — Full2–2 Newcastle narrative: Cabaye long shot, Yanga-Mbiwa foul/Suárez straight red and Gerrard100th Premier League goal, Dummett substitute goal, Suárez/Sturridge diving header and Suárez crossbar. No asserted crowd intent, revenge motive or tactical causality imported from club rhetoric.
 
-The writer reports root accepted six additions (including19OctoberNewcastle),19total; fresh manifest and own-note inventory remain to read when completed. All final bodies/audits and hashes remain pending.
+Root accepted six additions including19OctoberNewcastle, for19total. The fresh manifest and all19 canonical source-register/prewriting/conflict sections have now actually been read. No prewriting blocker: source scopes distinguish records from action, partial Sky surfaces, current Palace credit and Newcastle two cautions. All final bodies/audits and hashes remain pending.
 
 ## Current individual core corroboration
 
@@ -78,6 +78,15 @@ Relevant identities, dates, grounds, teams, notes and available goal/substitutio
 
 - https://www.uefa.com/news-media/news/0214-0f8a4e320c27-cd0b273a8b30-1000--liverpool-edge-thrilling-city-contest/ — Full relevant contemporary City narrative independently read, High: corroborating goal mechanisms,25th-anniversary silence and Henderson dismissed for added-time tackle on Nasri. Broader roundups are not needed.
 - https://www.lfchistory.net/images/newspapers/riley/20140511vNewcastle.pdf — Actual six-page archived contemporary compilation retrieved. Exposed Echo paragraph near610–612 and BBC action section637–686 independently read, High for two quick dissent yellows/Ameobi and Dummett foul/Suárez straight red, near-identical Gerrard free-kicks/Agger/Sturridge and final result. No claims of reading every article or unseen media; subjective narrative discarded. This directly contradicts club report's unqualified Ameobi straight-red description; correction caution sent to writer.
+
+## Additional independent source retrieval
+
+- https://www.thefa.com/news/2014/mar/16/steven-gerrard-scores-two-penalties-as-liverpool-defeat-manchester-united-160314 — Actual relevant full FA narrative read, High: first penalty34, Jones foul/Allen second, Vidić second yellow in awarded Sturridge third-penalty sequence, Gerrard third against post and Sturridge mishit/Suárez84. Caption incorrectly says third penalty scored; disregard. First penalty mechanism is not established here.
+- https://www.lfchistory.net/images/newspapers/riley/20140112vStoke.pdf — Actual six-page compilation retrieved; first exposed report through its goal-action section read, High for first Premier League win at Stoke, Shawcross own goal/defensive error Suárez, Arnautovic/Crouch and Adam, awarded Sterling/Wilson penalty, Sturridge/Suárez and saved-first-attempt fifth. Other newspaper text and seven-week injury detail are not yet independently read; do not claim them from this scope.
+
+## Six added core records independently read
+
+Actual relevant identities, starting sides, available notes, timelines and exposed match tables read, High within record scope: https://www.lfchistory.net/games/5388 (Newcastle19October2–2; Gerrard100th Premier League goal, third after later results); https://www.lfchistory.net/games/5401 (Stoke12January3–5; Sturridge66 introduction,5/32/39/45/51/71/85/87 goals); https://www.lfchistory.net/games/5406 (Fulham12February2–3; Teixeira debut,90+1 winner, final fourth53from26); https://www.lfchistory.net/games/5423 (Arsenal16February fifth-round2–1; penalty59); https://www.lfchistory.net/games/5411 (Cardiff22March3–6; Suárez sixth club treble/equalled Fowler28 Premier League season goals, second65from30); https://www.lfchistory.net/games/5413 (WestHam6April1–2; two penalties44/71, top74from33/City70from31). Record prose opinions and unused comparative claims are not adopted.
 
 ## Verdict
 

@@ -1,6 +1,6 @@
 # Newcastle United 0–6 Liverpool — fresh Sol pre-writing notes
 
-Historical date: 2013-04-27. Season: 2012–13. Actual model: gpt-6.1-sol. Actual worker: /root/sol_1967_68. Retrieved: 2026-10-03 via web tool. Current status: RESEARCH COMPLETE; manuscript drafting awaits remotely confirmed main claim; final sentence audit and independent body review PENDING.
+Historical date: 2013-04-27. Season: 2012–13. Actual model: gpt-6.1-sol. Actual worker: /root/sol_1967_68. Retrieved: 2026-10-03 via web tool. Current status: MANUSCRIPT COMPLETE; sentence-level factual self-audit PASS; independent final body review PENDING.
 
 ## Preparation provenance
 
@@ -42,3 +42,35 @@ No invented colour, crowd motive, tactical intention, action, quotation or unsou
 
 The eventual manuscript must have exactly matching frontmatter sources URL order and one terminal ## Sources section with accurately titled linked bullets. Private provenance/confidence/editor text remains in this note, never after the manuscript's source section. This is a pre-writing factual check of identities, result and source scopes, not a completed sentence audit or independent approval. Recheck current main/date duplicates before saving its body.
 
+## Final sentence-level factual audit — completed 3 October 2026
+
+Manuscript complete at docs/editorial/drafts/match-production/2012-13/six-at-newcastle-without-suarez-2013.md; factual self-audit PASS by actual configured gpt-6.1-sol, worker /root/sol_1967_68. This dated completed audit supersedes the earlier pre-writing pending state while preserving preparation provenance. Independent review of the final manuscript is PENDING. Root confirmed nine remotely merged main claims at a66ea9b677823a16390c2815b9eaca50f65b35a4; this worker fetched current main and checked the actual writing claim and date duplicates immediately before saving. Source failures/conflicts above remain bounded; the original Astra files are unchanged.
+
+Sources numbered in final frontmatter/footer order:
+
+- 1: https://www.lfchistory.net/games/5360
+- 2: https://www.liverpoolfc.com/news/five-best-premier-league-wins-liverpool-newcastle
+- 3: https://www.the-independent.com/sport/football/premier-league/newcastle-united-0-liverpool-6-match-report-daniel-sturridge-fills-gap-to-pile-agony-on-alan-pardew-8591204.html
+- 4: https://www.liverpoolfc.com/news/first-team/132964-borini-that-was-for-you-lads
+- 5: https://www.liverpoolfc.com/news/first-team/132943-newcastle-0-6-lfc-storified
+- 6: https://www.liverpoolfc.com/news/first-team/132847-fa-confirm-luis-suarez-ban
+- 7: https://www.lfchistory.net/season-archive/games/122
+
+Every S row covers one complete body sentence in reading order, including all material assertions.
+
+| Sentence | Opening words | Retrieved evidence | Factual assessment |
+| --- | --- | --- | --- |
+| S1 | Liverpool beat Newcastle United 6–0 at St… | source 1, source 6, source 7 | High — PASS: Exactfixture,24April immediateban and nextmatch chronology. |
+| S2 | Daniel Sturridge and Jordan Henderson scored twice… | source 1, source 2, source 3, source 4 | High — PASS: All6goals and Borinisubrole. |
+| S3 | Agger opened the scoring in the third… | source 1, source 2, source 3 | High — PASS: Agger3headerDowning. |
+| S4 | The second goal followed a Philippe Coutinho… | source 1, source 2, source 3 | High — PASS: Coutinho/Sturridge/Henderson move supportedprimaryretro/contemporary. |
+| S5 | Liverpool led 2–0 at half-time.… | source 1 | High — PASS: CoreHTscore. |
+| S6 | Coutinho supplied Sturridge for Liverpool’s third nine… | source 1, source 2, source 3 | High — PASS: Sturridge54Coutinhoassist. |
+| S7 | Sturridge scored again in the 60th minute,… | source 1, source 3 | High — PASS: Core60Hendersonassist and contemporary fourthgoal; no unverifiedbuild-up. |
+| S8 | Borini marked his return from a shoulder… | source 1, source 2, source 4 | High — PASS: Returninjuryclubinterview and core72Gerrardsub/74goal; exacttouch/seconds conflict omitted. |
+| S9 | It was his first Premier League goal… | source 4 | High — PASS: PrimaryBoriniinterview explicitmilestone. |
+| S10 | Mathieu Debuchy was then sent off for… | source 3 | High — PASS: Contemporarysequence secondyellow between5th/6th. |
+| S11 | Henderson’s free-kick went into the net without… | source 1, source 2, source 3 | High — PASS: Henderson76untouchedFK. |
+| S12 | The result equalled Liverpool’s biggest away winning… | source 5 | High — PASS: ContemporaneousretrievedStorifyintroonlyjointbestPLmargin, boundedera. |
+
+Title, excerpt, exact match date/result and canonical metadata checked against the same scoped retrieved evidence. One terminal Sources section and identical frontmatter URL order checked; every footer URL is recorded with its actual own-note retrieval scope above. No publication date, manual release, unsupported action/tactics/motive or invented quote added. Conflicted incidental facts are broadly phrased or omitted; High confidence applies to the bounded claims actually used.
