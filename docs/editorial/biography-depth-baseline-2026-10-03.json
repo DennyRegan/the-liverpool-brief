@@ -1,0 +1,307 @@
+{
+  "baseCommit": "ec200c108994aa91aa4d86dc2ab34a236fac6a84",
+  "originalCount": 30,
+  "confidence": "High for directly read file state; editorial priorities are judgements, not factual audits.",
+  "rows": [
+    {
+      "id": "alan-kennedy-career-biography",
+      "personId": "alan-kennedy",
+      "path": "docs/editorial/drafts/biographies/alan-kennedy.md",
+      "proseWords": 946,
+      "sha256": "a201b88c963133bd59a8988f6073123129e23fa15862143941d456a183d6407b",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "bob-paisley-career-biography",
+      "personId": "bob-paisley",
+      "path": "docs/editorial/drafts/biographies/bob-paisley.md",
+      "proseWords": 1405,
+      "sha256": "6f379d0f84452e6698ea6ba26a8e2247eb633a81066e6902392b019792c6a56d",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "david-fairclough-career-biography",
+      "personId": "david-fairclough",
+      "path": "docs/editorial/drafts/biographies/david-fairclough.md",
+      "proseWords": 845,
+      "sha256": "23249fa8fd17e9d7f167b81e9f599e516ac3db4cb413a1931352a69bf6ff3180",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "gerard-houllier-career-biography",
+      "personId": "gerard-houllier",
+      "path": "docs/editorial/drafts/biographies/gerard-houllier.md",
+      "proseWords": 961,
+      "sha256": "d90c3ac5d33dc0230cd9899e3d629dba3b1356b625fba649564ec564250c7a40",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "ian-callaghan-career-biography",
+      "personId": "ian-callaghan",
+      "path": "docs/editorial/drafts/biographies/ian-callaghan.md",
+      "proseWords": 939,
+      "sha256": "6460102f8118b60d7448ed3653e26c7df9d1d76ca0a5c8e394ea7fb62a58722a",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "ian-rush-career-biography",
+      "personId": "ian-rush",
+      "path": "docs/editorial/drafts/biographies/ian-rush.md",
+      "proseWords": 920,
+      "sha256": "a9716f30f1a7e99a3adaeb225a2f09dec6a1f25dfcf54df3cda91f7a07a1ec56",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "jimmy-case-career-biography",
+      "personId": "jimmy-case",
+      "path": "docs/editorial/drafts/biographies/jimmy-case.md",
+      "proseWords": 825,
+      "sha256": "442d24f2e1fa8359d06439c2dfb8bacb5a238fd2228337b5e02a679cace5b6a5",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "john-aldridge-career-biography",
+      "personId": "john-aldridge",
+      "path": "docs/editorial/drafts/biographies/john-aldridge.md",
+      "proseWords": 922,
+      "sha256": "be097c9f06709105ecbdb233707f4c7340b0278527314c8c7a205f0df36f4619",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "john-barnes-career-biography",
+      "personId": "john-barnes",
+      "path": "docs/editorial/drafts/biographies/john-barnes.md",
+      "proseWords": 961,
+      "sha256": "892c7a700aa7fe4488c001a2be6648d92c31c80edf661dcfdd5ddbf0a85aa60a",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "jordan-henderson-career-biography",
+      "personId": "jordan-henderson",
+      "path": "docs/editorial/drafts/biographies/jordan-henderson.md",
+      "proseWords": 973,
+      "sha256": "f6492735c398a7cfb5dab7600bc9982b7d5331bf425c4bd382a3169dac3902ce",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "kenny-dalglish-career-biography",
+      "personId": "kenny-dalglish",
+      "path": "docs/editorial/drafts/biographies/kenny-dalglish.md",
+      "proseWords": 2300,
+      "sha256": "66afc2ba20354dad099ed127320c269bd57c92a7b5c4265b0234ec43b04817b5",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "kevin-keegan-career-biography",
+      "personId": "kevin-keegan",
+      "path": "docs/editorial/drafts/biographies/kevin-keegan.md",
+      "proseWords": 887,
+      "sha256": "16bf9399887a44c5c2f7893292a62433bf6914ecece8f8c889f2d0f9717e5012",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "mark-lawrenson-career-biography",
+      "personId": "mark-lawrenson",
+      "path": "docs/editorial/drafts/biographies/mark-lawrenson.md",
+      "proseWords": 887,
+      "sha256": "087eb7bb317e9b7c7ebf14f4edc86138cf8ddb04281e292a7aeddafa4186216d",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "mohamed-salah-career-biography",
+      "personId": "mohamed-salah",
+      "path": "docs/editorial/drafts/biographies/mohamed-salah.md",
+      "proseWords": 1519,
+      "sha256": "dd14c9a0ad4498c6aa7fe6babb9fbf2e1df3a0d2616104beb7872d93c270f3a5",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "peter-beardsley-career-biography",
+      "personId": "peter-beardsley",
+      "path": "docs/editorial/drafts/biographies/peter-beardsley.md",
+      "proseWords": 853,
+      "sha256": "595daa3acec3ee2e6f050c93f9cf0f224887856733a67b83f2e267589e2a1eae",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "phil-neal-career-biography",
+      "personId": "phil-neal",
+      "path": "docs/editorial/drafts/biographies/phil-neal.md",
+      "proseWords": 870,
+      "sha256": "f47365fe658efccb6b2bd3404e9e174b4666cb35a27be8e2b281fab0c6e98da3",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "ray-clemence-career-biography",
+      "personId": "ray-clemence",
+      "path": "docs/editorial/drafts/biographies/ray-clemence.md",
+      "proseWords": 890,
+      "sha256": "255ecc163539957bf3a25048e4b8f6a50a9177f2404acfeff3605ae04591afe4",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "ray-kennedy-career-biography",
+      "personId": "ray-kennedy",
+      "path": "docs/editorial/drafts/biographies/ray-kennedy.md",
+      "proseWords": 925,
+      "sha256": "f835fa7a1b787190908ae664134344d9fc612ee0676d546854cbe254eca1ac45",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "robbie-fowler-career-biography",
+      "personId": "robbie-fowler",
+      "path": "docs/editorial/drafts/biographies/robbie-fowler.md",
+      "proseWords": 976,
+      "sha256": "3a8192cd96567868ef9b332deaa7ad0425127ea7b2048cb5ec3c5b7274513273",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "roberto-firmino-career-biography",
+      "personId": "roberto-firmino",
+      "path": "docs/editorial/drafts/biographies/roberto-firmino.md",
+      "proseWords": 981,
+      "sha256": "d2248e05fef1221b80c82c1a23a88bbd7518d2f7e83ad44413b38e0b3e2a4a02",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "ronnie-moran-career-biography",
+      "personId": "ronnie-moran",
+      "path": "docs/editorial/drafts/biographies/ronnie-moran.md",
+      "proseWords": 884,
+      "sha256": "7d9ae080027a3f557b555ddc5497351554fb37f5669ba206a628b73b39783df1",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "ronnie-whelan-career-biography",
+      "personId": "ronnie-whelan",
+      "path": "docs/editorial/drafts/biographies/ronnie-whelan.md",
+      "proseWords": 924,
+      "sha256": "b885439fe9778749936859d1401e76369cc0fffea58d810b94f760acc2ced400",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "sadio-mane-career-biography",
+      "personId": "sadio-mane",
+      "path": "docs/editorial/drafts/biographies/sadio-mane.md",
+      "proseWords": 981,
+      "sha256": "a92ba26041b0c367ed5867548fbaad529d64dab277b59c39c86796bc7f60ba73",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "sammy-lee-career-biography",
+      "personId": "sammy-lee",
+      "path": "docs/editorial/drafts/biographies/sammy-lee.md",
+      "proseWords": 885,
+      "sha256": "a83808318532f52cacce110f44ce978fc38f8d73df7fd9f23c73a1313b92c548",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "steve-heighway-career-biography",
+      "personId": "steve-heighway",
+      "path": "docs/editorial/drafts/biographies/steve-heighway.md",
+      "proseWords": 911,
+      "sha256": "93b4ce6d9e8364d299082a6538f26057ba203cd3c501bdcfde67c04031d5dc11",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "steve-mcmahon-career-biography",
+      "personId": "steve-mcmahon",
+      "path": "docs/editorial/drafts/biographies/steve-mcmahon.md",
+      "proseWords": 824,
+      "sha256": "63f7dbc4bc19177fb33bbae066825593d2bc1cc70c140292a59314ff44d10bbb",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "steve-mcmanaman-career-biography",
+      "personId": "steve-mcmanaman",
+      "path": "docs/editorial/drafts/biographies/steve-mcmanaman.md",
+      "proseWords": 851,
+      "sha256": "b01a75e1d555961a58bd9b4d0fba1e1d26034b7f0af326f0e07721802d2c90ad",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "fernando-torres-career-biography",
+      "personId": "fernando-torres",
+      "path": "docs/editorial/drafts/fernando-torres.md",
+      "proseWords": 813,
+      "sha256": "e0c14ec687c62bc3ececde96ad92375f14e8173e5095604a62b02fb49f99aa4b",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "steven-gerrard-career-biography",
+      "personId": "steven-gerrard",
+      "path": "docs/editorial/drafts/steven-gerrard.md",
+      "proseWords": 1636,
+      "sha256": "51678820475c67f6d183cbcfac271a99b53196fc73b21cad9e8b1408f834e185",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    },
+    {
+      "id": "james-milner-career-biography",
+      "personId": "james-milner",
+      "path": "docs/editorial/drafts/james-milner.md",
+      "proseWords": 1051,
+      "sha256": "0ec8d0fa5eaf6ebc860ab71d72f4c4c49c9ec881ec1a258488febd6f1bf281fe",
+      "status": "ready_for_review",
+      "approval": null,
+      "publishedDestination": null
+    }
+  ]
+}
