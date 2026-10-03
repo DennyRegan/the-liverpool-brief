@@ -2878,5 +2878,10 @@
     "id": "sandy-brown",
     "label": "Sandy Brown",
     "kind": "person"
+  },
+  {
+    "id": "filbert-street",
+    "label": "Filbert Street",
+    "kind": "location"
   }
 ]

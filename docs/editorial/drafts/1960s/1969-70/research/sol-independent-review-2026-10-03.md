@@ -4,7 +4,7 @@ Reviewer: `/root/sol_factual_review`. Actual configured model: `gpt-6.1-sol`. In
 
 ## Review state
 
-PENDING — whole-season sources and all thirteen selected match cores independently retrieved; no completed manuscript body or companion audit has yet been reviewed.
+PENDING — whole-season sources and all thirteen selected match cores independently retrieved; all thirteen fresh Sol pre-writing notes and the resumption ledger have been read; no completed manuscript body or final companion audit has yet been reviewed.
 
 ## Independently retrieved sources
 
@@ -54,7 +54,7 @@ PENDING — whole-season sources and all thirteen selected match cores independe
 - High — [Chelsea opener independent register](https://www.11v11.com/matches/liverpool-v-chelsea-09-august-1969-80249/): 4–1, scorer identities and St John double; no goal-minute corroboration.
 - High — [Clemence league-debut independent register](https://www.11v11.com/matches/nottingham-forest-v-liverpool-31-january-1970-80563/): 1–0 Forest and Clemence starting; opposition scorer fields blank, not treated as scorer corroboration.
 - High — [Watford independent register](https://www.11v11.com/matches/watford-v-liverpool-21-february-1970-213027/): quarter-final, 1–0 and Lawrence starting; opposition scorer fields blank.
-- High — [Derby return independent register](https://www.11v11.com/matches/liverpool-v-derby-county-28-february-1970-80598/): 0–2, Hennessey/O’Hare and Clemence/Smith/Livermore/Thompson starting. Compared with Watford’s XI: Lawrence, Yeats, Ross and St John replaced; do not claim the whole team changed. Peter Wall final appearance is an additional register claim and would need scoped corroboration before use.
+- High — [Derby return independent register](https://www.11v11.com/matches/liverpool-v-derby-county-28-february-1970-80598/): 0–2, Hennessey/O’Hare and Clemence/Smith/Livermore/Thompson starting. Compared with Watford’s XI: Lawrence, Yeats, Ross and St John replaced; do not claim the whole team changed. Peter Wall’s final appearance is corroborated by his separately retrieved player register below.
 
 - High — [City cup independent register](https://www.11v11.com/matches/manchester-city-v-liverpool-24-september-1969-29104/): Maine Road3–2, third round, Evans/Graham, Boersma debut replacing Evans; City scorer fields blank.
 - High — [Derby away independent register](https://www.11v11.com/matches/derby-county-v-liverpool-01-november-1969-80431/):4–0 and McGovern/Hector double/O’Hare scorer identities, no minute corroboration.
@@ -65,6 +65,23 @@ PENDING — whole-season sources and all thirteen selected match cores independe
 - High — [Roger Hunt register](https://www.lfchistory.net/players/326): last goal26November1969, final appearance13December, departure16December,492appearances285goals. Profile’s disputed March1969 substitution narrative is not accepted as resolution of the earlier source conflict.
 - West Brom individual11v11 page and Leicester replay direct retrieval failed; no claim of successful independent retrieval. Whole-season register still corroborates date/result.
 - Opening four league wins scored eleven goals (4+3+2+2), not twelve: checked in both full fixture registers and the writer’s resumption evidence supersedes the erroneous older summary.
+
+## Further retrieved corroboration and pre-writing review
+
+All thirteen fresh `<slug>-sol-resumption-notes.md` files and `sol-research-resumption-2026-10-03.md` were actually read. No factual blocker remains at the pre-writing stage. These notes preserve the original author’s records and explicitly supersede the erroneous twelve-goal opening summary with eleven. This is a pre-writing evidence assessment, not manuscript approval.
+
+- High — [Official Bobby Graham obituary](https://www.liverpoolfc.com/news/rest-peace-bobby-graham): 54 competitive appearances and 21 goals in 1969–70, the club’s season top scorer; Goodison derby goal. These are all-competition totals.
+- Medium — [Everton Encyclopedia Sandy Brown profile](https://www.evertonencyclopedia.com/players/399/alexander-sandy-brown/): retrospective diving-header own-goal account. Cross supplier conflicts with other evidence; do not name the supplier or invent ball path or motive.
+- High for register facts — [Liverpool in Europe Setúbal return](https://lfcineurope.com/6970-2.html): result, five-goal sequence, half-time and half-time changes. Fan memories, embedded social posts and linked newspaper images are not treated as independently examined contemporary evidence.
+- High — [Larry Lloyd register](https://www.lfchistory.net/players/363): arrival from Bristol Rovers on 23 April 1969 for £50,000; 27 September debut; nine competitive appearances in this season.
+- High — [Season appearance table](https://www.lfchistory.net/season-archive/appearances/11): Lawrence 28 league/37 total; Clemence 14 league/17 total; competition distinctions retained. Graham and Lawler played all 54 competitive matches.
+- High — [Season transfer table](https://www.lfchistory.net/season-archive/transfers/11): Hunt’s Bolton departure on 16 December 1969 for £32,000; Whitham’s arrival on 28 April 1970 after the final league fixture, so not an immediate Watford replacement.
+- High — [Peter Wall register](https://www.lfchistory.net/players/456): final appearance on 28 February 1970. Conflicting debut narrative is outside scope and excluded.
+- High for debut and appearance table — [Ray Clemence register](https://www.lfchistory.net/players/282): first league game at Forest on 31 January 1970 and 14 league/17 total appearances this season. Its erroneous claim that Watford was Lawrence’s final appearance is expressly rejected using Lawrence’s official profile and the match chronology.
+- High for career endpoint — [Steve Peplow register](https://www.lfchistory.net/players/394): Setúbal on 26 November 1969 was his third and final competitive Liverpool appearance. The retrospective extra-time expectation and quoted Shankly reaction are not accepted as ledger facts; if used they require explicit attribution and careful wording.
+
+- High for cup register facts — [RSSSF League Cup route](https://www.rsssf.org/tablese/engleagcuphistfull.html): Liverpool’s Watford second-round win and City third-round defeat; City’s eventual final win over West Bromwich Albion.
+- High for recorded replacement and double; Medium for attributed memory — [LFChistory Alun Evans interview](https://www.lfchistory.net/articles/4306): December assault and recovery, injured Thompson replacement after 21 minutes, Leicester double and reported Callaghan near-post pass. No unsupported mental state or causal career claim accepted; no linked footage viewed.
 
 ## Verdict
 

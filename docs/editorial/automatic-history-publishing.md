@@ -1,9 +1,11 @@
 # Automatic weekly History publishing
 
-**Review implementation: disabled.** `automaticHistory.enabled` is false in the
-shared `history-calendar.json`. Nothing activates until Denny reviews the dry-run
-results and explicitly authorises the final merge and activation. Non-main live
-dispatches are refused. The review workflow has read-only repository permissions.
+**Enabled on main on 2 October 2026.** Commit `c7ab071` enabled the publisher,
+and `0f668b0` merged it into main. The latest main `history-calendar.json` remains
+authoritative for current enabled/paused state. Denny’s 3 October continuation
+uploads completed, unpublished reports to this inventory and leaves release to
+the existing weekly publisher; do not manually publish or dispatch a new release.
+Non-main live dispatches are refused. The review workflow has read-only repository permissions.
 
 ## Authority and eligibility
 
@@ -137,7 +139,11 @@ by removing its `publicationClass` or setting its existing status to `blocked`
 with a real blocker. Removing the class from a selected item halts promotion while
 retaining its reservation; do not use it to skip to a replacement.
 
-## Activation checkpoint
+## Original activation checkpoint (completed 2 October 2026)
+
+The original activation requirements below are retained as implementation history.
+The completed merge and enabled calendar do not establish that a scheduled public
+release has already succeeded; consult the saved run and verification evidence.
 
 1. Review the branch, migration incorporation, CI and recorded dry-run results.
 2. Denny explicitly approves the final main merge and activation. Merge with

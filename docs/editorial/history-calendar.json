@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T06:14:57.211125Z",
+  "updatedAt": "2026-10-03T06:23:16.980834Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -18945,7 +18945,7 @@
         "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1969-70/liverpool-chelsea-1969-st-john-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18969,7 +18969,8 @@
         "editorialReason": "Four-goal opening and rapid response to Chelsea equaliser start a four-win sequence after runners-up season.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/liverpool-chelsea-1969-st-john-double-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -18989,7 +18990,7 @@
         "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1969-70/liverpool-dundalk-1969-ten-goals.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19013,7 +19014,8 @@
         "editorialReason": "Largest win of season, Lindsay competitive debut and future manager Houllier’s first Kop visit, backed by official recollection.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/liverpool-dundalk-1969-ten-goals-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19033,7 +19035,7 @@
         "baseCommit": "ce682e192e6407ad5660ffe3ba47a017d9dca341"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1969-70/manchester-city-liverpool-1969-league-cup-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -19057,7 +19059,8 @@
         "editorialReason": "Early domestic cup exit against opponent already beaten twice in league.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/manchester-city-liverpool-1969-league-cup-exit-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19101,7 +19104,8 @@
         "editorialReason": "Competitive debut of significant rebuild recruit alongside late Hunt contribution; old and incoming players coexist.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/west-bromwich-liverpool-1969-lloyd-debut-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19145,7 +19149,8 @@
         "editorialReason": "Heaviest away league defeat of campaign exposes loss of early momentum against promoted side.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/derby-liverpool-1969-four-goal-defeat-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19189,7 +19194,8 @@
         "editorialReason": "European second-round exit under away-goals rule after 3–3 aggregate; distinct from previous season coin toss.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/liverpool-vitoria-setubal-1969-away-goals-exit-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19233,7 +19239,8 @@
         "editorialReason": "Major derby win against eventual champions, with famous Sandy Brown own goal and Graham among scorers.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/everton-liverpool-1969-three-goal-derby-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19277,7 +19284,8 @@
         "editorialReason": "Heaviest home league defeat immediately after Goodison win; Hunt’s final appearance shortly before departure.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/liverpool-manchester-united-1969-four-goal-reverse-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19321,7 +19329,8 @@
         "editorialReason": "First league appearance of future No.1 predates Watford defeat and later permanent promotion; important corrective to simplistic transition chronology.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/nottingham-forest-liverpool-1970-clemence-league-debut-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19365,7 +19374,8 @@
         "editorialReason": "Substitute scores twice in meaningful cup replay victory against prior season eliminators after home 0–0, before defining Watford defeat.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/leicester-liverpool-1970-fa-cup-replay-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19409,7 +19419,8 @@
         "editorialReason": "Final cup exit to Second Division side, central event in final season of old first team, without simplistic causal rebuilding claim.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/watford-liverpool-1970-fa-cup-exit-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19453,7 +19464,8 @@
         "editorialReason": "Clemence returns in goal after cup exit as Liverpool alter side and fall to ninth; distinct from his January league debut, not claimed as a debut.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/liverpool-derby-1970-changed-side-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
@@ -19497,7 +19509,8 @@
         "editorialReason": "Anfield derby loss reverses Goodison win, locates Liverpool’s rebuilding season against neighbours’ championship.",
         "sourceFiles": [
           "docs/editorial/drafts/1960s/1969-70/research/season-research.md",
-          "docs/editorial/drafts/1960s/1969-70/research/selections.json"
+          "docs/editorial/drafts/1960s/1969-70/research/selections.json",
+          "docs/editorial/drafts/1960s/1969-70/research/liverpool-everton-1970-title-march-notes.md"
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1967_68",
