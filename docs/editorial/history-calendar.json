@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T10:51:16.595002Z",
+  "updatedAt": "2026-10-03T10:54:42.244643Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -23606,7 +23606,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2010-11/maxi-fulham-five-goals-2011.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -23811,7 +23811,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/liverpool-cardiff-league-cup-final-2012.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -23861,7 +23861,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/gerrard-derby-hat-trick-2012.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -23911,7 +23911,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/qpr-three-late-goals-2012.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31036,7 +31036,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2010-11/carroll-first-goals-city-2011.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31081,7 +31081,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2010-11/kuyt-arsenal-late-penalty-2011.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31351,7 +31351,7 @@
         "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2011-12/carroll-blackburn-jones-penalty-save-2012.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,

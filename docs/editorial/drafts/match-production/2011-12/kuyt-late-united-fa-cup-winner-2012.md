@@ -21,9 +21,9 @@ Dirk Kuyt’s late finish gave Liverpool a 2–1 victory over Manchester United 
 
 The win came three days after Liverpool had reached the League Cup final by eliminating Manchester City. Luis Suárez remained absent while serving an eight-match suspension. The FA Regulatory Commission had found that he used insulting words referring to Patrice Evra’s colour in the October league meeting; the sanction covered first-team competitive matches, not league games alone.
 
-Liverpool took the lead through a set-piece. Agger headed in Steven Gerrard’s corner, putting the hosts ahead before United replied through Park. Rafael supplied the ball for the midfielder to finish, and the sides went into half-time level.
+United threatened when Antonio Valencia struck the post in the first half, but Liverpool took the lead through a set-piece. Agger headed in Steven Gerrard’s corner, putting the hosts ahead before United replied through Park. Rafael supplied the ball for the midfielder to finish, and the sides went into half-time level.
 
-The second half did not bring an immediate breakthrough. Antonio Valencia struck the post, while Liverpool needed a further goal if the tie was to be settled at Anfield. Kuyt’s introduction eventually supplied the finishing touch.
+The second half did not bring an immediate breakthrough. Liverpool needed a further goal if the tie was to be settled at Anfield, and Kuyt’s introduction eventually supplied the finishing touch.
 
 Andy Carroll flicked the ball on for the substitute, who struck past David de Gea near the end. United had little time left to recover for a second time, and Liverpool held their 2–1 advantage to progress.
 

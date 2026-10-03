@@ -43,11 +43,36 @@ All sources below were actually retrieved through the web tool by this reviewer.
 
 All fifteen fresh Sol prewriting notes were read on 3 October 2026. Their bounded common sequences and deliberate omissions are consistent with the independently retrieved sources above. This is a preparation review only: final sentences, source layout, exact URL parity and hashes must be checked after completed manuscripts are saved. Prior final-preparation count of subsequent league fixtures is correctly superseded: only Chelsea and Swansea followed the FA Cup final; Fulham preceded it.
 
+## Independent completed-body review — first eight reports
+
+Bodies and finished companion audits actually read: Arsenal away, Tottenham away, Goodison, Chelsea league, Chelsea League Cup, City semi-final, United FA Cup and Brighton FA Cup. Material match claims checked against the independently retrieved sources; no invented goal action, dialogue, motives, diagnosis or unwatched-footage description found.
+
+- Arsenal: corrected Kelly post chronology rechecked in saved body; Sky places it55 minutes, after the first-half Carroll save. Updated own audit will be rechecked at final completion.
+- Tottenham: both second yellow cards, Agger injury/Coates debut, goals after second dismissal and preceding/following league sequence agree. No disputed injury mechanism retained.
+- Goodison: saved penalty, first Carroll league goal, Bellamy/Enrique creation, Suárez defensive mix-up and rescinded Rodwell ban agree. Appeal is separately sourced and not treated as a match-result change.
+- Chelsea league: Adam/Mikel possession, Bellamy/Suárez/Maxi goal, Sturridge equaliser, Reina save and Johnson87 agree; conflicting opener clock omitted.
+- Chelsea cup: Alex awarded handball penalty/Turnbull save, Bellamy two deliveries, Kelly first senior goal and route agree.
+- City semi-final: aggregate arithmetic, first-leg penalty, Richards deflection/awarded penalty, Kolarov/Džeko goal, Hart saves and Johnson/Bellamy74 agree. No away-goals elimination claim or unsupported Wembley milestone.
+- United FA Cup: correction requested because Valencia post effort18 minutes is placed in a second-half paragraph. The saved text/own audit must correct that chronology before PASS. The brief Suárez finding is properly attributed to the FA commission, eight first-team competitive matches, with no insult quoted or sporting vindication suggested.
+- Brighton: bounded original own-goal credit/subsequent club award agrees with actual footnote and LFChistory record. Six goals, saved penalty/header, quarter-final opponent and largest campaign win agree with report/ledger.
+
+Additional sources actually retrieved for this batch, High within exposed factual scope:
+
+- https://www.skysports.com/football/arsenal-vs-liverpool/report/237887 — lead/first-half and opening second-half text; Kelly post explicitly55 minutes; complete scoring summary. Truncates during dismissal section.
+- https://www.liverpoolfc.com/news/first-team/109963-arsenal-0-2-lfc-the-press-view — attributed contemporary extracts read; February2000 previous Arsenal away win, Highbury/Emirates transition and substitutes combining. Predictions/opinions excluded.
+- https://www.skysports.com/football/tottenham-hotspur-vs-liverpool/245405 — exposed lead contains complete goal/dismissal sequence; body truncates late first half. Full club report separately supplies retained action.
+- https://www.skysports.com/football/everton-vs-liverpool/237940 — exposed lead and early second-half account; Carroll first league goal, both finishes, missed penalty and Adam bar. Later full goal detail comes from club account.
+- https://www.lfchistory.net/games/5280 — complete relevant core/line-up/timeline/table read; substitutions, half-time0–0 and2–0 result.
+- https://www.skysports.com/football/chelsea-vs-liverpool/245420 — exposed complete lead and first-half body support goals/Adam/Johnson/former-club and level-on-points; body stops during equaliser. Full club report separately covers later save/winner.
+- https://www.skysports.com/football/liverpool-vs-man-city/253443 — lead all four goals/3–2aggregate, Richards leg-to-arm deflection; later narrative truncates.
+- https://www.skysports.com/football/news/11669/7389270/suarez-handed-eight-match-ban — complete relevant reproduced FA statement read, matches commission conclusion and sanction; not evidence of later non-appeal chronology.
+- https://www.uefa.com/news-media/news/0254-0d7dbe45b403-5a8882a5ef14-1000--liverpool-hit-six-but-spurs-suffer-stalemate/ — complete relevant short Brighton roundup:6–1, initial three-own-goal description, Stoke quarter-final; does not settle subsequent scoring reassignment.
+
+These eight source layouts match the published Leicester1974/WestHam1977 reports already read: one final linked-bullet Sources section, accurate provider/fixture/scoped labels, exact frontmatter URL order, no editor text after footer and own retrieved-note coverage. Final full-season mechanical date/entity/source checks and hashes remain pending.
+
 ## Remaining checks and limits
 
-Fifteen finished bodies and completed companion sentence audits remain pending. There are no reviewed manuscript hashes yet. Before PASS: read all final files; independently check every material factual claim; recheck corrections; compare published report format; validate one bottom linked Sources section with descriptive accurate labels, exact frontmatter/footer URL order and retrieved own-note coverage; resolve canonical dates/entities and absence of publication dates. No source record or format approval authorises publication.
-
-The Brighton conflict is bounded above. Supplementary Chelsea quarter-final and Wembley derby texts now support the goal mechanisms stated in the register. Rodwell's successful appeal is retrieved; any expanded Suárez ban start/non-appeal chronology still needs its own evidence if included.
+Seven further final bodies/audits remain pending. United chance chronology correction and Arsenal updated audit require final recheck. No entire-season PASS or final manuscript hashes yet. Full final date/entity/source/site-format verification and refreshed full-file hashes will follow all fifteen corrected bodies.
 
 ## Verdict
 

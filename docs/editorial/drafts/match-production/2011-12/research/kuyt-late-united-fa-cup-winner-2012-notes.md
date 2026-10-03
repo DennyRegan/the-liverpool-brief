@@ -38,8 +38,8 @@ Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 af
 
 - Paragraph 1: The full club report and UEFA independently confirm the fourth-round date/result, Kuyt as substitute winner and earlier Agger/Park goals.
 - Paragraph 2: The ledger fixes the three-day gap from the City semi-final. Contemporary match evidence establishes Suárez’s absence; the freshly read FA written-reasons conclusion and sanction and Sky’s reproduced FA statement support the finding and eight first-team competitive matches. No insulting words are quoted, no non-appeal chronology or crowd motive is inferred.
-- Paragraph 3: The club account supplies Gerrard corner/Agger header, Rafael supply/Park finish and half-time 1–1. UEFA corroborates scorers and sequence.
-- Paragraph 4: The club full narrative supports Valencia hitting the post and Kuyt’s substitute role. Need for a winning goal is a consequence of the level score, not a claim about tactical instructions.
+- Paragraph 3: The club account explicitly puts Valencia’s post effort at 18 minutes before Agger’s 21-minute goal, and supplies Gerrard corner/Agger header, Rafael supply/Park finish and half-time 1–1. The paragraph now correctly identifies the post effort as first-half action after independent review identified the misplaced implication. UEFA corroborates scorers and sequence.
+- Paragraph 4: The club full narrative supports Kuyt’s substitute role and the continued level score after the interval. Valencia’s earlier post effort has been moved into paragraph 3. Need for a winning goal follows from the level score, without a claim about tactical instructions.
 - Paragraph 5: The club and UEFA support Carroll flick-on and Kuyt finish past De Gea near the end. Conflicting minute formulations are omitted; the final result establishes no equaliser followed.
 - Paragraph 6: The ledger gives two wins/tie successes between 25 and 28 January and Brighton next in the FA Cup. The disciplinary finding remains brief attributed context in paragraph 2; no sporting vindication is implied.
 

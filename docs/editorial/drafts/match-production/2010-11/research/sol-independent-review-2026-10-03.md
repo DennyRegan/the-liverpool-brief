@@ -73,7 +73,11 @@ Goodison uses independently verified takeover chronology, not UEFA for ownership
 
 The six completed reports have one terminal linked Sources list, accurate descriptive labels, exact metadata URL order and own-note URL coverage. Their report structure matches the existing published Leicester1974/WestHam1977 reports already read; confidence/internal review prose stays in notes. Canonical IDs and final full-file hashes remain to be repeated across all twelve completed reports.
 
-Six further accepted reports remain pending: Stoke, Chelsea away, United home, City home, Arsenal away and Fulham. No entire-season PASS or final file hashes yet.
+Stoke, Chelsea away and United home bodies plus completed own audits now also actually read, bringing reviewed bodies to nine. Their goal sequences, substitutions/debut, January transfers, winning/clean-sheet runs and table/games-in-hand assertions agree with independent evidence. United remains sixth; no disputed late consolation clock. Northampton corrected excerpt reread and accepted.
+
+Additional independent retrieval: https://www.lfchistory.net/games/5245 and https://www.lfchistory.net/games/5246 — complete relevant cores, substitute/debut/timeline and displayed table; High within those scopes. https://www.liverpoolfc.com/news/first-team/286771-7-luis-suarez — relevant official debut paragraph read: substitute63, goal sixteen minutes later; High only within that passage, unrelated later career not cleared.
+
+Three further accepted reports remain pending: City home, Arsenal away and Fulham. No entire-season PASS or final file hashes yet.
 
 ## Verdict
 
