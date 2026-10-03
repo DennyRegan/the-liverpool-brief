@@ -2,7 +2,7 @@
 
 Historical date: 2014-03-22. Season: 2013–14. Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026.
 
-New Sol addition accepted by root after the 3 October best-games commission without a quota. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. There was no original selected individual note for this addition. Root owns the calendar, remote claim, independent review checkpoint and Git operations. No 2013–14 body has been drafted; this record awaits the remotely confirmed claim release.
+New Sol addition accepted by root after the 3 October best-games commission without a quota. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. There was no original selected individual note for this addition. Root owns the calendar, remote claim, independent review checkpoint and Git operations. Root confirmed the claim on GitHub main at d621c5cab596cc4ae64ac96bceff88368b1d218b and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -33,3 +33,19 @@ No invented quotation, motive, atmosphere, tactical instruction or action from u
 ## Editorial handling before release
 
 The intended article will use registered opposition, competition, manager and principal-player identities, British English and factual match classification. It will have the exact historical date and 2013–14 season, with no publication date. Its frontmatter Sources URL array will match the ordered linked bullets in one terminal `## Sources`section. Only actually retrieved URLs that support the body will be cited there; research-only limited surfaces may remain in these notes. Each final paragraph will receive a full-sentence claim audit after drafting, followed by independent factual review and hashes. This is a completed prewriting record, not a final-body PASS or publication approval.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: The official account and independent record establish 6–3, exact date, Suárez treble, two first-half deficits and 2–2 half-time. The four second-half Liverpool goals follow the timeline.
+- Paragraph 2: The club narrative supplies Campbell’s pull-back, Johnson’s cross, Campbell’s second lead and Coutinho/Skrtel equaliser. Jordon spelling follows the independent record; Skrtel’s disputed 40/41-minute notation is left broad.
+- Paragraph 3: The primary report and record support Coutinho’s corner, Skrtel’s second and Suárez finishing Sturridge’s backheel. The sequence correctly identifies Liverpool’s first lead.
+- Paragraph 4: The club account supplies Suárez’s pass and Sturridge 75; the record confirms 5–2.
+- Paragraph 5: The official narrative supplies Mutch’s header from Jones’s knock-down and Suárez’s added-time third. No exact added-time subdivision or unverified last-goal delivery is added.
+- Paragraph 6: LFChistory’s match note explicitly gives the sixth Liverpool hat-trick and 28 matching Fowler. The separately retrieved official statistics feature gives 82 after 30 and previous 77; both milestones remain historical and Premier League-scoped.
+- Paragraph 7: The contemporary table gives Liverpool 65/30 and Chelsea 69/31. The four-point gap and one game fewer are arithmetic; the report does not disregard City’s different games played or proclaim title certainty.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2013–14 season, factual match classification, Rodgers and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

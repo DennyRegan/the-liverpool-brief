@@ -25,8 +25,6 @@ Sterling made it 3–0 in the 16th minute, meeting Suárez’s low cross. Coutin
 
 Sterling added his second after the break. His initial effort was saved, but he followed up to make it 5–0 in the 52nd minute. Arsenal’s reply came through Mikel Arteta’s penalty after Gerrard’s challenge on Alex Oxlade-Chamberlain.
 
-The visitors’ single goal did not alter the size of the result. Liverpool had established the four-goal advantage before the interval and added another through a player already on the scoresheet, with Skrtel’s two set-piece finishes opening the way.
-
 Liverpool remained fourth with 50 points from 25 games. Arsenal had arrived as leaders; the contemporary table after the day’s fixtures showed Chelsea above them. For Liverpool, the significance would extend beyond this afternoon: it was the first of eleven consecutive league wins, ending at Norwich in April.
 
 ## Sources

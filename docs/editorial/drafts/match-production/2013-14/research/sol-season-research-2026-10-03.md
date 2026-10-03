@@ -2,7 +2,7 @@
 
 Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Actual fresh retrieval date: 3 October 2026. This supplement preserves the earlier Astra `season-research.md`, `selection.json` and thirteen date-based source notes unchanged with their original authorship. The shared history calendar remains authoritative. This is research and selection evidence, not a second queue or manuscript approval.
 
-The previous assigned season, 2011–12, completed independent review and its remote main checkpoint at `e67a0a9c0b335dce860a66bd9e283d77ea5b4dba`. The latest available main was freshly read at `a66ea9b677823a16390c2815b9eaca50f65b35a4`. All nineteen 2013–14 manuscripts remain on hold until root confirms their own claims on GitHub main.
+The previous assigned season, 2011–12, completed independent review and its remote main checkpoint at `e67a0a9c0b335dce860a66bd9e283d77ea5b4dba`. The latest available main was freshly read at `a66ea9b677823a16390c2815b9eaca50f65b35a4`. Root confirmed all nineteen claims on GitHub main at `d621c5cab596cc4ae64ac96bceff88368b1d218b` and released writing. All nineteen finished manuscripts and full own factual audits are now saved; independent final-body review is in progress.
 
 ## Whole-season assessment
 
@@ -71,4 +71,4 @@ All nineteen exact dates were freshly screened at main `a66ea9b677823a16390c2815
 
 Existing registered principal players, manager Brendan Rodgers, all opposition and both competition IDs suffice. No canonical additions are required for this selection. João Carlos Teixeira’s debut is source-supported incidental context in Fulham’s note, but an unregistered identity will not be inserted as a principal-player tag. Optional venue tags will use registered IDs only.
 
-No 2013–14 body has been drafted. Once root confirms the nineteen main claims and releases writing, each report will be saved promptly with the single terminal descriptive Sources list, matching ordered frontmatter URL array and its own full-sentence factual audit. The independent reviewer will recheck completed bodies and final hashes before root’s individual season checkpoint. There will be no manual publication, new release dispatch or schedule change.
+All nineteen bodies have now been saved after the confirmed main claim release. Each has the single terminal descriptive Sources list, matching ordered frontmatter URL array and its own full-sentence factual audit. The independent reviewer will recheck completed bodies and final hashes before root’s individual season checkpoint. There will be no manual publication, new release dispatch or schedule change.

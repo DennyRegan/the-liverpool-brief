@@ -25,7 +25,7 @@ Arsenal made the breakthrough in the 16th minute. Oxlade-Chamberlain scored from
 
 Podolski added the second early after the break, finishing a move supplied by Oxlade-Chamberlain. Liverpool replied through Gerrard’s penalty after Podolski fouled Suárez, but the score remained 2–1 despite further chances, including a late Agger header that went wide.
 
-Liverpool also sought another penalty after Oxlade-Chamberlain’s challenge on Suárez. Rodgers argued afterwards that it should have been awarded. That remained his assessment of the incident;the match ended with Arsenal through and Liverpool out.
+Liverpool also sought another penalty after Oxlade-Chamberlain’s challenge on Suárez. Rodgers argued afterwards that it should have been awarded. That remained his assessment of the incident; the match ended with Arsenal through and Liverpool out.
 
 The defeat left Liverpool’s league campaign as their remaining competitive programme. The two Arsenal meetings had produced opposite winners in different competitions: a large Liverpool league victory followed by the cup result that brought their FA Cup run to a close.
 

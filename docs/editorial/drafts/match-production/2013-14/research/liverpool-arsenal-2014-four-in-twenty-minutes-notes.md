@@ -41,8 +41,7 @@ Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 af
 - Paragraph 2: The club account supports both Gerrard deliveries, Skrtel’s first-minute finish and 10-minute header. It explicitly places Suárez’s post effort after the second goal and before the third.
 - Paragraph 3: The official narrative supplies Suárez/Sterling 16 and Coutinho/Sturridge 20; the independent record confirms 4–0 half-time.
 - Paragraph 4: The club supports Sterling’s saved first effort and follow-up, plus the Gerrard/Oxlade-Chamberlain awarded foul and Arteta penalty. LFChistory gives 52 and 69.
-- Paragraph 5: The recorded sequence supports the retained advantage and another Sterling goal. Both opening set-piece finishes belong to Skrtel; the body expressly identifies Skrtel’s two set-piece finishes.
-- Paragraph 6: The exposed contemporary table gives Liverpool fourth 50/25 and Chelsea first after their same-day win. The league-only ledger sequence runs from 8 February through 20 April; the intervening FA Cup defeat is not miscounted as a league loss.
+- Paragraph 5: The exposed contemporary table gives Liverpool fourth 50/25 and Chelsea first after their same-day win. The league-only ledger sequence runs from 8 February through 20 April; the intervening FA Cup defeat is not miscounted as a league loss.
 
 The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2013–14 season, factual match classification, Rodgers and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
 

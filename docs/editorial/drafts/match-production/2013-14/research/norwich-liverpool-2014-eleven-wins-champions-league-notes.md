@@ -2,7 +2,7 @@
 
 Historical date: 2014-04-20. Season: 2013–14. Researcher and intended writer: `gpt-6.1-sol`. Worker: `/root/sol_1968_69`. Fresh retrieval date: 3 October 2026.
 
-Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2007_08. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. Prior individual preparation is preserved in `2014-04-20-sources.md`. Root owns the calendar, remote claim, independent review checkpoint and Git operations. No 2013–14 body has been drafted; this record awaits the remotely confirmed claim release.
+Retained original Astra selection, with fresh Sol research and intended Sol writing. Original recorded worker: /root/astra_2007_08. The original `selection.json`, `season-research.md` and all date-based Astra evidence files remain unchanged with their recorded authorship. Prior individual preparation is preserved in `2014-04-20-sources.md`. Root owns the calendar, remote claim, independent review checkpoint and Git operations. Root confirmed the claim on GitHub main at d621c5cab596cc4ae64ac96bceff88368b1d218b and released drafting on 3 October 2026.
 
 ## Selection and duplicate check
 
@@ -32,3 +32,18 @@ No invented quotation, motive, atmosphere, tactical instruction or action from u
 ## Editorial handling before release
 
 The intended article will use registered opposition, competition, manager and principal-player identities, British English and factual match classification. It will have the exact historical date and 2013–14 season, with no publication date. Its frontmatter Sources URL array will match the ordered linked bullets in one terminal `## Sources`section. Only actually retrieved URLs that support the body will be cited there; research-only limited surfaces may remain in these notes. Each final paragraph will receive a full-sentence claim audit after drafting, followed by independent factual review and hashes. This is a completed prewriting record, not a final-body PASS or publication approval.
+
+## Finished manuscript factual self-audit
+
+Writer: `gpt-6.1-sol`; worker: `/root/sol_1968_69`. Audited on 3 October 2026 after the confirmed main claim. The original Astra preparation remains unchanged.
+
+- Paragraph 1: The official report explicitly records secured Champions League football, eleventh league win and Suárez’s 30th league goal. LFChistory gives exact date, venue and 3–2.
+- Paragraph 2: The primary source supplies Sterling’s long shot and delivery for Suárez; the independent timeline gives 4, 11 and 2–0 half-time. No precise opening-shot deflection mechanism is added.
+- Paragraph 3: The official report supplies the spilled cross/Hooper finish and Sterling’s deflected second; LFChistory records Hooper 54, Sterling 62. No foul verdict on the keeper challenge is made.
+- Paragraph 4: The full official narrative supports Snodgrass’s header and Mignolet’s later Van Wolfswinkel save. Snodgrass’s 77/78 source clock difference is kept broad.
+- Paragraph 5: The exposed contemporary table gives Liverpool 80/35, Chelsea 75/35, City 71/33. The second-place gap is not misrepresented as City’s gap, and their two games in hand are explicit.
+- Paragraph 6: The record and 38-game league format give three Liverpool fixtures remaining. Qualification and eleven league wins are separately supported by the official text and ledger, without implying the championship was secured.
+
+The title and excerpt restate the audited central result or landmark. Frontmatter uses the exact historical date, 2013–14 season, factual match classification, Rodgers and registered principal-player/opposition/competition/location IDs. There is no publication date. Every terminal Sources URL appears in this report’s retrieved-source register; frontmatter matches its order. The single Sources section ends the article. No quotation, imagined intention, unwatched footage, unsupported atmosphere or disputed decision is asserted as fact.
+
+Self-audit: PASS for the saved manuscript, subject to independent review.

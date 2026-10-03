@@ -123,6 +123,35 @@ These three unchanged completed files independently pass factual/material-claim 
 | tottenham-liverpool-2013-five-at-white-hart-lane.md | 52c64b5487c69a7c6883df4cf9b937e0a08e5c7803ce2b905345b826c4370272 |
 | liverpool-everton-2014-four-goal-derby.md | 08d38d72165ab65d02f5fe80b187d0cbaf7b7e31abe6efde0964eca0845cf6e1 |
 
+## Stoke correction completed and third batch read
+
+Stoke12January's actual corrected body and amended own audit have been reread: the fifth goal restored a two-goal margin, and the rounded injury duration has been removed while the supported ankle absence remains. Exact source order/footer/own-note coverage and metadata remain unchanged and pass. The individually cleared full-file SHA-256 is `e4a46953404ece7eb699d7edfc2a4bec34ccad77af51d3e7666bfac0271a4e83` for `stoke-liverpool-2014-sturridge-return-eight-goals.md`.
+
+Arsenal8February, Fulham12February, ArsenalFA16February and United16March complete bodies/title/excerpts and final own paragraph audits have now actually been read. Each match's material action chronology and table/competition assertions match the retrieved narratives and cores. League-only eleven-win/six-win scopes and game-in-hand qualification are retained. Arsenal8February's closing phrase that Arteta's goal did not change the size of the result was flagged (margin fell5–0to5–1); correction pending, along with two punctuation-spacing corrections in the ArsenalFA and United reports. Final hashes for that batch remain pending corrected bytes.
+
+One additional primary source was actually independently retrieved and its full relevant text read, High: https://www.liverpoolfc.com/news/first-team/155500-rodgers-we-have-raised-expectations explicitly supports Rodgers's attributed second-penalty complaint, the Oxlade-Chamberlain/Suárez incident and league-only remaining programme. No provider judgement of referee correctness is adopted and no quotation copied.
+
+## Third-batch corrections rechecked and fourth batch completed
+
+All eight final current reports (Arsenal8February, Fulham12February, ArsenalFA16February, United16March, Cardiff22March, WestHam6April, City13April and Norwich20April) now individually pass after the corrected complete bodies and amended audits were read. The inaccurate Arsenal margin sentence was removed, with its final audit renumbered; both spacing fixes are present. No pending first-sixteen body correction remains.
+
+All eight exact dates/slugs, supplied canonical entity IDs, no publication date, metadata URL order, single terminal Sources list, descriptive labels and own-note actual-source coverage pass. Their source layout matches the published reports inspected. Material facts match independently retrieved narratives/records with league-only runs, historical scoring record scopes, temporary table points/games played, City games in hand and secured Champions League qualification distinguished from title certainty. No invented quotation, motive or unwatched action found.
+
+For WestHam, this reviewer's TEAMtalk open failed with cache miss and the Sky287615 open failed beyond its short indexed lead. These failed surfaces are not claimed as freshly read full reports; the writer's separately recorded successful TEAMtalk retrieval remains its own evidence. Additional independent corroboration actually retrieved and read: https://www.lfchistory.net/images/newspapers/riley/20140406vWestHam.pdf opening report and next report through their action sections. High for Adrián touching ball before subsequent contact, Demel after dropped corner/Carroll challenge, officials consulting/goal standing, and all goals/woodwork. Provider refereeing verdicts excluded; wrong preceding-season rank in opening report omitted. Not all six pages read.
+
+Reviewed final full-file SHA-256 values:
+
+| File | SHA-256 |
+|---|---|
+| liverpool-arsenal-2014-four-in-twenty-minutes.md | c0a485a421f636703642a940996c87c0e2bd92ccd43e74b337f41f0f3a8f981e |
+| fulham-liverpool-2014-gerrard-late-penalty.md | 02cc70219d6ea8025c3d50a7c61ea676bf5bcb72c8c4fa7ac5c10e439f7c18cc |
+| arsenal-liverpool-2014-fa-cup-exit.md | 160c385ad5577b9e6a668b2d6cf9340be3602804fac1c5e9735da2c4034d876b |
+| manchester-united-liverpool-2014-gerrard-penalties.md | e7688087fcdb2378e3252da5a41d6c0f4296fe945b8e646ccdeb225f2dee2f19 |
+| cardiff-liverpool-2014-suarez-treble-nine-goals.md | a823d96d23ac3d6283de98617f236accf165733d7d20bc36853ac8e15c717375 |
+| west-ham-liverpool-2014-gerrard-penalty-double.md | 5a0e10d8caae8373bbbb8897f78962e88d270cee440e292265ec7f16afb3e6a2 |
+| liverpool-manchester-city-2014-coutinho-title-race.md | 10907854c08877171248d29673d3900ac51145cea1a6888f22da6042f75f2196 |
+| norwich-liverpool-2014-eleven-wins-champions-league.md | 8582cb4b57c443c9f89e59d5c462a4a29c63f052df481745761942faa5ebfc89 |
+
 ## Verdict
 
 PENDING

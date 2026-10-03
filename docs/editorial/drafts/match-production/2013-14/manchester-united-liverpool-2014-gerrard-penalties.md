@@ -27,7 +27,7 @@ A third penalty was awarded later after Sturridge went down in a challenge invol
 
 Suárez made it 3–0 in the 84th minute when Sturridge’s attempted shot reached him and he finished the chance. The third goal completed Liverpool’s scoring after the missed penalty had left their earlier lead unchanged.
 
-The result completed a league double following Liverpool’s 1–0 Anfield win in September. It was their sixth consecutive league victory, and left them second with 62 points from 29 matches. Chelsea led by four points but had played one game more;the championship contest remained open beyond the Old Trafford result.
+The result completed a league double following Liverpool’s 1–0 Anfield win in September. It was their sixth consecutive league victory, and left them second with 62 points from 29 matches. Chelsea led by four points but had played one game more; the championship contest remained open beyond the Old Trafford result.
 
 ## Sources
 

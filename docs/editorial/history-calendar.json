@@ -9905,7 +9905,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T12:59:21.575869Z",
+  "updatedAt": "2026-10-03T13:13:51.829853Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -24816,7 +24816,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-manchester-city-2014-coutinho-title-race.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24866,7 +24866,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/norwich-liverpool-2014-eleven-wins-champions-league.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24916,7 +24916,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-chelsea-2014-title-race-turns.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -24966,7 +24966,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/crystal-palace-liverpool-2014-three-goal-lead-lost.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25016,7 +25016,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/liverpool-newcastle-2014-title-challenge-finale.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -25058,15 +25058,19 @@
       "event": "Liverpool 2–1 Ludogorets Razgrad",
       "historicalEventDate": "2014-09-16",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "11e67994-e3fb-45fb-af5a-bab7240ffae6",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Champions League return after five years, won through a late Gerrard penalty.",
+      "notes": "Champions League return after five years, won through a late Gerrard penalty. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
@@ -25087,10 +25091,13 @@
         "editorialReason": "Champions League return after five years, won through a late Gerrard penalty.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2014-15/research/selection.json",
-          "docs/editorial/drafts/match-production/2014-15/research/season-research.md"
+          "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/liverpool-ludogorets-2014-champions-league-return-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -25101,15 +25108,19 @@
       "event": "Liverpool 2–2 Middlesbrough (Liverpool won 14–13 on penalties)",
       "historicalEventDate": "2014-09-23",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "33cb1b19-7986-428d-a6fb-81edb0d218fc",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Thirty-kick shoot-out and Rossiter debut goal make a unique cup tie.",
+      "notes": "Thirty-kick shoot-out and Rossiter debut goal make a unique cup tie. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
@@ -25130,10 +25141,13 @@
         "editorialReason": "Thirty-kick shoot-out and Rossiter debut goal make a unique cup tie.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2014-15/research/selection.json",
-          "docs/editorial/drafts/match-production/2014-15/research/season-research.md"
+          "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/liverpool-middlesbrough-2014-thirty-penalty-shootout-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -25144,15 +25158,19 @@
       "event": "Liverpool 1–1 Basel",
       "historicalEventDate": "2014-12-09",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "9ba4658c-81df-4921-84ef-b3ee4d39a015",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Home draw eliminates Liverpool at the group stage despite Gerrard free-kick.",
+      "notes": "Home draw eliminates Liverpool at the group stage despite Gerrard free-kick. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
@@ -25173,10 +25191,13 @@
         "editorialReason": "Home draw eliminates Liverpool at the group stage despite Gerrard free-kick.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2014-15/research/selection.json",
-          "docs/editorial/drafts/match-production/2014-15/research/season-research.md"
+          "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/liverpool-basel-2014-champions-league-exit-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -25187,15 +25208,19 @@
       "event": "Chelsea 1–0 Liverpool (after extra time)",
       "historicalEventDate": "2015-01-27",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "c52121da-8217-45b7-a4a8-6b64bd09dfd7",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Extra-time defeat ends a closely contested semi-final, first of two domestic last-four exits.",
+      "notes": "Extra-time defeat ends a closely contested semi-final, first of two domestic last-four exits. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
@@ -25216,10 +25241,13 @@
         "editorialReason": "Extra-time defeat ends a closely contested semi-final, first of two domestic last-four exits.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2014-15/research/selection.json",
-          "docs/editorial/drafts/match-production/2014-15/research/season-research.md"
+          "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/chelsea-liverpool-2015-league-cup-semi-final-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -25230,15 +25258,19 @@
       "event": "Beşiktaş 1–0 Liverpool (Beşiktaş won 5–4 on penalties)",
       "historicalEventDate": "2015-02-26",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "a79f36c5-ab26-4d35-b2e5-909b14d37744",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "European elimination on penalties in the return to the Atatürk Stadium.",
+      "notes": "European elimination on penalties in the return to the Atatürk Stadium. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
@@ -25259,10 +25291,13 @@
         "editorialReason": "European elimination on penalties in the return to the Atatürk Stadium.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2014-15/research/selection.json",
-          "docs/editorial/drafts/match-production/2014-15/research/season-research.md"
+          "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/besiktas-liverpool-2015-shootout-european-exit-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -25273,15 +25308,19 @@
       "event": "Liverpool 2–1 Manchester City",
       "historicalEventDate": "2015-03-01",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "0bf94300-dcf0-4810-bc3d-da8869741a9e",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Victory against defending champions represents the strongest phase of the recovery towards the top four.",
+      "notes": "Victory against defending champions represents the strongest phase of the recovery towards the top four. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
@@ -25302,10 +25341,13 @@
         "editorialReason": "Victory against defending champions represents the strongest phase of the recovery towards the top four.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2014-15/research/selection.json",
-          "docs/editorial/drafts/match-production/2014-15/research/season-research.md"
+          "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/liverpool-manchester-city-2015-coutinho-winner-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -25316,15 +25358,19 @@
       "event": "Liverpool 1–2 Manchester United",
       "historicalEventDate": "2015-03-22",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "4e83eafd-8233-4b60-9d79-90f5ff9b64b9",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Gerrard dismissal and defeat against direct Champions League qualification rivals.",
+      "notes": "Gerrard dismissal and defeat against direct Champions League qualification rivals. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
@@ -25345,10 +25391,13 @@
         "editorialReason": "Gerrard dismissal and defeat against direct Champions League qualification rivals.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2014-15/research/selection.json",
-          "docs/editorial/drafts/match-production/2014-15/research/season-research.md"
+          "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/liverpool-manchester-united-2015-gerrard-red-card-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -25359,15 +25408,19 @@
       "event": "Aston Villa 2–1 Liverpool",
       "historicalEventDate": "2015-04-19",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "03b11435-dea4-4d15-abac-b583d5dfbf88",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "FA Cup semi-final loss ends remaining trophy possibility in Gerrard final season.",
+      "notes": "FA Cup semi-final loss ends remaining trophy possibility in Gerrard final season. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
@@ -25388,10 +25441,13 @@
         "editorialReason": "FA Cup semi-final loss ends remaining trophy possibility in Gerrard final season.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2014-15/research/selection.json",
-          "docs/editorial/drafts/match-production/2014-15/research/season-research.md"
+          "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/aston-villa-liverpool-2015-fa-cup-semi-final-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -25402,15 +25458,19 @@
       "event": "Liverpool 1–3 Crystal Palace",
       "historicalEventDate": "2015-05-16",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "60bf34f9-82d1-4bad-b3f7-cfb90dd61456",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Gerrard final Anfield appearance, preserved as a match rather than a career biography.",
+      "notes": "Gerrard final Anfield appearance, preserved as a match rather than a career biography. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
@@ -25431,10 +25491,13 @@
         "editorialReason": "Gerrard final Anfield appearance, preserved as a match rather than a career biography.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2014-15/research/selection.json",
-          "docs/editorial/drafts/match-production/2014-15/research/season-research.md"
+          "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/liverpool-crystal-palace-2015-gerrard-anfield-farewell-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -25445,15 +25508,19 @@
       "event": "Stoke City 6–1 Liverpool",
       "historicalEventDate": "2015-05-24",
       "selection": "selected",
-      "status": "planned",
-      "owner": null,
-      "claim": null,
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "c0f0356d-68c7-472d-9724-27d19fe4a9fa",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
       "eventPath": null,
       "draftPath": null,
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Major defeat on Gerrard final Liverpool appearance and the season concluding fixture.",
+      "notes": "Major defeat on Gerrard final Liverpool appearance and the season concluding fixture. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/match-production/2014-15/research/selection.json",
@@ -25474,10 +25541,13 @@
         "editorialReason": "Major defeat on Gerrard final Liverpool appearance and the season concluding fixture.",
         "sourceFiles": [
           "docs/editorial/drafts/match-production/2014-15/research/selection.json",
-          "docs/editorial/drafts/match-production/2014-15/research/season-research.md"
+          "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/stoke-liverpool-2015-gerrard-final-match-notes.md"
         ],
-        "model": "gpt-6-astra",
-        "workerId": "/root/astra_2013_2019",
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": [
           "Finished manuscript and factual audit pending."
         ]
@@ -31794,7 +31864,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/cardiff-liverpool-2014-suarez-treble-nine-goals.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31839,7 +31909,7 @@
         "baseCommit": "a66ea9b677823a16390c2815b9eaca50f65b35a4"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/match-production/2013-14/west-ham-liverpool-2014-gerrard-penalty-double.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -31868,6 +31938,141 @@
         ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_1968_69",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2014-10-19-qpr-liverpool-2014-four-late-goals",
+      "event": "Queens Park Rangers 2–3 Liverpool: Four late goals give Liverpool a remarkable win at QPR",
+      "historicalEventDate": "2014-10-19",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "eaea4eb6-5219-433b-87c7-ea6fcc28bb26",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Four goals from the87thminute onwards, two home own goals and a later scorer-credit revision form a distinct supported dramatic away match. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "remaining-2014-15",
+        "season": "2014-15",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Queens Park Rangers 2–3 Liverpool",
+        "opposition": "Queens Park Rangers",
+        "score": "2–3",
+        "editorialReason": "Four goals from the87thminute onwards, two home own goals and a later scorer-credit revision form a distinct supported dramatic away match.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/qpr-liverpool-2014-four-late-goals-notes.md"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2015-02-04-bolton-liverpool-2015-late-cup-comeback",
+      "event": "Bolton Wanderers 1–2 Liverpool: Coutinho caps Liverpool’s late FA Cup escape at Bolton",
+      "historicalEventDate": "2015-02-04",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "57a0d4e7-c0b0-4d9b-8ab6-9044cc37a825",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Two late goals reverse a replay deficit against ten men on Gerrard's700thappearance; this is a distinct successful cup comeback before the semi-final exit. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "remaining-2014-15",
+        "season": "2014-15",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Bolton Wanderers 1–2 Liverpool",
+        "opposition": "Bolton Wanderers",
+        "score": "1–2",
+        "editorialReason": "Two late goals reverse a replay deficit against ten men on Gerrard's700thappearance; this is a distinct successful cup comeback before the semi-final exit.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/bolton-liverpool-2015-late-cup-comeback-notes.md"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
+        "blockers": []
+      }
+    },
+    {
+      "id": "match-2015-02-10-liverpool-tottenham-2015-balotelli-first-league-goal",
+      "event": "Liverpool 3–2 Tottenham Hotspur: Balotelli’s first league goal for Liverpool settles Spurs thriller",
+      "historicalEventDate": "2015-02-10",
+      "selection": "selected",
+      "status": "writing",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03 / /root/sol_1967_68",
+      "claim": {
+        "token": "ff793215-289d-4f7b-9669-05e79196bc9d",
+        "claimedAt": "2026-10-03T13:07:56.530744Z",
+        "baseCommit": "32dcf0c1a21ff50edcc773d1202ab2e30f15aea1"
+      },
+      "eventPath": null,
+      "draftPath": null,
+      "originalDraftId": null,
+      "publishedDestination": null,
+      "approval": null,
+      "notes": "Spurs twice equalised before substitute Balotelli's first PremierLeague Liverpool goal; a significant spring recovery match with supported action rather than a score-only addition. Denny commissioned Sol 6.1 research and writing on 3 October 2026, to merge as unpublished inventory for the existing automatic publisher. Original preparation retained in research provenance.",
+      "evidence": [
+        {
+          "location": "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "confidence": "high",
+          "scope": "Fresh retrieved whole-season and selected-match research; manuscript and independent factual review follow remote claims."
+        }
+      ],
+      "researchStatus": "needs_research",
+      "matchProduction": {
+        "batchId": "remaining-2014-15",
+        "season": "2014-15",
+        "completed": false,
+        "reviewRequired": true,
+        "matchLabel": "Liverpool 3–2 Tottenham Hotspur",
+        "opposition": "Tottenham Hotspur",
+        "score": "3–2",
+        "editorialReason": "Spurs twice equalised before substitute Balotelli's first PremierLeague Liverpool goal; a significant spring recovery match with supported action rather than a score-only addition.",
+        "sourceFiles": [
+          "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
+          "docs/editorial/drafts/match-production/2014-15/research/sol-selections-2026-10-03.json",
+          "docs/editorial/drafts/match-production/2014-15/research/liverpool-tottenham-2015-balotelli-first-league-goal-notes.md"
+        ],
+        "model": "gpt-6.1-sol",
+        "workerId": "/root/sol_1967_68",
         "blockers": []
       }
     }
@@ -32469,16 +32674,19 @@
     {
       "id": "remaining-2014-15",
       "season": "2014-15",
-      "stage": "season_research",
-      "owner": "gpt-6-astra /root/astra_2013_2019; remaining-match-production-2026-10-01",
-      "model": "gpt-6-astra",
-      "workerId": "/root/astra_2013_2019",
-      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/season-research.md",
+      "stage": "drafting",
+      "owner": "Archive editor / modern Sol continuation 2026-10-03",
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/sol_1967_68",
+      "sourceNote": "docs/editorial/drafts/match-production/2014-15/research/sol-research-resumption-2026-10-03.md",
       "selectedRowIds": [
         "match-2014-09-16-liverpool-ludogorets-2014-champions-league-return",
         "match-2014-09-23-liverpool-middlesbrough-2014-thirty-penalty-shootout",
+        "match-2014-10-19-qpr-liverpool-2014-four-late-goals",
         "match-2014-12-09-liverpool-basel-2014-champions-league-exit",
         "match-2015-01-27-chelsea-liverpool-2015-league-cup-semi-final",
+        "match-2015-02-04-bolton-liverpool-2015-late-cup-comeback",
+        "match-2015-02-10-liverpool-tottenham-2015-balotelli-first-league-goal",
         "match-2015-02-26-besiktas-liverpool-2015-shootout-european-exit",
         "match-2015-03-01-liverpool-manchester-city-2015-coutinho-winner",
         "match-2015-03-22-liverpool-manchester-united-2015-gerrard-red-card",
@@ -32488,7 +32696,7 @@
       ],
       "reusedPaths": [],
       "notes": "Finite unpublished production through 2024–25. Source-led selections, no quota; existing finished reports are reused.",
-      "nextStage": "Claim and write 2014-09-16 / liverpool-ludogorets-2014-champions-league-return, then the remaining selected matches in historical order."
+      "nextStage": "Complete manuscripts, sentence audits, independent review and remote season checkpoint."
     },
     {
       "id": "remaining-2015-16",
