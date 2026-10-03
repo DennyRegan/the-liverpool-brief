@@ -93,6 +93,22 @@ test('review drafts are kept outside published article collection', () => {
     assert.ok(row.draftPath.startsWith('docs/editorial/drafts/'));
   }
 });
+test('career biographies outside the era registry remain undated unpublished inventory', () => {
+  const calendar = load();
+  const early = calendar.biographies.filter(row => row.draftPath
+    && !matter(fs.readFileSync(row.draftPath, 'utf8')).data.historyEras?.length);
+  assert.ok(early.length > 0);
+  for (const row of early) {
+    const { data } = matter(fs.readFileSync(row.draftPath, 'utf8'));
+    assert.equal(data.category, 'person');
+    assert.equal(data.historicalEventDate, undefined);
+    assert.equal(data.date, undefined);
+    assert.equal(row.eventPath, null);
+    assert.equal(row.approval, null);
+    assert.equal(row.publishedDestination, null);
+  }
+  assert.doesNotThrow(() => validateCalendar(calendar));
+});
 test('calendar rejects wrong weeks, invented paths, missing claims and inferred approval', () => {
   for (const mutate of [
     e => { e.featuredWeek = '2026-09-15'; },
@@ -122,8 +138,10 @@ test('unpublished draft relationship metadata receives the existing Archive stru
       { competitionIds: ['fa-cup', 'fa-cup'] },
       { articleType: 'invented-type' },
       { historyEras: ['invented-era'] },
+      { historicalEventDate: undefined, historyEras: undefined },
     ]) {
-      fs.writeFileSync(file, matter.stringify(original.content, { ...original.data, ...changes }));
+      const metadata = Object.fromEntries(Object.entries({ ...original.data, ...changes }).filter(([, value]) => value !== undefined));
+      fs.writeFileSync(file, matter.stringify(original.content, metadata));
       assert.throws(() => validateCalendar(calendar, root), JSON.stringify(changes));
     }
     fs.writeFileSync(file, matter.stringify(original.content, original.data));

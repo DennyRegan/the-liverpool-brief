@@ -1,0 +1,76 @@
+{
+  "verifiedAt": "2026-10-03T10:34:47.342Z",
+  "baseCommit": "043fe7d119707024cddf00d21fc879842c323587",
+  "confidence": "High for executed technical checks; historical source confidence remains in research records.",
+  "newCompletedInCheck": 5,
+  "selectedTotal": 10,
+  "totalCompletedUnpublished": 65,
+  "existingSixtyUnchanged": true,
+  "fourCanonicalPeopleAdded": true,
+  "deferredActiveLiverpoolPlayersExcluded": true,
+  "publicContentApplicationUnchanged": true,
+  "technicalCompatibilityChange": "Calendar validator accepts canonical career inventory predating era registry without an invented date; regression also retains dated-event requirement.",
+  "matchWorkAndPublisherStateUnchanged": true,
+  "results": [
+    {
+      "personId": "tom-watson",
+      "path": "docs/editorial/drafts/biographies/tom-watson.md",
+      "words": 1806,
+      "sourceLinks": 22,
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/fourth_tom_alex",
+      "research": "docs/editorial/drafts/biographies/tom-watson-research-record.md",
+      "audit": "docs/editorial/drafts/biographies/tom-watson-factual-audit.md",
+      "technicallyReady": true,
+      "unpublished": true
+    },
+    {
+      "personId": "tommy-lawrence",
+      "path": "docs/editorial/drafts/biographies/tommy-lawrence.md",
+      "words": 1665,
+      "sourceLinks": 19,
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/fourth_lawrence_stubbins",
+      "research": "docs/editorial/drafts/biographies/tommy-lawrence-research-record.md",
+      "audit": "docs/editorial/drafts/biographies/tommy-lawrence-factual-audit.md",
+      "technicallyReady": true,
+      "unpublished": true
+    },
+    {
+      "personId": "elisha-scott",
+      "path": "docs/editorial/drafts/biographies/elisha-scott.md",
+      "words": 1765,
+      "sourceLinks": 20,
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/fourth_scott_hodgson",
+      "research": "docs/editorial/drafts/biographies/elisha-scott-research-record.md",
+      "audit": "docs/editorial/drafts/biographies/elisha-scott-factual-audit.md",
+      "technicallyReady": true,
+      "unpublished": true
+    },
+    {
+      "personId": "georginio-wijnaldum",
+      "path": "docs/editorial/drafts/biographies/georginio-wijnaldum.md",
+      "words": 1786,
+      "sourceLinks": 23,
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/fourth_gini_fabinho",
+      "research": "docs/editorial/drafts/biographies/georginio-wijnaldum-research-record.md",
+      "audit": "docs/editorial/drafts/biographies/georginio-wijnaldum-factual-audit.md",
+      "technicallyReady": true,
+      "unpublished": true
+    },
+    {
+      "personId": "trent-alexander-arnold",
+      "path": "docs/editorial/drafts/biographies/trent-alexander-arnold.md",
+      "words": 1660,
+      "sourceLinks": 28,
+      "model": "gpt-6.1-sol",
+      "workerId": "/root/fourth_trent_robertson",
+      "research": "docs/editorial/drafts/biographies/trent-alexander-arnold-research-record.md",
+      "audit": "docs/editorial/drafts/biographies/trent-alexander-arnold-factual-audit.md",
+      "technicallyReady": true,
+      "unpublished": true
+    }
+  ]
+}

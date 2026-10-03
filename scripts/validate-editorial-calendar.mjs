@@ -227,9 +227,10 @@ export function validateCalendar(calendar, root = process.cwd()) {
         assert.ok([...(draft.playerIds ?? []), ...(draft.managerIds ?? [])].includes(e.personId), `${e.id}: principal subject missing`);
         if (!isPublicStatus(e.status)) assert.ok(!articles.has(`/archive/${draft.slug}`), `${e.id}: unpublished biography duplicates public slug`);
       }
-      // A career biography can use eras without treating its calendar anchor as a single event.
+      // Career inventory can predate the era registry without inventing an event date.
       if (draft.historicalEventDate) assert.equal(draft.historicalEventDate, e.historicalEventDate, `${e.id}: draft date mismatch`);
-      else assert.ok(draft.category === 'person' && draft.historyEras?.length && !e.eventPath, `${e.id}: event draft requires historicalEventDate`);
+      else assert.ok(draft.category === 'person' && !e.eventPath
+        && (draft.historyEras?.length || (e.personId && (e.migration || e.biographyProduction))), `${e.id}: event draft requires historicalEventDate`);
       if (draft.season) assert.match(draft.season, /^\d{4}-\d{2}$/, `${e.id}: noncanonical season`);
       if (draft.season) assert.equal(Number(draft.season.slice(5)), (Number(draft.season.slice(0, 4)) + 1) % 100, `${e.id}: nonconsecutive season`);
     }

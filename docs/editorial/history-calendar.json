@@ -12695,32 +12695,46 @@
       "personId": "trent-alexander-arnold",
       "event": "Trent Alexander-Arnold — commissioned career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/fourth_trent_robertson",
-      "claim": {
-        "token": "fourth-ten-2026-10-03-trent-alexander-arnold",
-        "claimedAt": "2026-10-03T10:14:02Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/trent-alexander-arnold.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "researchStatus": "verified",
+      "notes": "Newly researched and written by actual gpt-6.1-sol /root/fourth_trent_robertson; separate complete post-draft writer factual pass and additional independent targeted review completed. Source-specific confidence, conflicts and omissions remain in private evidence records. Technically ready unpublished inventory; no publication approval, release date or schedule. New production, not a recovered original.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
           "confidence": "high",
           "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/trent-alexander-arnold-research-record.md",
+          "confidence": "high",
+          "scope": "Actually retrieved source register; claim mappings, source-specific confidence, conflicts and omitted UNVERIFIED material stated within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/trent-alexander-arnold-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate complete writer paragraph-by-paragraph factual pass performed after drafting; actual Sol 6.1 model and worker recorded."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/fourth-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Sol 6.1 reader and targeted live source cross-check; subject-specific checked scope and retrieval limits stated honestly. Not exhaustive independent re-research or publication approval."
         }
       ],
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Academy development, creative full-back role and completed Liverpool career.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/trent-alexander-arnold-research-record.md",
+          "docs/editorial/drafts/biographies/trent-alexander-arnold-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/fourth_trent_robertson",
         "blockers": []
@@ -12769,32 +12783,46 @@
       "personId": "georginio-wijnaldum",
       "event": "Georginio Wijnaldum — commissioned career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/fourth_gini_fabinho",
-      "claim": {
-        "token": "fourth-ten-2026-10-03-georginio-wijnaldum",
-        "claimedAt": "2026-10-03T10:14:02Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/georginio-wijnaldum.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "researchStatus": "verified",
+      "notes": "Newly researched and written by actual gpt-6.1-sol /root/fourth_gini_fabinho; separate complete post-draft writer factual pass and additional independent targeted review completed. Source-specific confidence, conflicts and omissions remain in private evidence records. Technically ready unpublished inventory; no publication approval, release date or schedule. New production, not a recovered original.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
           "confidence": "high",
           "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/georginio-wijnaldum-research-record.md",
+          "confidence": "high",
+          "scope": "Actually retrieved source register; claim mappings, source-specific confidence, conflicts and omitted UNVERIFIED material stated within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/georginio-wijnaldum-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate complete writer paragraph-by-paragraph factual pass performed after drafting; actual Sol 6.1 model and worker recorded."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/fourth-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Sol 6.1 reader and targeted live source cross-check; subject-specific checked scope and retrieval limits stated honestly. Not exhaustive independent re-research or publication approval."
         }
       ],
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Midfield development, title campaign and defining European contributions.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/georginio-wijnaldum-research-record.md",
+          "docs/editorial/drafts/biographies/georginio-wijnaldum-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/fourth_gini_fabinho",
         "blockers": []
@@ -12806,32 +12834,46 @@
       "personId": "tom-watson",
       "event": "Tom Watson — commissioned career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/fourth_tom_alex",
-      "claim": {
-        "token": "fourth-ten-2026-10-03-tom-watson",
-        "claimedAt": "2026-10-03T10:14:02Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/tom-watson.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "researchStatus": "verified",
+      "notes": "Newly researched and written by actual gpt-6.1-sol /root/fourth_tom_alex; separate complete post-draft writer factual pass and additional independent targeted review completed. Source-specific confidence, conflicts and omissions remain in private evidence records. Technically ready unpublished inventory; no publication approval, release date or schedule. New production, not a recovered original.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
           "confidence": "high",
           "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/tom-watson-research-record.md",
+          "confidence": "high",
+          "scope": "Actually retrieved source register; claim mappings, source-specific confidence, conflicts and omitted UNVERIFIED material stated within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/tom-watson-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate complete writer paragraph-by-paragraph factual pass performed after drafting; actual Sol 6.1 model and worker recorded."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/fourth-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Sol 6.1 reader and targeted live source cross-check; subject-specific checked scope and retrieval limits stated honestly. Not exhaustive independent re-research or publication approval."
         }
       ],
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Manager of the first two championships and formative long-term Liverpool development.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/tom-watson-research-record.md",
+          "docs/editorial/drafts/biographies/tom-watson-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/fourth_tom_alex",
         "blockers": []
@@ -12880,32 +12922,46 @@
       "personId": "elisha-scott",
       "event": "Elisha Scott — commissioned career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/fourth_scott_hodgson",
-      "claim": {
-        "token": "fourth-ten-2026-10-03-elisha-scott",
-        "claimedAt": "2026-10-03T10:14:02Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/elisha-scott.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "researchStatus": "verified",
+      "notes": "Newly researched and written by actual gpt-6.1-sol /root/fourth_scott_hodgson; separate complete post-draft writer factual pass and additional independent targeted review completed. Source-specific confidence, conflicts and omissions remain in private evidence records. Technically ready unpublished inventory; no publication approval, release date or schedule. New production, not a recovered original.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
           "confidence": "high",
           "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/elisha-scott-research-record.md",
+          "confidence": "high",
+          "scope": "Actually retrieved source register; claim mappings, source-specific confidence, conflicts and omitted UNVERIFIED material stated within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/elisha-scott-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate complete writer paragraph-by-paragraph factual pass performed after drafting; actual Sol 6.1 model and worker recorded."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/fourth-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Sol 6.1 reader and targeted live source cross-check; subject-specific checked scope and retrieval limits stated honestly. Not exhaustive independent re-research or publication approval."
         }
       ],
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Long-serving goalkeeper, interwar championships and supporter relationship.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/elisha-scott-research-record.md",
+          "docs/editorial/drafts/biographies/elisha-scott-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/fourth_scott_hodgson",
         "blockers": []
@@ -12954,32 +13010,46 @@
       "personId": "tommy-lawrence",
       "event": "Tommy Lawrence — commissioned career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/fourth_lawrence_stubbins",
-      "claim": {
-        "token": "fourth-ten-2026-10-03-tommy-lawrence",
-        "claimedAt": "2026-10-03T10:14:02Z",
-        "baseCommit": "043fe7d119707024cddf00d21fc879842c323587"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/tommy-lawrence.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "New biography production selected before individual research. Denny authorised Sol 6.1 and merge to main after completed validation. Sources at bottom. No publication approval, schedule or recovered-original claim.",
+      "researchStatus": "verified",
+      "notes": "Newly researched and written by actual gpt-6.1-sol /root/fourth_lawrence_stubbins; separate complete post-draft writer factual pass and additional independent targeted review completed. Source-specific confidence, conflicts and omissions remain in private evidence records. Technically ready unpublished inventory; no publication approval, release date or schedule. New production, not a recovered original.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-batch-four-2026-10-03.md",
           "confidence": "high",
           "scope": "Approved selection and technical identity/inventory inspection, not factual biography audit."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/tommy-lawrence-research-record.md",
+          "confidence": "high",
+          "scope": "Actually retrieved source register; claim mappings, source-specific confidence, conflicts and omitted UNVERIFIED material stated within."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/tommy-lawrence-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate complete writer paragraph-by-paragraph factual pass performed after drafting; actual Sol 6.1 model and worker recorded."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/fourth-ten-independent-review.md",
+          "confidence": "high",
+          "scope": "Independent Sol 6.1 reader and targeted live source cross-check; subject-specific checked scope and retrieval limits stated honestly. Not exhaustive independent re-research or publication approval."
         }
       ],
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Shankly goalkeeper, tactical role, major 1960s achievements and transition.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/tommy-lawrence-research-record.md",
+          "docs/editorial/drafts/biographies/tommy-lawrence-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/fourth_lawrence_stubbins",
         "blockers": []
