@@ -28,3 +28,11 @@ Extended treatment: Rafael Benítez, Jamie Carragher and Alan Hansen; other subj
 ## Storage and boundaries
 
 Manuscripts, new research records and separate factual audits: `docs/editorial/drafts/biographies/<person-id>{,-research-record,-factual-audit}.md`. Existing canonical person IDs, no public content files, no publication dates, null approvals and destinations, `ready_for_review` on completion. `history-calendar.json` remains the sole status authority. Automatic queue compatibility does not dispatch publication.
+
+## First five checkpoint
+
+Completed and separately author-audited: Alan Hansen, Jamie Carragher, Jan Mølby, Pepe Reina and Rafael Benítez. All five pass calendar/schema, canonical identity, unique subject/slug, complete research and audit URL-register, unpublished/null-approval and read-only automatic-queue compatibility checks. Narrative source links are confined to a single bottom Sources section; inline citation markers removed following Denny's explicit request.
+
+Technical compatibility changes: biography authorship enum accepts actual Sol 6.1 alongside earlier Astra records; existing authorship is untouched. Missing-manuscript and publisher-pool tests now use state/fixtures rather than permanently excluding these three newly commissioned subjects. Synthetic Git transport fixture permits a 32 MiB calendar read after inventory growth crossed its default 1 MiB buffer. Publisher implementation/state is unchanged. Initial schema failure from overly long slugs was corrected to existing filename/slug conventions. Full final tests/lint/build and HTTP verification follow after all ten are complete.
+
+Latest concurrent match branch 43250eea4c5fc3a1daf794c53669ef43350cac01 was fetched and its biography rows checked: no selected subject has a completed manuscript there. Its new match work stays on that branch; no other remote refs are moved.

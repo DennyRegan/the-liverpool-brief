@@ -20,7 +20,7 @@ test('new biographies use the existing queue without invented recovery provenanc
     const old = row.migration;
     row.biographyProduction = { completed: true, reviewRequired: true,
       editorialReason: 'Synthetic fixture for new-production queue integration.',
-      sourceFiles: [old.sourceFiles[0], row.draftPath], model: 'gpt-6-astra',
+      sourceFiles: [old.sourceFiles[0], row.draftPath], model: 'gpt-6.1-sol',
       workerId: '/test/biography-production', blockers: [] };
     row.researchStatus = 'verified';
     delete row.migration;

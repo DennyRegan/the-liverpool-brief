@@ -1,0 +1,89 @@
+{
+  "verifiedAt": "2026-10-03T05:56:56.451Z",
+  "confidence": "High for executed technical checks; historical confidence is claim-specific in research records",
+  "newCompleted": 5,
+  "totalCompletedUnpublished": 45,
+  "notLocated": 0,
+  "publisherEnabled": true,
+  "automaticRuns": 0,
+  "publisherStateUnchanged": true,
+  "protectedFilesUnchanged": true,
+  "oldNotLocatedRecordsPreserved": true,
+  "results": [
+    {
+      "subject": "alan-hansen",
+      "title": "Alan Hansen: the defender who carried Liverpool forward",
+      "wordCount": 2382,
+      "sourceLinks": 27,
+      "manuscript": "docs/editorial/drafts/biographies/alan-hansen.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/alan-hansen-research-record.md",
+        "docs/editorial/drafts/biographies/alan-hansen-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "jamie-carragher",
+      "title": "Jamie Carragher: learning to hold the line",
+      "wordCount": 2455,
+      "sourceLinks": 32,
+      "manuscript": "docs/editorial/drafts/biographies/jamie-carragher.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/jamie-carragher-research-record.md",
+        "docs/editorial/drafts/biographies/jamie-carragher-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "jan-molby",
+      "title": "Jan Mølby: the passing that shaped Liverpool’s double",
+      "wordCount": 2026,
+      "sourceLinks": 18,
+      "manuscript": "docs/editorial/drafts/biographies/jan-molby.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/jan-molby-research-record.md",
+        "docs/editorial/drafts/biographies/jan-molby-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "pepe-reina",
+      "title": "Pepe Reina: the goalkeeper who made Liverpool his home",
+      "wordCount": 1885,
+      "sourceLinks": 24,
+      "manuscript": "docs/editorial/drafts/biographies/pepe-reina.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/pepe-reina-research-record.md",
+        "docs/editorial/drafts/biographies/pepe-reina-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    },
+    {
+      "subject": "rafael-benitez",
+      "title": "Rafael Benítez: Liverpool's European restoration and the pursuit of the league",
+      "wordCount": 3279,
+      "sourceLinks": 39,
+      "manuscript": "docs/editorial/drafts/biographies/rafael-benitez.md",
+      "evidence": [
+        "docs/editorial/drafts/biographies/rafael-benitez-research-record.md",
+        "docs/editorial/drafts/biographies/rafael-benitez-factual-audit.md"
+      ],
+      "technicallyReady": true,
+      "automaticQueueCompatible": true,
+      "approval": null,
+      "published": false
+    }
+  ]
+}

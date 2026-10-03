@@ -28,19 +28,31 @@ test('queues derive titles and paths without changing authoritative status or ap
 });
 
 test('missing biographies remain blocked without fabricated titles, paths or ordering ranks', () => {
-  const q = getEditorialReviewQueue('biographies');
-  const expected = ['alan-hansen', 'terry-mcdermott', 'sami-hyypia'];
-  for (const personId of expected) {
-    const e = q.entries.find(e => e.personId === personId);
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'missing-biography-'));
+  try {
+    for (const dir of ['content', 'docs/editorial', 'pipeline/output/match']) fs.cpSync(dir, path.join(root, dir), { recursive: true });
+    restoreAutomaticStock(root);
+    const calendarFile = path.join(root, 'docs/editorial/history-calendar.json');
+    const calendar = JSON.parse(fs.readFileSync(calendarFile, 'utf8'));
+    // Use a synthetic missing manuscript: real historical gaps may be filled by new work.
+    const row = calendar.biographies.find(e => e.migration?.completed && e.status === 'ready_for_review');
+    assert.ok(row);
+    row.status = 'blocked'; row.claim = null; row.draftPath = null;
+    row.researchStatus = 'not_rechecked'; row.approval = null;
+    row.migration.completed = false;
+    row.migration.blockers = ['NOT LOCATED: synthetic missing-manuscript fixture.'];
+    fs.writeFileSync(calendarFile, JSON.stringify(calendar));
+    const q = getEditorialReviewQueue('biographies', root);
+    const e = q.entries.find(e => e.personId === row.personId);
     assert.equal(e.recoveryStatus, 'NOT LOCATED');
     assert.equal(e.technicallyReady, false);
     assert.equal(e.canonicalDraftPath, null);
     assert.equal(e.proposedOrder, null);
     assert.equal(e.approval, null);
-  }
-  assert.ok(!q.entries.some(e => e.personId === 'phil-thompson'));
-  // The focused 1987 Barnes article is not a duplicate of his career manuscript.
-  assert.equal(q.entries.find(e => e.personId === 'john-barnes').alreadyPublishedElsewhere, false);
+    assert.ok(!q.entries.some(e => e.personId === 'phil-thompson'));
+    // The focused 1987 Barnes article is not a duplicate of his career manuscript.
+    assert.equal(q.entries.find(e => e.personId === 'john-barnes').alreadyPublishedElsewhere, false);
+  } finally { fs.rmSync(root, { recursive: true, force: true }); }
 });
 
 test('proposed orders use stable subject labels and actual match dates, including repository-only stock', () => {

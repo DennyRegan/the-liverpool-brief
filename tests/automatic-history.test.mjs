@@ -68,7 +68,9 @@ test('current repository pool is derived, opt-in only, and both dry runs are rea
     for (const e of pool) assert.ok(e.completed && e.technicallyReady && e.unpublished);
   }
   assert.deepEqual(fs.readFileSync(calendarPath), before);
-  assert.ok(!discoverCandidates('biographies').some(e => ['alan-hansen', 'terry-mcdermott', 'sami-hyypia'].includes(e.personId)));
+  const excludedIds = new Set(allRows(readCalendar(process.cwd())).filter(e => e.claim || !e.draftPath
+    || !['ready_for_review', 'approved'].includes(e.status)).map(e => e.id));
+  assert.ok(discoverCandidates('biographies').every(e => !excludedIds.has(e.id)));
 });
 
 test('durable selection survives process reload, duplicate slots, failure and subsequent weeks without rerolling', () => {

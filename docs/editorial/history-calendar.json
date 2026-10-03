@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-01T20:17:18.302085Z",
+  "updatedAt": "2026-10-03T05:47:34Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -10980,20 +10980,16 @@
       "personId": "alan-hansen",
       "event": "Alan Hansen: Liverpool career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_hansen_mcdermott",
-      "claim": {
-        "token": "biography-2026-10-03-alan-hansen",
-        "claimedAt": "2026-10-03T05:35:00Z",
-        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/alan-hansen.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "researchStatus": "needs_research",
-      "notes": "NEW PRODUCTION: newly researched manuscript; missing original was not recovered. Prior NOT LOCATED record preserved verbatim in docs/editorial/biography-not-located-snapshot-2026-10-03.json.",
+      "researchStatus": "verified",
+      "notes": "NEW PRODUCTION: newly researched manuscript; missing original was not recovered. Prior NOT LOCATED record preserved verbatim in docs/editorial/biography-not-located-snapshot-2026-10-03.json. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/drafts/biographies/Alan-Hansen-research-record.md",
@@ -11004,17 +11000,36 @@
           "location": "docs/editorial/biography-production-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/alan-hansen-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/alan-hansen-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
+        },
+        {
+          "location": "docs/editorial/biography-not-located-snapshot-2026-10-03.json",
+          "confidence": "high",
+          "scope": "Historical missing-original recovery record retained; new manuscript is not a recovered original."
         }
       ],
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Ball-playing defender and captain across eight league titles and three European Cups.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/alan-hansen-research-record.md",
+          "docs/editorial/drafts/biographies/alan-hansen-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_hansen_mcdermott",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-biography"
     },
     {
       "id": "terry-mcdermott-career-biography",
@@ -11594,108 +11609,138 @@
       "personId": "rafael-benitez",
       "event": "Rafael Benítez career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_benitez_alonso",
-      "claim": {
-        "token": "biography-2026-10-03-rafael-benitez",
-        "claimedAt": "2026-10-03T05:35:00Z",
-        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/rafael-benitez.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned researched biography.",
+      "notes": "Newly commissioned researched biography. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/rafael-benitez-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/rafael-benitez-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Manager of Istanbul and the 2006 FA Cup winners, whose six-year rebuild reshaped Liverpool.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/rafael-benitez-research-record.md",
+          "docs/editorial/drafts/biographies/rafael-benitez-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_benitez_alonso",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-biography"
     },
     {
       "id": "jamie-carragher-career-biography",
       "personId": "jamie-carragher",
       "event": "Jamie Carragher career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_carragher_hyypia",
-      "claim": {
-        "token": "biography-2026-10-03-jamie-carragher",
-        "claimedAt": "2026-10-03T05:35:00Z",
-        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/jamie-carragher.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned researched biography.",
+      "notes": "Newly commissioned researched biography. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/jamie-carragher-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/jamie-carragher-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "One-club defender, long-serving vice-captain and Liverpool’s second-highest appearance maker.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/jamie-carragher-research-record.md",
+          "docs/editorial/drafts/biographies/jamie-carragher-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_carragher_hyypia",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-biography"
     },
     {
       "id": "jan-molby-career-biography",
       "personId": "jan-molby",
       "event": "Jan Mølby career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_molby_owen",
-      "claim": {
-        "token": "biography-2026-10-03-jan-molby",
-        "claimedAt": "2026-10-03T05:35:00Z",
-        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/jan-molby.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned researched biography.",
+      "notes": "Newly commissioned researched biography. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/jan-molby-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/jan-molby-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Distinctive midfield organiser whose Liverpool story spans the double and difficult later years.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/jan-molby-research-record.md",
+          "docs/editorial/drafts/biographies/jan-molby-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_molby_owen",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-biography"
     },
     {
       "id": "michael-owen-career-biography",
@@ -11774,36 +11819,46 @@
       "personId": "pepe-reina",
       "event": "Pepe Reina career biography",
       "selection": "selected",
-      "status": "writing",
+      "status": "ready_for_review",
       "owner": "Sol 6.1 /root/sol_reina_toshack",
-      "claim": {
-        "token": "biography-2026-10-03-pepe-reina",
-        "claimedAt": "2026-10-03T05:35:00Z",
-        "baseCommit": "4bc4b97a72fb3620fa3375a5834096277b0a020b"
-      },
+      "claim": null,
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/biographies/pepe-reina.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
-      "notes": "Newly commissioned researched biography.",
+      "notes": "Newly commissioned researched biography. Fresh research and separate post-draft factual audit complete. Technically ready unpublished stock; no publication date, release slot or Denny approval assigned.",
       "evidence": [
         {
           "location": "docs/editorial/biography-production-2026-10-03.md",
           "confidence": "high",
           "scope": "Current repository duplicate inspection and selection before research; no historical factual verification yet."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/pepe-reina-research-record.md",
+          "confidence": "high",
+          "scope": "Freshly retrieved source register with supported claims, confidence, conflicts and exclusions."
+        },
+        {
+          "location": "docs/editorial/drafts/biographies/pepe-reina-factual-audit.md",
+          "confidence": "high",
+          "scope": "Separate post-draft factual pass; verification, corrections and limitations."
         }
       ],
-      "researchStatus": "needs_research",
+      "researchStatus": "verified",
       "biographyProduction": {
-        "completed": false,
+        "completed": true,
         "reviewRequired": true,
         "editorialReason": "Outstanding goalkeeper and durable contributor under Benítez and his successors.",
-        "sourceFiles": [],
+        "sourceFiles": [
+          "docs/editorial/drafts/biographies/pepe-reina-research-record.md",
+          "docs/editorial/drafts/biographies/pepe-reina-factual-audit.md"
+        ],
         "model": "gpt-6.1-sol",
         "workerId": "/root/sol_reina_toshack",
         "blockers": []
-      }
+      },
+      "publicationClass": "automatic-history-biography"
     },
     {
       "id": "john-toshack-career-biography",
