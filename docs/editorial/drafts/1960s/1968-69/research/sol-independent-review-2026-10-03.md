@@ -4,7 +4,7 @@ Reviewer: `/root/sol_factual_review`. Actual configured model: `gpt-6.1-sol`. Re
 
 ## Review state
 
-PENDING — independent source retrieval has started. No completed manuscript or companion audit has yet been approved by this reviewer. All selected complete bodies and notes must be read, corrections rechecked and file identities recorded before PASS.
+PENDING — all twelve match cores and whole-season sources retrieved. The first four completed bodies have been read; companion audits are still being completed and two corrections have been requested. All twelve complete bodies and audits must be read, corrections rechecked and full-file identities recorded before PASS.
 
 ## Independently retrieved source scopes
 
@@ -32,7 +32,7 @@ PENDING — independent source retrieval has started. No completed manuscript or
 - [Scorer register](https://www.lfchistory.net/season-archive/goalscorers/10), High: Hunt 17 overall, Callaghan ten, Thompson nine; Evans seven league goals. Do not confuse league and all-competition totals.
 - Hunt league record: LFChistory's [documented correction](https://www.lfchistory.net/articles/3453), High for explanation, puts his 234th league goal against Wednesday here; the contemporaneously celebrated January Chelsea goal is 233rd in the revised register. Explicit attribution is necessary.
 - Athletic return: equal 3–3 aggregate, one away goal apiece, coin toss deciding elimination. No invented location or account of the toss. A guessed Athletic match URL failed retrieval and is not treated as evidence.
-- Leicester replay: Lochhead 34, Smith missed penalty 40 after handball; LFChistory names Sjoberg whereas Leicester's detailed historical account names Graham Cross, so offender is omitted, Hunt replaced by Graham 73; match ledger explicitly records Hunt's shirt gesture. Distinguish sourced actions from alleged thoughts or motives.
+- Leicester replay: Lochhead 34, Smith missed penalty 40 after handball; LFChistory names Sjoberg whereas Leicester's detailed historical account names Graham Cross, so offender is omitted. LFChistory lists Graham starting and Hunt entering after 73 minutes; independently retrieved 11v11 lists Hunt starting and Graham replacing him. The direction is disputed and omission has been requested. Match ledger explicitly records Hunt's shirt gesture. Distinguish sourced actions from alleged thoughts or motives.
 - [Leeds club historian Jon Howe](https://www.leedsunited.com/en/news/jon-howe-five-great-anfield-results), Medium: retrospective independent support for first title secured by the Anfield draw and a resolute Leeds defensive performance. [Club honours](https://www.leedsunited.com/en/club-honours), High: 1968–69 their first First Division championship. Final-night point arithmetic also checked against match table (65 Leeds/60 Liverpool with two matches left).
 
 ## Additional independently retrieved narratives
@@ -44,6 +44,14 @@ PENDING — independent source retrieval has started. No completed manuscript or
 - Medium — [Liverpool Echo 6 August 1968 Thompson preview](https://www.lfchistory.net/articles/3844): contemporary pre-season proposed change of role, explicitly scoped as a preview rather than proof of tactics actually used in the City fixture.
 - Medium — [Leicester official replay retrospective](https://www.lcfc.com/media-article/Anfield-Joy-Cup-Replays-and-Penalty-Saves:-Memorable-Liverpool-Encounters-Recalled): bounded Lochhead header from Glover cross, Shilton penalty/save account; High for core-corroborated score, date, goal/penalty minutes and eventual final. The handball offender conflicts as above; omission requested before manuscript completion.
 
+## First completed-body review, awaiting final audits
+
+The City, Leicester debut, Swansea debut and Wolves return bodies were read in full on 3 October. Core results, scoring sequence and context agree with the retrieved records. Bounded Leicester action and goalkeeper/supporter memories retain attribution; no imagined tactics or psychology found. All four currently have one terminal linked Sources list, matching metadata URL order, canonical season/date/type fields and no publication date. Published-format comparison uses the West Ham 1977 title and Leicester 1974 replay reports: factual paragraph bodies, then a single visible linked Sources section. Final file identities are deferred until the writer completes companion audits and any fixes.
+
+- City: requested complete fixture-ledger source in both visible list and metadata to support later Southampton/Leeds defeats and five-win context already verified in that ledger.
+- Swansea: requested removal of the sentence explaining how an editor should interpret the participant memory; the weather/kicking recollection itself is supported and attributed.
+- Leicester and Wolves: full-body factual read complete; awaiting final self-audit and unchanged final file for hashes.
+
 ## Verdict
 
-PENDING — none of the twelve completed manuscript bodies and companion audits has yet been reviewed.
+PENDING — four of twelve completed bodies read; final companion audits, requested fixes, eight further complete bodies and final full-file hashes remain.

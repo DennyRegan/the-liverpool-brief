@@ -278,6 +278,12 @@
           "provider": "RSSSF",
           "claims": "Independent final league table, points and home/away records.",
           "confidence": "High"
+        },
+        {
+          "url": "https://www.11v11.com/teams/liverpool/tab/matches/season/1969/",
+          "provider": "11v11",
+          "confidence": "High",
+          "claims": "Independent complete season results corroborate Burnley win and five-match league sequence; individual Burnley page failed retrieval."
         }
       ]
     },

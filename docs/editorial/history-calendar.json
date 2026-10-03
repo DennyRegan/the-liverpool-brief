@@ -9886,7 +9886,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-03T06:03:51.053106Z",
+  "updatedAt": "2026-10-03T06:05:50.793620Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
@@ -18549,7 +18549,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-athletic-bilbao-1968-coin-toss.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18594,7 +18594,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/burnley-liverpool-1968-go-top.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18639,7 +18639,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-everton-1968-smith-equaliser.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18684,7 +18684,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/arsenal-liverpool-1968-league-cup-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18729,7 +18729,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-sheffield-wednesday-1969-hunt-league-record.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18774,7 +18774,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-nottingham-forest-1969-lead-lost.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18819,7 +18819,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-leicester-1969-fa-cup-replay-exit.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
@@ -18864,7 +18864,7 @@
         "baseCommit": "f8b977a30a8e8576bc68a33e4d643abe7d55d02a"
       },
       "eventPath": null,
-      "draftPath": null,
+      "draftPath": "docs/editorial/drafts/1960s/1968-69/liverpool-leeds-1969-title-decided.md",
       "originalDraftId": null,
       "publishedDestination": null,
       "approval": null,
