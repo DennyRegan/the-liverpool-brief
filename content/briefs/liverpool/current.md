@@ -1,10 +1,32 @@
 ---
 {
-  "lastUpdated": "2026-10-05T17:05:00.000Z",
+  "lastUpdated": "2026-10-06T17:30:00.000Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
+    {
+      "headline": "Jacquet hamstring concern ahead of City",
+      "category": "Injuries",
+      "summary": "Jérémy Jacquet missed France’s match against Belgium on 5 October after feeling tightness in his left hamstring. France’s staff described his omission as precautionary. His availability for Liverpool’s match against Manchester City on 11 October has yet to be confirmed.",
+      "sources": [
+        {
+          "name": "Le Parisien — confidence: high",
+          "platform": "Original reporting, 5 October 2026",
+          "url": "https://www.leparisien.fr/sports/football/equipe-de-france/france-belgique-touche-a-un-ischio-jambier-jeremy-jacquet-absent-de-la-feuille-de-match-par-precaution-05-10-2026-5CXBRGDUENEZ3KEPGHVNJH4NR4.php"
+        },
+        {
+          "name": "Premier League — confidence: high",
+          "platform": "Official competition coverage, 6 October 2026",
+          "url": "https://www.premierleague.com/en/news/4727187"
+        },
+        {
+          "name": "The Standard — confidence: medium",
+          "platform": "Fitness round-up, 6 October 2026; suggested return dates are estimates",
+          "url": "https://www.standard.co.uk/sport/football/liverpool-fc-injury-update-isak-gakpo-ekitike-latest-news-return-dates-b1299489.html"
+        }
+      ]
+    },
     {
       "headline": "Van Dijk reaches 100 Netherlands caps",
       "category": "Internationals",
