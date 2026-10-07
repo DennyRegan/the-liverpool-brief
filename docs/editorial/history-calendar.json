@@ -9757,12 +9757,8 @@
     },
     {
       "approval": null,
-      "claim": {
-        "token": "7846a1cc-a9c1-4d32-b3ad-84a76b49b025",
-        "claimedAt": "2026-10-05T08:00:00.000000Z",
-        "baseCommit": "e08a3a1f4bc2fbcf4b25cfdb6e37d1d31fbf8560"
-      },
-      "draftPath": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/everton-liverpool-first-league-derby-1894.md",
       "event": "Everton 3–0 Liverpool — first league Merseyside derby",
       "eventPath": null,
       "evidence": [
@@ -9780,18 +9776,23 @@
           "location": "docs/editorial/drafts/calendar-coverage-2026-09-28-to-2026-10-25-notes.md",
           "confidence": "high",
           "scope": "Core date/event research and exclusions by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; planned selection only."
+        },
+        {
+          "location": "docs/editorial/drafts/everton-liverpool-first-league-derby-1894-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual audit, source confidence, omissions/conflicts, original claim provenance and actual Astra writer identity for this complete unpublished anniversary draft."
         }
       ],
       "featuredWeek": "2026-10-12",
       "historicalEventDate": "1894-10-13",
       "id": "1894-10-13-first-league-merseyside-derby",
-      "notes": "Selected after the 28 September 2026 four-week coverage sweep. Core event/date verified by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; this is not a full article fact-check, writing claim, approval or publication. See coverage notes for conflicts and exclusions. Claim submitted for review by the 5 October 2026 Monday top-up on branch this-week/2026-10-05; no drafting until the claim is merged to main.",
+      "notes": "Selected after the 28 September 2026 four-week coverage sweep. Core event/date verified by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; this is not a full article fact-check, writing claim, approval or publication. See coverage notes for conflicts and exclusions. Claim submitted for review by the 5 October 2026 Monday top-up on branch this-week/2026-10-05; no drafting until the claim is merged to main. Continued under Denny’s 7 October instruction after PR #66 merged at acde334a81d244e19d2d62c43be41f079e308974 and both main claims were confirmed. Completed factual manuscript and audit by configured gpt-6-astra /root/astra_anniversary_drafts; ready for review, unpublished, no approval or automatic-queue opt-in. Original Monday claim and owner provenance retained in editorial notes.",
       "originalDraftId": null,
-      "owner": "Monday This Week top-up 2026-10-05 (Claude scheduled run, claude-sonnet-5-5; session_01VsAdqAdxnY61iiNw6WEV1W)",
+      "owner": "History continuation 2026-10-07; gpt-6-astra /root/astra_anniversary_drafts",
       "publishedDestination": null,
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "writing"
+      "status": "ready_for_review"
     },
     {
       "approval": null,
@@ -9829,12 +9830,8 @@
     },
     {
       "approval": null,
-      "claim": {
-        "token": "754346e6-4082-44ec-9d9e-91223e7d374d",
-        "claimedAt": "2026-10-05T08:00:00.000000Z",
-        "baseCommit": "e08a3a1f4bc2fbcf4b25cfdb6e37d1d31fbf8560"
-      },
-      "draftPath": null,
+      "claim": null,
+      "draftPath": "docs/editorial/drafts/nesv-liverpool-takeover-2010.md",
       "event": "NESV completes its takeover of Liverpool",
       "eventPath": null,
       "evidence": [
@@ -9857,18 +9854,23 @@
           "location": "docs/editorial/drafts/calendar-coverage-2026-09-28-to-2026-10-25-notes.md",
           "confidence": "high",
           "scope": "Core date/event research and exclusions by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; planned selection only."
+        },
+        {
+          "location": "docs/editorial/drafts/nesv-liverpool-takeover-2010-editor-notes.md",
+          "confidence": "high",
+          "scope": "Retrieved-source factual audit, source confidence, omissions/conflicts, original claim provenance and actual Astra writer identity for this complete unpublished anniversary draft."
         }
       ],
       "featuredWeek": "2026-10-12",
       "historicalEventDate": "2010-10-15",
       "id": "2010-10-15-nesv-takeover-completed",
-      "notes": "Selected after the 28 September 2026 four-week coverage sweep. Core event/date verified by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; this is not a full article fact-check, writing claim, approval or publication. See coverage notes for conflicts and exclusions. Claim submitted for review by the 5 October 2026 Monday top-up on branch this-week/2026-10-05; no drafting until the claim is merged to main.",
+      "notes": "Selected after the 28 September 2026 four-week coverage sweep. Core event/date verified by explicitly configured gpt-6-astra /root/astra_weekly_history_0928; this is not a full article fact-check, writing claim, approval or publication. See coverage notes for conflicts and exclusions. Claim submitted for review by the 5 October 2026 Monday top-up on branch this-week/2026-10-05; no drafting until the claim is merged to main. Continued under Denny’s 7 October instruction after PR #66 merged at acde334a81d244e19d2d62c43be41f079e308974 and both main claims were confirmed. Completed factual manuscript and audit by configured gpt-6-astra /root/astra_anniversary_drafts; ready for review, unpublished, no approval or automatic-queue opt-in. Original Monday claim and owner provenance retained in editorial notes.",
       "originalDraftId": null,
-      "owner": "Monday This Week top-up 2026-10-05 (Claude scheduled run, claude-sonnet-5-5; session_01VsAdqAdxnY61iiNw6WEV1W)",
+      "owner": "History continuation 2026-10-07; gpt-6-astra /root/astra_anniversary_drafts",
       "publishedDestination": null,
       "researchStatus": "verified",
       "selection": "selected",
-      "status": "writing"
+      "status": "ready_for_review"
     }
   ],
   "gaps": [
@@ -9913,7 +9915,7 @@
     "28 September 2026 completion: six new Astra drafts are ready for review (Shankly, Salzburg, Rodgers, Fowler, Klopp and Grimsby). All remain unpublished with null approval; later Salah, first league derby and NESV selections remain planned, and Houllier remains an alternative."
   ],
   "timezone": "Europe/London",
-  "updatedAt": "2026-10-05T08:00:00.000000Z",
+  "updatedAt": "2026-10-07T15:35:05.683775Z",
   "version": 1,
   "workflow": "docs/editorial/README.md",
   "biographies": [
