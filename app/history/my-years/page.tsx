@@ -60,7 +60,7 @@ export default async function MyYearsPage({
             </select>
           </div>
           <button type="submit">Explore my years</button>
-          <Link href="/history/timeline">Just let me explore</Link>
+          <Link href="/history">Just let me explore</Link>
         </form>
         {from && !valid && (
           <p role="status">

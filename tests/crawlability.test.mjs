@@ -12,7 +12,6 @@ const { getArchiveFeatures } = await import('../lib/content/archive.ts');
 const { getHistory } = await import('../lib/content/history.ts');
 const { getSeasons } = await import('../lib/content/seasons.ts');
 const { getExplorations } = await import('../lib/content/exploration.ts');
-const { getJourneys } = await import('../lib/content/history-v3.ts');
 const { getPublishedExperiences } = await import('../lib/content/interactive-history.ts');
 const { socialMetadata } = await import('../lib/social-metadata.ts');
 import { fixture } from './fixtures/interactive-history.mjs';
@@ -26,17 +25,13 @@ test('sitemap covers public collections and the exact dynamic page destinations'
   const expected = [
     '/', '/about', '/articles', '/brief', '/match-centre', '/this-week',
     '/history', '/history/matches', '/history/players', '/history/seasons',
-    '/history/timeline', '/history/my-years',
-    '/history/opposition', '/history/competitions', '/history/journeys',
+    '/history/my-years',
+    '/history/opposition', '/history/competitions',
     ...getArticles().map(a => `/articles/${a.slug}`),
     ...getArchiveFeatures().map(a => `/archive/${a.slug}`),
     ...getHistory().eras.map(e => `/history/${e.id}`),
     ...getSeasons().map(s => `/history/seasons/${s.season}`),
     ...getExplorations().map(d => d.href),
-    ...getJourneys().flatMap(j => [
-      `/history/journeys/${j.id}`,
-      ...j.steps.map((_, i) => `/history/journeys/${j.id}/${i + 1}`),
-    ]),
     ...(experiences.length ? ['/history/interactive'] : []),
     ...experiences.map(experience => `/history/interactive/${experience.id}`),
   ].map(route => route === '/' ? origin : new URL(route, origin).href);

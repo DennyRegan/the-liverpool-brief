@@ -372,17 +372,12 @@ export type ContinueContext =
 export function continueFrom(
   context: ContinueContext,
   data: V3Context,
-  journeys: Journey[],
 ): RouteLink[] {
   const { seasons, articles, destinations, eras } = data;
-  let refs: JourneyRef[] = [];
-  let year: number | undefined;
   let options: RouteLink[] = [];
   if ("season" in context) {
     const s = seasons.find((s) => s.season === context.season);
     if (!s) return [];
-    year = yearOf(s.season);
-    refs = [{ kind: "season", id: s.season }];
     const ids = [...s.managerIds, ...s.keyPlayerIds];
     options = ids.flatMap((id) => {
       const d = destinations.find((d) => d.entity.id === id);
@@ -391,15 +386,6 @@ export function continueFrom(
   } else if ("entityId" in context) {
     const d = destinations.find((d) => d.entity.id === context.entityId);
     if (!d) return [];
-    refs = [
-      { kind: d.entity.kind as JourneyRef["kind"], id: d.entity.id },
-      ...d.articles.map((a) => ({ kind: "article" as const, id: a.slug })),
-    ];
-    const dated = d.articles
-      .map((a) => a.historicalEventDate ?? a.season)
-      .filter((d): d is string => !!d)
-      .sort();
-    if (dated[0]) year = yearOf(dated[0]);
     const shared = destinations
       .filter((other) => other.entity.id !== d.entity.id)
       .map((other) => ({
@@ -421,8 +407,6 @@ export function continueFrom(
   } else if ("eraId" in context) {
     const e = eras.find((e) => e.id === context.eraId);
     if (!e) return [];
-    year = yearOf(e.startDate);
-    refs = [{ kind: "era", id: e.id }];
     options = seasons
       .filter((s) =>
         getSeasonEras(s.season, eras).some((era) => era.id === e.id),
@@ -437,27 +421,6 @@ export function continueFrom(
       (a) => a.slug === context.articleSlug && a.editorialMode === "factual",
     );
     if (!a) return [];
-    if (a.season || a.historicalEventDate)
-      year = yearOf(a.historicalEventDate ?? a.season!);
-    refs = [{ kind: "article", id: a.slug }];
   }
-  const matches = (j: Journey, r: JourneyRef) =>
-    j.steps.some((s) => r.kind === s.kind && r.id === s.id);
-  const journey =
-    journeys.find((j) => refs[0] && matches(j, refs[0])) ??
-    journeys.find((j) => refs.some((r) => matches(j, r)));
-  return uniqueLinks([
-    ...(journey
-      ? [{ href: `/history/journeys/${journey.id}`, label: journey.title }]
-      : []),
-    ...options.slice(0, 1),
-    ...(year !== undefined
-      ? [
-          {
-            href: timelineYearHref(year),
-            label: `Continue through ${Math.floor(year / 10) * 10}s history`,
-          },
-        ]
-      : []),
-  ]).slice(0, 3);
+  return uniqueLinks(options.slice(0, 1)).slice(0, 3);
 }

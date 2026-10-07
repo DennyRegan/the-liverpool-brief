@@ -184,36 +184,25 @@ test("journeys fail closed for unavailable articles, thin entities, missing Seas
   );
 });
 
-test("Continue routes reuse eligible destinations, prefer direct journeys and bound suggestions", () => {
-  const dalglish = continueFrom(
-    { entityId: "kenny-dalglish" },
-    context,
-    journeys,
-  );
-  assert.equal(
-    dalglish[0].href,
-    "/history/journeys/dalglish-player-to-manager",
-  );
+test("Continue routes reuse eligible destinations and bound suggestions", () => {
   for (const c of [
     ...context.destinations.map((d) => ({ entityId: d.entity.id })),
     ...context.seasons.map((s) => ({ season: s.season })),
     ...context.eras.map((e) => ({ eraId: e.id })),
     ...context.articles.map((a) => ({ articleSlug: a.slug })),
   ]) {
-    const links = continueFrom(c, context, journeys);
+    const links = continueFrom(c, context);
     assert.ok(links.length <= 3);
     assert.equal(new Set(links.map((l) => l.href)).size, links.length);
     for (const l of links) {
+      assert.ok(!l.href.startsWith("/history/journeys"), "No guided journeys");
+      assert.ok(!l.href.startsWith("/history/timeline"), "No timeline page");
       if (l.href.startsWith("/history/people/"))
         assert.ok(context.destinations.some((d) => d.href === l.href));
-      if (l.href.includes("#year-"))
-        assert.ok(
-          timeline.some((s) => s.year === Number(l.href.split("#year-")[1])),
-        );
     }
   }
   assert.deepEqual(
-    continueFrom({ articleSlug: "not-published" }, context, journeys),
+    continueFrom({ articleSlug: "not-published" }, context),
     [],
   );
 });

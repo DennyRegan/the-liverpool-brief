@@ -12,7 +12,7 @@ const mainOf = html => (html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? ''
 const all = getSeasons();
 const archive = getFactualHistoryArticles();
 const get = async route => {
-  const response = await fetch(new URL(route, origin), { signal: AbortSignal.timeout(15000) });
+  const response = await fetch(new URL(route, origin), { redirect: 'manual', signal: AbortSignal.timeout(15000) });
   assert.equal(response.status, 200, route);
   return response.text();
 };
@@ -27,7 +27,9 @@ try {
   const landing = mainOf(await get('/history/seasons'));
   assert.deepEqual([...landing.matchAll(/href="\/history\/seasons\/([0-9-]+)"/g)].map(m => m[1]), all.map(s => s.season));
   assert.match(landing, /From Bill Shankly/);
-  assert.match(landing, /aria-current="location" href="\/history\/timeline"/);
+  assert.match(landing, /aria-current="page" href="\/history\/seasons"/);
+  assert.match(landing, /<a\b(?=[^>]*class="hx-back")(?=[^>]*href="\/history")[^>]*>/, 'Return to History');
+  assert.ok(!/href="\/history\/(?:timeline|journeys)(?:[/?#"])/.test(landing));
   const internalLinks = new Set();
   for (let i = 0; i < all.length; i++) {
     const season = all[i];
@@ -37,8 +39,10 @@ try {
     assert.equal((main.match(/<h1[ >]/g) ?? []).length, 1);
     assert.ok(html.includes(`href="https://theliverpoolbrief.com${route}"`), 'canonical URL');
     for (const heading of ['Season overview', 'Key players', 'Transfers in', 'Transfers out', 'Important connections', 'Sources &amp; historical notes']) assert.ok(main.includes(heading), `${route}: ${heading}`);
-    assert.match(main, /A historical reference entry/);
-    assert.ok(main.includes(`href="/history/timeline?season=${season.season}"`), 'Return to Timeline selection');
+    assert.match(main, /class="season-editorial-note"/);
+    assert.match(main, /<a\b(?=[^>]*class="hx-back")(?=[^>]*href="\/history\/seasons")[^>]*>/, 'Return to Seasons');
+    assert.match(main, /aria-current="page" href="\/history\/seasons"/);
+    assert.ok(!/href="\/history\/(?:timeline|journeys)(?:[/?#"])/.test(main), `${route}: no removed navigation`);
     for (const kind of ['domestic', 'europe', 'other']) assert.equal(main.includes(`id="competition-${kind}"`), season.competitions.some(c => c.kind === kind), `${route}: only entered competitions`);
     for (const source of season.sources) assert.ok(main.includes(`id="source-${source.id}"`), `${route}: source ${source.id}`);
     const linked = getSeasonArchiveArticles(season.season, archive);
@@ -73,8 +77,9 @@ try {
   for (const route of [`/history/seasons/${unpublished}`, '/history/seasons/1959-61', '/history/seasons/unknown']) assert.equal((await fetch(new URL(route, origin))).status, 404, route);
   const explorer = mainOf(await get('/history'));
   assert.equal((explorer.match(/class="hx-era"/g) ?? []).length, getHistory().eras.length);
-  assert.ok(explorer.includes('href="/history/timeline"'));
-  assert.ok(!explorer.includes('href="/history/seasons"'));
+  assert.ok(explorer.includes('href="/history/seasons"'), 'History navigation includes Seasons');
+  assert.ok(explorer.includes('href="/history/my-years"'));
+  assert.ok(!/href="\/history\/(?:timeline|journeys)(?:[/?#"])/.test(explorer));
   console.log(`PASS ${all.length} season pages, chronological index, ${internalLinks.size} internal destinations, source anchors, conditional sections and 3 invalid routes`);
 } finally {
   if (server.exitCode === null) {
