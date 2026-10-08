@@ -23,7 +23,7 @@ test('sitemap covers public collections and the exact dynamic page destinations'
   const entries = sitemap();
   const experiences = getPublishedExperiences();
   const expected = [
-    '/', '/about', '/articles', '/brief', '/match-centre', '/this-week',
+    '/', '/about', '/articles', '/brief', '/match-centre', '/this-week', '/search',
     '/history', '/history/matches', '/history/players', '/history/seasons',
     '/history/my-years',
     '/history/opposition', '/history/competitions',

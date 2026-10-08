@@ -1,0 +1,47 @@
+name: Verified Premier League table
+on:
+  schedule:
+    # UTC: catches afternoon/evening matches for every club, including midweek.
+    - cron: '23 14,16,18,20,22 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Fetch and validate without writing or publishing
+        type: boolean
+        default: true
+permissions:
+  contents: read
+concurrency:
+  # Share the repository-writer lock with the existing History publisher.
+  group: automatic-history-repository-writer
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Configure publication bot identity
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Fetch, validate and refresh
+        env:
+          TABLE_DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+        run: |
+          if [ "$TABLE_DRY_RUN" = "true" ]; then
+            node scripts/run-table-refresh.mjs
+          else
+            node scripts/run-table-refresh.mjs --write
+          fi

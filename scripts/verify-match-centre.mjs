@@ -39,7 +39,8 @@ try {
  server=spawn(process.execPath,['scripts/dev.mjs','--webpack','--hostname','127.0.0.1','--port','3156'],{cwd:root,stdio:['ignore','pipe','pipe']});
  await new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(new Error('Preview startup timed out')),20000);server.once('error',reject);server.once('exit',code=>reject(new Error(`Preview exited ${code}`)));server.stderr.on('data',d=>process.stderr.write(d));server.stdout.on('data',d=>{if(d.toString().includes('Ready')){clearTimeout(timeout);resolve();}});});
  const centre=await get('/match-centre');assert.match(centre,/Temporary verified briefing/);assert.match(centre,/Read the match report/);assert.equal((centre.match(/href="\/archive\/qa-current-report"/g)??[]).length,3,'last match, fixture and reading share the same canonical report');assert.match(centre,/href="\/articles\/qa-analysis-current"/);assert.ok(!centre.includes('qa-analysis-history'));assert.match(centre,/Match Briefing/);
- assert.match(centre,/<summary>Show all fixtures and results/);assert.match(centre,/<summary><h2 id="league-table">League Table<\/h2>/);
+ assert.match(centre,/<summary>Show all fixtures and results/);assert.match(centre,/<h2 id="league-table">League Table<\/h2>/);
+ const leagueTable=centre.match(/<table class="mc-table">([\s\S]*?)<\/table>/)?.[1];assert.ok(leagueTable);assert.equal((leagueTable.match(/<tr/g)??[]).length,21);for(const column of ['P','W','D','L','GF','GA','GD','Pts'])assert.ok(leagueTable.includes(`>${column}</abbr>`),column);
  assert.equal((centre.split('<details class="mc-disclosure">')[0].match(/class="mc-fixture"/g)??[]).length,1,'only the next fixture is initially visible');
  assert.match(centre,/href="#match-preview"/);assert.match(centre,/id="match-preview"/);assert.match(centre,/<h3>Team news<\/h3>/);assert.match(centre,/Verified preview prose for integration QA/);
  assert.match(await get('/archive/qa-current-report'),/Temporary factual record/);

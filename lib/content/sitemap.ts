@@ -10,7 +10,7 @@ export function getPublicSitemap(root = process.cwd()): MetadataRoute.Sitemap {
   const context = getV3Context(root);
   const experiences = getPublishedExperiences(root);
   const paths = [
-    "/", "/about", "/articles", "/brief", "/match-centre", "/this-week",
+    "/", "/about", "/articles", "/brief", "/match-centre", "/this-week", "/search",
     "/history", "/history/matches", "/history/players", "/history/seasons",
     "/history/my-years",
     "/history/opposition", "/history/competitions",

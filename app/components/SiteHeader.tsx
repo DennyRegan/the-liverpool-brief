@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-export function SiteHeader({ active }: { active: "match-centre" | "home" | "articles" | "brief" | "this-week" | "archive" | "history" | "about" }) {
+export function SiteHeader({ active }: { active: "search" | "match-centre" | "home" | "articles" | "brief" | "this-week" | "archive" | "history" | "about" }) {
   return (
     <header className="site-header">
       <a href="#main-content" className="skip-link">Skip to content</a>
       <div className="site-width">
-        <div className="masthead-meta"><span>Independent Liverpool writing</span><Link href="/about">By Denny Regan</Link></div>
+        <div className="masthead-meta"><span>Independent Liverpool writing</span><div className="masthead-tools"><Link href="/about">By Denny Regan</Link><Link href="/search" prefetch={false} aria-current={active === 'search' ? 'page' : undefined}>Search</Link></div></div>
         <Link href="/" className="masthead">The Liverpool<span> Brief</span><span className="masthead-dot">.</span></Link>
         <div className="header-bottom">
           <p>Opinion and history from a Liverpool supporter.</p>

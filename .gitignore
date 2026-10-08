@@ -42,3 +42,5 @@ next-env.d.ts
 
 # Optional local browser-verification artifacts
 .interactive-history-checks/
+/.generated/
+/.table-search-checks/

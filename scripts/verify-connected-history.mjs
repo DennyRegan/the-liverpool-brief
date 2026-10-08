@@ -104,7 +104,11 @@ for (const section of ['matches', 'players']) {
   const route = `/history/${section}`;
   const html = await get(route);
   const main = mainOf(html);
-  assert.deepEqual(archiveLinks(main), getHistoryBrowseArticles(section).map(a => a.slug), `${route}: only explicitly approved subjects in browser order`);
+  const expected = getHistoryBrowseArticles(section);
+  // Matches already displays newest historical events first, independently of
+  // publication order. People retains the canonical subject-name ordering.
+  if (section === 'matches') expected.sort((a, b) => (b.historicalEventDate ?? '').localeCompare(a.historicalEventDate ?? '') || a.title.localeCompare(b.title));
+  assert.deepEqual(archiveLinks(main), expected.map(a => a.slug), `${route}: only explicitly approved subjects in browser order`);
   assert.equal((main.match(/<h1\b/g) ?? []).length, 1);
   assert.ok(html.includes(`href="https://theliverpoolbrief.com${route}"`));
   const nav = main.match(/<nav\b[^>]*aria-label="History sections"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
