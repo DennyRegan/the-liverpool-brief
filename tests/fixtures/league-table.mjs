@@ -1,3 +1,11 @@
+import fs from 'node:fs';
+import { MatchCentreSchema } from '../../lib/content/match-centre.ts';
+
+// Historical regression data must not advance when the live register refreshes.
+export function getTestMatchCentre() {
+  return MatchCentreSchema.parse(JSON.parse(fs.readFileSync(new URL('./match-centre-september-2026.json', import.meta.url), 'utf8')));
+}
+
 export function skyTable(rows, updated = '12 October, 1:55pm') {
   const cell = (key, value) => `<td data-live-key="${key}"><span>${value}</span></td>`;
   return `<div class="sdc-site-table__last-updated">Last updated: <strong>${updated}</strong></div><table class="sdc-site-table "><tbody>${rows.map(r => `<tr class="sdc-site-table__row">${cell('pos', r.position)}<td data-live-key="team"><a href="/${r.clubId === 'brighton-hove-albion' ? 'brighton-and-hove-albion' : r.clubId}">Club</a></td>${['played', 'won', 'drawn', 'lost', 'goalsFor', 'goalsAgainst', 'gd', 'points'].map((key, i) => cell(['pld', 'w', 'd', 'l', 'f', 'a', 'gd', 'pts'][i], key === 'gd' ? r.goalsFor - r.goalsAgainst : r[key])).join('')}</tr>`).join('')}</tbody></table>`;

@@ -101,7 +101,7 @@ npm run build
 node scripts/verify-match-centre.mjs
 ```
 
-The local command does not commit, push or deploy. Review the JSON diff and follow the normal approval process. `npm run table:prepare` remains the original proposal-only editorial command. The deterministic updater verification uses temporary copied content and synthetic provider responses; it never changes published files or needs network access.
+The local command does not commit, push or deploy. Review the JSON diff and follow the normal approval process. `npm run table:prepare` remains the original proposal-only editorial command. The deterministic updater verification uses temporary copied content and synthetic provider responses; it never changes published files or needs network access. Date-specific Match Centre/parser regressions use a fixed September register under `tests/fixtures`, so genuine future standings cannot break the publication test gate. A separate test still validates the actual current register through the unchanged loader. The full suite is also checked against a valid updated result/table candidate in an isolated copy.
 
 ## Verification commands
 

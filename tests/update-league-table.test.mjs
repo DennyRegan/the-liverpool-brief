@@ -6,14 +6,14 @@ import path from 'node:path';
 import { getMatchCentre } from '../lib/content/match-centre.ts';
 import { readLeagueTable } from '../scripts/lib/prepare-league-table.mjs';
 import { prepareAutomaticTable, readLiverpoolResults, updateLeagueTable } from '../scripts/lib/update-league-table.mjs';
-import { skyTable, skyResult, addedLiverpoolWin } from './fixtures/league-table.mjs';
+import { skyTable, skyResult, addedLiverpoolWin, getTestMatchCentre } from './fixtures/league-table.mjs';
 
-const current = getMatchCentre(), now = new Date('2026-10-13T12:00:00Z');
+const current = getTestMatchCentre(), now = new Date('2026-10-13T12:00:00Z');
 const changed = skyTable(addedLiverpoolWin(current));
 const resultPages = [{ month: '2026-10', html: skyResult() }];
 async function withRoot(fn) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'table-updater-test-'));
-  try { fs.cpSync('content', path.join(root, 'content'), { recursive: true }); await fn(root, path.join(root, `content/match-centre/liverpool/${current.season}.json`)); }
+  try { fs.cpSync('content', path.join(root, 'content'), { recursive: true }); fs.writeFileSync(path.join(root, 'content/match-centre/liverpool/current.json'), JSON.stringify({season: current.season})); fs.writeFileSync(path.join(root, `content/match-centre/liverpool/${current.season}.json`), JSON.stringify(current)); await fn(root, path.join(root, `content/match-centre/liverpool/${current.season}.json`)); }
   finally { fs.rmSync(root, { recursive: true, force: true }); }
 }
 
