@@ -1,34 +1,24 @@
 ---
 {
-  "lastUpdated": "2026-10-08T17:52:58.000Z",
+  "lastUpdated": "2026-10-09T17:34:20.000Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
     {
-      "headline": "Jacquet trains as Isak and Gakpo remain doubts",
-      "category": "Injuries",
-      "summary": "Jérémy Jacquet returned to Liverpool training on 8 October after experiencing hamstring tightness with France. Alexander Isak and Cody Gakpo were absent from the published session as they continued recovering from thigh and ankle injuries respectively. Their availability against Manchester City on Sunday remains unconfirmed.",
+      "headline": "Isak and Gakpo ruled out of City clash; Jacquet fit",
+      "category": "Team news",
+      "summary": "Alexander Isak and Cody Gakpo will miss Liverpool’s Premier League match against Manchester City on Sunday 11 October after suffering thigh and ankle injuries on international duty. Andoni Iraola said on 9 October that neither injury appears long-term. Jérémy Jacquet is fit after missing France’s final match as a precaution. Federico Chiesa has returned to training but may not be ready.",
       "sources": [
         {
           "name": "Liverpool FC — confidence: high",
-          "platform": "Official club training gallery, 8 October 2026; confirms the session, not individual availability",
-          "url": "https://www.liverpoolfc.com/news/liverpool-manchester-city-training-photos-premier-league"
+          "platform": "Official fitness update, 9 October 2026; quotes Iraola on the injuries, availability and Jacquet’s fitness",
+          "url": "https://www.liverpoolfc.com/news/lfc-fitness-update-alexander-isak-cody-gakpo-federico-chiesa-and-jeremy-jacquet"
         },
         {
-          "name": "This Is Anfield — confidence: medium",
-          "platform": "Training report, 8 October 2026; identifies Jacquet in training and notes Isak and Gakpo were not pictured, while acknowledging that the full squad was not officially listed",
-          "url": "https://www.thisisanfield.com/2026/10/jeremy-jacquet-gakpo-isak-liverpool-injury-update-man-city/"
-        },
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official manager interview, 7 October 2026; confirms Isak and Gakpo remained injured and their availability depended on recovery",
-          "url": "https://www.liverpoolfc.com/news/andoni-iraola-season-so-far-liverpool-v-manchester-city-and-injury-latest"
-        },
-        {
-          "name": "This Is Anfield — confidence: medium",
-          "platform": "International-break injury report, 7 October 2026; reports Isak's thigh and Gakpo's ankle issues",
-          "url": "https://www.thisisanfield.com/2026/10/liverpool-international-break-injuries-goals-max-minutes-stats/"
+          "name": "Reuters — confidence: high",
+          "platform": "Independent report, 9 October 2026; corroborates the players’ absences and quotes Iraola",
+          "url": "https://www.reuters.com/sports/soccer/liverpool-without-isak-gakpo-heavyweight-man-city-clash-2026-10-09/"
         }
       ]
     }

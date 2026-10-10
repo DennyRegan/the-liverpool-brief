@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "updatedAt": "2026-09-23T12:00:00Z",
+  "updatedAt": "2026-10-10T06:11:36Z",
   "fixtures": [
     {
       "id": "2026-27-premier-league-newcastle-united-away",
@@ -151,7 +151,27 @@
       "status": "scheduled",
       "sourceIds": [
         "schedule"
-      ]
+      ],
+      "preview": {
+        "title": "Liverpool meet the unbeaten leaders without Isak and Gakpo",
+        "body": "*Liverpool v Manchester City · Premier League · Anfield · Sunday 11 October 2026, 4.30pm BST*\n\nLiverpool return from the international break to the hardest examination of Andoni Iraola's tenure so far, and they will face it without Alexander Isak or Cody Gakpo. Manchester City arrive at Anfield top of the Premier League with five wins from five. Liverpool are sixth, six points behind, unbeaten in the league but still waiting for a home league win under their head coach.\n\n## Where the sides stand\n\nCity have 15 points, with 13 goals scored and five conceded. Enzo Maresca's side have yet to drop a point. Their last two league games showed resilience and some exposure: a 1–0 win at Old Trafford after Phil Foden's 23rd-minute red card, settled by Erling Haaland, then a 5–3 home win over Sunderland in which Brian Brobbey scored a hat-trick.\n\nLiverpool have nine points from two wins and three draws. They conceded twice in each of their first two league games, at Newcastle and at home to Nottingham Forest, and have kept three consecutive league clean sheets since. Isak's goal won at Bournemouth before the break, extending an unbeaten run of seven matches in all competitions. Anfield has produced wins over Atlético Madrid and Tottenham in the cups, but league draws with Forest and Fulham.\n\nThe fixture also has an unusual backdrop. On 29 September an independent commission found City guilty of all charges of serious breaches of the league's financial rules between 2009-10 and 2017-18. No sanction has been set, and City, who call the judgement unsafe, have lodged an appeal. Maresca said the Anfield atmosphere would \"probably\" be \"worse because of the situation\", but that his players \"can face the pressure\". Iraola declined to give a view on the findings because he had not studied the case, saying it would not be fair to offer an opinion \"when you haven't spent the time\".\n\n## Team news\n\nIsak (thigh) and Gakpo (ankle) both returned injured from international duty and will miss the game, although Iraola said neither problem looks long-term. Hugo Ekitike remains out with an Achilles injury. Federico Chiesa, who trained with a small group during the break, has not played a minute this season. Jeremy Jacquet, who also came home early from France duty, is available. Conor Bradley and Giovanni Leoni are listed among Liverpool's other absentees.\n\nIraola conceded that Lewis Koumas is probably his only \"full No.9\" at present, while pointing to wingers who have played centrally elsewhere, among them Bradley Barcola, whom he called \"super-valuable\" for his versatility.\n\nMaresca confirmed that Haaland is fit: \"Finally! He's good.\" Foden is listed as suspended, while Antoine Semenyo and Nico O'Reilly are listed as doubts with injuries. City's own preview did not give an update on either player.\n\n## Recent meetings\n\nCity won all three meetings last season: 3–0 in the league at the Etihad; 2–1 at Anfield in February, when Bernardo Silva and a stoppage-time Haaland penalty overturned Dominik Szoboszlai's free-kick; and 4–0 in April's FA Cup quarter-final, in which Haaland scored a hat-trick.\n\n## The questions for Liverpool\n\nThe first is who leads the line. Sky Sports' reporters expect Koumas, 21, to replace Isak. The second concerns Florian Wirtz, who had a difficult afternoon at Bournemouth and is among the players expected to carry more of the attacking burden. The third is midfield, where Iraola has favoured Alexis Mac Allister and Szoboszlai as his deeper pair, with Ryan Gravenberch left out.\n\nIraola was clear about the scale of the task. \"We need to be very, very good if we want to beat City,\" he said, noting that they had been \"scoring a lot of goals lately\". He also believes Liverpool have \"shown good defensive improvements lately\". That run of three clean sheets now meets a side with 13 league goals in five games.\n\nHe resisted treating it as a game Liverpool cannot afford to lose, pointing to how early the season is. It does, however, open a demanding run: Brentford, Brighton, Arsenal and Chelsea in the League Cup follow, alongside two Champions League fixtures. Iraola has already acknowledged that the month after the break will ask a great deal of his squad.",
+        "updatedAt": "2026-10-10T06:11:36Z",
+        "sourceIds": [
+          "city-preview-1",
+          "city-preview-2",
+          "city-preview-3",
+          "city-preview-4",
+          "city-preview-5",
+          "city-preview-6",
+          "city-preview-7",
+          "city-preview-8",
+          "city-preview-9",
+          "city-preview-10",
+          "city-preview-11",
+          "city-preview-12",
+          "city-preview-13"
+        ]
+      }
     },
     {
       "id": "2026-27-european-cup-lask-away",
@@ -1016,6 +1036,84 @@
       "label": "Premier League table — Sky Sports",
       "url": "https://www.skysports.com/premier-league-table",
       "checkedOn": "2026-09-23"
+    },
+    {
+      "id": "city-preview-1",
+      "label": "Liverpool FC, Iraola on his attacking options",
+      "url": "https://www.liverpoolfc.com/news/andoni-iraola-attack-team-man-city-bradley-barcola",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-2",
+      "label": "Liverpool FC, Iraola on the season so far and City",
+      "url": "https://www.liverpoolfc.com/news/andoni-iraola-season-so-far-liverpool-v-manchester-city-and-injury-latest",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-3",
+      "label": "Sky Sports, five key issues for Iraola",
+      "url": "https://www.skysports.com/football/news/13596776/andoni-iraola-five-key-issues-facing-liverpool-boss-ahead-of-man-city-showdown",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-4",
+      "label": "Sky Sports, Maresca press conference",
+      "url": "https://www.skysports.com/football/news/13596798/man-city-charges-enzo-marescas-first-press-conference-after-guilty-verdict-from-independent-premier-league-commission",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-5",
+      "label": "Manchester City, match preview",
+      "url": "https://www.mancity.com/news/mens/liverpool-v-city-premier-league-match-preview-october-2026-63926279",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-6",
+      "label": "Premier League, statement on Manchester City",
+      "url": "https://www.premierleague.com/en/news/4727779/premier-league-statement-manchester-city-fc",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-7",
+      "label": "Sky Sports, City lodge appeal",
+      "url": "https://www.skysports.com/football/news/13593606/man-city-lodge-appeal-premier-league-club-contest-guilty-verdict-of-independent-commission",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-8",
+      "label": "PA via Irish News, Man Utd 0–1 Man City",
+      "url": "https://www.irishnews.com/sport/soccer/erling-haaland-earns-10-man-manchester-city-victory-in-fiery-old-trafford-clash-WMIB2KXWEJNE3NIEFIUSYNX56A/",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-9",
+      "label": "Sky Sports, Premier League table",
+      "url": "https://www.skysports.com/premier-league-table",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-10",
+      "label": "Premier League, Liverpool 1–2 Man City, February 2026",
+      "url": "https://www.premierleague.com/en/news/4576632/liverpool-1-manchester-city-2-match-report-8-february-2026",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-11",
+      "label": "The National, City 5–3 Sunderland and Bournemouth 0–1 Liverpool",
+      "url": "https://www.thenationalnews.com/sport/2026/09/20/premier-league-man-city-maintain-perfect-start-after-eight-goal-thriller-as-isak-earns-liverpool-win/",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-12",
+      "label": "Roundtable via Yahoo Sports, Iraola's press conference",
+      "url": "https://sports.yahoo.com/articles/iraola-addresses-man-city-injuries-135724452.html",
+      "checkedOn": "2026-10-10"
+    },
+    {
+      "id": "city-preview-13",
+      "label": "FotMob, absentees for both sides",
+      "url": "https://www.fotmob.com/match/2782029/line-up",
+      "checkedOn": "2026-10-10"
     }
   ]
 }

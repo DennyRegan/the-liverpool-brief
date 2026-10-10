@@ -62,7 +62,7 @@ test('optional briefing supports sourced text and rejects missing or future evid
 test('completed Bournemouth fixture links its approved report and leaves no outdated preview',()=>{
  const data=getTestMatchCentre();const next=selectMatches(data,new Date('2026-09-23T12:00:00Z')).next;
  assert.equal(next.oppositionId,'manchester-city');
- assert.equal(data.fixtures.filter(f=>f.preview).length,0);
+ assert.equal(data.fixtures.filter(f=>f.preview && f.status==='completed').length,0);
  assert.equal(data.fixtures.find(f=>f.oppositionId==='bournemouth').preview,undefined);
  assert.equal(data.fixtures.find(f=>f.oppositionId==='bournemouth').reportSlug,'bournemouth-liverpool-2026-09-20');
  for(const status of ['postponed','cancelled','completed']){
