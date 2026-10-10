@@ -28,7 +28,8 @@
 .mc-disclosure > summary .mc-note { font-weight: 400; }
 .mc-disclosure > summary h2 + .mc-note { display: block; margin: .35rem 0 0 1.4rem; }
 .mc-disclosure[open] > summary { border-bottom: 1px solid #dcd5cb; }
-.mc-table-scroll { overflow-x: auto; }
+.mc-table-scroll { overflow-x: auto; max-width: 100%; margin-top: .75rem; }
+.mc-table-scroll:focus-visible { outline: 2px solid #a32020; outline-offset: 4px; }
 .mc-month { margin-top: 1.6rem; }
 .mc-month h3 { font-size: 1rem; font-weight: 650; border-bottom: 2px solid #39332e; padding-bottom: .6rem; }
 .mc-month ul, .mc-reading { list-style: none; padding: 0; }
@@ -36,10 +37,14 @@
 .mc-fixture h4 { font-size: 1.1rem; font-weight: 600; }
 .mc-fixture p, .mc-fixture-date { font-size: .85rem; color: #605b55; }
 .mc-fixture-date small { display: block; margin-top: .25rem; }
-.mc-table { width: 100%; border-collapse: collapse; font-size: .95rem; font-variant-numeric: tabular-nums; }
+.mc-table { width: 100%; min-width: 720px; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: .95rem; font-variant-numeric: tabular-nums; }
 .mc-table caption { text-align: left; padding: .4rem 0 1rem; }
 .mc-table th, .mc-table td { padding: .75rem .5rem; border-bottom: 1px solid #dcd5cb; text-align: right; }
 .mc-table th:nth-child(2), .mc-table tbody th { text-align: left; }
+.mc-table th:first-child, .mc-table td:first-child { position: sticky; left: 0; min-width: 2.5rem; width: 2.5rem; background: var(--background, #f7f4ee); }
+.mc-table th:nth-child(2) { position: sticky; left: 2.5rem; width: 180px; background: var(--background, #f7f4ee); }
+.mc-table thead th { font-weight: 700; border-bottom: 2px solid #39332e; }
+.mc-table .mc-liverpool > :first-child, .mc-table .mc-liverpool th { background: #f0e4dc; }
 .mc-table tbody th { font-weight: 400; }
 .mc-table .mc-liverpool { background: #f0e4dc; color: #831c19; font-weight: 700; }
 .mc-table .mc-liverpool th { font-weight: 700; }

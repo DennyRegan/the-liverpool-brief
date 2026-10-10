@@ -49,7 +49,7 @@ function skyRows(html) {
   if (!body) throw new Error('Sky league table has no rows');
   const rows = [...body.matchAll(/<tr\b[^>]*class="sdc-site-table__row"[^>]*>([\s\S]*?)<\/tr>/g)].map(([, markup]) => {
     const keys = [...markup.matchAll(/<td\b[^>]*data-live-key="([^"]+)"/g)].map(match => match[1]);
-    if (requiredCells.some(key => !keys.includes(key))) throw new Error('Sky league table columns have changed');
+    if (keys.length !== requiredCells.length || new Set(keys).size !== keys.length || requiredCells.some(key => !keys.includes(key))) throw new Error('Sky league table columns have changed');
     const club = markup.match(/<td\b[^>]*data-live-key="team"[^>]*>[\s\S]*?<a href="\/([^"]+)"[^>]*>/)?.[1];
     if (!club) throw new Error('Sky club identifier is missing');
     const clubId = skyClubAliases[club] ?? club;
@@ -69,16 +69,27 @@ function skyRows(html) {
   return rows;
 }
 
-export function prepareLeagueTable(html, current, now = new Date()) {
+export function readLeagueTable(html, current, now = new Date(), { allowOlderUnchanged = false } = {}) {
   const asOf = sourceTimestamp(html, current.season, now);
-  if (Date.parse(asOf) < Date.parse(current.table.asOf)) throw new Error('Sky snapshot is older than the published table');
   const rows = skyRows(html);
   const existing = new Set(current.table.rows.map(row => row.clubId));
   if (rows.some(row => !existing.has(row.clubId)) || new Set(rows.map(row => row.clubId)).size !== existing.size) throw new Error('Sky clubs differ from the current season; review club mapping');
+  const unchanged = rows.every(row => {
+    const previous = current.table.rows.find(item => item.clubId === row.clubId);
+    return Object.entries(row).every(([key, value]) => previous[key] === value);
+  });
+  const older = Date.parse(asOf) < Date.parse(current.table.asOf);
+  if (older && !(allowOlderUnchanged && unchanged)) throw new Error('Sky snapshot is older than the published table');
   for (const row of rows) {
     const previous = current.table.rows.find(item => item.clubId === row.clubId);
     if (row.played < previous.played) throw new Error(`Sky has fewer matches than the published table for ${row.clubId}`);
   }
+  MatchCentreSchema.parse({ ...current, updatedAt: now.toISOString(), table: { ...current.table, asOf, rows } });
+  return { asOf, rows, unchanged, older };
+}
+
+export function prepareLeagueTable(html, current, now = new Date()) {
+  const { asOf, rows } = readLeagueTable(html, current, now);
   const liverpool = rows.find(row => row.clubId === 'liverpool');
   const recorded = current.fixtures.filter(f => f.competitionId === 'premier-league' && f.status === 'completed' && f.date <= asOf.slice(0, 10));
   const totals = { played: recorded.length, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0 };

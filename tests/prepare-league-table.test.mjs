@@ -1,14 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { getMatchCentre } from '../lib/content/match-centre.ts';
+import { getTestMatchCentre } from './fixtures/league-table.mjs';
 import { prepareLeagueTable } from '../scripts/lib/prepare-league-table.mjs';
 
-const current = getMatchCentre();
-// These September table scenarios predate later editorial previews.
-for (const fixture of current.fixtures) {
-  delete fixture.preview;
-  delete fixture.briefing;
-}
+// Fixed September scenarios stay independent of later editorial previews.
+const current = getTestMatchCentre();
 const checkedAt = new Date('2026-09-23T12:00:00Z');
 const cell = (key, value) => `<td data-live-key="${key}"><span>${value}</span></td>`;
 function skyHtml(rows = current.table.rows, updated = '21 September, 1:55pm') {

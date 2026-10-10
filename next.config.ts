@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
   },
   // Local editorial drafts never belong in traced production server artifacts.
   outputFileTracingExcludes: { "/*": ["./docs/editorial/interactive-history/**/*"] },
+  outputFileTracingIncludes: { "/search": ["./.generated/search-index.json"] },
 };
 
 export default nextConfig;

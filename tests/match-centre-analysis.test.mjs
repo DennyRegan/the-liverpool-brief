@@ -12,16 +12,18 @@ import { getFactualHistoryArticles } from '../lib/content/archive.ts';
 import { getExplorations } from '../lib/content/exploration.ts';
 import { selectHomeWriting } from '../lib/content/homepage.ts';
 import { getWriting } from '../lib/content/writing.ts';
+import { getTestMatchCentre } from './fixtures/league-table.mjs';
 const now = new Date('2026-09-17T12:00:00Z');
 const fixture = (extra={}) => ({id:'fixture',oppositionId:'everton',competitionId:'premier-league',side:'home',date:'2026-09-20',kickoff:'2026-09-20T14:00:00+01:00',status:'scheduled',sourceIds:['schedule'],...extra});
-function withContent(fn) { const root=fs.mkdtempSync(path.join(os.tmpdir(),'match-centre-test-')); try { fs.cpSync('content',path.join(root,'content'),{recursive:true}); return fn(root); } finally {fs.rmSync(root,{recursive:true,force:true});} }
+function withContent(fn) { const root=fs.mkdtempSync(path.join(os.tmpdir(),'match-centre-test-')); try { fs.cpSync('content',path.join(root,'content'),{recursive:true}); const seed=getTestMatchCentre(); fs.writeFileSync(path.join(root,'content/match-centre/liverpool/current.json'),JSON.stringify({season:seed.season})); saveCentre(root,seed); return fn(root); } finally {fs.rmSync(root,{recursive:true,force:true});} }
 const seasonFile=root=>path.join(root,'content/match-centre/liverpool/2026-27.json');
 const saveCentre=(root,data)=>fs.writeFileSync(seasonFile(root),JSON.stringify(data));
 const writeArticle=(root,a)=>{const {body,...meta}=a;fs.writeFileSync(path.join(root,'content/articles/liverpool',a.slug+'.md'),matter.stringify(body,meta));};
 const analysis=(extra={})=>({title:'Test investigation',slug:'test-investigation',date:'2026-09-17',category:'Analysis',body:'Test fixture only.',...extra});
 
-test('real register contains all 38 league fixtures, eight European and two cup ties; snapshot reconciles',()=>{
- const data=getMatchCentre();assert.equal(data.fixtures.length,48);assert.equal(data.fixtures.filter(f=>f.competitionId==='premier-league').length,38);
+test('current public register validates and retains a complete table',()=>{const data=getMatchCentre();assert.equal(data.table.rows.length,20);assert.equal(data.table.rows.filter(r=>r.clubId==='liverpool').length,1);});
+test('fixed September register contains all 38 league fixtures, eight European and two cup ties; snapshot reconciles',()=>{
+ const data=getTestMatchCentre();assert.equal(data.fixtures.length,48);assert.equal(data.fixtures.filter(f=>f.competitionId==='premier-league').length,38);
  const selected=selectMatches(data,new Date('2026-09-23T12:00:00Z'));assert.equal(selected.last.oppositionId,'bournemouth');assert.deepEqual(selected.last.score,{home:0,away:1});assert.equal(selected.next.oppositionId,'manchester-city');assert.equal(selected.waiting.length,0);
  const liverpool=data.table.rows.find(r=>r.clubId==='liverpool');assert.deepEqual([liverpool.position,liverpool.played,liverpool.points],[6,5,9]);assert.equal(data.table.asOf,'2026-09-21T13:55:00+01:00');assert.equal(selected.ordered.at(-1).oppositionId,'chelsea');
  assert.deepEqual(selected.upcoming.slice(0,4).map(f=>f.oppositionId),['manchester-city','lask','brentford','villarreal']);
@@ -50,15 +52,15 @@ test('results cannot appear on unplayed games and completed games require scores
 });
 test('table arithmetic, duplicate positions, missing sources and future results fail validation',()=>{
  const mutations=[d=>d.table.rows[0].points++,d=>d.table.rows[0].position=2,d=>d.fixtures[0].sourceIds=['missing'],d=>d.fixtures[0].date='2027-01-01',d=>d.fixtures.push(d.fixtures[0])];
- for(const change of mutations){const data=structuredClone(getMatchCentre());change(data);assert.equal(MatchCentreSchema.safeParse(data).success,false);}
+ for(const change of mutations){const data=structuredClone(getTestMatchCentre());change(data);assert.equal(MatchCentreSchema.safeParse(data).success,false);}
 });
 test('optional briefing supports sourced text and rejects missing or future evidence references',()=>{
- const data=getMatchCentre(), next=data.fixtures.find(f=>f.oppositionId==='manchester-city');
+ const data=getTestMatchCentre(), next=data.fixtures.find(f=>f.oppositionId==='manchester-city');
  next.briefing={updatedAt:data.updatedAt,points:['Verified test context.'],sourceIds:['september']};assert.equal(MatchCentreSchema.safeParse(data).success,true);
  next.briefing.sourceIds=['missing'];assert.equal(MatchCentreSchema.safeParse(data).success,false);
 });
 test('completed Bournemouth fixture links its approved report and leaves no outdated preview',()=>{
- const data=getMatchCentre();const next=selectMatches(data,new Date('2026-09-23T12:00:00Z')).next;
+ const data=getTestMatchCentre();const next=selectMatches(data,new Date('2026-09-23T12:00:00Z')).next;
  assert.equal(next.oppositionId,'manchester-city');
  assert.equal(data.fixtures.filter(f=>f.preview && f.status==='completed').length,0);
  assert.equal(data.fixtures.find(f=>f.oppositionId==='bournemouth').preview,undefined);
@@ -70,10 +72,10 @@ test('completed Bournemouth fixture links its approved report and leaves no outd
 });
 test('preview requires non-empty prose, known sources and a non-future update',()=>{
  for(const change of [p=>p.body=' ',p=>p.title='',p=>p.sourceIds=['missing'],p=>p.updatedAt='2099-01-01T00:00:00Z']){
-  const data=structuredClone(getMatchCentre());const f=data.fixtures.find(f=>f.oppositionId==='manchester-city');f.preview={title:'Upcoming match',body:'Verified match context.',updatedAt:data.updatedAt,sourceIds:['september']};change(f.preview);
+  const data=structuredClone(getTestMatchCentre());const f=data.fixtures.find(f=>f.oppositionId==='manchester-city');f.preview={title:'Upcoming match',body:'Verified match context.',updatedAt:data.updatedAt,sourceIds:['september']};change(f.preview);
   assert.equal(MatchCentreSchema.safeParse(data).success,false);
  }
- const data=structuredClone(getMatchCentre());
+ const data=structuredClone(getTestMatchCentre());
  assert.equal(MatchCentreSchema.safeParse(data).success,true);
 });
 test('report links require a published factual match with exact fixture relationships',()=>withContent(root=>{

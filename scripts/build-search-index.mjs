@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+await import('./register-server-only.mjs');
+const { buildSearchIndex } = await import('../lib/search/build-index.ts');
+const documents = buildSearchIndex();
+const file = path.join(process.cwd(), '.generated/search-index.json');
+fs.mkdirSync(path.dirname(file), { recursive: true });
+const json = JSON.stringify(documents);
+fs.writeFileSync(file, json + '\n');
+console.log(`Built server-only search index: ${documents.length} canonical destinations, ${Buffer.byteLength(json)} bytes. No client index.`);

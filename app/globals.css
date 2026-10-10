@@ -12,6 +12,9 @@ button { cursor: pointer; }
 .site-header { border-top: 5px solid var(--accent); }
 .masthead-meta { display: flex; justify-content: space-between; gap: 16px; padding-top: 24px; font-size: 11px; text-transform: uppercase; letter-spacing: .14em; }
 .masthead-meta a { color: var(--accent); }
+.masthead-tools { display: flex; align-items: center; gap: 1.25rem; }
+.masthead-tools a { display: inline-flex; min-height: 44px; align-items: center; }
+.masthead-tools a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .masthead { display: block; width: fit-content; font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(38px, 6.6vw, 82px); font-weight: 700; line-height: 1.15; letter-spacing: -.065em; padding: 22px 0 26px; }
 .masthead-dot { color: var(--accent); }
 .header-bottom { display: flex; justify-content: space-between; align-items: center; gap: 24px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--foreground); }
