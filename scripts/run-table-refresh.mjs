@@ -14,7 +14,7 @@ try {
   assert.equal(git('status', '--porcelain'), '', 'Use a clean checkout');
   const base = git('rev-parse', 'HEAD');
   const result = await updateLeagueTable(process.cwd(), { write });
-  if (!result.changed) summary('League table unchanged. No commit or deployment.');
+  if (!result.changed) summary(`League table unchanged. No commit or deployment.${result.note ? ` ${result.note}` : ''}`);
   else if (!write) summary(`Dry run: validated ${result.changes.length} changed clubs and ${result.updatedFixtures.length} sourced league results; no files, commits or deployments changed.`);
   else {
     for (const args of [['scripts/validate-history.mjs'], ['--test', 'tests/update-league-table.test.mjs', 'tests/prepare-league-table.test.mjs']]) execFileSync(process.execPath, args, { stdio: 'inherit' });

@@ -78,6 +78,27 @@ test('unchanged table makes one request, no write and no timestamp churn', async
   });
 });
 
+test('older identical standings report a no-op without relabelling freshness; older changed standings still fail', async () => {
+  await withRoot(async (root, file) => {
+    const original = fs.readFileSync(file, 'utf8');
+    const fetcher = rows => async () => ({ ok: true, text: async () => skyTable(rows, '20 September, 5:15pm') });
+    const result = await updateLeagueTable(root, { now, write: true, fetcher: fetcher(current.table.rows) });
+    assert.equal(result.changed, false); assert.match(result.note, /older but all 20 clubs match exactly/);
+    assert.match(result.note, /freshness is not confirmed/);
+    assert.equal(result.proposal.table.asOf, current.table.asOf);
+    assert.deepEqual(result.proposal.sources, current.sources);
+    assert.equal(fs.readFileSync(file, 'utf8'), original);
+    for (const rows of [addedLiverpoolWin(current), current.table.rows.slice(1)]) {
+      await assert.rejects(updateLeagueTable(root, { now, write: true, fetcher: fetcher(rows) }), /older|20 Premier League/);
+      assert.equal(fs.readFileSync(file, 'utf8'), original);
+    }
+    const positions = structuredClone(current.table.rows);
+    [positions[0].position, positions[1].position] = [positions[1].position, positions[0].position];
+    await assert.rejects(updateLeagueTable(root, { now, write: true, fetcher: fetcher(positions) }), /older/);
+    assert.equal(fs.readFileSync(file, 'utf8'), original);
+  });
+});
+
 test('write applies all 20 teams and verified result atomically; full existing loader still passes', async () => {
   await withRoot(async (root, file) => {
     const urls = [];

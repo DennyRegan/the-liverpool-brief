@@ -99,8 +99,14 @@ export async function updateLeagueTable(root = process.cwd(), { fetcher = fetch,
   const filename = path.join(root, 'content/match-centre/liverpool', `${current.season}.json`);
   const original = fs.readFileSync(filename, 'utf8');
   const tableHtml = await fetchHtml(tableUrl, fetcher);
-  const snapshot = readLeagueTable(tableHtml, current, now);
+  const snapshot = readLeagueTable(tableHtml, current, now, { allowOlderUnchanged: true });
   validateWholeTable(snapshot.rows);
+  // Identical standings are a no-op, never a reason to roll provenance back.
+  // All structural/arithmetic checks still run; a differing old table fails above.
+  if (snapshot.unchanged) return {
+    changed: false, proposal: current, changes: [], updatedFixtures: [],
+    note: snapshot.older ? `Sky's ${snapshot.asOf} snapshot is older but all 20 clubs match exactly. Source freshness is not confirmed.` : undefined,
+  };
   const previous = current.table.rows.find(r => r.clubId === 'liverpool');
   const next = snapshot.rows.find(r => r.clubId === 'liverpool');
   const resultPages = [];
