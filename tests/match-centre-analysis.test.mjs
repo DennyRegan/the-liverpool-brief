@@ -10,7 +10,7 @@ import { getArticles } from '../lib/content/articles.ts';
 import { getContextAnalysis, analysisConnections } from '../lib/content/analysis.ts';
 import { getFactualHistoryArticles } from '../lib/content/archive.ts';
 import { getExplorations } from '../lib/content/exploration.ts';
-import { selectHomeWriting } from '../lib/content/homepage.ts';
+import { selectHomeLead } from '../lib/content/homepage.ts';
 import { getWriting } from '../lib/content/writing.ts';
 import { getTestMatchCentre } from './fixtures/league-table.mjs';
 const now = new Date('2026-09-17T12:00:00Z');
@@ -103,7 +103,7 @@ test('one historical Analysis reaches season, person, manager, competition, era 
  assert.equal(getWriting(root).filter(w=>w.slug===a.slug)[0].href,`/articles/${a.slug}`);
  const testWriting=getWriting(root).find(w=>w.slug===a.slug);
  assert.ok(testWriting);
- assert.equal(selectHomeWriting([testWriting]).lead.slug,a.slug);
+ assert.equal(selectHomeLead([testWriting], new Date(`${testWriting.date}T12:00:00Z`)).slug,a.slug);
 }));
 test('current Analysis and Opinion use exact season metadata; drafts and unapproved reports stay hidden',()=>withContent(root=>{
  const a=analysis({season:'2026-27'});writeArticle(root,a);

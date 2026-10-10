@@ -1,116 +1,56 @@
-import Link from "next/link";
-import "./homepage.css";
-import { getWriting } from "@/lib/content/writing";
-import { getBrief } from "@/lib/content/briefs";
-import { getArchiveFeatures } from "@/lib/content/archive";
-import { getSeasons, seasonLabel } from "@/lib/content/seasons";
-import { getArticleWeek, getHistoryEvents, getHistoryWindow, getHomeWeekFeature, getLondonToday } from "@/lib/content/this-week";
-import { selectHomeWriting, selectHomeHistory, selectSeasonSpotlight } from "@/lib/content/homepage";
-import { formatLastUpdated, formatListDate, getArticleExcerpt, getExcerpt } from "@/lib/format";
-import { SiteHeader } from "@/app/components/SiteHeader";
+import Link from 'next/link';
+import './homepage.css';
+import { SiteHeader } from '@/app/components/SiteHeader';
+import { getWriting } from '@/lib/content/writing';
+import { getBrief } from '@/lib/content/briefs';
+import { getFactualHistoryArticles } from '@/lib/content/archive';
+import { getMatchCentre, fixtureTime } from '@/lib/content/match-centre';
+import { selectHomeLead, selectHomeBrief, selectHomeCoverage } from '@/lib/content/homepage';
+import { getHomeLeadOverride } from '@/lib/content/homepage-config';
+import { formatLastUpdated, formatListDate, getArticleExcerpt, getExcerpt } from '@/lib/format';
 
 export const metadata = {
-  description: "Independent Liverpool articles by Denny Regan, a concise news Brief, and the matches, people and seasons from the club’s history.",
-  alternates: { canonical: "/" },
+  description: 'Independent Liverpool articles by Denny Regan, a concise news Brief, and timely match coverage.',
+  alternates: { canonical: '/' },
 };
-// Keep the homepage aligned with /this-week across London's Monday rollover.
-export const dynamic = "force-dynamic";
+// Selection is evaluated on every request, never frozen into a static build.
+export const dynamic = 'force-dynamic';
 
 export default function Home() {
-  const brief = getBrief();
-  const story = brief.stories[0];
-  const { lead, more } = selectHomeWriting(getWriting());
-  const archive = getArchiveFeatures();
-  const factual = archive.filter(article => article.editorialMode === "factual");
-  const featuredMatch = [...factual].filter(article => article.articleType === "match" && article.historicalEventDate)
-    .sort((a, b) => (b.historicalEventDate ?? "").localeCompare(a.historicalEventDate ?? ""))[0];
-  const seasons = getSeasons();
-  const history = selectHomeHistory([
-    ...factual.filter(article => article.articleType !== "season").map(article => ({
-      href: `/archive/${article.slug}`, title: article.title, summary: article.excerpt,
-      kind: article.articleType ?? "other", date: article.date,
-      context: article.historicalEventDate ? formatListDate(article.historicalEventDate) : article.historicalPeriod,
-    })),
-  ]);
-  const labels: Record<string, string> = { match: "Match", player: "Player", manager: "Manager", transfer: "Transfer", season: "Season", competition: "Competition", "club-event": "Club history", other: "History" };
   const now = new Date();
-  const days = getHistoryWindow(getHistoryEvents(), now);
-  const spotlight = selectSeasonSpotlight(seasons, days[0].iso);
-  const feature = getHomeWeekFeature(getArticleWeek(factual, days), getLondonToday(now));
-  const browse = [
-    ...(factual.some(article => article.articleType === "match") ? [{ href: "/history/matches", title: "Matches", text: "The games worth remembering." }] : []),
-    ...(factual.some(article => article.articleType === "player") ? [{ href: "/history/players", title: "Players", text: "The people who wore the shirt." }] : []),
-    ...(seasons.length ? [{ href: "/history/seasons", title: "Seasons", text: "Liverpool’s story, season by season." }] : []),
-    { href: "/history", title: "Managers & eras", text: "Follow the club through each manager’s reign." },
-  ];
-
+  const lead = selectHomeLead(getWriting(), now, getHomeLeadOverride());
+  const brief = selectHomeBrief(getBrief(), now);
+  const coverage = selectHomeCoverage(getMatchCentre(), getFactualHistoryArticles(), now);
   return <>
     <SiteHeader active="home" />
-    <main id="main-content" className="site-width home-page home-editorial">
-      <section className="home-articles" aria-labelledby="home-articles-heading">
-        <div className="home-section-heading"><h2 id="home-articles-heading" className="eyebrow">Featured writing</h2><Link className="read-link" href="/articles">All articles →</Link></div>
-        {lead ? <div className="home-writing">
-          <article className="home-lead">
-            <p className="article-meta"><time dateTime={lead.date}>{formatListDate(lead.date)}</time><span>{lead.category}</span><span>By Denny Regan</span></p>
-            <h1><Link href={lead.href}>{lead.title}</Link></h1>
-            <p className="home-standfirst">{getArticleExcerpt(lead, 300)}</p>
-            <Link className="read-link" href={lead.href}>Read article →</Link>
-          </article>
-          {more.length > 0 && <div className="home-more"><p className="home-aside-label">More to read</p>{more.map(article => <article key={article.href}>
-            <p className="article-meta"><time dateTime={article.date}>{formatListDate(article.date)}</time><span>{article.category}</span></p>
-            <h3><Link href={article.href}>{article.title}</Link></h3>
-            <p className="home-summary">{getArticleExcerpt(article, 150)}</p>
-          </article>)}</div>}
-        </div> : <h1 className="home-empty-title">Independent Liverpool writing</h1>}
+    <main id="main-content" className="site-width home-page home-concise">
+      <section className="home-editorial-lead" aria-labelledby="home-lead-heading">
+        {lead ? <article>
+          <p className="article-meta"><span>{lead.category}</span><time dateTime={lead.date}>{formatListDate(lead.date)}</time><span>By Denny Regan</span></p>
+          <h1 id="home-lead-heading"><Link href={lead.href}>{lead.title}</Link></h1>
+          <p className="home-standfirst">{getExcerpt(getArticleExcerpt(lead), 240)}</p>
+          <Link className="read-link" href={lead.href}>Read article →</Link>
+        </article> : <><h1 id="home-lead-heading">Independent Liverpool writing</h1><Link className="read-link" href="/articles">Browse articles →</Link></>}
       </section>
-
-      {featuredMatch && <section className="home-match-feature" aria-labelledby="home-match-feature-heading">
-        <div className="home-match-feature-copy">
-          <p className="home-match-feature-label">From the match archive</p>
-          <h2 id="home-match-feature-heading"><Link href={`/archive/${featuredMatch.slug}`}>{featuredMatch.title}</Link></h2>
-          <p className="home-match-feature-summary">{getExcerpt(featuredMatch.excerpt, 210)}</p>
-          <Link className="home-match-feature-link" href={`/archive/${featuredMatch.slug}`}>Read the match report <span aria-hidden="true">↗</span></Link>
-        </div>
-        <div className="home-match-feature-index">
-          <p className="home-match-feature-label">Explore the collection</p>
-          <p className="home-match-feature-date">{formatListDate(featuredMatch.historicalEventDate!)}</p>
-          <nav aria-label="Explore Liverpool history"><Link href="/history/matches">Match reports <span aria-hidden="true">→</span></Link><Link href="/history/seasons">Season by season <span aria-hidden="true">→</span></Link><Link href="/history/players">People <span aria-hidden="true">→</span></Link></nav>
-        </div>
+      {coverage && <section className="home-coverage" aria-labelledby="home-coverage-heading">
+        <p className="eyebrow">{coverage.kind === 'preview' ? 'Match preview' : 'Match report'}</p>
+        <h2 id="home-coverage-heading"><Link href={coverage.href}>{coverage.title}</Link></h2>
+        <p className="home-coverage-date"><time dateTime={coverage.fixture.kickoff ?? coverage.fixture.date}>{formatListDate(coverage.fixture.date!)}{coverage.kind === 'preview' ? ` · ${fixtureTime(coverage.fixture)}` : ''}</time></p>
+        <Link className="read-link" href={coverage.href}>{coverage.kind === 'preview' ? 'Read match preview →' : 'Read match report →'}</Link>
       </section>}
-
-      <section className="home-section home-explore" aria-labelledby="home-explore-heading">
-        <div className="home-section-heading"><h2 id="home-explore-heading" className="eyebrow">Explore Liverpool history</h2></div>
-        <div className="home-browse">{browse.map(item => <Link key={item.href} href={item.href}><h3>{item.title}<span aria-hidden="true">↗</span></h3><p>{item.text}</p></Link>)}</div>
-      </section>
-
-      <section className="home-brief" aria-labelledby="home-brief-heading">
-        <div className="home-brief-label"><h2 id="home-brief-heading" className="eyebrow">The Brief</h2><p>Last updated<br /><time dateTime={brief.lastUpdated}>{formatLastUpdated(brief.lastUpdated)}</time></p></div>
-        <div>{story ? <article><h3><Link href="/brief">{story.headline}</Link></h3><p className="home-summary">{getExcerpt(story.summary, 220)}</p></article> : <p className="home-summary">The next briefing will appear here when it is published.</p>}<Link className="read-link" href="/brief">Read the Brief →</Link></div>
-      </section>
-
-      {history.length > 0 && <section className="home-section" aria-labelledby="home-history-heading">
-        <div className="home-section-heading"><h2 id="home-history-heading" className="eyebrow">Latest in History</h2><Link className="read-link" href="/history">Explore history →</Link></div>
-        <div className="home-history-grid">{history.map(item => <article key={item.href}>
-          <p className="article-meta"><span>{labels[item.kind]}</span><span>{item.context}</span></p>
-          <h3><Link href={item.href}>{item.title}</Link></h3>
-          <p className="home-summary">{getExcerpt(item.summary, 180)}</p>
-          <Link className="read-link" href={item.href}>Read story →</Link>
-        </article>)}</div>
+      {brief && <section className="home-brief-compact" aria-labelledby="home-brief-heading">
+        <h2 id="home-brief-heading" className="eyebrow">The Brief</h2>
+        <p className="home-brief-updated">Updated <time dateTime={brief.lastUpdated}>{formatLastUpdated(brief.lastUpdated)}</time></p>
+        <ul>{brief.stories.map(story => <li key={story.headline}>{story.headline}</li>)}</ul>
+        <Link className="read-link" href="/brief">Read the Brief →</Link>
       </section>}
-
-      <div className="home-weekly-features">
-      <section className="home-week" aria-labelledby="home-week-heading">
-        <div><h2 id="home-week-heading" className="eyebrow">This Week in History</h2>{feature && <p className="home-week-date">{feature.day.label}<span>{feature.article.historicalEventDate?.slice(0, 4) ?? feature.article.historicalPeriod}</span></p>}</div>
-        <article>{feature ? <><h3><Link href={`/archive/${feature.article.slug}`}>{feature.article.title}</Link></h3><p className="home-summary">{feature.article.excerpt}</p><div className="home-links"><Link className="read-link" href={`/archive/${feature.article.slug}`}>Read the full story →</Link><Link className="read-link" href="/this-week">Explore this week →</Link></div></> : <><p className="home-summary">No stories selected for this week yet.</p><Link className="read-link" href="/this-week">Explore this week →</Link></>}</article>
-      </section>
-
-      {spotlight && <section className="home-week home-season" aria-labelledby="home-season-heading">
-        <div><h2 id="home-season-heading" className="eyebrow">Season spotlight</h2></div>
-        <article><h3><Link href={`/history/seasons/${spotlight.season}`}>Liverpool {seasonLabel(spotlight.season)}</Link></h3><p className="home-summary">{spotlight.overview[0]}</p><div className="home-links"><Link className="read-link" href={`/history/seasons/${spotlight.season}`}>Explore this season →</Link></div></article>
-      </section>}
-      </div>
-
-
+      <nav className="home-explore-line" aria-label="Explore more">
+        <span>Explore more:</span>{' '}
+        <Link href="/articles">Articles</Link>{' · '}
+        <Link href="/articles?type=analysis">Analysis</Link>{' · '}
+        <Link href="/history">History</Link>{' · '}
+        <Link href="/match-centre">Match Centre</Link>
+      </nav>
     </main>
   </>;
 }

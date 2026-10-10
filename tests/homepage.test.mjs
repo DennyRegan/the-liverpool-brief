@@ -1,56 +1,98 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { selectHomeWriting, selectHomeHistory } from '../lib/content/homepage.ts';
-const item = (kind, date, href) => ({ kind, date, href });
+import { selectHomeLead, selectHomeBrief, selectHomeCoverage, LeadOverrideSchema } from '../lib/content/homepage.ts';
+const at = iso => new Date(iso);
+const now = at('2026-10-10T12:00:00Z');
+const a = { date: '2026-10-10', href: '/articles/a', category: 'Analysis' };
+const b = { date: '2026-10-09', href: '/archive/b', category: 'Opinion' };
+const pin = { href: b.href, startsAt: '2026-10-09T12:00:00Z', expiresAt: '2026-10-11T12:00:00Z' };
+const brief = { status: 'published', lastUpdated: '2026-10-09T12:00:00Z', stories: [{ headline: 'One', summary: '' }, { headline: 'Two', summary: '' }, { headline: 'Three', summary: '' }, { headline: 'Four', summary: '' }] };
+const fixture = { id: 'qa-next', oppositionId: 'everton', competitionId: 'premier-league', side: 'home', date: '2026-10-11', kickoff: '2026-10-11T16:30:00+01:00', status: 'scheduled', sourceIds: ['qa'], preview: { title: 'Approved preview', body: 'Prose stays in Match Centre', updatedAt: '2026-10-09T10:00:00Z', sourceIds: ['qa'] } };
+const completed = { ...fixture, id: 'qa-last', date: '2026-10-09', kickoff: '2026-10-09T20:00:00+01:00', status: 'completed', score: { home: 1, away: 0 }, reportSlug: 'qa-report' };
+const report = { slug: 'qa-report', title: 'Published report', date: '2026-10-09' };
+const coverage = (fixtures, iso, reports = [report]) => selectHomeCoverage({ fixtures }, reports, at(iso));
 
-test('Articles selects across the complete writing collection without a category split', () => {
-  const writing = [item('Opinion', '2026-09-12', '/opinion'), item('Archive', '2026-09-13', '/archive')];
-  const before = [...writing];
-  assert.deepEqual(selectHomeWriting(writing), { lead: writing[1], more: [writing[0]] });
-  assert.deepEqual(writing, before);
-  assert.deepEqual(selectHomeWriting([]), { lead: undefined, more: [] });
+test('lead selects newest Opinion/Analysis deterministically without mutating or admitting History/future writing', () => {
+  const input = [b, { ...a, href: '/articles/z' }, a, { ...a, date: '2026-10-11' }, { ...a, date: '2026-10-10', editorialMode: 'factual', href: '/archive/history' }];
+  const before = structuredClone(input);
+  assert.equal(selectHomeLead(input, now), a); assert.deepEqual(input, before);
+  assert.equal(selectHomeLead([], now), undefined);
+  assert.equal(selectHomeLead([b], at('2027-01-01T12:00:00Z')), b);
 });
-
-test('a season batch cannot fill every History place when other types exist', () => {
-  const seasons = Array.from({ length: 10 }, (_, i) => item('season', '2026-09-14', `/season/${i}`));
-  const match = item('match', '2026-09-13', '/match');
-  const player = item('player', '2026-09-12', '/player');
-  assert.deepEqual(selectHomeHistory([...seasons, match, player]), [seasons[0], match, player]);
+test('lead override starts inclusively, expires exclusively, and falls back for unavailable targets', () => {
+  assert.equal(selectHomeLead([a,b], at(pin.startsAt), pin), b);
+  assert.equal(selectHomeLead([a,b], at(pin.expiresAt), pin), a);
+  assert.equal(selectHomeLead([a,b], now, { ...pin, startsAt: '2026-10-10T12:00:00.001Z' }), a);
+  assert.equal(selectHomeLead([a], now, pin), a);
+  assert.equal(selectHomeLead([a,b], now, { ...pin, href: '/archive/missing' }), a);
+  assert.equal(selectHomeLead([a,b], now, { ...pin, href: '/archive/history' }), a);
 });
-
-test('History fills spare places and breaks same-date ties consistently', () => {
-  const a = item('match', '2026-09-14', '/a');
-  const b = item('match', '2026-09-14', '/b');
-  const c = item('season', '2026-09-13', '/c');
-  assert.deepEqual(selectHomeHistory([b, c, a]), [a, b, c]);
-  assert.deepEqual(selectHomeHistory([]), []);
-  assert.deepEqual(selectHomeHistory([a]), [a]);
+test('override validation rejects malformed, unbounded and reversed selections', () => {
+  assert.ok(LeadOverrideSchema.safeParse(null).success);
+  assert.ok(LeadOverrideSchema.safeParse(pin).success);
+  for (const value of [{ ...pin, expiresAt: '2026-10-20T12:00:00Z' }, { ...pin, expiresAt: pin.startsAt }, { ...pin, href: '/history' }, { href: '/articles/a' }, { ...pin, unknown: true }]) assert.equal(LeadOverrideSchema.safeParse(value).success, false);
 });
-
-import { selectSeasonSpotlight } from '../lib/content/homepage.ts';
-import { getHistoryWindow } from '../lib/content/this-week.ts';
-const seasons = [{ season: '1961-62' }, { season: '1959-60' }, { season: '1960-61' }];
-const spotlightAt = iso => selectSeasonSpotlight(seasons, getHistoryWindow([], new Date(iso))[0].iso);
-
-test('season spotlight stays fixed all week and advances at London Monday midnight', () => {
-  const monday = spotlightAt('2026-09-13T23:00:00Z');
-  assert.equal(monday.season, '1959-60');
-  assert.equal(spotlightAt('2026-09-20T22:59:59Z'), monday);
-  assert.equal(spotlightAt('2026-09-20T23:00:00Z').season, '1960-61');
+test('London midnight determines publication eligibility', () => {
+  assert.equal(selectHomeLead([a], at('2026-10-09T23:00:00Z')), a);
+  assert.equal(selectHomeLead([a], at('2026-10-09T22:59:59Z')), undefined);
 });
-
-test('season rotation visits every published season before repeating without mutating input', () => {
-  const before = [...seasons];
-  assert.equal(selectSeasonSpotlight(seasons, '2026-09-28').season, '1961-62');
-  assert.equal(selectSeasonSpotlight(seasons, '2026-10-05').season, '1959-60');
-  assert.deepEqual(seasons, before);
-  assert.equal(selectSeasonSpotlight([], '2026-09-14'), undefined);
-  assert.equal(selectSeasonSpotlight([seasons[0]], '2026-09-21'), seasons[0]);
+test('Brief caps distinct nonempty headlines at three and preserves evidence timestamp', () => {
+  const result = selectHomeBrief({ ...brief, stories: [{headline:' ',summary:''}, brief.stories[0], {headline:' one ',summary:''}, ...brief.stories.slice(1)] }, now);
+  assert.deepEqual(result.stories.map(s=>s.headline), ['One','Two','Three']); assert.equal(result.lastUpdated, brief.lastUpdated);
 });
-
-test('spotlight respects the 25-hour autumn Sunday and year boundaries', () => {
-  assert.equal(spotlightAt('2026-10-25T23:59:59Z'), spotlightAt('2026-10-19T00:00:00Z'));
-  assert.notEqual(spotlightAt('2026-10-26T00:00:00Z'), spotlightAt('2026-10-25T23:59:59Z'));
-  assert.equal(spotlightAt('2027-01-03T23:59:59Z'), spotlightAt('2026-12-28T00:00:00Z'));
-  assert.notEqual(spotlightAt('2027-01-04T00:00:00Z'), spotlightAt('2027-01-03T23:59:59Z'));
+test('Brief hides empty, unpublished, invalid and future updates', () => {
+  for (const change of [{status:'draft'}, {stories:[]}, {lastUpdated:'nonsense'}, {lastUpdated:'2026-10-10T12:00:01Z'}, {lastUpdated:'2026-10-10'}]) assert.equal(selectHomeBrief({...brief,...change},now),undefined);
+});
+test('Brief expires at exactly 48 elapsed hours including DST changes', () => {
+  assert.ok(selectHomeBrief(brief,at('2026-10-11T11:59:59.999Z')));
+  assert.equal(selectHomeBrief(brief,at('2026-10-11T12:00:00Z')),undefined);
+  const autumn = {...brief,lastUpdated:'2026-10-24T12:00:00+01:00'};
+  assert.ok(selectHomeBrief(autumn,at('2026-10-26T10:59:59Z')));
+  assert.equal(selectHomeBrief(autumn,at('2026-10-26T11:00:00Z')),undefined);
+});
+test('preview opens exactly 48 hours before kick-off and stops at kick-off', () => {
+  assert.equal(coverage([fixture],'2026-10-09T15:29:59.999Z'),undefined);
+  assert.equal(coverage([fixture],'2026-10-09T15:30:00Z').kind,'preview');
+  assert.equal(coverage([fixture],'2026-10-11T15:29:59.999Z').href,'/match-centre#match-preview');
+  assert.equal(coverage([fixture],'2026-10-11T15:30:00Z'),undefined);
+});
+test('preview wins overlap, review remains fallback', () => {
+  assert.equal(coverage([fixture,completed],'2026-10-10T12:00:00Z').kind,'preview');
+  assert.equal(coverage([completed,{...fixture,preview:undefined}],'2026-10-10T12:00:00Z').kind,'review');
+});
+test('postponed/cancelled, missing date/time/coverage and future preview updates cannot qualify', () => {
+  for (const change of [{status:'postponed'}, {status:'cancelled'}, {kickoff:undefined}, {date:undefined,kickoff:undefined}, {preview:undefined}, {preview:{...fixture.preview,updatedAt:'2026-10-11T12:00:00Z'}}]) assert.equal(coverage([{...fixture,...change}],'2026-10-10T12:00:00Z'),undefined);
+});
+test('only selectMatches next fixture can supply the preview anchor', () => {
+  const earlier = {...fixture,id:'earlier',kickoff:'2026-10-11T15:00:00+01:00',preview:undefined};
+  assert.equal(coverage([fixture,earlier],'2026-10-10T12:00:00Z'),undefined);
+});
+test('rescheduling preserves identity and recomputes windows', () => {
+  const moved = {...fixture,date:'2026-10-18',kickoff:'2026-10-18T16:30:00+01:00'};
+  assert.equal(coverage([moved],'2026-10-10T12:00:00Z'),undefined);
+  assert.equal(coverage([moved],'2026-10-17T12:00:00Z').fixture.id,fixture.id);
+});
+test('elapsed scheduled fixtures never become reviews, including delayed results', () => {
+  assert.equal(coverage([{...completed,status:'scheduled'}],'2026-10-10T12:00:00Z'),undefined);
+  assert.equal(coverage([{...completed,status:'postponed'}],'2026-10-10T12:00:00Z'),undefined);
+});
+test('review requires latest completed fixture and available published report', () => {
+  assert.equal(coverage([completed],'2026-10-10T12:00:00Z',[]),undefined);
+  assert.equal(coverage([completed],'2026-10-10T12:00:00Z',[{...report,date:'2026-10-11'}]),undefined);
+  assert.equal(coverage([completed,{...completed,id:'newer',date:'2026-10-10',kickoff:'2026-10-10T10:00:00Z',reportSlug:undefined}],'2026-10-10T12:00:00Z'),undefined);
+  assert.equal(coverage([{...completed,kickoff:undefined}],'2026-10-10T12:00:00Z').href,'/archive/qa-report');
+});
+test('review expires at London midnight after matchday plus two days, not report publication time', () => {
+  assert.ok(coverage([completed],'2026-10-11T22:59:59.999Z'));
+  assert.equal(coverage([completed],'2026-10-11T23:00:00Z'),undefined);
+  assert.equal(coverage([completed],'2026-10-12T12:00:00Z',[{...report,date:'2026-10-12'}]),undefined);
+});
+test('review calendar expiry respects autumn and spring clock changes', () => {
+  for (const [date,before,expiry] of [['2026-10-24','2026-10-26T23:59:59Z','2026-10-27T00:00:00Z'],['2026-03-28','2026-03-30T22:59:59Z','2026-03-30T23:00:00Z']]) {
+    const f={...completed,date,kickoff:undefined}; const reports=[{...report,date}];
+    assert.ok(coverage([f],before,reports)); assert.equal(coverage([f],expiry,reports),undefined);
+  }
+});
+test('duplicate inputs still produce exactly one coverage selection', () => {
+  assert.equal(coverage([fixture,fixture,completed],'2026-10-10T12:00:00Z').kind,'preview');
 });
