@@ -40,7 +40,7 @@ Current-season reading selects exact `season` metadata across Opinion, Analysis 
 
 ## Navigation
 
-Match Centre takes the former top-level This Week slot. `/this-week` remains unchanged and is reachable from History navigation and the homepage. Top level: Home, The Brief, Articles, Match Centre, History, About. Native links, 44px mobile navigation/filter targets, keyboard focus and section anchors are retained.
+Match Centre takes the former top-level This Week slot. `/this-week` remains unchanged and is reachable from History navigation. Top level: Home, The Brief, Articles, Match Centre, History, About. Native links, 44px mobile navigation/filter targets, keyboard focus and section anchors are retained.
 
 ## Seed data and limitations — checked 17 September 2026
 

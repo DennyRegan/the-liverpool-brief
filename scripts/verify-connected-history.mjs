@@ -118,8 +118,8 @@ for (const section of ['matches', 'players']) {
 }
 for (const route of ['/articles', '/articles?category=archive', '/']) {
   const main = mainOf(await get(route));
-  // The homepage now has separate History sections; only its writing section excludes factual History.
-  const writing = route === '/' ? main.match(/<section\b[^>]*aria-labelledby="home-articles-heading"[^>]*>([\s\S]*?)<\/section>/)?.[1] : main;
+  // Timely factual match coverage is separate; the editorial lead excludes factual History.
+  const writing = route === '/' ? main.match(/<section\b[^>]*aria-labelledby="home-lead-heading"[^>]*>([\s\S]*?)<\/section>/)?.[1] : main;
   assert.ok(writing, `${route}: writing section exists`);
   const links = archiveLinks(writing);
   for (const article of approved) assert.ok(!links.includes(article.slug), `${route}: approved History leaves Articles`);

@@ -37,3 +37,7 @@ console.log(`Validated Match Centre ${centre.season}: ${centre.fixtures.length} 
 
 const v3 = getV3Context();
 console.log(`Validated ${getJourneys(process.cwd(), v3).length} guided journeys and ${deriveTimeline(v3).reduce((n, s) => n + s.entries.length, 0)} timeline entries.`);
+
+const { getHomeLeadOverride } = await import('../lib/content/homepage-config.ts');
+getHomeLeadOverride();
+console.log('Validated homepage editorial override.');

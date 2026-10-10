@@ -63,16 +63,14 @@ try {
     assert.match(html, /href="\/history"/, `${route}: History is discoverable`);
   }
   const home = mainOf(await get('/'));
-  // The approved homepage now uses one Articles collection and separate History
-  // and weekly sections; do not resurrect the old Opinion/Archive layout here.
-  const headings = [...home.matchAll(/<h2[^>]*>(.*?)<\/h2>/g)].map(match => match[1].replace(/<[^>]+>/g, '')).filter((_, i) => i !== 1);
-  // The home card appears only on a day with a published history article.
-  assert.deepEqual(headings.filter(heading => heading !== 'This Week in History'), ['Featured writing', 'Explore Liverpool history', 'The Brief', 'Latest in History', 'Season spotlight']);
-  assert.match(home, /id="home-match-feature-heading"/);
-  assert.doesNotMatch(home, /articles\?category=/);
-  assert.match(home, /href="\/articles"/);
-  assert.match(home, /href="\/history\/seasons/);
-  assert.match(home, /href="\/this-week"/);
+  // Home now offers one editorial lead and a compact route into History.
+  assert.match(home, /id="home-lead-heading"/);
+  assert.match(home, /aria-label="Explore more"/);
+  assert.doesNotMatch(home, /Latest in History|This Week in History|Season spotlight|home-match-feature-heading|articles\?category=/);
+  for (const href of ['/articles', '/articles?type=analysis', '/history', '/match-centre']) assert.ok(home.includes(`href="${href}"`));
+  // Season and This Week discovery remains on History rather than Home.
+  assert.match(mainOf(landing), /href="\/history\/seasons"/);
+  assert.match(mainOf(landing), /href="\/this-week"/);
   console.log(`PASS History landing, 16 era pages, 2 invalid routes and ${routes.length} existing routes`);
 } finally {
   if (server.exitCode === null) {
