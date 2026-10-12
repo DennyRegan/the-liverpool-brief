@@ -1,24 +1,41 @@
 ---
 {
-  "lastUpdated": "2026-10-09T17:34:20.000Z",
+  "lastUpdated": "2026-10-12T17:04:28.489Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
     {
-      "headline": "Isak and Gakpo ruled out of City clash; Jacquet fit",
-      "category": "Team news",
-      "summary": "Alexander Isak and Cody Gakpo will miss Liverpool’s Premier League match against Manchester City on Sunday 11 October after suffering thigh and ankle injuries on international duty. Andoni Iraola said on 9 October that neither injury appears long-term. Jérémy Jacquet is fit after missing France’s final match as a precaution. Federico Chiesa has returned to training but may not be ready.",
+      "headline": "Ten-man Liverpool beaten 3–0 by Manchester City",
+      "category": "Match report",
+      "summary": "Liverpool suffered their first Premier League defeat of the season against Manchester City at Anfield on 11 October. Ryan Gravenberch was dismissed for a second booking in the 62nd minute before Erling Haaland, Jérémy Doku and Rayan Cherki scored. Gravenberch will serve a one-match league ban against Brentford on 17 October.",
       "sources": [
         {
           "name": "Liverpool FC — confidence: high",
-          "platform": "Official fitness update, 9 October 2026; quotes Iraola on the injuries, availability and Jacquet’s fitness",
-          "url": "https://www.liverpoolfc.com/news/lfc-fitness-update-alexander-isak-cody-gakpo-federico-chiesa-and-jeremy-jacquet"
+          "platform": "Official match report, 11 October 2026",
+          "url": "https://www.liverpoolfc.com/news/match-report-liverpool-man-city-premier-league-anfield"
+        },
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official suspension confirmation, 11 October 2026",
+          "url": "https://www.liverpoolfc.com/news/ryan-gravenberch-suspended-for-brentford-v-liverpool-premier-league"
         },
         {
           "name": "Reuters — confidence: high",
-          "platform": "Independent report, 9 October 2026; corroborates the players’ absences and quotes Iraola",
-          "url": "https://www.reuters.com/sports/soccer/liverpool-without-isak-gakpo-heavyweight-man-city-clash-2026-10-09/"
+          "platform": "Independent match reporting, 11 October 2026",
+          "url": "https://www.reuters.com/sports/soccer/man-city-silence-hostile-anfield-with-3-0-win-over-liverpool-2026-10-11/"
+        }
+      ]
+    },
+    {
+      "headline": "Ten arrests following Liverpool-City match",
+      "category": "Club news",
+      "summary": "Merseyside Police made 10 arrests in connection with incidents surrounding Sunday’s match at Anfield. Five people were arrested on suspicion of tragedy chanting. A police officer suffered a serious facial injury while making an arrest after the game and was treated in hospital before continuing his recovery at home.",
+      "sources": [
+        {
+          "name": "Reuters — confidence: high",
+          "platform": "Report of Merseyside Police statement, 12 October 2026",
+          "url": "https://www.reuters.com/sports/soccer/crowd-trouble-anfield-leads-arrests-injured-police-officer-2026-10-12/"
         }
       ]
     }
