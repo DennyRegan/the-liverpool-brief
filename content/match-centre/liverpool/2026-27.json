@@ -1,10 +1,9 @@
 {
   "season": "2026-27",
-  "updatedAt": "2026-10-12T00:00:00Z",
+  "updatedAt": "2026-10-12T20:26:04.762Z",
   "fixtures": [
     {
       "id": "2026-27-premier-league-newcastle-united-away",
-      "reportSlug": "newcastle-liverpool-2026-08-23",
       "oppositionId": "newcastle-united",
       "competitionId": "premier-league",
       "side": "away",
@@ -12,18 +11,18 @@
       "date": "2026-08-23",
       "kickoff": "2026-08-23T16:30:00+01:00",
       "status": "completed",
-      "sourceIds": [
-        "schedule",
-        "results"
-      ],
       "score": {
         "home": 2,
         "away": 2
-      }
+      },
+      "reportSlug": "newcastle-liverpool-2026-08-23",
+      "sourceIds": [
+        "schedule",
+        "results"
+      ]
     },
     {
       "id": "2026-27-premier-league-nottingham-forest-home",
-      "reportSlug": "liverpool-nottingham-forest-2026-08-29",
       "oppositionId": "nottingham-forest",
       "competitionId": "premier-league",
       "side": "home",
@@ -31,19 +30,19 @@
       "date": "2026-08-29",
       "kickoff": "2026-08-29T12:30:00+01:00",
       "status": "completed",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "reportSlug": "liverpool-nottingham-forest-2026-08-29",
       "sourceIds": [
         "schedule",
         "results",
         "september"
-      ],
-      "score": {
-        "home": 2,
-        "away": 2
-      }
+      ]
     },
     {
       "id": "2026-27-premier-league-ipswich-town-away",
-      "reportSlug": "ipswich-liverpool-2026-09-04",
       "oppositionId": "ipswich-town",
       "competitionId": "premier-league",
       "side": "away",
@@ -51,40 +50,40 @@
       "date": "2026-09-04",
       "kickoff": "2026-09-04T20:00:00+01:00",
       "status": "completed",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "reportSlug": "ipswich-liverpool-2026-09-04",
       "sourceIds": [
         "schedule",
         "results",
         "september"
-      ],
-      "score": {
-        "home": 0,
-        "away": 2
-      }
+      ]
     },
     {
       "id": "2026-27-european-cup-atletico-madrid-home",
-      "reportSlug": "liverpool-atletico-madrid-2026-09-09",
       "oppositionId": "atletico-madrid",
       "competitionId": "european-cup",
       "side": "home",
       "venue": "Anfield",
+      "round": "League phase",
       "date": "2026-09-09",
       "kickoff": "2026-09-09T20:00:00+01:00",
       "status": "completed",
-      "sourceIds": [
-        "schedule",
-        "scores",
-        "europe"
-      ],
       "score": {
         "home": 2,
         "away": 1
       },
-      "round": "League phase"
+      "reportSlug": "liverpool-atletico-madrid-2026-09-09",
+      "sourceIds": [
+        "schedule",
+        "scores",
+        "europe"
+      ]
     },
     {
       "id": "2026-27-premier-league-fulham-home",
-      "reportSlug": "liverpool-fulham-2026-09-12",
       "oppositionId": "fulham",
       "competitionId": "premier-league",
       "side": "home",
@@ -92,39 +91,39 @@
       "date": "2026-09-12",
       "kickoff": "2026-09-12T15:00:00+01:00",
       "status": "completed",
-      "sourceIds": [
-        "schedule",
-        "results"
-      ],
       "score": {
         "home": 0,
         "away": 0
-      }
+      },
+      "reportSlug": "liverpool-fulham-2026-09-12",
+      "sourceIds": [
+        "schedule",
+        "results"
+      ]
     },
     {
       "id": "2026-27-league-cup-tottenham-hotspur-home",
-      "reportSlug": "liverpool-tottenham-2026-09-15",
       "oppositionId": "tottenham-hotspur",
       "competitionId": "league-cup",
       "side": "home",
       "venue": "Anfield",
+      "round": "Third round",
       "date": "2026-09-15",
       "kickoff": "2026-09-15T20:00:00+01:00",
       "status": "completed",
-      "sourceIds": [
-        "spurs",
-        "spurs-date",
-        "scores"
-      ],
       "score": {
         "home": 3,
         "away": 1
       },
-      "round": "Third round"
+      "reportSlug": "liverpool-tottenham-2026-09-15",
+      "sourceIds": [
+        "spurs",
+        "spurs-date",
+        "scores"
+      ]
     },
     {
       "id": "2026-27-premier-league-bournemouth-away",
-      "reportSlug": "bournemouth-liverpool-2026-09-20",
       "oppositionId": "bournemouth",
       "competitionId": "premier-league",
       "side": "away",
@@ -132,13 +131,14 @@
       "date": "2026-09-20",
       "kickoff": "2026-09-20T14:00:00+01:00",
       "status": "completed",
-      "sourceIds": [
-        "results"
-      ],
       "score": {
         "home": 0,
         "away": 1
-      }
+      },
+      "reportSlug": "bournemouth-liverpool-2026-09-20",
+      "sourceIds": [
+        "results"
+      ]
     },
     {
       "id": "2026-27-premier-league-manchester-city-home",
@@ -149,15 +149,15 @@
       "date": "2026-10-11",
       "kickoff": "2026-10-11T16:30:00+01:00",
       "status": "completed",
-      "sourceIds": [
-        "schedule",
-        "city-match-report"
-      ],
       "score": {
         "home": 0,
         "away": 3
       },
-      "reportSlug": "liverpool-manchester-city-2026-10-11"
+      "reportSlug": "liverpool-manchester-city-2026-10-11",
+      "sourceIds": [
+        "schedule",
+        "city-match-report"
+      ]
     },
     {
       "id": "2026-27-european-cup-lask-away",
@@ -165,14 +165,14 @@
       "competitionId": "european-cup",
       "side": "away",
       "venue": "Raiffeisen Arena",
+      "round": "League phase",
       "date": "2026-10-14",
       "kickoff": "2026-10-14T17:45:00+01:00",
       "status": "scheduled",
       "sourceIds": [
         "schedule",
         "europe"
-      ],
-      "round": "League phase"
+      ]
     },
     {
       "id": "2026-27-premier-league-brentford-away",
@@ -193,14 +193,14 @@
       "competitionId": "european-cup",
       "side": "home",
       "venue": "Anfield",
+      "round": "League phase",
       "date": "2026-10-20",
       "kickoff": "2026-10-20T20:00:00+01:00",
       "status": "scheduled",
       "sourceIds": [
         "schedule",
         "europe"
-      ],
-      "round": "League phase"
+      ]
     },
     {
       "id": "2026-27-premier-league-brighton-hove-albion-home",
@@ -234,14 +234,14 @@
       "competitionId": "european-cup",
       "side": "away",
       "venue": "Sukru Saracoglu Stadium",
+      "round": "League phase",
       "date": "2026-11-04",
       "kickoff": "2026-11-04T17:45:00+00:00",
       "status": "scheduled",
       "sourceIds": [
         "schedule",
         "europe"
-      ],
-      "round": "League phase"
+      ]
     },
     {
       "id": "2026-27-premier-league-crystal-palace-away",
@@ -275,14 +275,14 @@
       "competitionId": "european-cup",
       "side": "away",
       "venue": "Jan Breydel Stadium",
+      "round": "League phase",
       "date": "2026-11-25",
       "kickoff": "2026-11-25T20:00:00+00:00",
       "status": "scheduled",
       "sourceIds": [
         "schedule",
         "europe"
-      ],
-      "round": "League phase"
+      ]
     },
     {
       "id": "2026-27-premier-league-everton-away",
@@ -329,14 +329,14 @@
       "competitionId": "european-cup",
       "side": "home",
       "venue": "Anfield",
+      "round": "League phase",
       "date": "2026-12-09",
       "kickoff": "2026-12-09T20:00:00+00:00",
       "status": "scheduled",
       "sourceIds": [
         "schedule",
         "europe"
-      ],
-      "round": "League phase"
+      ]
     },
     {
       "id": "2026-27-premier-league-leeds-united-home",
@@ -439,14 +439,14 @@
       "competitionId": "european-cup",
       "side": "away",
       "venue": "San Siro",
+      "round": "League phase",
       "date": "2027-01-19",
       "kickoff": "2027-01-19T20:00:00+00:00",
       "status": "scheduled",
       "sourceIds": [
         "schedule",
         "europe"
-      ],
-      "round": "League phase"
+      ]
     },
     {
       "id": "2026-27-premier-league-manchester-united-away",
@@ -467,14 +467,14 @@
       "competitionId": "european-cup",
       "side": "home",
       "venue": "Anfield",
+      "round": "League phase",
       "date": "2027-01-27",
       "kickoff": "2027-01-27T20:00:00+00:00",
       "status": "scheduled",
       "sourceIds": [
         "schedule",
         "europe"
-      ],
-      "round": "League phase"
+      ]
     },
     {
       "id": "2026-27-premier-league-everton-home",
@@ -691,15 +691,15 @@
       "side": "home",
       "venue": "Anfield",
       "round": "Fourth round",
-      "status": "scheduled",
       "dateNote": "Week commencing 26 October; date to be confirmed",
+      "status": "scheduled",
       "sourceIds": [
         "chelsea-cup"
       ]
     }
   ],
   "table": {
-    "asOf": "2026-09-21T13:55:00+01:00",
+    "asOf": "2026-10-12T19:06:00.000Z",
     "sourceIds": [
       "table"
     ],
@@ -707,221 +707,221 @@
       {
         "position": 1,
         "clubId": "manchester-city",
-        "played": 5,
-        "won": 5,
+        "played": 6,
+        "won": 6,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 13,
+        "goalsFor": 16,
         "goalsAgainst": 5,
-        "points": 15
+        "points": 18
       },
       {
         "position": 2,
         "clubId": "arsenal",
-        "played": 5,
-        "won": 4,
+        "played": 6,
+        "won": 5,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 8,
-        "goalsAgainst": 4,
-        "points": 12
+        "goalsFor": 10,
+        "goalsAgainst": 5,
+        "points": 15
       },
       {
         "position": 3,
         "clubId": "brighton-hove-albion",
-        "played": 5,
-        "won": 3,
+        "played": 6,
+        "won": 4,
         "drawn": 1,
         "lost": 1,
-        "goalsFor": 16,
+        "goalsFor": 18,
         "goalsAgainst": 5,
-        "points": 10
+        "points": 13
       },
       {
         "position": 4,
         "clubId": "brentford",
-        "played": 5,
+        "played": 6,
         "won": 2,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 0,
-        "goalsFor": 10,
-        "goalsAgainst": 4,
-        "points": 9
+        "goalsFor": 12,
+        "goalsAgainst": 6,
+        "points": 10
       },
       {
         "position": 5,
-        "clubId": "leeds-united",
-        "played": 5,
+        "clubId": "everton",
+        "played": 6,
         "won": 2,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 3,
-        "points": 9
+        "goalsFor": 8,
+        "goalsAgainst": 5,
+        "points": 10
       },
       {
         "position": 6,
-        "clubId": "liverpool",
-        "played": 5,
-        "won": 2,
-        "drawn": 3,
-        "lost": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 4,
-        "points": 9
+        "clubId": "chelsea",
+        "played": 6,
+        "won": 3,
+        "drawn": 1,
+        "lost": 2,
+        "goalsFor": 15,
+        "goalsAgainst": 13,
+        "points": 10
       },
       {
         "position": 7,
-        "clubId": "everton",
-        "played": 5,
+        "clubId": "leeds-united",
+        "played": 6,
         "won": 2,
         "drawn": 3,
-        "lost": 0,
-        "goalsFor": 6,
-        "goalsAgainst": 3,
+        "lost": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 5,
         "points": 9
       },
       {
         "position": 8,
         "clubId": "hull-city",
-        "played": 5,
+        "played": 6,
         "won": 2,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 1,
-        "goalsFor": 6,
-        "goalsAgainst": 4,
-        "points": 8
+        "goalsFor": 8,
+        "goalsAgainst": 6,
+        "points": 9
       },
       {
         "position": 9,
-        "clubId": "newcastle-united",
-        "played": 5,
+        "clubId": "liverpool",
+        "played": 6,
         "won": 2,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 1,
-        "goalsFor": 9,
-        "goalsAgainst": 9,
-        "points": 8
+        "goalsFor": 7,
+        "goalsAgainst": 7,
+        "points": 9
       },
       {
         "position": 10,
-        "clubId": "chelsea",
-        "played": 5,
+        "clubId": "ipswich-town",
+        "played": 6,
+        "won": 3,
+        "drawn": 0,
+        "lost": 3,
+        "goalsFor": 9,
+        "goalsAgainst": 12,
+        "points": 9
+      },
+      {
+        "position": 11,
+        "clubId": "newcastle-united",
+        "played": 6,
+        "won": 2,
+        "drawn": 2,
+        "lost": 2,
+        "goalsFor": 9,
+        "goalsAgainst": 11,
+        "points": 8
+      },
+      {
+        "position": 12,
+        "clubId": "crystal-palace",
+        "played": 6,
         "won": 2,
         "drawn": 1,
-        "lost": 2,
-        "goalsFor": 10,
+        "lost": 3,
+        "goalsFor": 9,
         "goalsAgainst": 12,
         "points": 7
       },
       {
-        "position": 11,
-        "clubId": "ipswich-town",
-        "played": 5,
-        "won": 2,
-        "drawn": 0,
-        "lost": 3,
-        "goalsFor": 7,
-        "goalsAgainst": 11,
+        "position": 13,
+        "clubId": "manchester-united",
+        "played": 6,
+        "won": 1,
+        "drawn": 3,
+        "lost": 2,
+        "goalsFor": 9,
+        "goalsAgainst": 9,
         "points": 6
       },
       {
-        "position": 12,
-        "clubId": "manchester-united",
-        "played": 5,
-        "won": 1,
-        "drawn": 2,
-        "lost": 2,
-        "goalsFor": 8,
-        "goalsAgainst": 8,
-        "points": 5
-      },
-      {
-        "position": 13,
-        "clubId": "nottingham-forest",
-        "played": 5,
-        "won": 1,
-        "drawn": 2,
-        "lost": 2,
-        "goalsFor": 4,
-        "goalsAgainst": 5,
-        "points": 5
-      },
-      {
         "position": 14,
-        "clubId": "sunderland",
-        "played": 5,
-        "won": 1,
-        "drawn": 1,
-        "lost": 3,
-        "goalsFor": 6,
+        "clubId": "coventry-city",
+        "played": 6,
+        "won": 2,
+        "drawn": 0,
+        "lost": 4,
+        "goalsFor": 3,
         "goalsAgainst": 10,
-        "points": 4
+        "points": 6
       },
       {
         "position": 15,
-        "clubId": "crystal-palace",
-        "played": 5,
+        "clubId": "nottingham-forest",
+        "played": 6,
         "won": 1,
-        "drawn": 1,
-        "lost": 3,
-        "goalsFor": 6,
-        "goalsAgainst": 11,
-        "points": 4
-      },
-      {
-        "position": 16,
-        "clubId": "aston-villa",
-        "played": 5,
-        "won": 1,
-        "drawn": 1,
-        "lost": 3,
-        "goalsFor": 4,
-        "goalsAgainst": 9,
-        "points": 4
-      },
-      {
-        "position": 17,
-        "clubId": "bournemouth",
-        "played": 5,
-        "won": 0,
-        "drawn": 3,
-        "lost": 2,
-        "goalsFor": 6,
-        "goalsAgainst": 8,
-        "points": 3
-      },
-      {
-        "position": 18,
-        "clubId": "coventry-city",
-        "played": 5,
-        "won": 1,
-        "drawn": 0,
-        "lost": 4,
-        "goalsFor": 1,
-        "goalsAgainst": 10,
-        "points": 3
-      },
-      {
-        "position": 19,
-        "clubId": "fulham",
-        "played": 5,
-        "won": 0,
         "drawn": 2,
         "lost": 3,
         "goalsFor": 5,
         "goalsAgainst": 8,
-        "points": 2
+        "points": 5
+      },
+      {
+        "position": 16,
+        "clubId": "aston-villa",
+        "played": 6,
+        "won": 1,
+        "drawn": 2,
+        "lost": 3,
+        "goalsFor": 6,
+        "goalsAgainst": 11,
+        "points": 5
+      },
+      {
+        "position": 17,
+        "clubId": "sunderland",
+        "played": 6,
+        "won": 1,
+        "drawn": 1,
+        "lost": 4,
+        "goalsFor": 6,
+        "goalsAgainst": 12,
+        "points": 4
+      },
+      {
+        "position": 18,
+        "clubId": "bournemouth",
+        "played": 6,
+        "won": 0,
+        "drawn": 3,
+        "lost": 3,
+        "goalsFor": 7,
+        "goalsAgainst": 13,
+        "points": 3
+      },
+      {
+        "position": 19,
+        "clubId": "tottenham-hotspur",
+        "played": 6,
+        "won": 0,
+        "drawn": 3,
+        "lost": 3,
+        "goalsFor": 3,
+        "goalsAgainst": 9,
+        "points": 3
       },
       {
         "position": 20,
-        "clubId": "tottenham-hotspur",
-        "played": 5,
+        "clubId": "fulham",
+        "played": 6,
         "won": 0,
         "drawn": 2,
-        "lost": 3,
-        "goalsFor": 2,
-        "goalsAgainst": 8,
+        "lost": 4,
+        "goalsFor": 6,
+        "goalsAgainst": 10,
         "points": 2
       }
     ]
@@ -1021,7 +1021,7 @@
       "id": "table",
       "label": "Premier League table — Sky Sports",
       "url": "https://www.skysports.com/premier-league-table",
-      "checkedOn": "2026-09-23"
+      "checkedOn": "2026-10-12"
     },
     {
       "id": "city-preview-1",
