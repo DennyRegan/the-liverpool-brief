@@ -8,11 +8,6 @@
 .mc-intro h1 { font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(2.7rem, 6vw, 4.5rem); line-height: 1.08; margin: .6rem 0; }
 .mc-standfirst { font-size: 1.25rem; margin-bottom: 1rem; }
 .mc-note, .mc-competition { color: #605b55; font-size: .85rem; line-height: 1.6; }
-.mc-snapshot { border-block: 1px solid #cfc7bc; margin-top: 2rem; padding: 1.25rem 0; }
-.mc-snapshot h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1rem; }
-.mc-snapshot dl { display: grid; grid-template-columns: repeat(6, 1fr); gap: .75rem; }
-.mc-snapshot dt { font-size: .8rem; color: #605b55; }
-.mc-snapshot dd { font-size: 1.8rem; font-weight: 650; }
 .mc-match-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; border-bottom: 1px solid #cfc7bc; }
 .mc-match { min-width: 0; padding: 2rem 0; }
 .mc-match h2 { font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(1.65rem, 3vw, 2.25rem); line-height: 1.3; margin: .6rem 0 1rem; }
@@ -67,7 +62,6 @@
  .mc-page { padding-top: 1.75rem; }
  .mc-match-pair { grid-template-columns: 1fr; gap: 0; }
  .mc-match + .mc-match { border-top: 1px solid #cfc7bc; }
- .mc-snapshot dl { grid-template-columns: repeat(3, 1fr); }
  .mc-fixture { grid-template-columns: 1fr; gap: .4rem; }
  .mc-fixture-date { display: flex; flex-wrap: wrap; gap: .25rem 1rem; align-items: baseline; }
  .mc-table { font-size: .8rem; }
