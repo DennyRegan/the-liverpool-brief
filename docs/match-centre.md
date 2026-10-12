@@ -78,6 +78,8 @@ After a valid changed candidate, the job runs validation, focused updater tests,
 
 The job shares the existing History publisher's repository-writer concurrency group. It checks that main has not changed while it worked and uses a normal push. A race is rejected rather than rebased/force-pushed; the next scheduled run starts from current main. Scheduled publishing remains inactive on this review branch. Manual workflow dispatch defaults to a dry run; uncheck `dry_run` on reviewed main to force a validated update.
 
+The final publication guard reads NUL-delimited Git porcelain output without trimming status columns. A real-Git regression test covers unstaged/staged table changes and rejects unrelated tracked, untracked or renamed files. This fixes the 12 October diagnosis where trimming the leading status space incorrectly turned `content/...` into `ontent/...` and blocked otherwise valid scheduled updates.
+
 ### Failure behaviour and provenance
 
 Every candidate requires exactly 20 existing clubs and unique positions 1–20; valid integer values and P=W+D+L; GD=GF−GA; Pts=3W+D; whole-league wins/losses, draws and goal totals; position ordering; and no regression in games played or snapshot time. A points adjustment is held for human review. Source times outside the current season or in the future are rejected. The unchanged full content loader validates entity/report references and reconciles Liverpool's complete scores before replacement.
