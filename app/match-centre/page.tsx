@@ -28,7 +28,6 @@ export default function MatchCentrePage() {
   const entities = new Map(getHistoryEntities().map(e => [e.id, e.label]));
   const label = (id: string) => id === 'liverpool' ? 'Liverpool' : entities.get(id)!;
   const competition = (id: string) => id === 'european-cup' ? 'Champions League' : label(id);
-  const row = data.table.rows.find(r => r.clubId === 'liverpool')!;
   const reading = getCurrentSeasonReading(data.season);
   const waitingIds = new Set(waiting.map(f => f.id));
   const months = [...new Set(ordered.map(f => f.date?.slice(0, 7) ?? 'tbc'))];
@@ -56,7 +55,6 @@ export default function MatchCentrePage() {
   }
   return <><SiteHeader active="match-centre" /><main id="main-content" className="site-width mc-page">
     <header className="mc-intro"><p className="eyebrow">Liverpool · Men’s first team · {data.season.replace('-', '–')}</p><h1>Match Centre</h1><p className="mc-standfirst">The season, match by match.</p><p className="mc-note">Updated {updatedLabel(data.updatedAt)}. Verified updates, not live scores. All kick-off times are UK time; fixtures may change.</p></header>
-    <section className="mc-snapshot" aria-label="Premier League season snapshot"><h2>Premier League</h2><dl>{[['Position', row.position], ['Played', row.played], ['Won', row.won], ['Drawn', row.drawn], ['Lost', row.lost], ['Points', row.points]].map(([name, value]) => <div key={name}><dt>{name}</dt><dd>{value}</dd></div>)}</dl><p className="mc-note">Table as of {updatedLabel(data.table.asOf)}</p></section>
     {waiting.length > 0 && <p className="mc-update">Result awaiting an editorial update: {waiting.map(f => `${label(f.oppositionId)} (${dateLabel(f.date!)})`).join('; ')}. See Fixtures &amp; Results below.</p>}
     <div className="mc-match-pair">{card(last, 'Last Match')}{card(next, 'Next Match')}</div>
     {next?.preview && <article id="match-preview" className="mc-preview" aria-labelledby="match-preview-title" tabIndex={-1}>
