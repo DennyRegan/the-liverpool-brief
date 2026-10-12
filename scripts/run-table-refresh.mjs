@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { updateLeagueTable } from './lib/update-league-table.mjs';
+import { assertOnlyTableChanged } from './lib/table-refresh-git.mjs';
 
 const git = (...args) => execFileSync('git', args, { encoding: 'utf8' }).trim();
 const summary = text => { console.log(text); if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${text}\n\n`); };
@@ -20,8 +21,7 @@ try {
     for (const args of [['scripts/validate-history.mjs'], ['--test', 'tests/update-league-table.test.mjs', 'tests/prepare-league-table.test.mjs']]) execFileSync(process.execPath, args, { stdio: 'inherit' });
     for (const args of [['test'], ['run', 'lint'], ['run', 'build']]) execFileSync('npm', args, { stdio: 'inherit' });
     const file = `content/match-centre/liverpool/${result.proposal.season}.json`;
-    const changes = git('status', '--porcelain', '--untracked-files=all').split('\n').filter(Boolean).map(line => line.slice(3));
-    assert.deepEqual(changes, [file], 'Only the current Match Centre register may change');
+    assertOnlyTableChanged(process.cwd(), file);
     git('fetch', 'origin', 'main');
     assert.equal(git('rev-parse', 'origin/main'), base, 'Main changed during checks; retry next run, never overwrite it');
     git('add', '--', file);
