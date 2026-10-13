@@ -1,10 +1,27 @@
 ---
 {
-  "lastUpdated": "2026-10-12T17:04:28.489Z",
+  "lastUpdated": "2026-10-13T17:20:40.512Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
+    {
+      "headline": "Isak, Gakpo and Szoboszlai miss LASK trip",
+      "category": "Team news",
+      "summary": "Alexander Isak, Cody Gakpo and Dominik Szoboszlai will miss Liverpool’s Champions League match at LASK on 14 October. None has resumed group training. Andoni Iraola said they were close to returning but could not confirm when any would be available.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official team news and direct press-conference comments, 13 October 2026",
+          "url": "https://www.liverpoolfc.com/news/lask-v-liverpool-champions-league-team-news"
+        },
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Official travelling squad announcement, 13 October 2026",
+          "url": "https://www.liverpoolfc.com/news/liverpool-travelling-squad-confirmed-champions-league-lask"
+        }
+      ]
+    },
     {
       "headline": "Ten-man Liverpool beaten 3–0 by Manchester City",
       "category": "Match report",
