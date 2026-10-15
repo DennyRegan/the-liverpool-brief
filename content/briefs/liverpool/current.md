@@ -1,58 +1,31 @@
 ---
 {
-  "lastUpdated": "2026-10-13T17:20:40.512Z",
+  "lastUpdated": "2026-10-15T17:01:20.171Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
   "stories": [
     {
-      "headline": "Isak, Gakpo and Szoboszlai miss LASK trip",
-      "category": "Team news",
-      "summary": "Alexander Isak, Cody Gakpo and Dominik Szoboszlai will miss Liverpool’s Champions League match at LASK on 14 October. None has resumed group training. Andoni Iraola said they were close to returning but could not confirm when any would be available.",
-      "sources": [
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official team news and direct press-conference comments, 13 October 2026",
-          "url": "https://www.liverpoolfc.com/news/lask-v-liverpool-champions-league-team-news"
-        },
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official travelling squad announcement, 13 October 2026",
-          "url": "https://www.liverpoolfc.com/news/liverpool-travelling-squad-confirmed-champions-league-lask"
-        }
-      ]
-    },
-    {
-      "headline": "Ten-man Liverpool beaten 3–0 by Manchester City",
+      "headline": "Barcola hat-trick powers Liverpool to 6–3 win at LASK",
       "category": "Match report",
-      "summary": "Liverpool suffered their first Premier League defeat of the season against Manchester City at Anfield on 11 October. Ryan Gravenberch was dismissed for a second booking in the 62nd minute before Erling Haaland, Jérémy Doku and Rayan Cherki scored. Gravenberch will serve a one-match league ban against Brentford on 17 October.",
+      "summary": "Bradley Barcola scored his first Liverpool goals with a hat-trick in a 6–3 Champions League win at LASK on 14 October. Ronald Araujo, Jeremie Frimpong and Lewis Koumas also scored as Liverpool made it two wins from two in the league phase. Koumas’s goal was his first in the competition.",
       "sources": [
         {
           "name": "Liverpool FC — confidence: high",
-          "platform": "Official match report, 11 October 2026",
-          "url": "https://www.liverpoolfc.com/news/match-report-liverpool-man-city-premier-league-anfield"
-        },
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official suspension confirmation, 11 October 2026",
-          "url": "https://www.liverpoolfc.com/news/ryan-gravenberch-suspended-for-brentford-v-liverpool-premier-league"
-        },
-        {
-          "name": "Reuters — confidence: high",
-          "platform": "Independent match reporting, 11 October 2026",
-          "url": "https://www.reuters.com/sports/soccer/man-city-silence-hostile-anfield-with-3-0-win-over-liverpool-2026-10-11/"
+          "platform": "Official match report, 14 October 2026",
+          "url": "https://www.liverpoolfc.com/news/bradley-barcola-hat-trick-lask-liverpool-champions-league-match-report"
         }
       ]
     },
     {
-      "headline": "Ten arrests following Liverpool-City match",
-      "category": "Club news",
-      "summary": "Merseyside Police made 10 arrests in connection with incidents surrounding Sunday’s match at Anfield. Five people were arrested on suspicion of tragedy chanting. A police officer suffered a serious facial injury while making an arrest after the game and was treated in hospital before continuing his recovery at home.",
+      "headline": "Isak, Gakpo and Szoboszlai could return at Brentford",
+      "category": "Team news",
+      "summary": "Andoni Iraola has left open the possibility of Alexander Isak, Cody Gakpo and Dominik Szoboszlai returning against Brentford on 17 October. Liverpool will assess them before deciding, with Friday’s training still to come. None is yet confirmed available.",
       "sources": [
         {
-          "name": "Reuters — confidence: high",
-          "platform": "Report of Merseyside Police statement, 12 October 2026",
-          "url": "https://www.reuters.com/sports/soccer/crowd-trouble-anfield-leads-arrests-injured-police-officer-2026-10-12/"
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Direct comments from pre-Brentford press conference, 15 October 2026",
+          "url": "https://www.liverpoolfc.com/news/fitness-update-andoni-iraola-gakpo-isak-szoboszlai-changes-brentford"
         }
       ]
     }
