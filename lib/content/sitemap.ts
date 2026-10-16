@@ -11,6 +11,7 @@ export function getPublicSitemap(root = process.cwd()): MetadataRoute.Sitemap {
   const experiences = getPublishedExperiences(root);
   const paths = [
     "/", "/about", "/articles", "/brief", "/match-centre", "/this-week", "/search",
+    "/newsletter", "/newsletter/privacy",
     "/history", "/history/matches", "/history/players", "/history/seasons",
     "/history/my-years",
     "/history/opposition", "/history/competitions",

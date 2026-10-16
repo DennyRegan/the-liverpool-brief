@@ -2,6 +2,8 @@
 
 Home preserves the shared masthead, Search link, six navigation links, fonts, colours and footer. Its only content areas, in order, are one editorial lead, optional timely match coverage, an optional compact Brief, and the wrapping `Explore more: Articles · Analysis · History · Match Centre` line. Other reading and History discovery remain available on their existing pages.
 
+The Sunday Brief adds a compact invitation immediately above Explore. It links to `/newsletter`; no form or subscriber processing is added to Home. Until a checked, complete Sender configuration is enabled, the invitation says **Signup opens soon** and links to information rather than claiming readers can subscribe. With valid configuration it shows **Sign up free**. The footer always links to The Sunday Brief. Sender's public form script is loaded only when opening the configured signup page. See [newsletter signup](newsletter-signup.md). Existing timed editorial areas and selection rules below are unchanged.
+
 ## Selection and publication boundaries
 
 `getWriting()` remains the source of published Opinion/Analysis, including legacy canonical `/archive/<slug>` writing. Factual History is excluded. Future publication dates are excluded using today's Europe/London date. Order is publication date descending, then canonical URL ascending. The standfirst is a compact plain-text excerpt; source prose and metadata are never edited. The newest article remains visible beyond 14 days with its actual date and no freshness claim. Without an eligible article, a neutral heading and Articles link appear.

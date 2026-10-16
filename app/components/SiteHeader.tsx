@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function SiteHeader({ active }: { active: "search" | "match-centre" | "home" | "articles" | "brief" | "this-week" | "archive" | "history" | "about" }) {
+export function SiteHeader({ active }: { active?: "search" | "match-centre" | "home" | "articles" | "brief" | "this-week" | "archive" | "history" | "about" }) {
   return (
     <header className="site-header">
       <a href="#main-content" className="skip-link">Skip to content</a>
