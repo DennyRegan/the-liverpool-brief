@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "updatedAt": "2026-10-12T22:10:34.789Z",
+  "updatedAt": "2026-10-16T07:54:43Z",
   "fixtures": [
     {
       "id": "2026-27-premier-league-newcastle-united-away",
@@ -168,11 +168,17 @@
       "round": "League phase",
       "date": "2026-10-14",
       "kickoff": "2026-10-14T17:45:00+01:00",
-      "status": "scheduled",
+      "status": "completed",
       "sourceIds": [
         "schedule",
-        "europe"
-      ]
+        "europe",
+        "lask-match-report"
+      ],
+      "score": {
+        "home": 3,
+        "away": 6
+      },
+      "reportSlug": "lask-liverpool-2026-10-14"
     },
     {
       "id": "2026-27-premier-league-brentford-away",
@@ -1106,6 +1112,12 @@
       "label": "Liverpool FC: Manchester City match report",
       "url": "https://www.liverpoolfc.com/news/match-report-liverpool-man-city-premier-league-anfield",
       "checkedOn": "2026-10-12"
+    },
+    {
+      "id": "lask-match-report",
+      "label": "Liverpool FC: LASK 3–6 Liverpool match report",
+      "url": "https://www.liverpoolfc.com/news/bradley-barcola-hat-trick-lask-liverpool-champions-league-match-report",
+      "checkedOn": "2026-10-16"
     }
   ]
 }

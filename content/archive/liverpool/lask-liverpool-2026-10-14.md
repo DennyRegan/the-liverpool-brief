@@ -1,6 +1,6 @@
 ---
 date: "2026-10-15"
-title: "Barcola's first Liverpool goals come in a hat-trick as Liverpool score six in Linz"
+title: "Barcola opens his Liverpool account with a hat-trick as Reds hit six in Linz"
 historicalEventDate: "2026-10-14"
 historicalPeriod: "14 October 2026"
 decade: "2020s"
@@ -12,7 +12,7 @@ category: "match"
 season: "2026-27"
 oppositionIds: ["lask"]
 competitionIds: ["european-cup"]
-sources: ["https://www.liverpoolfc.com/news/bradley-barcola-hat-trick-lask-liverpool-champions-league-match-report", "https://www.liverpoolfc.com/news/andoni-iraola-post-match-reaction-lask-liverpool-champions-league", "https://www.fotmob.com/en-GB/match/4315081/matchfacts/lask-vs-liverpool", "https://sport.orf.at/stories/3163593/", "https://www.skysportaustria.at/grossteils-sehr-ueberfordert-lask-reaktionen-zum-liverpool-duell/"]
+playerIds: ["jeremie-frimpong", "florian-wirtz"]
 ---
 
 *LASK 3–6 Liverpool · Champions League, league phase · Raiffeisen Arena, Linz · Wednesday 14 October 2026, 5.45pm BST*
@@ -21,34 +21,38 @@ Bradley Barcola went into this game without a goal for Liverpool, and Andoni Ira
 
 ## A one-sided first half
 
-Iraola made several changes. Virgil van Dijk, who had a calf knock after Sunday's game, started on the bench, with Jérémy Jacquet alongside Ronald Araújo. Trey Nyoni and Lewis Koumas both made their first Champions League starts. Kostas Tsimikas played at left-back and Rio Ngumoha started on the left of the attack. The club said this was the third-youngest starting XI in its Champions League history.
+Iraola made four changes. Virgil van Dijk started on the bench, with Jérémy Jacquet alongside Ronald Araújo at centre-back. Trey Nyoni and Lewis Koumas both made their first Champions League starts. Kostas Tsimikas captained the side from left-back and Rio Ngumoha started on the left of the attack. According to the club, this was Liverpool's third-youngest starting XI in the competition.
 
-LASK set up with a back five, but Liverpool soon took control. Koumas had a goal ruled out for offside in the first half, and Liverpool went ahead on 22 minutes when Araújo headed down Tsimikas's out-swinging corner for his first goal for the club. Two minutes later Ngumoha drove into the area and went down, the referee waved away the penalty appeal, and Koumas played the ball quickly to Barcola for a first-time finish.
+LASK set up with a back five, but Liverpool soon took control. Araújo opened the scoring on 22 minutes, heading Tsimikas's outswinging corner down and in for his first goal for the club. Two minutes later, Ngumoha drove into the area and went down under a challenge. The referee waved away the penalty appeal, but Koumas reacted quickly to set up Barcola for a first-time finish.
 
-Ryan Gravenberch hit the woodwork before Barcola scored again before half-time, finishing from close range after a quick exchange with Florian Wirtz. LASK went in 3–0 down. Their goalkeeper, Lukas Jungwirth, said afterwards that LASK had been largely overwhelmed in the first half.
+Koumas then had a goal ruled out for offside and Ryan Gravenberch hit the woodwork. Barcola made it 3–0 before the break, finishing from close range after combining with Florian Wirtz. LASK goalkeeper Lukas Jungwirth said afterwards that his side had been largely overwhelmed in the first half.
 
-## Six, then three
+## Goals at both ends after the break
 
 Dietmar Kühbauer brought on Florian Flecker at half-time. Six minutes after the restart Tsimikas crossed to the back post and Jeremie Frimpong headed in the fourth.
 
-Iraola then replaced both centre-backs at once, bringing on Van Dijk and Joe Gomez for Jacquet and Araújo on 62 minutes. Robert Ljubičić, who had just come on for LASK, scored from close range shortly after Alisson had saved from Kryštof Daněk. Liverpool's response came quickly. Frimpong's low cross gave Barcola a tap-in for his hat-trick on 66 minutes, and six minutes later Frimpong crossed again for Koumas to score his first Champions League goal. Koumas also had a second goal disallowed for offside.
+Koumas had a second goal disallowed for offside before LASK began to threaten. Alisson saved from Kryštof Daněk, but substitute Robert Ljubičić scored from close range around the time Iraola replaced both centre-backs, bringing on Van Dijk and Joe Gomez for Jacquet and Araújo on 62 minutes.
 
-At 6–1 the game appeared to be over, but LASK kept going. Flecker scored twice in quick succession, both from Yvan Dibango crosses, the first of them a diving header on 74 minutes. Liverpool had 26 shots to LASK's 12, according to FotMob, but the hosts' three goals showed how loose Liverpool became after the changes.
+Liverpool's response came quickly. Frimpong's low cross gave Barcola a tap-in to complete his hat-trick on 66 minutes. Six minutes later, Frimpong supplied another cross for Koumas to score his first Champions League goal.
+
+At 6–1 the result was beyond doubt, but LASK kept going. Flecker scored twice in quick succession from Yvan Dibango crosses, the first a diving header on 74 minutes. Liverpool had been dominant for much of the evening, but conceding three times in the final half hour took some of the gloss off the win.
 
 ## What it means
 
 The win adds to September's 2–1 victory over Atlético Madrid and gives Liverpool six points from their first two league-phase matches. LASK, who lost 1–0 at AEK Athens on the first matchday, have no points so far.
 
-The bigger gain for Liverpool may be in attack. With Isak, Gakpo and Szoboszlai absent, the goals came from Barcola, two defenders and a 21-year-old striker. Barcola, signed from Paris Saint-Germain in the summer, had been under scrutiny for his lack of goals.
+The most encouraging part for Liverpool was the spread of the goals. With Isak, Gakpo and Szoboszlai absent, Barcola, two defenders and the 21-year-old Koumas all scored. For Barcola, signed from Paris Saint-Germain in the summer, the hat-trick ended the wait for his first Liverpool goal.
 
 ## The managers
 
-Iraola said he was "really happy for Bradley because you were asking me yesterday about him not making the numbers". He thought Liverpool "attacked really well, especially first half" against a side who "play a back five and there's not a lot of spaces in between", and concluded that "offensively it has been a very complete game".
+Iraola was pleased with Barcola and Wirtz, praising the forward's threat in behind and the midfielder's ability to find space against LASK's back five. He felt Liverpool had attacked particularly well in the first half.
 
-He was candid about the double substitution. "I think there is a reason why managers would never change both centre-backs together," he said. With Brentford away in less than three days, he wanted to rest Araújo and Jacquet, who he said "have been really demanded lately" for club and country, but he accepted that "thinking in today's game, it's not the right thing to do as a manager".
+"Offensively it has been a very complete game," he said.
 
-He said Koumas, who had two goals ruled out before scoring, deserved to "celebrate with the supporters", and called Koumas and Nyoni "first-team players because we trust them".
+He was candid about the double substitution. With Brentford away in less than three days, he had wanted to rest Araújo and Jacquet after a demanding run for club and country. He accepted that changing both centre-backs together had made things harder for Liverpool in this game.
 
-Kühbauer, who had called LASK "clear underdogs" beforehand, did not argue with the result. He said Liverpool were above his side and that LASK had hoped to keep the game open for longer. He said they needed to defend more tightly and described Liverpool's level as a different standard of football. Flecker was more disappointed than pleased with his two goals and said LASK had deserved to lose.
+He was also pleased that Koumas had finally been able to celebrate with the supporters after his two disallowed goals. He stressed that Koumas and Nyoni were trusted members of the first-team squad.
 
-Liverpool go to Brentford on Saturday afternoon and host Villarreal at Anfield on Tuesday. Iraola warned that for that run of games "we will need more than 11, more than 12, more than 13".
+Kühbauer did not argue with the result. In comments reported by Sky Sport Austria, he acknowledged Liverpool's superiority and said LASK had hoped to keep the game open for longer. His side needed to defend more tightly and think more quickly. Flecker was more disappointed than pleased with his two goals and said LASK had deserved to lose.
+
+Liverpool go to Brentford on Saturday afternoon and host Villarreal at Anfield on Tuesday. Iraola said the schedule would require contributions from well beyond his regular starting XI. In Linz, several of those players had given him reason to trust them.
