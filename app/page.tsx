@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import './homepage.css';
 import { SiteHeader } from '@/app/components/SiteHeader';
+import { NewsletterInvitation } from '@/app/components/NewsletterInvitation';
 import { getWriting } from '@/lib/content/writing';
 import { getBrief } from '@/lib/content/briefs';
 import { getFactualHistoryArticles } from '@/lib/content/archive';
@@ -44,6 +45,7 @@ export default function Home() {
         <ul>{brief.stories.map(story => <li key={story.headline}>{story.headline}</li>)}</ul>
         <Link className="read-link" href="/brief">Read the Brief →</Link>
       </section>}
+      <NewsletterInvitation />
       <nav className="home-explore-line" aria-label="Explore more">
         <span>Explore more:</span>{' '}
         <Link href="/articles">Articles</Link>{' · '}

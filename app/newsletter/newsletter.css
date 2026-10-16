@@ -1,0 +1,7 @@
+.newsletter-page > .eyebrow { color: var(--accent); margin-bottom: 16px; }
+.newsletter-page > .standfirst { margin-bottom: 24px; }
+.newsletter-help { font-size: 15px; line-height: 1.7; margin-block: 18px; overflow-wrap: anywhere; }
+.newsletter-help a { color: var(--accent); text-decoration: underline; }
+.newsletter-form { width: 100%; min-height: 280px; background: var(--background); }
+.newsletter-form .sender-form-field { max-width: 100%; }
+.newsletter-help:empty { display: none; }
