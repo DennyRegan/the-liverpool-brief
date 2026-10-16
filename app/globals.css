@@ -122,6 +122,9 @@ button { cursor: pointer; }
 .article-body th, .article-body td { border: 1px solid var(--line); padding: 10px 14px; text-align: left; }
 .article-body th { background: #efece5; }
 .article-body hr { border-color: var(--line); margin: 32px 0; }
+.article-chart { display: block; margin: 32px 0 16px; }
+.article-chart img { display: block; width: 100%; height: auto; }
+.article-body p:has(> .article-chart) + p { font-family: var(--font-geist-sans), Arial, sans-serif; font-size: 14px; line-height: 1.6; color: var(--muted); }
 .read-next { border-top: 1px solid var(--foreground); margin-top: 50px; padding-top: 24px; }
 .read-next a { display: block; font-family: var(--font-source-serif), Georgia, serif; font-size: 23px; line-height: 1.35; padding-top: 22px; }
 .about-page > .eyebrow { color: var(--accent); margin-bottom: 20px; }

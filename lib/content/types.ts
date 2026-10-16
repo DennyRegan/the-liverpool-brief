@@ -70,6 +70,9 @@ export const ArticleSchema = ArchiveFeatureSchema.pick({
 }).extend({
     title: z.string(), date: z.iso.date(), slug: HistoryIdSchema,
     category: z.enum(["Opinion", "Analysis"]).default("Opinion"),
+    seoTitle: z.string().min(1).optional(),
+    tags: z.array(z.string().min(1)).optional(),
+    researchCutoff: z.iso.date().optional(),
     excerpt: z.string().optional(), sources: z.array(z.string()).optional(),
     whatMatters: z.array(z.string()).optional(), body: z.string(),
 });

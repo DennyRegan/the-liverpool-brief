@@ -1,5 +1,5 @@
 import { analysisConnections } from '@/lib/content/analysis';
-import { socialMetadata } from '@/lib/social-metadata';
+import { articleMetadata } from '@/lib/social-metadata';
 import { getMatchCentre } from '@/lib/content/match-centre';
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -30,7 +30,7 @@ export async function generateMetadata({
 
   const description = getArticleExcerpt(article);
 
-  return socialMetadata(article.title, description, `/articles/${article.slug}`);
+  return articleMetadata(article, description);
 }
 
 export default async function ArticlePage({
@@ -62,9 +62,18 @@ export default async function ArticlePage({
         <p className="text-sm text-gray-500 mb-8">
           By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">{article.category}</span>
         </p>
+        {article.researchCutoff && <p className="text-sm text-gray-500 mb-8">Research checked to {formatLongDate(article.researchCutoff)}.</p>}
 
         <div className="article-body">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{article.body}</ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]} components={{
+            img: ({ src, alt, title }) => {
+              const chart = typeof src === 'string' && src.startsWith('/images/analysis/bundesliga/') && src.endsWith('.png');
+              return <picture className={chart ? 'article-chart' : undefined}>
+                {chart && <source media="(max-width: 600px)" srcSet={src.replace(/\.png$/, '_mobile.png')} />}
+                <img src={src} alt={alt ?? ''} title={title} loading="lazy" decoding="async" />
+              </picture>;
+            },
+          }}>{article.body}</ReactMarkdown>
         </div>
 
         {article.whatMatters && article.whatMatters.length > 0 && (
