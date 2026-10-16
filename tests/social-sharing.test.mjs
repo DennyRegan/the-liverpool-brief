@@ -1,7 +1,28 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { socialMetadata } from '../lib/social-metadata.ts';
+import { socialMetadata, articleMetadata } from '../lib/social-metadata.ts';
+import { ArticleSchema } from '../lib/content/types.ts';
+
+test('article publication metadata preserves the canonical slug and separate editorial headline', () => {
+  const article = ArticleSchema.parse({
+    title: 'The editorial headline', seoTitle: 'The search headline', date: '2026-10-16',
+    slug: 'bundesliga-tax-premier-league-analysis', category: 'Analysis',
+    tags: ['Bundesliga', 'Florian Wirtz'], researchCutoff: '2026-10-16', body: 'Article text.',
+  });
+  const result = articleMetadata(article, 'The supplied excerpt.');
+  assert.equal(result.title, 'The search headline');
+  assert.equal(result.description, 'The supplied excerpt.');
+  assert.equal(result.alternates.canonical, '/articles/bundesliga-tax-premier-league-analysis');
+  assert.equal(result.openGraph.type, 'article');
+  assert.equal(result.openGraph.publishedTime, '2026-10-16');
+  assert.equal(result.openGraph.section, 'Analysis');
+  assert.deepEqual(result.openGraph.tags, article.tags);
+  assert.deepEqual(result.authors, [{ name: 'Denny Regan' }]);
+  assert.equal(article.title, 'The editorial headline');
+  assert.equal(ArticleSchema.safeParse({ ...article, researchCutoff: '16/10/2026' }).success, false);
+  assert.equal(articleMetadata({ ...article, seoTitle: undefined }, '').title, article.title);
+});
 
 test('shared stories have consistent canonical, Open Graph and large X cards', () => {
   const result = socialMetadata('A Liverpool headline', 'A concise summary.', '/articles/example');
