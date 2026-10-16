@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "updatedAt": "2026-10-16T07:54:43Z",
+  "updatedAt": "2026-10-16T08:06:29Z",
   "fixtures": [
     {
       "id": "2026-27-premier-league-newcastle-united-away",
@@ -185,13 +185,32 @@
       "oppositionId": "brentford",
       "competitionId": "premier-league",
       "side": "away",
-      "venue": "Brentford Community Stadium",
+      "venue": "Gtech Community Stadium",
       "date": "2026-10-17",
       "kickoff": "2026-10-17T15:00:00+01:00",
       "status": "scheduled",
       "sourceIds": [
-        "schedule"
-      ]
+        "schedule",
+        "brentford-preview-hosts"
+      ],
+      "preview": {
+        "title": "Liverpool face unbeaten Brentford with Gravenberch suspended and three fitness doubts",
+        "body": "*Brentford v Liverpool · Premier League · Gtech Community Stadium · Saturday 17 October 2026, 3pm BST*\n\nLiverpool return to the Premier League less than 72 hours after scoring six in Linz, but the win at LASK does not alter the league picture. They are ninth, with nine points from six games, and travel to one of only three unbeaten sides in the division. Ryan Gravenberch is suspended, while Andoni Iraola is still assessing whether Alexander Isak, Cody Gakpo and Dominik Szoboszlai can return.\n\n## Where the sides stand\n\nBrentford are fourth on 10 points, one ahead of Liverpool, after two wins and four draws. Both victories came at home by a 3–0 scoreline, against Tottenham in August and Chelsea in September.\n\nLast Saturday they drew 2–2 at Aston Villa. Yehor Yarmoliuk gave them an early lead before Kristoffer Ajer's late equaliser secured a point. Keith Andrews' side remain unbeaten in all competitions.\n\nLiverpool have won two, drawn three and lost one of their six league games. Sunday's 3–0 defeat by Manchester City was their first loss of the season and left them nine points behind the leaders. Bradley Barcola's hat-trick helped bring an emphatic response at LASK, although conceding three times in the final half hour took some of the gloss off that 6–3 win.\n\n## Team news\n\nGravenberch serves a one-match league ban after his dismissal for two bookings against City. Isak, Gakpo and Szoboszlai have missed the last two matches with injuries sustained on international duty. Speaking on Thursday, Iraola said their availability was still being assessed before Friday's training.\n\n\"I leave the chance open this time, yes,\" he said.\n\nHugo Ekitike and Conor Bradley remain long-term absentees. Giovanni Leoni's recovery from his knee injury is taking longer than expected, with Iraola now looking towards the November international break for a return to first-team training.\n\nBrentford also have concerns over Kevin Schade and Jannik Schuster. Schade went off with a shoulder injury at Villa Park, while Schuster was replaced at half-time after an ankle problem. Their availability for Saturday remains uncertain.\n\nThere has been progress elsewhere. Mathias Jensen returned as a substitute against Villa, and Sepp van den Berg was among the unused substitutes. Before that match, Andrews said Nathan Collins was moving closer to a return. Antoni Milambo and Josh Dasilva missed the Villa game, while Kaye Furo was recovering from foot surgery. Their availability for Saturday has not been confirmed.\n\n## The hosts\n\nBrentford have conceded six league goals. Their official preview notes that opponents have averaged 14.5 shots a game, but fewer than 7% of those attempts have gone in. Former Liverpool goalkeeper Caoimhín Kelleher is part of that defensive record and is set to face his old club again.\n\nIraola praised Brentford's organisation and consistency, describing a well-coached side with a clear approach. He expects Liverpool to be ready for a physical contest as well as the hosts' ability on the ball.\n\n## Previous meetings\n\nBrentford won 3–2 when the sides last met at the Gtech in October 2025. Dango Ouattara, Schade and Igor Thiago scored for the hosts. The return fixture finished 1–1 at Anfield on the final day of last season.\n\n## What Iraola said\n\nWith Villarreal at Anfield on Tuesday, Iraola expects to make changes again. The short gaps between games mean he will need contributions from across the squad.\n\nLewis Koumas, who scored his first Champions League goal at LASK, is earning his playing time, Iraola said. He also praised Rio Ngumoha's growing comfort on the right and described Barcola's midweek hat-trick as remarkable, while stressing that it is still early in his Liverpool career.\n\n## The questions\n\nThe first is midfield. Gravenberch's suspension leaves Iraola with a decision over who partners Alexis Mac Allister, particularly if Szoboszlai is not ready.\n\nThe second is how much Liverpool can ask of the injured trio. Isak has scored three of their seven league goals, but none of the three had been cleared to return when Iraola spoke on Thursday.\n\nThe third is whether Liverpool can carry Wednesday's attacking fluency into a tighter league contest. Brentford have had a full week to prepare, have yet to lose this season and took four points from these meetings last term. Liverpool will need more than the confidence of six goals in Austria.",
+        "updatedAt": "2026-10-16T08:06:29Z",
+        "sourceIds": [
+          "brentford-preview-fitness",
+          "brentford-preview-bbc",
+          "brentford-preview-hosts",
+          "brentford-preview-villa",
+          "brentford-preview-injuries",
+          "brentford-preview-villa-team",
+          "brentford-preview-suspension",
+          "brentford-preview-availability",
+          "brentford-preview-anfield",
+          "brentford-preview-spurs",
+          "table"
+        ]
+      }
     },
     {
       "id": "2026-27-european-cup-villarreal-home",
@@ -1117,6 +1136,66 @@
       "id": "lask-match-report",
       "label": "Liverpool FC: LASK 3–6 Liverpool match report",
       "url": "https://www.liverpoolfc.com/news/bradley-barcola-hat-trick-lask-liverpool-champions-league-match-report",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "brentford-preview-fitness",
+      "label": "Liverpool FC: Iraola on Gakpo, Isak and Szoboszlai",
+      "url": "https://www.liverpoolfc.com/news/fitness-update-andoni-iraola-gakpo-isak-szoboszlai-changes-brentford",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "brentford-preview-bbc",
+      "label": "BBC Sport via AOL: Iraola pre-Brentford press conference",
+      "url": "https://www.aol.com/articles/iraola-injured-trio-ngumoha-versatility-123721000.html",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "brentford-preview-hosts",
+      "label": "Brentford FC: Liverpool match preview",
+      "url": "https://www.brentfordfc.com/en/news/match-previews-brentford-v-liverpool-premier-league-17-10-2026",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "brentford-preview-villa",
+      "label": "Brentford FC: Aston Villa 2–2 Brentford report",
+      "url": "https://www.brentfordfc.com/en/news/match-reports-aston-villa-2-brentford-2-premier-league-10-10-2026",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "brentford-preview-injuries",
+      "label": "Brentford FC: Schade and Schuster injury update",
+      "url": "https://www.brentfordfc.com/en/news/first-team-keith-andrews-kevin-schade-jannik-schuster-injury-update-brentford",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "brentford-preview-villa-team",
+      "label": "Brentford FC: team news before Aston Villa",
+      "url": "https://www.brentfordfc.com/en/news/first-team-news-aston-villa-v-brentford-premier-league-10-10-2026",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "brentford-preview-suspension",
+      "label": "Liverpool FC: Gravenberch suspended at Brentford",
+      "url": "https://www.liverpoolfc.com/news/ryan-gravenberch-suspended-for-brentford-v-liverpool-premier-league",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "brentford-preview-availability",
+      "label": "Liverpool FC: injury list and availability",
+      "url": "https://www.liverpoolfc.com/news/liverpools-injury-list-suspensions-and-availability",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "brentford-preview-anfield",
+      "label": "Brentford FC: Liverpool 1–1 Brentford, May 2026",
+      "url": "https://www.brentfordfc.com/en/news/match-reports-liverpool-1-brentford-1-kevin-schade-premier-league-24-05-2026",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "brentford-preview-spurs",
+      "label": "Brentford FC: opening-day 3–0 win over Tottenham",
+      "url": "https://www.brentfordfc.com/en/news/match-reports-brentford-3-tottenham-hotspur-0-premier-league-22-08-2026",
       "checkedOn": "2026-10-16"
     }
   ]
