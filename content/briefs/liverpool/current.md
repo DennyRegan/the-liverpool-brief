@@ -1,6 +1,6 @@
 ---
 {
-  "lastUpdated": "2026-10-15T17:01:20.171Z",
+  "lastUpdated": "2026-10-16T17:52:59.350Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
@@ -26,6 +26,23 @@
           "name": "Liverpool FC — confidence: high",
           "platform": "Direct comments from pre-Brentford press conference, 15 October 2026",
           "url": "https://www.liverpoolfc.com/news/fitness-update-andoni-iraola-gakpo-isak-szoboszlai-changes-brentford"
+        }
+      ]
+    },
+    {
+      "headline": "Leoni’s training return pushed back to November",
+      "category": "Team news",
+      "summary": "Giovanni Leoni is now expected to resume team training during November’s international break, around a month later than planned. Andoni Iraola said Liverpool were proceeding carefully because the defender’s knee injury involved damage beyond his ACL. He described the revised timetable as a delay rather than a setback.",
+      "sources": [
+        {
+          "name": "Liverpool FC — confidence: high",
+          "platform": "Direct comments from Iraola explaining the revised rehabilitation timetable, 15 October 2026",
+          "url": "https://www.liverpoolfc.com/news/andoni-iraola-gives-update-on-giovanni-leoni-rehabilitation-progress"
+        },
+        {
+          "name": "The Guardian — confidence: high",
+          "platform": "Corroborating press-conference reporting, 15 October 2026",
+          "url": "https://www.theguardian.com/football/2026/oct/15/giovanni-leonis-return-from-injury-delayed-in-fresh-blow-to-liverpool"
         }
       ]
     }
