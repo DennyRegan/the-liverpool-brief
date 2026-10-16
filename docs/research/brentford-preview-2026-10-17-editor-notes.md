@@ -35,3 +35,19 @@ All sources below were retrieved on 16 October 2026. Confidence applies to the s
 Calendar/content validation passed, including the existing preview schema and source references. All 240 tests passed. Full lint passed with the existing unused-variable warning in `tests/interactive-history-rendering.test.mjs`; production build and its TypeScript check passed.
 
 A production server preview confirmed the full article, italic fixture line, section headings, existing reading layout, no article source list/research notes, Next Match anchor, homepage preview link and preserved LASK report. A focused raw-data comparison confirmed the table snapshot and every other fixture remain unchanged, LASK stays completed and linked, and Brentford stays scheduled with no result. `git diff --check` passed. Publication is authorised by Denny's message in this task; live status is checked after deployment.
+
+## Evening factual refresh — 16 October 2026
+
+- **High — Brentford FC match preview (same canonical URL above), retrieved again this evening:** the team-news section now includes Andrews' pre-Liverpool press conference. Schade and Schuster have been on grass this week, but their availability remains unconfirmed. Andrews describes Van den Berg, Damsgaard and Collins as closer to returning. Furo (metatarsal surgery) remains sidelined and Dasilva (hamstring) has not featured. Updated only the two opposition injury paragraphs; did not infer full team training or clearance to play. The page's displayed 14 October label is not treated as an exact update time.
+- **High — Liverpool FC fitness update (same canonical URL above), retrieved again:** still reports Thursday's uncertainty over Gakpo, Isak and Szoboszlai. No verified clearance to play; existing wording retained.
+- **High — both clubs' current fixture listings/previews:** Brentford v Liverpool remains scheduled for Saturday 17 October, 15:00 BST at Gtech Community Stadium. No retrieved announcement of postponement.
+- Preserved Denny's approved preview, stable fixture ID, canonical destination, source IDs and all unrelated content. Older pre-Villa Milambo information was removed rather than presented as current team news.
+- UNVERIFIED: final availability of the doubtful players; omit any assertion that they have passed fitness tests or will start.
+
+### Match Centre checks and correction
+
+- **High — Liverpool FC:** https://www.liverpoolfc.com/news/liverpool-v-chelsea-carabao-cup-fixture-details-confirmed — explicitly confirms Wednesday 28 October 2026, 20:00 GMT, at Anfield. Retrieved 16 October. Cross-checked **High — Chelsea FC:** https://www.chelseafc.com/en/news/article/date-and-kick-off-time-for-liverpool-carabao-cup-tie-confirmed — same date, venue and 20:00 kick-off. Replaced the stale week-commencing/TBC on the existing League Cup fixture; retained its stable ID and original draw source.
+- **High — Liverpool FC official LASK report, re-read:** existing 3–6 away result, report link and scorers agree; no change.
+- **High — Sky Sports full table, retrieved by curl and passed through the unchanged updateLeagueTable parser/guards:** all 20 clubs unchanged, no result imports needed. Retained actual table asOf 12 October 2026 19:44 UTC and source checkedOn; no timestamp-only table update. Node direct fetch initially failed; using the retrieved HTML through the parser's existing fetcher interface succeeded without bypassing any checks.
+
+Evening verification: all 248 tests passed; lint passed with the existing unused-variable warning; production build and Match Centre integration route checks passed. The full table parser reported no changes. Homepage production-route checks passed, including the canonical preview destination. Initial restricted-process Git test failures were resolved by rerunning with the process permissions the test fixtures require; no test or publication guards were changed.
