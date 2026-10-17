@@ -8,13 +8,14 @@ import { ArticleSchema } from '../lib/content/types.ts';
 import { getArticles } from '../lib/content/articles.ts';
 import { getArticleCollection, matchContext } from '../lib/content/match-writing.ts';
 import { selectHomeCoverage, selectHomeLead } from '../lib/content/homepage.ts';
-import { getTestMatchCentre } from './fixtures/league-table.mjs';
+import { getTestMatchCentre, excludeUnrelatedMatchArticles } from './fixtures/league-table.mjs';
 
 function withContent(run) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'match-writing-'));
   try {
     fs.cpSync('content', path.join(root, 'content'), { recursive: true });
     const data = getTestMatchCentre();
+    excludeUnrelatedMatchArticles(root, data);
     for (const fixture of data.fixtures) { delete fixture.preview; delete fixture.briefing; }
     fs.writeFileSync(path.join(root, 'content/match-centre/liverpool/current.json'), JSON.stringify({ season: data.season }));
     const save = () => fs.writeFileSync(path.join(root, `content/match-centre/liverpool/${data.season}.json`), JSON.stringify(data));

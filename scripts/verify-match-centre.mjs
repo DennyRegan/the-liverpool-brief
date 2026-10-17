@@ -9,6 +9,7 @@ import { once } from 'node:events';
 import matter from 'gray-matter';
 import { getMatchCentre } from '../lib/content/match-centre.ts';
 import { getFactualHistoryArticles } from '../lib/content/archive.ts';
+import { excludeUnrelatedMatchArticles } from '../tests/fixtures/league-table.mjs';
 const root=fs.mkdtempSync(path.join(os.tmpdir(),'liverpool-match-centre-'));
 for(const name of ['app','lib','content','public','scripts','package.json','package-lock.json','next.config.ts','tsconfig.json','postcss.config.mjs','next-env.d.ts'])fs.cpSync(name,path.join(root,name),{recursive:true});
 fs.symlinkSync(path.join(process.cwd(),'node_modules'),path.join(root,'node_modules'),'dir');
@@ -29,15 +30,8 @@ try {
  const upcoming={id:'qa-next',oppositionId:'bournemouth',competitionId:'premier-league',side:'away',venue:'Vitality Stadium',date:matchDate,status:'scheduled',sourceIds:['schedule'],briefing:{updatedAt:data.updatedAt,points:['Temporary verified briefing for integration QA.'],sourceIds:['september']}};
  upcoming.preview={title:'Temporary next-match preview',body:'## Team news\n\nVerified preview prose for integration QA.',updatedAt:data.updatedAt,sourceIds:['september']};
  completed.preview={title:'Earlier completed-match preview',body:'Preserved older preview prose.',updatedAt:data.updatedAt,sourceIds:['scores']};
- // The copied public articles may explicitly reference fixtures removed by this
- // synthetic register. Clear only those references in the disposable copy;
- // dedicated fixtures below exercise the actual reference validation/rendering.
- for (const filename of fs.readdirSync(path.join(root,'content/articles/liverpool'))) {
-   const target=path.join(root,'content/articles/liverpool',filename);
-   const parsed=matter(fs.readFileSync(target,'utf8'));
-   if(parsed.data.fixtureId){delete parsed.data.fixtureId;fs.writeFileSync(target,matter.stringify(parsed.content,parsed.data));}
- }
  data.fixtures=[completed,upcoming];
+ excludeUnrelatedMatchArticles(root,data);
  const own=data.table.rows.find(r=>r.clubId==='liverpool');Object.assign(own,{played:0,won:0,drawn:0,lost:0,goalsFor:0,goalsAgainst:0,points:0});
  fs.writeFileSync(path.join(root,'content/match-centre/liverpool/current.json'),JSON.stringify({season}));
  fs.writeFileSync(path.join(root,`content/match-centre/liverpool/${season}.json`),JSON.stringify(data));
@@ -45,7 +39,7 @@ try {
  fs.writeFileSync(path.join(root,'content/archive/liverpool/qa-current-report.md'),matter.stringify('Temporary factual record for QA.',report));
  const match=getFactualHistoryArticles().find(a=>a.articleType==='match'&&a.season==='1987-88');
  for(const a of [{slug:'qa-analysis-history',title:'Temporary historical investigation',season:'1987-88',playerIds:['john-barnes'],managerIds:['kenny-dalglish'],competitionIds:['first-division'],relatedMatches:[match.slug]},{slug:'qa-analysis-current',title:'Temporary current investigation',season}])fs.writeFileSync(path.join(root,`content/articles/liverpool/${a.slug}.md`),matter.stringify('Temporary analysis for verification.',{...a,date:today,category:'Analysis'}));
- for(const [fixture,category,slug] of [[upcoming,'Preview','qa-article-preview'],[completed,'Match report','qa-article-report']]) {
+ for(const [fixture,category,slug] of [[upcoming,'Preview','qa-article-preview'],[completed,'Match report','qa-article-report'],[completed,'Opinion','qa-article-opinion']]) {
    fs.writeFileSync(path.join(root,`content/articles/liverpool/${slug}.md`),matter.stringify('Preserved ordinary match article prose.',{title:`Temporary ${category} headline`,slug,date:today,season,category,fixtureId:fixture.id,historicalEventDate:fixture.date}));
  }
  server=spawn(process.execPath,['scripts/dev.mjs','--webpack','--hostname','127.0.0.1','--port','3156'],{cwd:root,stdio:['ignore','pipe','pipe']});
@@ -73,7 +67,7 @@ try {
  const reports=await get('/articles?type=match-report');assert.match(reports,/qa-article-report/);assert.ok(!reports.includes('qa-article-preview'));
  for(const suffix of ['toString','__proto__','unknown','opinion&type=analysis']) await get(`/articles?type=${suffix}`);
  for(const slug of ['qa-article-preview','qa-article-report']) {const detail=await get(`/articles/${slug}`);assert.match(detail,/Preserved ordinary match article prose/);assert.match(detail,/article-match-context/);}
- const opinion=await get('/articles/isak-delivers-when-liverpool-need-him-brentford');assert.match(opinion,/Opinion/);assert.doesNotMatch(opinion,/Follow .*in Match Centre/);
+ const opinion=await get('/articles/qa-article-opinion');assert.match(opinion,/Opinion/);assert.doesNotMatch(opinion,/Follow .*in Match Centre/);
  const analysis=await get('/articles?type=analysis');assert.match(analysis,/qa-analysis-history/);assert.match(analysis,/qa-analysis-current/);assert.ok(!analysis.includes('why-are-liverpool-being-written-off'));
  assert.ok(!(await get('/articles?type=opinion')).includes('qa-analysis-'));
  assert.ok(!(await get('/history/matches')).includes('/archive/qa-analysis-'));

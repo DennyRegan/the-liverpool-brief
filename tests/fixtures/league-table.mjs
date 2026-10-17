@@ -1,9 +1,26 @@
 import fs from 'node:fs';
+import path from 'node:path';
+import matter from 'gray-matter';
 import { MatchCentreSchema } from '../../lib/content/match-centre.ts';
 
 // Historical regression data must not advance when the live register refreshes.
 export function getTestMatchCentre() {
   return MatchCentreSchema.parse(JSON.parse(fs.readFileSync(new URL('./match-centre-september-2026.json', import.meta.url), 'utf8')));
+}
+
+// A frozen/synthetic register cannot validate unrelated later public reports.
+// Exclude those manuscripts only from the disposable copy; test writing is added
+// afterwards and still exercises the normal strict reference validation.
+export function excludeUnrelatedMatchArticles(root, register) {
+  const directory = path.join(root, 'content/articles/liverpool');
+  for (const filename of fs.readdirSync(directory).filter(name => name.endsWith('.md'))) {
+    const target = path.join(directory, filename);
+    const { data } = matter(fs.readFileSync(target, 'utf8'));
+    if (!data.fixtureId || data.season !== register.season) continue;
+    const fixture = register.fixtures.find(item => item.id === data.fixtureId);
+    if (!fixture || (data.category === 'Match report' && fixture.status !== 'completed') ||
+        (data.historicalEventDate && data.historicalEventDate !== fixture.date)) fs.unlinkSync(target);
+  }
 }
 
 export function skyTable(rows, updated = '12 October, 1:55pm') {

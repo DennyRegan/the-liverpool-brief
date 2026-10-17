@@ -16,7 +16,7 @@ Prepared from `origin/main` at `2a3eb55` on `feature/writing-first-publication`,
 
 ## Content safety and editorial review
 
-The only changed public manuscript field is the explicit fixtureId added to `isak-delivers-when-liverpool-need-him-brentford.md`. Its headline, Opinion category, publication/event dates, excerpt, sources, body and URL are unchanged. Its body was compared exactly with main; SHA-256 `c65031e5dfff06f28fd3d1a7a4a2038ce9741212214f497d925e9de556a50efe`.
+The only changed public manuscript fields are fixtureId and category in `isak-delivers-when-liverpool-need-him-brentford.md`. Denny explicitly corrected its classification to Match report on 17 October 2026. Its headline, publication/event dates, excerpt, sources, body and URL are unchanged. Its body was compared exactly with main; SHA-256 `c65031e5dfff06f28fd3d1a7a4a2038ce9741212214f497d925e9de556a50efe`.
 
 No article body, fixture/table register, Archive schema, entity ID, season relationship, editorial calendar, draft, source or canonical URL is deleted, rewritten, moved or duplicated. No new journalism is authored. Earlier articles without explicit fixture metadata retain their existing presentation; no associations are guessed from headlines. New current reporting uses the existing Article source, while the legacy preview is a projection of its original source.
 
@@ -39,6 +39,7 @@ Reviewed the current project instructions, `docs/connected-history.md`, `docs/se
 
 - Calendar/content validation passed: 739 calendar entries, 242 Archive associations, 67 Season records and 23 ordinary Articles files.
 - Full tests: 254/254 passed, including match-reference validation, publication boundaries, season rollover, score ordering, preview/update semantics, article deduplication and homepage expiry.
+- Brentford category correction: homepage, Match reports inclusion, Opinion exclusion, article and Search labels, canonical URL and exact body preservation verified on the rebuilt local preview. The open Match reports tab was refreshed and visibly shows Match report.
 - Lint: no errors; one existing unused `getPublishedExperience` warning in `tests/interactive-history-rendering.test.mjs:12`.
 - Production build: passed, including TypeScript.
 - Updated rendered-page checks passed: Articles filters, typed preview/report details, ordinary and legacy canonical links, duplicate exclusion, expired/absent writing states, homepage destinations, Search with 419 canonical destinations, 67 Season pages, 16 managerial-era pages and existing History links.

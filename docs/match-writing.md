@@ -6,9 +6,10 @@ Current match coverage belongs in the existing Articles collection, with All, Op
 
 New current previews/reports use `content/articles/liverpool/<slug>.md` and the existing `/articles/<slug>` route. Use `category: Preview` or `category: Match report`, plus explicit `season` and `fixtureId`. These two fields are required for those categories. Opinion and Analysis may also add the reference while retaining their original category. A reaction piece does not become a factual report simply because it discusses a match.
 
-For example, the existing Brentford Opinion retains its exact title, date, category, sources, prose and URL, adding only:
+The Brentford article is classified as Match report at Denny’s explicit direction on 17 October 2026. Its title, dates, sources, prose and URL remain unchanged. Its match metadata is:
 
 ```yaml
+category: "Match report"
 season: "2026-27"
 fixtureId: "2026-27-premier-league-brentford-away"
 ```

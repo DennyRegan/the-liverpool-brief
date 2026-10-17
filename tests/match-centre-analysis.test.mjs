@@ -13,10 +13,10 @@ import { getExplorations } from '../lib/content/exploration.ts';
 import { selectHomeLead } from '../lib/content/homepage.ts';
 import { getWriting } from '../lib/content/writing.ts';
 import { getCurrentSeasonReading } from '../lib/content/match-writing.ts';
-import { getTestMatchCentre } from './fixtures/league-table.mjs';
+import { getTestMatchCentre, excludeUnrelatedMatchArticles } from './fixtures/league-table.mjs';
 const now = new Date('2026-09-17T12:00:00Z');
 const fixture = (extra={}) => ({id:'fixture',oppositionId:'everton',competitionId:'premier-league',side:'home',date:'2026-09-20',kickoff:'2026-09-20T14:00:00+01:00',status:'scheduled',sourceIds:['schedule'],...extra});
-function withContent(fn) { const root=fs.mkdtempSync(path.join(os.tmpdir(),'match-centre-test-')); try { fs.cpSync('content',path.join(root,'content'),{recursive:true}); const seed=getTestMatchCentre(); fs.writeFileSync(path.join(root,'content/match-centre/liverpool/current.json'),JSON.stringify({season:seed.season})); saveCentre(root,seed); return fn(root); } finally {fs.rmSync(root,{recursive:true,force:true});} }
+function withContent(fn) { const root=fs.mkdtempSync(path.join(os.tmpdir(),'match-centre-test-')); try { fs.cpSync('content',path.join(root,'content'),{recursive:true}); const seed=getTestMatchCentre(); excludeUnrelatedMatchArticles(root,seed); fs.writeFileSync(path.join(root,'content/match-centre/liverpool/current.json'),JSON.stringify({season:seed.season})); saveCentre(root,seed); return fn(root); } finally {fs.rmSync(root,{recursive:true,force:true});} }
 const seasonFile=root=>path.join(root,'content/match-centre/liverpool/2026-27.json');
 const saveCentre=(root,data)=>fs.writeFileSync(seasonFile(root),JSON.stringify(data));
 const writeArticle=(root,a)=>{const {body,...meta}=a;fs.writeFileSync(path.join(root,'content/articles/liverpool',a.slug+'.md'),matter.stringify(body,meta));};
