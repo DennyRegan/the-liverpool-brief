@@ -2,10 +2,10 @@ import Link from 'next/link';
 import './homepage.css';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { NewsletterInvitation } from '@/app/components/NewsletterInvitation';
-import { getWriting } from '@/lib/content/writing';
+import { getArticleCollection, matchContext } from '@/lib/content/match-writing';
 import { getBrief } from '@/lib/content/briefs';
 import { getFactualHistoryArticles } from '@/lib/content/archive';
-import { getMatchCentre, fixtureTime } from '@/lib/content/match-centre';
+import { getMatchCentre } from '@/lib/content/match-centre';
 import { selectHomeLead, selectHomeBrief, selectHomeCoverage } from '@/lib/content/homepage';
 import { getHomeLeadOverride } from '@/lib/content/homepage-config';
 import { formatLastUpdated, formatListDate, getArticleExcerpt, getExcerpt } from '@/lib/format';
@@ -19,16 +19,19 @@ export const dynamic = 'force-dynamic';
 
 export default function Home() {
   const now = new Date();
-  const lead = selectHomeLead(getWriting(), now, getHomeLeadOverride());
+  const writing = getArticleCollection();
+  const lead = selectHomeLead(writing, now, getHomeLeadOverride());
   const brief = selectHomeBrief(getBrief(), now);
-  const coverage = selectHomeCoverage(getMatchCentre(), getFactualHistoryArticles(), now);
+  const selectedCoverage = selectHomeCoverage(getMatchCentre(), getFactualHistoryArticles(), now, writing);
+  const coverage = selectedCoverage?.href === lead?.href ? undefined : selectedCoverage;
   return <>
     <SiteHeader active="home" />
     <main id="main-content" className="site-width home-page home-concise">
       <section className="home-editorial-lead" aria-labelledby="home-lead-heading">
         {lead ? <article>
-          <p className="article-meta"><span>{lead.category}</span><time dateTime={lead.date}>{formatListDate(lead.date)}</time><span>By Denny Regan</span></p>
           <h1 id="home-lead-heading"><Link href={lead.href}>{lead.title}</Link></h1>
+          <p className="article-meta"><span>{lead.category}</span><time dateTime={lead.date}>{formatListDate(lead.date)}</time>{lead.byline && <span>By {lead.byline}</span>}</p>
+          {lead.matchContext && <p className="article-match-context">{lead.matchContext}</p>}
           <p className="home-standfirst">{getExcerpt(getArticleExcerpt(lead), 240)}</p>
           <Link className="read-link" href={lead.href}>Read article →</Link>
         </article> : <><h1 id="home-lead-heading">Independent Liverpool writing</h1><Link className="read-link" href="/articles">Browse articles →</Link></>}
@@ -36,7 +39,7 @@ export default function Home() {
       {coverage && <section className="home-coverage" aria-labelledby="home-coverage-heading">
         <p className="eyebrow">{coverage.kind === 'preview' ? 'Match preview' : 'Match report'}</p>
         <h2 id="home-coverage-heading"><Link href={coverage.href}>{coverage.title}</Link></h2>
-        <p className="home-coverage-date"><time dateTime={coverage.fixture.kickoff ?? coverage.fixture.date}>{formatListDate(coverage.fixture.date!)}{coverage.kind === 'preview' ? ` · ${fixtureTime(coverage.fixture)}` : ''}</time></p>
+        <p className="home-coverage-date">{matchContext(coverage.fixture, coverage.kind === 'review')}</p>
         <Link className="read-link" href={coverage.href}>{coverage.kind === 'preview' ? 'Read match preview →' : 'Read match report →'}</Link>
       </section>}
       {brief && <section className="home-brief-compact" aria-labelledby="home-brief-heading">
@@ -50,8 +53,7 @@ export default function Home() {
         <span>Explore more:</span>{' '}
         <Link href="/articles">Articles</Link>{' · '}
         <Link href="/articles?type=analysis">Analysis</Link>{' · '}
-        <Link href="/history">History</Link>{' · '}
-        <Link href="/match-centre">Match writing</Link>
+        <Link href="/history">History</Link>
       </nav>
     </main>
   </>;

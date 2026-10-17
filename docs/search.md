@@ -6,7 +6,8 @@ Search is reached through the small **Search** link beside the masthead byline. 
 
 `lib/search/build-index.ts` derives a search projection only from existing public loaders:
 
-- Articles: Opinion and Analysis at `/articles/<slug>`.
+- Articles: Opinion, Analysis, Preview and Match report at `/articles/<slug>`.
+- Already-public legacy previews/briefings, indexed once at their original `/match-centre` page. This is written content, not the removed fixture/table utility.
 - Public Archive writing: factual historical matches, player/manager biographies, club history and other public Archive types at their existing `/archive/<slug>` URLs. Non-factual public Archive writing retains its Opinion placement.
 - Published structured Season records, with overview, events, transfers and canonical people/competitions.
 - Existing managerial eras.

@@ -69,11 +69,18 @@ export const ArticleSchema = ArchiveFeatureSchema.pick({
     locationIds: true, themeIds: true, relatedMatches: true,
 }).extend({
     title: z.string(), date: z.iso.date(), slug: HistoryIdSchema,
-    category: z.enum(["Opinion", "Analysis"]).default("Opinion"),
+    category: z.enum(["Opinion", "Analysis", "Preview", "Match report"]).default("Opinion"),
+    // Explicit reference to a sourced fixture; never infer this from article prose.
+    fixtureId: HistoryIdSchema.optional(),
     seoTitle: z.string().min(1).optional(),
     tags: z.array(z.string().min(1)).optional(),
     researchCutoff: z.iso.date().optional(),
     excerpt: z.string().optional(), sources: z.array(z.string()).optional(),
     whatMatters: z.array(z.string()).optional(), body: z.string(),
+}).superRefine((article, ctx) => {
+    if ((article.category === "Preview" || article.category === "Match report") && (!article.season || !article.fixtureId)) {
+        ctx.addIssue({ code: "custom", message: "Previews and match reports require season and fixtureId" });
+    }
+    if (article.fixtureId && !article.season) ctx.addIssue({ code: "custom", message: "fixtureId requires its canonical season" });
 });
 export type Article = z.infer<typeof ArticleSchema>;

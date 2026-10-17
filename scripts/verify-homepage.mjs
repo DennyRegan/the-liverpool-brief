@@ -31,16 +31,18 @@ try {
   const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1];
   assert.ok(main, 'homepage has a main content landmark');
   assert.equal((main.match(/<h1[ >]/g) || []).length, 1, 'one lead heading');
-  const { getWriting } = await import('../lib/content/writing.ts');
+  const { getArticleCollection } = await import('../lib/content/match-writing.ts');
   const { getBrief } = await import('../lib/content/briefs.ts');
   const { getMatchCentre } = await import('../lib/content/match-centre.ts');
   const { getFactualHistoryArticles } = await import('../lib/content/archive.ts');
   const { getHomeLeadOverride } = await import('../lib/content/homepage-config.ts');
   const { selectHomeLead, selectHomeBrief, selectHomeCoverage } = await import('../lib/content/homepage.ts');
   const now = new Date();
-  const lead = selectHomeLead(getWriting(), now, getHomeLeadOverride());
+  const writing = getArticleCollection();
+  const lead = selectHomeLead(writing, now, getHomeLeadOverride());
   const brief = selectHomeBrief(getBrief(), now);
-  const coverage = selectHomeCoverage(getMatchCentre(), getFactualHistoryArticles(), now);
+  const selectedCoverage = selectHomeCoverage(getMatchCentre(), getFactualHistoryArticles(), now, writing);
+  const coverage = selectedCoverage?.href === lead?.href ? undefined : selectedCoverage;
   assert.equal((main.match(/<section\b/g) ?? []).length, 1 + Number(Boolean(brief)) + Number(Boolean(coverage)), 'only eligible areas render');
   assert.equal(main.includes('id="home-brief-heading"'), Boolean(brief));
   assert.equal(main.includes('id="home-coverage-heading"'), Boolean(coverage));
@@ -54,7 +56,7 @@ try {
     assert.equal((block.match(/href="\/brief"/g) ?? []).length, 1);
   }
   assert.doesNotMatch(main, /More to read|From the match archive|Latest in History|This Week in History|Season spotlight|home-browse|articles\?category=/);
-  for (const href of ['/articles', '/articles?type=analysis', '/history', '/match-centre']) assert.ok(main.includes(`href="${href}"`));
+  for (const href of ['/articles', '/articles?type=analysis', '/history']) assert.ok(main.includes(`href="${href}"`));
   assert.match(main, /aria-label="Explore more"/);
   assert.match(html, /href="\/search"/);
   const links = new Set([...main.matchAll(/href="([^"]+)"/g)].map(match => match[1].replaceAll('&amp;', '&')));

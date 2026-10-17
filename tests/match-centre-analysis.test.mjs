@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
 import matter from 'gray-matter';
-import { MatchCentreSchema, FixtureSchema, getMatchCentre, selectMatches, fixtureTime, getCurrentSeasonReading } from '../lib/content/match-centre.ts';
+import { MatchCentreSchema, FixtureSchema, getMatchCentre, selectMatches, fixtureTime } from '../lib/content/match-centre.ts';
 import { ArticleSchema } from '../lib/content/types.ts';
 import { getArticles } from '../lib/content/articles.ts';
 import { getContextAnalysis, analysisConnections } from '../lib/content/analysis.ts';
@@ -12,6 +12,7 @@ import { getFactualHistoryArticles } from '../lib/content/archive.ts';
 import { getExplorations } from '../lib/content/exploration.ts';
 import { selectHomeLead } from '../lib/content/homepage.ts';
 import { getWriting } from '../lib/content/writing.ts';
+import { getCurrentSeasonReading } from '../lib/content/match-writing.ts';
 import { getTestMatchCentre } from './fixtures/league-table.mjs';
 const now = new Date('2026-09-17T12:00:00Z');
 const fixture = (extra={}) => ({id:'fixture',oppositionId:'everton',competitionId:'premier-league',side:'home',date:'2026-09-20',kickoff:'2026-09-20T14:00:00+01:00',status:'scheduled',sourceIds:['schedule'],...extra});
@@ -88,7 +89,7 @@ test('report links require a published factual match with exact fixture relation
  assert.ok(getCurrentSeasonReading(data.season,root).some(a=>a.href===`/archive/${slug}`&&a.category==='Match report'));
  f.competitionId='league-cup';saveCentre(root,data);assert.throws(()=>getMatchCentre(root),/published and match/);
 }));
-test('Analysis and Opinion are the only article categories, with shared canonical metadata validation',()=>{
+test('existing article categories retain shared canonical metadata validation',()=>{
  assert.equal(ArticleSchema.parse(analysis({category:undefined})).category,'Opinion');assert.equal(ArticleSchema.safeParse(analysis({category:'Tactical Analysis'})).success,false);
  assert.equal(ArticleSchema.safeParse(analysis({season:'1987/88'})).success,false);
  withContent(root=>{writeArticle(root,analysis({playerIds:['invented-person']}));assert.throws(()=>getArticles(root),/canonical person/);});

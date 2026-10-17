@@ -1,6 +1,6 @@
 import { analysisConnections } from '@/lib/content/analysis';
 import { articleMetadata } from '@/lib/social-metadata';
-import { getMatchCentre } from '@/lib/content/match-centre';
+import { articleMatchContext } from '@/lib/content/match-writing';
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -46,7 +46,7 @@ export default async function ArticlePage({
     notFound();
   }
   const connections = analysisConnections(article);
-  const currentSeason = getMatchCentre().season;
+  const match = articleMatchContext(article);
   return (
     <div className="min-h-screen">
       <SiteHeader active="articles" />
@@ -62,6 +62,7 @@ export default async function ArticlePage({
         <p className="text-sm text-gray-500 mb-8">
           By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">{article.category}</span>
         </p>
+        {match && <p className="article-match-context">{match}</p>}
         {article.researchCutoff && <p className="text-sm text-gray-500 mb-8">Research checked to {formatLongDate(article.researchCutoff)}.</p>}
 
         <div className="article-body">
@@ -105,7 +106,6 @@ export default async function ArticlePage({
             </ol>
           </div>
         )}
-        {article.season === currentSeason && <p className="article-context"><Link href="/match-centre">Follow {currentSeason.replace("-", "–")} in Match Centre →</Link></p>}
         {connections.length > 0 && <nav className="article-context" aria-label="Connected reading"><h2>Explore the context</h2><ul role="list">{connections.map(link => <li key={link.href}><Link href={link.href}>{link.label} →</Link></li>)}</ul></nav>}
         <aside className="read-next"><p className="eyebrow">Keep reading</p>{getArticles().filter(item => item.slug !== article.slug).slice(0, 2).map(item => <Link key={item.slug} href={`/articles/${item.slug}`}>{item.title} <span aria-hidden="true">↗</span></Link>)}</aside>
       </main>

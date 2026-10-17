@@ -3,7 +3,8 @@ import ReactMarkdown from 'react-markdown';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { socialMetadata } from '@/lib/social-metadata';
 import { getHistoryEntities } from '@/lib/content/entities';
-import { getMatchCentre, selectMatches, getCurrentSeasonReading, type Fixture, type MatchCentre } from '@/lib/content/match-centre';
+import { getMatchCentre, selectMatches, type Fixture, type MatchCentre } from '@/lib/content/match-centre';
+import { getCurrentSeasonReading, matchContext } from '@/lib/content/match-writing';
 import { formatLongDate, formatLastUpdated, getArticleExcerpt } from '@/lib/format';
 import './match-centre.css';
 
@@ -16,8 +17,9 @@ function MatchWriting({ fixture, data, headingId, opposition }: {
 }) {
   const sourceIds = new Set([...(fixture.preview?.sourceIds ?? []), ...(fixture.briefing?.sourceIds ?? [])]);
   return <article id={headingId} className="mc-preview" aria-labelledby={`${headingId}-title`} tabIndex={-1}>
-    <p className="eyebrow">{fixture.preview ? 'Match preview' : 'Match briefing'}{fixture.date && <> · <time dateTime={fixture.date}>{formatLongDate(fixture.date)}</time></>}</p>
     <h2 id={`${headingId}-title`}>{fixture.preview?.title ?? `Liverpool v ${opposition}: match briefing`}</h2>
+    <p className="eyebrow">{fixture.preview ? 'Preview' : 'Match briefing'}</p>
+    <p className="article-match-context">{matchContext(fixture, false)}</p>
     {fixture.preview && <>
       <p className="mc-note">Updated {formatLastUpdated(fixture.preview.updatedAt)}</p>
       <ReactMarkdown skipHtml components={{ h1: ({ children }) => <h3>{children}</h3>, h2: ({ children }) => <h3>{children}</h3> }}>{fixture.preview.body}</ReactMarkdown>
@@ -43,8 +45,8 @@ export default function MatchWritingPage() {
     Number(b.id === next?.id) - Number(a.id === next?.id) ||
     (b.date ?? '').localeCompare(a.date ?? '') || a.id.localeCompare(b.id));
   const reading = getCurrentSeasonReading(data.season);
-  return <><SiteHeader /><main id="main-content" className="site-width mc-page">
-    <header className="mc-intro"><p className="eyebrow">Liverpool · {data.season.replace('-', '–')}</p><h1>Match writing</h1><p className="mc-standfirst">Previews, briefings and reading from this season.</p></header>
+  return <><SiteHeader active="articles" /><main id="main-content" className="site-width mc-page">
+    <Link className="read-link" href="/articles">← Articles</Link><header className="mc-intro"><p className="eyebrow">Liverpool · {data.season.replace('-', '–')}</p><h1>Match writing</h1><p className="mc-standfirst">Previews, briefings and reading from this season.</p></header>
     {writing.length > 0 && <nav className="mc-jump" aria-label="Match writing sections"><a href="#match-preview">Previews and briefings</a>{reading.length > 0 && <a href="#season-reading">This season’s writing</a>}</nav>}
     {writing.map((fixture, index) => <MatchWriting key={fixture.id} fixture={fixture} data={data} headingId={index === 0 ? 'match-preview' : `writing-${fixture.id}`} opposition={names.get(fixture.oppositionId)!} />)}
     {writing.length === 0 && <p className="mc-note">Published match previews and briefings will appear here. Browse <Link href="/articles">Articles</Link> and <Link href="/history/matches">historical match reports</Link> for more reading.</p>}
