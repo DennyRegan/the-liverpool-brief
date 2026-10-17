@@ -14,7 +14,7 @@ export type LeadOverride = z.infer<typeof LeadOverrideSchema>;
 type Writing = { date: string; href: string; category: string; editorialMode?: string };
 export function selectHomeLead<T extends Writing>(writing: T[], now: Date, override: LeadOverride = null) {
   const today = getLondonToday(now);
-  const eligible = [...writing].filter(a => ['Opinion', 'Analysis'].includes(a.category) && a.editorialMode !== 'factual' && a.date <= today)
+  const eligible = [...writing].filter(a => ['Opinion', 'Analysis', 'Match report'].includes(a.category) && a.editorialMode !== 'factual' && a.date <= today)
     .sort((a, b) => b.date.localeCompare(a.date) || a.href.localeCompare(b.href));
   const pinned = override && Date.parse(override.startsAt) <= now.getTime() && now.getTime() < Date.parse(override.expiresAt)
     ? eligible.find(a => a.href === override.href) : undefined;
@@ -45,14 +45,25 @@ function addDays(iso: string, days: number) {
   return date.toISOString().slice(0, 10);
 }
 type Report = { slug: string; date: string; title: string };
-export function selectHomeCoverage<T extends Report>(data: Pick<MatchCentre, 'fixtures'>, reports: T[], now: Date) {
+type MatchWriting = { date: string; title: string; href: string; category: string; fixtureId?: string; season?: string };
+export function selectHomeCoverage<T extends Report>(data: Pick<MatchCentre, 'fixtures'> & { season?: string }, reports: T[], now: Date, writing: MatchWriting[] = []) {
   const { next, last } = selectMatches(data, now);
   const today = getLondonToday(now);
+  const eligible = [...writing].filter(article => article.date <= today && (!data.season || article.season === data.season))
+    .sort((a,b) => b.date.localeCompare(a.date) || a.href.localeCompare(b.href));
+  // Legacy stored previews retain their exact updatedAt guard in the fallback.
+  const preview = next && eligible.find(article => article.category === 'Preview' && article.fixtureId === next.id && article.href.startsWith('/articles/'));
+  if (preview && next.kickoff) {
+    const untilKickoff = Date.parse(next.kickoff) - now.getTime();
+    if (untilKickoff > 0 && untilKickoff <= 48 * HOUR) return { kind: 'preview' as const, fixture: next, title: preview.title, href: preview.href };
+  }
   if (next?.preview && next.kickoff && Date.parse(next.preview.updatedAt) <= now.getTime()) {
     const untilKickoff = Date.parse(next.kickoff) - now.getTime();
     if (untilKickoff > 0 && untilKickoff <= 48 * HOUR) return { kind: 'preview' as const, fixture: next, title: next.preview.title, href: '/match-centre#match-preview' };
   }
-  if (last?.date && last.reportSlug && last.date <= today && today < addDays(last.date, 3)) {
+  if (last?.date && last.date <= today && today < addDays(last.date, 3)) {
+    const currentReport = eligible.find(article => article.category === 'Match report' && article.fixtureId === last.id);
+    if (currentReport) return { kind: 'review' as const, fixture: last, title: currentReport.title, href: currentReport.href };
     const report = reports.find(a => a.slug === last.reportSlug && a.date <= today);
     if (report) return { kind: 'review' as const, fixture: last, title: report.title, href: `/archive/${report.slug}` };
   }

@@ -6,7 +6,8 @@ Search is reached through the small **Search** link beside the masthead byline. 
 
 `lib/search/build-index.ts` derives a search projection only from existing public loaders:
 
-- Articles: Opinion and Analysis at `/articles/<slug>`.
+- Articles: Opinion, Analysis, Preview and Match report at `/articles/<slug>`.
+- Already-public legacy previews/briefings, indexed once at their original `/match-centre` page. This is written content, not the removed fixture/table utility.
 - Public Archive writing: factual historical matches, player/manager biographies, club history and other public Archive types at their existing `/archive/<slug>` URLs. Non-factual public Archive writing retains its Opinion placement.
 - Published structured Season records, with overview, events, transfers and canonical people/competitions.
 - Existing managerial eras.
@@ -39,6 +40,6 @@ npm start -- --hostname 127.0.0.1 --port 3155
 BASE_URL=http://127.0.0.1:3155 node scripts/verify-search.mjs
 ```
 
-The verifier checks all requested example terms, partial/case searches, result ordering, canonical links, no duplicates, empty/no-result states, pagination, shared Search links and server tracing. Tests verify title/entity/body ranking and absence of editorial drafts and held interactive content. Review at narrow mobile and desktop widths, tab through the Search form/results and confirm the league table scrolls within its own labelled region.
+The verifier checks all requested example terms, partial/case searches, result ordering, canonical links, no duplicates, empty/no-result states, pagination, shared Search links and server tracing. Tests verify title/entity/body ranking and absence of editorial drafts and held interactive content. Review at narrow mobile and desktop widths, tab through the Search form/results and confirm the match-writing page has no fixture, score or table widgets.
 
-Optional browser checks use an isolated install of `playwright` and `@axe-core/playwright`; they are not production dependencies. Set `TABLE_SEARCH_BROWSER_TOOLS` to that directory, then run `BASE_URL=http://127.0.0.1:3155 node scripts/verify-table-search-browser.mjs`. Screenshots and results go to ignored `.table-search-checks`, or the directory specified by `TABLE_SEARCH_BROWSER_OUTPUT`. The script checks widths 320/390/768/1280, keyboard/table scrolling, visible statistics beside the pinned team column, form submission, empty/no-results and Search without JavaScript, with axe checks of the changed table region and Search main landmark. A wider Match Centre scan also found an existing heading-order gap in the fixture list; that unrelated markup is left outside this feature's scope.
+Optional browser checks use an isolated install of `playwright` and `@axe-core/playwright`; they are not production dependencies. Set `TABLE_SEARCH_BROWSER_TOOLS` to that directory, then run `BASE_URL=http://127.0.0.1:3155 node scripts/verify-table-search-browser.mjs`. Screenshots and results go to ignored `.table-search-checks`, or the directory specified by `TABLE_SEARCH_BROWSER_OUTPUT`. The script checks widths 320/390/768/1280, match writing without data widgets, page overflow, keyboard use, form submission, empty/no-results and Search without JavaScript, with axe checks of Match writing and Search main landmarks. The legacy script/environment-variable names remain for compatibility.

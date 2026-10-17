@@ -269,3 +269,9 @@ Run `npm test`, `npm run lint`, `npm run build`, the existing verification scrip
 ## Automatic History articles — narrow exception
 
 After Denny’s final activation approval, completed technically ready biographies and historical matches explicitly in the automatic queue may publish under the narrow authority documented in [automatic History publishing](editorial/automatic-history-publishing.md). The earlier per-article approval language remains binding for everything else. Season records, current coverage and This Week are outside this scheduler.
+
+## Current match writing in Articles — 17 October 2026
+
+Articles now includes ordinary Preview/Match report manuscripts, preserved legacy previews and current factual reports explicitly referenced by the current sourced match register. This is collection discovery, not an Archive metadata reclassification or a new History store. Historical factual matches/biographies remain in their existing History collections. Canonical `/archive/<slug>` URLs, Archive schemas, entity thresholds and Season relationships are unchanged.
+
+Only ordinary Articles gains optional `fixtureId`, requiring its explicit canonical `season`. New Preview/Match report categories require both fields. Existing Opinion and Analysis may use this reference while retaining their category. The referenced sourced record supplies the fixture/result context beneath the headline. No match relationship is inferred from prose, headline or publication date. See [Match writing](match-writing.md) for authoring and verification.

@@ -1,5 +1,7 @@
 # Preparing a Match Centre table update
 
+**Retired public feature:** the writing-first review removes the league table and its Actions workflow. The instructions below document legacy internal tooling; they are not part of publishing match writing and do not authorise a release. See [writing-first review](writing-first-review.md).
+
 Run `npm run table:prepare` in the repository after a Premier League matchweek. The command fetches the current Sky Sports table and prints the number of changed clubs and Liverpool’s old and proposed position and points.
 
 If there are changes, it creates a dated proposal in `docs/editorial/table-proposals/`. That folder is **not read by the website**. The published table remains in `content/match-centre/liverpool/2026-27.json` until Denny has checked the proposal and approved publication. An existing proposal is never overwritten.

@@ -4,7 +4,6 @@ import { z } from 'zod';
 import { HistoryIdSchema, HistoryIdsSchema, getHistoryEntities } from './entities.ts';
 import { SeasonIdSchema } from './history.ts';
 import { getFactualHistoryArticles } from './archive.ts';
-import { getWriting } from './writing.ts';
 
 const Text = z.string().trim().min(1);
 const Count = z.number().int().nonnegative();
@@ -56,8 +55,15 @@ export type Fixture = z.infer<typeof FixtureSchema>;
 export type MatchCentre = z.infer<typeof MatchCentreSchema>;
 
 export function getMatchCentre(root = process.cwd()) {
+  const pointer=path.join(root,'content/match-centre/liverpool/current.json');
+  const season=SeasonIdSchema.parse(JSON.parse(fs.readFileSync(pointer,'utf8')).season);
+  return getMatchRegister(season, root);
+}
+
+// Article references remain valid when the current-season pointer rolls forward.
+export function getMatchRegister(id: string, root = process.cwd()) {
+  const season=SeasonIdSchema.parse(id);
   const dir=path.join(root,'content/match-centre/liverpool');
-  const season=SeasonIdSchema.parse(JSON.parse(fs.readFileSync(path.join(dir,'current.json'),'utf8')).season);
   const data=MatchCentreSchema.parse(JSON.parse(fs.readFileSync(path.join(dir,`${season}.json`),'utf8')));
   if(data.season!==season) throw new Error('Match Centre filename must match season');
   const entities=new Map(getHistoryEntities(root).map(e=>[e.id,e]));
@@ -97,9 +103,4 @@ export function selectMatches(data: Pick<MatchCentre,'fixtures'>, now = new Date
 export function fixtureTime(f: Fixture) {
   if(!f.kickoff) return 'Kick-off TBC';
   return new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',hour:'2-digit',minute:'2-digit',timeZoneName:'short'}).format(new Date(f.kickoff));
-}
-export function getCurrentSeasonReading(season: string, root = process.cwd()) {
-  const writing=getWriting(root).filter(a=>a.season===season);
-  const reports=getFactualHistoryArticles(root).filter(a=>a.season===season && a.articleType==='match').map(a=>({...a,category:'Match report',href:`/archive/${a.slug}`}));
-  return [...new Map([...writing,...reports].map(a=>[a.href,a])).values()].sort((a,b)=>b.date.localeCompare(a.date)||a.href.localeCompare(b.href));
 }
