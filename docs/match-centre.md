@@ -1,5 +1,13 @@
 # Match Centre and Analysis
 
+## Writing-first review — 17 October 2026
+
+The writing-first change supersedes the public utility and automatic-table sections below, which remain as implementation history. `/match-centre` stays canonical but now displays **Match writing**: every stored preview/briefing in the current register, its relevant sources, and the existing current-season reading collection. The selected upcoming preview retains `#match-preview` for homepage links. Completed-match previews remain readable. No prose or content metadata is rewritten or copied.
+
+The public fixture lists, last/next scorecards, result notices, table and fixture-only sources are removed. The Match Centre main-navigation item is removed; Home keeps a **Match writing** reading link. Search and History discovery remain. `.github/workflows/league-table.yml` is removed, ending scheduled and manual Actions table releases after merge. The live workflow continues until an approved merge; this review branch changes no live settings.
+
+The sourced register, schema and maintenance helpers remain internal to preserve stored writing, fixture identities, provenance and the existing timed homepage selection. Table values are not rendered or fetched by the public page. Manual legacy table tooling is retained for compatibility, not required for writing publication; do not reactivate a table release without a separate request. Article publication and Analysis relationships below are unchanged. Full scope, conservative retention decisions and verification are in [the review](writing-first-review.md).
+
 ## Architecture
 
 - `/match-centre` is the current Liverpool men's competitive season utility. No live API, subscription or table client state. The reviewed league-table updater below refreshes stored sourced data through GitHub Actions and the existing Vercel Git integration.

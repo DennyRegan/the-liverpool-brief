@@ -28,6 +28,7 @@ try {
  const completed={id:'qa-last',oppositionId:'tottenham-hotspur',competitionId:'league-cup',side:'home',venue:'Anfield',date:matchDate,status:'completed',score:{home:3,away:1},sourceIds:['scores'],reportSlug:'qa-current-report'};
  const upcoming={id:'qa-next',oppositionId:'bournemouth',competitionId:'premier-league',side:'away',venue:'Vitality Stadium',date:matchDate,status:'scheduled',sourceIds:['schedule'],briefing:{updatedAt:data.updatedAt,points:['Temporary verified briefing for integration QA.'],sourceIds:['september']}};
  upcoming.preview={title:'Temporary next-match preview',body:'## Team news\n\nVerified preview prose for integration QA.',updatedAt:data.updatedAt,sourceIds:['september']};
+ completed.preview={title:'Earlier completed-match preview',body:'Preserved older preview prose.',updatedAt:data.updatedAt,sourceIds:['scores']};
  data.fixtures=[completed,upcoming];
  const own=data.table.rows.find(r=>r.clubId==='liverpool');Object.assign(own,{played:0,won:0,drawn:0,lost:0,goalsFor:0,goalsAgainst:0,points:0});
  fs.writeFileSync(path.join(root,'content/match-centre/liverpool/current.json'),JSON.stringify({season}));
@@ -38,11 +39,18 @@ try {
  for(const a of [{slug:'qa-analysis-history',title:'Temporary historical investigation',season:'1987-88',playerIds:['john-barnes'],managerIds:['kenny-dalglish'],competitionIds:['first-division'],relatedMatches:[match.slug]},{slug:'qa-analysis-current',title:'Temporary current investigation',season}])fs.writeFileSync(path.join(root,`content/articles/liverpool/${a.slug}.md`),matter.stringify('Temporary analysis for verification.',{...a,date:today,category:'Analysis'}));
  server=spawn(process.execPath,['scripts/dev.mjs','--webpack','--hostname','127.0.0.1','--port','3156'],{cwd:root,stdio:['ignore','pipe','pipe']});
  await new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(new Error('Preview startup timed out')),20000);server.once('error',reject);server.once('exit',code=>reject(new Error(`Preview exited ${code}`)));server.stderr.on('data',d=>process.stderr.write(d));server.stdout.on('data',d=>{if(d.toString().includes('Ready')){clearTimeout(timeout);resolve();}});});
- const centre=await get('/match-centre');assert.match(centre,/Temporary verified briefing/);assert.match(centre,/Read the match report/);assert.equal((centre.match(/href="\/archive\/qa-current-report"/g)??[]).length,3,'last match, fixture and reading share the same canonical report');assert.match(centre,/href="\/articles\/qa-analysis-current"/);assert.ok(!centre.includes('qa-analysis-history'));assert.match(centre,/Match Briefing/);
- assert.match(centre,/<summary>Show all fixtures and results/);assert.match(centre,/<h2 id="league-table">League Table<\/h2>/);
- const leagueTable=centre.match(/<table class="mc-table">([\s\S]*?)<\/table>/)?.[1];assert.ok(leagueTable);assert.equal((leagueTable.match(/<tr/g)??[]).length,21);for(const column of ['P','W','D','L','GF','GA','GD','Pts'])assert.ok(leagueTable.includes(`>${column}</abbr>`),column);
- assert.equal((centre.split('<details class="mc-disclosure">')[0].match(/class="mc-fixture"/g)??[]).length,1,'only the next fixture is initially visible');
+ const centre=await get('/match-centre');
+ assert.match(centre, /<h1>Match writing<\/h1>/);
+ assert.match(centre, /Temporary verified briefing/);
+ assert.equal((centre.match(/href="\/archive\/qa-current-report"/g)??[]).length,1,'current reading keeps the canonical report once');
+ assert.match(centre, /href="\/articles\/qa-analysis-current"/);
+ assert.ok(!centre.includes('qa-analysis-history'));
+ assert.doesNotMatch(centre, /<table\b|league-table|mc-fixture|mc-score|Fixtures &amp; Results|Last Match|Next Match|Fixture sources and update notes/);
  assert.match(centre,/href="#match-preview"/);assert.match(centre,/id="match-preview"/);assert.match(centre,/<h3>Team news<\/h3>/);assert.match(centre,/Verified preview prose for integration QA/);
+ assert.match(centre, /Earlier completed-match preview/);assert.match(centre, /Preserved older preview prose/);
+ assert.equal((centre.match(/Verified preview prose for integration QA/g)??[]).length,1,'each preview body rendered once');
+ assert.ok(centre.indexOf('Temporary next-match preview') < centre.indexOf('Earlier completed-match preview'),'upcoming preview retains the homepage anchor');
+ assert.match(centre, /Sources for this writing/);
  assert.match(await get('/archive/qa-current-report'),/Temporary factual record/);
  const historical=await get('/articles/qa-analysis-history');for(const href of ['/history/seasons/1987-88','/history/people/john-barnes','/history/people/kenny-dalglish','/history/competitions/first-division',`/archive/${match.slug}`])assert.ok(historical.includes(`href="${href}"`),href);
  for(const route of ['/history/seasons/1987-88','/history/people/john-barnes','/history/people/kenny-dalglish','/history/competitions/first-division','/history/kenny-dalglish-1985-1991',`/archive/${match.slug}`])assert.equal(((await get(route)).match(/href="\/articles\/qa-analysis-history"/g)??[]).length,1,route+' shows canonical Analysis once');
@@ -51,7 +59,7 @@ try {
  assert.ok(!(await get('/history/matches')).includes('/archive/qa-analysis-'));
  await get('/archive/torres-goodison-derby-double-2008',404);
  delete upcoming.briefing;delete completed.reportSlug;fs.writeFileSync(path.join(root,`content/match-centre/liverpool/${season}.json`),JSON.stringify(data));
- delete upcoming.preview;fs.writeFileSync(path.join(root,`content/match-centre/liverpool/${season}.json`),JSON.stringify(data));
- const bare=await get('/match-centre');assert.ok(!bare.includes('Match Briefing'));assert.ok(!bare.includes('Read the match report'));assert.match(bare,/Next Match/);assert.ok(!bare.includes('id="match-preview"'));assert.ok(!bare.includes('Read the match preview'));
- console.log('PASS Match Centre: real report and briefing, optional absence, current reading, Analysis filters, canonical cross-links in six History contexts, no draft exposure.');
+ delete upcoming.preview;delete completed.preview;fs.writeFileSync(path.join(root,`content/match-centre/liverpool/${season}.json`),JSON.stringify(data));
+ const bare=await get('/match-centre');assert.ok(!bare.includes('Temporary verified briefing'));assert.ok(!bare.includes('id="match-preview"'));assert.match(bare,/Published match previews and briefings will appear here/);assert.match(bare,/This season’s writing/);
+ console.log('PASS writing-first match page: upcoming and completed previews preserved once, briefings and sources, no fixtures/scores/table, current reading, Analysis filters, canonical cross-links in six History contexts, no draft exposure.');
 } finally {if(server&&server.exitCode===null){const exited=once(server,'exit');server.kill('SIGTERM');await exited;}fs.rmSync(root,{recursive:true,force:true});}

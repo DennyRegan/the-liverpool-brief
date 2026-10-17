@@ -51,7 +51,7 @@ export default function Home() {
         <Link href="/articles">Articles</Link>{' · '}
         <Link href="/articles?type=analysis">Analysis</Link>{' · '}
         <Link href="/history">History</Link>{' · '}
-        <Link href="/match-centre">Match Centre</Link>
+        <Link href="/match-centre">Match writing</Link>
       </nav>
     </main>
   </>;

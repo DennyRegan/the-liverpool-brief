@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function SiteHeader({ active }: { active?: "search" | "match-centre" | "home" | "articles" | "brief" | "this-week" | "archive" | "history" | "about" }) {
+export function SiteHeader({ active }: { active?: "search" | "home" | "articles" | "brief" | "this-week" | "archive" | "history" | "about" }) {
   return (
     <header className="site-header">
       <a href="#main-content" className="skip-link">Skip to content</a>
@@ -10,7 +10,7 @@ export function SiteHeader({ active }: { active?: "search" | "match-centre" | "h
         <div className="header-bottom">
           <p>Opinion and history from a Liverpool supporter.</p>
           <nav aria-label="Main navigation">
-            {([{ href: "/", label: "Home", key: "home" }, { href: "/brief", label: "The Brief", key: "brief" }, { href: "/articles", label: "Articles", key: "articles" }, { href: "/match-centre", label: "Match Centre", key: "match-centre" }, { href: "/history", label: "History", key: "history" }, { href: "/about", label: "About", key: "about" }] as const).map(item => (
+            {([{ href: "/", label: "Home", key: "home" }, { href: "/brief", label: "The Brief", key: "brief" }, { href: "/articles", label: "Articles", key: "articles" }, { href: "/history", label: "History", key: "history" }, { href: "/about", label: "About", key: "about" }] as const).map(item => (
               <Link key={item.key} href={item.href} aria-current={(active === "archive" ? "articles" : active === "this-week" ? "history" : active) === item.key ? "page" : undefined}>{item.label}</Link>
             ))}
           </nav>
