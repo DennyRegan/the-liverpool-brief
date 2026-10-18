@@ -42,3 +42,10 @@ All 248 repository tests passed. Full lint passed with the existing unused-varia
 The production preview showed the full article, preserved headline/excerpt, Denny byline, Analysis label, publication date and visible research cutoff. DOM checks confirmed the exact production canonical URL, supplied description/search title/tags and article author/date/section metadata. At 1045px and 390px there was no horizontal page overflow; the 390px view selected the supplied mobile artwork, with 350px chart width and 19px body text. Desktop and mobile screenshots were inspected. The Analysis collection lists the article as its latest entry. All twelve image/data assets returned their exact original bytes, the generated article share image returned 200, and the sitemap includes the canonical article URL. `git diff --check` passed.
 
 The fresh checkout has two unrelated pre-existing case-colliding biography research paths on macOS. They are excluded from the article commit. The supplied project checkout and its uncommitted work are untouched.
+
+
+## Withdrawn at Denny's request — 18 October 2026
+
+Denny asked to remove the published article and receive a plain-text research briefing so he can write the article himself. The manuscript is retained unchanged at `docs/editorial/drafts/held-for-review/bundesliga-tax-premier-league-analysis.md`, outside the published collection. Its eight chart images and four data files are retained in `docs/research/bundesliga/withdrawn-charts/`, outside public assets. The research CSVs remain available as evidence. The article must remain unpublished pending Denny's own new manuscript and explicit publication instruction. No unrelated content, publication schedules or generic metadata support are changed.
+
+Withdrawal checks: all 248 tests passed; lint passed with the existing unused-variable warning; production build and TypeScript passed. The article loader rejects the slug, the generated search index excludes it, and no static article HTML is generated. The retained manuscript matches the published source byte for byte. Live removal is verified after deployment.
