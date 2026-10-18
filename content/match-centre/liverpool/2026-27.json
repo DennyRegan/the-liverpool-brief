@@ -1,6 +1,6 @@
 {
   "season": "2026-27",
-  "updatedAt": "2026-10-17T17:20:59.349Z",
+  "updatedAt": "2026-10-18T17:26:33.213Z",
   "fixtures": [
     {
       "id": "2026-27-premier-league-newcastle-united-away",
@@ -189,6 +189,10 @@
       "date": "2026-10-17",
       "kickoff": "2026-10-17T15:00:00+01:00",
       "status": "completed",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "sourceIds": [
         "schedule",
         "brentford-preview-hosts",
@@ -211,10 +215,6 @@
           "brentford-preview-spurs",
           "table"
         ]
-      },
-      "score": {
-        "home": 1,
-        "away": 2
       }
     },
     {
@@ -731,7 +731,7 @@
     }
   ],
   "table": {
-    "asOf": "2026-10-17T16:05:00.000Z",
+    "asOf": "2026-10-18T16:10:00.000Z",
     "sourceIds": [
       "table"
     ],
@@ -750,24 +750,24 @@
       {
         "position": 2,
         "clubId": "arsenal",
-        "played": 6,
-        "won": 5,
+        "played": 7,
+        "won": 6,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 10,
+        "goalsFor": 11,
         "goalsAgainst": 5,
-        "points": 15
+        "points": 18
       },
       {
         "position": 3,
         "clubId": "brighton-hove-albion",
-        "played": 6,
-        "won": 4,
+        "played": 7,
+        "won": 5,
         "drawn": 1,
         "lost": 1,
-        "goalsFor": 18,
+        "goalsFor": 23,
         "goalsAgainst": 5,
-        "points": 13
+        "points": 16
       },
       {
         "position": 4,
@@ -804,6 +804,17 @@
       },
       {
         "position": 7,
+        "clubId": "leeds-united",
+        "played": 7,
+        "won": 2,
+        "drawn": 4,
+        "lost": 1,
+        "goalsFor": 9,
+        "goalsAgainst": 6,
+        "points": 10
+      },
+      {
+        "position": 8,
         "clubId": "everton",
         "played": 7,
         "won": 2,
@@ -812,17 +823,6 @@
         "goalsFor": 8,
         "goalsAgainst": 7,
         "points": 10
-      },
-      {
-        "position": 8,
-        "clubId": "leeds-united",
-        "played": 6,
-        "won": 2,
-        "drawn": 3,
-        "lost": 1,
-        "goalsFor": 8,
-        "goalsAgainst": 5,
-        "points": 9
       },
       {
         "position": 9,
@@ -870,28 +870,39 @@
       },
       {
         "position": 13,
-        "clubId": "crystal-palace",
-        "played": 6,
-        "won": 2,
-        "drawn": 1,
-        "lost": 3,
-        "goalsFor": 9,
-        "goalsAgainst": 12,
+        "clubId": "manchester-united",
+        "played": 7,
+        "won": 1,
+        "drawn": 4,
+        "lost": 2,
+        "goalsFor": 10,
+        "goalsAgainst": 10,
         "points": 7
       },
       {
         "position": 14,
-        "clubId": "manchester-united",
-        "played": 6,
-        "won": 1,
-        "drawn": 3,
-        "lost": 2,
+        "clubId": "crystal-palace",
+        "played": 7,
+        "won": 2,
+        "drawn": 1,
+        "lost": 4,
         "goalsFor": 9,
-        "goalsAgainst": 9,
-        "points": 6
+        "goalsAgainst": 17,
+        "points": 7
       },
       {
         "position": 15,
+        "clubId": "bournemouth",
+        "played": 7,
+        "won": 1,
+        "drawn": 3,
+        "lost": 3,
+        "goalsFor": 9,
+        "goalsAgainst": 13,
+        "points": 6
+      },
+      {
+        "position": 16,
         "clubId": "coventry-city",
         "played": 6,
         "won": 2,
@@ -902,7 +913,7 @@
         "points": 6
       },
       {
-        "position": 16,
+        "position": 17,
         "clubId": "fulham",
         "played": 7,
         "won": 1,
@@ -913,37 +924,26 @@
         "points": 5
       },
       {
-        "position": 17,
+        "position": 18,
         "clubId": "nottingham-forest",
-        "played": 6,
+        "played": 7,
         "won": 1,
         "drawn": 2,
-        "lost": 3,
+        "lost": 4,
         "goalsFor": 5,
-        "goalsAgainst": 8,
+        "goalsAgainst": 9,
         "points": 5
       },
       {
-        "position": 18,
+        "position": 19,
         "clubId": "sunderland",
-        "played": 6,
+        "played": 7,
         "won": 1,
         "drawn": 1,
-        "lost": 4,
+        "lost": 5,
         "goalsFor": 6,
-        "goalsAgainst": 12,
+        "goalsAgainst": 14,
         "points": 4
-      },
-      {
-        "position": 19,
-        "clubId": "bournemouth",
-        "played": 6,
-        "won": 0,
-        "drawn": 3,
-        "lost": 3,
-        "goalsFor": 7,
-        "goalsAgainst": 13,
-        "points": 3
       },
       {
         "position": 20,
@@ -1053,7 +1053,7 @@
       "id": "table",
       "label": "Premier League table — Sky Sports",
       "url": "https://www.skysports.com/premier-league-table",
-      "checkedOn": "2026-10-17"
+      "checkedOn": "2026-10-18"
     },
     {
       "id": "city-preview-1",
