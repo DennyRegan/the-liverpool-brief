@@ -67,7 +67,7 @@ try {
   assert.match(home, /id="home-lead-heading"/);
   assert.match(home, /aria-label="Explore more"/);
   assert.doesNotMatch(home, /Latest in History|This Week in History|Season spotlight|home-match-feature-heading|articles\?category=/);
-  for (const href of ['/articles', '/articles?type=analysis', '/history', '/match-centre']) assert.ok(home.includes(`href="${href}"`));
+  for (const href of ['/articles', '/articles?type=analysis', '/history']) assert.ok(home.includes(`href="${href}"`));
   // Season and This Week discovery remains on History rather than Home.
   assert.match(mainOf(landing), /href="\/history\/seasons"/);
   assert.match(mainOf(landing), /href="\/this-week"/);

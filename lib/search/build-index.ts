@@ -1,4 +1,5 @@
 import 'server-only';
+import { getLegacyMatchWriting } from '../content/match-writing.ts';
 import { getArticles } from '../content/articles.ts';
 import { getArchiveFeatures } from '../content/archive.ts';
 import { getHistory, eraYears } from '../content/history.ts';
@@ -26,6 +27,8 @@ export function buildSearchIndex(root = process.cwd()): SearchDocument[] {
     documents.push({ href, title, type, context, excerpt: plain(excerpt).slice(0, 240), titleText: normaliseSearch(title), metadataText: normaliseSearch(metadata), bodyText: normaliseSearch(plain(body)) });
   };
   for (const article of articles) add(`/articles/${article.slug}`, article.title, article.category, article.date, article.excerpt ?? article.body, relationshipTerms(article), article.body);
+  const legacy = getLegacyMatchWriting(root);
+  if (legacy.length) add('/match-centre', legacy[0].title, legacy[0].category, legacy[0].date, legacy[0].body, legacy.map(article => article.matchContext).join(' '), legacy.map(article => article.body).join(' '));
   for (const article of archive) {
     const type = article.editorialMode !== 'factual' ? 'Opinion' : ({ match: 'Historical match', player: 'Player biography', manager: 'Manager biography', 'club-event': 'Club history', season: 'Season article' } as Record<string, string>)[article.articleType ?? ''] ?? 'History article';
     add(`/archive/${article.slug}`, article.title, type, article.historicalPeriod, article.excerpt, relationshipTerms(article), article.body);

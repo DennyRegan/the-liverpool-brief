@@ -18,25 +18,30 @@ try {
     const page = await context.newPage(); page.on('pageerror', e => errors.push(e.message));
     await page.goto(base + '/match-centre');
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Match Centre page overflow at ${width}`);
-    assert.equal(await page.locator('.mc-table tbody tr').count(), 20);
-    assert.deepEqual(await page.locator('.mc-table thead th').allTextContents(), ['Pos', 'Team', 'P', 'W', 'D', 'L', 'GF', 'GA', 'GD', 'Pts']);
-    const region = page.getByRole('region', { name: 'Premier League standings', exact: true });
-    await region.focus(); assert.equal(await region.evaluate(e => e === document.activeElement), true);
-    await page.keyboard.press('ArrowRight');
-    if (width < 768) await page.waitForFunction(() => document.querySelector('.mc-table-scroll')?.scrollLeft > 0, null, { timeout: 2000 });
-    // Allow the native scroll animation to finish before resetting for capture.
-    await page.waitForTimeout(600);
-    if (width < 768) {
-      assert.ok(await page.locator('.mc-table thead th').nth(1).evaluate(e => e.getBoundingClientRect().width <= 180), 'Pinned team column leaves statistics visible');
-      await region.evaluate(e => { e.scrollLeft = e.scrollWidth; });
-      assert.ok(await page.locator('.mc-table thead th').last().evaluate(e => e.getBoundingClientRect().right <= innerWidth), 'Points column reachable by scrolling');
-      await region.screenshot({ path: path.join(output, `table-scrolled-${width}.png`) });
-    }
-    await region.evaluate(e => { e.scrollLeft = 0; });
-    await page.locator('section[aria-labelledby="league-table"]').screenshot({ path: path.join(output, `table-${width}.png`) });
-    let violations = (await new AxeBuilder({ page }).include('section[aria-labelledby="league-table"]').analyze()).violations;
-    assert.deepEqual(violations.map(v => v.id), [], `Table accessibility ${width}`);
-    await page.locator('.masthead-tools').getByRole('link', { name: 'Search', exact: true }).click();
+    assert.equal(await page.locator('h1').innerText(), 'Match writing');
+    assert.equal(await page.locator('.mc-table, .mc-fixture, .mc-score, #league-table').count(), 0);
+    assert.equal(await page.getByRole('navigation', { name: 'Main navigation', exact: true }).getByRole('link', { name: 'Match Centre', exact: true }).count(), 0);
+    await page.screenshot({ path: path.join(output, `match-writing-${width}.png`), fullPage: true });
+    let violations = (await new AxeBuilder({ page }).include('main').analyze()).violations;
+    assert.deepEqual(violations.map(v => v.id), [], `Match writing accessibility ${width}`);
+    await page.goto(base + '/articles');
+    assert.equal(await page.getByRole('navigation', { name: 'Article types', exact: true }).getByRole('link').count(), 5);
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Articles page overflow at ${width}`);
+    assert.equal(await page.locator('.mc-fixture, .mc-score, #league-table').count(), 0);
+    const featured = page.locator('.featured-article');
+    assert.ok(await featured.evaluate(element => {
+      const heading = element.querySelector('h2'), context = element.querySelector('.article-match-context');
+      return !context || Boolean(heading.compareDocumentPosition(context) & Node.DOCUMENT_POSITION_FOLLOWING);
+    }), 'Headline precedes match context');
+    await page.screenshot({ path: path.join(output, `articles-top-${width}.png`) });
+    violations = (await new AxeBuilder({ page }).include('main').analyze()).violations;
+    assert.deepEqual(violations.map(v => v.id), [], `Articles accessibility ${width}`);
+    await page.getByRole('navigation', { name: 'Article types', exact: true }).getByRole('link', { name: 'Previews', exact: true }).click();
+    assert.match(await page.locator('main').innerText(), /Liverpool face unbeaten Brentford/);
+    await page.goto(base + '/');
+    assert.equal(await page.getByRole('navigation', { name: 'Explore more', exact: true }).getByRole('link', { name: 'Match writing', exact: true }).count(), 0);
+    await page.screenshot({ path: path.join(output, `home-top-${width}.png`) });
+    await page.locator('.masthead-tools').getByRole('link' , { name: 'Search', exact: true }).click();
     await page.getByRole('searchbox', { name: 'Search the site' }).fill('Bob Paisley');
     await page.getByRole('searchbox').press('Enter'); await page.waitForURL(/q=Bob/);
     assert.match(await page.locator('.search-results').innerText(), /Bob Paisley/);
@@ -48,7 +53,7 @@ try {
     assert.equal(await page.getByRole('button', { name: 'Search', exact: true }).evaluate(e => e === document.activeElement), true);
     await page.getByRole('searchbox').fill('zzqnomatchzzq'); await page.getByRole('searchbox').press('Enter'); await page.waitForURL(/q=zzq/);
     assert.match(await page.locator('main').innerText(), /No results/);
-    checks.push({ width, tableRows: 20, noPageOverflow: true, keyboard: true, accessibilityViolations: 0 });
+    checks.push({ width, dataWidgets: 0, noPageOverflow: true, keyboard: true, accessibilityViolations: 0 });
     await context.close();
   }
   const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 900 } });
@@ -57,5 +62,5 @@ try {
   await page.waitForURL(/q=European/); assert.match(await page.locator('.search-results').innerText(), /European Cup/);
   await context.close(); assert.deepEqual(errors, [], 'No browser runtime errors');
   fs.writeFileSync(path.join(output, 'browser-results.json'), JSON.stringify({ checks, noJavaScriptSearch: true, errors }, null, 2));
-  console.log('PASS desktop/mobile 320/390/768/1280: complete table, contained scrolling, keyboard, Search/results/no-results, no-JavaScript search, zero table/Search axe violations and no runtime errors.');
+  console.log('PASS desktop/mobile 320/390/768/1280: match writing without data widgets, keyboard, Search/results/no-results, no-JavaScript search, zero Articles/match-writing/Search axe violations and no runtime errors.');
 } finally { await browser.close(); }

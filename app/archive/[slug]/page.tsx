@@ -1,3 +1,4 @@
+import { getCurrentReportFixture, matchContext } from "@/lib/content/match-writing";
 import { ContinueFromHere } from "@/app/components/history/V3Exploration";
 import { socialMetadata } from '@/lib/social-metadata';
 import { AnalysisReading } from '@/app/components/AnalysisReading';
@@ -81,7 +82,8 @@ export default async function ArchiveFeaturePage({
     getHistoryEntities(),
   );
 
-  const historyDestination = feature.editorialMode === "factual"
+  const currentFixture = getCurrentReportFixture(feature.slug);
+  const historyDestination = !currentFixture && feature.editorialMode === "factual"
     ? feature.articleType === "player" ? "/history/players" : feature.articleType === "match" ? "/history/matches" : "/history"
     : undefined;
 
@@ -97,7 +99,8 @@ export default async function ArchiveFeaturePage({
         </div>
 
         <h1 className="font-serif text-3xl font-bold text-gray-900 mb-2">{feature.title}</h1>
-        <p className="text-sm text-gray-500 mb-8">{feature.historicalPeriod}</p>
+        <p className="text-sm text-gray-500 mb-8">{currentFixture ? 'Match report' : feature.historicalPeriod}</p>
+        {currentFixture && <p className="article-match-context">{matchContext(currentFixture, true)}</p>}
 
         {seasonFacts.length > 0 && (
           <dl className="mb-8 border border-gray-200 rounded-lg divide-y divide-gray-200 bg-gray-50 text-sm">

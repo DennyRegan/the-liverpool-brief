@@ -1,10 +1,11 @@
 ---
 title: "Isak delivers when Liverpool need him as Reds fight back to beat Brentford"
 date: "2026-10-17"
-category: "Opinion"
+category: "Match report"
 excerpt: "Liverpool came from behind to beat Brentford, with Alexander Isak delivering the winner when Andoni Iraola's side badly needed three points."
 slug: "isak-delivers-when-liverpool-need-him-brentford"
 season: "2026-27"
+fixtureId: "2026-27-premier-league-brentford-away"
 historicalEventDate: "2026-10-17"
 oppositionIds: [brentford]
 competitionIds: [premier-league]

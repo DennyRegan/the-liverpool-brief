@@ -88,7 +88,7 @@ button { cursor: pointer; }
 .archive-subcategories a { padding-block: 8px; }
 .featured-article { display: grid; grid-template-columns: 180px 1fr; gap: 46px; padding: 43px 0 56px; border-bottom: 1px solid var(--foreground); }
 .feature-marker { display: flex; flex-direction: column; justify-content: space-between; border-left: 3px solid var(--accent); padding-left: 20px; color: var(--accent); }
-.feature-number { font-family: var(--font-source-serif), Georgia, serif; font-size: 110px; line-height: .85; letter-spacing: -.08em; color: #ded8cc; }
+.feature-number { font-family: var(--font-source-serif), Georgia, serif; font-size: 110px; line-height: .85; letter-spacing: -.08em; color: #8c887e; }
 .article-meta { display: flex; flex-wrap: wrap; gap: 14px; align-items: baseline; color: var(--muted); font-size: 11px; }
 .article-meta > span:first-child { color: var(--accent); text-transform: uppercase; letter-spacing: .1em; font-weight: 600; }
 .featured-article h2 { font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(32px, 4.4vw, 54px); line-height: 1.09; letter-spacing: -.035em; font-weight: 600; margin: 19px 0; max-width: 810px; }
@@ -198,3 +198,7 @@ button { cursor: pointer; }
 .v3-continue ul { display: flex; flex-wrap: wrap; gap: 8px 24px; }
 .v3-continue a { display: inline-flex; align-items: center; min-height: 44px; padding-block: 10px; gap: 8px; color: var(--accent-dark); text-decoration: underline; text-underline-offset: 4px; }
 .v3-continue > a { margin-right: 24px; }
+
+/* Match facts accompany a written story; there are no standalone result rows. */
+.article-match-context { color: var(--muted); font-family: var(--font-geist-sans), Arial, sans-serif; font-size: 13px; line-height: 1.6; margin-block: 8px 18px; overflow-wrap: anywhere; }
+.article-card > .article-match-context { font-size: 12px; margin-block: 8px; }

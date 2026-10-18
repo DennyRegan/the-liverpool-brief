@@ -31,7 +31,7 @@ await import("./register-server-only.mjs");
 const { getPublishedExperiences } = await import("../lib/content/interactive-history.ts");
 console.log(`Validated ${getPublishedExperiences().length} published interactive experiences.`);
 
-console.log(`Validated ${getArticles().length} Opinion/Analysis articles.`);
+console.log(`Validated ${getArticles().length} published Articles entries.`);
 const centre = getMatchCentre();
 console.log(`Validated Match Centre ${centre.season}: ${centre.fixtures.length} fixtures and ${centre.table.rows.length} table rows.`);
 
