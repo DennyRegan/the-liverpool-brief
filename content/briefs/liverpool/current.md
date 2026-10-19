@@ -1,6 +1,6 @@
 ---
 {
-  "lastUpdated": "2026-10-17T18:12:31.998Z",
+  "lastUpdated": "2026-10-19T06:00:36.556Z",
   "title": "Today's Liverpool Brief",
   "status": "published",
   "editorsNote": "",
@@ -18,41 +18,14 @@
       ]
     },
     {
-      "headline": "Szoboszlai forced off on return; Frimpong also withdrawn",
+      "headline": "Szoboszlai and Frimpong set to miss ‘some time’",
       "category": "Team news",
-      "summary": "Dominik Szoboszlai was forced off after 32 minutes at Brentford, while half-time substitute Jeremie Frimpong lasted six minutes. Iraola said Szoboszlai’s earlier injury had not healed; Frimpong felt a muscle problem. Cody Gakpo returned to the bench but remained unused.",
-      "sources": [
-        {
-          "name": "The Standard — confidence: high",
-          "platform": "Reporting on both injury withdrawals, 17 October 2026",
-          "url": "https://www.standard.co.uk/sport/football/dominik-szoboszlai-injury-liverpool-fc-b1301278.html"
-        },
-        {
-          "name": "NBC Sports — confidence: high",
-          "platform": "Direct post-match comments from Andoni Iraola, 17 October 2026",
-          "url": "https://www.nbcsports.com/soccer/news/andoni-iraola-reaction-liverpool-manager-on-key-comeback-win-at-brentford-latest-on-injury-news"
-        },
-        {
-          "name": "Liverpool FC — confidence: high",
-          "platform": "Official match report confirms Gakpo was an unused substitute, 17 October 2026",
-          "url": "https://www.liverpoolfc.com/news/brentford-liverpool-premier-league-match-report"
-        }
-      ]
-    },
-    {
-      "headline": "Leoni’s training return pushed back to November",
-      "category": "Team news",
-      "summary": "Giovanni Leoni is now expected to resume team training during November’s international break, around a month later than planned. Andoni Iraola said Liverpool were proceeding carefully because the defender’s knee injury involved damage beyond his ACL. He described the revised timetable as a delay rather than a setback.",
+      "summary": "Dominik Szoboszlai and Jeremie Frimpong are expected to be unavailable for “some time” after leaving Liverpool’s win at Brentford. Iraola confirmed that Szoboszlai had aggravated the same problem that ruled him out of the previous two matches, while Frimpong suffered a new injury after coming on at half-time. No precise recovery times have been given.",
       "sources": [
         {
           "name": "Liverpool FC — confidence: high",
-          "platform": "Direct comments from Iraola explaining the revised rehabilitation timetable, 15 October 2026",
-          "url": "https://www.liverpoolfc.com/news/andoni-iraola-gives-update-on-giovanni-leoni-rehabilitation-progress"
-        },
-        {
-          "name": "The Guardian — confidence: high",
-          "platform": "Corroborating press-conference reporting, 15 October 2026",
-          "url": "https://www.theguardian.com/football/2026/oct/15/giovanni-leonis-return-from-injury-delayed-in-fresh-blow-to-liverpool"
+          "platform": "Direct comments from Andoni Iraola after the Brentford match on 17 October 2026",
+          "url": "https://www.liverpoolfc.com/news/andoni-iraola-on-jeremie-frimpong-and-dominik-szoboszlai-injuries"
         }
       ]
     }
