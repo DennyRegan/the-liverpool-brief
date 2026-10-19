@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { getNewsletterConfig } from '@/lib/newsletter-config';
 import { SenderSignupForm } from '@/app/components/SenderSignupForm';
@@ -14,6 +15,8 @@ export const dynamic = 'force-dynamic';
 
 export default function NewsletterPage() {
   const config = getNewsletterConfig();
+  // Hidden until signup is configured; the integration stays ready to restore.
+  if (!config) notFound();
   return <>
     <SiteHeader />
     <main id="main-content" className="reading-page newsletter-page">

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import { SITE_URL } from "@/lib/site";
+import { getNewsletterConfig } from "@/lib/newsletter-config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,7 +37,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         {children}
-        <footer className="site-footer"><div className="site-width"><p>The Liverpool Brief<span>Independent writing by Denny Regan.</span></p><div className="footer-links"><a href="/brief">The Brief</a><a href="/newsletter">The Sunday Brief</a><a href="mailto:theliverpoolbrief@gmail.com">Get in touch ↗</a></div></div></footer>
+        <footer className="site-footer"><div className="site-width"><p>The Liverpool Brief<span>Independent writing by Denny Regan.</span></p><div className="footer-links">{getNewsletterConfig() && <a href="/newsletter">The Sunday Brief</a>}<a href="mailto:theliverpoolbrief@gmail.com">Get in touch ↗</a></div></div></footer>
         <Analytics />
       </body>
     </html>

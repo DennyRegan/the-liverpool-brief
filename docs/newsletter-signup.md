@@ -1,5 +1,7 @@
 # Sunday Brief website signup — Sender
 
+**Status after the October 2026 editorial reset:** signup is hidden until the three Sender values below are configured in Vercel. While unconfigured, Home shows no invitation, the footer omits the link, `/newsletter` and `/newsletter/privacy` return 404 and are left out of the sitemap. Adding valid values and redeploying restores all of them; no code change is needed. Some page copy below and on `/newsletter` predates the reset and still mentions match coverage.
+
 Denny selected Sender on 13 October 2026. This replaces the prepared, unlaunched Brevo connection. Home's compact invitation and the footer lead to `/newsletter`; `/newsletter/privacy` names Sender. The six main navigation links, current article/match/Brief selection, and site identity stay unchanged. The first weekly edition is separate work.
 
 ## Architecture

@@ -3,38 +3,25 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-await import('../scripts/register-server-only.mjs');
 const { getPublicSitemap } = await import('../lib/content/sitemap.ts');
 const { default: sitemap, revalidate } = await import('../app/sitemap.ts');
 const { default: robots } = await import('../app/robots.ts');
 const { getArticles } = await import('../lib/content/articles.ts');
 const { getArchiveFeatures } = await import('../lib/content/archive.ts');
-const { getHistory } = await import('../lib/content/history.ts');
-const { getSeasons } = await import('../lib/content/seasons.ts');
-const { getExplorations } = await import('../lib/content/exploration.ts');
-const { getPublishedExperiences } = await import('../lib/content/interactive-history.ts');
+const { getNewsletterConfig } = await import('../lib/newsletter-config.ts');
 const { socialMetadata } = await import('../lib/social-metadata.ts');
-import { fixture } from './fixtures/interactive-history.mjs';
 
 const origin = 'https://theliverpoolbrief.com';
 const urls = entries => entries.map(entry => entry.url);
+const newsletter = { SENDER_PUBLIC_ACCOUNT_ID: 'abc123', SENDER_NEWSLETTER_FORM_ID: 'form1', SENDER_NEWSLETTER_FORM_URL: 'https://stats.sender.net/forms/form1/view' };
 
-test('sitemap covers public collections and the exact dynamic page destinations', () => {
+test('sitemap lists only the public pages and retained articles', () => {
   const entries = sitemap();
-  const experiences = getPublishedExperiences();
   const expected = [
-    '/', '/about', '/articles', '/brief', '/match-centre', '/this-week', '/search',
-    '/newsletter', '/newsletter/privacy',
-    '/history', '/history/matches', '/history/players', '/history/seasons',
-    '/history/my-years',
-    '/history/opposition', '/history/competitions',
+    '/', '/about', '/articles',
+    ...(getNewsletterConfig() ? ['/newsletter', '/newsletter/privacy'] : []),
     ...getArticles().map(a => `/articles/${a.slug}`),
     ...getArchiveFeatures().map(a => `/archive/${a.slug}`),
-    ...getHistory().eras.map(e => `/history/${e.id}`),
-    ...getSeasons().map(s => `/history/seasons/${s.season}`),
-    ...getExplorations().map(d => d.href),
-    ...(experiences.length ? ['/history/interactive'] : []),
-    ...experiences.map(experience => `/history/interactive/${experience.id}`),
   ].map(route => route === '/' ? origin : new URL(route, origin).href);
   assert.deepEqual(urls(entries).sort(), expected.sort());
   assert.equal(revalidate, 3600);
@@ -45,12 +32,17 @@ test('sitemap covers public collections and the exact dynamic page destinations'
     assert.equal(url.search, '');
     assert.equal(url.hash, '');
     assert.equal(entry.lastModified, undefined);
-    assert.doesNotMatch(url.pathname, /^\/(preview|docs|content)(\/|$)/);
-    assert.ok(!['/archive', '/archive/matches', '/archive/people', '/archive/seasons', '/history/people'].includes(url.pathname));
+    assert.doesNotMatch(url.pathname, /^\/(preview|docs|content|brief|history|this-week|match-centre|search)(\/|$)/);
+    assert.ok(!['/archive', '/archive/matches', '/archive/people', '/archive/seasons'].includes(url.pathname));
   }
-  // The held experience and its unavailable index must not be advertised.
-  assert.ok(!urls(entries).includes(`${origin}/history/interactive/istanbul-2005`));
-  if (!experiences.length) assert.ok(!urls(entries).includes(`${origin}/history/interactive`));
+});
+
+test('newsletter pages are advertised only while signup is configured', () => {
+  const closed = urls(getPublicSitemap(process.cwd(), {}));
+  assert.ok(!closed.some(url => url.includes('/newsletter')));
+  const open = urls(getPublicSitemap(process.cwd(), newsletter));
+  assert.ok(open.includes(`${origin}/newsletter`));
+  assert.ok(open.includes(`${origin}/newsletter/privacy`));
 });
 
 test('story URLs resolve to the same canonical origin and paths as social metadata', () => {
@@ -66,7 +58,7 @@ test('story URLs resolve to the same canonical origin and paths as social metada
   assert.match(fs.readFileSync('app/layout.tsx', 'utf8'), /metadataBase: new URL\(SITE_URL\)/);
 });
 
-test('new public stories appear automatically; editorial and interactive drafts stay out', () => {
+test('new public stories appear automatically; editorial drafts stay out', () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'crawlability-'));
   try {
     fs.cpSync('content', path.join(root, 'content'), { recursive: true });
@@ -75,22 +67,9 @@ test('new public stories appear automatically; editorial and interactive drafts 
     const editorial = path.join(root, 'docs/editorial/drafts');
     fs.mkdirSync(editorial, { recursive: true });
     fs.writeFileSync(path.join(editorial, 'sitemap-private-fixture.md'), 'PRIVATE_DRAFT');
-    const directory = path.join(root, 'content/history/liverpool/interactive');
-    fs.rmSync(directory, { recursive: true, force: true });
-    fs.mkdirSync(directory, { recursive: true });
-    const record = fixture();
-    const filename = path.join(directory, `${record.id}.json`);
-    fs.writeFileSync(filename, JSON.stringify({ ...record, publication: { status: 'draft' } }));
-    let result = urls(getPublicSitemap(root));
+    const result = urls(getPublicSitemap(root));
     assert.ok(result.includes(`${origin}/articles/sitemap-public-fixture`));
-    assert.ok(!result.some(url => /private-fixture|interactive/.test(url)));
-    fs.writeFileSync(filename, JSON.stringify(record));
-    result = urls(getPublicSitemap(root));
-    assert.ok(result.includes(`${origin}/history/interactive`));
-    assert.ok(result.includes(`${origin}/history/interactive/${record.id}`));
-    record.editorial.unresolvedIssues.push({ id: 'blocked', description: 'Unresolved evidence', blocking: true });
-    fs.writeFileSync(filename, JSON.stringify(record));
-    assert.throws(() => getPublicSitemap(root));
+    assert.ok(!result.some(url => /private-fixture/.test(url)));
   } finally {
     fs.rmSync(root, { recursive: true, force: true });
   }

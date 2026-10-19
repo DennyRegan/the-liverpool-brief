@@ -1,22 +1,12 @@
-import { ContinueFromHere } from "@/app/components/history/V3Exploration";
 import { socialMetadata } from '@/lib/social-metadata';
-import { AnalysisReading } from '@/app/components/AnalysisReading';
-import { ArticleExploration } from '@/app/components/ArticleExploration';
-import { ExperienceCards } from "@/app/components/history/interactive/ExperienceCards";
-import { getArticleExperiences, toExperienceSummary } from "@/lib/content/interactive-history";
-import { ArchiveSeasonLink } from "@/app/components/ArchiveSeasonLink";
-import { getSeasons } from "@/lib/content/seasons";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { archiveFeatureExists, getArchiveFeature, getArchiveFeatures } from "@/lib/content/archive";
+import { getArchiveCategory, getArchiveFeature, getArchiveFeatures } from "@/lib/content/archive";
+import { formatLongDate } from "@/lib/format";
 import { SiteHeader } from "@/app/components/SiteHeader";
-import { ArchiveDiscovery } from "@/app/components/ArchiveDiscovery";
-import { getRelatedArchiveArticles } from "@/lib/content/discovery";
-import { getHistoryEntities } from "@/lib/content/entities";
-import { getHistory } from "@/lib/content/history";
 import { ShareButton } from "@/app/components/ShareButton";
 
 export function generateStaticParams() {
@@ -36,7 +26,12 @@ export async function generateMetadata({
     return {};
   }
 
-  return socialMetadata(feature.title, feature.excerpt, `/archive/${feature.slug}`);
+  const metadata = socialMetadata(feature.title, feature.excerpt, `/archive/${feature.slug}`);
+  return {
+    ...metadata,
+    authors: [{ name: "Denny Regan" }],
+    openGraph: { ...metadata.openGraph, type: "article", publishedTime: feature.date, authors: ["Denny Regan"], section: getArchiveCategory(feature) },
+  };
 }
 
 export default async function ArchiveFeaturePage({
@@ -52,91 +47,28 @@ export default async function ArchiveFeaturePage({
     notFound();
   }
 
-  const seasonFacts =
-    feature.category === "season"
-      ? ([
-          ["Season", feature.season],
-          ["Manager", feature.manager],
-          ["League finish", feature.leagueFinish],
-          ["European competition", feature.european],
-          ["Domestic cups", feature.domesticCups],
-          ["Top scorer", feature.topScorer],
-          ["Arrivals", feature.arrivals],
-          ["Departures", feature.departures],
-        ] as const).filter(([, value]) => Boolean(value))
-      : [];
-
-  const relatedMatches =
-    feature.category === "season" && feature.relatedMatches
-      ? feature.relatedMatches
-          .filter((matchSlug) => archiveFeatureExists(matchSlug))
-          .map((matchSlug) => getArchiveFeature(matchSlug))
-      : [];
-
-  const curatedSlugs = new Set(relatedMatches.map(article => article.slug));
-  const recommendations = getRelatedArchiveArticles(
-    feature,
-    getArchiveFeatures().filter(article => !curatedSlugs.has(article.slug) && (feature.editorialMode !== "factual" || article.editorialMode === "factual")),
-    getHistory().eras,
-    getHistoryEntities(),
-  );
-
-  const historyDestination = feature.editorialMode === "factual"
-    ? feature.articleType === "player" ? "/history/players" : feature.articleType === "match" ? "/history/matches" : "/history"
-    : undefined;
-
   return (
     <div className="min-h-screen">
-      <SiteHeader active={historyDestination ? "history" : "archive"} />
+      <SiteHeader active="articles" />
       <main id="main-content" className="reading-page">
         <div className="flex items-center justify-between mb-8">
-          <Link href={historyDestination ?? "/articles"} className="text-sm font-medium text-accent hover:text-accent-dark">
-            {historyDestination === "/history/matches" ? "‹ History matches" : historyDestination === "/history/players" ? "‹ History players" : historyDestination ? "‹ History" : "‹ Articles"}
+          <Link href="/articles" className="text-sm font-medium text-accent hover:text-accent-dark">
+            ‹ Articles
           </Link>
           <ShareButton title={feature.title} />
         </div>
 
         <h1 className="font-serif text-3xl font-bold text-gray-900 mb-2">{feature.title}</h1>
-        <p className="text-sm text-gray-500 mb-8">{feature.historicalPeriod}</p>
-
-        {seasonFacts.length > 0 && (
-          <dl className="mb-8 border border-gray-200 rounded-lg divide-y divide-gray-200 bg-gray-50 text-sm">
-            {seasonFacts.map(([label, value]) => (
-              <div key={label} className="flex items-baseline justify-between gap-4 px-4 py-2.5">
-                <dt className="font-semibold text-gray-500">{label}</dt>
-                <dd className="text-gray-900 text-right">{value}</dd>
-              </div>
-            ))}
-          </dl>
-        )}
+        <p className="text-sm text-gray-500 mb-2">
+          By Denny Regan · Published {formatLongDate(feature.date)} · <span className="text-accent">{getArchiveCategory(feature)}</span>
+        </p>
+        <p className="text-sm text-gray-500 mb-8">
+          Match date: {feature.historicalEventDate ? formatLongDate(feature.historicalEventDate) : feature.historicalPeriod}
+        </p>
 
         <div className="article-body">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{feature.body}</ReactMarkdown>
         </div>
-
-        {relatedMatches.length > 0 && (
-          <div className="mt-10 pt-8 border-t border-gray-200">
-            <h2 className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-4">From this season</h2>
-            <ul className="space-y-2">
-              {relatedMatches.map((match) => (
-                <li key={match.slug}>
-                  <Link
-                    href={`/archive/${match.slug}`}
-                    className="text-accent font-medium hover:text-accent-dark hover:underline"
-                  >
-                    {match.title} →
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-      <ExperienceCards experiences={getArticleExperiences(feature.slug).map(toExperienceSummary)} headingId="article-interactive" />
-        <ArchiveSeasonLink article={feature} seasons={getSeasons()} />
-        <ArticleExploration article={feature} />
-      <AnalysisReading context={{ matchSlug: feature.slug }} />
-        <ArchiveDiscovery recommendations={recommendations} />
-      <ContinueFromHere context={{ articleSlug: feature.slug }} />
       </main>
     </div>
   );

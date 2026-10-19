@@ -3,22 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "validate:calendar": "node scripts/validate-editorial-calendar.mjs",
-    "inventory:matches": "node scripts/match-report-inventory.mjs",
-    "dev": "node scripts/build-search-index.mjs && node scripts/dev.mjs",
-    "build": "node scripts/validate-history.mjs && node scripts/build-search-index.mjs && next build",
+    "dev": "node scripts/dev.mjs",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --test tests/*.test.mjs",
-    "table:prepare": "node scripts/prepare-league-table.mjs",
-    "table:refresh": "node scripts/update-league-table.mjs",
-    "search:build": "node scripts/build-search-index.mjs",
-    "queue:biographies": "node scripts/editorial-review-queue.mjs biographies",
-    "queue:matches": "node scripts/editorial-review-queue.mjs matches",
-    "test:publisher": "node --test tests/automatic-history*.test.mjs",
-    "history:pool": "node scripts/automatic-history-publisher.mjs pool",
-    "history:dry-run": "node scripts/automatic-history-publisher.mjs dry-run",
-    "history:take-offline": "node scripts/take-offline.mjs"
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

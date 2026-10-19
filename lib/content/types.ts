@@ -1,25 +1,6 @@
 import {z} from "zod";
 import { HistoryIdSchema, HistoryIdsSchema } from "./entities.ts";
 import { SeasonIdSchema } from "./history.ts";
-export const SourceSchema = z.object({
-    name: z.string(),
-    platform: z.string(),
-    url: z.url(),
-});
-export const StorySchema = z.object({
-headline: z.string(),
-category: z.string(),
-summary: z.string(),
-sources: z.array(SourceSchema),
-});
-export const BriefSchema = z.object({
-lastUpdated: z.string(),
-title: z.string(),
-status :z.string(),
-editorsNote: z.string().optional(),
-stories: z.array(StorySchema) ,
-});
-
 export const ArchiveFeatureSchema = z.object({
     // The date of the historical event; date below remains the publication date.
     historicalEventDate: z.iso.date().optional(),
