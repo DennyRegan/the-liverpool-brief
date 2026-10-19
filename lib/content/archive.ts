@@ -59,3 +59,9 @@ export function getArchiveFeature(slug: string, root = process.cwd()) {
     if (!article) throw new Error(`Archive article not found: ${slug}`);
     return article;
 }
+
+// Listing category follows the stored editorialMode: opinion pieces are Opinion,
+// factual historical pieces are History.
+export function getArchiveCategory(article: { editorialMode?: "factual" | "opinion" }) {
+    return article.editorialMode === "factual" ? "History" as const : "Opinion" as const;
+}

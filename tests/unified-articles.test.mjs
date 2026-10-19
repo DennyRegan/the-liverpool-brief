@@ -32,6 +32,10 @@ test('retained Archive pieces join Articles once at their original URLs', () => 
     assert.equal(article.category === 'History', article.editorialMode === 'factual');
   }
   assert.match(read('app/archive/[slug]/page.tsx'), /getArchiveFeature\(slug\)/);
+  // Archive pages show the byline and publication date, with the match date labelled separately.
+  const page = read('app/archive/[slug]/page.tsx');
+  assert.match(page, /By Denny Regan · Published \{formatLongDate\(feature\.date\)\}/);
+  assert.match(page, /Match date: \{feature\.historicalEventDate/);
 });
 
 test('a new Analysis article appears in Articles without code changes', () => {

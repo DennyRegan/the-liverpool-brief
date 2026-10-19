@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { getArchiveFeature, getArchiveFeatures } from "@/lib/content/archive";
+import { getArchiveCategory, getArchiveFeature, getArchiveFeatures } from "@/lib/content/archive";
+import { formatLongDate } from "@/lib/format";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { ShareButton } from "@/app/components/ShareButton";
 
@@ -25,7 +26,12 @@ export async function generateMetadata({
     return {};
   }
 
-  return socialMetadata(feature.title, feature.excerpt, `/archive/${feature.slug}`);
+  const metadata = socialMetadata(feature.title, feature.excerpt, `/archive/${feature.slug}`);
+  return {
+    ...metadata,
+    authors: [{ name: "Denny Regan" }],
+    openGraph: { ...metadata.openGraph, type: "article", publishedTime: feature.date, authors: ["Denny Regan"], section: getArchiveCategory(feature) },
+  };
 }
 
 export default async function ArchiveFeaturePage({
@@ -53,7 +59,12 @@ export default async function ArchiveFeaturePage({
         </div>
 
         <h1 className="font-serif text-3xl font-bold text-gray-900 mb-2">{feature.title}</h1>
-        <p className="text-sm text-gray-500 mb-8">{feature.historicalPeriod}</p>
+        <p className="text-sm text-gray-500 mb-2">
+          By Denny Regan · Published {formatLongDate(feature.date)} · <span className="text-accent">{getArchiveCategory(feature)}</span>
+        </p>
+        <p className="text-sm text-gray-500 mb-8">
+          Match date: {feature.historicalEventDate ? formatLongDate(feature.historicalEventDate) : feature.historicalPeriod}
+        </p>
 
         <div className="article-body">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{feature.body}</ReactMarkdown>
