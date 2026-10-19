@@ -41,8 +41,8 @@ test('native sharing sends the headline and canonical URL, not generic site text
   assert.doesNotMatch(source, /text: "The Liverpool Brief"/);
 });
 
-test('articles, reports and Match Centre have dedicated share images', () => {
-  for (const route of ['articles/[slug]', 'archive/[slug]', 'match-centre']) {
+test('articles and Archive pieces have dedicated share images', () => {
+  for (const route of ['articles/[slug]', 'archive/[slug]']) {
     assert.match(fs.readFileSync(`app/${route}/opengraph-image.tsx`, 'utf8'), /socialImage\(/);
   }
 });

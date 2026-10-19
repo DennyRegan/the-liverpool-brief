@@ -59,37 +59,3 @@ export function getArchiveFeature(slug: string, root = process.cwd()) {
     if (!article) throw new Error(`Archive article not found: ${slug}`);
     return article;
 }
-
-export function archiveFeatureExists(slug: string) {
-    return /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug) && fs.existsSync(path.join(process.cwd(), "content/archive/liverpool", `${slug}.md`));
-}
-
-export function getMatchFeatures() {
-    return getArchiveFeatures().filter(feature => feature.category === "match");
-}
-
-export function getPersonFeatures() {
-    return getArchiveFeatures().filter(feature => feature.category === "person");
-}
-
-export function getSeasonFeatures() {
-    // Oldest first — this is a historical run through the seasons, not a news feed.
-    return getArchiveFeatures()
-        .filter(feature => feature.category === "season")
-        .sort((a, b) => ((a.season ?? a.historicalPeriod) < (b.season ?? b.historicalPeriod) ? -1 : 1));
-}
-
-// Editorial placement is explicit; never infer factual status from a subject or prose.
-export function getFactualHistoryArticles(root = process.cwd()) {
-    return getArchiveFeatures(root).filter(article => article.editorialMode === "factual");
-}
-
-export function getHistoryBrowseArticles(section: "matches" | "players", root = process.cwd()) {
-    const type = section === "matches" ? "match" : "player";
-    const articles = getFactualHistoryArticles(root).filter(article => article.articleType === type);
-    if (section === "matches") return articles;
-    const people = new Map(getHistoryEntities(root).map(entity => [entity.id, entity.label]));
-    // For biographies the first player ID identifies the main subject.
-    const name = (article: typeof articles[number]) => people.get(article.playerIds?.[0] ?? "") ?? article.title;
-    return articles.sort((a, b) => name(a).localeCompare(name(b), "en-GB") || a.slug.localeCompare(b.slug));
-}

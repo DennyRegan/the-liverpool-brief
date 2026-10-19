@@ -38,20 +38,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Current site structure
 
-Home has a short introduction, one current Brief story, the latest Opinion and the latest Archive article. Articles holds the complete collection, with Opinion and Archive filters at `/articles?category=opinion` and `/articles?category=archive`. Archive exposes Matches and People subcategories while full stories retain their standalone `/archive/[slug]` URLs. `/archive` redirects to the Archive filter. This Week presents a fixed Monday-to-Sunday calendar week in Europe/London, omits empty day cards and keeps matching Archive articles linked for the whole week. The Brief is at `/brief`. History at `/history` explores managerial eras and discovers the same canonical Archive articles. Main navigation preserves Home, The Brief, Articles, This Week and About, adding History.
+The Liverpool Brief publishes Denny Regan's own writing. Navigation is Home | Articles | About.
 
-An optional article `excerpt` supplies the homepage, collection and article description. Without one, a plain-text preview ends at a word boundary. URL entries in article `sources` render as numbered links labelled with their domain; older outlet names remain plain text.
+- **Home** (`/`) leads with the latest Opinion or Analysis piece, lists four more recent articles and links to the full collection.
+- **Articles** (`/articles`) is the single collection. Filters (`?type=opinion|analysis|history`) appear only for categories that currently have articles.
+- Articles live in `content/articles/liverpool/*.md` (`category: Opinion | Analysis`) at `/articles/[slug]`. Four earlier pieces stay in `content/archive/liverpool/` at their original `/archive/[slug]` URLs and are listed as Opinion or History according to their stored `editorialMode`.
+- Analysis supports Markdown tables (GitHub-flavoured) and images/charts placed under `public/`.
+- The newsletter signup is hidden until Sender is configured; see [docs/newsletter-signup.md](docs/newsletter-signup.md).
 
-## This Week
+The Brief, History, This Week, Match Centre, Search and all automated History publishing were retired on 19 October 2026. Everything removed is preserved in the tag `pre-editorial-reset-2026-10-19` and the branch `archive/pre-editorial-reset`.
 
-All editors and the existing weekly task use the latest main [shared editorial calendar](docs/editorial/history-calendar.json) and [claim/save/reconcile workflow](docs/editorial/README.md). If it cannot be accessed, stop rather than create another plan. It covers the current UK Monday–Sunday week plus three weeks ahead and preserves completed drafts pending explicit publication approval.
-
-See [the This Week guide](docs/this-week.md) for content examples, image and Archive links, date behaviour, validation and exact checks. No production events or replacement Archive articles have been invented.
-
-Use Node 22.18+ or 24, then `npm ci`, `npm test`, `npm run lint`, and `npm run build`. Tests use Node’s built-in runner; no new dependencies were introduced. The build validates history entries before compiling. Preview with `npm run dev`.
-
-The About page is provisional and needs Denny’s wording review before production release. Removed content remains recoverable in the public Git history; that is not a private backup.
-
-## History Explorer
-
-See [the History Explorer guide](docs/history-explorer.md) for architecture, the complete change inventory, automatic Archive placement, publishing examples, illustrations and verification status. [The source audit](docs/history-sources.md) records factual references and date discrepancies. History reuses `historicalEventDate` and adds only optional `historyEras` for explicit, potentially multiple tenure associations.
+Use Node 22.18+ or 24, then `npm ci`, `npm test`, `npm run lint` and `npm run build`. Preview with `npm run dev`.

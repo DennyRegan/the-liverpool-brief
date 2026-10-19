@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { getNewsletterConfig } from '@/lib/newsletter-config';
 import { SiteHeader } from '@/app/components/SiteHeader';
 
 export const metadata = {
@@ -8,6 +10,7 @@ export const metadata = {
 };
 
 export default function NewsletterPrivacyPage() {
+  if (!getNewsletterConfig()) notFound();
   return <>
     <SiteHeader />
     <main id="main-content" className="reading-page">
