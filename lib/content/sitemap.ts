@@ -7,7 +7,7 @@ import { getNewsletterConfig } from "../newsletter-config.ts";
 /** Mirror public page selectors; never scan editorial folders for destinations. */
 export function getPublicSitemap(root = process.cwd(), env = process.env): MetadataRoute.Sitemap {
   const paths = [
-    "/", "/about", "/articles",
+    "/", "/about", "/articles", "/regan-on-football",
     // The newsletter pages are public only while signup is configured.
     ...(getNewsletterConfig(env) ? ["/newsletter", "/newsletter/privacy"] : []),
     ...getArticles(root).map(article => `/articles/${article.slug}`),

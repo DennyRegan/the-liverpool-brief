@@ -2,6 +2,7 @@ import Link from 'next/link';
 import './homepage.css';
 import { SiteHeader } from '@/app/components/SiteHeader';
 import { NewsletterInvitation } from '@/app/components/NewsletterInvitation';
+import { ReganOnFootballLabel } from '@/app/components/ReganOnFootballLabel';
 import { getWriting } from '@/lib/content/writing';
 import { selectHomeLead } from '@/lib/content/homepage';
 import { getHomeLeadOverride } from '@/lib/content/homepage-config';
@@ -26,13 +27,13 @@ export default function Home() {
         <div className="home-section-heading"><h2 id="home-articles-heading" className="eyebrow">Latest writing</h2><Link className="read-link" href="/articles">All articles →</Link></div>
         {lead ? <div className="home-writing">
           <article className="home-lead">
-            <p className="article-meta"><span>{lead.category}</span><time dateTime={lead.date}>{formatListDate(lead.date)}</time><span>By Denny Regan</span></p>
+            <p className="article-meta"><span>{lead.category}</span><time dateTime={lead.date}>{formatListDate(lead.date)}</time><span>By Denny Regan</span><ReganOnFootballLabel article={lead} /></p>
             <h1><Link href={lead.href}>{lead.title}</Link></h1>
             <p className="home-standfirst">{getArticleExcerpt(lead, 300)}</p>
             <Link className="read-link" href={lead.href}>Read article →</Link>
           </article>
           {more.length > 0 && <div className="home-more"><p className="eyebrow">More to read</p>{more.map(article => <article key={article.href}>
-            <p className="article-meta"><span>{article.category}</span><time dateTime={article.date}>{formatListDate(article.date)}</time></p>
+            <p className="article-meta"><span>{article.category}</span><time dateTime={article.date}>{formatListDate(article.date)}</time><ReganOnFootballLabel article={article} /></p>
             <h3><Link href={article.href}>{article.title}</Link></h3>
             <p className="home-summary">{getArticleExcerpt(article, 150)}</p>
           </article>)}</div>}

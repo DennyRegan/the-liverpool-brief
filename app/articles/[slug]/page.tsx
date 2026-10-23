@@ -6,6 +6,8 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { getArticle, getArticles } from "@/lib/content/articles";
 import { SiteHeader } from "@/app/components/SiteHeader";
+import { ReganOnFootballMasthead } from "@/app/components/ReganOnFootballMasthead";
+import { isReganOnFootball } from "@/lib/content/regan-on-football";
 import { ShareButton } from "@/app/components/ShareButton";
 import { formatLongDate, getArticleExcerpt, getSourceLink } from "@/lib/format";
 
@@ -54,6 +56,7 @@ export default async function ArticlePage({
           <ShareButton title={article.title} />
         </div>
 
+        {isReganOnFootball(article) && <ReganOnFootballMasthead compact />}
         <h1 className="article-title">{article.title}</h1>
         <p className="text-sm text-gray-500 mb-8">
           By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">{article.category}</span>
