@@ -23,6 +23,7 @@ export default function Home() {
   return <>
     <SiteHeader active="home" />
     <main id="main-content" className="site-width home-page">
+      {getNewsletterConfig() && <NewsletterInvitation />}
       <section aria-labelledby="home-articles-heading">
         <div className="home-section-heading"><h2 id="home-articles-heading" className="eyebrow">Latest writing</h2><Link className="collection-link" href="/articles">All articles</Link></div>
         {lead ? <div className="home-writing">
@@ -40,7 +41,6 @@ export default function Home() {
           </article>)}</div>}
         </div> : <><h1 className="home-empty-title">Independent Liverpool writing</h1><Link className="read-link" href="/articles">Browse articles →</Link></>}
       </section>
-      {getNewsletterConfig() && <NewsletterInvitation />}
     </main>
   </>;
 }
