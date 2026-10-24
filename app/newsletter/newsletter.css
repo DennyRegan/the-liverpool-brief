@@ -1,5 +1,8 @@
 .newsletter-page > .eyebrow { color: var(--accent); margin-bottom: 16px; }
 .newsletter-page > .standfirst { margin-bottom: 24px; }
+.newsletter-share { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; margin-bottom: 18px; }
+.newsletter-share > button, .newsletter-share > a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--accent); font-size: 14px; font-weight: 500; }
+.newsletter-share > a:hover { text-decoration: underline; }
 .newsletter-help { font-size: 15px; line-height: 1.7; margin-block: 18px; overflow-wrap: anywhere; }
 .newsletter-help a { color: var(--accent); text-decoration: underline; }
 .newsletter-form { width: 100%; min-height: 280px; background: var(--background); }

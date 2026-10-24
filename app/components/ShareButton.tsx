@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export function ShareButton({ title }: { title: string }) {
+export function ShareButton({ title, label }: { title: string; label?: string }) {
   const [copied, setCopied] = useState(false);
 
   async function handleShare() {
@@ -37,7 +37,7 @@ export function ShareButton({ title }: { title: string }) {
       {copied ? (
         "Copied!"
       ) : (
-        <svg
+        <><svg
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -50,7 +50,7 @@ export function ShareButton({ title }: { title: string }) {
           <path d="M12 3v12" />
           <path d="M7.5 7.5 12 3l4.5 4.5" />
           <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" />
-        </svg>
+        </svg>{label && <span>{label}</span>}</>
       )}
     </button>
   );
