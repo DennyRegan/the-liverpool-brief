@@ -9,6 +9,7 @@ import { SiteHeader } from "@/app/components/SiteHeader";
 import { ReganOnFootballMasthead } from "@/app/components/ReganOnFootballMasthead";
 import { isReganOnFootball } from "@/lib/content/regan-on-football";
 import { ShareButton } from "@/app/components/ShareButton";
+import { ArticleMeta } from "@/app/components/ArticleMeta";
 import { formatLongDate, getArticleExcerpt, getSourceLink } from "@/lib/format";
 
 export function generateStaticParams() {
@@ -49,8 +50,8 @@ export default async function ArticlePage({
     <div className="min-h-screen">
       <SiteHeader active="articles" />
       <main id="main-content" className="reading-page">
-        <div className="flex items-center justify-between mb-8">
-          <Link href="/articles" className="text-sm font-medium text-accent hover:text-accent-dark">
+        <div className="reading-tools">
+          <Link href="/articles" className="back-link">
             ‹ Articles
           </Link>
           <ShareButton title={article.title} />
@@ -58,9 +59,7 @@ export default async function ArticlePage({
 
         {isReganOnFootball(article) && <ReganOnFootballMasthead compact />}
         <h1 className="article-title">{article.title}</h1>
-        <p className="text-sm text-gray-500 mb-8">
-          By Denny Regan · {formatLongDate(article.date)} · <span className="text-accent">{article.category}</span>
-        </p>
+        <ArticleMeta {...article} author={!isReganOnFootball(article)} showColumn={false} />
         {article.researchCutoff && <p className="text-sm text-gray-500 mb-8">Research checked to {formatLongDate(article.researchCutoff)}.</p>}
 
         <div className="article-body">

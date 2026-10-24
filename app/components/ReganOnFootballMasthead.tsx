@@ -7,7 +7,7 @@ export function ReganOnFootballMasthead({ compact = false }: { compact?: boolean
       {compact ? (
         <p className="column-name"><Link href={REGAN_ON_FOOTBALL_PATH}>Regan <em>on Football</em></Link></p>
       ) : (
-        <h1 className="column-name">Regan <em>on Football</em></h1>
+        <h1 className="column-name">Regan on Football</h1>
       )}
       <p className="column-byline">A weekly football column by Denny Regan</p>
     </header>

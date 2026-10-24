@@ -34,7 +34,11 @@ test('retained Archive pieces join Articles once at their original URLs', () => 
   assert.match(read('app/archive/[slug]/page.tsx'), /getArchiveFeature\(slug\)/);
   // Archive pages show the byline and publication date, with the match date labelled separately.
   const page = read('app/archive/[slug]/page.tsx');
-  assert.match(page, /By Denny Regan · Published \{formatLongDate\(feature\.date\)\}/);
+  assert.match(page, /ArticleMeta \{\.\.\.feature\} category=\{getArchiveCategory\(feature\)\} author/);
+  const meta = read('app/components/ArticleMeta.tsx');
+  assert.match(meta, /By Denny Regan/);
+  assert.match(meta, /dateTime=\{date\}/);
+  assert.match(meta, /Published \$\{formatListDate\(date\)\}/);
   assert.match(page, /Match date: \{feature\.historicalEventDate/);
 });
 
