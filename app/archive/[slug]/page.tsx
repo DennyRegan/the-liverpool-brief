@@ -8,6 +8,7 @@ import { getArchiveCategory, getArchiveFeature, getArchiveFeatures } from "@/lib
 import { formatLongDate } from "@/lib/format";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { ShareButton } from "@/app/components/ShareButton";
+import { ArticleMeta } from "@/app/components/ArticleMeta";
 
 export function generateStaticParams() {
   return getArchiveFeatures().map((feature) => ({ slug: feature.slug }));
@@ -51,18 +52,16 @@ export default async function ArchiveFeaturePage({
     <div className="min-h-screen">
       <SiteHeader active="articles" />
       <main id="main-content" className="reading-page">
-        <div className="flex items-center justify-between mb-8">
-          <Link href="/articles" className="text-sm font-medium text-accent hover:text-accent-dark">
+        <div className="reading-tools">
+          <Link href="/articles" className="back-link">
             ‹ Articles
           </Link>
           <ShareButton title={feature.title} />
         </div>
 
-        <h1 className="font-serif text-3xl font-bold text-gray-900 mb-2">{feature.title}</h1>
-        <p className="text-sm text-gray-500 mb-2">
-          By Denny Regan · Published {formatLongDate(feature.date)} · <span className="text-accent">{getArchiveCategory(feature)}</span>
-        </p>
-        <p className="text-sm text-gray-500 mb-8">
+        <h1 className="article-title">{feature.title}</h1>
+        <ArticleMeta {...feature} category={getArchiveCategory(feature)} author showColumn={false} />
+        <p className="historical-date">
           Match date: {feature.historicalEventDate ? formatLongDate(feature.historicalEventDate) : feature.historicalPeriod}
         </p>
 

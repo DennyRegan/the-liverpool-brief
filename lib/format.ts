@@ -67,6 +67,10 @@ export function getArticleExcerpt(article: { excerpt?: string; body: string }, m
   return article.excerpt?.trim() || getExcerpt(article.body, maxLength);
 }
 
+export function getReadingTime(body: string): number {
+  return Math.max(1, Math.ceil(body.trim().split(/\s+/).length / 220));
+}
+
 /** Older articles also contain outlet names without URLs. Keep those as text. */
 export function getSourceLink(source: string): { href: string; label: string } | null {
   try {
