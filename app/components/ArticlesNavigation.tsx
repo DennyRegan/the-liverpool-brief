@@ -10,7 +10,7 @@ export function ArticlesNavigation({ selected, hasAnalysis = false }: {
     ["Opinion", "/articles?type=opinion"],
     ...(hasAnalysis ? [["Analysis", "/articles?type=analysis"]] : []),
     ["History", "/articles?type=history"],
-    ["Regan on Football", REGAN_ON_FOOTBALL_PATH],
+    ["Football Observed", REGAN_ON_FOOTBALL_PATH],
   ];
   return (
     <nav className="writing-types" aria-label="Article categories" tabIndex={0}>

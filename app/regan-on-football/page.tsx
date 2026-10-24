@@ -7,8 +7,8 @@ import { getWriting } from "@/lib/content/writing";
 import { socialMetadata } from "@/lib/social-metadata";
 
 export const metadata = socialMetadata(
-  "Regan on Football | The Liverpool Brief",
-  "A weekly football column by Denny Regan. Opinions, observations and commentary on football, published in The Liverpool Brief.",
+  "Football Observed | The Liverpool Brief",
+  "A weekly column by Denny Regan. Opinions, observations and commentary on football, published in The Liverpool Brief.",
   REGAN_ON_FOOTBALL_PATH,
 );
 
@@ -17,7 +17,7 @@ export default function ReganOnFootballPage() {
   return <>
     <SiteHeader active="articles" />
     <main id="main-content" className="site-width collection column-page">
-      <ArticlesNavigation selected="Regan on Football" hasAnalysis={getWriting().some(article => article.category === "Analysis")} />
+      <ArticlesNavigation selected="Football Observed" hasAnalysis={getWriting().some(article => article.category === "Analysis")} />
       <ReganOnFootballMasthead />
       <ArticleCollection articles={editions} column emptyMessage="The first edition will appear here when published." />
     </main>

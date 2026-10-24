@@ -3,6 +3,6 @@ import { isReganOnFootball, REGAN_ON_FOOTBALL_PATH } from "@/lib/content/regan-o
 
 export function ReganOnFootballLabel({ article }: { article: { category: string; tags?: readonly string[] } }) {
   return isReganOnFootball(article)
-    ? <Link className="column-label" href={REGAN_ON_FOOTBALL_PATH}>Regan on Football</Link>
+    ? <Link className="column-label" href={REGAN_ON_FOOTBALL_PATH}>Football Observed</Link>
     : null;
 }
