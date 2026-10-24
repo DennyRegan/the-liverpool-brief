@@ -140,3 +140,17 @@ Checked 13 October 2026. These describe provider capabilities, not completed con
 - **High confidence — Sender official:** https://www.sender.net/privacy-policy/ and https://www.sender.net/gdpr-compliance/ — processing, consent logs, technical data and DPA availability.
 - **High confidence — Sender official:** https://www.sender.net/pricing/free-plan/ — 2,500 subscribers, 15,000 emails/month, no daily cap and required branding.
 - **High confidence — ICO:** https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/ and https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/direct-marketing-guidance/respect-peoples-preferences/ — email consent and withdrawal.
+
+## Activation — 24 October 2026
+
+This section supersedes the earlier pending-approval status. Denny authorised completing signup and publishing it, while deferring the newsletter format and first edition. No campaign was created, scheduled or sent.
+
+- Sender support confirmed account activation on 22 October. Domain ownership and SPF/DKIM/DMARC were verified in Sender on 17 October; the confirmation email received on 24 October independently passed all three in Gmail's Authentication-Results.
+- Published form `bo2xnY`, with double opt-in enabled. Confirmation subject: **Confirm your subscription to The Sunday Brief**; From: **The Liverpool Brief <newsletter@theliverpoolbrief.com>**. Success view asks the reader to check their inbox and click the confirmation link. Email-only collection and required unticked consent verified on the actual form.
+- Configured the three documented public Sender settings on the existing Vercel project, for production and preview. No API key or subscriber database added. Redeployed current main `f36d802` as production deployment `dpl_5wLAgA4fkPgAVK1ufSNou6Ykgawj` and verified the native form loaded at `/newsletter`.
+- The ordinary Gmail address already existed as an active test contact. Used `theliverpoolbrief+signup-test@gmail.com` (the same Gmail inbox) for a genuinely new confirmation test. Sender activity showed **Non-subscribed** before clicking and **Subscribed** afterwards, in group `e5EmPx`, with source Form and timestamped activity. Consent validation rejects submission when unticked. Repeated signup from the live embedded form uses the same test contact.
+- Confirmation email reached Gmail's **Spam** folder despite SPF/DKIM/DMARC passing. Tell test readers to check spam; do not promise inbox placement. No mailbox changes were made to hide this result.
+- The native form, hosted fallback and confirmation link work. Local tests (29), lint and configured production build pass. Campaign delivery/unsubscribe-link testing remains for the first approved edition; do not describe it as tested. A narrow-screen device check also remains; desktop browser inspection is not a phone test.
+- The temporary plus-address was unsubscribed using Sender’s account controls after testing; Sender confirmed successful unsubscribe. This avoids duplicate copies. The primary Gmail remains subscribed. This is not a test of an email campaign’s unsubscribe link. Dad's address has not been added.
+
+Weekly operation remains manual: Denny finalises the format and edition, approves recipients and the send, then sends through Sender with its unsubscribe link. No automated editorial production or send schedule has been enabled.
