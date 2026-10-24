@@ -9,6 +9,7 @@ export function ArticlesNavigation({ selected, hasAnalysis = false }: {
     ["All", "/articles"],
     ["Opinion", "/articles?type=opinion"],
     ...(hasAnalysis ? [["Analysis", "/articles?type=analysis"]] : []),
+    ["Team News", "/articles?type=team-news"],
     ["History", "/articles?type=history"],
     ["Football Observed", REGAN_ON_FOOTBALL_PATH],
   ];

@@ -8,7 +8,7 @@ This file is the single source of project instructions. `AGENTS.md` only points 
 ## Product
 The Liverpool Brief publishes journalism personally developed by Denny Regan: Opinion, Analysis, investigations and historical writing. It is a simple, writing-led publication. Home leads with the latest Opinion or Analysis piece, lists recent articles and links to the full collection.
 
-Articles is one collection at `/articles`, with filters for Opinion, Analysis and History that appear only when that category has published articles. The public Archive label must not return. Legacy Archive collection routes (`/archive`, `/archive/matches`, `/archive/people`, `/archive/seasons`) redirect to `/articles`; individual retained story URLs such as `/archive/[slug]` stay permanent.
+Articles is one collection at `/articles`, with filters for Opinion, Analysis and History that appear only when that category has published articles. Team News is also available within Articles, including before its first approved article is published. The public Archive label must not return. Legacy Archive collection routes (`/archive`, `/archive/matches`, `/archive/people`, `/archive/seasons`) redirect to `/articles`; individual retained story URLs such as `/archive/[slug]` stay permanent.
 
 ## Editorial reset — 19 October 2026
 The Brief, History, This Week, Match Centre, Search, the AI drafting pipeline and all automated publishing were retired. Removed articles return 404. Everything removed is preserved in the tag `pre-editorial-reset-2026-10-19` and branch `archive/pre-editorial-reset`. Do not restore any of it without Denny's explicit instruction.
@@ -20,11 +20,12 @@ The Brief, History, This Week, Match Centre, Search, the AI drafting pipeline an
 ## Navigation
 Home | Articles | About. Maintain mobile layout.
 
-Articles provides All, Opinion, History and Football Observed collections, with Analysis also available when published. Football Observed is Denny’s weekly general-football column, reached through the Articles category navigation at its preserved `/regan-on-football` URL. It uses existing Opinion articles tagged exactly `regan-on-football`, with canonical `/articles/[slug]` URLs. Editions are organised automatically from approved content; there is no automated writing, scheduling or publishing. See `docs/regan-on-football.md` for the publishing contract.
+Articles provides All, Opinion, Team News, History and Football Observed collections, with Analysis also available when published. Football Observed is Denny’s weekly general-football column, reached through the Articles category navigation at its preserved `/regan-on-football` URL. It uses existing Opinion articles tagged exactly `regan-on-football`, with canonical `/articles/[slug]` URLs. Editions are organised automatically from approved content; there is no automated writing, scheduling or publishing. See `docs/regan-on-football.md` for the publishing contract.
 
 ## Architecture
 Next.js App Router; local Markdown with YAML frontmatter validated by Zod.
-- Articles: `content/articles/liverpool/*.md` → `/articles/[slug]`, `category: Opinion | Analysis`. Analysis supports GitHub-flavoured Markdown tables and images/charts under `public/`.
+- Articles: `content/articles/liverpool/*.md` → `/articles/[slug]`, `category: Opinion | Analysis | Team News`. Analysis supports GitHub-flavoured Markdown tables and images/charts under `public/`.
+- Team News: factual Liverpool squad updates, injuries, suspensions, availability and pre-match selection news use `category: Team News` in the normal article frontmatter. They appear in All and `/articles?type=team-news`; shared cards and article pages display the category automatically. Keep headlines, publication dates, excerpts, slugs and all other metadata in the existing format. Do not reclassify existing articles or publish pending drafts without explicit editorial approval.
 - Retained earlier pieces: `content/archive/liverpool/*.md` → `/archive/[slug]`. They list as Opinion (`editorialMode: opinion`) or History (`editorialMode: factual`).
 - `content/history/liverpool/entities.json` and `eras.json` are internal reference data only, with no public pages. Article relationship fields (`playerIds`, `season`, `historyEras` and so on) are validated against them, so keep them.
 - The newsletter (Sender) is shown only when its public configuration is present; see `docs/newsletter-signup.md`.

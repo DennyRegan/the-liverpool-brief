@@ -50,7 +50,7 @@ export const ArticleSchema = ArchiveFeatureSchema.pick({
     locationIds: true, themeIds: true, relatedMatches: true,
 }).extend({
     title: z.string(), date: z.iso.date(), slug: HistoryIdSchema,
-    category: z.enum(["Opinion", "Analysis"]).default("Opinion"),
+    category: z.enum(["Opinion", "Analysis", "Team News"]).default("Opinion"),
     seoTitle: z.string().min(1).optional(),
     tags: z.array(z.string().min(1)).optional(),
     researchCutoff: z.iso.date().optional(),
