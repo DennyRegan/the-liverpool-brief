@@ -20,7 +20,7 @@ The Brief, History, This Week, Match Centre, Search, the AI drafting pipeline an
 ## Navigation
 Home | Articles | About. Maintain mobile layout.
 
-Articles provides All, Opinion, History and Regan on Football collections, with Analysis also available when published. Regan on Football is Denny’s weekly general-football column, reached through the Articles category navigation at its preserved `/regan-on-football` URL. It uses existing Opinion articles tagged exactly `regan-on-football`, with canonical `/articles/[slug]` URLs. Editions are organised automatically from approved content; there is no automated writing, scheduling or publishing. See `docs/regan-on-football.md` for the publishing contract.
+Articles provides All, Opinion, History and Football Observed collections, with Analysis also available when published. Football Observed is Denny’s weekly general-football column, reached through the Articles category navigation at its preserved `/regan-on-football` URL. It uses existing Opinion articles tagged exactly `regan-on-football`, with canonical `/articles/[slug]` URLs. Editions are organised automatically from approved content; there is no automated writing, scheduling or publishing. See `docs/regan-on-football.md` for the publishing contract.
 
 ## Architecture
 Next.js App Router; local Markdown with YAML frontmatter validated by Zod.

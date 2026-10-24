@@ -5,11 +5,11 @@ export function ReganOnFootballMasthead({ compact = false }: { compact?: boolean
   return (
     <header className={`column-masthead${compact ? " column-masthead--compact" : ""}`}>
       {compact ? (
-        <p className="column-name"><Link href={REGAN_ON_FOOTBALL_PATH}>Regan <em>on Football</em></Link></p>
+        <p className="column-name"><Link href={REGAN_ON_FOOTBALL_PATH}>Football Observed</Link></p>
       ) : (
-        <h1 className="column-name">Regan on Football</h1>
+        <h1 className="column-name">Football Observed</h1>
       )}
-      <p className="column-byline">A weekly football column by Denny Regan</p>
+      <p className="column-byline">A weekly column by Denny Regan</p>
     </header>
   );
 }
