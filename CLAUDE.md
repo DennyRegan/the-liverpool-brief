@@ -29,6 +29,7 @@ Next.js App Router; local Markdown with YAML frontmatter validated by Zod.
 - Retained earlier pieces: `content/archive/liverpool/*.md` → `/archive/[slug]`. They list as Opinion (`editorialMode: opinion`) or History (`editorialMode: factual`).
 - `content/history/liverpool/entities.json` and `eras.json` are internal reference data only, with no public pages. Article relationship fields (`playerIds`, `season`, `historyEras` and so on) are validated against them, so keep them.
 - The newsletter (Sender) is shown only when its public configuration is present; see `docs/newsletter-signup.md`.
+- Social previews are generated automatically from article metadata/body by the existing image routes. They use a shared 1200 × 630 editorial design and reuse suitable local photographs already approved for article/social publication, with a typography fallback. No per-article social graphic or new frontmatter is required. Preserve image rights and article canonicals; see `docs/social-previews.md`.
 
 ## Verification
 Node 22.18+ or 24. Run `npm test`, `npm run lint`, `npm run build`.

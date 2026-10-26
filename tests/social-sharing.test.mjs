@@ -17,6 +17,10 @@ test('article publication metadata preserves the canonical slug and separate edi
   assert.equal(result.openGraph.type, 'article');
   assert.equal(result.openGraph.publishedTime, '2026-10-16');
   assert.equal(result.openGraph.section, 'Analysis');
+  assert.equal(result.openGraph.title, article.title);
+  assert.equal(result.twitter.title, article.title);
+  assert.equal(result.openGraph.description, 'The supplied excerpt.');
+  assert.equal(result.twitter.description, 'The supplied excerpt.');
   assert.deepEqual(result.openGraph.tags, article.tags);
   assert.deepEqual(result.authors, [{ name: 'Denny Regan' }]);
   assert.equal(article.title, 'The editorial headline');
@@ -32,6 +36,17 @@ test('shared stories have consistent canonical, Open Graph and large X cards', (
   assert.equal(result.openGraph.siteName, 'The Liverpool Brief');
   assert.equal(result.twitter.card, 'summary_large_image');
   assert.equal(result.twitter.title, result.openGraph.title);
+  assert.equal(result.openGraph.images[0].url, 'https://theliverpoolbrief.com/articles/example/opengraph-image?v=editorial-2');
+  assert.deepEqual(result.twitter.images, result.openGraph.images);
+  assert.equal(result.openGraph.images[0].width, 1200);
+  assert.equal(result.openGraph.images[0].height, 630);
+  assert.equal(result.openGraph.images[0].alt, 'A Liverpool headline');
+});
+
+test('Archive images use their retained canonical route and collection pages do not invent image endpoints', () => {
+  assert.equal(socialMetadata('History headline', 'Excerpt.', '/archive/example').twitter.images[0].url,
+    'https://theliverpoolbrief.com/archive/example/opengraph-image?v=editorial-2');
+  assert.equal(socialMetadata('Articles', 'Excerpt.', '/articles').openGraph.images, undefined);
 });
 
 test('native sharing sends the headline and canonical URL, not generic site text', () => {

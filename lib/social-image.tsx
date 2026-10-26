@@ -1,20 +1,31 @@
+/* eslint-disable @next/next/no-img-element -- ImageResponse uses Satori image elements, not browser next/image. */
+import { readFile } from 'node:fs/promises';
+import path from 'node:path';
 import { ImageResponse } from 'next/og';
+import { fitHeadline, socialImageSize } from './social-card';
+import { articlePhoto } from './social-photo';
 
-export const socialImageSize = { width: 1200, height: 630 };
+export { socialImageSize } from './social-card';
+let font: Promise<Buffer> | undefined;
 
-/** Text-led cards keep each story identifiable without unlicensed photography. */
-export function socialImage(title: string, section: string) {
+/** One editorial system for every article; no network fonts or remote photographs. */
+export async function socialImage(title: string, section: string, body = '') {
+  const fontData = await (font ??= readFile(path.join(process.cwd(), 'assets/social/SourceSerif4Display-Bold.ttf')));
+  const photo = await articlePhoto(body);
+  const panelWidth = photo ? 770 : 1200;
+  const headline = fitHeadline(title, panelWidth - 112, 370, photo ? 106 : 136);
   return new ImageResponse(
-    <div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', background: '#f8f5ef', color: '#181818', padding: '48px 64px', borderTop: '16px solid #b50920' }}>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '2px solid #d8d1c7', paddingBottom: 26 }}>
-        <div style={{ fontSize: 32, fontWeight: 700 }}>THE LIVERPOOL BRIEF</div>
-        <div style={{ fontSize: 23, color: '#b50920', textTransform: 'uppercase' }}>{section}</div>
+    <div style={{ display: 'flex', width: '100%', height: '100%', background: '#181b1a', color: '#f6f1e8', fontFamily: 'Source Serif', fontWeight: 700 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', width: panelWidth, height: 630, padding: '52px 56px 48px' }}>
+        <div style={{ display: 'flex', fontSize: 27, letterSpacing: '1.5px' }}>THE LIVERPOOL BRIEF</div>
+        <div style={{ display: 'flex', width: 64, height: 5, background: '#b52b3c', marginTop: 24 }} />
+        <div style={{ display: 'flex', fontSize: 21, textTransform: 'uppercase', letterSpacing: '2px', color: '#d0c8bf', marginTop: 19 }}>{section}</div>
+        <div style={{ display: 'flex', flex: 1, flexDirection: 'column', justifyContent: 'center', marginTop: 18 }}>
+          {headline.lines.map((line, index) => <div key={index} style={{ display: 'flex', whiteSpace: 'nowrap', fontSize: headline.fontSize, lineHeight: 1.08, height: headline.lineHeight, letterSpacing: '-1.6px' }}>{line}</div>)}
+        </div>
       </div>
-      <div style={{ display: 'flex', flex: 1, alignItems: 'center', fontSize: title.length > 110 ? 48 : title.length > 75 ? 56 : 66, fontWeight: 700, lineHeight: 1.12, letterSpacing: '-1.5px' }}>{title}</div>
-      <div style={{ display: 'flex', justifyContent: 'space-between', borderTop: '2px solid #d8d1c7', paddingTop: 22, fontSize: 22, color: '#605c56' }}>
-        <div>Independent Liverpool writing</div><div>theliverpoolbrief.com</div>
-      </div>
+      {photo && <img src={photo} alt="" width={430} height={630} style={{ objectFit: 'cover' }} />}
     </div>,
-    socialImageSize,
+    { ...socialImageSize, fonts: [{ name: 'Source Serif', data: fontData, weight: 700, style: 'normal' }] },
   );
 }
