@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
     "/*": ["./prototype/**/*", "./docs/editorial/**/*", "./.next-history-prototype/**/*"],
   },
   outputFileTracingIncludes: {
-    "/*": ["./content/articles/liverpool/*.md", "./content/archive/liverpool/*.md", "./content/history/liverpool/**/*.json"],
+    "/*": ["./content/articles/liverpool/*.md", "./content/archive/liverpool/*.md", "./content/history/liverpool/**/*.json", "./content/this-week/liverpool/*.md"],
     "/articles/**/opengraph-image": ["./assets/social/**/*", "./public/**/*.{jpg,jpeg,png,webp,avif}"],
     "/archive/**/opengraph-image": ["./assets/social/**/*", "./public/**/*.{jpg,jpeg,png,webp,avif}"],
   },

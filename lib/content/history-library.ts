@@ -8,6 +8,7 @@ import { getHistory } from './history.ts';
 import { SeasonSchema, type HistorySeason } from './season-schema.ts';
 import { normaliseSearch, searchDocuments, type SearchDocument } from '../search/search.ts';
 import { getRelatedArchiveArticles } from './discovery.ts';
+import { getHistoryEvents } from './this-week.ts';
 import type { ArchiveFeature, Article } from './types.ts';
 
 export { HISTORY_NAV } from '../history-navigation.ts';
@@ -21,7 +22,7 @@ const SeriesSchema = z.object({
 }).strict();
 export type HistorySeries = z.infer<typeof SeriesSchema> & { articles: SeriesArticle[] };
 const VerificationSchema = z.array(z.object({
-  articleSlug: HistoryIdSchema, historicalEventDate: z.iso.date(), reviewedOn: z.iso.date(),
+  articleSlug: HistoryIdSchema, eventSlug: HistoryIdSchema.optional(), historicalEventDate: z.iso.date(), reviewedOn: z.iso.date(),
   sourceUrls: z.array(z.url().refine(url => url.startsWith('https://'))).min(1), scope: z.string().min(1),
 }).strict());
 export type HistoryEvent = {
@@ -87,15 +88,21 @@ export function getHistoryLibrary(root = process.cwd(), reviewSeason?: HistorySe
   }
   const verificationPath = path.join(root, 'content/history/liverpool/event-verifications.json');
   const verifications = VerificationSchema.parse(fs.existsSync(verificationPath) ? JSON.parse(fs.readFileSync(verificationPath, 'utf8')) : []);
-  if (new Set(verifications.map(v => v.articleSlug)).size !== verifications.length) throw new Error('Duplicate event verification');
+  if (new Set(verifications.map(v => v.eventSlug ? `event-${v.eventSlug}` : `article-${v.articleSlug}`)).size !== verifications.length) throw new Error('Duplicate event verification');
+  const legacyEvents = verifications.some(v => v.eventSlug) ? getHistoryEvents(root, { allowUnavailableArchive: true }) : [];
   const events: HistoryEvent[] = verifications.flatMap(v => {
     const article = articles.find(a => a.slug === v.articleSlug);
     // Withdrawing an article removes its discovery entry without restoring it.
     if (!article) return [];
-    if (article.articleType !== 'match' && article.articleType !== 'club-event' && article.articleType !== 'transfer') throw new Error(`Not an exact event: ${article.slug}`);
-    if (article.historicalEventDate !== v.historicalEventDate) throw new Error(`Event date drift: ${article.slug}`);
-    if (v.sourceUrls.some(url => !article.sources?.includes(url))) throw new Error(`Unrecorded event source: ${article.slug}`);
-    return [{ id: `article-${article.slug}`, date: v.historicalEventDate, title: article.title, description: article.excerpt, href: article.href, season: article.season,
+    const event = v.eventSlug ? legacyEvents.find(e => e.slug === v.eventSlug) : undefined;
+    if (v.eventSlug && (!event || event.archiveSlug !== article.slug)) throw new Error(`Missing or mismatched annual event: ${v.eventSlug}`);
+    if (!event && !['match', 'club-event', 'transfer'].includes(article.articleType ?? '')) throw new Error(`Not an exact event: ${article.slug}`);
+    const historicalDate = event ? `${String(event.year).padStart(4, '0')}-${String(event.month).padStart(2, '0')}-${String(event.day).padStart(2, '0')}` : article.historicalEventDate;
+    if (historicalDate !== v.historicalEventDate || (article.historicalEventDate && article.historicalEventDate !== historicalDate)) throw new Error(`Event date drift: ${article.slug}`);
+    const recordedSources = [...(article.sources ?? []), ...(event ? [event.source] : [])];
+    if (v.sourceUrls.some(url => !recordedSources.includes(url))) throw new Error(`Unrecorded event source: ${article.slug}`);
+    return [{ id: event ? `event-${event.slug}` : `article-${article.slug}`, date: v.historicalEventDate,
+      title: event?.title ?? article.title, description: event?.summary ?? article.excerpt, href: article.href, season: article.season,
       personIds: [...new Set([...(article.playerIds ?? []), ...(article.managerIds ?? [])])], competitionIds: article.competitionIds ?? [], sourceUrls: v.sourceUrls, reviewedOn: v.reviewedOn, scope: v.scope }];
   });
   // Season events already have sourced factual descriptions. Only reviewed high-confidence dated records qualify.

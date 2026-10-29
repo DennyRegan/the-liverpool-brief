@@ -20,7 +20,7 @@ test('published directory and factual decisions govern browsing, search and reco
  const drafts = path.join(root, 'docs/editorial/drafts'); fs.mkdirSync(drafts, { recursive: true });
  fs.writeFileSync(path.join(drafts, 'private.md'), 'Synthetic unpublished text: nicol-hat-trick.');
  const library = getHistoryLibrary(root);
- assert.equal(library.articles.length, 2);
+ assert.equal(library.articles.length, 9);
  assert.ok(library.articles.every(a => a.editorialMode === 'factual'));
  assert.equal(historySearchDocuments(library).some(d => /nicol-hat-trick/.test(d.href)), false);
  assert.ok(searchHistory(library, 'John Barnes').some(d => d.href === `/archive/${forest}`));
@@ -38,7 +38,7 @@ localTest('local review season adds relationships without leaking into search, a
  assert.equal(newsletterDiscovery(library, '2026-04-19').seasons.length, 0);
  assert.ok(getPublicSitemap().some(e => e.url.endsWith('/history/seasons/1987-88'))); // The public match-only collection exists; the rich review record remains private.
  assert.ok(!getPublicSitemap().some(e => e.url.endsWith('/history/seasons/1986-87')));
- assert.equal(library.articles.length, 2);
+ assert.equal(library.articles.length, 9);
 });
 test('On This Day uses verified event dates, not publication dates, and respects leap/year boundaries', () => {
  const library = getHistoryLibrary();
@@ -65,7 +65,7 @@ test('withdrawing verified material removes event, search and recommendations; d
  fs.writeFileSync(filename, original.replace('https://www.lfchistory.net/games/1632', 'https://example.com/replaced'));
  assert.throws(() => getHistoryLibrary(root), /Unrecorded event source/);
  fs.unlinkSync(filename);
- const library = getHistoryLibrary(root); assert.equal(library.events.length, 0);
+ const library = getHistoryLibrary(root); assert.equal(library.events.some(e => e.id === `article-${forest}`), false);
  assert.ok(!historySearchDocuments(library).some(d => d.href.includes(forest)));
 }));
 test('series derives chapter availability and navigation from normal canonical articles, skipping unavailable parts', () => fixture(root => {
@@ -75,7 +75,7 @@ test('series derives chapter availability and navigation from normal canonical a
  assert.equal(seriesNeighbours(series, '/articles/chapter-one-fixture').next.href, '/articles/chapter-three-fixture');
  assert.equal(seriesNeighbours(series, '/articles/chapter-one-fixture').previous, undefined);
  assert.equal(seriesNeighbours(series, '/articles/chapter-three-fixture').next, undefined);
- assert.equal(searchHistory(library, 'Jurgen Klopp').filter(d => d.type === 'Article').length, 2);
+ assert.equal(searchHistory(library, 'Jurgen Klopp').filter(d => d.type === 'Article' && d.href.startsWith('/articles/chapter-')).length, 2);
  assert.equal(newsletterDiscovery(library, '2026-10-29').chapters.length, 2);
  chapter(root, 'duplicate-fixture', 3);
  assert.throws(() => getHistoryLibrary(root), /Invalid published chapter order/);

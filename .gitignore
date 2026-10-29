@@ -49,3 +49,6 @@ next-env.d.ts
 
 # Local editorial manuscripts and reference pack; never include in public source releases.
 /prototype/
+
+# Private advance-writing calendar, research and manuscripts.
+/docs/editorial/
