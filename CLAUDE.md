@@ -36,3 +36,13 @@ Node 22.18+ or 24. Run `npm test`, `npm run lint`, `npm run build`.
 
 ## Working agreement
 Explain important architecture choices. Do not deploy to production without Denny's explicit approval. About copy is provisional for Denny's review; do not rewrite it unprompted.
+
+## Connected History development — 29 October 2026
+
+Denny has explicitly authorised the local Connected History implementation described in `docs/connected-history.md` and `docs/seasons-publishing.md`. In this review checkout it adds History to the main navigation and establishes six destinations, series, verified anniversaries and historical search. This supersedes the earlier retired-feature/navigation restriction for this implementation only. It does not authorise deployment, merge, restoration of withdrawn content, new article publication or automatic publishing. The private 1987–88 review remains guarded and excluded from public search/sitemap/newsletter inputs. All earlier content and sending protections remain binding.
+
+The subsequent historical-match restoration request authorises preparation of the complete preserved collection for local approval, including inventory, source checks and guarded readers. `docs/match-restoration-review.md` defines this extension. It still grants no authority to publish withdrawn articles or drafts, merge or deploy. Private preparation is not factual or editorial approval.
+
+## Approved infrastructure release — 29 October 2026
+
+Denny has explicitly authorised commit, push, PR, merge and deployment of the reviewed History infrastructure plus the limited public 1987–88 experience described in docs/seasons-publishing.md. This supersedes earlier local-only development and deployment restrictions for this release. Only the two existing factual match reports remain approved; all 558 other reports remain local and excluded from public source/output. The separate On This Day workstream is excluded. No automated publishing is authorised.

@@ -7,7 +7,16 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "validate:prototype": "node scripts/validate-history-prototype.mjs",
+    "prototype": "node scripts/history-prototype.mjs dev",
+    "prototype:build": "node scripts/history-prototype.mjs build",
+    "prototype:start": "node scripts/history-prototype.mjs start",
+    "validate:history": "node scripts/validate-connected-history.mjs",
+    "verify:history": "node scripts/verify-connected-history.mjs",
+    "validate:matches": "node scripts/validate-match-collection.mjs",
+    "verify:matches": "node scripts/verify-match-collection.mjs",
+    "verify:history-build": "node scripts/verify-history-build.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

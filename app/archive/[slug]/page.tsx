@@ -1,3 +1,6 @@
+import { getMatchCollectionView } from "@/lib/content/match-collection-view";
+import { MatchReviewReport } from "@/app/components/history/MatchReviewReport";
+import { ArticleConnections } from "@/app/components/history/ArticleConnections";
 import { socialMetadata } from '@/lib/social-metadata';
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -9,6 +12,9 @@ import { formatLongDate } from "@/lib/format";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { ShareButton } from "@/app/components/ShareButton";
 import { ArticleMeta } from "@/app/components/ArticleMeta";
+import { isPrototypeSlug, loadHistoryPrototype } from "@/lib/content/history-prototype";
+import { canViewHistoryPrototype } from "@/lib/history-prototype-access";
+import { HistoryReport } from "@/app/components/history-prototype/HistoryReport";
 
 export function generateStaticParams() {
   return getArchiveFeatures().map((feature) => ({ slug: feature.slug }));
@@ -20,6 +26,14 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  if (isPrototypeSlug(slug) && await canViewHistoryPrototype()) {
+    const article = loadHistoryPrototype().articles.find(article => article.slug === slug)!;
+    return { title: article.title, description: article.excerpt,
+      alternates: { canonical: `/archive/${slug}` }, robots: { index: false, follow: false } };
+  }
+  const collection = await getMatchCollectionView();
+  const reviewArticle = collection.review ? collection.matches.find(a => a.slug === slug && a.publication !== 'published') : undefined;
+  if (reviewArticle) return { title: reviewArticle.title, description: reviewArticle.excerpt, alternates: { canonical: `/archive/${slug}` }, robots: { index: false, follow: false } };
   let feature;
   try {
     feature = getArchiveFeature(slug);
@@ -36,11 +50,16 @@ export async function generateMetadata({
 }
 
 export default async function ArchiveFeaturePage({
-  params,
+  params, searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ from?: string }>;
 }) {
   const { slug } = await params;
+  if (isPrototypeSlug(slug) && await canViewHistoryPrototype()) return <HistoryReport slug={slug} integrated={(await searchParams).from !== "prototype"} />;
+  const collection = await getMatchCollectionView();
+  const reviewArticle = collection.review ? collection.matches.find(a => a.slug === slug && a.publication !== 'published') : undefined;
+  if (reviewArticle) return <MatchReviewReport article={reviewArticle} matches={collection.matches} />;
   let feature;
   try {
     feature = getArchiveFeature(slug);
@@ -50,7 +69,7 @@ export default async function ArchiveFeaturePage({
 
   return (
     <div className="min-h-screen">
-      <SiteHeader active="articles" />
+      <SiteHeader active={feature.editorialMode === "factual" ? "history" : "articles"} />
       <main id="main-content" className="reading-page">
         <div className="reading-tools">
           <Link href="/articles" className="back-link">
@@ -68,6 +87,7 @@ export default async function ArchiveFeaturePage({
         <div className="article-body">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{feature.body}</ReactMarkdown>
         </div>
+        <ArticleConnections href={`/archive/${feature.slug}`} />
       </main>
     </div>
   );

@@ -15,6 +15,7 @@
 
 # next.js
 /.next/
+/.next-history-prototype/
 /out/
 
 # production
@@ -45,3 +46,6 @@ next-env.d.ts
 .interactive-history-checks/
 /.generated/
 /.table-search-checks/
+
+# Local editorial manuscripts and reference pack; never include in public source releases.
+/prototype/
