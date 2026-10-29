@@ -1,0 +1,4 @@
+# Local editorial data never belongs in a hosting upload.
+prototype/
+.next-history-prototype/
+docs/editorial/

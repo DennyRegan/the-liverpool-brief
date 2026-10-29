@@ -25,8 +25,8 @@ export const ArchiveFeatureSchema = z.object({
     locationIds: HistoryIdsSchema.optional(),
     themeIds: HistoryIdsSchema.optional(),
     category: z.enum(["match", "person", "season"]).default("match"),
-    series: z.string().optional(),
-    part: z.number().optional(),
+    series: HistoryIdSchema.optional(),
+    part: z.number().int().positive().optional(),
     // Season facts panel — optional so existing (non-season) articles keep parsing.
     season: SeasonIdSchema.optional(),
     manager: z.string().optional(),
@@ -45,7 +45,7 @@ export type ArchiveFeature = z.infer<typeof ArchiveFeatureSchema>;
 
 // Analysis reuses the existing canonical History relationships, not a second taxonomy.
 export const ArticleSchema = ArchiveFeatureSchema.pick({
-    season: true, historicalEventDate: true, historyEras: true,
+    season: true, historicalEventDate: true, historyEras: true, series: true, part: true,
     playerIds: true, managerIds: true, oppositionIds: true, competitionIds: true,
     locationIds: true, themeIds: true, relatedMatches: true,
 }).extend({

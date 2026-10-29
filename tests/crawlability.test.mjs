@@ -1,3 +1,4 @@
+import { getHistoryLibrary, availableEntities, entityHref, HISTORY_NAV } from '../lib/content/history-library.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -17,13 +18,16 @@ const newsletter = { SENDER_PUBLIC_ACCOUNT_ID: 'abc123', SENDER_NEWSLETTER_FORM_
 
 test('sitemap lists only the public pages and retained articles', () => {
   const entries = sitemap();
+  const library = getHistoryLibrary();
   const expected = [
+    ...library.articles.filter(a => a.articleType === "match" && a.season).map(a => `/history/seasons/${a.season}`),
+    "/history", ...HISTORY_NAV.map(item => item.href), ...availableEntities(library).map(entityHref), ...library.seasons.map(s => `/history/seasons/${s.record.season}`), ...library.series.map(s => `/history/series/${s.id}`),
     '/', '/about', '/articles', '/regan-on-football',
     ...(getNewsletterConfig() ? ['/newsletter', '/newsletter/privacy'] : []),
     ...getArticles().map(a => `/articles/${a.slug}`),
     ...getArchiveFeatures().map(a => `/archive/${a.slug}`),
   ].map(route => route === '/' ? origin : new URL(route, origin).href);
-  assert.deepEqual(urls(entries).sort(), expected.sort());
+  assert.deepEqual(urls(entries).sort(), [...new Set(expected)].sort());
   assert.equal(revalidate, 3600);
   assert.equal(new Set(urls(entries)).size, entries.length);
   for (const entry of entries) {
@@ -32,7 +36,7 @@ test('sitemap lists only the public pages and retained articles', () => {
     assert.equal(url.search, '');
     assert.equal(url.hash, '');
     assert.equal(entry.lastModified, undefined);
-    assert.doesNotMatch(url.pathname, /^\/(preview|docs|content|brief|history|this-week|match-centre|search)(\/|$)/);
+    assert.doesNotMatch(url.pathname, /^\/(preview|docs|content|brief|this-week|match-centre|search)(\/|$)/);
     assert.ok(!['/archive', '/archive/matches', '/archive/people', '/archive/seasons'].includes(url.pathname));
   }
 });
