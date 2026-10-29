@@ -24,8 +24,8 @@ localTest('the complete local collection preserves 560 canonical reports and dis
 test('normal public loading never reads the private manifest or requires staged manuscripts', () => {
  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'public-matches-'));
  try { fs.cpSync('content', path.join(root, 'content'), { recursive: true });
-  assert.equal(getMatchCollection(root).length, 2);
-  assert.equal(matchSeasons(getMatchCollection(root)).length, 2);
+  assert.equal(getMatchCollection(root).length, 9);
+  assert.equal(matchSeasons(getMatchCollection(root)).length, 8);
  } finally { fs.rmSync(root, { recursive: true, force: true }); }
 });
 localTest('review manuscripts cannot leak into public search, newsletter, sitemap or latest writing', () => {

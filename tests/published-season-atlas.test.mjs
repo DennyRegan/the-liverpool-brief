@@ -15,8 +15,8 @@ test('published season and atlas work without private inputs and only link appro
  const library = getHistoryLibrary(root);
  assert.equal(library.seasons.find(s => s.record.season === '1987-88').review, false);
  assert.ok(historySearchDocuments(library).some(d => d.href === '/history/seasons/1987-88'));
- assert.equal(library.articles.length, 2);
- assert.equal(library.events.length, 1); // No change to the separate anniversary workstream.
+ assert.equal(library.articles.length, 9);
+ assert.equal(library.events.length, 9); // Two retained events plus seven commissioned weekly entries.
  const atlas = loadPublishedHistoryAtlas(root);
  assert.deepEqual(atlas.groups.map(g => g.id), ['anfield']);
  assert.deepEqual(atlas.groups.flatMap(g => g.matches.map(m => m.href)), [`/archive/${forest}`]);
@@ -27,7 +27,7 @@ test('withdrawing the approved report removes the public atlas despite private c
  const privateDir = path.join(root, 'prototype/history/reports'); fs.mkdirSync(privateDir, { recursive: true });
  fs.renameSync(file, path.join(privateDir, `${forest}.md`));
  assert.equal(loadPublishedHistoryAtlas(root), undefined);
- assert.equal(getHistoryLibrary(root).articles.length, 1);
+ assert.equal(getHistoryLibrary(root).articles.length, 8);
 }));
 test('unknown atlas entity IDs fail validation without inventing relationships', () => fixture(root => {
  const file = path.join(root, 'content/history/liverpool/atlases/1987-88.json');
