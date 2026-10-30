@@ -10,16 +10,14 @@
 .observed-home-heading h2 { font: 600 clamp(28px, 3vw, 36px)/1.15 var(--font-source-serif), Georgia, serif; letter-spacing: -.03em; }
 .observed-home-heading > a { flex-shrink: 0; }
 .observed-home-heading .column-byline { margin-top: 6px; }
-.observed-recent { border-top: 1px solid var(--line); padding-block: 22px; }
-.home-page .observed-recent h3 { font: 600 10px/1.5 var(--font-geist-sans), Arial, sans-serif; margin: 0 0 12px; }
-.observed-recent ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 36px; }
-.observed-recent time { display: block; color: var(--muted); font-size: 11px; }
-.observed-recent li a { display: block; padding-block: 8px; min-height: 44px; font: 600 20px/1.4 var(--font-source-serif), Georgia, serif; }
 .home-recent { margin-top: 32px; }
 .home-recent .home-section-heading { margin-bottom: 0; }
 .home-page .home-recent h3 { font-size: var(--headline-list); }
+.home-history { border-top: 1px solid var(--line); margin-top: 32px; padding-top: 20px; }
+.home-history .home-section-heading { margin-bottom: 0; }
+.home-history .article-card { border-bottom: 0; padding-top: 14px; }
+.home-page .home-history h3 { font-size: var(--headline-list); }
 @media (max-width: 700px) {
   .home-lead-block { padding-bottom: 20px; }
   .observed-home-heading { flex-wrap: wrap; gap: 4px 20px; padding-top: 20px; }
-  .observed-recent ul { grid-template-columns: minmax(0, 1fr); }
 }
