@@ -9,6 +9,9 @@ import { getArticle, getArticles } from "@/lib/content/articles";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { ReganOnFootballMasthead } from "@/app/components/ReganOnFootballMasthead";
 import { isReganOnFootball } from "@/lib/content/regan-on-football";
+import { EditionContents } from "@/app/components/EditionContents";
+import { EditionNavigation } from "@/app/components/EditionNavigation";
+import { EDITION_OPENING_ID, remarkEditionHeadings } from "@/lib/edition-contents";
 import { ShareButton } from "@/app/components/ShareButton";
 import { ArticleMeta } from "@/app/components/ArticleMeta";
 import { formatLongDate, getArticleExcerpt, getSourceLink } from "@/lib/format";
@@ -47,9 +50,10 @@ export default async function ArticlePage({
   } catch {
     notFound();
   }
+  const column = isReganOnFootball(article);
   return (
     <div className="min-h-screen">
-      <SiteHeader active="articles" />
+      <SiteHeader active={column ? "football-observed" : "articles"} />
       <main id="main-content" className="reading-page">
         <div className="reading-tools">
           <Link href="/articles" className="back-link">
@@ -58,13 +62,14 @@ export default async function ArticlePage({
           <ShareButton title={article.title} />
         </div>
 
-        {isReganOnFootball(article) && <ReganOnFootballMasthead compact />}
+        {column && <ReganOnFootballMasthead compact />}
         <h1 className="article-title">{article.title}</h1>
-        <ArticleMeta {...article} author={!isReganOnFootball(article)} showColumn={false} />
+        <ArticleMeta {...article} author={!column} showColumn={false} />
         {article.researchCutoff && <p className="text-sm text-gray-500 mb-8">Research checked to {formatLongDate(article.researchCutoff)}.</p>}
 
-        <div className="article-body">
-          <ReactMarkdown remarkPlugins={[remarkGfm]} components={{
+        {column && <EditionContents body={article.body} title={article.title} />}
+        <div className="article-body" id={column ? EDITION_OPENING_ID : undefined} tabIndex={column ? -1 : undefined}>
+          <ReactMarkdown remarkPlugins={column ? [remarkGfm, remarkEditionHeadings] : [remarkGfm]} components={{
             img: ({ src, alt, title }) => {
               const chart = typeof src === 'string' && src.startsWith('/images/analysis/bundesliga/') && src.endsWith('.png');
               return <picture className={chart ? 'article-chart' : undefined}>
@@ -105,6 +110,7 @@ export default async function ArticlePage({
           </div>
         )}
         {article.series && <ArticleConnections href={`/articles/${article.slug}`} />}
+        {column && <EditionNavigation slug={article.slug} />}
         <aside className="read-next"><p className="eyebrow">Keep reading</p>{getArticles().filter(item => item.slug !== article.slug).slice(0, 2).map(item => <Link key={item.slug} href={`/articles/${item.slug}`}>{item.title} <span aria-hidden="true">↗</span></Link>)}</aside>
       </main>
     </div>

@@ -100,12 +100,37 @@
 .standfirst { font-size: 19px; line-height: 1.6; }
 .site-footer { padding-block: 24px; }
 
+/* Football Observed shares the publication's type, colour and reading scale. */
+.observed-introduction { text-align: center; margin: 18px auto 0; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.observed-feature { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 48px; padding-block: 30px 34px; }
+.observed-feature:not(:has(.edition-contents)) { grid-template-columns: minmax(0, 1fr); }
+.observed-lead { min-width: 0; }
+.observed-lead > .eyebrow { color: var(--accent-dark); margin-bottom: 14px; }
+.observed-lead h2, .home-page .observed-lead h3 { font: 600 var(--headline-feature)/1.15 var(--font-source-serif), Georgia, serif; letter-spacing: -.03em; text-wrap: pretty; margin: 12px 0 16px; max-width: 27ch; }
+.observed-lead .preview-excerpt { -webkit-line-clamp: 4; font-size: 16px; }
+.edition-contents { border-left: 1px solid var(--line); padding-left: 28px; align-self: start; min-width: 0; }
+.edition-contents .eyebrow { color: var(--muted); margin-bottom: 10px; }
+.edition-contents ol { list-style: decimal; padding-left: 20px; }
+.edition-contents li { padding-left: 5px; color: var(--muted); font-size: 12px; }
+.edition-contents li + li { border-top: 1px solid var(--line); }
+.edition-contents a { display: block; padding-block: 12px; min-height: 44px; font: 500 15px/1.5 var(--font-geist-sans), Arial, sans-serif; color: var(--foreground); overflow-wrap: anywhere; }
+.edition-contents a:hover { color: var(--accent-dark); text-decoration: underline; }
+.observed-previous { border-top: 1px solid var(--line); padding-top: 26px; }
+.reading-page > .edition-contents { border-left: 0; border-block: 1px solid var(--line); padding: 20px 0 16px; margin-bottom: 30px; }
+.reading-page > .edition-contents li + li { border-top: 0; }
+.reading-page > .edition-contents a { padding-block: 9px; }
+.article-body[id^="edition-"], .article-body [id^="edition-"] { scroll-margin-top: 24px; }
+.edition-navigation { border-top: 1px solid var(--line); padding-top: 20px; margin-top: 40px; }
+.edition-navigation > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 12px; }
+.edition-navigation > div a { font: 600 21px/1.4 var(--font-source-serif), Georgia, serif; padding-block: 10px; }
+.edition-navigation .eyebrow { display: block; font-family: var(--font-geist-sans), Arial, sans-serif; color: var(--muted); margin-bottom: 8px; }
+
 @media (max-width: 700px) {
   .site-width { width: calc(100% - 40px); }
   .masthead { font-size: clamp(29px, 8.2vw, 43px); padding: 17px 0 12px; }
   .header-bottom { align-items: flex-start; flex-direction: column; gap: 0; border-top: 0; }
   .header-bottom p { padding: 0 0 5px; font-size: 10px; }
-  .header-bottom nav { width: 100%; justify-content: flex-start; gap: 28px; }
+  .header-bottom nav { width: 100%; justify-content: flex-start; gap: clamp(12px, 3vw, 24px); }
   .header-bottom nav a { min-height: 44px; font-size: 12px; padding-inline: 0; }
   .collection, .home-page { padding-top: 20px; padding-bottom: 42px; }
   .collection-title { font-size: 24px; margin-bottom: 5px; }
@@ -134,4 +159,8 @@
   .article-body { font-size: 18px; line-height: 1.75; }
   .article-body h2 { font-size: 24px; }
   .site-footer > div { align-items: flex-start; flex-wrap: wrap; gap: 16px; }
+  .observed-feature { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-block: 24px; }
+  .observed-lead .preview-excerpt { font-size: 15px; }
+  .observed-feature .edition-contents { border-left: 0; border-top: 1px solid var(--line); padding: 20px 0 0; }
+  .edition-navigation > div { grid-template-columns: minmax(0, 1fr); gap: 12px; }
 }

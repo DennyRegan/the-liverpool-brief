@@ -12,3 +12,9 @@ export function getReganOnFootballEditions(root = process.cwd()) {
   // The validated loader already orders publication dates newest first, with slug ties.
   return getArticles(root).filter(isReganOnFootball);
 }
+
+export function getEditionNeighbours<T extends { slug: string }>(editions: readonly T[], slug: string) {
+  const index = editions.findIndex(edition => edition.slug === slug);
+  if (index < 0) return {};
+  return { newer: editions[index - 1], older: editions[index + 1] };
+}

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Geist, Geist_Mono, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 import "./editorial.css";
@@ -38,7 +39,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         {children}
-        <footer className="site-footer"><div className="site-width"><p>The Liverpool Brief<span>Independent writing by Denny Regan.</span></p><div className="footer-links">{getNewsletterConfig() && <a href="/newsletter">The Sunday Brief</a>}<a href="mailto:theliverpoolbrief@gmail.com">Get in touch ↗</a></div></div></footer>
+        <footer className="site-footer"><div className="site-width"><p>The Liverpool Brief<span>Independent writing by Denny Regan.</span></p><div className="footer-links"><Link href="/about">About</Link>{getNewsletterConfig() && <a href="/newsletter">The Sunday Brief</a>}<a href="mailto:theliverpoolbrief@gmail.com">Get in touch ↗</a></div></div></footer>
         <Analytics />
       </body>
     </html>
