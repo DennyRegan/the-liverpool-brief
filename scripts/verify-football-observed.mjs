@@ -3,7 +3,7 @@ import { getReganOnFootballEditions, REGAN_ON_FOOTBALL_PATH } from '../lib/conte
 import { getEditionContents } from '../lib/edition-contents.ts';
 import { getArticles } from '../lib/content/articles.ts';
 import { getWriting } from '../lib/content/writing.ts';
-import { selectHomeLead } from '../lib/content/homepage.ts';
+import { selectHomePage } from '../lib/content/homepage.ts';
 import { getHomeLeadOverride } from '../lib/content/homepage-config.ts';
 import { SITE_URL } from '../lib/site.ts';
 const base = process.env.BASE_URL || 'http://127.0.0.1:3159';
@@ -24,11 +24,18 @@ assert.ok(/<footer\b[\s\S]*href="\/about"/.test(home));
 await page('/about');
 assert.match(all, /href="\/regan-on-football"/);
 assert.ok(/<a\b(?=[^>]*href="\/regan-on-football")(?=[^>]*aria-current="page")[^>]*>/.test(landing), 'Column category is selected');
-const lead = selectHomeLead(getWriting(), new Date(), getHomeLeadOverride());
+const { lead, column, more, history } = selectHomePage(getWriting(), new Date(), getHomeLeadOverride());
 if (lead) assert.ok(home.includes(`<h1><a href="${lead.href}">${escape(lead.title)}</a></h1>`));
+const expectedCards = [lead, column, ...more, history].filter(Boolean);
+const renderedCards = [...home.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g)].map(match => match[0]);
+assert.equal(renderedCards.length, expectedCards.length);
+assert.ok(renderedCards.length <= 5);
+assert.equal((home.match(/class="article-type">History</g) || []).length, history ? 1 : 0);
+for (const article of expectedCards) assert.equal(renderedCards.filter(card => card.includes(`href="${article.href}"`)).length, 1, `Homepage card count for ${article.href}`);
 if (editions.length) {
-  if (lead) assert.ok(home.indexOf('class="home-lead"') < home.indexOf('class="home-observed"'));
-  if (home.includes('class="home-recent"')) assert.ok(home.indexOf('class="home-observed"') < home.indexOf('class="home-recent"'));
+  assert.equal(home.includes('class="home-observed"'), Boolean(column));
+  if (lead && column) assert.ok(home.indexOf('class="home-lead"') < home.indexOf('class="home-observed"'));
+  if (column && more.length) assert.ok(home.indexOf('class="home-observed"') < home.indexOf('class="home-recent"'));
   assert.ok(landing.includes(escape(editions[0].title)));
   assert.equal(landing.includes('id="previous-editions-heading"'), editions.length > 1);
   const recent = home.split('class="home-recent"')[1] || '';
@@ -57,4 +64,4 @@ if (ordinary) {
   assert.ok(!html.includes('aria-label="Football Observed editions"'));
   checked++;
 }
-console.log(`PASS: ${checked} routes; unchanged lead selection, Articles membership, published editions, contents targets, canonical URLs, ordinary article isolation.`);
+console.log(`PASS: ${checked} routes; homepage journalism/History balance without duplicate cards, Articles membership, published editions, contents targets, canonical URLs, ordinary article isolation.`);

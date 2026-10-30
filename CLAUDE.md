@@ -6,7 +6,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This file is the single source of project instructions. `AGENTS.md` only points here.
 
 ## Product
-The Liverpool Brief publishes journalism personally developed by Denny Regan: Opinion, Analysis, investigations and historical writing. It is a simple, writing-led publication. Home leads with the latest Opinion or Analysis piece, lists recent articles and links to the full collection.
+The Liverpool Brief publishes journalism personally developed by Denny Regan: Opinion, Analysis, investigations and historical writing. It is a simple, writing-led publication. Home presents up to four journalism pieces including the latest Football Observed edition, followed by one History piece. It normally leads with non-column Opinion or Analysis, respects active editorial overrides and avoids duplicate cards. Previous column editions remain on the column page.
 
 Articles is one collection at `/articles`, with filters for Opinion, Analysis and History that appear only when that category has published articles. Team News is also available within Articles, including before its first approved article is published. The public Archive label must not return. Legacy Archive collection routes (`/archive`, `/archive/matches`, `/archive/people`, `/archive/seasons`) redirect to `/articles`; individual retained story URLs such as `/archive/[slug]` stay permanent.
 
