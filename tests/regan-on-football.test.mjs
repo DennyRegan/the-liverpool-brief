@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { getReganOnFootballEditions, isReganOnFootball } from '../lib/content/regan-on-football.ts';
+import { getEditionNeighbours, getReganOnFootballEditions, isReganOnFootball } from '../lib/content/regan-on-football.ts';
 import { getWriting } from '../lib/content/writing.ts';
 import { selectHomeLead } from '../lib/content/homepage.ts';
 import { articleMetadata } from '../lib/social-metadata.ts';
@@ -27,6 +27,11 @@ test('editions use the existing loader, sort deterministically and remain ordina
     fs.rmSync(directory, { recursive: true });
     fs.mkdirSync(directory, { recursive: true });
     assert.deepEqual(getReganOnFootballEditions(root), []);
+    // Local editorial manuscripts are not editions, even with the right tag/date.
+    fs.mkdirSync(path.join(root, 'drafts'), { recursive: true });
+    fs.writeFileSync(path.join(root, 'drafts', 'forthcoming.md'),
+      '---\ntitle: Unapproved edition\ndate: "2026-10-30"\ncategory: Opinion\ntags: [regan-on-football]\n---\nPrivate draft.');
+    assert.deepEqual(getReganOnFootballEditions(root), []);
     const write = (slug, date, category, tags) => fs.writeFileSync(path.join(directory, `${slug}.md`),
       `---\ntitle: ${slug}\ndate: "${date}"\ncategory: ${category}\ntags: ${JSON.stringify(tags)}\n---\nTest fixture body.\n`);
     write('column-old', '2026-10-01', 'Opinion', ['regan-on-football']);
@@ -48,6 +53,14 @@ test('editions use the existing loader, sort deterministically and remain ordina
     assert.equal(selectHomeLead(writing, now).slug, 'analysis');
     assert.equal(selectHomeLead(writing.filter(a => a.category === 'Opinion'), now).slug, 'ordinary');
     assert.equal(selectHomeLead(writing.filter(a => isReganOnFootball(a)), now).slug, 'column-a');
+    assert.deepEqual(getEditionNeighbours(editions, 'column-z'), { newer: editions[0], older: editions[2] });
+    assert.equal(getEditionNeighbours(editions, 'column-a').newer, undefined);
+    assert.equal(getEditionNeighbours(editions, 'column-old').older, undefined);
+    assert.deepEqual(getEditionNeighbours(editions, 'forthcoming'), {});
+    fs.unlinkSync(path.join(directory, 'column-z.md'));
+    assert.equal(getEditionNeighbours(getReganOnFootballEditions(root), 'column-a').older.slug, 'column-old');
+    assert.equal(getEditionNeighbours([editions[0]], 'column-a').older, undefined);
+    assert.deepEqual(getEditionNeighbours([], 'column-a'), {});
   } finally {
     fs.rmSync(root, { recursive: true, force: true });
   }

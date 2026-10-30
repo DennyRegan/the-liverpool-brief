@@ -18,9 +18,9 @@ The Brief, History, This Week, Match Centre, Search, the AI drafting pipeline an
 - The automatic History publishing authority of 1 October 2026 is revoked. The three scheduled GitHub workflows are disabled and must stay disabled.
 
 ## Navigation
-Home | Articles | About. Maintain mobile layout.
+Home | Articles | History | Football Observed. About is in the shared footer, including the bottom of the homepage. Maintain mobile layout.
 
-Articles provides All, Opinion, Team News, History and Football Observed collections, with Analysis also available when published. Football Observed is Denny’s weekly general-football column, reached through the Articles category navigation at its preserved `/regan-on-football` URL. It uses existing Opinion articles tagged exactly `regan-on-football`, with canonical `/articles/[slug]` URLs. Editions are organised automatically from approved content; there is no automated writing, scheduling or publishing. See `docs/regan-on-football.md` for the publishing contract.
+Articles provides All, Opinion, Team News, History and Football Observed collections, with Analysis also available when published. Football Observed is Denny’s weekly general-football column, reached through the main navigation and Articles category navigation at its preserved `/regan-on-football` URL. It uses existing Opinion articles tagged exactly `regan-on-football`, with canonical `/articles/[slug]` URLs. Editions are organised automatically from approved content; there is no automated writing, scheduling or publishing. See `docs/regan-on-football.md` for the publishing contract.
 
 ## Architecture
 Next.js App Router; local Markdown with YAML frontmatter validated by Zod.
@@ -46,3 +46,7 @@ The subsequent historical-match restoration request authorises preparation of th
 ## Approved infrastructure release — 29 October 2026
 
 Denny has explicitly authorised commit, push, PR, merge and deployment of the reviewed History infrastructure plus the limited public 1987–88 experience described in docs/seasons-publishing.md. This supersedes earlier local-only development and deployment restrictions for this release. Only the two existing factual match reports remain approved; all 558 other reports remain local and excluded from public source/output. The separate On This Day workstream is excluded. No automated publishing is authorised.
+
+## Football Observed release approval — 30 October 2026
+
+Denny explicitly approved committing and publishing the reviewed Football Observed feature, with Football Observed replacing About in the main navigation and About moving to the footer. This approval covers the feature and navigation only; it does not authorise publishing any forthcoming edition or changing approved prose. See `docs/football-observed-review.md` and `docs/regan-on-football.md`.
