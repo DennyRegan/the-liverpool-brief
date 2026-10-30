@@ -161,10 +161,9 @@
 
 /* Classic Matches only: compact reading entry, unchanged shared History layout. */
 .hl-matches-page { padding-top:24px; }
-.hl-matches-heading { max-width:none; padding-bottom:16px; }
-.hl-matches-heading .hl-eyebrow { margin-bottom:6px; }
-.hl-matches-heading h1 { font-size:clamp(30px,3.3vw,44px); margin-bottom:8px; text-wrap:initial; }
-.hl-matches-heading .hl-deck { font-size:18px; line-height:1.45; }
+.hl-matches-heading { max-width:none; padding-bottom:12px; }
+.hl-matches-heading h1 { font-size:clamp(30px,3.3vw,44px); margin-bottom:6px; text-wrap:initial; }
+.hl-matches-heading .hl-deck { font-size:17px; line-height:1.45; }
 .hl-preview-disclosure { font-size:12px; color:#62665d; border-top:1px solid #c8cabb; }
 .hl-preview-disclosure summary { min-height:44px; padding:12px 0; cursor:pointer; }
 .hl-preview-disclosure p { max-width:740px; padding-bottom:12px; }
@@ -191,7 +190,7 @@
 @media(max-width:600px) {
  .hl-matches-page { padding-top:18px; }
  .hl-matches-heading h1 { font-size:32px; line-height:1.12; }
- .hl-matches-heading .hl-deck { font-size:17px; }
+ .hl-matches-heading .hl-deck { font-size:16px; }
  .hl-featured-matches li { grid-template-columns:minmax(0,1fr); gap:4px; padding:6px 0; }
  .hl-featured-matches h3 { font-size:19px; }
  .hl-filter-toggle { width:100%; display:flex; justify-content:space-between; align-items:center; min-height:48px; font-size:14px; color:#913243; cursor:pointer; }
