@@ -19,7 +19,7 @@ The public name is **Football Observed**, with the byline “A weekly column by 
 
 The existing loader validates every edition. On the normal content build, qualifying Opinion articles automatically receive the compact masthead, join the column page newest first, and remain in Articles/Opinion and the normal homepage selection. Same-day editions sort by slug. Homepage lead rules and any existing temporary editorial override remain unchanged. Column articles shown on the homepage carry a linked column label. Analysis articles with this tag do not join the column.
 
-The current public content contains one edition, the approved 23 October 2026 Carrick column. No forthcoming edition is included by this feature. If every edition is withdrawn, the landing page shows a truthful empty state and the homepage feature disappears. Existing articles have not been retagged.
+The public content contains the approved 23 October 2026 Carrick column and the 30 October 2026 edition, “Arteta should have kept it behind closed doors”, explicitly approved for publication by Denny. Other forthcoming editions require separate approval. If every edition is withdrawn, the landing page shows a truthful empty state and the homepage feature disappears. Existing articles have not been retagged.
 
 ## Presentation — 30 October 2026
 
