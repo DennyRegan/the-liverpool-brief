@@ -9,6 +9,7 @@ const { default: robots } = await import('../app/robots.ts');
 const { getArticles } = await import('../lib/content/articles.ts');
 const { getArchiveFeatures } = await import('../lib/content/archive.ts');
 const { getNewsletterConfig } = await import('../lib/newsletter-config.ts');
+const { getLookingBack } = await import('../lib/content/looking-back.ts');
 const { socialMetadata } = await import('../lib/social-metadata.ts');
 
 const origin = 'https://theliverpoolbrief.com';
@@ -18,10 +19,11 @@ const newsletter = { SENDER_PUBLIC_ACCOUNT_ID: 'abc123', SENDER_NEWSLETTER_FORM_
 test('sitemap lists only the public pages and retained articles', () => {
   const entries = sitemap();
   const expected = [
-    '/', '/about', '/articles', '/regan-on-football', '/matchday',
+    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back',
     ...(getNewsletterConfig() ? ['/newsletter', '/newsletter/privacy'] : []),
     ...getArticles().map(a => `/articles/${a.slug}`),
     ...getArchiveFeatures().map(a => `/archive/${a.slug}`),
+    ...getLookingBack().map(p => `/looking-back/${p.slug}`),
   ].map(route => route === '/' ? origin : new URL(route, origin).href);
   assert.deepEqual(urls(entries).sort(), [...new Set(expected)].sort());
   assert.equal(revalidate, 3600);

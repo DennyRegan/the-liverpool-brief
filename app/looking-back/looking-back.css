@@ -1,0 +1,44 @@
+/* Looking Back: our own newspaper-cutting treatment. No real newspaper's name or
+   layout, no photographs, no imitation scan; every word is HTML text. */
+.lb-list { list-style: none; margin: 8px 0 0; padding: 0; max-width: 760px; }
+.lb-list li { border-top: 1px solid var(--line); padding: 22px 0 24px; }
+.lb-list-dateline { color: var(--muted); font-size: 12px; letter-spacing: .04em; }
+.lb-list h2 { font: 600 26px/1.2 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; margin: 6px 0 8px; text-wrap: balance; overflow-wrap: anywhere; }
+
+.lb-page { width: min(760px, calc(100% - 40px)); margin: 40px auto 80px; }
+.lb-cutting {
+  /* The site is light-only; keep the cutting on paper in dark-mode browsers too. */
+  color-scheme: light;
+  --paper: #f3ecdc; --ink: #2a2620; --ink-muted: #5f574b;
+  background: var(--paper); color: var(--ink);
+  border: 1px solid #d9cfb8; box-shadow: 0 1px 0 #e6dcc6, 0 10px 28px rgba(42, 38, 32, .08);
+  padding: 28px 40px 30px;
+}
+.lb-masthead {
+  border-top: 6px solid var(--ink); box-shadow: inset 0 4px 0 var(--paper), inset 0 5px 0 var(--ink);
+  border-bottom: 1px solid var(--ink); padding: 14px 0 10px; margin: 0;
+  font: 700 18px/1.2 var(--font-source-serif), Georgia, serif; letter-spacing: .3em; text-align: center; text-transform: uppercase;
+}
+.lb-dateline { color: var(--ink-muted); font-size: 12px; letter-spacing: .06em; text-align: center; margin: 12px 0 0; }
+.lb-headline { font: 700 clamp(30px, 5vw, 44px)/1.08 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; text-align: center; margin: 18px 0 0; text-wrap: balance; overflow-wrap: anywhere; }
+.lb-scoreline { font: 700 15px/1.3 var(--font-source-serif), Georgia, serif; letter-spacing: .18em; text-transform: uppercase; text-align: center; margin: 12px 0 0; }
+.lb-body { border-top: 1px solid var(--ink); margin-top: 20px; padding-top: 18px; font: 400 17px/1.65 var(--font-source-serif), Georgia, serif; }
+.lb-body p { margin: 0 0 .85em; }
+.lb-body p:first-child::first-letter { float: left; font-size: 3.1em; line-height: .85; font-weight: 700; padding: 4px 6px 0 0; }
+.lb-disclosure { border-top: 1px solid var(--ink); margin: 6px 0 0; padding-top: 10px; color: var(--ink-muted); font-size: 12px; font-style: italic; }
+.lb-actions { margin-top: 18px; font-size: 14px; }
+.lb-actions a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent-dark); text-decoration: underline; }
+@media (min-width: 760px) {
+  .lb-body { column-count: 2; column-gap: 36px; column-rule: 1px solid var(--ink); }
+}
+@media (max-width: 700px) {
+  .lb-page { margin-top: 24px; }
+  .lb-cutting { padding: 20px 18px 22px; }
+  .lb-masthead { font-size: 14px; letter-spacing: .2em; }
+  .lb-body { font-size: 17px; }
+  .lb-list h2 { font-size: 22px; }
+}
+@media (max-width: 380px) {
+  .lb-masthead { font-size: 12px; letter-spacing: .12em; }
+  .lb-scoreline { font-size: 13px; letter-spacing: .08em; }
+}

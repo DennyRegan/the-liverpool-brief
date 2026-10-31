@@ -25,9 +25,10 @@ const nextConfig: NextConfig = {
     "/*": ["./prototype/**/*", "./docs/editorial/**/*"],
   },
   outputFileTracingIncludes: {
-    "/*": ["./content/articles/liverpool/*.md", "./content/archive/liverpool/*.md"],
+    "/*": ["./content/articles/liverpool/*.md", "./content/archive/liverpool/*.md", "./content/looking-back/*.md"],
     "/articles/**/opengraph-image": ["./assets/social/**/*", "./public/**/*.{jpg,jpeg,png,webp,avif}"],
     "/archive/**/opengraph-image": ["./assets/social/**/*", "./public/**/*.{jpg,jpeg,png,webp,avif}"],
+    "/looking-back/**/opengraph-image": ["./assets/social/**/*", "./node_modules/next/dist/compiled/@vercel/og/Geist-Regular.ttf"],
   },
 };
 

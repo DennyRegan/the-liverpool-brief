@@ -41,3 +41,19 @@ export const ArticleSchema = z.object({
     whatMatters: z.array(z.string()).optional(), body: z.string(),
 });
 export type Article = z.infer<typeof ArticleSchema>;
+
+// Looking Back: one short keepsake a week. Strict, so unknown keys (such as a
+// sources list) fail the build; attribution belongs in the prose.
+export const LookingBackSchema = z.object({
+    title: z.string().trim().min(1),
+    slug: SlugSchema,
+    date: z.iso.date(),
+    eventDate: z.iso.date(),
+    dateline: z.string().trim().min(1),
+    scoreline: z.string().trim().min(1).optional(),
+    excerpt: z.string().trim().min(1)
+        .refine(text => /[.!?]$/.test(text) && !/[.!?]["”’]?\s+\S/.test(text), "The excerpt must be one sentence"),
+    body: z.string().trim().min(1),
+}).strict().refine(piece => piece.eventDate <= piece.date, { message: "eventDate cannot be after the publication date", path: ["eventDate"] });
+export type LookingBack = z.infer<typeof LookingBackSchema>;
+

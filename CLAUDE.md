@@ -18,7 +18,7 @@ The Brief, History, This Week, Match Centre, Search, the AI drafting pipeline an
 - The automatic History publishing authority of 1 October 2026 is revoked. The three scheduled GitHub workflows are disabled and must stay disabled.
 
 ## Navigation
-Home | Articles | Football Observed. About is in the shared footer, including the bottom of the homepage. Maintain mobile layout.
+Home | Articles | Football Observed | Looking Back. About is in the shared footer, including the bottom of the homepage. Maintain mobile layout.
 
 Articles provides All, Opinion, Team News, History and Football Observed collections, with Analysis also available when published. Football Observed is Denny’s weekly general-football column, reached through the main navigation and Articles category navigation at its preserved `/regan-on-football` URL. It uses existing Opinion articles tagged exactly `regan-on-football`, with canonical `/articles/[slug]` URLs. Editions are organised automatically from approved content; there is no automated writing, scheduling or publishing. See `docs/regan-on-football.md` for the publishing contract.
 
@@ -49,3 +49,10 @@ Denny deliberately removed the History section. It was retired on 19 October, re
 Removed: all `/history` routes (home, matches, seasons, people, explore, series, on-this-day) and History search (`/search`); the `/this-week` redirect; the 1987–88 season atlas and preview pages; the History prototype and match-review readers; the Klopp's Liverpool series record; the History taxonomy (`content/history`: eras, entities, seasons, atlases, series, featured matches, event verifications) and its loaders and schemas; `content/this-week` and the seven history-week match reports published on 29 October; the homepage "From History" block; History in the main navigation and sitemap; History scripts, tests and documents. Old `/history/*`, `/this-week`, `/search` and the seven report URLs redirect permanently to the homepage. Everything is recoverable from tag `pre-history-removal`.
 
 Kept: Denny's own four Archive pieces at their `/archive/` URLs, with their existing Opinion/History labels and the Articles History filter. `tests/crawlability.test.mjs` fails if History routes or content come back.
+
+## Looking Back — 1 November 2026
+
+Looking Back (`/looking-back`) is one short keepsake a week: a single piece of about 150–250 words, chosen by Denny, written from checked sources with a figure list, and approved by Denny before publishing. Each piece is one file in `content/looking-back/[slug].md`, validated by the strict `LookingBackSchema` (no sources field; attribution stays in the prose). The page template adds the AI-and-approval disclosure line; never put it in content files.
+
+Looking Back is **not History** and must not grow into History: no eras, seasons, people, series, taxonomy, collections beyond the single list, This Week, calendars, scheduled publishing or automated writing. Any piece touching Heysel or Hillsborough needs Denny's approval of that piece by name.
+
