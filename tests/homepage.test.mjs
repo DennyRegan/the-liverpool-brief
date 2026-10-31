@@ -35,9 +35,9 @@ test('London midnight determines publication eligibility', () => {
 const column = { date: '2026-10-10', href: '/articles/column', category: 'Opinion', tags: ['regan-on-football'] };
 const ordinary = [a, b, { ...a, href: '/articles/news', category: 'Team News' }, { ...b, href: '/articles/extra' }];
 const histories = Array.from({length: 5}, (_, i) => ({ date: '2026-10-10', href: `/archive/history-${i}`, category: 'History', editorialMode: 'factual' }));
-const cards = selection => [selection.lead, selection.column, ...selection.more, selection.history].filter(Boolean);
+const cards = selection => [selection.lead, selection.column, ...selection.more].filter(Boolean);
 
-test('homepage reserves four unique journalism pieces including the column and only one History story', () => {
+test('homepage shows four unique journalism pieces including the column and no History story', () => {
   const input = [...histories, column, ...ordinary, { ...column, href: '/articles/previous-column', date: '2026-10-08' }];
   const before = structuredClone(input);
   const selected = selectHomePage(input, now);
@@ -45,9 +45,10 @@ test('homepage reserves four unique journalism pieces including the column and o
   assert.equal(selected.column, column);
   assert.equal(selected.more.length, 2);
   assert.ok(selected.more.every(a => a.category !== 'History'));
-  assert.equal(selected.history, histories[0]);
-  assert.equal(cards(selected).length, 5);
-  assert.equal(new Set(cards(selected).map(a => a.href)).size, 5);
+  assert.equal('history' in selected, false);
+  assert.ok(cards(selected).every(a => a.category !== 'History'));
+  assert.equal(cards(selected).length, 4);
+  assert.equal(new Set(cards(selected).map(a => a.href)).size, 4);
   assert.deepEqual(input, before);
 });
 
@@ -63,14 +64,14 @@ test('homepage has no duplicate column when an active editorial override leads w
 });
 
 test('homepage caps journalism without a column and never fills shortages with History or older editions', () => {
-  assert.equal(cards(selectHomePage([...histories, ...ordinary], now)).length, 5);
+  assert.equal(cards(selectHomePage([...histories, ...ordinary], now)).length, 4);
   const sparse = selectHomePage([...histories, column], now);
   assert.equal(sparse.lead, column);
   assert.equal(sparse.column, undefined);
   assert.deepEqual(sparse.more, []);
-  assert.equal(cards(sparse).length, 2);
+  assert.equal(cards(sparse).length, 1);
   assert.deepEqual(cards(selectHomePage([], now)), []);
-  assert.equal(cards(selectHomePage(histories, now)).length, 1);
+  assert.equal(cards(selectHomePage(histories, now)).length, 0);
 });
 
 test('homepage excludes future dates, deduplicates canonical URLs and handles Team News alone', () => {
@@ -79,6 +80,6 @@ test('homepage excludes future dates, deduplicates canonical URLs and handles Te
   const selected = selectHomePage([news, news, future, ...histories], now);
   assert.equal(selected.lead, news);
   assert.equal(selected.column, undefined);
-  assert.equal(cards(selected).length, 2);
+  assert.equal(cards(selected).length, 1);
   assert.equal(selectHomePage([future], at('2026-10-10T23:00:00Z')).lead, future);
 });

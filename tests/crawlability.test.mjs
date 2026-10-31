@@ -1,4 +1,3 @@
-import { getHistoryLibrary, availableEntities, entityHref, HISTORY_NAV } from '../lib/content/history-library.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -18,10 +17,7 @@ const newsletter = { SENDER_PUBLIC_ACCOUNT_ID: 'abc123', SENDER_NEWSLETTER_FORM_
 
 test('sitemap lists only the public pages and retained articles', () => {
   const entries = sitemap();
-  const library = getHistoryLibrary();
   const expected = [
-    ...library.articles.filter(a => a.articleType === "match" && a.season).map(a => `/history/seasons/${a.season}`),
-    "/history", ...HISTORY_NAV.map(item => item.href), ...availableEntities(library).map(entityHref), ...library.seasons.map(s => `/history/seasons/${s.record.season}`), ...library.series.map(s => `/history/series/${s.id}`),
     '/', '/about', '/articles', '/regan-on-football',
     ...(getNewsletterConfig() ? ['/newsletter', '/newsletter/privacy'] : []),
     ...getArticles().map(a => `/articles/${a.slug}`),
@@ -36,7 +32,7 @@ test('sitemap lists only the public pages and retained articles', () => {
     assert.equal(url.search, '');
     assert.equal(url.hash, '');
     assert.equal(entry.lastModified, undefined);
-    assert.doesNotMatch(url.pathname, /^\/(preview|docs|content|brief|this-week|match-centre|search)(\/|$)/);
+    assert.doesNotMatch(url.pathname, /^\/(preview|docs|content|brief|history|this-week|match-centre|search)(\/|$)/);
     assert.ok(!['/archive', '/archive/matches', '/archive/people', '/archive/seasons'].includes(url.pathname));
   }
 });
@@ -87,5 +83,15 @@ test('robots allows public stories, blocks previews and source material, and adv
   assert.equal(result.sitemap, `${origin}/sitemap.xml`);
   for (const entry of sitemap()) {
     assert.ok(!result.rules.disallow.some(prefix => new URL(entry.url).pathname.startsWith(prefix)));
+  }
+});
+
+test('History stays removed: no routes, content or navigation, and old URLs redirect home', async () => {
+  for (const dir of ['app/history', 'app/this-week', 'app/search', 'content/history', 'content/this-week']) assert.equal(fs.existsSync(dir), false, `${dir} must not return`);
+  assert.doesNotMatch(fs.readFileSync('app/components/SiteHeader.tsx', 'utf8'), /href: "\/history"/);
+  const { default: config } = await import('../next.config.ts');
+  const redirects = await config.redirects();
+  for (const source of ['/history', '/history/:path*', '/this-week', '/search']) {
+    assert.ok(redirects.some(r => r.source === source && r.destination === '/' && r.permanent), `${source} redirects home`);
   }
 });

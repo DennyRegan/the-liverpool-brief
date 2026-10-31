@@ -1,9 +1,0 @@
-# Approved public-season release adjustment — 29 October 2026
-
-This supersedes the local-only 1987–88 scope in the earlier final review. Denny approved the infrastructure release, then explicitly approved the limited adjustment to make the existing season experience public without releasing withdrawn reports.
-
-The existing 1987–88 season reference and design are reused. Public report cards and the optional atlas derive from the public article loader: currently the single approved Forest report at Anfield. The public map uses preserved Anfield coordinates and the existing coastline; it does not load any private manuscript. Map headings/counts reflect the available selection. The full guarded local preview retains twelve reports and its original five-match atlas. No report prose, article metadata, canonical URL, homepage body or newsletter sending code changed. The separate On This Day workstream is excluded; the approved season has no anniversary events.
-
-Validation before release: 58 local tests passed; clean public suite 46 passed and 12 private-pack checks explicitly skipped. History/prototype/560-report validation and lint passed. Public HTTP checks: 51 History routes plus 575 collection checks, including all 558 unapproved readers returning 404. Editorial checks: 143 History routes plus 761 collection checks. Desktop/mobile atlas and keyboard toggle checked. Clean build output is scanned against all 558 private-report narrative sentinels from the separate local inventory.
-
-Builds are required before merge. The standard build needs real local dependencies: Turbopack correctly rejects a node_modules symlink outside this checkout, so dependencies are installed from the unchanged lockfile. No production build or preview uses the private pack. Hosted deployment status and post-release verification will be reported separately; local checks alone do not establish deployment success.

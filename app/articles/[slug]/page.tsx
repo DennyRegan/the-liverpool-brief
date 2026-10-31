@@ -1,4 +1,3 @@
-import { ArticleConnections } from "@/app/components/history/ArticleConnections";
 import { articleMetadata } from '@/lib/social-metadata';
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -109,7 +108,6 @@ export default async function ArticlePage({
             </ol>
           </div>
         )}
-        {article.series && <ArticleConnections href={`/articles/${article.slug}`} />}
         {column && <EditionNavigation slug={article.slug} />}
         <aside className="read-next"><p className="eyebrow">Keep reading</p>{getArticles().filter(item => item.slug !== article.slug).slice(0, 2).map(item => <Link key={item.slug} href={`/articles/${item.slug}`}>{item.title} <span aria-hidden="true">↗</span></Link>)}</aside>
       </main>

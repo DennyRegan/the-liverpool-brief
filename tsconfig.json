@@ -29,9 +29,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts",
-    ".next-history-prototype/types/**/*.ts",
-    ".next-history-prototype/dev/types/**/*.ts"
+    "**/*.mts"
   ],
   "exclude": ["node_modules"]
 }

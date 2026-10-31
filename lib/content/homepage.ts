@@ -31,7 +31,7 @@ export function selectHomeLead<T extends Writing>(writing: T[], now: Date, overr
   return pinned ?? eligible[0];
 }
 
-// Four distinct journalism pieces (including the latest column), plus one History piece.
+// Four distinct journalism pieces, including the latest column.
 export function selectHomePage<T extends Writing>(writing: T[], now: Date, override: LeadOverride = null) {
   const today = getLondonToday(now);
   const eligible = [...new Map(writing.map(article => [article.href, article])).values()]
@@ -47,6 +47,5 @@ export function selectHomePage<T extends Writing>(writing: T[], now: Date, overr
   const column = latestColumn?.href === lead?.href ? undefined : latestColumn;
   const remainingSlots = 4 - Number(Boolean(lead)) - Number(Boolean(column));
   const more = otherWriting.filter(article => article.href !== lead?.href).slice(0, remainingSlots);
-  const history = eligible.find(article => article.category === 'History');
-  return { lead, column, more, history };
+  return { lead, column, more };
 }

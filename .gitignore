@@ -15,7 +15,6 @@
 
 # next.js
 /.next/
-/.next-history-prototype/
 /out/
 
 # production
@@ -43,7 +42,6 @@ yarn-error.log*
 next-env.d.ts
 
 # Optional local browser-verification artifacts
-.interactive-history-checks/
 /.generated/
 /.table-search-checks/
 
