@@ -24,13 +24,13 @@ assert.ok(/<footer\b[\s\S]*href="\/about"/.test(home));
 await page('/about');
 assert.match(all, /href="\/regan-on-football"/);
 assert.ok(/<a\b(?=[^>]*href="\/regan-on-football")(?=[^>]*aria-current="page")[^>]*>/.test(landing), 'Column category is selected');
-const { lead, column, more, history } = selectHomePage(getWriting(), new Date(), getHomeLeadOverride());
+const { lead, column, more } = selectHomePage(getWriting(), new Date(), getHomeLeadOverride());
 if (lead) assert.ok(home.includes(`<h1><a href="${lead.href}">${escape(lead.title)}</a></h1>`));
-const expectedCards = [lead, column, ...more, history].filter(Boolean);
+const expectedCards = [lead, column, ...more].filter(Boolean);
 const renderedCards = [...home.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g)].map(match => match[0]);
 assert.equal(renderedCards.length, expectedCards.length);
-assert.ok(renderedCards.length <= 5);
-assert.equal((home.match(/class="article-type">History</g) || []).length, history ? 1 : 0);
+assert.ok(renderedCards.length <= 4);
+assert.ok(!home.includes('href="/history'), 'Homepage has no History links');
 for (const article of expectedCards) assert.equal(renderedCards.filter(card => card.includes(`href="${article.href}"`)).length, 1, `Homepage card count for ${article.href}`);
 if (editions.length) {
   assert.equal(home.includes('class="home-observed"'), Boolean(column));
@@ -64,4 +64,4 @@ if (ordinary) {
   assert.ok(!html.includes('aria-label="Football Observed editions"'));
   checked++;
 }
-console.log(`PASS: ${checked} routes; homepage journalism/History balance without duplicate cards, Articles membership, published editions, contents targets, canonical URLs, ordinary article isolation.`);
+console.log(`PASS: ${checked} routes; homepage journalism without duplicate cards or History links, Articles membership, published editions, contents targets, canonical URLs, ordinary article isolation.`);

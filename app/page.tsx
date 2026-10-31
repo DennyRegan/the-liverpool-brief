@@ -20,7 +20,7 @@ export const dynamic = 'force-dynamic';
 
 export default function Home() {
   const writing = getWriting();
-  const { lead, column, more, history } = selectHomePage(writing, new Date(), getHomeLeadOverride());
+  const { lead, column, more } = selectHomePage(writing, new Date(), getHomeLeadOverride());
   const featuredEdition = getReganOnFootballEditions().find(article => `/articles/${article.slug}` === column?.href);
   return <>
     <SiteHeader active="home" />
@@ -46,15 +46,6 @@ export default function Home() {
             <p className="preview-excerpt">{getArticleExcerpt(article, 180)}</p>
             <Link className="read-link" href={article.href} aria-label={`Read article: ${article.title}`}>Read article</Link>
         </article>)}</div>
-      </section>}
-      {history && <section className="home-history" aria-labelledby="home-history-heading">
-        <div className="home-section-heading"><h2 id="home-history-heading" className="eyebrow">From History</h2><Link className="collection-link" href="/history">Explore History</Link></div>
-        <article className="article-card">
-          <ArticleMeta {...history} />
-          <h3><Link href={history.href}>{history.title}</Link></h3>
-          <p className="preview-excerpt">{getArticleExcerpt(history, 180)}</p>
-          <Link className="read-link" href={history.href} aria-label={`Read article: ${history.title}`}>Read article</Link>
-        </article>
       </section>}
     </main>
   </>;

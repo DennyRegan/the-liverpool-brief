@@ -1,5 +1,7 @@
 # Football Observed implementation review — 30 October 2026
 
+> **Note, 31 October 2026:** the History section, its documents and its `validate:history`, `verify:history`, `verify:history-build`, `validate:prototype` and `validate:matches` commands were removed after this review (see `CLAUDE.md`). References to them below record the state at review time only; they are not current instructions.
+
 Implemented locally on `feature/football-observed-premium`, based on current main `14a5482` in the `football-observed` worktree. The original review was local only; the subsequent release approval is recorded below.
 
 ## Audit and approach

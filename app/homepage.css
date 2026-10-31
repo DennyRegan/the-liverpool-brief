@@ -13,10 +13,6 @@
 .home-recent { margin-top: 32px; }
 .home-recent .home-section-heading { margin-bottom: 0; }
 .home-page .home-recent h3 { font-size: var(--headline-list); }
-.home-history { border-top: 1px solid var(--line); margin-top: 32px; padding-top: 20px; }
-.home-history .home-section-heading { margin-bottom: 0; }
-.home-history .article-card { border-bottom: 0; padding-top: 14px; }
-.home-page .home-history h3 { font-size: var(--headline-list); }
 @media (max-width: 700px) {
   .home-lead-block { padding-bottom: 20px; }
   .observed-home-heading { flex-wrap: wrap; gap: 4px 20px; padding-top: 20px; }

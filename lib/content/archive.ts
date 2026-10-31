@@ -2,13 +2,6 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { ArchiveFeatureSchema } from "./types.ts";
-import { getHistoryEntities } from "./entities.ts";
-import { getHistory, getArticleEraIds } from "./history.ts";
-
-const relationshipKinds = {
-    playerIds: "person", managerIds: "person", oppositionIds: "opposition",
-    competitionIds: "competition", locationIds: "location", themeIds: "theme",
-} as const;
 
 export function getArchiveFeatures(root = process.cwd()) {
     const dir = path.join(root, "content/archive/liverpool");
@@ -26,31 +19,6 @@ export function getArchiveFeatures(root = process.cwd()) {
             throw new Error(`Invalid Archive article ${filename}: ${error instanceof Error ? error.message : String(error)}`);
         }
     });
-    if (!articles.length) return [];
-    const entities = new Map(getHistoryEntities(root).map(entity => [entity.id, entity]));
-    const { eras } = getHistory(root);
-    const bySlug = new Map(articles.map(article => [article.slug, article]));
-    for (const article of articles) {
-        try {
-            for (const [field, kind] of Object.entries(relationshipKinds)) {
-                for (const id of article[field as keyof typeof relationshipKinds] ?? []) {
-                    const entity = entities.get(id);
-                    if (!entity) throw new Error(`${field}: unknown entity ID "${id}"; add it to content/history/liverpool/entities.json or correct the ID`);
-                    if (entity.kind !== kind) throw new Error(`${field}: "${id}" is ${entity.kind}; expected ${kind}`);
-                }
-            }
-            getArticleEraIds(article, eras);
-            // Preserve the older curated season links, while rejecting broken references.
-            for (const slug of article.relatedMatches ?? []) {
-                const related = bySlug.get(slug);
-                if (slug === article.slug) throw new Error("relatedMatches cannot link the article to itself");
-                if (!related) throw new Error(`relatedMatches: Archive article not found: "${slug}"`);
-                if (related.category !== "match") throw new Error(`relatedMatches: "${slug}" must have category "match"`);
-            }
-        } catch (error) {
-            throw new Error(`Invalid Archive article ${article.slug}.md: ${error instanceof Error ? error.message : String(error)}`);
-        }
-    }
     return articles.sort((a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug));
 }
 

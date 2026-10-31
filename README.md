@@ -38,14 +38,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Current site structure
 
-The Liverpool Brief publishes Denny Regan's own writing. Navigation is Home | Articles | About.
+The Liverpool Brief publishes Denny Regan's own writing. Navigation is Home | Articles | Football Observed, with About in the footer.
 
-- **Home** (`/`) leads with the latest Opinion or Analysis piece, lists four more recent articles and links to the full collection.
-- **Articles** (`/articles`) is the single collection. Filters (`?type=opinion|analysis|history`) appear only for categories that currently have articles.
-- Articles live in `content/articles/liverpool/*.md` (`category: Opinion | Analysis`) at `/articles/[slug]`. Four earlier pieces stay in `content/archive/liverpool/` at their original `/archive/[slug]` URLs and are listed as Opinion or History according to their stored `editorialMode`.
+- **Home** (`/`) shows up to four journalism pieces, including the latest Football Observed edition, and links to the full collection.
+- **Articles** (`/articles`) is the single collection. Filters (`?type=opinion|analysis|team-news|history`) appear for categories that have articles; History lists Denny's own historical pieces only.
+- Articles live in `content/articles/liverpool/*.md` (`category: Opinion | Analysis | Team News`) at `/articles/[slug]`. Four earlier pieces stay in `content/archive/liverpool/` at their original `/archive/[slug]` URLs and are listed as Opinion or History according to their stored `editorialMode`.
 - Analysis supports Markdown tables (GitHub-flavoured) and images/charts placed under `public/`.
 - The newsletter signup is hidden until Sender is configured; see [docs/newsletter-signup.md](docs/newsletter-signup.md).
 
-The Brief, History, This Week, Match Centre, Search and all automated History publishing were retired on 19 October 2026. Everything removed is preserved in the tag `pre-editorial-reset-2026-10-19` and the branch `archive/pre-editorial-reset`.
+The Brief, History, This Week, Match Centre, Search and all automated History publishing were retired on 19 October 2026 (tag `pre-editorial-reset-2026-10-19`). History was briefly restored and then removed for good on 31 October 2026 (tag `pre-history-removal`); old `/history`, `/this-week` and `/search` links redirect to the homepage.
 
 Use Node 22.18+ or 24, then `npm ci`, `npm test`, `npm run lint` and `npm run build`. Preview with `npm run dev`.
