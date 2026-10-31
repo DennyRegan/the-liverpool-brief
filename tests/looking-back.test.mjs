@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 const { LookingBackSchema } = await import('../lib/content/types.ts');
-const { getLookingBack, LOOKING_BACK_BYLINE, isLive, liveFrom, weekStartingMonday, isProduction, getVisibleLookingBack, getLiveLookingBack, groupByWeek, weekEndingSunday, formatDayDate } = await import('../lib/content/looking-back.ts');
+const { getLookingBack, LOOKING_BACK_BYLINE, isLive, liveFrom, isProduction, getVisibleLookingBack, getLiveLookingBack, groupByWeek, weekEndingSunday, formatDayDate } = await import('../lib/content/looking-back.ts');
 
 const valid = {
   title: 'Rush scores four as Liverpool run riot at Goodison', slug: 'rush-scores-four-everton-1982',
@@ -58,55 +58,51 @@ const at = iso => new Date(iso);
 const production = { VERCEL_ENV: 'production' };
 const preview = { VERCEL_ENV: 'preview' };
 
-test('a piece goes live on the Monday of its week, is hidden before that on production and shown with a banner on preview', () => {
-  // Rush is dated Friday 6 November, so it goes live on Monday 2 November.
-  assert.equal(liveFrom({ date: '2026-11-06' }), '2026-11-02');
-  const sunday = at('2026-11-01T12:00:00Z'), monday = at('2026-11-02T12:00:00Z');
+test('a piece goes live on its own date, is hidden before that on production and shown with a banner on preview', () => {
+  // Rush is dated Friday 6 November and goes live that day.
+  assert.equal(liveFrom({ date: '2026-11-06' }), '2026-11-06');
+  const thursday = at('2026-11-05T12:00:00Z'), friday = at('2026-11-06T12:00:00Z');
   assert.equal(isProduction(production), true);
   for (const env of [preview, {}, { VERCEL_ENV: 'development' }]) assert.equal(isProduction(env), false);
-  assert.ok(!getVisibleLookingBack(sunday, production).some(p => p.slug === 'rush-scores-four-everton-1982'));
-  assert.ok(!getLiveLookingBack(sunday).some(p => p.slug === 'rush-scores-four-everton-1982'));
+  assert.ok(!getVisibleLookingBack(thursday, production).some(p => p.slug === 'rush-scores-four-everton-1982'));
+  assert.ok(!getLiveLookingBack(thursday).some(p => p.slug === 'rush-scores-four-everton-1982'));
   for (const env of [preview, {}]) {
-    const rush = getVisibleLookingBack(sunday, env).find(p => p.slug === 'rush-scores-four-everton-1982');
+    const rush = getVisibleLookingBack(thursday, env).find(p => p.slug === 'rush-scores-four-everton-1982');
     assert.equal(rush.scheduled, true);
-    assert.equal(rush.liveFrom, '2026-11-02');
+    assert.equal(rush.liveFrom, '2026-11-06');
   }
-  assert.ok(getVisibleLookingBack(monday, production).some(p => p.slug === 'rush-scores-four-everton-1982' && !p.scheduled));
-  // Every piece in a week goes live together, before its own anniversary.
-  assert.equal(isLive({ date: '2026-11-08' }, monday), true);
-  assert.equal(isLive({ date: '2026-11-09' }, monday), false);
-  // Arsenal (Sunday 1 November) went live on Monday 26 October.
-  assert.equal(liveFrom({ date: '2026-11-01' }), '2026-10-26');
-  assert.ok(getVisibleLookingBack(at('2026-10-26T00:00:00Z'), production).some(p => p.slug === 'liverpool-arsenal-5-5-2019'));
-  assert.ok(!getVisibleLookingBack(at('2026-10-25T23:59:59Z'), production).some(p => p.slug === 'liverpool-arsenal-5-5-2019'));
+  assert.ok(getVisibleLookingBack(friday, production).some(p => p.slug === 'rush-scores-four-everton-1982' && !p.scheduled));
+  // Earlier in the same week is not enough: each piece waits for its own date.
+  assert.ok(!getVisibleLookingBack(at('2026-11-02T12:00:00Z'), production).some(p => p.slug === 'rush-scores-four-everton-1982'));
+  assert.equal(isLive({ date: '2026-11-07' }, friday), false);
+  // Arsenal (Sunday 1 November) goes live that Sunday.
+  assert.ok(!getVisibleLookingBack(at('2026-10-31T23:59:59Z'), production).some(p => p.slug === 'liverpool-arsenal-5-5-2019'));
+  assert.ok(getVisibleLookingBack(at('2026-11-01T00:00:00Z'), production).some(p => p.slug === 'liverpool-arsenal-5-5-2019'));
 });
 
 test('once live, a piece stays live permanently', () => {
-  for (const later of ['2026-11-09T00:00:00Z', '2027-06-01T12:00:00Z', '2035-01-01T00:00:00Z']) {
+  for (const later of ['2026-11-07T00:00:00Z', '2027-06-01T12:00:00Z', '2035-01-01T00:00:00Z']) {
     assert.equal(isLive({ date: '2026-11-06' }, at(later)), true);
     assert.ok(getVisibleLookingBack(at(later), production).some(p => p.slug === 'rush-scores-four-everton-1982'));
   }
 });
 
-test('Monday midnight is UK time: 23:00 UTC on Sunday in British Summer Time, 00:00 UTC in GMT', () => {
-  assert.equal(weekStartingMonday('2026-10-22'), '2026-10-19');
-  // BST (UTC+1): a piece dated Thursday 22 October 2026 goes live at Monday 19 October 00:00 BST.
-  assert.equal(isLive({ date: '2026-10-22' }, at('2026-10-18T22:59:59Z')), false);
-  assert.equal(isLive({ date: '2026-10-22' }, at('2026-10-18T23:00:00Z')), true);
-  // The clocks go back on Sunday 25 October; that day still belongs to the week whose Monday was in BST.
-  assert.equal(liveFrom({ date: '2026-10-25' }), '2026-10-19');
-  assert.equal(isLive({ date: '2026-10-25' }, at('2026-10-18T22:59:59Z')), false);
-  assert.equal(isLive({ date: '2026-10-25' }, at('2026-10-18T23:00:00Z')), true);
-  // GMT (UTC+0): the next Monday, 26 October, starts at 00:00 UTC.
-  assert.equal(isLive({ date: '2026-10-30' }, at('2026-10-25T23:59:59Z')), false);
-  assert.equal(isLive({ date: '2026-10-30' }, at('2026-10-26T00:00:00Z')), true);
-  // The clocks go forward on Sunday 28 March 2027: that week's Monday (22 March) is GMT...
-  assert.equal(liveFrom({ date: '2027-03-28' }), '2027-03-22');
-  assert.equal(isLive({ date: '2027-03-28' }, at('2027-03-21T23:59:59Z')), false);
-  assert.equal(isLive({ date: '2027-03-28' }, at('2027-03-22T00:00:00Z')), true);
-  // ...and the following Monday, 29 March, is the first in BST: 23:00 UTC on Sunday 28 March.
-  assert.equal(isLive({ date: '2027-03-31' }, at('2027-03-28T22:59:59Z')), false);
-  assert.equal(isLive({ date: '2027-03-31' }, at('2027-03-28T23:00:00Z')), true);
+test('midnight is UK time: 23:00 UTC the evening before in British Summer Time, 00:00 UTC in GMT', () => {
+  // BST (UTC+1): a piece dated Thursday 22 October 2026 goes live at 23:00 UTC on Wednesday 21 October.
+  assert.equal(isLive({ date: '2026-10-22' }, at('2026-10-21T22:59:59Z')), false);
+  assert.equal(isLive({ date: '2026-10-22' }, at('2026-10-21T23:00:00Z')), true);
+  // The clocks go back at 02:00 on Sunday 25 October, so that day's midnight is still BST.
+  assert.equal(isLive({ date: '2026-10-25' }, at('2026-10-24T22:59:59Z')), false);
+  assert.equal(isLive({ date: '2026-10-25' }, at('2026-10-24T23:00:00Z')), true);
+  // GMT (UTC+0) from Monday 26 October: Rush on Friday 6 November goes live at 00:00 UTC.
+  assert.equal(isLive({ date: '2026-11-06' }, at('2026-11-05T23:59:59Z')), false);
+  assert.equal(isLive({ date: '2026-11-06' }, at('2026-11-06T00:00:00Z')), true);
+  // The clocks go forward at 01:00 GMT on Sunday 28 March 2027, so that day's midnight is still GMT...
+  assert.equal(isLive({ date: '2027-03-28' }, at('2027-03-27T23:59:59Z')), false);
+  assert.equal(isLive({ date: '2027-03-28' }, at('2027-03-28T00:00:00Z')), true);
+  // ...and the next day, Monday 29 March, is the first midnight in BST: 23:00 UTC on 28 March.
+  assert.equal(isLive({ date: '2027-03-29' }, at('2027-03-28T22:59:59Z')), false);
+  assert.equal(isLive({ date: '2027-03-29' }, at('2027-03-28T23:00:00Z')), true);
 });
 
 test('the week is worked out from the date: Monday to Sunday, labelled by its Sunday', () => {
