@@ -3,7 +3,7 @@ import { getArticleExcerpt } from "@/lib/format";
 import { ArticleMeta } from "./ArticleMeta";
 
 type CollectionArticle = {
-  slug: string; href: string; title: string; category: string;
+  slug: string; href: string; title: string; category: string; matchType?: string;
   date: string; body: string; excerpt?: string; tags?: string[];
 };
 

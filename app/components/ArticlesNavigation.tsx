@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { REGAN_ON_FOOTBALL_PATH } from "@/lib/content/regan-on-football";
+import { MATCHDAY_PATH } from "@/lib/content/matchday";
 
 export function ArticlesNavigation({ selected, hasAnalysis = false }: {
   selected: string;
@@ -8,6 +9,7 @@ export function ArticlesNavigation({ selected, hasAnalysis = false }: {
   const links = [
     ["All", "/articles"],
     ["Opinion", "/articles?type=opinion"],
+    ["Matchday", MATCHDAY_PATH],
     ...(hasAnalysis ? [["Analysis", "/articles?type=analysis"]] : []),
     ["Team News", "/articles?type=team-news"],
     ["History", "/articles?type=history"],
