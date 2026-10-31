@@ -140,6 +140,18 @@ test('the published pieces group as expected once both are live', () => {
   ]);
 });
 
+test('Munich (7 November) joins Rush in the week ending 8 November once its own date arrives', () => {
+  const munich = getLookingBack().find(p => p.slug === 'liverpool-tsv-munich-8-0-1967');
+  assert.equal(munich.date, '2026-11-07');
+  assert.equal(munich.scoreline, 'Liverpool 8 TSV 1860 Munich 0');
+  assert.ok(!getVisibleLookingBack(at('2026-11-06T23:59:59Z'), production).some(p => p.slug === munich.slug));
+  const weeks = groupByWeek(getVisibleLookingBack(at('2026-11-07T00:00:00Z'), production));
+  assert.deepEqual(weeks.map(w => [w.heading, w.pieces.map(p => p.slug)]), [
+    ['Week ending Sunday 8 November 2026', ['rush-scores-four-everton-1982', 'liverpool-tsv-munich-8-0-1967']],
+    ['Week ending Sunday 1 November 2026', ['liverpool-arsenal-5-5-2019']],
+  ]);
+});
+
 test('future-dated pages and images can appear later without a rebuild', () => {
   for (const file of ['app/looking-back/[slug]/page.tsx', 'app/looking-back/[slug]/opengraph-image.tsx']) {
     const source = fs.readFileSync(file, 'utf8');
