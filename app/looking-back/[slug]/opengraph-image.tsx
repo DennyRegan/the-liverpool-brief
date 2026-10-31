@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { ImageResponse } from 'next/og';
-import { getLookingBack, LOOKING_BACK_BYLINE } from '@/lib/content/looking-back';
+import { getVisibleLookingBack, LOOKING_BACK_BYLINE } from '@/lib/content/looking-back';
 import { fitHeadline, socialImageSize } from '@/lib/social-card';
 
 export const runtime = 'nodejs';
@@ -9,8 +9,12 @@ export const size = socialImageSize;
 export const contentType = 'image/png';
 export const alt = 'The Brief · Looking Back keepsake';
 
+// Same scheduling as the page: built for visible pieces, later ones on request.
+export const dynamicParams = true;
+export const revalidate = 3600;
+
 export function generateStaticParams() {
-  return getLookingBack().map(piece => ({ slug: piece.slug }));
+  return getVisibleLookingBack().map(piece => ({ slug: piece.slug }));
 }
 
 const PAPER = '#f3ecdc', INK = '#2a2620', RULE = '#2a2620', MUTED = '#5f574b';
@@ -18,7 +22,7 @@ const PAPER = '#f3ecdc', INK = '#2a2620', RULE = '#2a2620', MUTED = '#5f574b';
 /** The keepsake design as a 1200 × 630 PNG for X, link previews and the newsletter. */
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const slug = (await params).slug;
-  const piece = getLookingBack().find(item => item.slug === slug);
+  const piece = getVisibleLookingBack().find(item => item.slug === slug);
   if (!piece) return new Response(null, { status: 404 });
   const [serif, sans] = await Promise.all([
     readFile(path.join(process.cwd(), 'assets/social/SourceSerif4Display-Bold.ttf')),

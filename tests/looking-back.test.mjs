@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 const { LookingBackSchema } = await import('../lib/content/types.ts');
-const { getLookingBack, LOOKING_BACK_BYLINE } = await import('../lib/content/looking-back.ts');
+const { getLookingBack, LOOKING_BACK_BYLINE, isLive, isProduction, getVisibleLookingBack, getLiveLookingBack, groupByWeek, weekEndingSunday, formatDayDate } = await import('../lib/content/looking-back.ts');
 
 const valid = {
   title: 'Rush scores four as Liverpool run riot at Goodison', slug: 'rush-scores-four-everton-1982',
@@ -47,13 +47,94 @@ test('the loader fails the build on a mismatched slug and lists newest first', (
   } finally { fs.rmSync(root, { recursive: true, force: true }); }
 });
 
-test('Arsenal 5-5 is published; the Rush draft is not', () => {
+test('Arsenal 5-5 is dated 1 November and Rush is scheduled for its 6 November anniversary', () => {
   const pieces = getLookingBack();
-  const arsenal = pieces.find(p => p.slug === 'liverpool-arsenal-5-5-2019');
-  assert.equal(arsenal.eventDate, '2019-10-30');
-  assert.equal(arsenal.scoreline, 'Liverpool 5 Arsenal 5 (Liverpool won 5–4 on penalties)');
-  assert.ok(!pieces.some(p => p.slug === 'rush-scores-four-everton-1982'));
-  assert.ok(fs.existsSync('docs/looking-back-drafts/rush-scores-four-everton-1982.md'));
+  assert.equal(pieces.find(p => p.slug === 'liverpool-arsenal-5-5-2019').date, '2026-11-01');
+  assert.equal(pieces.find(p => p.slug === 'rush-scores-four-everton-1982').date, '2026-11-06');
+  assert.deepEqual(fs.readdirSync('docs/looking-back-drafts').filter(f => f !== 'README.md'), []);
+});
+
+const at = iso => new Date(iso);
+const production = { VERCEL_ENV: 'production' };
+const preview = { VERCEL_ENV: 'preview' };
+
+test('a piece dated today is live; one dated tomorrow is hidden on production but shown, flagged, on preview and locally', () => {
+  const now = at('2026-11-05T12:00:00Z');
+  assert.equal(isLive({ date: '2026-11-05' }, now), true);
+  assert.equal(isLive({ date: '2026-11-06' }, now), false);
+  assert.equal(isProduction(production), true);
+  for (const env of [preview, {}, { VERCEL_ENV: 'development' }]) assert.equal(isProduction(env), false);
+  const prod = getVisibleLookingBack(now, production);
+  assert.ok(prod.some(p => p.slug === 'liverpool-arsenal-5-5-2019' && !p.scheduled));
+  assert.ok(!prod.some(p => p.slug === 'rush-scores-four-everton-1982'));
+  for (const env of [preview, {}]) {
+    const rush = getVisibleLookingBack(now, env).find(p => p.slug === 'rush-scores-four-everton-1982');
+    assert.equal(rush.scheduled, true);
+  }
+  assert.ok(!getLiveLookingBack(now).some(p => p.slug === 'rush-scores-four-everton-1982'));
+  assert.ok(!getVisibleLookingBack(at('2026-11-05T23:59:59Z'), production).some(p => p.slug === 'rush-scores-four-everton-1982'));
+  assert.ok(getVisibleLookingBack(at('2026-11-06T00:00:00Z'), production).some(p => p.slug === 'rush-scores-four-everton-1982' && !p.scheduled));
+});
+
+test('the daily cut-over is midnight in Europe/London, in both GMT and BST', () => {
+  // BST (UTC+1): Sunday 18 October 2026 starts at 23:00 UTC on Saturday.
+  assert.equal(isLive({ date: '2026-10-18' }, at('2026-10-17T22:59:59Z')), false);
+  assert.equal(isLive({ date: '2026-10-18' }, at('2026-10-17T23:00:00Z')), true);
+  // Clocks go back at 02:00 BST on Sunday 25 October, so that midnight is still BST.
+  assert.equal(isLive({ date: '2026-10-25' }, at('2026-10-24T22:59:59Z')), false);
+  assert.equal(isLive({ date: '2026-10-25' }, at('2026-10-24T23:00:00Z')), true);
+  // GMT (UTC+0) afterwards: Sunday 8 November starts at 00:00 UTC.
+  assert.equal(isLive({ date: '2026-11-08' }, at('2026-11-07T23:59:59Z')), false);
+  assert.equal(isLive({ date: '2026-11-08' }, at('2026-11-08T00:00:00Z')), true);
+  // Clocks go forward at 01:00 GMT on Sunday 28 March 2027, so that midnight is still GMT.
+  assert.equal(isLive({ date: '2027-03-28' }, at('2027-03-27T23:59:59Z')), false);
+  assert.equal(isLive({ date: '2027-03-28' }, at('2027-03-28T00:00:00Z')), true);
+});
+
+test('the week is worked out from the date: Monday to Sunday, labelled by its Sunday', () => {
+  assert.equal(weekEndingSunday('2026-11-02'), '2026-11-08'); // Monday
+  assert.equal(weekEndingSunday('2026-11-06'), '2026-11-08'); // Friday
+  assert.equal(weekEndingSunday('2026-11-08'), '2026-11-08'); // Sunday
+  assert.equal(weekEndingSunday('2026-11-09'), '2026-11-15'); // next Monday
+  assert.equal(weekEndingSunday('2026-10-29'), '2026-11-01'); // Thursday in a week that crosses into November
+  assert.equal(weekEndingSunday('2026-12-30'), '2027-01-03'); // and into a new year
+  assert.equal(formatDayDate('2026-11-08'), 'Sunday 8 November 2026');
+});
+
+test('a Friday and a Sunday piece share a week; a Monday piece starts a new one', () => {
+  const weeks = groupByWeek([
+    { slug: 'sunday', date: '2026-11-08' }, { slug: 'monday', date: '2026-11-09' },
+    { slug: 'friday', date: '2026-11-06' }, { slug: 'friday-b', date: '2026-11-06' }, { slug: 'friday-a', date: '2026-11-06' },
+  ]);
+  assert.deepEqual(weeks.map(w => w.heading), ['Week ending Sunday 15 November 2026', 'Week ending Sunday 8 November 2026']);
+  assert.deepEqual(weeks[0].pieces.map(p => p.slug), ['monday']);
+  // Earliest first within a week; several pieces can share a day.
+  assert.deepEqual(weeks[1].pieces.map(p => p.slug), ['friday', 'friday-a', 'friday-b', 'sunday']);
+});
+
+test('a week crossing into a new month is labelled by its Sunday', () => {
+  const weeks = groupByWeek([{ slug: 'oct-27', date: '2026-10-27' }, { slug: 'nov-01', date: '2026-11-01' }, { slug: 'oct-30', date: '2026-10-30' }]);
+  assert.deepEqual(weeks.map(w => w.heading), ['Week ending Sunday 1 November 2026']);
+  assert.deepEqual(weeks[0].pieces.map(p => p.slug), ['oct-27', 'oct-30', 'nov-01']);
+});
+
+test('the published pieces group as expected once both are live', () => {
+  const weeks = groupByWeek(getVisibleLookingBack(at('2026-11-06T12:00:00Z'), production));
+  assert.deepEqual(weeks.map(w => [w.heading, w.pieces.map(p => p.slug)]), [
+    ['Week ending Sunday 8 November 2026', ['rush-scores-four-everton-1982']],
+    ['Week ending Sunday 1 November 2026', ['liverpool-arsenal-5-5-2019']],
+  ]);
+});
+
+test('future-dated pages and images can appear later without a rebuild', () => {
+  for (const file of ['app/looking-back/[slug]/page.tsx', 'app/looking-back/[slug]/opengraph-image.tsx']) {
+    const source = fs.readFileSync(file, 'utf8');
+    assert.match(source, /export const dynamicParams = true/, file);
+    assert.match(source, /export const revalidate = 3600/, file);
+    assert.match(source, /getVisibleLookingBack/, file);
+  }
+  assert.match(fs.readFileSync('app/looking-back/page.tsx', 'utf8'), /export const revalidate = 3600/);
+  assert.match(fs.readFileSync('app/sitemap.ts', 'utf8'), /export const revalidate = 3600/);
 });
 
 test('keepsakes carry the publication byline and no AI disclosure; the disclosure is on About', () => {

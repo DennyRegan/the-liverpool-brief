@@ -3,7 +3,11 @@
 .lb-list { list-style: none; margin: 8px 0 0; padding: 0; max-width: 760px; }
 .lb-list li { border-top: 1px solid var(--line); padding: 22px 0 24px; }
 .lb-list-dateline { color: var(--muted); font-size: 12px; letter-spacing: .04em; }
-.lb-list h2 { font: 600 26px/1.2 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; margin: 6px 0 8px; text-wrap: balance; overflow-wrap: anywhere; }
+.lb-week { margin-top: 26px; }
+.lb-week-heading { color: var(--accent-dark); font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 4px; }
+.lb-scheduled { display: inline-block; background: #fff3cd; color: #5c4400; border: 1px solid #e3c260; border-radius: 3px; padding: 4px 10px; font-size: 13px; font-weight: 600; margin: 0 0 10px; }
+.lb-scheduled--page { display: block; margin-bottom: 16px; }
+.lb-list h3 { font: 600 26px/1.2 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; margin: 6px 0 8px; text-wrap: balance; overflow-wrap: anywhere; }
 
 .lb-page { width: min(760px, calc(100% - 40px)); margin: 40px auto 80px; }
 .lb-cutting {
@@ -36,7 +40,7 @@
   .lb-cutting { padding: 20px 18px 22px; }
   .lb-masthead { font-size: 14px; letter-spacing: .2em; }
   .lb-body { font-size: 17px; }
-  .lb-list h2 { font-size: 22px; }
+  .lb-list h3 { font-size: 22px; }
 }
 @media (max-width: 380px) {
   .lb-masthead { font-size: 12px; letter-spacing: .12em; }

@@ -1,7 +1,7 @@
 ---
 title: "Rush scores four as Liverpool run riot at Goodison"
 slug: "rush-scores-four-everton-1982"
-date: "2026-11-01"
+date: "2026-11-06"
 eventDate: "1982-11-06"
 dateline: "Goodison Park · Saturday 6 November 1982 · First Division"
 scoreline: "Everton 0 Liverpool 5"
