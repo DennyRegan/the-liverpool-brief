@@ -19,9 +19,21 @@ export const ArchiveFeatureSchema = z.object({
 
 export type ArchiveFeature = z.infer<typeof ArchiveFeatureSchema>;
 
+// Matchday pieces are tied to one fixture. Both fields are optional so a piece
+// without them still parses and displays (it just isn't grouped under a fixture).
+export const MATCH_TYPES = ["Preview", "Report", "Opinion on a match"] as const;
+export const FixtureSchema = z.object({
+    opponent: z.string().trim().min(1),
+    date: z.iso.date(),
+    competition: z.string().trim().min(1),
+    venue: z.enum(["Home", "Away"]),
+});
+
 export const ArticleSchema = z.object({
     title: z.string(), date: z.iso.date(), slug: SlugSchema,
-    category: z.enum(["Opinion", "Analysis", "Team News"]).default("Opinion"),
+    category: z.enum(["Opinion", "Analysis", "Team News", "Matchday"]).default("Opinion"),
+    matchType: z.enum(MATCH_TYPES).optional(),
+    fixture: FixtureSchema.optional(),
     seoTitle: z.string().min(1).optional(),
     tags: z.array(z.string().min(1)).optional(),
     researchCutoff: z.iso.date().optional(),

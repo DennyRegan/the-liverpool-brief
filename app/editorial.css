@@ -27,6 +27,7 @@
 .writing-types:focus-visible { outline-offset: 3px; }
 .article-meta { display: flex; flex-wrap: wrap; gap: 5px 12px; font-size: 11px; line-height: 1.6; align-items: baseline; }
 .article-meta .article-type { color: var(--accent-dark); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; }
+.article-meta .match-type { border: 1px solid var(--accent-dark); border-radius: 3px; padding: 0 7px; color: var(--accent-dark); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; }
 .article-meta .reading-time { display: inline; margin: 0; color: var(--muted); font-size: inherit; }
 .article-meta .column-label { font: 400 italic 13px/1.4 var(--font-source-serif), Georgia, serif; color: var(--accent-dark); border: 0; text-decoration: underline; text-decoration-color: var(--line); }
 .article-meta a { padding-block: 3px; }
@@ -115,6 +116,8 @@
 .edition-contents li + li { border-top: 1px solid var(--line); }
 .edition-contents a { display: block; padding-block: 12px; min-height: 44px; font: 500 15px/1.5 var(--font-geist-sans), Arial, sans-serif; color: var(--foreground); overflow-wrap: anywhere; }
 .edition-contents a:hover { color: var(--accent-dark); text-decoration: underline; }
+.matchday-fixture { border-top: 1px solid var(--line); margin-top: 30px; padding-top: 22px; }
+.matchday-fixture > h2 { font: 600 22px/1.25 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; margin-bottom: 16px; text-wrap: balance; overflow-wrap: anywhere; }
 .observed-previous { border-top: 1px solid var(--line); padding-top: 26px; }
 .reading-page > .edition-contents { border-left: 0; border-block: 1px solid var(--line); padding: 20px 0 16px; margin-bottom: 30px; }
 .reading-page > .edition-contents li + li { border-top: 0; }
