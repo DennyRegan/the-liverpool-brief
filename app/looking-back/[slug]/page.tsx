@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { ShareButton } from "@/app/components/ShareButton";
-import { getLookingBack, getLookingBackPiece, LOOKING_BACK_DISCLOSURE, LOOKING_BACK_PATH } from "@/lib/content/looking-back";
+import { getLookingBack, getLookingBackPiece, LOOKING_BACK_BYLINE, LOOKING_BACK_PATH } from "@/lib/content/looking-back";
 import { socialMetadata } from "@/lib/social-metadata";
 import "../looking-back.css";
 
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const piece = getLookingBackPiece((await params).slug);
   if (!piece) return {};
   const metadata = socialMetadata(piece.title, piece.excerpt, `${LOOKING_BACK_PATH}/${piece.slug}`);
-  return { ...metadata, openGraph: { ...metadata.openGraph, type: "article", publishedTime: piece.date } };
+  return { ...metadata, authors: [{ name: LOOKING_BACK_BYLINE }], openGraph: { ...metadata.openGraph, type: "article", publishedTime: piece.date, authors: [LOOKING_BACK_BYLINE] } };
 }
 
 export default async function LookingBackPiecePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -38,8 +38,8 @@ export default async function LookingBackPiecePage({ params }: { params: Promise
         <p className="lb-dateline">{piece.dateline}</p>
         <h1 id="lb-headline" className="lb-headline">{piece.title}</h1>
         {piece.scoreline && <p className="lb-scoreline">{piece.scoreline}</p>}
+        <p className="lb-byline">By {LOOKING_BACK_BYLINE}</p>
         <div className="lb-body"><ReactMarkdown remarkPlugins={[remarkGfm]}>{piece.body}</ReactMarkdown></div>
-        <p className="lb-disclosure">{LOOKING_BACK_DISCLOSURE}</p>
       </article>
       <p className="lb-actions">
         <a href={`${LOOKING_BACK_PATH}/${piece.slug}/opengraph-image`} download={`${piece.slug}.png`}>Download image</a>

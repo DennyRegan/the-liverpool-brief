@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { ImageResponse } from 'next/og';
-import { getLookingBack } from '@/lib/content/looking-back';
+import { getLookingBack, LOOKING_BACK_BYLINE } from '@/lib/content/looking-back';
 import { fitHeadline, socialImageSize } from '@/lib/social-card';
 
 export const runtime = 'nodejs';
@@ -35,12 +35,12 @@ export default async function Image({ params }: { params: Promise<{ slug: string
         <div style={{ display: 'flex', justifyContent: 'center', fontSize: 20, letterSpacing: '1px', color: MUTED, marginTop: 14 }}>{piece.dateline}</div>
         <div style={{ display: 'flex', flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
           {headline.lines.map((line, index) => <div key={index} style={{ display: 'flex', whiteSpace: 'nowrap', fontFamily: 'Source Serif', fontSize: headline.fontSize, lineHeight: 1.08, height: headline.lineHeight, letterSpacing: '-1px' }}>{line}</div>)}
-          {piece.scoreline && <div style={{ display: 'flex', fontFamily: 'Source Serif', fontSize: 30, letterSpacing: '3px', marginTop: 18 }}>{piece.scoreline.toUpperCase()}</div>}
+          {piece.scoreline && <div style={{ display: 'flex', fontFamily: 'Source Serif', fontSize: piece.scoreline.length > 40 ? 24 : 30, letterSpacing: piece.scoreline.length > 40 ? '1.5px' : '3px', marginTop: 18 }}>{piece.scoreline.toUpperCase()}</div>}
         </div>
         <div style={{ display: 'flex', height: 1, background: RULE }} />
         <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 18, color: MUTED, marginTop: 12 }}>
           <div style={{ display: 'flex' }}>theliverpoolbrief.com/looking-back</div>
-          <div style={{ display: 'flex' }}>The Liverpool Brief</div>
+          <div style={{ display: 'flex' }}>By {LOOKING_BACK_BYLINE}</div>
         </div>
       </div>
     </div>,

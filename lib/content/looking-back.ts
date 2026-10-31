@@ -4,7 +4,9 @@ import matter from "gray-matter";
 import { LookingBackSchema } from "./types.ts";
 
 export const LOOKING_BACK_PATH = "/looking-back";
-export const LOOKING_BACK_DISCLOSURE = "Written with AI from checked sources and approved by The Liverpool Brief.";
+// Keepsakes always carry the publication byline, never a personal one.
+// The AI disclosure lives on the About page only. Drafts sit in docs/looking-back-drafts/.
+export const LOOKING_BACK_BYLINE = "The Liverpool Brief";
 
 /** Every keepsake, newest publication first. Any invalid file fails the build. */
 export function getLookingBack(root = process.cwd()) {

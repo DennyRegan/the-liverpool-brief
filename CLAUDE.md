@@ -52,7 +52,8 @@ Kept: Denny's own four Archive pieces at their `/archive/` URLs, with their exis
 
 ## Looking Back — 1 November 2026
 
-Looking Back (`/looking-back`) is one short keepsake a week: a single piece of about 150–250 words, chosen by Denny, written from checked sources with a figure list, and approved by Denny before publishing. Each piece is one file in `content/looking-back/[slug].md`, validated by the strict `LookingBackSchema` (no sources field; attribution stays in the prose). The page template adds the AI-and-approval disclosure line; never put it in content files.
+Looking Back (`/looking-back`) is one short keepsake a week: a single piece of about 150–250 words, chosen by Denny, written from checked sources with a figure list, and approved by Denny before publishing. Keepsakes publish on Sundays and cover the week just ended (Monday to Sunday). Each published piece is one file in `content/looking-back/[slug].md`, validated by the strict `LookingBackSchema` (no sources field; attribution stays in the prose). Unpublished keepsakes are kept in `docs/looking-back-drafts/`, which the site never reads.
+
+Keepsakes carry the byline "The Liverpool Brief", never Denny's name. The AI disclosure lives on the About page only; never add it to keepsakes, their template or their image.
 
 Looking Back is **not History** and must not grow into History: no eras, seasons, people, series, taxonomy, collections beyond the single list, This Week, calendars, scheduled publishing or automated writing. Any piece touching Heysel or Hillsborough needs Denny's approval of that piece by name.
-

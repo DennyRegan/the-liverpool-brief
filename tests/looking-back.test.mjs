@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 const { LookingBackSchema } = await import('../lib/content/types.ts');
-const { getLookingBack, LOOKING_BACK_DISCLOSURE } = await import('../lib/content/looking-back.ts');
+const { getLookingBack, LOOKING_BACK_BYLINE } = await import('../lib/content/looking-back.ts');
 
 const valid = {
   title: 'Rush scores four as Liverpool run riot at Goodison', slug: 'rush-scores-four-everton-1982',
@@ -47,14 +47,27 @@ test('the loader fails the build on a mismatched slug and lists newest first', (
   } finally { fs.rmSync(root, { recursive: true, force: true }); }
 });
 
-test('the published Rush keepsake is valid and the disclosure lives only in the template', () => {
-  const rush = getLookingBack().find(p => p.slug === 'rush-scores-four-everton-1982');
-  assert.equal(rush.eventDate, '1982-11-06');
-  assert.equal(rush.scoreline, 'Everton 0 Liverpool 5');
-  for (const file of fs.readdirSync('content/looking-back')) {
-    assert.ok(!fs.readFileSync(path.join('content/looking-back', file), 'utf8').includes(LOOKING_BACK_DISCLOSURE));
+test('Arsenal 5-5 is published; the Rush draft is not', () => {
+  const pieces = getLookingBack();
+  const arsenal = pieces.find(p => p.slug === 'liverpool-arsenal-5-5-2019');
+  assert.equal(arsenal.eventDate, '2019-10-30');
+  assert.equal(arsenal.scoreline, 'Liverpool 5 Arsenal 5 (Liverpool won 5–4 on penalties)');
+  assert.ok(!pieces.some(p => p.slug === 'rush-scores-four-everton-1982'));
+  assert.ok(fs.existsSync('docs/looking-back-drafts/rush-scores-four-everton-1982.md'));
+});
+
+test('keepsakes carry the publication byline and no AI disclosure; the disclosure is on About', () => {
+  assert.equal(LOOKING_BACK_BYLINE, 'The Liverpool Brief');
+  const disclosure = /Written with AI|drafted with AI/;
+  for (const file of ['app/looking-back/[slug]/page.tsx', 'app/looking-back/[slug]/opengraph-image.tsx', 'lib/content/looking-back.ts']) {
+    const source = fs.readFileSync(file, 'utf8');
+    assert.doesNotMatch(source, disclosure, file);
+    assert.doesNotMatch(source, /Denny Regan/, file);
   }
-  assert.match(fs.readFileSync('app/looking-back/[slug]/page.tsx', 'utf8'), /LOOKING_BACK_DISCLOSURE/);
+  assert.match(fs.readFileSync('app/looking-back/[slug]/page.tsx', 'utf8'), /By \{LOOKING_BACK_BYLINE\}/);
+  assert.match(fs.readFileSync('app/looking-back/[slug]/opengraph-image.tsx', 'utf8'), /By \{LOOKING_BACK_BYLINE\}/);
+  for (const file of fs.readdirSync('content/looking-back')) assert.doesNotMatch(fs.readFileSync(path.join('content/looking-back', file), 'utf8'), disclosure);
+  assert.match(fs.readFileSync('app/about/page.tsx', 'utf8'), /Looking Back pieces are researched and drafted with AI tools from published sources, then checked and edited before publication\./);
 });
 
 test('Looking Back is in the main navigation after Football Observed, and History has not returned', () => {
