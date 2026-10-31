@@ -30,23 +30,36 @@ export function getLookingBackPiece(slug: string, root = process.cwd()) {
 }
 
 // ---- Scheduled publishing -------------------------------------------------
-// A piece is live from the start of its `date` in Europe/London (the same
-// getLondonToday logic the homepage and the former This Week page use). On
-// production, future-dated pieces do not exist anywhere. Everywhere else
-// (Vercel previews, local) they are shown with a "Scheduled for" banner.
+// `date` is the anniversary. A piece goes live at midnight Europe/London on the
+// Monday of the Monday–Sunday week containing that date (getLondonToday, the
+// same logic as the homepage), and stays live permanently. On production,
+// pieces not yet live do not exist anywhere. Everywhere else (Vercel previews,
+// local) they are shown with a "Scheduled for" banner.
 
 /** True only on the Vercel production deployment. */
 export function isProduction(env: Record<string, string | undefined> = process.env) {
   return env.VERCEL_ENV === "production";
 }
 
+/** The Monday that starts the Monday–Sunday week containing this date. */
+export function weekStartingMonday(iso: string) {
+  const date = new Date(`${iso}T12:00:00Z`);
+  date.setUTCDate(date.getUTCDate() - (date.getUTCDay() + 6) % 7);
+  return date.toISOString().slice(0, 10);
+}
+
+/** The day a piece goes live: the Monday of its week. */
+export function liveFrom(piece: { date: string }) {
+  return weekStartingMonday(piece.date);
+}
+
 export function isLive(piece: { date: string }, now = new Date()) {
-  return piece.date <= getLondonToday(now);
+  return liveFrom(piece) <= getLondonToday(now);
 }
 
 /** Pieces this deployment may show: live only on production, everything (flagged) elsewhere. */
 export function getVisibleLookingBack(now = new Date(), env: Record<string, string | undefined> = process.env, root = process.cwd()) {
-  const pieces = getLookingBack(root).map(piece => ({ ...piece, scheduled: !isLive(piece, now) }));
+  const pieces = getLookingBack(root).map(piece => ({ ...piece, liveFrom: liveFrom(piece), scheduled: !isLive(piece, now) }));
   return isProduction(env) ? pieces.filter(piece => !piece.scheduled) : pieces;
 }
 

@@ -36,7 +36,7 @@ export default async function LookingBackPiecePage({ params }: { params: Promise
         <Link href={LOOKING_BACK_PATH} className="back-link">‹ Looking Back</Link>
         <ShareButton title={piece.title} />
       </div>
-      {piece.scheduled && <p className="lb-scheduled lb-scheduled--page" role="note">Scheduled for {formatDayDate(piece.date)}</p>}
+      {piece.scheduled && <p className="lb-scheduled lb-scheduled--page" role="note">Scheduled for {formatDayDate(piece.liveFrom)}</p>}
       <article className="lb-cutting" aria-labelledby="lb-headline">
         <p className="lb-masthead">The Brief · Looking Back</p>
         <p className="lb-dateline">{piece.dateline}</p>

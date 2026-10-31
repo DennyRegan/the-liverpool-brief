@@ -23,7 +23,7 @@ export default function LookingBackPage() {
         <h2 id={`week-${week.sunday}`} className="lb-week-heading">{week.heading}</h2>
         <ol className="lb-list">
           {week.pieces.map(piece => <li key={piece.slug}>
-            {piece.scheduled && <p className="lb-scheduled" role="note">Scheduled for {formatDayDate(piece.date)}</p>}
+            {piece.scheduled && <p className="lb-scheduled" role="note">Scheduled for {formatDayDate(piece.liveFrom)}</p>}
             <p className="lb-list-dateline">{piece.dateline}</p>
             <h3><Link href={`${LOOKING_BACK_PATH}/${piece.slug}`}>{piece.title}</Link></h3>
             <p className="preview-excerpt">{piece.excerpt}</p>
