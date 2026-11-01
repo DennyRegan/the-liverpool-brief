@@ -3,6 +3,9 @@ season: "2026-27"
 title: "Isak and Wirtz will take us to the league title"
 date: "2026-08-06"
 players: ["alexander-isak", "florian-wirtz"]
+calls:
+  - claim: "We finish above Arsenal this season."
+    status: "open"
 ---
 Isak and Wirtz weren't Liverpool's worst signings. They were Liverpool's worst-used players.
 

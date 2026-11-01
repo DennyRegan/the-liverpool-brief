@@ -20,7 +20,7 @@ const newsletter = { SENDER_PUBLIC_ACCOUNT_ID: 'abc123', SENDER_NEWSLETTER_FORM_
 test('sitemap lists only the public pages and retained articles', () => {
   const entries = sitemap();
   const expected = [
-    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back',
+    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back', '/calls',
     ...(getNewsletterConfig() ? ['/newsletter', '/newsletter/privacy'] : []),
     ...getArticles().map(a => `/articles/${a.slug}`),
     ...getArchiveFeatures().map(a => `/archive/${a.slug}`),

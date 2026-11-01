@@ -6,6 +6,9 @@ slug: "big-ron-trent-madrid-bench"
 excerpt: "On Sunday afternoon, Ronald Araújo was throwing himself into challenges against Brighton, at one point even tackling the ball with his head while lying on the floor."
 season: "2026-27"
 players: ["trent-alexander-arnold", "ronald-araujo"]
+calls:
+  - claim: "I still expect him to leave in summer 2027, although it could be for another Premier League club."
+    status: "open"
 ---
 
 On Sunday afternoon, Ronald Araújo was throwing himself into challenges against Brighton, at one point even tackling the ball with his head while lying on the floor. A few hours later, Trent Alexander-Arnold was watching Federico Valverde play at right-back for Real Madrid, before Denzel Dumfries replaced him. Trent eventually got onto the pitch in stoppage time.

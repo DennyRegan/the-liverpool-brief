@@ -31,6 +31,14 @@ export const FixtureSchema = z.object({
     venue: z.enum(["Home", "Away"]),
 });
 
+// A prediction quoted word for word from the article, and how it turned out.
+export const CallSchema = z.object({
+    claim: z.string().trim().min(1),
+    status: z.enum(["open", "right", "wrong"]),
+    note: z.string().trim().min(1).optional(),
+}).strict();
+export type Call = z.infer<typeof CallSchema>;
+
 export const ArticleSchema = z.object({
     title: z.string(), date: z.iso.date(), slug: SlugSchema,
     category: z.enum(["Opinion", "Analysis", "Team News", "Matchday"]).default("Opinion"),
@@ -43,6 +51,7 @@ export const ArticleSchema = z.object({
     whatMatters: z.array(z.string()).optional(),
     // Liverpool players the piece is mainly about (slugs from content/players.json).
     players: z.array(SlugSchema).optional(),
+    calls: z.array(CallSchema).optional(),
     body: z.string(),
 });
 export type Article = z.infer<typeof ArticleSchema>;

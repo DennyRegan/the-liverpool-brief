@@ -17,6 +17,9 @@ sources:
   - "https://www.liverpoolfc.com/news/im-very-happy-andoni-iraola-bradley-barcolas-arrival-and-availability-ipswich"
   - "https://www.goal.com/en-us/lists/move-over-kylian-mbappe-bradley-barcola-scores-france-fastest-goal-italy-nations-league/blt3b26b8ced8963c0b"
 players: ["bradley-barcola"]
+calls:
+  - claim: "Twenty goal involvements as a minimum in his first season."
+    status: "open"
 ---
 
 The argument against Bradley Barcola is that he did not start every week for Paris Saint-Germain. It gets repeated as though it settles something.

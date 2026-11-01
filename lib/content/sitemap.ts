@@ -9,7 +9,7 @@ import { getPlayerPageSlugs } from "./players.ts";
 /** Mirror public page selectors; never scan editorial folders for destinations. */
 export function getPublicSitemap(root = process.cwd(), env = process.env): MetadataRoute.Sitemap {
   const paths = [
-    "/", "/about", "/articles", "/regan-on-football", "/matchday", "/looking-back",
+    "/", "/about", "/articles", "/regan-on-football", "/matchday", "/looking-back", "/calls",
     // The newsletter pages are public only while signup is configured.
     ...(getNewsletterConfig(env) ? ["/newsletter", "/newsletter/privacy"] : []),
     ...getArticles(root).map(article => `/articles/${article.slug}`),

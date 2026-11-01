@@ -4,6 +4,9 @@ date: "2026-10-23"
 category: "Opinion"
 slug: "regan-on-football-is-the-writing-on-the-wall-for-michael-carrick"
 tags: [regan-on-football]
+calls:
+  - claim: "He will be the first Premier League manager to be sacked this season."
+    status: "open"
 ---
 
 On the back of Manchester United's worst start to a league season in 40 years, their midweek 4-1 defeat to Como piled even more pressure on Michael Carrick. As if the results aren't bad enough, it feels like every time a United player speaks to the media, they're throwing salt in the wound. Whether it's Bruno Fernandes publicly questioning the manager's tactics or Lisandro Martínez criticising the club's recruitment, neither is doing Manchester United any favours.

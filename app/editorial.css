@@ -118,6 +118,19 @@
 .edition-contents a:hover { color: var(--accent-dark); text-decoration: underline; }
 .matchday-fixture { border-top: 1px solid var(--line); margin-top: 30px; padding-top: 22px; }
 .matchday-fixture > h2 { font: 600 22px/1.25 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; margin-bottom: 16px; text-wrap: balance; overflow-wrap: anywhere; }
+.calls-intro { color: var(--muted); font-size: 15px; line-height: 1.6; margin-bottom: 8px; }
+.calls-list { list-style: none; margin: 0; padding: 0; max-width: 760px; }
+.call { border-top: 1px solid var(--line); padding: 22px 0 20px; }
+.call-claim { margin: 10px 0 0; padding-left: 16px; border-left: 3px solid var(--line); }
+.call-claim p { font: 500 20px/1.45 var(--font-source-serif), Georgia, serif; overflow-wrap: anywhere; }
+.call-note { margin-top: 10px; font-size: 14px; line-height: 1.6; color: var(--muted); }
+.call-source { margin-top: 10px; font-size: 13px; color: var(--muted); }
+.call-source a { color: var(--accent-dark); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; }
+.call-status { border: 1px solid currentColor; border-radius: 3px; padding: 0 7px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; }
+.calls-list .article-meta > .call-status--open { color: #5f574b; }
+.calls-list .article-meta > .call-status--right { color: #1f6b3a; }
+.calls-list .article-meta > .call-status--wrong { color: var(--accent-dark); }
+@media (max-width: 700px) { .call-claim p { font-size: 18px; } }
 .player-tags { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; }
 .player-tags .eyebrow { color: var(--muted); }
 .player-tags ul { display: flex; flex-wrap: wrap; gap: 6px 16px; list-style: none; margin: 0; padding: 0; font-size: 14px; }
