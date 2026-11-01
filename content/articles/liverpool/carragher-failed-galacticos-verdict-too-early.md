@@ -5,6 +5,7 @@ date: "2026-09-26"
 category: "Opinion"
 excerpt: "Jamie Carragher is entitled to criticise Liverpool. But four league games into Andoni Iraola’s reign, ‘failed Galacticos’ was a verdict that left too little room for change."
 slug: "carragher-failed-galacticos-verdict-too-early"
+players: ["florian-wirtz", "alexander-isak"]
 ---
 
 Jamie Carragher played 737 games for Liverpool. He won trophies and played a huge part in the club’s most famous victory, in Istanbul.

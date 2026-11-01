@@ -13,6 +13,7 @@ import { EditionNavigation } from "@/app/components/EditionNavigation";
 import { EDITION_OPENING_ID, remarkEditionHeadings } from "@/lib/edition-contents";
 import { ShareButton } from "@/app/components/ShareButton";
 import { ArticleMeta } from "@/app/components/ArticleMeta";
+import { PlayerTags } from "@/app/components/PlayerTags";
 import { formatLongDate, getArticleExcerpt, getSourceLink } from "@/lib/format";
 
 export function generateStaticParams() {
@@ -109,6 +110,7 @@ export default async function ArticlePage({
             </ol>
           </div>
         )}
+        <PlayerTags players={article.players} />
         {column && <EditionNavigation slug={article.slug} />}
         <aside className="read-next"><p className="eyebrow">Keep reading</p>{getArticles().filter(item => item.slug !== article.slug).slice(0, 2).map(item => <Link key={item.slug} href={`/articles/${item.slug}`}>{item.title} <span aria-hidden="true">↗</span></Link>)}</aside>
       </main>

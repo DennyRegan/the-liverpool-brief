@@ -2,6 +2,7 @@
 season: "2026-27"
 title: "Liverpool act like a big club and hoard like a small one"
 date: "2026-08-09"
+players: ["kostas-tsimikas", "federico-chiesa", "joe-gomez", "ronald-araujo"]
 ---
 Ronald Araujo arrived this weekend on a season-long loan. No transfer fee. Barcelona's condition was that Liverpool pay his salary in full, reported at £180,000 a week after tax — which, depending on which salary site you believe, puts him somewhere between £250,000 and £300,000 a week before it. He walks in as one of the highest earners at the club without costing a penny to sign.
 

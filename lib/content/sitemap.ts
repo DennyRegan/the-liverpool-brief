@@ -4,6 +4,7 @@ import { getArticles } from "./articles.ts";
 import { getArchiveFeatures } from "./archive.ts";
 import { getNewsletterConfig } from "../newsletter-config.ts";
 import { getLiveLookingBack } from "./looking-back.ts";
+import { getPlayerPageSlugs } from "./players.ts";
 
 /** Mirror public page selectors; never scan editorial folders for destinations. */
 export function getPublicSitemap(root = process.cwd(), env = process.env): MetadataRoute.Sitemap {
@@ -16,6 +17,7 @@ export function getPublicSitemap(root = process.cwd(), env = process.env): Metad
     ...getArchiveFeatures(root).map(article => `/archive/${article.slug}`),
     // Only pieces whose date has arrived (Europe/London), on every environment.
     ...getLiveLookingBack(new Date(), root).map(piece => `/looking-back/${piece.slug}`),
+    ...getPlayerPageSlugs(root).map(slug => `/players/${slug}`),
   ];
   // Publication/event/review dates are not reliable page modification timestamps.
   // Omit lastModified rather than invent a fresh date on every generation.

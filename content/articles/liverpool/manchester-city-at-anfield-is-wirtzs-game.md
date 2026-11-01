@@ -5,6 +5,7 @@ category: "Opinion"
 excerpt: "Florian Wirtz's Liverpool career is on a knife-edge, and Manchester City at Anfield is the game that can turn it. The defence of him can't go on forever."
 slug: "manchester-city-at-anfield-is-wirtzs-game"
 sources: []
+players: ["florian-wirtz"]
 ---
 
 Florian Wirtz's Liverpool career is on a knife-edge, and Manchester City at Anfield on 11 October is the game that can turn it. Some of us are still defending him. That defence can't go on forever.

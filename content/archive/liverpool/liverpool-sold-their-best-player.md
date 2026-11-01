@@ -28,6 +28,7 @@ sources:
   - "https://www.lfchistory.net/games/1001"
   - "https://www.lfchistory.net/games/1005"
   - "https://www.lfchistory.net/players/369"
+players: ["kevin-keegan", "terry-mcdermott", "kenny-dalglish"]
 ---
 
 Liverpool had sold their best player.

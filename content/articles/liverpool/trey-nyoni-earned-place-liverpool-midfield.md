@@ -5,6 +5,7 @@ date: "2026-09-16"
 category: "Opinion"
 excerpt: "Liverpool have a midfield problem. For me, one decision should now be straightforward: Trey Nyoni has to play."
 slug: "trey-nyoni-earned-place-liverpool-midfield"
+players: ["trey-nyoni", "florian-wirtz", "dominik-szoboszlai"]
 ---
 
 Liverpool have a midfield problem. The disagreement is over how to fix it.

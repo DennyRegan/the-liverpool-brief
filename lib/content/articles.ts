@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { ArticleSchema } from "./types.ts";
+import { assertKnownPlayers } from "./player-names.ts";
 
 export function getArticles(root = process.cwd()) {
   const directory = path.join(root, "content/articles/liverpool");
@@ -11,7 +12,9 @@ export function getArticles(root = process.cwd()) {
       const slug = filename.slice(0, -3);
       const { data, content } = matter(fs.readFileSync(path.join(directory, filename), "utf8"));
       if (data.slug && data.slug !== slug) throw new Error("slug must match filename");
-      return ArticleSchema.parse({ ...data, slug, body: content.trim() });
+      const article = ArticleSchema.parse({ ...data, slug, body: content.trim() });
+      assertKnownPlayers(article.players);
+      return article;
     } catch (error) { throw new Error(`Invalid article ${filename}: ${String(error)}`); }
   }).sort((a,b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug));
 }

@@ -14,6 +14,8 @@ export const ArchiveFeatureSchema = z.object({
     slug: SlugSchema,
     editorialMode: z.enum(["factual", "opinion"]).optional(),
     sources: z.array(z.string()).optional(),
+    // Liverpool players the piece is mainly about (slugs from content/players.json).
+    players: z.array(SlugSchema).optional(),
     body: z.string(),
 });
 
@@ -38,7 +40,10 @@ export const ArticleSchema = z.object({
     tags: z.array(z.string().min(1)).optional(),
     researchCutoff: z.iso.date().optional(),
     excerpt: z.string().optional(), sources: z.array(z.string()).optional(),
-    whatMatters: z.array(z.string()).optional(), body: z.string(),
+    whatMatters: z.array(z.string()).optional(),
+    // Liverpool players the piece is mainly about (slugs from content/players.json).
+    players: z.array(SlugSchema).optional(),
+    body: z.string(),
 });
 export type Article = z.infer<typeof ArticleSchema>;
 

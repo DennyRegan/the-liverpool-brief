@@ -2,6 +2,7 @@
 season: "2026-27"
 title: "Carragher may be proved right. He still shouldn't have said it on Monday"
 date: "2026-08-27"
+players: ["florian-wirtz", "alexander-isak"]
 ---
 Jamie Carragher has been telling anyone who'll listen since July that Liverpool's midfield doesn't work, and he's right. He was right on the Overlap a fortnight ago when he said the space in there hadn't gone away. He was right again at St James' Park on Sunday, when Newcastle walked through it twice. Wirtz isn't the only problem. Szoboszlai and Gravenberch do not help at all.
 

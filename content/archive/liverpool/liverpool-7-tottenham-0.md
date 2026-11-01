@@ -31,6 +31,7 @@ sources:
   - "https://hansard.parliament.uk/Commons/1978-07-21/debates/95bab39e-1aa4-4da5-847d-565cbd59c032/WrittenAnswers"
   - "https://www.tottenhamhotspur.com/news/1044988/the-day-spurs-scooped-the-world-on-e-hotspur"
   - "https://www.tottenhamhotspur.com/news/987911/our-spurs-debuts-ossie-ricky-vs-forest-190878"
+players: ["kenny-dalglish", "terry-mcdermott"]
 ---
 
 "That must be the best goal Anfield has ever seen." Those were the words of Liverpool's most successful manager, Bob Paisley. He may not have been wrong.

@@ -22,6 +22,7 @@ sources:
   - "https://www.lfchistory.net/stats/fastest-goals"
   - "https://www.liverpoolfc.com/news/features/339442-five-memorable-liverpool-wins-at-goodison-park"
   - "https://www.liverpoolfc.com/info/kenny-dalglish-first-spell"
+players: ["kenny-dalglish"]
 ---
 Liverpool’s manager scored after 21 seconds at Goodison Park.
 

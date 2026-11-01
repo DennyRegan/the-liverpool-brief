@@ -8,6 +8,7 @@ season: "2026-27"
 historicalEventDate: "2026-10-17"
 oppositionIds: [brentford]
 competitionIds: [premier-league]
+players: ["alexander-isak", "victor-munoz"]
 ---
 
 *Brentford 1-2 Liverpool · Premier League · Gtech Community Stadium · 17 October 2026*

@@ -6,6 +6,7 @@ excerpt: "Alexander Isak is seeing less of the ball at Liverpool than he did at 
 slug: "is-isak-liverpools-haaland"
 season: "2026-27"
 competitionIds: [premier-league]
+players: ["alexander-isak"]
 ---
 
 Alexander Isak touched the ball just 16 times against Brentford on Saturday. For much of the afternoon, he was on the periphery of the game, struggling to get involved and offering relatively little outside the penalty area. Then, in the 70th minute, he controlled Bradley Barcola's knockdown and fired Liverpool into the lead. One opportunity was all he needed, and Liverpool had their third Premier League victory of the season.

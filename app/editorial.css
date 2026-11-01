@@ -118,6 +118,11 @@
 .edition-contents a:hover { color: var(--accent-dark); text-decoration: underline; }
 .matchday-fixture { border-top: 1px solid var(--line); margin-top: 30px; padding-top: 22px; }
 .matchday-fixture > h2 { font: 600 22px/1.25 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; margin-bottom: 16px; text-wrap: balance; overflow-wrap: anywhere; }
+.player-tags { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; }
+.player-tags .eyebrow { color: var(--muted); }
+.player-tags ul { display: flex; flex-wrap: wrap; gap: 6px 16px; list-style: none; margin: 0; padding: 0; font-size: 14px; }
+.player-tags a { color: var(--accent-dark); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; display: inline-block; padding-block: 6px; }
+.player-tags span:not(.eyebrow) { display: inline-block; padding-block: 6px; color: var(--muted); }
 .observed-previous { border-top: 1px solid var(--line); padding-top: 26px; }
 .reading-page > .edition-contents { border-left: 0; border-block: 1px solid var(--line); padding: 20px 0 16px; margin-bottom: 30px; }
 .reading-page > .edition-contents li + li { border-top: 0; }

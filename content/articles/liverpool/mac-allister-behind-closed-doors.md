@@ -5,6 +5,7 @@ date: "2026-09-12"
 category: "Opinion"
 excerpt: "Alexis Mac Allister has every right to be unhappy with Liverpool’s decision not to offer him a new contract. He should not have turned that private frustration into a public storyline."
 slug: "mac-allister-behind-closed-doors"
+players: ["alexis-mac-allister", "ryan-gravenberch"]
 ---
 
 Alexis Mac Allister has every right to be unhappy with Liverpool’s decision not to offer him a new contract. What he shouldn’t have done is turn that private frustration into a public storyline.

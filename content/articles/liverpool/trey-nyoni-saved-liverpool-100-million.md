@@ -2,6 +2,7 @@
 season: "2026-27"
 title: "Has Trey Nyoni saved Liverpool £100 million?"
 date: "2026-08-03"
+players: ["trey-nyoni"]
 ---
 Take it back a week or two and most Liverpool supporters would have said the club needed another midfielder, especially given the uncertainty surrounding Curtis Jones and Alexis Mac Allister's disappointing form last season.
 
