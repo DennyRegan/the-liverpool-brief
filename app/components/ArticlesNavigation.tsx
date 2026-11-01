@@ -9,8 +9,9 @@ export function ArticlesNavigation({ selected, hasAnalysis = false }: {
   const links = [
     ["All", "/articles"],
     ["Opinion", "/articles?type=opinion"],
-    ["Matchday", MATCHDAY_PATH],
+    // Analysis appears only once at least one Analysis article is published.
     ...(hasAnalysis ? [["Analysis", "/articles?type=analysis"]] : []),
+    ["Matchday", MATCHDAY_PATH],
     ["Team News", "/articles?type=team-news"],
     ["History", "/articles?type=history"],
     ["Football Observed", REGAN_ON_FOOTBALL_PATH],

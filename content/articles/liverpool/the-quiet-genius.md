@@ -1,5 +1,5 @@
 ---
-title: "The Quiet Genius"
+title: "The quiet genius"
 date: "2026-09-30"
 category: "Opinion"
 excerpt: "When the greatest managers in football history are discussed, Bob Paisley should never be an afterthought."

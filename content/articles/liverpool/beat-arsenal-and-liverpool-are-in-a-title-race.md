@@ -10,6 +10,9 @@ fixture:
   date: "2026-11-01"
   competition: "Premier League"
   venue: "Home"
+calls:
+  - claim: "Liverpool will beat Arsenal at Anfield on Sunday, and the win will put them in a title race."
+    status: "open"
 ---
 
 Liverpool will beat Arsenal at Anfield on Sunday, and the win will put them in a title race. Victory in the 4.30pm kick-off would lift Andoni Iraola’s side to 18 points, three behind the champions. Anfield knows what is riding on it; there has been a lot of chatter on Merseyside all week.

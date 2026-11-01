@@ -30,6 +30,7 @@ sources:
 date: '2026-09-15'
 editorialMode: factual
 themeIds: ["attacking-football"]
+players: ["john-aldridge", "john-barnes", "peter-beardsley"]
 ---
 
 Liverpool beat Nottingham Forest 5–0 at Anfield on 13 April 1988, four days after overcoming the same opponents in the FA Cup semi-final. John Aldridge scored twice, with Ray Houghton, Gary Gillespie and Peter Beardsley also on target. The result left Liverpool eleven points clear of Manchester United with two games in hand and six league matches remaining.

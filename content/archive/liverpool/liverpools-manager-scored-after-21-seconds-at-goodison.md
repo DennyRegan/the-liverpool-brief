@@ -1,5 +1,5 @@
 ---
-title: "Liverpool’s Manager Scored After 21 Seconds at Goodison"
+title: "Liverpool’s manager scored after 21 seconds at Goodison"
 date: "2026-09-13"
 historicalEventDate: "1985-09-21"
 historicalPeriod: "21 September 1985"
@@ -22,6 +22,7 @@ sources:
   - "https://www.lfchistory.net/stats/fastest-goals"
   - "https://www.liverpoolfc.com/news/features/339442-five-memorable-liverpool-wins-at-goodison-park"
   - "https://www.liverpoolfc.com/info/kenny-dalglish-first-spell"
+players: ["kenny-dalglish"]
 ---
 Liverpool’s manager scored after 21 seconds at Goodison Park.
 

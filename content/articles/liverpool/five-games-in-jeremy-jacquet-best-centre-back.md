@@ -5,6 +5,7 @@ category: "Opinion"
 excerpt: "Five Premier League games are not much to go on. But I've seen enough of Jérémy Jacquet to call him the best centre back in the league."
 slug: "five-games-in-jeremy-jacquet-best-centre-back"
 sources: []
+players: ["jeremy-jacquet"]
 ---
 
 Five games into his Premier League career, Jérémy Jacquet is already the best centre back in the league. That is a big statement, and I know it. He is the full package, and for the fee Liverpool paid, he is extreme value for money.

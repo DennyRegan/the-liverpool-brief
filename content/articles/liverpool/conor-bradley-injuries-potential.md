@@ -1,10 +1,11 @@
 ---
-title: "Conor Bradley Has the Talent. But Will His Body Let Him Fulfil It?"
+title: "Conor Bradley has the talent. But will his body let him fulfil it?"
 date: "2026-10-29"
 category: "Opinion"
 slug: "conor-bradley-injuries-potential"
 excerpt: "Conor Bradley once played regular football at Bolton. Now a serious knee injury has put his Liverpool career on hold. Can he find the fitness to fulfil his potential?"
 season: "2026-27"
+players: ["conor-bradley"]
 ---
 
 During the 2022/23 season, Conor Bradley made 53 appearances on loan at Bolton Wanderers. He was just 19 years old, playing regular senior football and collecting individual awards along the way. Three years later, he's recovering from a serious knee injury, having yet to make an appearance for Liverpool this season. It's a remarkable contrast for a player who has shown so much ability, and it raises a question that could ultimately define his career: will he ever be able to stay fit consistently?

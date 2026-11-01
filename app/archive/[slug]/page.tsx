@@ -8,6 +8,7 @@ import { getArchiveCategory, getArchiveFeature, getArchiveFeatures } from "@/lib
 import { formatLongDate } from "@/lib/format";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { ShareButton } from "@/app/components/ShareButton";
+import { PlayerTags } from "@/app/components/PlayerTags";
 import { ArticleMeta } from "@/app/components/ArticleMeta";
 
 export function generateStaticParams() {
@@ -68,6 +69,7 @@ export default async function ArchiveFeaturePage({
         <div className="article-body">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{feature.body}</ReactMarkdown>
         </div>
+        <PlayerTags players={feature.players} />
       </main>
     </div>
   );

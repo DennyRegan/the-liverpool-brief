@@ -1,9 +1,10 @@
 ---
-title: "Liverpool Squad Update: Barcola Available as Iraola Faces Brighton Selection Dilemma"
+title: "Liverpool squad update: Barcola available as Iraola faces Brighton selection dilemma"
 date: "2026-10-24"
 category: "Team News"
 slug: "liverpool-squad-update-barcola-available-brighton"
 excerpt: "Bradley Barcola is available for Liverpool's Premier League meeting with Brighton & Hove Albion at Anfield on Sunday, but Andoni Iraola will be without Dominik Szoboszlai, while Victor Muñoz remains a doubt."
+players: ["bradley-barcola", "dominik-szoboszlai", "victor-munoz"]
 ---
 
 Bradley Barcola is available for Liverpool's Premier League meeting with Brighton & Hove Albion at Anfield on Sunday, but Andoni Iraola will be without Dominik Szoboszlai, while Victor Muñoz remains a doubt. Barcola missed Thursday's first-team training session, raising concerns over his fitness ahead of the weekend. However, Iraola confirmed on Friday that the French winger's absence was simply a precaution as Liverpool continue to manage his workload.

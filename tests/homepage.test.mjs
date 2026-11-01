@@ -95,3 +95,11 @@ test('the homepage renders Football Observed after More articles', () => {
   assert.deepEqual([...order].sort((x, y) => x - y), order);
 });
 
+test('Analysis pieces fill Latest writing and More articles like any other Liverpool piece', () => {
+  const analysis = (href, date) => ({ date, href, category: 'Analysis' });
+  const selected = selectHomePage([analysis('/articles/analysis-new', '2026-10-10'), analysis('/articles/analysis-old', '2026-10-08'), b, column], now);
+  assert.equal(selected.lead.href, '/articles/analysis-new');
+  assert.ok(selected.more.some(item => item.href === '/articles/analysis-old'));
+  assert.equal(selected.column, column);
+});
+

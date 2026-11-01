@@ -5,6 +5,9 @@ category: "Opinion"
 slug: "regan-on-football-arteta-should-have-kept-it-behind-closed-doors"
 tags: ["regan-on-football"]
 excerpt: "Would Mikel Arteta have reacted to a senior player the way he did to Max Dowman? I don’t think he would."
+calls:
+  - claim: "I fancy Liverpool to win 2-1, with Isak to score."
+    status: "open"
 ---
 
 Would Mikel Arteta have reacted to a senior player the way he did to Max Dowman? I don’t think he would. Paul Merson questioned it, too. I cannot tell you exactly what Arteta said as the 16-year-old walked off at Fleetwood, but the anger on his face was clear enough. That was the reaction I didn’t like.

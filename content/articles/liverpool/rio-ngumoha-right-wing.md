@@ -1,7 +1,8 @@
 ---
 season: "2026-27"
-title: "Is Rio Playing on the Right Wing a Sign of Things to Come?"
+title: "Is Rio playing on the right wing a sign of things to come?"
 date: "2026-07-30"
+players: ["rio-ngumoha"]
 ---
 With Liverpool seemingly going all in for Bradley Barcola, talks with PSG suggest a fee well north of £100 million. If Liverpool are willing to spend that kind of money, they're not doing it to play him out of position. Barcola's best position is on the left wing.
 

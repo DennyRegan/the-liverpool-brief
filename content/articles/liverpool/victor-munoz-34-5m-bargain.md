@@ -6,6 +6,7 @@ excerpt: "The pace, the directness, the way he carries the ball. Víctor Muñoz 
 slug: "victor-munoz-34-5m-bargain"
 season: "2026-27"
 competitionIds: [premier-league]
+players: ["victor-munoz"]
 ---
 
 I remember sitting in a bar in Majorca watching Liverpool against Ipswich earlier this season. Muñoz picked up the ball and went bursting towards the middle of the pitch. The commentator said something along the lines of, “Oh my God, look at Víctor Muñoz go!”
