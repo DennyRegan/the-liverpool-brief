@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import { selectHomeLead, selectHomePage, LeadOverrideSchema } from '../lib/content/homepage.ts';
 const at = iso => new Date(iso);
 const now = at('2026-10-10T12:00:00Z');
@@ -52,12 +53,13 @@ test('homepage shows four unique journalism pieces including the column and no H
   assert.deepEqual(input, before);
 });
 
-test('homepage has no duplicate column when an active editorial override leads with it', () => {
+test('the column never takes a Liverpool slot, even when an active override names it', () => {
   const override = { ...pin, href: column.href };
   const selected = selectHomePage([...histories, column, ...ordinary], now, override);
-  assert.equal(selected.lead, column);
-  assert.equal(selected.column, undefined);
-  assert.equal(selected.more.length, 3);
+  assert.equal(selected.lead, a);
+  assert.equal(selected.column, column);
+  assert.ok([selected.lead, ...selected.more].every(item => !item.tags?.includes('regan-on-football')));
+  assert.equal(selected.more.length, 2);
   assert.equal(cards(selected).filter(a => a.href === column.href).length, 1);
   assert.equal(selectHomePage([column, ...ordinary], at(pin.expiresAt), override).lead, a);
   assert.equal(selectHomePage([column, ...ordinary], now, pin).lead, b);
@@ -65,9 +67,10 @@ test('homepage has no duplicate column when an active editorial override leads w
 
 test('homepage caps journalism without a column and never fills shortages with History or older editions', () => {
   assert.equal(cards(selectHomePage([...histories, ...ordinary], now)).length, 4);
+  // With no Liverpool writing, the lead stays empty rather than using the column.
   const sparse = selectHomePage([...histories, column], now);
-  assert.equal(sparse.lead, column);
-  assert.equal(sparse.column, undefined);
+  assert.equal(sparse.lead, undefined);
+  assert.equal(sparse.column, column);
   assert.deepEqual(sparse.more, []);
   assert.equal(cards(sparse).length, 1);
   assert.deepEqual(cards(selectHomePage([], now)), []);
@@ -81,5 +84,14 @@ test('homepage excludes future dates, deduplicates canonical URLs and handles Te
   assert.equal(selected.lead, news);
   assert.equal(selected.column, undefined);
   assert.equal(cards(selected).length, 1);
-  assert.equal(selectHomePage([future], at('2026-10-10T23:00:00Z')).lead, future);
+  assert.equal(selectHomePage([future], at('2026-10-10T23:00:00Z')).column, future);
+  assert.equal(selectHomePage([future], at('2026-10-10T23:00:00Z')).lead, undefined);
 });
+
+test('the homepage renders Football Observed after More articles', () => {
+  const page = fs.readFileSync('app/page.tsx', 'utf8');
+  const order = ['NewsletterInvitation />', 'home-articles-heading', 'home-recent-heading', '<FootballObservedHome'].map(marker => page.indexOf(marker));
+  assert.ok(order.every(index => index >= 0));
+  assert.deepEqual([...order].sort((x, y) => x - y), order);
+});
+

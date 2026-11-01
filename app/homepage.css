@@ -5,7 +5,8 @@
 .newsletter-invitation p { font-size: 14px; line-height: 1.6; color: var(--muted); }
 .home-lead-block { padding-bottom: 30px; }
 .home-lead-block .home-lead h1 { max-width: 34ch; }
-.home-observed { border-top: 2px solid var(--accent); border-bottom: 1px solid var(--line); margin-top: 12px; }
+/* The column follows the Liverpool sections, so it opens with a clear section break. */
+.home-observed { border-top: 2px solid var(--accent); border-bottom: 1px solid var(--line); margin-top: 56px; }
 .observed-home-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-top: 24px; }
 .observed-home-heading h2 { font: 600 clamp(28px, 3vw, 36px)/1.15 var(--font-source-serif), Georgia, serif; letter-spacing: -.03em; }
 .observed-home-heading > a { flex-shrink: 0; }
@@ -15,5 +16,6 @@
 .home-page .home-recent h3 { font-size: var(--headline-list); }
 @media (max-width: 700px) {
   .home-lead-block { padding-bottom: 20px; }
+  .home-observed { margin-top: 40px; }
   .observed-home-heading { flex-wrap: wrap; gap: 4px 20px; padding-top: 20px; }
 }

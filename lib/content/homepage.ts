@@ -31,7 +31,10 @@ export function selectHomeLead<T extends Writing>(writing: T[], now: Date, overr
   return pinned ?? eligible[0];
 }
 
-// Four distinct journalism pieces, including the latest column.
+// Up to four distinct journalism pieces: a Liverpool lead and more Liverpool
+// articles, then the latest Football Observed column in its own section below.
+// The column never fills the Liverpool slots, even when it is the newest piece
+// or an editorial override names it.
 export function selectHomePage<T extends Writing>(writing: T[], now: Date, override: LeadOverride = null) {
   const today = getLondonToday(now);
   const eligible = [...new Map(writing.map(article => [article.href, article])).values()]
@@ -40,11 +43,8 @@ export function selectHomePage<T extends Writing>(writing: T[], now: Date, overr
   const journalism = eligible.filter(article => ['Opinion', 'Analysis', 'Team News'].includes(article.category) && article.editorialMode !== 'factual');
   const latestColumn = journalism.find(isReganOnFootball);
   const otherWriting = journalism.filter(article => !isReganOnFootball(article));
-  const requestedLead = selectHomeLead(journalism, now, override);
-  const pinned = override && Date.parse(override.startsAt) <= now.getTime() && now.getTime() < Date.parse(override.expiresAt)
-    && requestedLead?.href === override.href;
-  const lead = pinned ? requestedLead : selectHomeLead(otherWriting, now) ?? otherWriting[0] ?? latestColumn;
-  const column = latestColumn?.href === lead?.href ? undefined : latestColumn;
+  const lead = selectHomeLead(otherWriting, now, override) ?? otherWriting[0];
+  const column = latestColumn;
   const remainingSlots = 4 - Number(Boolean(lead)) - Number(Boolean(column));
   const more = otherWriting.filter(article => article.href !== lead?.href).slice(0, remainingSlots);
   return { lead, column, more };

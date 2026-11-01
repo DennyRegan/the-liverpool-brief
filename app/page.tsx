@@ -37,7 +37,6 @@ export default function Home() {
           </article>
         </div> : <><h1 className="home-empty-title">Independent Liverpool writing</h1><Link className="read-link" href="/articles">Browse articles →</Link></>}
       </section>
-      {featuredEdition && <FootballObservedHome article={featuredEdition} />}
       {more.length > 0 && <section className="home-recent" aria-labelledby="home-recent-heading">
         <div className="home-section-heading"><h2 id="home-recent-heading" className="eyebrow">More articles</h2><Link className="collection-link" href="/articles">All articles</Link></div>
         <div className="article-grid">{more.map(article => <article className="article-card" key={article.href}>
@@ -47,6 +46,7 @@ export default function Home() {
             <Link className="read-link" href={article.href} aria-label={`Read article: ${article.title}`}>Read article</Link>
         </article>)}</div>
       </section>}
+      {featuredEdition && <FootballObservedHome article={featuredEdition} />}
     </main>
   </>;
 }

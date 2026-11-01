@@ -35,10 +35,10 @@ for (const article of expectedCards) assert.equal(renderedCards.filter(card => c
 if (editions.length) {
   assert.equal(home.includes('class="home-observed"'), Boolean(column));
   if (lead && column) assert.ok(home.indexOf('class="home-lead"') < home.indexOf('class="home-observed"'));
-  if (column && more.length) assert.ok(home.indexOf('class="home-observed"') < home.indexOf('class="home-recent"'));
+  if (column && more.length) assert.ok(home.indexOf('class="home-recent"') < home.indexOf('class="home-observed"'));
   assert.ok(landing.includes(escape(editions[0].title)));
   assert.equal(landing.includes('id="previous-editions-heading"'), editions.length > 1);
-  const recent = home.split('class="home-recent"')[1] || '';
+  const recent = (home.split('class="home-recent"')[1] || '').split('class="home-observed"')[0];
   assert.ok(!recent.includes(`/articles/${editions[0].slug}`));
 } else {
   assert.ok(!home.includes('class="home-observed"'));
