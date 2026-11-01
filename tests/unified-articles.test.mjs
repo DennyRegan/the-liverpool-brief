@@ -88,3 +88,13 @@ test('a new Analysis article appears in Articles without code changes', () => {
     fs.rmSync(root, { recursive: true, force: true });
   }
 });
+
+test('the Analysis tab sits directly after Opinion, and only once an Analysis article exists', () => {
+  const nav = read('app/components/ArticlesNavigation.tsx');
+  const opinion = nav.indexOf('["Opinion"'), analysis = nav.indexOf('["Analysis"'), matchday = nav.indexOf('["Matchday"');
+  assert.ok(opinion < analysis && analysis < matchday);
+  assert.match(nav, /\.\.\.\(hasAnalysis \? \[\["Analysis", "\/articles\?type=analysis"\]\] : \[\]\)/);
+  assert.match(read('app/articles/page.tsx'), /hasAnalysis=\{types\.some\(\(\[label\]\) => label === "Analysis"\)\}/);
+  assert.match(read('app/articles/page.tsx'), /label === "Team News" \|\| writing\.some\(article => article\.category === label\)/);
+});
+
