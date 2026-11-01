@@ -1,5 +1,5 @@
 ---
-title: "Conor Bradley Has the Talent. But Will His Body Let Him Fulfil It?"
+title: "Conor Bradley has the talent. But will his body let him fulfil it?"
 date: "2026-10-29"
 category: "Opinion"
 slug: "conor-bradley-injuries-potential"

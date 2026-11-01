@@ -1,6 +1,6 @@
 ---
 season: "2026-27"
-title: "Isak and Wirtz Will Take Us to the League Title"
+title: "Isak and Wirtz will take us to the league title"
 date: "2026-08-06"
 ---
 Isak and Wirtz weren't Liverpool's worst signings. They were Liverpool's worst-used players.

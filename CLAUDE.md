@@ -32,6 +32,9 @@ Next.js App Router; local Markdown with YAML frontmatter validated by Zod.
 - The newsletter (Sender) is shown only when its public configuration is present; see `docs/newsletter-signup.md`.
 - Social previews are generated automatically from article metadata/body by the existing image routes. They use a shared 1200 × 630 editorial design and reuse suitable local photographs already approved for article/social publication, with a typography fallback. No per-article social graphic or new frontmatter is required. Preserve image rights and article canonicals; see `docs/social-previews.md`.
 
+## Headlines
+All headlines (`title` fields) are sentence case: capitalise only the first word of each sentence and proper nouns (player, club, competition and place names, plus nicknames such as "Big Ron" or "Reds" and abbreviations such as "FSG"). When correcting a headline, change the `title` field only, never the slug or URL.
+
 ## Verification
 Node 22.18+ or 24. Run `npm test`, `npm run lint`, `npm run build`.
 

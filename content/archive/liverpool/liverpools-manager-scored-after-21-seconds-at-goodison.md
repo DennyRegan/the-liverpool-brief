@@ -1,5 +1,5 @@
 ---
-title: "Liverpool’s Manager Scored After 21 Seconds at Goodison"
+title: "Liverpool’s manager scored after 21 seconds at Goodison"
 date: "2026-09-13"
 historicalEventDate: "1985-09-21"
 historicalPeriod: "21 September 1985"

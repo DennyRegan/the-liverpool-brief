@@ -1,5 +1,5 @@
 ---
-title: "Big Ron Tackles with His Head While Trent Warms Madrid's Bench"
+title: "Big Ron tackles with his head while Trent warms Madrid's bench"
 date: "2026-10-27"
 category: "Opinion"
 slug: "big-ron-trent-madrid-bench"

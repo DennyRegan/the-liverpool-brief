@@ -1,5 +1,5 @@
 ---
-title: "Why Last Season's Comparisons With Rodgers and Hodgson Were Unfair"
+title: "Why last season's comparisons with Rodgers and Hodgson were unfair"
 date: "2026-08-01"
 ---
 Last season was one of the worst Liverpool have endured in a long time. As the defeats piled up, I kept hearing the same comparisons being made. Some supporters were saying this was as bad as the Roy Hodgson era, while others compared it to Brendan Rodgers' final months at the club.

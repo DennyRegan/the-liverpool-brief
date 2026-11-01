@@ -1,5 +1,5 @@
 ---
-title: "FSG Still Call the Shots at Liverpool. But for How Long?"
+title: "FSG still call the shots at Liverpool. But for how long?"
 date: "2026-08-18"
 category: "Opinion"
 excerpt: "FSG have sold around 30% of Liverpool to a consortium including Jeff Bezos. If the people who have just bought a third of the club eventually want the rest, would that be good for Liverpool?"

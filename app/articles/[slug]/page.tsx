@@ -63,7 +63,8 @@ export default async function ArticlePage({
 
         {column && <ReganOnFootballMasthead compact />}
         <h1 className="article-title">{article.title}</h1>
-        <ArticleMeta {...article} author={!column} showColumn={false} />
+        {/* Every article and Football Observed edition carries the byline under its headline. */}
+        <ArticleMeta {...article} author showColumn={false} />
         {article.researchCutoff && <p className="text-sm text-gray-500 mb-8">Research checked to {formatLongDate(article.researchCutoff)}.</p>}
 
         {column && <EditionContents body={article.body} title={article.title} />}

@@ -1,5 +1,5 @@
 ---
-title: "Liverpool Squad Update: Barcola Available as Iraola Faces Brighton Selection Dilemma"
+title: "Liverpool squad update: Barcola available as Iraola faces Brighton selection dilemma"
 date: "2026-10-24"
 category: "Team News"
 slug: "liverpool-squad-update-barcola-available-brighton"

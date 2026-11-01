@@ -1,6 +1,6 @@
 ---
 season: "2026-27"
-title: "Wakey Wakey, Richard Hughes"
+title: "Wakey wakey, Richard Hughes"
 date: "2026-07-30"
 ---
 With just over three weeks to go until the start of the season, Liverpool are still well short in several key areas. Most notably, there hasn't been a signing to replace Mohamed Salah.

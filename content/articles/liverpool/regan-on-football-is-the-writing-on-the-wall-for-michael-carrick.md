@@ -1,5 +1,5 @@
 ---
-title: "Is the Writing on the Wall for Michael Carrick?"
+title: "Is the writing on the wall for Michael Carrick?"
 date: "2026-10-23"
 category: "Opinion"
 slug: "regan-on-football-is-the-writing-on-the-wall-for-michael-carrick"

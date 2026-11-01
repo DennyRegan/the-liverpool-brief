@@ -98,3 +98,11 @@ test('the Analysis tab sits directly after Opinion, and only once an Analysis ar
   assert.match(read('app/articles/page.tsx'), /label === "Team News" \|\| writing\.some\(article => article\.category === label\)/);
 });
 
+
+test('article and Football Observed pages carry "By Denny Regan" under the headline', () => {
+  const page = read('app/articles/[slug]/page.tsx');
+  const headline = page.indexOf('<h1 className="article-title">');
+  const meta = page.indexOf('<ArticleMeta {...article} author showColumn={false} />');
+  assert.ok(headline >= 0 && meta > headline);
+  assert.match(read('app/components/ArticleMeta.tsx'), /By Denny Regan/);
+});

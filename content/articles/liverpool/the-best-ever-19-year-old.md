@@ -1,5 +1,5 @@
 ---
-title: "The Best Ever 19-Year-Old?"
+title: "The best ever 19-year-old?"
 date: "2026-10-24"
 category: "Opinion"
 slug: "the-best-ever-19-year-old"
