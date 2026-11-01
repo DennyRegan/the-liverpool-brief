@@ -40,7 +40,7 @@ export function selectHomePage<T extends Writing>(writing: T[], now: Date, overr
   const eligible = [...new Map(writing.map(article => [article.href, article])).values()]
     .filter(article => article.date <= today)
     .sort((a, b) => b.date.localeCompare(a.date) || a.href.localeCompare(b.href));
-  const journalism = eligible.filter(article => ['Opinion', 'Analysis', 'Team News'].includes(article.category) && article.editorialMode !== 'factual');
+  const journalism = eligible.filter(article => ['Opinion', 'Analysis'].includes(article.category) && article.editorialMode !== 'factual');
   const latestColumn = journalism.find(isReganOnFootball);
   const otherWriting = journalism.filter(article => !isReganOnFootball(article));
   const lead = selectHomeLead(otherWriting, now, override) ?? otherWriting[0];

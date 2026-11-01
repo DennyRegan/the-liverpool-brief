@@ -41,7 +41,7 @@ export type Call = z.infer<typeof CallSchema>;
 
 export const ArticleSchema = z.object({
     title: z.string(), date: z.iso.date(), slug: SlugSchema,
-    category: z.enum(["Opinion", "Analysis", "Team News", "Matchday"]).default("Opinion"),
+    category: z.enum(["Opinion", "Analysis", "Matchday"]).default("Opinion"),
     matchType: z.enum(MATCH_TYPES).optional(),
     fixture: FixtureSchema.optional(),
     seoTitle: z.string().min(1).optional(),

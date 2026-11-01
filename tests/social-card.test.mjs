@@ -24,7 +24,7 @@ test('the full headline fits both panels without clipping, truncation or dropped
 
 test('Football Observed is recognised from existing metadata without reclassifying other categories', () => {
   assert.equal(socialSection({ category: 'Opinion', tags: ['regan-on-football'] }), 'Football Observed');
-  for (const category of ['Opinion', 'Analysis', 'Team News', 'History']) {
+  for (const category of ['Opinion', 'Analysis', 'Matchday', 'History']) {
     assert.equal(socialSection({ category }), category);
   }
   assert.equal(socialSection({ category: 'Analysis', tags: ['regan-on-football'] }), 'Analysis');

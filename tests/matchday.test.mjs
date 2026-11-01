@@ -56,5 +56,5 @@ test('a Matchday piece without a fixture loads, so it cannot break the build', (
 
 test('Matchday sits next to Opinion in the Articles category row', () => {
   const nav = fs.readFileSync('app/components/ArticlesNavigation.tsx', 'utf8');
-  assert.ok(nav.indexOf('["Opinion"') < nav.indexOf('["Matchday"') && nav.indexOf('["Matchday"') < nav.indexOf('["Team News"'));
+  assert.ok(nav.indexOf('["Opinion"') < nav.indexOf('["Matchday"') && nav.indexOf('["Matchday"') < nav.indexOf('["History"'));
 });

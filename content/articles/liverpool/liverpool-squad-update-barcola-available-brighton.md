@@ -1,7 +1,7 @@
 ---
 title: "Liverpool squad update: Barcola available as Iraola faces Brighton selection dilemma"
 date: "2026-10-24"
-category: "Team News"
+category: "Matchday"
 slug: "liverpool-squad-update-barcola-available-brighton"
 excerpt: "Bradley Barcola is available for Liverpool's Premier League meeting with Brighton & Hove Albion at Anfield on Sunday, but Andoni Iraola will be without Dominik Szoboszlai, while Victor Muñoz remains a doubt."
 players: ["bradley-barcola", "dominik-szoboszlai", "victor-munoz"]

@@ -34,7 +34,7 @@ test('London midnight determines publication eligibility', () => {
 });
 
 const column = { date: '2026-10-10', href: '/articles/column', category: 'Opinion', tags: ['regan-on-football'] };
-const ordinary = [a, b, { ...a, href: '/articles/news', category: 'Team News' }, { ...b, href: '/articles/extra' }];
+const ordinary = [a, b, { ...a, href: '/articles/more', date: '2026-10-09' }, { ...b, href: '/articles/extra' }];
 const histories = Array.from({length: 5}, (_, i) => ({ date: '2026-10-10', href: `/archive/history-${i}`, category: 'History', editorialMode: 'factual' }));
 const cards = selection => [selection.lead, selection.column, ...selection.more].filter(Boolean);
 
@@ -77,7 +77,7 @@ test('homepage caps journalism without a column and never fills shortages with H
   assert.equal(cards(selectHomePage(histories, now)).length, 0);
 });
 
-test('homepage excludes future dates, deduplicates canonical URLs and handles Team News alone', () => {
+test('homepage excludes future dates and deduplicates canonical URLs', () => {
   const news = ordinary[2];
   const future = { ...column, date: '2026-10-11' };
   const selected = selectHomePage([news, news, future, ...histories], now);

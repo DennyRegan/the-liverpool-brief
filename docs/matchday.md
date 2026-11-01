@@ -23,3 +23,4 @@ fixture:
 - `matchType` and `fixture` are optional. A Matchday piece without a fixture appears under "Other Matchday pieces"; without a type it simply shows no type label.
 - A misspelt `matchType`, an incomplete `fixture` or a `venue` other than Home/Away fails the build, like any other invalid frontmatter.
 - The homepage selection is unchanged and does not include Matchday pieces.
+- Team news (squad updates, injuries, availability) also goes in Matchday; there is no separate Team News category. Such a piece needs no `fixture` or `matchType` and then appears under "Other Matchday pieces".

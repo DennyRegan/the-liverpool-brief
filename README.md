@@ -41,8 +41,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 The Liverpool Brief publishes Denny Regan's own writing. Navigation is Home | Articles | Football Observed, with About in the footer.
 
 - **Home** (`/`) shows up to four journalism pieces, including the latest Football Observed edition, and links to the full collection.
-- **Articles** (`/articles`) is the single collection. Filters (`?type=opinion|analysis|team-news|history`) appear for categories that have articles; History lists Denny's own historical pieces only.
-- Articles live in `content/articles/liverpool/*.md` (`category: Opinion | Analysis | Team News`) at `/articles/[slug]`. Four earlier pieces stay in `content/archive/liverpool/` at their original `/archive/[slug]` URLs and are listed as Opinion or History according to their stored `editorialMode`.
+- **Articles** (`/articles`) is the single collection. Filters (`?type=opinion|analysis|history`) appear for categories that have articles; History lists Denny's own historical pieces only.
+- Articles live in `content/articles/liverpool/*.md` (`category: Opinion | Analysis | Matchday`) at `/articles/[slug]`. Four earlier pieces stay in `content/archive/liverpool/` at their original `/archive/[slug]` URLs and are listed as Opinion or History according to their stored `editorialMode`.
 - Analysis supports Markdown tables (GitHub-flavoured) and images/charts placed under `public/`.
 - The newsletter signup is hidden until Sender is configured; see [docs/newsletter-signup.md](docs/newsletter-signup.md).
 
