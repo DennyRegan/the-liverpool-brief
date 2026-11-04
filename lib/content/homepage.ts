@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { isReganOnFootball, isWeeklyEdition } from './regan-on-football.ts';
+import { isFootballObservedOpinion, isReganOnFootball, isWeeklyEdition } from './regan-on-football.ts';
 
 const HOUR = 3600000;
 
@@ -32,7 +32,8 @@ export function selectHomeLead<T extends Writing>(writing: T[], now: Date, overr
 }
 
 // Up to four distinct journalism pieces: a Liverpool lead and more Liverpool
-// articles, then the latest Football Observed column in its own section below.
+// articles, then the latest Football Observed column in its own section below,
+// plus the latest Football Observed opinion piece in a section of its own.
 // The column never fills the Liverpool slots, even when it is the newest piece
 // or an editorial override names it.
 export function selectHomePage<T extends Writing>(writing: T[], now: Date, override: LeadOverride = null) {
@@ -47,5 +48,6 @@ export function selectHomePage<T extends Writing>(writing: T[], now: Date, overr
   const column = latestColumn;
   const remainingSlots = 4 - Number(Boolean(lead)) - Number(Boolean(column));
   const more = otherWriting.filter(article => article.href !== lead?.href).slice(0, remainingSlots);
-  return { lead, column, more };
+  const opinion = journalism.find(isFootballObservedOpinion);
+  return { lead, column, more, opinion };
 }

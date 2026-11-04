@@ -30,7 +30,7 @@ category: Opinion
 tags: [regan-on-football, football-observed-opinion]
 ```
 
-They get the Football Observed label and masthead (without the weekly byline), and appear newest first in an Opinion section on the column page, and in Articles/Opinion. They are not editions: they never become the Latest edition, join Previous editions or edition links, or appear on the homepage, and they stay out of the Liverpool slots like the column. Without the second tag, a piece is a weekly edition.
+They get the Football Observed label and masthead (without the weekly byline), and appear newest first in an Articles section on the column page, and in Articles/Opinion. The latest one also appears on the homepage, below the column, under its own Football Observed Opinion heading, until a newer one replaces it. They are not editions: they never become the Latest edition or join Previous editions or edition links, and they stay out of the Liverpool slots like the column. Without the second tag, a piece is a weekly edition.
 
 ## Presentation — 30 October 2026
 

@@ -62,7 +62,7 @@ export default async function ArticlePage({
           <ShareButton title={article.title} />
         </div>
 
-        {column && <ReganOnFootballMasthead compact weekly={!isFootballObservedOpinion(article)} />}
+        {column && <ReganOnFootballMasthead compact byline={isFootballObservedOpinion(article) ? null : undefined} />}
         <h1 className="article-title">{article.title}</h1>
         {/* Every article and Football Observed edition carries the byline under its headline. */}
         <ArticleMeta {...article} author showColumn={false} />

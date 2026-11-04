@@ -11,7 +11,7 @@ import { socialMetadata } from "@/lib/social-metadata";
 
 export const metadata = socialMetadata(
   "Football Observed | The Liverpool Brief",
-  "A weekly column by Denny Regan. Opinions, observations and commentary on football, published in The Liverpool Brief.",
+  "A weekly column and occasional articles by Denny Regan. Opinions, observations and commentary on football, published in The Liverpool Brief.",
   REGAN_ON_FOOTBALL_PATH,
 );
 
@@ -22,12 +22,12 @@ export default function ReganOnFootballPage() {
     <SiteHeader active="football-observed" />
     <main id="main-content" className="site-width collection column-page">
       <ArticlesNavigation selected="Football Observed" hasAnalysis={getWriting().some(article => article.category === "Analysis")} />
-      <ReganOnFootballMasthead />
+      <ReganOnFootballMasthead byline="A weekly column and occasional articles by Denny Regan" />
       <p className="observed-introduction">Opinions, observations and commentary on football.</p>
       {latest ? <FootballObservedFeature article={latest} />
         : <p className="empty-state">The first edition will appear here when published.</p>}
-      {opinions.length > 0 && <section className="observed-previous" aria-labelledby="opinion-pieces-heading">
-        <h2 id="opinion-pieces-heading" className="eyebrow">Opinion</h2>
+      {opinions.length > 0 && <section className="observed-previous" aria-labelledby="observed-articles-heading">
+        <h2 id="observed-articles-heading" className="eyebrow">Articles</h2>
         <div className="article-grid">{opinions.map(article => <article key={article.slug} className="article-card">
           <ArticleMeta {...article} showColumn={false} />
           <h3><Link href={`/articles/${article.slug}`}>{article.title}</Link></h3>

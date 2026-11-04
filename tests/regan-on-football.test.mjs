@@ -86,6 +86,7 @@ test('opinion pieces join Football Observed without displacing the weekly column
     assert.equal(home.column.slug, 'column-new');
     assert.equal(home.lead.slug, 'liverpool');
     assert.ok(home.more.every(article => article.slug !== 'opinion'));
+    assert.equal(home.opinion.slug, 'opinion');
   } finally {
     fs.rmSync(root, { recursive: true, force: true });
   }
