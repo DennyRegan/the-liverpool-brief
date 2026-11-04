@@ -21,6 +21,17 @@ The existing loader validates every edition. On the normal content build, qualif
 
 The public content contains the approved 23 October 2026 Carrick column and the 30 October 2026 edition, “Arteta should have kept it behind closed doors”, explicitly approved for publication by Denny. Other forthcoming editions require separate approval. If every edition is withdrawn, the landing page shows a truthful empty state and the homepage feature disappears. Existing articles have not been retagged.
 
+## Occasional opinion pieces — 4 November 2026
+
+Football Observed also holds opinion pieces Denny decides to publish outside the weekly column. Add both tags:
+
+```yaml
+category: Opinion
+tags: [regan-on-football, football-observed-opinion]
+```
+
+They get the Football Observed label and masthead (without the weekly byline), and appear newest first in an Opinion section on the column page, and in Articles/Opinion. They are not editions: they never become the Latest edition, join Previous editions or edition links, or appear on the homepage, and they stay out of the Liverpool slots like the column. Without the second tag, a piece is a weekly edition.
+
 ## Presentation — 30 October 2026
 
 The column page features the latest published edition, its original excerpt (or the existing body-derived fallback), publication date and reading time. A short introduction uses the existing column description. Previous editions appear newest first, with slug ordering for date ties, only when available.

@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { isReganOnFootball } from './regan-on-football.ts';
+import { isReganOnFootball, isWeeklyEdition } from './regan-on-football.ts';
 
 const HOUR = 3600000;
 
@@ -41,7 +41,7 @@ export function selectHomePage<T extends Writing>(writing: T[], now: Date, overr
     .filter(article => article.date <= today)
     .sort((a, b) => b.date.localeCompare(a.date) || a.href.localeCompare(b.href));
   const journalism = eligible.filter(article => ['Opinion', 'Analysis'].includes(article.category) && article.editorialMode !== 'factual');
-  const latestColumn = journalism.find(isReganOnFootball);
+  const latestColumn = journalism.find(isWeeklyEdition);
   const otherWriting = journalism.filter(article => !isReganOnFootball(article));
   const lead = selectHomeLead(otherWriting, now, override) ?? otherWriting[0];
   const column = latestColumn;

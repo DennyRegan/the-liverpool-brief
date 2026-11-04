@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { getEditionNeighbours, getReganOnFootballEditions, isReganOnFootball } from '../lib/content/regan-on-football.ts';
+import { getEditionNeighbours, getFootballObservedOpinions, getReganOnFootballEditions, isReganOnFootball } from '../lib/content/regan-on-football.ts';
 import { getWriting } from '../lib/content/writing.ts';
-import { selectHomeLead } from '../lib/content/homepage.ts';
+import { selectHomeLead, selectHomePage } from '../lib/content/homepage.ts';
 import { articleMetadata } from '../lib/social-metadata.ts';
 
 test('only Opinion articles with the exact column tag qualify', () => {
@@ -61,6 +61,31 @@ test('editions use the existing loader, sort deterministically and remain ordina
     assert.equal(getEditionNeighbours(getReganOnFootballEditions(root), 'column-a').older.slug, 'column-old');
     assert.equal(getEditionNeighbours([editions[0]], 'column-a').older, undefined);
     assert.deepEqual(getEditionNeighbours([], 'column-a'), {});
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test('opinion pieces join Football Observed without displacing the weekly column', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'regan-opinion-'));
+  try {
+    fs.cpSync('content', path.join(root, 'content'), { recursive: true });
+    const directory = path.join(root, 'content/articles/liverpool');
+    fs.rmSync(directory, { recursive: true });
+    fs.mkdirSync(directory, { recursive: true });
+    const write = (slug, date, tags) => fs.writeFileSync(path.join(directory, `${slug}.md`),
+      `---\ntitle: ${slug}\ndate: "${date}"\ncategory: Opinion\ntags: ${JSON.stringify(tags)}\n---\nTest fixture body.\n`);
+    write('column-new', '2026-10-30', ['regan-on-football']);
+    write('column-old', '2026-10-23', ['regan-on-football']);
+    write('opinion', '2026-11-04', ['regan-on-football', 'football-observed-opinion']);
+    write('liverpool', '2026-11-01', []);
+    assert.deepEqual(getReganOnFootballEditions(root).map(a => a.slug), ['column-new', 'column-old']);
+    assert.deepEqual(getFootballObservedOpinions(root).map(a => a.slug), ['opinion']);
+    assert.deepEqual(getEditionNeighbours(getReganOnFootballEditions(root), 'opinion'), {});
+    const home = selectHomePage(getWriting(root), new Date('2026-11-04T12:00:00Z'));
+    assert.equal(home.column.slug, 'column-new');
+    assert.equal(home.lead.slug, 'liverpool');
+    assert.ok(home.more.every(article => article.slug !== 'opinion'));
   } finally {
     fs.rmSync(root, { recursive: true, force: true });
   }

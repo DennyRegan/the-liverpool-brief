@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { REGAN_ON_FOOTBALL_PATH } from "@/lib/content/regan-on-football";
 
-export function ReganOnFootballMasthead({ compact = false }: { compact?: boolean }) {
+export function ReganOnFootballMasthead({ compact = false, weekly = true }: { compact?: boolean; weekly?: boolean }) {
   return (
     <header className={`column-masthead${compact ? " column-masthead--compact" : ""}`}>
       {compact ? (
@@ -9,7 +9,7 @@ export function ReganOnFootballMasthead({ compact = false }: { compact?: boolean
       ) : (
         <h1 className="column-name">Football Observed</h1>
       )}
-      <p className="column-byline">A weekly column by Denny Regan</p>
+      {weekly && <p className="column-byline">A weekly column by Denny Regan</p>}
     </header>
   );
 }
