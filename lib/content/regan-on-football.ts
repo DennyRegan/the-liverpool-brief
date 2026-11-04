@@ -23,6 +23,10 @@ export function getReganOnFootballEditions(root = process.cwd()) {
   return getArticles(root).filter(isWeeklyEdition);
 }
 
+export function getFootballObservedPieces(root = process.cwd()) {
+  return getArticles(root).filter(isReganOnFootball);
+}
+
 export function getFootballObservedOpinions(root = process.cwd()) {
   return getArticles(root).filter(isFootballObservedOpinion);
 }

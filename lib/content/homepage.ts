@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { isFootballObservedOpinion, isReganOnFootball, isWeeklyEdition } from './regan-on-football.ts';
+import { isReganOnFootball } from './regan-on-football.ts';
 
 const HOUR = 3600000;
 
@@ -32,8 +32,8 @@ export function selectHomeLead<T extends Writing>(writing: T[], now: Date, overr
 }
 
 // Up to four distinct journalism pieces: a Liverpool lead and more Liverpool
-// articles, then the latest Football Observed column in its own section below,
-// plus the latest Football Observed opinion piece in a section of its own.
+// articles, then the newest Football Observed piece (a weekly edition or an
+// occasional article) in its own section below.
 // The column never fills the Liverpool slots, even when it is the newest piece
 // or an editorial override names it.
 export function selectHomePage<T extends Writing>(writing: T[], now: Date, override: LeadOverride = null) {
@@ -42,12 +42,11 @@ export function selectHomePage<T extends Writing>(writing: T[], now: Date, overr
     .filter(article => article.date <= today)
     .sort((a, b) => b.date.localeCompare(a.date) || a.href.localeCompare(b.href));
   const journalism = eligible.filter(article => ['Opinion', 'Analysis'].includes(article.category) && article.editorialMode !== 'factual');
-  const latestColumn = journalism.find(isWeeklyEdition);
+  const latestColumn = journalism.find(isReganOnFootball);
   const otherWriting = journalism.filter(article => !isReganOnFootball(article));
   const lead = selectHomeLead(otherWriting, now, override) ?? otherWriting[0];
   const column = latestColumn;
   const remainingSlots = 4 - Number(Boolean(lead)) - Number(Boolean(column));
   const more = otherWriting.filter(article => article.href !== lead?.href).slice(0, remainingSlots);
-  const opinion = journalism.find(isFootballObservedOpinion);
-  return { lead, column, more, opinion };
+  return { lead, column, more };
 }

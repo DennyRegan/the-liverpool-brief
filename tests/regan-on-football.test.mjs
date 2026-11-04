@@ -83,10 +83,12 @@ test('opinion pieces join Football Observed without displacing the weekly column
     assert.deepEqual(getFootballObservedOpinions(root).map(a => a.slug), ['opinion']);
     assert.deepEqual(getEditionNeighbours(getReganOnFootballEditions(root), 'opinion'), {});
     const home = selectHomePage(getWriting(root), new Date('2026-11-04T12:00:00Z'));
-    assert.equal(home.column.slug, 'column-new');
     assert.equal(home.lead.slug, 'liverpool');
     assert.ok(home.more.every(article => article.slug !== 'opinion'));
-    assert.equal(home.opinion.slug, 'opinion');
+    // The homepage has one Football Observed slot, and the newest piece takes it.
+    assert.equal(home.column.slug, 'opinion');
+    write('column-next', '2026-11-06', ['regan-on-football']);
+    assert.equal(selectHomePage(getWriting(root), new Date('2026-11-06T12:00:00Z')).column.slug, 'column-next');
   } finally {
     fs.rmSync(root, { recursive: true, force: true });
   }

@@ -17,15 +17,19 @@ export const metadata = socialMetadata(
 
 export default function ReganOnFootballPage() {
   const [latest, ...previous] = getReganOnFootballEditions();
-  const opinions = getFootballObservedOpinions();
+  const [latestOpinion, ...olderOpinions] = getFootballObservedOpinions();
+  // Whichever is newest goes on top; on the same day the weekly column stays first.
+  const opinionFirst = latestOpinion && (!latest || latestOpinion.date > latest.date);
+  const opinions = opinionFirst ? olderOpinions : [latestOpinion, ...olderOpinions].filter(Boolean);
   return <>
     <SiteHeader active="football-observed" />
     <main id="main-content" className="site-width collection column-page">
       <ArticlesNavigation selected="Football Observed" hasAnalysis={getWriting().some(article => article.category === "Analysis")} />
       <ReganOnFootballMasthead byline="A weekly column and occasional articles by Denny Regan" />
       <p className="observed-introduction">Opinions, observations and commentary on football.</p>
+      {opinionFirst && <FootballObservedFeature article={latestOpinion} />}
       {latest ? <FootballObservedFeature article={latest} />
-        : <p className="empty-state">The first edition will appear here when published.</p>}
+        : !opinionFirst && <p className="empty-state">The first edition will appear here when published.</p>}
       {opinions.length > 0 && <section className="observed-previous" aria-labelledby="observed-articles-heading">
         <h2 id="observed-articles-heading" className="eyebrow">Articles</h2>
         <div className="article-grid">{opinions.map(article => <article key={article.slug} className="article-card">
