@@ -1,10 +1,14 @@
 import Link from "next/link";
+import { HistoryLatest } from "@/app/components/HistoryLatest";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { HistoryHeader } from "@/app/components/HistoryHeader";
 import { BIOGRAPHIES_PATH, HISTORY_PATH, SERIES_PATH } from "@/lib/content/history";
 import { LOOKING_BACK_PATH } from "@/lib/content/looking-back";
 import { socialMetadata } from "@/lib/social-metadata";
 import "./history.css";
+
+// Regenerated at most hourly, so the latest pieces appear on their Monday without a deploy.
+export const revalidate = 3600;
 
 export const metadata = socialMetadata("History | The Liverpool Brief", "Looking Back, biographies and series from Liverpool's past.", HISTORY_PATH);
 
@@ -22,6 +26,7 @@ export default function HistoryPage() {
       <ul className="history-links">
         {HOMES.map(home => <li key={home.href}><Link href={home.href}><h2>{home.title}</h2><p>{home.text}</p></Link></li>)}
       </ul>
+      <HistoryLatest heading={false} />
     </main>
   </>;
 }

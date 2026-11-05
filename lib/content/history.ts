@@ -129,3 +129,20 @@ export function getVisibleSeriesPart(seriesSlug: string, slug: string, now = new
   if (!series || index < 0) return undefined;
   return { series, part: series.parts[index], previous: series.parts[index - 1], next: series.parts[index + 1] };
 }
+
+// ---- Latest History (homepage and hub) -------------------------------------
+
+export type LatestHistoryItem = { kind: "Biography" | "Series"; label: string; title: string; excerpt: string; href: string; date: string };
+
+/** The newest live biography and the newest live series part, newest first. Live pieces only, on every environment, so a future piece never shows on the homepage. */
+export function getLatestHistory(now = new Date(), root = process.cwd()): LatestHistoryItem[] {
+  const newest = <T extends { date: string }>(items: T[], tiebreak: (item: T) => number = () => 0) =>
+    [...items].sort((a, b) => b.date.localeCompare(a.date) || tiebreak(b) - tiebreak(a))[0];
+  const person = newest(getLiveBiographies(now, root));
+  const part = newest(getLiveSeriesParts(now, root), item => item.partNumber);
+  const series = part ? getSeriesDefinitions(root).find(d => d.slug === part.seriesSlug) : undefined;
+  return [
+    ...(person ? [{ kind: "Biography" as const, label: "Biography", title: person.title, excerpt: person.excerpt, href: `${BIOGRAPHIES_PATH}/${person.slug}`, date: person.date }] : []),
+    ...(part && series ? [{ kind: "Series" as const, label: `${series.title} · Part ${part.partNumber} of ${series.totalParts}`, title: part.title, excerpt: part.excerpt, href: `${SERIES_PATH}/${part.seriesSlug}/${part.slug}`, date: part.date }] : []),
+  ].sort((a, b) => b.date.localeCompare(a.date));
+}

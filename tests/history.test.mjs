@@ -153,3 +153,16 @@ test('History pages share one header and use plain body text, with no newspaper 
   const header = fs.readFileSync('app/components/SiteHeader.tsx', 'utf8');
   assert.ok(header.indexOf('"History"') < header.indexOf('"Looking Back"') && header.indexOf('"Football Observed"') < header.indexOf('"History"'));
 });
+
+test('latest History: newest live biography and series part only, never a future one, and shown on the homepage and hub', () => {
+  const now = at('2026-06-01T12:00:00Z');
+  const latest = history.getLatestHistory(now, root);
+  assert.deepEqual(latest.map(i => i.kind).sort(), ['Biography', 'Series']);
+  assert.equal(latest.find(i => i.kind === 'Series').href, '/history/series/test-series/test-part-two');
+  assert.match(latest.find(i => i.kind === 'Biography').href, /^\/history\/biographies\/test-person-(one|two|three)$/);
+  assert.ok(latest.find(i => i.kind === 'Series').label.endsWith('Part 2 of 3'));
+  assert.ok(!latest.some(i => i.href.includes('future') || i.href.includes('part-three')));
+  assert.deepEqual(history.getLatestHistory(at('2020-01-01T00:00:00Z'), root), []);
+  assert.match(fs.readFileSync('app/page.tsx', 'utf8'), /<HistoryLatest \/>/);
+  assert.match(fs.readFileSync('app/history/page.tsx', 'utf8'), /<HistoryLatest/);
+});
