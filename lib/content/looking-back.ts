@@ -30,8 +30,9 @@ export function getLookingBackPiece(slug: string, root = process.cwd()) {
 }
 
 // ---- Scheduled publishing -------------------------------------------------
-// `date` is the anniversary. A piece goes live at midnight Europe/London on
-// that date (getLondonToday, the same logic as the homepage) and stays live
+// `date` is the anniversary. The whole Monday–Sunday week goes live together:
+// a piece goes live at midnight Europe/London on the Monday of the week its
+// date falls in (getLondonToday, the same logic as the homepage) and stays live
 // permanently. On production,
 // pieces not yet live do not exist anywhere. Everywhere else (Vercel previews,
 // local) they are shown with a "Scheduled for" banner.
@@ -41,9 +42,11 @@ export function isProduction(env: Record<string, string | undefined> = process.e
   return env.VERCEL_ENV === "production";
 }
 
-/** The day a piece goes live: its own date. */
+/** The day a piece goes live: the Monday of the week its date falls in. */
 export function liveFrom(piece: { date: string }) {
-  return piece.date;
+  const date = new Date(`${piece.date}T12:00:00Z`);
+  date.setUTCDate(date.getUTCDate() - (date.getUTCDay() + 6) % 7);
+  return date.toISOString().slice(0, 10);
 }
 
 export function isLive(piece: { date: string }, now = new Date()) {
