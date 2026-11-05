@@ -9,7 +9,7 @@ import { getHomeLeadOverride } from '@/lib/content/homepage-config';
 import { getNewsletterConfig } from '@/lib/newsletter-config';
 import { getArticleExcerpt } from '@/lib/format';
 import { FootballObservedHome } from '@/app/components/FootballObservedHome';
-import { getReganOnFootballEditions } from '@/lib/content/regan-on-football';
+import { getFootballObservedPieces } from '@/lib/content/regan-on-football';
 
 export const metadata = {
   description: 'Independent Liverpool writing by Denny Regan.',
@@ -21,7 +21,7 @@ export const dynamic = 'force-dynamic';
 export default function Home() {
   const writing = getWriting();
   const { lead, column, more } = selectHomePage(writing, new Date(), getHomeLeadOverride());
-  const featuredEdition = getReganOnFootballEditions().find(article => `/articles/${article.slug}` === column?.href);
+  const featuredEdition = getFootballObservedPieces().find(article => `/articles/${article.slug}` === column?.href);
   return <>
     <SiteHeader active="home" />
     <main id="main-content" className="site-width home-page">

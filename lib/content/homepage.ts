@@ -32,7 +32,8 @@ export function selectHomeLead<T extends Writing>(writing: T[], now: Date, overr
 }
 
 // Up to four distinct journalism pieces: a Liverpool lead and more Liverpool
-// articles, then the latest Football Observed column in its own section below.
+// articles, then the newest Football Observed piece (a weekly edition or an
+// occasional article) in its own section below.
 // The column never fills the Liverpool slots, even when it is the newest piece
 // or an editorial override names it.
 export function selectHomePage<T extends Writing>(writing: T[], now: Date, override: LeadOverride = null) {

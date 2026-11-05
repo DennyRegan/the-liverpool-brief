@@ -7,7 +7,7 @@ import remarkGfm from "remark-gfm";
 import { getArticle, getArticles } from "@/lib/content/articles";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { ReganOnFootballMasthead } from "@/app/components/ReganOnFootballMasthead";
-import { isReganOnFootball } from "@/lib/content/regan-on-football";
+import { isFootballObservedOpinion, isReganOnFootball } from "@/lib/content/regan-on-football";
 import { EditionContents } from "@/app/components/EditionContents";
 import { EditionNavigation } from "@/app/components/EditionNavigation";
 import { EDITION_OPENING_ID, remarkEditionHeadings } from "@/lib/edition-contents";
@@ -62,7 +62,7 @@ export default async function ArticlePage({
           <ShareButton title={article.title} />
         </div>
 
-        {column && <ReganOnFootballMasthead compact />}
+        {column && <ReganOnFootballMasthead compact byline={isFootballObservedOpinion(article) ? null : undefined} />}
         <h1 className="article-title">{article.title}</h1>
         {/* Every article and Football Observed edition carries the byline under its headline. */}
         <ArticleMeta {...article} author showColumn={false} />
