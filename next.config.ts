@@ -3,12 +3,16 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // Internal browser QA origin; production hosting is unaffected.
   allowedDevOrigins: ["terminal.local"],
-  // History was removed on 31 October 2026. Old links (including shared ones)
-  // go to the homepage rather than a 404.
+  // The old History section was removed on 31 October 2026. Its old links
+  // (including shared ones) go to the homepage rather than a 404. A much smaller
+  // History hub (/history, /history/biographies, /history/series) returned later,
+  // so only the removed sub-sections are redirected.
   async redirects() {
     return [
-      { source: "/history", destination: "/", permanent: true },
-      { source: "/history/:path*", destination: "/", permanent: true },
+      ...["matches", "seasons", "people", "explore", "on-this-day"].flatMap(section => [
+        { source: `/history/${section}`, destination: "/", permanent: true },
+        { source: `/history/${section}/:path*`, destination: "/", permanent: true },
+      ]),
       { source: "/this-week", destination: "/", permanent: true },
       { source: "/search", destination: "/", permanent: true },
       ...[
@@ -25,7 +29,7 @@ const nextConfig: NextConfig = {
     "/*": ["./prototype/**/*", "./docs/editorial/**/*"],
   },
   outputFileTracingIncludes: {
-    "/*": ["./content/articles/liverpool/*.md", "./content/archive/liverpool/*.md", "./content/looking-back/*.md"],
+    "/*": ["./content/articles/liverpool/*.md", "./content/archive/liverpool/*.md", "./content/looking-back/*.md", "./content/biographies/*.md", "./content/series/**/*"],
     "/articles/**/opengraph-image": ["./assets/social/**/*", "./public/**/*.{jpg,jpeg,png,webp,avif}"],
     "/archive/**/opengraph-image": ["./assets/social/**/*", "./public/**/*.{jpg,jpeg,png,webp,avif}"],
     "/looking-back/**/opengraph-image": ["./assets/social/**/*", "./node_modules/next/dist/compiled/@vercel/og/Geist-Regular.ttf"],

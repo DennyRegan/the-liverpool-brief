@@ -9,6 +9,7 @@ import { getHomeLeadOverride } from '@/lib/content/homepage-config';
 import { getNewsletterConfig } from '@/lib/newsletter-config';
 import { getArticleExcerpt } from '@/lib/format';
 import { FootballObservedHome } from '@/app/components/FootballObservedHome';
+import { HistoryLatest } from '@/app/components/HistoryLatest';
 import { getFootballObservedPieces } from '@/lib/content/regan-on-football';
 
 export const metadata = {
@@ -47,6 +48,7 @@ export default function Home() {
         </article>)}</div>
       </section>}
       {featuredEdition && <FootballObservedHome article={featuredEdition} />}
+      <HistoryLatest />
     </main>
   </>;
 }

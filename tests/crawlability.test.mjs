@@ -10,6 +10,7 @@ const { getArticles } = await import('../lib/content/articles.ts');
 const { getArchiveFeatures } = await import('../lib/content/archive.ts');
 const { getNewsletterConfig } = await import('../lib/newsletter-config.ts');
 const { getLiveLookingBack } = await import('../lib/content/looking-back.ts');
+const { getLiveBiographies, getLiveSeriesParts } = await import('../lib/content/history.ts');
 const { getPlayerPageSlugs } = await import('../lib/content/players.ts');
 const { socialMetadata } = await import('../lib/social-metadata.ts');
 
@@ -20,11 +21,14 @@ const newsletter = { SENDER_PUBLIC_ACCOUNT_ID: 'abc123', SENDER_NEWSLETTER_FORM_
 test('sitemap lists only the public pages and retained articles', () => {
   const entries = sitemap();
   const expected = [
-    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back', '/calls',
+    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back', '/history', '/history/biographies', '/history/series', '/calls',
     ...(getNewsletterConfig() ? ['/newsletter', '/newsletter/privacy'] : []),
     ...getArticles().map(a => `/articles/${a.slug}`),
     ...getArchiveFeatures().map(a => `/archive/${a.slug}`),
     ...getLiveLookingBack().map(p => `/looking-back/${p.slug}`),
+    ...getLiveBiographies().map(b => `/history/biographies/${b.slug}`),
+    ...[...new Set(getLiveSeriesParts().map(p => p.seriesSlug))].map(slug => `/history/series/${slug}`),
+    ...getLiveSeriesParts().map(p => `/history/series/${p.seriesSlug}/${p.slug}`),
     ...getPlayerPageSlugs().map(slug => `/players/${slug}`),
   ].map(route => route === '/' ? origin : new URL(route, origin).href);
   assert.deepEqual(urls(entries).sort(), [...new Set(expected)].sort());
@@ -36,7 +40,7 @@ test('sitemap lists only the public pages and retained articles', () => {
     assert.equal(url.search, '');
     assert.equal(url.hash, '');
     assert.equal(entry.lastModified, undefined);
-    assert.doesNotMatch(url.pathname, /^\/(preview|docs|content|brief|history|this-week|match-centre|search)(\/|$)/);
+    assert.doesNotMatch(url.pathname, /^\/(preview|docs|content|brief|this-week|match-centre|search)(\/|$)/);
     assert.ok(!['/archive', '/archive/matches', '/archive/people', '/archive/seasons'].includes(url.pathname));
   }
 });
@@ -90,12 +94,14 @@ test('robots allows public stories, blocks previews and source material, and adv
   }
 });
 
-test('History stays removed: no routes, content or navigation, and old URLs redirect home', async () => {
-  for (const dir of ['app/history', 'app/this-week', 'app/search', 'content/history', 'content/this-week']) assert.equal(fs.existsSync(dir), false, `${dir} must not return`);
-  assert.doesNotMatch(fs.readFileSync('app/components/SiteHeader.tsx', 'utf8'), /href: "\/history"/);
+test('the old History section stays removed: only the small hub exists, and old sub-section URLs redirect home', async () => {
+  for (const dir of ['app/this-week', 'app/search', 'content/history', 'content/this-week', 'app/history/matches', 'app/history/seasons', 'app/history/people', 'app/history/explore', 'app/history/on-this-day']) assert.equal(fs.existsSync(dir), false, `${dir} must not return`);
   const { default: config } = await import('../next.config.ts');
   const redirects = await config.redirects();
-  for (const source of ['/history', '/history/:path*', '/this-week', '/search']) {
+  for (const source of ['/this-week', '/search', '/history/matches', '/history/seasons/:path*', '/history/people/:path*', '/history/explore', '/history/on-this-day']) {
     assert.ok(redirects.some(r => r.source === source && r.destination === '/' && r.permanent), `${source} redirects home`);
   }
+  // The hub and its two homes are not redirected.
+  for (const source of ['/history', '/history/:path*', '/history/biographies', '/history/series']) assert.ok(!redirects.some(r => r.source === source), `${source} is a real page`);
+  for (const workflow of fs.existsSync('.github/workflows') ? fs.readdirSync('.github/workflows') : []) assert.doesNotMatch(workflow, /histor|biograph/i, 'no History publisher workflow');
 });

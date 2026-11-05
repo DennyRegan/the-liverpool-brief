@@ -178,8 +178,8 @@ test('keepsakes carry the publication byline and no AI disclosure; the disclosur
   assert.match(fs.readFileSync('app/about/page.tsx', 'utf8'), /Looking Back pieces are researched and drafted with AI tools from published sources, then checked and edited before publication\./);
 });
 
-test('Looking Back is in the main navigation after Football Observed, and History has not returned', () => {
+test('Looking Back is in the main navigation after Football Observed, and the old History section has not returned', () => {
   const header = fs.readFileSync('app/components/SiteHeader.tsx', 'utf8');
   assert.ok(header.indexOf('"Football Observed"') < header.indexOf('"Looking Back"'));
-  for (const dir of ['app/history', 'app/this-week', 'content/history', 'content/this-week']) assert.equal(fs.existsSync(dir), false);
+  for (const dir of ['app/this-week', 'content/history', 'content/this-week']) assert.equal(fs.existsSync(dir), false);
 });
