@@ -1,7 +1,7 @@
 ---
 title: "Billy Liddell: the player who sustained Liverpool"
 slug: "billy-liddell"
-date: "2026-11-09"
+date: "2026-11-05"
 historicalPeriod: "1938–1961"
 decade: "1950s"
 excerpt: "Billy Liddell scored 228 goals in 534 games for Liverpool. He won the league once, then stayed through eight seasons in the Second Division."

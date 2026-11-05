@@ -3,7 +3,7 @@ seriesSlug: "klopps-liverpool"
 partNumber: 1
 title: "The Inheritance"
 slug: "the-inheritance"
-date: "2026-11-09"
+date: "2026-11-05"
 excerpt: "In October 2015 Liverpool were tenth, eighteen months on from nearly winning the league. What had gone wrong, and what did the owners think they were buying in Jürgen Klopp?"
 ---
 
