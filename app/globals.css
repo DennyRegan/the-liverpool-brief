@@ -122,8 +122,8 @@ button { cursor: pointer; }
 
 .footer-links { display: flex; flex-wrap: wrap; gap: 22px; }
 @media (max-width: 700px) {
- .header-bottom nav { width: 100%; display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto; gap: 0 12px; }
- .header-bottom nav a { display: flex; justify-content: center; align-items: center; min-height: 44px; padding: 12px 0; font-size: 13px; white-space: nowrap; }
+ .header-bottom nav { width: 100%; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0 10px; }
+ .header-bottom nav a { display: flex; justify-content: center; align-items: center; min-height: 44px; padding: 12px 0; font-size: 12.5px; white-space: nowrap; }
 }
 
 

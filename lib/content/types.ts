@@ -71,3 +71,40 @@ export const LookingBackSchema = z.object({
 }).strict().refine(piece => piece.eventDate <= piece.date, { message: "eventDate cannot be after the publication date", path: ["eventDate"] });
 export type LookingBack = z.infer<typeof LookingBackSchema>;
 
+
+// History: a small hub with Biographies and Series (Looking Back is separate).
+// Strict, so unknown keys (a sources list, retired History taxonomy fields) fail the
+// build; attribution stays inline in the prose. `role` (for the header dateline,
+// for example "Forward") is optional.
+export const BiographySchema = z.object({
+    title: z.string().trim().min(1),
+    slug: SlugSchema,
+    date: z.iso.date(),
+    historicalPeriod: z.string().trim().min(1),
+    decade: z.string().regex(/^\d{3}0s$/, 'Use a decade such as "1950s"'),
+    excerpt: z.string().trim().min(1),
+    role: z.string().trim().min(1).optional(),
+    body: z.string().trim().min(1),
+}).strict();
+export type Biography = z.infer<typeof BiographySchema>;
+
+export const SeriesPartSchema = z.object({
+    seriesSlug: SlugSchema,
+    partNumber: z.number().int().positive(),
+    title: z.string().trim().min(1),
+    slug: SlugSchema,
+    date: z.iso.date(),
+    excerpt: z.string().trim().min(1),
+    body: z.string().trim().min(1),
+}).strict();
+export type SeriesPart = z.infer<typeof SeriesPartSchema>;
+
+// content/series/series.json: one entry per series (its name and length). Parts
+// are separate files, so a new part needs only a new file; a new series needs one
+// entry here.
+export const SeriesDefinitionSchema = z.object({
+    slug: SlugSchema,
+    title: z.string().trim().min(1),
+    totalParts: z.number().int().positive(),
+}).strict();
+export type SeriesDefinition = z.infer<typeof SeriesDefinitionSchema>;

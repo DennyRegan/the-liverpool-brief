@@ -18,7 +18,7 @@ The Brief, History, This Week, Match Centre, Search, the AI drafting pipeline an
 - The automatic History publishing authority of 1 October 2026 is revoked. The three scheduled GitHub workflows are disabled and must stay disabled.
 
 ## Navigation
-Home | Articles | Football Observed | Looking Back. About is in the shared footer, including the bottom of the homepage. Maintain mobile layout.
+Home | Articles | Football Observed | History | Looking Back. About is in the shared footer, including the bottom of the homepage. Maintain mobile layout.
 
 Articles provides All, Opinion, Matchday, History and Football Observed collections, with Analysis also available when published. Football Observed is Denny’s weekly general-football column, reached through the main navigation and Articles category navigation at its preserved `/regan-on-football` URL. It uses existing Opinion articles tagged exactly `regan-on-football`, with canonical `/articles/[slug]` URLs. Editions are organised automatically from approved content; there is no automated writing, scheduling or publishing. See `docs/regan-on-football.md` for the publishing contract.
 
@@ -69,3 +69,16 @@ Looking Back (`/looking-back`) is a series of short keepsakes, each about 150–
 Keepsakes carry the byline "The Liverpool Brief", never Denny's name. The AI disclosure lives on the About page only; never add it to keepsakes, their template or their image.
 
 Looking Back is **not History** and must not grow into History: no eras, seasons, people, series, taxonomy, collections beyond the weekly list, This Week, calendars or automated writing. Any piece touching Heysel or Hillsborough needs Denny's approval of that piece by name.
+
+## History hub — 5 November 2026
+
+A product decision by Denny, made after the 31 October removal and **overriding its "do not rebuild" rule for this smaller version only**. The old History section stays removed: the biography and match-report publishers, the backdated match-report library, the History taxonomy (`content/history`, eras, entities, seasons, atlases), the 1987–88 atlas, This Week, Search and every old sub-route. Old `/history/matches`, `/seasons`, `/people`, `/explore` and `/on-this-day` URLs, `/this-week` and `/search` still redirect permanently to the homepage. Tag `pre-history-hub` marks the commit before this work. Do not rebuild anything else from History without Denny asking by name.
+
+What exists now:
+- `/history` is a hub linking to three homes: Looking Back (unchanged, with its newspaper-style look), Biographies and Series. History sits next to Looking Back in the main navigation, which keeps Looking Back for now.
+- Biographies: `content/biographies/[slug].md` → `/history/biographies` (index grouped by decade, oldest first) and `/history/biographies/[slug]`. Strict `BiographySchema`: `title`, `slug`, `date` (publication date), `historicalPeriod` (the years, e.g. "1938–1961"), `decade` (e.g. "1950s"), `excerpt`, optional `role` (shown in the header dateline) and body. No sources field: attribution stays inline in the text.
+- Series: `content/series/series.json` lists each series (`slug`, `title`, `totalParts`; the first is "Klopp's Liverpool", 21 parts); each part is `content/series/[seriesSlug]/[slug].md` with strict `SeriesPartSchema` (`seriesSlug`, `partNumber`, `title`, `slug`, `date`, `excerpt`, body). Pages are generated from the files: `/history/series`, `/history/series/[series]`, `/history/series/[series]/[slug]` ("Part N of 21", previous and next links). A new part needs only a new file; a new series needs one entry in `series.json`.
+- One shared header (`HistoryHeader`: masthead, dateline, headline) on every History page. Biographies and series parts use plain readable text: no columns, drop caps or fake ageing. The newspaper look stays on Looking Back only.
+- Going live uses the Looking Back rule, in one shared module (`lib/content/go-live.ts`): a piece goes live at midnight Europe/London on the Monday of its week and stays visible. On production, pieces not yet live appear nowhere (indexes, pages, sitemap); previews and local show them with a "Scheduled for" banner. Pages revalidate hourly. This is the only timing in History; nothing publishes on a timer.
+- The scheduled History publishers (the three GitHub workflows) stay disabled. Do not add workflows, cron jobs, AI writing or automated publishing to History.
+- Content is only what Denny pastes and approves. Never invent a biography or series part or add placeholder content. Test data lives in `tests/fixtures/history/` and is never read by the site.

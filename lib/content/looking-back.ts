@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { LookingBackSchema } from "./types.ts";
-import { getLondonToday } from "./homepage.ts";
+import { formatDayDate, isLive, isProduction, liveFrom, onlyLive, weekEndingSunday, withGoLive } from "./go-live.ts";
 
 export const LOOKING_BACK_PATH = "/looking-back";
 // Keepsakes always carry the publication byline, never a personal one.
@@ -30,57 +30,23 @@ export function getLookingBackPiece(slug: string, root = process.cwd()) {
 }
 
 // ---- Scheduled publishing -------------------------------------------------
-// `date` is the anniversary. The whole Monday–Sunday week goes live together:
-// a piece goes live at midnight Europe/London on the Monday of the week its
-// date falls in (getLondonToday, the same logic as the homepage) and stays live
-// permanently. On production,
-// pieces not yet live do not exist anywhere. Everywhere else (Vercel previews,
-// local) they are shown with a "Scheduled for" banner.
-
-/** True only on the Vercel production deployment. */
-export function isProduction(env: Record<string, string | undefined> = process.env) {
-  return env.VERCEL_ENV === "production";
-}
-
-/** The day a piece goes live: the Monday of the week its date falls in. */
-export function liveFrom(piece: { date: string }) {
-  const date = new Date(`${piece.date}T12:00:00Z`);
-  date.setUTCDate(date.getUTCDate() - (date.getUTCDay() + 6) % 7);
-  return date.toISOString().slice(0, 10);
-}
-
-export function isLive(piece: { date: string }, now = new Date()) {
-  return liveFrom(piece) <= getLondonToday(now);
-}
+// The go-live rule (Monday of the piece's week, midnight Europe/London, live
+// permanently, hidden on production until then) is shared with History and
+// lives in ./go-live.ts. Re-exported here so Looking Back callers are unchanged.
+export { isProduction, liveFrom, isLive, formatDayDate, weekEndingSunday };
 
 /** Pieces this deployment may show: live only on production, everything (flagged) elsewhere. */
 export function getVisibleLookingBack(now = new Date(), env: Record<string, string | undefined> = process.env, root = process.cwd()) {
-  const pieces = getLookingBack(root).map(piece => ({ ...piece, liveFrom: liveFrom(piece), scheduled: !isLive(piece, now) }));
-  return isProduction(env) ? pieces.filter(piece => !piece.scheduled) : pieces;
+  return withGoLive(getLookingBack(root), now, env);
 }
 
 /** Live pieces only, whatever the environment (used by the sitemap). */
 export function getLiveLookingBack(now = new Date(), root = process.cwd()) {
-  return getLookingBack(root).filter(piece => isLive(piece, now));
+  return onlyLive(getLookingBack(root), now);
 }
 
 export function getVisibleLookingBackPiece(slug: string, now = new Date(), env: Record<string, string | undefined> = process.env) {
   return getVisibleLookingBack(now, env).find(piece => piece.slug === slug);
-}
-
-/** "Sunday 1 November 2026" for an ISO date, independent of the server time zone. */
-export function formatDayDate(iso: string) {
-  const parts = new Intl.DateTimeFormat("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })
-    .formatToParts(new Date(`${iso}T12:00:00Z`));
-  const part = (type: string) => parts.find(p => p.type === type)!.value;
-  return `${part("weekday")} ${part("day")} ${part("month")} ${part("year")}`;
-}
-
-/** The Sunday ending the Monday–Sunday week that contains this date. */
-export function weekEndingSunday(iso: string) {
-  const date = new Date(`${iso}T12:00:00Z`);
-  date.setUTCDate(date.getUTCDate() + (7 - date.getUTCDay()) % 7);
-  return date.toISOString().slice(0, 10);
 }
 
 /** Groups pieces by the Monday–Sunday week their date falls in: newest week first, earliest piece first within a week. */
