@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { getReganOnFootballEditions, REGAN_ON_FOOTBALL_PATH } from '../lib/content/regan-on-football.ts';
+import { getReganOnFootballEditions, isReganOnFootball, REGAN_ON_FOOTBALL_PATH } from '../lib/content/regan-on-football.ts';
 import { getEditionContents } from '../lib/edition-contents.ts';
 import { getArticles } from '../lib/content/articles.ts';
 import { getWriting } from '../lib/content/writing.ts';
@@ -57,7 +57,7 @@ for (const edition of editions) {
     assert.ok(landing.includes(`href="${route}#${section.id}"`) || edition !== editions[0]);
   }
 }
-const ordinary = getArticles().find(a => !editions.some(e => e.slug === a.slug));
+const ordinary = getArticles().find(a => !isReganOnFootball(a));
 if (ordinary) {
   const html = await page(`/articles/${ordinary.slug}`);
   assert.ok(!html.includes('aria-label="In this edition"'));

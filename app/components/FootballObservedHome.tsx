@@ -8,7 +8,7 @@ export function FootballObservedHome({ article }: { article: Article }) {
     <header className="observed-home-heading">
       <div>
         <h2 id="home-observed-heading"><Link href={REGAN_ON_FOOTBALL_PATH}>Football Observed</Link></h2>
-        <p className="column-byline">A weekly column by Denny Regan</p>
+        <p className="column-byline">A weekly column and occasional articles by Denny Regan</p>
       </div>
       <Link className="collection-link" href={REGAN_ON_FOOTBALL_PATH}>All editions →</Link>
     </header>
