@@ -1,7 +1,10 @@
-# Klopp's Liverpool, Part 4: The Rise of a Contender
-
-*Working title. Suggested excerpt: In 2017–18 Liverpool scored more goals in a Champions League season than any club before them and reached their first European Cup final in eleven years. In October they had been ninth. This is the story of how the attack carried them to Kyiv, and what the final revealed.*
-
+---
+seriesSlug: "klopps-liverpool"
+partNumber: 4
+title: "The rise of a contender"
+slug: "the-rise-of-a-contender"
+date: "2026-11-06"
+excerpt: "In 2017–18 Liverpool scored more goals in a Champions League season than any club before them and reached their first European Cup final in eleven years. In October they had been ninth. This is the story of how the attack carried them to Kyiv, and what the final revealed."
 ---
 
 The apology to Southampton in early June closed one line of inquiry. Fifteen days later Liverpool opened another. On Thursday 22 June 2017 the club announced the signing of Mohamed Salah from Roma, effective from 1 July, on a five-year contract. Roma gave the fee as €42m, rising by up to €8m in add-ons. In sterling Sky Sports put the fee at up to £34.3m, which it said was just short of the club record, though some headlines called it a club record.

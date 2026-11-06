@@ -157,7 +157,7 @@ export function getFeatures(root = process.cwd()) {
 
 // ---- The Looking Back hub ---------------------------------------------------
 
-export type HubItem = { type: "Keepsake" | "Biography" | "Series" | "Feature"; label: string; title: string; excerpt: string; href: string; date: string; eventDate?: string };
+export type HubItem = { type: "Keepsake" | "Biography" | "Series" | "Feature"; label: string; title: string; excerpt: string; href: string; date: string; eventDate?: string; partNumber?: number };
 
 /** "6 November 1982" for an ISO date. */
 function formatEventDate(iso: string) {
@@ -167,7 +167,7 @@ function formatEventDate(iso: string) {
 /**
  * Everything the hub shows, from live pieces only (on every environment), so it
  * matches production. The lead is the newest series part or biography; a series
- * part wins a tie.
+ * part wins a tie, and the higher part number wins between parts of the same date.
  */
 export function getLookingBackHub(now = new Date(), root = process.cwd()) {
   const definitions = getSeriesDefinitions(root);
@@ -178,14 +178,14 @@ export function getLookingBackHub(now = new Date(), root = process.cwd()) {
   const items: HubItem[] = [
     ...parts.map(part => {
       const series = definitions.find(d => d.slug === part.seriesSlug)!;
-      return { type: "Series" as const, label: `${series.title}, part ${part.partNumber} of ${series.totalParts}`, title: part.title, excerpt: part.excerpt, href: `${SERIES_PATH}/${part.seriesSlug}/${part.slug}`, date: part.date };
+      return { type: "Series" as const, label: `${series.title}, part ${part.partNumber} of ${series.totalParts}`, title: part.title, excerpt: part.excerpt, href: `${SERIES_PATH}/${part.seriesSlug}/${part.slug}`, date: part.date, partNumber: part.partNumber };
     }),
     ...people.map(person => ({ type: "Biography" as const, label: `Biography, ${person.historicalPeriod}`, title: person.title, excerpt: person.excerpt, href: `${BIOGRAPHIES_PATH}/${person.slug}`, date: person.date })),
     ...keepsakes.map(piece => ({ type: "Keepsake" as const, label: `Keepsake, ${formatEventDate(piece.eventDate)}`, title: piece.title, excerpt: piece.excerpt, href: `${LOOKING_BACK_PATH}/${piece.slug}`, date: piece.date, eventDate: piece.eventDate })),
     ...features.map(article => ({ type: "Feature" as const, label: "Feature", title: article.title, excerpt: article.excerpt, href: `/archive/${article.slug}`, date: article.date })),
   ];
   const order = { Series: 0, Biography: 1, Keepsake: 2, Feature: 3 };
-  const newestFirst = (a: HubItem, b: HubItem) => b.date.localeCompare(a.date) || order[a.type] - order[b.type] || a.title.localeCompare(b.title);
+  const newestFirst = (a: HubItem, b: HubItem) => b.date.localeCompare(a.date) || order[a.type] - order[b.type] || (b.partNumber ?? 0) - (a.partNumber ?? 0) || a.title.localeCompare(b.title);
   items.sort(newestFirst);
   const lead = items.find(item => item.type === "Series" || item.type === "Biography");
   const leadPart = lead?.type === "Series" ? parts.find(part => `${SERIES_PATH}/${part.seriesSlug}/${part.slug}` === lead.href) : undefined;
