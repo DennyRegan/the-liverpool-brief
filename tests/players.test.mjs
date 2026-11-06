@@ -34,7 +34,7 @@ test('player pages exist only for players with three or more articles, listed ne
     const dates = getPlayerArticles(slug).map(article => article.date);
     assert.deepEqual(dates, [...dates].sort().reverse(), slug);
   }
-  assert.deepEqual(pages.map(playerName), ['Alexander Isak', 'Florian Wirtz', 'Kenny Dalglish', 'Ronald Araújo', 'Víctor Muñoz']);
+  assert.deepEqual(pages.map(playerName), ['Alexander Isak', 'Dominik Szoboszlai', 'Florian Wirtz', 'Kenny Dalglish', 'Ronald Araújo', 'Víctor Muñoz']);
 });
 
 test('every registered player is tagged somewhere, and no article is tagged twice with the same player', () => {
