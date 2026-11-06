@@ -81,3 +81,9 @@ export function getSourceLink(source: string): { href: string; label: string } |
     return null;
   }
 }
+
+/** Reader-facing category label. Retained factual Archive pieces are stored as
+ * "History" but shown as Features, part of Looking Back. */
+export function categoryLabel(category: string) {
+  return category === "History" ? "Feature" : category;
+}

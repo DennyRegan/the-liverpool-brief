@@ -1,0 +1,122 @@
+/* Looking Back: the hub, its section indexes (Biographies, Series, Features,
+   Keepsakes list) and the biography and series pages. Mobile first. Plain
+   readable text throughout; the newspaper-cutting look belongs to individual
+   keepsakes only (looking-back.css). */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+
+/* ---- Shared section header (index pages and pieces) ---------------------- */
+.history-page { width: min(720px, calc(100% - 40px)); margin: 24px auto 64px; }
+.history-header { border-top: 3px solid var(--foreground); padding: 10px 0 20px; margin-bottom: 8px; }
+.history-masthead { font-size: 13px; font-weight: 600; margin: 0; }
+.history-masthead a { color: var(--accent-dark); text-decoration: none; display: inline-flex; align-items: center; min-height: 36px; }
+.history-masthead a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.history-dateline { color: var(--muted); font-size: 13px; margin: 6px 0 0; }
+.history-headline { font: 700 clamp(30px, 8vw, 44px)/1.1 var(--font-source-serif), Georgia, serif; letter-spacing: -.025em; margin: 6px 0 0; text-wrap: balance; overflow-wrap: anywhere; }
+.history-standfirst { color: var(--muted); font-size: 16px; line-height: 1.55; margin: 10px 0 0; max-width: 56ch; }
+.history-count { color: var(--foreground); white-space: nowrap; }
+.history-scheduled { display: block; background: #fff3cd; color: #5c4400; border: 1px solid #e3c260; border-radius: 3px; padding: 4px 10px; font-size: 13px; font-weight: 600; margin: 0 0 16px; }
+
+.history-body { font: 400 18px/1.7 var(--font-source-serif), Georgia, serif; max-width: 66ch; border-top: 1px solid var(--line); padding-top: 22px; }
+.history-body p { margin: 0 0 1em; }
+.history-body h2, .history-body h3 { font: 600 22px/1.3 var(--font-source-serif), Georgia, serif; margin: 1.6em 0 .5em; }
+.history-body hr { border: 0; text-align: center; margin: 2em 0; }
+.history-body hr::after { content: "* * *"; color: var(--muted); letter-spacing: .5em; }
+.history-body a { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---- Index lists (Biographies, Series, Features, Keepsakes) -------------- */
+.history-decade { margin-top: 28px; }
+.history-decade-heading { font: 600 22px/1.2 var(--font-source-serif), Georgia, serif; color: var(--accent-dark); border-bottom: 1px solid var(--foreground); padding-bottom: 8px; margin: 0; }
+.history-list { list-style: none; margin: 0; padding: 0; }
+.history-list li { border-bottom: 1px solid var(--line); padding: 18px 0 20px; }
+.history-list-meta { color: var(--accent-dark); font-size: 13px; margin: 0; }
+.history-list h3 { font: 600 22px/1.22 var(--font-source-serif), Georgia, serif; letter-spacing: -.015em; margin: 5px 0 8px; text-wrap: balance; overflow-wrap: anywhere; }
+.history-list h3 a { text-decoration: none; }
+.history-list h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.history-list-excerpt { color: var(--muted); font-size: 15px; line-height: 1.6; margin: 0; max-width: 62ch; }
+
+.history-part-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; border-top: 1px solid var(--line); margin-top: 36px; padding-top: 16px; }
+.history-part-nav a { display: block; min-height: 44px; font-size: 14px; color: var(--accent-dark); text-decoration: none; }
+.history-part-nav a:hover { text-decoration: underline; }
+.history-part-nav small { display: block; color: var(--muted); font-size: 12px; }
+.history-part-nav .next { text-align: right; grid-column: 2; }
+.history-part-nav .previous { grid-column: 1; }
+
+/* ---- Hub ------------------------------------------------------------------ */
+.lbh { width: min(1040px, calc(100% - 40px)); margin: 24px auto 72px; }
+.lbh a { text-decoration: none; }
+.lbh-masthead { border-top: 3px solid var(--foreground); border-bottom: 1px solid var(--foreground); padding: 12px 0 16px; }
+.lbh-masthead h1 { font: 700 clamp(40px, 11vw, 72px)/1 var(--font-source-serif), Georgia, serif; letter-spacing: -.035em; margin: 0; }
+.lbh-masthead p { color: var(--muted); font-size: 15px; line-height: 1.5; margin: 10px 0 0; }
+
+/* The lead: one big figure (the part number, or the years at the club) beside the story. */
+.lbh-lead { display: grid; grid-template-columns: auto 1fr; grid-template-areas: "fig kicker" "fig title" "ex ex" "read read"; gap: 0 16px; padding: 26px 0 30px; border-bottom: 1px solid var(--line); }
+/* On phones the excerpt runs full width under the figure and headline. */
+.lbh-lead-text { display: contents; }
+.lbh-figure { grid-area: fig; }
+.lbh-kicker { grid-area: kicker; align-self: end; }
+.lbh-lead h2 { grid-area: title; }
+.lbh-lead-excerpt { grid-area: ex; }
+.lbh-read { grid-area: read; justify-self: start; }
+.lbh-figure { margin: 0; color: var(--accent); font-family: var(--font-source-serif), Georgia, serif; display: flex; flex-direction: column; align-items: flex-start; }
+.lbh-figure span { font-size: 76px; font-weight: 700; line-height: .82; letter-spacing: -.05em; font-variant-numeric: lining-nums; }
+.lbh-figure small { color: var(--muted); font-size: 14px; font-weight: 400; margin-top: 10px; white-space: nowrap; }
+.lbh-lead--years { grid-template-columns: 1fr; grid-template-areas: "fig" "kicker" "title" "ex" "read"; }
+.lbh-lead--years .lbh-figure { flex-direction: row; align-items: baseline; gap: 10px; margin-bottom: 10px; }
+.lbh-lead--years .lbh-figure span { font-size: 44px; line-height: 1; letter-spacing: -.03em; }
+.lbh-lead--years .lbh-figure small { margin-top: 0; }
+.lbh-kicker { color: var(--accent-dark); font-size: 14px; font-weight: 600; margin: 0; }
+.lbh-lead h2 { font: 700 clamp(32px, 9vw, 56px)/1.04 var(--font-source-serif), Georgia, serif; letter-spacing: -.03em; margin: 6px 0 12px; text-wrap: balance; overflow-wrap: anywhere; }
+.lbh-lead h2 a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+.lbh-lead-excerpt { font: 400 18px/1.55 var(--font-source-serif), Georgia, serif; margin: 0; max-width: 46ch; }
+.lbh-read { display: inline-flex; align-items: center; min-height: 44px; margin-top: 10px; color: var(--accent-dark); font-size: 15px; font-weight: 600; border-bottom: 2px solid var(--accent); }
+.lbh-read:hover { color: var(--accent); }
+
+/* Three doors: distinct sections, each with its own rule and count. */
+.lbh-doors { margin-top: 8px; }
+.lbh-doors ul { list-style: none; margin: 0; padding: 0; }
+.lbh-doors li { border-bottom: 1px solid var(--line); }
+.lbh-doors li a { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "title count" "text text"; gap: 4px 16px; padding: 18px 0 20px; }
+.lbh-door-title { grid-area: title; font: 700 26px/1.15 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; }
+.lbh-door-text { grid-area: text; color: var(--muted); font-size: 15px; line-height: 1.5; }
+.lbh-door-count { grid-area: count; align-self: center; color: var(--accent-dark); font-size: 13px; font-weight: 600; white-space: nowrap; }
+.lbh-doors li a:hover .lbh-door-title { color: var(--accent-dark); }
+.lbh-features { color: var(--muted); font-size: 15px; margin: 14px 0 0; }
+.lbh-features a { color: var(--accent-dark); font-weight: 600; border-bottom: 1px solid currentColor; }
+
+/* Latest strip. */
+.lbh-latest { margin-top: 44px; }
+.lbh-latest > h2 { font: 700 24px/1.2 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; border-bottom: 1px solid var(--foreground); padding-bottom: 8px; margin: 0; }
+.lbh-latest ol { list-style: none; margin: 0; padding: 0; }
+.lbh-latest li { border-bottom: 1px solid var(--line); padding: 18px 0 20px; }
+.lbh-item-type { color: var(--accent-dark); font-size: 13px; margin: 0; }
+.lbh-latest h3 { font: 600 21px/1.24 var(--font-source-serif), Georgia, serif; letter-spacing: -.015em; margin: 5px 0 8px; text-wrap: balance; overflow-wrap: anywhere; }
+.lbh-latest h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.lbh-item-excerpt { color: var(--muted); font-size: 15px; line-height: 1.6; margin: 0; }
+
+@media (min-width: 760px) {
+  .history-page { margin-top: 40px; }
+  .lbh { margin-top: 40px; }
+  .lbh-masthead { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; }
+  .lbh-masthead p { margin: 0; text-align: right; max-width: 30ch; }
+  .lbh-lead { grid-template-columns: 180px 1fr; grid-template-areas: "fig text"; gap: 0 40px; padding: 40px 0 44px; }
+  .lbh-lead-text { display: block; grid-area: text; }
+  .lbh-figure { align-items: flex-end; text-align: right; }
+  .lbh-figure span { font-size: 160px; }
+  .lbh-lead--years { grid-template-columns: 1fr; grid-template-areas: "fig" "text"; }
+  .lbh-lead--years .lbh-figure { align-items: baseline; text-align: left; }
+  .lbh-lead--years .lbh-figure span { font-size: 64px; }
+  .lbh-lead-excerpt { font-size: 20px; }
+  .lbh-doors { margin-top: 0; }
+  .lbh-doors ul { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--line); }
+  .lbh-doors li { border-bottom: 0; border-top: 2px solid var(--accent); }
+  .lbh-doors li + li { border-left: 1px solid var(--line); }
+  .lbh-doors li a { display: flex; flex-direction: column; gap: 8px; height: 100%; padding: 22px 24px 26px; }
+  .lbh-doors li:first-child a { padding-left: 0; }
+  .lbh-doors li:last-child a { padding-right: 0; }
+  .lbh-door-count { margin-top: auto; padding-top: 8px; align-self: flex-start; }
+  .lbh-latest ol { display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 40px; }
+}
+@media (min-width: 1000px) {
+  .lbh-latest ol { grid-template-columns: repeat(3, 1fr); }
+}
+.history-list-date { color: var(--muted); font-size: 13px; margin: 8px 0 0; }

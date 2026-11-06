@@ -9,12 +9,12 @@ const { ArticleSchema } = await import('../lib/content/types.ts');
 
 const read = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 
-test('Articles keeps one canonical collection with Opinion, Analysis and History views', () => {
+test('Articles keeps one canonical collection with Opinion, Analysis and Features views', () => {
   const collection = read('app/components/ArticleCollection.tsx');
   assert.doesNotMatch(collection, /Article categories|Archive subcategories|filter\s*=/);
   assert.match(collection, /\[featured, \.\.\.rest\] = articles/);
   const page = read('app/articles/page.tsx');
-  for (const type of ['opinion', 'analysis', 'history']) assert.match(page, new RegExp(`"${type}"`));
+  for (const type of ['opinion', 'analysis', 'features']) assert.match(page, new RegExp(`"${type}"`));
   assert.doesNotMatch(page, /Archive subcategories|type=archive/);
 });
 
@@ -83,8 +83,8 @@ test('the Analysis tab sits directly after Opinion, and only once an Analysis ar
   const opinion = nav.indexOf('["Opinion"'), analysis = nav.indexOf('["Analysis"'), matchday = nav.indexOf('["Matchday"');
   assert.ok(opinion < analysis && analysis < matchday);
   assert.match(nav, /\.\.\.\(hasAnalysis \? \[\["Analysis", "\/articles\?type=analysis"\]\] : \[\]\)/);
-  assert.match(read('app/articles/page.tsx'), /hasAnalysis=\{types\.some\(\(\[label\]\) => label === "Analysis"\)\}/);
-  assert.match(read('app/articles/page.tsx'), /TYPES\.filter\(\(\[label\]\) => writing\.some\(article => article\.category === label\)\)/);
+  assert.match(read('app/articles/page.tsx'), /hasAnalysis=\{types\.some\(\(\[category\]\) => category === "Analysis"\)\}/);
+  assert.match(read('app/articles/page.tsx'), /TYPES\.filter\(\(\[category\]\) => writing\.some\(article => article\.category === category\)\)/);
 });
 
 

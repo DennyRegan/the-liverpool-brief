@@ -1,35 +1,69 @@
 import Link from "next/link";
 import { SiteHeader } from "@/app/components/SiteHeader";
-import { formatDayDate, getVisibleLookingBack, groupByWeek, LOOKING_BACK_PATH } from "@/lib/content/looking-back";
+import { plural } from "@/app/components/HistoryHeader";
+import { BIOGRAPHIES_PATH, getLookingBackHub, SERIES_PATH } from "@/lib/content/history";
+import { FEATURES_PATH, KEEPSAKES_PATH, LOOKING_BACK_PATH } from "@/lib/content/looking-back";
 import { socialMetadata } from "@/lib/social-metadata";
-import "./looking-back.css";
+import "./history.css";
 
-// Regenerated at most hourly, so dated pieces appear without a new deploy.
+// Regenerated at most hourly, so pieces appear on their Monday without a deploy.
 export const revalidate = 3600;
 
 export const metadata = socialMetadata(
   "Looking Back | The Liverpool Brief",
-  "One short keepsake a week from Liverpool's past.",
+  "Keepsakes, biographies, series and features from Liverpool's past.",
   LOOKING_BACK_PATH,
 );
 
-export default function LookingBackPage() {
-  const weeks = groupByWeek(getVisibleLookingBack());
+export default function LookingBackHub() {
+  const { lead, counts, latest } = getLookingBackHub();
+  const doors = [
+    { href: KEEPSAKES_PATH, title: "Keepsakes", text: "The best moments from Liverpool's past, every week.", count: plural(counts.keepsakes, "keepsake") },
+    { href: BIOGRAPHIES_PATH, title: "Biographies", text: "The people who made Liverpool, by decade.", count: plural(counts.biographies, "biography", "biographies") },
+    { href: SERIES_PATH, title: "Series", text: "Longer stories told part by part.", count: counts.series === 1 ? `${counts.seriesParts} of ${counts.seriesPartsTotal} parts` : plural(counts.seriesParts, "part") },
+  ];
   return <>
     <SiteHeader active="looking-back" />
-    <main id="main-content" className="site-width collection">
-      <h1 className="collection-title">Looking Back</h1>
-      {weeks.length ? weeks.map(week => <section key={week.sunday} className="lb-week" aria-labelledby={`week-${week.sunday}`}>
-        <h2 id={`week-${week.sunday}`} className="lb-week-heading">{week.heading}</h2>
-        <ol className="lb-list">
-          {week.pieces.map(piece => <li key={piece.slug}>
-            {piece.scheduled && <p className="lb-scheduled" role="note">Scheduled for {formatDayDate(piece.liveFrom)}</p>}
-            <p className="lb-list-dateline">{piece.dateline}</p>
-            <h3><Link href={`${LOOKING_BACK_PATH}/${piece.slug}`}>{piece.title}</Link></h3>
-            <p className="preview-excerpt">{piece.excerpt}</p>
+    <main id="main-content" className="lbh">
+      <header className="lbh-masthead">
+        <h1>Looking Back</h1>
+        <p>Keepsakes, lives and longer stories from Liverpool&rsquo;s past.</p>
+      </header>
+
+      {lead && <article className={`lbh-lead${lead.type === "Biography" ? " lbh-lead--years" : ""}`} aria-labelledby="lbh-lead-title">
+        <p className="lbh-figure" aria-hidden="true"><span>{lead.figure}</span><small>{lead.figureNote}</small></p>
+        <div className="lbh-lead-text">
+          <p className="lbh-kicker">{lead.kicker}{lead.type === "Series" && <span className="visually-hidden">, {lead.label.split(", ").pop()}</span>}</p>
+          <h2 id="lbh-lead-title"><Link href={lead.href}>{lead.title}</Link></h2>
+          <p className="lbh-lead-excerpt">{lead.excerpt}</p>
+          <Link className="lbh-read" href={lead.href}>{lead.readLabel}</Link>
+        </div>
+      </article>}
+
+      <section className="lbh-doors" aria-labelledby="lbh-doors-heading">
+        <h2 id="lbh-doors-heading" className="visually-hidden">Sections</h2>
+        <ul>
+          {doors.map(door => <li key={door.href}>
+            <Link href={door.href}>
+              <span className="lbh-door-title">{door.title}</span>
+              <span className="lbh-door-text">{door.text}</span>
+              <span className="lbh-door-count">{door.count}</span>
+            </Link>
+          </li>)}
+        </ul>
+        {counts.features > 0 && <p className="lbh-features"><Link href={FEATURES_PATH}>Features</Link>: {plural(counts.features, "longer historical piece")}.</p>}
+      </section>
+
+      {latest.length > 0 && <section className="lbh-latest" aria-labelledby="lbh-latest-heading">
+        <h2 id="lbh-latest-heading">Latest</h2>
+        <ol>
+          {latest.map(item => <li key={item.href}>
+            <p className="lbh-item-type">{item.label}</p>
+            <h3><Link href={item.href}>{item.title}</Link></h3>
+            <p className="lbh-item-excerpt">{item.excerpt}</p>
           </li>)}
         </ol>
-      </section>) : <p className="empty-state">The first keepsake will appear here when published.</p>}
+      </section>}
     </main>
   </>;
 }

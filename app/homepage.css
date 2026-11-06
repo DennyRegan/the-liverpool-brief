@@ -7,7 +7,7 @@
 .home-lead-block .home-lead h1 { max-width: 34ch; }
 /* The column follows the Liverpool sections, so it opens with a clear section break. */
 .home-history { margin-top: 56px; }
-.home-history .history-list-meta { margin: 0 0 6px; }
+.home-history-meta { color: var(--accent-dark); font-size: 13px; margin: 0 0 6px; }
 .home-observed { border-top: 2px solid var(--accent); border-bottom: 1px solid var(--line); margin-top: 56px; }
 .observed-home-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-top: 24px; }
 .observed-home-heading h2 { font: 600 clamp(28px, 3vw, 36px)/1.15 var(--font-source-serif), Georgia, serif; letter-spacing: -.03em; }

@@ -21,14 +21,14 @@ const newsletter = { SENDER_PUBLIC_ACCOUNT_ID: 'abc123', SENDER_NEWSLETTER_FORM_
 test('sitemap lists only the public pages and retained articles', () => {
   const entries = sitemap();
   const expected = [
-    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back', '/history', '/history/biographies', '/history/series', '/calls',
+    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back', '/looking-back/keepsakes', '/looking-back/biographies', '/looking-back/series', '/looking-back/features', '/calls',
     ...(getNewsletterConfig() ? ['/newsletter', '/newsletter/privacy'] : []),
     ...getArticles().map(a => `/articles/${a.slug}`),
     ...getArchiveFeatures().map(a => `/archive/${a.slug}`),
     ...getLiveLookingBack().map(p => `/looking-back/${p.slug}`),
-    ...getLiveBiographies().map(b => `/history/biographies/${b.slug}`),
-    ...[...new Set(getLiveSeriesParts().map(p => p.seriesSlug))].map(slug => `/history/series/${slug}`),
-    ...getLiveSeriesParts().map(p => `/history/series/${p.seriesSlug}/${p.slug}`),
+    ...getLiveBiographies().map(b => `/looking-back/biographies/${b.slug}`),
+    ...[...new Set(getLiveSeriesParts().map(p => p.seriesSlug))].map(slug => `/looking-back/series/${slug}`),
+    ...getLiveSeriesParts().map(p => `/looking-back/series/${p.seriesSlug}/${p.slug}`),
     ...getPlayerPageSlugs().map(slug => `/players/${slug}`),
   ].map(route => route === '/' ? origin : new URL(route, origin).href);
   assert.deepEqual(urls(entries).sort(), [...new Set(expected)].sort());
@@ -40,7 +40,7 @@ test('sitemap lists only the public pages and retained articles', () => {
     assert.equal(url.search, '');
     assert.equal(url.hash, '');
     assert.equal(entry.lastModified, undefined);
-    assert.doesNotMatch(url.pathname, /^\/(preview|docs|content|brief|this-week|match-centre|search)(\/|$)/);
+    assert.doesNotMatch(url.pathname, /^\/(preview|docs|content|brief|history|this-week|match-centre|search)(\/|$)/);
     assert.ok(!['/archive', '/archive/matches', '/archive/people', '/archive/seasons'].includes(url.pathname));
   }
 });
@@ -94,14 +94,26 @@ test('robots allows public stories, blocks previews and source material, and adv
   }
 });
 
-test('the old History section stays removed: only the small hub exists, and old sub-section URLs redirect home', async () => {
-  for (const dir of ['app/this-week', 'app/search', 'content/history', 'content/this-week', 'app/history/matches', 'app/history/seasons', 'app/history/people', 'app/history/explore', 'app/history/on-this-day']) assert.equal(fs.existsSync(dir), false, `${dir} must not return`);
+test('the old History section stays removed, the History hub lives in Looking Back, and old URLs redirect', async () => {
+  for (const dir of ['app/history', 'app/this-week', 'app/search', 'content/history', 'content/this-week']) assert.equal(fs.existsSync(dir), false, `${dir} must not return`);
+  assert.doesNotMatch(fs.readFileSync('app/components/SiteHeader.tsx', 'utf8'), /"History"|"\/history"/);
   const { default: config } = await import('../next.config.ts');
   const redirects = await config.redirects();
   for (const source of ['/this-week', '/search', '/history/matches', '/history/seasons/:path*', '/history/people/:path*', '/history/explore', '/history/on-this-day']) {
     assert.ok(redirects.some(r => r.source === source && r.destination === '/' && r.permanent), `${source} redirects home`);
   }
-  // The hub and its two homes are not redirected.
-  for (const source of ['/history', '/history/:path*', '/history/biographies', '/history/series']) assert.ok(!redirects.some(r => r.source === source), `${source} is a real page`);
+  // The 5 November hub moved into Looking Back: 301s to the equivalent page.
+  const moved = {
+    '/history': '/looking-back', '/history/biographies': '/looking-back/biographies', '/history/biographies/:slug': '/looking-back/biographies/:slug',
+    '/history/series': '/looking-back/series', '/history/series/:series': '/looking-back/series/:series', '/history/series/:series/:slug': '/looking-back/series/:series/:slug',
+    '/history/:path*': '/looking-back',
+  };
+  for (const [source, destination] of Object.entries(moved)) {
+    assert.ok(redirects.some(r => r.source === source && r.destination === destination && r.statusCode === 301), `${source} → ${destination}`);
+  }
+  // Specific rules come before the catch-all, and the removed sections still go home.
+  const index = source => redirects.findIndex(r => r.source === source);
+  assert.ok(index('/history/series/:series/:slug') < index('/history/:path*') && index('/history/matches') < index('/history/:path*'));
   for (const workflow of fs.existsSync('.github/workflows') ? fs.readdirSync('.github/workflows') : []) assert.doesNotMatch(workflow, /histor|biograph/i, 'no History publisher workflow');
 });
+

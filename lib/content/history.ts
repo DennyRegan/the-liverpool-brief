@@ -2,13 +2,14 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { BiographySchema, SeriesDefinitionSchema, SeriesPartSchema } from "./types.ts";
-import { onlyLive, withGoLive } from "./go-live.ts";
+import { formatDayDate, onlyLive, withGoLive } from "./go-live.ts";
+import { getLiveLookingBack, LOOKING_BACK_PATH } from "./looking-back.ts";
+import { getArchiveFeatures } from "./archive.ts";
 
-export const HISTORY_PATH = "/history";
-export const BIOGRAPHIES_PATH = "/history/biographies";
-export const SERIES_PATH = "/history/series";
-// Same publication byline as Looking Back.
-export const HISTORY_BYLINE = "The Liverpool Brief";
+// Biographies and Series are sections of Looking Back (the hub at /looking-back).
+// Content files stay in content/biographies and content/series.
+export const BIOGRAPHIES_PATH = "/looking-back/biographies";
+export const SERIES_PATH = "/looking-back/series";
 
 type Env = Record<string, string | undefined>;
 
@@ -21,7 +22,7 @@ function readMarkdown<T>(directory: string, parse: (data: unknown) => T) {
       if (data.slug !== slug) throw new Error(`slug "${data.slug}" must match filename "${slug}"`);
       return parse({ ...data, body: content.trim() });
     } catch (error) {
-      throw new Error(`Invalid History file ${path.basename(directory)}/${filename}: ${error instanceof Error ? error.message : String(error)}`);
+      throw new Error(`Invalid Looking Back file ${path.basename(directory)}/${filename}: ${error instanceof Error ? error.message : String(error)}`);
     }
   });
 }
@@ -130,7 +131,7 @@ export function getVisibleSeriesPart(seriesSlug: string, slug: string, now = new
   return { series, part: series.parts[index], previous: series.parts[index - 1], next: series.parts[index + 1] };
 }
 
-// ---- Latest History (homepage and hub) -------------------------------------
+// ---- Latest pieces (homepage and Looking Back hub) -------------------------
 
 export type LatestHistoryItem = { kind: "Biography" | "Series"; label: string; title: string; excerpt: string; href: string; date: string };
 
@@ -145,4 +146,62 @@ export function getLatestHistory(now = new Date(), root = process.cwd()): Latest
     ...(person ? [{ kind: "Biography" as const, label: "Biography", title: person.title, excerpt: person.excerpt, href: `${BIOGRAPHIES_PATH}/${person.slug}`, date: person.date }] : []),
     ...(part && series ? [{ kind: "Series" as const, label: `${series.title} · Part ${part.partNumber} of ${series.totalParts}`, title: part.title, excerpt: part.excerpt, href: `${SERIES_PATH}/${part.seriesSlug}/${part.slug}`, date: part.date }] : []),
   ].sort((a, b) => b.date.localeCompare(a.date));
+}
+
+// ---- Features: Denny's retained factual Archive pieces (URLs stay /archive/[slug]) ----
+
+/** Retained Archive pieces with editorialMode "factual", newest first. Readers see them as Features. */
+export function getFeatures(root = process.cwd()) {
+  return getArchiveFeatures(root).filter(article => article.editorialMode === "factual");
+}
+
+// ---- The Looking Back hub ---------------------------------------------------
+
+export type HubItem = { type: "Keepsake" | "Biography" | "Series" | "Feature"; label: string; title: string; excerpt: string; href: string; date: string; eventDate?: string };
+
+/** "6 November 1982" for an ISO date. */
+function formatEventDate(iso: string) {
+  return formatDayDate(iso).split(" ").slice(1).join(" ");
+}
+
+/**
+ * Everything the hub shows, from live pieces only (on every environment), so it
+ * matches production. The lead is the newest series part or biography; a series
+ * part wins a tie.
+ */
+export function getLookingBackHub(now = new Date(), root = process.cwd()) {
+  const definitions = getSeriesDefinitions(root);
+  const keepsakes = getLiveLookingBack(now, root);
+  const people = getLiveBiographies(now, root);
+  const parts = getLiveSeriesParts(now, root);
+  const features = getFeatures(root);
+  const items: HubItem[] = [
+    ...parts.map(part => {
+      const series = definitions.find(d => d.slug === part.seriesSlug)!;
+      return { type: "Series" as const, label: `${series.title}, part ${part.partNumber} of ${series.totalParts}`, title: part.title, excerpt: part.excerpt, href: `${SERIES_PATH}/${part.seriesSlug}/${part.slug}`, date: part.date };
+    }),
+    ...people.map(person => ({ type: "Biography" as const, label: `Biography, ${person.historicalPeriod}`, title: person.title, excerpt: person.excerpt, href: `${BIOGRAPHIES_PATH}/${person.slug}`, date: person.date })),
+    ...keepsakes.map(piece => ({ type: "Keepsake" as const, label: `Keepsake, ${formatEventDate(piece.eventDate)}`, title: piece.title, excerpt: piece.excerpt, href: `${LOOKING_BACK_PATH}/${piece.slug}`, date: piece.date, eventDate: piece.eventDate })),
+    ...features.map(article => ({ type: "Feature" as const, label: "Feature", title: article.title, excerpt: article.excerpt, href: `/archive/${article.slug}`, date: article.date })),
+  ];
+  const order = { Series: 0, Biography: 1, Keepsake: 2, Feature: 3 };
+  const newestFirst = (a: HubItem, b: HubItem) => b.date.localeCompare(a.date) || order[a.type] - order[b.type] || a.title.localeCompare(b.title);
+  items.sort(newestFirst);
+  const lead = items.find(item => item.type === "Series" || item.type === "Biography");
+  const leadPart = lead?.type === "Series" ? parts.find(part => `${SERIES_PATH}/${part.seriesSlug}/${part.slug}` === lead.href) : undefined;
+  const leadSeries = leadPart ? definitions.find(d => d.slug === leadPart.seriesSlug) : undefined;
+  const leadPerson = lead?.type === "Biography" ? people.find(person => `${BIOGRAPHIES_PATH}/${person.slug}` === lead.href) : undefined;
+  const seriesPartsTotal = definitions.reduce((sum, d) => sum + d.totalParts, 0);
+  return {
+    lead: lead && {
+      ...lead,
+      // The large figure beside the lead: the part number, or the years at the club.
+      figure: leadPart ? String(leadPart.partNumber) : leadPerson!.historicalPeriod,
+      figureNote: leadPart && leadSeries ? `of ${leadSeries.totalParts}` : "at Liverpool",
+      kicker: leadSeries ? leadSeries.title : "Biography",
+      readLabel: leadPart ? `Read part ${leadPart.partNumber}` : "Read the biography",
+    },
+    counts: { keepsakes: keepsakes.length, biographies: people.length, seriesParts: parts.length, seriesPartsTotal, series: definitions.length, features: features.length },
+    latest: items.filter(item => item.href !== lead?.href).slice(0, 6),
+  };
 }
