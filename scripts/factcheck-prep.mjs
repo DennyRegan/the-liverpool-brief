@@ -6,7 +6,7 @@
 // sees the author's research. The original draft is only ever read, never written.
 //
 // Usage: node scripts/factcheck-prep.mjs <draft.md>
-// Prints JSON: { draft, copy, part, report, removedSections }
+// Prints JSON: { draft, copy, original, part, report, branch, removedSections }
 
 import { existsSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
@@ -88,7 +88,12 @@ function main() {
   const part = partNumberOf(draft, text);
   if (part === null) fail("cannot tell the part number: add partNumber to the frontmatter or name the file part-N-….md");
 
-  const report = join(dirname(draft), `part-${part}-factcheck.md`);
+  // The site parses every .md file under content/, so a report saved beside a
+  // published article would break the build. Those reports go to the drafts folder.
+  const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+  const inContent = draft.startsWith(join(repoRoot, "content") + "/");
+  const reportDir = inContent ? join(repoRoot, "docs", "series-drafts") : dirname(draft);
+  const report = join(reportDir, `part-${part}-factcheck.md`);
   if (report === draft) fail("report path would overwrite the draft");
 
   const { stripped, removedSections } = stripResearchNotes(text);
@@ -99,8 +104,12 @@ function main() {
   const dir = mkdtempSync(join(tmpdir(), "liverpool-brief-factcheck-"));
   const copy = join(dir, basename(draft));
   writeFileSync(copy, stripped);
+  // Untouched copy, so the draft can be restored after switching to a branch cut from main.
+  const original = join(dir, "original.md");
+  writeFileSync(original, text);
 
-  console.log(JSON.stringify({ draft, copy, part, report, removedSections }, null, 2));
+  const branch = `series-part-${part}`;
+  console.log(JSON.stringify({ draft, copy, original, part, report, branch, removedSections }, null, 2));
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main();
