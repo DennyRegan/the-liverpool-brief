@@ -168,9 +168,12 @@ test('no reader-facing label says History in the Looking Back pages, homepage bl
 });
 
 test('the hub leads with the newest series part or biography, counts each section and lists the rest as Latest', () => {
-  const hub = history.getLookingBackHub(at('2026-11-06T12:00:00Z'));
-  assert.equal(hub.lead.href, '/looking-back/series/klopps-liverpool/the-inheritance');
-  assert.equal(hub.lead.figure, '1');
+  const now = at('2026-11-06T12:00:00Z');
+  const hub = history.getLookingBackHub(now);
+  // The lead is whichever live series part or biography is newest; parts on the same date go by part number.
+  const newestPart = history.getLiveSeriesParts(now).sort((a, b) => b.date.localeCompare(a.date) || b.partNumber - a.partNumber)[0];
+  assert.equal(hub.lead.href, `/looking-back/series/klopps-liverpool/${newestPart.slug}`);
+  assert.equal(hub.lead.figure, String(newestPart.partNumber));
   assert.equal(hub.lead.figureNote, 'of 13');
   assert.ok(hub.counts.biographies >= 1 && hub.counts.seriesParts >= 1 && hub.counts.keepsakes >= 1 && hub.counts.features === 2);
   assert.ok(!hub.latest.some(item => item.href === hub.lead.href));

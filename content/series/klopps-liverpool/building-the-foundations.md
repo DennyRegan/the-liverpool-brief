@@ -1,7 +1,10 @@
-# Klopp's Liverpool, Part 3: Building the Foundations
-
-*Working title. Suggested excerpt: In the summer of 2016 Liverpool sold more than they bought, had no European football to play and gave their manager a six-year contract. This is the story of the season in which Jürgen Klopp began to make the squad his own.*
-
+---
+seriesSlug: "klopps-liverpool"
+partNumber: 3
+title: "Building the foundations"
+slug: "building-the-foundations"
+date: "2026-11-06"
+excerpt: "In the summer of 2016 Liverpool sold more than they bought, had no European football to play and gave their manager a six-year contract. This is the story of the season in which Jürgen Klopp began to make the squad his own."
 ---
 
 The first thing Liverpool did in the summer of 2016 was spend a great deal of money on one player. On 28 June they completed the signing of Sadio Mané from Southampton. The club did not disclose the fee. Sky Sports News understood it to be £34m up front with a further £2m in performance add-ons, which would have made him the most expensive player in Liverpool's history, ahead of Andy Carroll; Sky also reported that Liverpool were claiming the fee was closer to £30m. Mané called it a big day and said he was very happy to be joining one of the biggest clubs in Europe. Klopp offered his own explanation later in the year. He had passed on Mané when he was in charge of Borussia Dortmund, he told reporters in November, and within a few months had regretted it so much that he resolved to take the next chance that came.
