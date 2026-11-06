@@ -1,6 +1,6 @@
 # Football Observed
 
-The permanent column home is `/regan-on-football`, presented as a collection within Articles. The primary navigation is Home / Articles / Football Observed; the Articles category row links to All, Opinion, Matchday, History and Football Observed. Analysis remains available when published. About is in the shared footer at the bottom of the homepage and every reader page. The category row is horizontally scrollable when needed and works without JavaScript. Editions remain Opinion articles in `content/articles/liverpool/`, at their existing `/articles/[slug]` URLs. There is no separate content store or article copy.
+The permanent column home is `/regan-on-football`, presented as a collection within Articles. The primary navigation is Home / Articles / Football Observed; the Articles category row links to All, Opinion, Matchday, Features and Football Observed. Analysis remains available when published. About is in the shared footer at the bottom of the homepage and every reader page. The category row is horizontally scrollable when needed and works without JavaScript. Editions remain Opinion articles in `content/articles/liverpool/`, at their existing `/articles/[slug]` URLs. There is no separate content store or article copy.
 
 The public name is **Football Observed**, with the byline “A weekly column by Denny Regan”. The existing route, internal identifiers and exact `regan-on-football` tag are retained so published links and edition membership remain unchanged.
 

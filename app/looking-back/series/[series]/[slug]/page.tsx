@@ -32,7 +32,7 @@ export default async function SeriesPartPage({ params }: { params: Promise<{ ser
   if (!found) notFound();
   const { series, part, previous, next } = found;
   return <>
-    <SiteHeader active="history" />
+    <SiteHeader active="looking-back" />
     <main id="main-content" className="history-page">
       <div className="reading-tools">
         <Link href={`${SERIES_PATH}/${series.slug}`} className="back-link">‹ {series.title}</Link>
@@ -40,7 +40,7 @@ export default async function SeriesPartPage({ params }: { params: Promise<{ ser
       </div>
       {part.scheduled && <ScheduledNote date={formatDayDate(part.liveFrom)} />}
       <article>
-        <HistoryHeader title={part.title} dateline={`${series.title} · Part ${part.partNumber} of ${series.totalParts}`} />
+        <HistoryHeader title={part.title} dateline={`${series.title}, part ${part.partNumber} of ${series.totalParts}`} />
         <div className="history-body"><ReactMarkdown remarkPlugins={[remarkGfm]}>{part.body}</ReactMarkdown></div>
       </article>
       <nav className="history-part-nav" aria-label={`${series.title} parts`}>

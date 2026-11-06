@@ -1,4 +1,4 @@
-import { formatListDate, getReadingTime } from "@/lib/format";
+import { categoryLabel, formatListDate, getReadingTime } from "@/lib/format";
 import { ReganOnFootballLabel } from "./ReganOnFootballLabel";
 
 export function ArticleMeta({ category, matchType, date, body, tags, author = false, showColumn = true, showCategory = true }: {
@@ -13,7 +13,7 @@ export function ArticleMeta({ category, matchType, date, body, tags, author = fa
 }) {
   return (
     <p className="article-meta">
-      {showCategory && <span className="article-type">{category}</span>}
+      {showCategory && <span className="article-type">{categoryLabel(category)}</span>}
       {matchType && <span className="match-type">{matchType}</span>}
       <time dateTime={date} aria-label={`Published ${formatListDate(date)}`}>{formatListDate(date)}</time>
       {author && <span className="article-author">By Denny Regan</span>}

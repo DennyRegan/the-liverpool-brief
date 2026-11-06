@@ -12,7 +12,7 @@ export function ArticlesNavigation({ selected, hasAnalysis = false }: {
     // Analysis appears only once at least one Analysis article is published.
     ...(hasAnalysis ? [["Analysis", "/articles?type=analysis"]] : []),
     ["Matchday", MATCHDAY_PATH],
-    ["History", "/articles?type=history"],
+    ["Features", "/articles?type=features"],
     ["Football Observed", REGAN_ON_FOOTBALL_PATH],
   ];
   return (

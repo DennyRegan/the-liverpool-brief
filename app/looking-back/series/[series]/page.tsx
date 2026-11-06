@@ -25,14 +25,14 @@ export default async function SeriesPage({ params }: { params: Promise<{ series:
   const series = getVisibleSeriesBySlug((await params).series);
   if (!series) notFound();
   return <>
-    <SiteHeader active="history" />
+    <SiteHeader active="looking-back" />
     <main id="main-content" className="history-page">
       <div className="reading-tools"><Link href={SERIES_PATH} className="back-link">‹ Series</Link></div>
-      <HistoryHeader title={series.title} dateline={`${series.totalParts} parts`} />
+      <HistoryHeader title={series.title} standfirst={`A series in ${series.totalParts} parts.`} count={`${series.parts.filter(p => !p.scheduled).length} published so far.`} />
       <ol className="history-list">
         {series.parts.map(part => <li key={part.slug}>
           {part.scheduled && <ScheduledNote date={formatDayDate(part.liveFrom)} />}
-          <p className="history-list-meta">Part {part.partNumber}</p>
+          <p className="history-list-meta">Part {part.partNumber} of {series.totalParts}</p>
           <h3><Link href={`${SERIES_PATH}/${series.slug}/${part.slug}`}>{part.title}</Link></h3>
           <p className="history-list-excerpt">{part.excerpt}</p>
         </li>)}

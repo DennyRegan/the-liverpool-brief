@@ -31,7 +31,7 @@ export default async function BiographyPage({ params }: { params: Promise<{ slug
   const person = getVisibleBiography((await params).slug);
   if (!person) notFound();
   return <>
-    <SiteHeader active="history" />
+    <SiteHeader active="looking-back" />
     <main id="main-content" className="history-page">
       <div className="reading-tools">
         <Link href={BIOGRAPHIES_PATH} className="back-link">‹ Biographies</Link>

@@ -24,9 +24,11 @@ test('the full headline fits both panels without clipping, truncation or dropped
 
 test('Football Observed is recognised from existing metadata without reclassifying other categories', () => {
   assert.equal(socialSection({ category: 'Opinion', tags: ['regan-on-football'] }), 'Football Observed');
-  for (const category of ['Opinion', 'Analysis', 'Matchday', 'History']) {
+  for (const category of ['Opinion', 'Analysis', 'Matchday']) {
     assert.equal(socialSection({ category }), category);
   }
+  // Retained factual Archive pieces are stored as History and shown as Features.
+  assert.equal(socialSection({ category: 'History' }), 'Feature');
   assert.equal(socialSection({ category: 'Analysis', tags: ['regan-on-football'] }), 'Analysis');
 });
 

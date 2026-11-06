@@ -43,9 +43,13 @@ test('a complete series part parses; missing fields, bad part numbers and extra 
   assert.throws(() => SeriesDefinitionSchema.parse({ slug: 'klopps-liverpool', title: "Klopp's Liverpool" }));
 });
 
-test('the real series list starts with Klopp\'s Liverpool, 21 parts', () => {
+test('the real series list starts with Klopp\'s Liverpool, 13 parts, and every "Part N of X" label reads that total', () => {
   const [first] = history.getSeriesDefinitions();
-  assert.deepEqual(first, { slug: 'klopps-liverpool', title: "Klopp's Liverpool", totalParts: 21 });
+  assert.deepEqual(first, { slug: 'klopps-liverpool', title: "Klopp's Liverpool", totalParts: 13 });
+  for (const file of ['app/looking-back/page.tsx', 'app/looking-back/series/[series]/page.tsx', 'app/looking-back/series/[series]/[slug]/page.tsx', 'app/components/HistoryLatest.tsx', 'lib/content/history.ts']) {
+    assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /\b(of|in) (13|21)\b/, `${file} must not hard-code the series length`);
+  }
+  assert.ok(history.getLookingBackHub(at('2026-11-06T12:00:00Z')).lead.figureNote === 'of 13');
 });
 
 test('the go-live rule is the Looking Back code, not a second copy', () => {
@@ -121,20 +125,21 @@ test('bad files fail the build: slug/filename, duplicate part, unknown series, p
 
 test('the sitemap lists History pages and only live pieces', () => {
   const urls = getPublicSitemap(root, {}).map(e => e.url);
-  for (const route of ['/history', '/history/biographies', '/history/series']) assert.ok(urls.some(u => u.endsWith(route)), route);
-  assert.ok(urls.some(u => u.endsWith('/history/biographies/test-person-one')));
+  for (const route of ['/looking-back', '/looking-back/keepsakes', '/looking-back/biographies', '/looking-back/series', '/looking-back/features']) assert.ok(urls.some(u => u.endsWith(route)), route);
+  assert.ok(!urls.some(u => new URL(u).pathname.startsWith('/history')));
+  assert.ok(urls.some(u => u.endsWith('/looking-back/biographies/test-person-one')));
   assert.ok(!urls.some(u => u.includes('test-person-future')));
-  assert.ok(urls.some(u => u.endsWith('/history/series/test-series/test-part-two')));
+  assert.ok(urls.some(u => u.endsWith('/looking-back/series/test-series/test-part-two')));
   assert.ok(!urls.some(u => u.includes('test-part-three')));
 });
 
 test('History pages revalidate hourly, render dated pieces on request, and the real content folders are free of test data', () => {
-  for (const file of ['app/history/biographies/[slug]/page.tsx', 'app/history/series/[series]/page.tsx', 'app/history/series/[series]/[slug]/page.tsx']) {
+  for (const file of ['app/looking-back/biographies/[slug]/page.tsx', 'app/looking-back/series/[series]/page.tsx', 'app/looking-back/series/[series]/[slug]/page.tsx']) {
     const source = fs.readFileSync(file, 'utf8');
     assert.match(source, /export const dynamicParams = true/, file);
     assert.match(source, /export const revalidate = 3600/, file);
   }
-  for (const file of ['app/history/biographies/page.tsx', 'app/history/series/page.tsx']) assert.match(fs.readFileSync(file, 'utf8'), /export const revalidate = 3600/, file);
+  for (const file of ['app/looking-back/biographies/page.tsx', 'app/looking-back/series/page.tsx']) assert.match(fs.readFileSync(file, 'utf8'), /export const revalidate = 3600/, file);
   for (const dir of ['content/biographies', 'content/series']) {
     if (!fs.existsSync(dir)) continue;
     for (const entry of fs.readdirSync(dir, { recursive: true })) {
@@ -144,25 +149,55 @@ test('History pages revalidate hourly, render dated pieces on request, and the r
   }
 });
 
-test('History pages share one header and use plain body text, with no newspaper styling', () => {
-  const css = fs.readFileSync('app/history/history.css', 'utf8');
+test('Looking Back section pages share one header and plain body text, with no newspaper styling, and Looking Back is active on all of them', () => {
+  const css = fs.readFileSync('app/looking-back/history.css', 'utf8');
   assert.doesNotMatch(css, /column-count|first-letter|--paper/);
-  for (const file of ['app/history/page.tsx', 'app/history/biographies/page.tsx', 'app/history/biographies/[slug]/page.tsx', 'app/history/series/page.tsx', 'app/history/series/[series]/page.tsx', 'app/history/series/[series]/[slug]/page.tsx']) {
-    assert.match(fs.readFileSync(file, 'utf8'), /HistoryHeader/, file);
-  }
+  const sectionPages = ['app/looking-back/keepsakes/page.tsx', 'app/looking-back/features/page.tsx', 'app/looking-back/biographies/page.tsx', 'app/looking-back/biographies/[slug]/page.tsx', 'app/looking-back/series/page.tsx', 'app/looking-back/series/[series]/page.tsx', 'app/looking-back/series/[series]/[slug]/page.tsx'];
+  for (const file of sectionPages) assert.match(fs.readFileSync(file, 'utf8'), /HistoryHeader/, file);
+  for (const file of ['app/looking-back/page.tsx', 'app/looking-back/[slug]/page.tsx', ...sectionPages]) assert.match(fs.readFileSync(file, 'utf8'), /<SiteHeader active="looking-back" \/>/, file);
   const header = fs.readFileSync('app/components/SiteHeader.tsx', 'utf8');
-  assert.ok(header.indexOf('"History"') < header.indexOf('"Looking Back"') && header.indexOf('"Football Observed"') < header.indexOf('"History"'));
+  assert.ok(header.indexOf('"Football Observed"') < header.indexOf('"Looking Back"'));
+  assert.doesNotMatch(header, /"History"/);
+});
+
+test('no reader-facing label says History in the Looking Back pages, homepage block or Articles filter', () => {
+  for (const file of ['app/looking-back/page.tsx', 'app/components/HistoryLatest.tsx', 'app/components/HistoryHeader.tsx', 'app/components/ArticlesNavigation.tsx', 'app/looking-back/keepsakes/page.tsx', 'app/looking-back/features/page.tsx']) {
+    const text = fs.readFileSync(file, 'utf8').replace(/\/\/.*$|\/\*[\s\S]*?\*\/|^import .*$|History(Header|Latest)|getLatestHistory/gm, '');
+    assert.doesNotMatch(text, /History/, file);
+  }
+});
+
+test('the hub leads with the newest series part or biography, counts each section and lists the rest as Latest', () => {
+  const hub = history.getLookingBackHub(at('2026-11-06T12:00:00Z'));
+  assert.equal(hub.lead.href, '/looking-back/series/klopps-liverpool/the-inheritance');
+  assert.equal(hub.lead.figure, '1');
+  assert.equal(hub.lead.figureNote, 'of 13');
+  assert.ok(hub.counts.biographies >= 1 && hub.counts.seriesParts >= 1 && hub.counts.keepsakes >= 1 && hub.counts.features === 2);
+  assert.ok(!hub.latest.some(item => item.href === hub.lead.href));
+  assert.ok(hub.latest.length <= 6);
+  for (const item of hub.latest.filter(i => i.type === 'Keepsake')) assert.match(item.label, /^Keepsake, \d{1,2} [A-Z][a-z]+ \d{4}$/);
+  // Live pieces only, even on previews: next week's keepsakes are not on the hub yet.
+  assert.ok(!hub.latest.some(item => item.date > '2026-11-08'));
+});
+
+test('keepsake slugs cannot take a Looking Back section name', () => {
+  const copy = fs.mkdtempSync(path.join(os.tmpdir(), 'lb-reserved-'));
+  try {
+    fs.mkdirSync(path.join(copy, 'content/looking-back'), { recursive: true });
+    fs.writeFileSync(path.join(copy, 'content/looking-back/series.md'), '---\ntitle: "T"\nslug: "series"\ndate: "2026-11-02"\neventDate: "1970-11-02"\ndateline: "D"\nexcerpt: "E."\n---\nBody.\n');
+    assert.throws(() => looking.getLookingBack(copy), /reserved/);
+  } finally { fs.rmSync(copy, { recursive: true, force: true }); }
 });
 
 test('latest History: newest live biography and series part only, never a future one, and shown on the homepage and hub', () => {
   const now = at('2026-06-01T12:00:00Z');
   const latest = history.getLatestHistory(now, root);
   assert.deepEqual(latest.map(i => i.kind).sort(), ['Biography', 'Series']);
-  assert.equal(latest.find(i => i.kind === 'Series').href, '/history/series/test-series/test-part-two');
-  assert.match(latest.find(i => i.kind === 'Biography').href, /^\/history\/biographies\/test-person-(one|two|three)$/);
+  assert.equal(latest.find(i => i.kind === 'Series').href, '/looking-back/series/test-series/test-part-two');
+  assert.match(latest.find(i => i.kind === 'Biography').href, /^\/looking-back\/biographies\/test-person-(one|two|three)$/);
   assert.ok(latest.find(i => i.kind === 'Series').label.endsWith('Part 2 of 3'));
   assert.ok(!latest.some(i => i.href.includes('future') || i.href.includes('part-three')));
   assert.deepEqual(history.getLatestHistory(at('2020-01-01T00:00:00Z'), root), []);
   assert.match(fs.readFileSync('app/page.tsx', 'utf8'), /<HistoryLatest \/>/);
-  assert.match(fs.readFileSync('app/history/page.tsx', 'utf8'), /<HistoryLatest/);
+  assert.match(fs.readFileSync('app/components/HistoryLatest.tsx', 'utf8'), /From Looking Back/);
 });

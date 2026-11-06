@@ -5,6 +5,12 @@ import { LookingBackSchema } from "./types.ts";
 import { formatDayDate, isLive, isProduction, liveFrom, onlyLive, weekEndingSunday, withGoLive } from "./go-live.ts";
 
 export const LOOKING_BACK_PATH = "/looking-back";
+// Looking Back is the hub for everything historical. Its subsections sit under it;
+// keepsakes keep their permanent /looking-back/[slug] URLs.
+export const KEEPSAKES_PATH = "/looking-back/keepsakes";
+export const FEATURES_PATH = "/looking-back/features";
+/** Route segments under /looking-back that a keepsake slug may not use. */
+export const RESERVED_LOOKING_BACK_SEGMENTS = ["keepsakes", "biographies", "series", "features"];
 // Keepsakes always carry the publication byline, never a personal one.
 // The AI disclosure lives on the About page only. Drafts sit in docs/looking-back-drafts/.
 export const LOOKING_BACK_BYLINE = "The Liverpool Brief";
@@ -18,6 +24,7 @@ export function getLookingBack(root = process.cwd()) {
       const slug = filename.slice(0, -3);
       const { data, content } = matter(fs.readFileSync(path.join(directory, filename), "utf8"));
       if (data.slug !== slug) throw new Error(`slug "${data.slug}" must match filename "${slug}"`);
+      if (RESERVED_LOOKING_BACK_SEGMENTS.includes(slug)) throw new Error(`slug "${slug}" is reserved for a Looking Back section`);
       return LookingBackSchema.parse({ ...data, body: content.trim() });
     } catch (error) {
       throw new Error(`Invalid Looking Back piece ${filename}: ${error instanceof Error ? error.message : String(error)}`);

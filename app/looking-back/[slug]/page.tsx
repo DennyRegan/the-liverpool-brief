@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { ShareButton } from "@/app/components/ShareButton";
-import { formatDayDate, getVisibleLookingBack, getVisibleLookingBackPiece, LOOKING_BACK_BYLINE, LOOKING_BACK_PATH } from "@/lib/content/looking-back";
+import { formatDayDate, getVisibleLookingBack, getVisibleLookingBackPiece, KEEPSAKES_PATH, LOOKING_BACK_BYLINE, LOOKING_BACK_PATH } from "@/lib/content/looking-back";
 import { socialMetadata } from "@/lib/social-metadata";
 import "../looking-back.css";
 
@@ -33,7 +33,7 @@ export default async function LookingBackPiecePage({ params }: { params: Promise
     <SiteHeader active="looking-back" />
     <main id="main-content" className="lb-page">
       <div className="reading-tools">
-        <Link href={LOOKING_BACK_PATH} className="back-link">‹ Looking Back</Link>
+        <Link href={KEEPSAKES_PATH} className="back-link">‹ Keepsakes</Link>
         <ShareButton title={piece.title} />
       </div>
       {piece.scheduled && <p className="lb-scheduled lb-scheduled--page" role="note">Scheduled for {formatDayDate(piece.liveFrom)}</p>}

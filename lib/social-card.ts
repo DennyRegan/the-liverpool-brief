@@ -5,7 +5,7 @@ export const SOCIAL_IMAGE_VERSION = 'editorial-2';
 
 export function socialSection(article: { category: string; tags?: readonly string[] }) {
   return article.category === 'Opinion' && article.tags?.includes('regan-on-football')
-    ? 'Football Observed' : article.category;
+    ? 'Football Observed' : article.category === 'History' ? 'Feature' : article.category;
 }
 
 // Advance widths come from the bundled headline font. Ignore negative kerning
