@@ -54,7 +54,7 @@ The obvious counterargument is that he was Liverpool's best player last season. 
 
 There's also his attitude, which has increasingly frustrated me. Following Liverpool's 4-0 defeat against Manchester City in the FA Cup, he was involved in an exchange with supporters that was widely interpreted as sarcastic applause. He subsequently described it as a misunderstanding.
 
-Then there was the Instagram photograph showing off an expensive watch. I know footballers earn extraordinary amounts of money, but I don't particularly want to see somebody being spoken about as a future Liverpool captain showing off how wealthy he is. That's not what I associate with Liverpool.
+Then there was the Instagram photograph I remember of him showing off an expensive watch. I know footballers earn extraordinary amounts of money, but I don't particularly want to see somebody being spoken about as a future Liverpool captain showing off how wealthy he is. That's not what I associate with Liverpool.
 
 To me, his behaviour at times comes across as arrogant, and I don't think his performances justify that attitude. You'd think he was playing like Zinedine Zidane every week.
 
