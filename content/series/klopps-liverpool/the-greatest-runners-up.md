@@ -1,7 +1,10 @@
-# Klopp's Liverpool, Part 5: The Greatest Runners-Up
-
-*Working title. Suggested excerpt: In the summer of 2018 Liverpool rebuilt the spine of their team, and the following season they took 97 points. It was not enough. This is the story of the year they lost the league by a single point, and of what that point did and did not mean.*
-
+---
+seriesSlug: "klopps-liverpool"
+partNumber: 5
+title: "The greatest runners-up"
+slug: "the-greatest-runners-up"
+date: "2026-11-06"
+excerpt: "In the summer of 2018 Liverpool rebuilt the spine of their team, and the following season they took 97 points. It was not enough. This is the story of the year they lost the league by a single point, and of what that point did and did not mean."
 ---
 
 The final in Kyiv on 26 May 2018 had ended with two goals conceded through Loris Karius's errors, and for a week the conversation about Liverpool's goalkeeper was about nerve. Then, on 4 June, a statement from two doctors in Boston changed its terms. Dr Ross Zafonte and Dr Lenore Herget had examined Karius on 31 May at Massachusetts General Hospital and Spaulding Rehabilitation Hospital, and had "concluded that Mr. Karius sustained a concussion during the match". His symptoms, they said, pointed to visual-spatial dysfunction that had probably begun immediately and could have affected his performance. They expected him to make a full recovery.
