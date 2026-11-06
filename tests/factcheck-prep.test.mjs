@@ -44,4 +44,11 @@ test("CLI writes a stripped copy elsewhere and leaves the draft untouched", () =
   assert.ok(!out.copy.startsWith(dir));
   assert.doesNotMatch(readFileSync(out.copy, "utf8"), /Secret/);
   assert.ok(!existsSync(out.report));
+  assert.equal(out.branch, "series-part-3");
+});
+
+test("a report for a published article goes to docs/series-drafts, never content/", () => {
+  const out = JSON.parse(execFileSync("node", ["scripts/factcheck-prep.mjs", "content/series/klopps-liverpool/the-inheritance.md"], { encoding: "utf8" }));
+  assert.match(out.report, /docs\/series-drafts\/part-1-factcheck\.md$/);
+  assert.doesNotMatch(out.report, /\/content\//);
 });
