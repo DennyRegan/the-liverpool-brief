@@ -20,7 +20,7 @@ export default function KeepsakesPage() {
   const weeks = groupByWeek(pieces);
   return <>
     <SiteHeader active="looking-back" />
-    <main id="main-content" className="history-page">
+    <main id="main-content" className="site-width collection history-index">
       <HistoryHeader title="Keepsakes" standfirst="The best moments from Liverpool's past, every week." count={plural(pieces.filter(p => !p.scheduled).length, "keepsake")} />
       {weeks.length ? weeks.map(week => <section key={week.sunday} className="history-decade" aria-labelledby={`week-${week.sunday}`}>
         <h2 id={`week-${week.sunday}`} className="history-decade-heading">{week.heading}</h2>

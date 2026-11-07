@@ -16,7 +16,7 @@ export default function BiographiesPage() {
   const decades = groupByDecade(people);
   return <>
     <SiteHeader active="looking-back" />
-    <main id="main-content" className="history-page">
+    <main id="main-content" className="site-width collection history-index">
       <HistoryHeader title="Biographies" standfirst="The people who made Liverpool, by decade." count={plural(people.filter(p => !p.scheduled).length, "biography", "biographies")} />
       {decades.length ? decades.map(({ decade, entries }) => <section key={decade} className="history-decade" aria-labelledby={`decade-${decade}`}>
         <h2 id={`decade-${decade}`} className="history-decade-heading">{decade}</h2>

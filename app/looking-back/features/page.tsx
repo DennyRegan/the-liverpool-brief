@@ -14,7 +14,7 @@ export default function FeaturesPage() {
   const features = getFeatures();
   return <>
     <SiteHeader active="looking-back" />
-    <main id="main-content" className="history-page">
+    <main id="main-content" className="site-width collection history-index">
       <HistoryHeader title="Features" standfirst="Longer historical pieces." count={plural(features.length, "feature")} />
       {features.length ? <ol className="history-list">
         {features.map(article => <li key={article.slug}>

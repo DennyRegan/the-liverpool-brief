@@ -29,7 +29,7 @@ export default async function SeriesPage({ params }: { params: Promise<{ series:
   const newest = published.at(-1);
   return <>
     <SiteHeader active="looking-back" />
-    <main id="main-content" className="history-page">
+    <main id="main-content" className="site-width collection history-index">
       <div className="reading-tools"><Link href={SERIES_PATH} className="back-link">‹ Series</Link></div>
       <HistoryHeader title={series.title} standfirst={`A series in ${series.totalParts} parts.`} count={`${published.length} published so far.`} />
       <p className="series-start">

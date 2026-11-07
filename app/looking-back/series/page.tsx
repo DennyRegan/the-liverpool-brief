@@ -13,7 +13,7 @@ export default function SeriesIndexPage() {
   const series = getVisibleSeries();
   return <>
     <SiteHeader active="looking-back" />
-    <main id="main-content" className="history-page">
+    <main id="main-content" className="site-width collection history-index">
       <HistoryHeader title="Series" standfirst="Longer stories told part by part." />
       {series.length ? <ol className="history-list">
         {series.map(item => <li key={item.slug}>

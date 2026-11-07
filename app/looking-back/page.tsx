@@ -24,11 +24,9 @@ export default function LookingBackHub() {
   ];
   return <>
     <SiteHeader active="looking-back" />
-    <main id="main-content" className="lbh">
-      <header className="lbh-masthead">
-        <h1>Looking Back</h1>
-        <p>Keepsakes, lives and longer stories from Liverpool&rsquo;s past.</p>
-      </header>
+    <main id="main-content" className="site-width collection lbh">
+      <h1 className="collection-title">Looking Back</h1>
+      <p className="lbh-intro">Keepsakes, lives and longer stories from Liverpool&rsquo;s past.</p>
 
       <section className="lbh-contents" aria-labelledby="lbh-contents-heading">
         <h2 id="lbh-contents-heading" className="visually-hidden">Contents</h2>
@@ -48,7 +46,7 @@ export default function LookingBackHub() {
       </section>
 
       {latest.length > 0 && <section className="lbh-latest" aria-labelledby="lbh-latest-heading">
-        <h2 id="lbh-latest-heading">Latest</h2>
+        <h2 id="lbh-latest-heading" className="eyebrow">Latest</h2>
         <ol>
           {latest.map(item => <li key={item.href}>
             <p className="lbh-item-type">{item.label}</p>
