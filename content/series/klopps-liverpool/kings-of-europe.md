@@ -1,7 +1,10 @@
-# Klopp's Liverpool, Part 6: Kings of Europe
-
-*Working title.*
-
+---
+seriesSlug: "klopps-liverpool"
+partNumber: 6
+title: "Kings of Europe"
+slug: "kings-of-europe"
+date: "2026-11-07"
+excerpt: "Liverpool lost the 2018–19 title by a single point, and less than three weeks later they were champions of Europe. The two campaigns ran side by side. This is how the European one survived three away defeats, Bayern Munich and a 3–0 loss in Barcelona to end in Madrid."
 ---
 
 On Sunday 12 May 2019, Liverpool beat Wolverhampton Wanderers 2–0 at Anfield and finished second. Sadio Mané scored both goals, but Manchester City won 4–1 at Brighton and took the title by a single point, 98 to 97. Liverpool had lost one league match all season, and they would not be champions. Less than three weeks later, in Madrid, they were champions of Europe.
