@@ -2,16 +2,20 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { LookingBackSchema } from "./types.ts";
-import { formatDayDate, isLive, isProduction, liveFrom, onlyLive, weekEndingSunday, withGoLive } from "./go-live.ts";
+import { addDays, formatDayDate, isLive, isProduction, liveFrom, onlyLive, weekEndingSunday, withGoLive } from "./go-live.ts";
+import { getLondonToday } from "./homepage.ts";
 
 export const LOOKING_BACK_PATH = "/looking-back";
-// Looking Back is the hub for everything historical. Its subsections sit under it;
-// keepsakes keep their permanent /looking-back/[slug] URLs.
-export const KEEPSAKES_PATH = "/looking-back/keepsakes";
+// Looking Back is the hub for everything historical. Its subsections sit under it.
+// The short weekly pieces are called "On This Day" (renamed from Keepsakes on
+// 7 November 2026; /looking-back/keepsakes redirects permanently). Individual
+// pieces keep their permanent /looking-back/[slug] URLs.
+export const ON_THIS_DAY_PATH = "/looking-back/on-this-day";
+export const ON_THIS_DAY_PREVIOUS_PATH = "/looking-back/on-this-day/previous";
 export const FEATURES_PATH = "/looking-back/features";
-/** Route segments under /looking-back that a keepsake slug may not use. */
-export const RESERVED_LOOKING_BACK_SEGMENTS = ["keepsakes", "biographies", "series", "features"];
-// Keepsakes always carry the publication byline, never a personal one.
+/** Route segments under /looking-back that a piece's slug may not use. */
+export const RESERVED_LOOKING_BACK_SEGMENTS = ["on-this-day", "keepsakes", "biographies", "series", "features"];
+// On This Day pieces always carry the publication byline, never a personal one.
 // The AI disclosure lives on the About page only. Drafts sit in docs/looking-back-drafts/.
 export const LOOKING_BACK_BYLINE = "The Liverpool Brief";
 
@@ -68,4 +72,35 @@ export function groupByWeek<T extends { date: string; slug: string }>(pieces: re
       sunday, heading: `Week ending ${formatDayDate(sunday)}`,
       pieces: [...items].sort((a, b) => a.date.localeCompare(b.date) || a.slug.localeCompare(b.slug)),
     }));
+}
+
+// ---- On This Day: the current week -----------------------------------------
+
+/** The Monday–Sunday week (Europe/London) containing now. */
+export function currentWeek(now = new Date()) {
+  const sunday = weekEndingSunday(getLondonToday(now));
+  return { monday: addDays(sunday, -6), sunday };
+}
+
+/** "2–8 November", or "30 November – 6 December" when the week crosses a month. */
+export function formatWeekRange(monday: string, sunday: string) {
+  const [, mDay, mMonth] = formatDayDate(monday).split(" ");
+  const [, sDay, sMonth] = formatDayDate(sunday).split(" ");
+  return mMonth === sMonth ? `${mDay}–${sDay} ${sMonth}` : `${mDay} ${mMonth} – ${sDay} ${sMonth}`;
+}
+
+/**
+ * Splits pieces around the current week by their `date` (the anniversary this
+ * year): this week's in date order, earlier weeks grouped newest week first,
+ * and later ones (which only previews and local show, flagged Scheduled).
+ */
+export function splitOnThisDay<T extends { date: string; slug: string }>(pieces: readonly T[], now = new Date()) {
+  const { monday, sunday } = currentWeek(now);
+  const byDate = (a: T, b: T) => a.date.localeCompare(b.date) || a.slug.localeCompare(b.slug);
+  return {
+    week: { monday, sunday, range: formatWeekRange(monday, sunday) },
+    thisWeek: pieces.filter(p => p.date >= monday && p.date <= sunday).sort(byDate),
+    previousWeeks: groupByWeek(pieces.filter(p => p.date < monday)),
+    upcoming: pieces.filter(p => p.date > sunday).sort(byDate),
+  };
 }

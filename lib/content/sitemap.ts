@@ -16,7 +16,7 @@ function liveSeriesPaths(root: string) {
 /** Mirror public page selectors; never scan editorial folders for destinations. */
 export function getPublicSitemap(root = process.cwd(), env = process.env): MetadataRoute.Sitemap {
   const paths = [
-    "/", "/about", "/articles", "/regan-on-football", "/matchday", "/looking-back", "/looking-back/keepsakes", "/looking-back/biographies", "/looking-back/series", "/looking-back/features", "/calls",
+    "/", "/about", "/articles", "/regan-on-football", "/matchday", "/looking-back", "/looking-back/on-this-day", "/looking-back/on-this-day/previous", "/looking-back/biographies", "/looking-back/series", "/looking-back/features", "/calls",
     // The newsletter pages are public only while signup is configured.
     ...(getNewsletterConfig(env) ? ["/newsletter", "/newsletter/privacy"] : []),
     ...getArticles(root).map(article => `/articles/${article.slug}`),

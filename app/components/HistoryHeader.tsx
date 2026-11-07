@@ -3,8 +3,8 @@ import { LOOKING_BACK_PATH } from "@/lib/content/looking-back";
 
 /**
  * The header shared by every Looking Back section page and piece (biographies,
- * series, features, the keepsakes list): masthead, dateline, headline, and on
- * index pages a one-line standfirst and count. Keepsake pages keep their own
+ * series, features, the On This Day lists): masthead, dateline, headline, and on
+ * index pages a one-line standfirst and count. On This Day pieces keep their own
  * newspaper-cutting look.
  */
 export function HistoryHeader({ title, dateline, standfirst, count }: { title: string; dateline?: string; standfirst?: string; count?: string }) {
@@ -24,7 +24,7 @@ export function ScheduledNote({ date }: { date: string }) {
   return <p className="history-scheduled" role="note">Scheduled for {date}</p>;
 }
 
-/** "1 biography", "7 keepsakes". */
+/** "1 biography", "7 lives". */
 export function plural(count: number, one: string, many = `${one}s`) {
   return `${count} ${count === 1 ? one : many}`;
 }

@@ -21,6 +21,8 @@ const nextConfig: NextConfig = {
       ]),
       // Anything else under /history lands on the Looking Back hub.
       { source: "/history/:path*", destination: "/looking-back", statusCode: 301 },
+      // Keepsakes was renamed On This Day on 7 November 2026.
+      { source: "/looking-back/keepsakes", destination: "/looking-back/on-this-day", statusCode: 301 },
       { source: "/this-week", destination: "/", permanent: true },
       { source: "/search", destination: "/", permanent: true },
       ...[

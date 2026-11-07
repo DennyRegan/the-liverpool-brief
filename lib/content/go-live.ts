@@ -35,6 +35,18 @@ export function onlyLive<T extends { date: string }>(pieces: readonly T[], now =
   return pieces.filter(piece => isLive(piece, now));
 }
 
+/** The ISO date a number of days after (or, if negative, before) another. */
+export function addDays(iso: string, days: number) {
+  const date = new Date(`${iso}T12:00:00Z`);
+  date.setUTCDate(date.getUTCDate() + days);
+  return date.toISOString().slice(0, 10);
+}
+
+/** True when a live piece's date falls within the last `days` days (Europe/London), or later this week. */
+export function isRecent(piece: { date: string }, days: number, now = new Date()) {
+  return isLive(piece, now) && piece.date > addDays(getLondonToday(now), -days);
+}
+
 /** "Sunday 1 November 2026" for an ISO date, independent of the server time zone. */
 export function formatDayDate(iso: string) {
   const parts = new Intl.DateTimeFormat("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })

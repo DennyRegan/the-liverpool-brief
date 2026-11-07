@@ -49,7 +49,7 @@ test('the real series list starts with Klopp\'s Liverpool, 13 parts, and every "
   for (const file of ['app/looking-back/page.tsx', 'app/looking-back/series/[series]/page.tsx', 'app/looking-back/series/[series]/[slug]/page.tsx', 'app/components/HistoryLatest.tsx', 'lib/content/history.ts']) {
     assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /\b(of|in) (13|21)\b/, `${file} must not hard-code the series length`);
   }
-  assert.equal(history.getLookingBackHub(at('2026-11-06T12:00:00Z')).series[0].totalParts, 13);
+  assert.equal(history.getVisibleSeries(at('2026-11-06T12:00:00Z'), {})[0].totalParts, 13);
 });
 
 test('the go-live rule is the Looking Back code, not a second copy', () => {
@@ -125,7 +125,7 @@ test('bad files fail the build: slug/filename, duplicate part, unknown series, p
 
 test('the sitemap lists History pages and only live pieces', () => {
   const urls = getPublicSitemap(root, {}).map(e => e.url);
-  for (const route of ['/looking-back', '/looking-back/keepsakes', '/looking-back/biographies', '/looking-back/series', '/looking-back/features']) assert.ok(urls.some(u => u.endsWith(route)), route);
+  for (const route of ['/looking-back', '/looking-back/on-this-day', '/looking-back/on-this-day/previous', '/looking-back/biographies', '/looking-back/series', '/looking-back/features']) assert.ok(urls.some(u => u.endsWith(route)), route);
   assert.ok(!urls.some(u => new URL(u).pathname.startsWith('/history')));
   assert.ok(urls.some(u => u.endsWith('/looking-back/biographies/test-person-one')));
   assert.ok(!urls.some(u => u.includes('test-person-future')));
@@ -152,7 +152,7 @@ test('History pages revalidate hourly, render dated pieces on request, and the r
 test('Looking Back section pages share one header and plain body text, with no newspaper styling, and Looking Back is active on all of them', () => {
   const css = fs.readFileSync('app/looking-back/history.css', 'utf8');
   assert.doesNotMatch(css, /column-count|first-letter|--paper/);
-  const sectionPages = ['app/looking-back/keepsakes/page.tsx', 'app/looking-back/features/page.tsx', 'app/looking-back/biographies/page.tsx', 'app/looking-back/biographies/[slug]/page.tsx', 'app/looking-back/series/page.tsx', 'app/looking-back/series/[series]/page.tsx', 'app/looking-back/series/[series]/[slug]/page.tsx'];
+  const sectionPages = ['app/looking-back/on-this-day/page.tsx', 'app/looking-back/on-this-day/previous/page.tsx', 'app/looking-back/features/page.tsx', 'app/looking-back/biographies/page.tsx', 'app/looking-back/biographies/[slug]/page.tsx', 'app/looking-back/series/page.tsx', 'app/looking-back/series/[series]/page.tsx', 'app/looking-back/series/[series]/[slug]/page.tsx'];
   for (const file of sectionPages) assert.match(fs.readFileSync(file, 'utf8'), /HistoryHeader/, file);
   for (const file of ['app/looking-back/page.tsx', 'app/looking-back/[slug]/page.tsx', ...sectionPages]) assert.match(fs.readFileSync(file, 'utf8'), /<SiteHeader active="looking-back" \/>/, file);
   const header = fs.readFileSync('app/components/SiteHeader.tsx', 'utf8');
@@ -161,23 +161,51 @@ test('Looking Back section pages share one header and plain body text, with no n
 });
 
 test('no reader-facing label says History in the Looking Back pages, homepage block or Articles filter', () => {
-  for (const file of ['app/looking-back/page.tsx', 'app/components/HistoryLatest.tsx', 'app/components/HistoryHeader.tsx', 'app/components/ArticlesNavigation.tsx', 'app/looking-back/keepsakes/page.tsx', 'app/looking-back/features/page.tsx']) {
+  for (const file of ['app/looking-back/page.tsx', 'app/components/HistoryLatest.tsx', 'app/components/HistoryHeader.tsx', 'app/components/ArticlesNavigation.tsx', 'app/looking-back/on-this-day/page.tsx', 'app/looking-back/on-this-day/previous/page.tsx', 'app/looking-back/features/page.tsx']) {
     const text = fs.readFileSync(file, 'utf8').replace(/\/\/.*$|\/\*[\s\S]*?\*\/|^import .*$|History(Header|Latest)|getLatestHistory/gm, '');
     assert.doesNotMatch(text, /History/, file);
   }
 });
 
-test('the hub lists each series with its newest live part, counts each section and shows the latest pieces', () => {
-  const now = at('2026-11-06T12:00:00Z');
+test('the hub has three rows counted from live content: series and parts, the current week, and lives', () => {
+  const now = at('2026-11-07T12:00:00Z');
   const hub = history.getLookingBackHub(now);
-  const newestPart = Math.max(...history.getLiveSeriesParts(now).map(part => part.partNumber));
-  assert.deepEqual(hub.series.map(s => [s.slug, s.newestPart]), [['klopps-liverpool', newestPart]]);
-  assert.equal('lead' in hub, false);
-  assert.ok(hub.counts.biographies >= 1 && hub.counts.seriesParts >= 1 && hub.counts.keepsakes >= 1 && hub.counts.features === 2);
-  assert.ok(hub.latest.length <= 6);
-  for (const item of hub.latest.filter(i => i.type === 'Keepsake')) assert.match(item.label, /^Keepsake, \d{1,2} [A-Z][a-z]+ \d{4}$/);
-  // Live pieces only, even on previews: next week's keepsakes are not on the hub yet.
-  assert.ok(!hub.latest.some(item => item.date > '2026-11-08'));
+  assert.deepEqual(Object.keys(hub).sort(), ['biographies', 'onThisDay', 'series']);
+  assert.equal(hub.series.count, 1);
+  assert.equal(hub.series.parts, history.getLiveSeriesParts(now).length);
+  assert.equal(hub.biographies, history.getLiveBiographies(now).length);
+  assert.deepEqual(hub.onThisDay, { monday: '2026-11-02', sunday: '2026-11-08' });
+  // The red dot: a part published in the last 7 days, and not once a week has passed.
+  assert.equal(hub.series.newThisWeek, true);
+  assert.equal(history.getLookingBackHub(at('2026-11-20T12:00:00Z')).series.newThisWeek, false);
+  const page = fs.readFileSync('app/looking-back/page.tsx', 'utf8');
+  for (const gone of ['Features', 'Latest', 'lbh-new', 'lbh-contents-text']) assert.doesNotMatch(page, new RegExp(gone));
+  assert.match(page, /"On This Day"/);
+  assert.doesNotMatch(page, /Keepsake/);
+});
+
+test('On This Day shows only the current Monday–Sunday week (UK time), in date order; earlier weeks go to Previous weeks', () => {
+  const pieces = [
+    { slug: 'b', date: '2026-11-08' }, { slug: 'a', date: '2026-11-02' }, { slug: 'old', date: '2026-10-28' },
+    { slug: 'older', date: '2026-10-20' }, { slug: 'next', date: '2026-11-09' },
+  ];
+  // 23:30 on Sunday 8 November in London is still that week; 00:30 on Monday is the next.
+  const split = looking.splitOnThisDay(pieces, at('2026-11-08T23:30:00Z'));
+  assert.deepEqual(split.thisWeek.map(p => p.slug), ['a', 'b']);
+  assert.equal(split.week.range, '2–8 November');
+  assert.deepEqual(split.previousWeeks.map(w => [w.sunday, w.pieces.map(p => p.slug)]), [['2026-11-01', ['old']], ['2026-10-25', ['older']]]);
+  assert.deepEqual(split.upcoming.map(p => p.slug), ['next']);
+  assert.deepEqual(looking.splitOnThisDay(pieces, at('2026-11-09T00:30:00Z')).thisWeek.map(p => p.slug), ['next']);
+  assert.equal(looking.formatWeekRange('2026-11-30', '2026-12-06'), '30 November – 6 December');
+});
+
+test('Keepsakes is now On This Day: the old list URL redirects permanently and no page says Keepsakes', () => {
+  const config = fs.readFileSync('next.config.ts', 'utf8');
+  assert.match(config, /source: "\/looking-back\/keepsakes", destination: "\/looking-back\/on-this-day", statusCode: 301/);
+  assert.equal(fs.existsSync('app/looking-back/keepsakes'), false);
+  for (const file of ['app/looking-back/page.tsx', 'app/looking-back/[slug]/page.tsx', 'app/looking-back/on-this-day/page.tsx', 'app/looking-back/on-this-day/previous/page.tsx', 'app/components/HistoryLatest.tsx']) {
+    assert.doesNotMatch(fs.readFileSync(file, 'utf8'), />[^<]*Keepsake|"[^"]*Keepsake/, file);
+  }
 });
 
 test('keepsake slugs cannot take a Looking Back section name', () => {

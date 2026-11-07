@@ -2,8 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { BiographySchema, SeriesDefinitionSchema, SeriesPartSchema } from "./types.ts";
-import { formatDayDate, onlyLive, withGoLive } from "./go-live.ts";
-import { getLiveLookingBack, LOOKING_BACK_PATH } from "./looking-back.ts";
+import { isRecent, onlyLive, withGoLive } from "./go-live.ts";
+import { currentWeek } from "./looking-back.ts";
 import { getArchiveFeatures } from "./archive.ts";
 
 // Biographies and Series are sections of Looking Back (the hub at /looking-back).
@@ -157,43 +157,21 @@ export function getFeatures(root = process.cwd()) {
 
 // ---- The Looking Back hub ---------------------------------------------------
 
-export type HubItem = { type: "Keepsake" | "Biography" | "Series" | "Feature"; label: string; title: string; excerpt: string; href: string; date: string; eventDate?: string; partNumber?: number };
-
-/** "6 November 1982" for an ISO date. */
-function formatEventDate(iso: string) {
-  return formatDayDate(iso).split(" ").slice(1).join(" ");
-}
-
 /**
- * Everything the hub shows, from live pieces only (on every environment), so it
- * matches production: each series with its newest part, the section counts and
- * the latest pieces. A series part wins a date tie, then the higher part number.
+ * The three rows of the hub, counted from live pieces only (on every
+ * environment), so previews match production: how many series have live parts
+ * and how many parts, whether a part was published in the last 7 days, the
+ * current On This Day week, and how many biographies are live.
  */
 export function getLookingBackHub(now = new Date(), root = process.cwd()) {
-  const definitions = getSeriesDefinitions(root);
-  const keepsakes = getLiveLookingBack(now, root);
-  const people = getLiveBiographies(now, root);
   const parts = getLiveSeriesParts(now, root);
-  const features = getFeatures(root);
-  const items: HubItem[] = [
-    ...parts.map(part => {
-      const series = definitions.find(d => d.slug === part.seriesSlug)!;
-      return { type: "Series" as const, label: `${series.title}, part ${part.partNumber} of ${series.totalParts}`, title: part.title, excerpt: part.excerpt, href: `${SERIES_PATH}/${part.seriesSlug}/${part.slug}`, date: part.date, partNumber: part.partNumber };
-    }),
-    ...people.map(person => ({ type: "Biography" as const, label: `Biography, ${person.historicalPeriod}`, title: person.title, excerpt: person.excerpt, href: `${BIOGRAPHIES_PATH}/${person.slug}`, date: person.date })),
-    ...keepsakes.map(piece => ({ type: "Keepsake" as const, label: `Keepsake, ${formatEventDate(piece.eventDate)}`, title: piece.title, excerpt: piece.excerpt, href: `${LOOKING_BACK_PATH}/${piece.slug}`, date: piece.date, eventDate: piece.eventDate })),
-    ...features.map(article => ({ type: "Feature" as const, label: "Feature", title: article.title, excerpt: article.excerpt, href: `/archive/${article.slug}`, date: article.date })),
-  ];
-  const order = { Series: 0, Biography: 1, Keepsake: 2, Feature: 3 };
-  const newestFirst = (a: HubItem, b: HubItem) => b.date.localeCompare(a.date) || order[a.type] - order[b.type] || (b.partNumber ?? 0) - (a.partNumber ?? 0) || a.title.localeCompare(b.title);
-  items.sort(newestFirst);
-  // Parts are sorted by part number, so the last live one is the newest.
-  const series = definitions
-    .map(d => ({ ...d, newestPart: parts.filter(part => part.seriesSlug === d.slug).at(-1)?.partNumber }))
-    .filter((d): d is typeof d & { newestPart: number } => d.newestPart !== undefined);
   return {
-    series,
-    counts: { keepsakes: keepsakes.length, biographies: people.length, seriesParts: parts.length, features: features.length },
-    latest: items.slice(0, 6),
+    series: {
+      count: new Set(parts.map(part => part.seriesSlug)).size,
+      parts: parts.length,
+      newThisWeek: parts.some(part => isRecent(part, 7, now)),
+    },
+    onThisDay: currentWeek(now),
+    biographies: getLiveBiographies(now, root).length,
   };
 }

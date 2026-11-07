@@ -4,7 +4,7 @@ import { SITE_URL } from './site.ts';
 import { SOCIAL_IMAGE_VERSION, socialImageSize } from './social-card.ts';
 
 export function socialMetadata(title: string, description: string, path: string): Metadata {
-  const sectionPage = /^\/looking-back\/(keepsakes|biographies|series|features)$/.test(path);
+  const sectionPage = /^\/looking-back\/(on-this-day|on-this-day\/previous|biographies|series|features)$/.test(path);
   const image = !sectionPage && /^\/(articles|archive|looking-back)\/[a-z0-9-]+$/.test(path)
     ? { url: new URL(`${path}/opengraph-image?v=${SOCIAL_IMAGE_VERSION}`, SITE_URL).href, ...socialImageSize, alt: title }
     : undefined;

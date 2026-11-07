@@ -7,7 +7,7 @@ import { fitHeadline, socialImageSize } from '@/lib/social-card';
 export const runtime = 'nodejs';
 export const size = socialImageSize;
 export const contentType = 'image/png';
-export const alt = 'The Brief · Looking Back keepsake';
+export const alt = 'The Brief · Looking Back · On This Day';
 
 // Same scheduling as the page: built for visible pieces, later ones on request.
 export const dynamicParams = true;

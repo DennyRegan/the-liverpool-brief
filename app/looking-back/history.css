@@ -1,7 +1,7 @@
 /* Looking Back: the hub, its section indexes (Biographies, Series, Features,
-   Keepsakes list) and the biography and series pages. Mobile first. Plain
+   On This Day list) and the biography and series pages. Mobile first. Plain
    readable text throughout; the newspaper-cutting look belongs to individual
-   keepsakes only (looking-back.css). */
+   On This Day pieces only (looking-back.css). */
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
 
 /* ---- Shared section header (index pages and pieces) ---------------------- */
@@ -27,7 +27,7 @@
 .history-body hr::after { content: "* * *"; color: var(--muted); letter-spacing: .5em; }
 .history-body a { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
 
-/* ---- Index lists (Biographies, Series, Features, Keepsakes) -------------- */
+/* ---- Index lists (Biographies, Series, Features, On This Day) -------------- */
 .history-decade { margin-top: 28px; }
 .history-decade-heading { font: 600 22px/1.2 var(--font-source-serif), Georgia, serif; color: var(--accent-dark); border-bottom: 1px solid var(--foreground); padding-bottom: 8px; margin: 0; }
 .history-list { list-style: none; margin: 0; padding: 0; }
@@ -45,23 +45,23 @@
 .history-part-nav .next { text-align: right; grid-column: 2; }
 .history-part-nav .previous { grid-column: 1; }
 
-/* ---- Hub: the shared collection layout (Articles, Matchday, Calls) ------- */
+/* ---- Hub: three tappable rows (Series, On This Day, Biographies) -------- */
 .lbh a { text-decoration: none; }
-.lbh-intro { color: var(--muted); font-size: 15px; line-height: 1.6; margin: 0 0 8px; }
+.lbh-rows { margin-top: 20px; border-top: 1px solid var(--line); }
+.lbh-rows ul { list-style: none; margin: 0; padding: 0; }
+.lbh-rows li { border-bottom: 1px solid var(--line); }
+.lbh-rows li a { display: flex; align-items: center; gap: 16px; padding: 30px 0 32px; color: var(--foreground); }
+.lbh-row-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+.lbh-row-title { display: flex; align-items: center; gap: 10px; font: 600 32px/1.1 var(--font-source-serif), Georgia, serif; letter-spacing: -.025em; }
+.lbh-row-line { color: var(--muted); font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+.lbh-row-arrow { color: var(--muted); font-size: 18px; transition: transform .15s ease, color .15s ease; }
+.lbh-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
+.lbh-rows li a:hover .lbh-row-title { color: var(--accent-dark); }
+.lbh-rows li a:hover .lbh-row-arrow { color: var(--accent-dark); transform: translateX(3px); }
 
-/* Contents: one row per section. */
-.lbh-contents { margin-top: 12px; border-top: 1px solid var(--line); }
-.lbh-contents ul { list-style: none; margin: 0; padding: 0; }
-.lbh-contents li { border-bottom: 1px solid var(--line); }
-.lbh-contents li a { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "title meta" "text meta"; gap: 6px 16px; padding: 20px 0 22px; }
-.lbh-contents-title { grid-area: title; font: 600 var(--headline-list)/1.22 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; }
-.lbh-contents-text { grid-area: text; color: var(--muted); font-size: 15px; line-height: 1.6; }
-.lbh-contents-meta { grid-area: meta; align-self: center; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
-.lbh-contents-count { color: var(--accent-dark); font-size: 12px; font-weight: 600; white-space: nowrap; }
-.lbh-new { color: var(--accent-dark); border: 1px solid var(--accent); font-size: 11px; font-weight: 600; line-height: 1; padding: 4px 6px; white-space: nowrap; }
-.lbh-contents li a:hover .lbh-contents-title { color: var(--accent-dark); }
-.lbh-features { color: var(--muted); font-size: 15px; margin: 14px 0 0; }
-.lbh-features a { color: var(--accent-dark); font-weight: 600; border-bottom: 1px solid currentColor; }
+.otd-previous { margin: 20px 0 0; }
+.otd-previous a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); font-size: 14px; font-weight: 600; text-decoration: none; }
+.otd-previous a:hover { color: var(--accent-dark); }
 
 /* Series page: start link and latest part. */
 .series-start { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin: 0 0 8px; }
@@ -69,27 +69,13 @@
 .series-start a:hover { color: var(--accent); }
 .series-latest { color: var(--muted); font-size: 14px; }
 
-/* Latest: the homepage's section heading and list cards. */
-.lbh-latest { margin-top: 48px; }
-.lbh-latest > h2 { color: var(--foreground); border-bottom: 1px solid var(--line); padding-bottom: 12px; margin: 0; }
-.lbh-latest ol { list-style: none; margin: 0; padding: 0; }
-.lbh-latest li { border-bottom: 1px solid var(--line); padding: 20px 0 22px; }
-.lbh-item-type { color: var(--accent-dark); font-size: 12px; margin: 0; }
-.lbh-latest h3 { font: 600 var(--headline-list)/1.22 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; margin: 8px 0 10px; text-wrap: pretty; overflow-wrap: anywhere; }
-.lbh-latest h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
-.lbh-item-excerpt { color: var(--muted); font-size: 15px; line-height: 1.6; margin: 0; }
-
-@media (min-width: 760px) {
-  .lbh-latest ol { display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 40px; }
-}
-@media (min-width: 1000px) {
-  .lbh-latest ol { grid-template-columns: repeat(3, 1fr); }
-}
 .history-list-date { color: var(--muted); font-size: 13px; margin: 8px 0 0; }
 
 /* Phones: the same steps as Articles and article pages (editorial.css). */
 @media (max-width: 700px) {
   .history-index .history-headline { font-size: 24px; }
+  .lbh-rows li a { padding: 26px 0 28px; }
+  .lbh-row-title { font-size: 28px; }
   .history-page { width: calc(100% - 40px); margin: 16px auto 48px; }
   .history-body { font-size: 18px; line-height: 1.75; }
   .history-body h2 { font-size: 24px; }
