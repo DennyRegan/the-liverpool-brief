@@ -4,8 +4,14 @@
    Standard TT) and the Brief's red. No blackletter, masthead, price or volume line.
    Current-day articles and Football Observed never load this file. */
 
-/* Warm paper on these pages only, header included. */
-body:has(.ha-page) { background: #f3ede0; }
+/* Cream newsprint on every Looking Back page (index pages and pieces), header
+   included, so history reads differently from the modern writing. The faint dot
+   is The Back Pages' paper grain. Keep in step with history.css. */
+body:has(.ha-page), body:has(.lb-fonts) {
+  background-color: #f4ecda;
+  background-image: radial-gradient(rgba(60, 45, 20, .07) .6px, transparent .8px);
+  background-size: 4px 4px;
+}
 
 /* Typeface tokens, shared with app/looking-back/history.css. */
 .ha-page, .lb-fonts {
@@ -15,7 +21,7 @@ body:has(.ha-page) { background: #f3ede0; }
 }
 
 .ha-page {
-  --ha-rule: #cdc3ae;
+  --ha-rule: #c9bc9f;
   width: min(640px, calc(100% - 40px));
   margin: 0 auto 72px;
   font-family: var(--lb-body);

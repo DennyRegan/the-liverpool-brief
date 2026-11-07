@@ -3,6 +3,15 @@
    /looking-back by app/looking-back/layout.tsx (app/components/history-fonts.ts).
    Individual pieces use the shared history article template
    (app/components/history-article.css). */
+/* Cream newsprint on every Looking Back page (index pages and pieces), header
+   included, so history reads differently from the modern writing. The faint dot
+   is The Back Pages' paper grain. Keep in step with history.css. */
+body:has(.ha-page), body:has(.lb-fonts) {
+  background-color: #f4ecda;
+  background-image: radial-gradient(rgba(60, 45, 20, .07) .6px, transparent .8px);
+  background-size: 4px 4px;
+}
+
 .lb-fonts {
   --lb-body: var(--lb-f-body), "IM Fell English", Georgia, serif;
   --lb-caps: var(--lb-f-caps), var(--lb-f-body), Georgia, serif;

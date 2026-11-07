@@ -270,3 +270,10 @@ test('history article kickers and read times come from existing frontmatter', as
   assert.equal(helpers.readMinutes('word '.repeat(450)), 2);
   assert.equal(helpers.readMinutes('one'), 1);
 });
+
+test('every Looking Back page, index pages included, sits on cream paper; modern pages do not', () => {
+  const paper = /body:has\(\.ha-page\), body:has\(\.lb-fonts\) \{\s*background-color: #f4ecda;/;
+  assert.match(fs.readFileSync('app/looking-back/history.css', 'utf8'), paper);
+  assert.match(fs.readFileSync('app/components/history-article.css', 'utf8'), paper);
+  for (const file of ['app/globals.css', 'app/editorial.css']) assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /#f4ecda/, file);
+});
