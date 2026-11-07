@@ -1,13 +1,11 @@
-/* Looking Back: the hub, its section indexes (Biographies, Series, Features,
-   On This Day list) and the biography and series pages. Mobile first. Plain
-   readable text throughout; the newspaper-cutting look belongs to individual
-   On This Day pieces only (looking-back.css). */
+/* Looking Back: the hub and its section indexes (Biographies, Series, Features,
+   On This Day lists). Mobile first, plain readable text. Individual pieces use
+   the shared history article template (app/components/history-article.css). */
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
 
 /* ---- Shared section header (index pages and pieces) ---------------------- */
-/* Pieces use the article reading width and headline; index pages use the
-   shared collection layout and title, like Articles, Matchday and Calls. */
-.history-page { width: min(680px, calc(100% - 80px)); margin: 30px auto 64px; }
+/* Index pages use the shared collection layout and title, like Articles,
+   Matchday and Calls. */
 .history-header { padding: 0 0 20px; margin-bottom: 8px; }
 .history-masthead { font-size: 13px; font-weight: 600; margin: 0; }
 .history-masthead a { color: var(--accent-dark); text-decoration: none; display: inline-flex; align-items: center; min-height: 36px; }
@@ -19,14 +17,6 @@
 .history-count { color: var(--foreground); white-space: nowrap; }
 .history-scheduled { display: block; background: #fff3cd; color: #5c4400; border: 1px solid #e3c260; border-radius: 3px; padding: 4px 10px; font-size: 13px; font-weight: 600; margin: 0 0 16px; }
 
-.history-body { font: 400 19px/1.8 var(--font-source-serif), Georgia, serif; border-top: 1px solid var(--line); padding-top: 24px; }
-.history-body p { margin: 0 0 22px; }
-.history-body h2 { font: 600 27px/1.3 var(--font-source-serif), Georgia, serif; margin: 34px 0 12px; }
-.history-body h3 { font: 600 22px/1.3 var(--font-source-serif), Georgia, serif; margin: 30px 0 10px; }
-.history-body hr { border: 0; text-align: center; margin: 2em 0; }
-.history-body hr::after { content: "* * *"; color: var(--muted); letter-spacing: .5em; }
-.history-body a { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
-
 /* ---- Index lists (Biographies, Series, Features, On This Day) -------------- */
 .history-decade { margin-top: 28px; }
 .history-decade-heading { font: 600 22px/1.2 var(--font-source-serif), Georgia, serif; color: var(--accent-dark); border-bottom: 1px solid var(--foreground); padding-bottom: 8px; margin: 0; }
@@ -37,13 +27,6 @@
 .history-list h3 a { text-decoration: none; }
 .history-list h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .history-list-excerpt { color: var(--muted); font-size: 15px; line-height: 1.6; margin: 0; max-width: 62ch; }
-
-.history-part-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; border-top: 1px solid var(--line); margin-top: 36px; padding-top: 16px; }
-.history-part-nav a { display: block; min-height: 44px; font-size: 14px; color: var(--accent-dark); text-decoration: none; }
-.history-part-nav a:hover { text-decoration: underline; }
-.history-part-nav small { display: block; color: var(--muted); font-size: 12px; }
-.history-part-nav .next { text-align: right; grid-column: 2; }
-.history-part-nav .previous { grid-column: 1; }
 
 /* ---- Hub: three tappable rows (Series, On This Day, Biographies) -------- */
 .lbh a { text-decoration: none; }
@@ -76,7 +59,4 @@
   .history-index .history-headline { font-size: 24px; }
   .lbh-rows li a { padding: 26px 0 28px; }
   .lbh-row-title { font-size: 28px; }
-  .history-page { width: calc(100% - 40px); margin: 16px auto 48px; }
-  .history-body { font-size: 18px; line-height: 1.75; }
-  .history-body h2 { font-size: 24px; }
 }

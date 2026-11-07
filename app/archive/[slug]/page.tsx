@@ -10,6 +10,9 @@ import { SiteHeader } from "@/app/components/SiteHeader";
 import { ShareButton } from "@/app/components/ShareButton";
 import { PlayerTags } from "@/app/components/PlayerTags";
 import { ArticleMeta } from "@/app/components/ArticleMeta";
+import { HistoryArticle } from "@/app/components/HistoryArticle";
+import { FEATURES_PATH } from "@/lib/content/looking-back";
+import { formatDayMonthYear, readTime } from "@/lib/content/history-article";
 
 export function generateStaticParams() {
   return getArchiveFeatures().map((feature) => ({ slug: feature.slug }));
@@ -47,6 +50,25 @@ export default async function ArchiveFeaturePage({
     feature = getArchiveFeature(slug);
   } catch {
     notFound();
+  }
+
+  // Features (factual pieces) are Looking Back pieces and use the shared history
+  // article template. Opinion pieces keep the modern article layout below.
+  if (feature.editorialMode === "factual") {
+    return <>
+      <SiteHeader active="looking-back" />
+      <HistoryArticle
+        back={{ href: FEATURES_PATH, label: "Back to Features" }}
+        kicker={feature.decade ?? "Feature"}
+        title={feature.title}
+        standfirst={feature.excerpt}
+        byline="By Denny Regan"
+        dateline={[feature.historicalEventDate ? formatDayMonthYear(feature.historicalEventDate) : feature.historicalPeriod, "Feature", readTime(feature.body)]}
+        body={feature.body}
+        links={[{ href: FEATURES_PATH, label: "All Features" }]}
+        extras={<PlayerTags players={feature.players} />}
+      />
+    </>;
   }
 
   return (

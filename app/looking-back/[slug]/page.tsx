@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import { SiteHeader } from "@/app/components/SiteHeader";
-import { ShareButton } from "@/app/components/ShareButton";
-import { formatDayDate, getVisibleLookingBack, getVisibleLookingBackPiece, LOOKING_BACK_BYLINE, LOOKING_BACK_PATH, ON_THIS_DAY_PATH } from "@/lib/content/looking-back";
+import { HistoryArticle } from "@/app/components/HistoryArticle";
+import { formatDayDate, getVisibleLookingBack, getVisibleLookingBackPiece, LOOKING_BACK_BYLINE, LOOKING_BACK_PATH, ON_THIS_DAY_PATH, ON_THIS_DAY_PREVIOUS_PATH } from "@/lib/content/looking-back";
+import { formatDayMonthYear, onThisDayKicker, readTime } from "@/lib/content/history-article";
 import { socialMetadata } from "@/lib/social-metadata";
-import "../looking-back.css";
 
 // Pages built at deploy time cover the pieces visible then. dynamicParams lets
 // a piece whose date arrives later render on request instead of staying a 404
@@ -29,25 +26,29 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function LookingBackPiecePage({ params }: { params: Promise<{ slug: string }> }) {
   const piece = getVisibleLookingBackPiece((await params).slug);
   if (!piece) notFound();
+  // Previous and next by anniversary date, among the pieces this deployment may show.
+  const ordered = [...getVisibleLookingBack()].sort((a, b) => a.date.localeCompare(b.date) || a.slug.localeCompare(b.slug));
+  const index = ordered.findIndex(item => item.slug === piece.slug);
+  const [previous, next] = [ordered[index - 1], ordered[index + 1]];
   return <>
     <SiteHeader active="looking-back" />
-    <main id="main-content" className="lb-page">
-      <div className="reading-tools">
-        <Link href={ON_THIS_DAY_PATH} className="back-link">‹ On This Day</Link>
-        <ShareButton title={piece.title} />
-      </div>
-      {piece.scheduled && <p className="lb-scheduled lb-scheduled--page" role="note">Scheduled for {formatDayDate(piece.liveFrom)}</p>}
-      <article className="lb-cutting" aria-labelledby="lb-headline">
-        <p className="lb-masthead">The Brief · Looking Back</p>
-        <p className="lb-dateline">{piece.dateline}</p>
-        <h1 id="lb-headline" className="lb-headline">{piece.title}</h1>
-        {piece.scoreline && <p className="lb-scoreline">{piece.scoreline}</p>}
-        <p className="lb-byline">By {LOOKING_BACK_BYLINE}</p>
-        <div className="lb-body"><ReactMarkdown remarkPlugins={[remarkGfm]}>{piece.body}</ReactMarkdown></div>
-      </article>
+    <HistoryArticle
+      back={{ href: ON_THIS_DAY_PATH, label: "Back to this week's On This Day" }}
+      kicker={onThisDayKicker(piece) ?? `On This Day · ${piece.eventDate.slice(0, 4)}`}
+      title={piece.title}
+      scoreline={piece.scoreline}
+      standfirst={piece.excerpt}
+      byline={`By ${LOOKING_BACK_BYLINE}`}
+      dateline={[formatDayMonthYear(piece.eventDate), "On This Day", readTime(piece.body)]}
+      body={piece.body}
+      scheduledFor={piece.scheduled ? formatDayDate(piece.liveFrom) : undefined}
+      previous={previous && { href: `${LOOKING_BACK_PATH}/${previous.slug}`, label: "Previous", detail: previous.title }}
+      next={next && { href: `${LOOKING_BACK_PATH}/${next.slug}`, label: "Next", detail: next.title }}
+      links={[{ href: ON_THIS_DAY_PREVIOUS_PATH, label: "Previous weeks" }]}
+    >
       <p className="lb-actions">
         <a href={`${LOOKING_BACK_PATH}/${piece.slug}/opengraph-image`} download={`${piece.slug}.png`}>Download image</a>
       </p>
-    </main>
+    </HistoryArticle>
   </>;
 }

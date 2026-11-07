@@ -1,15 +1,11 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import { SiteHeader } from "@/app/components/SiteHeader";
-import { ShareButton } from "@/app/components/ShareButton";
-import { HistoryHeader, ScheduledNote } from "@/app/components/HistoryHeader";
+import { HistoryArticle } from "@/app/components/HistoryArticle";
 import { getVisibleSeries, getVisibleSeriesPart, SERIES_PATH } from "@/lib/content/history";
 import { formatDayDate } from "@/lib/content/go-live";
+import { formatDayMonthYear, readTime } from "@/lib/content/history-article";
 import { socialMetadata } from "@/lib/social-metadata";
-import "../../../history.css";
 
 export const dynamicParams = true;
 export const revalidate = 3600;
@@ -31,22 +27,20 @@ export default async function SeriesPartPage({ params }: { params: Promise<{ ser
   const found = getVisibleSeriesPart(seriesSlug, slug);
   if (!found) notFound();
   const { series, part, previous, next } = found;
+  const seriesPath = `${SERIES_PATH}/${series.slug}`;
   return <>
     <SiteHeader active="looking-back" />
-    <main id="main-content" className="history-page">
-      <div className="reading-tools">
-        <Link href={`${SERIES_PATH}/${series.slug}`} className="back-link">‹ {series.title}</Link>
-        <ShareButton title={part.title} />
-      </div>
-      {part.scheduled && <ScheduledNote date={formatDayDate(part.liveFrom)} />}
-      <article>
-        <HistoryHeader title={part.title} dateline={`${series.title}, part ${part.partNumber} of ${series.totalParts}`} />
-        <div className="history-body"><ReactMarkdown remarkPlugins={[remarkGfm]}>{part.body}</ReactMarkdown></div>
-      </article>
-      <nav className="history-part-nav" aria-label={`${series.title} parts`}>
-        {previous && <Link className="previous" href={`${SERIES_PATH}/${series.slug}/${previous.slug}`}><small>Previous</small>Part {previous.partNumber}: {previous.title}</Link>}
-        {next && <Link className="next" href={`${SERIES_PATH}/${series.slug}/${next.slug}`}><small>Next</small>Part {next.partNumber}: {next.title}</Link>}
-      </nav>
-    </main>
+    <HistoryArticle
+      back={{ href: seriesPath, label: `Back to ${series.title}` }}
+      kicker={`${series.title} · Part ${part.partNumber} of ${series.totalParts}`}
+      title={part.title}
+      standfirst={part.excerpt}
+      dateline={[formatDayMonthYear(part.date), "Series", readTime(part.body)]}
+      body={part.body}
+      scheduledFor={part.scheduled ? formatDayDate(part.liveFrom) : undefined}
+      previous={previous && { href: `${seriesPath}/${previous.slug}`, label: `Part ${previous.partNumber}`, detail: previous.title }}
+      next={next && { href: `${seriesPath}/${next.slug}`, label: `Part ${next.partNumber}`, detail: next.title }}
+      links={[{ href: seriesPath, label: "All parts" }]}
+    />
   </>;
 }

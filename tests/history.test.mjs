@@ -12,6 +12,7 @@ const { getPublicSitemap } = await import('../lib/content/sitemap.ts');
 // Made-up test content (tests/fixtures/history/README.md); never read by the site.
 const root = path.resolve('tests/fixtures/history');
 const at = iso => new Date(iso);
+const HISTORY_ARTICLE_PAGES = ['app/looking-back/[slug]/page.tsx', 'app/looking-back/biographies/[slug]/page.tsx', 'app/looking-back/series/[series]/[slug]/page.tsx', 'app/archive/[slug]/page.tsx'];
 const production = { VERCEL_ENV: 'production' };
 const preview = { VERCEL_ENV: 'preview' };
 
@@ -149,12 +150,12 @@ test('History pages revalidate hourly, render dated pieces on request, and the r
   }
 });
 
-test('Looking Back section pages share one header and plain body text, with no newspaper styling, and Looking Back is active on all of them', () => {
+test('Looking Back index pages share one header with plain list styling, and Looking Back is active on every page', () => {
   const css = fs.readFileSync('app/looking-back/history.css', 'utf8');
   assert.doesNotMatch(css, /column-count|first-letter|--paper/);
-  const sectionPages = ['app/looking-back/on-this-day/page.tsx', 'app/looking-back/on-this-day/previous/page.tsx', 'app/looking-back/features/page.tsx', 'app/looking-back/biographies/page.tsx', 'app/looking-back/biographies/[slug]/page.tsx', 'app/looking-back/series/page.tsx', 'app/looking-back/series/[series]/page.tsx', 'app/looking-back/series/[series]/[slug]/page.tsx'];
-  for (const file of sectionPages) assert.match(fs.readFileSync(file, 'utf8'), /HistoryHeader/, file);
-  for (const file of ['app/looking-back/page.tsx', 'app/looking-back/[slug]/page.tsx', ...sectionPages]) assert.match(fs.readFileSync(file, 'utf8'), /<SiteHeader active="looking-back" \/>/, file);
+  const indexPages = ['app/looking-back/on-this-day/page.tsx', 'app/looking-back/on-this-day/previous/page.tsx', 'app/looking-back/features/page.tsx', 'app/looking-back/biographies/page.tsx', 'app/looking-back/series/page.tsx', 'app/looking-back/series/[series]/page.tsx'];
+  for (const file of indexPages) assert.match(fs.readFileSync(file, 'utf8'), /HistoryHeader/, file);
+  for (const file of ['app/looking-back/page.tsx', ...indexPages, ...HISTORY_ARTICLE_PAGES.slice(0, 3)]) assert.match(fs.readFileSync(file, 'utf8'), /<SiteHeader active="looking-back" \/>/, file);
   const header = fs.readFileSync('app/components/SiteHeader.tsx', 'utf8');
   assert.ok(header.indexOf('"Football Observed"') < header.indexOf('"Looking Back"'));
   assert.doesNotMatch(header, /"History"/);
@@ -228,4 +229,32 @@ test('latest History: newest live biography and series part only, never a future
   assert.deepEqual(history.getLatestHistory(at('2020-01-01T00:00:00Z'), root), []);
   assert.match(fs.readFileSync('app/page.tsx', 'utf8'), /<HistoryLatest \/>/);
   assert.match(fs.readFileSync('app/components/HistoryLatest.tsx', 'utf8'), /From Looking Back/);
+});
+
+test('every Looking Back piece uses the one shared history article template; current-day articles and Football Observed never do', () => {
+  for (const file of HISTORY_ARTICLE_PAGES) {
+    const source = fs.readFileSync(file, 'utf8');
+    assert.match(source, /<HistoryArticle\b/, file);
+    assert.doesNotMatch(source, /history-article\.css|\.ha-/, `${file} must not style the template itself`);
+  }
+  // Only factual Archive pieces (Features) take the template; opinion pieces keep the modern layout.
+  assert.match(fs.readFileSync('app/archive/[slug]/page.tsx', 'utf8'), /if \(feature\.editorialMode === "factual"\) \{\s*return <>\s*<SiteHeader active="looking-back" \/>\s*<HistoryArticle/);
+  for (const file of ['app/articles/[slug]/page.tsx', 'app/regan-on-football/page.tsx', 'app/page.tsx', 'app/looking-back/page.tsx']) {
+    assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /HistoryArticle|history-article/, file);
+  }
+  const css = fs.readFileSync('app/components/history-article.css', 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
+  assert.match(css, /oldstyle-nums/);
+  assert.match(css, /hyphens: manual/);
+  assert.equal((css.match(/::first-letter/g) ?? []).length, 2, 'one drop cap rule plus its initial-letter refinement');
+  assert.doesNotMatch(css, /text-align: justify|blackletter|UnifrakturMaguntia|Fell|gothic/i);
+});
+
+test('history article kickers and read times come from existing frontmatter', async () => {
+  const helpers = await import('../lib/content/history-article.ts');
+  assert.equal(helpers.onThisDayKicker({ dateline: 'Anfield · Tuesday 7 November 1967 · Inter-Cities Fairs Cup, second round, first leg', eventDate: '1967-11-07' }), 'Inter-Cities Fairs Cup · 1967');
+  assert.equal(helpers.onThisDayKicker({ dateline: 'Anfield · Saturday 15 November 1969', eventDate: '1969-11-15' }), undefined);
+  for (const piece of looking.getLookingBack()) assert.ok(helpers.onThisDayKicker(piece), `${piece.slug} has no competition in its dateline`);
+  assert.equal(helpers.formatDayMonthYear('1967-11-07'), '7 November 1967');
+  assert.equal(helpers.readMinutes('word '.repeat(450)), 2);
+  assert.equal(helpers.readMinutes('one'), 1);
 });

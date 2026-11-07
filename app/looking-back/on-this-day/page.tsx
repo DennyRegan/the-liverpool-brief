@@ -3,7 +3,6 @@ import { SiteHeader } from "@/app/components/SiteHeader";
 import { HistoryHeader } from "@/app/components/HistoryHeader";
 import { formatDayDate, getVisibleLookingBack, LOOKING_BACK_PATH, ON_THIS_DAY_PATH, ON_THIS_DAY_PREVIOUS_PATH, splitOnThisDay } from "@/lib/content/looking-back";
 import { socialMetadata } from "@/lib/social-metadata";
-import "../looking-back.css";
 import "../history.css";
 
 // Regenerated at most hourly, so a new week appears on its Monday without a deploy.

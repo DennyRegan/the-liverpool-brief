@@ -172,7 +172,7 @@ test('keepsakes carry the publication byline and no AI disclosure; the disclosur
     assert.doesNotMatch(source, disclosure, file);
     assert.doesNotMatch(source, /Denny Regan/, file);
   }
-  assert.match(fs.readFileSync('app/looking-back/[slug]/page.tsx', 'utf8'), /By \{LOOKING_BACK_BYLINE\}/);
+  assert.match(fs.readFileSync('app/looking-back/[slug]/page.tsx', 'utf8'), /By \$\{LOOKING_BACK_BYLINE\}/);
   assert.match(fs.readFileSync('app/looking-back/[slug]/opengraph-image.tsx', 'utf8'), /By \{LOOKING_BACK_BYLINE\}/);
   for (const file of fs.readdirSync('content/looking-back')) assert.doesNotMatch(fs.readFileSync(path.join('content/looking-back', file), 'utf8'), disclosure);
   assert.match(fs.readFileSync('app/about/page.tsx', 'utf8'), /Looking Back pieces are researched and drafted with AI tools from published sources, then checked and edited before publication\./);

@@ -10,6 +10,8 @@ export const ArchiveFeatureSchema = z.object({
     title: z.string(),
     date: z.iso.date(),
     historicalPeriod: z.string(),
+    // The decade of the event ("1980s"), shown as the Features kicker.
+    decade: z.string().regex(/^\d{3}0s$/, 'Use a decade such as "1980s"').optional(),
     excerpt: z.string(),
     slug: SlugSchema,
     editorialMode: z.enum(["factual", "opinion"]).optional(),

@@ -1,0 +1,103 @@
+/* The shared history article (HistoryArticle.tsx): every Looking Back piece.
+   A classic "on this day" newspaper article in The Liverpool Brief's own
+   Source Serif and red. No blackletter, masthead, price or volume line.
+   Current-day articles and Football Observed never load this file. */
+
+/* Warm paper on these pages only, header included. */
+body:has(.ha-page) { background: #f3ede0; }
+
+.ha-page {
+  --ha-rule: #cdc3ae;
+  width: min(640px, calc(100% - 40px));
+  margin: 0 auto 72px;
+  font-family: var(--font-source-serif), Georgia, serif;
+}
+
+/* Small letter-spaced capitals, shared by the back line, kicker, dateline and foot. */
+.ha-backline a, .ha-kicker, .ha-byline, .ha-dateline, .ha-scoreline, .ha-links a, .ha-step-label {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+/* 1. Back link between two hairlines. */
+.ha-backline { margin: 0; border-top: 1px solid var(--ha-rule); border-bottom: 1px solid var(--ha-rule); text-align: center; }
+.ha-backline a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; color: var(--muted); text-decoration: none; }
+.ha-backline a:hover { color: var(--accent-dark); }
+
+.ha-scheduled { background: #fff3cd; color: #5c4400; border: 1px solid #e3c260; border-radius: 3px; padding: 4px 10px; font: 600 13px/1.4 var(--font-geist-sans), system-ui, sans-serif; margin: 16px 0 0; }
+
+/* 2–5. Head: kicker, headline, standfirst, dateline. */
+.ha-head { text-align: center; padding-top: 32px; }
+.ha-kicker { color: var(--accent); margin: 0; }
+.ha-lower { text-transform: none; }
+.ha-headline { font: 600 clamp(32px, 7.5vw, 46px)/1.06 var(--font-source-serif), Georgia, serif; letter-spacing: -.025em; margin: 14px 0 0; text-wrap: balance; overflow-wrap: anywhere; }
+.ha-scoreline { color: var(--foreground); margin: 14px 0 0; }
+.ha-standfirst { font: italic 400 21px/1.45 var(--font-source-serif), Georgia, serif; color: #4d4c46; max-width: 34em; margin: 16px auto 0; text-wrap: pretty; }
+.ha-byline { color: var(--muted); margin: 16px 0 0; }
+.ha-dateline { color: var(--muted); border-top: 1px solid var(--ha-rule); border-bottom: 1px solid var(--ha-rule); padding: 11px 0; margin: 22px 0 0; line-height: 1.6; }
+
+/* 6–8. Body: left-aligned, no hyphenation, old-style numerals, one drop cap. */
+.ha-body {
+  font: 400 19px/1.75 var(--font-source-serif), Georgia, serif;
+  text-align: left;
+  hyphens: manual;
+  -webkit-hyphens: manual;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  padding-top: 28px;
+}
+.ha-body p { margin: 0 0 1.1em; }
+.ha-body h2 { font: 600 25px/1.3 var(--font-source-serif), Georgia, serif; margin: 1.6em 0 .5em; }
+.ha-body h3 { font: 600 21px/1.3 var(--font-source-serif), Georgia, serif; margin: 1.4em 0 .4em; }
+.ha-body blockquote { font-style: italic; margin: 1.2em 0; padding-left: 1em; border-left: 1px solid var(--ha-rule); }
+.ha-body a { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
+.ha-body img { max-width: 100%; height: auto; }
+.ha-body hr { width: 30%; margin: 2em auto; border: 0; border-top: 1px solid var(--ha-rule); }
+.ha-body table { width: 100%; border-collapse: collapse; font-size: 16px; margin: 1.2em 0; }
+.ha-body th, .ha-body td { border-bottom: 1px solid var(--ha-rule); padding: 6px 8px 6px 0; text-align: left; }
+
+/* The drop cap: first letter of the first paragraph, three lines deep, in red. */
+.ha-body > p:first-of-type::first-letter {
+  float: left;
+  font-size: 5.6em;
+  line-height: .8;
+  font-weight: 600;
+  margin: .06em .07em 0 0;
+  color: var(--accent);
+}
+@supports (initial-letter: 3) or (-webkit-initial-letter: 3) {
+  .ha-body > p:first-of-type::first-letter {
+    float: none; font-size: inherit; line-height: inherit; margin: 0 .08em 0 0;
+    -webkit-initial-letter: 3; initial-letter: 3;
+  }
+}
+
+.ha-extras { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-top: 28px; }
+.ha-extras .player-tags { margin: 0; }
+
+/* Bottom: a hairline, then previous/next and section links. */
+.ha-foot { border-top: 1px solid var(--ha-rule); margin-top: 32px; padding-top: 8px; }
+.ha-step { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.ha-step a { display: flex; flex-direction: column; gap: 4px; min-height: 44px; padding: 10px 0; text-decoration: none; color: var(--foreground); }
+.ha-previous { grid-column: 1; }
+.ha-next { grid-column: 2; text-align: right; align-items: flex-end; }
+.ha-step-label { color: var(--accent-dark); }
+.ha-step-detail { font: 400 16px/1.35 var(--font-source-serif), Georgia, serif; }
+.ha-step a:hover .ha-step-detail { text-decoration: underline; text-underline-offset: 3px; }
+.ha-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 28px; border-top: 1px solid var(--ha-rule); margin: 8px 0 0; padding-top: 4px; }
+.ha-step:empty + .ha-links, .ha-foot > .ha-links:first-child { border-top: 0; margin-top: 0; }
+.ha-links a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; color: var(--muted); text-decoration: none; }
+.ha-links a:hover { color: var(--accent-dark); }
+.ha-foot .lb-actions { text-align: center; margin: 4px 0 0; }
+.ha-foot .lb-actions a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); font-size: 14px; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Phones. */
+@media (max-width: 700px) {
+  .ha-head { padding-top: 26px; }
+  .ha-standfirst { font-size: 19px; }
+  .ha-body { font-size: 18px; line-height: 1.7; padding-top: 24px; }
+  .ha-body h2 { font-size: 23px; }
+  .ha-step-detail { font-size: 15px; }
+}
