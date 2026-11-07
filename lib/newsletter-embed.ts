@@ -17,10 +17,10 @@ export type SenderWindow = Window & {
   liverpoolBriefSenderAccount?: string;
 };
 
-// Sender's documented public JS SDK, with automatic/pop-up rendering disabled.
+// Keep automatic rendering disabled; render only explicitly selected form IDs.
 export const SENDER_SCRIPT_URL = 'https://cdn.sender.net/accounts_resources/universal.js?explicit=true';
 
-export function mountSenderForm(browser: SenderWindow, config: NewsletterConfig, onRender: () => void, onError: () => void) {
+export function mountSenderForm(browser: SenderWindow, config: Omit<NewsletterConfig, 'formUrl'> & { formUrl?: string }, onRender: () => void, onError: () => void) {
   browser.Sender = 'sender';
   if (!browser.sender) {
     const queue: SenderQueue = (...args) => { (queue.q ??= []).push(args); };

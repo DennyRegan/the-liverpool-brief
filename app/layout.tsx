@@ -6,6 +6,8 @@ import "./editorial.css";
 import { Analytics } from "@vercel/analytics/next";
 import { SITE_URL } from "@/lib/site";
 import { getNewsletterConfig } from "@/lib/newsletter-config";
+import { getNewsletterPopupConfig } from "@/lib/newsletter-popup";
+import { SenderNewsletterPopup } from "@/app/components/SenderNewsletterPopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +34,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const popup = getNewsletterPopupConfig();
   return (
     <html
       lang="en-GB"
@@ -39,6 +42,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         {children}
+        {popup && <SenderNewsletterPopup {...popup} />}
         <footer className="site-footer"><div className="site-width"><p>The Liverpool Brief<span>Independent writing by Denny Regan.</span></p><div className="footer-links"><Link href="/about">About</Link><Link href="/calls">Calls</Link>{getNewsletterConfig() && <a href="/newsletter">The Sunday Brief</a>}<a href="mailto:theliverpoolbrief@gmail.com">Get in touch ↗</a></div></div></footer>
         <Analytics />
       </body>
