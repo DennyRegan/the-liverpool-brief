@@ -1,7 +1,10 @@
-# Klopp's Liverpool, Part 7: Thirty Years of Waiting
-
-*Working title.*
-
+---
+seriesSlug: "klopps-liverpool"
+partNumber: 7
+title: "Thirty years of waiting"
+slug: "thirty-years-of-waiting"
+date: "2026-11-07"
+excerpt: "Liverpool began 2019–20 as champions of Europe and ended it as champions of England for the first time in 30 years. This is the story of a title all but won by February, put in doubt by a pandemic, and lifted in front of an empty Kop."
 ---
 
 Liverpool went into the 2019–20 season as champions of Europe, and in the eyes of most people paid to predict such things, still only the second-best team in England.
