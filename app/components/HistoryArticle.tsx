@@ -3,6 +3,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { ShareButton } from "@/app/components/ShareButton";
+import { historyFonts } from "./history-fonts";
 import "./history-article.css";
 
 /** Small capitals would print "1950s" as "1950S"; keep a decade's "s" lower case. */
@@ -37,7 +38,7 @@ export function HistoryArticle({ back, kicker, title, scoreline, standfirst, byl
   children?: ReactNode;
 }) {
   return (
-    <main id="main-content" className="ha-page">
+    <main id="main-content" className={`ha-page ${historyFonts}`}>
       <p className="ha-backline"><Link href={back.href}>{back.label} <span aria-hidden="true">→</span></Link></p>
       {scheduledFor && <p className="ha-scheduled" role="note">Scheduled for {scheduledFor}</p>}
       <article aria-labelledby="ha-headline">

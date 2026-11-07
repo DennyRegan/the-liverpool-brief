@@ -1,25 +1,34 @@
 /* The shared history article (HistoryArticle.tsx): every Looking Back piece.
-   A classic "on this day" newspaper article in The Liverpool Brief's own
-   Source Serif and red. No blackletter, masthead, price or volume line.
+   A classic "on this day" newspaper article in The Back Pages typefaces
+   (app/components/history-fonts.ts: IM Fell English, its small caps and Old
+   Standard TT) and the Brief's red. No blackletter, masthead, price or volume line.
    Current-day articles and Football Observed never load this file. */
 
 /* Warm paper on these pages only, header included. */
 body:has(.ha-page) { background: #f3ede0; }
 
+/* Typeface tokens, shared with app/looking-back/history.css. */
+.ha-page, .lb-fonts {
+  --lb-body: var(--lb-f-body), "IM Fell English", Georgia, serif;
+  --lb-caps: var(--lb-f-caps), var(--lb-f-body), Georgia, serif;
+  --lb-head: var(--lb-f-headline), "Old Standard TT", Georgia, serif;
+}
+
 .ha-page {
   --ha-rule: #cdc3ae;
   width: min(640px, calc(100% - 40px));
   margin: 0 auto 72px;
-  font-family: var(--font-source-serif), Georgia, serif;
+  font-family: var(--lb-body);
 }
 
-/* Small letter-spaced capitals, shared by the back line, kicker, dateline and foot. */
+/* True small caps (the SC face draws lower case as small capitals), shared by
+   the back line, kicker, dateline and foot. */
 .ha-backline a, .ha-kicker, .ha-byline, .ha-dateline, .ha-scoreline, .ha-links a, .ha-step-label {
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: .13em;
-  text-transform: uppercase;
+  font-family: var(--lb-caps);
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: .08em;
+  text-transform: lowercase;
 }
 
 /* 1. Back link between two hairlines. */
@@ -33,15 +42,15 @@ body:has(.ha-page) { background: #f3ede0; }
 .ha-head { text-align: center; padding-top: 32px; }
 .ha-kicker { color: var(--accent); margin: 0; }
 .ha-lower { text-transform: none; }
-.ha-headline { font: 600 clamp(32px, 7.5vw, 46px)/1.06 var(--font-source-serif), Georgia, serif; letter-spacing: -.025em; margin: 14px 0 0; text-wrap: balance; overflow-wrap: anywhere; }
-.ha-scoreline { color: var(--foreground); margin: 14px 0 0; }
-.ha-standfirst { font: italic 400 21px/1.45 var(--font-source-serif), Georgia, serif; color: #4d4c46; max-width: 34em; margin: 16px auto 0; text-wrap: pretty; }
+.ha-headline { font: 700 clamp(32px, 8vw, 48px)/1.06 var(--lb-head); letter-spacing: 0; margin: 14px 0 0; text-wrap: balance; overflow-wrap: anywhere; }
+.ha-scoreline { color: var(--foreground); font-size: 16px; margin: 14px 0 0; }
+.ha-standfirst { font: italic 400 21px/1.4 var(--lb-body); color: #4d4c46; max-width: 34em; margin: 16px auto 0; text-wrap: pretty; }
 .ha-byline { color: var(--muted); margin: 16px 0 0; }
 .ha-dateline { color: var(--muted); border-top: 1px solid var(--ha-rule); border-bottom: 1px solid var(--ha-rule); padding: 11px 0; margin: 22px 0 0; line-height: 1.6; }
 
 /* 6–8. Body: left-aligned, no hyphenation, old-style numerals, one drop cap. */
 .ha-body {
-  font: 400 19px/1.75 var(--font-source-serif), Georgia, serif;
+  font: 400 20px/1.6 var(--lb-body);
   text-align: left;
   hyphens: manual;
   -webkit-hyphens: manual;
@@ -49,8 +58,8 @@ body:has(.ha-page) { background: #f3ede0; }
   padding-top: 28px;
 }
 .ha-body p { margin: 0 0 1.1em; }
-.ha-body h2 { font: 600 25px/1.3 var(--font-source-serif), Georgia, serif; margin: 1.6em 0 .5em; }
-.ha-body h3 { font: 600 21px/1.3 var(--font-source-serif), Georgia, serif; margin: 1.4em 0 .4em; }
+.ha-body h2 { font: 400 23px/1.25 var(--lb-caps); text-align: center; margin: 1.6em 0 .5em; }
+.ha-body h3 { font: 400 20px/1.3 var(--lb-caps); margin: 1.4em 0 .4em; }
 .ha-body blockquote { font-style: italic; margin: 1.2em 0; padding-left: 1em; border-left: 1px solid var(--ha-rule); }
 .ha-body a { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
 .ha-body img { max-width: 100%; height: auto; }
@@ -61,9 +70,9 @@ body:has(.ha-page) { background: #f3ede0; }
 /* The drop cap: first letter of the first paragraph, three lines deep, in red. */
 .ha-body > p:first-of-type::first-letter {
   float: left;
-  font-size: 5.6em;
+  font-size: 4.9em;
   line-height: .8;
-  font-weight: 600;
+  font-weight: 400;
   margin: .06em .07em 0 0;
   color: var(--accent);
 }
@@ -84,7 +93,7 @@ body:has(.ha-page) { background: #f3ede0; }
 .ha-previous { grid-column: 1; }
 .ha-next { grid-column: 2; text-align: right; align-items: flex-end; }
 .ha-step-label { color: var(--accent-dark); }
-.ha-step-detail { font: 400 16px/1.35 var(--font-source-serif), Georgia, serif; }
+.ha-step-detail { font: 400 17px/1.35 var(--lb-body); }
 .ha-step a:hover .ha-step-detail { text-decoration: underline; text-underline-offset: 3px; }
 .ha-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 28px; border-top: 1px solid var(--ha-rule); margin: 8px 0 0; padding-top: 4px; }
 .ha-step:empty + .ha-links, .ha-foot > .ha-links:first-child { border-top: 0; margin-top: 0; }
@@ -97,7 +106,7 @@ body:has(.ha-page) { background: #f3ede0; }
 @media (max-width: 700px) {
   .ha-head { padding-top: 26px; }
   .ha-standfirst { font-size: 19px; }
-  .ha-body { font-size: 18px; line-height: 1.7; padding-top: 24px; }
-  .ha-body h2 { font-size: 23px; }
-  .ha-step-detail { font-size: 15px; }
+  .ha-body { font-size: 19px; line-height: 1.55; padding-top: 24px; }
+  .ha-body h2 { font-size: 21px; }
+  .ha-step-detail { font-size: 16px; }
 }

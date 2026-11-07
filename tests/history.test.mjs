@@ -246,7 +246,19 @@ test('every Looking Back piece uses the one shared history article template; cur
   assert.match(css, /oldstyle-nums/);
   assert.match(css, /hyphens: manual/);
   assert.equal((css.match(/::first-letter/g) ?? []).length, 2, 'one drop cap rule plus its initial-letter refinement');
-  assert.doesNotMatch(css, /text-align: justify|blackletter|UnifrakturMaguntia|Fell|gothic/i);
+  assert.doesNotMatch(css, /text-align: justify|blackletter|UnifrakturMaguntia|gothic/i);
+  assert.match(css, /var\(--lb-head\)/);
+});
+
+test('Looking Back pages use The Back Pages typefaces (no blackletter), loaded only for Looking Back', () => {
+  const fonts = fs.readFileSync('app/components/history-fonts.ts', 'utf8').replace(/\/\/.*$/gm, '');
+  for (const face of ['IM_Fell_English', 'IM_Fell_English_SC', 'Old_Standard_TT']) assert.match(fonts, new RegExp(`\\b${face}\\b`));
+  assert.doesNotMatch(fonts, /Unifraktur|Blackletter|Gothic/i);
+  assert.match(fs.readFileSync('app/looking-back/layout.tsx', 'utf8'), /historyFonts/);
+  assert.match(fs.readFileSync('app/components/HistoryArticle.tsx', 'utf8'), /historyFonts/);
+  assert.doesNotMatch(fs.readFileSync('app/layout.tsx', 'utf8'), /Fell|Old_Standard/);
+  const index = fs.readFileSync('app/looking-back/history.css', 'utf8');
+  for (const rule of ['.history-list h3', '.lbh-row-title', '.history-index .history-headline']) assert.match(index, new RegExp(`${rule.replace(/[.]/g, '\\.')} \\{[^}]*var\\(--lb-head\\)`), rule);
 });
 
 test('history article kickers and read times come from existing frontmatter', async () => {

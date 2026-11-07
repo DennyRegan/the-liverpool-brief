@@ -1,62 +1,76 @@
 /* Looking Back: the hub and its section indexes (Biographies, Series, Features,
-   On This Day lists). Mobile first, plain readable text. Individual pieces use
-   the shared history article template (app/components/history-article.css). */
+   On This Day lists). Mobile first. Set in The Back Pages typefaces, loaded for
+   /looking-back by app/looking-back/layout.tsx (app/components/history-fonts.ts).
+   Individual pieces use the shared history article template
+   (app/components/history-article.css). */
+.lb-fonts {
+  --lb-body: var(--lb-f-body), "IM Fell English", Georgia, serif;
+  --lb-caps: var(--lb-f-caps), var(--lb-f-body), Georgia, serif;
+  --lb-head: var(--lb-f-headline), "Old Standard TT", Georgia, serif;
+}
+/* True small caps: the SC face draws lower case as small capitals. */
+.history-masthead, .history-list-meta, .lbh-row-line, .series-start a, .series-latest, .otd-previous a, .history-index .back-link {
+  font-family: var(--lb-caps); font-weight: 400; letter-spacing: .08em; text-transform: lowercase;
+}
+.history-index .empty-state { font-family: var(--lb-body); font-size: 18px; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
 
 /* ---- Shared section header (index pages and pieces) ---------------------- */
 /* Index pages use the shared collection layout and title, like Articles,
    Matchday and Calls. */
 .history-header { padding: 0 0 20px; margin-bottom: 8px; }
-.history-masthead { font-size: 13px; font-weight: 600; margin: 0; }
+.history-masthead { font-size: 15px; margin: 0; }
 .history-masthead a { color: var(--accent-dark); text-decoration: none; display: inline-flex; align-items: center; min-height: 36px; }
 .history-masthead a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .history-dateline { color: var(--muted); font-size: 13px; margin: 6px 0 0; }
 .history-headline { font: 600 var(--headline-reading)/1.15 var(--font-source-serif), Georgia, serif; letter-spacing: -.035em; margin: 6px 0 0; text-wrap: balance; overflow-wrap: anywhere; }
-.history-index .history-headline { font: 600 28px/1.2 var(--font-source-serif), Georgia, serif; letter-spacing: -.025em; margin: 4px 0 0; }
-.history-standfirst { color: var(--muted); font-size: 15px; line-height: 1.6; margin: 12px 0 0; max-width: 62ch; }
+.history-index .history-headline { font: 700 34px/1.1 var(--lb-head); letter-spacing: 0; margin: 4px 0 0; }
+.history-standfirst { color: var(--muted); font: italic 400 18px/1.45 var(--lb-body); margin: 12px 0 0; max-width: 62ch; }
 .history-count { color: var(--foreground); white-space: nowrap; }
 .history-scheduled { display: block; background: #fff3cd; color: #5c4400; border: 1px solid #e3c260; border-radius: 3px; padding: 4px 10px; font-size: 13px; font-weight: 600; margin: 0 0 16px; }
 
 /* ---- Index lists (Biographies, Series, Features, On This Day) -------------- */
 .history-decade { margin-top: 28px; }
-.history-decade-heading { font: 600 22px/1.2 var(--font-source-serif), Georgia, serif; color: var(--accent-dark); border-bottom: 1px solid var(--foreground); padding-bottom: 8px; margin: 0; }
+.history-decade-heading { font: 700 23px/1.2 var(--lb-head); color: var(--accent-dark); border-bottom: 1px solid var(--foreground); padding-bottom: 8px; margin: 0; }
 .history-list { list-style: none; margin: 0; padding: 0; }
 .history-list li { border-bottom: 1px solid var(--line); padding: 18px 0 20px; }
-.history-list-meta { color: var(--accent-dark); font-size: 13px; margin: 0; }
-.history-list h3 { font: 600 var(--headline-list)/1.22 var(--font-source-serif), Georgia, serif; letter-spacing: -.02em; margin: 5px 0 8px; text-wrap: balance; overflow-wrap: anywhere; }
+.history-list-meta { color: var(--accent); font-size: 14.5px; margin: 0; }
+.history-list h3 { font: 700 25px/1.15 var(--lb-head); letter-spacing: 0; margin: 5px 0 8px; text-wrap: balance; overflow-wrap: anywhere; }
 .history-list h3 a { text-decoration: none; }
 .history-list h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
-.history-list-excerpt { color: var(--muted); font-size: 15px; line-height: 1.6; margin: 0; max-width: 62ch; }
+.history-list-excerpt { color: #4d4c46; font: 400 18px/1.5 var(--lb-body); margin: 0; max-width: 62ch; }
 
 /* ---- Hub: three tappable rows (Series, On This Day, Biographies) -------- */
 .lbh a { text-decoration: none; }
+.lbh .collection-title { font: 700 34px/1.1 var(--lb-head); letter-spacing: 0; }
 .lbh-rows { margin-top: 20px; border-top: 1px solid var(--line); }
 .lbh-rows ul { list-style: none; margin: 0; padding: 0; }
 .lbh-rows li { border-bottom: 1px solid var(--line); }
 .lbh-rows li a { display: flex; align-items: center; gap: 16px; padding: 30px 0 32px; color: var(--foreground); }
 .lbh-row-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
-.lbh-row-title { display: flex; align-items: center; gap: 10px; font: 600 32px/1.1 var(--font-source-serif), Georgia, serif; letter-spacing: -.025em; }
-.lbh-row-line { color: var(--muted); font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+.lbh-row-title { display: flex; align-items: center; gap: 10px; font: 700 36px/1.1 var(--lb-head); letter-spacing: 0; }
+.lbh-row-line { color: var(--muted); font-size: 15px; }
 .lbh-row-arrow { color: var(--muted); font-size: 18px; transition: transform .15s ease, color .15s ease; }
 .lbh-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
 .lbh-rows li a:hover .lbh-row-title { color: var(--accent-dark); }
 .lbh-rows li a:hover .lbh-row-arrow { color: var(--accent-dark); transform: translateX(3px); }
 
 .otd-previous { margin: 20px 0 0; }
-.otd-previous a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); font-size: 14px; font-weight: 600; text-decoration: none; }
+.otd-previous a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); font-size: 15px; text-decoration: none; }
 .otd-previous a:hover { color: var(--accent-dark); }
 
 /* Series page: start link and latest part. */
 .series-start { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin: 0 0 8px; }
-.series-start a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent-dark); font-size: 15px; font-weight: 600; text-decoration: none; border-bottom: 2px solid var(--accent); }
+.series-start a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent-dark); font-size: 16px; text-decoration: none; border-bottom: 2px solid var(--accent); }
 .series-start a:hover { color: var(--accent); }
-.series-latest { color: var(--muted); font-size: 14px; }
+.series-latest { color: var(--muted); font-size: 15px; }
 
 .history-list-date { color: var(--muted); font-size: 13px; margin: 8px 0 0; }
 
 /* Phones: the same steps as Articles and article pages (editorial.css). */
 @media (max-width: 700px) {
-  .history-index .history-headline { font-size: 24px; }
+  .history-index .history-headline, .lbh .collection-title { font-size: 30px; }
+  .history-list h3 { font-size: 23px; }
   .lbh-rows li a { padding: 26px 0 28px; }
-  .lbh-row-title { font-size: 28px; }
+  .lbh-row-title { font-size: 32px; }
 }
