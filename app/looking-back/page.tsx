@@ -16,11 +16,11 @@ export const metadata = socialMetadata(
 );
 
 export default function LookingBackHub() {
-  const { lead, counts, latest } = getLookingBackHub();
-  const doors = [
+  const { series, counts, latest } = getLookingBackHub();
+  const sections: { href: string; title: string; text: string; count: string; tag?: string }[] = [
+    ...series.map(item => ({ href: `${SERIES_PATH}/${item.slug}`, title: item.title, text: "Liverpool under Jürgen Klopp, told part by part.", count: `${item.totalParts}-part series`, tag: `New: Part ${item.newestPart}` })),
     { href: KEEPSAKES_PATH, title: "Keepsakes", text: "The best moments from Liverpool's past, every week.", count: plural(counts.keepsakes, "keepsake") },
     { href: BIOGRAPHIES_PATH, title: "Biographies", text: "The people who made Liverpool, by decade.", count: plural(counts.biographies, "biography", "biographies") },
-    { href: SERIES_PATH, title: "Series", text: "Longer stories told part by part.", count: counts.series === 1 ? `${counts.seriesParts} of ${counts.seriesPartsTotal} parts` : plural(counts.seriesParts, "part") },
   ];
   return <>
     <SiteHeader active="looking-back" />
@@ -30,24 +30,17 @@ export default function LookingBackHub() {
         <p>Keepsakes, lives and longer stories from Liverpool&rsquo;s past.</p>
       </header>
 
-      {lead && <article className={`lbh-lead${lead.type === "Biography" ? " lbh-lead--years" : ""}`} aria-labelledby="lbh-lead-title">
-        <p className="lbh-figure" aria-hidden="true"><span>{lead.figure}</span><small>{lead.figureNote}</small></p>
-        <div className="lbh-lead-text">
-          <p className="lbh-kicker">{lead.kicker}{lead.type === "Series" && <span className="visually-hidden">, {lead.label.split(", ").pop()}</span>}</p>
-          <h2 id="lbh-lead-title"><Link href={lead.href}>{lead.title}</Link></h2>
-          <p className="lbh-lead-excerpt">{lead.excerpt}</p>
-          <Link className="lbh-read" href={lead.href}>{lead.readLabel}</Link>
-        </div>
-      </article>}
-
-      <section className="lbh-doors" aria-labelledby="lbh-doors-heading">
-        <h2 id="lbh-doors-heading" className="visually-hidden">Sections</h2>
+      <section className="lbh-contents" aria-labelledby="lbh-contents-heading">
+        <h2 id="lbh-contents-heading" className="visually-hidden">Contents</h2>
         <ul>
-          {doors.map(door => <li key={door.href}>
-            <Link href={door.href}>
-              <span className="lbh-door-title">{door.title}</span>
-              <span className="lbh-door-text">{door.text}</span>
-              <span className="lbh-door-count">{door.count}</span>
+          {sections.map(section => <li key={section.href}>
+            <Link href={section.href}>
+              <span className="lbh-contents-title">{section.title}</span>
+              <span className="lbh-contents-text">{section.text}</span>
+              <span className="lbh-contents-meta">
+                <span className="lbh-contents-count">{section.count}</span>
+                {section.tag && <span className="lbh-new">{section.tag}</span>}
+              </span>
             </Link>
           </li>)}
         </ul>

@@ -24,11 +24,18 @@ export async function generateMetadata({ params }: { params: Promise<{ series: s
 export default async function SeriesPage({ params }: { params: Promise<{ series: string }> }) {
   const series = getVisibleSeriesBySlug((await params).series);
   if (!series) notFound();
+  const published = series.parts.filter(p => !p.scheduled);
+  const [first] = series.parts;
+  const newest = published.at(-1);
   return <>
     <SiteHeader active="looking-back" />
     <main id="main-content" className="history-page">
       <div className="reading-tools"><Link href={SERIES_PATH} className="back-link">‹ Series</Link></div>
-      <HistoryHeader title={series.title} standfirst={`A series in ${series.totalParts} parts.`} count={`${series.parts.filter(p => !p.scheduled).length} published so far.`} />
+      <HistoryHeader title={series.title} standfirst={`A series in ${series.totalParts} parts.`} count={`${published.length} published so far.`} />
+      <p className="series-start">
+        <Link href={`${SERIES_PATH}/${series.slug}/${first.slug}`}>Start reading</Link>
+        {newest && <span className="series-latest">Latest: Part {newest.partNumber}</span>}
+      </p>
       <ol className="history-list">
         {series.parts.map(part => <li key={part.slug}>
           {part.scheduled && <ScheduledNote date={formatDayDate(part.liveFrom)} />}

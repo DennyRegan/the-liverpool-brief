@@ -166,8 +166,8 @@ function formatEventDate(iso: string) {
 
 /**
  * Everything the hub shows, from live pieces only (on every environment), so it
- * matches production. The lead is the newest series part or biography; a series
- * part wins a tie, and the higher part number wins between parts of the same date.
+ * matches production: each series with its newest part, the section counts and
+ * the latest pieces. A series part wins a date tie, then the higher part number.
  */
 export function getLookingBackHub(now = new Date(), root = process.cwd()) {
   const definitions = getSeriesDefinitions(root);
@@ -187,21 +187,13 @@ export function getLookingBackHub(now = new Date(), root = process.cwd()) {
   const order = { Series: 0, Biography: 1, Keepsake: 2, Feature: 3 };
   const newestFirst = (a: HubItem, b: HubItem) => b.date.localeCompare(a.date) || order[a.type] - order[b.type] || (b.partNumber ?? 0) - (a.partNumber ?? 0) || a.title.localeCompare(b.title);
   items.sort(newestFirst);
-  const lead = items.find(item => item.type === "Series" || item.type === "Biography");
-  const leadPart = lead?.type === "Series" ? parts.find(part => `${SERIES_PATH}/${part.seriesSlug}/${part.slug}` === lead.href) : undefined;
-  const leadSeries = leadPart ? definitions.find(d => d.slug === leadPart.seriesSlug) : undefined;
-  const leadPerson = lead?.type === "Biography" ? people.find(person => `${BIOGRAPHIES_PATH}/${person.slug}` === lead.href) : undefined;
-  const seriesPartsTotal = definitions.reduce((sum, d) => sum + d.totalParts, 0);
+  // Parts are sorted by part number, so the last live one is the newest.
+  const series = definitions
+    .map(d => ({ ...d, newestPart: parts.filter(part => part.seriesSlug === d.slug).at(-1)?.partNumber }))
+    .filter((d): d is typeof d & { newestPart: number } => d.newestPart !== undefined);
   return {
-    lead: lead && {
-      ...lead,
-      // The large figure beside the lead: the part number, or the years at the club.
-      figure: leadPart ? String(leadPart.partNumber) : leadPerson!.historicalPeriod,
-      figureNote: leadPart && leadSeries ? `of ${leadSeries.totalParts}` : "at Liverpool",
-      kicker: leadSeries ? leadSeries.title : "Biography",
-      readLabel: leadPart ? `Read part ${leadPart.partNumber}` : "Read the biography",
-    },
-    counts: { keepsakes: keepsakes.length, biographies: people.length, seriesParts: parts.length, seriesPartsTotal, series: definitions.length, features: features.length },
-    latest: items.filter(item => item.href !== lead?.href).slice(0, 6),
+    series,
+    counts: { keepsakes: keepsakes.length, biographies: people.length, seriesParts: parts.length, features: features.length },
+    latest: items.slice(0, 6),
   };
 }

@@ -49,7 +49,7 @@ test('the real series list starts with Klopp\'s Liverpool, 13 parts, and every "
   for (const file of ['app/looking-back/page.tsx', 'app/looking-back/series/[series]/page.tsx', 'app/looking-back/series/[series]/[slug]/page.tsx', 'app/components/HistoryLatest.tsx', 'lib/content/history.ts']) {
     assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /\b(of|in) (13|21)\b/, `${file} must not hard-code the series length`);
   }
-  assert.ok(history.getLookingBackHub(at('2026-11-06T12:00:00Z')).lead.figureNote === 'of 13');
+  assert.equal(history.getLookingBackHub(at('2026-11-06T12:00:00Z')).series[0].totalParts, 13);
 });
 
 test('the go-live rule is the Looking Back code, not a second copy', () => {
@@ -167,16 +167,13 @@ test('no reader-facing label says History in the Looking Back pages, homepage bl
   }
 });
 
-test('the hub leads with the newest series part or biography, counts each section and lists the rest as Latest', () => {
+test('the hub lists each series with its newest live part, counts each section and shows the latest pieces', () => {
   const now = at('2026-11-06T12:00:00Z');
   const hub = history.getLookingBackHub(now);
-  // The lead is whichever live series part or biography is newest; parts on the same date go by part number.
-  const newestPart = history.getLiveSeriesParts(now).sort((a, b) => b.date.localeCompare(a.date) || b.partNumber - a.partNumber)[0];
-  assert.equal(hub.lead.href, `/looking-back/series/klopps-liverpool/${newestPart.slug}`);
-  assert.equal(hub.lead.figure, String(newestPart.partNumber));
-  assert.equal(hub.lead.figureNote, 'of 13');
+  const newestPart = Math.max(...history.getLiveSeriesParts(now).map(part => part.partNumber));
+  assert.deepEqual(hub.series.map(s => [s.slug, s.newestPart]), [['klopps-liverpool', newestPart]]);
+  assert.equal('lead' in hub, false);
   assert.ok(hub.counts.biographies >= 1 && hub.counts.seriesParts >= 1 && hub.counts.keepsakes >= 1 && hub.counts.features === 2);
-  assert.ok(!hub.latest.some(item => item.href === hub.lead.href));
   assert.ok(hub.latest.length <= 6);
   for (const item of hub.latest.filter(i => i.type === 'Keepsake')) assert.match(item.label, /^Keepsake, \d{1,2} [A-Z][a-z]+ \d{4}$/);
   // Live pieces only, even on previews: next week's keepsakes are not on the hub yet.

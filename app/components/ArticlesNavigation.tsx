@@ -15,9 +15,11 @@ export function ArticlesNavigation({ selected, hasAnalysis = false }: {
     ["Features", "/articles?type=features"],
     ["Football Observed", REGAN_ON_FOOTBALL_PATH],
   ];
+  // On the Football Observed page the main navigation already marks it as current.
+  const shown = selected === "Football Observed" ? links.filter(([label]) => label !== selected) : links;
   return (
     <nav className="writing-types" aria-label="Article categories" tabIndex={0}>
-      {links.map(([label, href]) => (
+      {shown.map(([label, href]) => (
         <Link key={href} href={href} aria-current={selected === label ? "page" : undefined}>{label}</Link>
       ))}
     </nav>
