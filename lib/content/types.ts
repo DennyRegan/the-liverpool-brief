@@ -110,3 +110,54 @@ export const SeriesDefinitionSchema = z.object({
     totalParts: z.number().int().positive(),
 }).strict();
 export type SeriesDefinition = z.infer<typeof SeriesDefinitionSchema>;
+
+
+// Klopp's Liverpool timeline (content/timeline/klopp.json). Strict: unknown keys
+// fail the build. Links point at existing content only; lib/content/timeline.ts
+// checks each one resolves. `image` is reserved and not rendered in version 1.
+export const TIMELINE_TYPES = ["match", "signing", "moment"] as const;
+export const TimelineLinkSchema = z.discriminatedUnion("type", [
+    z.object({ type: z.literal("series-part"), seriesSlug: SlugSchema, partNumber: z.number().int().positive() }).strict(),
+    z.object({ type: z.literal("biography"), slug: SlugSchema }).strict(),
+    z.object({ type: z.literal("article"), slug: SlugSchema }).strict(),
+]);
+export type TimelineLink = z.infer<typeof TimelineLinkSchema>;
+
+const wordCount = (text: string) => text.trim().split(/\s+/).filter(Boolean).length;
+const oneSentence = (text: string) => /[.!?]["”’]?$/.test(text) && !/[.!?]["”’]?\s+\S/.test(text);
+
+export const TimelineEntrySchema = z.object({
+    id: SlugSchema,
+    type: z.enum(TIMELINE_TYPES),
+    priority: z.enum(["main", "extended"]),
+    season: z.string().regex(/^\d{4}-\d{2}$/, 'Use a season such as "2015-16"').refine(value => (Number(value.slice(0, 4)) + 1) % 100 === Number(value.slice(5)), "The season's second year must follow its first"),
+    dateStart: z.iso.date(),
+    dateEnd: z.iso.date().optional(),
+    precision: z.enum(["day", "month", "window"]),
+    dateLabel: z.string().trim().min(1),
+    announced: z.iso.date().optional(),
+    effective: z.iso.date().optional(),
+    parent: SlugSchema.optional(),
+    title: z.string().trim().min(1).refine(title => wordCount(title) <= 8, "The title must be 8 words or fewer"),
+    competition: z.string().trim().min(1).optional(),
+    result: z.string().trim().min(1).optional(),
+    summary: z.string().trim().min(1),
+    links: z.array(TimelineLinkSchema).default([]),
+    image: z.string().trim().min(1).optional(),
+}).strict().superRefine((entry, ctx) => {
+    const fail = (path: string, message: string) => ctx.addIssue({ code: "custom", path: [path], message });
+    if (entry.dateEnd && entry.dateEnd < entry.dateStart) fail("dateEnd", "dateEnd cannot be before dateStart");
+    // Never invent a day: only day-precision entries may lead with a day of the month.
+    if (entry.precision !== "day" && /^\d{1,2}\b/.test(entry.dateLabel)) fail("dateLabel", "A month or window entry's label must not name a day of the month");
+    if (entry.precision === "day" && entry.dateEnd) fail("dateEnd", "A day-precision entry has no dateEnd");
+    if ((entry.announced || entry.effective) && entry.type !== "signing") fail("announced", "announced and effective are for signings only");
+    if ((entry.competition || entry.result) && entry.type !== "match") fail("competition", "competition and result are for matches only");
+    if (entry.priority === "main") {
+        const words = wordCount(entry.summary);
+        if (words < 25 || words > 45) fail("summary", `A main entry's summary must be 25 to 45 words (this has ${words})`);
+        if (entry.parent) fail("parent", "A sub-entry must be extended");
+    } else if (!oneSentence(entry.summary) || wordCount(entry.summary) > 30) {
+        fail("summary", "An extended entry's summary must be one short sentence (30 words or fewer)");
+    }
+});
+export type TimelineEntry = z.infer<typeof TimelineEntrySchema>;

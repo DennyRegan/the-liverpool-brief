@@ -1,0 +1,67 @@
+[
+  {
+    "id": "sample-moment",
+    "type": "moment",
+    "priority": "main",
+    "season": "2015-16",
+    "dateStart": "2015-10-08",
+    "precision": "day",
+    "dateLabel": "8 October 2015",
+    "title": "Sample moment entry",
+    "summary": "This is a sample entry that exists only to test the timeline page. It is placeholder text, not real content, and it must be replaced with a checked entry before anything goes live on the site.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 1 }]
+  },
+  {
+    "id": "sample-signings",
+    "type": "signing",
+    "priority": "main",
+    "season": "2016-17",
+    "dateStart": "2016-07-01",
+    "dateEnd": "2016-08-31",
+    "precision": "window",
+    "dateLabel": "Sample summer window",
+    "title": "Sample signings group",
+    "summary": "This grouped sample entry opens into two sub-entries with their own dates. It is placeholder text to test the layout and must be replaced with a checked entry before anything goes live on the site.",
+    "links": [{ "type": "biography", "slug": "sadio-mane" }]
+  },
+  {
+    "id": "sample-signing-a",
+    "type": "signing",
+    "priority": "extended",
+    "season": "2016-17",
+    "dateStart": "2016-07-15",
+    "precision": "day",
+    "dateLabel": "15 July 2016",
+    "announced": "2016-07-01",
+    "effective": "2016-07-15",
+    "parent": "sample-signings",
+    "title": "Sample signing with two dates",
+    "summary": "Sample sub-entry showing an announced date that differs from the arrival date."
+  },
+  {
+    "id": "sample-signing-b",
+    "type": "signing",
+    "priority": "extended",
+    "season": "2016-17",
+    "dateStart": "2016-07-01",
+    "precision": "month",
+    "dateLabel": "July 2016",
+    "parent": "sample-signings",
+    "title": "Sample signing dated by month",
+    "summary": "Sample sub-entry whose month label never shows a made-up day."
+  },
+  {
+    "id": "sample-window-match",
+    "type": "match",
+    "priority": "extended",
+    "season": "2016-17",
+    "dateStart": "2017-03-01",
+    "dateEnd": "2017-06-30",
+    "precision": "window",
+    "dateLabel": "March–June 2017",
+    "title": "Sample window-dated match run",
+    "competition": "Sample competition",
+    "result": "Sample FC 1–0 Sample United",
+    "summary": "Sample extended entry with a date window and no link."
+  }
+]
