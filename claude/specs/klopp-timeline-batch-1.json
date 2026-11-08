@@ -3,7 +3,7 @@
     "id": "klopp-appointed", "type": "moment", "priority": "main", "season": "2015-16",
     "dateStart": "2015-10-08", "precision": "day", "dateLabel": "8 October 2015",
     "title": "Klopp appointed Liverpool manager",
-    "summary": "Four days after Brendan Rodgers was sacked, Liverpool appointed Jürgen Klopp. At his Anfield press conference the next morning he called himself the Normal One and asked supporters to change from doubters to believers.",
+    "summary": "Four days after Brendan Rodgers was sacked, Liverpool appointed Jürgen Klopp. In his first club interview he asked supporters to change from doubter to believer; at the Anfield press conference next morning he called himself the Normal One.",
     "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 1 }, { "type": "biography", "slug": "jurgen-klopp" }]
   },
   {
@@ -11,7 +11,7 @@
     "dateStart": "2015-12-13", "precision": "day", "dateLabel": "13 December 2015",
     "title": "Late equaliser, then the salute to the Kop",
     "competition": "Premier League", "result": "Liverpool 2–2 West Bromwich Albion",
-    "summary": "Divock Origi equalised in the fifth minute of stoppage time. Klopp then led his players towards the Kop, arms linked. Opponents mocked it; he said he wanted to thank the supporters and show that players and crowd were one unit.",
+    "summary": "Divock Origi equalised deep into stoppage time. Klopp then led his players towards the Kop, arms linked. Some rivals mocked it; he later said he wanted to thank the supporters and show that players and crowd were one unit.",
     "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 2 }, { "type": "biography", "slug": "divock-origi" }]
   },
   {
@@ -27,14 +27,14 @@
     "dateStart": "2016-05-18", "precision": "day", "dateLabel": "18 May 2016",
     "title": "Europa League final lost in Basel",
     "competition": "Europa League final", "result": "Liverpool 1–3 Sevilla",
-    "summary": "Daniel Sturridge put Liverpool ahead before half-time, but Sevilla equalised 18 seconds into the second half and won 3–1. Klopp said his team had lost faith in their style of play. It was his second lost final in three months.",
+    "summary": "Daniel Sturridge put Liverpool ahead before half-time, but Sevilla equalised straight after half-time and won 3–1. Klopp said his team had lost faith in their style of play. It was his second lost final in three months.",
     "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 2 }]
   },
   {
     "id": "summer-2016-signings", "type": "signing", "priority": "main", "season": "2016-17",
-    "dateStart": "2016-06-28", "dateEnd": "2016-07-31", "precision": "window", "dateLabel": "Summer 2016",
+    "dateStart": "2016-06-28", "dateEnd": "2016-07-22", "precision": "window", "dateLabel": "Summer 2016",
     "title": "Summer 2016 signings: Mané, Matip, Wijnaldum",
-    "summary": "Sadio Mané arrived from Southampton on 28 June and Georginio Wijnaldum from Newcastle United. Joël Matip, agreed in February, joined from Schalke on a free transfer. Liverpool also sold more than they bought that summer.",
+    "summary": "Sadio Mané arrived from Southampton on 28 June and Georginio Wijnaldum from Newcastle United. Joël Matip, agreed in February, joined from Schalke on a free transfer. Contemporary estimates had Liverpool selling more than they bought that summer.",
     "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 3 }, { "type": "biography", "slug": "sadio-mane" }, { "type": "biography", "slug": "georginio-wijnaldum" }, { "type": "biography", "slug": "joel-matip" }]
   },
   {
@@ -47,11 +47,11 @@
     "id": "summer-2016-matip", "type": "signing", "priority": "extended", "season": "2016-17", "parent": "summer-2016-signings",
     "dateStart": "2016-07-01", "precision": "day", "dateLabel": "1 July 2016", "announced": "2016-02-15", "effective": "2016-07-01",
     "title": "Joël Matip joins on a free transfer",
-    "summary": "Matip's move from Schalke was confirmed in February and he was registered on 1 July."
+    "summary": "Matip's move from Schalke was confirmed in February and he joined on 1 July."
   },
   {
     "id": "summer-2016-wijnaldum", "type": "signing", "priority": "extended", "season": "2016-17", "parent": "summer-2016-signings",
-    "dateStart": "2016-07-01", "precision": "month", "dateLabel": "July 2016",
+    "dateStart": "2016-07-22", "precision": "day", "dateLabel": "22 July 2016",
     "title": "Georginio Wijnaldum signs from Newcastle",
     "summary": "Wijnaldum joined from Newcastle United, who had just been relegated, on a five-year contract."
   },
@@ -65,7 +65,7 @@
   },
   {
     "id": "summer-2017-signings", "type": "signing", "priority": "main", "season": "2017-18",
-    "dateStart": "2017-06-22", "dateEnd": "2017-07-31", "precision": "window", "dateLabel": "Summer 2017",
+    "dateStart": "2017-06-22", "dateEnd": "2017-07-21", "precision": "window", "dateLabel": "Summer 2017",
     "title": "Summer 2017 signings: Salah and Robertson",
     "summary": "Liverpool announced Mohamed Salah from Roma on 22 June, effective 1 July. Andrew Robertson joined from relegated Hull City. Robertson took the left-back place in December, and Salah scored 44 goals in all competitions that season.",
     "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 4 }, { "type": "biography", "slug": "mohamed-salah" }, { "type": "biography", "slug": "andy-robertson" }]
@@ -78,7 +78,7 @@
   },
   {
     "id": "summer-2017-robertson", "type": "signing", "priority": "extended", "season": "2017-18", "parent": "summer-2017-signings",
-    "dateStart": "2017-07-01", "precision": "month", "dateLabel": "July 2017",
+    "dateStart": "2017-07-21", "precision": "day", "dateLabel": "21 July 2017",
     "title": "Andrew Robertson joins from Hull City",
     "summary": "Robertson arrived from Hull, who had just been relegated, and became first-choice left-back after Alberto Moreno's ankle injury in December."
   },
@@ -86,7 +86,7 @@
     "id": "january-2018-van-dijk-coutinho", "type": "signing", "priority": "main", "season": "2017-18",
     "dateStart": "2018-01-01", "precision": "month", "dateLabel": "January 2018",
     "title": "Van Dijk arrives; Coutinho leaves",
-    "summary": "Liverpool agreed to sign Virgil van Dijk on 27 December and registered him from 1 January. He scored the winner on his FA Cup debut on 5 January. The next day Philippe Coutinho was sold to Barcelona.",
+    "summary": "Liverpool agreed to sign Virgil van Dijk on 27 December and registered him from 1 January. He scored the winner on his FA Cup debut on 5 January. The next day Philippe Coutinho agreed a move to Barcelona, completed on 8 January.",
     "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 4 }, { "type": "biography", "slug": "philippe-coutinho" }]
   },
   {
@@ -97,7 +97,7 @@
   },
   {
     "id": "january-2018-coutinho", "type": "signing", "priority": "extended", "season": "2017-18", "parent": "january-2018-van-dijk-coutinho",
-    "dateStart": "2018-01-06", "precision": "day", "dateLabel": "6 January 2018",
+    "dateStart": "2018-01-08", "precision": "day", "dateLabel": "8 January 2018", "announced": "2018-01-06", "effective": "2018-01-08",
     "title": "Philippe Coutinho leaves for Barcelona",
     "summary": "Klopp said Coutinho had made clear that the move to Barcelona was his dream and that nothing was left to change his mind."
   },
@@ -163,7 +163,7 @@
     "dateStart": "2019-05-07", "precision": "day", "dateLabel": "7 May 2019",
     "title": "Liverpool 4–0 Barcelona",
     "competition": "Champions League semi-final, second leg", "result": "Liverpool 4–0 Barcelona",
-    "summary": "Trailing 3–0 from the first leg, and without Salah and Firmino, Liverpool won 4–0. Origi scored twice, Wijnaldum twice in two minutes, and Alexander-Arnold's quickly taken corner led to the fourth goal.",
+    "summary": "Trailing 3–0 from the first leg, and without Salah and Firmino, Liverpool won 4–0. Origi scored twice, Wijnaldum twice in just over two minutes, and Alexander-Arnold's quickly taken corner led to the fourth goal.",
     "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 6 }, { "type": "biography", "slug": "divock-origi" }, { "type": "biography", "slug": "trent-alexander-arnold" }]
   },
   {
@@ -179,7 +179,7 @@
     "dateStart": "2019-06-01", "precision": "day", "dateLabel": "1 June 2019",
     "title": "Champions of Europe in Madrid",
     "competition": "Champions League final", "result": "Liverpool 2–0 Tottenham Hotspur",
-    "summary": "Salah scored from a penalty inside two minutes and Origi added a second in the 87th. It was Liverpool's sixth European Cup and Klopp's first trophy with the club, ending a run of six lost finals.",
+    "summary": "Salah scored from a penalty inside two minutes and Origi added a second in the 87th. It was Liverpool's sixth European Cup and Klopp's first trophy with the club, ending a run of six major cup-final defeats.",
     "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 6 }]
   },
   {
