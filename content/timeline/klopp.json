@@ -1,67 +1,212 @@
 [
   {
-    "id": "sample-moment",
-    "type": "moment",
-    "priority": "main",
-    "season": "2015-16",
-    "dateStart": "2015-10-08",
-    "precision": "day",
-    "dateLabel": "8 October 2015",
-    "title": "Sample moment entry",
-    "summary": "This is a sample entry that exists only to test the timeline page. It is placeholder text, not real content, and it must be replaced with a checked entry before anything goes live on the site.",
-    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 1 }]
+    "id": "klopp-appointed", "type": "moment", "priority": "main", "season": "2015-16",
+    "dateStart": "2015-10-08", "precision": "day", "dateLabel": "8 October 2015",
+    "title": "Klopp appointed Liverpool manager",
+    "summary": "Four days after Brendan Rodgers was sacked, Liverpool appointed Jürgen Klopp. In his first club interview he asked supporters to change from doubter to believer; at the Anfield press conference next morning he called himself the Normal One.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 1 }, { "type": "biography", "slug": "jurgen-klopp" }]
   },
   {
-    "id": "sample-signings",
-    "type": "signing",
-    "priority": "main",
-    "season": "2016-17",
-    "dateStart": "2016-07-01",
-    "dateEnd": "2016-08-31",
-    "precision": "window",
-    "dateLabel": "Sample summer window",
-    "title": "Sample signings group",
-    "summary": "This grouped sample entry opens into two sub-entries with their own dates. It is placeholder text to test the layout and must be replaced with a checked entry before anything goes live on the site.",
-    "links": [{ "type": "biography", "slug": "sadio-mane" }]
+    "id": "west-brom-salute", "type": "match", "priority": "main", "season": "2015-16",
+    "dateStart": "2015-12-13", "precision": "day", "dateLabel": "13 December 2015",
+    "title": "Late equaliser, then the salute to the Kop",
+    "competition": "Premier League", "result": "Liverpool 2–2 West Bromwich Albion",
+    "summary": "Divock Origi equalised deep into stoppage time. Klopp then led his players towards the Kop, arms linked. Some rivals mocked it; he later said he wanted to thank the supporters and show that players and crowd were one unit.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 2 }, { "type": "biography", "slug": "divock-origi" }]
   },
   {
-    "id": "sample-signing-a",
-    "type": "signing",
-    "priority": "extended",
-    "season": "2016-17",
-    "dateStart": "2016-07-15",
-    "precision": "day",
-    "dateLabel": "15 July 2016",
-    "announced": "2016-07-01",
-    "effective": "2016-07-15",
-    "parent": "sample-signings",
-    "title": "Sample signing with two dates",
-    "summary": "Sample sub-entry showing an announced date that differs from the arrival date."
+    "id": "dortmund-comeback", "type": "match", "priority": "main", "season": "2015-16",
+    "dateStart": "2016-04-14", "precision": "day", "dateLabel": "14 April 2016",
+    "title": "The Dortmund comeback at Anfield",
+    "competition": "Europa League quarter-final, second leg", "result": "Liverpool 4–3 Borussia Dortmund",
+    "summary": "Dortmund led 3–1 on the night after 57 minutes. Coutinho and Sakho scored, and Dejan Lovren headed the winner in the first minute of stoppage time, 4–3 on the night and 5–4 on aggregate, against Klopp's old club.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 2 }, { "type": "biography", "slug": "dejan-lovren" }]
   },
   {
-    "id": "sample-signing-b",
-    "type": "signing",
-    "priority": "extended",
-    "season": "2016-17",
-    "dateStart": "2016-07-01",
-    "precision": "month",
-    "dateLabel": "July 2016",
-    "parent": "sample-signings",
-    "title": "Sample signing dated by month",
-    "summary": "Sample sub-entry whose month label never shows a made-up day."
+    "id": "basel-europa-league-final", "type": "match", "priority": "main", "season": "2015-16",
+    "dateStart": "2016-05-18", "precision": "day", "dateLabel": "18 May 2016",
+    "title": "Europa League final lost in Basel",
+    "competition": "Europa League final", "result": "Liverpool 1–3 Sevilla",
+    "summary": "Daniel Sturridge put Liverpool ahead before half-time, but Sevilla equalised straight after half-time and won 3–1. Klopp said his team had lost faith in their style of play. It was his second lost final in three months.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 2 }]
   },
   {
-    "id": "sample-window-match",
-    "type": "match",
-    "priority": "extended",
-    "season": "2016-17",
-    "dateStart": "2017-03-01",
-    "dateEnd": "2017-06-30",
-    "precision": "window",
-    "dateLabel": "March–June 2017",
-    "title": "Sample window-dated match run",
-    "competition": "Sample competition",
-    "result": "Sample FC 1–0 Sample United",
-    "summary": "Sample extended entry with a date window and no link."
+    "id": "summer-2016-signings", "type": "signing", "priority": "main", "season": "2016-17",
+    "dateStart": "2016-06-28", "dateEnd": "2016-07-22", "precision": "window", "dateLabel": "Summer 2016",
+    "title": "Summer 2016 signings: Mané, Matip, Wijnaldum",
+    "summary": "Sadio Mané arrived from Southampton on 28 June and Georginio Wijnaldum from Newcastle United. Joël Matip, agreed in February, joined from Schalke on a free transfer. Contemporary estimates had Liverpool selling more than they bought that summer.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 3 }, { "type": "biography", "slug": "sadio-mane" }, { "type": "biography", "slug": "georginio-wijnaldum" }, { "type": "biography", "slug": "joel-matip" }]
+  },
+  {
+    "id": "summer-2016-mane", "type": "signing", "priority": "extended", "season": "2016-17", "parent": "summer-2016-signings",
+    "dateStart": "2016-06-28", "precision": "day", "dateLabel": "28 June 2016", "effective": "2016-06-28",
+    "title": "Sadio Mané signs from Southampton",
+    "summary": "Liverpool completed the signing of Mané from Southampton on 28 June."
+  },
+  {
+    "id": "summer-2016-matip", "type": "signing", "priority": "extended", "season": "2016-17", "parent": "summer-2016-signings",
+    "dateStart": "2016-07-01", "precision": "day", "dateLabel": "1 July 2016", "announced": "2016-02-15", "effective": "2016-07-01",
+    "title": "Joël Matip joins on a free transfer",
+    "summary": "Matip's move from Schalke was confirmed in February and he joined on 1 July."
+  },
+  {
+    "id": "summer-2016-wijnaldum", "type": "signing", "priority": "extended", "season": "2016-17", "parent": "summer-2016-signings",
+    "dateStart": "2016-07-22", "precision": "day", "dateLabel": "22 July 2016",
+    "title": "Georginio Wijnaldum signs from Newcastle",
+    "summary": "Wijnaldum joined from Newcastle United, who had just been relegated, on a five-year contract."
+  },
+  {
+    "id": "middlesbrough-fourth-place", "type": "match", "priority": "main", "season": "2016-17",
+    "dateStart": "2017-05-21", "precision": "day", "dateLabel": "21 May 2017",
+    "title": "Fourth place secured on the final day",
+    "competition": "Premier League", "result": "Liverpool 3–0 Middlesbrough",
+    "summary": "Goals from Wijnaldum, Coutinho and Lallana beat already relegated Middlesbrough and secured fourth place on 76 points. That earned a Champions League play-off in August, not a place in the group stage.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 3 }]
+  },
+  {
+    "id": "summer-2017-signings", "type": "signing", "priority": "main", "season": "2017-18",
+    "dateStart": "2017-06-22", "dateEnd": "2017-07-21", "precision": "window", "dateLabel": "Summer 2017",
+    "title": "Summer 2017 signings: Salah and Robertson",
+    "summary": "Liverpool announced Mohamed Salah from Roma on 22 June, effective 1 July. Andrew Robertson joined from relegated Hull City. Robertson took the left-back place in December, and Salah scored 44 goals in all competitions that season.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 4 }, { "type": "biography", "slug": "mohamed-salah" }, { "type": "biography", "slug": "andy-robertson" }]
+  },
+  {
+    "id": "summer-2017-salah", "type": "signing", "priority": "extended", "season": "2017-18", "parent": "summer-2017-signings",
+    "dateStart": "2017-07-01", "precision": "day", "dateLabel": "1 July 2017", "announced": "2017-06-22", "effective": "2017-07-01",
+    "title": "Mohamed Salah joins from Roma",
+    "summary": "Liverpool announced Salah's signing on Thursday 22 June, effective from 1 July, on a five-year contract."
+  },
+  {
+    "id": "summer-2017-robertson", "type": "signing", "priority": "extended", "season": "2017-18", "parent": "summer-2017-signings",
+    "dateStart": "2017-07-21", "precision": "day", "dateLabel": "21 July 2017",
+    "title": "Andrew Robertson joins from Hull City",
+    "summary": "Robertson arrived from Hull, who had just been relegated, and became first-choice left-back after Alberto Moreno's ankle injury in December."
+  },
+  {
+    "id": "january-2018-van-dijk-coutinho", "type": "signing", "priority": "main", "season": "2017-18",
+    "dateStart": "2018-01-01", "precision": "month", "dateLabel": "January 2018",
+    "title": "Van Dijk arrives; Coutinho leaves",
+    "summary": "Liverpool agreed to sign Virgil van Dijk on 27 December and registered him from 1 January. He scored the winner on his FA Cup debut on 5 January. The next day Philippe Coutinho agreed a move to Barcelona, completed on 8 January.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 4 }, { "type": "biography", "slug": "philippe-coutinho" }]
+  },
+  {
+    "id": "january-2018-van-dijk", "type": "signing", "priority": "extended", "season": "2017-18", "parent": "january-2018-van-dijk-coutinho",
+    "dateStart": "2018-01-01", "precision": "day", "dateLabel": "1 January 2018", "announced": "2017-12-27", "effective": "2018-01-01",
+    "title": "Virgil van Dijk joins from Southampton",
+    "summary": "The deal was agreed on 27 December 2017 and Van Dijk was registered from 1 January, in time for the Champions League knockout stage."
+  },
+  {
+    "id": "january-2018-coutinho", "type": "signing", "priority": "extended", "season": "2017-18", "parent": "january-2018-van-dijk-coutinho",
+    "dateStart": "2018-01-08", "precision": "day", "dateLabel": "8 January 2018", "announced": "2018-01-06", "effective": "2018-01-08",
+    "title": "Philippe Coutinho leaves for Barcelona",
+    "summary": "Klopp said Coutinho had made clear that the move to Barcelona was his dream and that nothing was left to change his mind."
+  },
+  {
+    "id": "city-4-3-anfield", "type": "match", "priority": "main", "season": "2017-18",
+    "dateStart": "2018-01-14", "precision": "day", "dateLabel": "14 January 2018",
+    "title": "Liverpool 4–3 Manchester City",
+    "competition": "Premier League", "result": "Liverpool 4–3 Manchester City",
+    "summary": "City had not lost a league game all season. Oxlade-Chamberlain, Firmino, Mané and Salah scored for Liverpool, the first side to beat City in the league. Klopp said it showed it was possible to play without Coutinho.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 4 }]
+  },
+  {
+    "id": "city-champions-league-2018", "type": "match", "priority": "main", "season": "2017-18",
+    "dateStart": "2018-04-04", "dateEnd": "2018-04-10", "precision": "window", "dateLabel": "April 2018",
+    "title": "City beaten in the Champions League",
+    "competition": "Champions League quarter-final", "result": "Aggregate: Liverpool 5–1 Manchester City",
+    "summary": "Salah, Oxlade-Chamberlain and Mané scored inside 31 minutes in the first leg at Anfield. In Manchester, Salah and Firmino scored in a 2–1 win, so Liverpool won the quarter-final 5–1 on aggregate.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 4 }]
+  },
+  {
+    "id": "city-champions-league-first-leg", "type": "match", "priority": "extended", "season": "2017-18", "parent": "city-champions-league-2018",
+    "dateStart": "2018-04-04", "precision": "day", "dateLabel": "4 April 2018",
+    "title": "First leg at Anfield",
+    "competition": "Champions League quarter-final, first leg", "result": "Liverpool 3–0 Manchester City",
+    "summary": "Three goals in the first 31 minutes put Liverpool in command."
+  },
+  {
+    "id": "city-champions-league-second-leg", "type": "match", "priority": "extended", "season": "2017-18", "parent": "city-champions-league-2018",
+    "dateStart": "2018-04-10", "precision": "day", "dateLabel": "10 April 2018",
+    "title": "Second leg at the Etihad",
+    "competition": "Champions League quarter-final, second leg", "result": "Manchester City 1–2 Liverpool",
+    "summary": "City scored after two minutes, then Salah and Firmino turned the match around."
+  },
+  {
+    "id": "kyiv-champions-league-final", "type": "match", "priority": "main", "season": "2017-18",
+    "dateStart": "2018-05-26", "precision": "day", "dateLabel": "26 May 2018",
+    "title": "Champions League final lost in Kyiv",
+    "competition": "Champions League final", "result": "Liverpool 1–3 Real Madrid",
+    "summary": "Salah went off injured after about half an hour. Loris Karius made two errors and Gareth Bale scored twice after coming on, so Real Madrid won 3–1. A hospital later concluded Karius had suffered a concussion in the match.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 4 }]
+  },
+  {
+    "id": "summer-2018-signings", "type": "signing", "priority": "main", "season": "2018-19",
+    "dateStart": "2018-05-28", "dateEnd": "2018-07-19", "precision": "window", "dateLabel": "Summer 2018",
+    "title": "Summer 2018 signings: Alisson and Fabinho",
+    "summary": "Fabinho was announced on 28 May, two days after Kyiv, and joined from Monaco on 1 July. Alisson Becker signed from Roma on 19 July. Klopp later said Liverpool had chosen to become stronger defensively.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 5 }, { "type": "biography", "slug": "fabinho" }]
+  },
+  {
+    "id": "summer-2018-fabinho", "type": "signing", "priority": "extended", "season": "2018-19", "parent": "summer-2018-signings",
+    "dateStart": "2018-07-01", "precision": "day", "dateLabel": "1 July 2018", "announced": "2018-05-28", "effective": "2018-07-01",
+    "title": "Fabinho joins from Monaco",
+    "summary": "Liverpool announced Fabinho's signing on 28 May, with the defensive midfielder joining on 1 July."
+  },
+  {
+    "id": "summer-2018-alisson", "type": "signing", "priority": "extended", "season": "2018-19", "parent": "summer-2018-signings",
+    "dateStart": "2018-07-19", "precision": "day", "dateLabel": "19 July 2018", "announced": "2018-07-19",
+    "title": "Alisson Becker signs from Roma",
+    "summary": "Alisson signed from Roma on 19 July, and Loris Karius left on loan to Beşiktaş on 25 August."
+  },
+  {
+    "id": "barcelona-4-0", "type": "match", "priority": "main", "season": "2018-19",
+    "dateStart": "2019-05-07", "precision": "day", "dateLabel": "7 May 2019",
+    "title": "Liverpool 4–0 Barcelona",
+    "competition": "Champions League semi-final, second leg", "result": "Liverpool 4–0 Barcelona",
+    "summary": "Trailing 3–0 from the first leg, and without Salah and Firmino, Liverpool won 4–0. Origi scored twice, Wijnaldum twice in just over two minutes, and Alexander-Arnold's quickly taken corner led to the fourth goal.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 6 }, { "type": "biography", "slug": "divock-origi" }, { "type": "biography", "slug": "trent-alexander-arnold" }]
+  },
+  {
+    "id": "wolves-97-points", "type": "match", "priority": "main", "season": "2018-19",
+    "dateStart": "2019-05-12", "precision": "day", "dateLabel": "12 May 2019",
+    "title": "97 points, one short",
+    "competition": "Premier League", "result": "Liverpool 2–0 Wolverhampton Wanderers",
+    "summary": "Mané scored twice to beat Wolves, but Manchester City won 4–1 at Brighton and took the title with 98 points to Liverpool's 97. Liverpool lost only one league match all season, at the Etihad on 3 January.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 5 }]
+  },
+  {
+    "id": "madrid-champions-league-final", "type": "match", "priority": "main", "season": "2018-19",
+    "dateStart": "2019-06-01", "precision": "day", "dateLabel": "1 June 2019",
+    "title": "Champions of Europe in Madrid",
+    "competition": "Champions League final", "result": "Liverpool 2–0 Tottenham Hotspur",
+    "summary": "Salah scored from a penalty inside two minutes and Origi added a second in the 87th. It was Liverpool's sixth European Cup and Klopp's first trophy with the club, ending a run of six major cup-final defeats.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 6 }]
+  },
+  {
+    "id": "club-world-cup-final", "type": "match", "priority": "main", "season": "2019-20",
+    "dateStart": "2019-12-21", "precision": "day", "dateLabel": "21 December 2019",
+    "title": "World champions: the Club World Cup final",
+    "competition": "FIFA Club World Cup final", "result": "Liverpool 1–0 Flamengo (after extra time)",
+    "summary": "Mané set up Firmino for the only goal in the 99th minute, and Liverpool won the Club World Cup for the first time. With the first team in Qatar, a young side had lost 5–0 at Aston Villa in the League Cup.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 7 }]
+  },
+  {
+    "id": "champions-of-england-2020", "type": "moment", "priority": "main", "season": "2019-20",
+    "dateStart": "2020-06-25", "precision": "day", "dateLabel": "25 June 2020",
+    "title": "Champions of England after 30 years",
+    "summary": "Chelsea's 2–1 win over Manchester City on 25 June confirmed the title with seven games left. The season had been suspended on 13 March and restarted behind closed doors; the trophy was lifted before an empty Kop on 22 July.",
+    "links": [{ "type": "series-part", "seriesSlug": "klopps-liverpool", "partNumber": 7 }]
+  },
+  {
+    "id": "pandemic-suspension-2020", "type": "moment", "priority": "extended", "season": "2019-20", "parent": "champions-of-england-2020",
+    "dateStart": "2020-03-13", "dateEnd": "2020-06-21", "precision": "window", "dateLabel": "March–June 2020",
+    "title": "The season stops, then restarts",
+    "summary": "The Premier League suspended its season on 13 March, and Liverpool's first match back was on 21 June, behind closed doors."
+  },
+  {
+    "id": "trophy-presentation-2020", "type": "moment", "priority": "extended", "season": "2019-20", "parent": "champions-of-england-2020",
+    "dateStart": "2020-07-22", "precision": "day", "dateLabel": "22 July 2020",
+    "title": "The trophy lifted on an empty Kop",
+    "summary": "After a 5–3 win over Chelsea, Kenny Dalglish handed the trophy to Jordan Henderson, who lifted it on a stage built on the Kop."
   }
 ]
