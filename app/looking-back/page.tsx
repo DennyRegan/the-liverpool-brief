@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { plural } from "@/app/components/HistoryHeader";
-import { BIOGRAPHIES_PATH, getLookingBackHub, SERIES_PATH } from "@/lib/content/history";
+import { BIOGRAPHIES_PATH, getLookingBackHub, MATCH_REVISITED_PATH, SERIES_PATH } from "@/lib/content/history";
 import { formatWeekRange, LOOKING_BACK_PATH, ON_THIS_DAY_PATH } from "@/lib/content/looking-back";
 import { getVisibleTimeline, TIMELINE_PATH } from "@/lib/content/timeline";
 import { socialMetadata } from "@/lib/social-metadata";
@@ -18,11 +18,13 @@ export const metadata = socialMetadata(
 
 /** Series, On This Day, Biographies, and the Timeline once it has entries. Every line is counted from the content files. */
 export default function LookingBackHub() {
-  const { series, onThisDay, biographies } = getLookingBackHub();
+  const { series, onThisDay, biographies, matchRevisited } = getLookingBackHub();
   const timeline = getVisibleTimeline();
   const rows = [
     { href: SERIES_PATH, title: "Series", line: `${plural(series.count, "series", "series")} · ${plural(series.parts, "part")}`, isNew: series.newThisWeek },
     { href: ON_THIS_DAY_PATH, title: "On This Day", line: `This week · ${formatWeekRange(onThisDay.monday, onThisDay.sunday)}` },
+    // Match Revisited: listed once it has a live piece.
+    ...(matchRevisited ? [{ href: MATCH_REVISITED_PATH, title: "Match Revisited", line: plural(matchRevisited, "match", "matches") }] : []),
     { href: BIOGRAPHIES_PATH, title: "Biographies", line: plural(biographies, "life", "lives") },
     // Klopp's Liverpool timeline: listed once it has entries this deployment can show.
     ...(timeline.length ? [{ href: TIMELINE_PATH, title: "Timeline", line: `Klopp's Liverpool · ${plural(timeline.length, "entry", "entries")}` }] : []),

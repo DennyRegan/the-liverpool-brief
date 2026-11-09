@@ -1,10 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import { BiographySchema, SeriesDefinitionSchema, SeriesPartSchema } from "./types.ts";
+import { BiographySchema, MatchRevisitedSchema, SeriesDefinitionSchema, SeriesPartSchema } from "./types.ts";
 import { isRecent, onlyLive, withGoLive } from "./go-live.ts";
 import { currentWeek } from "./looking-back.ts";
 import { getArchiveFeatures } from "./archive.ts";
+import { assertKnownPlayers } from "./player-names.ts";
 
 // Biographies and Series are sections of Looking Back (the hub at /looking-back).
 // Content files stay in content/biographies and content/series.
@@ -173,5 +174,37 @@ export function getLookingBackHub(now = new Date(), root = process.cwd()) {
     },
     onThisDay: currentWeek(now),
     biographies: getLiveBiographies(now, root).length,
+    matchRevisited: getLiveMatchRevisited(now, root).length,
   };
+}
+
+// ---- Match Revisited ----------------------------------------------------------
+// One long-form write-up of a classic match a week. Same go-live rule as the
+// other Looking Back types (go-live.ts); files in content/match-revisited.
+
+export const MATCH_REVISITED_PATH = "/looking-back/match-revisited";
+
+/** Every Match Revisited piece, newest publication first. Bad files fail the build. */
+export function getMatchRevisited(root = process.cwd()) {
+  const all = readMarkdown(path.join(root, "content/match-revisited"), data => { const piece = MatchRevisitedSchema.parse(data); assertKnownPlayers(piece.players); return piece; });
+  const slugs = new Set<string>();
+  for (const item of all) { if (slugs.has(item.slug)) throw new Error(`Duplicate Match Revisited slug "${item.slug}"`); slugs.add(item.slug); }
+  return all.sort((a, b) => b.date.localeCompare(a.date) || b.eventDate.localeCompare(a.eventDate) || a.slug.localeCompare(b.slug));
+}
+
+export function getVisibleMatchRevisited(now = new Date(), env: Env = process.env, root = process.cwd()) {
+  return withGoLive(getMatchRevisited(root), now, env);
+}
+
+export function getLiveMatchRevisited(now = new Date(), root = process.cwd()) {
+  return onlyLive(getMatchRevisited(root), now);
+}
+
+export function getVisibleMatchRevisitedPiece(slug: string, now = new Date(), env: Env = process.env, root = process.cwd()) {
+  return getVisibleMatchRevisited(now, env, root).find(item => item.slug === slug);
+}
+
+/** The newest live piece, on every environment (for the homepage feature spot). It stays the newest until a later one goes live. */
+export function getLatestMatchRevisited(now = new Date(), root = process.cwd()) {
+  return getLiveMatchRevisited(now, root)[0];
 }
