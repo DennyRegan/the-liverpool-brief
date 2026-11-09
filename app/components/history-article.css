@@ -125,3 +125,20 @@ body:has(.ha-page), body:has(.lb-fonts) {
   .ha-body h2 { font-size: 21px; }
   .ha-step-detail { font-size: 16px; }
 }
+
+/* Premium edition styling (Match Revisited): a small "The Liverpool Brief" line
+   at the very top, a double rule, and a much bigger Old Standard headline. Only
+   pages that pass a masthead to HistoryArticle get it. */
+.ha-edition { width: min(760px, calc(100% - 40px)); }
+.ha-masthead {
+  margin: 0; padding: 14px 0 8px; text-align: center;
+  font: 400 13px/1 var(--lb-caps); letter-spacing: .22em; text-transform: lowercase; color: var(--accent);
+}
+.ha-edition .ha-backline { border-top: 3px double var(--foreground); }
+.ha-edition .ha-head { padding-top: 40px; }
+.ha-edition .ha-headline { font-size: clamp(44px, 12vw, 84px); line-height: .98; letter-spacing: -.01em; margin-top: 18px; }
+.ha-edition .ha-scoreline { font-size: 19px; margin-top: 22px; }
+.ha-edition .ha-standfirst { font-size: 23px; max-width: 30em; }
+.ha-edition .ha-dateline { border-top: 3px double var(--foreground); border-bottom: 1px solid var(--ha-rule); }
+.ha-edition .ha-body { font-size: 21px; }
+.ha-edition .ha-body hr { width: 100%; margin: 2.2em 0; border-top: 3px double var(--ha-rule); }

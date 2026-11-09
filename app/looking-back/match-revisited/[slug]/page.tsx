@@ -36,9 +36,10 @@ export default async function MatchRevisitedPiecePage({ params }: { params: Prom
   return <>
     <SiteHeader active="looking-back" />
     <HistoryArticle
+      masthead="The Liverpool Brief"
       back={{ href: MATCH_REVISITED_PATH, label: "Back to Match Revisited" }}
       kicker={`Match Revisited · ${piece.competition} · ${piece.eventDate.slice(0, 4)}`}
-      title={piece.title}
+      title={piece.headline ?? piece.title}
       scoreline={`${piece.scoreline} v ${piece.opponent}`}
       standfirst={piece.excerpt}
       dateline={[formatDayMonthYear(piece.eventDate), "Match Revisited", readTime(piece.body)]}

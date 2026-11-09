@@ -95,6 +95,8 @@ export type LookingBack = z.infer<typeof LookingBackSchema>;
 // (entities, eras, relatedMatches) is deliberately not part of it.
 export const MatchRevisitedSchema = z.object({
     title: z.string().trim().min(1),
+    // The big display headline on the piece's own page; title stays for lists and search.
+    headline: z.string().trim().min(1).optional(),
     slug: SlugSchema,
     // Publication date; the piece goes live on the Monday of its week (go-live.ts).
     date: z.iso.date(),

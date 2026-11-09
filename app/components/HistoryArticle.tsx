@@ -22,7 +22,9 @@ export type HistoryLink = { href: string; label: string; detail?: string };
  * previous/next and section links. Only the words passed in vary by type.
  * Current-day articles and Football Observed never use it.
  */
-export function HistoryArticle({ back, kicker, title, scoreline, standfirst, byline, dateline, body, scheduledFor, previous, next, links, related = [], extras, children }: {
+export function HistoryArticle({ masthead, back, kicker, title, scoreline, standfirst, byline, dateline, body, scheduledFor, previous, next, links, related = [], extras, children }: {
+  /** Small line at the very top (Match Revisited): switches on the premium edition styling. */
+  masthead?: string;
   back: HistoryLink;
   kicker: string;
   title: string;
@@ -41,7 +43,8 @@ export function HistoryArticle({ back, kicker, title, scoreline, standfirst, byl
   children?: ReactNode;
 }) {
   return (
-    <main id="main-content" className={`ha-page ${historyFonts}`}>
+    <main id="main-content" className={`ha-page ${historyFonts}${masthead ? " ha-edition" : ""}`}>
+      {masthead && <p className="ha-masthead">{masthead}</p>}
       <p className="ha-backline"><Link href={back.href}>{back.label} <span aria-hidden="true">→</span></Link></p>
       {scheduledFor && <p className="ha-scheduled" role="note">Scheduled for {scheduledFor}</p>}
       <article aria-labelledby="ha-headline">
