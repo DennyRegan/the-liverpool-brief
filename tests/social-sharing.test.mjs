@@ -61,3 +61,15 @@ test('articles and Archive pieces have dedicated share images', () => {
     assert.match(fs.readFileSync(`app/${route}/opengraph-image.tsx`, 'utf8'), /socialImage\(/);
   }
 });
+
+test('every Looking Back page has a social image: its own where it has one, otherwise the site default', () => {
+  const fallback = 'https://theliverpoolbrief.com/opengraph-image.png';
+  for (const path of ['/looking-back', '/looking-back/on-this-day', '/looking-back/on-this-day/previous', '/looking-back/biographies', '/looking-back/biographies/billy-liddell', '/looking-back/series', '/looking-back/series/klopps-liverpool', '/looking-back/series/klopps-liverpool/the-inheritance', '/looking-back/features']) {
+    const result = socialMetadata('Title', 'Excerpt.', path);
+    assert.equal(result.openGraph.images[0].url, fallback, path);
+    assert.equal(result.twitter.images[0].url, fallback, path);
+  }
+  // On This Day pieces keep their own image; other sections are unchanged.
+  assert.match(socialMetadata('Title', 'Excerpt.', '/looking-back/liverpool-tsv-munich-8-0-1967').openGraph.images[0].url, /\/looking-back\/liverpool-tsv-munich-8-0-1967\/opengraph-image\?v=/);
+  assert.equal(socialMetadata('Matchday', 'Excerpt.', '/matchday').openGraph.images, undefined);
+});
