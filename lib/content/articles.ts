@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { ArticleSchema } from "./types.ts";
-import { assertKnownPlayers } from "./player-names.ts";
+import { assertKnownTags } from "./opponents.ts";
 
 // Bold/italic markers and line wrapping are ignored; every word and mark must match.
 const plainText = (text: string) => text.replace(/\*\*|__/g, "").replace(/\s+/g, " ");
@@ -24,7 +24,7 @@ export function getArticles(root = process.cwd()) {
       const { data, content } = matter(fs.readFileSync(path.join(directory, filename), "utf8"));
       if (data.slug && data.slug !== slug) throw new Error("slug must match filename");
       const article = ArticleSchema.parse({ ...data, slug, body: content.trim() });
-      assertKnownPlayers(article.players);
+      assertKnownTags(article);
       assertCallsQuoted(article.calls, article.body);
       return article;
     } catch (error) { throw new Error(`Invalid article ${filename}: ${String(error)}`); }

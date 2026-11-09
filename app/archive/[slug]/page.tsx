@@ -9,10 +9,15 @@ import { formatLongDate } from "@/lib/format";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { ShareButton } from "@/app/components/ShareButton";
 import { PlayerTags } from "@/app/components/PlayerTags";
+import { ContinueReading } from "@/app/components/ContinueReading";
+import { getRelatedPieces } from "@/lib/content/related";
 import { ArticleMeta } from "@/app/components/ArticleMeta";
 import { HistoryArticle } from "@/app/components/HistoryArticle";
 import { FEATURES_PATH } from "@/lib/content/looking-back";
 import { formatDayMonthYear, readTime } from "@/lib/content/history-article";
+
+// Re-checked at most hourly so "Continue reading" picks up pieces that go live later.
+export const revalidate = 3600;
 
 export function generateStaticParams() {
   return getArchiveFeatures().map((feature) => ({ slug: feature.slug }));
@@ -66,6 +71,7 @@ export default async function ArchiveFeaturePage({
         dateline={[feature.historicalEventDate ? formatDayMonthYear(feature.historicalEventDate) : feature.historicalPeriod, "Feature", readTime(feature.body)]}
         body={feature.body}
         links={[{ href: FEATURES_PATH, label: "All Features" }]}
+        related={getRelatedPieces(`/archive/${feature.slug}`)}
         extras={<PlayerTags players={feature.players} />}
       />
     </>;
@@ -92,6 +98,7 @@ export default async function ArchiveFeaturePage({
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{feature.body}</ReactMarkdown>
         </div>
         <PlayerTags players={feature.players} />
+        <ContinueReading items={getRelatedPieces(`/archive/${feature.slug}`)} />
       </main>
     </div>
   );

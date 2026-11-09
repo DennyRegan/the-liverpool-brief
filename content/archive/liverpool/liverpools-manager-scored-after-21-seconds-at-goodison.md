@@ -23,6 +23,7 @@ sources:
   - "https://www.liverpoolfc.com/news/features/339442-five-memorable-liverpool-wins-at-goodison-park"
   - "https://www.liverpoolfc.com/info/kenny-dalglish-first-spell"
 players: ["kenny-dalglish"]
+opponents: ["everton"]
 ---
 Liverpool’s manager scored after 21 seconds at Goodison Park.
 

@@ -1,10 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import { BiographySchema, SeriesDefinitionSchema, SeriesPartSchema } from "./types.ts";
+import { BiographySchema, MatchRevisitedSchema, SeriesDefinitionSchema, SeriesPartSchema } from "./types.ts";
 import { isRecent, onlyLive, withGoLive } from "./go-live.ts";
 import { currentWeek } from "./looking-back.ts";
 import { getArchiveFeatures } from "./archive.ts";
+import { assertKnownTags } from "./opponents.ts";
 
 // Biographies and Series are sections of Looking Back (the hub at /looking-back).
 // Content files stay in content/biographies and content/series.
@@ -36,7 +37,7 @@ function startYear(period: string) {
 
 /** Every biography: oldest decade first, then by first year at the club, then title. */
 export function getBiographies(root = process.cwd()) {
-  const all = readMarkdown(path.join(root, "content/biographies"), data => BiographySchema.parse(data));
+  const all = readMarkdown(path.join(root, "content/biographies"), data => { const item = BiographySchema.parse(data); assertKnownTags(item); return item; });
   const slugs = new Set<string>();
   for (const item of all) { if (slugs.has(item.slug)) throw new Error(`Duplicate biography slug "${item.slug}"`); slugs.add(item.slug); }
   return all.sort((a, b) => a.decade.localeCompare(b.decade) || startYear(a.historicalPeriod) - startYear(b.historicalPeriod) || a.title.localeCompare(b.title));
@@ -84,7 +85,7 @@ export function getSeriesParts(root = process.cwd()) {
   const base = path.join(root, "content/series");
   const parts = fs.existsSync(base)
     ? fs.readdirSync(base, { withFileTypes: true }).filter(entry => entry.isDirectory()).flatMap(entry => {
-        const parts = readMarkdown(path.join(base, entry.name), data => SeriesPartSchema.parse(data));
+        const parts = readMarkdown(path.join(base, entry.name), data => { const item = SeriesPartSchema.parse(data); assertKnownTags(item); return item; });
         for (const part of parts) if (part.seriesSlug !== entry.name) throw new Error(`Series part "${part.slug}" has seriesSlug "${part.seriesSlug}" but sits in the "${entry.name}" folder`);
         return parts;
       })
@@ -173,5 +174,37 @@ export function getLookingBackHub(now = new Date(), root = process.cwd()) {
     },
     onThisDay: currentWeek(now),
     biographies: getLiveBiographies(now, root).length,
+    matchRevisited: getLatestMatchRevisited(now, root) ? { count: getLiveMatchRevisited(now, root).length, latest: getLatestMatchRevisited(now, root)! } : undefined,
   };
+}
+
+// ---- Match Revisited ----------------------------------------------------------
+// One long-form write-up of a classic match a week. Same go-live rule as the
+// other Looking Back types (go-live.ts); files in content/match-revisited.
+
+export const MATCH_REVISITED_PATH = "/looking-back/match-revisited";
+
+/** Every Match Revisited piece, newest publication first. Bad files fail the build. */
+export function getMatchRevisited(root = process.cwd()) {
+  const all = readMarkdown(path.join(root, "content/match-revisited"), data => { const piece = MatchRevisitedSchema.parse(data); assertKnownTags(piece); return piece; });
+  const slugs = new Set<string>();
+  for (const item of all) { if (slugs.has(item.slug)) throw new Error(`Duplicate Match Revisited slug "${item.slug}"`); slugs.add(item.slug); }
+  return all.sort((a, b) => b.date.localeCompare(a.date) || b.eventDate.localeCompare(a.eventDate) || a.slug.localeCompare(b.slug));
+}
+
+export function getVisibleMatchRevisited(now = new Date(), env: Env = process.env, root = process.cwd()) {
+  return withGoLive(getMatchRevisited(root), now, env);
+}
+
+export function getLiveMatchRevisited(now = new Date(), root = process.cwd()) {
+  return onlyLive(getMatchRevisited(root), now);
+}
+
+export function getVisibleMatchRevisitedPiece(slug: string, now = new Date(), env: Env = process.env, root = process.cwd()) {
+  return getVisibleMatchRevisited(now, env, root).find(item => item.slug === slug);
+}
+
+/** The newest live piece, on every environment (for the homepage feature spot). It stays the newest until a later one goes live. */
+export function getLatestMatchRevisited(now = new Date(), root = process.cwd()) {
+  return getLiveMatchRevisited(now, root)[0];
 }

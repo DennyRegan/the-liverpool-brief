@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { ArchiveFeatureSchema } from "./types.ts";
-import { assertKnownPlayers } from "./player-names.ts";
+import { assertKnownTags } from "./opponents.ts";
 
 export function getArchiveFeatures(root = process.cwd()) {
     const dir = path.join(root, "content/archive/liverpool");
@@ -16,7 +16,7 @@ export function getArchiveFeatures(root = process.cwd()) {
                 throw new Error(`slug "${data.slug}" must match filename "${slug}"`);
             }
             const article = ArchiveFeatureSchema.parse({ ...data, slug, body: content.trim() });
-            assertKnownPlayers(article.players);
+            assertKnownTags(article);
             return article;
         } catch (error) {
             throw new Error(`Invalid Archive article ${filename}: ${error instanceof Error ? error.message : String(error)}`);
