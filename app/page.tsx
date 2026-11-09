@@ -9,6 +9,7 @@ import { getHomeLeadOverride } from '@/lib/content/homepage-config';
 import { getNewsletterConfig } from '@/lib/newsletter-config';
 import { getArticleExcerpt } from '@/lib/format';
 import { FootballObservedHome } from '@/app/components/FootballObservedHome';
+import { MatchRevisitedHome } from '@/app/components/MatchRevisitedHome';
 import { HistoryLatest } from '@/app/components/HistoryLatest';
 import { getFootballObservedPieces } from '@/lib/content/regan-on-football';
 
@@ -48,6 +49,7 @@ export default function Home() {
         </article>)}</div>
       </section>}
       {featuredEdition && <FootballObservedHome article={featuredEdition} />}
+      <MatchRevisitedHome />
       <HistoryLatest />
     </main>
   </>;

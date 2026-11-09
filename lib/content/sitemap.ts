@@ -4,7 +4,7 @@ import { getArticles } from "./articles.ts";
 import { getArchiveFeatures } from "./archive.ts";
 import { getNewsletterConfig } from "../newsletter-config.ts";
 import { getLiveLookingBack } from "./looking-back.ts";
-import { getLiveBiographies, getLiveSeriesParts } from "./history.ts";
+import { getLiveBiographies, getLiveMatchRevisited, getLiveSeriesParts } from "./history.ts";
 import { getPlayerPageSlugs } from "./players.ts";
 
 function liveSeriesPaths(root: string) {
@@ -16,7 +16,7 @@ function liveSeriesPaths(root: string) {
 /** Mirror public page selectors; never scan editorial folders for destinations. */
 export function getPublicSitemap(root = process.cwd(), env = process.env): MetadataRoute.Sitemap {
   const paths = [
-    "/", "/about", "/articles", "/regan-on-football", "/matchday", "/looking-back", "/looking-back/on-this-day", "/looking-back/on-this-day/previous", "/looking-back/biographies", "/looking-back/series", "/looking-back/features", "/calls",
+    "/", "/about", "/articles", "/regan-on-football", "/matchday", "/looking-back", "/looking-back/on-this-day", "/looking-back/on-this-day/previous", "/looking-back/biographies", "/looking-back/series", "/looking-back/match-revisited", "/looking-back/features", "/calls",
     // The newsletter pages are public only while signup is configured.
     ...(getNewsletterConfig(env) ? ["/newsletter", "/newsletter/privacy"] : []),
     ...getArticles(root).map(article => `/articles/${article.slug}`),
@@ -26,6 +26,7 @@ export function getPublicSitemap(root = process.cwd(), env = process.env): Metad
     ...getLiveLookingBack(new Date(), root).map(piece => `/looking-back/${piece.slug}`),
     // Biographies and series (Looking Back): only pieces whose Monday has arrived; a series page exists once it has a live part.
     ...getLiveBiographies(new Date(), root).map(item => `/looking-back/biographies/${item.slug}`),
+    ...getLiveMatchRevisited(new Date(), root).map(item => `/looking-back/match-revisited/${item.slug}`),
     ...liveSeriesPaths(root),
     ...getPlayerPageSlugs(root).map(slug => `/players/${slug}`),
   ];

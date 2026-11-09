@@ -171,7 +171,7 @@ test('no reader-facing label says History in the Looking Back pages, homepage bl
 test('the hub has three rows counted from live content: series and parts, the current week, and lives', () => {
   const now = at('2026-11-07T12:00:00Z');
   const hub = history.getLookingBackHub(now);
-  assert.deepEqual(Object.keys(hub).sort(), ['biographies', 'onThisDay', 'series']);
+  assert.deepEqual(Object.keys(hub).sort(), ['biographies', 'matchRevisited', 'onThisDay', 'series']);
   assert.equal(hub.series.count, 1);
   assert.equal(hub.series.parts, history.getLiveSeriesParts(now).length);
   assert.equal(hub.biographies, history.getLiveBiographies(now).length);

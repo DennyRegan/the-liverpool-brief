@@ -108,3 +108,7 @@ At Denny's request every Looking Back piece uses one shared template, `HistoryAr
 - Foot: a hairline, then On This Day "← Previous" / "Next →" (by anniversary date) and "Previous weeks →"; Series "← Part N" / "Part N →" (hidden when absent) and "All parts →"; Biographies and Features a link back to their list. The share button, Features player tags and the On This Day "Download image" link stay.
 - Change the look in the template only; never style these pages file by file.
 
+
+## Match Revisited — 9 November 2026
+
+A weekly long-form write-up of one classic Liverpool match, under Looking Back at `/looking-back/match-revisited`. Plumbing only: no pieces are written or published without Denny. Master list at `content/series/match-revisited-list.md` (planning only, never read by the site); pieces in `content/match-revisited/[slug].md` with strict `MatchRevisitedSchema`; same go-live rule as the other Looking Back types. It does not use the retired History taxonomy. See `docs/match-revisited.md`.

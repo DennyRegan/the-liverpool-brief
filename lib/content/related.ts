@@ -1,7 +1,7 @@
 import { getArticles } from "./articles.ts";
 import { getArchiveFeatures } from "./archive.ts";
 import { getLiveLookingBack, LOOKING_BACK_PATH } from "./looking-back.ts";
-import { BIOGRAPHIES_PATH, getLiveBiographies, getLiveSeriesParts, getSeriesDefinitions, SERIES_PATH } from "./history.ts";
+import { BIOGRAPHIES_PATH, getLiveBiographies, getLiveMatchRevisited, MATCH_REVISITED_PATH, getLiveSeriesParts, getSeriesDefinitions, SERIES_PATH } from "./history.ts";
 import { isReganOnFootball } from "./regan-on-football.ts";
 import { isKnownPlayer, playerName } from "./player-names.ts";
 import { opponentName } from "./opponents.ts";
@@ -52,6 +52,10 @@ export function getConnectedPieces(now = new Date(), root = process.cwd()): Conn
     ...getLiveLookingBack(now, root).map(p => ({
       href: `${LOOKING_BACK_PATH}/${p.slug}`, title: p.title, kind: "On This Day", date: p.date,
       players: p.players ?? [], opponents: p.opponents ?? [], history: true, season: seasonOf(p.eventDate),
+    })),
+    ...getLiveMatchRevisited(now, root).map(m => ({
+      href: `${MATCH_REVISITED_PATH}/${m.slug}`, title: m.title, kind: "Match Revisited", date: m.date,
+      players: m.players ?? [], opponents: m.opponents ?? [], history: true, season: seasonOf(m.eventDate),
     })),
     ...getLiveBiographies(now, root).map(b => ({
       href: `${BIOGRAPHIES_PATH}/${b.slug}`, title: b.title, kind: "Biography", date: b.date,
