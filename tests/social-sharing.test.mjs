@@ -36,7 +36,7 @@ test('shared stories have consistent canonical, Open Graph and large X cards', (
   assert.equal(result.openGraph.siteName, 'The Liverpool Brief');
   assert.equal(result.twitter.card, 'summary_large_image');
   assert.equal(result.twitter.title, result.openGraph.title);
-  assert.equal(result.openGraph.images[0].url, 'https://theliverpoolbrief.com/articles/example/opengraph-image?v=editorial-2');
+  assert.equal(result.openGraph.images[0].url, 'https://theliverpoolbrief.com/articles/example/opengraph-image?v=editorial-3');
   assert.deepEqual(result.twitter.images, result.openGraph.images);
   assert.equal(result.openGraph.images[0].width, 1200);
   assert.equal(result.openGraph.images[0].height, 630);
@@ -45,7 +45,7 @@ test('shared stories have consistent canonical, Open Graph and large X cards', (
 
 test('Archive images use their retained canonical route and collection pages use the site default image, not invented endpoints', () => {
   assert.equal(socialMetadata('History headline', 'Excerpt.', '/archive/example').twitter.images[0].url,
-    'https://theliverpoolbrief.com/archive/example/opengraph-image?v=editorial-2');
+    'https://theliverpoolbrief.com/archive/example/opengraph-image?v=editorial-3');
   for (const path of ['/articles', '/matchday', '/calls', '/regan-on-football', '/newsletter', '/players/mohamed-salah']) {
     const result = socialMetadata('Title', 'Excerpt.', path);
     assert.equal(result.openGraph.images[0].url, 'https://theliverpoolbrief.com/opengraph-image.png', path);
