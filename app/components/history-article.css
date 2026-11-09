@@ -101,6 +101,15 @@ body:has(.ha-page), body:has(.lb-fonts) {
 .ha-step-label { color: var(--accent-dark); }
 .ha-step-detail { font: 400 17px/1.35 var(--lb-body); }
 .ha-step a:hover .ha-step-detail { text-decoration: underline; text-underline-offset: 3px; }
+/* Continue reading: related pieces, between previous/next and the section links. */
+.ha-related { border-top: 1px solid var(--ha-rule); margin-top: 8px; padding-top: 14px; }
+.ha-related-heading { font: 400 15px/1.4 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--accent); text-align: center; margin: 0; }
+.ha-related ul { list-style: none; margin: 6px 0 0; padding: 0; }
+.ha-related li { padding: 12px 0; text-align: center; }
+.ha-related li + li { border-top: 1px solid var(--ha-rule); }
+.ha-related a { font: 700 20px/1.2 var(--lb-head); color: var(--foreground); text-decoration: none; }
+.ha-related a:hover { color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
+.ha-related p { font: 400 14px/1.4 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--muted); margin: 4px 0 0; }
 .ha-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 28px; border-top: 1px solid var(--ha-rule); margin: 8px 0 0; padding-top: 4px; }
 .ha-step:empty + .ha-links, .ha-foot > .ha-links:first-child { border-top: 0; margin-top: 0; }
 .ha-links a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; color: var(--muted); text-decoration: none; }

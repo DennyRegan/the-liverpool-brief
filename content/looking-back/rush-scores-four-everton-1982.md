@@ -5,6 +5,7 @@ date: "2026-11-06"
 eventDate: "1982-11-06"
 dateline: "Goodison Park · Saturday 6 November 1982 · First Division"
 scoreline: "Everton 0 Liverpool 5"
+opponents: ["everton"]
 excerpt: "The derby that ends Poor Scouser Tommy: Ian Rush's four goals in a 5–0 win at Goodison Park."
 ---
 

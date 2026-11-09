@@ -5,6 +5,7 @@ import { HistoryArticle } from "@/app/components/HistoryArticle";
 import { getVisibleSeries, getVisibleSeriesPart, SERIES_PATH } from "@/lib/content/history";
 import { formatDayDate } from "@/lib/content/go-live";
 import { formatDayMonthYear, readTime } from "@/lib/content/history-article";
+import { getRelatedPieces } from "@/lib/content/related";
 import { socialMetadata } from "@/lib/social-metadata";
 
 export const dynamicParams = true;
@@ -41,6 +42,7 @@ export default async function SeriesPartPage({ params }: { params: Promise<{ ser
       previous={previous && { href: `${seriesPath}/${previous.slug}`, label: `Part ${previous.partNumber}`, detail: previous.title }}
       next={next && { href: `${seriesPath}/${next.slug}`, label: `Part ${next.partNumber}`, detail: next.title }}
       links={[{ href: seriesPath, label: "All parts" }]}
+      related={getRelatedPieces(`${seriesPath}/${part.slug}`)}
     />
   </>;
 }

@@ -4,6 +4,7 @@ import { SiteHeader } from "@/app/components/SiteHeader";
 import { HistoryArticle } from "@/app/components/HistoryArticle";
 import { formatDayDate, getVisibleLookingBack, getVisibleLookingBackPiece, LOOKING_BACK_BYLINE, LOOKING_BACK_PATH, ON_THIS_DAY_PATH, ON_THIS_DAY_PREVIOUS_PATH } from "@/lib/content/looking-back";
 import { formatDayMonthYear, onThisDayKicker, readTime } from "@/lib/content/history-article";
+import { getRelatedPieces } from "@/lib/content/related";
 import { socialMetadata } from "@/lib/social-metadata";
 
 // Pages built at deploy time cover the pieces visible then. dynamicParams lets
@@ -45,6 +46,7 @@ export default async function LookingBackPiecePage({ params }: { params: Promise
       previous={previous && { href: `${LOOKING_BACK_PATH}/${previous.slug}`, label: "Previous", detail: previous.title }}
       next={next && { href: `${LOOKING_BACK_PATH}/${next.slug}`, label: "Next", detail: next.title }}
       links={[{ href: ON_THIS_DAY_PREVIOUS_PATH, label: "Previous weeks" }]}
+      related={getRelatedPieces(`${LOOKING_BACK_PATH}/${piece.slug}`)}
     >
       <p className="lb-actions">
         <a href={`${LOOKING_BACK_PATH}/${piece.slug}/opengraph-image`} download={`${piece.slug}.png`}>Download image</a>

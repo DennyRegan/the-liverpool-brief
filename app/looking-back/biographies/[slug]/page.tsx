@@ -5,6 +5,7 @@ import { HistoryArticle } from "@/app/components/HistoryArticle";
 import { BIOGRAPHIES_PATH, getVisibleBiographies, getVisibleBiography } from "@/lib/content/history";
 import { formatDayDate } from "@/lib/content/go-live";
 import { readTime } from "@/lib/content/history-article";
+import { getRelatedPieces } from "@/lib/content/related";
 import { socialMetadata } from "@/lib/social-metadata";
 
 // dynamicParams lets a piece whose Monday arrives later render on request instead
@@ -37,6 +38,7 @@ export default async function BiographyPage({ params }: { params: Promise<{ slug
       body={person.body}
       scheduledFor={person.scheduled ? formatDayDate(person.liveFrom) : undefined}
       links={[{ href: BIOGRAPHIES_PATH, label: "All biographies" }]}
+      related={getRelatedPieces(`${BIOGRAPHIES_PATH}/${person.slug}`)}
     />
   </>;
 }
