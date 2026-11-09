@@ -74,6 +74,28 @@ export const LookingBackSchema = z.object({
 export type LookingBack = z.infer<typeof LookingBackSchema>;
 
 
+// Match Revisited: one long-form write-up of a classic Liverpool match, weekly.
+// Strict, like the other Looking Back types. Field names follow Looking Back
+// (eventDate, scoreline, excerpt) and Biographies (decade); `players` is the
+// existing player tag list. The retired History taxonomy (season, entities,
+// eras, relatedMatches) is deliberately not part of it.
+export const MatchRevisitedSchema = z.object({
+    title: z.string().trim().min(1),
+    slug: SlugSchema,
+    // Publication date; the piece goes live on the Monday of its week (go-live.ts).
+    date: z.iso.date(),
+    // The day the match was played.
+    eventDate: z.iso.date(),
+    opponent: z.string().trim().min(1),
+    scoreline: z.string().trim().min(1),
+    competition: z.string().trim().min(1),
+    decade: z.string().regex(/^\d{3}0s$/, 'Use a decade such as "1980s"'),
+    excerpt: z.string().trim().min(1),
+    players: z.array(SlugSchema).optional(),
+    body: z.string().trim().min(1),
+}).strict().refine(piece => piece.eventDate <= piece.date, { message: "eventDate cannot be after the publication date", path: ["eventDate"] });
+export type MatchRevisited = z.infer<typeof MatchRevisitedSchema>;
+
 // History: a small hub with Biographies and Series (Looking Back is separate).
 // Strict, so unknown keys (a sources list, retired History taxonomy fields) fail the
 // build; attribution stays inline in the prose. `role` (for the header dateline,
