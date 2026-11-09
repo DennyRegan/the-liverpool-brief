@@ -174,7 +174,7 @@ export function getLookingBackHub(now = new Date(), root = process.cwd()) {
     },
     onThisDay: currentWeek(now),
     biographies: getLiveBiographies(now, root).length,
-    matchRevisited: getLiveMatchRevisited(now, root).length,
+    matchRevisited: getLatestMatchRevisited(now, root) ? { count: getLiveMatchRevisited(now, root).length, latest: getLatestMatchRevisited(now, root)! } : undefined,
   };
 }
 

@@ -58,3 +58,15 @@ test('the sitemap lists live pieces only', () => {
   assert.ok(!urls.some(url => url.endsWith('/looking-back/match-revisited/test-future')));
   assert.ok(urls.some(url => url.endsWith('/looking-back/match-revisited')));
 });
+
+test('the homepage and the Looking Back hub feature the latest live piece', () => {
+  const home = fs.readFileSync('app/page.tsx', 'utf8');
+  assert.match(home, /<MatchRevisitedHome \/>/);
+  assert.ok(home.indexOf('<FootballObservedHome') < home.indexOf('<MatchRevisitedHome'), 'after Football Observed');
+  assert.match(fs.readFileSync('app/components/MatchRevisitedHome.tsx', 'utf8'), /getLatestMatchRevisited\(\)/);
+  assert.match(fs.readFileSync('app/looking-back/page.tsx', 'utf8'), /matchRevisited/);
+  const root = makeRoot([past, future]);
+  assert.equal(history.getLookingBackHub(now, root).matchRevisited.latest.slug, 'test-past');
+  assert.equal(history.getLookingBackHub(now, root).matchRevisited.count, 1);
+  assert.equal(history.getLookingBackHub(now, makeRoot([])).matchRevisited, undefined);
+});

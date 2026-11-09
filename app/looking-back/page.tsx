@@ -24,7 +24,7 @@ export default function LookingBackHub() {
     { href: SERIES_PATH, title: "Series", line: `${plural(series.count, "series", "series")} · ${plural(series.parts, "part")}`, isNew: series.newThisWeek },
     { href: ON_THIS_DAY_PATH, title: "On This Day", line: `This week · ${formatWeekRange(onThisDay.monday, onThisDay.sunday)}` },
     // Match Revisited: listed once it has a live piece.
-    ...(matchRevisited ? [{ href: MATCH_REVISITED_PATH, title: "Match Revisited", line: plural(matchRevisited, "match", "matches") }] : []),
+    ...(matchRevisited ? [{ href: MATCH_REVISITED_PATH, title: "Match Revisited", line: plural(matchRevisited.count, "match", "matches") }] : []),
     { href: BIOGRAPHIES_PATH, title: "Biographies", line: plural(biographies, "life", "lives") },
     // Klopp's Liverpool timeline: listed once it has entries this deployment can show.
     ...(timeline.length ? [{ href: TIMELINE_PATH, title: "Timeline", line: `Klopp's Liverpool · ${plural(timeline.length, "entry", "entries")}` }] : []),
