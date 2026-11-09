@@ -36,7 +36,7 @@ test('shared stories have consistent canonical, Open Graph and large X cards', (
   assert.equal(result.openGraph.siteName, 'The Liverpool Brief');
   assert.equal(result.twitter.card, 'summary_large_image');
   assert.equal(result.twitter.title, result.openGraph.title);
-  assert.equal(result.openGraph.images[0].url, 'https://theliverpoolbrief.com/articles/example/opengraph-image?v=editorial-2');
+  assert.equal(result.openGraph.images[0].url, 'https://theliverpoolbrief.com/articles/example/opengraph-image?v=editorial-3');
   assert.deepEqual(result.twitter.images, result.openGraph.images);
   assert.equal(result.openGraph.images[0].width, 1200);
   assert.equal(result.openGraph.images[0].height, 630);
@@ -45,7 +45,7 @@ test('shared stories have consistent canonical, Open Graph and large X cards', (
 
 test('Archive images use their retained canonical route and collection pages use the site default image, not invented endpoints', () => {
   assert.equal(socialMetadata('History headline', 'Excerpt.', '/archive/example').twitter.images[0].url,
-    'https://theliverpoolbrief.com/archive/example/opengraph-image?v=editorial-2');
+    'https://theliverpoolbrief.com/archive/example/opengraph-image?v=editorial-3');
   for (const path of ['/articles', '/matchday', '/calls', '/regan-on-football', '/newsletter', '/players/mohamed-salah']) {
     const result = socialMetadata('Title', 'Excerpt.', path);
     assert.equal(result.openGraph.images[0].url, 'https://theliverpoolbrief.com/opengraph-image.png', path);
@@ -66,13 +66,16 @@ test('articles and Archive pieces have dedicated share images', () => {
   }
 });
 
-test('every Looking Back page has a social image: its own where it has one, otherwise the site default', () => {
+test('Looking Back pieces have their own social image; section pages use the site default', () => {
   const fallback = 'https://theliverpoolbrief.com/opengraph-image.png';
-  for (const path of ['/looking-back', '/looking-back/on-this-day', '/looking-back/on-this-day/previous', '/looking-back/biographies', '/looking-back/biographies/billy-liddell', '/looking-back/series', '/looking-back/series/klopps-liverpool', '/looking-back/series/klopps-liverpool/the-inheritance', '/looking-back/features']) {
+  for (const path of ['/looking-back', '/looking-back/on-this-day', '/looking-back/on-this-day/previous', '/looking-back/biographies', '/looking-back/series', '/looking-back/series/klopps-liverpool', '/looking-back/features', '/looking-back/match-revisited']) {
     const result = socialMetadata('Title', 'Excerpt.', path);
     assert.equal(result.openGraph.images[0].url, fallback, path);
     assert.equal(result.twitter.images[0].url, fallback, path);
   }
-  // On This Day pieces keep their own image.
+  // Every individual piece has its own vintage-newspaper image (lib/looking-back-card.tsx).
+  for (const path of ['/looking-back/biographies/billy-liddell', '/looking-back/series/klopps-liverpool/the-inheritance', '/looking-back/match-revisited/four-days-from-wembley-to-rome']) {
+    assert.match(socialMetadata('Title', 'Excerpt.', path).twitter.images[0].url, new RegExp(`${path}/opengraph-image\\?v=`), path);
+  }
   assert.match(socialMetadata('Title', 'Excerpt.', '/looking-back/liverpool-tsv-munich-8-0-1967').openGraph.images[0].url, /\/looking-back\/liverpool-tsv-munich-8-0-1967\/opengraph-image\?v=/);
 });

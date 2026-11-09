@@ -1,7 +1,7 @@
 import metrics from '../assets/social/serif-metrics.json' with { type: 'json' };
 
 export const socialImageSize = { width: 1200, height: 630 };
-export const SOCIAL_IMAGE_VERSION = 'editorial-2';
+export const SOCIAL_IMAGE_VERSION = 'editorial-3';
 
 export function socialSection(article: { category: string; tags?: readonly string[] }) {
   return article.category === 'Opinion' && article.tags?.includes('regan-on-football')
