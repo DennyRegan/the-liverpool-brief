@@ -7,8 +7,11 @@ import { SOCIAL_IMAGE_VERSION, socialImageSize } from './social-card.ts';
 const DEFAULT_SOCIAL_IMAGE = { url: new URL('/opengraph-image.png', SITE_URL).href, width: 1197, height: 630, alt: 'The Liverpool Brief' };
 
 export function socialMetadata(title: string, description: string, path: string): Metadata {
-  const sectionPage = /^\/looking-back\/(on-this-day|on-this-day\/previous|biographies|series|features)$/.test(path);
-  const image = !sectionPage && /^\/(articles|archive|looking-back)\/[a-z0-9-]+$/.test(path)
+  const sectionPage = /^\/looking-back\/(on-this-day|on-this-day\/previous|biographies|series|features|match-revisited)$/.test(path);
+  // Looking Back pieces each have their own vintage-newspaper image route
+  // (lib/looking-back-card.tsx): Match Revisited, biographies and series parts too.
+  const lookingBackPiece = /^\/looking-back\/(match-revisited|biographies)\/[a-z0-9-]+$/.test(path) || /^\/looking-back\/series\/[a-z0-9-]+\/[a-z0-9-]+$/.test(path);
+  const image = lookingBackPiece || (!sectionPage && /^\/(articles|archive|looking-back)\/[a-z0-9-]+$/.test(path))
     ? { url: new URL(`${path}/opengraph-image?v=${SOCIAL_IMAGE_VERSION}`, SITE_URL).href, ...socialImageSize, alt: title }
     // Every other page (Looking Back hub, sections, biographies and series parts,
     // Matchday, Calls, Football Observed, Newsletter, player pages) uses the site's

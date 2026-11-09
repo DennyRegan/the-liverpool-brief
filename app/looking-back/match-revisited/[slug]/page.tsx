@@ -20,7 +20,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const piece = getVisibleMatchRevisitedPiece((await params).slug);
   if (!piece) return {};
-  const metadata = socialMetadata(piece.title, piece.excerpt, `${MATCH_REVISITED_PATH}/${piece.slug}`);
+  const metadata = socialMetadata(piece.headline ?? piece.title, piece.excerpt, `${MATCH_REVISITED_PATH}/${piece.slug}`);
   return { ...metadata, openGraph: { ...metadata.openGraph, type: "article", publishedTime: piece.date } };
 }
 

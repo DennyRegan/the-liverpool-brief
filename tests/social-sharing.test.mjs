@@ -66,13 +66,16 @@ test('articles and Archive pieces have dedicated share images', () => {
   }
 });
 
-test('every Looking Back page has a social image: its own where it has one, otherwise the site default', () => {
+test('Looking Back pieces have their own social image; section pages use the site default', () => {
   const fallback = 'https://theliverpoolbrief.com/opengraph-image.png';
-  for (const path of ['/looking-back', '/looking-back/on-this-day', '/looking-back/on-this-day/previous', '/looking-back/biographies', '/looking-back/biographies/billy-liddell', '/looking-back/series', '/looking-back/series/klopps-liverpool', '/looking-back/series/klopps-liverpool/the-inheritance', '/looking-back/features']) {
+  for (const path of ['/looking-back', '/looking-back/on-this-day', '/looking-back/on-this-day/previous', '/looking-back/biographies', '/looking-back/series', '/looking-back/series/klopps-liverpool', '/looking-back/features', '/looking-back/match-revisited']) {
     const result = socialMetadata('Title', 'Excerpt.', path);
     assert.equal(result.openGraph.images[0].url, fallback, path);
     assert.equal(result.twitter.images[0].url, fallback, path);
   }
-  // On This Day pieces keep their own image.
+  // Every individual piece has its own vintage-newspaper image (lib/looking-back-card.tsx).
+  for (const path of ['/looking-back/biographies/billy-liddell', '/looking-back/series/klopps-liverpool/the-inheritance', '/looking-back/match-revisited/four-days-from-wembley-to-rome']) {
+    assert.match(socialMetadata('Title', 'Excerpt.', path).twitter.images[0].url, new RegExp(`${path}/opengraph-image\\?v=`), path);
+  }
   assert.match(socialMetadata('Title', 'Excerpt.', '/looking-back/liverpool-tsv-munich-8-0-1967').openGraph.images[0].url, /\/looking-back\/liverpool-tsv-munich-8-0-1967\/opengraph-image\?v=/);
 });
