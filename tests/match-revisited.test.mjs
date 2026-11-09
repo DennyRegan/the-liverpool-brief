@@ -59,12 +59,24 @@ test('the sitemap lists live pieces only', () => {
   assert.ok(urls.some(url => url.endsWith('/looking-back/match-revisited')));
 });
 
+test('the homepage and the Looking Back hub feature the latest live piece', () => {
+  const home = fs.readFileSync('app/page.tsx', 'utf8');
+  assert.match(home, /<MatchRevisitedHome \/>/);
+  assert.ok(home.indexOf('<FootballObservedHome') < home.indexOf('<MatchRevisitedHome'), 'after Football Observed');
+  assert.match(fs.readFileSync('app/components/MatchRevisitedHome.tsx', 'utf8'), /getLatestMatchRevisited\(\)/);
+  assert.match(fs.readFileSync('app/looking-back/page.tsx', 'utf8'), /matchRevisited/);
+  const root = makeRoot([past, future]);
+  assert.equal(history.getLookingBackHub(now, root).matchRevisited.latest.slug, 'test-past');
+  assert.equal(history.getLookingBackHub(now, root).matchRevisited.count, 1);
+  assert.equal(history.getLookingBackHub(now, makeRoot([])).matchRevisited, undefined);
+});
+
 test('Match Revisited joins Continue reading through its player and opponent tags and its season', async () => {
   const { getConnectedPieces, connection } = await import('../lib/content/related.ts');
-  const root = makeRoot([{ ...past, slug: 'test-a', players: ['kenny-dalglish'], opponents: [] }]);
+  const root = makeRoot([{ ...past, slug: 'test-a', players: ['kenny-dalglish'] }]);
   const mine = getConnectedPieces(now, root).find(p => p.href.endsWith('/match-revisited/test-a'));
   assert.equal(mine.kind, 'Match Revisited');
   assert.equal(mine.season, '1983-84');
   assert.deepEqual(mine.players, ['kenny-dalglish']);
-  assert.ok(connection(mine, { ...mine, href: '/x', series: undefined, players: ['kenny-dalglish'] }));
+  assert.ok(connection(mine, { ...mine, href: '/x', series: undefined }));
 });
