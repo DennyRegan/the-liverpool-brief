@@ -2,8 +2,16 @@ import {z} from "zod";
 
 const SlugSchema = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Use a lowercase kebab-case slug");
 
+// Connection tags, used by "Continue reading" (lib/content/related.ts) to link a
+// piece to related pieces automatically. players: slugs from content/players.json;
+// opponents: slugs from content/opponents.json (unknown slugs fail the build);
+// season: "1985-86". All optional.
+const PlayersSchema = z.array(SlugSchema).optional();
+const OpponentsSchema = z.array(SlugSchema).optional();
+const SeasonSchema = z.string().regex(/^\d{4}-\d{2}$/, 'Use a season such as "1985-86"').optional();
+
 // Unknown frontmatter keys (including retired History relationship fields such as
-// playerIds, season or relatedMatches) are ignored, so existing files parse unchanged.
+// playerIds or relatedMatches) are ignored, so existing files parse unchanged.
 export const ArchiveFeatureSchema = z.object({
     // The date of the historical event; date below remains the publication date.
     historicalEventDate: z.iso.date().optional(),
@@ -17,7 +25,9 @@ export const ArchiveFeatureSchema = z.object({
     editorialMode: z.enum(["factual", "opinion"]).optional(),
     sources: z.array(z.string()).optional(),
     // Liverpool players the piece is mainly about (slugs from content/players.json).
-    players: z.array(SlugSchema).optional(),
+    players: PlayersSchema,
+    season: SeasonSchema,
+    opponents: OpponentsSchema,
     body: z.string(),
 });
 
@@ -52,7 +62,8 @@ export const ArticleSchema = z.object({
     excerpt: z.string().optional(), sources: z.array(z.string()).optional(),
     whatMatters: z.array(z.string()).optional(),
     // Liverpool players the piece is mainly about (slugs from content/players.json).
-    players: z.array(SlugSchema).optional(),
+    players: PlayersSchema,
+    opponents: OpponentsSchema,
     calls: z.array(CallSchema).optional(),
     body: z.string(),
 });
@@ -67,6 +78,9 @@ export const LookingBackSchema = z.object({
     eventDate: z.iso.date(),
     dateline: z.string().trim().min(1),
     scoreline: z.string().trim().min(1).optional(),
+    // Connection tags; the season comes from eventDate automatically.
+    players: PlayersSchema,
+    opponents: OpponentsSchema,
     excerpt: z.string().trim().min(1)
         .refine(text => /[.!?]$/.test(text) && !/[.!?]["”’]?\s+\S/.test(text), "The excerpt must be one sentence"),
     body: z.string().trim().min(1),
@@ -86,6 +100,9 @@ export const BiographySchema = z.object({
     decade: z.string().regex(/^\d{3}0s$/, 'Use a decade such as "1950s"'),
     excerpt: z.string().trim().min(1),
     role: z.string().trim().min(1).optional(),
+    // Others the biography is mainly about. Its own subject counts automatically
+    // when the biography's slug is in content/players.json.
+    players: PlayersSchema,
     body: z.string().trim().min(1),
 }).strict();
 export type Biography = z.infer<typeof BiographySchema>;
@@ -97,6 +114,9 @@ export const SeriesPartSchema = z.object({
     slug: SlugSchema,
     date: z.iso.date(),
     excerpt: z.string().trim().min(1),
+    players: PlayersSchema,
+    season: SeasonSchema,
+    opponents: OpponentsSchema,
     body: z.string().trim().min(1),
 }).strict();
 export type SeriesPart = z.infer<typeof SeriesPartSchema>;

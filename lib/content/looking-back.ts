@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { LookingBackSchema } from "./types.ts";
+import { assertKnownTags } from "./opponents.ts";
 import { addDays, formatDayDate, isLive, isProduction, liveFrom, onlyLive, weekEndingSunday, withGoLive } from "./go-live.ts";
 import { getLondonToday } from "./homepage.ts";
 
@@ -29,7 +30,9 @@ export function getLookingBack(root = process.cwd()) {
       const { data, content } = matter(fs.readFileSync(path.join(directory, filename), "utf8"));
       if (data.slug !== slug) throw new Error(`slug "${data.slug}" must match filename "${slug}"`);
       if (RESERVED_LOOKING_BACK_SEGMENTS.includes(slug)) throw new Error(`slug "${slug}" is reserved for a Looking Back section`);
-      return LookingBackSchema.parse({ ...data, body: content.trim() });
+      const piece = LookingBackSchema.parse({ ...data, body: content.trim() });
+      assertKnownTags(piece);
+      return piece;
     } catch (error) {
       throw new Error(`Invalid Looking Back piece ${filename}: ${error instanceof Error ? error.message : String(error)}`);
     }

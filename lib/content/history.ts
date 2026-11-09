@@ -5,6 +5,7 @@ import { BiographySchema, SeriesDefinitionSchema, SeriesPartSchema } from "./typ
 import { isRecent, onlyLive, withGoLive } from "./go-live.ts";
 import { currentWeek } from "./looking-back.ts";
 import { getArchiveFeatures } from "./archive.ts";
+import { assertKnownTags } from "./opponents.ts";
 
 // Biographies and Series are sections of Looking Back (the hub at /looking-back).
 // Content files stay in content/biographies and content/series.
@@ -36,7 +37,7 @@ function startYear(period: string) {
 
 /** Every biography: oldest decade first, then by first year at the club, then title. */
 export function getBiographies(root = process.cwd()) {
-  const all = readMarkdown(path.join(root, "content/biographies"), data => BiographySchema.parse(data));
+  const all = readMarkdown(path.join(root, "content/biographies"), data => { const item = BiographySchema.parse(data); assertKnownTags(item); return item; });
   const slugs = new Set<string>();
   for (const item of all) { if (slugs.has(item.slug)) throw new Error(`Duplicate biography slug "${item.slug}"`); slugs.add(item.slug); }
   return all.sort((a, b) => a.decade.localeCompare(b.decade) || startYear(a.historicalPeriod) - startYear(b.historicalPeriod) || a.title.localeCompare(b.title));
@@ -84,7 +85,7 @@ export function getSeriesParts(root = process.cwd()) {
   const base = path.join(root, "content/series");
   const parts = fs.existsSync(base)
     ? fs.readdirSync(base, { withFileTypes: true }).filter(entry => entry.isDirectory()).flatMap(entry => {
-        const parts = readMarkdown(path.join(base, entry.name), data => SeriesPartSchema.parse(data));
+        const parts = readMarkdown(path.join(base, entry.name), data => { const item = SeriesPartSchema.parse(data); assertKnownTags(item); return item; });
         for (const part of parts) if (part.seriesSlug !== entry.name) throw new Error(`Series part "${part.slug}" has seriesSlug "${part.seriesSlug}" but sits in the "${entry.name}" folder`);
         return parts;
       })

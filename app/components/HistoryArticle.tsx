@@ -3,6 +3,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { ShareButton } from "@/app/components/ShareButton";
+import type { RelatedPiece } from "@/lib/content/related";
 import { historyFonts } from "./history-fonts";
 import "./history-article.css";
 
@@ -21,7 +22,7 @@ export type HistoryLink = { href: string; label: string; detail?: string };
  * previous/next and section links. Only the words passed in vary by type.
  * Current-day articles and Football Observed never use it.
  */
-export function HistoryArticle({ back, kicker, title, scoreline, standfirst, byline, dateline, body, scheduledFor, previous, next, links, extras, children }: {
+export function HistoryArticle({ back, kicker, title, scoreline, standfirst, byline, dateline, body, scheduledFor, previous, next, links, related = [], extras, children }: {
   back: HistoryLink;
   kicker: string;
   title: string;
@@ -34,6 +35,8 @@ export function HistoryArticle({ back, kicker, title, scoreline, standfirst, byl
   previous?: HistoryLink;
   next?: HistoryLink;
   links: HistoryLink[];
+  /** "Continue reading": related pieces from lib/content/related.ts. */
+  related?: RelatedPiece[];
   extras?: ReactNode;
   children?: ReactNode;
 }) {
@@ -60,6 +63,15 @@ export function HistoryArticle({ back, kicker, title, scoreline, standfirst, byl
         {(previous || next) && <nav className="ha-step" aria-label="More pieces">
           {previous && <Link className="ha-previous" href={previous.href} rel="prev"><span className="ha-step-label"><span aria-hidden="true">← </span>{previous.label}</span>{previous.detail && <span className="ha-step-detail">{previous.detail}</span>}</Link>}
           {next && <Link className="ha-next" href={next.href} rel="next"><span className="ha-step-label">{next.label}<span aria-hidden="true"> →</span></span>{next.detail && <span className="ha-step-detail">{next.detail}</span>}</Link>}
+        </nav>}
+        {related.length > 0 && <nav className="ha-related" aria-labelledby="ha-related-heading">
+          <h2 id="ha-related-heading" className="ha-related-heading">Continue reading</h2>
+          <ul role="list">
+            {related.map(item => <li key={item.href}>
+              <Link href={item.href}>{item.title}</Link>
+              <p><Caps text={`${item.kind} · ${item.reasons.join(" · ")}`} /></p>
+            </li>)}
+          </ul>
         </nav>}
         <p className="ha-links">{links.map(link => <Link key={link.href} href={link.href}>{link.label} <span aria-hidden="true">→</span></Link>)}</p>
         {children}
