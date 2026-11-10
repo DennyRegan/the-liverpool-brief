@@ -10,7 +10,7 @@ Denny explicitly instructed this chat on 10 November 2026 to inspect the GitHub 
 
 An hourly background heartbeat, `complete-paisley-player-biographies`, was created and confirmed active on 10 November 2026. It returns to this chat to continue the finite queue and must be paused when the queue is complete. On continuation, inspect the actual local and remote state before changing status or repeating an upload. An existing draft or pending review takes precedence over starting another player. Leave the retired scheduled History workflows, taxonomy and routes untouched.
 
-Completed: **1. Kenny Dalglish** — upload verified at commit `61b2763fdadd8f886c13ba441bab1763335b863c`; fresh factual and editorial review, 129 tests, lint and production build passed. Completed: **2. Ray Kennedy** — fresh factual and editorial reviews passed; 129 tests, lint and production build passed. Ray Kennedy upload verified at commit `c5bcd557c65dfe6cec587b7ffedd0aff261ecb4b`. Completed: **3. Phil Neal** — fresh factual and editorial reviews, 129 tests, lint and build passed. Next: **4. Ray Clemence**; verify Neal on GitHub before starting. Denny reaffirmed continuation with the recommended players on 10 November 2026.
+Completed: **1. Kenny Dalglish** — upload verified at commit `61b2763fdadd8f886c13ba441bab1763335b863c`; fresh factual and editorial review, 129 tests, lint and production build passed. Completed: **2. Ray Kennedy** — fresh factual and editorial reviews passed; 129 tests, lint and production build passed. Ray Kennedy upload verified at commit `c5bcd557c65dfe6cec587b7ffedd0aff261ecb4b`. Completed: **3. Phil Neal** — fresh factual and editorial reviews, 129 tests, lint and build passed. Neal upload verified at commit `578b940259d86901f8130bc0078db5341abf6093`. Completed: **4. Ray Clemence** — fresh factual and editorial reviews, 129 tests, lint and build passed. Next: **5. Graeme Souness**; verify Clemence on GitHub before starting. Denny reaffirmed continuation with the recommended players on 10 November 2026.
 
 ## Repository baseline
 
@@ -47,7 +47,7 @@ Items 1–25 cover the central players across the inherited side, European break
 | 1 | Kenny Dalglish | Uploaded | Keegan succession; creative centre of the rebuilt attack | [Biography](../../content/biographies/kenny-dalglish.md) · [fresh reviews and checks](kenny-dalglish.md) |
 | 2 | Ray Kennedy | Uploaded | Conversion from striker to left-sided midfielder | [Biography](../../content/biographies/ray-kennedy.md) · [fresh reviews and checks](ray-kennedy.md) |
 | 3 | Phil Neal | Uploaded | Recruitment, durability and European finals | [Biography](../../content/biographies/phil-neal.md) · [fresh reviews and checks](phil-neal.md) |
-| 4 | Ray Clemence | Pending | Goalkeeping continuity through three European Cups | — |
+| 4 | Ray Clemence | Uploaded | Goalkeeping continuity through three European Cups | [Biography](../../content/biographies/ray-clemence.md) · [fresh reviews and checks](ray-clemence.md) |
 | 5 | Graeme Souness | Pending | Midfield authority and captaincy | — |
 | 6 | Alan Hansen | Pending | Development of the central defence | — |
 | 7 | Kevin Keegan | Pending | The inherited attack and first European Cup | — |
