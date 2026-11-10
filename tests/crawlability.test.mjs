@@ -21,7 +21,7 @@ const newsletter = { SENDER_PUBLIC_ACCOUNT_ID: 'abc123', SENDER_NEWSLETTER_FORM_
 test('sitemap lists only the public pages and retained articles', () => {
   const entries = sitemap();
   const expected = [
-    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back', '/looking-back/on-this-day', '/looking-back/on-this-day/previous', '/looking-back/biographies', '/looking-back/series', '/looking-back/match-revisited', '/looking-back/features', '/calls',
+    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back', '/looking-back/on-this-day', '/looking-back/on-this-day/previous', '/looking-back/biographies', '/looking-back/series', '/looking-back/match-revisited', '/looking-back/features', '/looking-back/timeline', '/calls',
     ...(getNewsletterConfig() ? ['/newsletter', '/newsletter/privacy'] : []),
     ...getArticles().map(a => `/articles/${a.slug}`),
     ...getArchiveFeatures().map(a => `/archive/${a.slug}`),

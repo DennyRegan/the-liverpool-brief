@@ -5,6 +5,7 @@ import { SiteHeader } from "@/app/components/SiteHeader";
 import { HistoryHeader, ScheduledNote } from "@/app/components/HistoryHeader";
 import { getVisibleSeries, getVisibleSeriesBySlug, SERIES_PATH } from "@/lib/content/history";
 import { formatDayDate } from "@/lib/content/go-live";
+import { getVisibleTimeline, TIMELINE_PATH } from "@/lib/content/timeline";
 import { socialMetadata } from "@/lib/social-metadata";
 import "../../history.css";
 
@@ -27,6 +28,7 @@ export default async function SeriesPage({ params }: { params: Promise<{ series:
   const published = series.parts.filter(p => !p.scheduled);
   const [first] = series.parts;
   const newest = published.at(-1);
+  const hasTimeline = getVisibleTimeline().length > 0;
   return <>
     <SiteHeader active="looking-back" />
     <main id="main-content" className="site-width collection history-index">
@@ -36,6 +38,7 @@ export default async function SeriesPage({ params }: { params: Promise<{ series:
         <Link href={`${SERIES_PATH}/${series.slug}/${first.slug}`}>Start reading</Link>
         {newest && <span className="series-latest">Latest: Part {newest.partNumber}</span>}
       </p>
+      {series.slug === "klopps-liverpool" && hasTimeline && <p className="series-start"><Link href={TIMELINE_PATH}>See the timeline</Link></p>}
       <ol className="history-list">
         {series.parts.map(part => <li key={part.slug}>
           {part.scheduled && <ScheduledNote date={formatDayDate(part.liveFrom)} />}
