@@ -10,7 +10,7 @@ Denny explicitly instructed this chat on 10 November 2026 to inspect the GitHub 
 
 An hourly background heartbeat, `complete-paisley-player-biographies`, was created and confirmed active on 10 November 2026. It returns to this chat to continue the finite queue and must be paused when the queue is complete. On continuation, inspect the actual local and remote state before changing status or repeating an upload. An existing draft or pending review takes precedence over starting another player. Leave the retired scheduled History workflows, taxonomy and routes untouched.
 
-Completed: **1. Kenny Dalglish** — fresh factual and editorial review passed; 129 tests, lint and production build passed. Next item: **2. Ray Kennedy**. The coordinating agent must verify this upload on GitHub before starting Ray Kennedy.
+Completed: **1. Kenny Dalglish** — upload verified at commit `61b2763fdadd8f886c13ba441bab1763335b863c`; fresh factual and editorial review, 129 tests, lint and production build passed. Completed: **2. Ray Kennedy** — fresh factual and editorial reviews passed; 129 tests, lint and production build passed. Next item: **3. Phil Neal**. Verify the Ray Kennedy upload before starting the next player.
 
 ## Repository baseline
 
@@ -45,7 +45,7 @@ Items 1–25 cover the central players across the inherited side, European break
 | Order | Player | Status | Editorial focus / scope note | Verified upload |
 | --- | --- | --- | --- | --- |
 | 1 | Kenny Dalglish | Uploaded | Keegan succession; creative centre of the rebuilt attack | [Biography](../../content/biographies/kenny-dalglish.md) · [fresh reviews and checks](kenny-dalglish.md) |
-| 2 | Ray Kennedy | Pending | Conversion from striker to left-sided midfielder | — |
+| 2 | Ray Kennedy | Uploaded | Conversion from striker to left-sided midfielder | [Biography](../../content/biographies/ray-kennedy.md) · [fresh reviews and checks](ray-kennedy.md) |
 | 3 | Phil Neal | Pending | Recruitment, durability and European finals | — |
 | 4 | Ray Clemence | Pending | Goalkeeping continuity through three European Cups | — |
 | 5 | Graeme Souness | Pending | Midfield authority and captaincy | — |
