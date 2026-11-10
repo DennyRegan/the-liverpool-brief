@@ -47,8 +47,6 @@ April compressed the season into a week. On 10 April Liverpool went to the Etiha
 
 Six days later the sides met again in the FA Cup semi-final at Wembley. The fixture had already drawn complaint, though not about timing. The West Coast Main Line was closed for Easter engineering works, the mayors of both cities asked for a northern venue, and Henderson said moving the tie "would make sense". The FA kept it at Wembley and laid on buses.
 
-The match was played the day after the 33rd anniversary of the Hillsborough disaster, in which 97 Liverpool supporters lost their lives, the 97th being Andrew Devine, who died in 2021. A minute's silence before kick-off was ended early by the referee, Michael Oliver, after some City supporters chanted through it. Manchester City apologised that evening "to all those connected with Liverpool Football Club."
-
 Liverpool were 3–0 up by half-time. Konaté headed in a corner, his third opener in as many games; Mané forced in the second after Zack Steffen dawdled on a back-pass; Mané volleyed the third from Thiago's chip. Grealish and Bernardo Silva made it 3–2, the second in stoppage time. City's treble was over. Liverpool's quadruple was alive.
 
 So was the European run. Liverpool had won 2–0 at San Siro against Inter, then lost the return 1–0 at Anfield. They beat Benfica 3–1 in Lisbon and drew 3–3 at home. Against Unai Emery's Villarreal they won the first leg 2–0, then trailed 2–0 at half-time in Spain, the tie level. Fabinho, Díaz and Mané scored in the space of 12 minutes in the second half. One of those goals took Liverpool past the club's scoring record of 138 in a season, set in 1985–86; they would finish with 147.

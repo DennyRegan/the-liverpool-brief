@@ -1,7 +1,7 @@
 ---
 seriesSlug: "klopps-liverpool"
 partNumber: 12
-title: "The farewell"
+title: "Third, that's alright"
 slug: "the-farewell"
 date: "2026-11-10"
 excerpt: "Liverpool began the last four months of Jürgen Klopp's time in charge chasing four trophies with a squad that kept losing players. This is the story of a team that led the league with eight games to go, and of what the last month showed about it."
