@@ -18,7 +18,7 @@ body:has(.ha-page), body:has(.lb-fonts) {
   --lb-head: var(--lb-f-headline), "Old Standard TT", Georgia, serif;
 }
 /* True small caps: the SC face draws lower case as small capitals. */
-.history-masthead, .history-list-meta, .lbh-row-line, .series-start a, .series-latest, .otd-previous a, .history-index .back-link {
+.history-masthead, .history-list-meta, .series-start a, .series-latest, .otd-previous a, .history-index .back-link {
   font-family: var(--lb-caps); font-weight: 400; letter-spacing: .08em; text-transform: lowercase;
 }
 .history-index .empty-state { font-family: var(--lb-body); font-size: 18px; }
@@ -49,20 +49,20 @@ body:has(.ha-page), body:has(.lb-fonts) {
 .history-list h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .history-list-excerpt { color: #4d4c46; font: 400 18px/1.5 var(--lb-body); margin: 0; max-width: 62ch; }
 
-/* ---- Hub: three tappable rows (Series, On This Day, Biographies) -------- */
+/* ---- Hub: intro, then the four sections as Match Revisited-style entries --- */
 .lbh a { text-decoration: none; }
-.lbh .collection-title { font: 700 34px/1.1 var(--lb-head); letter-spacing: 0; }
-.lbh-rows { margin-top: 20px; border-top: 1px solid var(--line); }
-.lbh-rows ul { list-style: none; margin: 0; padding: 0; }
-.lbh-rows li { border-bottom: 1px solid var(--line); }
-.lbh-rows li a { display: flex; align-items: center; gap: 16px; padding: 30px 0 32px; color: var(--foreground); }
-.lbh-row-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
-.lbh-row-title { display: flex; align-items: center; gap: 10px; font: 700 36px/1.1 var(--lb-head); letter-spacing: 0; }
-.lbh-row-line { color: var(--muted); font-size: 15px; }
-.lbh-row-arrow { color: var(--muted); font-size: 18px; transition: transform .15s ease, color .15s ease; }
+.lbh .history-masthead span { display: inline-flex; align-items: center; min-height: 36px; color: var(--accent-dark); }
+.lbh-about { margin: 4px 0 8px; }
+.lbh-about p { color: #4d4c46; font: 400 18px/1.5 var(--lb-body); margin: 0 0 14px; max-width: 62ch; }
+.lbh .history-list { border-top: 1px solid var(--line); margin-top: 20px; }
+.lbh-entry { display: flex; align-items: center; gap: 16px; color: var(--foreground); }
+.lbh-entry-text { flex: 1; min-width: 0; display: block; }
+.lbh-meta { display: flex; align-items: center; gap: 8px; }
+.lbh-entry h3 { margin: 5px 0 8px; }
+.lbh-entry-arrow { color: var(--muted); font-size: 18px; transition: transform .15s ease, color .15s ease; }
 .lbh-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
-.lbh-rows li a:hover .lbh-row-title { color: var(--accent-dark); }
-.lbh-rows li a:hover .lbh-row-arrow { color: var(--accent-dark); transform: translateX(3px); }
+.lbh-entry:hover h3 { text-decoration: underline; text-underline-offset: 4px; }
+.lbh-entry:hover .lbh-entry-arrow { color: var(--accent-dark); transform: translateX(3px); }
 
 .otd-previous { margin: 20px 0 0; }
 .otd-previous a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); font-size: 15px; text-decoration: none; }
@@ -78,8 +78,6 @@ body:has(.ha-page), body:has(.lb-fonts) {
 
 /* Phones: the same steps as Articles and article pages (editorial.css). */
 @media (max-width: 700px) {
-  .history-index .history-headline, .lbh .collection-title { font-size: 30px; }
+  .history-index .history-headline { font-size: 30px; }
   .history-list h3 { font-size: 23px; }
-  .lbh-rows li a { padding: 26px 0 28px; }
-  .lbh-row-title { font-size: 32px; }
 }
