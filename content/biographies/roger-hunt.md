@@ -15,7 +15,7 @@ Hunt was born near Warrington on 20 July 1938. Bill Jones, a former Liverpool pl
 
 His debut came at Anfield on 9 September 1959, against Scunthorpe United in the Second Division. Liverpool won 2–0 and Hunt scored. Bill Shankly arrived as manager a few months later and rebuilt the side. Hunt was one of the players he inherited and kept.
 
-Hunt was strong, quick and willing to work. He set out to improve from the start. "From the first day, I threw myself into training, ran and tackled for everything," he told LFChistory. He also practised his ball skills at every opportunity.
+Hunt was strong, quick and willing to work. He set out to improve from the start. "From the first day, I threw myself into training, ran and tackled for everything," he recalled, as LFChistory records. He also practised his ball skills at every opportunity.
 
 ## Promotion with St John
 
