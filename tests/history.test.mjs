@@ -64,6 +64,18 @@ test('the go-live rule is the Looking Back code, not a second copy', () => {
   assert.equal(isLive({ date: '2026-11-15' }, at('2026-11-09T00:00:00Z')), true);
 });
 
+test('Match Revisited goes live at 17:00 Europe/London on its Monday, not midnight', () => {
+  // GMT in November: 17:00 London is 17:00 UTC.
+  assert.equal(isLive({ date: '2026-11-16' }, at('2026-11-16T16:59:59Z'), 17), false);
+  assert.equal(isLive({ date: '2026-11-16' }, at('2026-11-16T17:00:00Z'), 17), true);
+  assert.equal(isLive({ date: '2026-11-16' }, at('2026-11-17T09:00:00Z'), 17), true);
+  // BST in April: 17:00 London is 16:00 UTC.
+  assert.equal(isLive({ date: '2027-04-05' }, at('2027-04-05T15:59:59Z'), 17), false);
+  assert.equal(isLive({ date: '2027-04-05' }, at('2027-04-05T16:00:00Z'), 17), true);
+  // Other types still go live at midnight.
+  assert.equal(isLive({ date: '2026-11-16' }, at('2026-11-16T00:00:00Z')), true);
+});
+
 test('biographies: live ones show, future ones are hidden on production and flagged elsewhere, and stay live', () => {
   const now = at('2026-06-01T12:00:00Z');
   assert.deepEqual(history.getVisibleBiographies(now, production, root).map(b => b.slug), ['test-person-two', 'test-person-one', 'test-person-three']);

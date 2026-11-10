@@ -11,7 +11,7 @@ import { socialMetadata } from "@/lib/social-metadata";
 // dynamicParams lets a piece whose Monday arrives later render on request instead
 // of staying a 404 until the next deploy; revalidate re-checks each page hourly.
 export const dynamicParams = true;
-export const revalidate = 3600;
+export const revalidate = 600;
 
 export function generateStaticParams() {
   return getVisibleMatchRevisited().map(piece => ({ slug: piece.slug }));
