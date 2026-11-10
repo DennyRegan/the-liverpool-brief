@@ -1,7 +1,7 @@
 ---
 seriesSlug: "klopps-liverpool"
 partNumber: 8
-title: "When everything fell apart"
+title: "Eighth in March"
 slug: "when-everything-fell-apart"
 date: "2026-11-10"
 excerpt: "Liverpool were top of the league at Christmas 2020. By March they had lost six home games in a row and were eighth. This is the story of the champions' broken season, and of what really broke it."
