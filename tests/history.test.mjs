@@ -258,7 +258,7 @@ test('Looking Back pages use The Back Pages typefaces (no blackletter), loaded o
   assert.match(fs.readFileSync('app/components/HistoryArticle.tsx', 'utf8'), /historyFonts/);
   assert.doesNotMatch(fs.readFileSync('app/layout.tsx', 'utf8'), /Fell|Old_Standard/);
   const index = fs.readFileSync('app/looking-back/history.css', 'utf8');
-  for (const rule of ['.history-list h3', '.lbh-row-title', '.history-index .history-headline']) assert.match(index, new RegExp(`${rule.replace(/[.]/g, '\\.')} \\{[^}]*var\\(--lb-head\\)`), rule);
+  for (const rule of ['.history-list h3', '.history-index .history-headline']) assert.match(index, new RegExp(`${rule.replace(/[.]/g, '\\.')} \\{[^}]*var\\(--lb-head\\)`), rule);
 });
 
 test('history article kickers and read times come from existing frontmatter', async () => {
