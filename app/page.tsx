@@ -22,7 +22,7 @@ export const dynamic = 'force-dynamic';
 
 export default function Home() {
   const writing = getWriting();
-  const { lead, column, more } = selectHomePage(writing, new Date(), getHomeLeadOverride());
+  const { lead, column } = selectHomePage(writing, new Date(), getHomeLeadOverride());
   const featuredEdition = getFootballObservedPieces().find(article => `/articles/${article.slug}` === column?.href);
   return <>
     <SiteHeader active="home" />
@@ -39,15 +39,6 @@ export default function Home() {
           </article>
         </div> : <><h1 className="home-empty-title">Independent Liverpool writing</h1><Link className="read-link" href="/articles">Browse articles →</Link></>}
       </section>
-      {more.length > 0 && <section className="home-recent" aria-labelledby="home-recent-heading">
-        <div className="home-section-heading"><h2 id="home-recent-heading" className="eyebrow">More articles</h2><Link className="collection-link" href="/articles">All articles</Link></div>
-        <div className="article-grid">{more.map(article => <article className="article-card" key={article.href}>
-            <ArticleMeta {...article} />
-            <h3><Link href={article.href}>{article.title}</Link></h3>
-            <p className="preview-excerpt">{getArticleExcerpt(article, 180)}</p>
-            <Link className="read-link" href={article.href} aria-label={`Read article: ${article.title}`}>Read article</Link>
-        </article>)}</div>
-      </section>}
       {featuredEdition && <FootballObservedHome article={featuredEdition} />}
       <MatchRevisitedHome />
       <HistoryLatest />

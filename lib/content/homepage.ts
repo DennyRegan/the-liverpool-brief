@@ -31,11 +31,13 @@ export function selectHomeLead<T extends Writing>(writing: T[], now: Date, overr
   return pinned ?? eligible[0];
 }
 
-// Up to four distinct journalism pieces: a Liverpool lead and more Liverpool
-// articles, then the newest Football Observed piece (a weekly edition or an
-// occasional article) in its own section below.
-// The column never fills the Liverpool slots, even when it is the newest piece
-// or an editorial override names it.
+// Two journalism pieces at most: the single newest Liverpool piece as the lead,
+// then the newest Football Observed piece (a weekly edition or an occasional
+// article) in its own section below. There is deliberately no list of further
+// articles on the homepage: a short list of older dates made the site look
+// stale. The full list lives at /articles.
+// The column never takes the Liverpool lead slot, even when it is the newest
+// piece or an editorial override names it.
 export function selectHomePage<T extends Writing>(writing: T[], now: Date, override: LeadOverride = null) {
   const today = getLondonToday(now);
   const eligible = [...new Map(writing.map(article => [article.href, article])).values()]
@@ -46,7 +48,5 @@ export function selectHomePage<T extends Writing>(writing: T[], now: Date, overr
   const otherWriting = journalism.filter(article => !isReganOnFootball(article));
   const lead = selectHomeLead(otherWriting, now, override) ?? otherWriting[0];
   const column = latestColumn;
-  const remainingSlots = 4 - Number(Boolean(lead)) - Number(Boolean(column));
-  const more = otherWriting.filter(article => article.href !== lead?.href).slice(0, remainingSlots);
-  return { lead, column, more };
+  return { lead, column };
 }

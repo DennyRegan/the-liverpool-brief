@@ -84,7 +84,7 @@ test('opinion pieces join Football Observed without displacing the weekly column
     assert.deepEqual(getEditionNeighbours(getReganOnFootballEditions(root), 'opinion'), {});
     const home = selectHomePage(getWriting(root), new Date('2026-11-04T12:00:00Z'));
     assert.equal(home.lead.slug, 'liverpool');
-    assert.ok(home.more.every(article => article.slug !== 'opinion'));
+    assert.notEqual(home.lead.slug, 'opinion');
     // The homepage has one Football Observed slot, and the newest piece takes it.
     assert.equal(home.column.slug, 'opinion');
     write('column-next', '2026-11-06', ['regan-on-football']);
