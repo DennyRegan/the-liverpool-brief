@@ -3,15 +3,9 @@
    /looking-back by app/looking-back/layout.tsx (app/components/history-fonts.ts).
    Individual pieces use the shared history article template
    (app/components/history-article.css). */
-/* Cream newsprint on every Looking Back page (index pages and pieces), header
-   included, so history reads differently from the modern writing. The faint dot
-   is The Back Pages' paper grain. Keep in step with history.css. */
-body:has(.ha-page), body:has(.lb-fonts) {
-  background-color: #f4ecda;
-  background-image: radial-gradient(rgba(60, 45, 20, .07) .6px, transparent .8px);
-  background-size: 4px 4px;
-}
-
+/* Index pages sit on the site's charcoal like every other page; only the
+   typefaces are vintage. The cream "sheet" is for the pieces themselves
+   (history-article.css). */
 .lb-fonts {
   --lb-body: var(--lb-f-body), "IM Fell English", Georgia, serif;
   --lb-caps: var(--lb-f-caps), var(--lb-f-body), Georgia, serif;
@@ -47,13 +41,13 @@ body:has(.ha-page), body:has(.lb-fonts) {
 .history-list h3 { font: 700 25px/1.15 var(--lb-head); letter-spacing: 0; margin: 5px 0 8px; text-wrap: balance; overflow-wrap: anywhere; }
 .history-list h3 a { text-decoration: none; }
 .history-list h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
-.history-list-excerpt { color: #4d4c46; font: 400 18px/1.5 var(--lb-body); margin: 0; max-width: 62ch; }
+.history-list-excerpt { color: var(--muted); font: 400 18px/1.5 var(--lb-body); margin: 0; max-width: 62ch; }
 
 /* ---- Hub: intro, then the four sections as Match Revisited-style entries --- */
 .lbh a { text-decoration: none; }
 .lbh .history-masthead span { display: inline-flex; align-items: center; min-height: 36px; color: var(--accent-dark); }
 .lbh-about { margin: 4px 0 8px; }
-.lbh-about p { color: #4d4c46; font: 400 18px/1.5 var(--lb-body); margin: 0 0 14px; max-width: 62ch; }
+.lbh-about p { color: var(--muted); font: 400 18px/1.5 var(--lb-body); margin: 0 0 14px; max-width: 62ch; }
 .lbh .history-list { border-top: 1px solid var(--line); margin-top: 20px; }
 .lbh-entry { display: flex; align-items: center; gap: 16px; color: var(--foreground); }
 .lbh-entry-text { flex: 1; min-width: 0; display: block; }

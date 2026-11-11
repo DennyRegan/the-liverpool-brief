@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   title: "The Liverpool Brief",
   description: "Independent Liverpool opinion and history by Denny Regan.",
 };
+
+// Matches --background in globals.css: colours the phone's browser bar and keeps native controls dark.
+export const viewport: Viewport = { themeColor: "#1e1c1a", colorScheme: "dark" };
 
 export default function RootLayout({
   children,

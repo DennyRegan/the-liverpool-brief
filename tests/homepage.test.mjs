@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { selectHomeLead, selectHomePage, LeadOverrideSchema } from '../lib/content/homepage.ts';
+import { selectHomeLead, selectHomePage, LeadOverrideSchema, activePinnedHref } from '../lib/content/homepage.ts';
 const at = iso => new Date(iso);
 const now = at('2026-10-10T12:00:00Z');
 const a = { date: '2026-10-10', href: '/articles/a', category: 'Analysis' };
@@ -36,20 +36,19 @@ test('London midnight determines publication eligibility', () => {
 const column = { date: '2026-10-10', href: '/articles/column', category: 'Opinion', tags: ['regan-on-football'] };
 const ordinary = [a, b, { ...a, href: '/articles/more', date: '2026-10-09' }, { ...b, href: '/articles/extra' }];
 const histories = Array.from({length: 5}, (_, i) => ({ date: '2026-10-10', href: `/archive/history-${i}`, category: 'History', editorialMode: 'factual' }));
-const cards = selection => [selection.lead, selection.column, ...selection.more].filter(Boolean);
+const cards = selection => [selection.lead, selection.column].filter(Boolean);
 
-test('homepage shows four unique journalism pieces including the column and no History story', () => {
+test('homepage shows the lead and the column only, with no History story and no list of more articles', () => {
   const input = [...histories, column, ...ordinary, { ...column, href: '/articles/previous-column', date: '2026-10-08' }];
   const before = structuredClone(input);
   const selected = selectHomePage(input, now);
   assert.equal(selected.lead, a);
   assert.equal(selected.column, column);
-  assert.equal(selected.more.length, 2);
-  assert.ok(selected.more.every(a => a.category !== 'History'));
+  assert.equal('more' in selected, false);
   assert.equal('history' in selected, false);
   assert.ok(cards(selected).every(a => a.category !== 'History'));
-  assert.equal(cards(selected).length, 4);
-  assert.equal(new Set(cards(selected).map(a => a.href)).size, 4);
+  assert.equal(cards(selected).length, 2);
+  assert.equal(new Set(cards(selected).map(a => a.href)).size, 2);
   assert.deepEqual(input, before);
 });
 
@@ -58,20 +57,18 @@ test('the column never takes a Liverpool slot, even when an active override name
   const selected = selectHomePage([...histories, column, ...ordinary], now, override);
   assert.equal(selected.lead, a);
   assert.equal(selected.column, column);
-  assert.ok([selected.lead, ...selected.more].every(item => !item.tags?.includes('regan-on-football')));
-  assert.equal(selected.more.length, 2);
+  assert.ok(!selected.lead.tags?.includes('regan-on-football'));
   assert.equal(cards(selected).filter(a => a.href === column.href).length, 1);
   assert.equal(selectHomePage([column, ...ordinary], at(pin.expiresAt), override).lead, a);
   assert.equal(selectHomePage([column, ...ordinary], now, pin).lead, b);
 });
 
-test('homepage caps journalism without a column and never fills shortages with History or older editions', () => {
-  assert.equal(cards(selectHomePage([...histories, ...ordinary], now)).length, 4);
+test('homepage shows a single piece without a column and never fills shortages with History or older editions', () => {
+  assert.equal(cards(selectHomePage([...histories, ...ordinary], now)).length, 1);
   // With no Liverpool writing, the lead stays empty rather than using the column.
   const sparse = selectHomePage([...histories, column], now);
   assert.equal(sparse.lead, undefined);
   assert.equal(sparse.column, column);
-  assert.deepEqual(sparse.more, []);
   assert.equal(cards(sparse).length, 1);
   assert.deepEqual(cards(selectHomePage([], now)), []);
   assert.equal(cards(selectHomePage(histories, now)).length, 0);
@@ -88,18 +85,47 @@ test('homepage excludes future dates and deduplicates canonical URLs', () => {
   assert.equal(selectHomePage([future], at('2026-10-10T23:00:00Z')).lead, undefined);
 });
 
-test('the homepage renders Football Observed after More articles', () => {
+test('the homepage has no More articles list and renders Football Observed after Latest writing', () => {
   const page = fs.readFileSync('app/page.tsx', 'utf8');
-  const order = ['NewsletterInvitation />', 'home-articles-heading', 'home-recent-heading', '<FootballObservedHome'].map(marker => page.indexOf(marker));
+  assert.equal(page.includes('home-recent-heading'), false);
+  const order = ['NewsletterInvitation />', 'home-articles-heading', '<FootballObservedHome'].map(marker => page.indexOf(marker));
   assert.ok(order.every(index => index >= 0));
   assert.deepEqual([...order].sort((x, y) => x - y), order);
 });
 
-test('Analysis pieces fill Latest writing and More articles like any other Liverpool piece', () => {
+test('Analysis pieces can take Latest writing like any other Liverpool piece', () => {
   const analysis = (href, date) => ({ date, href, category: 'Analysis' });
   const selected = selectHomePage([analysis('/articles/analysis-new', '2026-10-10'), analysis('/articles/analysis-old', '2026-10-08'), b, column], now);
   assert.equal(selected.lead.href, '/articles/analysis-new');
-  assert.ok(selected.more.some(item => item.href === '/articles/analysis-old'));
   assert.equal(selected.column, column);
 });
 
+
+test('the homepage lead is the single newest piece of any kind, writing wins a tie, and an active pin beats date order', async () => {
+  const { selectNewestLead } = await import('../lib/content/home-lead.ts');
+  const article = { date: '2026-11-02', href: '/articles/a', item: 'liverpool-opinion' };
+  const column = { date: '2026-11-06', href: '/articles/c', item: 'football-observed' };
+  const biography = { date: '2026-11-10', href: '/looking-back/biographies/b', item: 'biography' };
+  const partOne = { date: '2026-11-05', href: '/looking-back/series/s/part-1', item: 'part-one' };
+  assert.equal(selectNewestLead([article, column, biography]), 'biography');
+  assert.equal(selectNewestLead([article, column]), 'football-observed');
+  assert.equal(selectNewestLead([article, { ...biography, date: '2026-11-02' }]), 'liverpool-opinion');
+  assert.equal(selectNewestLead([]), undefined);
+  assert.equal(selectNewestLead([article, column, biography, partOne], partOne.href), 'part-one');
+  assert.equal(selectNewestLead([article, column, biography], partOne.href), 'biography');
+});
+
+test('a pin may name a series part, and is active only between its start and expiry', () => {
+  const part = { ...pin, href: '/looking-back/series/klopps-liverpool/the-inheritance' };
+  assert.ok(LeadOverrideSchema.safeParse(part).success);
+  assert.equal(LeadOverrideSchema.safeParse({ ...part, href: '/looking-back/series/klopps-liverpool' }).success, false);
+  assert.equal(activePinnedHref(part, at(part.startsAt)), part.href);
+  assert.equal(activePinnedHref(part, at(part.expiresAt)), undefined);
+  assert.equal(activePinnedHref(null, now), undefined);
+});
+
+test('the homepage skips the Football Observed and history blocks when they are already the lead', () => {
+  const page = fs.readFileSync('app/page.tsx', 'utf8');
+  assert.ok(page.includes('column?.href !== leadHref'));
+  assert.ok(page.includes('<HistoryLatest exclude={leadHref} />'));
+});
