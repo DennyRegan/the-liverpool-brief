@@ -12,12 +12,17 @@ export function getLondonToday(now = new Date()) {
 }
 
 export const LeadOverrideSchema = z.object({
-  href: z.string().regex(/^\/(articles|archive)\/[a-z0-9]+(?:-[a-z0-9]+)*$/),
+  href: z.string().regex(/^(?:\/(?:articles|archive)\/[a-z0-9]+(?:-[a-z0-9]+)*|\/looking-back\/series\/[a-z0-9]+(?:-[a-z0-9]+)*\/[a-z0-9]+(?:-[a-z0-9]+)*)$/),
   startsAt: z.iso.datetime({ offset: true }),
   expiresAt: z.iso.datetime({ offset: true }),
 }).strict().refine(o => Date.parse(o.expiresAt) > Date.parse(o.startsAt) && Date.parse(o.expiresAt) - Date.parse(o.startsAt) <= 7 * 24 * HOUR,
   'The override must expire after its start and within seven days').nullable();
 export type LeadOverride = z.infer<typeof LeadOverrideSchema>;
+
+/** The pinned href while an override is active (start inclusive, expiry exclusive), otherwise undefined. */
+export function activePinnedHref(override: LeadOverride, now: Date) {
+  return override && Date.parse(override.startsAt) <= now.getTime() && now.getTime() < Date.parse(override.expiresAt) ? override.href : undefined;
+}
 
 type Writing = { date: string; href: string; category: string; editorialMode?: string; tags?: readonly string[] };
 export function selectHomeLead<T extends Writing>(writing: T[], now: Date, override: LeadOverride = null) {

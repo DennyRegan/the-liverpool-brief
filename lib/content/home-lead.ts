@@ -5,8 +5,14 @@
 // Observed and history pieces sat below an older article and the site looked
 // stale.) On a tied date the earlier item in the list wins, so callers put the
 // writing first.
-export type LeadCandidate<T> = { date: string; item: T };
+//
+// An active editorial pin (lib/content/homepage-override.json, at most seven
+// days) beats the date order, but only when its target is live and among the
+// candidates; otherwise the newest piece leads as usual.
+export type LeadCandidate<T> = { date: string; href: string; item: T };
 
-export function selectNewestLead<T>(candidates: LeadCandidate<T>[]) {
+export function selectNewestLead<T>(candidates: LeadCandidate<T>[], pinnedHref?: string) {
+  const pinned = pinnedHref ? candidates.find(candidate => candidate.href === pinnedHref) : undefined;
+  if (pinned) return pinned.item;
   return candidates.reduce<LeadCandidate<T> | undefined>((best, next) => !best || next.date > best.date ? next : best, undefined)?.item;
 }

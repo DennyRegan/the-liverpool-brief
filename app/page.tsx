@@ -4,7 +4,7 @@ import { SiteHeader } from '@/app/components/SiteHeader';
 import { NewsletterInvitation } from '@/app/components/NewsletterInvitation';
 import { ArticleMeta } from '@/app/components/ArticleMeta';
 import { getWriting } from '@/lib/content/writing';
-import { selectHomePage } from '@/lib/content/homepage';
+import { selectHomePage, activePinnedHref } from '@/lib/content/homepage';
 import { getHomeLeadOverride } from '@/lib/content/homepage-config';
 import { getNewsletterConfig } from '@/lib/newsletter-config';
 import { getArticleExcerpt } from '@/lib/format';
@@ -12,7 +12,7 @@ import { FootballObservedHome } from '@/app/components/FootballObservedHome';
 import { MatchRevisitedHome } from '@/app/components/MatchRevisitedHome';
 import { HistoryLatest } from '@/app/components/HistoryLatest';
 import { getFootballObservedPieces } from '@/lib/content/regan-on-football';
-import { getLatestHistory } from '@/lib/content/history';
+import { getLatestHistory, getLiveSeriesPartItem } from '@/lib/content/history';
 import { selectNewestLead } from '@/lib/content/home-lead';
 import { formatListDate } from '@/lib/format';
 
@@ -25,15 +25,20 @@ export const dynamic = 'force-dynamic';
 
 export default function Home() {
   const writing = getWriting();
-  const { lead: liverpoolLead, column } = selectHomePage(writing, new Date(), getHomeLeadOverride());
+  const now = new Date();
+  const override = getHomeLeadOverride();
+  const { lead: liverpoolLead, column } = selectHomePage(writing, now, override);
   const featuredEdition = getFootballObservedPieces().find(article => `/articles/${article.slug}` === column?.href);
   // One lead: the newest piece of any kind. Writing is listed first so it wins a tie on date.
-  const history = getLatestHistory();
+  const history = getLatestHistory(now);
+  // A pinned series part is a candidate even when it is not the newest part.
+  const pinnedHref = activePinnedHref(override, now);
+  const pinnedPart = pinnedHref && !history.some(item => item.href === pinnedHref) ? getLiveSeriesPartItem(pinnedHref, now) : undefined;
   const lead = selectNewestLead<{ kind: 'article'; article: NonNullable<typeof liverpoolLead> } | { kind: 'history'; item: (typeof history)[number] }>([
-    ...(liverpoolLead ? [{ date: liverpoolLead.date, item: { kind: 'article' as const, article: liverpoolLead } }] : []),
-    ...(column ? [{ date: column.date, item: { kind: 'article' as const, article: column } }] : []),
-    ...history.map(item => ({ date: item.date, item: { kind: 'history' as const, item } })),
-  ]);
+    ...(liverpoolLead ? [{ date: liverpoolLead.date, href: liverpoolLead.href, item: { kind: 'article' as const, article: liverpoolLead } }] : []),
+    ...(column ? [{ date: column.date, href: column.href, item: { kind: 'article' as const, article: column } }] : []),
+    ...[...history, ...(pinnedPart ? [pinnedPart] : [])].map(item => ({ date: item.date, href: item.href, item: { kind: 'history' as const, item } })),
+  ], pinnedHref);
   const leadHref = lead?.kind === 'article' ? lead.article.href : lead?.item.href;
   return <>
     <SiteHeader active="home" />

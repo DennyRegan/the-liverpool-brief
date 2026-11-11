@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { selectHomeLead, selectHomePage, LeadOverrideSchema } from '../lib/content/homepage.ts';
+import { selectHomeLead, selectHomePage, LeadOverrideSchema, activePinnedHref } from '../lib/content/homepage.ts';
 const at = iso => new Date(iso);
 const now = at('2026-10-10T12:00:00Z');
 const a = { date: '2026-10-10', href: '/articles/a', category: 'Analysis' };
@@ -101,15 +101,27 @@ test('Analysis pieces can take Latest writing like any other Liverpool piece', (
 });
 
 
-test('the homepage lead is the single newest piece of any kind, and writing wins a tie', async () => {
+test('the homepage lead is the single newest piece of any kind, writing wins a tie, and an active pin beats date order', async () => {
   const { selectNewestLead } = await import('../lib/content/home-lead.ts');
-  const article = { date: '2026-11-02', item: 'liverpool-opinion' };
-  const column = { date: '2026-11-06', item: 'football-observed' };
-  const biography = { date: '2026-11-10', item: 'biography' };
+  const article = { date: '2026-11-02', href: '/articles/a', item: 'liverpool-opinion' };
+  const column = { date: '2026-11-06', href: '/articles/c', item: 'football-observed' };
+  const biography = { date: '2026-11-10', href: '/looking-back/biographies/b', item: 'biography' };
+  const partOne = { date: '2026-11-05', href: '/looking-back/series/s/part-1', item: 'part-one' };
   assert.equal(selectNewestLead([article, column, biography]), 'biography');
   assert.equal(selectNewestLead([article, column]), 'football-observed');
   assert.equal(selectNewestLead([article, { ...biography, date: '2026-11-02' }]), 'liverpool-opinion');
   assert.equal(selectNewestLead([]), undefined);
+  assert.equal(selectNewestLead([article, column, biography, partOne], partOne.href), 'part-one');
+  assert.equal(selectNewestLead([article, column, biography], partOne.href), 'biography');
+});
+
+test('a pin may name a series part, and is active only between its start and expiry', () => {
+  const part = { ...pin, href: '/looking-back/series/klopps-liverpool/the-inheritance' };
+  assert.ok(LeadOverrideSchema.safeParse(part).success);
+  assert.equal(LeadOverrideSchema.safeParse({ ...part, href: '/looking-back/series/klopps-liverpool' }).success, false);
+  assert.equal(activePinnedHref(part, at(part.startsAt)), part.href);
+  assert.equal(activePinnedHref(part, at(part.expiresAt)), undefined);
+  assert.equal(activePinnedHref(null, now), undefined);
 });
 
 test('the homepage skips the Football Observed and history blocks when they are already the lead', () => {
