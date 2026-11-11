@@ -71,7 +71,7 @@ export default async function ArticlePage({
         <h1 className="article-title">{article.title}</h1>
         {/* Every article and Football Observed edition carries the byline under its headline. */}
         <ArticleMeta {...article} author showColumn={false} />
-        {article.researchCutoff && <p className="text-sm text-gray-500 mb-8">Research checked to {formatLongDate(article.researchCutoff)}.</p>}
+        {article.researchCutoff && <p className="text-sm text-[var(--muted)] mb-8">Research checked to {formatLongDate(article.researchCutoff)}.</p>}
 
         {column && <EditionContents body={article.body} title={article.title} />}
         <div className="article-body" id={column ? EDITION_OPENING_ID : undefined} tabIndex={column ? -1 : undefined}>
@@ -87,11 +87,11 @@ export default async function ArticlePage({
         </div>
 
         {article.whatMatters && article.whatMatters.length > 0 && (
-          <div className="bg-gray-50 border-l-4 border-accent p-5 mt-8">
+          <div className="bg-[var(--panel)] border-l-4 border-accent p-5 mt-8">
             <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-3">What matters</p>
             <ul className="space-y-2">
               {article.whatMatters.map((point, idx) => (
-                <li key={idx} className="text-gray-700 leading-relaxed pl-4 relative before:content-['•'] before:absolute before:left-0 before:text-accent">
+                <li key={idx} className="text-[var(--foreground)] leading-relaxed pl-4 relative before:content-['•'] before:absolute before:left-0 before:text-accent">
                   {point}
                 </li>
               ))}
@@ -100,8 +100,8 @@ export default async function ArticlePage({
         )}
 
         {article.sources && article.sources.length > 0 && (
-          <div className="mt-10 pt-6 border-t border-gray-200 text-sm text-gray-600">
-            <h2 className="font-semibold text-gray-700 mb-3">Sources</h2>
+          <div className="mt-10 pt-6 border-t border-[var(--line)] text-sm text-[var(--muted)]">
+            <h2 className="font-semibold text-[var(--foreground)] mb-3">Sources</h2>
             <ol className="list-decimal pl-5 space-y-2">
               {article.sources.map((source, index) => {
                 const link = getSourceLink(source);

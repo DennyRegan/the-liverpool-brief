@@ -127,8 +127,8 @@
 .call-source { margin-top: 10px; font-size: 13px; color: var(--muted); }
 .call-source a { color: var(--accent-dark); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; }
 .call-status { border: 1px solid currentColor; border-radius: 3px; padding: 0 7px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; }
-.calls-list .article-meta > .call-status--open { color: #5f574b; }
-.calls-list .article-meta > .call-status--right { color: #1f6b3a; }
+.calls-list .article-meta > .call-status--open { color: var(--muted); }
+.calls-list .article-meta > .call-status--right { color: #6cc28a; }
 .calls-list .article-meta > .call-status--wrong { color: var(--accent-dark); }
 @media (max-width: 700px) { .call-claim p { font-size: 18px; } }
 .player-tags { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; border-top: 1px solid var(--line); margin-top: 40px; padding-top: 16px; }

@@ -1,5 +1,10 @@
 @import "tailwindcss";
-:root { --background: #f8f6f1; --foreground: #242522; --accent: #ad2330; --accent-dark: #801c26; --line: #d8d5cd; --muted: #686861; }
+/* Whole site: warm charcoal with warm off-white text (changed 11 November 2026 at
+   Denny's request). Every colour below is checked at WCAG AA or better on
+   --background and --panel. The Looking Back pieces are the exception: they sit
+   on a cream "sheet" that restores the original light tokens (see
+   app/components/history-article.css). */
+:root { color-scheme: dark; --background: #1e1c1a; --panel: #292623; --foreground: #ece6d8; --accent: #e8636e; --accent-dark: #f08a92; --line: #3e3a35; --muted: #a9a296; }
 @theme inline { --color-background: var(--background); --color-foreground: var(--foreground); --color-accent: var(--accent); --color-accent-dark: var(--accent-dark); --font-sans: var(--font-geist-sans); --font-mono: var(--font-geist-mono); --font-serif: var(--font-source-serif); }
 body { background: var(--background); color: var(--foreground); font-family: var(--font-geist-sans), Arial, sans-serif; }
 a, button { -webkit-tap-highlight-color: transparent; }
@@ -7,7 +12,7 @@ a { text-underline-offset: 4px; }
 a:hover { color: var(--accent); }
 button { cursor: pointer; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
-::selection { background: #ebc7c4; }
+::selection { background: #7a2a31; color: #fff; }
 .site-width { width: min(1120px, calc(100% - 64px)); margin-inline: auto; }
 .site-header { border-top: 5px solid var(--accent); }
 .masthead-meta { display: flex; justify-content: space-between; gap: 16px; padding-top: 24px; font-size: 11px; text-transform: uppercase; letter-spacing: .14em; }
@@ -55,11 +60,11 @@ button { cursor: pointer; }
 .archive-subcategories a { padding-block: 8px; }
 .featured-article { display: grid; grid-template-columns: 180px 1fr; gap: 46px; padding: 43px 0 56px; border-bottom: 1px solid var(--foreground); }
 .feature-marker { display: flex; flex-direction: column; justify-content: space-between; border-left: 3px solid var(--accent); padding-left: 20px; color: var(--accent); }
-.feature-number { font-family: var(--font-source-serif), Georgia, serif; font-size: 110px; line-height: .85; letter-spacing: -.08em; color: #ded8cc; }
+.feature-number { font-family: var(--font-source-serif), Georgia, serif; font-size: 110px; line-height: .85; letter-spacing: -.08em; color: var(--line); }
 .article-meta { display: flex; flex-wrap: wrap; gap: 14px; align-items: baseline; color: var(--muted); font-size: 11px; }
 .article-meta > span:first-child { color: var(--accent); text-transform: uppercase; letter-spacing: .1em; font-weight: 600; }
 .featured-article h2 { font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(32px, 4.4vw, 54px); line-height: 1.09; letter-spacing: -.035em; font-weight: 600; margin: 19px 0; max-width: 810px; }
-.standfirst { font-family: var(--font-source-serif), Georgia, serif; font-size: 21px; line-height: 1.6; color: #55564f; }
+.standfirst { font-family: var(--font-source-serif), Georgia, serif; font-size: 21px; line-height: 1.6; color: var(--muted); }
 .feature-bottom { display: flex; justify-content: space-between; align-items: center; gap: 18px; margin-top: 30px; font-size: 11px; color: var(--muted); }
 .read-link { color: var(--accent); font-size: 13px; font-weight: 500; }
 .read-link span { margin-left: 12px; }
@@ -87,7 +92,7 @@ button { cursor: pointer; }
 .article-body blockquote { border-left: 3px solid var(--accent); padding-left: 24px; margin: 32px 0; font-style: italic; }
 .article-body table { display: block; overflow-x: auto; border-collapse: collapse; font-family: var(--font-geist-sans), Arial, sans-serif; font-size: 14px; margin-bottom: 24px; }
 .article-body th, .article-body td { border: 1px solid var(--line); padding: 10px 14px; text-align: left; }
-.article-body th { background: #efece5; }
+.article-body th { background: var(--panel); }
 .article-body hr { border-color: var(--line); margin: 32px 0; }
 .article-chart { display: block; margin: 32px 0 16px; }
 .article-chart img { display: block; width: 100%; height: auto; }
@@ -96,7 +101,7 @@ button { cursor: pointer; }
 .read-next a { display: block; font-family: var(--font-source-serif), Georgia, serif; font-size: 23px; line-height: 1.35; padding-top: 22px; }
 .about-page > .eyebrow { color: var(--accent); margin-bottom: 20px; }
 .about-page > .standfirst { padding-bottom: 32px; border-bottom: 1px solid var(--line); margin-bottom: 32px; }
-.skip-link { position: absolute; top: -100px; left: 16px; background: var(--background); padding: 12px; z-index: 10; }
+.skip-link { position: absolute; top: -100px; left: 16px; background: var(--background); color: var(--foreground); padding: 12px; z-index: 10; }
 .skip-link:focus { top: 10px; }
 .empty-state { padding: 60px 0; }
 @media (max-width: 700px) {

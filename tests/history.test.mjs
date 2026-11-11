@@ -271,9 +271,14 @@ test('history article kickers and read times come from existing frontmatter', as
   assert.equal(helpers.readMinutes('one'), 1);
 });
 
-test('every Looking Back page, index pages included, sits on cream paper; modern pages do not', () => {
-  const paper = /body:has\(\.ha-page\), body:has\(\.lb-fonts\) \{\s*background-color: #f4ecda;/;
-  assert.match(fs.readFileSync('app/looking-back/history.css', 'utf8'), paper);
-  assert.match(fs.readFileSync('app/components/history-article.css', 'utf8'), paper);
-  for (const file of ['app/globals.css', 'app/editorial.css']) assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /#f4ecda/, file);
+test('the whole site is charcoal; only the Looking Back pieces sit on a cream sheet', () => {
+  const globals = fs.readFileSync('app/globals.css', 'utf8');
+  assert.match(globals, /:root \{ color-scheme: dark; --background: #1e1c1a;/);
+  // No page background is cream any more: not the body, not the index pages.
+  for (const file of ['app/globals.css', 'app/editorial.css', 'app/looking-back/history.css']) assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /body:has|#f4ecda/, file);
+  // The sheet is the piece itself and puts the light tokens back inside it.
+  const sheet = fs.readFileSync('app/components/history-article.css', 'utf8').match(/\n\.ha-page \{[\s\S]*?\n\}/)?.[0] ?? '';
+  assert.match(sheet, /--background: #f4ecda; --foreground: #242522;/);
+  assert.match(sheet, /background-color: #f4ecda;/);
+  assert.match(fs.readFileSync('app/layout.tsx', 'utf8'), /themeColor: "#1e1c1a"/);
 });

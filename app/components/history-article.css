@@ -4,15 +4,6 @@
    Standard TT) and the Brief's red. No blackletter, masthead, price or volume line.
    Current-day articles and Football Observed never load this file. */
 
-/* Cream newsprint on every Looking Back page (index pages and pieces), header
-   included, so history reads differently from the modern writing. The faint dot
-   is The Back Pages' paper grain. Keep in step with history.css. */
-body:has(.ha-page), body:has(.lb-fonts) {
-  background-color: #f4ecda;
-  background-image: radial-gradient(rgba(60, 45, 20, .07) .6px, transparent .8px);
-  background-size: 4px 4px;
-}
-
 /* Typeface tokens, shared with app/looking-back/history.css. */
 .ha-page, .lb-fonts {
   --lb-body: var(--lb-f-body), "IM Fell English", Georgia, serif;
@@ -21,11 +12,26 @@ body:has(.ha-page), body:has(.lb-fonts) {
 }
 
 .ha-page {
+  /* The cream sheet: a piece of old newsprint on the site's charcoal. It puts
+     the original light-theme tokens back inside the sheet, so every rule below
+     (and every shared component inside it) reads dark ink on cream. The faint
+     dot is The Back Pages' paper grain. */
+  --background: #f4ecda; --foreground: #242522; --muted: #686861; --line: #d8d5cd;
+  --accent: #ad2330; --accent-dark: #801c26; --panel: #efe6d0;
   --ha-rule: #c9bc9f;
-  width: min(640px, calc(100% - 40px));
-  margin: 0 auto 72px;
+  width: min(640px, calc(100% - 32px));
+  margin: 20px auto 72px;
+  padding: 0 28px 28px;
+  background-color: #f4ecda;
+  background-image: radial-gradient(rgba(60, 45, 20, .07) .6px, transparent .8px);
+  background-size: 4px 4px;
+  color: var(--foreground);
+  color-scheme: light;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .04), 0 10px 30px rgba(0, 0, 0, .45);
   font-family: var(--lb-body);
 }
+.ha-page ::selection { background: #ebc7c4; color: #242522; }
 
 /* True small caps (the SC face draws lower case as small capitals), shared by
    the back line, kicker, dateline and foot. */
@@ -117,8 +123,9 @@ body:has(.ha-page), body:has(.lb-fonts) {
 .ha-foot .lb-actions { text-align: center; margin: 4px 0 0; }
 .ha-foot .lb-actions a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); font-size: 14px; text-decoration: underline; text-underline-offset: 3px; }
 
-/* Phones. */
+/* Phones: a narrow dark margin round the sheet, a little less padding inside. */
 @media (max-width: 700px) {
+  .ha-page { width: calc(100% - 24px); padding: 0 20px 22px; margin-top: 14px; }
   .ha-head { padding-top: 26px; }
   .ha-standfirst { font-size: 19px; }
   .ha-body { font-size: 19px; line-height: 1.55; padding-top: 24px; }
@@ -129,7 +136,7 @@ body:has(.ha-page), body:has(.lb-fonts) {
 /* Premium edition styling (Match Revisited): a small "The Liverpool Brief" line
    at the very top, a double rule, and a much bigger Old Standard headline. Only
    pages that pass a masthead to HistoryArticle get it. */
-.ha-edition { width: min(760px, calc(100% - 40px)); }
+.ha-edition { width: min(760px, calc(100% - 32px)); }
 .ha-masthead {
   margin: 0; padding: 14px 0 8px; text-align: center;
   font: 400 13px/1 var(--lb-caps); letter-spacing: .22em; text-transform: lowercase; color: var(--accent);
