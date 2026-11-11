@@ -100,3 +100,20 @@ test('Analysis pieces can take Latest writing like any other Liverpool piece', (
   assert.equal(selected.column, column);
 });
 
+
+test('the homepage lead is the single newest piece of any kind, and writing wins a tie', async () => {
+  const { selectNewestLead } = await import('../lib/content/home-lead.ts');
+  const article = { date: '2026-11-02', item: 'liverpool-opinion' };
+  const column = { date: '2026-11-06', item: 'football-observed' };
+  const biography = { date: '2026-11-10', item: 'biography' };
+  assert.equal(selectNewestLead([article, column, biography]), 'biography');
+  assert.equal(selectNewestLead([article, column]), 'football-observed');
+  assert.equal(selectNewestLead([article, { ...biography, date: '2026-11-02' }]), 'liverpool-opinion');
+  assert.equal(selectNewestLead([]), undefined);
+});
+
+test('the homepage skips the Football Observed and history blocks when they are already the lead', () => {
+  const page = fs.readFileSync('app/page.tsx', 'utf8');
+  assert.ok(page.includes('column?.href !== leadHref'));
+  assert.ok(page.includes('<HistoryLatest exclude={leadHref} />'));
+});

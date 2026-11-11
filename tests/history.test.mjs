@@ -227,7 +227,7 @@ test('latest History: newest live biography and series part only, never a future
   assert.ok(latest.find(i => i.kind === 'Series').label.endsWith('Part 2 of 3'));
   assert.ok(!latest.some(i => i.href.includes('future') || i.href.includes('part-three')));
   assert.deepEqual(history.getLatestHistory(at('2020-01-01T00:00:00Z'), root), []);
-  assert.match(fs.readFileSync('app/page.tsx', 'utf8'), /<HistoryLatest \/>/);
+  assert.match(fs.readFileSync('app/page.tsx', 'utf8'), /<HistoryLatest exclude=\{leadHref\} \/>/);
   assert.match(fs.readFileSync('app/components/HistoryLatest.tsx', 'utf8'), /From Looking Back/);
 });
 

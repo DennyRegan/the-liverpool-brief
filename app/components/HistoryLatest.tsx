@@ -3,8 +3,8 @@ import { getLatestHistory } from "@/lib/content/history";
 import { LOOKING_BACK_PATH } from "@/lib/content/looking-back";
 
 /** Homepage block: the newest live biography and series part. Renders nothing until something is live. */
-export function HistoryLatest() {
-  const items = getLatestHistory();
+export function HistoryLatest({ exclude }: { exclude?: string }) {
+  const items = getLatestHistory().filter(item => item.href !== exclude);
   if (!items.length) return null;
   return <section className="home-history" aria-labelledby="home-history-heading">
     <div className="home-section-heading">
