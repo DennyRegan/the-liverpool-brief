@@ -6,7 +6,7 @@ export const size = lookingBackImageSize;
 export const contentType = 'image/png';
 export const alt = 'The Liverpool Brief · Match Revisited';
 export const dynamicParams = true;
-export const revalidate = 3600;
+export const revalidate = 600;
 
 export function generateStaticParams() {
   return getVisibleMatchRevisited().map(piece => ({ slug: piece.slug }));

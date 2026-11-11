@@ -10,6 +10,6 @@ A weekly long-form write-up of one classic Liverpool match, published on Mondays
 
 ## When a piece goes live
 
-The shared Looking Back rule (`lib/content/go-live.ts`): midnight Europe/London on the Monday of the piece's week. Date a piece on a Monday and it appears that Monday. Until then it is hidden on production from the library, its page (404), the sitemap and `getLatestMatchRevisited`; previews and local show it flagged "Scheduled for". Pages revalidate hourly, so no redeploy is needed (a piece can appear up to an hour after midnight).
+The shared Looking Back rule (`lib/content/go-live.ts`), but at 17:00 Europe/London rather than midnight (`MATCH_REVISITED_LIVE_HOUR`, Denny, 10 November 2026). Date a piece on a Monday and it appears at 5pm that Monday. Until then it is hidden on production from the library, its page (404), the sitemap and `getLatestMatchRevisited`; previews and local show it flagged "Scheduled for". Match Revisited pages revalidate every 10 minutes, so no redeploy is needed (a piece appears between 17:00 and about 17:10). The weekly queue is simply the dated files in `content/match-revisited/`; figure lists sit in `docs/match-revisited-notes/`.
 
 `getLatestMatchRevisited()` returns the newest live piece; it stays the newest until a later piece goes live, so a missed week leaves the last one up. The homepage does not use it yet (awaiting Denny's decision on placement).

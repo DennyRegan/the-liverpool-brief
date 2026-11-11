@@ -180,9 +180,13 @@ export function getLookingBackHub(now = new Date(), root = process.cwd()) {
 
 // ---- Match Revisited ----------------------------------------------------------
 // One long-form write-up of a classic match a week. Same go-live rule as the
-// other Looking Back types (go-live.ts); files in content/match-revisited.
+// other Looking Back types (go-live.ts), except that it appears at 17:00 on the
+// Monday rather than midnight; files in content/match-revisited.
 
 export const MATCH_REVISITED_PATH = "/looking-back/match-revisited";
+
+/** Match Revisited goes live at 17:00 Europe/London on its Monday, not midnight (Denny, 10 November 2026). */
+export const MATCH_REVISITED_LIVE_HOUR = 17;
 
 /** Every Match Revisited piece, newest publication first. Bad files fail the build. */
 export function getMatchRevisited(root = process.cwd()) {
@@ -193,11 +197,11 @@ export function getMatchRevisited(root = process.cwd()) {
 }
 
 export function getVisibleMatchRevisited(now = new Date(), env: Env = process.env, root = process.cwd()) {
-  return withGoLive(getMatchRevisited(root), now, env);
+  return withGoLive(getMatchRevisited(root), now, env, MATCH_REVISITED_LIVE_HOUR);
 }
 
 export function getLiveMatchRevisited(now = new Date(), root = process.cwd()) {
-  return onlyLive(getMatchRevisited(root), now);
+  return onlyLive(getMatchRevisited(root), now, MATCH_REVISITED_LIVE_HOUR);
 }
 
 export function getVisibleMatchRevisitedPiece(slug: string, now = new Date(), env: Env = process.env, root = process.cwd()) {

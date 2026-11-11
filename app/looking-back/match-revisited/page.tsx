@@ -8,7 +8,7 @@ import { socialMetadata } from "@/lib/social-metadata";
 import "../history.css";
 
 // Regenerated at most hourly, so a Monday piece appears without a new deploy.
-export const revalidate = 3600;
+export const revalidate = 600;
 
 export const metadata = socialMetadata("Match Revisited | Looking Back | The Liverpool Brief", "One classic Liverpool match, written up at length every Monday.", MATCH_REVISITED_PATH);
 

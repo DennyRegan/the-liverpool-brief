@@ -20,19 +20,30 @@ export function liveFrom(piece: { date: string }) {
   return date.toISOString().slice(0, 10);
 }
 
-export function isLive(piece: { date: string }, now = new Date()) {
-  return liveFrom(piece) <= getLondonToday(now);
+/** The hour of the day (0–23) it is now in Europe/London. */
+export function getLondonHour(now = new Date()) {
+  const hour = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/London", hour: "2-digit", hourCycle: "h23" }).format(now);
+  return Number(hour);
+}
+
+// `hour` is the Europe/London hour on the go-live Monday at which a piece appears.
+// It is 0 (midnight) for every type except Match Revisited, which goes live at
+// 17:00 on its Monday (Denny, 10 November 2026). Still no timer: just a comparison.
+export function isLive(piece: { date: string }, now = new Date(), hour = 0) {
+  const from = liveFrom(piece);
+  const today = getLondonToday(now);
+  return from < today || (from === today && getLondonHour(now) >= hour);
 }
 
 /** Pieces this deployment may show: live only on production, everything (flagged) elsewhere. */
-export function withGoLive<T extends { date: string }>(pieces: readonly T[], now = new Date(), env: Record<string, string | undefined> = process.env) {
-  const flagged = pieces.map(piece => ({ ...piece, liveFrom: liveFrom(piece), scheduled: !isLive(piece, now) }));
+export function withGoLive<T extends { date: string }>(pieces: readonly T[], now = new Date(), env: Record<string, string | undefined> = process.env, hour = 0) {
+  const flagged = pieces.map(piece => ({ ...piece, liveFrom: liveFrom(piece), scheduled: !isLive(piece, now, hour) }));
   return isProduction(env) ? flagged.filter(piece => !piece.scheduled) : flagged;
 }
 
 /** Live pieces only, whatever the environment (used by the sitemap). */
-export function onlyLive<T extends { date: string }>(pieces: readonly T[], now = new Date()) {
-  return pieces.filter(piece => isLive(piece, now));
+export function onlyLive<T extends { date: string }>(pieces: readonly T[], now = new Date(), hour = 0) {
+  return pieces.filter(piece => isLive(piece, now, hour));
 }
 
 /** The ISO date a number of days after (or, if negative, before) another. */

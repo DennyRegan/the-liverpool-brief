@@ -39,10 +39,12 @@ test('a past-dated piece shows and a future-dated one is hidden on production, i
   assert.deepEqual(preview.map(p => [p.slug, p.scheduled]), [['test-future', true], ['test-past', false]]);
 });
 
-test('a piece goes live at midnight London on its Monday; a missed week leaves the last piece up', () => {
+test('a piece goes live at 17:00 London on its Monday; a missed week leaves the last piece up', () => {
   const root = makeRoot([past, future]);
   assert.equal(history.getLatestMatchRevisited(new Date('2026-12-13T23:30:00Z'), root).slug, 'test-past');
-  assert.equal(history.getLatestMatchRevisited(new Date('2026-12-14T00:00:00Z'), root).slug, 'test-future');
+  assert.equal(history.getLatestMatchRevisited(new Date('2026-12-14T00:00:00Z'), root).slug, 'test-past');
+  assert.equal(history.getLatestMatchRevisited(new Date('2026-12-14T16:59:59Z'), root).slug, 'test-past');
+  assert.equal(history.getLatestMatchRevisited(new Date('2026-12-14T17:00:00Z'), root).slug, 'test-future');
   assert.equal(history.getLatestMatchRevisited(new Date('2027-03-01T00:00:00Z'), root).slug, 'test-future');
   assert.equal(history.getLatestMatchRevisited(now, makeRoot([])), undefined);
 });
