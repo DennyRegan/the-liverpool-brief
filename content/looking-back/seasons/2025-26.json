@@ -1,0 +1,283 @@
+{
+  "season": "2025-26",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "arne-slot"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 5,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "hugo-ekitike",
+      "goals": 17,
+      "sourceIds": [
+        "lfch-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Quarter-final — lost 4–0 away to Manchester City.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 3–0 at home to Crystal Palace.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League quarter-final — lost 4–0 on aggregate to Paris Saint-Germain.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-slot-departure"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "domestic",
+      "result": "Community Shield runners-up — lost 3–2 on penalties to Crystal Palace after a 2–2 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "reuters-shield"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "hugo-ekitike",
+    "virgil-van-dijk",
+    "alexis-mac-allister",
+    "dominik-szoboszlai",
+    "cody-gakpo",
+    "ibrahima-konate",
+    "ryan-gravenberch",
+    "curtis-jones",
+    "florian-wirtz",
+    "milos-kerkez",
+    "mohamed-salah",
+    "alisson-becker",
+    "jeremie-frimpong",
+    "giorgi-mamardashvili"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "jeremie-frimpong",
+        "club": "Bayer Leverkusen",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "florian-wirtz",
+        "club": "Bayer Leverkusen",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "milos-kerkez",
+        "club": "Bournemouth",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "giorgi-mamardashvili",
+        "club": "Valencia",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "hugo-ekitike",
+        "club": "Eintracht Frankfurt",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "giovanni-leoni",
+        "club": "Parma",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "alexander-isak",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "trent-alexander-arnold",
+        "club": "Real Madrid",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "caoimhin-kelleher",
+        "club": "Brentford",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "nat-phillips",
+        "club": "West Bromwich Albion",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jarell-quansah",
+        "club": "Bayer Leverkusen",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "luis-diaz",
+        "club": "Bayern Munich",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "darwin-nunez",
+        "club": "Al Hilal",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "The season followed the deaths of Diogo Jota and his brother André Silva in a road traffic accident in Spain on 3 July 2025. Liverpool retired Jota’s number 20 across the club.",
+    "On the pitch, Liverpool won their opening five league matches but finished fifth with 60 points, still qualifying for the Champions League. Florian Wirtz, Hugo Ekitiké and Alexander Isak were among the arrivals, while Trent Alexander-Arnold, Luis Díaz and Darwin Núñez departed. Ekitiké led the scoring with 17 competitive goals.",
+    "Paris Saint-Germain won both legs of the Champions League quarter-final 2–0. Manchester City ended the FA Cup run with a 4–0 quarter-final win, and Crystal Palace knocked Liverpool out of the League Cup in the fourth round after also winning the Community Shield on penalties. Mohamed Salah said farewell on the final day, and the club announced Arne Slot’s departure on 30 May."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2024-25"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2025-26 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/135",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2025-26 games",
+      "url": "https://www.lfchistory.net/season-archive/games/135",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2025-26 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/135",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2025-26 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/135",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2025-26 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/135",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-slot",
+      "label": "Liverpool FC: Arne Slot",
+      "url": "https://www.liverpoolfc.com/info/arne-slot",
+      "confidence": "high",
+      "claims": "Appointed in summer 2024; 20th league title secured against Tottenham with four matches remaining; League Cup final defeat; fifth place and Champions League qualification in 2025–26; departure in May 2026."
+    },
+    {
+      "id": "lfc-salah",
+      "label": "Liverpool FC: Mohamed Salah",
+      "url": "https://www.liverpoolfc.com/info/mohamed-salah",
+      "confidence": "high",
+      "claims": "34 goals from 52 appearances in 2024–25; farewell on the final day of 2025–26."
+    },
+    {
+      "id": "lfc-slot-departure",
+      "label": "Liverpool FC: Club statement on Arne Slot’s departure",
+      "url": "https://www.liverpoolfc.com/news/liverpool-fc-statement-13",
+      "confidence": "high",
+      "claims": "30 May 2026: Slot leaves with immediate effect; confirms Champions League qualification and quarter-final appearance in 2025–26."
+    },
+    {
+      "id": "lfc-jota",
+      "label": "Liverpool FC: Diogo Jota: 1996–2025",
+      "url": "https://www.liverpoolfc.com/news/diogo-jota-1996-2025",
+      "confidence": "high",
+      "claims": "3 July 2025: the club announces Jota and his brother André Silva died in a road traffic accident in Spain."
+    },
+    {
+      "id": "lfc-number-20",
+      "label": "Liverpool FC: Diogo Jota: Forever our number 20",
+      "url": "https://www.liverpoolfc.com/news/diogo-jota-forever-our-number-20",
+      "confidence": "high",
+      "claims": "11 July 2025: Liverpool retire number 20 across the club following consultation with Jota’s family."
+    },
+    {
+      "id": "reuters-shield",
+      "label": "Reuters: Crystal Palace win the Community Shield",
+      "url": "https://www.reuters.com/sports/soccer/palace-beat-liverpool-penalties-win-community-shield-2025-08-10/",
+      "confidence": "high",
+      "claims": "Crystal Palace won 3–2 on penalties following a 2–2 draw at Wembley."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-jota and lfc-number-20; paragraph 2 — lfch-games, lfch-league, lfc-slot, lfc-slot-departure, lfch-transfers and lfch-scorers; paragraph 3 — lfch-games, reuters-shield, lfc-salah and lfc-slot-departure.",
+    "Older cached search results displayed fourth place and incomplete statistics. The completed 38-match LFChistory table, the official Slot profile and the club’s end-of-season statement establish fifth place and Champions League qualification.",
+    "A secondary report described the European exit as the last 16. Both dated quarter-final fixtures and the club’s statement establish the quarter-final; the incorrect description is not used.",
+    "The Jota paragraph reports the deaths and the club tribute without speculating about the crash’s cause or attributing later sporting results to grief.",
+    "Salah’s farewell and Slot’s departure close this account. The next manager’s appointment and incoming 2026 summer transfers belong to 2026–27. That season is still in progress and is not presented as a completed history.",
+    "Selected senior transfers only; no fee or British-record claim. The Community Shield result is supported by the retrieved Reuters report; repeated direct opening failed, so that access limitation is retained here."
+  ],
+  "managerNote": "Arne Slot managed the season and departed on 30 May 2026."
+}

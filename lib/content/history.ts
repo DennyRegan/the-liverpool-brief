@@ -6,6 +6,7 @@ import { isRecent, onlyLive, withGoLive } from "./go-live.ts";
 import { currentWeek } from "./looking-back.ts";
 import { getArchiveFeatures } from "./archive.ts";
 import { assertKnownTags } from "./opponents.ts";
+import { getSeasonsSummary } from "./seasons.ts";
 
 // Biographies and Series are sections of Looking Back (the hub at /looking-back).
 // Content files stay in content/biographies and content/series.
@@ -181,6 +182,7 @@ export function getLookingBackHub(now = new Date(), root = process.cwd()) {
     },
     onThisDay: currentWeek(now),
     biographies: getLiveBiographies(now, root).length,
+    seasons: getSeasonsSummary(root),
     matchRevisited: getLatestMatchRevisited(now, root) ? { count: getLiveMatchRevisited(now, root).length, latest: getLatestMatchRevisited(now, root)! } : undefined,
   };
 }

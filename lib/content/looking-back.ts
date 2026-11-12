@@ -15,7 +15,7 @@ export const ON_THIS_DAY_PATH = "/looking-back/on-this-day";
 export const ON_THIS_DAY_PREVIOUS_PATH = "/looking-back/on-this-day/previous";
 export const FEATURES_PATH = "/looking-back/features";
 /** Route segments under /looking-back that a piece's slug may not use. */
-export const RESERVED_LOOKING_BACK_SEGMENTS = ["on-this-day", "keepsakes", "biographies", "series", "features", "match-revisited"];
+export const RESERVED_LOOKING_BACK_SEGMENTS = ["on-this-day", "keepsakes", "biographies", "series", "features", "match-revisited", "seasons"];
 // On This Day pieces always carry the publication byline, never a personal one.
 // The AI disclosure lives on the About page only. Drafts sit in docs/looking-back-drafts/.
 export const LOOKING_BACK_BYLINE = "The Liverpool Brief";

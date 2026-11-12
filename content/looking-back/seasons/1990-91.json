@@ -1,0 +1,218 @@
+{
+  "season": "1990-91",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "kenny-dalglish",
+    "ronnie-moran",
+    "graeme-souness"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 2,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "ian-rush",
+      "goals": 26,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorer"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Shared — drew 1–1 with Manchester United.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-shield"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fifth round — lost 1–0 to Everton in the second replay.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 3–1 away to Manchester United.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "ian-rush",
+    "john-barnes",
+    "david-burrows",
+    "steve-nicol",
+    "bruce-grobbelaar",
+    "glenn-hysen",
+    "ray-houghton",
+    "peter-beardsley",
+    "jan-molby"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "ronny-rosenthal",
+        "club": "Standard Liege",
+        "deal": "permanent",
+        "note": "Permanent signing in June 1990 after the previous season’s loan.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "don-hutchison",
+        "club": "Hartlepool United",
+        "deal": "permanent",
+        "note": "Joined in November 1990.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jimmy-carter",
+        "club": "Millwall",
+        "deal": "permanent",
+        "note": "Joined in January 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jamie-redknapp",
+        "club": "Bournemouth",
+        "deal": "permanent",
+        "note": "Joined in January 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "david-speedie",
+        "club": "Coventry City",
+        "deal": "permanent",
+        "note": "Joined in January 1991.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": []
+  },
+  "overview": [
+    "Liverpool won their opening eight league matches but finished second in the First Division, seven points behind Arsenal. Kenny Dalglish resigned on 22 February 1991, two days after a 4–4 FA Cup replay against Everton. Ronnie Moran took temporary charge before Graeme Souness returned from Rangers as manager in April.",
+    "Ian Rush led the scoring with 26 competitive goals. Ronny Rosenthal’s loan became a permanent move, while January arrivals included Jamie Redknapp from Bournemouth and David Speedie from Coventry City. Liverpool shared the Charity Shield with Manchester United after a 1–1 draw, but United later won their League Cup third-round tie 3–1.",
+    "Everton ended Liverpool’s FA Cup run by winning the second replay 1–0 at Goodison Park. Moran’s spell included a 7–1 league win at Derby County and a 5–4 victory at Leeds United. Liverpool finished the season with 76 points, scoring 77 league goals and conceding 40."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1989-90"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 1990-91 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1990-91.html",
+      "confidence": "high",
+      "claims": "Division, final position, points, goals and home/away record. Margins are arithmetic from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1990-91 games",
+      "url": "https://www.lfchistory.net/season-archive/games/32",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, venues and cup stages; aggregates calculated from the legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1990-91 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/32",
+      "confidence": "high",
+      "claims": "All-competitive scoring including the Charity Shield; friendlies and shoot-out kicks excluded."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1990-91 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/32",
+      "confidence": "high",
+      "claims": "Selected senior transfer clubs and dates; loan and permanent moves distinguished."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1990-91 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/32",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting editorial key-player selections."
+    },
+    {
+      "id": "afv-scorer",
+      "label": "11v11: Liverpool players, 1990-91",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1991/",
+      "confidence": "high",
+      "claims": "Independent corroboration of the leading competitive scorer and total."
+    },
+    {
+      "id": "lfc-dalglish",
+      "label": "Liverpool FC: Kenny Dalglish, first spell",
+      "url": "https://www.liverpoolfc.com/info/kenny-dalglish-first-spell",
+      "confidence": "high",
+      "claims": "1989–90 brought the 18th league title; resignation two days after the 20 February 1991 Everton replay. The profile’s claim of ten opening league wins in 1990–91 is not used: fixtures show eight league wins and two League Cup wins."
+    },
+    {
+      "id": "lfc-souness",
+      "label": "Liverpool FC: Graeme Souness, manager",
+      "url": "https://www.liverpoolfc.com/info/graeme-souness-0",
+      "confidence": "high",
+      "claims": "Managed from 1991 to 1994; successive sixth places, 1992 FA Cup win, heart surgery and Moran’s cover, departure after the Bristol City cup defeat. Transfer dates come from the ledgers."
+    },
+    {
+      "id": "lfc-moran",
+      "label": "Liverpool FC: Ronnie Moran",
+      "url": "https://www.liverpoolfc.com/info/ronnie-moran",
+      "confidence": "high",
+      "claims": "Caretaker after Dalglish’s 1991 resignation and during Souness’s recovery from heart surgery in 1992."
+    },
+    {
+      "id": "lfch-manager-dates",
+      "label": "LFChistory: managerial appointments",
+      "url": "https://www.lfchistory.net/managers",
+      "confidence": "high",
+      "claims": "Moran appointed 22 February 1991, Souness 16 April 1991 and Evans 31 January 1994."
+    },
+    {
+      "id": "lfc-shield",
+      "label": "Liverpool FC: Charity and Community Shield",
+      "url": "https://www.liverpoolfc.com/info/charity-community-shield",
+      "confidence": "high",
+      "claims": "Liverpool beat Arsenal in 1989 and shared the 1990 trophy with Manchester United."
+    },
+    {
+      "id": "lfc-rosenthal",
+      "label": "Liverpool FC: Ronny Rosenthal",
+      "url": "https://www.liverpoolfc.com/info/ronny-rosenthal",
+      "confidence": "high",
+      "claims": "Initially loaned from Standard Liege in spring 1990, followed by a permanent summer move; seven goals in the title run-in. Also corroborates eight opening league wins in 1990–91. The header’s playing years are not used as a departure date."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-games, rsssf-league, lfc-dalglish, lfc-moran, lfc-souness and lfch-manager-dates; paragraph 2 — lfch-scorers, afv-scorer, lfch-transfers, lfc-shield and lfch-games; paragraph 3 — lfch-games, lfch-manager-dates and rsssf-league.",
+    "The official Dalglish profile says ten straight opening league wins. The fixture list gives eight, plus two League Cup victories; the official Rosenthal profile independently confirms eight. The erroneous ten-league-win claim is excluded.",
+    "Arsenal’s 83 points already include their two-point deduction. The final gap is seven. Moran’s caretaker spell is included explicitly. Redknapp is a signing, not a key player before his first-team debut."
+  ],
+  "managerNote": "Dalglish resigned in February 1991. Moran served as caretaker before Souness was appointed on 16 April."
+}

@@ -1,0 +1,270 @@
+{
+  "season": "2020-21",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "jurgen-klopp"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 3,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "mohamed-salah",
+      "goals": 31,
+      "sourceIds": [
+        "lfch-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 3–2 away to Manchester United.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 5–4 on penalties to Arsenal after a 0–0 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-league-cup"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League quarter-final — lost 3–1 on aggregate to Real Madrid.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "domestic",
+      "result": "Community Shield runners-up — lost 5–4 on penalties to Arsenal after a 1–1 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-shield"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "mohamed-salah",
+    "georginio-wijnaldum",
+    "andy-robertson",
+    "sadio-mane",
+    "roberto-firmino",
+    "trent-alexander-arnold",
+    "fabinho",
+    "alisson-becker",
+    "diogo-jota",
+    "thiago-alcantara",
+    "jordan-henderson",
+    "nat-phillips",
+    "rhys-williams"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "kostas-tsimikas",
+        "club": "Olympiacos",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "thiago-alcantara",
+        "club": "Bayern Munich",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-thiago"
+        ]
+      },
+      {
+        "personId": "diogo-jota",
+        "club": "Wolverhampton Wanderers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ben-davies",
+        "club": "Preston North End",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ozan-kabak",
+        "club": "Schalke 04",
+        "deal": "loan",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "adam-lallana",
+        "club": "Brighton & Hove Albion",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-lallana"
+        ]
+      },
+      {
+        "personId": "dejan-lovren",
+        "club": "Zenit St Petersburg",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-lovren"
+        ]
+      },
+      {
+        "personId": "ki-jana-hoever",
+        "club": "Wolverhampton Wanderers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "rhian-brewster",
+        "club": "Sheffield United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished third with 69 points in a season affected by long-term injuries and played largely without supporters. Six successive home league defeats were followed by an unbeaten final ten matches, yielding 26 points and Champions League qualification. That recovery included Alisson Becker’s added-time winner in a 2–1 victory at West Bromwich Albion.",
+    "Thiago Alcântara and Diogo Jota arrived in September, and Mohamed Salah led the scoring with 31 competitive goals. Real Madrid ended the Champions League run in the quarter-finals. Manchester United won the FA Cup fourth-round tie, while Arsenal eliminated Liverpool on penalties in the League Cup and also won the Community Shield shoot-out.",
+    "Liverpool withdrew from the proposed Super League in April; owner John W Henry apologised for the club’s involvement."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2019-20"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2020-21 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/130",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2020-21 games",
+      "url": "https://www.lfchistory.net/season-archive/games/130",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2020-21 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/130",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2020-21 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/130",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2020-21 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/130",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-klopp",
+      "label": "Liverpool FC: Jürgen Klopp",
+      "url": "https://www.liverpoolfc.com/info/jurgen-klopp",
+      "confidence": "high",
+      "claims": "Title after the pandemic interruption in 2020; third place in 2021; two cups in 2022; January 2024 announcement of departure and final-season League Cup win."
+    },
+    {
+      "id": "lfc-wijnaldum",
+      "label": "Liverpool FC: Georginio Wijnaldum",
+      "url": "https://www.liverpoolfc.com/info/georginio-wijnaldum",
+      "confidence": "high",
+      "claims": "2020–21 affected by long-term injuries and mostly played without supporters; 26 points from the last ten league games brought third place."
+    },
+    {
+      "id": "lfc-thiago",
+      "label": "Liverpool FC: Thiago Alcântara",
+      "url": "https://www.liverpoolfc.com/info/thiago-alcantara",
+      "confidence": "high",
+      "claims": "Joined from Bayern in September 2020; unbeaten final ten league games in 2021; 6–5 shoot-out victory in the 2022 FA Cup final."
+    },
+    {
+      "id": "lfc-lallana",
+      "label": "Liverpool FC: Adam Lallana",
+      "url": "https://www.liverpoolfc.com/info/adam-lallana",
+      "confidence": "high",
+      "claims": "Moved to Brighton after his contract expired at the end of the delayed 2019–20 campaign."
+    },
+    {
+      "id": "lfc-lovren",
+      "label": "Liverpool FC: Dejan Lovren",
+      "url": "https://www.liverpoolfc.com/info/dejan-lovren",
+      "confidence": "high",
+      "claims": "Departure for Zenit in summer 2020."
+    },
+    {
+      "id": "lfch-west-brom",
+      "label": "LFChistory: West Bromwich Albion 1–2 Liverpool",
+      "url": "https://www.lfchistory.net/games/5802",
+      "confidence": "high",
+      "claims": "Alisson scored the winning goal in added time on 16 May 2021."
+    },
+    {
+      "id": "lfch-shield",
+      "label": "LFChistory: 2020 Community Shield",
+      "url": "https://www.lfchistory.net/games/5766",
+      "confidence": "high",
+      "claims": "Arsenal won the shoot-out 5–4 following a 1–1 draw."
+    },
+    {
+      "id": "lfch-league-cup",
+      "label": "LFChistory: Liverpool v Arsenal, League Cup",
+      "url": "https://www.lfchistory.net/games/5806",
+      "confidence": "high",
+      "claims": "Arsenal won 5–4 on penalties after a goalless draw."
+    },
+    {
+      "id": "guardian-super-league",
+      "label": "The Guardian: John W Henry’s apology",
+      "url": "https://www.theguardian.com/football/2021/apr/21/john-w-henry-apologises-to-liverpool-fans-for-super-league-attempt",
+      "confidence": "high",
+      "claims": "April 2021 Super League withdrawal and apology."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-wijnaldum, lfc-thiago, lfch-league, lfch-games and lfch-west-brom; paragraph 2 — lfch-transfers, lfc-thiago, lfch-scorers, lfch-games, lfch-league-cup and lfch-shield; paragraph 3 — guardian-super-league.",
+    "The six defeats were consecutive home league fixtures, not six consecutive matches in all competitions. The final ten league results were eight wins and two draws.",
+    "The Super League account is limited to withdrawal and apology; no financial terms, motives or legal conclusions are asserted. Loan arrivals are distinguished from permanent signings."
+  ]
+}

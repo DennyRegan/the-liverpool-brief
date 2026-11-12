@@ -1,0 +1,236 @@
+{
+  "season": "2008-09",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "rafael-benitez"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 2,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "steven-gerrard",
+      "goals": 24,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-gerrard"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 1–0 away to Everton in a replay.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 4–2 away to Tottenham Hotspur.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League quarter-final — lost 7–5 on aggregate to Chelsea.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "steven-gerrard",
+    "fernando-torres",
+    "dirk-kuyt",
+    "jamie-carragher",
+    "pepe-reina",
+    "xabi-alonso",
+    "alvaro-arbeloa",
+    "yossi-benayoun",
+    "albert-riera",
+    "lucas-leiva",
+    "javier-mascherano",
+    "fabio-aurelio",
+    "martin-skrtel"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "andrea-dossena",
+        "club": "Udinese",
+        "deal": "permanent",
+        "note": "Joined in July 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "diego-cavalieri",
+        "club": "Palmeiras",
+        "deal": "permanent",
+        "note": "Joined in July 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "david-ngog",
+        "club": "Paris Saint-Germain",
+        "deal": "permanent",
+        "note": "Joined in July 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "robbie-keane",
+        "club": "Tottenham Hotspur",
+        "deal": "permanent",
+        "note": "Joined in July 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "albert-riera",
+        "club": "Espanyol",
+        "deal": "permanent",
+        "note": "Joined in August 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "john-arne-riise",
+        "club": "Roma",
+        "deal": "permanent",
+        "note": "Left in July 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "anthony-le-tallec",
+        "club": "Le Mans",
+        "deal": "permanent",
+        "note": "Left in July 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "peter-crouch",
+        "club": "Portsmouth",
+        "deal": "permanent",
+        "note": "Left in July 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "scott-carson",
+        "club": "West Bromwich Albion",
+        "deal": "permanent",
+        "note": "Left in July 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steve-finnan",
+        "club": "Espanyol",
+        "deal": "permanent",
+        "note": "Left in August 2008.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "robbie-keane",
+        "club": "Tottenham Hotspur",
+        "deal": "permanent",
+        "note": "Returned in February 2009.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished second in the Premier League with 86 points, four behind Manchester United. They lost only twice and scored 77 league goals, the division’s highest total, but drew 11 matches. Rafael Benítez’s side beat both United and Chelsea home and away, including a 4–1 victory at Old Trafford in March.",
+    "Steven Gerrard led the scoring with 24 competitive goals and won the football writers’ Player of the Year award. Liverpool beat Real Madrid 5–0 on aggregate in the Champions League round of 16, but Chelsea ended their European run in the quarter-final: a 4–4 draw at Stamford Bridge followed a 3–1 home defeat.",
+    "Robbie Keane joined from Tottenham in July and returned there in February; Albert Riera also arrived, while Peter Crouch and John Arne Riise left. Everton knocked Liverpool out of the FA Cup in a fourth-round replay, and Tottenham ended their League Cup run. Liverpool won 10 of their final 11 league games but finished without a trophy."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2007-08"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 2008-09 final league table",
+      "url": "https://www.rsssf.org/tablese/eng09.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points, goals and records. Comparisons and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2008-09 games",
+      "url": "https://www.lfchistory.net/season-archive/games/118",
+      "confidence": "high",
+      "claims": "Full competitive fixtures, dates, results and cup stages. Two-leg aggregates and league runs calculated from the fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2008-09 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/118",
+      "confidence": "high",
+      "claims": "All-competitive scoring, including qualifying rounds and other competitive trophies, excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2008-09 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/118",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types; summer moves assigned to incoming campaigns. Date anomalies are documented rather than copied."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 2008-09 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/118",
+      "confidence": "high",
+      "claims": "Competitive appearance totals supporting key-player selections."
+    },
+    {
+      "id": "lfc-benitez",
+      "label": "Liverpool FC: Rafael Benítez",
+      "url": "https://www.liverpoolfc.com/info/rafael-benitez",
+      "confidence": "high",
+      "claims": "Arrival from Valencia in 2004; fifth European Cup, 2006 FA Cup and Super Cup, Athens final, 2008 semi-final and 2009 title challenge. Conditional claims about injuries changing the title outcome are not used."
+    },
+    {
+      "id": "lfc-gerrard",
+      "label": "Liverpool FC: Steven Gerrard",
+      "url": "https://www.liverpoolfc.com/info/steven-gerrard",
+      "confidence": "high",
+      "claims": "Olympiacos goal and Istanbul comeback; 23 competitive goals and PFA award in 2005–06, two goals in that FA Cup final; 24 goals and football writers’ award in 2008–09."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfch-games and lfc-benitez; paragraph 2 — lfch-scorers, lfc-gerrard and lfch-games; paragraph 3 — lfch-transfers, lfch-games and lfc-benitez.",
+    "The 86-point total and two defeats do not imply a title win. League doubles and the final 11-match record are verified against fixtures. No unsupported claim that a particular draw, injury or press conference caused the title outcome is included.",
+    "Keane’s arrival and return are distinct permanent transfers in the same campaign. Hyypiä’s June 2009 departure and Pennant’s summer departure belong to 2009–10. The unavailable engpaul table URL is replaced with the retrieved RSSSF England 2008/09 record."
+  ]
+}

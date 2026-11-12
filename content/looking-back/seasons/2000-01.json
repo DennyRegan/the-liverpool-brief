@@ -1,0 +1,295 @@
+{
+  "season": "2000-01",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "gerard-houllier"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 3,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "michael-owen",
+      "goals": 24,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-owen"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Arsenal 2–1 in Cardiff.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-fa-cup"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Birmingham City 5–4 on penalties after a 1–1 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-league-cup"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Winners — beat Alavés 5–4 after extra time, with a golden goal.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-uefa-cup"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "fa-cup",
+    "league-cup",
+    "uefa-cup"
+  ],
+  "keyPlayerIds": [
+    "michael-owen",
+    "emile-heskey",
+    "robbie-fowler",
+    "gary-mcallister",
+    "steven-gerrard",
+    "sander-westerveld",
+    "markus-babbel",
+    "jamie-carragher",
+    "sami-hyypia",
+    "dietmar-hamann",
+    "stephane-henchoz",
+    "danny-murphy"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "gary-mcallister",
+        "club": "Coventry City",
+        "deal": "free",
+        "note": "Joined in July 2000.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfch-mcallister"
+        ]
+      },
+      {
+        "personId": "markus-babbel",
+        "club": "Bayern Munich",
+        "deal": "free",
+        "note": "Joined in July 2000.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-babbel"
+        ]
+      },
+      {
+        "personId": "nick-barmby",
+        "club": "Everton",
+        "deal": "permanent",
+        "note": "Joined in July 2000.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "christian-ziege",
+        "club": "Middlesbrough",
+        "deal": "permanent",
+        "note": "Joined in August 2000.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "igor-biscan",
+        "club": "Dinamo Zagreb",
+        "deal": "permanent",
+        "note": "Joined in December 2000.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jari-litmanen",
+        "club": "Barcelona",
+        "deal": "free",
+        "note": "Joined in January 2001.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "stig-inge-bjornebye",
+        "club": "Blackburn Rovers",
+        "deal": "permanent",
+        "note": "Left in June 2000.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "dominic-matteo",
+        "club": "Leeds United",
+        "deal": "permanent",
+        "note": "Left in August 2000.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "brad-friedel",
+        "club": "Blackburn Rovers",
+        "deal": "free",
+        "note": "Left in November 2000.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "rigobert-song",
+        "club": "West Ham United",
+        "deal": "permanent",
+        "note": "Left in November 2000.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steve-staunton",
+        "club": "Aston Villa",
+        "deal": "free",
+        "note": "Left in December 2000.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "titi-camara",
+        "club": "West Ham United",
+        "deal": "permanent",
+        "note": "Left in December 2000.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the League Cup, FA Cup and UEFA Cup under Gérard Houllier, and finished third in the Premier League to qualify for the Champions League. The first trophy came in February: after a 1–1 draw with Birmingham City in Cardiff, Liverpool won the League Cup final shoot-out 5–4.",
+    "Michael Owen scored twice late in the FA Cup final to overturn Arsenal’s lead and secure a 2–1 victory on 12 May. Four days later in Dortmund, Liverpool beat Alavés 5–4 after extra time in the UEFA Cup final, settled by Delfí Geli’s golden own goal. A 4–0 win at Charlton on the final league day secured third place with 69 points.",
+    "Owen led the scoring with 24 competitive goals, followed by Emile Heskey with 22. Summer arrivals included Gary McAllister, Markus Babbel and Nick Barmby. McAllister scored the late free-kick winner at Everton and the penalty that decided the UEFA Cup semi-final against Barcelona."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1999-00"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 2000-01 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/2000-01.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points and goals; gaps and combined home/away totals calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2000-01 games",
+      "url": "https://www.lfchistory.net/season-archive/games/42",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, results and cup stages; two-leg aggregates and league runs calculated from the full fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2000-01 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/42",
+      "confidence": "high",
+      "claims": "All-competitive scorer totals, including qualifying matches, Shield and Super Cup where played; excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2000-01 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/42",
+      "confidence": "high",
+      "claims": "Selected senior moves and dates. Summer preparation allocated to the incoming season, with loans distinguished."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 2000-01 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/42",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting key-player selections."
+    },
+    {
+      "id": "lfc-houllier",
+      "label": "Liverpool FC: Gérard Houllier",
+      "url": "https://www.liverpoolfc.com/info/gerard-houllier",
+      "confidence": "high",
+      "claims": "Sole manager from November 1998; 2001 treble and Champions League qualification, October 2001 illness and Thompson’s temporary charge; league finishes and departure after 2003–04. Its 1999–2000 claim of six final winless games is not used: dated fixtures show five."
+    },
+    {
+      "id": "lfc-owen",
+      "label": "Liverpool FC: Michael Owen",
+      "url": "https://www.liverpoolfc.com/info/michael-owen",
+      "confidence": "high",
+      "claims": "Competitive totals of 12 in 1999–2000, 24 in 2000–01 and 28 in each of 2001–02 and 2002–03; two 2001 FA Cup final goals; European Footballer of the Year in calendar 2001."
+    },
+    {
+      "id": "lfc-league-cup",
+      "label": "Liverpool FC: League Cup",
+      "url": "https://www.liverpoolfc.com/info/league-cup",
+      "confidence": "high",
+      "claims": "2001 final finished 1–1 after extra time, Liverpool winning the shoot-out 5–4; Gerrard and Owen scored in the 2–0 2003 final win over Manchester United."
+    },
+    {
+      "id": "lfc-mcallister",
+      "label": "Liverpool FC: Gary McAllister",
+      "url": "https://www.liverpoolfc.com/info/gary-mcallister",
+      "confidence": "high",
+      "claims": "Summer 2000 arrival; late derby free-kick winner, Barcelona semi-final penalty and delivery for the golden goal against Alavés."
+    },
+    {
+      "id": "lfch-mcallister",
+      "label": "LFChistory: Gary McAllister",
+      "url": "https://www.lfchistory.net/players/367",
+      "confidence": "high",
+      "claims": "Joined from Coventry City on a free transfer in July 2000; returned there in May 2002."
+    },
+    {
+      "id": "lfc-babbel",
+      "label": "Liverpool FC: Markus Babbel",
+      "url": "https://www.liverpoolfc.com/info/markus-babbel",
+      "confidence": "high",
+      "claims": "Free transfer from Bayern Munich in summer 2000; August 2003 loan to Blackburn and subsequent July 2004 Stuttgart move. The profile’s compressed headline playing years are not used as transfer dates."
+    },
+    {
+      "id": "lfc-fa-cup",
+      "label": "Liverpool FC: FA Cup",
+      "url": "https://www.liverpoolfc.com/info/fa-cup",
+      "confidence": "high",
+      "claims": "Owen scored twice as Liverpool recovered from 1–0 down to beat Arsenal in Cardiff on 12 May 2001."
+    },
+    {
+      "id": "lfc-uefa-cup",
+      "label": "Liverpool FC: UEFA Cup",
+      "url": "https://www.liverpoolfc.com/info/uefa-cup",
+      "confidence": "high",
+      "claims": "The 2001 final against Alavés ended 5–4 after extra time through Delfí Geli’s golden own goal."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-houllier, rsssf-league, lfch-games and lfc-league-cup; paragraph 2 — lfc-fa-cup, lfc-owen, lfc-uefa-cup, lfch-games and rsssf-league; paragraph 3 — lfch-scorers, lfc-owen, lfch-transfers, lfch-mcallister, lfc-babbel and lfc-mcallister.",
+    "The treble belongs to 2000–01. The August 2001 Charity Shield and UEFA Super Cup belong to 2001–02: five trophies in calendar 2001 does not mean five in this season. Shoot-out kicks are excluded from scoring totals.",
+    "The final was won by a golden own goal, not by a fifth named Liverpool scorer. No unverified fee, transfer motive or claim of a league title challenge is included."
+  ]
+}

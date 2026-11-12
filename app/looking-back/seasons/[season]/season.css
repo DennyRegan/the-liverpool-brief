@@ -1,0 +1,17 @@
+/* Season pages: plain sections in the Looking Back look (history.css supplies fonts and header). */
+.season-heading { font: 700 23px/1.2 var(--lb-head); color: var(--accent-dark); border-bottom: 1px solid var(--foreground); padding-bottom: 8px; margin: 32px 0 14px; }
+.season-subheading { font-family: var(--lb-caps); font-weight: 400; letter-spacing: .08em; text-transform: lowercase; color: var(--accent); font-size: 15px; margin: 16px 0 4px; }
+.season-text { font: 400 18px/1.55 var(--lb-body); margin: 0 0 14px; max-width: 62ch; }
+.season-note { color: var(--muted); font: 400 16px/1.5 var(--lb-body); margin: 0 0 8px; }
+.season-facts { margin: 0; }
+.season-facts div { border-bottom: 1px solid var(--line); padding: 10px 0; }
+.season-facts dt { font-family: var(--lb-caps); font-weight: 400; letter-spacing: .08em; text-transform: lowercase; color: var(--accent); font-size: 14.5px; }
+.season-facts dd { margin: 2px 0 0; font: 400 18px/1.45 var(--lb-body); overflow-wrap: anywhere; }
+.season-list { list-style: none; margin: 0; padding: 0; }
+.season-list li { border-bottom: 1px solid var(--line); padding: 10px 0; font: 400 18px/1.5 var(--lb-body); max-width: 62ch; overflow-wrap: anywhere; }
+.season-list a { color: var(--accent-dark); text-underline-offset: 3px; }
+.season-date { color: var(--muted); }
+.season-detail { display: block; margin-top: 2px; }
+.season-nav { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 36px 0 8px; border-top: 1px solid var(--foreground); padding-top: 8px; }
+.season-nav a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent-dark); font: 400 16px/1.2 var(--lb-caps); letter-spacing: .08em; text-decoration: none; }
+.season-nav a:hover { color: var(--accent); }

@@ -1,0 +1,196 @@
+{
+  "season": "1987-88",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "kenny-dalglish"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "john-aldridge",
+      "goals": 29,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-aldridge"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Runners-up — lost 1–0 to Wimbledon at Wembley.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 1–0 at home to Everton.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division"
+  ],
+  "keyPlayerIds": [
+    "john-aldridge",
+    "john-barnes",
+    "peter-beardsley",
+    "steve-nicol",
+    "alan-hansen",
+    "steve-mcmahon",
+    "bruce-grobbelaar",
+    "gary-gillespie",
+    "ray-houghton",
+    "ronnie-whelan"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "john-barnes",
+        "club": "Watford",
+        "deal": "permanent",
+        "note": "Joined in June 1987.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "peter-beardsley",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "note": "Joined in July 1987.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ray-houghton",
+        "club": "Oxford United",
+        "deal": "permanent",
+        "note": "Joined in October 1987.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "ian-rush",
+        "club": "Juventus",
+        "deal": "permanent",
+        "note": "Left in July 1987.",
+        "sourceIds": [
+          "lfch-prior-transfers"
+        ]
+      },
+      {
+        "personId": "john-wark",
+        "club": "Ipswich Town",
+        "deal": "permanent",
+        "note": "Left in January 1988.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "paul-walsh",
+        "club": "Tottenham Hotspur",
+        "deal": "permanent",
+        "note": "Left in February 1988.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the First Division under Kenny Dalglish, finishing nine points ahead of Manchester United. They were unbeaten in their first 29 league matches before losing 1–0 at Everton in March, and suffered only two league defeats all season. A 5–0 win over Nottingham Forest at Anfield in April was among their results on the way to the title.",
+    "John Barnes arrived from Watford and Peter Beardsley from Newcastle United, while Ian Rush left for Juventus. Ray Houghton joined from Oxford United during the autumn. John Aldridge led the scoring with 29 competitive goals, 26 of them in the league, in his first full Liverpool season.",
+    "The FA Cup final prevented another league and cup double: Wimbledon won 1–0 at Wembley, with Aldridge having a penalty saved. Everton had already knocked Liverpool out of the League Cup in the third round. John Wark returned to Ipswich Town and Paul Walsh moved to Tottenham during the season."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1986-87"
+  ],
+  "sources": [
+    {
+      "id": "lfc-manager",
+      "label": "Liverpool FC: Kenny Dalglish, first spell",
+      "url": "https://www.liverpoolfc.com/info/kenny-dalglish-first-spell",
+      "confidence": "high",
+      "claims": "Appointed player-manager in summer 1985; first league and FA Cup double, Chelsea winner, 1988 championship and Forest 5–0, 1989 cup final and Arsenal title decider. The description of 1986–87 as empty-handed is not used because it excludes the Super Cup and shared Shield."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1987-88",
+      "url": "https://www.rsssf.org/engpaul/FLA/1987-88.html",
+      "confidence": "high",
+      "claims": "Final division, position, points, goals and league record; title margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1987-88 games",
+      "url": "https://www.lfchistory.net/season-archive/games/29",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, scores, venues and cup stages; aggregate scores calculated from legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1987-88 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/29",
+      "confidence": "high",
+      "claims": "All-competitive scoring, including the Shield, Super Cup and Centenary Trophy where played; excludes friendlies and shoot-outs."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1987-88 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/29",
+      "confidence": "high",
+      "claims": "Dated selected senior arrivals and departures; summer allocation explained in notes."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1987-88 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/29",
+      "confidence": "high",
+      "claims": "Competitive involvement supporting key-player selections."
+    },
+    {
+      "id": "lfc-aldridge",
+      "label": "Liverpool FC: John Aldridge in the 30-goal club",
+      "url": "https://www.liverpoolfc.com/news/announcements/290701-lfc-s-30-goal-club-john-aldridge",
+      "confidence": "high",
+      "claims": "29 goals in 1987–88 and 31 in 1988–89, including six in the FA Cup in the latter season."
+    },
+    {
+      "id": "lfc-aldridge-profile",
+      "label": "Liverpool FC: John Aldridge",
+      "url": "https://www.liverpoolfc.com/info/john-aldridge",
+      "confidence": "high",
+      "claims": "26 league goals in 1987–88; Liverpool unbeaten for their first 29 league matches; saved penalty in the FA Cup final."
+    },
+    {
+      "id": "lfch-prior-transfers",
+      "label": "LFChistory: 1986–87 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/28",
+      "confidence": "high",
+      "claims": "Rush departed for Juventus on 1 July 1987, allocated to this incoming campaign."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-manager, lfch-games and lfc-aldridge-profile; paragraph 2 — lfch-transfers, lfch-prior-transfers, lfch-scorers, lfc-aldridge and lfc-aldridge-profile; paragraph 3 — lfch-games, lfc-aldridge-profile and lfch-transfers.",
+    "The short-format Football League centenary tournament is outside the competitive fixture/scoring record used here. It is distinct from the full-match Centenary Trophy played in 1988–89.",
+    "Rush’s departure is assigned by the July 1987 move date. Contract-agreement and loan-back descriptions have been omitted rather than conflated with the playing-season boundary."
+  ]
+}

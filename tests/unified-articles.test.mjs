@@ -40,9 +40,11 @@ test('Team News no longer exists: the schema rejects it and nothing in the site 
 });
 
 test('legacy Archive collection routes return readers to Articles', () => {
-  for (const route of ['', '/matches', '/people', '/seasons']) {
+  for (const route of ['', '/matches', '/people']) {
     assert.match(read(`app/archive${route}/page.tsx`), /redirect\("\/articles"\)/);
   }
+  // Seasons moved to Looking Back on 12 November 2026.
+  assert.match(read('app/archive/seasons/page.tsx'), /permanentRedirect\("\/looking-back\/seasons"\)/);
 });
 
 test('retained Archive pieces join Articles once at their original URLs', () => {

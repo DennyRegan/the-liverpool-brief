@@ -1,0 +1,267 @@
+{
+  "season": "1972-73",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league",
+      "lfch-games"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "kevin-keegan",
+      "goals": 22,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-keegan"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–0 away to Manchester City in a replay, after a 0–0 draw at Anfield.",
+      "sourceIds": [
+        "fchd-fa-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Quarter-final — lost 3–1 away to Tottenham Hotspur in a replay, after a 1–1 draw at Anfield.",
+      "sourceIds": [
+        "rsssf-league-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Winners — beat Borussia Mönchengladbach 3–2 on aggregate, winning 3–0 at Anfield before losing 2–0 away.",
+      "sourceIds": [
+        "uefa-final",
+        "rsssf-europe",
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division",
+    "uefa-cup"
+  ],
+  "keyPlayerIds": [
+    "ian-callaghan",
+    "chris-lawler",
+    "larry-lloyd",
+    "emlyn-hughes",
+    "kevin-keegan",
+    "ray-clemence",
+    "steve-heighway",
+    "alec-lindsay",
+    "peter-cormack",
+    "tommy-smith",
+    "john-toshack",
+    "brian-hall",
+    "phil-boersma"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "peter-cormack",
+        "club": "Nottingham Forest",
+        "deal": "permanent",
+        "note": "Joined in July 1972.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-cormack"
+        ]
+      },
+      {
+        "personId": "trevor-storton",
+        "club": "Tranmere Rovers",
+        "deal": "permanent",
+        "note": "Joined in July 1972 and made ten competitive appearances during the season.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfch-appearances"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "alun-evans",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "note": "Left in June 1972.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the First Division and the UEFA Cup, securing their first league title since 1966 and their first European trophy. A goalless draw with Leicester City at Anfield on 28 April clinched the championship; they finished with 60 points, three ahead of Arsenal.",
+    "Kevin Keegan was the leading scorer with 22 goals in all competitions. He and John Toshack each scored 13 in the league, while summer signing Peter Cormack contributed ten goals across the campaign after joining from Nottingham Forest.",
+    "Liverpool reached the UEFA Cup final by beating Tottenham Hotspur on away goals. Against Borussia Mönchengladbach, two goals from Keegan and one from Larry Lloyd gave them a 3–0 first-leg win at Anfield on 10 May. A 2–0 defeat in the return on 23 May left Liverpool 3–2 winners on aggregate and completed the league and European double."
+  ],
+  "events": [
+    {
+      "id": "title-clinched-1973",
+      "title": "The league title returns",
+      "date": "1973-04-28",
+      "detail": "A 0–0 draw with Leicester City at Anfield secured the First Division championship.",
+      "personIds": [],
+      "competitionIds": [
+        "first-division"
+      ],
+      "sourceIds": [
+        "lfc-double",
+        "lfch-games",
+        "rsssf-league"
+      ]
+    },
+    {
+      "id": "uefa-final-anfield-1973",
+      "title": "A three-goal lead in the final",
+      "date": "1973-05-10",
+      "detail": "Keegan scored twice and Lloyd once as Liverpool beat Borussia Mönchengladbach 3–0 in the completed first leg at Anfield.",
+      "personIds": [
+        "kevin-keegan",
+        "larry-lloyd"
+      ],
+      "competitionIds": [
+        "uefa-cup"
+      ],
+      "sourceIds": [
+        "uefa-final",
+        "rsssf-europe",
+        "lfch-games"
+      ]
+    },
+    {
+      "id": "first-european-trophy-1973",
+      "title": "Liverpool win the UEFA Cup",
+      "date": "1973-05-23",
+      "detail": "Despite losing the return leg 2–0, Liverpool won the final 3–2 on aggregate to claim their first European trophy.",
+      "personIds": [],
+      "competitionIds": [
+        "uefa-cup"
+      ],
+      "sourceIds": [
+        "uefa-final",
+        "rsssf-europe",
+        "lfc-double"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1971-72",
+    "1973-74"
+  ],
+  "sources": [
+    {
+      "id": "lfc-shankly",
+      "label": "Liverpool FC: Bill Shankly",
+      "url": "https://www.liverpoolfc.com/info/bill-shankly",
+      "confidence": "high",
+      "claims": "Shankly was Liverpool manager throughout this campaign."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1972–73 results",
+      "url": "https://www.lfchistory.net/season-archive/games/14",
+      "confidence": "high",
+      "claims": "Dates, venues, scores and competition stages for the season’s competitive fixtures; confirms league and cup outcomes and dated match events."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1972–73",
+      "url": "https://www.rsssf.org/engpaul/FLA/1972-73.html",
+      "confidence": "high",
+      "claims": "Champions with 60 points, three ahead of Arsenal."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1972–73 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/14",
+      "confidence": "high",
+      "claims": "Keegan led with 22 competitive goals: 13 league, five League Cup and four UEFA Cup. Toshack also scored 13 league goals; Cormack scored ten in all competitions."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1972–73 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/14",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting the selected key players; starts and substitute appearances are considered together."
+    },
+    {
+      "id": "fchd-fa-cup",
+      "label": "Football Club History Database: FA Cup 1972–73",
+      "url": "https://fchd.info/cups/facup1972-73.htm",
+      "confidence": "high",
+      "claims": "Fourth-round exit: Manchester City won a replay 2–0 at Maine Road after a 0–0 Anfield draw."
+    },
+    {
+      "id": "rsssf-league-cup",
+      "label": "RSSSF: League Cup results",
+      "url": "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+      "confidence": "high",
+      "claims": "Quarter-final exit: Tottenham won the replay 3–1 after a 1–1 draw at Anfield."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 1972–73",
+      "url": "https://www.rsssf.org/ec/ec197273.html",
+      "confidence": "high",
+      "claims": "UEFA Cup won 3–2 on aggregate against Borussia Mönchengladbach, with a 3–0 home win on 10 May and a 2–0 away defeat on 23 May. Tottenham beaten on away goals in the semi-final."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1972–73 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/14",
+      "confidence": "high",
+      "claims": "Cormack joined from Nottingham Forest and Storton from Tranmere Rovers in July 1972; Evans joined Aston Villa in June. Case’s May 1973 arrival is allocated to 1973–74."
+    },
+    {
+      "id": "lfc-cormack",
+      "label": "Liverpool FC: Peter Cormack",
+      "url": "https://www.liverpoolfc.com/info/peter-cormack",
+      "confidence": "high",
+      "claims": "Cormack arrived from Nottingham Forest and scored ten times in 52 appearances during his first campaign."
+    },
+    {
+      "id": "lfc-keegan",
+      "label": "Liverpool FC: Kevin Keegan, Liverpool’s Greatest",
+      "url": "https://www.liverpoolfc.com/news/liverpools-greatest-no14-kevin-keegan",
+      "confidence": "high",
+      "claims": "Independently confirms Keegan’s 22 goals in 64 appearances in 1972–73."
+    },
+    {
+      "id": "lfc-double",
+      "label": "Liverpool FC: Shankly’s Second Coming",
+      "url": "https://www.liverpoolfc.com/news/five-more-stories-shanklys-second-coming-documentary",
+      "confidence": "high",
+      "claims": "First European trophy and league title; Cormack’s arrival and ten goals; championship clinched by the 0–0 draw with Leicester at Anfield on 28 April; the final’s 3–0 and 0–2 legs. The Keegan fee elsewhere in the article is not used."
+    },
+    {
+      "id": "uefa-final",
+      "label": "UEFA: 1972–73, Reds reach European goal",
+      "url": "https://www.uefa.com/uefaeuropaleague/news/002a-0e6a06a1e886-d331006e4a96-1000--1972-73-reds-reach-european-goal/",
+      "confidence": "high",
+      "claims": "First European trophy; 3–2 aggregate final win. Keegan scored twice and Lloyd once in the 3–0 first leg, replayed the day after the abandonment; Borussia won the return 2–0."
+    }
+  ],
+  "researchNotes": [
+    "Keegan scored 22 in all competitions. His league tally was 13, shared with Toshack; those are distinct categories.",
+    "The final was won 3–2 on aggregate, not 5–0 as one Liverpool anniversary article states. UEFA, RSSSF and the two match records resolve the discrepancy. The original first leg on 9 May was abandoned; the completed match was on 10 May.",
+    "Jimmy Case’s May 1973 recruitment is recorded with the incoming 1973–74 campaign, not among this season’s first-team contributors.",
+    "Peter Spiring is not copied from the 1973–74 transfer ledger into that season: the date printed there is March 1973. He is omitted from these selected senior moves rather than given an incorrect arrival season."
+  ]
+}

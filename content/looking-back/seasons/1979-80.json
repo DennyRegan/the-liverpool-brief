@@ -1,0 +1,225 @@
+{
+  "season": "1979-80",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bob-paisley"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "david-johnson",
+      "goals": 27,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-johnson"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Winners — beat Arsenal 3–1 at Wembley.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Semi-final — lost 1–0 to Arsenal in the third replay.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Semi-final — lost 2–1 on aggregate to Nottingham Forest.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "First round — lost 4–2 on aggregate to Dinamo Tbilisi.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division",
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "david-johnson",
+    "kenny-dalglish",
+    "terry-mcdermott",
+    "phil-neal",
+    "phil-thompson",
+    "graeme-souness",
+    "ray-clemence",
+    "alan-hansen"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "avi-cohen",
+        "club": "Maccabi Tel Aviv",
+        "deal": "permanent",
+        "note": "Joined in July 1979.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ronnie-whelan",
+        "club": "Home Farm",
+        "deal": "free",
+        "note": "Joined in September 1979.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ian-rush",
+        "club": "Chester City",
+        "deal": "permanent",
+        "note": "Signed in April 1980.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-rush"
+        ]
+      },
+      {
+        "personId": "richard-money",
+        "club": "Fulham",
+        "deal": "permanent",
+        "note": "Signed in May 1980.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "emlyn-hughes",
+        "club": "Wolverhampton Wanderers",
+        "deal": "permanent",
+        "note": "Left in August 1979.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "frank-mcgarvey",
+        "club": "Celtic",
+        "deal": "permanent",
+        "note": "Left in March 1980.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool retained the First Division title under Bob Paisley, finishing on 60 points, two ahead of Manchester United. They were unbeaten at Anfield in the league and scored 81 league goals. The season also brought the Charity Shield, with Arsenal beaten 3–1 at Wembley.",
+    "David Johnson led the scoring with 27 goals in all competitions. Terry McDermott became the first player to win the football writers’ and PFA player awards in the same season. Emlyn Hughes left for Wolves, while Ronnie Whelan and Ian Rush joined from Home Farm and Chester City respectively.",
+    "Liverpool reached both domestic cup semi-finals but went no further: Nottingham Forest won their League Cup tie, while Arsenal needed three FA Cup replays before winning 1–0. Dinamo Tbilisi ended Liverpool’s European Cup campaign in the first round, overturning a 2–1 Anfield defeat with a 3–0 home win."
+  ],
+  "events": [
+    {
+      "id": "villa-home",
+      "title": "Four against Aston Villa",
+      "date": "1980-05-03",
+      "detail": "Liverpool beat Aston Villa 4–1 at Anfield.",
+      "competitionIds": [
+        "first-division"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1978-79"
+  ],
+  "sources": [
+    {
+      "id": "lfc-paisley",
+      "label": "Liverpool FC: Bob Paisley, manager",
+      "url": "https://www.liverpoolfc.com/info/bob-paisley-0",
+      "confidence": "high",
+      "claims": "Manager from 1974 to 1983; the 1980 title, 1981 European Cup and final-season league and League Cup double."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1979-80",
+      "url": "https://www.rsssf.org/engpaul/FLA/1979-80.html",
+      "confidence": "high",
+      "claims": "Final division, position and points; home and away league records."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1979-80 games",
+      "url": "https://www.lfchistory.net/season-archive/games/21",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, scores, cup stages and venues; aggregate scores calculated from the two legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1979-80 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/21",
+      "confidence": "high",
+      "claims": "All-competitive goalscorers, including the Charity Shield and excluding friendlies."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1979-80 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/21",
+      "confidence": "high",
+      "claims": "Transfer clubs, type and dates for the selected senior moves."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1979-80 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/21",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting the editorial key-player selection."
+    },
+    {
+      "id": "lfc-johnson",
+      "label": "Liverpool FC: David Johnson",
+      "url": "https://www.liverpoolfc.com/info/david-johnson",
+      "confidence": "high",
+      "claims": "27 competitive goals in 1979–80."
+    },
+    {
+      "id": "lfc-mcdermott-awards",
+      "label": "Liverpool FC: Terry McDermott awards",
+      "url": "https://www.liverpoolfc.com/news/liverpools-greatest-no34-terry-mcdermott",
+      "confidence": "high",
+      "claims": "First player to win the FWA and PFA player awards in the same season, in 1980."
+    },
+    {
+      "id": "lfc-rush",
+      "label": "Liverpool FC: Ian Rush",
+      "url": "https://www.liverpoolfc.com/info/ian-rush",
+      "confidence": "high",
+      "claims": "Joined from Chester in 1980; 30 competitive goals in 1981–82, 31 in 1982–83 and 47 in 1983–84; four goals at Everton in November 1982."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-paisley and lfch-games; paragraph 2 — lfch-scorers, lfc-johnson, lfc-mcdermott-awards, lfch-transfers and lfc-rush; paragraph 3 — lfch-games.",
+    "League points used two points for a win. Rush’s April and Money’s early-May signings remain in this campaign; neither is selected as a key player before making a competitive appearance. Whelan’s signing date is distinct from his 1981 debut."
+  ]
+}

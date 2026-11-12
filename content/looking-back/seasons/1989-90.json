@@ -1,0 +1,201 @@
+{
+  "season": "1989-90",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "kenny-dalglish"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "john-barnes",
+      "goals": 28,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorer"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Winners — beat Arsenal 1–0.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-shield"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Semi-final — lost 4–3 to Crystal Palace after extra time.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-palace-semi"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 1–0 away to Arsenal.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division",
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "john-barnes",
+    "ian-rush",
+    "bruce-grobbelaar",
+    "steve-mcmahon",
+    "glenn-hysen",
+    "ronnie-whelan",
+    "alan-hansen",
+    "peter-beardsley",
+    "ronny-rosenthal"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "steve-harkness",
+        "club": "Carlisle United",
+        "deal": "permanent",
+        "note": "Joined in July 1989.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "glenn-hysen",
+        "club": "Fiorentina",
+        "deal": "permanent",
+        "note": "Joined in July 1989.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ronny-rosenthal",
+        "club": "Standard Liege",
+        "deal": "loan",
+        "note": "Initial loan in spring 1990; the permanent deal followed in the summer.",
+        "sourceIds": [
+          "lfc-rosenthal"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "john-aldridge",
+        "club": "Real Sociedad",
+        "deal": "permanent",
+        "note": "Left in September 1989.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won their 18th league title under Kenny Dalglish, finishing nine points ahead of Aston Villa in the First Division. They collected 79 points and scored 78 league goals. The Charity Shield also came to Anfield after a 1–0 victory over Arsenal at Wembley.",
+    "John Barnes was leading scorer with 28 goals in all competitions, including 22 in the league, and won the football writers’ Player of the Year award. Glenn Hysén arrived from Fiorentina and John Aldridge left for Real Sociedad. Ronny Rosenthal joined on loan from Standard Liege during the spring and scored seven goals in eight league appearances.",
+    "Crystal Palace, beaten 9–0 at Anfield in September, ended Liverpool’s FA Cup defence with a 4–3 extra-time win in the semi-final at Villa Park. Arsenal had knocked Liverpool out of the League Cup in the third round. The league campaign finished with a 6–1 victory away to Coventry City."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1988-89"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 1989-90 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1989-90.html",
+      "confidence": "high",
+      "claims": "Division, final position, points, goals and home/away record. Margins are arithmetic from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1989-90 games",
+      "url": "https://www.lfchistory.net/season-archive/games/31",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, venues and cup stages; aggregates calculated from the legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1989-90 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/31",
+      "confidence": "high",
+      "claims": "All-competitive scoring including the Charity Shield; friendlies and shoot-out kicks excluded."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1989-90 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/31",
+      "confidence": "high",
+      "claims": "Selected senior transfer clubs and dates; loan and permanent moves distinguished."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1989-90 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/31",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting editorial key-player selections."
+    },
+    {
+      "id": "afv-scorer",
+      "label": "11v11: Liverpool players, 1989-90",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1990/",
+      "confidence": "high",
+      "claims": "Independent corroboration of the leading competitive scorer and total."
+    },
+    {
+      "id": "lfc-dalglish",
+      "label": "Liverpool FC: Kenny Dalglish, first spell",
+      "url": "https://www.liverpoolfc.com/info/kenny-dalglish-first-spell",
+      "confidence": "high",
+      "claims": "1989–90 brought the 18th league title; resignation two days after the 20 February 1991 Everton replay. The profile’s claim of ten opening league wins in 1990–91 is not used: fixtures show eight league wins and two League Cup wins."
+    },
+    {
+      "id": "lfc-shield",
+      "label": "Liverpool FC: Charity and Community Shield",
+      "url": "https://www.liverpoolfc.com/info/charity-community-shield",
+      "confidence": "high",
+      "claims": "Liverpool beat Arsenal in 1989 and shared the 1990 trophy with Manchester United."
+    },
+    {
+      "id": "lfc-rosenthal",
+      "label": "Liverpool FC: Ronny Rosenthal",
+      "url": "https://www.liverpoolfc.com/info/ronny-rosenthal",
+      "confidence": "high",
+      "claims": "Initially loaned from Standard Liege in spring 1990, followed by a permanent summer move; seven goals in the title run-in. Also corroborates eight opening league wins in 1990–91. The header’s playing years are not used as a departure date."
+    },
+    {
+      "id": "lfc-barnes",
+      "label": "Liverpool FC: John Barnes",
+      "url": "https://www.liverpoolfc.com/info/john-barnes",
+      "confidence": "high",
+      "claims": "22 league goals and the FWA Player of the Year award in 1989–90."
+    },
+    {
+      "id": "lfch-palace-semi",
+      "label": "LFChistory: Crystal Palace semi-final",
+      "url": "https://www.lfchistory.net/games/1734",
+      "confidence": "high",
+      "claims": "Liverpool lost 4–3 after extra time at Villa Park on 8 April 1990."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-dalglish, rsssf-league, lfch-games and lfc-shield; paragraph 2 — lfch-scorers, afv-scorer, lfc-barnes, lfch-transfers, lfc-rosenthal and lfch-appearances; paragraph 3 — lfch-games and lfch-palace-semi.",
+    "Rosenthal’s loan is absent from the permanent-transfer ledger but supported by his club profile. His June 1990 permanent signing belongs in 1990–91. No inference is made from the club profile’s compressed account of his early appearances."
+  ]
+}

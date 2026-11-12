@@ -1,0 +1,257 @@
+{
+  "season": "1982-83",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bob-paisley"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "ian-rush",
+      "goals": 31,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-rush"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Winners — beat Tottenham Hotspur 1–0.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fifth round — lost 2–1 at home to Brighton & Hove Albion.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Manchester United 2–1 after extra time.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-league-cup"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Quarter-final — lost 4–3 on aggregate to Widzew Lodz.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division",
+    "charity-shield",
+    "league-cup"
+  ],
+  "keyPlayerIds": [
+    "ian-rush",
+    "kenny-dalglish",
+    "bruce-grobbelaar",
+    "alan-kennedy",
+    "phil-neal",
+    "graeme-souness",
+    "sammy-lee",
+    "mark-lawrenson",
+    "alan-hansen",
+    "ronnie-whelan",
+    "craig-johnston"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "david-hodgson",
+        "club": "Middlesbrough",
+        "deal": "permanent",
+        "note": "Joined in August 1982.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jim-beglin",
+        "club": "Shamrock Rovers",
+        "deal": "permanent",
+        "note": "Made his move permanent in May 1983 after an initial loan; Paisley’s final signing.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-beglin"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "kevin-sheedy",
+        "club": "Everton",
+        "deal": "permanent",
+        "note": "May 1982 move, allocated to the incoming campaign.",
+        "sourceIds": [
+          "lfch-prior-transfers"
+        ]
+      },
+      {
+        "personId": "david-johnson",
+        "club": "Everton",
+        "deal": "permanent",
+        "note": "Left in August 1982.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "terry-mcdermott",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "note": "Left in September 1982.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steve-ogrizovic",
+        "club": "Shrewsbury Town",
+        "deal": "permanent",
+        "note": "Left in August 1982 in a player exchange.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "howard-gayle",
+        "club": "Birmingham City",
+        "deal": "permanent",
+        "note": "Left in January 1983.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Bob Paisley’s final season as manager brought another First Division and League Cup double. Liverpool finished 11 points clear of Watford, with 82 points and 87 league goals. Ronnie Whelan scored the extra-time winner against Manchester United at Wembley as Liverpool won the League Cup for a third successive season.",
+    "Ian Rush led the scoring with 31 competitive goals, including four in the 5–0 league win at Everton. The Charity Shield had also been won against Tottenham. David Hodgson arrived from Middlesbrough, while David Johnson moved to Everton and Terry McDermott returned to Newcastle United.",
+    "Brighton ended Liverpool’s FA Cup run in the fifth round, and Widzew Lodz won their European Cup quarter-final 4–3 on aggregate. Liverpool went without a win in their final seven league fixtures but still finished comfortably clear at the top. Joe Fagan succeeded Paisley for the following campaign."
+  ],
+  "events": [
+    {
+      "id": "everton-away",
+      "title": "Rush scores four at Goodison",
+      "date": "1982-11-06",
+      "detail": "Ian Rush scored four times in Liverpool’s 5–0 league win at Everton.",
+      "competitionIds": [
+        "first-division"
+      ],
+      "personIds": [
+        "ian-rush"
+      ],
+      "sourceIds": [
+        "lfch-games",
+        "lfc-rush"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1981-82"
+  ],
+  "sources": [
+    {
+      "id": "lfc-paisley",
+      "label": "Liverpool FC: Bob Paisley, manager",
+      "url": "https://www.liverpoolfc.com/info/bob-paisley-0",
+      "confidence": "high",
+      "claims": "Manager from 1974 to 1983; the 1980 title, 1981 European Cup and final-season league and League Cup double."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1982-83",
+      "url": "https://www.rsssf.org/engpaul/FLA/1982-83.html",
+      "confidence": "high",
+      "claims": "Final division, position and points; home and away league records."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1982-83 games",
+      "url": "https://www.lfchistory.net/season-archive/games/23",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, scores, cup stages and venues; aggregate scores calculated from the two legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1982-83 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/23",
+      "confidence": "high",
+      "claims": "All-competitive goalscorers, including the Charity Shield and excluding friendlies."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1982-83 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/23",
+      "confidence": "high",
+      "claims": "Transfer clubs, type and dates for the selected senior moves."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1982-83 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/23",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting the editorial key-player selection."
+    },
+    {
+      "id": "lfc-rush",
+      "label": "Liverpool FC: Ian Rush",
+      "url": "https://www.liverpoolfc.com/info/ian-rush",
+      "confidence": "high",
+      "claims": "Joined from Chester in 1980; 30 competitive goals in 1981–82, 31 in 1982–83 and 47 in 1983–84; four goals at Everton in November 1982."
+    },
+    {
+      "id": "lfc-league-cup",
+      "label": "Liverpool FC: League Cup",
+      "url": "https://www.liverpoolfc.com/info/league-cup",
+      "confidence": "high",
+      "claims": "First four wins, 1981–84; final and replay scores, dates, venues, extra time and named goalscorers."
+    },
+    {
+      "id": "lfc-fagan",
+      "label": "Liverpool FC: Joe Fagan",
+      "url": "https://www.liverpoolfc.com/info/joe-fagan",
+      "confidence": "high",
+      "claims": "Succeeded Paisley in 1983; league, League Cup and European Cup treble in his first season. Transfer chronology in the profile is not used."
+    },
+    {
+      "id": "lfch-prior-transfers",
+      "label": "LFChistory: 1981–82 transfer ledger",
+      "url": "https://www.lfchistory.net/season-archive/transfers/24",
+      "confidence": "high",
+      "claims": "Kevin Sheedy’s 26 May 1982 move to Everton, allocated here as a preparatory summer departure."
+    },
+    {
+      "id": "lfc-beglin",
+      "label": "Liverpool FC: Jim Beglin",
+      "url": "https://www.liverpoolfc.com/info/jim-beglin",
+      "confidence": "high",
+      "claims": "Permanent signing from Shamrock Rovers in May 1983 after an initial loan; Paisley’s last signing."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-paisley, rsssf-league and lfc-league-cup; paragraph 2 — lfch-scorers, lfc-rush, lfch-games and lfch-transfers; paragraph 3 — lfch-games and lfc-fagan.",
+    "Rush’s 31 includes his Charity Shield goal. The seven-match winless finish is counted from 12 April through 14 May in the fixture list.",
+    "The official Fagan profile compresses two seasons and places later transfers beside his appointment. It is used only for succession and honours. Beglin’s May 1983 permanent signing is retained with Paisley’s final campaign because the club profile identifies him as Paisley’s last signing; no exact day is asserted."
+  ]
+}

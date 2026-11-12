@@ -1,0 +1,380 @@
+{
+  "season": "1967-68",
+  "reviewedOn": "2026-09-09",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 3,
+    "sourceIds": [
+      "rsssf-league",
+      "lfch-games"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "roger-hunt",
+      "goals": 30,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-hunt-goals"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Quarter-finals — lost 2–1 to West Bromwich Albion in a second replay at Maine Road, after 0–0 and 1–1 draws.",
+      "sourceIds": [
+        "fchd-fa-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Second round — lost 3–2 at Bolton Wanderers in a replay, after a 1–1 draw at Anfield.",
+      "sourceIds": [
+        "rsssf-league-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "inter-cities-fairs-cup",
+      "kind": "europe",
+      "result": "Third round — lost 2–0 on aggregate to Ferencváros, after eliminating Malmö and TSV 1860 Munich.",
+      "sourceIds": [
+        "rsssf-europe",
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "roger-hunt",
+    "tony-hateley",
+    "ian-st-john",
+    "peter-thompson",
+    "ian-callaghan",
+    "emlyn-hughes",
+    "tommy-lawrence",
+    "ron-yeats",
+    "tommy-smith",
+    "chris-lawler",
+    "gerry-byrne"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "ray-clemence",
+        "club": "Scunthorpe United",
+        "deal": "permanent",
+        "fee": "£18,000",
+        "note": "Signed in summer 1967; did not make a competitive first-team appearance this season.",
+        "sourceIds": [
+          "lfc-clemence",
+          "lfch-clemence-transfer",
+          "lfch-appearances"
+        ]
+      },
+      {
+        "personId": "tony-hateley",
+        "club": "Chelsea",
+        "deal": "permanent",
+        "fee": "£96,000",
+        "note": "A club-record signing in summer 1967; scored 27 competitive goals during the season.",
+        "sourceIds": [
+          "lfc-hateley",
+          "lfch-hateley",
+          "lfch-scorers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "phil-chisnall",
+        "club": "Southend United",
+        "deal": "permanent",
+        "note": "Left in August 1967 after nine Liverpool appearances, the last in April 1966.",
+        "sourceIds": [
+          "lfc-chisnall",
+          "lfch-chisnall"
+        ]
+      },
+      {
+        "personId": "gordon-wallace",
+        "club": "Crewe Alexandra",
+        "deal": "permanent",
+        "note": "Left in October 1967 after losing his place in the senior side.",
+        "sourceIds": [
+          "lfch-wallace",
+          "lfc-wallace"
+        ]
+      },
+      {
+        "personId": "willie-stevenson",
+        "club": "Stoke City",
+        "deal": "permanent",
+        "note": "Departed in December 1967 as Hughes became established in the side.",
+        "sourceIds": [
+          "lfc-stevenson",
+          "lfch-stevenson",
+          "lfch-appearances"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool improved to third in the First Division, finishing three points behind champions Manchester City and one behind Manchester United. Their home record was strong: 17 wins from 21 matches at Anfield. Only five league victories came away from home, leaving a clear difference between their form on the two sides of the fixture list.",
+    "The summer’s principal first-team addition was Tony Hateley, bought from Chelsea for a club-record £96,000. He scored 27 goals, but Roger Hunt again finished ahead of him with 30. Hunt also became Liverpool’s overall record goalscorer in November. Emlyn Hughes was now a regular in his first full season, and Willie Stevenson moved to Stoke City in December. Ray Clemence’s £18,000 arrival from Scunthorpe strengthened the squad for the future, although Tommy Lawrence remained the first-choice goalkeeper and Clemence did not yet play a competitive first-team match.",
+    "The FA Cup required nine matches without taking Liverpool beyond the quarter-finals. Bournemouth, Walsall and Tottenham were all beaten in replays, with Hateley scoring four against Walsall. West Bromwich Albion then held Liverpool twice before winning a second replay 2–1 at Maine Road. The League Cup campaign had already ended at its first hurdle, Bolton winning the second-round replay 3–2.",
+    "There were substantial European wins, including an 8–0 defeat of TSV 1860 Munich at Anfield in the Fairs Cup. Yet Ferencváros won both legs of the next tie 1–0, ending the run in January. Liverpool finished without a trophy. Their league position and the goals from Hunt and Hateley showed that they remained competitive, while the arrival of Hughes in the regular side and Stevenson’s departure made the changes within Shankly’s team increasingly visible."
+  ],
+  "events": [
+    {
+      "id": "tsv-munich-eight-1967",
+      "title": "Eight goals against TSV 1860 Munich",
+      "detail": "Liverpool won the first leg of their Fairs Cup second-round tie 8–0 at Anfield and advanced 9–2 on aggregate.",
+      "sourceIds": [
+        "lfch-games",
+        "rsssf-europe"
+      ],
+      "date": "1967-11-07",
+      "competitionIds": [
+        "inter-cities-fairs-cup"
+      ]
+    },
+    {
+      "id": "hunt-overall-scoring-record-1967",
+      "title": "Hunt becomes Liverpool’s record scorer",
+      "detail": "Hunt overtook Gordon Hodgson’s overall Liverpool scoring record in November 1967. Later correction of a 1966 goal attribution means sources differ over the precise match.",
+      "sourceIds": [
+        "lfc-hunt-record",
+        "lfch-hunt",
+        "lfch-hunt-correction"
+      ],
+      "personIds": [
+        "roger-hunt"
+      ]
+    },
+    {
+      "id": "ferencvaros-fairs-cup-exit-1968",
+      "title": "Ferencváros complete the European elimination",
+      "detail": "A 1–0 defeat at Anfield followed the same score in Budapest, putting Liverpool out of the Fairs Cup in the third round.",
+      "sourceIds": [
+        "lfch-games",
+        "rsssf-europe"
+      ],
+      "date": "1968-01-09",
+      "competitionIds": [
+        "inter-cities-fairs-cup"
+      ]
+    },
+    {
+      "id": "hateley-four-walsall-1968",
+      "title": "Hateley scores four in the FA Cup",
+      "detail": "Hateley scored four times in the 5–2 fourth-round replay win over Walsall at Anfield.",
+      "sourceIds": [
+        "lfc-hateley",
+        "lfch-games"
+      ],
+      "date": "1968-02-19",
+      "personIds": [
+        "tony-hateley"
+      ],
+      "competitionIds": [
+        "fa-cup"
+      ]
+    },
+    {
+      "id": "west-brom-second-replay-1968",
+      "title": "The FA Cup run ends at Maine Road",
+      "detail": "West Bromwich Albion won the quarter-final’s second replay 2–1 after the teams had drawn at The Hawthorns and Anfield.",
+      "sourceIds": [
+        "lfch-games",
+        "fchd-fa-cup"
+      ],
+      "date": "1968-04-18",
+      "competitionIds": [
+        "fa-cup"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1965-66",
+    "1966-67",
+    "1968-69"
+  ],
+  "sources": [
+    {
+      "id": "lfc-shankly",
+      "label": "Liverpool FC: Bill Shankly",
+      "url": "https://www.liverpoolfc.com/info/bill-shankly",
+      "confidence": "high",
+      "claims": "Shankly remained manager throughout the season."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1967–68 results",
+      "url": "https://www.lfchistory.net/season-archive/games/9",
+      "confidence": "high",
+      "claims": "Complete results, dates and chronology in the league, FA Cup, League Cup and Fairs Cup."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1967–68",
+      "url": "https://www.rsssf.org/engpaul/FLA/1967-68.html",
+      "confidence": "high",
+      "claims": "Third place with 55 points, behind Manchester City on 58 and Manchester United on 56; 17 home wins and five away wins."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1967–68 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/9",
+      "confidence": "high",
+      "claims": "Hunt led with 30 goals; Hateley scored 27. Hunt’s breakdown was 25 league, two FA Cup and three Fairs Cup goals."
+    },
+    {
+      "id": "lfc-hunt-goals",
+      "label": "Liverpool FC: Roger Hunt in the 30-goal club",
+      "url": "https://www.liverpoolfc.com/news/announcements/290697-lfc-s-30-goal-club-roger-hunt",
+      "confidence": "high",
+      "claims": "Independent club confirmation of Hunt’s 30 competitive goals in 1967–68."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1967–68 appearances",
+      "url": "https://www.lfchistory.net/SeasonArchive/Appearances/9",
+      "confidence": "high",
+      "claims": "Key-player selection based on this season: Lawler and Lawrence 59 appearances, Hughes 56 and Hateley 52. Clemence did not appear."
+    },
+    {
+      "id": "fchd-fa-cup",
+      "label": "Football Club History Database: FA Cup 1967–68",
+      "url": "https://fchd.info/cups/facup1967-68.htm",
+      "confidence": "high",
+      "claims": "Replay wins over Bournemouth, Walsall and Tottenham; quarter-final loss to West Bromwich Albion in a second replay at Manchester City’s ground."
+    },
+    {
+      "id": "rsssf-league-cup",
+      "label": "RSSSF: League Cup results",
+      "url": "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+      "confidence": "high",
+      "claims": "1967–68 second-round results: Liverpool 1–1 Bolton, Bolton 3–2 Liverpool."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 1967–68",
+      "url": "https://www.rsssf.org/ec/ec196768.html",
+      "confidence": "high",
+      "claims": "Fairs Cup progression against Malmö and TSV 1860 Munich, followed by a third-round 2–0 aggregate defeat to Ferencváros."
+    },
+    {
+      "id": "lfc-hateley",
+      "label": "Liverpool FC: Tony Hateley remembered",
+      "url": "https://www.liverpoolfc.com/news/first-team/154483-rip-tony-hateley",
+      "confidence": "high",
+      "claims": "Club-record £96,000 summer arrival from Chelsea; 27 goals in 52 appearances this season, including four against Walsall in an FA Cup replay."
+    },
+    {
+      "id": "lfch-hateley",
+      "label": "LFChistory: Tony Hateley",
+      "url": "https://www.lfchistory.net/players/314",
+      "confidence": "high",
+      "claims": "June 1967 Chelsea transfer for £96,000 and season-by-season appearances and goals."
+    },
+    {
+      "id": "lfc-clemence",
+      "label": "Liverpool FC: Clemence arrives in 1967",
+      "url": "https://www.liverpoolfc.com/news/first-team/121211-years-ago-clemence-arrives",
+      "confidence": "medium",
+      "claims": "Summer 1967 arrival from Scunthorpe United for £18,000. Exact anniversary date conflicts with specialist records and is not used."
+    },
+    {
+      "id": "lfch-clemence-transfer",
+      "label": "LFChistory: 1966–67 transfer register",
+      "url": "https://www.lfchistory.net/season-archive/transfers/8",
+      "confidence": "medium",
+      "claims": "Records Clemence’s £18,000 move from Scunthorpe in June 1967; allocated here under the project’s summer-transfer convention. Exact day is disputed."
+    },
+    {
+      "id": "lfch-clemence-interview",
+      "label": "LFChistory: Interview with Ray Clemence",
+      "url": "https://www.lfchistory.net/articles/846",
+      "confidence": "medium",
+      "claims": "Interview account of his move and first-team debut; its June signing date differs from both the transfer register and the LFC anniversary article."
+    },
+    {
+      "id": "lfc-stevenson",
+      "label": "Liverpool FC: Willie Stevenson",
+      "url": "https://www.liverpoolfc.com/info/willie-stevenson",
+      "confidence": "medium",
+      "claims": "Stevenson’s move to Stoke City in December 1967 and Hughes taking his first-team place. Its last-appearance wording is not used."
+    },
+    {
+      "id": "lfch-stevenson",
+      "label": "LFChistory: Willie Stevenson",
+      "url": "https://www.lfchistory.net/players/420",
+      "confidence": "high",
+      "claims": "Stoke City departure in December 1967 and limited 1967–68 appearances."
+    },
+    {
+      "id": "lfc-chisnall",
+      "label": "Liverpool FC: Phil Chisnall",
+      "url": "https://www.liverpoolfc.com/info/phil-chisnall",
+      "confidence": "high",
+      "claims": "Departure for Southend after nine Liverpool appearances."
+    },
+    {
+      "id": "lfch-chisnall",
+      "label": "LFChistory: Phil Chisnall",
+      "url": "https://www.lfchistory.net/players/281",
+      "confidence": "high",
+      "claims": "Contract ended on 3 August 1967; next club Southend United. No Liverpool appearances since April 1966."
+    },
+    {
+      "id": "lfch-wallace",
+      "label": "LFChistory: Gordon Wallace",
+      "url": "https://www.lfchistory.net/players/435",
+      "confidence": "high",
+      "claims": "Departure to Crewe Alexandra in October 1967 after 22 Liverpool appearances; no recent first-team role."
+    },
+    {
+      "id": "lfc-wallace",
+      "label": "Liverpool FC: Gordon Wallace",
+      "url": "https://www.liverpoolfc.com/info/gordon-wallace",
+      "confidence": "high",
+      "claims": "His earlier first-team contribution and subsequent lack of opportunities provide context for the departure."
+    },
+    {
+      "id": "lfc-hunt-record",
+      "label": "Liverpool FC: Roger Hunt",
+      "url": "https://www.liverpoolfc.com/info/roger-hunt",
+      "confidence": "medium",
+      "claims": "Hunt overtook Gordon Hodgson as Liverpool’s overall record scorer in November 1967; the profile’s exact-match attribution conflicts with the corrected statistical record."
+    },
+    {
+      "id": "lfch-hunt",
+      "label": "LFChistory: Roger Hunt",
+      "url": "https://www.lfchistory.net/players/326",
+      "confidence": "high",
+      "claims": "Overall goalscoring record reached in November 1967; current match attribution differs from the official profile. Season totals agree with the goalscorers table."
+    },
+    {
+      "id": "lfch-hunt-correction",
+      "label": "LFChistory: Sir Roger loses a goal but gains a record",
+      "url": "https://www.lfchistory.net/articles/3453",
+      "confidence": "high",
+      "claims": "Explains the reattribution of the March 1966 Tottenham winner to a Ted Clayton own goal, reducing Hunt’s career total and changing milestone dates."
+    }
+  ],
+  "researchNotes": [
+    "Hunt’s 30-goal total is confirmed by Liverpool FC and LFChistory: 25 league, two FA Cup and three Fairs Cup goals. Hateley’s 27 is separately confirmed by the club and specialist records.",
+    "Clemence’s £18,000 fee and June 1967 arrival are well supported, but the exact date is not: LFChistory’s transfer table gives 12 June, an LFChistory interview gives 24 June, and a Liverpool FC anniversary article implies 21 June. The entry uses summer 1967 and assigns the transfer to 1967–68.",
+    "Liverpool FC’s Hunt profile attributes the overall scoring record to the TSV Munich match on 7 November 1967; LFChistory’s corrected profile identifies Manchester United on 11 November. A 1966 goal was subsequently reclassified as a Ted Clayton own goal. Only November is published, with the disagreement preserved for review.",
+    "Departure fees for Chisnall and Wallace are omitted because published accounts disagree. Stevenson’s exact final appearance is also omitted: the official profile’s league-match wording overlooks the subsequent European appearance.",
+    "Gerry Byrne remained a significant contributor with 36 appearances. Clemence is an arrival, not a key player for a season in which he did not appear. Dave Wilson’s May 1968 return to Preston is placed in the following season as a close-season departure."
+  ]
+}

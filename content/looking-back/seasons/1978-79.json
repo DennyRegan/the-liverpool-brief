@@ -1,0 +1,266 @@
+{
+  "season": "1978-79",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bob-paisley"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "kenny-dalglish",
+      "goals": 25,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorer"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Semi-final — lost a replay 1–0 to Manchester United at Goodison Park after a 2–2 draw at Maine Road.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Second round — lost 1–0 away to Sheffield United.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "First round — lost 2–0 on aggregate to Nottingham Forest, losing 2–0 away and drawing 0–0 at home.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-super-cup",
+      "kind": "europe",
+      "result": "Runners-up — lost 4–3 on aggregate to Anderlecht, losing 3–1 away and winning 2–1 at home.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-super"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division"
+  ],
+  "keyPlayerIds": [
+    "kenny-dalglish",
+    "ray-kennedy",
+    "phil-neal",
+    "graeme-souness",
+    "ray-clemence",
+    "phil-thompson",
+    "terry-mcdermott",
+    "jimmy-case",
+    "alan-kennedy",
+    "alan-hansen",
+    "steve-heighway",
+    "david-johnson"
+  ],
+  "transfers": {
+    "out": [
+      {
+        "personId": "tommy-smith",
+        "club": "Swansea City",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in August 1978."
+      },
+      {
+        "personId": "ian-callaghan",
+        "club": "Swansea City",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in September 1978."
+      },
+      {
+        "personId": "joey-jones",
+        "club": "Wrexham",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in October 1978."
+      }
+    ],
+    "in": [
+      {
+        "personId": "alan-kennedy",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-alan"
+        ],
+        "note": "Joined in August 1978."
+      },
+      {
+        "personId": "kevin-sheedy",
+        "club": "Hereford United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "June 1978 signing, allocated to the incoming campaign."
+      },
+      {
+        "personId": "frank-mcgarvey",
+        "club": "St Mirren",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Signed in May 1979."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool regained the First Division title with 68 points, eight ahead of Nottingham Forest. Bob Paisley’s side won 30 of their 42 league matches, scored 85 goals and conceded only 16. They were unbeaten at Anfield in the league, where opponents scored just four times.",
+    "Kenny Dalglish led the scoring with 25 goals in all competitions and was named the football writers’ Footballer of the Year. David Johnson contributed 18 goals, while Alan Kennedy arrived from Newcastle United. A 7–0 win over Tottenham Hotspur at Anfield was among the season’s outstanding league results.",
+    "The cups brought less success. Nottingham Forest ended Liverpool’s European Cup defence in the first round, and Anderlecht won the European Super Cup 4–3 on aggregate. Manchester United beat Liverpool in an FA Cup semi-final replay, while Sheffield United knocked them out of the League Cup in the second round."
+  ],
+  "events": [
+    {
+      "id": "tottenham-1978",
+      "title": "Seven against Tottenham",
+      "date": "1978-09-02",
+      "detail": "Liverpool beat Tottenham Hotspur 7–0 at Anfield.",
+      "competitionIds": [
+        "first-division"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "id": "league-finale-1979",
+      "title": "The league campaign completed",
+      "date": "1979-05-17",
+      "detail": "Liverpool won their final league fixture 3–0 at Leeds United and finished with 68 points.",
+      "competitionIds": [
+        "first-division"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-games",
+        "rsssf-league"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1977-78"
+  ],
+  "sources": [
+    {
+      "id": "lfc-paisley",
+      "label": "Liverpool FC: Bob Paisley, manager",
+      "url": "https://www.liverpoolfc.com/info/bob-paisley-0",
+      "confidence": "high",
+      "claims": "Manager from 1974 to 1983; first-season runners-up finish, the 1976 double, 1977 European Cup and 1979 league record."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1978-79",
+      "url": "https://www.rsssf.org/engpaul/FLA/1978-79.html",
+      "confidence": "high",
+      "claims": "Final First Division standings, points, wins, draws, defeats and goals for and against."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1978-79 results",
+      "url": "https://www.lfchistory.net/season-archive/games/20",
+      "confidence": "high",
+      "claims": "Competitive fixture dates, scores, venues and cup rounds; supports the competition results and dated match events."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1978-79 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/20",
+      "confidence": "high",
+      "claims": "Leading competitive scorer and goals by competition, excluding friendlies."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1978-79 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/20",
+      "confidence": "high",
+      "claims": "Listed incoming and outgoing transfers, clubs and chronology. Summer moves follow the incoming-campaign convention."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1978-79 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/20",
+      "confidence": "high",
+      "claims": "First-team involvement supporting the editorial key-player selection."
+    },
+    {
+      "id": "lfc-dalglish",
+      "label": "Liverpool FC: Kenny Dalglish",
+      "url": "https://www.liverpoolfc.com/info/kenny-dalglish",
+      "confidence": "high",
+      "claims": "Joined from Celtic in August 1977 for £440,000 after Keegan left for Hamburg; led scoring with 31 goals in his first season including the 1978 European Cup winner; Football Writers’ Footballer of the Year in 1979."
+    },
+    {
+      "id": "lfc-super",
+      "label": "Liverpool FC: UEFA Super Cup",
+      "url": "https://www.liverpoolfc.com/info/uefa-super-cup",
+      "confidence": "high",
+      "claims": "First won on 6 December 1977, following 1–1 away and 6–0 home results against Hamburg; McDermott hat-trick. Anderlecht won the following edition 4–3 on aggregate."
+    },
+    {
+      "id": "lfc-alan",
+      "label": "Liverpool FC: Alan Kennedy",
+      "url": "https://www.liverpoolfc.com/info/alan-kennedy",
+      "confidence": "high",
+      "claims": "Joined from Newcastle United in 1978; won the league in his first season."
+    },
+    {
+      "id": "lfc-johnson",
+      "label": "Liverpool FC: David Johnson",
+      "url": "https://www.liverpoolfc.com/info/david-johnson",
+      "confidence": "high",
+      "claims": "Eighteen goals in all competitions in 1978–79."
+    },
+    {
+      "id": "lfc-hansen",
+      "label": "Liverpool FC: Alan Hansen",
+      "url": "https://www.liverpoolfc.com/info/alan-hansen",
+      "confidence": "high",
+      "claims": "Part of the defence that conceded 16 goals in 42 league matches in 1978–79."
+    },
+    {
+      "id": "afv-scorer",
+      "label": "11v11: Liverpool players, 1978-79",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1979/",
+      "confidence": "high",
+      "claims": "Independent corroboration of Kenny Dalglish as leading scorer with 25 competitive goals. Other player totals are not used."
+    }
+  ],
+  "researchNotes": [
+    "The 68 points were earned under two points for a win; they should not be compared directly with modern three-point totals. League totals combine the home and away columns in the RSSSF table.",
+    "The December 1978 Super Cup belongs to this campaign. Sheedy’s June 1978 arrival is grouped with 1978–79; McGarvey’s May 1979 signing remains here because the league campaign was still in progress. Emlyn Hughes’s later departure must be considered with the following season.",
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-paisley and lfc-hansen; paragraph 2 — lfch-scorers, lfc-dalglish, lfc-johnson, lfc-alan, lfch-transfers and lfch-games; paragraph 3 — lfch-games and lfc-super.",
+    "11v11 agrees on the leading scorer but differs from LFChistory on some other player totals. Those disputed figures are not published; 11v11 is used only to corroborate the leading scorer."
+  ]
+}

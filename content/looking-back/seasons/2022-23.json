@@ -1,0 +1,240 @@
+{
+  "season": "2022-23",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "jurgen-klopp"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 5,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "mohamed-salah",
+      "goals": 30,
+      "sourceIds": [
+        "lfch-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–1 away to Brighton & Hove Albion.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 3–2 away to Manchester City.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League round of 16 — lost 6–2 on aggregate to Real Madrid.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "domestic",
+      "result": "Community Shield winners — beat Manchester City 3–1 at the King Power Stadium.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-adrian"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "mohamed-salah",
+    "fabinho",
+    "alisson-becker",
+    "trent-alexander-arnold",
+    "harvey-elliott",
+    "andy-robertson",
+    "jordan-henderson",
+    "james-milner",
+    "darwin-nunez",
+    "virgil-van-dijk",
+    "roberto-firmino",
+    "cody-gakpo"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "darwin-nunez",
+        "club": "Benfica",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "calvin-ramsay",
+        "club": "Aberdeen",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "fabio-carvalho",
+        "club": "Fulham",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "arthur-melo",
+        "club": "Juventus",
+        "deal": "loan",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "cody-gakpo",
+        "club": "PSV Eindhoven",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in January 2023."
+      }
+    ],
+    "out": [
+      {
+        "personId": "sadio-mane",
+        "club": "Bayern Munich",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "takumi-minamino",
+        "club": "Monaco",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "neco-williams",
+        "club": "Nottingham Forest",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ben-davies",
+        "club": "Rangers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished fifth with 67 points. A 9–0 league win over Bournemouth and a 7–0 victory against Manchester United came in a campaign that also brought nine league defeats. Seven successive wins late in the season were followed by draws with Aston Villa and Southampton, leaving Liverpool outside the Champions League places.",
+    "The season began with a 3–1 Community Shield victory over Manchester City. Both domestic cup defences ended in the fourth round, against City in the League Cup and Brighton in the FA Cup. Real Madrid again ended Liverpool’s Champions League campaign, winning 6–2 on aggregate in the last 16.",
+    "Sadio Mané left for Bayern Munich, Darwin Núñez arrived from Benfica and Cody Gakpo joined from PSV in January. Mohamed Salah led the scoring with 30 competitive goals. Roberto Firmino and James Milner said farewell at the end of the campaign."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2021-22"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2022-23 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/132",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2022-23 games",
+      "url": "https://www.lfchistory.net/season-archive/games/132",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2022-23 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/132",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2022-23 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/132",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2022-23 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/132",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-klopp",
+      "label": "Liverpool FC: Jürgen Klopp",
+      "url": "https://www.liverpoolfc.com/info/jurgen-klopp",
+      "confidence": "high",
+      "claims": "Title after the pandemic interruption in 2020; third place in 2021; two cups in 2022; January 2024 announcement of departure and final-season League Cup win."
+    },
+    {
+      "id": "lfc-firmino",
+      "label": "Liverpool FC: Roberto Firmino",
+      "url": "https://www.liverpoolfc.com/info/roberto-firmino",
+      "confidence": "high",
+      "claims": "Winning goals in both 2019 Club World Cup matches; first league title in 30 years in 2020; scored in the 2022–23 Bournemouth and Manchester United wins and left in summer 2023."
+    },
+    {
+      "id": "lfc-milner",
+      "label": "Liverpool FC: James Milner",
+      "url": "https://www.liverpoolfc.com/info/james-milner",
+      "confidence": "high",
+      "claims": "Club-record 99 points in 2019–20; both domestic cups in 2021–22; farewell in May 2023."
+    },
+    {
+      "id": "lfc-adrian",
+      "label": "Liverpool FC: Adrián",
+      "url": "https://www.liverpoolfc.com/info/adrian",
+      "confidence": "high",
+      "claims": "Free transfer from West Ham in 2019; Super Cup win after a 2–2 extra-time draw and 5–4 shoot-out; started the 2022 Community Shield victory."
+    },
+    {
+      "id": "lfc-salah",
+      "label": "Liverpool FC: Mohamed Salah",
+      "url": "https://www.liverpoolfc.com/info/mohamed-salah",
+      "confidence": "high",
+      "claims": "2021–22 league Golden Boot with 23 goals and Playmaker award with 13 assists; scored twice in the March 2023 win over Manchester United."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-league, lfch-games, lfc-firmino and lfc-salah; paragraph 2 — lfch-games and lfc-adrian; paragraph 3 — lfch-transfers, lfch-scorers, lfc-firmino and lfc-milner.",
+    "The seven wins were consecutive league fixtures late in the season. No claim of an unbeaten season or a record victory is needed.",
+    "Summer 2023 departures belong to the incoming campaign’s transfer ledger; the summary recognises the farewells here. Arthur’s arrival was a loan. Unverified fees are omitted."
+  ]
+}

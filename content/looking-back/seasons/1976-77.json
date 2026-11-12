@@ -1,0 +1,249 @@
+{
+  "season": "1976-77",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bob-paisley"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "kevin-keegan",
+      "goals": 20,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorer"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Runners-up — lost 2–1 to Manchester United at Wembley.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Second round — lost a replay 1–0 at West Bromwich Albion after a 1–1 home draw.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Winners — beat Borussia Mönchengladbach 3–1 in Rome.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-europe"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Winners — beat Southampton 1–0 at Wembley.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-shield"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division",
+    "european-cup",
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "ray-clemence",
+    "emlyn-hughes",
+    "ray-kennedy",
+    "phil-neal",
+    "joey-jones",
+    "steve-heighway",
+    "kevin-keegan",
+    "ian-callaghan",
+    "jimmy-case",
+    "terry-mcdermott",
+    "tommy-smith",
+    "david-fairclough",
+    "john-toshack",
+    "david-johnson"
+  ],
+  "transfers": {
+    "out": [
+      {
+        "personId": "brian-hall",
+        "club": "Plymouth Argyle",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in July 1976."
+      },
+      {
+        "personId": "peter-cormack",
+        "club": "Bristol City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in November 1976."
+      }
+    ],
+    "in": [
+      {
+        "personId": "david-johnson",
+        "club": "Ipswich Town",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-johnson"
+        ],
+        "note": "Joined in August 1976."
+      },
+      {
+        "personId": "alan-hansen",
+        "club": "Partick Thistle",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Signed in May 1977; his first-team debut came the following season."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool retained the First Division title and won the European Cup for the first time. Bob Paisley’s team finished one point above Manchester City, then beat Borussia Mönchengladbach 3–1 in Rome on 25 May. Terry McDermott, Tommy Smith and Phil Neal scored the goals that brought the European Cup to Anfield.",
+    "The FA Cup final had ended in a 2–1 defeat by Manchester United just four days before the victory in Rome. Liverpool also won the Charity Shield, beating Southampton 1–0, although West Bromwich Albion eliminated them in a League Cup second-round replay.",
+    "Kevin Keegan was the leading scorer with 20 goals in all competitions. David Johnson joined from Ipswich Town during the summer, while Alan Hansen was signed from Partick Thistle in May. In Europe, Liverpool overturned a first-leg defeat against Saint-Étienne with a 3–1 win at Anfield before beating Zürich in the semi-final."
+  ],
+  "events": [
+    {
+      "id": "saint-etienne-1977",
+      "title": "Saint-Étienne overcome",
+      "date": "1977-03-16",
+      "detail": "A 3–1 win at Anfield overturned a 1–0 first-leg defeat in the European Cup quarter-final.",
+      "competitionIds": [
+        "european-cup"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "id": "rome-1977",
+      "title": "European champions",
+      "date": "1977-05-25",
+      "detail": "McDermott, Smith and Neal scored in a 3–1 final win over Borussia Mönchengladbach.",
+      "competitionIds": [
+        "european-cup"
+      ],
+      "personIds": [
+        "terry-mcdermott",
+        "tommy-smith",
+        "phil-neal"
+      ],
+      "sourceIds": [
+        "lfch-games",
+        "lfc-europe"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1975-76"
+  ],
+  "sources": [
+    {
+      "id": "lfc-paisley",
+      "label": "Liverpool FC: Bob Paisley, manager",
+      "url": "https://www.liverpoolfc.com/info/bob-paisley-0",
+      "confidence": "high",
+      "claims": "Manager from 1974 to 1983; first-season runners-up finish, the 1976 double, 1977 European Cup and 1979 league record."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1976-77",
+      "url": "https://www.rsssf.org/engpaul/FLA/1976-77.html",
+      "confidence": "high",
+      "claims": "Final First Division standings, points, wins, draws, defeats and goals for and against."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1976-77 results",
+      "url": "https://www.lfchistory.net/season-archive/games/18",
+      "confidence": "high",
+      "claims": "Competitive fixture dates, scores, venues and cup rounds; supports the competition results and dated match events."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1976-77 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/18",
+      "confidence": "high",
+      "claims": "Leading competitive scorer and goals by competition, excluding friendlies."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1976-77 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/18",
+      "confidence": "high",
+      "claims": "Listed incoming and outgoing transfers, clubs and chronology. Summer moves follow the incoming-campaign convention."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1976-77 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/18",
+      "confidence": "high",
+      "claims": "First-team involvement supporting the editorial key-player selection."
+    },
+    {
+      "id": "lfc-europe",
+      "label": "Liverpool FC: European Cup",
+      "url": "https://www.liverpoolfc.com/info/european-cup-champions-league",
+      "confidence": "high",
+      "claims": "First win on 25 May 1977, 3–1 against Borussia Mönchengladbach with McDermott, Smith and Neal scoring; retained on 10 May 1978 through Dalglish against Club Brugge."
+    },
+    {
+      "id": "lfc-shield",
+      "label": "Liverpool FC: Charity and Community Shield",
+      "url": "https://www.liverpoolfc.com/info/charity-community-shield",
+      "confidence": "high",
+      "claims": "Outright winners in 1974 and 1976; shared with Manchester United in 1977. The club attributes the 1974 match to Paisley."
+    },
+    {
+      "id": "lfc-johnson",
+      "label": "Liverpool FC: David Johnson",
+      "url": "https://www.liverpoolfc.com/info/david-johnson",
+      "confidence": "high",
+      "claims": "Signed from Ipswich Town in summer 1976; part of the league and European Cup winning squad."
+    },
+    {
+      "id": "lfc-hansen",
+      "label": "Liverpool FC: Alan Hansen",
+      "url": "https://www.liverpoolfc.com/info/alan-hansen",
+      "confidence": "high",
+      "claims": "His first-team debut was in September 1977, after the campaign in which he signed."
+    },
+    {
+      "id": "afv-scorer",
+      "label": "11v11: Liverpool players, 1976-77",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1977/",
+      "confidence": "high",
+      "claims": "Independent corroboration of Kevin Keegan as leading scorer with 20 competitive goals. Other player totals are not used."
+    }
+  ],
+  "researchNotes": [
+    "Hansen’s May 1977 signing remains in this campaign because competitive matches were still being played. He is not listed as a key player before his debut. Keegan’s June 1977 move to Hamburg is allocated to 1977–78 and is not duplicated here.",
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-paisley, lfc-europe and lfch-games; paragraph 2 — lfch-games, lfc-paisley and lfc-shield; paragraph 3 — lfch-scorers, lfch-transfers, lfc-johnson and lfch-games.",
+    "11v11 agrees on the leading scorer but differs from LFChistory on some other player totals. Those disputed figures are not published; 11v11 is used only to corroborate the leading scorer."
+  ]
+}

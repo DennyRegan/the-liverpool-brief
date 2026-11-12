@@ -1,0 +1,329 @@
+{
+  "season": "1966-67",
+  "reviewedOn": "2026-09-09",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 5,
+    "sourceIds": [
+      "rsssf-league",
+      "lfch-games"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "roger-hunt",
+      "goals": 19,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-squad"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fifth round — lost 1–0 to Everton at Goodison Park.",
+      "sourceIds": [
+        "fchd-fa-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Second round — lost 7–3 on aggregate to Ajax, after eliminating Petrolul Ploiești in a play-off.",
+      "sourceIds": [
+        "rsssf-europe",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Winners — beat Everton 1–0 at Goodison Park.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-shield"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "roger-hunt",
+    "ian-st-john",
+    "peter-thompson",
+    "ian-callaghan",
+    "tommy-lawrence",
+    "ron-yeats",
+    "tommy-smith",
+    "chris-lawler",
+    "geoff-strong",
+    "willie-stevenson",
+    "gordon-milne"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "peter-wall",
+        "club": "Wrexham",
+        "deal": "permanent",
+        "note": "Signed in October 1966; remained outside the first team this season.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-wall"
+        ]
+      },
+      {
+        "personId": "dave-wilson",
+        "club": "Preston North End",
+        "deal": "permanent",
+        "fee": "£20,000",
+        "note": "Signed in February 1967; made one first-team appearance.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfch-wilson",
+          "lfc-wilson"
+        ]
+      },
+      {
+        "personId": "emlyn-hughes",
+        "club": "Blackpool",
+        "deal": "permanent",
+        "fee": "£65,000",
+        "note": "Signed in February 1967 and made ten league appearances before the season ended.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-hughes",
+          "lfch-appearances"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "gordon-milne",
+        "club": "Blackpool",
+        "deal": "permanent",
+        "fee": "£32,000",
+        "note": "Departed in May 1967, after making 40 competitive appearances during the season.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-milne",
+          "lfch-appearances"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool began as league champions and added the Charity Shield with a 1–0 win over Everton at Goodison Park. Roger Hunt supplied the goal. Most of the side that had delivered the 1966 title remained in place, with Ron Yeats, Tommy Smith and Tommy Lawrence at its centre and Ian Callaghan and Peter Thompson regulars on the wings.",
+    "The defence of the championship lasted well into the spring. Liverpool were still top after beating Stoke City on 4 March, but won only two of their final eleven league matches and finished fifth, nine points behind Manchester United. Hunt remained the leading scorer with 19 goals across all competitive matches, including the Shield. Liverpool scored 64 league goals in total.",
+    "Europe brought a much harsher assessment. Liverpool needed a third match in Brussels to overcome Petrolul Ploiești in the opening round of the European Cup. Ajax then won the first leg in Amsterdam 5–1; a 2–2 draw at Anfield left Liverpool out by 7–3 on aggregate. The FA Cup ended with another visit to Goodison Park, where Everton won the fifth-round tie 1–0 in March.",
+    "Bill Shankly had begun to add younger players without yet dismantling his established team. Emlyn Hughes arrived from Blackpool for £65,000 in February and made his debut in the March win over Stoke. Peter Wall, signed from Wrexham in October, was still waiting for his chance, while Dave Wilson’s move from Preston produced only one first-team appearance. Gordon Milne left for Blackpool in May. The season therefore combined a fading title challenge with the first changes to the group that had brought Liverpool back to the top."
+  ],
+  "events": [
+    {
+      "id": "charity-shield-goodison-1966",
+      "title": "The Charity Shield stays on Merseyside",
+      "detail": "Hunt scored the only goal as Liverpool beat FA Cup holders Everton at Goodison Park.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-shield"
+      ],
+      "date": "1966-08-13",
+      "personIds": [
+        "roger-hunt"
+      ],
+      "competitionIds": [
+        "charity-shield"
+      ]
+    },
+    {
+      "id": "petrolul-play-off-1966",
+      "title": "A third match settles the European tie",
+      "detail": "Liverpool beat Petrolul Ploiești 2–0 in Brussels after the two legs had finished 3–3 on aggregate.",
+      "sourceIds": [
+        "lfch-games",
+        "rsssf-europe"
+      ],
+      "date": "1966-10-19",
+      "competitionIds": [
+        "european-cup"
+      ]
+    },
+    {
+      "id": "ajax-european-cup-exit-1966",
+      "title": "Ajax end the European Cup campaign",
+      "detail": "A 5–1 defeat in Amsterdam was followed by a 2–2 draw at Anfield. Hunt scored both Liverpool goals in the return, but Ajax advanced 7–3 on aggregate.",
+      "sourceIds": [
+        "lfch-games",
+        "rsssf-europe"
+      ],
+      "date": "1966-12-14",
+      "personIds": [
+        "roger-hunt"
+      ],
+      "competitionIds": [
+        "european-cup"
+      ]
+    },
+    {
+      "id": "emlyn-hughes-debut-1967",
+      "title": "Hughes makes his Liverpool debut",
+      "detail": "The February signing from Blackpool appeared in the 2–1 league win over Stoke City at Anfield.",
+      "sourceIds": [
+        "lfch-hughes",
+        "lfch-games"
+      ],
+      "date": "1967-03-04",
+      "personIds": [
+        "emlyn-hughes"
+      ],
+      "competitionIds": [
+        "first-division"
+      ]
+    },
+    {
+      "id": "everton-fa-cup-exit-1967",
+      "title": "Everton win the FA Cup derby",
+      "detail": "Liverpool’s FA Cup run ended in the fifth round with a 1–0 defeat at Goodison Park.",
+      "sourceIds": [
+        "lfch-games",
+        "fchd-fa-cup"
+      ],
+      "date": "1967-03-11",
+      "competitionIds": [
+        "fa-cup"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1965-66",
+    "1967-68",
+    "1968-69"
+  ],
+  "sources": [
+    {
+      "id": "lfc-shankly",
+      "label": "Liverpool FC: Bill Shankly",
+      "url": "https://www.liverpoolfc.com/info/bill-shankly",
+      "confidence": "high",
+      "claims": "Manager throughout 1966–67; Liverpool entered the season as the 1965–66 league champions."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1966–67 results",
+      "url": "https://www.lfchistory.net/season-archive/games/8",
+      "confidence": "high",
+      "claims": "Complete competitive results, dates, league positions during the season, Charity Shield victory and absence from the League Cup."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1966–67",
+      "url": "https://www.rsssf.org/engpaul/FLA/1966-67.html",
+      "confidence": "high",
+      "claims": "Fifth in the First Division with 51 points: 19 wins, 13 draws and 10 defeats; 64 goals scored and 47 conceded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1966–67 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/8",
+      "confidence": "high",
+      "claims": "Roger Hunt led Liverpool with 19 competitive goals: 14 league, one FA Cup, three European Cup and one Charity Shield."
+    },
+    {
+      "id": "afv-squad",
+      "label": "11v11: Liverpool players, 1966–67",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1967/",
+      "confidence": "high",
+      "claims": "Independent confirmation of Hunt’s 19 goals and the established first-team core. Other individual goal attributions differ from LFChistory and are not used."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1966–67 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/8",
+      "confidence": "high",
+      "claims": "Season-specific first-team involvement underlying the key-player selection; Hughes made ten league appearances and Wilson one substitute appearance."
+    },
+    {
+      "id": "fchd-fa-cup",
+      "label": "Football Club History Database: FA Cup 1966–67",
+      "url": "https://fchd.info/cups/facup1966-67.htm",
+      "confidence": "high",
+      "claims": "Watford and Aston Villa eliminated before Liverpool lost 1–0 to Everton in the fifth round."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 1966–67",
+      "url": "https://www.rsssf.org/ec/ec196667.html",
+      "confidence": "high",
+      "claims": "Petrolul tie required a neutral play-off; Ajax eliminated Liverpool 7–3 on aggregate in the European Cup second round."
+    },
+    {
+      "id": "lfc-shield",
+      "label": "Liverpool FC: Merseyside’s league and cup double in 1966",
+      "url": "https://www.liverpoolfc.com/news/scouse-double-why-1966-remembered-more-world-cup-liverpool?amp=1",
+      "confidence": "high",
+      "claims": "Context of the August Charity Shield meeting between league champions Liverpool and FA Cup winners Everton."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1966–67 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/8",
+      "confidence": "high",
+      "claims": "Arrivals of Wall, Wilson and Hughes and departure of Milne; Clemence’s June arrival is reassigned to 1967–68 under the summer-transfer convention."
+    },
+    {
+      "id": "lfc-hughes",
+      "label": "Liverpool FC: Emlyn Hughes, Liverpool’s Greatest",
+      "url": "https://www.liverpoolfc.com/news/liverpools-greatest-no17-emlyn-hughes",
+      "confidence": "high",
+      "claims": "Current official article confirms the February 1967 move from Blackpool for £65,000."
+    },
+    {
+      "id": "lfc-wall",
+      "label": "Liverpool FC: Peter Wall",
+      "url": "https://www.liverpoolfc.com/info/peter-wall",
+      "confidence": "high",
+      "claims": "Wall joined from Wrexham in October 1966; his first-team debut did not come until February 1968."
+    },
+    {
+      "id": "lfc-wilson",
+      "label": "Liverpool FC: Dave Wilson",
+      "url": "https://www.liverpoolfc.com/info/dave-wilson",
+      "confidence": "medium",
+      "claims": "Wilson arrived from Preston in February 1967 and made only one first-team appearance. Its mistaken venue for that appearance is not followed."
+    },
+    {
+      "id": "lfch-wilson",
+      "label": "LFChistory: Dave Wilson",
+      "url": "https://www.lfchistory.net/players/446",
+      "confidence": "high",
+      "claims": "Wilson’s £20,000 arrival, solitary substitute appearance against Blackpool at Anfield and later return to Preston."
+    },
+    {
+      "id": "lfc-milne",
+      "label": "Liverpool FC: Gordon Milne",
+      "url": "https://www.liverpoolfc.com/info/gordon-milne",
+      "confidence": "high",
+      "claims": "Milne left for Blackpool in May 1967 after his role in the successful Shankly side."
+    },
+    {
+      "id": "lfch-hughes",
+      "label": "LFChistory: Emlyn Hughes",
+      "url": "https://www.lfchistory.net/players/324",
+      "confidence": "high",
+      "claims": "February 1967 transfer from Blackpool for £65,000 and Liverpool debut on 4 March 1967."
+    }
+  ],
+  "researchNotes": [
+    "Competitive goal totals include the Charity Shield: Hunt’s 19 comprises 14 league goals, one FA Cup goal, three European Cup goals and one Shield goal. Both LFChistory and 11v11 give 19.",
+    "Summer moves are assigned to the season they immediately precede. Ray Clemence’s June 1967 arrival therefore appears in 1967–68, although LFChistory groups it under 1966–67. Milne’s departure is dated on the final matchday, 13 May 1967, and remains here.",
+    "The official Dave Wilson profile places his only appearance away at Blackpool; the match record and LFChistory profile establish Anfield, 13 May 1967. The home venue is used. Wall’s fee is omitted because the transfer listing flags a linked deal with Stuart Mason.",
+    "Key players were selected from their involvement this season. Hughes is recorded as an important arrival and event, rather than being selected solely for his later Liverpool career."
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "season": "2006-07",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "rafael-benitez"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 3,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "peter-crouch",
+      "goals": 18,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-crouch"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Community Shield winners — beat Chelsea 2–1.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-shield"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 3–1 at home to Arsenal.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Quarter-final — lost 6–3 at home to Arsenal.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League runners-up — lost 2–1 to AC Milan in Athens.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "charity-shield"
+  ],
+  "keyPlayerIds": [
+    "peter-crouch",
+    "dirk-kuyt",
+    "steven-gerrard",
+    "jermaine-pennant",
+    "jamie-carragher",
+    "xabi-alonso",
+    "pepe-reina",
+    "john-arne-riise",
+    "steve-finnan",
+    "daniel-agger",
+    "craig-bellamy",
+    "javier-mascherano"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "craig-bellamy",
+        "club": "Blackburn Rovers",
+        "deal": "permanent",
+        "note": "Joined in July 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "fabio-aurelio",
+        "club": "Valencia",
+        "deal": "free",
+        "note": "Joined in July 2006.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-aurelio"
+        ]
+      },
+      {
+        "personId": "jermaine-pennant",
+        "club": "Birmingham City",
+        "deal": "permanent",
+        "note": "Joined in July 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "dirk-kuyt",
+        "club": "Feyenoord",
+        "deal": "permanent",
+        "note": "Joined in August 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "alvaro-arbeloa",
+        "club": "Deportivo La Coruña",
+        "deal": "permanent",
+        "note": "Joined in January 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "javier-mascherano",
+        "club": "West Ham United",
+        "deal": "loan",
+        "note": "Initial loan during the second half of the campaign.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-mascherano"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "bruno-cheyrou",
+        "club": "Rennes",
+        "deal": "permanent",
+        "note": "Left in June 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "fernando-morientes",
+        "club": "Valencia",
+        "deal": "permanent",
+        "note": "Left in July 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "dietmar-hamann",
+        "club": "Bolton Wanderers",
+        "deal": "free",
+        "note": "Left Liverpool in July 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "djimi-traore",
+        "club": "Charlton Athletic",
+        "deal": "permanent",
+        "note": "Left in August 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jan-kromkamp",
+        "club": "PSV Eindhoven",
+        "deal": "permanent",
+        "note": "Left in August 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "stephen-warnock",
+        "club": "Blackburn Rovers",
+        "deal": "permanent",
+        "note": "Left in January 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "salif-diao",
+        "club": "Stoke City",
+        "deal": "free",
+        "note": "Left in January 2007.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool reached another Champions League final under Rafael Benítez, but AC Milan won 2–1 in Athens. The route included a 2–1 away win over Barcelona and a penalty shoot-out victory over Chelsea in the semi-final. Liverpool finished third in the Premier League with 68 points, ahead of Arsenal on goal difference.",
+    "Peter Crouch led the scoring with 18 competitive goals, including the winner in the 2–1 Community Shield victory over Chelsea. Dirk Kuyt, Craig Bellamy and Jermaine Pennant joined in the summer, followed by Álvaro Arbeloa and the loan arrival of Javier Mascherano during the second half of the campaign.",
+    "Arsenal ended both domestic cup runs at Anfield in January, winning 3–1 in the FA Cup third round and 6–3 in the League Cup quarter-final. Off the pitch, Liverpool agreed a takeover by George Gillett and Tom Hicks in February."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2005-06"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 2006-07 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/2006-07.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points, goals and records. Comparisons and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2006-07 games",
+      "url": "https://www.lfchistory.net/season-archive/games/116",
+      "confidence": "high",
+      "claims": "Full competitive fixtures, dates, results and cup stages. Two-leg aggregates and league runs calculated from the fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2006-07 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/116",
+      "confidence": "high",
+      "claims": "All-competitive scoring, including qualifying rounds and other competitive trophies, excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2006-07 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/116",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types; summer moves assigned to incoming campaigns. Date anomalies are documented rather than copied."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 2006-07 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/116",
+      "confidence": "high",
+      "claims": "Competitive appearance totals supporting key-player selections."
+    },
+    {
+      "id": "lfc-benitez",
+      "label": "Liverpool FC: Rafael Benítez",
+      "url": "https://www.liverpoolfc.com/info/rafael-benitez",
+      "confidence": "high",
+      "claims": "Arrival from Valencia in 2004; fifth European Cup, 2006 FA Cup and Super Cup, Athens final, 2008 semi-final and 2009 title challenge. Conditional claims about injuries changing the title outcome are not used."
+    },
+    {
+      "id": "lfc-crouch",
+      "label": "Liverpool FC: Peter Crouch",
+      "url": "https://www.liverpoolfc.com/info/peter-crouch",
+      "confidence": "high",
+      "claims": "Joined from Southampton in 2005; 18 competitive goals in 2006–07, including the Community Shield winner; 2008 Portsmouth move."
+    },
+    {
+      "id": "lfc-mascherano",
+      "label": "Liverpool FC: Javier Mascherano",
+      "url": "https://www.liverpoolfc.com/info/javier-mascherano",
+      "confidence": "high",
+      "claims": "Initial 2007 loan after West Ham; 11 appearances in 2006–07 and a permanent deal in the following season. January agreement is distinguished from February registration in the dated ledger."
+    },
+    {
+      "id": "lfc-shield",
+      "label": "Liverpool FC: Charity and Community Shield",
+      "url": "https://www.liverpoolfc.com/info/charity-community-shield",
+      "confidence": "high",
+      "claims": "Riise and Crouch scored in the 2–1 2006 victory over Chelsea."
+    },
+    {
+      "id": "lfc-aurelio",
+      "label": "Liverpool FC: Fábio Aurélio",
+      "url": "https://www.liverpoolfc.com/info/fabio-aurelio",
+      "confidence": "high",
+      "claims": "Joined on a free transfer in July 2006 after playing under Benítez at Valencia."
+    },
+    {
+      "id": "lfch-chelsea-semi",
+      "label": "LFChistory: Chelsea semi-final, 1 May 2007",
+      "url": "https://www.lfchistory.net/games/5047",
+      "confidence": "high",
+      "claims": "Liverpool won the second leg 1–0 after extra time, then the shoot-out 4–1."
+    },
+    {
+      "id": "abc-takeover",
+      "label": "ABC/Reuters: Liverpool takeover agreement",
+      "url": "https://www.abc.net.au/news/2007-02-07/us-tycoons-agree-liverpool-takeover-deal/2188836",
+      "confidence": "high",
+      "claims": "Liverpool agreed a takeover by George Gillett and Tom Hicks in February 2007. No price or completion-day claim is used."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-benitez, lfch-games, lfch-chelsea-semi and rsssf-league; paragraph 2 — lfch-scorers, lfc-crouch, lfc-shield, lfch-transfers and lfc-mascherano; paragraph 3 — lfch-games and abc-takeover.",
+    "Mascherano’s initial deal was a loan. The club profile refers to January and the ledger records 20 February; the summary avoids conflating the agreement with registration and gives only the part of the season.",
+    "The Community Shield is included, despite retrospective descriptions of the campaign as trophyless. No judgement about the Chelsea goal-line decision from 2005 or the ownership deal’s finances is made.",
+    "The ledger contains a Kirkland date in October 2007 under 2006–07. That anomalous row is not copied. Hamann’s immediate subsequent career is not inferred from Liverpool’s outgoing ledger. Lucas’s preparatory May 2007 arrival belongs to 2007–08."
+  ]
+}
