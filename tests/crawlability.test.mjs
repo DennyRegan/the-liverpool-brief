@@ -30,6 +30,7 @@ test('sitemap lists only the public pages and retained articles', () => {
     ...getLiveBiographies().map(b => `/looking-back/biographies/${b.slug}`),
     ...getLiveMatchRevisited().map(m => `/looking-back/match-revisited/${m.slug}`),
     ...getSeasons().map(s => `/looking-back/seasons/${s.season}`),
+    '/looking-back/seasons/1976-77/map',
     ...[...new Set(getLiveSeriesParts().map(p => p.seriesSlug))].map(slug => `/looking-back/series/${slug}`),
     ...getLiveSeriesParts().map(p => `/looking-back/series/${p.seriesSlug}/${p.slug}`),
     ...getPlayerPageSlugs().map(slug => `/players/${slug}`),

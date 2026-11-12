@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { HistoryHeader, plural } from "@/app/components/HistoryHeader";
 import { getSeasonNames, getSeasons, leagueFinish, seasonLabel, SEASONS_PATH, type LookingBackSeason } from "@/lib/content/seasons";
+import { getSeasonMapSeasons, seasonMapPath } from "@/lib/content/season-map";
 import { socialMetadata } from "@/lib/social-metadata";
 import "../../history.css";
 import "./season.css";
@@ -43,6 +44,7 @@ export default async function SeasonPage({ params }: Params) {
   const names = getSeasonNames();
   const name = (id: string) => names[id];
   const trophies = season.trophyIds.map(name);
+  const hasMap = getSeasonMapSeasons().includes(season.season);
   const dealLabel = { permanent: "", loan: "loan", free: "free transfer", released: "released", retired: "retired" } as const;
   const transferLine = (t: LookingBackSeason["transfers"]["in"][number]) =>
     [name(t.personId), [t.club, dealLabel[t.deal], t.fee].filter(Boolean).join(", "), t.note].filter(Boolean).join(" — ");
@@ -55,6 +57,8 @@ export default async function SeasonPage({ params }: Params) {
         dateline={`${name(season.league.competitionId)} · ${leagueFinish(season.league.position)}`}
         standfirst={`Managed by ${season.managerIds.map(name).join(" and ")}.${season.managerNote ? ` ${season.managerNote}` : ""}`}
       />
+
+      {hasMap && <p className="season-map-link"><Link href={seasonMapPath(season.season)}>The season on a map, game by game <span aria-hidden="true">→</span></Link></p>}
 
       <section aria-labelledby="overview">
         <h2 id="overview" className="season-heading">The season</h2>

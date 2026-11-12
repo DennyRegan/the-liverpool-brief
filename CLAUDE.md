@@ -118,3 +118,15 @@ A weekly long-form write-up of one classic Liverpool match, under Looking Back a
 ## Seasons — 12 November 2026
 
 At Denny's request Seasons now live in Looking Back at `/looking-back/seasons` (a list, newest first) and `/looking-back/seasons/[season]` (one page per season), and are a row on the hub with a line such as "67 seasons · 1959–60 to 2025–26". **This is not a return of the History section**: no eras, entity registry, `/history` routes, search, filters or cross-links. 67 JSON records (1959-60 to 2025-26), restored from the commit before the editorial reset, sit in `content/looking-back/seasons/[season].json`, validated by `SeasonSchema` in `lib/content/seasons.ts` (sources are embedded in each file; `researchNotes` are never shown). People and competitions are stored by ID; `content/looking-back/season-names.json` is a plain id-to-name list, and the build fails if a record uses an ID with no name. `/archive/seasons` redirects permanently to `/looking-back/seasons`. The About page's Looking Back paragraph mentions season-by-season records. Same AI-assisted disclosure as the rest of Looking Back, no stronger.
+
+## Season map — 12 November 2026
+
+At Denny's request a season can have an interactive map at `/looking-back/seasons/[season]/map`: every game a pin on a vintage printed map, with the journey drawn game to game in date order. The first is 1976–77 (62 games, 8 key games). Built from Denny's brief and files in `docs/seasons/` (the brief, the season data and the key-game write-ups; the site never reads that folder).
+
+- A season has a map only when `content/looking-back/season-maps/[season]/` exists: `games.json` (Denny's season data file, unchanged), `map.json` (which games are key and what each opens) and `write-ups/*.md` (one file per piece). `lib/content/season-map.ts` validates them.
+- **The key-game write-ups are Denny's first drafts and are not yet approved.** They must not go to production until he approves them. Never write or reword write-ups or short entries; the short entries for ordinary games are not written yet, so those games show the facts from the data only.
+- **Internal notes never show:** the figure list and check notes at the bottom of the write-ups file, the `flags`, referee and half-time fields, and any attendance whose flag says "unresolved". The build fails if a write-up file contains the figure list.
+- A key game links to its Match Revisited piece only once that piece is visible under the normal go-live rule.
+- No map library or tile service: the base map is drawn once from Natural Earth data by `scripts/build-season-map.mjs` into `lib/season-map/base.json`. One season per page; no season-map index, accounts, comments, sound or autoplay.
+
+See `docs/season-map.md`.

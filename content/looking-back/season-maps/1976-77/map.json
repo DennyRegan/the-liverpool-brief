@@ -1,0 +1,32 @@
+{
+  "season": "1976-77",
+  "keyGames": {
+    "40": {
+      "writeUp": "saint-etienne",
+      "matchRevisited": "supersubs-night-against-saint-etienne"
+    },
+    "44": {
+      "writeUp": "saint-etienne",
+      "matchRevisited": "supersubs-night-against-saint-etienne"
+    },
+    "48": {
+      "writeUp": "fc-zurich"
+    },
+    "52": {
+      "writeUp": "fc-zurich"
+    },
+    "53": {
+      "writeUp": "everton"
+    },
+    "54": {
+      "writeUp": "everton"
+    },
+    "61": {
+      "writeUp": "manchester-united"
+    },
+    "62": {
+      "writeUp": "borussia-monchengladbach",
+      "matchRevisited": "four-days-from-wembley-to-rome"
+    }
+  }
+}
