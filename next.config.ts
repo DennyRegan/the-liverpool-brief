@@ -39,7 +39,7 @@ const nextConfig: NextConfig = {
     "/*": ["./prototype/**/*", "./docs/editorial/**/*"],
   },
   outputFileTracingIncludes: {
-    "/*": ["./content/articles/liverpool/*.md", "./content/archive/liverpool/*.md", "./content/looking-back/*.md", "./content/biographies/*.md", "./content/series/**/*"],
+    "/*": ["./content/articles/liverpool/*.md", "./content/archive/liverpool/*.md", "./content/looking-back/*.md", "./content/biographies/*.md", "./content/series/**/*", "./content/looking-back/seasons/*.json", "./content/looking-back/season-names.json"],
     "/articles/**/opengraph-image": ["./assets/social/**/*", "./public/**/*.{jpg,jpeg,png,webp,avif}"],
     "/archive/**/opengraph-image": ["./assets/social/**/*", "./public/**/*.{jpg,jpeg,png,webp,avif}"],
     "/looking-back/**/opengraph-image": ["./assets/social/**/*", "./node_modules/next/dist/compiled/@vercel/og/Geist-Regular.ttf"],

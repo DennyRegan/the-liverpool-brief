@@ -7,7 +7,7 @@ import { SOCIAL_IMAGE_VERSION, socialImageSize } from './social-card.ts';
 const DEFAULT_SOCIAL_IMAGE = { url: new URL('/opengraph-image.png', SITE_URL).href, width: 1197, height: 630, alt: 'The Liverpool Brief' };
 
 export function socialMetadata(title: string, description: string, path: string): Metadata {
-  const sectionPage = /^\/looking-back\/(on-this-day|on-this-day\/previous|biographies|series|features|match-revisited)$/.test(path);
+  const sectionPage = /^\/looking-back\/(on-this-day|on-this-day\/previous|biographies|series|features|match-revisited|seasons)$/.test(path);
   // Looking Back pieces each have their own vintage-newspaper image route
   // (lib/looking-back-card.tsx): Match Revisited, biographies and series parts too.
   const lookingBackPiece = /^\/looking-back\/(match-revisited|biographies)\/[a-z0-9-]+$/.test(path) || /^\/looking-back\/series\/[a-z0-9-]+\/[a-z0-9-]+$/.test(path);

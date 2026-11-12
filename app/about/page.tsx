@@ -18,7 +18,7 @@ export default function AboutPage() {
       <p>I’m more interested in understanding why something is happening than simply repeating that it happened. Opinion should have an argument behind it. Analysis should help explain what happened and why. Historical pieces should make the past feel worth exploring.</p>
       <p>Whether you come here for today’s Liverpool, an opinion you agree or disagree with, or a match played fifty years ago, the aim is that you leave having read something worthwhile.</p>
       <h2>Looking Back</h2>
-      <p>Looking Back pieces are researched and drafted with AI tools from published sources, then checked and edited before publication.</p>
+      <p>Looking Back brings together series, On This Day pieces, Match Revisited write-ups, biographies and season-by-season records of Liverpool’s past. Looking Back pieces are researched and drafted with AI tools from published sources, then checked and edited before publication.</p>
     </div>
   </main></>;
 }

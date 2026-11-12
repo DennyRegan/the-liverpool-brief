@@ -1,0 +1,241 @@
+{
+  "season": "2017-18",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "jurgen-klopp"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 4,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "mohamed-salah",
+      "goals": 44,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-salah"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 3–2 at home to West Bromwich Albion.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 2–0 away to Leicester City.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League runners-up — lost 3–1 to Real Madrid in Kyiv.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-final",
+        "lfc-klopp"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "mohamed-salah",
+    "roberto-firmino",
+    "sadio-mane",
+    "georginio-wijnaldum",
+    "james-milner",
+    "dejan-lovren",
+    "alex-oxlade-chamberlain",
+    "jordan-henderson",
+    "loris-karius",
+    "trent-alexander-arnold",
+    "andy-robertson",
+    "virgil-van-dijk"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "mohamed-salah",
+        "club": "Roma",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "dominic-solanke",
+        "club": "Chelsea",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "andy-robertson",
+        "club": "Hull City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "alex-oxlade-chamberlain",
+        "club": "Arsenal",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "virgil-van-dijk",
+        "club": "Southampton",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in January 2018."
+      }
+    ],
+    "out": [
+      {
+        "personId": "andre-wisdom",
+        "club": "Derby County",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "lucas-leiva",
+        "club": "Lazio",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "kevin-stewart",
+        "club": "Hull City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mamadou-sakho",
+        "club": "Crystal Palace",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "philippe-coutinho",
+        "club": "Barcelona",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in January 2018."
+      },
+      {
+        "personId": "divock-origi",
+        "club": "Wolfsburg",
+        "deal": "loan",
+        "sourceIds": [
+          "lfc-origi"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool reached the Champions League final and finished fourth in the Premier League with 75 points. Mohamed Salah arrived from Roma and scored 44 goals in all competitions, including 32 in the league. Andy Robertson and Alex Oxlade-Chamberlain also joined in the summer, followed by Virgil van Dijk in January, when Philippe Coutinho left for Barcelona.",
+    "After progressing through qualifying and the group stage, Liverpool eliminated Porto, Manchester City and Roma to reach Kyiv. Real Madrid won the final 3–1: Salah went off injured, Sadio Mané equalised Karim Benzema’s opener, and Gareth Bale scored twice. Firmino and Mané finished the campaign with 27 and 20 goals respectively. At home, Leicester ended the League Cup campaign in the third round and West Bromwich Albion knocked Liverpool out of the FA Cup in the fourth round."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2016-17"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2017-18 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/127",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2017-18 games",
+      "url": "https://www.lfchistory.net/season-archive/games/127",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2017-18 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/127",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2017-18 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/127",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2017-18 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/127",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-klopp",
+      "label": "Liverpool FC: Jürgen Klopp",
+      "url": "https://www.liverpoolfc.com/info/jurgen-klopp",
+      "confidence": "high",
+      "claims": "Manager from October 2015; eighth place and two cup finals in 2015–16, Champions League qualification in 2017, final defeat in 2018, 97 league points and sixth European Cup in 2019."
+    },
+    {
+      "id": "lfc-salah",
+      "label": "Liverpool FC: Mohamed Salah",
+      "url": "https://www.liverpoolfc.com/info/mohamed-salah",
+      "confidence": "high",
+      "claims": "Arrived from Roma in summer 2017; 44 goals in his first season and forced off injured in Kyiv; penalty in the 2019 final and retained league Golden Boot."
+    },
+    {
+      "id": "lfc-origi",
+      "label": "Liverpool FC: Divock Origi",
+      "url": "https://www.liverpoolfc.com/info/divock-origi",
+      "confidence": "high",
+      "claims": "Signed in 2014 and immediately loaned back to Lille for 2014–15; Wolfsburg loan in 2017–18; two goals against Barcelona and final goal against Tottenham in 2019."
+    },
+    {
+      "id": "lfch-final",
+      "label": "LFChistory: 2018 Champions League final",
+      "url": "https://www.lfchistory.net/games/5655",
+      "confidence": "high",
+      "claims": "Real Madrid won 3–1; Mané equalised after Benzema’s opener, before Bale scored twice."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-league, lfch-scorers, lfch-transfers and lfc-salah; paragraph 2 — lfch-games, lfch-final, lfch-scorers, lfc-salah and lfc-klopp.",
+    "Competitive totals include Champions League qualifying. Mané’s exact 20-goal total comes from the scoring ledger; no loose wording suggesting more than 20 is repeated. Salah’s injury is established by the official profile, without speculation about intent or medical causation.",
+    "No transfer fee or record is claimed. Solanke’s arrival is recorded as permanent; no claim of a cost-free move. Origi’s loan is distinguished from a sale."
+  ]
+}

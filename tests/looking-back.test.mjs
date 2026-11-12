@@ -176,7 +176,7 @@ test('keepsakes carry the publication byline and no AI disclosure; the disclosur
   // The share image carries "THE LIVERPOOL BRIEF" as its masthead, never a personal name.
   assert.match(fs.readFileSync('lib/looking-back-card.tsx', 'utf8'), /THE LIVERPOOL BRIEF/);
   assert.doesNotMatch(fs.readFileSync('lib/looking-back-card.tsx', 'utf8'), /Denny Regan|Written with AI|drafted with AI/);
-  for (const file of fs.readdirSync('content/looking-back')) assert.doesNotMatch(fs.readFileSync(path.join('content/looking-back', file), 'utf8'), disclosure);
+  for (const file of fs.readdirSync('content/looking-back').filter(name => name.endsWith('.md'))) assert.doesNotMatch(fs.readFileSync(path.join('content/looking-back', file), 'utf8'), disclosure);
   assert.match(fs.readFileSync('app/about/page.tsx', 'utf8'), /Looking Back pieces are researched and drafted with AI tools from published sources, then checked and edited before publication\./);
 });
 

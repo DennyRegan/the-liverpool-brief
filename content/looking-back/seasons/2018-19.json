@@ -1,0 +1,286 @@
+{
+  "season": "2018-19",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "jurgen-klopp"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 2,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "mohamed-salah",
+      "goals": 27,
+      "sourceIds": [
+        "lfch-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 2–1 away to Wolverhampton Wanderers.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 2–1 at home to Chelsea.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League winners — beat Tottenham Hotspur 2–0 in Madrid.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-final",
+        "lfc-klopp"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "european-cup"
+  ],
+  "keyPlayerIds": [
+    "mohamed-salah",
+    "alisson-becker",
+    "virgil-van-dijk",
+    "sadio-mane",
+    "andy-robertson",
+    "roberto-firmino",
+    "georginio-wijnaldum",
+    "james-milner",
+    "jordan-henderson",
+    "fabinho",
+    "trent-alexander-arnold",
+    "joel-matip",
+    "divock-origi"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "naby-keita",
+        "club": "RB Leipzig",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "fabinho",
+        "club": "Monaco",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "xherdan-shaqiri",
+        "club": "Stoke City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "alisson-becker",
+        "club": "Roma",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "emre-can",
+        "club": "Juventus",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-can"
+        ]
+      },
+      {
+        "personId": "danny-ward",
+        "club": "Leicester City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ragnar-klavan",
+        "club": "Cagliari",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "dominic-solanke",
+        "club": "Bournemouth",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Left in January 2019."
+      },
+      {
+        "personId": "lazar-markovic",
+        "club": "Fulham",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "danny-ings",
+        "club": "Southampton",
+        "deal": "loan",
+        "sourceIds": [
+          "lfc-ings"
+        ]
+      },
+      {
+        "personId": "adam-bogdan",
+        "club": "Hibernian",
+        "deal": "loan",
+        "sourceIds": [
+          "lfc-bogdan"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won their sixth European Cup, beating Tottenham Hotspur 2–0 in Madrid on 1 June with goals from Mohamed Salah and Divock Origi. The semi-final had required a 4–0 Anfield victory to overturn Barcelona’s 3–0 first-leg lead. Origi and Georginio Wijnaldum scored twice each to send Jürgen Klopp’s side into a second successive final.",
+    "The Premier League campaign ended with 97 points, one behind Manchester City. Liverpool won 30 matches, drew seven and lost only once, away to City in January. Salah and Sadio Mané shared the league’s Golden Boot with Pierre-Emerick Aubameyang on 22 goals apiece; Salah led Liverpool’s overall scoring with 27.",
+    "Alisson Becker, Fabinho, Naby Keïta and Xherdan Shaqiri were the summer arrivals. Liverpool conceded 22 league goals, compared with 38 the previous season. Both domestic cup campaigns ended in the third round, against Chelsea in the League Cup and Wolverhampton Wanderers in the FA Cup."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2017-18"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2018-19 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/128",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2018-19 games",
+      "url": "https://www.lfchistory.net/season-archive/games/128",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2018-19 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/128",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2018-19 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/128",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2018-19 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/128",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-klopp",
+      "label": "Liverpool FC: Jürgen Klopp",
+      "url": "https://www.liverpoolfc.com/info/jurgen-klopp",
+      "confidence": "high",
+      "claims": "Manager from October 2015; eighth place and two cup finals in 2015–16, Champions League qualification in 2017, final defeat in 2018, 97 league points and sixth European Cup in 2019."
+    },
+    {
+      "id": "lfc-mane",
+      "label": "Liverpool FC: Sadio Mané",
+      "url": "https://www.liverpoolfc.com/info/sadio-mane",
+      "confidence": "high",
+      "claims": "Joined from Southampton in 2016; 2017 fourth-place finish; shared the 2018–19 Premier League Golden Boot with Salah and Aubameyang on 22 goals."
+    },
+    {
+      "id": "lfc-salah",
+      "label": "Liverpool FC: Mohamed Salah",
+      "url": "https://www.liverpoolfc.com/info/mohamed-salah",
+      "confidence": "high",
+      "claims": "Arrived from Roma in summer 2017; 44 goals in his first season and forced off injured in Kyiv; penalty in the 2019 final and retained league Golden Boot."
+    },
+    {
+      "id": "lfc-origi",
+      "label": "Liverpool FC: Divock Origi",
+      "url": "https://www.liverpoolfc.com/info/divock-origi",
+      "confidence": "high",
+      "claims": "Signed in 2014 and immediately loaned back to Lille for 2014–15; Wolfsburg loan in 2017–18; two goals against Barcelona and final goal against Tottenham in 2019."
+    },
+    {
+      "id": "lfc-ings",
+      "label": "Liverpool FC: Danny Ings",
+      "url": "https://www.liverpoolfc.com/info/danny-ings",
+      "confidence": "high",
+      "claims": "Joined from Burnley in summer 2015; Southampton loan in August 2018 ahead of a permanent move the following year."
+    },
+    {
+      "id": "lfc-can",
+      "label": "Liverpool FC: Emre Can",
+      "url": "https://www.liverpoolfc.com/info/emre-can",
+      "confidence": "high",
+      "claims": "Leverkusen arrival in 2014; joined Juventus after his contract expired in summer 2018."
+    },
+    {
+      "id": "lfc-bogdan",
+      "label": "Liverpool FC: Adam Bogdan",
+      "url": "https://www.liverpoolfc.com/info/adam-bogdan",
+      "confidence": "high",
+      "claims": "Free transfer from Bolton in July 2015; Wigan loan in July 2016 and Hibernian loan for 2018–19."
+    },
+    {
+      "id": "lfch-barcelona",
+      "label": "LFChistory: Liverpool 4–0 Barcelona",
+      "url": "https://www.lfchistory.net/games/5707",
+      "confidence": "high",
+      "claims": "Origi and Wijnaldum scored twice each; 4–3 aggregate victory."
+    },
+    {
+      "id": "lfch-final",
+      "label": "LFChistory: 2019 Champions League final",
+      "url": "https://www.lfchistory.net/games/5708",
+      "confidence": "high",
+      "claims": "2–0 victory over Tottenham in Madrid on 1 June; Salah penalty and Origi goal."
+    },
+    {
+      "id": "lfch-prior-league",
+      "label": "LFChistory: 2017–18 league table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/127",
+      "confidence": "high",
+      "claims": "38 league goals conceded in the preceding season."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-games, lfch-barcelona, lfch-final, lfc-origi and lfc-klopp; paragraph 2 — lfch-league, lfch-games, lfch-scorers, lfc-mane and lfc-klopp; paragraph 3 — lfch-transfers, lfch-league, lfch-prior-league and lfch-games.",
+    "Ings joined Southampton on loan; his permanent transfer belongs to 2019–20. Sepp van den Berg’s June 2019 arrival also belongs to the incoming campaign, despite the archive grouping it with 2018–19.",
+    "The 2019 UEFA Super Cup and Club World Cup are not trophies of 2018–19: they belong to the following campaign. No claim of an unbeaten league season is made."
+  ]
+}

@@ -10,6 +10,7 @@ const { getArticles } = await import('../lib/content/articles.ts');
 const { getArchiveFeatures } = await import('../lib/content/archive.ts');
 const { getNewsletterConfig } = await import('../lib/newsletter-config.ts');
 const { getLiveLookingBack } = await import('../lib/content/looking-back.ts');
+const { getSeasons } = await import('../lib/content/seasons.ts');
 const { getLiveBiographies, getLiveMatchRevisited, getLiveSeriesParts } = await import('../lib/content/history.ts');
 const { getPlayerPageSlugs } = await import('../lib/content/players.ts');
 const { socialMetadata } = await import('../lib/social-metadata.ts');
@@ -21,13 +22,14 @@ const newsletter = { SENDER_PUBLIC_ACCOUNT_ID: 'abc123', SENDER_NEWSLETTER_FORM_
 test('sitemap lists only the public pages and retained articles', () => {
   const entries = sitemap();
   const expected = [
-    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back', '/looking-back/on-this-day', '/looking-back/on-this-day/previous', '/looking-back/biographies', '/looking-back/series', '/looking-back/match-revisited', '/looking-back/features', '/calls',
+    '/', '/about', '/articles', '/regan-on-football', '/matchday', '/looking-back', '/looking-back/on-this-day', '/looking-back/on-this-day/previous', '/looking-back/biographies', '/looking-back/series', '/looking-back/match-revisited', '/looking-back/features', '/looking-back/seasons', '/calls',
     ...(getNewsletterConfig() ? ['/newsletter', '/newsletter/privacy'] : []),
     ...getArticles().map(a => `/articles/${a.slug}`),
     ...getArchiveFeatures().map(a => `/archive/${a.slug}`),
     ...getLiveLookingBack().map(p => `/looking-back/${p.slug}`),
     ...getLiveBiographies().map(b => `/looking-back/biographies/${b.slug}`),
     ...getLiveMatchRevisited().map(m => `/looking-back/match-revisited/${m.slug}`),
+    ...getSeasons().map(s => `/looking-back/seasons/${s.season}`),
     ...[...new Set(getLiveSeriesParts().map(p => p.seriesSlug))].map(slug => `/looking-back/series/${slug}`),
     ...getLiveSeriesParts().map(p => `/looking-back/series/${p.seriesSlug}/${p.slug}`),
     ...getPlayerPageSlugs().map(slug => `/players/${slug}`),

@@ -1,0 +1,236 @@
+{
+  "season": "2019-20",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "jurgen-klopp"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 1,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "mohamed-salah",
+      "goals": 23,
+      "sourceIds": [
+        "lfch-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fifth round — lost 2–0 away to Chelsea.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Quarter-final — lost 5–0 away to Aston Villa.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League round of 16 — lost 4–2 on aggregate to Atlético Madrid.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-super-cup",
+      "kind": "europe",
+      "result": "Winners — beat Chelsea 5–4 on penalties after a 2–2 extra-time draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-adrian"
+      ]
+    },
+    {
+      "competitionId": "fifa-club-world-cup",
+      "kind": "other",
+      "result": "Winners — beat Flamengo 1–0 after extra time.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-firmino"
+      ]
+    },
+    {
+      "competitionId": "charity-shield",
+      "kind": "domestic",
+      "result": "Community Shield runners-up — lost 5–4 on penalties to Manchester City after a 1–1 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-shield"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "premier-league",
+    "european-super-cup",
+    "fifa-club-world-cup"
+  ],
+  "keyPlayerIds": [
+    "mohamed-salah",
+    "roberto-firmino",
+    "sadio-mane",
+    "virgil-van-dijk",
+    "andy-robertson",
+    "trent-alexander-arnold",
+    "georginio-wijnaldum",
+    "jordan-henderson",
+    "fabinho",
+    "alisson-becker",
+    "joe-gomez"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "harvey-elliott",
+        "club": "Fulham",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "adrian",
+        "club": "West Ham United",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-adrian"
+        ]
+      },
+      {
+        "personId": "takumi-minamino",
+        "club": "Red Bull Salzburg",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in January 2020."
+      }
+    ],
+    "out": [
+      {
+        "personId": "danny-ings",
+        "club": "Southampton",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "simon-mignolet",
+        "club": "Club Brugge",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "ryan-kent",
+        "club": "Rangers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool ended their 30-year wait for a league title, finishing with a club-record 99 points, 18 ahead of Manchester City. Jürgen Klopp’s side won 32 league games and lost three. The campaign was interrupted by the COVID-19 pandemic, and the title was secured in June after football resumed. Mohamed Salah finished as the leading scorer with 23 competitive goals.",
+    "Two international trophies preceded the league title. Liverpool beat Chelsea on penalties in the UEFA Super Cup, then won the Club World Cup for the first time. Roberto Firmino scored the winner against Monterrey in the semi-final and the extra-time goal that beat Flamengo 1–0 in the final.",
+    "Atlético Madrid ended the Champions League defence in the last 16. Chelsea knocked Liverpool out of the FA Cup in the fifth round, while Aston Villa won the League Cup quarter-final 5–0. Manchester City had won the Community Shield on penalties."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2018-19"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2019-20 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/129",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2019-20 games",
+      "url": "https://www.lfchistory.net/season-archive/games/129",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2019-20 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/129",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2019-20 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/129",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2019-20 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/129",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-klopp",
+      "label": "Liverpool FC: Jürgen Klopp",
+      "url": "https://www.liverpoolfc.com/info/jurgen-klopp",
+      "confidence": "high",
+      "claims": "Title after the pandemic interruption in 2020; third place in 2021; two cups in 2022; January 2024 announcement of departure and final-season League Cup win."
+    },
+    {
+      "id": "lfc-firmino",
+      "label": "Liverpool FC: Roberto Firmino",
+      "url": "https://www.liverpoolfc.com/info/roberto-firmino",
+      "confidence": "high",
+      "claims": "Winning goals in both 2019 Club World Cup matches; first league title in 30 years in 2020; scored in the 2022–23 Bournemouth and Manchester United wins and left in summer 2023."
+    },
+    {
+      "id": "lfc-adrian",
+      "label": "Liverpool FC: Adrián",
+      "url": "https://www.liverpoolfc.com/info/adrian",
+      "confidence": "high",
+      "claims": "Free transfer from West Ham in 2019; Super Cup win after a 2–2 extra-time draw and 5–4 shoot-out; started the 2022 Community Shield victory."
+    },
+    {
+      "id": "lfc-milner",
+      "label": "Liverpool FC: James Milner",
+      "url": "https://www.liverpoolfc.com/info/james-milner",
+      "confidence": "high",
+      "claims": "Club-record 99 points in 2019–20; both domestic cups in 2021–22; farewell in May 2023."
+    },
+    {
+      "id": "lfch-shield",
+      "label": "LFChistory: 2019 Community Shield",
+      "url": "https://www.lfchistory.net/games/5747",
+      "confidence": "high",
+      "claims": "1–1 draw with Manchester City; Liverpool lost the shoot-out 5–4."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-league, lfch-scorers, lfc-klopp, lfc-firmino and lfc-milner; paragraph 2 — lfch-games, lfc-adrian and lfc-firmino; paragraph 3 — lfch-games and lfch-shield.",
+    "The UEFA Super Cup and Club World Cup belong to this campaign. Competitive totals include both and the Community Shield; shoot-out kicks are excluded.",
+    "Selected transfers only. Ings became a permanent Southampton player after the previous season’s loan. No unverified released-player destination, compensation amount or youth-selection explanation is asserted."
+  ]
+}

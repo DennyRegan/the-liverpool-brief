@@ -3,6 +3,7 @@ import { SiteHeader } from "@/app/components/SiteHeader";
 import { plural } from "@/app/components/HistoryHeader";
 import { BIOGRAPHIES_PATH, getLookingBackHub, MATCH_REVISITED_PATH, SERIES_PATH } from "@/lib/content/history";
 import { formatWeekRange, LOOKING_BACK_PATH, ON_THIS_DAY_PATH } from "@/lib/content/looking-back";
+import { leagueSpan, SEASONS_PATH } from "@/lib/content/seasons";
 import { socialMetadata } from "@/lib/social-metadata";
 import "./history.css";
 
@@ -11,7 +12,7 @@ export const revalidate = 3600;
 
 export const metadata = socialMetadata(
   "Looking Back | The Liverpool Brief",
-  "Series, On This Day, Match Revisited and biographies from Liverpool's past.",
+  "Series, On This Day, Match Revisited, biographies and seasons from Liverpool's past.",
   LOOKING_BACK_PATH,
 );
 
@@ -21,13 +22,14 @@ export const metadata = socialMetadata(
  * week range come from the content files via getLookingBackHub.
  */
 export default function LookingBackHub() {
-  const { series, onThisDay, biographies, matchRevisited } = getLookingBackHub();
+  const { series, onThisDay, biographies, matchRevisited, seasons } = getLookingBackHub();
   const entries = [
     { href: SERIES_PATH, title: "Series", meta: `${plural(series.count, "series", "series")} · ${plural(series.parts, "part")}`, isNew: series.newThisWeek, standfirst: "Longer stories told in parts, one chapter at a time. Currently running: Klopp's Liverpool." },
     { href: ON_THIS_DAY_PATH, title: "On This Day", meta: `This week · ${formatWeekRange(onThisDay.monday, onThisDay.sunday)}`, standfirst: "The anniversaries that fall this week in Liverpool's history, with a fresh set each week." },
     // Match Revisited: listed once it has a live piece.
     ...(matchRevisited ? [{ href: MATCH_REVISITED_PATH, title: "Match Revisited", meta: plural(matchRevisited.count, "match", "matches"), standfirst: "One classic Liverpool match, written up at length every Monday." }] : []),
     { href: BIOGRAPHIES_PATH, title: "Biographies", meta: plural(biographies, "life", "lives"), standfirst: "The people who shaped the club, one life at a time." },
+    ...(seasons ? [{ href: SEASONS_PATH, title: "Seasons", meta: `${plural(seasons.count, "season")} · ${leagueSpan(seasons.oldest, seasons.newest)}`, standfirst: "Every season since 1959–60: the league finish, trophies, top scorer and the story of the campaign." }] : []),
   ];
   return <>
     <SiteHeader active="looking-back" />
@@ -39,7 +41,7 @@ export default function LookingBackHub() {
       </header>
       <section className="lbh-about" aria-label="About Looking Back">
         <p>Looking Back is where The Liverpool Brief goes to the past. Liverpool&rsquo;s history is full of stories that get retold quickly and loosely. These pages take the time to do it properly: researched, checked against the record, and written to be read at length rather than skimmed.</p>
-        <p>The aim is to stay close to what actually happened and who was there, and to say so plainly when the record is thin. There are four ways in.</p>
+        <p>The aim is to stay close to what actually happened and who was there, and to say so plainly when the record is thin. There are five ways in.</p>
       </section>
       <nav aria-label="Looking Back sections">
         <ol className="history-list">

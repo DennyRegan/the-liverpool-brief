@@ -1,0 +1,189 @@
+{
+  "season": "1985-86",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "kenny-dalglish"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "ian-rush",
+      "goals": 33,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorers",
+        "guardian-super-cup"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Everton 3–1 at Wembley.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-fa-cup"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Semi-final — lost 3–2 on aggregate to Queens Park Rangers.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "football-league-super-cup",
+      "kind": "domestic",
+      "result": "Reached the final — the two final legs were played in September 1986, during the next campaign.",
+      "sourceIds": [
+        "lfch-games",
+        "guardian-super-cup"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division",
+    "fa-cup"
+  ],
+  "keyPlayerIds": [
+    "ian-rush",
+    "jan-molby",
+    "alan-hansen",
+    "bruce-grobbelaar",
+    "craig-johnston",
+    "ronnie-whelan",
+    "mark-lawrenson",
+    "jim-beglin",
+    "kenny-dalglish"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "steve-mcmahon",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "note": "Joined in September 1985.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mike-hooper",
+        "club": "Wrexham",
+        "deal": "permanent",
+        "note": "Joined in October 1985.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "alan-kennedy",
+        "club": "Sunderland",
+        "deal": "permanent",
+        "note": "Left in September 1985.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "phil-neal",
+        "club": "Bolton Wanderers",
+        "deal": "free",
+        "note": "Left in December 1985.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Kenny Dalglish became Liverpool’s player-manager in the summer of 1985 and won the club’s first league and FA Cup double in his first season. Liverpool finished two points ahead of Everton in the First Division. Dalglish scored the only goal at Chelsea in the final league match to secure the championship.",
+    "A week later, Liverpool beat Everton 3–1 in the FA Cup final. Ian Rush scored twice and Craig Johnston once as Liverpool came from behind at Wembley. Rush finished with 33 goals across all competitive fixtures, including two in the Football League Super Cup. Steve McMahon joined from Aston Villa, while Alan Kennedy and Phil Neal departed.",
+    "Queens Park Rangers ended Liverpool’s League Cup run in the semi-finals. With English clubs excluded from Europe, Liverpool also played in the new Super Cup and reached its final by beating Norwich City. The final against Everton was postponed until September 1986, so its outcome belongs to the following campaign."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1984-85"
+  ],
+  "sources": [
+    {
+      "id": "lfc-manager",
+      "label": "Liverpool FC: Kenny Dalglish, first spell",
+      "url": "https://www.liverpoolfc.com/info/kenny-dalglish-first-spell",
+      "confidence": "high",
+      "claims": "Appointed player-manager in summer 1985; first league and FA Cup double, Chelsea winner, 1988 championship and Forest 5–0, 1989 cup final and Arsenal title decider. The description of 1986–87 as empty-handed is not used because it excludes the Super Cup and shared Shield."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1985-86",
+      "url": "https://www.rsssf.org/engpaul/FLA/1985-86.html",
+      "confidence": "high",
+      "claims": "Final division, position, points, goals and league record; title margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1985-86 games",
+      "url": "https://www.lfchistory.net/season-archive/games/27",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, scores, venues and cup stages; aggregate scores calculated from legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1985-86 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/27",
+      "confidence": "high",
+      "claims": "All-competitive scoring, including the Shield, Super Cup and Centenary Trophy where played; excludes friendlies and shoot-outs."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1985-86 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/27",
+      "confidence": "high",
+      "claims": "Dated selected senior arrivals and departures; summer allocation explained in notes."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1985-86 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/27",
+      "confidence": "high",
+      "claims": "Competitive involvement supporting key-player selections."
+    },
+    {
+      "id": "lfc-fa-cup",
+      "label": "Liverpool FC: FA Cup",
+      "url": "https://www.liverpoolfc.com/info/fa-cup",
+      "confidence": "high",
+      "claims": "1986 final: Everton beaten 3–1, Rush scoring twice and Johnston once; 1988 loss to Wimbledon; 1989 final: Everton beaten 3–2 after extra time, Aldridge scoring first and substitute Rush twice."
+    },
+    {
+      "id": "guardian-super-cup",
+      "label": "The Guardian / LFChistory: The forgotten story of the English Super Cup",
+      "url": "https://www.lfchistory.net/articles/4130",
+      "confidence": "high",
+      "claims": "Jacob Steinberg, 26 October 2011, republished by LFChistory. Competition for clubs excluded from Europe; Rush scored twice in the final group game at Tottenham. The final was delayed until September 1986: Liverpool won 3–1 and 4–1, 7–2 on aggregate. Some incidental dates in the article differ from the fixture ledger and are not used."
+    },
+    {
+      "id": "afv-scorers",
+      "label": "11v11: Liverpool players, 1985–86",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1986/",
+      "confidence": "high",
+      "claims": "Rush’s 31 goals excluding the Super Cup; the two Super Cup group goals described by the Guardian bring his all-competitive total to 33."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-manager, rsssf-league and lfch-games; paragraph 2 — lfc-fa-cup, lfch-scorers, afv-scorers, guardian-super-cup and lfch-transfers; paragraph 3 — lfch-games and guardian-super-cup.",
+    "Scoring scope resolved: 11v11 lists Rush with 31; LFChistory includes two Super Cup goals for 33. The Guardian account independently describes those two goals at Tottenham.",
+    "The Super Cup’s edition was 1985–86, but its September 1986 final is recorded in 1986–87, when it was played. It is not counted as a trophy won during this campaign."
+  ]
+}

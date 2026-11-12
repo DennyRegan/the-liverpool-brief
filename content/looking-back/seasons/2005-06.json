@@ -1,0 +1,311 @@
+{
+  "season": "2005-06",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "rafael-benitez"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 3,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "steven-gerrard",
+      "goals": 23,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-gerrard"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "european-super-cup",
+      "kind": "europe",
+      "result": "Winners — beat CSKA Moscow 3–1 after extra time.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-super-cup"
+      ]
+    },
+    {
+      "competitionId": "fifa-club-world-cup",
+      "kind": "other",
+      "result": "Runners-up — lost 1–0 to São Paulo in the Club World Championship final.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-world-cup"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Winners — beat West Ham United 3–1 on penalties after a 3–3 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-fa-cup"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 2–1 away to Crystal Palace.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League round of 16 — lost 3–0 on aggregate to Benfica.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "european-super-cup",
+    "fa-cup"
+  ],
+  "keyPlayerIds": [
+    "steven-gerrard",
+    "sami-hyypia",
+    "jamie-carragher",
+    "djibril-cisse",
+    "xabi-alonso",
+    "pepe-reina",
+    "john-arne-riise",
+    "steve-finnan",
+    "luis-garcia",
+    "peter-crouch",
+    "mohamed-sissoko",
+    "harry-kewell"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "bolo-zenden",
+        "club": "Middlesbrough",
+        "deal": "free",
+        "note": "Joined in July 2005.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-zenden"
+        ]
+      },
+      {
+        "personId": "pepe-reina",
+        "club": "Villarreal",
+        "deal": "permanent",
+        "note": "Joined in July 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mohamed-sissoko",
+        "club": "Valencia",
+        "deal": "permanent",
+        "note": "Joined in July 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "peter-crouch",
+        "club": "Southampton",
+        "deal": "permanent",
+        "note": "Joined in July 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jan-kromkamp",
+        "club": "Villarreal",
+        "deal": "permanent",
+        "note": "Joined in a player-exchange deal in January 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "daniel-agger",
+        "club": "Brøndby",
+        "deal": "permanent",
+        "note": "Joined in January 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "robbie-fowler",
+        "club": "Manchester City",
+        "deal": "free",
+        "note": "Returned in January 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "vladimir-smicer",
+        "club": "Bordeaux",
+        "deal": "free",
+        "note": "Left in June 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "el-hadji-diouf",
+        "club": "Bolton Wanderers",
+        "deal": "permanent",
+        "note": "Permanent move in June 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mauricio-pellegrino",
+        "club": "Alavés",
+        "deal": "free",
+        "note": "Left in June 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "antonio-nunez",
+        "club": "Celta Vigo",
+        "deal": "permanent",
+        "note": "Left in July 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "milan-baros",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "note": "Left in August 2005.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "josemi",
+        "club": "Villarreal",
+        "deal": "permanent",
+        "note": "Left in a player-exchange deal in January 2006.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the FA Cup and UEFA Super Cup, and finished third in the Premier League with 82 points, one behind Manchester United. Steven Gerrard scored twice in the FA Cup final against West Ham, including the late equaliser that made it 3–3. Liverpool won the shoot-out 3–1 in Cardiff on 13 May.",
+    "The Super Cup came through a 3–1 extra-time victory over CSKA Moscow in August. In December, São Paulo beat Liverpool 1–0 in the Club World Championship final in Yokohama. Benfica ended their Champions League defence in the round of 16, winning 3–0 on aggregate, while Crystal Palace knocked them out of the League Cup.",
+    "Gerrard was leading scorer with 23 competitive goals and won the PFA Player of the Year award. Pepe Reina, Peter Crouch and Mohamed Sissoko joined in the summer, and Robbie Fowler returned from Manchester City in January. Liverpool won their final nine league matches and conceded 25 league goals across the season."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2004-05"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 2005-06 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/2005-06.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points, goals and records. Comparisons and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2005-06 games",
+      "url": "https://www.lfchistory.net/season-archive/games/115",
+      "confidence": "high",
+      "claims": "Full competitive fixtures, dates, results and cup stages. Two-leg aggregates and league runs calculated from the fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2005-06 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/115",
+      "confidence": "high",
+      "claims": "All-competitive scoring, including qualifying rounds and other competitive trophies, excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2005-06 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/115",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types; summer moves assigned to incoming campaigns. Date anomalies are documented rather than copied."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 2005-06 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/115",
+      "confidence": "high",
+      "claims": "Competitive appearance totals supporting key-player selections."
+    },
+    {
+      "id": "lfc-benitez",
+      "label": "Liverpool FC: Rafael Benítez",
+      "url": "https://www.liverpoolfc.com/info/rafael-benitez",
+      "confidence": "high",
+      "claims": "Arrival from Valencia in 2004; fifth European Cup, 2006 FA Cup and Super Cup, Athens final, 2008 semi-final and 2009 title challenge. Conditional claims about injuries changing the title outcome are not used."
+    },
+    {
+      "id": "lfc-gerrard",
+      "label": "Liverpool FC: Steven Gerrard",
+      "url": "https://www.liverpoolfc.com/info/steven-gerrard",
+      "confidence": "high",
+      "claims": "Olympiacos goal and Istanbul comeback; 23 competitive goals and PFA award in 2005–06, two goals in that FA Cup final; 24 goals and football writers’ award in 2008–09."
+    },
+    {
+      "id": "lfc-crouch",
+      "label": "Liverpool FC: Peter Crouch",
+      "url": "https://www.liverpoolfc.com/info/peter-crouch",
+      "confidence": "high",
+      "claims": "Joined from Southampton in 2005; 18 competitive goals in 2006–07, including the Community Shield winner; 2008 Portsmouth move."
+    },
+    {
+      "id": "lfc-fa-cup",
+      "label": "Liverpool FC: FA Cup",
+      "url": "https://www.liverpoolfc.com/info/fa-cup",
+      "confidence": "high",
+      "claims": "Liverpool beat West Ham 3–1 on penalties after a 3–3 final on 13 May 2006; Gerrard’s late equaliser kept the match alive."
+    },
+    {
+      "id": "lfc-super-cup",
+      "label": "Liverpool FC: UEFA Super Cup",
+      "url": "https://www.liverpoolfc.com/info/uefa-super-cup",
+      "confidence": "high",
+      "claims": "Liverpool beat CSKA Moscow 3–1 after extra time in Monaco on 26 August 2005."
+    },
+    {
+      "id": "lfc-world-cup",
+      "label": "Liverpool FC: FIFA Club World Cup",
+      "url": "https://www.liverpoolfc.com/info/fifa-club-world-cup",
+      "confidence": "high",
+      "claims": "Liverpool lost the 2005 final 1–0 to São Paulo in Yokohama after beating Saprissa in the semi-final."
+    },
+    {
+      "id": "lfc-zenden",
+      "label": "Liverpool FC: Bolo Zenden",
+      "url": "https://www.liverpoolfc.com/info/bolo-zenden",
+      "confidence": "high",
+      "claims": "Free transfer from Middlesbrough in July 2005."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-fa-cup, lfc-gerrard and lfch-games; paragraph 2 — lfc-super-cup, lfc-world-cup and lfch-games; paragraph 3 — lfch-scorers, lfc-gerrard, lfch-transfers, lfch-games and rsssf-league.",
+    "The nine-match winning run concerns league games, not all competitions. Gerrard’s total includes qualifying matches and the Club World Championship; shoot-out kicks are excluded.",
+    "The FIFA tournament has its own competition identity, distinct from the earlier Intercontinental Cup. Its 2005 name is preserved in the result. Mark González’s contractual and playing-arrival chronology is not inferred from the transfer ledger; his transfer is omitted from this selected list."
+  ]
+}

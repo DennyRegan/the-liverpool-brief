@@ -1,0 +1,281 @@
+{
+  "season": "1963-64",
+  "reviewedOn": "2026-09-09",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "eflt-season",
+      "lfc-title-history"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "roger-hunt",
+      "goals": 33,
+      "sourceIds": [
+        "lfchistory-scorers",
+        "lfc-hunt-totals"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Quarter-finals: lost 2–1 at home to Swansea Town.",
+      "sourceIds": [
+        "lfchistory-results",
+        "eflt-season"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division"
+  ],
+  "keyPlayerIds": [
+    "roger-hunt",
+    "ian-st-john",
+    "alf-arrowsmith",
+    "peter-thompson",
+    "ian-callaghan",
+    "ron-yeats",
+    "tommy-lawrence",
+    "gerry-byrne",
+    "gordon-milne",
+    "willie-stevenson",
+    "ronnie-moran"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "peter-thompson",
+        "club": "Preston North End",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfc-thompson"
+        ],
+        "fee": "£37,000",
+        "note": "Joined in August 1963 and played every league match."
+      },
+      {
+        "personId": "phil-chisnall",
+        "club": "Manchester United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfc-chisnall"
+        ],
+        "fee": "£25,000",
+        "note": "Signed in April 1964; his competitive Liverpool debut came the following season."
+      }
+    ],
+    "out": [
+      {
+        "personId": "allan-jones",
+        "club": "Brentford",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-jones"
+        ],
+        "fee": "£5,000",
+        "note": "The reserve full-back left in August 1963."
+      },
+      {
+        "personId": "kevin-lewis",
+        "club": "Huddersfield Town",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "lfchistory-lewis"
+        ],
+        "fee": "£18,000",
+        "note": "Departed in August after Thompson’s arrival."
+      },
+      {
+        "personId": "jim-furnell",
+        "club": "Arsenal",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "express-furnell"
+        ],
+        "note": "Moved in November 1963. The reported fee differs between sources and is omitted."
+      },
+      {
+        "personId": "jimmy-melia",
+        "club": "Wolverhampton Wanderers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfchistory-transfers",
+          "melia-report"
+        ],
+        "fee": "£48,000",
+        "note": "Transferred in March 1964 after losing his place to Alf Arrowsmith."
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the First Division in only their second season back in the top flight, ending a 17-year wait for the championship. Bill Shankly added Peter Thompson from Preston North End in August, giving the attack a regular left-wing partner for Ian Callaghan. Thompson played all 42 league matches; Kevin Lewis left for Huddersfield soon after his arrival.",
+    "An uneven start gave way to a powerful scoring campaign. Roger Hunt finished with 31 league goals and 33 in all competitive matches, while Ian St John scored 21 in the league. Alf Arrowsmith’s emergence added another 15 league goals, and Jimmy Melia moved to Wolves in March. Liverpool scored 92 league goals altogether, with Ron Yeats captaining a side built around the players Shankly had assembled during promotion and the return to the First Division.",
+    "The FA Cup ended in a 2–1 quarter-final defeat by Swansea Town at Anfield, but Liverpool recovered from a March league defeat at Fulham to win their next seven matches. The last of those, a 5–0 home win over Arsenal on 18 April, secured the title with three games remaining. Thompson scored twice. Liverpool finished four points ahead of Manchester United and qualified for their first European Cup campaign: promotion had been followed by a national championship within two years."
+  ],
+  "events": [
+    {
+      "id": "thompson-arrives",
+      "title": "Peter Thompson joins from Preston",
+      "date": "1963-08-14",
+      "detail": "The £37,000 signing became an ever-present in the league during his first Liverpool season.",
+      "sourceIds": [
+        "lfchistory-transfers",
+        "lfc-thompson"
+      ],
+      "personIds": [
+        "peter-thompson"
+      ]
+    },
+    {
+      "id": "swansea-cup-exit",
+      "title": "Swansea end the FA Cup run",
+      "date": "1964-02-29",
+      "detail": "Second Division Swansea Town won 2–1 at Anfield in the sixth round, the quarter-final stage.",
+      "sourceIds": [
+        "lfchistory-results",
+        "eflt-season"
+      ],
+      "competitionIds": [
+        "fa-cup"
+      ]
+    },
+    {
+      "id": "shankly-first-title",
+      "title": "Shankly’s first league championship",
+      "date": "1964-04-18",
+      "detail": "Liverpool beat Arsenal 5–0 at Anfield to secure the title. Peter Thompson scored twice; Ian St John, Alf Arrowsmith and Roger Hunt also scored.",
+      "sourceIds": [
+        "lfchistory-results",
+        "lfc-arsenal-title"
+      ],
+      "personIds": [
+        "bill-shankly",
+        "peter-thompson",
+        "ian-st-john",
+        "alf-arrowsmith",
+        "roger-hunt"
+      ],
+      "competitionIds": [
+        "first-division"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1961-62",
+    "1962-63",
+    "1964-65",
+    "1965-66"
+  ],
+  "sources": [
+    {
+      "id": "lfchistory-results",
+      "label": "LFChistory: 1963–64 results",
+      "url": "https://www.lfchistory.net/season-archive/games/5",
+      "confidence": "high",
+      "claims": "Match dates, seven consecutive wins from 20 March to 18 April, Arsenal result, Swansea quarter-final and competitions entered."
+    },
+    {
+      "id": "lfchistory-scorers",
+      "label": "LFChistory: 1963–64 goalscorers",
+      "url": "https://www.lfchistory.net/SeasonArchive/Goalscorers/5",
+      "confidence": "high",
+      "claims": "Hunt 33 competitive goals (31 league, two FA Cup); St John 22 and Arrowsmith 19 in all competitions."
+    },
+    {
+      "id": "eflt-season",
+      "label": "English Football League Tables: 1963–64",
+      "url": "https://www.englishfootballleaguetables.co.uk/final/f1963-64.html",
+      "confidence": "high",
+      "claims": "First place, 57 points, four-point margin, 92 league goals, FA Cup sixth round and no League Cup entry."
+    },
+    {
+      "id": "lfc-title-history",
+      "label": "Liverpool FC: history of the league titles",
+      "url": "https://www.liverpoolfc.com/news/features/402698-a-history-of-liverpool-s-league-title-wins",
+      "confidence": "high",
+      "claims": "First Division champions in 1963–64; league record and 31 league goals for Hunt, 21 for St John and 15 for Arrowsmith."
+    },
+    {
+      "id": "lfc-arsenal-title",
+      "label": "Liverpool FC: the Arsenal win that sealed the title",
+      "url": "https://www.liverpoolfc.com/news/features/331971-six-memorable-wins-over-arsenal-at-anfield",
+      "confidence": "high",
+      "claims": "The 5–0 win secured the championship with three matches remaining; individual goalscorers."
+    },
+    {
+      "id": "lfchistory-transfers",
+      "label": "LFChistory: 1963–64 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/5",
+      "confidence": "high",
+      "claims": "Full season transfer register: arrivals, departures, dates and reported fees. Furnell’s fee is disputed against the contemporary report."
+    },
+    {
+      "id": "lfc-thompson",
+      "label": "Liverpool FC: Peter Thompson profile",
+      "url": "https://www.liverpoolfc.com/info/peter-thompson",
+      "confidence": "high",
+      "claims": "Preston arrival in 1963, immediate first-team role and every league match in the title-winning season. The fee and day come from the transfer register."
+    },
+    {
+      "id": "lfc-chisnall",
+      "label": "Liverpool FC: Phil Chisnall profile",
+      "url": "https://www.liverpoolfc.com/info/phil-chisnall",
+      "confidence": "high",
+      "claims": "Joined from Manchester United in April 1964, with his debut in the Charity Shield the following season. The fee comes from the transfer register."
+    },
+    {
+      "id": "melia-report",
+      "label": "Contemporary report: Wolves buy Jimmy Melia",
+      "url": "https://www.lfchistory.net/articles/3744",
+      "confidence": "high",
+      "claims": "A reproduced contemporary report independently supports the £48,000 transfer to Wolves in March 1964."
+    },
+    {
+      "id": "express-furnell",
+      "label": "Contemporary report: Furnell to Arsenal",
+      "url": "https://playupliverpool.com/1963/11/21/furnell-to-the-gunners/",
+      "confidence": "medium",
+      "claims": "Daily Express report transcribed by Play Up Liverpool: November move to Arsenal, but £16,000 rather than the £15,000 in LFChistory."
+    },
+    {
+      "id": "lfchistory-lewis",
+      "label": "LFChistory: Kevin Lewis profile",
+      "url": "https://www.lfchistory.net/players/358",
+      "confidence": "high",
+      "claims": "Lewis’s established first-team role and August 1963 departure to Huddersfield after Thompson’s arrival."
+    },
+    {
+      "id": "lfchistory-jones",
+      "label": "LFChistory: Allan Jones profile",
+      "url": "https://www.lfchistory.net/players/336",
+      "confidence": "high",
+      "claims": "Jones’s five senior appearances, including four in 1962–63, and departure for Brentford in August 1963."
+    },
+    {
+      "id": "lfc-hunt-totals",
+      "label": "Liverpool FC: Roger Hunt’s 30-goal seasons",
+      "url": "https://www.liverpoolfc.com/news/announcements/290697-lfc-s-30-goal-club-roger-hunt",
+      "confidence": "high",
+      "claims": "Official confirmation of Hunt’s 33 competitive goals in 1963-64."
+    }
+  ],
+  "researchNotes": [
+    "Top scorer means all competitive first-team matches: Hunt’s 33 comprises 31 league and two FA Cup goals. There was no Charity Shield appearance this season.",
+    "Jim Furnell’s Arsenal fee is £15,000 in LFChistory’s transfer register but £16,000 in the contemporary Daily Express transcription. The published transfer omits the fee rather than choosing between them.",
+    "The significant senior transfer list includes all four departures in LFChistory’s season register. John Sealey’s September 1963 move from Warrington Town is omitted as a developmental signing; he made only one subsequent Liverpool senior appearance.",
+    "No European or League Cup section is created because Liverpool did not participate in either competition. The 1964 Charity Shield belongs to the following season."
+  ]
+}

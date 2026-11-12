@@ -1,0 +1,228 @@
+{
+  "season": "1997-98",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "roy-evans"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 3,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "michael-owen",
+      "goals": 23,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-owen"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 3–1 at home to Coventry City.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Semi-final — lost 3–2 on aggregate to Middlesbrough.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Second round — lost 3–2 on aggregate to Strasbourg.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "michael-owen",
+    "steve-mcmanaman",
+    "paul-ince",
+    "david-james",
+    "oyvind-leonhardsen",
+    "karl-heinz-riedle",
+    "dominic-matteo",
+    "stig-inge-bjornebye",
+    "steve-harkness",
+    "bjorn-tore-kvarme",
+    "robbie-fowler"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "oyvind-leonhardsen",
+        "club": "Wimbledon",
+        "deal": "permanent",
+        "note": "Joined in June 1997.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "danny-murphy",
+        "club": "Crewe Alexandra",
+        "deal": "permanent",
+        "note": "Joined in July 1997.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "paul-ince",
+        "club": "Internazionale",
+        "deal": "permanent",
+        "note": "Joined in July 1997.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "karl-heinz-riedle",
+        "club": "Borussia Dortmund",
+        "deal": "permanent",
+        "note": "Joined in July 1997.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "brad-friedel",
+        "club": "Columbus Crew",
+        "deal": "permanent",
+        "note": "Joined in December 1997.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "stan-collymore",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "note": "Left on 13 May 1997 after the previous campaign.",
+        "sourceIds": [
+          "lfch-prior-transfers",
+          "lfc-collymore"
+        ]
+      },
+      {
+        "personId": "john-barnes",
+        "club": "Newcastle United",
+        "deal": "free",
+        "note": "Left in August 1997.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mark-kennedy",
+        "club": "Wimbledon",
+        "deal": "permanent",
+        "note": "Left in March 1998.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished third in the Premier League under Roy Evans, taking 65 points, 13 fewer than champions Arsenal. Michael Owen was the club’s leading scorer with 23 competitive goals. His 18 league goals earned a share of the Premier League Golden Boot with Dion Dublin and Chris Sutton.",
+    "Paul Ince arrived from Internazionale, Karl-Heinz Riedle from Borussia Dortmund and Øyvind Leonhardsen from Wimbledon. Danny Murphy also joined from Crewe Alexandra. Stan Collymore moved to Aston Villa after the previous campaign, and John Barnes left for Newcastle United in August.",
+    "Liverpool reached the League Cup semi-final but lost 3–2 on aggregate to Middlesbrough. Coventry City ended their FA Cup run in the third round with a 3–1 win at Anfield, while Strasbourg won their UEFA Cup second-round tie 3–2 on aggregate. Liverpool’s final two home league matches brought a 5–0 win over West Ham and a 4–0 victory over Arsenal."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1996-97"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 1997-98 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1997-98.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points and goals. Gaps and comparisons are arithmetic from the final table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1997-98 games",
+      "url": "https://www.lfchistory.net/season-archive/games/40",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, results and cup stages. Aggregates calculated from the two legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1997-98 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/40",
+      "confidence": "high",
+      "claims": "All-competitive goal totals, excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1997-98 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/40",
+      "confidence": "high",
+      "claims": "Selected senior transfers, dates, clubs and deal types. Preparatory summer moves allocated to the incoming season."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1997-98 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/40",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting key-player selections."
+    },
+    {
+      "id": "lfc-evans",
+      "label": "Liverpool FC: Roy Evans, manager",
+      "url": "https://www.liverpoolfc.com/info/roy-evans-0",
+      "confidence": "high",
+      "claims": "First full season brought fourth place and the League Cup; subsequent league finishes, 1996 FA Cup final defeat, joint management in 1998 and departure on 12 November."
+    },
+    {
+      "id": "lfc-owen",
+      "label": "Liverpool FC: Michael Owen",
+      "url": "https://www.liverpoolfc.com/info/michael-owen",
+      "confidence": "high",
+      "claims": "Scoring debut at Wimbledon in May 1997; 23 competitive goals in each of 1997–98 and 1998–99."
+    },
+    {
+      "id": "pl-golden-boot",
+      "label": "Premier League: Golden Boot winners",
+      "url": "https://www.premierleague.com/en/news/1206108",
+      "confidence": "high",
+      "claims": "Owen shared the 1997–98 Golden Boot with Dublin and Sutton and the 1998–99 award with Yorke and Hasselbaink, all with 18 league goals."
+    },
+    {
+      "id": "lfc-collymore",
+      "label": "Liverpool FC: Stan Collymore",
+      "url": "https://www.liverpoolfc.com/info/stan-collymore",
+      "confidence": "high",
+      "claims": "Summer 1995 arrival from Nottingham Forest; 19 competitive goals in 1995–96; stoppage-time winner in the 3 April 1996 Newcastle match; May 1997 move to Aston Villa."
+    },
+    {
+      "id": "lfch-prior-transfers",
+      "label": "LFChistory: 1996–97 transfer ledger",
+      "url": "https://www.lfchistory.net/season-archive/transfers/39",
+      "confidence": "high",
+      "claims": "Collymore left for Aston Villa on 13 May 1997 after the final competitive match; allocated to the incoming season."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-evans, lfch-scorers, lfc-owen and pl-golden-boot; paragraph 2 — lfch-transfers, lfch-prior-transfers and lfc-collymore; paragraph 3 — lfch-games.",
+    "Owen’s 18 is the league total; 23 is his competitive total. The Golden Boot was shared, not won outright. No unverified player-award or transfer-fee claim is included."
+  ]
+}

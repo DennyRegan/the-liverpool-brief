@@ -1,0 +1,192 @@
+{
+  "season": "1996-97",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "roy-evans"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 4,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "robbie-fowler",
+      "goals": 31,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-fowler"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 4–2 away to Chelsea.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Quarter-final — lost 2–1 away to Middlesbrough.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup-winners-cup",
+      "kind": "europe",
+      "result": "Semi-final — lost 3–2 on aggregate to Paris Saint-Germain.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "robbie-fowler",
+    "steve-mcmanaman",
+    "stan-collymore",
+    "david-james",
+    "stig-inge-bjornebye",
+    "jason-mcateer",
+    "john-barnes",
+    "mark-wright",
+    "michael-thomas",
+    "dominic-matteo",
+    "patrik-berger"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "patrik-berger",
+        "club": "Borussia Dortmund",
+        "deal": "permanent",
+        "note": "Joined in August 1996.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "bjorn-tore-kvarme",
+        "club": "Rosenborg",
+        "deal": "free",
+        "note": "Joined in January 1997.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfch-kvarme"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "ian-rush",
+        "club": "Leeds United",
+        "deal": "free",
+        "note": "Left on 20 May 1996, after the previous campaign.",
+        "sourceIds": [
+          "lfch-prior-transfers"
+        ]
+      },
+      {
+        "personId": "john-scales",
+        "club": "Tottenham Hotspur",
+        "deal": "permanent",
+        "note": "Left in December 1996.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished fourth in the Premier League, seven points behind champions Manchester United. They took 68 points, the same total as Newcastle United and Arsenal, but had the lowest goal difference of the three. Roy Evans’s side also reached the Cup Winners’ Cup semi-final, losing 3–2 on aggregate to Paris Saint-Germain despite winning the home leg 2–0.",
+    "Robbie Fowler scored 31 competitive goals, his third consecutive season with at least 30. Patrik Berger joined from Borussia Dortmund and Bjørn Tore Kvarme arrived from Rosenborg, while Ian Rush moved to Leeds United before the campaign. Michael Owen scored on his debut in the 2–1 defeat at Wimbledon on 6 May.",
+    "Chelsea knocked Liverpool out of the FA Cup in the fourth round with a 4–2 win, and Middlesbrough won their League Cup quarter-final 2–1. Liverpool again beat Newcastle 4–3 at Anfield, this time on 10 March, but finished the league season with a 1–1 draw at Sheffield Wednesday."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1995-96"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 1996-97 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1996-97.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points and goals. Gaps and comparisons are arithmetic from the final table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1996-97 games",
+      "url": "https://www.lfchistory.net/season-archive/games/39",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, results and cup stages. Aggregates calculated from the two legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1996-97 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/39",
+      "confidence": "high",
+      "claims": "All-competitive goal totals, excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1996-97 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/39",
+      "confidence": "high",
+      "claims": "Selected senior transfers, dates, clubs and deal types. Preparatory summer moves allocated to the incoming season."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1996-97 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/39",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting key-player selections."
+    },
+    {
+      "id": "lfc-evans",
+      "label": "Liverpool FC: Roy Evans, manager",
+      "url": "https://www.liverpoolfc.com/info/roy-evans-0",
+      "confidence": "high",
+      "claims": "First full season brought fourth place and the League Cup; subsequent league finishes, 1996 FA Cup final defeat, joint management in 1998 and departure on 12 November."
+    },
+    {
+      "id": "lfc-fowler",
+      "label": "Liverpool FC: Robbie Fowler",
+      "url": "https://www.liverpoolfc.com/info/robbie-fowler",
+      "confidence": "high",
+      "claims": "31 competitive goals in 1994–95, 36 in 1995–96 and 31 in 1996–97. The exact timing of the Arsenal hat-trick is not used."
+    },
+    {
+      "id": "lfc-owen",
+      "label": "Liverpool FC: Michael Owen",
+      "url": "https://www.liverpoolfc.com/info/michael-owen",
+      "confidence": "high",
+      "claims": "Scoring debut at Wimbledon in May 1997; 23 competitive goals in each of 1997–98 and 1998–99."
+    },
+    {
+      "id": "lfch-kvarme",
+      "label": "LFChistory: Bjørn Tore Kvarme",
+      "url": "https://www.lfchistory.net/players/350",
+      "confidence": "high",
+      "claims": "Joined on a free transfer from Rosenborg on 9 January 1997."
+    },
+    {
+      "id": "lfch-prior-transfers",
+      "label": "LFChistory: 1995–96 transfer ledger",
+      "url": "https://www.lfchistory.net/season-archive/transfers/37",
+      "confidence": "high",
+      "claims": "Ian Rush joined Leeds United on a free transfer on 20 May 1996; allocated here as preparation for 1996–97."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfch-games and lfc-evans; paragraph 2 — lfch-scorers, lfc-fowler, lfch-transfers, lfch-kvarme, lfch-prior-transfers, lfc-owen and lfch-games; paragraph 3 — lfch-games.",
+    "The LFChistory archive ID is 39, not 38. Collymore’s 13 May 1997 departure followed the 11 May final match and is allocated to the incoming 1997–98 season. No unverified injury explanation or causal account of the title race is included."
+  ]
+}

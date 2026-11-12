@@ -1,0 +1,219 @@
+{
+  "season": "2021-22",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "jurgen-klopp"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 2,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "mohamed-salah",
+      "goals": 31,
+      "sourceIds": [
+        "lfch-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Chelsea 6–5 on penalties after a 0–0 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-fa-final",
+        "lfc-thiago"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Chelsea 11–10 on penalties after a 0–0 extra-time draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-league-cup-final"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League runners-up — lost 1–0 to Real Madrid at the Stade de France.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "fa-cup",
+    "league-cup"
+  ],
+  "keyPlayerIds": [
+    "mohamed-salah",
+    "sadio-mane",
+    "diogo-jota",
+    "jordan-henderson",
+    "alisson-becker",
+    "virgil-van-dijk",
+    "fabinho",
+    "andy-robertson",
+    "trent-alexander-arnold",
+    "joel-matip",
+    "thiago-alcantara",
+    "ibrahima-konate",
+    "luis-diaz",
+    "caoimhin-kelleher"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "ibrahima-konate",
+        "club": "RB Leipzig",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "luis-diaz",
+        "club": "Porto",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ],
+        "note": "Joined in January 2022."
+      }
+    ],
+    "out": [
+      {
+        "personId": "marko-grujic",
+        "club": "Porto",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "harry-wilson",
+        "club": "Fulham",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "xherdan-shaqiri",
+        "club": "Lyon",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the FA Cup and League Cup, beating Chelsea on penalties after goalless finals: 6–5 in the FA Cup and 11–10 in the League Cup. In the Premier League they finished second with 92 points, one behind Manchester City. The campaign included 5–0 and 4–0 league wins over Manchester United.",
+    "Ibrahima Konaté arrived in the summer and Luis Díaz in January. Mohamed Salah scored 31 competitive goals, including 23 in the league, earning a share of the Golden Boot alongside the Playmaker award for 13 assists. Liverpool won all six Champions League group games and eliminated Inter, Benfica and Villarreal before losing the final 1–0 to Real Madrid.",
+    "Supporters faced dangerous crowding and police sprays outside the Stade de France. The independent review published in February 2023 found UEFA primarily responsible for the safety failures. UEFA also apologised for messages that had unjustly blamed Liverpool fans."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2020-21"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2021-22 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/131",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2021-22 games",
+      "url": "https://www.lfchistory.net/season-archive/games/131",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2021-22 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/131",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2021-22 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/131",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2021-22 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/131",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-klopp",
+      "label": "Liverpool FC: Jürgen Klopp",
+      "url": "https://www.liverpoolfc.com/info/jurgen-klopp",
+      "confidence": "high",
+      "claims": "Title after the pandemic interruption in 2020; third place in 2021; two cups in 2022; January 2024 announcement of departure and final-season League Cup win."
+    },
+    {
+      "id": "lfc-thiago",
+      "label": "Liverpool FC: Thiago Alcântara",
+      "url": "https://www.liverpoolfc.com/info/thiago-alcantara",
+      "confidence": "high",
+      "claims": "Joined from Bayern in September 2020; unbeaten final ten league games in 2021; 6–5 shoot-out victory in the 2022 FA Cup final."
+    },
+    {
+      "id": "lfc-salah",
+      "label": "Liverpool FC: Mohamed Salah",
+      "url": "https://www.liverpoolfc.com/info/mohamed-salah",
+      "confidence": "high",
+      "claims": "2021–22 league Golden Boot with 23 goals and Playmaker award with 13 assists; scored twice in the March 2023 win over Manchester United."
+    },
+    {
+      "id": "lfch-league-cup-final",
+      "label": "LFChistory: 2022 League Cup final",
+      "url": "https://www.lfchistory.net/games/5872",
+      "confidence": "high",
+      "claims": "Goalless after extra time; Liverpool beat Chelsea 11–10 on penalties."
+    },
+    {
+      "id": "lfch-fa-final",
+      "label": "LFChistory: 2022 FA Cup final",
+      "url": "https://www.lfchistory.net/games/5880",
+      "confidence": "high",
+      "claims": "Goalless final against Chelsea; Liverpool won the shoot-out 6–5."
+    },
+    {
+      "id": "uefa-paris-review",
+      "label": "UEFA: independent review of the 2022 final",
+      "url": "https://editorial.uefa.com/resources/027e-174e17fd7030-a45785447d2f-1000/uclf22_independent_review_report.pdf",
+      "confidence": "high",
+      "claims": "Executive summary, pages 9–11: dangerous crowding and police sprays; section 8.4.2.1, page 182: UEFA’s primary responsibility. Published February 2023."
+    },
+    {
+      "id": "uefa-paris-response",
+      "label": "UEFA: response to the independent review",
+      "url": "https://www.uefa.com/news-media/news/027e-174e2887a79e-93fd3647e2ac-1000--uefa-welcomes-publication-of-independent-review-into-even/",
+      "confidence": "high",
+      "claims": "13 February 2023 publication date and apology for messages unjustly blaming Liverpool supporters."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-games, lfch-fa-final, lfch-league-cup-final, lfc-thiago and lfch-league; paragraph 2 — lfch-transfers, lfch-scorers, lfc-salah and lfch-games; paragraph 3 — uefa-paris-review and uefa-paris-response.",
+    "The Paris finding is explicitly retrospective. Initial allegations against supporters are not repeated as fact. The primary review, rather than early press statements, establishes the safety account.",
+    "The fixture archive was read through its legacy /SeasonArchive/Games/131 route after the canonical URL failed; it redirected to the canonical page. Transfer selection omits destinations not independently established in the research."
+  ]
+}

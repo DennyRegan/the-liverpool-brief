@@ -1,0 +1,254 @@
+{
+  "season": "1998-99",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "roy-evans",
+    "gerard-houllier"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 7,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "michael-owen",
+      "goals": 23,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-owen"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–1 away to Manchester United.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 3–1 at home to Tottenham Hotspur.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Third round — lost 4–1 on aggregate to Celta Vigo.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "michael-owen",
+    "jamie-carragher",
+    "patrik-berger",
+    "paul-ince",
+    "jamie-redknapp",
+    "karl-heinz-riedle",
+    "steve-staunton",
+    "vegard-heggem",
+    "robbie-fowler",
+    "david-james",
+    "steve-mcmanaman"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "sean-dundee",
+        "club": "Karlsruher SC",
+        "deal": "permanent",
+        "note": "Joined in June 1998.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steve-staunton",
+        "club": "Aston Villa",
+        "deal": "free",
+        "note": "Returned in July 1998.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-staunton"
+        ]
+      },
+      {
+        "personId": "vegard-heggem",
+        "club": "Rosenborg",
+        "deal": "permanent",
+        "note": "Joined in July 1998.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "rigobert-song",
+        "club": "Salernitana",
+        "deal": "permanent",
+        "note": "Joined in January 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "djimi-traore",
+        "club": "Laval",
+        "deal": "permanent",
+        "note": "Joined in February 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "neil-ruddock",
+        "club": "West Ham United",
+        "deal": "permanent",
+        "note": "Left in July 1998.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "michael-thomas",
+        "club": "Benfica",
+        "deal": "free",
+        "note": "Left in August 1998.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jason-mcateer",
+        "club": "Blackburn Rovers",
+        "deal": "permanent",
+        "note": "Left in January 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steve-harkness",
+        "club": "Benfica",
+        "deal": "permanent",
+        "note": "Left in March 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished seventh in the Premier League with 54 points during a season of managerial change. Gérard Houllier joined Roy Evans as joint manager in July, but Evans left on 12 November and Houllier took sole charge. Liverpool scored 68 league goals and conceded 49.",
+    "Michael Owen led the scoring with 23 competitive goals. His 18 league goals brought a second consecutive share of the Golden Boot, this time alongside Dwight Yorke and Jimmy Floyd Hasselbaink. Steve Staunton returned from Aston Villa and Vegard Heggem arrived from Rosenborg. Steven Gerrard made his first-team debut as a substitute in the 2–0 home win over Blackburn Rovers on 29 November.",
+    "Tottenham won 3–1 at Anfield in the League Cup fourth round, two days before Evans’s departure. Manchester United eliminated Liverpool from the FA Cup in the fourth round, while Celta Vigo won their UEFA Cup third-round tie 4–1 on aggregate. Liverpool’s largest league win was a 7–1 home victory over Southampton in January."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1997-98"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 1998-99 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1998-99.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points and goals. Gaps and comparisons are arithmetic from the final table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1998-99 games",
+      "url": "https://www.lfchistory.net/season-archive/games/41",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, results and cup stages. Aggregates calculated from the two legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1998-99 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/41",
+      "confidence": "high",
+      "claims": "All-competitive goal totals, excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1998-99 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/41",
+      "confidence": "high",
+      "claims": "Selected senior transfers, dates, clubs and deal types. Preparatory summer moves allocated to the incoming season."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1998-99 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/41",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting key-player selections."
+    },
+    {
+      "id": "lfc-evans",
+      "label": "Liverpool FC: Roy Evans, manager",
+      "url": "https://www.liverpoolfc.com/info/roy-evans-0",
+      "confidence": "high",
+      "claims": "First full season brought fourth place and the League Cup; subsequent league finishes, 1996 FA Cup final defeat, joint management in 1998 and departure on 12 November."
+    },
+    {
+      "id": "lfc-owen",
+      "label": "Liverpool FC: Michael Owen",
+      "url": "https://www.liverpoolfc.com/info/michael-owen",
+      "confidence": "high",
+      "claims": "Scoring debut at Wimbledon in May 1997; 23 competitive goals in each of 1997–98 and 1998–99."
+    },
+    {
+      "id": "pl-golden-boot",
+      "label": "Premier League: Golden Boot winners",
+      "url": "https://www.premierleague.com/en/news/1206108",
+      "confidence": "high",
+      "claims": "Owen shared the 1997–98 Golden Boot with Dublin and Sutton and the 1998–99 award with Yorke and Hasselbaink, all with 18 league goals."
+    },
+    {
+      "id": "lfc-houllier",
+      "label": "Liverpool FC: Gérard Houllier",
+      "url": "https://www.liverpoolfc.com/info/gerard-houllier",
+      "confidence": "high",
+      "claims": "Joint appointment with Evans in summer 1998, subsequent sole management and seventh-place finish. Transfer chronology is checked against dated ledgers."
+    },
+    {
+      "id": "lfch-manager-dates",
+      "label": "LFChistory: managerial appointments",
+      "url": "https://www.lfchistory.net/managers",
+      "confidence": "high",
+      "claims": "Joint Evans–Houllier appointment on 16 July 1998; Houllier sole manager from 12 November 1998."
+    },
+    {
+      "id": "lfc-gerrard",
+      "label": "Liverpool FC: Steven Gerrard",
+      "url": "https://www.liverpoolfc.com/info/steven-gerrard",
+      "confidence": "high",
+      "claims": "First-team debut as a substitute against Blackburn Rovers on 29 November 1998."
+    },
+    {
+      "id": "lfc-staunton",
+      "label": "Liverpool FC: Steve Staunton",
+      "url": "https://www.liverpoolfc.com/info/steve-staunton",
+      "confidence": "high",
+      "claims": "Returned from Aston Villa in summer 1998."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, lfc-evans, lfc-houllier and lfch-manager-dates; paragraph 2 — lfch-scorers, lfc-owen, pl-golden-boot, lfch-transfers, lfc-staunton, lfc-gerrard and lfch-games; paragraph 3 — lfch-games and lfch-manager-dates.",
+    "Joint management and sole management are distinguished. The two-day interval is calculated from the dated Tottenham fixture and Evans’s departure. The Southampton result is compared with the complete league fixture list.",
+    "McManaman’s physical departure in summer 1999 belongs to 1999–2000. The Houllier profile compresses several departures into a general rebuilding narrative; dated transfer ledgers determine season allocation."
+  ],
+  "managerNote": "Evans and Houllier became joint managers on 16 July 1998. Evans left on 12 November, leaving Houllier in sole charge."
+}

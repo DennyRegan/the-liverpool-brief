@@ -1,0 +1,231 @@
+{
+  "season": "1969-70",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 5,
+    "sourceIds": [
+      "rsssf-league",
+      "lfch-games"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "bobby-graham",
+      "goals": 21,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-graham"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Quarter-final — lost 1–0 away to Watford.",
+      "sourceIds": [
+        "fchd-fa-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 3–2 away to Manchester City.",
+      "sourceIds": [
+        "rsssf-league-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "inter-cities-fairs-cup",
+      "kind": "europe",
+      "result": "Second round — Vitória Setúbal advanced on away goals after a 3–3 aggregate draw. Liverpool lost 1–0 away and won 3–2 at Anfield.",
+      "sourceIds": [
+        "rsssf-europe",
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "bobby-graham",
+    "chris-lawler",
+    "emlyn-hughes",
+    "ian-callaghan",
+    "peter-thompson",
+    "ron-yeats",
+    "geoff-strong",
+    "tommy-smith",
+    "tommy-lawrence",
+    "ian-st-john",
+    "alun-evans",
+    "ray-clemence"
+  ],
+  "transfers": {
+    "in": [],
+    "out": [
+      {
+        "personId": "john-ogston",
+        "club": "Doncaster Rovers",
+        "deal": "permanent",
+        "note": "Left in July 1969.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "roger-hunt",
+        "club": "Bolton Wanderers",
+        "deal": "permanent",
+        "note": "Left in December 1969.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished fifth in the First Division with 51 points. Bobby Graham was their leading scorer with 21 goals in all competitions and played in all 54 competitive matches.",
+    "Roger Hunt left for Bolton Wanderers in December 1969, while Ray Clemence took over from Tommy Lawrence as first-choice goalkeeper in February. Clemence made 17 competitive appearances during the season; Ron Yeats, Ian St John and Peter Thompson remained regular members of the side.",
+    "The FA Cup run ended with a 1–0 quarter-final defeat away to Second Division Watford. In Europe, Liverpool beat Dundalk 10–0 at Anfield but went out of the Fairs Cup in the next round, losing to Vitória Setúbal on away goals after a 3–3 aggregate draw. Manchester City ended the League Cup campaign in the third round, leaving Liverpool without a trophy."
+  ],
+  "events": [
+    {
+      "id": "dundalk-ten-goals-1969",
+      "title": "Ten goals against Dundalk",
+      "date": "1969-09-16",
+      "detail": "Liverpool won 10–0 at Anfield in the first leg of their Fairs Cup first-round tie.",
+      "personIds": [],
+      "competitionIds": [
+        "inter-cities-fairs-cup"
+      ],
+      "sourceIds": [
+        "lfch-games",
+        "rsssf-europe"
+      ]
+    },
+    {
+      "id": "goodison-victory-1969",
+      "title": "A 3–0 win at Goodison",
+      "date": "1969-12-06",
+      "detail": "Liverpool beat Everton 3–0 away from home. Bobby Graham was among the scorers.",
+      "personIds": [
+        "bobby-graham"
+      ],
+      "competitionIds": [
+        "first-division"
+      ],
+      "sourceIds": [
+        "lfch-games",
+        "lfc-graham"
+      ]
+    },
+    {
+      "id": "watford-quarter-final-1970",
+      "title": "Watford end the FA Cup run",
+      "date": "1970-02-21",
+      "detail": "A 1–0 defeat at Vicarage Road eliminated Liverpool in the quarter-final.",
+      "personIds": [],
+      "competitionIds": [
+        "fa-cup"
+      ],
+      "sourceIds": [
+        "lfch-games",
+        "fchd-fa-cup"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1968-69",
+    "1970-71"
+  ],
+  "sources": [
+    {
+      "id": "lfc-shankly",
+      "label": "Liverpool FC: Bill Shankly",
+      "url": "https://www.liverpoolfc.com/info/bill-shankly",
+      "confidence": "high",
+      "claims": "Shankly was Liverpool manager throughout this campaign."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1969–70 results",
+      "url": "https://www.lfchistory.net/season-archive/games/11",
+      "confidence": "high",
+      "claims": "Dates, venues, scores and competition stages for the season’s competitive fixtures; confirms league and cup outcomes and dated match events."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1969–70",
+      "url": "https://www.rsssf.org/engpaul/FLA/1969-70.html",
+      "confidence": "high",
+      "claims": "Fifth on 51 points; Watford were a Second Division side."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1969–70 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/11",
+      "confidence": "high",
+      "claims": "Bobby Graham led the scoring with 21: 13 league, four FA Cup, one League Cup and three Fairs Cup goals."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1969–70 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/11",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting the selected key players; starts and substitute appearances are considered together."
+    },
+    {
+      "id": "fchd-fa-cup",
+      "label": "Football Club History Database: FA Cup 1969–70",
+      "url": "https://fchd.info/cups/facup1969-70.htm",
+      "confidence": "high",
+      "claims": "Quarter-final elimination: Watford won 1–0 at Vicarage Road."
+    },
+    {
+      "id": "rsssf-league-cup",
+      "label": "RSSSF: League Cup results",
+      "url": "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+      "confidence": "high",
+      "claims": "Third-round elimination: Manchester City won 3–2 at Maine Road."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 1969–70",
+      "url": "https://www.rsssf.org/ec/ec196970.html",
+      "confidence": "high",
+      "claims": "Dundalk beaten 14–0 on aggregate, including 10–0 at Anfield; Vitória Setúbal advanced in the second round on away goals after a 3–3 aggregate draw."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1969–70 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/11",
+      "confidence": "high",
+      "claims": "John Ogston joined Doncaster Rovers in July 1969 and Roger Hunt joined Bolton Wanderers in December 1969. The April 1970 Whitham arrival is allocated to the incoming campaign."
+    },
+    {
+      "id": "lfc-graham",
+      "label": "Liverpool FC: Bobby Graham remembered",
+      "url": "https://www.liverpoolfc.com/news/rest-peace-bobby-graham",
+      "confidence": "high",
+      "claims": "Confirms Graham was the leading scorer with 21 goals and played all 54 matches in 1969–70, including the 3–0 win at Everton. Later injury and return wording is not used."
+    },
+    {
+      "id": "lfc-lawrence",
+      "label": "Liverpool FC: Tommy Lawrence",
+      "url": "https://www.liverpoolfc.com/info/tommy-lawrence",
+      "confidence": "high",
+      "claims": "Shankly promoted Ray Clemence to first-choice goalkeeper in February 1970."
+    }
+  ],
+  "researchNotes": [
+    "Graham’s 21 competitive goals and 54 appearances are corroborated by Liverpool FC’s obituary and LFChistory. Friendlies are excluded.",
+    "Whitham’s arrival came after Liverpool’s final league fixture and is included with 1970–71. Lindsay and Lloyd had signed during 1968–69 and are not duplicated here.",
+    "The Watford defeat is recorded without claiming that it alone caused the rebuilding of the team. Hunt had already departed, and changes in goal and personnel need their own chronology."
+  ]
+}

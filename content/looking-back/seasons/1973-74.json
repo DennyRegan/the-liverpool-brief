@@ -1,0 +1,300 @@
+{
+  "season": "1973-74",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "bill-shankly"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 2,
+    "sourceIds": [
+      "rsssf-league",
+      "lfch-games"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "kevin-keegan",
+      "goals": 19,
+      "sourceIds": [
+        "lfch-scorers",
+        "afv-scorers"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Newcastle United 3–0 at Wembley, with two goals from Kevin Keegan and one from Steve Heighway.",
+      "sourceIds": [
+        "fchd-fa-cup",
+        "lfc-final",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Quarter-final — lost 1–0 away to Wolverhampton Wanderers.",
+      "sourceIds": [
+        "rsssf-league-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Second round — lost 4–2 on aggregate to Red Star Belgrade, with 2–1 defeats in both legs.",
+      "sourceIds": [
+        "rsssf-europe",
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "fa-cup"
+  ],
+  "keyPlayerIds": [
+    "ian-callaghan",
+    "ray-clemence",
+    "emlyn-hughes",
+    "kevin-keegan",
+    "peter-cormack",
+    "alec-lindsay",
+    "steve-heighway",
+    "phil-thompson",
+    "tommy-smith",
+    "larry-lloyd",
+    "brian-hall",
+    "john-toshack"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "jimmy-case",
+        "club": "South Liverpool",
+        "deal": "permanent",
+        "note": "Recruited in May 1973 ahead of this campaign; his first competitive appearance came in 1975.",
+        "sourceIds": [
+          "lfc-summer",
+          "lfch-case"
+        ]
+      },
+      {
+        "personId": "alan-waddle",
+        "club": "Halifax Town",
+        "deal": "permanent",
+        "note": "Joined in June 1973.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-summer",
+          "lfc-waddle"
+        ],
+        "fee": "£40,000"
+      }
+    ],
+    "out": [
+      {
+        "personId": "peter-thompson",
+        "club": "Bolton Wanderers",
+        "deal": "permanent",
+        "note": "Joined permanently in January 1974 after a loan spell begun in 1973.",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-thompson"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the FA Cup for the second time, beating Newcastle United 3–0 at Wembley on 4 May. Kevin Keegan scored twice and Steve Heighway once in the final, bringing a trophy in what proved to be Bill Shankly’s last season in charge.",
+    "They finished runners-up in the First Division, five points behind Leeds United. Keegan led the scoring with 19 goals in all competitions, while Ian Callaghan became the first Liverpool player to win the Football Writers’ Association Footballer of the Year award.",
+    "The European Cup campaign ended in the second round, with Red Star Belgrade winning both legs 2–1, and Wolves knocked Liverpool out of the League Cup in the quarter-final. Shankly’s team played one more league game after Wembley, drawing 1–1 at Tottenham Hotspur on 8 May. His retirement was announced on 12 July, after the campaign had ended."
+  ],
+  "events": [
+    {
+      "id": "waddle-goodison-1973",
+      "title": "Waddle wins the derby",
+      "date": "1973-12-08",
+      "detail": "Alan Waddle scored Liverpool’s goal in a 1–0 win over Everton at Goodison Park.",
+      "personIds": [
+        "alan-waddle"
+      ],
+      "competitionIds": [
+        "first-division"
+      ],
+      "sourceIds": [
+        "lfc-waddle",
+        "lfch-games"
+      ]
+    },
+    {
+      "id": "fa-cup-final-1974",
+      "title": "A second FA Cup",
+      "date": "1974-05-04",
+      "detail": "Liverpool beat Newcastle United 3–0 at Wembley, with two goals from Keegan and one from Heighway.",
+      "personIds": [
+        "kevin-keegan",
+        "steve-heighway"
+      ],
+      "competitionIds": [
+        "fa-cup"
+      ],
+      "sourceIds": [
+        "lfc-final",
+        "fchd-fa-cup",
+        "lfch-games"
+      ]
+    },
+    {
+      "id": "shankly-final-league-match-1974",
+      "title": "The final league fixture",
+      "date": "1974-05-08",
+      "detail": "Liverpool drew 1–1 with Tottenham Hotspur at White Hart Lane, four days after the FA Cup final.",
+      "personIds": [
+        "bill-shankly"
+      ],
+      "competitionIds": [
+        "first-division"
+      ],
+      "sourceIds": [
+        "lfch-games",
+        "lfc-retirement"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1970-71",
+    "1972-73"
+  ],
+  "sources": [
+    {
+      "id": "lfc-shankly",
+      "label": "Liverpool FC: Bill Shankly",
+      "url": "https://www.liverpoolfc.com/info/bill-shankly",
+      "confidence": "high",
+      "claims": "Shankly was Liverpool manager throughout this campaign."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1973–74 results",
+      "url": "https://www.lfchistory.net/season-archive/games/15",
+      "confidence": "high",
+      "claims": "Dates, venues, scores and competition stages for the season’s competitive fixtures; confirms league and cup outcomes and dated match events."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1973–74",
+      "url": "https://www.rsssf.org/engpaul/FLA/1973-74.html",
+      "confidence": "high",
+      "claims": "Runners-up on 57 points, five behind Leeds United."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1973–74 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/15",
+      "confidence": "high",
+      "claims": "Keegan led with 19 competitive goals: 12 league, six FA Cup and one League Cup."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1973–74 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/15",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting the selected key players; starts and substitute appearances are considered together."
+    },
+    {
+      "id": "fchd-fa-cup",
+      "label": "Football Club History Database: FA Cup 1973–74",
+      "url": "https://fchd.info/cups/facup1973-74.htm",
+      "confidence": "high",
+      "claims": "Liverpool won the final 3–0 against Newcastle United at Wembley on 4 May, following a 3–1 semi-final replay win over Leicester City."
+    },
+    {
+      "id": "rsssf-league-cup",
+      "label": "RSSSF: League Cup results",
+      "url": "https://www.rsssf.org/tablese/engleagcuphistfull.html",
+      "confidence": "high",
+      "claims": "Quarter-final exit: Wolves won 1–0 at Molineux."
+    },
+    {
+      "id": "rsssf-europe",
+      "label": "RSSSF: European competitions 1973–74",
+      "url": "https://www.rsssf.org/ec/ec197374.html",
+      "confidence": "high",
+      "claims": "European Cup second-round exit: Red Star Belgrade won both legs 2–1, advancing 4–2 on aggregate."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1973–74 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/15",
+      "confidence": "high",
+      "claims": "Waddle arrived from Halifax in June 1973; Thompson’s permanent move to Bolton was in January 1974. Spiring’s entry bears a March 1973 date and is not treated as an arrival in this campaign."
+    },
+    {
+      "id": "afv-scorers",
+      "label": "11v11: Liverpool players, 1973–74",
+      "url": "https://www.11v11.com/teams/liverpool/tab/players/season/1974/",
+      "confidence": "high",
+      "claims": "Independently corroborates Keegan’s leading total of 19 competitive goals."
+    },
+    {
+      "id": "lfc-summer",
+      "label": "Liverpool FC: Shankly’s final season, August",
+      "url": "https://www.liverpoolfc.com/news/bill-shanklys-final-season-champions-begin-mixed-august?amp=1",
+      "confidence": "high",
+      "claims": "Places Case’s May 1973 recruitment among summer additions, with no debut until almost two years later. Confirms Waddle’s £40,000 move from Halifax Town and that 1973–74 was Shankly’s final season."
+    },
+    {
+      "id": "lfch-case",
+      "label": "LFChistory: Jimmy Case",
+      "url": "https://www.lfchistory.net/players/278",
+      "confidence": "high",
+      "claims": "Recruited from South Liverpool in May 1973; first competitive appearance in April 1975."
+    },
+    {
+      "id": "lfc-waddle",
+      "label": "Liverpool FC: Alan Waddle",
+      "url": "https://www.liverpoolfc.com/info/alan-waddle",
+      "confidence": "high",
+      "claims": "Waddle joined from Halifax in summer 1973 and scored the winner at Goodison Park that December."
+    },
+    {
+      "id": "lfc-thompson",
+      "label": "Liverpool FC: Peter Thompson",
+      "url": "https://www.liverpoolfc.com/info/peter-thompson",
+      "confidence": "high",
+      "claims": "Loan move to Bolton in 1973 followed by a permanent transfer; his last Liverpool playing appearance had been in January 1972, not his departure date."
+    },
+    {
+      "id": "lfc-final",
+      "label": "Liverpool FC: Liverpool’s Wembley masterclass",
+      "url": "https://www.liverpoolfc.com/news/liverpools-wembley-masterclass-shankly-farewell",
+      "confidence": "high",
+      "claims": "The 1974 final: Keegan scored twice and Heighway once against Newcastle, securing Liverpool’s second FA Cup."
+    },
+    {
+      "id": "lfc-callaghan",
+      "label": "Liverpool FC: Ian Callaghan",
+      "url": "https://www.liverpoolfc.com/info/ian-callaghan",
+      "confidence": "high",
+      "claims": "Callaghan became Liverpool’s first winner of the Football Writers’ Footballer of the Year award in 1974. Its separate appearance-record claim is not used."
+    },
+    {
+      "id": "lfc-retirement",
+      "label": "Liverpool FC: Shankly’s retirement, 12 July 1974",
+      "url": "https://www.liverpoolfc.com/news/50-years-ago-today-when-bill-shankly-shocked-football-world-0",
+      "confidence": "high",
+      "claims": "Retirement announced on 12 July 1974 after the FA Cup win and runners-up league finish; Callaghan had won the Football Writers’ Association Footballer of the Year award."
+    }
+  ],
+  "researchNotes": [
+    "Keegan’s leading 19 goals are corroborated by LFChistory and 11v11 and include six in the FA Cup.",
+    "The FA Cup final was not Shankly’s last competitive fixture. The Tottenham league match followed on 8 May; retirement was announced on 12 July. Paisley’s appointment, the 1974 Charity Shield and Ray Kennedy’s arrival belong to the next campaign.",
+    "Case is recorded as an incoming young player, not as a member of the 1973–74 first team. His May 1973 recruitment is allocated once to this incoming campaign.",
+    "Peter Thompson’s final Liverpool appearance in 1972 is distinct from his 1973 loan and January 1974 permanent departure.",
+    "The Callaghan award is supported by Liverpool’s profile and retirement retrospective. The profile’s unrelated appearance-record wording is not reproduced."
+  ],
+  "managerNote": "Shankly managed throughout the campaign. His retirement was announced on 12 July 1974, after the season had finished."
+}

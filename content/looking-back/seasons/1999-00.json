@@ -1,0 +1,269 @@
+{
+  "season": "1999-00",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "gerard-houllier"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 4,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "michael-owen",
+      "goals": 12,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-owen"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 1–0 at home to Blackburn Rovers.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Third round — lost 2–1 away to Southampton.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "michael-owen",
+    "sami-hyypia",
+    "jamie-carragher",
+    "sander-westerveld",
+    "patrik-berger",
+    "titi-camara",
+    "dominic-matteo",
+    "stephane-henchoz",
+    "steven-gerrard",
+    "dietmar-hamann",
+    "danny-murphy"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "sami-hyypia",
+        "club": "Willem II",
+        "deal": "permanent",
+        "note": "Joined in May 1999 ahead of the new campaign.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "vladimir-smicer",
+        "club": "Lens",
+        "deal": "permanent",
+        "note": "Joined in May 1999 ahead of the new campaign.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "titi-camara",
+        "club": "Marseille",
+        "deal": "permanent",
+        "note": "Joined in June 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "stephane-henchoz",
+        "club": "Blackburn Rovers",
+        "deal": "permanent",
+        "note": "Joined in June 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "sander-westerveld",
+        "club": "Vitesse Arnhem",
+        "deal": "permanent",
+        "note": "Joined in June 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "dietmar-hamann",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "note": "Joined in July 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "emile-heskey",
+        "club": "Leicester City",
+        "deal": "permanent",
+        "note": "Joined in March 2000.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "rob-jones",
+        "club": "West Ham United",
+        "deal": "free",
+        "note": "Left in May 1999 ahead of the new campaign.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "david-james",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "note": "Left in June 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "steve-mcmanaman",
+        "club": "Real Madrid",
+        "deal": "free",
+        "note": "Left on a free transfer in summer 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "paul-ince",
+        "club": "Middlesbrough",
+        "deal": "permanent",
+        "note": "Left in July 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "sean-dundee",
+        "club": "VfB Stuttgart",
+        "deal": "permanent",
+        "note": "Left in July 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "oyvind-leonhardsen",
+        "club": "Tottenham Hotspur",
+        "deal": "permanent",
+        "note": "Left in August 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "bjorn-tore-kvarme",
+        "club": "Saint-Étienne",
+        "deal": "permanent",
+        "note": "Left in August 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "karl-heinz-riedle",
+        "club": "Fulham",
+        "deal": "permanent",
+        "note": "Left in September 1999.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished fourth in the Premier League with 67 points in Gérard Houllier’s first full season in sole charge. They conceded 30 league goals, down from 49 the previous season. A scoreless final five league matches left them two points behind third-placed Leeds United and outside the Champions League places.",
+    "Sami Hyypiä, Stéphane Henchoz, Sander Westerveld and Dietmar Hamann were among the summer arrivals. Steve McManaman left for Real Madrid on a free transfer, while David James moved to Aston Villa and Paul Ince to Middlesbrough. Emile Heskey joined from Leicester City in March.",
+    "Michael Owen was leading scorer with 12 competitive goals, followed by Titi Camara with 10. Blackburn Rovers won 1–0 at Anfield in the FA Cup fourth round, and Southampton ended Liverpool’s League Cup run in the third round. Liverpool’s final league match was a 1–0 defeat away to Bradford City."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "1998-99"
+  ],
+  "sources": [
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: 1999-00 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1999-00.html",
+      "confidence": "high",
+      "claims": "Premier League finish, points and goals; gaps and combined home/away totals calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1999-00 games",
+      "url": "https://www.lfchistory.net/season-archive/games/43",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, results and cup stages; two-leg aggregates and league runs calculated from the full fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1999-00 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/43",
+      "confidence": "high",
+      "claims": "All-competitive scorer totals, including qualifying matches, Shield and Super Cup where played; excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1999-00 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/43",
+      "confidence": "high",
+      "claims": "Selected senior moves and dates. Summer preparation allocated to the incoming season, with loans distinguished."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1999-00 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/43",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting key-player selections."
+    },
+    {
+      "id": "lfc-houllier",
+      "label": "Liverpool FC: Gérard Houllier",
+      "url": "https://www.liverpoolfc.com/info/gerard-houllier",
+      "confidence": "high",
+      "claims": "Sole manager from November 1998; 2001 treble and Champions League qualification, October 2001 illness and Thompson’s temporary charge; league finishes and departure after 2003–04. Its 1999–2000 claim of six final winless games is not used: dated fixtures show five."
+    },
+    {
+      "id": "lfc-owen",
+      "label": "Liverpool FC: Michael Owen",
+      "url": "https://www.liverpoolfc.com/info/michael-owen",
+      "confidence": "high",
+      "claims": "Competitive totals of 12 in 1999–2000, 24 in 2000–01 and 28 in each of 2001–02 and 2002–03; two 2001 FA Cup final goals; European Footballer of the Year in calendar 2001."
+    },
+    {
+      "id": "rsssf-prior-league",
+      "label": "RSSSF: 1998–99 final league table",
+      "url": "https://www.rsssf.org/engpaul/FLA/1998-99.html",
+      "confidence": "high",
+      "claims": "Liverpool conceded 49 league goals in 1998–99, compared with 30 in 1999–2000."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — rsssf-league, rsssf-prior-league, lfch-games and lfc-houllier (management and missed qualification only); paragraph 2 — lfch-transfers; paragraph 3 — lfch-scorers, lfc-owen and lfch-games.",
+    "The official Houllier profile says the final six fixtures were winless. Liverpool beat Wimbledon on 16 April, then failed to score in their last five league games. The dated fixtures establish the five-match run; the incorrect six-match claim is excluded.",
+    "McManaman’s summer 1999 departure is recorded here, separately from any earlier agreement. Preparatory May arrivals of Hyypiä and Šmicer and Jones’s May departure belong to this campaign."
+  ]
+}

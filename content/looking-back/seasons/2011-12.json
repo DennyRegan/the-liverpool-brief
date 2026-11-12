@@ -1,0 +1,279 @@
+{
+  "season": "2011-12",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "kenny-dalglish"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 8,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "luis-suarez",
+      "goals": 17,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-suarez"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Runners-up — lost 2–1 to Chelsea at Wembley.",
+      "sourceIds": [
+        "lfch-games",
+        "uefa-fa-final"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Cardiff City 3–2 on penalties after a 2–2 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-league-cup"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "league-cup"
+  ],
+  "keyPlayerIds": [
+    "luis-suarez",
+    "jordan-henderson",
+    "andy-carroll",
+    "stewart-downing",
+    "pepe-reina",
+    "martin-skrtel",
+    "dirk-kuyt",
+    "jose-enrique",
+    "craig-bellamy",
+    "charlie-adam",
+    "daniel-agger",
+    "steven-gerrard"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "jordan-henderson",
+        "club": "Sunderland",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "charlie-adam",
+        "club": "Blackpool",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "alexander-doni",
+        "club": "Roma",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "stewart-downing",
+        "club": "Aston Villa",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "jose-enrique",
+        "club": "Newcastle United",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "sebastian-coates",
+        "club": "Nacional",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "craig-bellamy",
+        "club": "Manchester City",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "paul-konchesky",
+        "club": "Leicester City",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "milan-jovanovic",
+        "club": "Anderlecht",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "sotirios-kyrgiakos",
+        "club": "Wolfsburg",
+        "deal": "free",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "emiliano-insua",
+        "club": "Sporting Lisbon",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "christian-poulsen",
+        "club": "Évian Thonon Gaillard",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "raul-meireles",
+        "club": "Chelsea",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "david-ngog",
+        "club": "Bolton Wanderers",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool won the League Cup and reached the FA Cup final under Kenny Dalglish. Cardiff City took the League Cup final to penalties after a 2–2 draw at Wembley on 26 February; Liverpool won the shoot-out 3–2. In the FA Cup, Andy Carroll scored the winner against Everton in the semi-final, but Chelsea won the final 2–1.",
+    "League results were less successful: Liverpool finished eighth with 52 points, scoring 47 goals and winning six of their 19 home matches. Jordan Henderson, Charlie Adam, Stewart Downing and José Enrique joined, while Craig Bellamy returned. Luis Suárez was leading scorer with 17 competitive goals.",
+    "The FA imposed an eight-match ban on Suárez after finding that he had used racially insulting language towards Patrice Evra. The season ended with Dalglish’s dismissal on 16 May, despite the League Cup success."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2010-11"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2011-12 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/121",
+      "confidence": "high",
+      "claims": "Final Premier League placing, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2011-12 games",
+      "url": "https://www.lfchistory.net/season-archive/games/121",
+      "confidence": "high",
+      "claims": "Complete competitive results, dates and cup rounds; league winning runs and two-leg aggregates checked from the fixture list."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2011-12 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/121",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers and excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2011-12 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/121",
+      "confidence": "high",
+      "claims": "Selected senior moves and deal types. Preparatory summer transfers assigned to incoming campaigns."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2011-12 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/121",
+      "confidence": "high",
+      "claims": "Competitive appearance totals supporting the key-player selection."
+    },
+    {
+      "id": "lfc-suarez",
+      "label": "Liverpool FC: Luis Suárez",
+      "url": "https://www.liverpoolfc.com/info/luis-suarez",
+      "confidence": "high",
+      "claims": "January 2011 arrival from Ajax; 17 goals in 2011–12, 30 in 2012–13 and 31 league goals in 2013–14; PFA and football writers’ awards in 2014."
+    },
+    {
+      "id": "lfc-carroll",
+      "label": "Liverpool FC: Andy Carroll",
+      "url": "https://www.liverpoolfc.com/info/andy-carroll",
+      "confidence": "high",
+      "claims": "January 2011 arrival from Newcastle; 2012 FA Cup semi-final winner against Everton; West Ham loan in 2012–13, made permanent in June 2013."
+    },
+    {
+      "id": "lfc-league-cup",
+      "label": "Liverpool FC: League Cup",
+      "url": "https://www.liverpoolfc.com/info/league-cup",
+      "confidence": "high",
+      "claims": "26 February 2012 final: 2–2 after extra time, Liverpool beat Cardiff 3–2 on penalties; Škrtel and Kuyt scored."
+    },
+    {
+      "id": "uefa-dalglish-departure",
+      "label": "UEFA: Dalglish leaves Liverpool",
+      "url": "https://www.uefa.com/news-media/news/01fd-0e7e30c0ce2b-cec0d6f3ae7a-1000--dalglish-leaves-liverpool-post/",
+      "confidence": "high",
+      "claims": "Dismissal announced 16 May 2012; eighth place, League Cup win and FA Cup final."
+    },
+    {
+      "id": "uefa-fa-final",
+      "label": "UEFA: Chelsea wins 2012 FA Cup final",
+      "url": "https://www.uefa.com/news-media/news/01fd-0e7e11b4220e-e9939ea4380d-1000--chelsea-beat-liverpool-to-lift-seventh-fa-cup/",
+      "confidence": "high",
+      "claims": "Chelsea beat Liverpool 2–1 at Wembley on 5 May 2012."
+    },
+    {
+      "id": "sky-suarez-ban",
+      "label": "Sky Sports: Suárez eight-match suspension",
+      "url": "https://www.skysports.com/football/news/11669/7389270/suarez-handed-eight-match-ban",
+      "confidence": "high",
+      "claims": "Contemporary report reproduces the FA decision: eight-match suspension for insulting words including a reference to Patrice Evra’s colour, announced 20 December 2011."
+    },
+    {
+      "id": "reuters-suarez-ban",
+      "label": "Reuters: Suárez banned for racial abuse",
+      "url": "https://www.reuters.com/article/sports/liverpools-suarez-banned-for-racial-abuse-idUSTRE7BJ1V1/",
+      "confidence": "high",
+      "claims": "Corroborates the eight-match sanction following the Evra incident."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-games, lfc-league-cup, lfc-carroll and uefa-fa-final; paragraph 2 — lfch-league, lfch-transfers, lfch-scorers and lfc-suarez; paragraph 3 — sky-suarez-ban, reuters-suarez-ban and uefa-dalglish-departure.",
+    "The disciplinary account states the commission’s finding and sanction without repeating the insulting words or inferring motives. The suspension was not imposed for eight league games specifically.",
+    "No European campaign is invented: the competitive fixture list contains only league and domestic cups. The final’s shoot-out kicks are excluded from Suárez’s scoring total."
+  ]
+}

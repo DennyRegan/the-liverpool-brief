@@ -1,0 +1,300 @@
+{
+  "season": "2014-15",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "brendan-rodgers"
+  ],
+  "league": {
+    "competitionId": "premier-league",
+    "position": 6,
+    "sourceIds": [
+      "lfch-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "steven-gerrard",
+      "goals": 13,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-gerrard"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Semi-final — lost 2–1 to Aston Villa at Wembley.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Semi-final — lost 2–1 on aggregate to Chelsea.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Champions League group stage — eliminated before the knockout rounds.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-rodgers"
+      ]
+    },
+    {
+      "competitionId": "uefa-cup",
+      "kind": "europe",
+      "result": "Europa League round of 32 — lost 5–4 on penalties to Beşiktaş after a 1–1 aggregate draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfch-besiktas"
+      ]
+    }
+  ],
+  "trophyIds": [],
+  "keyPlayerIds": [
+    "steven-gerrard",
+    "jordan-henderson",
+    "simon-mignolet",
+    "philippe-coutinho",
+    "raheem-sterling",
+    "martin-skrtel",
+    "adam-lallana",
+    "alberto-moreno",
+    "emre-can",
+    "dejan-lovren"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "rickie-lambert",
+        "club": "Southampton",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "adam-lallana",
+        "club": "Southampton",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "emre-can",
+        "club": "Bayer Leverkusen",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "lazar-markovic",
+        "club": "Benfica",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "dejan-lovren",
+        "club": "Southampton",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "divock-origi",
+        "club": "Lille",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers",
+          "lfc-origi"
+        ],
+        "note": "Immediately loaned back to Lille for the season."
+      },
+      {
+        "personId": "javier-manquillo",
+        "club": "Atlético Madrid",
+        "deal": "loan",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "alberto-moreno",
+        "club": "Sevilla",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "mario-balotelli",
+        "club": "AC Milan",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "luis-suarez",
+        "club": "Barcelona",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "pepe-reina",
+        "club": "Bayern Munich",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "martin-kelly",
+        "club": "Crystal Palace",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "daniel-agger",
+        "club": "Brøndby",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "oussama-assaidi",
+        "club": "Al Ahli",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "suso",
+        "club": "AC Milan",
+        "deal": "permanent",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Liverpool finished sixth in the Premier League with 62 points, eight behind fourth-placed Manchester United. Brendan Rodgers’ side scored 52 league goals, compared with 101 the previous season. Luis Suárez left for Barcelona, while Adam Lallana, Emre Can, Dejan Lovren and Mario Balotelli were among the arrivals.",
+    "The return to the Champions League ended in the group stage, followed by a Europa League exit on penalties against Beşiktaş. Liverpool reached both domestic cup semi-finals but lost to Chelsea in the League Cup and Aston Villa in the FA Cup. Steven Gerrard led the scoring with 13 goals in his final campaign. His last home appearance ended in a 3–1 defeat by Crystal Palace, and he scored Liverpool’s goal in the 6–1 loss at Stoke that closed the season. He left for LA Galaxy after 710 appearances for the club."
+  ],
+  "events": [],
+  "relatedSeasons": [
+    "2013-14"
+  ],
+  "sources": [
+    {
+      "id": "lfch-league",
+      "label": "LFChistory: 2014-15 league-table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/124",
+      "confidence": "high",
+      "claims": "Final Premier League position, points, home and away records and goals. Totals and margins calculated from the table."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 2014-15 games",
+      "url": "https://www.lfchistory.net/season-archive/games/124",
+      "confidence": "high",
+      "claims": "Full competitive fixture list: dates, results, venues, cup rounds and two-leg aggregates. Friendlies excluded."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 2014-15 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/124",
+      "confidence": "high",
+      "claims": "Competitive scoring totals, including European qualifiers but excluding friendlies and shoot-out kicks."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 2014-15 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/124",
+      "confidence": "high",
+      "claims": "Selected senior transfers and deal types. Preparatory summer moves allocated to the incoming campaign."
+    },
+    {
+      "id": "lfch-apps",
+      "label": "LFChistory: 2014-15 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/124",
+      "confidence": "high",
+      "claims": "Competitive appearances supporting the key-player selection."
+    },
+    {
+      "id": "lfc-rodgers",
+      "label": "Liverpool FC: Brendan Rodgers",
+      "url": "https://www.liverpoolfc.com/info/brendan-rodgers",
+      "confidence": "high",
+      "claims": "2014–15 Champions League group exit and domestic cup semi-finals; departure on 4 October 2015 after the Everton draw."
+    },
+    {
+      "id": "lfc-gerrard",
+      "label": "Liverpool FC: Steven Gerrard",
+      "url": "https://www.liverpoolfc.com/info/steven-gerrard",
+      "confidence": "high",
+      "claims": "13 goals in 2014–15; announced final season in January, departed for LA Galaxy after 710 appearances and 186 goals."
+    },
+    {
+      "id": "lfc-origi",
+      "label": "Liverpool FC: Divock Origi",
+      "url": "https://www.liverpoolfc.com/info/divock-origi",
+      "confidence": "high",
+      "claims": "Signed in 2014 and immediately loaned back to Lille for 2014–15; Wolfsburg loan in 2017–18; two goals against Barcelona and final goal against Tottenham in 2019."
+    },
+    {
+      "id": "lfc-can",
+      "label": "Liverpool FC: Emre Can",
+      "url": "https://www.liverpoolfc.com/info/emre-can",
+      "confidence": "high",
+      "claims": "Leverkusen arrival in 2014; joined Juventus after his contract expired in summer 2018."
+    },
+    {
+      "id": "lfch-besiktas",
+      "label": "LFChistory: Beşiktaş second leg",
+      "url": "https://www.lfchistory.net/games/5478",
+      "confidence": "high",
+      "claims": "Liverpool lost 1–0 after extra time and 5–4 on penalties. This was the second leg despite the archive’s incorrect first-leg label."
+    },
+    {
+      "id": "lfch-prior-league",
+      "label": "LFChistory: 2013–14 league table",
+      "url": "https://www.lfchistory.net/season-archive/league-table/123",
+      "confidence": "high",
+      "claims": "101 league goals in the preceding campaign."
+    },
+    {
+      "id": "lfch-stoke",
+      "label": "LFChistory: Stoke City 6–1 Liverpool",
+      "url": "https://www.lfchistory.net/games/5461",
+      "confidence": "high",
+      "claims": "Final match of Gerrard’s Liverpool career; he scored Liverpool’s goal."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfch-league, lfch-prior-league, lfch-transfers and lfc-rodgers; paragraph 2 — lfch-games, lfch-besiktas, lfc-rodgers, lfch-scorers lfc-gerrard and lfch-stoke.",
+    "Beşiktaş’s 26 February fixture is incorrectly labelled first leg by LFChistory. The dated fixture sequence establishes the second leg; the published result does not repeat the error.",
+    "Origi was signed in 2014 but remained at Lille on loan. Gerrard’s farewell is described here; his summer transfer entry appears in 2015–16. Transfer fees and unverified reserve moves are omitted."
+  ]
+}

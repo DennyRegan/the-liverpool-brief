@@ -1,0 +1,221 @@
+{
+  "season": "1983-84",
+  "reviewedOn": "2026-09-13",
+  "managerIds": [
+    "joe-fagan"
+  ],
+  "league": {
+    "competitionId": "first-division",
+    "position": 1,
+    "sourceIds": [
+      "rsssf-league"
+    ]
+  },
+  "topScorers": [
+    {
+      "personId": "ian-rush",
+      "goals": 47,
+      "sourceIds": [
+        "lfch-scorers",
+        "lfc-rush"
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "competitionId": "charity-shield",
+      "kind": "other",
+      "result": "Runners-up — lost 2–0 to Manchester United.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "fa-cup",
+      "kind": "domestic",
+      "result": "Fourth round — lost 2–0 away to Brighton & Hove Albion.",
+      "sourceIds": [
+        "lfch-games"
+      ]
+    },
+    {
+      "competitionId": "league-cup",
+      "kind": "domestic",
+      "result": "Winners — beat Everton 1–0 in the Maine Road replay after a 0–0 draw.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-league-cup"
+      ]
+    },
+    {
+      "competitionId": "european-cup",
+      "kind": "europe",
+      "result": "Winners — beat Roma 4–2 on penalties after a 1–1 draw in Rome.",
+      "sourceIds": [
+        "lfch-games",
+        "lfc-europe"
+      ]
+    }
+  ],
+  "trophyIds": [
+    "first-division",
+    "league-cup",
+    "european-cup"
+  ],
+  "keyPlayerIds": [
+    "ian-rush",
+    "bruce-grobbelaar",
+    "alan-hansen",
+    "alan-kennedy",
+    "sammy-lee",
+    "mark-lawrenson",
+    "phil-neal",
+    "graeme-souness",
+    "craig-johnston",
+    "kenny-dalglish",
+    "ronnie-whelan",
+    "steve-nicol"
+  ],
+  "transfers": {
+    "in": [
+      {
+        "personId": "gary-gillespie",
+        "club": "Coventry City",
+        "deal": "permanent",
+        "note": "Joined in July 1983.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "michael-robinson",
+        "club": "Brighton & Hove Albion",
+        "deal": "permanent",
+        "note": "Joined in August 1983.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      },
+      {
+        "personId": "john-wark",
+        "club": "Ipswich Town",
+        "deal": "permanent",
+        "note": "Joined in March 1984.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ],
+    "out": [
+      {
+        "personId": "david-fairclough",
+        "club": "Lucerne",
+        "deal": "free",
+        "note": "Left in July 1983.",
+        "sourceIds": [
+          "lfch-transfers"
+        ]
+      }
+    ]
+  },
+  "overview": [
+    "Joe Fagan’s first season as manager produced a treble: the First Division, League Cup and European Cup. Liverpool finished three points ahead of Southampton to win a third successive league title. Ian Rush scored 47 goals in all competitions, including 32 in the league.",
+    "The League Cup was retained for a fourth consecutive season. After a goalless Wembley final against Everton, Graeme Souness scored the winner in the replay at Maine Road. In Rome, Liverpool drew 1–1 with Roma before winning the European Cup final 4–2 on penalties, Alan Kennedy converting the decisive kick.",
+    "Michael Robinson joined from Brighton and John Wark arrived from Ipswich during the season, while David Fairclough left for Lucerne. Brighton again ended Liverpool’s FA Cup run, this time in the fourth round. The campaign finished with Liverpool’s fourth European Cup, completing Fagan’s three-trophy first year."
+  ],
+  "events": [
+    {
+      "id": "league-finish",
+      "title": "The league campaign ends",
+      "date": "1984-05-15",
+      "detail": "Liverpool drew 1–1 with Norwich City at Anfield in their final league fixture.",
+      "competitionIds": [
+        "first-division"
+      ],
+      "personIds": [],
+      "sourceIds": [
+        "lfch-games"
+      ]
+    }
+  ],
+  "relatedSeasons": [
+    "1982-83"
+  ],
+  "sources": [
+    {
+      "id": "lfc-fagan",
+      "label": "Liverpool FC: Joe Fagan",
+      "url": "https://www.liverpoolfc.com/info/joe-fagan",
+      "confidence": "high",
+      "claims": "Succeeded Paisley in 1983; league, League Cup and European Cup treble in his first season. Transfer chronology in the profile is not used."
+    },
+    {
+      "id": "rsssf-league",
+      "label": "RSSSF: Football League 1983-84",
+      "url": "https://www.rsssf.org/engpaul/FLA/1983-84.html",
+      "confidence": "high",
+      "claims": "Final division, position and points; home and away league records."
+    },
+    {
+      "id": "lfch-games",
+      "label": "LFChistory: 1983-84 games",
+      "url": "https://www.lfchistory.net/season-archive/games/25",
+      "confidence": "high",
+      "claims": "Competitive fixtures, dates, scores, cup stages and venues; aggregate scores calculated from the two legs."
+    },
+    {
+      "id": "lfch-scorers",
+      "label": "LFChistory: 1983-84 goalscorers",
+      "url": "https://www.lfchistory.net/season-archive/goalscorers/25",
+      "confidence": "high",
+      "claims": "All-competitive goalscorers, including the Charity Shield and excluding friendlies."
+    },
+    {
+      "id": "lfch-transfers",
+      "label": "LFChistory: 1983-84 transfers",
+      "url": "https://www.lfchistory.net/season-archive/transfers/25",
+      "confidence": "high",
+      "claims": "Transfer clubs, type and dates for the selected senior moves."
+    },
+    {
+      "id": "lfch-appearances",
+      "label": "LFChistory: 1983-84 appearances",
+      "url": "https://www.lfchistory.net/season-archive/appearances/25",
+      "confidence": "high",
+      "claims": "Competitive first-team involvement supporting the editorial key-player selection."
+    },
+    {
+      "id": "lfc-rush",
+      "label": "Liverpool FC: Ian Rush",
+      "url": "https://www.liverpoolfc.com/info/ian-rush",
+      "confidence": "high",
+      "claims": "Joined from Chester in 1980; 30 competitive goals in 1981–82, 31 in 1982–83 and 47 in 1983–84; four goals at Everton in November 1982."
+    },
+    {
+      "id": "lfc-league-cup",
+      "label": "Liverpool FC: League Cup",
+      "url": "https://www.liverpoolfc.com/info/league-cup",
+      "confidence": "high",
+      "claims": "First four wins, 1981–84; final and replay scores, dates, venues, extra time and named goalscorers."
+    },
+    {
+      "id": "lfc-europe",
+      "label": "Liverpool FC: European Cup",
+      "url": "https://www.liverpoolfc.com/info/european-cup-champions-league",
+      "confidence": "high",
+      "claims": "1981 final: Alan Kennedy scored in a 1–0 win over Real Madrid in Paris on 27 May. 1984 final: 1–1 with Roma in Rome on 30 May; Liverpool won 4–2 on penalties, Alan Kennedy scoring the decisive kick."
+    },
+    {
+      "id": "lfc-league-titles",
+      "label": "Liverpool FC: League titles",
+      "url": "https://www.liverpoolfc.com/info/league-titles",
+      "confidence": "high",
+      "claims": "Consecutive titles in 1981–82, 1982–83 and 1983–84; Fagan succeeded Paisley ahead of the last."
+    }
+  ],
+  "researchNotes": [
+    "Overview evidence: paragraph 1 — lfc-fagan, rsssf-league, lfch-scorers and lfc-rush, with lfc-league-titles establishing consecutive titles; paragraph 2 — lfc-league-cup and lfc-europe; paragraph 3 — lfch-transfers, lfch-games, lfc-europe and lfc-fagan.",
+    "Penalty-shootout kicks are not added to individual competitive goal totals. Rush’s 47 is corroborated by the official club profile.",
+    "Paul Walsh’s 17 May 1984 signing is a preparatory arrival for 1984–85 and will be recorded there. Graeme Souness’s later departure also belongs to 1984–85; it is not inferred from the compressed chronology of the Fagan profile."
+  ]
+}
