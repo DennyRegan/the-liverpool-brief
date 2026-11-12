@@ -5,6 +5,7 @@ import { getArchiveFeatures } from "./archive.ts";
 import { getNewsletterConfig } from "../newsletter-config.ts";
 import { getLiveLookingBack } from "./looking-back.ts";
 import { getSeasons } from "./seasons.ts";
+import { getSeasonMapSeasons, seasonMapPath } from "./season-map.ts";
 import { getLiveBiographies, getLiveMatchRevisited, getLiveSeriesParts } from "./history.ts";
 import { getPlayerPageSlugs } from "./players.ts";
 
@@ -29,6 +30,7 @@ export function getPublicSitemap(root = process.cwd(), env = process.env): Metad
     ...getLiveBiographies(new Date(), root).map(item => `/looking-back/biographies/${item.slug}`),
     ...getLiveMatchRevisited(new Date(), root).map(item => `/looking-back/match-revisited/${item.slug}`),
     ...getSeasons(root).map(item => `/looking-back/seasons/${item.season}`),
+    ...getSeasonMapSeasons(root).map(seasonMapPath),
     ...liveSeriesPaths(root),
     ...getPlayerPageSlugs(root).map(slug => `/players/${slug}`),
   ];

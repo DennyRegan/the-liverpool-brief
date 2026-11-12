@@ -15,3 +15,6 @@
 .season-nav { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 36px 0 8px; border-top: 1px solid var(--foreground); padding-top: 8px; }
 .season-nav a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent-dark); font: 400 16px/1.2 var(--lb-caps); letter-spacing: .08em; text-decoration: none; }
 .season-nav a:hover { color: var(--accent); }
+.season-map-link { margin: 4px 0 0; }
+.season-map-link a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; color: var(--accent-dark); font: 400 16px/1.2 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; text-decoration: none; }
+.season-map-link a:hover { color: var(--accent); }

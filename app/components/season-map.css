@@ -1,0 +1,141 @@
+/* The season map (SeasonMap.tsx, SeasonMapBase.tsx): Looking Back > Seasons.
+   A vintage printed map on the cream sheet of the history article template
+   (.ha-page supplies the paper, ink, red and The Back Pages typefaces). */
+
+/* The sheet is wider than an article, so the map has room beside its notes. */
+.ha-page.sm-sheet { width: min(1120px, calc(100% - 32px)); }
+.sm-sheet .ha-head { padding-bottom: 26px; }
+
+.sm { --sm-ink: #2b2620; --sm-paper: #f4ecda; --sm-pin: 2.3; display: grid; gap: 22px; }
+.sm-stage { min-width: 0; }
+
+/* ---- The map ------------------------------------------------------------- */
+.sm-figure { position: relative; margin: 0; aspect-ratio: 1; border: 3px double var(--sm-ink); overflow: hidden; background: #eadfc4; }
+.sm-svg { display: block; width: 100%; height: 100%; touch-action: manipulation; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
+.sm-svg[data-hover] { cursor: pointer; }
+.sm-sea-fill { fill: #eadfc4; }
+.sm-hatch-line { fill: none; stroke: rgba(74, 92, 92, .16); stroke-width: .7; }
+.sm-graticule { fill: none; stroke: rgba(79, 67, 51, .2); stroke-width: .6px; }
+.sm-water { fill: none; stroke: #6f8582; stroke-linejoin: round; }
+.sm-water-3 { stroke-width: 18px; opacity: .09; }
+.sm-water-2 { stroke-width: 11px; opacity: .11; }
+.sm-water-1 { stroke-width: 5px; opacity: .16; }
+.sm-land { fill: #f8f1e0; stroke: #4f4333; stroke-width: .9px; stroke-linejoin: round; }
+.sm-borders { fill: none; stroke: #8a7658; stroke-width: .7px; stroke-dasharray: 1 3; stroke-linecap: round; opacity: .8; }
+
+/* Things that keep their printed size while the sheet zooms beneath them. */
+.sm-sea text { font: italic 400 calc(10.5px * var(--sm-pin)) var(--lb-body); letter-spacing: .2em; fill: rgba(64, 80, 80, .62); }
+.sm-sea, .sm-pin { transition: opacity .35s ease; }
+.sm-svg[data-view="europe"] .sm-in-britain, .sm-svg[data-view="britain"] .sm-in-europe { opacity: 0; }
+
+/* The journey. */
+.sm-travelled { fill: none; stroke: var(--sm-ink); stroke-width: 1.2px; stroke-dasharray: 1 5; stroke-linecap: round; opacity: .42; }
+.sm-leg { fill: none; stroke: #801c26; stroke-width: 2.2px; stroke-linecap: round; }
+
+/* Pins: games still to come are open rings, games played are filled in.
+   Ordinary games are ink dots, key games red diamonds, Anfield a red target. */
+.sm-pin-mark { fill: var(--sm-paper); stroke: var(--sm-ink); stroke-width: 1.5; }
+.sm-pin.is-visited .sm-pin-mark { fill: var(--sm-ink); stroke: var(--sm-paper); stroke-width: 1.2; }
+.sm-pin.is-key .sm-pin-mark { stroke: #ad2330; stroke-width: 2; }
+.sm-pin.is-key.is-visited .sm-pin-mark { fill: #ad2330; stroke: var(--sm-paper); stroke-width: 1.4; }
+.sm-pin.is-home .sm-pin-mark, .sm-pin.is-home.is-visited .sm-pin-mark { fill: var(--sm-paper); stroke: #ad2330; stroke-width: 2.4; }
+.sm-pin-core { fill: #ad2330; }
+.sm-pin-halo { fill: rgba(173, 35, 48, .1); stroke: #ad2330; stroke-width: 1.2; transform-origin: 0 0; animation: sm-halo .6s ease-out; }
+@keyframes sm-halo { from { transform: scale(.3); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+.sm-pin.is-hovered .sm-pin-mark { stroke-width: 2.6; }
+.sm-pin.is-hidden { opacity: 0; }
+.sm-pin-label { font: italic 400 16px var(--lb-body); fill: var(--sm-ink); stroke: var(--sm-paper); stroke-width: 4px; stroke-linejoin: round; paint-order: stroke; opacity: 0; transition: opacity .2s ease; pointer-events: none; }
+.sm-pin.is-active .sm-pin-label, .sm-pin.is-hovered .sm-pin-label, .sm-pin.is-home .sm-pin-label,
+.sm-svg[data-view="europe"] .sm-pin.is-abroad .sm-pin-label { opacity: 1; }
+.sm-pin.is-active .sm-pin-label { font-size: 18px; }
+/* When one label is being pointed at, quieten the standing ones near it. */
+.sm-svg[data-hover] .sm-pin.is-home:not(.is-hovered):not(.is-active) .sm-pin-label { opacity: .35; }
+
+/* Map furniture: view switch, compass and scale. */
+.sm-views { position: absolute; top: 10px; left: 10px; display: flex; border: 1px solid var(--sm-ink); background: var(--sm-paper); }
+.sm-views button { min-height: 40px; padding: 0 12px; border: 0; background: none; color: var(--sm-ink); font: 400 15px/1 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; cursor: pointer; }
+.sm-views button + button { border-left: 1px solid var(--sm-ink); }
+.sm-views button[aria-pressed="true"] { background: var(--sm-ink); color: var(--sm-paper); }
+.sm-compass { position: absolute; top: 8px; right: 8px; width: 58px; pointer-events: none; }
+.sm-compass-ring { fill: rgba(244, 236, 218, .7); stroke: var(--sm-ink); stroke-width: 1; }
+.sm-compass-fine { fill: none; stroke-width: .5; stroke-dasharray: 1 2.2; }
+.sm-compass-minor { fill: var(--sm-paper); stroke: var(--sm-ink); stroke-width: .7; }
+.sm-compass-light { fill: var(--sm-paper); stroke: var(--sm-ink); stroke-width: .8; }
+.sm-compass-dark { fill: var(--sm-ink); }
+.sm-compass text { font: 400 15px var(--lb-caps); fill: var(--sm-ink); }
+.sm-scale { position: absolute; left: 12px; bottom: 10px; right: 12px; display: flex; align-items: flex-end; gap: 8px; font: 400 13px/1 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--sm-ink); pointer-events: none; }
+.sm-scale-bar { height: 7px; border: 1px solid var(--sm-ink); border-top: 0; background: linear-gradient(90deg, var(--sm-ink) 50%, transparent 50%) 0 100% / 50% 3px repeat-x; transition: width .6s ease; }
+
+.sm-legend { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 10px 0 0; font: 400 14px/1.4 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--muted); }
+.sm-legend span { display: inline-flex; align-items: center; gap: 7px; }
+.sm-key-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--sm-ink); flex: none; }
+.sm-key-ahead { background: none; border: 1.5px solid var(--sm-ink); }
+.sm-key-key { background: #ad2330; border-radius: 0; transform: rotate(45deg) scale(.9); }
+.sm-key-home { background: radial-gradient(#ad2330 0 2.5px, var(--sm-paper) 3px); border: 2px solid #ad2330; width: 12px; height: 12px; }
+
+/* ---- The notes beside the map ------------------------------------------- */
+.sm-panel { min-width: 0; }
+.sm-panel button { font-family: inherit; color: inherit; cursor: pointer; }
+.sm-stepper { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; border-top: 3px double var(--foreground); border-bottom: 1px solid var(--ha-rule); }
+.sm-stepper p { margin: 0; font: 400 15px/1 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--muted); text-align: center; }
+.sm-stepper button { min-height: 48px; border: 0; background: none; padding: 0; font: 400 16px/1 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--accent-dark); text-align: left; }
+.sm-stepper button:last-child { text-align: right; }
+.sm-stepper button:disabled { color: var(--ha-rule); cursor: default; }
+.sm-stepper button:not(:disabled):hover { color: var(--accent); }
+.sm-range { display: block; width: 100%; margin: 12px 0 0; accent-color: #ad2330; height: 28px; }
+.sm-resumed { margin: 6px 0 0; font: italic 400 16px/1.4 var(--lb-body); color: var(--muted); }
+.sm-resumed button, .sm-card-stop button { border: 0; background: none; padding: 0; min-height: 36px; font: inherit; color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; }
+
+.sm-card { padding-top: 18px; }
+.sm-card-kicker { margin: 0; font: 400 15px/1.4 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--muted); }
+.sm-card-key { color: var(--accent); }
+.sm-card-fixture { font: 700 clamp(26px, 6.4vw, 34px)/1.1 var(--lb-head); margin: 8px 0 0; text-wrap: balance; overflow-wrap: anywhere; font-variant-numeric: lining-nums; }
+.sm-card-date { margin: 8px 0 0; font: italic 400 18px/1.4 var(--lb-body); color: #4d4c46; }
+.sm-card-facts { margin: 14px 0 0; border-top: 1px solid var(--ha-rule); }
+.sm-card-facts div { display: grid; grid-template-columns: 7.6em 1fr; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--ha-rule); }
+.sm-card-facts dt { font: 400 14.5px/1.5 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--accent); }
+.sm-card-facts dd { margin: 0; font: 400 18px/1.4 var(--lb-body); font-variant-numeric: oldstyle-nums; overflow-wrap: anywhere; }
+.sm-card-side { display: block; }
+.sm-card-side + .sm-card-side { margin-top: 4px; }
+.sm-writeup { margin-top: 26px; border-top: 3px double var(--foreground); padding-top: 18px; }
+.sm-writeup-title { margin: 0; font: 700 25px/1.15 var(--lb-head); text-wrap: balance; }
+.sm-writeup .ha-body { font-size: 19px; line-height: 1.55; padding-top: 14px; }
+/* Each write-up opens with its result line, so no drop cap here. */
+.sm-writeup .ha-body > p:first-of-type::first-letter { float: none; font-size: inherit; line-height: inherit; margin: 0; color: inherit; -webkit-initial-letter: normal; initial-letter: normal; }
+.sm-writeup .ha-body > p:first-of-type { font-size: 17px; line-height: 1.45; color: #4d4c46; }
+.sm-writeup .ha-body > p:first-of-type strong { display: block; }
+.sm-writeup .ha-body > p:first-of-type strong + strong { margin-top: 6px; }
+.sm-card-article { margin: 16px 0 0; }
+.sm-card-article a { display: inline-flex; align-items: center; min-height: 44px; font: 400 16px/1.3 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--accent-dark); text-underline-offset: 3px; }
+.sm-card-stop { margin: 10px 0 0; font: 400 17px/1.4 var(--lb-body); }
+
+.sm-stop { padding-top: 18px; }
+.sm-stop-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.sm-stop-head h2 { margin: 0; font: 700 26px/1.15 var(--lb-head); }
+.sm-stop-head h2 span { font: 400 15px/1 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--muted); }
+.sm-stop-head button { min-height: 44px; border: 0; background: none; padding: 0; font: 400 15px/1 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--accent-dark); }
+
+.sm-list { list-style: none; margin: 6px 0 0; padding: 0; }
+.sm-list li { border-bottom: 1px solid var(--ha-rule); }
+.sm-list button { display: grid; grid-template-columns: 4.2em 1fr; gap: 8px; align-items: baseline; width: 100%; min-height: 44px; padding: 8px 0; border: 0; background: none; text-align: left; font: 400 17px/1.35 var(--lb-body); }
+.sm-list button:hover .sm-list-fixture { text-decoration: underline; text-underline-offset: 3px; }
+.sm-list-date { font: 400 14px/1.4 var(--lb-caps); letter-spacing: .06em; text-transform: lowercase; color: var(--muted); }
+.sm-list button.is-key .sm-list-fixture::after { content: ""; display: inline-block; width: 8px; height: 8px; margin-left: 9px; background: #ad2330; transform: rotate(45deg) translateY(-1px); }
+.sm-list button[aria-current="true"] .sm-list-fixture { color: var(--accent-dark); font-style: italic; }
+
+.sm-all { margin-top: 26px; border-top: 3px double var(--foreground); }
+.sm-all summary { min-height: 48px; display: flex; align-items: center; cursor: pointer; font: 400 16px/1 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--accent-dark); }
+.sm-all h3 { margin: 18px 0 0; font: 400 15px/1.4 var(--lb-caps); letter-spacing: .08em; text-transform: lowercase; color: var(--accent); }
+
+.sm :focus-visible { outline: 2px solid #801c26; outline-offset: 2px; }
+
+@media (min-width: 600px) { .sm { --sm-pin: 1.6; } .sm-compass { width: 72px; } }
+@media (min-width: 960px) {
+  .sm { --sm-pin: 1.35; grid-template-columns: minmax(0, 1.3fr) minmax(320px, 1fr); gap: 36px; align-items: start; }
+  .sm-stage { position: sticky; top: 16px; }
+  .sm-card-fixture { font-size: 32px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sm-pin-halo { animation: none; }
+  .sm-sea, .sm-pin, .sm-pin-label, .sm-scale-bar { transition: none; }
+}
