@@ -150,6 +150,13 @@ export function getLatestHistory(now = new Date(), root = process.cwd()): Latest
   ].sort((a, b) => b.date.localeCompare(a.date));
 }
 
+/** A live series part by its URL, shaped like the homepage history items; undefined when not live. */
+export function getLiveSeriesPartItem(href: string, now = new Date(), root = process.cwd()): LatestHistoryItem | undefined {
+  const part = getLiveSeriesParts(now, root).find(p => `${SERIES_PATH}/${p.seriesSlug}/${p.slug}` === href);
+  const series = part ? getSeriesDefinitions(root).find(d => d.slug === part.seriesSlug) : undefined;
+  return part && series ? { kind: "Series", label: `${series.title} · Part ${part.partNumber} of ${series.totalParts}`, title: part.title, excerpt: part.excerpt, href, date: part.date } : undefined;
+}
+
 // ---- Features: Denny's retained factual Archive pieces (URLs stay /archive/[slug]) ----
 
 /** Retained Archive pieces with editorialMode "factual", newest first. Readers see them as Features. */

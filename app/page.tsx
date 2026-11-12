@@ -4,7 +4,7 @@ import { SiteHeader } from '@/app/components/SiteHeader';
 import { NewsletterInvitation } from '@/app/components/NewsletterInvitation';
 import { ArticleMeta } from '@/app/components/ArticleMeta';
 import { getWriting } from '@/lib/content/writing';
-import { selectHomePage } from '@/lib/content/homepage';
+import { selectHomePage, activePinnedHref } from '@/lib/content/homepage';
 import { getHomeLeadOverride } from '@/lib/content/homepage-config';
 import { getNewsletterConfig } from '@/lib/newsletter-config';
 import { getArticleExcerpt } from '@/lib/format';
@@ -12,6 +12,9 @@ import { FootballObservedHome } from '@/app/components/FootballObservedHome';
 import { MatchRevisitedHome } from '@/app/components/MatchRevisitedHome';
 import { HistoryLatest } from '@/app/components/HistoryLatest';
 import { getFootballObservedPieces } from '@/lib/content/regan-on-football';
+import { getLatestHistory, getLiveSeriesPartItem } from '@/lib/content/history';
+import { selectNewestLead } from '@/lib/content/home-lead';
+import { formatListDate } from '@/lib/format';
 
 export const metadata = {
   description: 'Independent Liverpool writing by Denny Regan.',
@@ -22,8 +25,21 @@ export const dynamic = 'force-dynamic';
 
 export default function Home() {
   const writing = getWriting();
-  const { lead, column, more } = selectHomePage(writing, new Date(), getHomeLeadOverride());
+  const now = new Date();
+  const override = getHomeLeadOverride();
+  const { lead: liverpoolLead, column } = selectHomePage(writing, now, override);
   const featuredEdition = getFootballObservedPieces().find(article => `/articles/${article.slug}` === column?.href);
+  // One lead: the newest piece of any kind. Writing is listed first so it wins a tie on date.
+  const history = getLatestHistory(now);
+  // A pinned series part is a candidate even when it is not the newest part.
+  const pinnedHref = activePinnedHref(override, now);
+  const pinnedPart = pinnedHref && !history.some(item => item.href === pinnedHref) ? getLiveSeriesPartItem(pinnedHref, now) : undefined;
+  const lead = selectNewestLead<{ kind: 'article'; article: NonNullable<typeof liverpoolLead> } | { kind: 'history'; item: (typeof history)[number] }>([
+    ...(liverpoolLead ? [{ date: liverpoolLead.date, href: liverpoolLead.href, item: { kind: 'article' as const, article: liverpoolLead } }] : []),
+    ...(column ? [{ date: column.date, href: column.href, item: { kind: 'article' as const, article: column } }] : []),
+    ...[...history, ...(pinnedPart ? [pinnedPart] : [])].map(item => ({ date: item.date, href: item.href, item: { kind: 'history' as const, item } })),
+  ], pinnedHref);
+  const leadHref = lead?.kind === 'article' ? lead.article.href : lead?.item.href;
   return <>
     <SiteHeader active="home" />
     <main id="main-content" className="site-width home-page">
@@ -31,26 +47,22 @@ export default function Home() {
       <section aria-labelledby="home-articles-heading">
         <div className="home-section-heading"><h2 id="home-articles-heading" className="eyebrow">Latest writing</h2><Link className="collection-link" href="/articles">All articles</Link></div>
         {lead ? <div className="home-lead-block">
-          <article className="home-lead">
-            <ArticleMeta {...lead} />
-            <h1><Link href={lead.href}>{lead.title}</Link></h1>
-            <p className="preview-excerpt">{getArticleExcerpt(lead, 240)}</p>
-            <Link className="read-link" href={lead.href} aria-label={`Read article: ${lead.title}`}>Read article</Link>
-          </article>
+          {lead.kind === 'article' ? <article className="home-lead">
+            <ArticleMeta {...lead.article} />
+            <h1><Link href={lead.article.href}>{lead.article.title}</Link></h1>
+            <p className="preview-excerpt">{getArticleExcerpt(lead.article, 240)}</p>
+            <Link className="read-link" href={lead.article.href} aria-label={`Read article: ${lead.article.title}`}>Read article</Link>
+          </article> : <article className="home-lead">
+            <p className="article-meta"><span className="article-type">{lead.item.label}</span><time dateTime={lead.item.date}>{formatListDate(lead.item.date)}</time></p>
+            <h1><Link href={lead.item.href}>{lead.item.title}</Link></h1>
+            <p className="preview-excerpt">{lead.item.excerpt}</p>
+            <Link className="read-link" href={lead.item.href} aria-label={`Read: ${lead.item.title}`}>Read</Link>
+          </article>}
         </div> : <><h1 className="home-empty-title">Independent Liverpool writing</h1><Link className="read-link" href="/articles">Browse articles →</Link></>}
       </section>
-      {more.length > 0 && <section className="home-recent" aria-labelledby="home-recent-heading">
-        <div className="home-section-heading"><h2 id="home-recent-heading" className="eyebrow">More articles</h2><Link className="collection-link" href="/articles">All articles</Link></div>
-        <div className="article-grid">{more.map(article => <article className="article-card" key={article.href}>
-            <ArticleMeta {...article} />
-            <h3><Link href={article.href}>{article.title}</Link></h3>
-            <p className="preview-excerpt">{getArticleExcerpt(article, 180)}</p>
-            <Link className="read-link" href={article.href} aria-label={`Read article: ${article.title}`}>Read article</Link>
-        </article>)}</div>
-      </section>}
-      {featuredEdition && <FootballObservedHome article={featuredEdition} />}
+      {featuredEdition && column?.href !== leadHref && <FootballObservedHome article={featuredEdition} />}
       <MatchRevisitedHome />
-      <HistoryLatest />
+      <HistoryLatest exclude={leadHref} />
     </main>
   </>;
 }

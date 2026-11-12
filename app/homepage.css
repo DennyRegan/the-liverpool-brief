@@ -13,9 +13,6 @@
 .observed-home-heading h2 { font: 600 clamp(28px, 3vw, 36px)/1.15 var(--font-source-serif), Georgia, serif; letter-spacing: -.03em; }
 .observed-home-heading > a { flex-shrink: 0; }
 .observed-home-heading .column-byline { margin-top: 6px; }
-.home-recent { margin-top: 32px; }
-.home-recent .home-section-heading { margin-bottom: 0; }
-.home-page .home-recent h3 { font-size: var(--headline-list); }
 @media (max-width: 700px) {
   .home-lead-block { padding-bottom: 20px; }
   .home-observed { margin-top: 40px; }
