@@ -26,12 +26,12 @@ test('pieces connect by shared players (5 each, up to 2), history season (5) and
   assert.equal(related.connection(piece({ series: 's', players: ['kenny-dalglish'] }), piece({ href: '/g', series: 's', players: ['kenny-dalglish'] })), undefined);
 });
 
-test('real example: the Dalglish Goodison feature links to other Dalglish features', () => {
+test('real example: the Dalglish Goodison feature links to his biography and other Dalglish features', () => {
   const items = related.getRelatedPieces('/archive/liverpools-manager-scored-after-21-seconds-at-goodison', now);
   assert.deepEqual(items.map(i => i.href), [
+    '/looking-back/biographies/kenny-dalglish',
     '/archive/liverpool-sold-their-best-player',
     '/archive/liverpool-7-tottenham-0',
-    '/looking-back/rush-scores-four-everton-1982',
   ]);
   assert.deepEqual(items[0].reasons, ['Kenny Dalglish']);
   // The On This Day piece still links across sections to the Goodison feature.
